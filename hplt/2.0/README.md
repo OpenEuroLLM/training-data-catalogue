@@ -6,4 +6,6 @@
 
 ## Language Support
 
+## Access Information
 
+## Terms of Use
