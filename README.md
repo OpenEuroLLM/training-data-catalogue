@@ -20,6 +20,8 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + Dolma
 + FineWeb 
 + DCLM [Li, et al. (2024)](https://arxiv.org/pdf/2406.11794)
++ NEMOTRON-CC [Su, et al. (2024)](https://arxiv.org/abs/2412.02595)
+
 
 ## Multilingual Pre-Training Data
 
