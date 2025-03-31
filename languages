@@ -1,0 +1,44 @@
+#
+# EU Official Languages
+#
+bul: Bulgarian: bul_Cyrl
+ces: Czech: ces_Latn
+dan: Danish: dan_Latn
+deu: German: deu_Latn
+ell: Greek: ell_Grek
+eng: English: eng_Latn
+est: Estonia: est_Latn
+fin: Finnish: fin_Latn
+fra: French: fra_Latn
+gle: Irish: gle_Latn
+hrv: Croation: hrv_Latn
+hun: Hungarian: hun_Latn
+ita: Italian: ita_Latn
+lav: Latvian: lav_Latn
+lit: Lithuanian: lit_Latn
+mlt: Maltese: mlt_Latn
+nld: Dutch: nld_Latn
+pol: Polish: pol_Latn
+por: Portugues: por_Latn
+ron: Romania: ron_Latn
+slk: Slovak: slk_Latn
+slv: Slovene: slv_Latn
+spa: Spanish: spa_Latn
+sve: Swedish: sve_Latn
+#
+# Candidate EU Members
+#
+bos: Bosnian: bos_Latn
+eus: Basque: eus_Latn
+glg: Galician: glg_Latn
+isl: Icelandic: isl_Latn
+kat: Georgian: kat_Geor
+mkd: Macedonia: mkd_Cyrl
+sqi: Albania: als_Latn sqi_Latn
+srp: Serbian: srp_Cyrl srp_Latn
+tur: Turkish: tur_Latn
+ukr: Ukrainian: ukr_Cyrl
+#
+# Closely Associated Scandinavian
+#
+nor: Norwegian: nno_Latn nob_Latn

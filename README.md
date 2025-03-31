@@ -13,23 +13,26 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 ## (Mostly) English Pre-Training Data
 
-+ C4 ([Raffel, et al. (2019)](https://arxiv.org/abs/1910.10683))
++ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683))
 + The Pile
 + RefinedWeb
 + RedPajama
 + Dolma
-+ **FineWeb** ([Penedo, et al. (20240)](https://arxiv.org/abs/2406.17557))
-+ **DCLM** ([Li, et al. (2024)](https://arxiv.org/pdf/2406.11794))
-+ **NEMOTRON-CC** ([Su, et al. (2024)](https://arxiv.org/abs/2412.02595))
++ **FineWeb** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
++ **DCLM** ([Li, et al., 2024](https://arxiv.org/pdf/2406.11794))
++ **NEMOTRON-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
 
 
 ## Multilingual Pre-Training Data
 
 + mC4
 + CulturaX
-+ **[HPLT](hplt/README.md)** ([De Gilbert, et al. (2024)](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
++ **[HPLT](hplt/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
 + **FineWeb** (https://github.com/huggingface/fineweb-2)
-+ MADLAD-400 ([Kudugunta, et al. (2023)](https://arxiv.org/abs/2309.04662))
++ MADLAD-400 ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
+
+
+## Parallel Pre-Training Data
 
 
 ## Non-Language Pre-Training Data
