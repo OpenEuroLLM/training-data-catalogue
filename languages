@@ -32,11 +32,12 @@ sve: Swedish: sve_Latn
 # Candidate EU Members
 #
 bos: Bosnian: bos_Latn
+cat: Catalan: cat_Latn
 eus: Basque: eus_Latn
 glg: Galician: glg_Latn
 isl: Icelandic: isl_Latn
 kat: Georgian: kat_Geor
-mkd: Macedonia: mkd_Cyrl
+mkd: Macedonian: mkd_Cyrl
 sqi: Albania: als_Latn sqi_Latn
 srp: Serbian: srp_Cyrl srp_Latn
 tur: Turkish: tur_Latn
