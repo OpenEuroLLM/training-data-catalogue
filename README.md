@@ -28,7 +28,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + mC4
 + CulturaX
 + **[HPLT](hplt/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
-+ **FineWeb** (https://github.com/huggingface/fineweb-2)
++ **FineWeb2** (https://github.com/huggingface/fineweb-2)
 + MADLAD-400 ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
 
 
