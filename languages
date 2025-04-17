@@ -10,14 +10,14 @@ dan: Danish: dan_Latn
 deu: German: deu_Latn
 ell: Greek: ell_Grek
 eng: English: eng_Latn
-est: Estonia: est_Latn
+est: Estonia: est_Latn ekk_Latn
 fin: Finnish: fin_Latn
 fra: French: fra_Latn
 gle: Irish: gle_Latn
 hrv: Croation: hrv_Latn
 hun: Hungarian: hun_Latn
 ita: Italian: ita_Latn
-lav: Latvian: lav_Latn
+lav: Latvian: lav_Latn ltg_Latn lvs_Latn
 lit: Lithuanian: lit_Latn
 mlt: Maltese: mlt_Latn
 nld: Dutch: nld_Latn
@@ -38,7 +38,7 @@ glg: Galician: glg_Latn
 isl: Icelandic: isl_Latn
 kat: Georgian: kat_Geor
 mkd: Macedonian: mkd_Cyrl
-sqi: Albania: als_Latn sqi_Latn
+sqi: Albania: sqi_Latn als_Latn
 srp: Serbian: srp_Cyrl srp_Latn
 tur: Turkish: tur_Latn
 ukr: Ukrainian: ukr_Cyrl
