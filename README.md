@@ -37,4 +37,5 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 ## Non-Language Pre-Training Data
 
++ **StarCoder**
 + The Stack
