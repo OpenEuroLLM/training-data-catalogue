@@ -22,11 +22,7 @@ if [ "${path#/}" = "${path}" ]; then
 fi
 ROOT="${path%/etc}";
 
-echo $ROOT;
-exit
-
 CORES=${SLURM_CPUS_ON_NODE:-8};
-ROOT=/project/project_462000953;
 
 CURL="/usr/bin/curl --silent --show-error --create-dirs --parallel-max ${CORES}";
 URL=cleaned.url;
@@ -35,6 +31,8 @@ cat /dev/null > ${URL};
 cat /dev/null > ${MD5};
 
 cd ${ROOT};
+
+echo "download.slurm: using ${CORES} cores."
 
 #
 # create fresh download maps for the actual files and their checksums
