@@ -23,16 +23,19 @@ fi
 ROOT="${path%/etc}";
 
 CORES=${SLURM_CPUS_ON_NODE:-8};
-
 CURL="/usr/bin/curl --silent --show-error --create-dirs --parallel-max ${CORES}";
-URL=cleaned.url;
-MD5=cleaned.md5;
-cat /dev/null > ${URL};
-cat /dev/null > ${MD5};
 
 cd ${ROOT};
 
-echo "download.slurm: using ${CORES} cores."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
+
+if [ ! -d ./cleaned ]; then mkdir ./cleaned; fi
+cd ./cleaned
+
+URL=all.url;
+MD5=all.md5;
+cat /dev/null > ${URL};
+cat /dev/null > ${MD5};
 
 #
 # create fresh download maps for the actual files and their checksums
