@@ -28,13 +28,13 @@ slk: Slovak: slk_Latn
 slv: Slovene: slv_Latn
 spa: Spanish: spa_Latn
 swe: Swedish: swe_Latn
+cat: Catalan: cat_Latn
+eus: Basque: eus_Latn
+glg: Galician: glg_Latn
 #
 # Candidate EU Members
 #
 bos: Bosnian: bos_Latn
-cat: Catalan: cat_Latn
-eus: Basque: eus_Latn
-glg: Galician: glg_Latn
 isl: Icelandic: isl_Latn
 kat: Georgian: kat_Geor
 mkd: Macedonian: mkd_Cyrl
