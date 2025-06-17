@@ -7,7 +7,7 @@ from datasets import load_dataset
 
 
 def main(crawl_name, dir_name, batch_size, limit):
-    fw = load_dataset("HuggingFaceFW/fineweb", name=crawl_name, revision="v1.3.0", split="train", streaming=True)
+    fw = load_dataset("HuggingFaceFW/fineweb-2", name=crawl_name, revision="v2.0.0",  split="train", streaming=True)
 
     current_batch = [None] * batch_size
     current_batch_size = 0
@@ -33,8 +33,8 @@ def main(crawl_name, dir_name, batch_size, limit):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("download single part of fineweb")
-    parser.add_argument("name", help="Crawl name")
+    parser = argparse.ArgumentParser("download single language part of fineweb 2")
+    parser.add_argument("name", help="Language code (e.g. ces_Latn)")
     parser.add_argument("--output-dir", help="Output directory", default=".")
     parser.add_argument("--batch-size", default=100000, type=int)
     parser.add_argument("--limit", default=0, type=int, required=False)
