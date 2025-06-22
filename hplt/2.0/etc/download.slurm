@@ -21,11 +21,11 @@ if [ "${path#/}" = "${path}" ]; then
   fi
 fi
 ROOT="${path%/etc}";
-ROOT=/project/project_462000953/training/catalogue/hplt/2.0;
+ROOT=/scratch/project_462000953/training/catalogue/hplt/2.0;
 
 CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs";
 CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel-max ${CORES}";
+CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
 
 cd ${ROOT};
 
@@ -59,25 +59,36 @@ ${CURL} https://data.hplt-project.org/two/cleaned/hplt_monolingual_map_cleaned_2
     #
     # make sure we always fetch up-to-date checksums
     #
-    /bin/rm -f ${target};
+    /bin/rm -f ${target}.md5;
   done;
-
-#
-# enable detailed download statistics
-#
-CURL="${CURL} --write-out \"%{stderr} %{json}\"";
-echo "${CURL}"
 
 #
 # make sure we have current checksum files for everything
 #
-${CURL} --config ${MD5} 2>> ${LOG};
+eval ${CURL} --config ${MD5} 2>> ${LOG};
+
+#
+# enable detailed download statistics
+#
+CURL="${CURL} --write-out '%{stderr} %{json}'";
 
 #
 # now download all files that are missing or appear out of date
 #
-${CURL} --config ${URL} 2>> ${LOG};
+eval ${CURL} --config ${URL} 2>> ${LOG};
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
 exit 0;
+
+for i in ???_*; do
+  echo "directory: $i"; cd $i;
+  for j in *.md5; do
+    if md5sum --check $j; then
+      true;
+    else
+      mv ${j%%.md5} ${j%%.md5}-;
+    fi
+  done;
+  cd ..;
+done | 2>&1 tee md5sum.log
 
