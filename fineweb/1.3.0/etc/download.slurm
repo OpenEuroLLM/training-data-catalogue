@@ -2,10 +2,9 @@
 
 #SBATCH --job-name=fineweb-1.3.0-download
 #SBATCH --partition=small
-#SBATCH --account=project_462000953
+#SBATCH --account=project_462000764
 #SBATCH --time=72:00:00
-#__SBATCH --nodes=4
-#SBATCH --ntasks=108
+#SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16G
 
@@ -25,8 +24,7 @@ fi
 
 while read crawl_name ; do
     echo  $crawl_name
-    sleep 1
-    srun --ntasks=1 -o tasklog_${crawl_name}.log python fineweb_stream_single.py "$crawl_name" --output-dir $OUTPUT_DIR &
+    srun --ntasks=1 -o tasklog_${crawl_name}.log python fineweb_stream_single.py "$crawl_name" --output-dir $OUTPUT_DIR < /dev/null &
 done < "$CRAWL_LIST"
 
 wait
