@@ -1,28 +1,33 @@
 #!/bin/bash
-#SBATCH --partition=cpu-troja
-#SBATCH --time=18:00:00
-#SBATCH --ntasks=128
-#SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=16G
-#SBATCH -o mainlog_download.log
-#--SBATCH --account=...
+
+#SBATCH --job-name=fineweb-2.0.1-download
+#SBATCH --account=project_462000764
+#SBATCH --partition=small
+#SBATCH --time=72:00:00
+#SBATCH --cpus-per-task=120
+#SBATCH --mem=256G
+#unused SBATCH --mem-per-cpu=16G
+#unused SBATCH --array=1-3943%32
 
 
 set -exuo pipefail
 
-CATALOGUE_DIR=/lnet/troja/projects/hplt/training-data-catalogue
-OUTPUT_DIR=$CATALOGUE_DIR/fineweb/2.0.1/data
+CATALOGUE_DIR=/scratch/project_462000953/training/catalogue
+OUTPUT_DIR=$CATALOGUE_DIR/fineweb/2.0.1
 LANG_LIST=language_list.txt
+
+source /scratch/project_462000953/jhelcl/training-data-catalogue/env/bin/activate
+export HF_HUB_ENABLE_HF_TRASNSFER=1
 
 mkdir -p $OUTPUT_DIR
 
-
 if [ ! -e "$LANG_LIST" ] ; then
-  python get_fineweb2_names.py | grep "_Guru" > "$LANG_LIST"
+    echo "$LANG_LIST does not exist. Create it first with get_fineweb2_names.py" 1>&2
+    exit 1
 fi
 
-while read language ; do
-  srun --ntasks=1 --exclusive -o tasklog_${language}.log python fineweb2_stream_single.py $language --output-dir $OUTPUT_DIR &
-done < "$LANG_LIST"
+# crawl_name=`sed -n ${SLURM_ARRAY_TASK_ID}p $LANG_LIST`
+# echo $crawl_name
 
-wait
+# python single_lang_parquet_download.py "$crawl_name" --output-dir $OUTPUT_DIR
+python full_parquet_download.py --output-dir $OUTPUT_DIR
