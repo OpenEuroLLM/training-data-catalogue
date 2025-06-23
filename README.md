@@ -39,3 +39,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 + **StarCoder**
 + The Stack
++ Proof-Pile-2 ([HuggingFace](https://huggingface.co/datasets/EleutherAI/proof-pile-2)) ([Azerbayev et al., 2023](https://arxiv.org/abs/2310.10631)), comprised by the following subsets:
+   + arxiv from RedPajama
+   + OpenWebMath ([Paster et al., 2023](https://arxiv.org/abs/2310.06786))
+   + AlgebraicStack ([Azerbayev et al., 2023](https://arxiv.org/abs/2310.10631))
