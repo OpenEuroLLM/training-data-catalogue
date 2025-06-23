@@ -27,6 +27,6 @@ while read crawl_name ; do
     echo  $crawl_name
     sleep 1
     srun --ntasks=1 -o tasklog_${crawl_name}.log python fineweb_stream_single.py "$crawl_name" --output-dir $OUTPUT_DIR &
-done < <( cat "$CRAWL_LIST")
+done < "$CRAWL_LIST"
 
 wait
