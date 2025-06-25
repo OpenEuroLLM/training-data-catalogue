@@ -11,3 +11,8 @@
 ## Access Information
 
 ## Terms of Use
+
+## Catalogue Curator
+
+Jindřich Helcl, University of Oslo, <jindrich@ifi.uio.no>
+
