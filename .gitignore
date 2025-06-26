@@ -1,4 +1,5 @@
 env
+slurm-*.out
 
 dclm/1/baseline
 fineweb/1.3.0/data
@@ -6,4 +7,3 @@ fineweb/1.3.0/edu
 fineweb/2/2.0.1/data
 hplt/2.0/cleaned
 hplt/2.0/deduplicated
-
