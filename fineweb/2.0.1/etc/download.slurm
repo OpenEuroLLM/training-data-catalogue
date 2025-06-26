@@ -14,16 +14,16 @@ set -exuo pipefail
 
 CATALOGUE_DIR=/scratch/project_462000953/training/catalogue
 OUTPUT_DIR=$CATALOGUE_DIR/fineweb/2.0.1
-LANG_LIST=language_list.txt
+FW2_LANG_DISTRIBUTION=fineweb2-language-distribution.csv
 
-source /scratch/project_462000953/jhelcl/training-data-catalogue/env/bin/activate
+source /projappl/project_462000953/jhelcl/training-data-catalogue/env/bin/activate  # TODO move this to the official dir?
 export HF_HUB_ENABLE_HF_TRASNSFER=1
 
 mkdir -p $OUTPUT_DIR
 
-if [ ! -e "$LANG_LIST" ] ; then
-    echo "$LANG_LIST does not exist. Create it first with get_fineweb2_names.py" 1>&2
-    exit 1
+if [ ! -e "$FW2_LANG_DISTRIBUTION" ] ; then
+    echo "Dowloading language distribution table with metadata"
+    wget "https://raw.githubusercontent.com/huggingface/fineweb-2/refs/heads/main/fineweb2-language-distribution.csv"
 fi
 
 # crawl_name=`sed -n ${SLURM_ARRAY_TASK_ID}p $LANG_LIST`
