@@ -1,6 +1,8 @@
 env
 slurm-*.out
 
+fineweb2-language-distribution.csv
+
 dclm/1/baseline
 fineweb/1.3.0/data
 fineweb/1.3.0/edu
