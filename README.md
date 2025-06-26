@@ -6,7 +6,9 @@ There is a bit of a growth industry in (pre-)training data preparation for LLM d
 This page aims to offer navigational help in the dataset landscape, essentially providing a structured ‘catalogue’ of available resources.
 Originally, the catalogue is constructed for internal use in the [OpenEuroLLM](https://openeurollm.eu/) initiative, i.e. will put most emphasis on datasets used in the project.
 At the same time, we hope that this overview may become useful to others and can grow into a community-supported resource.
-The catalogue will be accompanied by a curated collection of (a subset of) LLM (pre-)training datasets that shall be made available directly on multiple EuroHPC systems.
+The catalogue is accompanied by a curated collection of (a subset of) LLM (pre-)training datasets that are publicly made available (read-only) on multiple EuroHPC systems, currently:
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/`
 
 To nominate additional resources for inclusion in the catalogue or discuss specifics of emerging entries, please create a [GitHub issue on this repository](https://github.com/OpenEuroLLM/training-data-catalogue/issues).
 
