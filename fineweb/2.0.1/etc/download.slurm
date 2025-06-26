@@ -9,8 +9,10 @@
 #unused SBATCH --mem-per-cpu=16G
 #unused SBATCH --array=1-3943%32
 
+set -euo pipefail
 
-set -exuo pipefail
+module load LUMI
+module load wget
 
 CATALOGUE_DIR=/scratch/project_462000953/training/catalogue
 OUTPUT_DIR=$CATALOGUE_DIR/fineweb/2.0.1
@@ -30,4 +32,6 @@ fi
 # echo $crawl_name
 
 # python single_lang_parquet_download.py "$crawl_name" --output-dir $OUTPUT_DIR
-python full_parquet_download.py --output-dir $OUTPUT_DIR
+# python full_parquet_download.py --output-dir $OUTPUT_DIR
+
+python parquet_download.py --output-dir $OUTPUT_DIR --language-distribution $FW2_LANG_DISTRIBUTION
