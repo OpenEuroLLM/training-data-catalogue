@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=fineweb-2.0.1-download
+#SBATCH --job-name=fineweb-2.1.0-download
 #SBATCH --account=project_462000764
 #SBATCH --partition=small
 #SBATCH --time=72:00:00
@@ -15,7 +15,7 @@ module load LUMI
 module load wget
 
 CATALOGUE_DIR=/scratch/project_462000953/training/catalogue
-OUTPUT_DIR=$CATALOGUE_DIR/fineweb/2.0.1
+OUTPUT_DIR=$CATALOGUE_DIR/fineweb/2.1.0
 FW2_LANG_DISTRIBUTION=fineweb2-language-distribution.csv
 
 source /projappl/project_462000953/jhelcl/training-data-catalogue/env/bin/activate  # TODO move this to the official dir?

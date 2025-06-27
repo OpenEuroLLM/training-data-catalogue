@@ -14,7 +14,10 @@ To obtain reasonably comparable statistics across different resources, the follo
 + **documents**: number of documents, e.g. web pages, papers, books, or similar
 + **segments**: number of paragraph-like units (e.g. `<h1>`, `<p>`, `<li>`, `<pre>` in HTML)
 + **characters**: total volume in Unicode characters (including whitespace)
-+ **tokens**: sub-word units according to a common tokenizer (currently Gemma3)
++ **tokens**: sub-word units according to a common tokenizer (currently [Gemma3](https://gemma-llm.readthedocs.io/en/latest/colab_tokenizer.html))
 
+## Data Sources
+
+Common pre-training datasets typically comprise
 ## Licensing Information
 
