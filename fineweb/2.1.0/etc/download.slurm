@@ -34,4 +34,9 @@ fi
 # python single_lang_parquet_download.py "$crawl_name" --output-dir $OUTPUT_DIR
 # python full_parquet_download.py --output-dir $OUTPUT_DIR
 
-python parquet_download.py --output-dir $OUTPUT_DIR --language-distribution $FW2_LANG_DISTRIBUTION
+python parquet_download.py \
+       --output-dir $OUTPUT_DIR \
+       --language-distribution $FW2_LANG_DISTRIBUTION \
+       --max-workers 120 \
+       --num-attempts 10 \
+       --sleep-interval 30

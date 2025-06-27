@@ -4,6 +4,7 @@ import argparse
 import csv
 import os
 import glob
+import time
 
 from huggingface_hub import snapshot_download
 
@@ -41,18 +42,17 @@ def downloaded_size(local_dir):
     return downloaded_bytes
 
 
-def main(output_dir, language_distribution, max_workers):
+def main(output_dir, language_distribution, max_workers, num_attempts=5, sleep_interval=10):
     metadata = load_language_metadata(language_distribution)
 
     successful_downloads = 0
     failed_downloads = 0
     already_downloaded = 0
 
-    for split in ["test"]:
+    for split in metadata:
         for lang_code in metadata[split]:
             local_dir = os.path.join(output_dir, "data", lang_code, split)
             expected_size = metadata[split][lang_code]
-
 
             if not os.path.exists(local_dir):
                 print(f"Dataset {lang_code} {split} not found in {local_dir} -- downloading")
@@ -70,18 +70,38 @@ def main(output_dir, language_distribution, max_workers):
                     should_download = False
 
             if should_download:
-                download_dataset(lang_code, split, output_dir, max_workers)
+                for attempt in range(num_attempts):
+                    failed = False
 
-                # check downloaded size
-                downloaded_bytes = downloaded_size(local_dir)
+                    try:
+                        download_dataset(lang_code, split, output_dir, max_workers)
+                    except KeyboardInterrupt:
+                        raise
+                    except:
+                        print("A non-keyboard-interrupt exception occurred during download -- trying to carry on")
 
-                if downloaded_bytes != expected_size:
-                    print(f"Mismatch for {lang_code} {split}: expected {expected_size}, got {downloaded_bytes}")
-                    failed_downloads += 1
+                    # check downloaded size
+                    downloaded_bytes = downloaded_size(local_dir)
+
+                    if downloaded_bytes == 0 and expected_size != 0:
+                        print("Downloaded zero bytes. Looks like HF hung up with error 429 but cannot be sure.")
+                        failed = True
+
+                    elif downloaded_bytes != expected_size:
+                        print(f"Mismatch for {lang_code} {split}: expected {expected_size}, got {downloaded_bytes}")
+                        failed = True
+
+                    else:
+                        print(f"Successfully downloaded {lang_code} {split} with size {downloaded_bytes} bytes")
+                        successful_downloads += 1
+                        break
+
+                    if attempt < num_attempts - 1:
+                        print(f"Re-trying in 10 seconds (attempt {attempt + 2} of {num_attempts})...")
+                        time.sleep(sleep_interval)
+
                 else:
-                    print(f"Successfully downloaded {lang_code} {split} with size {downloaded_bytes} bytes")
-                    successful_downloads += 1
-
+                    failed_downloads += 1
 
     print("=" * 60)
     print(f"Job finished, summary:")
@@ -91,12 +111,17 @@ def main(output_dir, language_distribution, max_workers):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("Download FineWeb 2.0.1 dataset with intelligent file-by-file downloading")
+    parser = argparse.ArgumentParser("Download FineWeb 2.1.0 dataset with intelligent file-by-file downloading")
     parser.add_argument("--output-dir", required=True, help="Output directory for downloaded data (a data/ subdir will be created)")
     parser.add_argument("--language-distribution", required=True, help="Path to fineweb2-language-distribution.csv")
 
     parser.add_argument("--max-workers", type=int, default=64,
         help="Maximum number of workers in snapshot_download (default: 64)")
+    parser.add_argument("--num-attempts", type=int, default=5,
+        help="Number of attempts in case the download is corrupted or throws error")
+    parser.add_argument("--sleep-interval", type=int, default=10,
+        help="Interval in seconds setting amount of time between download attempts")
 
     args = parser.parse_args()
-    main(args.output_dir, args.language_distribution, args.max_workers)
+    main(args.output_dir, args.language_distribution, args.max_workers,
+         args.num_attempts, args.sleep_interval)
