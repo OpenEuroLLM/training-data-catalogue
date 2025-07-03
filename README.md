@@ -15,15 +15,18 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 ## (Mostly) English Pre-Training Data
 
-+ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683))
++ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683)) [HF repo](https://huggingface.co/datasets/allenai/c4)
 + The Pile
 + RefinedWeb
-+ RedPajama
++ RedPajama v1
++ RedPajama v2
++ SlimPajama
 + Dolma
 + **[FineWeb 1](fineweb/1.3.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
-+ **DCLM** ([Li, et al., 2024](https://arxiv.org/pdf/2406.11794))
-+ **NEMOTRON-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
-+ **[Common Pile](common-pile/0.1/README.md)** ([Kandpal, et al., 2025](https://arxiv.org/abs/2506.05209))
++ **DCLM-baseline 1.0** ([Li, et al., 2024](https://arxiv.org/pdf/2406.11794), [HF repo](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0))
++ DCLM-Pool (raw pool)
++ **Nemontron-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595)), [CommonCrawl repo](https://data.commoncrawl.org/contrib/Nemotron/Nemotron-CC/index.html)
++ **[Common Pile](common-pile/0.1/README.md)** (raw pool) ([Kandpal, et al., 2025](https://arxiv.org/abs/2506.05209)). [Comma-0.1 training dataset composed from Common Pile](https://huggingface.co/datasets/common-pile/comma_v0.1_training_dataset)
 
 ## Multilingual Pre-Training Data
 
@@ -33,16 +36,22 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + **FineWeb 2** (https://github.com/huggingface/fineweb-2)
 + MADLAD-400 ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
 + TxT360 (https://huggingface.co/spaces/LLM360/TxT360)
++ CommonCorpus (raw pool)
 
 ## Parallel Pre-Training Data
 
 
 ## Non-Language Pre-Training Data
 
+### Coding
 + **StarCoder**
-+ The Stack
-+ Proof-Pile-2 ([Azerbayev et al., 2023](https://arxiv.org/abs/2310.10631))
++ The Stack v1
++ The Stack v2
 
+### Math and Reasoning
++ Proof-Pile-2 ([Azerbayev et al., 2023](https://arxiv.org/abs/2310.10631))
+* MegaMath
+* OpenThoughts
 
 ## Catalogue Conventions
 
