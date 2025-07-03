@@ -5,9 +5,10 @@
 #SBATCH --partition=standard
 #SBATCH --time=4:00:00
 #SBATCH --nodes=1
-#SBATCH --ntasks=32
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=0
+#SBATCH --exclusive
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=196G
 
 set -euo pipefail
 
@@ -15,7 +16,7 @@ module load LUMI
 module load parallel
 
 CATALOGUE_DIR=/scratch/project_462000953/training/catalogue
-INPUT_DIR=$CATALOGUE_DIR/fineweb/2.1.0/data/arb_Arab
+INPUT_DIR=$CATALOGUE_DIR/fineweb/2.1.0/data
 LANGUAGE_DISTRIBUTION=fineweb2-language-distribution.csv
 
 source /projappl/project_462000953/jhelcl/training-data-catalogue/env/bin/activate
@@ -52,12 +53,12 @@ for parquet_file in "${parquet_files[@]}"; do
 
     echo "$(date): Starting conversion of $parquet_file"
 
-    srun --ntasks=1 \
+    srun --ntasks=1 --mem=12G \
          python convert_single_parquet_to_jsonl-para.py \
              --infile "$parquet_file" \
              --outfile "$output_file" \
              --threads $SLURM_CPUS_PER_TASK \
-             --chunk-size 512 &
+             --chunk-size 128 &
 done
 
 echo "$(date): All jobs started, waiting for completion..."
