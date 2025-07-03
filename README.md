@@ -23,8 +23,8 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + SlimPajama
 + Dolma
 + **[FineWeb 1](fineweb/1.3.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
-+ **DCLM-baseline 1.0** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794), [NeurIPS 2024](https://openreview.net/forum?id=CNWdWn47IE), [HF repo](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0))
-+ DCLM-Pool (raw pool)
++ **DCLM-baseline 1.0** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794), [NeurIPS 2024](https://openreview.net/forum?id=CNWdWn47IE), [HF repo](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0)). [Dataset composition source code for reproduction](https://github.com/mlfoundations/dclm)
++ DCLM-Pool (raw pool, ca. 240T tokens) ([Li, et al., 2024](https://arxiv.org/abs/2406.11794), [NeurIPS 2024](https://openreview.net/forum?id=CNWdWn47IE), [CommonCrawl Repo](https://data.commoncrawl.org/contrib/datacomp/DCLM-pool/index.html)) [Dataset composition source code for reproduction](https://github.com/mlfoundations/dclm)
 + **Nemontron-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595), [CommonCrawl repo](https://data.commoncrawl.org/contrib/Nemotron/Nemotron-CC/index.html))
 + **[Common Pile](common-pile/0.1/README.md)** (raw pool) ([Kandpal, et al., 2025](https://arxiv.org/abs/2506.05209)). [Comma-0.1 training dataset composed from Common Pile, HF repo](https://huggingface.co/datasets/common-pile/comma_v0.1_training_dataset)
 
