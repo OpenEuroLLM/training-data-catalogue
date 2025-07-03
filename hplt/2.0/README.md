@@ -1,12 +1,12 @@
 # HPLT Monolingual Datasets Version 2.0
 
-## Background
+## <a id="background">Background</a>
 
 The HPLT Monolingual Datasets 2.0 were released in September 2024, aiming to provide large volumes of high-quality running text with strong multilingual emphasis.
 The data construction and preliminary experimental results are described by [Burchell, et al., 2025](https://arxiv.org/abs/2503.10267), to appear in the Proceedings of the Annual Conference of the Association for Computational Linguistics.
 Additional details and download instructions are available from the [HPLT download site](https://hplt-project.org/datasets/v2.0).
 
-## Data Sources
+## <a id="sources">Data Sources</a>
 
 This dataset is comprised of text derived from web crawls, predominantly so-called wide crawls conducted by the Internet Archive (IA) between 2012 and 2020 (some 3.5 pib in raw data), complemented with a smaller portion of Common Crawl (CC) data from between 2014 and 2023 (some 750 tib).
 HTML documents and metadata were extracted using the [warc2text](https://github.com/bitextor/warc2text) tool, and subsequently ‘main content’ text was extracted using the [Trafilatura](https://github.com/adbar/trafilatura) library.
@@ -17,12 +17,12 @@ The dataset is internally organized into so-called collections, corresponding to
 HPLT has released two variants, called _deduplicated_ and _cleaned_, where the former is larger and only reflects collection-internal near-deduplication (using MinHash).
 The _cleaned_ variant has undergone additional enrichment, including segment-level language identification and quality estimation by [Web Docs Scorer](https://github.com/pablop16n/web-docs-scorer/blob/main/README.md), and heuristic filtering.
 
-## Key Statistics
+## <a id="statistics">Key Statistics</a>
 
 The _cleaned_ version is distributed as 605 compressed JSONlines files, amounting to a total of about 15 tib.
 For larger languages, the data is distributed across multiple files, e.g. `1.jsonl.zst` … `160.jsonl.zst` for the 160 shards comprising some 3,4 billion documents identified as English.
 
-## Language Support
+## <a id="languages">European Language Support</a>
 
 | **Code(s)** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
 |-------------|----------:|--------------:|-------------:|-----------:|---------------:|
@@ -63,10 +63,10 @@ For larger languages, the data is distributed across multiple files, e.g. `1.jso
 |  ukr_Cyrl | 83,197,910,551 | 47,395,787 | 1,169,038,372 | 60,690,550,123 | 182,867,693,190 |
 |  nno_Latn nob_Latn | 51,074,925,109 | 28,476,988 | 710,577,489 | 42,080,040,980 | 138,648,073,341 |
 
-## Access Information
+## <a id="access">Access Information</a>
 
-## Terms of Use
+## <a id="use">Terms of Use</a>
 
-## Catalogue Curator
+## <a id="curator">Catalogue Curator</a>
 
 Stephan Oepen, University of Oslo, <oe@ifi.uio.no>
