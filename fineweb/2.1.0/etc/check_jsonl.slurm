@@ -20,4 +20,5 @@ source /projappl/project_462000953/jhelcl/training-data-catalogue/env/bin/activa
 python check_jsonl_files.py \
          --output-dir=$DATA_DIR \
          --language-distribution=fineweb2-language-distribution.csv \
+	 --language=arb_Arab \
 	 --num-threads=64
