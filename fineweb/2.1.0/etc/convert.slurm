@@ -4,9 +4,9 @@
 #SBATCH --account=project_462000764
 #SBATCH --partition=small
 #SBATCH --time=24:00:00
-#SBATCH --nodes=4
-#SBATCH --ntasks=128
-#SBATCH --cpus-per-task=4
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
 #SBATCH --mem=512G
 
 set -euo pipefail
@@ -15,7 +15,7 @@ module load LUMI
 module load parallel
 
 CATALOGUE_DIR=/scratch/project_462000953/training/catalogue
-INPUT_DIR=$CATALOGUE_DIR/fineweb/2.1.0/data/
+INPUT_DIR=$CATALOGUE_DIR/fineweb/2.1.0/data
 
 source /projappl/project_462000953/jhelcl/training-data-catalogue/env/bin/activate
 
@@ -34,7 +34,7 @@ for parquet_file in "${parquet_files[@]}"; do
 
     echo "$(date): Starting conversion of $parquet_file"
 
-    srun --ntasks=1 \
+    srun --ntasks=1 --mem=64G \
          python convert_single_parquet_to_jsonl-para.py \
              --infile "$parquet_file" \
              --outfile "$output_file" \
