@@ -19,8 +19,8 @@ The _cleaned_ variant has undergone additional enrichment, including segment-lev
 
 ## <a id="statistics">Key Statistics</a>
 
-The _cleaned_ version is distributed as 605 compressed JSONlines files, amounting to a total of about 15 tib.
-For larger languages, the data is distributed across multiple files, e.g. `1.jsonl.zst` … `160.jsonl.zst` for the 160 shards comprising some 3,4 billion documents identified as English.
+The _cleaned_ version is distributed as 605 compressed JSONlines files, amounting to a total of about 15 tib on disk.
+For larger languages, the data is distributed across multiple files, e.g. `eng_Latn/1.jsonl.zst` … `eng_Latn/160.jsonl.zst` for the 160 parts that jointly comprise some 3,4 billion documents identified as English.
 
 ## <a id="languages">European Language Support</a>
 
