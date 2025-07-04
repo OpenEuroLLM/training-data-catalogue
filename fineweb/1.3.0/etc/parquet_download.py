@@ -2,7 +2,6 @@
 #!/usr/bin/env python3
 
 import argparse
-import csv
 import os
 import glob
 import time
