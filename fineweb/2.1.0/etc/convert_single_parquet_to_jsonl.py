@@ -5,7 +5,6 @@ import pyarrow.parquet as pq
 import jsonlines
 import zstandard as zstd
 from concurrent.futures import ThreadPoolExecutor
-import threading
 import io
 
 
@@ -32,6 +31,7 @@ def main(infile, outfile, num_threads=4, chunk_size=10000):
 
 
 if __name__ == "__main__":
+    print("starting conversion from Parquet to compressed JSONL")
     parser = argparse.ArgumentParser(description='Convert Parquet to compressed JSONL')
     parser.add_argument('--infile', required=True, help='Path to input Parquet file')
     parser.add_argument('--outfile', required=True, help='Path to output compressed JSONL file')

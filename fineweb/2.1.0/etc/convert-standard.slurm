@@ -54,7 +54,7 @@ for parquet_file in "${parquet_files[@]}"; do
     echo "$(date): Starting conversion of $parquet_file"
 
     srun --ntasks=1 --mem=12G \
-         python convert_single_parquet_to_jsonl-para.py \
+         python convert_single_parquet_to_jsonl.py \
              --infile "$parquet_file" \
              --outfile "$output_file" \
              --threads $SLURM_CPUS_PER_TASK \
