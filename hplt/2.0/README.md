@@ -21,6 +21,7 @@ The _cleaned_ variant has undergone additional enrichment, including segment-lev
 
 The _cleaned_ version is distributed as 605 compressed JSONlines files, amounting to a total of about 15 tib on disk.
 For larger languages, the data is distributed across multiple files, e.g. `eng_Latn/1.jsonl.zst` … `eng_Latn/160.jsonl.zst` for the 160 parts that jointly comprise some 3,4 billion documents identified as English.
+When sampling subsets of the data, it may be advisable to give preference to documents with higher [Web Docs Scorer](https://github.com/pablop16n/web-docs-scorer/blob/main/README.md) quality estimates, i.e. the first value in the JSON `doc_scores` field.
 
 ## <a id="languages">European Language Support</a>
 
@@ -66,7 +67,20 @@ For larger languages, the data is distributed across multiple files, e.g. `eng_L
 
 ## <a id="access">Access Information</a>
 
+The primary [download site](https://hplt-project.org/datasets/v2.0) for the data is hosted at the Norwegian national [NIRD](https://documentation.sigma2.no/files_storage/nird_lmd.html) research data infrastructure, which offers premium connectivity to the Europen research data network.
+For convenience, selected subsets of the data have also been ingested to the [Hugging Face Hub](https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned).
+
+On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/hplt/2.0/`
+
 ## <a id="use">Terms of Use</a>
+
+The HPLT terms of use distinguish between the _collection_ and the _textual content_, where the first comprises the organization of the data and all metadata, and the latter the actual strings (the values of the JSON `text` fields) extracted from the original web documents.
+The collection is licensed under the [Creative Commons Public Domain (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/) license, whereas neither HPLT nor the original crawlers (IA and CC) hold rights to the textual content.
+HPLT has filtered out data that at the time of crawling likely was subject to standard opt-out procedures (the `robots.txt` protocol).
+A take-down mechanism is offered through the above download site.
+Users need to make sure that use of the data complies with any applicable legal framework, such as, among others, the EU Copyright Directive 2019/790 and the General Data Protection Regulation 2018, as amended.
 
 ## <a id="curator">Catalogue Curator</a>
 
