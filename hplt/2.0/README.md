@@ -15,13 +15,13 @@ Additional metadata enrichment and quality-oriented filtering are applied throug
 
 The dataset is internally organized into so-called collections, corresponding to either one full calendar year of CC crawls, or one complete IA crawl.
 HPLT has released two variants, called _deduplicated_ and _cleaned_, where the former is larger and only reflects collection-internal near-deduplication (using MinHash).
-The _cleaned_ variant has undergone additional enrichment, including segment-level language identification and quality estimation by [Web Docs Scorer](https://github.com/pablop16n/web-docs-scorer/blob/main/README.md), and heuristic filtering.
+The _cleaned_ variant has undergone additional enrichment, including segment-level language identification and quality estimation by [Web Docs Scorer](https://github.com/pablop16n/web-docs-scorer/blob/main/README.md) (WDS), and heuristic filtering.
 
 ## <a id="statistics">Key Statistics</a>
 
 The _cleaned_ version is distributed as 605 compressed JSONlines files, amounting to a total of about 15 tib on disk.
 For larger languages, the data is distributed across multiple files, e.g. `eng_Latn/1.jsonl.zst` … `eng_Latn/160.jsonl.zst` for the 160 parts that jointly comprise some 3,4 billion documents identified as English.
-When sampling subsets of the data, it may be advisable to give preference to documents with higher [Web Docs Scorer](https://github.com/pablop16n/web-docs-scorer/blob/main/README.md) quality estimates, i.e. the first value in the JSON `doc_scores` field.
+When sampling subsets of the data, it may be advisable to give preference to documents with higher WDS quality estimates, i.e. the first value in the JSON `doc_scores` field.
 
 ## <a id="languages">European Language Support</a>
 
