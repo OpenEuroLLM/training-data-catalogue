@@ -77,7 +77,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 ## <a id="use">Terms of Use</a>
 
 The HPLT terms of use distinguish between the _collection_ and the _textual content_, where the first comprises the organization of the data and all metadata, and the latter the actual strings (the values of the JSON `text` fields) extracted from the original web documents.
-The collection is licensed under the [Creative Commons Public Domain (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/) license, whereas neither HPLT nor the original crawlers (IA and CC) hold rights to the textual content.
+The collection is licensed under [Creative Commons Public Domain (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/) terms, whereas neither HPLT nor the original crawlers (IA and CC) hold rights to the textual content.
 HPLT has filtered out data that at the time of crawling likely was subject to standard opt-out procedures (the `robots.txt` protocol).
 A take-down mechanism is offered through the above download site.
 Users need to make sure that use of the data complies with any applicable legal framework, such as, among others, the EU Copyright Directive 2019/790 and the General Data Protection Regulation 2018, as amended.
