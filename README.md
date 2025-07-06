@@ -15,14 +15,15 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 ## (Mostly) English Pre-Training Data
 
-+ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683))
++ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683), [HF repo](https://huggingface.co/datasets/allenai/c4))
 + The Pile
 + RefinedWeb
 + RedPajama
++ SlimPajama
 + Dolma
 + **[FineWeb 1](fineweb/1.3.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
-+ **DCLM** ([Li, et al., 2024](https://arxiv.org/pdf/2406.11794))
-+ **NEMOTRON-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
++ **[DCLM-baseline](dclm-baseline/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
++ **Nemotron-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
 + **[Common Pile](common-pile/0.1/README.md)** ([Kandpal, et al., 2025](https://arxiv.org/abs/2506.05209))
 
 ## Multilingual Pre-Training Data
@@ -33,15 +34,23 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + **FineWeb 2** (https://github.com/huggingface/fineweb-2)
 + MADLAD-400 ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
 + TxT360 (https://huggingface.co/spaces/LLM360/TxT360)
++ CommonCorpus (raw pool)
 
 ## Parallel Pre-Training Data
 
 
 ## Non-Language Pre-Training Data
 
+### Coding
+
 + **StarCoder**
 + The Stack
+
+### Math and Reasoning
+
 + Proof-Pile-2 ([Azerbayev et al., 2023](https://arxiv.org/abs/2310.10631))
++ MegaMath
++ OpenThoughts
 
 
 ## Catalogue Conventions
@@ -53,7 +62,7 @@ For premium storage efficiency, all files are compressed using the [Zstandard (Z
 
 ### Language and Script References
 
-The project standardizes on three-letter language codes from [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) and script (or writing system) codes from [ISO 15924](https://en.wikipedia.org/wiki/ISO_15924), e.g. `ces_Latn` for Czech in Latin script or `srp_Cyrl` for Servian in Cyrillic script.
+The project standardizes on three-letter language codes from [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) and script (or writing system) codes from [ISO 15924](https://en.wikipedia.org/wiki/ISO_15924), e.g. `ces_Latn` for Czech in Latin script or `srp_Cyrl` for Serbian in Cyrillic script.
 
 In April 2025, the project targets [36 distinct languages]((macro-)languages), with 42 internal variants, e.g. different scripts or written standards.
 
