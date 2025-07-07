@@ -1,5 +1,6 @@
 # OpenEuroLLM Catalogue of LLM Training Data
 
+
 ## Background
 
 There is a bit of a growth industry in (pre-)training data preparation for LLM development.
@@ -22,7 +23,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + SlimPajama
 + Dolma
 + **[FineWeb 1](fineweb/1.3.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
-+ **[DCLM-baseline](dclm-baseline/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
++ **[DCLM](dclm/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
 + **Nemotron-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
 + **[Common Pile](common-pile/0.1/README.md)** ([Kandpal, et al., 2025](https://arxiv.org/abs/2506.05209))
 

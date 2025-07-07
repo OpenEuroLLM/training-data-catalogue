@@ -30,7 +30,10 @@ else
 fi
 ROOT=$(realpath ${ROOT});
 
-DATA=data;
+#
+# use the dataset-internal quality levels as top-level directory structure
+#
+DATA=.;
 CC=https://data.commoncrawl.org/
 
 CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs";
