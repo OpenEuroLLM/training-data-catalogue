@@ -6,7 +6,7 @@
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
+#SBATCH --cpus-per-task=128
 #SBATCH --mem-per-cpu=1G
 
 if [ -n "${SLURM_JOB_ID}" ]; then
