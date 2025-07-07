@@ -1,3 +1,5 @@
+set -x;
+
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
   | awk '/^ *Command=/ {sub(/^ *Command=/, "", $1); print $1;}');
@@ -18,4 +20,5 @@ else
   ROOT="${path%/etc}";
 fi
 ROOT=$(realpath ${ROOT});
-
+BASE=$(realpath ${ROOT}/../..);
+CORES=${SLURM_CPUS_ON_NODE:-8};
