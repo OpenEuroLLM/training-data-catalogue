@@ -75,7 +75,6 @@ ${CURL} ${CC}contrib/Nemotron/Nemotron-CC/data-jsonl.paths.gz | gzip -dc \
   target=${quality}/${kind}/;
   if [ "${type}" != "${kind}" ]; then target=${target}${type}/; fi
   target=${target}${file};
-  echo ${target}
   if [ ! -f ${target} ]; then 
     echo "url ${CC}${line}" >> ${URL};
     echo "output ${target}" >> ${URL};
@@ -95,6 +94,11 @@ CURL="${CURL} --write-out '%{stderr} %{json}'";
 # now download all files that are missing or appear out of date
 #
 eval ${CURL} --config ${URL} 2>> ${LOG};
+
+#
+# make sure everything is world-readable (and directories searchable)
+#
+chown -R o+rX .;
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
 exit 0;
