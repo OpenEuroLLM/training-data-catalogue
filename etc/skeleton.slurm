@@ -26,7 +26,7 @@ set -x
 #
 # make sure everything is world-readable (and directories searchable)
 #
-chown -R o+rX .;
+chmod -R o+rX .;
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
 exit 0;
