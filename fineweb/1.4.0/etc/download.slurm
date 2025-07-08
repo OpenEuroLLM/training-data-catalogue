@@ -6,11 +6,32 @@
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=128
-#SBATCH --mem-per-cpu=1G
+#SBATCH --cpus-per-task=64
+#SBATCH --mem-per-cpu=2G
 
-set -x;
-source $(dirname $0)/../../../etc/preamble.sh;
+if [ -n "${SLURM_JOB_ID}" ]; then
+  script=$(scontrol show job ${SLURM_JOB_ID} \
+  | awk '/^ *Command=/ {sub(/^ *Command=/, "", $1); print $1;}');
+  path=$(dirname ${script});
+  ROOT="${path%/etc}";
+else
+  path=$(dirname $0);
+  if [ "${path#./}" != "${path}" ]; then
+    path="$(pwd)/${path#./}";
+  fi
+  if [ "${path#/}" = "${path}" ]; then
+    if [ "${path}" = "." ]; then
+      path="$(pwd)";
+    else 
+      path="$(pwd)/${path}";
+    fi
+  fi
+  ROOT="${path%/etc}";
+fi
+source ${ROOT}/../../etc/preamble.sh;
+
+module reset;
+module load cray-python;
 
 DATA=edu;
 HF="https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/v1.4.0/";
@@ -59,7 +80,7 @@ eval ${CURL} --config ${URL} 2>> ${LOG};
 #
 # make sure everything is world-readable (and directories searchable)
 #
-chown -R o+rX .;
+chmod -R o+rX .;
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
 exit 0;
