@@ -25,6 +25,8 @@ When sampling subsets of the data, it may be advisable to give preference to doc
 
 ## <a id="languages">European Language Support</a>
 
+Most of the language codes in the table are linked up to more in-depth statistics from the [HPLT Analytics](https://github.com/hplt-project/data-analytics-tool) tool.
+
 | **Code(s)** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
 |-------------|----------:|--------------:|-------------:|-----------:|---------------:|
 |  [bul_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v2-bul_Cyrl.yaml) | 44,283,861,975 | 28,087,181 | 681,406,236 | 32,855,326,157 | 96,934,273,361 |
