@@ -30,7 +30,7 @@ Most of the language codes in the table are linked up to more in-depth statistic
 | **Code(s)** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
 |-------------|----------:|--------------:|-------------:|-----------:|---------------:|
 |  [bul_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v2-bul_Cyrl.yaml) | 44,283,861,975 | 28,087,181 | 681,406,236 | 32,855,326,157 | 96,934,273,361 |
-|  [ces_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-ces_Latn.yaml) | 109,711,940,916 | 75,288,021 | 1,926,503,033 | 95,363,069,335 | 273,936,688,894 |
+|  ces_Latn | 109,711,940,916 | 75,288,021 | 1,926,503,033 | 95,363,069,335 | 273,936,688,894 |
 |  [dan_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-dan_Latn.yaml) | 46,874,204,383 | 33,841,408 | 873,022,625 | 41,156,519,209 | 133,380,682,616 |
 |  deu_Latn | 643,563,226,429 | 482,053,407 | 11,127,774,286 | 449,431,582,918 | 1,782,129,825,333 |
 |  ell_Grek | 125,752,059,355 | 70,328,890 | 1,849,481,662 | 115,599,058,101 | 283,534,611,644 |
@@ -41,8 +41,8 @@ Most of the language codes in the table are linked up to more in-depth statistic
 |  [gle_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-gle_Latn.yaml) | 608,544,067 | 490,787 | 10,993,158 | 643,453,119 | 1,749,350,336 |
 |  [hrv_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-hrv_Latn.yaml) | 18,455,135,510 | 12,303,820 | 297,132,744 | 15,377,672,465 | 47,995,473,960 |
 |  [hun_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-hun_Latn.yaml) | 84,104,083,079 | 51,870,492 | 1,418,772,876 | 79,082,122,145 | 225,200,264,565 |
-|  [ita_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-ita_Latn.yaml) | 298,427,404,410 | 221,752,424 | 5,127,292,899 | 213,754,351,761 | 820,602,938,696 |
-|  [ltg_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-ltg_Latn.yaml) [lvs_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-nob_lvs.yaml) | 9,240,310,207 | 6,780,843 | 173,958,974 | 9,777,313,720 | 25,209,419,142 |
+|  ita_Latn | 298,427,404,410 | 221,752,424 | 5,127,292,899 | 213,754,351,761 | 820,602,938,696 |
+|  [ltg_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-ltg_Latn.yaml) [lvs_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-lvs_Latn.yaml) | 9,240,310,207 | 6,780,843 | 173,958,974 | 9,777,313,720 | 25,209,419,142 |
 |  [lit_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-lit_Latn.yaml) | 18,792,388,046 | 13,338,275 | 322,156,374 | 17,999,481,637 | 50,393,738,585 |
 |  [mlt_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-mlt_Latn.yaml) | 473,820,795 | 367,265 | 8,675,475 | 570,825,363 | 1,441,648,250 |
 |  nld_Latn | 163,348,254,430 | 138,651,084 | 3,074,592,386 | 122,628,893,009 | 451,077,252,328 |
