@@ -47,7 +47,7 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
-CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs";
+CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location";
 CURL="${CURL} --fail --retry 5 --retry-delay 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
 CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
