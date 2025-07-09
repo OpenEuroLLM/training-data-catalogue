@@ -6,9 +6,12 @@
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
+#SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=2G
 
+#
+# determine our root directory and load a common preabmle
+#
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
   | awk '/^ *Command=/ {sub(/^ *Command=/, "", $1); print $1;}');
