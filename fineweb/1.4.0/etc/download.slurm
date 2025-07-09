@@ -58,6 +58,9 @@ LOG=curl.log;
 cat /dev/null > ${URL};
 cat /dev/null > ${LOG};
 
+#
+# determine list of data files and create download map
+#
 python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.retrieve_files(\"HuggingFaceFW/fineweb-edu\", \"^data/\");" \
 | while read line; do \
   target=${line#data/};
