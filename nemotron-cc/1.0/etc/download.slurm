@@ -9,6 +9,9 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem-per-cpu=1G
 
+#
+# determine our root directory and load a common preabmle
+#
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
   | awk '/^ *Command=/ {sub(/^ *Command=/, "", $1); print $1;}');
@@ -28,17 +31,13 @@ else
   fi
   ROOT="${path%/etc}";
 fi
-ROOT=$(realpath ${ROOT});
+source ${ROOT}/../../etc/preamble.sh;
 
 #
 # use the dataset-internal quality levels as top-level directory structure
 #
 DATA=.;
 CC=https://data.commoncrawl.org/
-
-CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs";
-CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
 
 cd ${ROOT};
 
@@ -48,15 +47,18 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
+CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location";
+CURL="${CURL} --fail --retry 5 --retry-delay 5 --remove-on-error";
+CORES=${SLURM_CPUS_ON_NODE:-8};
+CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
+
 URL=all.url;
 LOG=curl.log;
 cat /dev/null > ${URL};
 cat /dev/null > ${LOG};
 
-set -x
-
 #
-# create fresh download maps for the actual files
+# create fresh download map for the actual files
 #
 ${CURL} ${CC}contrib/Nemotron/Nemotron-CC/data-jsonl.paths.gz | gzip -dc \
 | while read line; do \
@@ -88,7 +90,7 @@ echo;
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr} %{json}'";
+CURL="${CURL} --write-out '%{stderr}%{json}\n'";
 
 #
 # now download all files that are missing or appear out of date

@@ -9,6 +9,9 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem-per-cpu=1G
 
+#
+# determine our root directory and load a common preabmle
+#
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
   | awk '/^ *Command=/ {sub(/^ *Command=/, "", $1); print $1;}');
@@ -28,13 +31,9 @@ else
   fi
   ROOT="${path%/etc}";
 fi
-ROOT=$(realpath ${ROOT});
+source ${ROOT}/../../etc/preamble.sh;
 
 DATA=cleaned;
-
-CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs";
-CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
 
 cd ${ROOT};
 
@@ -44,14 +43,17 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
+CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs";
+CURL="${CURL} --fail --retry 5 --retry-delay 5 --remove-on-error";
+CORES=${SLURM_CPUS_ON_NODE:-8};
+CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
+
 URL=all.url;
 MD5=all.md5;
 LOG=curl.log;
 cat /dev/null > ${URL};
 cat /dev/null > ${MD5};
 cat /dev/null > ${LOG};
-
-set -x
 
 #
 # create fresh download maps for the actual files and their checksums
@@ -87,12 +89,17 @@ eval ${CURL} --config ${MD5} 2>> ${LOG};
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr} %{json}'";
+CURL="${CURL} --write-out '%{stderr}%{json}\n'";
 
 #
 # now download all files that are missing or appear out of date
 #
 eval ${CURL} --config ${URL} 2>> ${LOG};
+
+#
+# make sure everything is world-readable (and directories searchable)
+#
+chmod -R o+rX .;
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
 exit 0;
