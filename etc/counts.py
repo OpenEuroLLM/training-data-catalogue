@@ -53,12 +53,15 @@ def count_directory(path, pattern = "\\.zstd$", cores = 1, tokenizer = None, key
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
                                               trust_remote_code = True,
                                               use_fast = True);
-  for file in glob.glob(os.path.join(path, "*")):
-    if re.search(pattern, file): 
-      counts = count_file(file, tokenizer, key);
-      for _ in ("bytes", "documents", "segments", "tokens", "characters"):
-        result[_] += counts[_];
-      result["files"] += 1;
+  with mp.Pool(cores) as pool:
+    results = pool.starmap(count_file,
+                           ((file, tokenizer, key)
+                            for file in glob.glob(os.path.join(path, "*"))
+                            if re.search(pattern, file)));
+  for counts in results:
+    for _ in ("bytes", "documents", "segments", "tokens", "characters"):
+      result[_] += counts[_];
+    result["files"] += 1;
   with open(os.path.join(path, ".counts.json"),
             "w", encoding="utf-8") as stream:
     result["time"] = time.time() - start;
