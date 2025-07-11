@@ -1,0 +1,66 @@
+import io;
+import glob;
+import json;
+import multiprocessing as mp;
+import os;
+import re;
+import sys;
+import time;
+from transformers import AutoTokenizer;
+import zstandard as zstd;
+
+def count_file(path, tokenizer = None, key = "text", write = True):
+  if tokenizer is None:
+    tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
+                                              trust_remote_code = True,
+                                              use_fast = True);
+  start = time.time();
+  errors = [];  
+  bytes = os.path.getsize(path);
+  documents = segments = tokens = characters = 0;
+  dctx = zstd.ZstdDecompressor();
+  with open(path, "rb") as stream:
+    with dctx.stream_reader(stream) as stream:
+      stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+      for i, line in enumerate(stream):
+        try:
+          text = json.loads(line)[key];
+        except Exception as error:
+          errors.append(i);
+          print(error, file = sys.stderr);
+          continue;
+        documents += 1;
+        segments += text.count("\n") + 1;
+        tokens += len(tokenizer.tokenize(text));
+        characters += len(text);
+  result = {"bytes": bytes, "documents": documents, "segments": segments,
+            "tokens": tokens, "characters": characters,
+            "errors": errors, "time": time.time() - start};
+  if write:
+    directory, file = os.path.split(path);
+    for _ in (".zstd", ".zst", ".jsonl", ".json"):
+      if file.endswith(_): file = file[:-len(_)];
+      with open(os.path.join(directory, "." + file + ".json"),
+                "w", encoding="utf-8") as stream:
+        json.dump(result, stream, indent=2);
+  return result;
+      
+def count_directory(path, pattern = "\\.zstd$", cores = 1, tokenizer = None, key = "text"):
+  start = time.time();
+  result = {"files": 0, "bytes": 0,
+            "documents": 0, "segments": 0, "tokens": 0, "characters": 0};
+  if tokenizer is None:
+    tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
+                                              trust_remote_code = True,
+                                              use_fast = True);
+  for file in glob.glob(os.path.join(path, "*")):
+    if re.search(pattern, file): 
+      counts = count_file(file, tokenizer, key);
+      for _ in ("bytes", "documents", "segments", "tokens", "characters"):
+        result[_] += counts[_];
+      result["files"] += 1;
+  with open(os.path.join(path, ".counts.json"),
+            "w", encoding="utf-8") as stream:
+    result["time"] = time.time() - start;
+    json.dump(result, stream, indent=2);
+  return result;
