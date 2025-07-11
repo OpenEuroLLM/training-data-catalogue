@@ -6,7 +6,7 @@
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2G
 
 #
@@ -36,8 +36,10 @@ source ${ROOT}/../../etc/preamble.sh;
 module reset;
 module load cray-python;
 
+TARGET="allenai/MADLAD-400";
+REVISION="main";
+HF="https://huggingface.co/datasets/${TARGET}/resolve/${REVISION}/";
 DATA=clean;
-HF="https://huggingface.co/datasets/allenai/MADLAD-400/resolve/main/";
 
 cd ${ROOT};
 
@@ -51,7 +53,7 @@ CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location"
 CURL="${CURL} --globoff --remote-time";
 CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel --parallel-max ${CORES}";
+CURL="${CURL} --rate 2/s"
 
 URL=all.url;
 LOG=curl.log;
@@ -61,7 +63,7 @@ cat /dev/null > ${LOG};
 #
 # determine list of data files and create download map
 #
-python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.api_retrieve_files(\"allenai/MADLAD-400\", \"main\", \"^data-v1p5/[a-z]+/clean_docs\");" \
+python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.api_retrieve_files(\"${TARGET}\", \"${REVISION}\", \"^data-v1p5/[a-z]+/clean_docs\");" \
 | while read line; do \
   target=${line#data-v1p5/};
   path=${target%/*};
