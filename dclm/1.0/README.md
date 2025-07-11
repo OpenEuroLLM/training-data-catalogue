@@ -9,7 +9,7 @@ Data construction and preliminary experimental results are described by [Li, et 
 The _baseline_ dataset is derived from a much larger [document pool](https://data.commoncrawl.org/contrib/datacomp/DCLM-pool/index.html), and there is extensive [software support](https://github.com/mlfoundations/dclm) for DCLM experimentation.
 
 
-## <a id="statistics">Key Statistics</a>
+## <a id="statistics">Structure & Statistics</a>
 
 
 ## <a id="languages">European Language Support</a>

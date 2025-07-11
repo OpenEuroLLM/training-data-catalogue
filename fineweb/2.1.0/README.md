@@ -6,7 +6,7 @@
 ## <a id="sources">Data Sources</a>
 
 
-## <a id="statistics">Key Statistics</a>
+## <a id="statistics">Structure & Statistics</a>
 
 
 ## <a id="languages">European Language Support</a>
