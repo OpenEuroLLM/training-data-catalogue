@@ -37,7 +37,7 @@ module reset;
 module load cray-python;
 
 DATA=clean;
-HF="https://huggingface.co/datasets/allenai/MADLAD-400/resolve/v1.0/";
+HF="https://huggingface.co/datasets/allenai/MADLAD-400/resolve/main/";
 
 cd ${ROOT};
 
@@ -63,7 +63,7 @@ cat /dev/null > ${LOG};
 #
 python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.retrieve_files(\"allenai/MADLAD-400\", \"^data-v1p5/[a-z]+/clean_docs\");" \
 | while read line; do \
-  target=${line#data/};
+  target=${line#data-v1p5/};
   if [ ! -f ${target} ]; then 
     echo "url ${HF}${line}" >> ${URL};
     echo "output ${target}" >> ${URL};
