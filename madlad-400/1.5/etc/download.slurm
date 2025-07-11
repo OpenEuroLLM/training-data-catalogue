@@ -52,7 +52,6 @@ CURL="${CURL} --globoff --remote-time";
 CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
 CURL="${CURL} --parallel --parallel-max ${CORES}";
-CURL="${CURL} --rate 2/s";
 
 URL=all.url;
 LOG=curl.log;
@@ -81,10 +80,10 @@ echo;
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr}{"content-type":%header{content-type}, "content-length": %header{content-length}}\n%{json}\n'";
+CURL="${CURL} --write-out '%{stderr}{"content-type" :%header{content-type}, "content-length": %header{content-length}}\n%{json}\n'";
 
 echo $CURL
-exit
+
 #
 # now download all files that are missing or appear out of date
 #
