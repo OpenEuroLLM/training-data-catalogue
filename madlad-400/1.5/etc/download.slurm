@@ -6,7 +6,7 @@
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=2G
 
 #
@@ -47,10 +47,11 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
-CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location";
+CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location"
+CURL="${CURL} --globoff --remote-time";
 CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
+CURL="${CURL} --parallel --parallel-max ${CORES}";
 CURL="${CURL} --rate 2/s";
 
 URL=all.url;
@@ -64,6 +65,9 @@ cat /dev/null > ${LOG};
 python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.api_retrieve_files(\"allenai/MADLAD-400\", \"main\", \"^data-v1p5/[a-z]+/clean_docs\");" \
 | while read line; do \
   target=${line#data-v1p5/};
+  path=${target%/*};
+  file=${target##*/};
+  header=${path}/.${file%jsonl.gz}http
   if [ ! -f ${target} ]; then 
     echo "url ${HF}${line}" >> ${URL};
     echo "output ${target}" >> ${URL};
@@ -77,8 +81,10 @@ echo;
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr}%{json}\n'";
+CURL="${CURL} --write-out '%{stderr}{"content-type":%header{content-type}, "content-length": %header{content-length}}\n%{json}\n'";
 
+echo $CURL
+exit
 #
 # now download all files that are missing or appear out of date
 #
