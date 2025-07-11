@@ -82,7 +82,7 @@ echo;
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr}{"content-type" :%header{content-type}, "content-length": %header{content-length}}\n%{json}\n'";
+CURL="${CURL} --write-out \"%{stderr}{\\\"content-type\\\": \\\"%header{content-type}\\\", \\\"content-length\\\": %header{content-length}}\\n%{json}\\n\"";
 
 echo $CURL
 
