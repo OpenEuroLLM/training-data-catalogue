@@ -61,7 +61,7 @@ cat /dev/null > ${LOG};
 #
 # determine list of data files and create download map
 #
-python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.retrieve_files(\"HuggingFaceFW/fineweb-edu\", \"^data/\");" \
+python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.api_retrieve_files(\"HuggingFaceFW/fineweb-edu\", \"v1.4.0\", \"^data/\");" \
 | while read line; do \
   target=${line#data/};
   if [ ! -f ${target} ]; then 

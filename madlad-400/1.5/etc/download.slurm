@@ -61,7 +61,7 @@ cat /dev/null > ${LOG};
 #
 # determine list of data files and create download map
 #
-python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.retrieve_files(\"allenai/MADLAD-400\", \"^data-v1p5/[a-z]+/clean_docs\");" \
+python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.api_retrieve_files(\"allenai/MADLAD-400\", \"main\", \"^data-v1p5/[a-z]+/clean_docs\");" \
 | while read line; do \
   target=${line#data-v1p5/};
   if [ ! -f ${target} ]; then 
