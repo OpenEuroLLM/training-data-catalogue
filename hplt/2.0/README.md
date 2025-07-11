@@ -30,7 +30,7 @@ Most of the language codes in the table are linked up to more in-depth statistic
 | **Code(s)** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
 |-------------|----------:|--------------:|-------------:|-----------:|---------------:|
 |  [bul_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v2-bul_Cyrl.yaml) | 44,283,861,975 | 28,087,181 | 681,406,236 | 32,855,326,157 | 96,934,273,361 |
-|  ces_Latn | 109,711,940,916 | 75,288,021 | 1,926,503,033 | 95,363,069,335 | 273,936,688,894 |
+|  [ces_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-ces_Latn.yaml) | 109,711,940,916 | 75,288,021 | 1,926,503,033 | 95,363,069,335 | 273,936,688,894 |
 |  [dan_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-dan_Latn.yaml) | 46,874,204,383 | 33,841,408 | 873,022,625 | 41,156,519,209 | 133,380,682,616 |
 |  deu_Latn | 643,563,226,429 | 482,053,407 | 11,127,774,286 | 449,431,582,918 | 1,782,129,825,333 |
 |  ell_Grek | 125,752,059,355 | 70,328,890 | 1,849,481,662 | 115,599,058,101 | 283,534,611,644 |
