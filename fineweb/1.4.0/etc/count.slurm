@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# for i in ./data/CC-MAIN-20*; do sbatch etc/count.slurm $i; done
+#
+
 #SBATCH --job-name=count
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
@@ -51,7 +55,8 @@ cd ./${DATA}
 #
 for i in ${*:-CC-MAIN-*}; do
   if [ -f ${i}/.counts.json ]; then continue; fi  
-  path=$(realpath ${i});
+  path=$(readlink -e ${i});
+  if [ -z "${path}" ]; then continue; fi
   python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
