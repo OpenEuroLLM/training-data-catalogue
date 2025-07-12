@@ -6,7 +6,7 @@
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
+#SBATCH --cpus-per-task=128
 #SBATCH --mem-per-cpu=2G
 
 #
@@ -35,6 +35,7 @@ source ${ROOT}/../../etc/preamble.sh;
 
 module reset;
 module load cray-python;
+source ${BASE}/python/bin/activate;
 
 DATA=data;
 
@@ -46,9 +47,10 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 cd ./${DATA}
 
 #
+# command-line arguments can be directories; otherwise glob ourselves
 #
-#
-for i in CC-MAIN-*; do
+for i in ${*:-CC-MAIN-*}; do
+  if [ -f ${i}/.counts.json ]; then continue; fi  
   path=$(realpath ${i});
   python -c "
 import sys;
