@@ -33,6 +33,9 @@ else
 fi
 source ${ROOT}/../../etc/preamble.sh;
 
+module reset;
+module load LUMI cURL;
+
 DATA=cleaned;
 
 cd ${ROOT};
@@ -43,10 +46,11 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
-CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs";
-CURL="${CURL} --fail --retry 5 --retry-delay 5 --remove-on-error";
+CURL="curl --no-progress-meter --show-error --create-dirs --location";
+CURL="${CURL} --globoff --remote-time";
+CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
+CURL="${CURL} --parallel --parallel-max ${CORES}";
 
 URL=all.url;
 MD5=all.md5;
@@ -62,12 +66,14 @@ ${CURL} https://data.hplt-project.org/two/${DATA}/hplt_monolingual_map_${DATA}_2
 | while read line; do \
   prefix=${line%/*/*};
   target=${line#${prefix}/};
+  path=${target%/*};
+  file=${target#${path}/};
   #
   # make sure we always fetch up-to-date checksums
   #
-  /bin/rm -f ${target}.md5;
+  /bin/rm -f ${path}/.${file}.md5;
   echo "url ${line}.md5" >> ${MD5};
-  echo "output ${target}.md5" >> ${MD5};
+  echo "output ${path}/.${file}.md5" >> ${MD5};
   if [ ! -f ${target} ]; then 
     echo "url ${line}" >> ${URL};
     echo "output ${target}" >> ${URL};
@@ -89,7 +95,7 @@ eval ${CURL} --config ${MD5} 2>> ${LOG};
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr}%{json}\n'";
+CURL="${CURL} --write-out \"%{stderr}{\\\"content-type\\\": \\\"%header{content-type}\\\", \\\"content-length\\\": %header{content-length}}\\n%{json}\\n\"";
 
 #
 # now download all files that are missing or appear out of date
@@ -102,7 +108,6 @@ eval ${CURL} --config ${URL} 2>> ${LOG};
 chmod -R o+rX .;
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
-exit 0;
 
 for i in ???_*; do
   echo "directory: $i"; cd $i;
