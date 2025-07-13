@@ -1,3 +1,9 @@
+#
+# python -m venv ./python
+# source ./python/bin/activate
+# pip install --upgrade pip
+# pip install -r ./etc/requirements.txt
+#
 huggingface_hub[cli,hf_transfer]
 hf_transfer
 transformers
