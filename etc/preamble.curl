@@ -1,0 +1,3 @@
+no-progress-meter show-error create-dirs location
+globoff remote-time
+fail retry 2 remove-on-error
