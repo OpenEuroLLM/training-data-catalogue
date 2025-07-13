@@ -45,10 +45,8 @@ DATA=data;
 
 cd ${ROOT};
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: root in ${ROOT}; target: ${DATA}."
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
-
-cd ./${DATA}
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: root in ${ROOT}; target: ${DATA}."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: using ${CORES} cores."
 
 #
 # command-line arguments can be directories; otherwise glob ourselves
@@ -70,5 +68,5 @@ done;
 #
 chmod -R o+rX .;
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: all files processed."
 exit 0;

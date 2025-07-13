@@ -40,9 +40,9 @@ def count_file(path, tokenizer = None, key = "text", write = True):
     directory, file = os.path.split(path);
     for _ in (".zstd", ".zst", ".jsonl", ".json"):
       if file.endswith(_): file = file[:-len(_)];
-      with open(os.path.join(directory, "." + file + ".json"),
-                "w", encoding="utf-8") as stream:
-        json.dump(result, stream, indent=2);
+    with open(os.path.join(directory, "." + file + ".json"),
+              "w", encoding="utf-8") as stream:
+      json.dump(result, stream, indent=2);
   return result;
       
 def count_directory(path, pattern = "\\.zstd$", cores = 1, tokenizer = None, key = "text"):
