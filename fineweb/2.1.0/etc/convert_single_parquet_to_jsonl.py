@@ -16,14 +16,14 @@ def process_chunk(records_chunk):
     return buffer.getvalue()
 
 
-def main(infile, outfile, num_threads=4, chunk_size=10000):
+def main(infile, outfile, num_threads=4, chunk_size=10000, compression_level=3):
     table = pq.read_table(infile)
     records = table.to_pylist()
 
     chunks = [records[i:i + chunk_size] for i in range(0, len(records), chunk_size)]
 
     with open(outfile, 'wb') as f:
-        cctx = zstd.ZstdCompressor()
+        cctx = zstd.ZstdCompressor(level=compression_level)
         with cctx.stream_writer(f) as compressor:
             with ThreadPoolExecutor(max_workers=num_threads) as executor:
                 for chunk_data in executor.map(process_chunk, chunks):
@@ -37,6 +37,7 @@ if __name__ == "__main__":
     parser.add_argument('--outfile', required=True, help='Path to output compressed JSONL file')
     parser.add_argument('--threads', type=int, default=4, help='Number of threads for processing')
     parser.add_argument('--chunk-size', type=int, default=10000, help='Number of records per chunk')
+    parser.add_argument("--compression-level", type=int, default=3, help="Zstd compression level")
     args = parser.parse_args()
 
-    main(args.infile, args.outfile, args.threads, args.chunk_size)
+    main(args.infile, args.outfile, args.threads, args.chunk_size, args.compression_level)
