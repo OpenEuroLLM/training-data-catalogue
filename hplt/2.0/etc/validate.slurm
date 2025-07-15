@@ -92,12 +92,16 @@ function validate() {
   fi
   (
     cd ${path};
-    if md5sum --check --warn ${file}; then
-      :
+    target=$(awk '{print $2}' ${file});
+    if [ ! -f ${target} ]; then
+      echo "missing target file: ${path}/${target#./}." >&2;
+      return 1;
+    fi
+    if md5sum --check --status ${file}; then
+      echo "check-sum validated: ${path}/${target#./}." >&2;
     else
-      file=$(awk '{print $2}' ${file});
-      echo "check-sum failure; removing: ${path}/${file}." >&2;
-      /bin/rm ${file};
+      echo "check-sum failure; removing: ${path}/${target#./}." >&2;
+      /bin/rm ${target};
     fi
   )
 } # validate()
