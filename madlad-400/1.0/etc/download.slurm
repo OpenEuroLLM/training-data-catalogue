@@ -65,7 +65,7 @@ cat /dev/null > ${LOG};
 #
 python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.api_retrieve_files(\"${TARGET}\", \"${REVISION}\", \"^data/[^/]+/[^/]+_clean_\");" \
 | while read line; do \
-  target=${line#data-v1p5/};
+  target=${line#data/};
   path=${target%/*};
   file=${target##*/};
   header=${path}/.${file%jsonl.gz}http
