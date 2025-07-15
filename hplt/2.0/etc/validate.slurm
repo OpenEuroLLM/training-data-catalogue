@@ -49,6 +49,7 @@ cd ./${DATA}
 CURL="curl --disable --no-progress-meter --show-error --create-dirs --location";
 CURL="${CURL} --fail --retry 2";
 CORES=${SLURM_CPUS_ON_NODE:-8};
+CURL="${CURL} --parallel --parallel-max ${CORES}";
 
 MD5=all.md5;
 LOG=md5sum.log;
@@ -86,13 +87,18 @@ function validate() {
   path=${file%/*};
   file=${file#${path}/};
   echo $path -- $file;
-  if [ ! -d ${path} ]; then return 1; fi
+  if [ ! -d ${path} ]; then
+    echo "invalid sub-directory: ${path}." >&2;
+    return 1;
+  fi
   (
     cd ${path};
     if md5sum -check --warm ${file}; then
       :
     else
-      echo /bin/rm $(awk '{print $2}' ${file});
+      file=$(awk '{print $2}' ${file});
+      echo "check-sum failure; removing: ${file}." >&2;
+      /bin/rm ${file};
     fi
   )
 } # validate()
@@ -106,7 +112,7 @@ PARALLEL="${PARALLEL} --group --jobs ${CORES}";
 #
 {
   egrep "^output " ${MD5} | sed "s/output //" \
-  | eval ${PARALLEL} --dryrun validate {};
+  | eval ${PARALLEL} validate {};
 } > ${LOG} 2>&1;
 
 #
