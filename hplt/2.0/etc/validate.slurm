@@ -93,7 +93,7 @@ function validate() {
   fi
   (
     cd ${path};
-    if md5sum -check --warm ${file}; then
+    if md5sum --check --warn ${file}; then
       :
     else
       file=$(awk '{print $2}' ${file});
