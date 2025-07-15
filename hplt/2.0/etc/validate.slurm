@@ -86,7 +86,6 @@ function validate() {
   file=${1};
   path=${file%/*};
   file=${file#${path}/};
-  echo $path -- $file;
   if [ ! -d ${path} ]; then
     echo "invalid sub-directory: ${path}." >&2;
     return 1;
@@ -97,7 +96,7 @@ function validate() {
       :
     else
       file=$(awk '{print $2}' ${file});
-      echo "check-sum failure; removing: ${file}." >&2;
+      echo "check-sum failure; removing: ${path}/${file}." >&2;
       /bin/rm ${file};
     fi
   )
