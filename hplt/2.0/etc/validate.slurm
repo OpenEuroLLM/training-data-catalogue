@@ -109,10 +109,8 @@ PARALLEL="${PARALLEL} --group --jobs ${CORES}";
 #
 # finally, iterate through all the check-sum files
 #
-{
-  egrep "^output " ${MD5} | sed "s/output //" \
-  | eval ${PARALLEL} validate {};
-} > ${LOG} 2>&1;
+egrep "^output " ${MD5} | sed "s/output //" \
+| eval ${PARALLEL} validate {};
 
 #
 # make sure everything is world-readable (and directories searchable)
