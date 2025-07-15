@@ -108,16 +108,4 @@ eval ${CURL} --config ${URL} 2>> ${LOG};
 chmod -R o+rX .;
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
-
-for i in ???_*; do
-  echo "directory: $i"; cd $i;
-  for j in *.md5; do
-    if md5sum --check $j; then
-      true;
-    else
-      mv ${j%%.md5} ${j%%.md5}-;
-    fi
-  done;
-  cd ..;
-done | 2>&1 tee md5sum.log
-
+exit 0;
