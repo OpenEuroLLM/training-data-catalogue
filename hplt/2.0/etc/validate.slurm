@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#SBATCH --job-name=download
+#SBATCH --job-name=validate
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
+#SBATCH --cpus-per-task=128
 #SBATCH --mem-per-cpu=1G
 
 #
@@ -34,33 +34,30 @@ fi
 source ${ROOT}/../../etc/preamble.sh;
 
 module reset;
-module load LUMI cURL;
+module load LUMI cURL parallel;
 
 DATA=cleaned;
 
 cd ${ROOT};
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: root in ${ROOT}; target: ${DATA}."
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] validate.slurm: root in ${ROOT}; target: ${DATA}."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] validate.slurm: using ${CORES} cores."
 
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
 CURL="curl --disable --no-progress-meter --show-error --create-dirs --location";
-CURL="${CURL} --globoff --remote-time";
-CURL="${CURL} --fail --retry 5 --remove-on-error";
+CURL="${CURL} --fail --retry 2";
 CORES=${SLURM_CPUS_ON_NODE:-8};
 CURL="${CURL} --parallel --parallel-max ${CORES}";
 
-URL=all.url;
 MD5=all.md5;
-LOG=curl.log;
-cat /dev/null > ${URL};
+LOG=md5sum.log;
 cat /dev/null > ${MD5};
 cat /dev/null > ${LOG};
 
 #
-# create fresh download maps for the actual files and their checksums
+# create fresh download maps for the checksum files
 #
 ${CURL} https://data.hplt-project.org/two/${DATA}/hplt_monolingual_map_${DATA}_2.0.txt \
 | while read line; do \
@@ -69,43 +66,59 @@ ${CURL} https://data.hplt-project.org/two/${DATA}/hplt_monolingual_map_${DATA}_2
   path=${target%/*};
   file=${target#${path}/};
   #
-  # make sure we always fetch up-to-date checksums
+  # ignore existing files; we always want to use up-to-date checksums
   #
   /bin/rm -f ${path}/.${file}.md5;
   echo "url ${line}.md5" >> ${MD5};
   echo "output ${path}/.${file}.md5" >> ${MD5};
-  if [ ! -f ${target} ]; then 
-    echo "url ${line}" >> ${URL};
-    echo "output ${target}" >> ${URL};
-  fi;
 done;
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: MD5 directives (${MD5}):"
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] validate.slurm: MD5 directives (${MD5}):"
 cat ${MD5};
 echo;
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: URL directives (${URL}):"
-cat ${URL};
-echo;
 
 #
-# make sure we have current checksum files for everything
+# now make sure we have current checksum files for everything
 #
-eval ${CURL} --config ${MD5} 2>> ${LOG};
+eval ${CURL} --config ${MD5}
+
+function validate() {
+  file=${1};
+  path=${file%/*};
+  file=${file#${path}/};
+  if [ ! -d ${path} ]; then
+    echo "invalid sub-directory: ${path}." >&2;
+    return 1;
+  fi
+  (
+    cd ${path};
+    target=$(awk '{print $2}' ${file});
+    if [ ! -f ${target} ]; then
+      echo "missing target file: ${path}/${target#./}." >&2;
+      return 1;
+    fi
+    if md5sum --check --status ${file}; then
+      echo "check-sum validated: ${path}/${target#./}." >&2;
+    else
+      echo "check-sum failure; removing: ${path}/${target#./}." >&2;
+      /bin/rm ${target};
+    fi
+  )
+} # validate()
+export -f validate;
+
+PARALLEL="parallel --plain --will-cite";
+PARALLEL="${PARALLEL} --group --jobs ${CORES}";
 
 #
-# enable detailed download statistics
+# finally, iterate through all the check-sum files
 #
-CURL="${CURL} --write-out \"%{stderr}{\\\"content-type\\\": \\\"%header{content-type}\\\", \\\"content-length\\\": %header{content-length}}\\n%{json}\\n\"";
-
-#
-# now download all files that are missing or appear out of date
-#
-eval ${CURL} --config ${URL} 2>> ${LOG};
+egrep "^output " ${MD5} | sed "s/output //" \
+| eval ${PARALLEL} validate {};
 
 #
 # make sure everything is world-readable (and directories searchable)
 #
 chmod -R o+rX .;
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: all downloads complete."
-exit 0;
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] validate.slurm: all files processed."
