@@ -53,7 +53,7 @@ CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location"
 CURL="${CURL} --globoff --remote-time";
 CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --rate 2/s"
+CURL="${CURL} --rate 4/s"
 
 URL=all.url;
 LOG=curl.log;
