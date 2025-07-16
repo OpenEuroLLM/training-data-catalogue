@@ -2,6 +2,8 @@
 
 ## <a id="background">Background</a>
 
+FineWeb 2 ([Penedo et al., 2025](https://arxiv.org/abs/2506.20920)) is a collection of multilingual datasets containing texts in over 1000 languages (excluding English -- for that, see our [catalogue page](https://github.com/OpenEuroLLM/training-data-catalogue/tree/main/fineweb/1.4.0) on [FineWeb 1](https://huggingface.co/datasets/HuggingFaceFW/fineweb)).
+Dataset details, download instructions and results of ablation experiments are described in the paper as well as on the [HuggingFace dataset page](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2).
 
 ## <a id="sources">Data Sources</a>
 
