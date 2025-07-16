@@ -7,9 +7,14 @@ Dataset details, download instructions and results of ablation experiments are d
 
 ## <a id="sources">Data Sources</a>
 
+The data was collected from [CommonCrawl](https://commoncrawl.org/), using the snapshots from summer 2013 to April 2024.
+The dataset was filtered and deduplicated, totalling on 20 TiB of data. The dataset creation pipeline is [open-source](https://github.com/huggingface/fineweb-2/blob/main/fineweb-2-pipeline.py).
 
 ## <a id="statistics">Structure & Statistics</a>
 
+The documents in the datasets have been separated by langauge (using [GlotLID; Kargaran et al, 2023](https://aclanthology.org/2023.findings-emnlp.410/)) into subfolders, using the ISO-639-3 codes.
+In this catalogue, this dataset is distributed as Zstd-compressed JSONLines files in the language-specific subfolders.
+The data for each language is sharded in multiple `???_?????.jsonl.zst` files which correspond to the `???_?????.parquet` files that can be obtained from Huggingface Hub (here, each question mark correspond to a single digit `0-9`).
 
 ## <a id="languages">European Language Support</a>
 
