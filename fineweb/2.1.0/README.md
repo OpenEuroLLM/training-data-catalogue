@@ -101,8 +101,29 @@ The data for each language is sharded in multiple `???_?????.jsonl.zst` files wh
 | Total | 1,762,353,453 | 1,171,627 | 21,407,586 | 1,182,411,493 | 3,761,566,715 |
 
 ## <a id="access">Access Information</a>
+The primary download site for the data is [HuggingFace Hub](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2).
+
+On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
+
+LUMI: `/appl/local/openeurollm/training/catalogue/fineweb/2.1.0/`
 
 ## <a id="use">Terms of Use</a>
 
-## <a id="curator">Catalogue Curator</a>
+The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/). The use of this dataset is also subject to [CommonCrawl's Terms of Use](https://commoncrawl.org/terms-of-use).
 
+### Citation information
+
+```bibtex
+@misc{penedo2025fineweb2pipelinescale,
+  title={FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language}, 
+  author={Guilherme Penedo and Hynek Kydlíček and Vinko Sabolčec and Bettina Messmer and Negar Foroutan and Amir Hossein Kargaran and Colin Raffel and Martin Jaggi and Leandro Von Werra and Thomas Wolf},
+  year={2025},
+  eprint={2506.20920},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2506.20920}, 
+}
+```
+
+## <a id="curator">Catalogue Curator</a>
+Jindřich Helcl, University of Oslo, <jindrich@uio.no>
