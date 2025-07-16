@@ -6,7 +6,7 @@
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=2G
 
 #
@@ -53,7 +53,7 @@ CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location"
 CURL="${CURL} --globoff --remote-time";
 CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel --parallel-max ${CORES}";
+CURL="${CURL} --rate 4/s";
 
 URL=all.url;
 LOG=curl.log;
