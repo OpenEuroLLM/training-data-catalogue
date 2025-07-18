@@ -65,3 +65,4 @@ See the Common Crawl website: https://commoncrawl.org/terms-of-use
 
 ## <a id="curator">Catalogue Curator</a>
 
+Tudor Nicolae Mateiu, Prompsit Language Engineering, tudornm@prompsit.com
