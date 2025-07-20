@@ -38,11 +38,11 @@ bos: Bosnian: bos_Latn
 isl: Icelandic: isl_Latn
 kat: Georgian: kat_Geor
 mkd: Macedonian: mkd_Cyrl
-sqi: Albania: sqi_Latn als_Latn
+sqi: Albanian: sqi_Latn als_Latn
 srp: Serbian: srp_Cyrl srp_Latn
 tur: Turkish: tur_Latn
 ukr: Ukrainian: ukr_Cyrl
 #
 # Closely Associated Scandinavian
 #
-nor: Norwegian: nno_Latn nob_Latn
+nor: Norwegian: nor_Latn nno_Latn nob_Latn
