@@ -1,7 +1,9 @@
 #!/bin/bash
 
 #
-# for i in ./clean/*; do if [ ! -h $i ]; then sbatch etc/count.slurm $i; fi; done
+# for i in ./clean/*; do if [ ! -h $i ]; then echo sbatch etc/count.slurm $i; fi; done > count.trickle
+# trickle --start --limit 180 count.trickle
+# while true; do trickle --limit 180 count.trickle; sleep 60; done
 #
 
 #SBATCH --job-name=count
