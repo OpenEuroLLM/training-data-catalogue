@@ -12,7 +12,22 @@ Additionally, each dataset is released in both a document-level form and a sente
 
 ## <a id="statistics">Structure & Statistics</a>
 
-(TO-DO depending on type of file, structure, etc.)
+Currently, the MADLAD-400 dataset is distributed in compressed `.jsonl.gz` format.
+
+Files are available in the following partition combinations:
+
+```
+/data/LANG/LANG_clean_XXXX.jsonl.gz
+/data/LANG/LANG_noisy_XXXX.jsonl.gz
+/data-v1p5/LANG/clean_docs_v2-XXXXX-of-YYYYY.jsonl.gz
+/data-v1p5/LANG/noisy_docs_v2-XXXXX-of-YYYYY.jsonl.gz
+```
+
+e.g. English partition 250:
+
+```
+/data-v1p5/eng/clean_docs_v2-00250-of-05000.jsonl.gz
+```
 
 ## <a id="languages">European Language Support</a>
 
