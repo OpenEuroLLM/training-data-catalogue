@@ -38,8 +38,8 @@ bo: bos_Latn
 is: isl_Latn
 ka: kat_Geor
 mk: mkd_Cyrl
-sq: sqi_Latn als_Latn
-sr: srp_Cyrl srp_Latn
+sq: als_Latn
+sr: srp_Cyrl
 tr: tur_Latn
 uk: ukr_Cyrl
 #
