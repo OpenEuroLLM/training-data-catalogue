@@ -31,9 +31,9 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 + mC4
 + CulturaX
-+ **[HPLT](hplt/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
-+ **FineWeb 2** (https://github.com/huggingface/fineweb-2)
-+ MADLAD-400 ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
++ **[HPLT](hplt/2.0/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
++ **[FineWeb 2](fineweb/2.1.0/README.md)** (https://github.com/huggingface/fineweb-2)
++ **[MADLAD-400](madlad-400/1.0/README.md)** ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
 + TxT360 (https://huggingface.co/spaces/LLM360/TxT360)
 + CommonCorpus (raw pool)
 

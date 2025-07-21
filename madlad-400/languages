@@ -1,4 +1,8 @@
 #
+# ( cd 1.0/clean; awk -F: '/^[^#]/ {printf("ln -s %s %s\n", $1, $2);}' ../../languages | bash; )
+#
+
+#
 # Mapping MADLAD-400 to Target Languages in OpenEuroLLM
 #
 #
