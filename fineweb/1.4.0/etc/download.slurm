@@ -34,7 +34,7 @@ fi
 source ${ROOT}/../../etc/preamble.sh;
 
 module reset;
-module load cray-python;
+module load LUMI cURL cray-python;
 
 DATA=edu;
 HF="https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/v1.4.0/";
@@ -78,7 +78,7 @@ echo;
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr}%{json}\n'";
+CURL="${CURL} --write-out \"%{stderr}{\\\"content-type\\\": \\\"%header{content-type}\\\", \\\"content-length\\\": %header{content-length}}\\n%{json}\\n\"";
 
 #
 # now download all files that are missing or appear out of date
