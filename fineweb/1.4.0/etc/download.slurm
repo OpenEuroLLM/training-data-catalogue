@@ -37,7 +37,9 @@ module reset;
 module load LUMI cURL cray-python;
 
 DATA=edu;
-HF="https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/v1.4.0/";
+TARGET="HuggingFaceFW/fineweb-edu";
+REVISION="v1.4.0";
+HF="https://huggingface.co/datasets/${TARGET}/resolve/${REVISION}/";
 
 cd ${ROOT};
 
@@ -62,7 +64,12 @@ cat /dev/null > ${LOG};
 #
 # determine list of data files and create download map
 #
-python -c "import sys; sys.path.append(\"${BASE}/etc\"); import huggingface as hf; hf.api_retrieve_files(\"HuggingFaceFW/fineweb-edu\", \"v1.4.0\", \"^data/\");" \
+python -c "
+import sys;
+sys.path.append(\"${BASE}/etc\");
+import huggingface as hf;
+hf.api_retrieve_files(\"${TARGET}\", \"${REVISION}\", \"^data/\");
+" \
 | while read line; do \
   target=${line#data/};
   if [ ! -f ${target} ]; then 
@@ -74,7 +81,7 @@ done;
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: URL directives (${URL}):"
 cat ${URL};
 echo;
-
+exit;
 #
 # enable detailed download statistics
 #
