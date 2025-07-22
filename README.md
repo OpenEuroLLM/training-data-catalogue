@@ -35,7 +35,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + **[FineWeb 2](fineweb/2.1.0/README.md)** (https://github.com/huggingface/fineweb-2)
 + **[MADLAD-400](madlad-400/1.0/README.md)** ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
 + TxT360 (https://huggingface.co/datasets/LLM360/TxT360)
-+ Common Corpus (https://github.com/OpenEuroLLM/training-data-catalogue/blob/main/languages)
++ Common Corpus (https://huggingface.co/blog/Pclanglais/common-corpus)
 
 
 ## Parallel Pre-Training Data
