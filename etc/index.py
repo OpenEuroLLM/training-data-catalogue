@@ -61,7 +61,8 @@ def index_file(path, text = "text", url = "u", level = 1, write = True):
       stream = compressor.stream_writer(open(name, "wb"));
       stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
       for _, __ in sorted(dictionary.items()):
-        print(f"{_}\t{__["n"]}", end = "\t", file = stream);
+        print("{}\t{}".format(_, __["n"]),
+              end = "\t", file = stream);
         __.pop("n");
         json.dump(__, stream);
         print(file = stream);
@@ -178,7 +179,6 @@ def index_directory(path, pattern = "\\.jsonl\\.zst$", cores = 1, text = "text",
   n = r = 0;
   for key in ["domains", "urls", "signatures"]:
     inputs = connect(glob.glob(os.path.join(path, ".*." + key + ".zst")));
-    print(f"inputs: {inputs}");
     n += len(inputs);
     output = compress(key);
     r += merge(inputs, output);
