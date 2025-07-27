@@ -44,8 +44,8 @@ def index_file(path, text = "text", url = "u", level = 1):
   for i, line in enumerate(stream):
     try:
       _ = json.loads(line);
-      document = _[text];
-      signature = hashlib.md5(normalize.sub("", document).encode("utf-8")).hexdigest();
+      document = normalize.sub("", _[text]).lower();
+      signature = hashlib.md5(document.encode("utf-8")).hexdigest();
       if url is not None:
         address = _[url];
         domain = urlsplit(address).netloc;
@@ -201,7 +201,7 @@ def merge(inputs, stream):
     print(file = stream);
     n += 1;
     #
-    # update next key, count, and entry from this input file;
+    # get next key, count, and entry from this input file;
     # re-insert into the priority queue, unless exhausted
     #
     key, count, input = parse(input);
