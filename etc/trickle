@@ -1,0 +1,83 @@
+#!/bin/bash
+
+date=$(date "+%y-%m-%d");
+
+limit=200;
+
+while [ $# -gt 0 -a "${1#-}" != "$1" ]; do
+  case ${1} in
+    --start)
+      start=true;
+      shift 1;
+    ;;
+    --limit)
+      limit="${2}";
+      shift 2;
+    ;;
+    -d|--debug)
+      debug=true;
+      shift 1;
+    ;;
+  esac
+done
+
+batch="$1";
+
+if [ ! -f ${batch} ]; then
+  echo "trickle: invalid file \`${batch}'; exit.";
+  exit 1;
+fi
+
+log=trickle.${USER}.$(basename ${batch} .job).log;
+if [ ! -w ${log} ]; then log=/dev/null; fi
+current=${HOME}/.trickle.${USER}.$(basename ${batch} .job);
+tmp=/tmp/.trickle.${USER}.$$.tmp;
+/bin/rm -f ${tmp} > /dev/null 2>&1;
+
+if [ "${start}" = "true" ]; then
+  /bin/rm -f ${log} > /dev/null 2>&1;
+  /bin/rm -f ${current} > /dev/null 2>&1;
+fi
+
+if [ -f ${current} ]; then
+  i=$(cat ${current});
+fi
+if [ -z "${i}" ]; then i=0; fi
+
+if squeue -hu ${USER} > ${tmp}; then
+  :
+else
+  echo "trickle: squeue(1) failure; exit.";
+  exit 1;
+fi
+
+q=$(cat ${tmp} | wc -l);
+r=$(cat ${tmp} | egrep 'nid[0-9]+$' | wc -l);
+
+date=$(date "+%y-%m-%d %H:%M:%S");
+echo -n "[${date}] trickle[${i}]: ${q} jobs; ${r} running;";
+
+j=0; n=0;
+while read line; do
+  if [ $[${q} + ${n}] -ge ${limit} ]; then break; fi
+  if [ ${j} -ge ${i} ]; then
+    date=$(date "+%y-%m-%d %H:%M:%S");
+    id=$(eval ${line} 2>&1 | grep "Submitted batch job" | sed 's/[^0-9]//g');
+    if [ -z "${id}" -o $? -ne 0 ]; then
+      echo "trickle: sbatch(1) failure; exit.";
+      break;
+    fi
+    echo "[${date}] ${id}: ${line}" >> ${log};
+    sleep 0.5;
+    n=$[${n} + 1];
+  fi
+  j=$[${j} + 1];
+  if [ ${j} -ge $[${i} + ${limit}] ]; then
+    break;
+  fi
+done < ${batch}
+if [ ${j} -gt ${i} ]; then echo ${j} > ${current}; fi
+
+echo " ${n} new.";
+date=$(date "+%y-%m-%d %H:%M:%S");
+echo "[${date}] trickle[${i}]: ${q} jobs; ${r} running; ${n} new" >> ${log};
