@@ -16,26 +16,27 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 ## (Mostly) English Pre-Training Data
 
-+ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683), [HF repo](https://huggingface.co/datasets/allenai/c4))
-+ The Pile
++ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683))
++ The Pile ([Gao, et al., 2020](https://arxiv.org/abs/2101.00027), [Biderman, et al., 2022](https://arxiv.org/abs/2201.07311))
 + RefinedWeb
 + RedPajama
 + SlimPajama
 + Dolma
 + **[FineWeb 1](fineweb/1.4.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
 + **[DCLM](dclm/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
-+ **Nemotron-CC** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
++ **[Nemotron-CC](nemotron-cc/1.0/README.md)** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
 + **[Common Pile](common-pile/0.1/README.md)** ([Kandpal, et al., 2025](https://arxiv.org/abs/2506.05209))
 
 ## Multilingual Pre-Training Data
 
 + mC4
-+ CulturaX
-+ **[HPLT](hplt/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
-+ **FineWeb 2** (https://github.com/huggingface/fineweb-2)
-+ MADLAD-400 ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
-+ TxT360 (https://huggingface.co/spaces/LLM360/TxT360)
-+ CommonCorpus (raw pool)
++ CulturaX ([Nguyen, et al., 2024](https://aclanthology.org/2024.lrec-main.377/))
++ **[HPLT](hplt/2.0/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
++ **[FineWeb 2](fineweb/2.1.0/README.md)** (https://github.com/huggingface/fineweb-2)
++ **[MADLAD-400](madlad-400/1.0/README.md)** ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
++ TxT360 (https://huggingface.co/datasets/LLM360/TxT360)
++ Common Corpus (https://huggingface.co/blog/Pclanglais/common-corpus)
+
 
 ## Parallel Pre-Training Data
 
