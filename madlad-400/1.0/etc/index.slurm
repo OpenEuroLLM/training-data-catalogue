@@ -54,7 +54,7 @@ for i in ${*:-*}; do
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import index;
-index.index_directory(\"${path}\", pattern = \".jsonl.gz\", cores = ${CORES});
+index.index_directory(\"${path}\", pattern = \".jsonl.gz\", cores = ${CORES}, url = None);
   "
 done;
 
