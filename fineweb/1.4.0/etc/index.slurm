@@ -58,7 +58,7 @@ for i in ${*:-*}; do
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import index;
-index.index_directory(\"${path}\", cores = ${CORES});
+index.index_directory(\"${path}\", cores = ${CORES}, url = \"url\");
   "
 done;
 
