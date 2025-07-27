@@ -156,7 +156,7 @@ def parse(input):
     key = line[:_];
     line = line[_ + 1:];
     _ = line.find("\t");
-    count = line[:_];
+    count = int(line[:_]);
     entry = json.loads(line[_ + 1:]);
   except Exception as error:
     print("index.py: aborting input from {file}, #{}: {error}."
@@ -181,21 +181,19 @@ def merge(inputs, stream):
     #
     # process other (currently visible) entries with the same key
     #
-    for i in range(len(inputs), 0, -1):
-      if inputs[i - 1][0] == key:
-        #
-        # merge count and payload of matching entry
-        #
-        match = inputs.pop();
-        count += match[1];
-        input["entry"].update(match[2]["entry"]);
-        #
-        # update for next record and re-queue, unless exhausted
-        #
-        key, count, match = parse(match);
-        if key is None: continue;
-        else: inputs.append((key, count, match));
-      else: break;
+    while len(inputs) and inputs[-1][0] == key:
+      #
+      # merge count and payload of matching entry
+      #
+      match = inputs.pop();
+      count += match[1];
+      input["entry"].update(match[2]["entry"]);
+      #
+      # update for next record and re-queue, unless exhausted
+      #
+      match = parse(match[2]);
+      if match[0] is None: continue;
+      else: inputs.append(match);
     print(f"{key}\t{count}", end = "\t", file = stream);
     json.dump(input["entry"], stream);
     print(file = stream);
