@@ -18,7 +18,7 @@
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
-for i in data/*; do sbatch etc/index.slurm  | awk '/^ *Command=/ {sub(/^ *Command=/, "", $1); print $1;}');
+  | awk '/^ *Command=/ {sub(/^ *Command=/, "", $1); print $1;}');
   path=$(dirname ${script});
   ROOT="${path%/etc}";
 else
