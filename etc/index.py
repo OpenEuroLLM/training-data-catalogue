@@ -26,7 +26,9 @@ def index_file(path, text = "text", url = "u", level = 1, write = True):
           file = sys.stderr)
     exit(1);
 
-  domains = dict(); urls = dict(); signatures = dict();
+  signatures = dict();
+  if url is not None: domains = dict(); urls = dict();
+  else: domains = urls = None;
   normalize = re.compile(r"\W", re.IGNORECASE);
   directory, file = os.path.split(path);
   key = os.path.join(os.path.sep.join(directory.split(os.path.sep)[-level:]), file);
@@ -44,15 +46,17 @@ def index_file(path, text = "text", url = "u", level = 1, write = True):
       _ = json.loads(line);
       document = _[text];
       signature = hashlib.md5(normalize.sub("", document).encode("utf-8")).hexdigest();
-      address = _[url];
-      domain = urlsplit(address).netloc;
+      if url is not None:
+        address = _[url];
+        domain = urlsplit(address).netloc;
     except Exception as error:
       print(f"index_file(): #{i} decoding error: {error}.",
             file = sys.stderr);
       continue;
-    index(domain, domains);
-    index(address, urls);
     index(signature, signatures);
+    if url is not None:
+      index(domain, domains);
+      index(address, urls);
 
   if write:
     def output(dictionary, suffix):
@@ -70,9 +74,10 @@ def index_file(path, text = "text", url = "u", level = 1, write = True):
 
     for _ in (".zstd", ".zst", ".gz", ".jsonl", ".json"):
       if file.endswith(_): file = file[:-len(_)];
-    output(domains, ".domains");
-    output(urls, ".urls");
     output(signatures, ".signatures");
+    if url is not None:
+      output(domains, ".domains");
+      output(urls, ".urls");
 
     return i + 1;
   else:
@@ -171,13 +176,14 @@ def index_directory(path, pattern = "\\.jsonl\\.zst$", cores = 1, text = "text",
 
   def compress(suffix):
     name = os.path.join(path, "." + suffix + ".zst");
-    compressor = zstd.ZstdCompressor(level = 10, threads = 1);
+    compressor = zstd.ZstdCompressor(level = 10, threads = cores);
     stream = compressor.stream_writer(open(name, "wb"));
     stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
     return stream;
 
   n = r = 0;
-  for key in ["domains", "urls", "signatures"]:
+  
+  for key in ["domains", "urls", "signatures"] if url is not None else ["signatures"]:
     inputs = connect(glob.glob(os.path.join(path, ".*." + key + ".zst")));
     n += len(inputs);
     output = compress(key);
