@@ -83,32 +83,32 @@ def index_file(path, text = "text", url = "u", level = 1):
 def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
                     text = "text", url = "u", level = 1, tree = False):
 
-  pattern = re.compile(pattern);
-  def walk(path, tree):
+  def walk(path, pattern, tree):
     if not os.path.isdir(path):
       print(f"merge.py: ignoring invalid path {path}.",
             file = sys.stderr);
       return [];
     result = [];
-    for path in glob.glob(os.path.join(path, "*")):
+    for path in glob.glob(os.path.join(path, "*"), include_hidden = True):
       if tree and os.path.isdir(path):
-        result += walk(path, tree);
+        result += walk(path, pattern, tree);
       elif pattern.search(path) and os.path.isfile(path):
         result.append(path);
     return result;
 
   start = time.time();
+  pattern = re.compile(pattern);
   with mp.Pool(cores) as pool:
     counts = pool.starmap(index_file,
                           ((file, text, url, level)
-                           for file in walk(path, tree)));
+                           for file in walk(path, pattern, tree)));
   print("index.py: processed {} files; {} documents; {:.2f} seconds."
         "".format(len(counts), sum(counts), time.time() - start));
 
-  #
-  # open the individual index files and read their first entry
-  #
   def connect(files):
+    #
+    # open the individual index files and read their first entry
+    #
     inputs = [];
     for file in files:
       decompressor = zstd.ZstdDecompressor();
@@ -119,11 +119,11 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
       if key is None: continue;
       inputs.append((key, count, input));
     return inputs;
-  #
-  #
-  #
 
   def compress(suffix):
+    #
+    # create a compressed output stream
+    #
     name = os.path.join(path, "." + suffix + ".zst");
     compressor = zstd.ZstdCompressor(level = 10, threads = cores);
     stream = compressor.stream_writer(open(name, "wb"));
@@ -131,9 +131,9 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
     return stream;
 
   n = r = 0;
-  
   for key in ["domains", "urls", "signatures"] if url is not None else ["signatures"]:
-    inputs = connect(glob.glob(os.path.join(path, ".*." + key + ".zst")));
+    pattern = re.compile(r"\..+\." + key + ".zst$");
+    inputs = connect(walk(path, pattern, tree));
     n += len(inputs);
     output = compress(key);
     r += merge(inputs, output);
