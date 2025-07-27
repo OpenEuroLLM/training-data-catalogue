@@ -4,6 +4,7 @@ import gzip;
 import hashlib;
 import json;
 import multiprocessing as mp;
+from operator import itemgetter;
 import os;
 import re;
 import sys;
@@ -83,6 +84,106 @@ def index_directory(path, pattern = "\\.jsonl\\.zst$", cores = 1, text = "text",
                           ((file, text, url, level)
                            for file in glob.glob(os.path.join(path, "*"))
                            if re.search(pattern, file)));
-  print("index.py: {} files; {} documents; {:.2f} seconds."
+  print("index.py: processed {} files; {} documents; {:.2f} seconds."
         "".format(len(counts), sum(counts), time.time() - start));
+
+  #
+  # open the individual index files and read their first entry
+  #
+  def connect(files):
+    inputs = [];
+    for file in files:
+      decompressor = zstd.ZstdDecompressor();
+      stream = decompressor.stream_reader(open(file, "rb"));
+      stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+      input = {"stream": stream, "file": file, "n": 0};
+      key, count, input = parse(input);
+      if key is None: continue;
+      inputs.append((key, count, input));
+    return inputs;
+  #
+  # parse one tab-separated entry from an index file
+  #
+  def parse(input):
+    line = next(input["stream"], None);
+    if line is None:
+      input["stream"].close();
+      return None, None, None;
+    input["n"] += 1;
+    try:
+      _ = line.find("\t");
+      key = line[:_];
+      line = line[_ + 1:];
+      _ = line.find("\t");
+      count = line[:_];
+      entry = json.loads(line[_ + 1:]);
+    except Exception as error:
+      print("index.py: aborting input from {file}, #{}: {error}."
+            "".format(input["file"], input["n"], error),
+            file = sys.stderr);
+      input["stream"].close();
+      return None, None, None;
+    input["entry"] = entry;
+    return key, count, input;
+  #
+  #
+  #
+  def merge(inputs, stream):
+    n = 0;
+    while len(inputs):
+      #
+      # _fix_me_ should use a genuine priority queue
+      # 
+      inputs.sort(key = itemgetter(0));
+      key, count, input = inputs.pop();
+      #
+      # process other (currently visible) entries with the same key
+      #
+      for i in range(len(inputs), 0, -1):
+        if inputs[i - 1][0] == key:
+          #
+          # merge count and payload of matching entry
+          #
+          match = inputs.pop();
+          count += match[1];
+          input["entry"].update(match[2]["entry"]);
+          #
+          # update for next record and re-queue, unless exhausted
+          #
+          key, count, match = parse(match);
+          if key is None: continue;
+          else: inputs.append((key, count, match));
+        else: break;
+      print(f"{key}\t{count}", end = "\t", file = stream);
+      json.dump(input["entry"], stream);
+      print(file = stream);
+      n += 1;
+      #
+      # update next key, count, and entry from this input file;
+      # re-insert into the priority queue, unless exhausted
+      #
+      key, count, input = parse(input);
+      if key is None: continue;
+      else: inputs.append((key, count, input));
+
+    return n;
+
+  def compress(suffix):
+    name = os.path.join(path, "." + suffix + ".zst");
+    compressor = zstd.ZstdCompressor(level = 10, threads = 1);
+    stream = compressor.stream_writer(open(name, "wb"));
+    stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+    return stream;
+
+  n = r = 0;
+  for key in ["domains", "urls", "signatures"]:
+    inputs = connect(glob.glob(os.path.join(path, ".*." + key + ".zst")));
+    print(f"inputs: {inputs}");
+    n += len(inputs);
+    output = compress(key);
+    r += merge(inputs, output);
+    output.close();
+    for _ in inputs: _["stream"].close();
+  print("index.py: merged {} files; {} records; {:.2f} seconds."
+        "".format(n, r, time.time() - start));
     
