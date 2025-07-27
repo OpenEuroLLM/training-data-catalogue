@@ -38,7 +38,6 @@ def index_file(path, text = "text", url = "u", level = 1, write = True):
     else:
       dictionary[item] = {"n": 1, key: [i]};
 
-  start = time.time();
   for i, line in enumerate(stream):
     try:
       _ = json.loads(line);
@@ -56,26 +55,34 @@ def index_file(path, text = "text", url = "u", level = 1, write = True):
 
   if write:
     def output(dictionary, suffix):
-      with open(os.path.join(directory, "." + file + suffix),
-                "w", encoding="utf-8") as stream:
-        for _, __ in sorted(dictionary.items()):
-          print(f"{_}: ", end = "", file = stream);
-          json.dump(__, stream);
-          print(file = stream);
+      name = os.path.join(directory, "." + file + suffix + ".zst");
+      compressor = zstd.ZstdCompressor(level = 10, threads = 1);
+      stream = compressor.stream_writer(open(name, "wb"));
+      stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+      for _, __ in sorted(dictionary.items()):
+        print(f"{_}\t{__["n"]}", end = "\t", file = stream);
+        __.pop("n");
+        json.dump(__, stream);
+        print(file = stream);
+      stream.close();
+
     for _ in (".zstd", ".zst", ".gz", ".jsonl", ".json"):
       if file.endswith(_): file = file[:-len(_)];
-    output(domains, ".domains.jsonl");
-    output(urls, ".urls.jsonl");
-    output(signatures, ".signatures.jsonl");
-  return i + 1;
+    output(domains, ".domains");
+    output(urls, ".urls");
+    output(signatures, ".signatures");
+
+    return i + 1;
+  else:
+    return domains, urls, signatures;
       
-def index_directory(path, pattern = "\\.zst$", cores = 1, text = "text", url = "u", level = 1):
+def index_directory(path, pattern = "\\.jsonl\\.zst$", cores = 1, text = "text", url = "u", level = 1):
   start = time.time();
   with mp.Pool(cores) as pool:
     counts = pool.starmap(index_file,
                           ((file, text, url, level)
                            for file in glob.glob(os.path.join(path, "*"))
                            if re.search(pattern, file)));
-  print("index.py: {} files; {} documents; {} seconds."
+  print("index.py: {} files; {} documents; {:.2f} seconds."
         "".format(len(counts), sum(counts), time.time() - start));
     
