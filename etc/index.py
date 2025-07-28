@@ -63,11 +63,11 @@ def index_file(path, text = "text", url = "u", level = 1):
     compressor = zstd.ZstdCompressor(level = 10, threads = 1);
     stream = compressor.stream_writer(open(name, "wb"));
     stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
-    for _, __ in sorted(dictionary.items()):
-      print("{}\t{}".format(_, __["n"]),
+    for key, value in sorted(dictionary.items()):
+      print("{}\t{}".format(key, value["n"]),
             end = "\t", file = stream);
-      __.pop("n");
-      json.dump(__, stream);
+      value.pop("n");
+      json.dump(value, stream);
       print(file = stream);
     stream.close();
 
@@ -153,7 +153,7 @@ def parse(input):
   line = next(input["stream"], None);
   if line is None:
     input["stream"].close();
-    return None, None, None;
+    return None, None, input;
   input["n"] += 1;
   try:
     _ = line.find("\t");
@@ -167,13 +167,13 @@ def parse(input):
           "".format(input["file"], input["n"], error),
           file = sys.stderr);
     input["stream"].close();
-    return None, None, None;
+    return None, None, input;
   input["entry"] = entry;
   return key, count, input;
 
 def merge(inputs, stream):
   #
-  # sorted merge set of records from a set of input streams
+  # sorted merge records from a set of input streams
   #
   n = 0;
   while len(inputs):
@@ -181,15 +181,16 @@ def merge(inputs, stream):
     # _fix_me_ should use a genuine priority queue
     # 
     inputs.sort(key = itemgetter(0));
-    key, count, input = inputs.pop();
+    key, count, input = inputs.pop(0);
+
     #
     # process other (currently visible) entries with the same key
     #
-    while len(inputs) and inputs[-1][0] == key:
+    while len(inputs) and inputs[0][0] == key:
       #
       # merge count and payload of matching entry
       #
-      match = inputs.pop();
+      match = inputs.pop(0);
       count += match[1];
       input["entry"].update(match[2]["entry"]);
       #
@@ -213,62 +214,75 @@ def merge(inputs, stream):
   return n;
 
 def intersect(left, right):
-  
-  def match(queue, key):
+  def match(queue, key, counts):
     count = 0;
-    while len(queue) and queue[-1][0] == key:
-      match = left.pop();
+    while len(queue) and queue[0][0] == key:
+      match = queue.pop(0);
       count += match[1];
       match = parse(match[2]);
-      if match[0] is None: continue;
+      if match[0] is None:
+        counts["n"] += match[2]["n"];
+        continue;
       else: queue.append(match);
     return count;
 
+  def drain(queue, counts):
+    n = 0;
+    while len(queue):
+      key, count, entry = queue.pop(0);
+      while key is not None:
+        n += count;
+        key, count, entry = parse(entry);
+      counts["n"] += entry["n"];
+    return n;
+  
   if not isinstance(left, list): left = [left];
-  if not isinstance(right, list): right = [right];
-  for _ in left + right:
+  if right is not None and not isinstance(right, list): right = [right];
+  for _ in left + right if right is not None else []:
     if not os.path.isfile(_):
       print(f"intersect(): invalid input {_}; exit.",
             file = sys.stderr);
       return None;
   left = connect(left);
-  right = connect(right);
-  counts = {"left": 0, "right": 0, "joint": 0};
-  n = 0;
+  if right is not None: right = connect(right);
+  counts = {"left": 0, "right": 0, "joint": 0, "m": 0, "n": 0};
   while len(left) and len(right):
     #
     # _fix_me_ should use a genuine priority queue
     #
     left.sort(key = itemgetter(0));
     right.sort(key = itemgetter(0));
-    l = left[-1]; r = right[-1]; 
+    l = left[0]; r = right[0]; 
     if l[0] == r[0]:
-      lkey, lcount, l = left.pop();
-      lcount += match(left, lkey);
-      rkey, rcount, r = right.pop();
-      rcount += match(right, rkey);
+      counts["m"] += 1;
+      lkey, lcount, l = left.pop(0);
+      lcount += match(left, lkey, counts);
+      rkey, rcount, r = right.pop(0);
+      rcount += match(right, rkey, counts);
       j = min(lcount, rcount);
       counts["joint"] += j;
       counts["left"] += lcount - j;
       counts["right"] += rcount - j;
       lkey, lcount, l = parse(l);
-      if lkey is not None: left.append((lkey, lcount, l));
+      if lkey is None: counts["n"] += l["n"];
+      else: left.append((lkey, lcount, l));
       rkey, rcount, r = parse(r);
-      if rkey is not None: right.append((rkey, rcount, r));
+      if rkey is None: counts["n"] += r["n"];
+      else: right.append((rkey, rcount, r));
     elif l[0] < r[0]:
-      lkey, lcount, l = left.pop();
+      lkey, lcount, l = left.pop(0);
       counts["left"] += lcount;
       lkey, lcount, l = parse(l);
-      if lkey is not None: left.append((lkey, lcount, l));
+      if lkey is None: counts["n"] += l["n"];
+      else: left.append((lkey, lcount, l));
     else:
-      rkey, rcount, r = right.pop();
+      rkey, rcount, r = right.pop(0);
       counts["right"] += rcount;
       rkey, rcount, r = parse(r);
-      if rkey is not None: right.append((rkey, rcount, r));
-  if len(left):
-    for _ in left: counts["left"] += _[1];
-  if len(right):
-    for _ in right: counts["right"] += _[1];
+      if rkey is None: counts["n"] += r["n"];
+      else: right.append((rkey, rcount, r));
+
+  counts["left"] += drain(left, counts);
+  counts["right"] += drain(right, counts);
       
-  counts["n"] = n;
   return counts;
