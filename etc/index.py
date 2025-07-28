@@ -120,9 +120,9 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
   n = r = 0;
   for key in ["domains", "urls", "signatures"] if url is not None else ["signatures"]:
     pattern = re.compile(r"\.[^/]+\." + key + ".zst$");
-    inputs = walk(path, pattern, tree);
+    files = walk(path, pattern, tree);
     print("index.py: merging {}.".format([file[len(path) + 1:] for file in files]));
-    inputs = connect(inputs);
+    inputs = connect(files);
     n += len(inputs);
     output = compress(key);
     r += merge(inputs, output);
