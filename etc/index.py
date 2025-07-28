@@ -84,6 +84,7 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
                     text = "text", url = "u", level = 1, tree = False):
 
   def walk(path, pattern, tree):
+    block = re.compile(r"/\.(?:domains|urls|signatures)\.zst$");
     if not os.path.isdir(path):
       print(f"merge.py: ignoring invalid path {path}.",
             file = sys.stderr);
@@ -92,16 +93,17 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
     for path in glob.glob(os.path.join(path, "*"), include_hidden = True):
       if tree and os.path.isdir(path):
         result += walk(path, pattern, tree);
-      elif pattern.search(path) and os.path.isfile(path):
-        result.append(path);
+      elif os.path.isfile(path) and pattern.search(path):
+        if not block.search(path): result.append(path);
     return result;
 
   start = time.time();
   pattern = re.compile(pattern);
+  files = walk(path, pattern, tree);
+  print("index.py: reading {}.".format([file[len(path) + 1:] for file in files]));
   with mp.Pool(cores) as pool:
     counts = pool.starmap(index_file,
-                          ((file, text, url, level)
-                           for file in walk(path, pattern, tree)));
+                          ((file, text, url, level) for file in files));
   print("index.py: processed {} files; {} documents; {:.2f} seconds."
         "".format(len(counts), sum(counts), time.time() - start));
 
@@ -132,8 +134,10 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
 
   n = r = 0;
   for key in ["domains", "urls", "signatures"] if url is not None else ["signatures"]:
-    pattern = re.compile(r"\..+\." + key + ".zst$");
-    inputs = connect(walk(path, pattern, tree));
+    pattern = re.compile(r"\.[^/]+\." + key + ".zst$");
+    inputs = walk(path, pattern, tree);
+    print("index.py: merging {}.".format([file[len(path) + 1:] for file in files]));
+    inputs = connect(inputs);
     n += len(inputs);
     output = compress(key);
     r += merge(inputs, output);
