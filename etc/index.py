@@ -169,7 +169,6 @@ def parse(input):
     input["stream"].close();
     return None, None, None;
   input["entry"] = entry;
-  print(key, count, input);
   return key, count, input;
 
 def merge(inputs, stream):
@@ -236,35 +235,40 @@ def intersect(left, right):
   right = connect(right);
   counts = {"left": 0, "right": 0, "joint": 0};
   n = 0;
-  while len(left) or len(right):
+  while len(left) and len(right):
     #
     # _fix_me_ should use a genuine priority queue
     #
-    if len(left):
-      left.sort(key = itemgetter(0));
+    left.sort(key = itemgetter(0));
+    right.sort(key = itemgetter(0));
+    l = left[-1]; r = right[-1]; 
+    if l[0] == r[0]:
       lkey, lcount, l = left.pop();
       lcount += match(left, lkey);
-      n += 1;
-    else: lkey, lcount, l = None, 0, None;
-    if len(right):
-      right.sort(key = itemgetter(0));
       rkey, rcount, r = right.pop();
       rcount += match(right, rkey);
-      n += 1;
-    else: rkey, rcount, r = None, 0, None;
-    if lkey == rkey:
-      counts["joint"] += lcount + rcount;
-    else:
-      counts["left"] += lcount;
-      counts["right"] += rcount;
-    if l is not None:
+      j = min(lcount, rcount);
+      counts["joint"] += j;
+      counts["left"] += lcount - j;
+      counts["right"] += rcount - j;
       lkey, lcount, l = parse(l);
-      if lkey is None: continue;
-      else: left.append((lkey, lcount, l));
-    if r is not None:
+      if lkey is not None: left.append((lkey, lcount, l));
       rkey, rcount, r = parse(r);
-      if rkey is None: continue;
-      else: right.append((rkey, rcount, r));
-
+      if rkey is not None: right.append((rkey, rcount, r));
+    elif l[0] < r[0]:
+      lkey, lcount, l = left.pop();
+      counts["left"] += lcount;
+      lkey, lcount, l = parse(l);
+      if lkey is not None: left.append((lkey, lcount, l));
+    else:
+      rkey, rcount, r = right.pop();
+      counts["right"] += rcount;
+      rkey, rcount, r = parse(r);
+      if rkey is not None: right.append((rkey, rcount, r));
+  if len(left):
+    for _ in left: counts["left"] += _[1];
+  if len(right):
+    for _ in right: counts["right"] += _[1];
+      
   counts["n"] = n;
   return counts;
