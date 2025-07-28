@@ -107,21 +107,6 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
   print("index.py: processed {} files; {} documents; {:.2f} seconds."
         "".format(len(counts), sum(counts), time.time() - start));
 
-  def connect(files):
-    #
-    # open the individual index files and read their first entry
-    #
-    inputs = [];
-    for file in files:
-      decompressor = zstd.ZstdDecompressor();
-      stream = decompressor.stream_reader(open(file, "rb"));
-      stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
-      input = {"stream": stream, "file": file, "n": 0};
-      key, count, input = parse(input);
-      if key is None: continue;
-      inputs.append((key, count, input));
-    return inputs;
-
   def compress(suffix):
     #
     # create a compressed output stream
@@ -146,6 +131,21 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
   print("index.py: merged {} files; {} records; {:.2f} seconds."
         "".format(n, r, time.time() - start));
 
+def connect(files):
+  #
+  # open the individual index files and read their first entry
+  #
+  inputs = [];
+  for file in files:
+    decompressor = zstd.ZstdDecompressor();
+    stream = decompressor.stream_reader(open(file, "rb"));
+    stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+    input = {"stream": stream, "file": file, "n": 0};
+    key, count, input = parse(input);
+    if key is None: continue;
+    inputs.append((key, count, input));
+  return inputs;
+
 def parse(input):
   #
   # parse one tab-separated entry from an index file
@@ -169,6 +169,7 @@ def parse(input):
     input["stream"].close();
     return None, None, None;
   input["entry"] = entry;
+  print(key, count, input);
   return key, count, input;
 
 def merge(inputs, stream):
@@ -212,5 +213,58 @@ def merge(inputs, stream):
 
   return n;
 
-def compare_directories(left, right):
-  1;
+def intersect(left, right):
+  
+  def match(queue, key):
+    count = 0;
+    while len(queue) and queue[-1][0] == key:
+      match = left.pop();
+      count += match[1];
+      match = parse(match[2]);
+      if match[0] is None: continue;
+      else: queue.append(match);
+    return count;
+
+  if not isinstance(left, list): left = [left];
+  if not isinstance(right, list): right = [right];
+  for _ in left + right:
+    if not os.path.isfile(_):
+      print(f"intersect(): invalid input {_}; exit.",
+            file = sys.stderr);
+      return None;
+  left = connect(left);
+  right = connect(right);
+  counts = {"left": 0, "right": 0, "joint": 0};
+  n = 0;
+  while len(left) or len(right):
+    #
+    # _fix_me_ should use a genuine priority queue
+    #
+    if len(left):
+      left.sort(key = itemgetter(0));
+      lkey, lcount, l = left.pop();
+      lcount += match(left, lkey);
+      n += 1;
+    else: lkey, lcount, l = None, 0, None;
+    if len(right):
+      right.sort(key = itemgetter(0));
+      rkey, rcount, r = right.pop();
+      rcount += match(right, rkey);
+      n += 1;
+    else: rkey, rcount, r = None, 0, None;
+    if lkey == rkey:
+      counts["joint"] += lcount + rcount;
+    else:
+      counts["left"] += lcount;
+      counts["right"] += rcount;
+    if l is not None:
+      lkey, lcount, l = parse(l);
+      if lkey is None: continue;
+      else: left.append((lkey, lcount, l));
+    if r is not None:
+      rkey, rcount, r = parse(r);
+      if rkey is None: continue;
+      else: right.append((rkey, rcount, r));
+
+  counts["n"] = n;
+  return counts;
