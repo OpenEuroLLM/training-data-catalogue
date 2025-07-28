@@ -22,7 +22,7 @@ def index_file(path, text = "text", url = "u", level = 1):
   elif path.endswith(".gz"):
     stream = gzip.open(path, mode = "rt", encoding = "utf-8", errors = "replace");
   else:
-    print("index_file(): invalid input format {path}; exit.",
+    print(f"index_file(): invalid input format {path}; exit.",
           file = sys.stderr)
     exit(1);
 
@@ -163,7 +163,7 @@ def parse(input):
     count = int(line[:_]);
     entry = json.loads(line[_ + 1:]);
   except Exception as error:
-    print("index.py: aborting input from {file}, #{}: {error}."
+    print("index.py: aborting input from {}, #{}: {}."
           "".format(input["file"], input["n"], error),
           file = sys.stderr);
     input["stream"].close();
