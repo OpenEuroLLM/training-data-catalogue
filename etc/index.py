@@ -142,8 +142,7 @@ def connect(files):
     stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
     input = {"stream": stream, "file": file, "n": 0};
     key, count, input = parse(input);
-    if key is None: continue;
-    inputs.append((key, count, input));
+    if key is not None: inputs.append((key, count, input));
   return inputs;
 
 def parse(input):
@@ -173,7 +172,7 @@ def parse(input):
 
 def merge(inputs, stream):
   #
-  # sorted merge records from a set of input streams
+  # sorted merge of records from a set of input streams
   #
   n = 0;
   while len(inputs):
@@ -214,6 +213,7 @@ def merge(inputs, stream):
   return n;
 
 def intersect(left, right):
+
   def match(queue, key, counts):
     count = 0;
     while len(queue) and queue[0][0] == key:
@@ -237,15 +237,15 @@ def intersect(left, right):
     return n;
   
   if not isinstance(left, list): left = [left];
-  if right is not None and not isinstance(right, list): right = [right];
-  for _ in left + right if right is not None else []:
+  if not isinstance(right, list): right = [right];
+  for _ in left + right:
     if not os.path.isfile(_):
       print(f"intersect(): invalid input {_}; exit.",
             file = sys.stderr);
       return None;
   left = connect(left);
-  if right is not None: right = connect(right);
-  counts = {"left": 0, "right": 0, "joint": 0, "m": 0, "n": 0};
+  right = connect(right);
+  counts = {"left": 0, "right": 0, "both": 0, "m": 0, "n": 0};
   while len(left) and len(right):
     #
     # _fix_me_ should use a genuine priority queue
@@ -260,7 +260,7 @@ def intersect(left, right):
       rkey, rcount, r = right.pop(0);
       rcount += match(right, rkey, counts);
       j = min(lcount, rcount);
-      counts["joint"] += j;
+      counts["both"] += j;
       counts["left"] += lcount - j;
       counts["right"] += rcount - j;
       lkey, lcount, l = parse(l);
@@ -284,5 +284,45 @@ def intersect(left, right):
 
   counts["left"] += drain(left, counts);
   counts["right"] += drain(right, counts);
-      
+
+  l = counts["left"]; r = counts["right"]; b = counts["both"];
+  print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
+        "".format(b, l, r, l + r, b / (l + b) * 100, b / (r + b) * 100));
+  return counts;
+
+def inspect(inputs):
+
+  def match(queue, key, counts):
+    count = 0;
+    while len(queue) and queue[0][0] == key:
+      match = queue.pop(0);
+      count += match[1];
+      match = parse(match[2]);
+      if match[0] is None:
+        counts["n"] += match[2]["n"];
+        continue;
+      else: queue.append(match);
+    return count;
+
+  if not isinstance(inputs, list): inputs = [inputs];
+  for _ in inputs:
+    if not os.path.isfile(_):
+      print(f"inspect(): invalid input {_}; exit.",
+            file = sys.stderr);
+      return None;
+  inputs = connect(inputs);
+  counts = {"unique": 0, "repeat": 0, "n": 0};
+  while len(inputs):
+    inputs.sort(key = itemgetter(0));
+    key, count, entry = inputs.pop(0);
+    count += match(inputs, key, counts);
+    counts["unique"] += 1
+    counts["repeat"] += count - 1;
+    key, count, entry = parse(entry);
+    if key is None: counts["n"] += entry["n"];
+    else: inputs.append((key, count, entry));
+
+  r = counts["repeat"]; u = counts["unique"];
+  print("inspect(): {} repeated records (of {}); {:.2f}% self-overlap."
+        "".format(r, u + r, r / (u + r) * 100));
   return counts;
