@@ -287,7 +287,7 @@ def intersect(left, right):
 
   l = counts["left"]; r = counts["right"]; b = counts["both"];
   print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
-        "".format(b, l, r, l + r, b / (l + b) * 100, b / (r + b) * 100));
+        "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100));
   return counts;
 
 def inspect(inputs):
@@ -330,15 +330,16 @@ def inspect(inputs):
 def deliverable():
   path = "/appl/local/openeurollm/training/catalogue";
   for k in ["domains", "urls", "signatures"]:
-    for d in ["fineweb/2.1.0/data", "hplt/2.0/cleaned"]:
-      f = []; h = [];
-      for l in ["nob", "nno"]:
-        f.append(os.path.join(path, d, l + "_Latn", "." + k + ".zst"));
-        h.append(os.path.join(path, d, l + "_Latn", "." + k + ".zst"));
-      print(f"{d} {k}:");
-      inspect(f)
+    d = ["fineweb/2.1.0/data", "hplt/2.0/cleaned"];
+    f = []; h = [];
+    for l in ["nob", "nno"]:
+      f.append(os.path.join(path, d[0], l + "_Latn", "." + k + ".zst"));
+      h.append(os.path.join(path, d[1], l + "_Latn", "." + k + ".zst"));
+    print(f"{d[0]} {k}:");
+    inspect(f)
+    print(f"{d[1]} {k}:");
+    inspect(h)
     intersect(f, h)
-  k = "signatures";
   d = "madlad/1.0/clean";
   m = os.path.join(path, d, "nor_Latn", "." + k + ".zst");
   print(f"{d} {k}:");
