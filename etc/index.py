@@ -329,8 +329,8 @@ def inspect(inputs):
 
 def deliverable():
   path = "/appl/local/openeurollm/training/catalogue";
+  d = ["fineweb/2.1.0/data", "hplt/2.0/cleaned"];
   for k in ["domains", "urls", "signatures"]:
-    d = ["fineweb/2.1.0/data", "hplt/2.0/cleaned"];
     f = []; h = [];
     for l in ["nob", "nno"]:
       f.append(os.path.join(path, d[0], l + "_Latn", "." + k + ".zst"));
@@ -340,12 +340,12 @@ def deliverable():
     print(f"{d[1]} {k}:");
     inspect(h)
     intersect(f, h)
-  d = "madlad/1.0/clean";
+  d = "madlad-400/1.0/clean";
   m = os.path.join(path, d, "nor_Latn", "." + k + ".zst");
   print(f"{d} {k}:");
-  inspect(f)
-  print(f"fineweb/2.1.0/data / {d} {k}:");
+  inspect(m)
+  print(f"fineweb/2.1.0/ / {d} {k}:");
   intersect(f, m)
   print(f"hplt/2.0/cleaned / {d} {k}:");
-  intersect(f, h)
+  intersect(h, m)
   
