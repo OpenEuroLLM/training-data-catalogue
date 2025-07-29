@@ -326,3 +326,25 @@ def inspect(inputs):
   print("inspect(): {} repeated records (of {}); {:.2f}% self-overlap."
         "".format(r, u + r, r / (u + r) * 100));
   return counts;
+
+def deliverable():
+  path = "/appl/local/openeurollm/training/catalogue";
+  for k in ["urls", "domains", "signatures"]:
+    for d in ["fineweb/2.1.0/data", "hplt/2.0/cleaned"]:
+      f = []; h = [];
+      for l in ["nob", "nno"]:
+        f.append(os.path.join(path, d, l + "_Latn", "." + k + ".zst"));
+        h.append(os.path.join(path, d, l + "_Latn", "." + k + ".zst"));
+      print(f"{d} {k}:");
+      inspect(f)
+    intersect(f, h)
+  k = "signatures";
+  d = "madlad/1.0/clean";
+  m = append(os.path.join(path, d, "nor_Latn", "." + k + ".zst"));
+  print(f"{d} {k}:");
+  inspect(f)
+  print(f"fineweb/2.1.0/data / {d} {k}:");
+  intersect(f, m)
+  print(f"hplt/2.0/cleaned / {d} {k}:");
+  intersect(f, h)
+  
