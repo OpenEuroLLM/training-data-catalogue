@@ -170,6 +170,18 @@ def parse(input):
   input["entry"] = entry;
   return key, count, input;
 
+def match(queue, key, counts):
+  count = 0;
+  while len(queue) and queue[0][0] == key:
+    match = queue.pop(0);
+    count += match[1];
+    match = parse(match[2]);
+    if match[0] is None:
+      counts["n"] += match[2]["n"];
+      continue;
+    else: queue.append(match);
+  return count;
+
 def merge(inputs, stream):
   #
   # sorted merge of records from a set of input streams
@@ -212,19 +224,7 @@ def merge(inputs, stream):
 
   return n;
 
-def intersect(left, right):
-
-  def match(queue, key, counts):
-    count = 0;
-    while len(queue) and queue[0][0] == key:
-      match = queue.pop(0);
-      count += match[1];
-      match = parse(match[2]);
-      if match[0] is None:
-        counts["n"] += match[2]["n"];
-        continue;
-      else: queue.append(match);
-    return count;
+def intersect(left, right, verbose = False):
 
   def drain(queue, counts):
     n = 0;
@@ -235,7 +235,7 @@ def intersect(left, right):
         key, count, entry = parse(entry);
       counts["n"] += entry["n"];
     return n;
-  
+
   if not isinstance(left, list): left = [left];
   if not isinstance(right, list): right = [right];
   for _ in left + right:
@@ -243,9 +243,10 @@ def intersect(left, right):
       print(f"intersect(): invalid input {_}; exit.",
             file = sys.stderr);
       return None;
+  counts = {"left": 0, "right": 0, "both": 0,
+            "l": left, "r": right, "m": 0, "n": 0};
   left = connect(left);
   right = connect(right);
-  counts = {"left": 0, "right": 0, "both": 0, "m": 0, "n": 0};
   while len(left) and len(right):
     #
     # _fix_me_ should use a genuine priority queue
@@ -285,24 +286,34 @@ def intersect(left, right):
   counts["left"] += drain(left, counts);
   counts["right"] += drain(right, counts);
 
+  if verbose is not False:
+    l = counts["l"][len(verbose):];
+    r = counts["r"][len(verbose):];
+    print("intersect: {} / {}.".format(l, r));
   l = counts["left"]; r = counts["right"]; b = counts["both"];
   print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
         "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100));
   return counts;
 
+def intersect_directory(path, pattern = "CC-MAIN-*",
+                        key = "signatures", slices = 10, cores = 8):
+  all = sorted(glob.glob(os.path.join(path, pattern)));
+  sample = [];
+  suffix = "." + key + ".zst";
+  i = 0;
+  while i < len(all):
+    print(i);
+    sample.append(os.path.join(all[round(i)], suffix));
+    i += len(all) / (slices - 1);
+  sample.append(os.path.join(all[-1], suffix));
+  return sample;
+  with mp.Pool(cores) as pool:
+    pool.starmap(intersect,
+                 ((sample[i], sample[j], path)
+                  for i in range(0, slices)
+                  for j in range(i + 1, slices)));
+
 def inspect(inputs):
-
-  def match(queue, key, counts):
-    count = 0;
-    while len(queue) and queue[0][0] == key:
-      match = queue.pop(0);
-      count += match[1];
-      match = parse(match[2]);
-      if match[0] is None:
-        counts["n"] += match[2]["n"];
-        continue;
-      else: queue.append(match);
-    return count;
 
   if not isinstance(inputs, list): inputs = [inputs];
   for _ in inputs:
@@ -348,4 +359,3 @@ def deliverable():
   intersect(f, m)
   print(f"hplt/2.0/cleaned / {d} {k}:");
   intersect(h, m)
-  
