@@ -224,7 +224,7 @@ def merge(inputs, stream):
 
   return n;
 
-def intersect(left, right, verbose = False):
+def intersect(left, right, verbose = False, level = 2):
 
   def drain(queue, counts):
     n = 0;
@@ -236,15 +236,20 @@ def intersect(left, right, verbose = False):
       counts["n"] += entry["n"];
     return n;
 
+  def shorten(path):
+    return os.path.sep.join(path.split(os.path.sep)[-level:]);
+
   if not isinstance(left, list): left = [left];
   if not isinstance(right, list): right = [right];
   for _ in left + right:
-    if not os.path.isfile(_):
+    if not os.path.isfile(_) and verbose:
       print(f"intersect(): invalid input {_}; exit.",
             file = sys.stderr);
       return None;
   counts = {"left": 0, "right": 0, "both": 0,
-            "l": left, "r": right, "m": 0, "n": 0};
+            "l": [shorten(_) for _ in left],
+            "r": [shorten(_) for _ in right],
+            "m": 0, "n": 0};
   left = connect(left);
   right = connect(right);
   while len(left) and len(right):
@@ -286,32 +291,37 @@ def intersect(left, right, verbose = False):
   counts["left"] += drain(left, counts);
   counts["right"] += drain(right, counts);
 
-  if verbose is not False:
-    l = counts["l"][len(verbose):];
-    r = counts["r"][len(verbose):];
-    print("intersect: {} / {}.".format(l, r));
-  l = counts["left"]; r = counts["right"]; b = counts["both"];
-  print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
-        "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100));
+  if verbose:
+    print("intersect: {} / {}.".format(counts["l"], counts["r"]), file = log);
+    l = counts["left"]; r = counts["right"]; b = counts["both"];
+    print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
+          "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100),
+          file = sys.stderr);
   return counts;
 
 def intersect_directory(path, pattern = "CC-MAIN-*",
                         key = "signatures", slices = 10, cores = 8):
+
   all = sorted(glob.glob(os.path.join(path, pattern)));
   sample = [];
   suffix = "." + key + ".zst";
   i = 0;
   while i < len(all):
-    print(i);
     sample.append(os.path.join(all[round(i)], suffix));
     i += len(all) / (slices - 1);
   sample.append(os.path.join(all[-1], suffix));
-  return sample;
+
   with mp.Pool(cores) as pool:
-    pool.starmap(intersect,
-                 ((sample[i], sample[j], path)
-                  for i in range(0, slices)
-                  for j in range(i + 1, slices)));
+    results = pool.starmap(intersect,
+                           ((sample[i], sample[j], False)
+                            for i in range(0, slices)
+                            for j in range(i + 1, slices)));
+
+  for counts in results:
+    print("intersect: {} / {}.".format(counts["l"], counts["r"]));
+    l = counts["left"]; r = counts["right"]; b = counts["both"];
+    print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
+          "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100));
 
 def inspect(inputs):
 

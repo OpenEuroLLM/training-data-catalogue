@@ -1,17 +1,17 @@
 #!/bin/bash
 
 #
-# for i in ./data/*; do sbatch etc/index.slurm $i; done
+# sbatch etc/intersect.slurm
 #
 
-#SBATCH --job-name=index
+#SBATCH --job-name=intersect
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem-per-cpu=16380M
+#SBATCH --cpus-per-task=100
+#SBATCH --mem-per-cpu=2G
 
 #
 # determine our root directory and load a common preabmle
@@ -45,27 +45,18 @@ DATA=clean;
 
 cd ${ROOT};
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: root in ${ROOT}; target: ${DATA}."
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: using ${CORES} cores."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] intersect.slurm: root in ${ROOT}; target: ${DATA}."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] intersect.slurm: using ${CORES} cores."
 
 #
-# command-line arguments can be directories; otherwise glob ourselves
+# no command-line arguments yet (FineWeb data path is hard-coded)
 #
-for i in ${*:-*}; do
-  path=$(readlink -e ${i});
-  if [ -z "${path}" ]; then continue; fi
-  /usr/bin/time -v python -c "
+/usr/bin/time -v python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import index;
-index.index_directory(\"${path}\", cores = ${CORES}, url = \"url\");
-  "
-done;
-
-#
-# make sure everything is world-readable (and directories searchable)
-#
-chmod -R o+rX .;
+index.intersect_directory(\"${ROOT}/data\", pattern = \"CC-MAIN-*\", cores = ${CORES});
+";
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] intersect.slurm: all files processed."
 exit 0;
