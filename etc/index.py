@@ -322,6 +322,8 @@ def intersect_directory(path, pattern = "CC-MAIN-*",
     l = counts["left"]; r = counts["right"]; b = counts["both"];
     print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
           "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100));
+
+  return counts;
 
 def inspect(inputs):
 
@@ -360,12 +362,12 @@ def deliverable():
     inspect(f)
     print(f"{d[1]} {k}:");
     inspect(h)
-    intersect(f, h)
+    intersect(f, h, verbose = True)
   d = "madlad-400/1.0/clean";
   m = os.path.join(path, d, "nor_Latn", "." + k + ".zst");
   print(f"{d} {k}:");
   inspect(m)
-  print(f"fineweb/2.1.0/ / {d} {k}:");
-  intersect(f, m)
-  print(f"hplt/2.0/cleaned / {d} {k}:");
-  intersect(h, m)
+  intersect(f, m, verbose = True)
+  intersect(h, m, verbose = True);
+  intersect_directory(os.path.join(path, "fineweb/1.4.0/data"), pattern = "CC-MAIN-*");
+  inspect(os.path.join(path, "fineweb/1.4.0/data/CC-MAIN/2013/.signatures.zst"));
