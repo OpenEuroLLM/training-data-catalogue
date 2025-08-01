@@ -70,7 +70,7 @@ import huggingface as hf;
 hf.api_retrieve_files(\"${TARGET}\", \"${REVISION}\", \"^multilingual/\");
 " \
 | while read line; do \
-  target=${line#data/};
+  target=${line#multilingual/};
   if [ ! -f ${target} ]; then 
     echo "url ${HF}${line}" >> ${URL};
     echo "output ${target}" >> ${URL};
