@@ -38,7 +38,7 @@ module load LUMI cURL cray-python;
 
 DATA=multilingual;
 TARGET="allenai/c4";
-REVISION="mc4_3.1.0";
+REVISION="mC4_3.1.0";
 HF="https://huggingface.co/datasets/${TARGET}/resolve/${REVISION}/";
 
 cd ${ROOT};
@@ -80,7 +80,6 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: URL directives (${URL}):"
 cat ${URL};
 echo;
 
-exit;
 #
 # enable detailed download statistics
 #
