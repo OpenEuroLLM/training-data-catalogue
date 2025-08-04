@@ -54,7 +54,7 @@ CURL="${CURL} --globoff --remote-time";
 CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
 #CURL="${CURL} --parallel --parallel-max ${CORES}";
-CURL="${CURL} --rate 4/2";
+CURL="${CURL} --rate 4/s";
 
 URL=all.url;
 LOG=curl.log;
