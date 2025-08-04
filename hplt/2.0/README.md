@@ -33,7 +33,7 @@ Most of the language codes in the table are linked up to more in-depth statistic
 |  [ces_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-ces_Latn.yaml) | 109,711,940,916 | 75,288,021 | 1,926,503,033 | 95,363,069,335 | 273,936,688,894 |
 |  [dan_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-dan_Latn.yaml) | 46,874,204,383 | 33,841,408 | 873,022,625 | 41,156,519,209 | 133,380,682,616 |
 |  deu_Latn | 643,563,226,429 | 482,053,407 | 11,127,774,286 | 449,431,582,918 | 1,782,129,825,333 |
-|  ell_Grek | 125,752,059,355 | 70,328,890 | 1,849,481,662 | 115,599,058,101 | 283,534,611,644 |
+|  [ell_Grek](https://analytics.hplt-project.org/viewer/HPLT-v2-ell_Grek.yaml) | 125,752,059,355 | 70,328,890 | 1,849,481,662 | 115,599,058,101 | 283,534,611,644 |
 |  eng_Latn | 6,199,414,043,792 | 4,388,525,961 | 116,521,950,325 | 3,915,588,774,525 | 17,083,161,859,947 |
 |  [est_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-est_Latn.yaml) | 13,143,473,236 | 8,449,320 | 264,422,814 | 12,324,211,253 | 36,018,221,232 |
 |  [fin_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-fin_Latn.yaml) | 55,164,578,152 | 34,815,601 | 976,622,086 | 53,580,820,308 | 155,678,802,052 |
@@ -65,7 +65,7 @@ Most of the language codes in the table are linked up to more in-depth statistic
 |  tur_Latn | 105,086,134,521 | 84,541,414 | 1,941,885,324 | 85,625,744,754 | 283,639,575,889 |
 |  [ukr_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v2-ukr_Cyrl.yaml) | 83,197,910,551 | 47,395,787 | 1,169,038,372 | 60,690,550,123 | 182,867,693,190 |
 |  [nno_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-nno_Latn.yaml) [nob_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-nob_Latn.yaml) | 51,074,925,109 | 28,476,988 | 710,577,489 | 42,080,040,980 | 138,648,073,341 |
-| Total | 10,154,988,022,176 | 7,267,692,216 | 187,054,752,485 | 6,893,545,926,292 | 27,804,291,067,245 |
+| **Total** | **10,154,988,022,176** | **7,267,692,216** | **187,054,752,485** | **6,893,545,926,292** | **27,804,291,067,245** |
 
 ## <a id="access">Access Information</a>
 

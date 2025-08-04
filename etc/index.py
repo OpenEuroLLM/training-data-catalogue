@@ -1,0 +1,373 @@
+import io;
+import glob;
+import gzip;
+import hashlib;
+import json;
+import multiprocessing as mp;
+from operator import itemgetter;
+import os;
+import re;
+import sys;
+import time;
+from urllib.parse import urlsplit;
+import zstandard as zstd;
+
+def index_file(path, text = "text", url = "u", level = 1):
+
+  stream = None;
+  if path.endswith(".zst") or path.endswith(".zstd"):
+    decompressor = zstd.ZstdDecompressor();
+    stream = decompressor.stream_reader(open(path, "rb"));
+    stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+  elif path.endswith(".gz"):
+    stream = gzip.open(path, mode = "rt", encoding = "utf-8", errors = "replace");
+  else:
+    print(f"index_file(): invalid input format {path}; exit.",
+          file = sys.stderr)
+    exit(1);
+
+  signatures = dict();
+  if url is not None: domains = dict(); urls = dict();
+  else: domains = urls = None;
+  normalize = re.compile(r"\W", re.IGNORECASE);
+  directory, file = os.path.split(path);
+  key = os.path.join(os.path.sep.join(directory.split(os.path.sep)[-level:]), file);
+
+  def index(item, dictionary):
+    if item in dictionary:
+      _ = dictionary[item];
+      _["n"] += 1;
+      _[key].append(i);
+    else:
+      dictionary[item] = {"n": 1, key: [i]};
+
+  for i, line in enumerate(stream):
+    try:
+      _ = json.loads(line);
+      document = normalize.sub("", _[text]).lower();
+      signature = hashlib.md5(document.encode("utf-8")).hexdigest();
+      if url is not None:
+        address = _[url];
+        domain = urlsplit(address).netloc;
+    except Exception as error:
+      print(f"index_file(): #{i} decoding error: {error}.",
+            file = sys.stderr);
+      continue;
+    index(signature, signatures);
+    if url is not None:
+      index(domain, domains);
+      index(address, urls);
+
+  def output(dictionary, suffix):
+    name = os.path.join(directory, "." + file + suffix + ".zst");
+    compressor = zstd.ZstdCompressor(level = 10, threads = 1);
+    stream = compressor.stream_writer(open(name, "wb"));
+    stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+    for key, value in sorted(dictionary.items()):
+      print("{}\t{}".format(key, value["n"]),
+            end = "\t", file = stream);
+      value.pop("n");
+      json.dump(value, stream);
+      print(file = stream);
+    stream.close();
+
+  for _ in (".zstd", ".zst", ".gz", ".jsonl", ".json"):
+    if file.endswith(_): file = file[:-len(_)];
+  output(signatures, ".signatures");
+  if url is not None:
+    output(domains, ".domains");
+    output(urls, ".urls");
+
+  return i + 1;
+      
+def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
+                    text = "text", url = "u", level = 1, tree = False):
+
+  def walk(path, pattern, tree):
+    block = re.compile(r"/\.(?:domains|urls|signatures)\.zst$");
+    if not os.path.isdir(path):
+      print(f"merge.py: ignoring invalid path {path}.",
+            file = sys.stderr);
+      return [];
+    result = [];
+    for path in glob.glob(os.path.join(path, "*"), include_hidden = True):
+      if tree and os.path.isdir(path):
+        result += walk(path, pattern, tree);
+      elif os.path.isfile(path) and pattern.search(path):
+        if not block.search(path): result.append(path);
+    return result;
+
+  start = time.time();
+  pattern = re.compile(pattern);
+  files = walk(path, pattern, tree);
+  print("index.py: reading {}.".format([file[len(path) + 1:] for file in files]));
+  with mp.Pool(cores) as pool:
+    counts = pool.starmap(index_file,
+                          ((file, text, url, level) for file in files));
+  print("index.py: processed {} files; {} documents; {:.2f} seconds."
+        "".format(len(counts), sum(counts), time.time() - start));
+
+  def compress(suffix):
+    #
+    # create a compressed output stream
+    #
+    name = os.path.join(path, "." + suffix + ".zst");
+    compressor = zstd.ZstdCompressor(level = 10, threads = cores);
+    stream = compressor.stream_writer(open(name, "wb"));
+    stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+    return stream;
+
+  n = r = 0;
+  for key in ["domains", "urls", "signatures"] if url is not None else ["signatures"]:
+    pattern = re.compile(r"\.[^/]+\." + key + ".zst$");
+    files = walk(path, pattern, tree);
+    print("index.py: merging {}.".format([file[len(path) + 1:] for file in files]));
+    inputs = connect(files);
+    n += len(inputs);
+    output = compress(key);
+    r += merge(inputs, output);
+    output.close();
+    for _ in inputs: _["stream"].close();
+  print("index.py: merged {} files; {} records; {:.2f} seconds."
+        "".format(n, r, time.time() - start));
+
+def connect(files):
+  #
+  # open the individual index files and read their first entry
+  #
+  inputs = [];
+  for file in files:
+    decompressor = zstd.ZstdDecompressor();
+    stream = decompressor.stream_reader(open(file, "rb"));
+    stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+    input = {"stream": stream, "file": file, "n": 0};
+    key, count, input = parse(input);
+    if key is not None: inputs.append((key, count, input));
+  return inputs;
+
+def parse(input):
+  #
+  # parse one tab-separated entry from an index file
+  #
+  line = next(input["stream"], None);
+  if line is None:
+    input["stream"].close();
+    return None, None, input;
+  input["n"] += 1;
+  try:
+    _ = line.find("\t");
+    key = line[:_];
+    line = line[_ + 1:];
+    _ = line.find("\t");
+    count = int(line[:_]);
+    entry = json.loads(line[_ + 1:]);
+  except Exception as error:
+    print("index.py: aborting input from {}, #{}: {}."
+          "".format(input["file"], input["n"], error),
+          file = sys.stderr);
+    input["stream"].close();
+    return None, None, input;
+  input["entry"] = entry;
+  return key, count, input;
+
+def match(queue, key, counts):
+  count = 0;
+  while len(queue) and queue[0][0] == key:
+    match = queue.pop(0);
+    count += match[1];
+    match = parse(match[2]);
+    if match[0] is None:
+      counts["n"] += match[2]["n"];
+      continue;
+    else: queue.append(match);
+  return count;
+
+def merge(inputs, stream):
+  #
+  # sorted merge of records from a set of input streams
+  #
+  n = 0;
+  while len(inputs):
+    #
+    # _fix_me_ should use a genuine priority queue
+    # 
+    inputs.sort(key = itemgetter(0));
+    key, count, input = inputs.pop(0);
+
+    #
+    # process other (currently visible) entries with the same key
+    #
+    while len(inputs) and inputs[0][0] == key:
+      #
+      # merge count and payload of matching entry
+      #
+      match = inputs.pop(0);
+      count += match[1];
+      input["entry"].update(match[2]["entry"]);
+      #
+      # update for next record and re-queue, unless exhausted
+      #
+      match = parse(match[2]);
+      if match[0] is None: continue;
+      else: inputs.append(match);
+    print(f"{key}\t{count}", end = "\t", file = stream);
+    json.dump(input["entry"], stream);
+    print(file = stream);
+    n += 1;
+    #
+    # get next key, count, and entry from this input file;
+    # re-insert into the priority queue, unless exhausted
+    #
+    key, count, input = parse(input);
+    if key is None: continue;
+    else: inputs.append((key, count, input));
+
+  return n;
+
+def intersect(left, right, verbose = False, level = 2):
+
+  def drain(queue, counts):
+    n = 0;
+    while len(queue):
+      key, count, entry = queue.pop(0);
+      while key is not None:
+        n += count;
+        key, count, entry = parse(entry);
+      counts["n"] += entry["n"];
+    return n;
+
+  def shorten(path):
+    return os.path.sep.join(path.split(os.path.sep)[-level:]);
+
+  if not isinstance(left, list): left = [left];
+  if not isinstance(right, list): right = [right];
+  for _ in left + right:
+    if not os.path.isfile(_) and verbose:
+      print(f"intersect(): invalid input {_}; exit.",
+            file = sys.stderr);
+      return None;
+  counts = {"left": 0, "right": 0, "both": 0,
+            "l": [shorten(_) for _ in left],
+            "r": [shorten(_) for _ in right],
+            "m": 0, "n": 0};
+  left = connect(left);
+  right = connect(right);
+  while len(left) and len(right):
+    #
+    # _fix_me_ should use a genuine priority queue
+    #
+    left.sort(key = itemgetter(0));
+    right.sort(key = itemgetter(0));
+    l = left[0]; r = right[0]; 
+    if l[0] == r[0]:
+      counts["m"] += 1;
+      lkey, lcount, l = left.pop(0);
+      lcount += match(left, lkey, counts);
+      rkey, rcount, r = right.pop(0);
+      rcount += match(right, rkey, counts);
+      j = min(lcount, rcount);
+      counts["both"] += j;
+      counts["left"] += lcount - j;
+      counts["right"] += rcount - j;
+      lkey, lcount, l = parse(l);
+      if lkey is None: counts["n"] += l["n"];
+      else: left.append((lkey, lcount, l));
+      rkey, rcount, r = parse(r);
+      if rkey is None: counts["n"] += r["n"];
+      else: right.append((rkey, rcount, r));
+    elif l[0] < r[0]:
+      lkey, lcount, l = left.pop(0);
+      counts["left"] += lcount;
+      lkey, lcount, l = parse(l);
+      if lkey is None: counts["n"] += l["n"];
+      else: left.append((lkey, lcount, l));
+    else:
+      rkey, rcount, r = right.pop(0);
+      counts["right"] += rcount;
+      rkey, rcount, r = parse(r);
+      if rkey is None: counts["n"] += r["n"];
+      else: right.append((rkey, rcount, r));
+
+  counts["left"] += drain(left, counts);
+  counts["right"] += drain(right, counts);
+
+  if verbose:
+    print("intersect: {} / {}.".format(counts["l"], counts["r"]), file = log);
+    l = counts["left"]; r = counts["right"]; b = counts["both"];
+    print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
+          "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100),
+          file = sys.stderr);
+  return counts;
+
+def intersect_directory(path, pattern = "CC-MAIN-*",
+                        key = "signatures", slices = 10, cores = 8):
+
+  all = sorted(glob.glob(os.path.join(path, pattern)));
+  sample = [];
+  suffix = "." + key + ".zst";
+  i = 0;
+  while i < len(all):
+    sample.append(os.path.join(all[round(i)], suffix));
+    i += len(all) / (slices - 1);
+  sample.append(os.path.join(all[-1], suffix));
+
+  with mp.Pool(cores) as pool:
+    results = pool.starmap(intersect,
+                           ((sample[i], sample[j], False)
+                            for i in range(0, slices)
+                            for j in range(i + 1, slices)));
+
+  for counts in results:
+    print("intersect: {} / {}.".format(counts["l"], counts["r"]));
+    l = counts["left"]; r = counts["right"]; b = counts["both"];
+    print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
+          "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100));
+
+  return counts;
+
+def inspect(inputs):
+
+  if not isinstance(inputs, list): inputs = [inputs];
+  for _ in inputs:
+    if not os.path.isfile(_):
+      print(f"inspect(): invalid input {_}; exit.",
+            file = sys.stderr);
+      return None;
+  inputs = connect(inputs);
+  counts = {"unique": 0, "repeat": 0, "n": 0};
+  while len(inputs):
+    inputs.sort(key = itemgetter(0));
+    key, count, entry = inputs.pop(0);
+    count += match(inputs, key, counts);
+    counts["unique"] += 1
+    counts["repeat"] += count - 1;
+    key, count, entry = parse(entry);
+    if key is None: counts["n"] += entry["n"];
+    else: inputs.append((key, count, entry));
+
+  r = counts["repeat"]; u = counts["unique"];
+  print("inspect(): {} repeated records (of {}); {:.2f}% self-overlap."
+        "".format(r, u + r, r / (u + r) * 100));
+  return counts;
+
+def deliverable():
+  path = "/appl/local/openeurollm/training/catalogue";
+  d = ["fineweb/2.1.0/data", "hplt/2.0/cleaned"];
+  for k in ["domains", "urls", "signatures"]:
+    f = []; h = [];
+    for l in ["nob", "nno"]:
+      f.append(os.path.join(path, d[0], l + "_Latn", "." + k + ".zst"));
+      h.append(os.path.join(path, d[1], l + "_Latn", "." + k + ".zst"));
+    print(f"{d[0]} {k}:");
+    inspect(f)
+    print(f"{d[1]} {k}:");
+    inspect(h)
+    intersect(f, h, verbose = True)
+  d = "madlad-400/1.0/clean";
+  m = os.path.join(path, d, "nor_Latn", "." + k + ".zst");
+  print(f"{d} {k}:");
+  inspect(m)
+  intersect(f, m, verbose = True)
+  intersect(h, m, verbose = True);
+  intersect_directory(os.path.join(path, "fineweb/1.4.0/data"), pattern = "CC-MAIN-*");
+  inspect(os.path.join(path, "fineweb/1.4.0/data/CC-MAIN/2013/.signatures.zst"));

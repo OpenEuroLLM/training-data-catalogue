@@ -16,8 +16,8 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 ## (Mostly) English Pre-Training Data
 
-+ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683), [HF repo](https://huggingface.co/datasets/allenai/c4))
-+ The Pile
++ C4 ([Raffel, et al., 2019](https://arxiv.org/abs/1910.10683))
++ The Pile ([Gao, et al., 2020](https://arxiv.org/abs/2101.00027), [Biderman, et al., 2022](https://arxiv.org/abs/2201.07311))
 + RefinedWeb
 + RedPajama
 + SlimPajama
@@ -30,12 +30,13 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 ## Multilingual Pre-Training Data
 
 + mC4
-+ CulturaX
++ CulturaX ([Nguyen, et al., 2024](https://aclanthology.org/2024.lrec-main.377/))
 + **[HPLT](hplt/2.0/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
 + **[FineWeb 2](fineweb/2.1.0/README.md)** (https://github.com/huggingface/fineweb-2)
 + **[MADLAD-400](madlad-400/1.0/README.md)** ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
-+ TxT360 (https://huggingface.co/spaces/LLM360/TxT360)
-+ CommonCorpus (raw pool)
++ TxT360 (https://huggingface.co/datasets/LLM360/TxT360)
++ Common Corpus (https://huggingface.co/blog/Pclanglais/common-corpus)
+
 
 ## Parallel Pre-Training Data
 
