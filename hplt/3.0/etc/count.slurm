@@ -9,14 +9,14 @@
 #SBATCH --job-name=count
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
-#SBATCH --time=12:00:00
+#SBATCH --time=24:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=128
 #SBATCH --mem-per-cpu=2G
 
 #
-# determine our root directory and load a common preabmle
+# determine our root directory and load a common preamble
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
