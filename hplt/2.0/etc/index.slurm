@@ -14,7 +14,7 @@
 #SBATCH --mem-per-cpu=16380M
 
 #
-# determine our root directory and load a common preabmle
+# determine our root directory and load a common preamble
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
@@ -41,11 +41,9 @@ module reset;
 module load cray-python;
 source ${BASE}/python/bin/activate;
 
-DATA=clean;
-
 cd ${ROOT};
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: root in ${ROOT}; target: ${DATA}."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: root in ${ROOT}."
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: using ${CORES} cores."
 
 #
