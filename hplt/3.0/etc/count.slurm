@@ -1,17 +1,19 @@
 #!/bin/bash
 
 #
-# for i in ./cleaned/*; do sbatch etc/index.slurm $i; done
+# for i in ./clean/*; do echo sbatch etc/count.slurm $i; done > count.trickle
+# trickle --start --limit 180 count.trickle
+# while true; do trickle --limit 180 count.trickle; sleep 60; done
 #
 
-#SBATCH --job-name=index
+#SBATCH --job-name=count
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
-#SBATCH --time=72:00:00
+#SBATCH --time=24:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem-per-cpu=16380M
+#SBATCH --cpus-per-task=128
+#SBATCH --mem-per-cpu=2G
 
 #
 # determine our root directory and load a common preamble
@@ -41,10 +43,12 @@ module reset;
 module load cray-python;
 source ${BASE}/python/bin/activate;
 
+DATA=sorted;
+
 cd ${ROOT};
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: root in ${ROOT}."
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: using ${CORES} cores."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: root in ${ROOT}; target: ${DATA}."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: using ${CORES} cores."
 
 #
 # command-line arguments can be directories; otherwise glob ourselves
@@ -52,11 +56,12 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: using ${CORES} cores."
 for i in ${*:-*}; do
   path=$(readlink -e ${i});
   if [ -z "${path}" ]; then continue; fi
-  /usr/bin/time -v python -c "
+  if [ -f ${i}/.counts.json ]; then continue; fi  
+  python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
-import index;
-index.index_directory(\"${path}\", cores = ${CORES});
+import counts;
+counts.count_directory(\"${path}\", pattern = \"\\\\.zst\$\", cores = ${CORES});
   "
 done;
 

@@ -4,6 +4,7 @@
 # pip install --upgrade pip
 # pip install -r ./etc/requirements.txt
 #
+datasets
 huggingface_hub[cli,hf_transfer]
 hf_transfer
 transformers

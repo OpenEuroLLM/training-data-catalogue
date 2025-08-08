@@ -1,7 +1,9 @@
 #!/bin/bash
 
 #
-# for i in ./cleaned/*; do sbatch etc/index.slurm $i; done
+# for i in data/*; do echo sbatch etc/index.slurm $i; done > index.trickle
+# ./../etc/trickle --start --limit 180 index.trickle
+# while true; do ../../etc/trickle --limit 180 index.trickle; sleep 60; done
 #
 
 #SBATCH --job-name=index
@@ -14,7 +16,7 @@
 #SBATCH --mem-per-cpu=16380M
 
 #
-# determine our root directory and load a common preamble
+# determine our root directory and load a common preabmle
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
@@ -41,9 +43,11 @@ module reset;
 module load cray-python;
 source ${BASE}/python/bin/activate;
 
+DATA=clean;
+
 cd ${ROOT};
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: root in ${ROOT}."
+echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: root in ${ROOT}; target: ${DATA}."
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: using ${CORES} cores."
 
 #
@@ -56,7 +60,7 @@ for i in ${*:-*}; do
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import index;
-index.index_directory(\"${path}\", cores = ${CORES});
+index.index_directory(\"${path}\", cores = ${CORES}, url = \"url\", tree = True);
   "
 done;
 
