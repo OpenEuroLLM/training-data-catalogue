@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# for i in ./cleaned/*; do sbatch etc/index.slurm $i; done
+# for i in ./sorted/*; do sbatch etc/index.slurm $i; done
 #
 
 #SBATCH --job-name=index
@@ -52,6 +52,7 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] index.slurm: using ${CORES} cores."
 for i in ${*:-*}; do
   path=$(readlink -e ${i});
   if [ -z "${path}" ]; then continue; fi
+  if [ -f ${path}/.domains.zst -a ${path}/.urls.zst -a ${path}/.signatures.zst ]; then continue; fi
   /usr/bin/time -v python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
