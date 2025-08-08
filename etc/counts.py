@@ -61,7 +61,8 @@ def count_directory(path, pattern = "\\.zstd$", cores = 1,
 
   start = time.time();
   result = {"files": 0, "bytes": 0,
-            "documents": 0, "segments": 0, "tokens": 0, "characters": 0};
+            "documents": 0, "segments": 0, "tokens": 0, "characters": 0,
+            "errors": 0};
   if tokenizer is None:
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
                                               trust_remote_code = True,
@@ -74,6 +75,7 @@ def count_directory(path, pattern = "\\.zstd$", cores = 1,
   for counts in results:
     for _ in ("bytes", "documents", "segments", "tokens", "characters"):
       result[_] += counts[_];
+    result["errors"] += len(counts["errors"]);
     result["files"] += 1;
   with open(os.path.join(path, ".counts.json"),
             "w", encoding="utf-8") as stream:
