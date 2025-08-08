@@ -80,3 +80,41 @@ def count_directory(path, pattern = "\\.zstd$", cores = 1, tokenizer = None, key
     result["time"] = time.time() - start;
     json.dump(result, stream, indent=2);
   return result;
+
+def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$"):
+
+  if isinstance(output, str):
+    with open(output, "w") as output:
+      return summarize(path, output, format);
+    
+  prefix = "https://data.hplt-project.org/three/sorted";
+
+  result = [];
+  for file in glob.glob(os.path.join(path, "*/.counts.json")):
+    name = file.split(os.path.sep)[-2];
+    with open(file) as _:
+      counts = json.load(_);
+      counts["name"] = name;
+      documents = counts["documents"];
+      tokens = counts["tokens"];
+      characters = counts["characters"];
+      counts["t/d"] = tokens / documents;
+      counts["c/t"] = characters / tokens;
+      counts.pop("errors", None);
+      counts.pop("time", None);
+      result.append(counts);
+      if format == "csv":
+        print("{}\t{}\t{}\t{}\t{}\t{:.2f}\t{}\t{:.2f}"
+              "".format(name, counts["bytes"], documents, counts["segments"],
+                        tokens, tokens / documents,
+                        characters, characters / tokens),
+              file = output);
+      if format == "json":
+        counts["urls"] = [];
+        for _ in glob.glob(os.path.join(file[:-len("/.counts.json")], "*")):
+          if re.search(pattern, _):
+            counts["urls"].append(prefix + "/" + name + "/" + os.path.basename(_));
+        json.dump(counts, output, indent = None);
+        print(file = output);
+        
+  return result;
