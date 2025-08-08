@@ -56,7 +56,9 @@ def count_file(path, tokenizer = None, key = "text", write = True):
       json.dump(result, stream, indent=2);
   return result;
       
-def count_directory(path, pattern = "\\.zstd$", cores = 1, tokenizer = None, key = "text"):
+def count_directory(path, pattern = "\\.zstd$", cores = 1,
+                    tokenizer = None, key = "text"):
+
   start = time.time();
   result = {"files": 0, "bytes": 0,
             "documents": 0, "segments": 0, "tokens": 0, "characters": 0};
@@ -76,5 +78,5 @@ def count_directory(path, pattern = "\\.zstd$", cores = 1, tokenizer = None, key
   with open(os.path.join(path, ".counts.json"),
             "w", encoding="utf-8") as stream:
     result["time"] = time.time() - start;
-    json.dump(result, stream, indent=2);
+    json.dump(result, stream, indent = 2);
   return result;
