@@ -87,13 +87,15 @@ def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$"):
 
   if isinstance(output, str):
     with open(output, "w") as output:
-      return summarize(path, output, format);
+      return summarize(path, output, format, pattern);
     
   prefix = "https://data.hplt-project.org/three/sorted";
 
   result = [];
-  for file in glob.glob(os.path.join(path, "*/.counts.json")):
+  for file in sorted(glob.glob(os.path.join(path, "*/.counts.json"))):
     name = file.split(os.path.sep)[-2];
+    totals = {"bytes": 0, "documents": 0, "segments": 0,
+              "tokens": 0, "characters": 0};
     with open(file) as _:
       counts = json.load(_);
       counts["name"] = name;
@@ -118,5 +120,28 @@ def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$"):
             counts["urls"].append(prefix + "/" + name + "/" + os.path.basename(_));
         json.dump(counts, output, indent = None);
         print(file = output);
+      if format == "md":
+        print("| {} | {:,} | {:,} | {:,} | {:,.1f} | {} |"
+              "".format(name, documents, counts["segments"],
+                        tokens, tokens / documents, characters),
+              file = output);
+      for _ in ["bytes", "documents", "segments", "tokens", "characters"]:
+        totals[_] += counts[_];
+
+  documents = totals["documents"];
+  segments = totals["segments"];
+  tokens = totals["tokens"];
+  characters = totals["characters"];
+  if format == "csv":
+    print("Total\t{}\t{}\t{}\t{}\t{:.2f}\t{}\t{:.2f}"
+          "".format(totals["bytes"], documents, segments,
+                    tokens, tokens / documents,
+                    characters, characters / tokens),
+          file = output);
+  if format == "md":
+    print("| **Total** | {:,} | {:,} | {:,} | {:,.1f} | {} |"
+          "".format(documents, segments, tokens,
+                    tokens / documents, characters),
+          file = output);
         
   return result;
