@@ -3,7 +3,7 @@
 ## <a id="background">Background</a>
 
 The HPLT Monolingual Datasets 2.0 aim to provide large volumes of high-quality running text with strong multilingual emphasis.
-The data construction and preliminary experimental results are described by [Burchell, et al., 2025](https://arxiv.org/abs/2503.10267), to appear in the Proceedings of the Annual Conference of the Association for Computational Linguistics.
+The data construction and preliminary experimental results are described by [Burchell, et al., 2025](https://arxiv.org/abs/2503.10267), in the Proceedings of the 2025 Annual Conference of the Association for Computational Linguistics.
 Additional details and download instructions are available from the [HPLT download site](https://hplt-project.org/datasets/v2.0).
 
 ## <a id="sources">Data Sources</a>
