@@ -7,6 +7,7 @@
 #
 
 #SBATCH --job-name=count
+#SBATCH --output=log/%x-%j.out
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
 #SBATCH --time=24:00:00
