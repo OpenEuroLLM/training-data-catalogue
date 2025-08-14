@@ -83,19 +83,20 @@ def count_directory(path, pattern = "\\.zstd$", cores = 1,
     json.dump(result, stream, indent = 2);
   return result;
 
-def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$"):
+def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$", base = None):
 
   if isinstance(output, str):
+    base = os.path.dirname(output);
     with open(output, "w") as output:
-      return summarize(path, output, format, pattern);
+      return summarize(path, output, format, pattern, base);
     
   prefix = "https://data.hplt-project.org/three/sorted";
 
   result = [];
+  totals = {"bytes": 0, "documents": 0, "segments": 0,
+            "tokens": 0, "characters": 0};
   for file in sorted(glob.glob(os.path.join(path, "*/.counts.json"))):
     name = file.split(os.path.sep)[-2];
-    totals = {"bytes": 0, "documents": 0, "segments": 0,
-              "tokens": 0, "characters": 0};
     with open(file) as _:
       counts = json.load(_);
       counts["name"] = name;
@@ -115,13 +116,17 @@ def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$"):
               file = output);
       if format == "json":
         counts["urls"] = [];
-        for _ in glob.glob(os.path.join(file[:-len("/.counts.json")], "*")):
+        for _ in sorted(glob.glob(os.path.join(file[:-len("/.counts.json")], "*"))):
           if re.search(pattern, _):
             counts["urls"].append(prefix + "/" + name + "/" + os.path.basename(_));
+        if base is not None:
+          counts["map"] = prefix + "/" + name + ".map";
+          with open(os.path.join(base, name + ".map"), "wt", encoding = "utf-8") as _:
+            print("\n".join(counts["urls"]), file = _);
         json.dump(counts, output, indent = None);
         print(file = output);
       if format == "md":
-        print("| {} | {:,} | {:,} | {:,} | {:,.1f} | {} |"
+        print("| {} | {:,} | {:,} | {:,} | {:,.1f} | {:,} |"
               "".format(name, documents, counts["segments"],
                         tokens, tokens / documents, characters),
               file = output);
@@ -139,7 +144,7 @@ def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$"):
                     characters, characters / tokens),
           file = output);
   if format == "md":
-    print("| **Total** | {:,} | {:,} | {:,} | {:,.1f} | {} |"
+    print("| **Total** | {:,} | {:,} | {:,} | {:,.1f} | {:,} |"
           "".format(documents, segments, tokens,
                     tokens / documents, characters),
           file = output);

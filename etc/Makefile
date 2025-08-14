@@ -5,6 +5,9 @@ count:
 chmod:
 	chmod -R g+rX,o+rX . > /dev/null 2>&1
 
+md5:
+	for i in *_*/*.jsonl.zst; do j=$${i%.zst}.md5; if [ ! -f $${j} ]; then echo $${i}; md5sum $${i} > $${j}; fi; done
+
 clean:
 	find . -name .*.counts.json | xargs rm;
 	find . -name .*.domains.zst | xargs rm;
