@@ -53,7 +53,7 @@ def count_file(path, tokenizer = None, key = "text", write = True):
       if file.endswith(_): file = file[:-len(_)];
     with open(os.path.join(directory, "." + file + ".counts.json"),
               "w", encoding="utf-8") as stream:
-      json.dump(result, stream, indent=2);
+      json.dump(result, stream, indent = 2);
   return result;
       
 def count_directory(path, pattern = "\\.zstd$", cores = 1,
@@ -83,12 +83,13 @@ def count_directory(path, pattern = "\\.zstd$", cores = 1,
     json.dump(result, stream, indent = 2);
   return result;
 
-def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$", base = None):
+def summarize(path, output = sys.stdout, format = "csv",
+              sample = False, pattern = "\\.zst$", base = None):
 
   if isinstance(output, str):
     base = os.path.dirname(output);
     with open(output, "w") as output:
-      return summarize(path, output, format, pattern, base);
+      return summarize(path, output, format, sample, pattern, base);
     
   prefix = "https://data.hplt-project.org/three/sorted";
 
@@ -107,13 +108,32 @@ def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$", ba
       counts["c/t"] = characters / tokens;
       counts.pop("errors", None);
       counts.pop("time", None);
+      
+      if sample:
+        counts["samples"] = dict();
+        for bin in range(0, 11):
+          data = os.path.join(path, name, f"{bin}_1.jsonl.zst");
+          if os.path.isfile(data):
+            counts["samples"][bin] = [];
+            decompressor = zstd.ZstdDecompressor();
+            stream = decompressor.stream_reader(open(data, "rb"));
+            stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
+            for _ in range(0, 2):
+              try:
+                line = next(stream);
+                counts["samples"][bin].append(json.loads(line)["text"]);
+              except Exception:
+                break;
+              
       result.append(counts);
+                
       if format == "csv":
         print("{}\t{}\t{}\t{}\t{}\t{:.2f}\t{}\t{:.2f}"
               "".format(name, counts["bytes"], documents, counts["segments"],
                         tokens, tokens / documents,
                         characters, characters / tokens),
               file = output);
+
       if format == "json":
         counts["urls"] = [];
         for _ in sorted(glob.glob(os.path.join(file[:-len("/.counts.json")], "*"))):
@@ -123,8 +143,9 @@ def summarize(path, output = sys.stdout, format = "csv", pattern = "\\.zst$", ba
           counts["map"] = prefix + "/" + name + ".map";
           with open(os.path.join(base, name + ".map"), "wt", encoding = "utf-8") as _:
             print("\n".join(counts["urls"]), file = _);
-        json.dump(counts, output, indent = None);
+        json.dump(counts, output, indent = None, ensure_ascii = False);
         print(file = output);
+        
       if format == "md":
         print("| {} | {:,} | {:,} | {:,} | {:,.1f} | {:,} |"
               "".format(name, documents, counts["segments"],
