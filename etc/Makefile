@@ -5,14 +5,18 @@ count:
 chmod:
 	chmod -R g+rX,o+rX . > /dev/null 2>&1
 
-md5:
-	for i in *_*/*.jsonl.zst; do j=$${i%.zst}.md5; if [ ! -f $${j} ]; then echo $${i}; md5sum $${i} > $${j}; fi; done
+checksum:
+	for i in *_*/*.jsonl.zst; do \
+	  j=$$(dirname $${i})/.$$(basename $${i} .zst).md5; \
+	  if [ ! -f $${j} ]; then echo $${i}; md5sum $${i} > $${j}; fi; \
+	done
+	for i in *_*; do if [ -d $${i} ]; then cat $${i}/.*.jsonl.md5 > $${i}.md5; fi; done
 
 clean:
-	find . -name .*.counts.json | xargs rm;
-	find . -name .*.domains.zst | xargs rm;
-	find . -name .*.urls.zst | xargs rm;
-	find . -name .*.signatures.zst | xargs rm;
+	find . -name .\*.counts.json | xargs rm;
+	find . -name .\*.domains.zst | xargs rm;
+	find . -name .\*.urls.zst | xargs rm;
+	find . -name .\*.signatures.zst | xargs rm;
 
 purge: clean
 	find . -name .counts.json | xargs rm;
