@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=index
+#SBATCH --output=log/%x-%j.out
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
 #SBATCH --time=72:00:00
@@ -10,7 +11,7 @@
 #SBATCH --mem-per-cpu=16380M
 
 #
-# determine our root directory and load a common preabmle
+# determine our root directory and load a common preamble
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
@@ -35,7 +36,7 @@ source ${ROOT}/../../etc/preamble.sh;
 
 module reset;
 module load cray-python;
-source ${BASE}/python/bin/activate;
+source ${BASE}/local/bin/activate;
 
 DATA=clean;
 

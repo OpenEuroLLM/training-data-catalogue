@@ -40,7 +40,7 @@ source ${ROOT}/../../etc/preamble.sh;
 
 module reset;
 module load cray-python;
-source ${BASE}/python/bin/activate;
+source ${BASE}/local/bin/activate;
 
 cd ${ROOT};
 
