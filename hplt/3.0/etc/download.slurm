@@ -37,10 +37,10 @@ source ${ROOT}/../../etc/preamble.sh;
 module reset;
 module load LUMI cURL;
 
-if [ -z "${2}" ]; then
+if [ -z "${1}" ]; then
   MAP=multilingual.map;
-elif [[ "${2}" =~ ^[a-z]{3}_[A-z][a-z]+$ ]]; then
-  MAP=${2}.map;
+elif [[ "${1}" =~ ^[a-z]{3}_[A-Z][a-z]+$ ]]; then
+  MAP=${1}.map;
 else
   echo "download.slurm: invalid language argument (${2}); exit." >&2;
   exit 1;
