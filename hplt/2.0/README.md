@@ -46,7 +46,7 @@ Most of the language codes in the table are linked up to more in-depth statistic
 |  [lit_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-lit_Latn.yaml) | 18,792,388,046 | 13,338,275 | 322,156,374 | 17,999,481,637 | 50,393,738,585 |
 |  [mlt_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-mlt_Latn.yaml) | 473,820,795 | 367,265 | 8,675,475 | 570,825,363 | 1,441,648,250 |
 |  [nld_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-nld_Latn.yaml) | 163,348,254,430 | 138,651,084 | 3,074,592,386 | 122,628,893,009 | 451,077,252,328 |
-|  pol_Latn | 235,852,448,102 | 175,410,669 | 4,460,832,917 | 196,052,655,218 | 631,594,269,186 |
+|  [pol_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-pol_Latn.yaml) | 235,852,448,102 | 175,410,669 | 4,460,832,917 | 196,052,655,218 | 631,594,269,186 |
 |  por_Latn | 322,955,910,917 | 237,812,825 | 6,124,611,786 | 233,189,157,063 | 896,547,444,407 |
 |  [ron_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-ron_Latn.yaml) | 92,755,690,867 | 65,876,383 | 1,696,970,479 | 76,264,228,246 | 250,658,132,448 |
 |  [slk_Latn](https://analytics.hplt-project.org/viewer/HPLT-v2-slk_Latn.yaml) | 28,347,675,196 | 21,827,259 | 494,278,579 | 24,504,432,765 | 70,372,196,449 |
