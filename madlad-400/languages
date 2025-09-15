@@ -1,0 +1,52 @@
+#
+# ( cd 1.0/clean; awk -F: '/^[^#]/ {printf("ln -s %s %s\n", $1, $2);}' ../../languages | bash; )
+#
+
+#
+# Mapping MADLAD-400 to Target Languages in OpenEuroLLM
+#
+#
+# EU Official Languages
+#
+bg: bul_Cyrl
+cs: ces_Latn
+da: dan_Latn
+de: deu_Latn
+el: ell_Grek
+en: eng_Latn
+et: est_Latn
+fi: fin_Latn
+fr: fra_Latn
+ga: gle_Latn
+hr: hrv_Latn
+hu: hun_Latn
+it: ita_Latn
+lv: lav_Latn
+lt: lit_Latn
+mt: mlt_Latn
+nl: nld_Latn
+pl: pol_Latn
+pt: por_Latn
+ro: ron_Latn
+sk: slk_Latn
+sl: slv_Latn
+es: spa_Latn
+sv: swe_Latn
+ca: cat_Latn
+eu: eus_Latn
+gl: glg_Latn
+#
+# Candidate EU Members
+#
+bo: bos_Latn
+is: isl_Latn
+ka: kat_Geor
+mk: mkd_Cyrl
+sq: als_Latn
+sr: srp_Cyrl
+tr: tur_Latn
+uk: ukr_Cyrl
+#
+# Closely Associated Scandinavian
+#
+no: nor_Latn

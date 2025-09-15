@@ -1,17 +1,16 @@
 #!/bin/bash
 
 #SBATCH --job-name=download
-#SBATCH --output=log/%x-%j.out
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem-per-cpu=1G
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=2G
 
 #
-# determine our root directory and load a common preamble
+# determine our root directory and load a common preabmle
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
@@ -35,9 +34,12 @@ fi
 source ${ROOT}/../../etc/preamble.sh;
 
 module reset;
-module load LUMI cURL;
+module load LUMI cURL cray-python;
 
-DATA=cleaned;
+DATA=edu;
+TARGET="HuggingFaceFW/fineweb-edu";
+REVISION="v1.4.0";
+HF="https://huggingface.co/datasets/${TARGET}/resolve/${REVISION}/";
 
 cd ${ROOT};
 
@@ -47,52 +49,39 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
-CURL="curl --disable --no-progress-meter --show-error --create-dirs --location";
+CURL="curl --no-progress-meter --show-error --create-dirs --location";
 CURL="${CURL} --globoff --remote-time";
 CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
 CURL="${CURL} --parallel --parallel-max ${CORES}";
+CURL="${CURL} --rate 2/s";
 
 URL=all.url;
-MD5=all.md5;
 LOG=curl.log;
 cat /dev/null > ${URL};
-cat /dev/null > ${MD5};
 cat /dev/null > ${LOG};
 
 #
-# create fresh download maps for the actual files and their checksums
+# determine list of data files and create download map
 #
-${CURL} https://data.hplt-project.org/two/${DATA}/hplt_monolingual_map_${DATA}_2.0.txt \
+python -c "
+import sys;
+sys.path.append(\"${BASE}/etc\");
+import huggingface as hf;
+hf.api_retrieve_files(\"${TARGET}\", \"${REVISION}\", \"^data/\");
+" \
 | while read line; do \
-  prefix=${line%/*/*};
-  target=${line#${prefix}/};
-  path=${target%/*};
-  file=${target#${path}/};
-  #
-  # make sure we always fetch up-to-date checksums
-  #
-  /bin/rm -f ${path}/.${file}.md5;
-  echo "url ${line}.md5" >> ${MD5};
-  echo "output ${path}/.${file}.md5" >> ${MD5};
+  target=${line#data/};
   if [ ! -f ${target} ]; then 
-    echo "url ${line}" >> ${URL};
+    echo "url ${HF}${line}" >> ${URL};
     echo "output ${target}" >> ${URL};
   fi;
 done;
 
-echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: MD5 directives (${MD5}):"
-cat ${MD5};
-echo;
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: URL directives (${URL}):"
 cat ${URL};
 echo;
-
-#
-# make sure we have current checksum files for everything
-#
-eval ${CURL} --config ${MD5} 2>> ${LOG};
-
+exit;
 #
 # enable detailed download statistics
 #
@@ -102,7 +91,7 @@ CURL="${CURL} --write-out \"%{stderr}{\\\"content-type\\\": \\\"%header{content-
 # now download all files that are missing or appear out of date
 #
 eval ${CURL} --config ${URL} 2>> ${LOG};
-
+       
 #
 # make sure everything is world-readable (and directories searchable)
 #

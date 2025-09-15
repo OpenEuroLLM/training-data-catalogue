@@ -1,0 +1,12 @@
+#
+# python -m venv ./local
+# source ./local/bin/activate
+# pip install --upgrade pip
+# pip install -r ./etc/requirements.txt
+#
+datasets
+huggingface_hub[cli,hf_transfer]
+hf_transfer
+pyarrow
+transformers
+zstandard
