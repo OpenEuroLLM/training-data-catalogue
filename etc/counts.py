@@ -32,7 +32,7 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
           file = sys.stderr)
     exit(1);
 
-  print(f"count_file(): {path} ...", end = "", flush = True);
+  print(f"count_file(): {path}.", flush = True);
   if tokenizer is None:
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
                                               trust_remote_code = True,
@@ -53,7 +53,6 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
     segments += text.count("\n") + 1;
     tokens += len(tokenizer.tokenize(text));
     characters += len(text);
-  print(f"{documents} documents.", end = "", flush = True);
   result = {"bytes": bytes, "documents": documents, "segments": segments,
             "tokens": tokens, "characters": characters,
             "errors": errors, "time": time.time() - start};
@@ -65,10 +64,9 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
 def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
                     tokenizer = None, key = "text", force = False):
 
-  start = time.time();
   result = {"files": 0, "bytes": 0,
             "documents": 0, "segments": 0, "tokens": 0, "characters": 0,
-            "errors": 0};
+            "time": 0, "errors": 0};
   if tokenizer is None:
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
                                               trust_remote_code = True,
@@ -79,13 +77,12 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
                             for file in glob.glob(os.path.join(path, "*"))
                             if re.search(pattern, file)));
   for counts in results:
-    for _ in ("bytes", "documents", "segments", "tokens", "characters"):
+    for _ in ("bytes", "documents", "segments", "tokens", "characters", "time"):
       result[_] += counts[_];
     result["errors"] += len(counts["errors"]);
     result["files"] += 1;
   with open(os.path.join(path, ".counts.json"),
             "w", encoding="utf-8") as stream:
-    result["time"] = time.time() - start;
     json.dump(result, stream, indent = 2);
   return result;
 
@@ -102,12 +99,10 @@ def summarize(path, output = sys.stdout, format = "csv",
   result = [];
   totals = {"bytes": 0, "documents": 0, "segments": 0,
             "tokens": 0, "characters": 0};
-  multilingual, english = None, None;
+  multilingual = None;
   if format == "json":
     multilingual = open(os.path.join(base, "multilingual.map"),
                         "wt", encoding = "utf-8");
-    english = open(os.path.join(base, "english.map"),
-                   "wt", encoding = "utf-8");
   for file in sorted(glob.glob(os.path.join(path, "*/.counts.json"))):
     name = file.split(os.path.sep)[-2];
     with open(file) as _:
@@ -155,9 +150,7 @@ def summarize(path, output = sys.stdout, format = "csv",
           counts["map"] = prefix + "/" + name + ".map";
           with open(os.path.join(base, name + ".map"), "wt", encoding = "utf-8") as _:
             print("\n".join(counts["urls"]), file = _);
-          if name in {"eng_Latn"}:
-            print("\n".join(counts["urls"]), file = english);
-          else:
+          if name not in {"eng_Latn"}:
             print("\n".join(counts["urls"]), file = multilingual);
           samples = {"samples": counts["samples"]};
           with open(os.path.join(base, name + ".json"), "wt", encoding = "utf-8") as _:
@@ -176,7 +169,6 @@ def summarize(path, output = sys.stdout, format = "csv",
         totals[_] += counts[_];
 
   if multilingual is not None: multilingual.close();
-  if english is not None: english.close();
   documents = totals["documents"];
   segments = totals["segments"];
   tokens = totals["tokens"];
