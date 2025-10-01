@@ -1,4 +1,4 @@
-# Nemotron-CC (Version 2 of August 2025)
+# **DRAFT** Nemotron-CC (Version 2 of August 2025)
 
 ## <a id="background">Background</a>
 
@@ -11,6 +11,9 @@ Synthetic tokens are further categorized into specific subtypes, including disti
 
 
 ## <a id="statistics">Structure & Statistics</a>
+
+
+## <a id="metadata">Available Metadata</a>
 
 
 ## <a id="languages">European Language Support</a>
