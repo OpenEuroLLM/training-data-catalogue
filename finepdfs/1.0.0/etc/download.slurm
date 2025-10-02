@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=finepdfs-1.0-download
+#SBATCH --job-name=finepdfs-1.0.0-download
 #SBATCH --account=project_462000827
 #SBATCH --partition=small
 #SBATCH --time=72:00:00
@@ -13,7 +13,7 @@ set -euo pipefail
 module load LUMI
 
 LOCAL_CATALOGUE_DIR=/scratch/project_462000827/jhelcl/training-data-catalogue
-OUTPUT_DIR=$LOCAL_CATALOGUE_DIR/finepdfs/1.0
+OUTPUT_DIR=$LOCAL_CATALOGUE_DIR/finepdfs/1.0.0
 REPO_DIR=$OUTPUT_DIR/tmp-repo
 
 mkdir -p $OUTPUT_DIR
