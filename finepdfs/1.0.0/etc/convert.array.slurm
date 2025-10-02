@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=finepdfs-1.0-convert
+#SBATCH --job-name=finepdfs-1.0.0-convert
 #SBATCH --account=project_462000827
 #SBATCH --partition=small
 #SBATCH --time=24:00:00
@@ -9,14 +9,15 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=512G
 #SBATCH --output=logs/%x-%j.log
-#SBATCH --array=1
+#SBATCH --array=1-1733
 
 set -euo pipefail
 
 module load LUMI
 module load parallel
 
-LANG=`sed -n "${SLURM_ARRAY_TASK_ID}p" languages`
+offset=$((SLURM_ARRAY_TASK_ID+1000))
+LANG=`sed -n "${offset}p" languages`
 echo "Working on ${LANG}"
 
 PARQUET_DIR=/scratch/project_462000827/jhelcl/training-data-catalogue/finepdfs/1.0/tmp-repo/data/${LANG}
@@ -34,8 +35,14 @@ echo "$(date): Found ${#parquet_files[@]} parquet files"
 
 
 for parquet_file in "${parquet_files[@]}"; do
+    relative_path="${parquet_file#$PARQUET_DIR/}"  # such as train/000_00000.parquet
+    relative_dir=$(dirname "$relative_path")       # train or test
+
+    output_subdir="${OUTPUT_DIR}/${relative_dir}"
+    mkdir -p "$output_subdir"
+
     output_file="${parquet_file%.parquet}.jsonl.zst"
-    output_file="${OUTPUT_DIR}/${output_file##*/}"
+    output_file="${output_subdir}/${output_file##*/}"
 
     if [ -e "$output_file" ]; then
         echo "output file $output_file already exists, skipping."
