@@ -9,51 +9,54 @@
 ## <a id="statistics">Structure & Statistics</a>
 
 
+## <a id="metadata">Available Metadata</a>
+
+
 ## <a id="languages">European Language Support</a>
 
 Most of the language codes in the table are linked up to more in-depth statistics from the [HPLT Analytics](https://github.com/hplt-project/data-analytics-tool) tool.
 
-| **Code(s)** | **Bytes** | **Documents** | **Segments** | **Word tokens** | **Characters** |
-|-------------|----------:|--------------:|-------------:|-----------:|---------------:|
-|  [bul_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-bul_Cyrl.yaml) | 258,418,634,782 | 42,967,942 | 978,252,958 | 26,759,085,018 | 144,827,849,190 | 
-|  [ces_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ces_Latn.yaml) | 405,136,547,115 | 107,802,248 | 2,467,616,974 | 66,426,055,769 | 365,482,306,497 | 
-|  [dan_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-dan_Latn.yaml) | 212,047,813,956 | 52,498,797 | 1,334,528,804 | 37,573,657,326 | 207,000,581,242 | 
-|  [deu_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-deu_Latn.yaml) | 2,450,618,805,119 | 645,363,459 | 14,374,232,816 | 396,235,183,469 | 2,411,334,286,965 | 
-|  [ell_Grek](https://analytics.hplt-project.org/viewer/HPLT-v3-ell_Grek.yaml) | 513,982,555,656 | 87,390,814 | 1,873,537,442 | 50,676,790,375 | 288,268,678,785 | 
-|  [eng_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-eng_Latn.yaml) | | | | | |
-|  [ekk_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ekk_Latn.yaml) | 62,103,805,836 | 13,735,919 | 425,813,766 | 9,348,650,238 | 60,253,470,754 | 
-|  [fin_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-fin_Latn.yaml) | 226,100,488,168 | 49,558,089 | 1,365,997,637 | 30,739,580,837 | 217,907,732,179 | 
-|  [fra_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-fra_Latn.yaml) | 2,340,237,029,414 | 603,878,673 | 15,629,875,449 | 440,246,929,793 | 2,259,182,542,118 | 
-|  [gle_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-gle_Latn.yaml) | 3,132,538,632 | 786,690 | 18,062,235 | 561,595,281 | 2,946,523,386 |
-|  [hrv_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-hrv_Latn.yaml) | 111,577,938,243 | 31,156,692 | 715,111,681 | 19,238,744,651 | 108,423,433,937 | 
-|  [hun_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-hun_Latn.yaml) | 322,448,887,934 | 75,122,917 | 1,776,578,526 | 48,284,115,827 | 294,005,482,561 | 
-|  [ita_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ita_Latn.yaml) | 1,311,659,762,283 | 362,985,922 | 7,535,521,218 | 237,657,222,501 | 1,294,420,645,275 |
-|  [ltg_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ltg_Latn.yaml) | 48,744,206 | 14,140 | 218,599 | 8,080,873 | 45,139,834 | 
-|  [lvs_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-lvs_Latn.yaml) | 48,317,362,362 | 11,323,409 | 296,683,054 | 7,452,151,815 | 44,342,659,474 | 
-|  [lit_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-lit_Latn.yaml) | 85,242,708,108 | 20,406,756 | 510,993,236 | 13,001,054,389 | 80,228,908,679 |
-|  [mlt_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-mlt_Latn.yaml) | 2,541,399,523 | 752,735 | 17,217,418 | 407,803,459 | 2,445,294,159 |
-|  [nld_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-nld_Latn.yaml) | 641,659,223,843 | 200,688,712 | 4,245,883,008 | 115,505,546,131 | 638,984,277,678 | 
-|  [pol_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-pol_Latn.yaml) | 925,819,904,485 | 255,893,058 | 5,641,340,884 | 146,911,686,395 | 878,329,025,420 | 
-|  [por_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-por_Latn.yaml) | 1,272,856,927,144 | 342,527,772 | 8,079,229,710 | 234,418,785,302 | 1,235,001,507,273 | 
-|  [ron_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ron_Latn.yaml) | 349,855,799,759 | 95,911,906 | 2,165,142,698 | 62,691,908,849 | 337,220,739,476 |
-|  [slk_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-slk_Latn.yaml) | 125,471,642,494 | 36,370,822 | 768,114,978 | 20,518,943,868 | 115,519,352,504 |
-|  [slv_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-slv_Latn.yaml) | 63,658,479,463 | 16,812,095 | 402,087,512 | 11,205,453,595 | 62,072,495,644 | 
-|  [spa_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-spa_Latn.yaml) | 2,791,504,759,497 | 725,580,145 | 16,311,481,939 | 512,489,313,929 | 2,737,390,990,249 |
-|  [swe_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-swe_Latn.yaml) | 388,113,793,223 | 97,717,372 | 2,477,567,519 | 66,650,452,890 | 372,734,478,126 | 
-|  [cat_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-cat_Latn.yaml) | 77,287,155,824 | 26,411,847 | 459,934,979 | 15,423,306,821 | 74,994,335,215 | 
-|  [eus_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-eus_Latn.yaml) | 9,532,769,689 | 3,219,485 | 55,906,127 | 1,478,473,976 | 9,493,741,284 | 
-|  [glg_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-glg_Latn.yaml) | 11,941,920,062 | 4,033,272 | 66,522,728 | 2,177,346,500 | 11,636,455,615 | 
-|  [bos_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-bos_Latn.yaml) | 101,627,856,394 | 37,078,307 | 641,274,904 | 18,037,394,975 | 98,661,298,393 | 
-|  [isl_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-isl_Latn.yaml) | 17,171,186,092 | 4,295,927 | 93,441,531 | 2,694,899,097 | 15,590,111,959 | 
-|  [kat_Geor](https://analytics.hplt-project.org/viewer/HPLT-v3-kat_Geor.yaml) | 44,570,535,630 | 6,129,289 | 105,852,687 | 2,630,071,948 | 16,909,859,110 |
-|  [mkd_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-mkd_Cyrl.yaml) | 29,267,214,075 | 6,791,451 | 97,567,523 | 2,959,745,260 | 16,333,470,805 | 
-|  [als_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-als_Latn.yaml) | 29,636,793,852 | 11,184,735 | 162,346,846 | 5,398,774,429 | 27,558,921,146 | 
-|  srp_Cyrl | | | | | |
-|  [tur_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-tur_Latn.yaml) | 556,799,850,113 | 159,466,598 | 3,113,393,511 | 79,451,618,124 | 509,655,706,808 | 
-|  [ukr_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-ukr_Cyrl.yaml) | 439,597,825,329 | 80,026,949 | 1,605,316,878 | 42,506,541,430 | 243,132,195,763 | 
-|  [nno_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-nno_Latn.yaml) | 5,010,900,809 | 1,509,659 | 31,904,198 | 909,390,773 | 4,894,995,469 | 
-|  [nob_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-nob_Latn.yaml) | 175,058,157,600 | 36,487,123 | 888,765,265 | 31,280,126,337 | 171,279,234,150 | 
-| **Total** | ** ** | ** ** | ** ** | ** ** | ** ** |
+| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
+|-------------|--------------:|-------------:|-----------:|-----------:|---------------:|
+| [als_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-als_Latn.yaml) | 11,184,735 | 162,462,674 | 10,078,434,901 | 901.1 | 27,710,199,085 |
+| [bos_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-bos_Latn.yaml) | 37,078,307 | 641,525,697 | 32,044,834,409 | 864.2 | 99,265,745,783 |
+| [bul_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-bul_Cyrl.yaml) | 42,967,942 | 978,882,845 | 48,986,408,338 | 1,140.1 | 145,763,764,093 |
+| [cat_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-cat_Latn.yaml) | 26,411,847 | 460,848,174 | 22,540,198,831 | 853.4 | 75,428,771,542 |
+| [ces_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ces_Latn.yaml) | 107,802,248 | 2,468,493,829 | 126,248,065,449 | 1,171.1 | 367,843,050,788 |
+| [dan_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-dan_Latn.yaml) | 52,498,797 | 1,334,943,920 | 62,719,335,877 | 1,194.7 | 208,283,026,365 |
+| [deu_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-deu_Latn.yaml) | 645,363,459 | 14,380,620,977 | 609,312,615,623 | 944.1 | 2,425,070,869,936 |
+| [ekk_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ekk_Latn.yaml) | 13,735,919 | 425,932,669 | 20,622,451,010 | 1,501.4 | 60,665,667,504 |
+| [ell_Grek](https://analytics.hplt-project.org/viewer/HPLT-v3-ell_Grek.yaml) | 87,390,814 | 1,874,987,359 | 115,569,161,053 | 1,322.4 | 290,056,275,330 |
+| [eng_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-eng_Latn.yaml) | 18,057,789,751 | 435,227,946,529 | 16,280,215,973,612 | 901.6 | 72,336,992,072,141 |
+| [eus_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-eus_Latn.yaml) | 3,219,485 | 55,926,491 | 3,191,356,039 | 991.3 | 9,546,461,384 |
+| [fin_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-fin_Latn.yaml) | 49,558,089 | 1,367,149,556 | 73,926,941,466 | 1,491.7 | 219,225,323,646 |
+| [fra_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-fra_Latn.yaml) | 603,878,673 | 15,647,450,354 | 584,956,710,890 | 968.7 | 2,274,227,004,408 |
+| [gle_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-gle_Latn.yaml) | 786,690 | 18,066,543 | 1,087,828,187 | 1,382.8 | 2,963,803,239 |
+| [glg_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-glg_Latn.yaml) | 4,033,272 | 66,570,882 | 3,117,044,971 | 772.8 | 11,698,993,225 |
+| [hrv_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-hrv_Latn.yaml) | 31,156,692 | 715,450,819 | 35,146,924,231 | 1,128.1 | 109,107,728,064 |
+| [hun_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-hun_Latn.yaml) | 75,122,917 | 1,778,114,012 | 102,308,734,166 | 1,361.9 | 295,708,473,656 |
+| [isl_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-isl_Latn.yaml) | 4,295,927 | 93,454,558 | 6,146,825,807 | 1,430.8 | 15,679,270,590 |
+| [ita_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ita_Latn.yaml) | 362,985,922 | 7,539,094,727 | 335,456,307,455 | 924.2 | 1,301,596,943,788 |
+| [kat_Geor](https://analytics.hplt-project.org/viewer/HPLT-v3-kat_Geor.yaml) | 6,129,289 | 105,892,564 | 7,548,489,927 | 1,231.5 | 17,009,622,385 |
+| [lit_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-lit_Latn.yaml) | 20,406,756 | 511,151,668 | 28,766,512,267 | 1,409.7 | 80,719,653,591 |
+| [ltg_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ltg_Latn.yaml) | 14,140 | 218,638 | 18,441,709 | 1,304.2 | 45,344,332 |
+| [lvs_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-lvs_Latn.yaml) | 11,323,409 | 296,733,371 | 17,244,670,726 | 1,522.9 | 44,628,069,436 |
+| [mkd_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-mkd_Cyrl.yaml) | 6,791,451 | 97,610,885 | 5,930,427,398 | 873.2 | 16,424,290,239 |
+| [mlt_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-mlt_Latn.yaml) | 752,735 | 17,221,243 | 981,802,586 | 1,304.3 | 2,461,762,667 |
+| [nld_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-nld_Latn.yaml) | 200,688,712 | 4,247,477,124 | 173,412,726,937 | 864.1 | 643,031,113,200 |
+| [nno_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-nno_Latn.yaml) | 1,509,659 | 31,937,133 | 1,587,730,934 | 1,051.7 | 4,925,422,943 |
+| [nob_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-nob_Latn.yaml) | 36,487,123 | 888,906,412 | 51,155,082,868 | 1,402.0 | 172,131,653,439 |
+| [pol_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-pol_Latn.yaml) | 255,893,058 | 5,643,836,929 | 270,101,052,314 | 1,055.5 | 883,716,969,291 |
+| [por_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-por_Latn.yaml) | 342,527,772 | 8,087,849,394 | 318,853,443,668 | 930.9 | 1,242,747,052,113 |
+| [ron_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-ron_Latn.yaml) | 95,911,906 | 2,166,042,312 | 102,526,212,411 | 1,069.0 | 339,290,869,882 |
+| [slk_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-slk_Latn.yaml) | 36,370,822 | 768,390,767 | 40,205,058,840 | 1,105.4 | 116,251,479,393 |
+| [slv_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-slv_Latn.yaml) | 16,812,095 | 402,193,448 | 20,924,713,117 | 1,244.6 | 62,457,876,997 |
+| [spa_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-spa_Latn.yaml) | 725,580,145 | 16,330,570,244 | 658,967,685,227 | 908.2 | 2,752,996,385,520 |
+| srp_Cyrl | 7,081,710 | 169,868,202 | 10,378,927,600 | 1,465.6 | 27,684,340,567 |
+| [swe_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-swe_Latn.yaml) | 97,717,372 | 2,478,171,005 | 111,783,273,471 | 1,143.9 | 375,114,931,759 |
+| [tur_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-tur_Latn.yaml) | 159,466,598 | 3,114,426,920 | 149,976,628,858 | 940.5 | 512,610,667,130 |
+| [ukr_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-ukr_Cyrl.yaml) | 80,026,949 | 1,605,661,119 | 81,215,575,658 | 1,014.9 | 244,657,829,933 |
+| **Total** | 22,318,753,187 | 532,202,081,993 | 20,525,254,608,831 | 919.6 | 87,815,738,779,384 |
 
 ## <a id="access">Access Information</a>
 
@@ -63,4 +66,5 @@ Most of the language codes in the table are linked up to more in-depth statistic
 
 ## <a id="curator">Catalogue Curator</a>
 
+Stephan Oepen, University of Oslo, <oe@ifi.uio.no>
 
