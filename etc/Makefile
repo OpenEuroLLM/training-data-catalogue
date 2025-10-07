@@ -5,7 +5,7 @@ count:
 chmod:
 	chmod -R g+rX,o+rX . > /dev/null 2>&1
 
-checksum:
+md5:
 	for i in *_*/*.jsonl.zst; do \
 	  j=$$(dirname $${i})/.$$(basename $${i} .zst).md5; \
 	  if [ ! -f $${j} ]; then echo $${i}; md5sum $${i} > $${j}; fi; \

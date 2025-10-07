@@ -1,5 +1,5 @@
 #
-# ( cd 1.0/clean; awk -F: '/^[^#]/ {printf("ln -s %s %s\n", $1, $2);}' ../../languages | bash; )
+# awk -F: '/^[^#]/ {printf("ln -s ../clean/%s %s\n", $1, $2);}' ../../languages | bash
 #
 
 #

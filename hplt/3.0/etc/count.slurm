@@ -42,7 +42,7 @@ source ${ROOT}/../../etc/preamble.sh;
 
 module reset;
 module load cray-python;
-source ${BASE}/python/bin/activate;
+source ${BASE}/local/bin/activate;
 
 DATA=sorted;
 
@@ -52,19 +52,26 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: root in ${ROOT}; target: ${D
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: using ${CORES} cores."
 
 #
+#
+#
+pattern="\\.jsonl\\.zst\$";
+if [ -n "${2}" ]; then
+  pattern="${2}_[0-9]+\\.jsonl\\.zst\$";
+fi
+
+#
 # command-line arguments can be directories; otherwise glob ourselves
 #
-for i in ${*:-*}; do
-  path=$(readlink -e ${i});
-  if [ -z "${path}" ]; then continue; fi
-  if [ -f ${i}/.counts.json ]; then continue; fi  
-  python -c "
+path=$(readlink -e ${1});
+#if [ -z "${path}" ]; then continue; fi
+#if [ -f ${i}/.counts.json ]; then continue; fi
+python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import counts;
-counts.count_directory(\"${path}\", pattern = \"\\\\.zst\$\", cores = ${CORES});
-  "
-done;
+counts.count_directory(\"${path}\", pattern = \"${pattern}\", cores = ${CORES});
+"
+
 
 #
 # make sure everything is world-readable (and directories searchable)

@@ -11,7 +11,7 @@
 #SBATCH --mem-per-cpu=1G
 
 #
-# determine our root directory and load a common preabmle
+# determine our root directory and load a common preamble
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
