@@ -4,14 +4,14 @@
 #SBATCH --output=log/%x-%j.out
 #SBATCH --partition=small
 #SBATCH --account=project_462000131
-#SBATCH --time=72:00:00
+#SBATCH --time=12:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=128
+#SBATCH --cpus-per-task=16
 #SBATCH --mem-per-cpu=1G
 
 #
-# determine our root directory and load a common preamble
+# determine our root directory and load a common preabmle
 #
 if [ -n "${SLURM_JOB_ID}" ]; then
   script=$(scontrol show job ${SLURM_JOB_ID} \
@@ -34,11 +34,18 @@ else
 fi
 source ${ROOT}/../../etc/preamble.sh;
 
-#
-# use the dataset-internal quality levels as top-level directory structure
-#
-DATA=.;
-CC=https://data.commoncrawl.org/
+module reset;
+module load LUMI cURL;
+
+if [ -z "${1}" ]; then
+  MAP=multilingual.map;
+elif [[ "${1}" =~ ^[a-z]{3}_[A-Z][a-z]+$ ]]; then
+  MAP=${1}.map;
+else
+  echo "download.slurm: invalid language argument (${2}); exit." >&2;
+  exit 1;
+fi
+DATA=sorted;
 
 cd ${ROOT};
 
@@ -48,10 +55,11 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] download.slurm: using ${CORES} cores."
 if [ ! -d ./${DATA} ]; then mkdir ./${DATA}; fi
 cd ./${DATA}
 
-CURL="/usr/bin/curl --no-progress-meter --show-error --create-dirs --location";
-CURL="${CURL} --fail --retry 5 --retry-delay 5 --remove-on-error";
+CURL="curl --disable --no-progress-meter --show-error --create-dirs --location";
+CURL="${CURL} --globoff --remote-time";
+CURL="${CURL} --fail --retry 5 --remove-on-error";
 CORES=${SLURM_CPUS_ON_NODE:-8};
-CURL="${CURL} --parallel --parallel-immediate --parallel-max ${CORES}";
+CURL="${CURL} --parallel --parallel-max ${CORES}";
 
 URL=all.url;
 LOG=curl.log;
@@ -59,27 +67,16 @@ cat /dev/null > ${URL};
 cat /dev/null > ${LOG};
 
 #
-# create fresh download map for the actual files
+# create fresh download maps for the actual files
 #
-${CURL} ${CC}contrib/Nemotron/Nemotron-CC/data-jsonl.paths.gz | gzip -dc \
+${CURL} https://data.hplt-project.org/three/${DATA}/${MAP} \
 | while read line; do \
-  prefix=${line%/*};
-  file=${line##*/};  
-  prefix=${line#contrib/Nemotron/Nemotron-CC/data-jsonl/};
-  quality=${prefix%%/*};
-  quality=${quality#quality=};
-  kind=${prefix#quality=*/};
-  kind=${kind%%/*};
-  kind=${kind#kind=};
-  type=${prefix#quality=*/kind=*/};
-  type=${type%%/*};
-  type=${type#kind2=};
-  quality=${quality#quality=};
-  target=${quality}/${kind}/;
-  if [ "${type}" != "${kind}" ]; then target=${target}${type}/; fi
-  target=${target}${file};
+  prefix=${line%/*/*};
+  target=${line#${prefix}/};
+  path=${target%/*};
+  file=${target#${path}/};
   if [ ! -f ${target} ]; then 
-    echo "url ${CC}${line}" >> ${URL};
+    echo "url ${line}" >> ${URL};
     echo "output ${target}" >> ${URL};
   fi;
 done;
@@ -91,7 +88,7 @@ echo;
 #
 # enable detailed download statistics
 #
-CURL="${CURL} --write-out '%{stderr}%{json}\n'";
+CURL="${CURL} --write-out \"%{stderr}{\\\"content-type\\\": \\\"%header{content-type}\\\", \\\"content-length\\\": %header{content-length}}\\n%{json}\\n\"";
 
 #
 # now download all files that are missing or appear out of date
