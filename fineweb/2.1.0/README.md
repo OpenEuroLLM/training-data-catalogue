@@ -1,4 +1,4 @@
-# Multilingual FineWeb (Version 2.1.0; June 2025)
+# [DRAFT] Multilingual FineWeb (Version 2.1.0; June 2025)
 
 ## <a id="background">Background</a>
 
@@ -14,7 +14,7 @@ The dataset was filtered and deduplicated, totalling on 20 TiB of data. The data
 
 The documents in the datasets have been separated by langauge (using [GlotLID; Kargaran et al, 2023](https://aclanthology.org/2023.findings-emnlp.410/)) into subfolders, using the ISO-639-3 codes.
 In this catalogue, this dataset is distributed as Zstd-compressed JSONLines files in the language-specific subfolders.
-The data for each language is sharded in multiple `???_?????.jsonl.zst` files which correspond to the `???_?????.parquet` files that can be obtained from Huggingface Hub (here, each question mark correspond to a single digit `0-9`).
+The data for each language is sharded in multiple `???_?????.jsonl.zst` files which correspond to the `???_?????.parquet` files that can be obtained from Huggingface Hub (here, each question mark correspond to a digit `0-9`).
 
 ## <a id="languages">European Language Support</a>
 

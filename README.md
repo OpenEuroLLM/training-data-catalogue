@@ -10,6 +10,7 @@ At the same time, we hope that this overview may become useful to others and can
 The catalogue is accompanied by a curated collection of (a subset of) LLM (pre-)training datasets that are publicly made available (read-only) on multiple EuroHPC systems, currently:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/`
 
 To nominate additional resources for inclusion in the catalogue or discuss specifics of emerging entries, please create a [GitHub issue on this repository](https://github.com/OpenEuroLLM/training-data-catalogue/issues).
 
@@ -21,9 +22,9 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + RefinedWeb
 + RedPajama
 + SlimPajama
++ **[DCLM](dclm/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
 + Dolma
 + **[FineWeb 1](fineweb/1.4.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
-+ **[DCLM](dclm/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
 + **[Nemotron-CC](nemotron-cc/1.0/README.md)** ([Su, et al., 2024](https://arxiv.org/abs/2412.02595))
 + **[Common Pile](common-pile/0.1/README.md)** ([Kandpal, et al., 2025](https://arxiv.org/abs/2506.05209))
 
@@ -33,6 +34,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + CulturaX ([Nguyen, et al., 2024](https://aclanthology.org/2024.lrec-main.377/))
 + **[HPLT](hplt/2.0/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
 + **[FineWeb 2](fineweb/2.1.0/README.md)** (https://github.com/huggingface/fineweb-2)
++ **[FinePDFs](finepdfs/1.1.0/README.md)** (https://huggingface.co/datasets/HuggingFaceFW/finepdfs)
 + **[MADLAD-400](madlad-400/1.0/README.md)** ([Kudugunta, et al., 2023](https://arxiv.org/abs/2309.04662))
 + TxT360 (https://huggingface.co/datasets/LLM360/TxT360)
 + Common Corpus (https://huggingface.co/blog/Pclanglais/common-corpus)
@@ -87,3 +89,8 @@ Instead, catalogue entries provide a free-text, high-level indication of salient
 
 ### Licensing Information
 
+### Life-Cycle of Entries
+
++ **draft**:
++ **frozen**:
++ **deprecated**:

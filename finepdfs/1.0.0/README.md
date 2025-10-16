@@ -1,4 +1,4 @@
-# _[DRAFT]_ Multilingual FinePDFs (Version 1.0.0; September 2025)
+# [DRAFT] Multilingual FinePDFs (Version 1.0.0; September 2025)
 
 ## <a id="background">Background</a>
 

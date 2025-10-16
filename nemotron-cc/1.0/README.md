@@ -1,4 +1,4 @@
-# Nemotron-CC
+# [DRAFT] English Nemotron-CC (Version 1.0; January 2025)
 
 ## <a id="background">Background</a>
 
