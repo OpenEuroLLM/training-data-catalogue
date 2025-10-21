@@ -1,4 +1,6 @@
-# [DRAFT] Multilingual FineWeb (Version 2.1.0; June 2025)
+# [DRAFT] Multilingual FineWeb
+
+**(Version 2.1.0; June 2025)**
 
 ## <a id="background">Background</a>
 
@@ -105,7 +107,8 @@ The primary download site for the data is [HuggingFace Hub](https://huggingface.
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
-LUMI: `/appl/local/openeurollm/training/catalogue/fineweb/2.1.0/`
++ LUMI: `/appl/local/openeurollm/training/catalogue/fineweb/2.1.0/data/`
++ Leonardo: `/leonardo_work/openeurollm/training/fineweb/2.1.0/data/`
 
 ## <a id="use">Terms of Use</a>
 

@@ -1,4 +1,6 @@
-# [DRAFT] English Nemotron-CC (Version 1.0; January 2025)
+# [DRAFT] English Nemotron-CC
+
+**(Version 1.0; January 2025)**
 
 ## <a id="background">Background</a>
 
@@ -43,9 +45,10 @@ Nemotron-CC currently only offers support for English, and contains 6.3T tokens 
 
 The primary download site for the data is [hosted at Common Crawl](https://data.commoncrawl.org/contrib/Nemotron/Nemotron-CC/index.html)
 
-Additionally, on Cineca computing servers, the data is directly available for read-only access on the Leonardo work filesytem.
+On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
-- Cineca Leonardo: TBD!
++ LUMI: `/appl/local/openeurollm/training/catalogue/nemotron-cc/1.0/`
++ Leonardo: `/leonardo_work/openeurollm/training/nemotron-cc/1.0/`
 
 ## <a id="use">Terms of Use</a>
 

@@ -1,4 +1,6 @@
-# [DRAFT] Multilingual FinePDFs (Version 1.0.0; September 2025)
+# [DRAFT] Multilingual FinePDFs
+
+**(Version 1.0.0; September 2025)**
 
 ## <a id="background">Background</a>
 
@@ -106,6 +108,11 @@ Following are statistics for the two sub-partitions separately.
 | **Total** | 35,230 | 9,493,007 | 270,052,448 | 7,665.4 | 801,334,025 |
 
 ## <a id="access">Access Information</a>
+
+On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/finepdfs/1.0.0/data/`
++ Leonardo: `/leonardo_work/openeurollm/training/finepdfs/1.0.0/data/`
 
 ## <a id="use">Terms of Use</a>
 

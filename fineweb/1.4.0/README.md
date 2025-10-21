@@ -1,4 +1,6 @@
-# [DRAFT] English FineWeb (Version 1.4.0; July 2025)
+# [DRAFT] English FineWeb
+
+**(Version 1.4.0; July 2025)**
 
 ## <a id="background">Background</a>
 
@@ -121,6 +123,14 @@
 
 
 ## <a id="access">Access Information</a>
+
+On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/fineweb1.4.0/data/`
++ Leonardo: `/leonardo_work/openeurollm/training/fineweb/1.4.0/data/`
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/fineweb1.4.0/edu/`
++ Leonardo: `/leonardo_work/openeurollm/training/fineweb/1.4.0/edu/`
 
 ## <a id="use">Terms of Use</a>
 

@@ -1,4 +1,6 @@
-# English Common Pile (Version 0.1; June 2025)
+# [DRAFT] English Common Pile
+
+**(Version 0.1; June 2025)**
 
 
 ## <a id="background">Background</a>

@@ -1,4 +1,6 @@
-# [DRAFT] HPLT Monolingual Datasets (Version 3.0; of August 2025)
+# [DRAFT] HPLT Monolingual Datasets
+
+**(Version 3.0; of August 2025)**
 
 ## <a id="background">Background</a>
 
@@ -60,6 +62,12 @@ Most of the language codes in the table are linked up to more in-depth statistic
 
 ## <a id="access">Access Information</a>
 
+The primary [download site](https://hplt-project.org/datasets/v3.0) for the data is hosted at the Norwegian national [NIRD](https://documentation.sigma2.no/files_storage/nird_lmd.html) research data infrastructure, which offers premium connectivity to the Europen research data network.
+
+On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/hplt/2.0/`
++ Leonardo: `/leonardo_work/openeurollm/training/hplt/2.0/`
 
 ## <a id="use">Terms of Use</a>
 

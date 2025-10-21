@@ -1,4 +1,6 @@
-# DataComp-LM (DCLM): Baseline
+# [DRAFT] DataComp-LM (DCLM): Baseline
+
+**(Version 1.0; July 2024)**
 
 ## <a id="background">Background</a>
 
