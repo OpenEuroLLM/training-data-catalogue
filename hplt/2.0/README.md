@@ -1,4 +1,4 @@
-# HPLT Monolingual Datasets (Version 2.0; of September 2024)
+# [DEPRECATED (2512)] HPLT Monolingual Datasets (Version 2.0; of September 2024)
 
 ## <a id="background">Background</a>
 
