@@ -10,6 +10,27 @@ import time;
 from transformers import AutoTokenizer;
 import zstandard as zstd;
 
+ROOT = "/appl/local/openeurollm/training/catalogue";
+LANGUAGES = {"als_Latn", "bos_Latn", "bul_Cyrl", "cat_Latn", "ces_Latn",
+             "dan_Latn", "deu_Latn", "ekk_Latn", "ell_Grek", "eng_Latn",
+             "est_Latn", "eus_Latn", "fin_Latn", "fra_Latn", "gle_Latn",
+             "glg_Latn", "hrv_Latn", "hun_Latn", "isl_Latn", "ita_Latn",
+             "kat_Geor", "lav_Latn", "lit_Latn", "ltg_Latn", "lvs_Latn",
+             "mkd_Cyrl", "mlt_Latn", "nld_Latn", "nno_Latn", "nob_Latn",
+             "nor_Latn", "pol_Latn", "por_Latn", "ron_Latn", "slk_Latn",
+             "slv_Latn", "spa_Latn", "sqi_Latn", "srp_Cyrl", "srp_Latn",
+             "swe_Latn", "tur_Latn", "ukr_Cyrl"};
+NEMOTRON = {"high/actual", "medium-high/actual", "medium/actual",
+            "medium-low/actual", "low/actual",
+            "high/synthetic/distill", "high/synthetic/diverse_qa_pairs",
+            "high/synthetic/extract_knowledge", "high/synthetic/knowledge_list",
+            "high/synthetic/wrap_medium", "low/synthetic/wrap_medium"};
+HPLT = dict();
+HPLT["3.0"] = {"gug_Latn": "Based on human data inspection via HPLT Analytics, this dataset appears to exhibit poor language identification; a large proportion of documents actually appear to comprise other languages, notably Spanish.",
+               "kas_Deva": "Based on human data inspection via HPLT Analytics, an unusually high proportion of this dataset appears to comprise adult content.",
+               "lij_Latn": "Based on human data inspection via HPLT Analytics, this dataset was further filtered for frequent foreign-language domains in mid-October 2025.",
+               "szl_Latn": "Based on human data inspection via HPLT Analytics, this dataset was further filtered for frequent foreign-language domains in mid-October 2025."};
+
 def count_file(path, tokenizer = None, key = "text", write = True, force = False):
 
   directory, file = os.path.split(path);
@@ -86,13 +107,16 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
     json.dump(result, stream, indent = 2);
   return result;
 
-def summarize(path, output = sys.stdout, format = "csv",
-              sample = False, pattern = "\\.zst$", base = None):
+def summarize(path, output = sys.stdout, format = "csv", sample = False,
+              languages = None, partition = None, warning = None,
+              pattern = "\\.zst$", base = None):
 
-  if isinstance(output, str):
+  if base is None and isinstance(output, str):
     base = os.path.dirname(output);
     with open(output, "w") as output:
-      return summarize(path, output, format, sample, pattern, base);
+      return summarize(path, output, format, sample,
+                       languages, partition, warning,
+                       pattern, base);
     
   prefix = "https://data.hplt-project.org/three/sorted";
 
@@ -103,8 +127,21 @@ def summarize(path, output = sys.stdout, format = "csv",
   if format == "json":
     multilingual = open(os.path.join(base, "multilingual.map"),
                         "wt", encoding = "utf-8");
-  for file in sorted(glob.glob(os.path.join(path, "*/.counts.json"))):
-    name = file.split(os.path.sep)[-2];
+  if partition is None or partition == "":
+    files = glob.glob(os.path.join(path, "*", ".counts.json"));
+    offset = -2;
+  elif isinstance(partition, str):
+    files = glob.glob(os.path.join(path, "*", partition, ".counts.json"));
+    offset = None;
+  else:
+    files = [];
+    for _ in partition:
+      files.append(os.path.join(path, _, ".counts.json"));
+    offset = -2 - len(partition.split(os.path.sep));
+      
+  for i, file in enumerate(sorted(files)):
+    name = file.split(os.path.sep)[offset] if offset is not None else partition[i];
+    if languages is not None and name not in languages: continue;
     with open(file) as _:
       counts = json.load(_);
       counts["name"] = name;
@@ -113,8 +150,14 @@ def summarize(path, output = sys.stdout, format = "csv",
       characters = counts["characters"];
       counts["t/d"] = tokens / documents;
       counts["c/t"] = characters / tokens;
+      if "errors" in counts and counts["errors"] > 0:
+        print("summarize(): {} errors in {}."
+              "".format(counts["errors"], file),
+              file = sys.stderr, flush = True);
       counts.pop("errors", None);
       counts.pop("time", None);
+      if warning is not None and name in warning:
+        counts["warning"] = warning[name];
       
       if sample:
         counts["samples"] = dict();
