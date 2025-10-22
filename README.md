@@ -11,6 +11,7 @@ The catalogue is accompanied by a curated collection of (a subset of) LLM (pre-)
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/`
 + Leonardo: `/leonardo_work/OELLM_Catalog/training/`
++ MareNostrum 5: ~~`/gpfs/scratch/openeurollm/training/catalogue/`~~
 
 To nominate additional resources for inclusion in the catalogue or discuss specifics of emerging entries, please create a [GitHub issue on this repository](https://github.com/OpenEuroLLM/training-data-catalogue/issues).
 
