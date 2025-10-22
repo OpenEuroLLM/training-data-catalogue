@@ -22,7 +22,6 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + RefinedWeb
 + RedPajama
 + SlimPajama
-+ Community OSCAR (https://huggingface.co/datasets/oscar-corpus/community-oscar)
 + **[DCLM](dclm/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
 + Dolma
 + **[FineWeb 1](fineweb/1.4.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
@@ -33,6 +32,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 + mC4
 + CulturaX ([Nguyen, et al., 2024](https://aclanthology.org/2024.lrec-main.377/))
++ Community OSCAR (https://huggingface.co/datasets/oscar-corpus/community-oscar)
 + **[HPLT](hplt/2.0/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
 + **[FineWeb 2](fineweb/2.1.0/README.md)** (https://github.com/huggingface/fineweb-2)
 + **[FinePDFs](finepdfs/1.1.0/README.md)** (https://huggingface.co/datasets/HuggingFaceFW/finepdfs)
