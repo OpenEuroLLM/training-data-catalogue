@@ -1,6 +1,6 @@
-# [DRAFT] Multilingual FineWeb
+# Multilingual FineWeb
 
-**(Version 2.1.0; June 2025)**
+**[DRAFT] (Version 2.1.0; June 2025)**
 
 ## <a id="background">Background</a>
 

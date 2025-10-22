@@ -1,6 +1,6 @@
-# [DEPRECATED (2512)] HPLT Monolingual Datasets
+# HPLT Monolingual Datasets
 
-**(Version 2.0; of September 2024)**
+**[DEPRECATED (2512)] (Version 2.0; of September 2024)**
 
 ## <a id="background">Background</a>
 
@@ -76,8 +76,8 @@ For convenience, selected subsets of the data have also been ingested to the [Hu
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
-+ LUMI: `/appl/local/openeurollm/training/catalogue/hplt/2.0/`
-+ Leonardo: `/leonardo_work/openeurollm/training/hplt/2.0/`
++ LUMI: `/appl/local/openeurollm/training/catalogue/hplt/2.0/cleaned/`
++ Leonardo: `/leonardo_work/openeurollm/training/hplt/2.0/cleaned/`
 
 ## <a id="use">Terms of Use</a>
 

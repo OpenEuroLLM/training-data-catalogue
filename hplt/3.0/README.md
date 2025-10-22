@@ -1,6 +1,6 @@
-# [DRAFT] HPLT Monolingual Datasets
+# HPLT Monolingual Datasets
 
-**(Version 3.0; of August 2025)**
+**[DRAFT] (Version 3.0; of August 2025)**
 
 ## <a id="background">Background</a>
 

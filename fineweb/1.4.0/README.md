@@ -1,6 +1,6 @@
-# [DRAFT] English FineWeb
+# English FineWeb
 
-**(Version 1.4.0; July 2025)**
+**[DRAFT] (Version 1.4.0; July 2025)**
 
 ## <a id="background">Background</a>
 

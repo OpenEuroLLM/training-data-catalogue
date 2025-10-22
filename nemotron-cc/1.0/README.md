@@ -1,6 +1,6 @@
-# [DRAFT] English Nemotron-CC
+# English Nemotron-CC
 
-**(Version 1.0; January 2025)**
+**[DRAFT] (Version 1.0; January 2025)**
 
 ## <a id="background">Background</a>
 

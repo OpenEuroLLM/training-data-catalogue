@@ -1,6 +1,6 @@
-# [DRAFT] Multilingual MADLAD-400
+# Multilingual MADLAD-400
 
-**(Version 1.0; October 2021)**
+**[DRAFT] (Version 1.0; October 2021)**
 
 ## <a id="background">Background</a>
 
