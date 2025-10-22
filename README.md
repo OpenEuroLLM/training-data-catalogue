@@ -22,6 +22,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 + RefinedWeb
 + RedPajama
 + SlimPajama
++ Community OSCAR (https://huggingface.co/datasets/oscar-corpus/community-oscar)
 + **[DCLM](dclm/1.0/README.md)** ([Li, et al., 2024](https://arxiv.org/abs/2406.11794))
 + Dolma
 + **[FineWeb 1](fineweb/1.4.0/README.md)** ([Penedo, et al., 2024](https://arxiv.org/abs/2406.17557))
