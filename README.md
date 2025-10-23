@@ -11,6 +11,7 @@ The catalogue is accompanied by a curated collection of (a subset of) LLM (pre-)
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/`
 + Leonardo: `/leonardo_work/OELLM_Catalog/training/`
++ MareNostrum 5: ~~`/gpfs/scratch/openeurollm/training/catalogue/`~~
 
 To nominate additional resources for inclusion in the catalogue or discuss specifics of emerging entries, please create a [GitHub issue on this repository](https://github.com/OpenEuroLLM/training-data-catalogue/issues).
 
@@ -32,6 +33,7 @@ To nominate additional resources for inclusion in the catalogue or discuss speci
 
 + mC4
 + CulturaX ([Nguyen, et al., 2024](https://aclanthology.org/2024.lrec-main.377/))
++ Community OSCAR (https://huggingface.co/datasets/oscar-corpus/community-oscar)
 + **[HPLT](hplt/2.0/README.md)** ([De Gilbert, et al., 2024](https://arxiv.org/abs/2403.14009), [Burchell, et al. (2025)](https://arxiv.org/abs/2503.10267))
 + **[FineWeb 2](fineweb/2.1.0/README.md)** (https://github.com/huggingface/fineweb-2)
 + **[FinePDFs](finepdfs/1.1.0/README.md)** (https://huggingface.co/datasets/HuggingFaceFW/finepdfs)
