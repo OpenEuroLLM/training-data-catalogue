@@ -54,7 +54,7 @@ Most of the language codes in the table are linked up to more in-depth statistic
 | [slk_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-slk_Latn.yaml) | 36,370,822 | 768,390,767 | 40,205,058,840 | 1,105.4 | 116,251,479,393 |
 | [slv_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-slv_Latn.yaml) | 16,812,095 | 402,193,448 | 20,924,713,117 | 1,244.6 | 62,457,876,997 |
 | [spa_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-spa_Latn.yaml) | 725,580,145 | 16,330,570,244 | 658,967,685,227 | 908.2 | 2,752,996,385,520 |
-| srp_Cyrl | 7,081,710 | 169,868,202 | 10,378,927,600 | 1,465.6 | 27,684,340,567 |
+| [srp_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-srp_Cyrl.yaml) | 7,081,710 | 169,868,202 | 10,378,927,600 | 1,465.6 | 27,684,340,567 |
 | [swe_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-swe_Latn.yaml) | 97,717,372 | 2,478,171,005 | 111,783,273,471 | 1,143.9 | 375,114,931,759 |
 | [tur_Latn](https://analytics.hplt-project.org/viewer/HPLT-v3-tur_Latn.yaml) | 159,466,598 | 3,114,426,920 | 149,976,628,858 | 940.5 | 512,610,667,130 |
 | [ukr_Cyrl](https://analytics.hplt-project.org/viewer/HPLT-v3-ukr_Cyrl.yaml) | 80,026,949 | 1,605,661,119 | 81,215,575,658 | 1,014.9 | 244,657,829,933 |
