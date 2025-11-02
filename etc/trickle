@@ -68,7 +68,7 @@ while read line; do
       break;
     fi
     echo "[${date}] ${id}: ${line}" >> ${log};
-    sleep 0.5;
+    sleep 0.2;
     n=$[${n} + 1];
   fi
   j=$[${j} + 1];
