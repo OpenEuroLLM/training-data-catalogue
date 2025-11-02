@@ -1,3 +1,4 @@
+from collections import Counter;
 import io;
 import glob;
 import gzip;
@@ -63,9 +64,12 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
   errors = [];  
   bytes = os.path.getsize(path);
   documents = segments = tokens = characters = 0;
+  keys = Counter();
   for i, line in enumerate(stream):
     try:
-      text = json.loads(line)[key];
+      _ = json.loads(line);
+      text = _[key];
+      keys.update(_.keys());
     except Exception as error:
       errors.append(i);
       print(error, file = sys.stderr);
@@ -75,7 +79,7 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
     tokens += len(tokenizer.tokenize(text));
     characters += len(text);
   result = {"bytes": bytes, "documents": documents, "segments": segments,
-            "tokens": tokens, "characters": characters,
+            "tokens": tokens, "characters": characters, "keys": dict(keys),
             "errors": errors, "time": time.time() - start};
   if write:
     with open(file, "w", encoding="utf-8") as _:
@@ -87,6 +91,7 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
 
   result = {"files": 0, "bytes": 0,
             "documents": 0, "segments": 0, "tokens": 0, "characters": 0,
+            "keys": {"required": list(), "optional": list()},
             "time": 0, "errors": 0};
   if tokenizer is None:
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
@@ -100,6 +105,10 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
   for counts in results:
     for _ in ("bytes", "documents", "segments", "tokens", "characters", "time"):
       result[_] += counts[_];
+    d = counts["documents"];
+    for key, n in counts["keys"].items():
+      if n == d: result["keys"]["required"].append(key);
+      else: result["keys"]["optional"].append(key);
     result["errors"] += len(counts["errors"]);
     result["files"] += 1;
   with open(os.path.join(path, ".counts.json"),
@@ -132,12 +141,12 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
     offset = -2;
   elif isinstance(partition, str):
     files = glob.glob(os.path.join(path, "*", partition, ".counts.json"));
-    offset = None;
+    offset = -2 - len(partition.split(os.path.sep));
   else:
     files = [];
     for _ in partition:
       files.append(os.path.join(path, _, ".counts.json"));
-    offset = -2 - len(partition.split(os.path.sep));
+      offset = None;
       
   for i, file in enumerate(sorted(files)):
     name = file.split(os.path.sep)[offset] if offset is not None else partition[i];
