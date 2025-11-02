@@ -25,6 +25,9 @@ The _cleaned_ version is distributed as 605 compressed JSONlines files, amountin
 For larger languages, the data is distributed across multiple files, e.g. `eng_Latn/1.jsonl.zst` … `eng_Latn/160.jsonl.zst` for the 160 parts that jointly comprise some 3,4 billion documents identified as English.
 When sampling subsets of the data, it may be advisable to give preference to documents with higher WDS quality estimates, i.e. the first value in the JSON `doc_scores` field.
 
+## <a id="metadata">Available Metadata</a>
+
+
 ## <a id="languages">European Language Support</a>
 
 Most of the language codes in the table are linked up to more in-depth statistics from the [HPLT Analytics](https://github.com/hplt-project/data-analytics-tool) tool.
