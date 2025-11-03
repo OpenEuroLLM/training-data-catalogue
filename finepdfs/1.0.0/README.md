@@ -40,7 +40,7 @@ Following are statistics for the two sub-partitions separately.
 | [hrv_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-hrv_Latn.yaml) | 1,436,818 | 411,369,479 | 11,898,331,256 | 8,281.0 | 34,100,335,319 |
 | [hun_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-hun_Latn.yaml) | 3,145,494 | 1,053,236,383 | 32,122,907,516 | 10,212.4 | 90,799,550,693 |
 | [isl_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-isl_Latn.yaml) | 362,886 | 116,017,123 | 3,939,270,737 | 10,855.4 | 9,642,863,726 |
-| ita_Latn | 17,589,182 | 3,533,469,156 | 88,442,088,265 | 5,028.2 | 319,595,368,259 |
+| [ita_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ita_Latn.yaml) | 17,589,182 | 3,533,469,156 | 88,442,088,265 | 5,028.2 | 319,595,368,259 |
 | [kat_Geor](https://analytics.hplt-project.org/viewer/finepdfs-v1-kat_Geor.yaml) | 171,028 | 34,948,503 | 1,061,488,655 | 6,206.5 | 2,423,337,019 |
 | [lit_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-lit_Latn.yaml) | 870,613 | 203,833,718 | 6,392,987,525 | 7,343.1 | 17,883,293,058 |
 | [ltg_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ltg_Latn.yaml) | 100 | 13,186 | 598,156 | 5,981.6 | 1,342,047 |
@@ -51,7 +51,7 @@ Following are statistics for the two sub-partitions separately.
 | [nno_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-nno_Latn.yaml) | 91,915 | 13,970,600 | 377,615,627 | 4,108.3 | 1,163,196,163 |
 | [nob_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-nob_Latn.yaml) | 1,501,170 | 430,597,912 | 11,313,592,942 | 7,536.5 | 36,054,219,947 |
 | [pol_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-pol_Latn.yaml) | 9,692,213 | 1,804,756,171 | 48,493,246,179 | 5,003.3 | 149,793,102,232 |
-| por_Latn | 12,045,013 | 3,577,320,664 | 91,205,883,463 | 7,572.1 | 314,534,042,300 |
+| [por_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-por_Latn.yaml) | 12,045,013 | 3,577,320,664 | 91,205,883,463 | 7,572.1 | 314,534,042,300 |
 | [ron_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ron_Latn.yaml) | 3,265,132 | 760,772,312 | 21,472,146,845 | 6,576.2 | 68,152,976,411 |
 | [slk_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-slk_Latn.yaml) | 2,251,520 | 468,386,662 | 12,303,985,783 | 5,464.7 | 33,472,326,138 |
 | [slv_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-slv_Latn.yaml) | 930,944 | 280,973,547 | 8,148,557,074 | 8,753.0 | 23,324,462,834 |
