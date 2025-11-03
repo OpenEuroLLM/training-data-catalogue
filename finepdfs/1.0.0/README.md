@@ -29,7 +29,7 @@ Following are statistics for the two sub-partitions separately.
 | [cat_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-cat_Latn.yaml) | 1,864,511 | 460,483,468 | 11,713,904,044 | 6,282.6 | 37,432,806,963 |
 | [ces_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ces_Latn.yaml) | 5,651,566 | 1,209,991,831 | 31,927,761,336 | 5,649.4 | 89,411,453,401 |
 | [dan_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-dan_Latn.yaml) | 2,415,047 | 529,826,412 | 12,888,293,972 | 5,336.7 | 39,836,048,581 |
-| deu_Latn | 36,121,918 | 7,287,570,305 | 164,377,261,605 | 4,550.6 | 594,379,934,722 |
+| [deu_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-deu_Latn.yaml) | 36,121,918 | 7,287,570,305 | 164,377,261,605 | 4,550.6 | 594,379,934,722 |
 | [ekk_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ekk_Latn.yaml) | 552,807 | 122,231,279 | 3,298,057,000 | 5,966.0 | 9,260,281,455 |
 | [ell_Grek](https://analytics.hplt-project.org/viewer/finepdfs-v1-ell_Grek.yaml) | 1,962,841 | 532,510,229 | 17,611,814,004 | 8,972.6 | 42,197,153,898 |
 | [eus_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-eus_Latn.yaml) | 339,042 | 118,248,173 | 3,065,336,192 | 9,041.2 | 9,092,424,094 |
