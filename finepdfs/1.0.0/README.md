@@ -55,7 +55,7 @@ Following are statistics for the two sub-partitions separately.
 | [ron_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ron_Latn.yaml) | 3,265,132 | 760,772,312 | 21,472,146,845 | 6,576.2 | 68,152,976,411 |
 | [slk_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-slk_Latn.yaml) | 2,251,520 | 468,386,662 | 12,303,985,783 | 5,464.7 | 33,472,326,138 |
 | [slv_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-slv_Latn.yaml) | 930,944 | 280,973,547 | 8,148,557,074 | 8,753.0 | 23,324,462,834 |
-| spa_Latn | 25,629,014 | 8,180,797,092 | 204,519,261,412 | 7,980.0 | 776,469,553,028 |
+| [spa_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-spa_Latn.yaml) | 25,629,014 | 8,180,797,092 | 204,519,261,412 | 7,980.0 | 776,469,553,028 |
 | [srp_Cyrl](https://analytics.hplt-project.org/viewer/finepdfs-v1-srp_Cyrl.yaml) | 945,085 | 352,218,955 | 11,152,259,556 | 11,800.3 | 29,079,555,628 |
 | [srp_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-srp_Latn.yaml) | 12,411 | 5,453,053 | 188,544,812 | 15,191.8 | 556,546,006 |
 | [swe_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-swe_Latn.yaml) | 4,125,120 | 1,001,528,009 | 23,840,809,975 | 5,779.4 | 76,234,487,384 |
