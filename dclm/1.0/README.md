@@ -1,6 +1,6 @@
-# [DRAFT] DataComp-LM (DCLM): Baseline
+# DataComp-LM (DCLM): Baseline
 
-**(Version 1.0; July 2024)**
+**[DRAFT] (Version 1.0; July 2024)**
 
 ## <a id="background">Background</a>
 
@@ -13,11 +13,29 @@ The _baseline_ dataset is derived from a much larger [document pool](https://dat
 
 ## <a id="statistics">Structure & Statistics</a>
 
+The dataset is broken up into 100 roughly equal-sized shards, each comprising about 1.6 million documents,
+organized in a directory hierarchy with two layers:
+`global-shard_01_of_10/local-shard_0_of_10` … `global-shard_10_of_10/local-shard_9_of_10`.
+Each subdirectory contains around 280 files.
+
+## <a id="metadata">Available Metadata</a>
+
+| **Field** | **Status** | **Description** |
+|-----------|------------|-----------------|
+| bff_contained_ngram_count_before_dedupe | required |  |
+| language_id_whole_page_fasttext | required |  |
+| metadata | required |  |
+| previous_word_count | required |  |
+| text | required |  |
+| url | required |  |
+| warcinfo | required |  |
+| fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob | required |  |
 
 ## <a id="languages">European Language Support</a>
 
 | **Code(s)** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
 |-------------|----------:|--------------:|-------------:|-----------:|---------------:|
+| **English** | 2,939,202,307 | 165,477,300,858 | 3,787,521,950,900 | 1,288.6 | 16,519,583,746,304 |
 
 
 ## <a id="access">Access Information</a>

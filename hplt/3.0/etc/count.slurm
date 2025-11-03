@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #
-# for i in ./clean/*; do echo sbatch etc/count.slurm $i; done > count.trickle
-# trickle --start --limit 180 count.trickle
-# while true; do trickle --limit 180 count.trickle; sleep 60; done
+# for i in ./sorted/???_*/; do echo sbatch etc/count.slurm $i; done > count.trickle
+# ../../etc/trickle --start --limit 180 count.trickle
+# while true; do ../../etc/trickle --limit 180 count.trickle; sleep 60; done
 #
 
 #SBATCH --job-name=count
@@ -52,7 +52,7 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: root in ${ROOT}; target: ${D
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: using ${CORES} cores."
 
 #
-#
+# for increased parallelization, optionally only process one WDS bin
 #
 pattern="\\.jsonl\\.zst\$";
 if [ -n "${2}" ]; then
@@ -60,18 +60,20 @@ if [ -n "${2}" ]; then
 fi
 
 #
-# command-line arguments can be directories; otherwise glob ourselves
+# command-line argument is one directory
 #
 path=$(readlink -e ${1});
-#if [ -z "${path}" ]; then continue; fi
-#if [ -f ${i}/.counts.json ]; then continue; fi
+if [ -z "${path}" ]; then
+  echo "count.slurm: missing or invalid directory argument; exit." >&2;
+  exit 1;
+fi
+
 python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import counts;
-counts.count_directory(\"${path}\", pattern = \"${pattern}\", cores = ${CORES});
+counts.count_directory(\"${path}\", pattern = \"${pattern}\", cores = ${CORES}, force = True);
 "
-
 
 #
 # make sure everything is world-readable (and directories searchable)

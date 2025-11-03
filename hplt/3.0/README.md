@@ -13,6 +13,30 @@
 
 ## <a id="metadata">Available Metadata</a>
 
+| **Field** | **Status** | **Description** |
+|-----------|------------|-----------------|
+| f | required |  |
+| o | required |  |
+| s | required |  |
+| rs | required |  |
+| u | required |  |
+| c | required |  |
+| ts | required |  |
+| de | required |  |
+| crawl_id | required |  |
+| lang | required |  |
+| prob | required |  |
+| text | required |  |
+| cluster_size | required |  |
+| seg_langs | required |  |
+| id | required |  |
+| filter | required |  |
+| pii | required |  |
+| doc_scores | required |  |
+| web-register | required |  |
+| xml | optional |  |
+| html_lang | optional |  |
+
 
 ## <a id="languages">European Language Support</a>
 

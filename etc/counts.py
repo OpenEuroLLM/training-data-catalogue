@@ -1,3 +1,4 @@
+from collections import Counter;
 import io;
 import glob;
 import gzip;
@@ -63,9 +64,12 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
   errors = [];  
   bytes = os.path.getsize(path);
   documents = segments = tokens = characters = 0;
+  keys = Counter();
   for i, line in enumerate(stream):
     try:
-      text = json.loads(line)[key];
+      _ = json.loads(line);
+      text = _[key];
+      keys.update(_.keys());
     except Exception as error:
       errors.append(i);
       print(error, file = sys.stderr);
@@ -75,7 +79,7 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
     tokens += len(tokenizer.tokenize(text));
     characters += len(text);
   result = {"bytes": bytes, "documents": documents, "segments": segments,
-            "tokens": tokens, "characters": characters,
+            "tokens": tokens, "characters": characters, "keys": dict(keys),
             "errors": errors, "time": time.time() - start};
   if write:
     with open(file, "w", encoding="utf-8") as _:
@@ -88,6 +92,7 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
   result = {"files": 0, "bytes": 0,
             "documents": 0, "segments": 0, "tokens": 0, "characters": 0,
             "time": 0, "errors": 0};
+  keys = Counter();
   if tokenizer is None:
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
                                               trust_remote_code = True,
@@ -100,8 +105,17 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
   for counts in results:
     for _ in ("bytes", "documents", "segments", "tokens", "characters", "time"):
       result[_] += counts[_];
+    if "keys" in counts: keys.update(counts["keys"]);
     result["errors"] += len(counts["errors"]);
     result["files"] += 1;
+  d = counts["documents"];
+  required = list(); optional = list();
+  for key, n in counts["keys"].items():
+    if n == d:
+      if key not in required: required.append(key);
+    else:
+      if key not in optional: optional.append(key);
+  result["keys"] = {"required": required, "optional": optional};
   with open(os.path.join(path, ".counts.json"),
             "w", encoding="utf-8") as stream:
     json.dump(result, stream, indent = 2);
@@ -110,7 +124,14 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
 def summarize(path, output = sys.stdout, format = "csv", sample = False,
               languages = None, partition = None, warning = None,
               pattern = "\\.zst$", base = None):
-
+  #
+  # to reflect different directory layouts, the .partition. argument can take
+  # various forms:
+  # + None: use all immediate sub-directories, e.g. one per language or crawl
+  # + string: use immediate sub-directories plus path suffix (e.g. "train");
+  # + list of strings: use specified sub-directories, e.g. ["high/actual", ...]
+  # + "**": no meaningful partitions, recursively search for count files.
+  #
   if base is None and isinstance(output, str):
     base = os.path.dirname(output);
     with open(output, "w") as output:
@@ -123,6 +144,7 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
   result = [];
   totals = {"bytes": 0, "documents": 0, "segments": 0,
             "tokens": 0, "characters": 0};
+  required = list(); optional = list();
   multilingual = None;
   if format == "json":
     multilingual = open(os.path.join(base, "multilingual.map"),
@@ -130,17 +152,24 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
   if partition is None or partition == "":
     files = glob.glob(os.path.join(path, "*", ".counts.json"));
     offset = -2;
+  elif partition == "**":
+    files = glob.glob(os.path.join(path, "**", ".counts.json"),
+                      recursive = True);
+    offset = 0;
   elif isinstance(partition, str):
     files = glob.glob(os.path.join(path, "*", partition, ".counts.json"));
-    offset = None;
+    offset = -2 - len(partition.split(os.path.sep));
   else:
     files = [];
     for _ in partition:
       files.append(os.path.join(path, _, ".counts.json"));
-    offset = -2 - len(partition.split(os.path.sep));
+      offset = None;
       
   for i, file in enumerate(sorted(files)):
-    name = file.split(os.path.sep)[offset] if offset is not None else partition[i];
+    if offset == 0:
+      name = file[len(path) + 1:-len(".counts.json") - 1];
+    else:
+      name = file.split(os.path.sep)[offset] if offset is not None else partition[i];
     if languages is not None and name not in languages: continue;
     with open(file) as _:
       counts = json.load(_);
@@ -210,6 +239,11 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
               file = output);
       for _ in ["bytes", "documents", "segments", "tokens", "characters"]:
         totals[_] += counts[_];
+      if "keys" in counts:
+        for _ in counts["keys"]["required"]:
+          if _ not in optional and _ not in required: required.append(_);
+        for _ in counts["keys"]["optional"]:
+          if _ not in optional: optional.append(_);
 
   if multilingual is not None: multilingual.close();
   documents = totals["documents"];
@@ -227,5 +261,10 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
           "".format(documents, segments, tokens,
                     tokens / documents, characters),
           file = output);
-        
+    if len(required) or len(optional):
+      print(file = output);
+      for _ in required:
+        print(f"| {_} | required |  |", file = output);
+      for _ in optional:
+        print(f"| {_} | optional |  |", file = output);
   return result;

@@ -1,5 +1,7 @@
 # OpenEuroLLM Training Data Catalogue: Skeleton
 
+**[DRAFT] (Version ?.?.?; Month Year)**
+
 ## <a id="background">Background</a>
 
 
@@ -10,6 +12,9 @@
 
 
 ## <a id="metadata">Available Metadata</a>
+
+| **Field** | **Status** | **Description** |
+|-----------|------------|-----------------|
 
 
 ## <a id="languages">European Language Support</a>
