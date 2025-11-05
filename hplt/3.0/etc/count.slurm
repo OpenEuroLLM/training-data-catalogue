@@ -9,7 +9,7 @@
 #SBATCH --job-name=count
 #SBATCH --output=log/%x-%j.out
 #SBATCH --partition=small
-#SBATCH --account=project_462000131
+#SBATCH --account=project_462000827
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
@@ -72,7 +72,7 @@ python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import counts;
-counts.count_directory(\"${path}\", pattern = \"${pattern}\", cores = ${CORES}, force = True);
+counts.count_directory(\"${path}\", pattern = \"${pattern}\", cores = ${CORES}, force = False);
 "
 
 #
