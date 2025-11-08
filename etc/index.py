@@ -14,6 +14,20 @@ import zstandard as zstd;
 
 def index_file(path, text = "text", url = "u", level = 1):
 
+  #
+  # see whether all the necessary indices are available on disk
+  #
+  directory, file = os.path.split(path);
+  base = file;
+  for _ in (".zstd", ".zst", ".gz", ".jsonl", ".json"):
+    if base.endswith(_): base = base[:-len(_)];
+  _ = True;
+  if not os.path.isfile(os.path.join(directory, "." + base + ".signatures" + ".zst")): _ = False;
+  elif url is not None:
+    if not os.path.isfile(os.path.join(directory, "." + base + ".domains" + ".zst")): _ = False;
+    elif not os.path.isfile(os.path.join(directory, "." + base + ".urls" + ".zst")): _ = False;
+  if _: return 1;
+  
   stream = None;
   if path.endswith(".zst") or path.endswith(".zstd"):
     decompressor = zstd.ZstdDecompressor();
@@ -30,7 +44,6 @@ def index_file(path, text = "text", url = "u", level = 1):
   if url is not None: domains = dict(); urls = dict();
   else: domains = urls = None;
   normalize = re.compile(r"\W", re.IGNORECASE);
-  directory, file = os.path.split(path);
   key = os.path.join(os.path.sep.join(directory.split(os.path.sep)[-level:]), file);
 
   def index(item, dictionary):
@@ -59,7 +72,7 @@ def index_file(path, text = "text", url = "u", level = 1):
       index(address, urls);
 
   def output(dictionary, suffix):
-    name = os.path.join(directory, "." + file + suffix + ".zst");
+    name = os.path.join(directory, "." + base + suffix + ".zst");
     compressor = zstd.ZstdCompressor(level = 10, threads = 1);
     stream = compressor.stream_writer(open(name, "wb"));
     stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
@@ -71,14 +84,12 @@ def index_file(path, text = "text", url = "u", level = 1):
       print(file = stream);
     stream.close();
 
-  for _ in (".zstd", ".zst", ".gz", ".jsonl", ".json"):
-    if file.endswith(_): file = file[:-len(_)];
   output(signatures, ".signatures");
   if url is not None:
     output(domains, ".domains");
     output(urls, ".urls");
 
-  return i + 1;
+  return 0;
       
 def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
                     text = "text", url = "u", level = 1, tree = False):
@@ -100,11 +111,11 @@ def index_directory(path, pattern = r"\.jsonl\.zst$", cores = 1,
   start = time.time();
   pattern = re.compile(pattern);
   files = walk(path, pattern, tree);
-  print("index.py: reading {}.".format([file[len(path) + 1:] for file in files]));
+  print("index.py: indexing {}.".format([file[len(path) + 1:] for file in files]));
   with mp.Pool(cores) as pool:
     counts = pool.starmap(index_file,
                           ((file, text, url, level) for file in files));
-  print("index.py: processed {} files; {} documents; {:.2f} seconds."
+  print("index.py: processed {} files; {} cached; {:.2f} seconds."
         "".format(len(counts), sum(counts), time.time() - start));
 
   def compress(suffix):
