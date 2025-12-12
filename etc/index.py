@@ -12,7 +12,7 @@ import time;
 from urllib.parse import urlsplit;
 import zstandard as zstd;
 
-def index_file(path, text = "text", url = "u", level = 1):
+def index_file(path, text = "text", url = "u", level = 1, force = False):
 
   #
   # see whether all the necessary indices are available on disk
@@ -26,7 +26,7 @@ def index_file(path, text = "text", url = "u", level = 1):
   elif url is not None:
     if not os.path.isfile(os.path.join(directory, "." + base + ".domains" + ".zst")): _ = False;
     elif not os.path.isfile(os.path.join(directory, "." + base + ".urls" + ".zst")): _ = False;
-  if _: return 1;
+  if _ and not force: return 1;
   
   stream = None;
   if path.endswith(".zst") or path.endswith(".zstd"):

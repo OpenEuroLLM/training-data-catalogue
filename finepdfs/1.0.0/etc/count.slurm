@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #
-# for i in ./data/CC-MAIN-20*; do sbatch etc/count.slurm $i; done
+# for i in edu/*/train; do sbatch etc/count.slurm $i; done
 #
 
 #SBATCH --job-name=count
 #SBATCH --output=log/%x-%j.out
 #SBATCH --partition=small
-#SBATCH --account=project_462000131
+#SBATCH --account=project_462000827
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
