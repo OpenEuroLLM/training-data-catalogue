@@ -33,9 +33,9 @@ Each subdirectory contains around 280 files.
 
 ## <a id="languages">European Language Support</a>
 
-| **Code(s)** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|-------------|----------:|--------------:|-------------:|-----------:|---------------:|
-| **English** | 2,939,202,307 | 165,477,300,858 | 3,787,521,950,900 | 1,288.6 | 16,519,583,746,304 |
+| **Code(s)** | **Documents** | **Segments**    | **Tokens**        | **Length** | **Characters**     |
+|-------------|--------------:|----------------:|------------------:|-----------:|-------------------:|
+| **English** | 2,939,202,307 | 165,477,300,858 | 3,787,521,950,900 | 1,288.6    | 16,519,583,746,304 |
 
 
 ## <a id="access">Access Information</a>
