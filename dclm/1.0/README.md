@@ -43,6 +43,7 @@ Each subdirectory contains around 280 files.
 The _baseline_ dataset is [hosted at Hugging Face](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0).
 
 ## <a id="use">Terms of Use</a>
+The dataset is released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). The use of this also dataset is subject to [CommonCrawl's Terms of Use](https://commoncrawl.org/terms-of-use).
 
 ## <a id="curator">Catalogue Curator</a>
-
+Stephan Oepen, University of Oslo, oe@ifi.uio.no
