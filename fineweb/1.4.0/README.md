@@ -21,6 +21,8 @@ The extraction pipeline uses the datatrove library and can be reproduced by usin
 FineWeb is distributed as 27,465 Zstd-compressed JSONLines files, split into 110 directories that correspond to the source crawls. 
 Each directory contains files whose names follow the `xxx_yyyyy.jsonl.zst` naming patern, where `xxx` and `yyyyy` start at zero and denote the shard.
 
+FineWeb-Edu follows the same directory structure but only contains 2,110 files, named either in the same `xxx_yyyyy.jsonl.zst` pattern as the FineWeb data files, or 
+in some crawls in the format of `train-xxxxx-of-NNNNN.jsonl.zst` where `xxxxx` starts at zero and goes up to `NNNNN`.
 
 ## <a id="languages">European Language Support</a>
 
