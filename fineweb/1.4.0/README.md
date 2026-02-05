@@ -143,7 +143,12 @@ On select EuroHPC systems, the data is directly available for read-only access o
 + LUMI: `/appl/local/openeurollm/training/catalogue/fineweb1.4.0/edu/`
 + Leonardo: `/leonardo_work/openeurollm/training/fineweb/1.4.0/edu/`
 
-## <a id="use">References</a>
+## <a id="use">Terms of Use</a>
+
+The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/).
+The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://commoncrawl.org/terms-of-use).
+
+### <a id="use">Citation Information</a>
 ```bibtex
 @inproceedings{
   penedo2024the,
@@ -163,11 +168,6 @@ On select EuroHPC systems, the data is directly available for read-only access o
     publisher    = { Hugging Face }
 }
 ```
-
-## <a id="use">Terms of Use</a>
-
-The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/).
-The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://commoncrawl.org/terms-of-use).
 
 ## <a id="curator">Catalogue Curator</a>
 
