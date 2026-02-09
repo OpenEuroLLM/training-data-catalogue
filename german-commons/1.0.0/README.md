@@ -1,4 +1,3 @@
-Commit d54ba51
 ## <a id="background">Background</a>
 
 The German Commons provides the largest collection of openly licensed German text for LLM pre-training.
@@ -6,6 +5,10 @@ The data construction and corpus statistics are described by
 [Gienapp et al., 2025](https://arxiv.org/abs/2510.13996).
 The dataset comprises 154.6 billion tokens across 35.8 million documents
 spanning seven thematic domains: web, political, legal, news, economics, cultural, and scientific text.
+This catalogue entry corresponds to commit
+[d54ba51](https://huggingface.co/datasets/coral-nlp/german-commons/commit/d54ba51)
+from the Hugging Face repository.
+
 Additional details are available in the paper and on the dataset
 [Hugging Face page](https://huggingface.co/datasets/coral-nlp/german-commons).
 
