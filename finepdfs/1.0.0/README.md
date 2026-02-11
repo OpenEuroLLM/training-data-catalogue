@@ -4,17 +4,27 @@
 
 ## <a id="background">Background</a>
 
-FinePDFs provides a large-scale dataset of PDF documents for LLM pre-training.
-The dataset construction is described in the research papers linked in the dataset card.
-FinePDFs comprises over 200 million documents extracted from CommonCrawl data.
-Additional details are available on the [FinePDFs Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/finepdfs).
+FinePDFs is a collection of PDF documents extracted from CommonCrawl for 
+language model pre-training. The dataset construction methodology is described 
+in research papers linked on its 
+[Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/finepdfs).
+
+FinePDFs-edu is a subset of the data obtained by filtering the FinePDFs 
+dataset using an "educational content" classifier based on FineWeb-Edu 
+quality predictions. The description of this dataset can be found on a 
+separate 
+[Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu).
+
 
 ## <a id="sources">Data Sources</a>
 
-The dataset is based on CommonCrawl, using crawls between 2013 and 2024.
-Documents are organized in directories matching the original source crawls.
-The extraction pipeline uses the [datatrove library](https://github.com/huggingface/datatrove)
-and can be reproduced using the [provided scripts](https://github.com/huggingface/datatrove/blob/main/examples/fineweb.py).
+The dataset is based on data from CommonCrawl, sourced from 105 snapshots 
+spanning from 2013 to 2025. Documents are organized by 
+language code directories, with each 
+language further subdivided into train and test splits.
+
+The extraction pipeline uses the datatrove library and can be reproduced 
+by using the [provided scripts](https://github.com/huggingface/datatrove/blob/main/examples/fineweb.py).
 
 ## <a id="statistics">Structure & Statistics</a>
 
