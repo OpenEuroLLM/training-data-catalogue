@@ -4,9 +4,17 @@
 
 ## <a id="background">Background</a>
 
+FinePDFs provides a large-scale dataset of PDF documents for LLM pre-training.
+The dataset construction is described in the research papers linked in the dataset card.
+FinePDFs comprises over 200 million documents extracted from CommonCrawl data.
+Additional details are available on the [FinePDFs Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/finepdfs).
 
 ## <a id="sources">Data Sources</a>
 
+The dataset is based on CommonCrawl, using crawls between 2013 and 2024.
+Documents are organized in directories matching the original source crawls.
+The extraction pipeline uses the [datatrove library](https://github.com/huggingface/datatrove)
+and can be reproduced using the [provided scripts](https://github.com/huggingface/datatrove/blob/main/examples/fineweb.py).
 
 ## <a id="statistics">Structure & Statistics</a>
 
@@ -115,6 +123,21 @@ On select EuroHPC systems, the data is directly available for read-only access o
 + Leonardo: `/leonardo_work/openeurollm/training/finepdfs/1.0.0/data/`
 
 ## <a id="use">Terms of Use</a>
+
+The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/).
+The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://commoncrawl.org/terms-of-use)
+
+### Citation Information
+```bibtex
+@misc{kydlicek2025finepdfs,
+      title={FinePDFs}, 
+      author={Hynek Kydl{\'\i}{\v{c}}ek and Guilherme Penedo and Leandro von Werra},
+      year={2025},
+      publisher = {Hugging Face},
+      journal = {Hugging Face repository},
+      howpublished = {\url{https://huggingface.co/datasets/HuggingFaceFW/finepdfs}}
+}
+```
 
 ## <a id="curator">Catalogue Curator</a>
 
