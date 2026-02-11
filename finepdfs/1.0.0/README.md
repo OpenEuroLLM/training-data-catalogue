@@ -18,6 +18,14 @@ and can be reproduced using the [provided scripts](https://github.com/huggingfac
 
 ## <a id="statistics">Structure & Statistics</a>
 
+The dataset is distributed as 4,240 Zstd-compressed JSONlines files, 
+amounting to a total of 3.8 TB on disk.
+The dataset is organized into two main collections: `edu` (729 GB, 1,147 files) 
+containing educational content, and `data` (3.1 TB, 3,093 files) containing general content.
+Files are organized by language code directories, with each language directory 
+containing `train` and `test` subdirectories.
+Each subdirectory contains files whose names follow the `xxx_yyyyy.jsonl.zst` naming pattern, 
+where `xxx` and `yyyyy` start at zero and denote the shard.
 
 ## <a id="metadata">Available Metadata</a>
 
