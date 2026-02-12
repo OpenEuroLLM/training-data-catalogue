@@ -27,7 +27,7 @@ in some crawls in the format of `train-xxxxx-of-NNNNN.jsonl.zst` where `xxxxx` s
 ## <a id="languages">European Language Support</a>
 
 There are two versions of the dataset, the original full release and the educational subset (see above).
-[Statistics for the [full dataset](./data/counts.md) are available, while corresponding counts for the educational subset have yet to be computed.
+[Statistics for the full dataset](./data/counts.md) are available, while corresponding counts for the educational subset have yet to be computed.
 
 
 ## <a id="access">Access Information</a>
