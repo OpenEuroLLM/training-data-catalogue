@@ -13,7 +13,7 @@ The description of this dataset can be found on a separate [Hugging Face page](h
 
 ## <a id="sources">Data Sources</a>
 
-The dataset is based on data from CommonCrawl, namely all the crawls between 2013 and 2024. It is organized in directories that match the original source crawls.
+The dataset is based on data from CommonCrawl, namely all the crawls between 2013 and 2025 (until June). It is organized in directories that match the original source crawls.
 The extraction pipeline uses the datatrove library and can be reproduced by using the [provided scripts](https://github.com/huggingface/datatrove/blob/main/examples/fineweb.py).
 
 ## <a id="statistics">Structure & Statistics</a>
