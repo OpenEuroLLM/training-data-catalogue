@@ -1,8 +1,11 @@
-# OpenEuroLLM Training Data Catalogue: Skeleton
+# Multilingual C4
 
 **[DRAFT] (Version 3.1.0; April 2023)**
 
 ## <a id="background">Background</a>
+
+This is the multilingual part of the processed C4 dataset extracted from Common Crawl for language model pre-training.
+The dataset description is provided on its [Hugging Face page](https://huggingface.co/datasets/allenai/c4/)
 
 
 ## <a id="sources">Data Sources</a>
