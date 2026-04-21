@@ -1,7 +1,9 @@
 #!/bin/bash
 
 #
-# for i in ./sorted/*; do sbatch etc/index.slurm $i; done
+# for i in ./baseline/global-shard_*_of_10/*; do echo sbatch etc/index.slurm $i; done > index.trickle
+# ../../etc/trickle --start --limit 180 index.trickle
+# while true; do ../../etc/trickle --limit 180 index.trickle; sleep 60; done
 #
 
 #SBATCH --job-name=index
