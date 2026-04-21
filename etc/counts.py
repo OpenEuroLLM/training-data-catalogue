@@ -265,7 +265,7 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
     if len(required) or len(optional):
       print(file = output);
       for _ in required:
-        print(f"| {_} | required |  |", file = output);
+        print(f"| {_} | required |", file = output);
       for _ in optional:
-        print(f"| {_} | optional |  |", file = output);
+        print(f"| {_} | optional |", file = output);
   return result;
