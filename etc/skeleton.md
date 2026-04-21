@@ -13,8 +13,8 @@
 
 ## <a id="metadata">Available Metadata</a>
 
-| **Field** | **Status** | **Description** |
-|-----------|------------|-----------------|
+| **Field** | **Status** |
+|-----------|------------|
 
 
 ## <a id="languages">European Language Support</a>

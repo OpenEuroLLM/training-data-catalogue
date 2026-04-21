@@ -31,6 +31,7 @@ HPLT["3.0"] = {"gug_Latn": "Based on human data inspection via HPLT Analytics, t
                "kas_Deva": "Based on human data inspection via HPLT Analytics, an unusually high proportion of this dataset appears to comprise adult content.",
                "lij_Latn": "Based on human data inspection via HPLT Analytics, this dataset was further filtered for frequent foreign-language domains in mid-October 2025.",
                "szl_Latn": "Based on human data inspection via HPLT Analytics, this dataset was further filtered for frequent foreign-language domains in mid-October 2025."};
+HPLT["4.0"] = dict();
 
 def count_file(path, tokenizer = None, key = "text", write = True, force = False):
 
