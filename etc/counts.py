@@ -98,7 +98,7 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
             "time": 0, "errors": 0};
   keys = Counter();
   if tokenizer is None: tokenizer = TOKENIZER;
-  results["tokenizer"] = tokenizer;
+  result["tokenizer"] = tokenizer;
   tokenizer = AutoTokenizer.from_pretrained(tokenizer,
                                             trust_remote_code = True,
                                             use_fast = True);
