@@ -1,0 +1,36 @@
+{
+  "files": 5,
+  "bytes": 2653452,
+  "documents": 1223,
+  "segments": 32639,
+  "tokens": 3326482,
+  "characters": 6666936,
+  "time": 3.222891092300415,
+  "errors": 0,
+  "keys": {
+    "required": [
+      "f",
+      "o",
+      "s",
+      "rs",
+      "u",
+      "c",
+      "ts",
+      "de",
+      "crawl_id",
+      "lang",
+      "prob",
+      "text",
+      "xml",
+      "cluster_size",
+      "seg_langs",
+      "id",
+      "pii",
+      "filter",
+      "doc_scores"
+    ],
+    "optional": [
+      "html_lang"
+    ]
+  }
+}
