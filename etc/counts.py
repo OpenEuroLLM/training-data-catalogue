@@ -5,6 +5,7 @@ import gzip;
 import json;
 import multiprocessing as mp;
 import os;
+import random;
 import re;
 import sys;
 import time;
@@ -21,6 +22,7 @@ LANGUAGES = {"als_Latn", "bos_Latn", "bul_Cyrl", "cat_Latn", "ces_Latn",
              "nor_Latn", "pol_Latn", "por_Latn", "ron_Latn", "slk_Latn",
              "slv_Latn", "spa_Latn", "sqi_Latn", "srp_Cyrl", "srp_Latn",
              "swe_Latn", "tur_Latn", "ukr_Cyrl"};
+TOKENIZER = "google/gemma-3-4b-it";
 NEMOTRON = {"high/actual", "medium-high/actual", "medium/actual",
             "medium-low/actual", "low/actual",
             "high/synthetic/distill", "high/synthetic/diverse_qa_pairs",
@@ -57,7 +59,7 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
 
   print(f"count_file(): {path}.", flush = True);
   if tokenizer is None:
-    tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
+    tokenizer = AutoTokenizer.from_pretrained(TOKENIZER,
                                               trust_remote_code = True,
                                               use_fast = True);
   
@@ -88,16 +90,18 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
   return result;
       
 def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
-                    tokenizer = None, key = "text", force = False):
+                    tokenizer = None, key = "text", force = False,
+                    target = None):
 
   result = {"files": 0, "bytes": 0,
             "documents": 0, "segments": 0, "tokens": 0, "characters": 0,
             "time": 0, "errors": 0};
   keys = Counter();
-  if tokenizer is None:
-    tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it",
-                                              trust_remote_code = True,
-                                              use_fast = True);
+  if tokenizer is None: tokenizer = TOKENIZER;
+  results["tokenizer"] = tokenizer;
+  tokenizer = AutoTokenizer.from_pretrained(tokenizer,
+                                            trust_remote_code = True,
+                                            use_fast = True);
   with mp.Pool(cores) as pool:
     results = pool.starmap(count_file,
                            ((file, tokenizer, key, True, force)
@@ -117,8 +121,8 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
     else:
       if key not in optional: optional.append(key);
   result["keys"] = {"required": required, "optional": optional};
-  with open(os.path.join(path, ".counts.json"),
-            "w", encoding="utf-8") as stream:
+  if target is None: target = os.path.join(path, "counts.json");
+  with open(target, "w", encoding="utf-8") as stream:
     json.dump(result, stream, indent = 2);
   return result;
 
@@ -151,24 +155,24 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
     multilingual = open(os.path.join(base, "multilingual.map"),
                         "wt", encoding = "utf-8");
   if partition is None or partition == "":
-    files = glob.glob(os.path.join(path, "*", ".counts.json"));
+    files = glob.glob(os.path.join(path, "*", "counts.json"));
     offset = -2;
   elif partition == "**":
-    files = glob.glob(os.path.join(path, "**", ".counts.json"),
+    files = glob.glob(os.path.join(path, "**", "counts.json"),
                       recursive = True);
     offset = 0;
   elif isinstance(partition, str):
-    files = glob.glob(os.path.join(path, "*", partition, ".counts.json"));
+    files = glob.glob(os.path.join(path, "*", partition, "counts.json"));
     offset = -2 - len(partition.split(os.path.sep));
   else:
     files = [];
     for _ in partition:
-      files.append(os.path.join(path, _, ".counts.json"));
+      files.append(os.path.join(path, _, "counts.json"));
       offset = None;
       
   for i, file in enumerate(sorted(files)):
     if offset == 0:
-      name = file[len(path) + 1:-len(".counts.json") - 1];
+      name = file[len(path) + 1:-len("counts.json") - 1];
     else:
       name = file.split(os.path.sep)[offset] if offset is not None else partition[i];
     if languages is not None and name not in languages: continue;
@@ -216,7 +220,7 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
 
       if format == "json":
         counts["urls"] = [];
-        for _ in sorted(glob.glob(os.path.join(file[:-len("/.counts.json")], "*"))):
+        for _ in sorted(glob.glob(os.path.join(file[:-len("/counts.json")], "*"))):
           if re.search(pattern, _):
             counts["urls"].append(prefix + "/" + name + "/" + os.path.basename(_));
         if base is not None:
@@ -269,3 +273,16 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
       for _ in optional:
         print(f"| {_} | optional |", file = output);
   return result;
+
+def sample(path, tokens = 1e9, target = None):
+  try:
+    counts = os.path.join(path, "counts.json");
+    with open(counts) as _: counts = json.load(_);
+    n = tokens / (counts["tokens"] / counts["documents"]);
+    p = n / counts["documents"];
+  except Exception:
+    print("sample(): unable to retrieve counts for {}; exit."
+          "".format(path), file = sys.stderr, flush = True);
+    exit(1);
+    
+  
