@@ -4,8 +4,8 @@
 
 ## <a id="background">Background</a>
 
-FineWeb (version 1.4.0) is a collection of cleaned and deduplicated English web data from CommonCrawl. 
-The data selection pipeline is described in [Penedo et al., 2024](https://arxiv.org/abs/2406.17557) and more details can be found on its 
+FineWeb (version 1.4.0) is a collection of cleaned and deduplicated English web data from CommonCrawl.
+The data selection pipeline is described in [Penedo et al., 2024](https://arxiv.org/abs/2406.17557) and more details can be found on its
 [Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 
 FineWeb-Edu is a collection of data obtained by filtering the FineWeb dataset using an "educational content" classifier predictions.
@@ -18,16 +18,16 @@ The extraction pipeline uses the datatrove library and can be reproduced by usin
 
 ## <a id="statistics">Structure & Statistics</a>
 
-FineWeb is distributed as 27,465 Zstd-compressed JSONLines files, split into 110 directories that correspond to the source crawls. 
+FineWeb is distributed as 27,465 Zstd-compressed JSONLines files, split into 110 directories that correspond to the source crawls.
 Each directory contains files whose names follow the `xxx_yyyyy.jsonl.zst` naming patern, where `xxx` and `yyyyy` start at zero and denote the shard.
 
-FineWeb-Edu follows the same directory structure but only contains 2,110 files, named either in the same `xxx_yyyyy.jsonl.zst` pattern as the FineWeb data files, or 
+FineWeb-Edu follows the same directory structure but only contains 2,110 files, named either in the same `xxx_yyyyy.jsonl.zst` pattern as the FineWeb data files, or
 in some crawls in the format of `train-xxxxx-of-NNNNN.jsonl.zst` where `xxxxx` starts at zero and goes up to `NNNNN`.
 
 ## <a id="languages">European Language Support</a>
 
 There are two versions of the dataset, the original full release and the educational subset (see above).
-[Statistics for the full dataset](./data/counts.md) are available, while corresponding counts for the educational subset have yet to be computed.
+For detailed statistics, see the [statistics for the full dataset](./data/counts.md) and [statistics for the educational subset](./edu/counts.md) in separate files.
 
 
 ## <a id="access">Access Information</a>
@@ -57,10 +57,10 @@ The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://
 }
 
 @misc{lozhkov2024fineweb-edu,
-    author       = { Lozhkov, Anton and Ben Allal, Loubna and von Werra, Leandro and Wolf, Thomas },  
-    title        = { FineWeb-Edu: the Finest Collection of Educational Content }, 
-    year         = 2024,  
-    url          = { https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu },  
+    author       = { Lozhkov, Anton and Ben Allal, Loubna and von Werra, Leandro and Wolf, Thomas },
+    title        = { FineWeb-Edu: the Finest Collection of Educational Content },
+    year         = 2024,
+    url          = { https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu },
     doi          = { 10.57967/hf/2497 },
     publisher    = { Hugging Face }
 }
