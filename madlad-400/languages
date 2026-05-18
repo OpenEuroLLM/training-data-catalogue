@@ -1,5 +1,5 @@
 #
-# awk -F: '/^[^#]/ {printf("ln -s ../clean/%s %s\n", $1, $2);}' ../../languages | bash
+# awk -F: '/^[^#]/ {printf("ln -s ../fixed/%s %s\n", $1, $2);}' ../../languages | bash
 #
 
 #
@@ -42,7 +42,7 @@ bo: bos_Latn
 is: isl_Latn
 ka: kat_Geor
 mk: mkd_Cyrl
-sq: als_Latn
+sq: sqi_Latn
 sr: srp_Cyrl
 tr: tur_Latn
 uk: ukr_Cyrl
