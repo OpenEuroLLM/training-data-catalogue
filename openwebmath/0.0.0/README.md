@@ -1,4 +1,4 @@
-# OpenEuroLLM Training Data Catalogue: OpenWebMath
+# OpenWebMath
 
 **[DRAFT] (Version 0.0.0; May 2026)**
 
