@@ -72,9 +72,13 @@ splits_file="tmp.splits-${dataset_name}-${revision}"
 
 # List subdirectories, store to file
 if [ ! -f "$splits_file" ]; then
-    for dir in "$parquet_base"/*/ ; do
-        basename "$dir"
-    done | sort > "$splits_file"
+    find "$parquet_base" -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort > "$splits_file"
+fi
+
+if [ ! -s "$splits_file" ]; then
+    echo "Error: no subdirectories found in $parquet_base."
+    echo "For flat parquet datasets (files directly in data/), re-run with --input-prefix \"\" to treat data/ as the single split."
+    exit 1
 fi
 
 total_splits=$(wc -l < "$splits_file")
@@ -101,7 +105,11 @@ parquet_dir=$parquet_base/${split}
 
 # Output always goes to 'data/', but avoid 'data/data/' or '//'
 if [ "$input_prefix" = "data" ] || [ -z "$input_prefix" ]; then
-    output_dir=$CATALOGUE_DIR/$dataset_name/$output_revision/data/${split}
+    if [ -z "$input_prefix" ] && [ "$split" = "data" ]; then
+        output_dir=$CATALOGUE_DIR/$dataset_name/$output_revision/data
+    else
+        output_dir=$CATALOGUE_DIR/$dataset_name/$output_revision/data/${split}
+    fi
 else
     output_dir=$CATALOGUE_DIR/$dataset_name/$output_revision/data/$input_prefix/${split}
 fi
