@@ -10,10 +10,12 @@ Details are available on the [HuggingFace dataset page](https://huggingface.co/d
 ## <a id="sources">Data Sources</a>
 
 [Common Crawl](https://commoncrawl.org/).
+Text and LaTeX were extracted with boilerplate removal, then filtered for English, mathematical content (a custom MathScore model), and quality (KenLM perplexity), followed by SimHash deduplication.
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 114 Parquet files in a single `train` split.
+The dataset is distributed as 114 Zstd-compressed JSONlines files, amounting to 15 GB on disk.
+Files are stored flat in the `data` directory and follow the naming pattern `train-NNNNN-of-00114-<hash>.jsonl.zst`.
 
 ## <a id="metadata">Available Metadata</a>
 
