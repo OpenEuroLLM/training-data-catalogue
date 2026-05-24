@@ -15,11 +15,6 @@ Details are available on the [HuggingFace dataset page](https://huggingface.co/d
 
 The dataset is distributed as 114 Parquet files in a single `train` split.
 
-| **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|-------------|----------:|--------------:|-------------:|-----------:|---------------:|
-| data | 15,389,971,895 | 6,315,233 | 565,154,308 | 13,307,862,086 | 48,737,242,606 |
-| **Total** | 15,389,971,895 | 6,315,233 | 565,154,308 | 13,307,862,086 | 48,737,242,606 |
-
 ## <a id="metadata">Available Metadata</a>
 
 | **Field** | **Status** |
