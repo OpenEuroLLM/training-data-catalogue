@@ -113,14 +113,12 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
     if "keys" in counts: keys.update(counts["keys"]);
     result["errors"] += len(counts["errors"]);
     result["files"] += 1;
-  d = counts["documents"];
-  required = list(); optional = list();
-  for key, n in counts["keys"].items():
-    if n == d:
-      if key not in required: required.append(key);
-    else:
-      if key not in optional: optional.append(key);
-  result["keys"] = {"required": required, "optional": optional};
+  d = result["documents"];
+  required = set(); optional = set();
+  for key, n in keys.items():
+    if n == d: required.add(key);
+    else: optional.add(key);
+  result["keys"] = {"required": list(required), "optional": list(optional)};
   if target is None: target = os.path.join(path, "counts.json");
   with open(target, "w", encoding="utf-8") as stream:
     json.dump(result, stream, indent = 2);
