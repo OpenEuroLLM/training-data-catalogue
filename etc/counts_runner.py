@@ -71,7 +71,7 @@ def _merge_keys(sub_counts):
 
 def cmd_aggregate(root, force=False):
     import json, re
-    pattern = r"\.(zst|gz)$"
+    pattern = r"\.(zst|gz|jsonl)$"
     root = os.path.realpath(root)
 
     # Find leaf dirs and their data files
