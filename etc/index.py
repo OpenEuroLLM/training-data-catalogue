@@ -303,7 +303,7 @@ def intersect(left, right, verbose = False, level = 2):
   counts["right"] += drain(right, counts);
 
   if verbose:
-    print("intersect: {} / {}.".format(counts["l"], counts["r"]), file = log);
+    print("intersect(): {} / {}.".format(counts["l"], counts["r"]), file = log);
     l = counts["left"]; r = counts["right"]; b = counts["both"];
     print("intersect(): {} shared records (of {} + {} = {}); {:.2f}% and {:.2f}% overlap."
           "".format(b, l + b, r + b, l + r + b, b / (l + b) * 100, b / (r + b) * 100),
@@ -382,3 +382,17 @@ def deliverable():
   intersect(h, m, verbose = True);
   intersect_directory(os.path.join(path, "fineweb/1.4.0/data"), pattern = "CC-MAIN-*");
   inspect(os.path.join(path, "fineweb/1.4.0/data/CC-MAIN/2013/.signatures.zst"));
+
+def flagship():
+  path = "/appl/local/openeurollm/training/catalogue/hplt/4.0";
+  s = ["cc", "ia"];
+  for k in ["domains", "urls", "signatures"]:
+    one = []; two = [];
+    for d in ["pre-clean/eng_Latn", "pre-noisy/eng_Latn"]:
+      one.append(os.path.join(path, d, d[0], l + "_Latn", "." + k + ".zst"));
+      two.append(os.path.join(path, d[1], l + "_Latn", "." + k + ".zst"));
+    print(f"{d[0]} {k}:");
+    inspect(f)
+    print(f"{d[1]} {k}:");
+    inspect(h)
+    intersect(f, h, verbose = True)

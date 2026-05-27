@@ -75,7 +75,10 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
       keys.update(_.keys());
     except Exception as error:
       errors.append(i);
-      print(error, file = sys.stderr);
+      print("count_file(): error in {}; line #{}; skip."
+            "".format(path, i),
+            file = sys.stderr)
+      print(error, file = sys.stderr, flush = True);
       continue;
     documents += 1;
     segments += text.count("\n") + 1;
