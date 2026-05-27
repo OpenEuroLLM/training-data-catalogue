@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 FinePhrase ([Niklaus et al., 2026](https://arxiv.org/abs/2604.13977)) is a large-scale synthetic English pretraining dataset.
-It is constructed by rephrasing documents from [FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) (sample-350BT) into four structured formats — FAQ, math problems, tables, and tutorials — using the SmolLM2-1.7B-Instruct model.
+It is constructed by rephrasing documents from [FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) (sample-350BT) into four structured formats - FAQ, math problems, tables, and tutorials - using the SmolLM2-1.7B-Instruct model.
 Details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/HuggingFaceFW/finephrase).
 
 ## <a id="sources">Data Sources</a>
