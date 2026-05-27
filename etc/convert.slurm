@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --job-name=convert
-#SBATCH --account=project_462000827
+#SBATCH --account=project_462001087
 #SBATCH --partition=small
 #SBATCH --time=24:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=512G
-#SBATCH --output=logs/%x-%j.log
+#SBATCH --output=logs/%x-%A-%a.out
 
 set -euo pipefail
 
@@ -18,12 +18,13 @@ module load parallel
 source /projappl/project_462000953/jhelcl/training-data-catalogue/env/bin/activate
 
 CATALOGUE_DIR=/scratch/project_462000953/training/catalogue
-LOCAL_CATALOGUE_DIR=/scratch/project_462000827/jhelcl/training-data-catalogue
+LOCAL_CATALOGUE_DIR=/scratch/project_462000953/.tmp-ingest
 
 array_offset=0
 input_prefix="data"
 dataset_name=""
 revision=""
+output_revision=""
 
 while [[ $# -gt 0 ]]; do
     case $1 in
@@ -33,6 +34,10 @@ while [[ $# -gt 0 ]]; do
             ;;
         --input-prefix)
             input_prefix=$2
+            shift 2
+            ;;
+        --output-revision)
+            output_revision=$2
             shift 2
             ;;
         *)
@@ -46,8 +51,12 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+if [ -z "$output_revision" ]; then
+    output_revision=$revision
+fi
+
 if [ -z "$dataset_name" ] || [ -z "$revision" ]; then
-    echo "Usage: sbatch --array=<range> convert.slurm [--array-offset N] [--input-prefix PATH] <dataset_name> <revision>"
+    echo "Usage: sbatch --array=<range> convert.slurm [--array-offset N] [--input-prefix PATH] [--output-revision REV] <dataset_name> <revision>"
     echo "Example: sbatch --array=1-360 convert.slurm the-stack 1.2"
     echo "Example: sbatch --array=1-200 convert.slurm --array-offset 1000 fineweb 1.4.0"
     echo "Example: sbatch --array=1-7 convert.slurm --input-prefix "" german-commons d54ba51"
@@ -63,9 +72,13 @@ splits_file="tmp.splits-${dataset_name}-${revision}"
 
 # List subdirectories, store to file
 if [ ! -f "$splits_file" ]; then
-    for dir in "$parquet_base"/*/ ; do
-        basename "$dir"
-    done | sort > "$splits_file"
+    find "$parquet_base" -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort > "$splits_file"
+fi
+
+if [ ! -s "$splits_file" ]; then
+    echo "Error: no subdirectories found in $parquet_base."
+    echo "For flat parquet datasets (files directly in data/), re-run with --input-prefix \"\" to treat data/ as the single split."
+    exit 1
 fi
 
 total_splits=$(wc -l < "$splits_file")
@@ -92,9 +105,13 @@ parquet_dir=$parquet_base/${split}
 
 # Output always goes to 'data/', but avoid 'data/data/' or '//'
 if [ "$input_prefix" = "data" ] || [ -z "$input_prefix" ]; then
-    output_dir=$CATALOGUE_DIR/$dataset_name/$revision/data/${split}
+    if [ -z "$input_prefix" ] && [ "$split" = "data" ]; then
+        output_dir=$CATALOGUE_DIR/$dataset_name/$output_revision/data
+    else
+        output_dir=$CATALOGUE_DIR/$dataset_name/$output_revision/data/${split}
+    fi
 else
-    output_dir=$CATALOGUE_DIR/$dataset_name/$revision/data/$input_prefix/${split}
+    output_dir=$CATALOGUE_DIR/$dataset_name/$output_revision/data/$input_prefix/${split}
 fi
 
 mkdir -p $output_dir
@@ -121,7 +138,7 @@ for parquet_file in "${parquet_files[@]}"; do
 
     echo "$(date): Starting conversion of $parquet_file"
 
-    srun --ntasks=1 --mem=128G \
+    srun --ntasks=1 --mem=128G --cpu-bind=none \
          python convert_single_parquet_to_jsonl.py \
              --infile "$parquet_file" \
              --outfile "$output_file" \

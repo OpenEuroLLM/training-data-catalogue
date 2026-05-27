@@ -1,0 +1,26 @@
+{
+  "bytes": 113878397121,
+  "documents": 61550610,
+  "segments": 1568503611,
+  "tokens": 54008790194,
+  "characters": 195158920353,
+  "keys": {
+    "required": [
+      "bytes_html",
+      "date_modified",
+      "has_math",
+      "id",
+      "in_language",
+      "infoboxes",
+      "page_id",
+      "text",
+      "title",
+      "url",
+      "version",
+      "wikidata_id",
+      "wikiname",
+      "wikitext"
+    ],
+    "optional": []
+  }
+}
