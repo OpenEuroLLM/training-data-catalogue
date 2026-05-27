@@ -52,6 +52,8 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
     stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
   elif path.endswith(".gz"):
     stream = gzip.open(path, mode = "rt", encoding = "utf-8", errors = "replace");
+  elif path.endswith(".jsonl"):
+    stream = open(path, mode = "rt", encoding = "utf-8", errors = "replace");
   else:
     print("count_file(): invalid input format {path}; exit.",
           file = sys.stderr)
