@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# for i in ./clean/*; do if [ ! -h $i ]; then echo sbatch etc/count.slurm $i; fi; done > count.trickle
+# for i in ./fixed/*; do if [ ! -h $i ]; then echo sbatch etc/count.slurm $i; fi; done > count.trickle
 # trickle --start --limit 180 count.trickle
 # while true; do trickle --limit 180 count.trickle; sleep 60; done
 #
@@ -9,7 +9,7 @@
 #SBATCH --job-name=count
 #SBATCH --output=log/%x-%j.out
 #SBATCH --partition=small
-#SBATCH --account=project_462000131
+#SBATCH --account=project_462001087
 #SBATCH --time=72:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
@@ -32,7 +32,7 @@ else
   if [ "${path#/}" = "${path}" ]; then
     if [ "${path}" = "." ]; then
       path="$(pwd)";
-    else 
+    else
       path="$(pwd)/${path}";
     fi
   fi
@@ -44,7 +44,7 @@ module reset;
 module load cray-python;
 source ${BASE}/local/bin/activate;
 
-DATA=clean;
+DATA=fixed;
 
 cd ${ROOT};
 
@@ -57,7 +57,7 @@ echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] count.slurm: using ${CORES} cores."
 for i in ${*:-*}; do
   path=$(readlink -e ${i});
   if [ -z "${path}" ]; then continue; fi
-  if [ -f ${i}/.counts.json ]; then continue; fi  
+  if [ -f ${i}/counts.json ]; then continue; fi
   python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");

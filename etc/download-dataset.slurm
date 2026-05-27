@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=download
-#SBATCH --account=project_462000827
+#SBATCH --account=project_462001087
 #SBATCH --partition=small
 #SBATCH --time=24:00:00
 #SBATCH --cpus-per-task=32
@@ -11,7 +11,7 @@
 set -euo pipefail
 
 export HF_TOKEN_PATH=~/.cache/hf_hub_token
-LOCAL_CATALOGUE_DIR=/scratch/project_462000827/jhelcl/training-data-catalogue
+LOCAL_CATALOGUE_DIR=/scratch/project_462000953/.tmp-ingest
 
 GIT_USERNAME=jindrahelcl
 GIT_PASSWORD=`cat $HF_TOKEN_PATH`

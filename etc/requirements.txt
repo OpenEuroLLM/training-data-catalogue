@@ -7,6 +7,8 @@
 datasets
 huggingface_hub[cli,hf_transfer]
 hf_transfer
+protobuf
 pyarrow
+sentencepiece
 transformers
 zstandard

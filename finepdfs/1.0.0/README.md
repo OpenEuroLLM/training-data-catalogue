@@ -15,6 +15,8 @@ quality predictions. The description of this dataset can be found on a
 separate 
 [Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu).
 
+This catalogue entry provides both the full relerase of FinePDFs, in the `data/` subdirectory,
+as well as the educational subset, in the `edu/` subdirectory.
 
 ## <a id="sources">Data Sources</a>
 
@@ -39,99 +41,36 @@ where `xxx` and `yyyyy` start at zero and denote the shard.
 
 ## <a id="metadata">Available Metadata</a>
 
+| **Field** | **Status** |
+|-----------|------------|
+| text | required |
+| id | required |
+| dump | required |
+| url | required |
+| date | required |
+| file_path | required |
+| offset | required |
+| token_count | required |
+| language | required |
+| page_average_lid | required |
+| page_average_lid_score | required |
+| full_doc_lid | required |
+| full_doc_lid_score | required |
+| per_page_languages | required |
+| is_truncated | required |
+| extractor | required |
+| page_ends | required |
+| fw_edu_scores | required |
+| minhash_cluster_size | required |
+| duplicate_count | required |
 
 ## <a id="languages">European Language Support</a>
 
-The dataset is internally partitioned by languages, and each language is further subdivided into a `train` and `test` partition.
-Following are statistics for the two sub-partitions separately.
+The dataset is internally partitioned by languages, and each language
+is further subdivided into a `train` and `test` portion.
+OpenEuroLLM statistics for the `train` portions are available for both
+the [full](data/counts.md) and [educational](edu/counts.md) versions.
 
-**Train Partition**
-
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
-|-------------|--------------:|-------------:|-----------:|-----------:|---------------:|
-| [als_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-als_Latn.yaml) | 198,448 | 64,902,831 | 2,269,612,644 | 11,436.8 | 6,106,870,206 |
-| [bos_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-bos_Latn.yaml) | 675,140 | 209,457,736 | 6,416,554,442 | 9,504.0 | 19,130,593,933 |
-| [bul_Cyrl](https://analytics.hplt-project.org/viewer/finepdfs-v1-bul_Cyrl.yaml) | 1,290,422 | 303,255,676 | 8,938,674,805 | 6,926.9 | 25,878,882,610 |
-| [cat_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-cat_Latn.yaml) | 1,864,511 | 460,483,468 | 11,713,904,044 | 6,282.6 | 37,432,806,963 |
-| [ces_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ces_Latn.yaml) | 5,651,566 | 1,209,991,831 | 31,927,761,336 | 5,649.4 | 89,411,453,401 |
-| [dan_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-dan_Latn.yaml) | 2,415,047 | 529,826,412 | 12,888,293,972 | 5,336.7 | 39,836,048,581 |
-| [deu_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-deu_Latn.yaml) | 36,121,918 | 7,287,570,305 | 164,377,261,605 | 4,550.6 | 594,379,934,722 |
-| [ekk_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ekk_Latn.yaml) | 552,807 | 122,231,279 | 3,298,057,000 | 5,966.0 | 9,260,281,455 |
-| [ell_Grek](https://analytics.hplt-project.org/viewer/finepdfs-v1-ell_Grek.yaml) | 1,962,841 | 532,510,229 | 17,611,814,004 | 8,972.6 | 42,197,153,898 |
-| [eus_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-eus_Latn.yaml) | 339,042 | 118,248,173 | 3,065,336,192 | 9,041.2 | 9,092,424,094 |
-| [fin_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-fin_Latn.yaml) | 1,980,522 | 528,177,739 | 15,134,059,829 | 7,641.4 | 43,474,919,526 |
-| [fra_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-fra_Latn.yaml) | 27,312,270 | 6,941,574,765 | 157,007,251,982 | 5,748.6 | 577,151,645,581 |
-| [gle_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-gle_Latn.yaml) | 32,760 | 11,987,222 | 378,005,788 | 11,538.6 | 1,004,394,054 |
-| [glg_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-glg_Latn.yaml) | 290,636 | 77,045,219 | 1,779,048,153 | 6,121.2 | 6,389,678,504 |
-| [hrv_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-hrv_Latn.yaml) | 1,436,818 | 411,369,479 | 11,898,331,256 | 8,281.0 | 34,100,335,319 |
-| [hun_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-hun_Latn.yaml) | 3,145,494 | 1,053,236,383 | 32,122,907,516 | 10,212.4 | 90,799,550,693 |
-| [isl_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-isl_Latn.yaml) | 362,886 | 116,017,123 | 3,939,270,737 | 10,855.4 | 9,642,863,726 |
-| [ita_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ita_Latn.yaml) | 17,589,182 | 3,533,469,156 | 88,442,088,265 | 5,028.2 | 319,595,368,259 |
-| [kat_Geor](https://analytics.hplt-project.org/viewer/finepdfs-v1-kat_Geor.yaml) | 171,028 | 34,948,503 | 1,061,488,655 | 6,206.5 | 2,423,337,019 |
-| [lit_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-lit_Latn.yaml) | 870,613 | 203,833,718 | 6,392,987,525 | 7,343.1 | 17,883,293,058 |
-| [ltg_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ltg_Latn.yaml) | 100 | 13,186 | 598,156 | 5,981.6 | 1,342,047 |
-| [lvs_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-lvs_Latn.yaml) | 542,194 | 123,621,171 | 3,910,675,476 | 7,212.7 | 10,031,665,196 |
-| [mkd_Cyrl](https://analytics.hplt-project.org/viewer/finepdfs-v1-mkd_Cyrl.yaml) | 164,854 | 63,308,270 | 1,946,473,668 | 11,807.3 | 5,324,945,518 |
-| [mlt_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-mlt_Latn.yaml) | 152,241 | 23,686,795 | 911,141,450 | 5,984.9 | 2,324,421,887 |
-| [nld_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-nld_Latn.yaml) | 7,795,696 | 1,792,764,481 | 43,849,381,091 | 5,624.8 | 153,000,530,045 |
-| [nno_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-nno_Latn.yaml) | 91,915 | 13,970,600 | 377,615,627 | 4,108.3 | 1,163,196,163 |
-| [nob_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-nob_Latn.yaml) | 1,501,170 | 430,597,912 | 11,313,592,942 | 7,536.5 | 36,054,219,947 |
-| [pol_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-pol_Latn.yaml) | 9,692,213 | 1,804,756,171 | 48,493,246,179 | 5,003.3 | 149,793,102,232 |
-| [por_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-por_Latn.yaml) | 12,045,013 | 3,577,320,664 | 91,205,883,463 | 7,572.1 | 314,534,042,300 |
-| [ron_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-ron_Latn.yaml) | 3,265,132 | 760,772,312 | 21,472,146,845 | 6,576.2 | 68,152,976,411 |
-| [slk_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-slk_Latn.yaml) | 2,251,520 | 468,386,662 | 12,303,985,783 | 5,464.7 | 33,472,326,138 |
-| [slv_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-slv_Latn.yaml) | 930,944 | 280,973,547 | 8,148,557,074 | 8,753.0 | 23,324,462,834 |
-| [spa_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-spa_Latn.yaml) | 25,629,014 | 8,180,797,092 | 204,519,261,412 | 7,980.0 | 776,469,553,028 |
-| [srp_Cyrl](https://analytics.hplt-project.org/viewer/finepdfs-v1-srp_Cyrl.yaml) | 945,085 | 352,218,955 | 11,152,259,556 | 11,800.3 | 29,079,555,628 |
-| [srp_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-srp_Latn.yaml) | 12,411 | 5,453,053 | 188,544,812 | 15,191.8 | 556,546,006 |
-| [swe_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-swe_Latn.yaml) | 4,125,120 | 1,001,528,009 | 23,840,809,975 | 5,779.4 | 76,234,487,384 |
-| [tur_Latn](https://analytics.hplt-project.org/viewer/finepdfs-v1-tur_Latn.yaml) | 1,699,676 | 552,482,226 | 15,937,401,940 | 9,376.7 | 51,092,174,087 |
-| [ukr_Cyrl](https://analytics.hplt-project.org/viewer/finepdfs-v1-ukr_Cyrl.yaml) | 2,677,732 | 814,944,079 | 26,346,218,943 | 9,839.0 | 79,123,802,581 |
-| **Total** | 177,785,981 | 43,997,732,432 | 1,106,580,504,142 | 6,224.2 | 3,784,925,185,034 |
-
-**Test Partition**
-
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
-|-------------|--------------:|-------------:|-----------:|-----------:|---------------:|
-| als_Latn | 973 | 309,599 | 10,969,267 | 11,273.7 | 30,094,157 |
-| bos_Latn | 1,307 | 419,950 | 12,592,236 | 9,634.5 | 37,804,453 |
-| bul_Cyrl | 1,028 | 216,827 | 6,296,563 | 6,125.1 | 18,428,261 |
-| cat_Latn | 951 | 242,124 | 5,717,334 | 6,011.9 | 18,010,416 |
-| ces_Latn | 813 | 174,158 | 4,600,654 | 5,658.9 | 12,907,022 |
-| dan_Latn | 907 | 192,975 | 4,491,588 | 4,952.1 | 13,908,968 |
-| deu_Latn | 600 | 163,511 | 4,254,055 | 7,090.1 | 14,647,726 |
-| ekk_Latn | 1,108 | 220,487 | 6,011,793 | 5,425.8 | 16,837,257 |
-| ell_Grek | 830 | 242,111 | 8,039,595 | 9,686.3 | 19,551,151 |
-| eng_Latn | 16 | 16,399 | 462,850 | 28,928.1 | 1,924,907 |
-| eus_Latn | 1,011 | 364,376 | 9,791,521 | 9,685.0 | 28,454,472 |
-| fin_Latn | 1,106 | 269,797 | 8,141,848 | 7,361.5 | 23,398,233 |
-| fra_Latn | 969 | 233,177 | 5,264,810 | 5,433.2 | 19,555,376 |
-| gle_Latn | 307 | 114,278 | 3,928,443 | 12,796.2 | 10,550,485 |
-| glg_Latn | 1,105 | 321,741 | 6,945,510 | 6,285.5 | 24,291,174 |
-| hrv_Latn | 846 | 317,108 | 8,254,601 | 9,757.2 | 23,738,837 |
-| hun_Latn | 1,114 | 352,688 | 11,401,680 | 10,234.9 | 32,505,419 |
-| isl_Latn | 1,021 | 355,839 | 11,654,907 | 11,415.2 | 28,596,510 |
-| ita_Latn | 861 | 176,504 | 4,453,368 | 5,172.3 | 16,609,251 |
-| kat_Geor | 1,048 | 205,676 | 6,431,803 | 6,137.2 | 14,793,165 |
-| lit_Latn | 1,060 | 222,911 | 7,370,053 | 6,952.9 | 20,686,779 |
-| lvs_Latn | 965 | 196,569 | 6,271,557 | 6,499.0 | 16,182,326 |
-| mkd_Cyrl | 1,022 | 362,966 | 11,460,974 | 11,214.3 | 31,297,537 |
-| mlt_Latn | 1,025 | 148,253 | 6,010,968 | 5,864.4 | 15,302,103 |
-| nld_Latn | 1,068 | 239,080 | 6,135,408 | 5,744.8 | 21,971,260 |
-| nno_Latn | 900 | 132,981 | 3,619,394 | 4,021.5 | 11,281,700 |
-| nob_Latn | 997 | 272,316 | 6,968,929 | 6,989.9 | 22,128,647 |
-| pol_Latn | 1,152 | 212,355 | 5,603,012 | 4,863.7 | 17,239,033 |
-| por_Latn | 803 | 467,759 | 11,726,849 | 14,603.8 | 39,179,746 |
-| ron_Latn | 1,116 | 332,138 | 7,790,420 | 6,980.7 | 24,756,277 |
-| slk_Latn | 978 | 196,067 | 5,112,415 | 5,227.4 | 14,015,127 |
-| slv_Latn | 1,204 | 332,008 | 9,468,436 | 7,864.1 | 27,276,548 |
-| spa_Latn | 740 | 232,161 | 6,411,457 | 8,664.1 | 24,913,047 |
-| srp_Cyrl | 951 | 341,272 | 11,476,538 | 12,067.9 | 30,804,652 |
-| srp_Latn | 133 | 60,069 | 2,083,639 | 15,666.5 | 6,156,799 |
-| swe_Latn | 1,273 | 304,765 | 7,069,796 | 5,553.6 | 22,642,181 |
-| tur_Latn | 893 | 256,298 | 6,953,054 | 7,786.2 | 22,475,919 |
-| ukr_Cyrl | 1,029 | 273,714 | 8,815,123 | 8,566.7 | 26,417,104 |
-| **Total** | 35,230 | 9,493,007 | 270,052,448 | 7,665.4 | 801,334,025 |
 
 ## <a id="access">Access Information</a>
 
