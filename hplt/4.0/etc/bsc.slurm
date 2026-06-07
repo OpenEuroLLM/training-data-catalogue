@@ -37,38 +37,57 @@ else
 fi
 source ${ROOT}/../../etc/preamble.sh;
 
-module reset;
-module load cray-python;
-source ${BASE}/local/bin/activate;
+#
+# arguments are HPLT 4.0 data, BSC-edu annotations, and output directory respectively
+#
+source=$(realpath --strip ${1});
+if [ -z "${source}" -o ! -d ${source} ]; then
+  echo "bsc.slurm: missing or invalid data directory; exit." >&2;
+  exit 1;
+fi
+shift;
+bsc=$(realpath --strip ${1});
+if [ -z "${bsc}" -o ! -d ${bsc} ]; then
+  echo "bsc.slurm: missing or invalid bsc directory; exit." >&2;
+  exit 1;
+fi
+shift;
+target=$(realpath --strip ${1});
+if [ -z "${target}" -o ! -d ${target} ]; then
+  echo "bsc.slurm: missing or invalid target directory; exit." >&2;
+  exit 1;
+fi
+export source bsc target;
 
-cd ${ROOT};
+module reset;
+module load LUMI parallel cray-python;
+source ${BASE}/local/bin/activate;
 
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] bsc.slurm: root in ${ROOT}; target: ${1}."
 echo "[$(date +"%Y-%m-%d (%H:%M:%S)")] bsc.slurm: using ${CORES} cores."
 
-#
-# for increased parallelization, optionally only process one WDS bin
-#
-pattern="\\.jsonl\\.zst\$";
-if [ -n "${2}" ]; then
-  pattern="${2}_[0-9]+\\.jsonl\\.zst\$";
-fi
+function run() {
+  local input=${1};
+  local annotation=${bsc}/$(basename ${input});
+  local output=${target}/$(basename ${input});
+  if [ -f ${annotation} ]; then
+    echo "bsc.slurm: missing annotations for ${input}; skip." >&2;
+    return 1;
+  fi
+  local command="${BASE}/etc/zstdcat.py --trace --cores 4";
+  command="${command} --rename bsc-edu-1.0:bsc-edu --compress ${output}";
+  echo ${command} ${input} ${annotation};
+} # run()
+export -f run;
+
+PARALLEL="parallel --plain --will-cite";
+PARALLEL="${PARALLEL} --group --jobs $[${CORES} / 4]";
 
 #
-# command-line argument is one directory
+# finally, iterate through all the languages in this collection of morsels
 #
-path=$(readlink -e ${1});
-if [ -z "${path}" ]; then
-  echo "bsc.slurm: missing or invalid directory argument; exit." >&2;
-  exit 1;
-fi
-
-python -c "
-import sys;
-sys.path.append(\"${BASE}/etc\");
-import counts;
-counts.count_directory(\"${path}\", pattern = \"${pattern}\", cores = ${CORES}, force = False);
-"
+find ${source} -mindepth 1 -maxdepth 1 -type f -name \*.jsonl.zst \
+| eval ${PARALLEL} run {};
 
 #
 # make sure everything is world-readable (and directories searchable)
