@@ -1,4 +1,5 @@
 #
+# module load cray-python
 # python -m venv ./local
 # source ./local/bin/activate
 # pip install --upgrade pip
@@ -7,6 +8,8 @@
 datasets
 huggingface_hub[cli,hf_transfer]
 hf_transfer
+jsonlines
+orjson
 protobuf
 pyarrow
 sentencepiece

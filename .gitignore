@@ -23,6 +23,9 @@ finewiki/0.0.0/data
 hplt/2.0/cleaned
 hplt/3.0/cleaned
 hplt/3.0/sorted
+hplt/4.0/clean
+hplt/4.0/noisy
+hplt/4.0/filter
 madlad-400/1.0/clean
 madlad-400/1.5/clean
 nemotron-cc/1.0/high
