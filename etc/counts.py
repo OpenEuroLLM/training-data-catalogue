@@ -52,6 +52,8 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
     stream = io.TextIOWrapper(stream, encoding = "utf-8", errors = "replace");
   elif path.endswith(".gz"):
     stream = gzip.open(path, mode = "rt", encoding = "utf-8", errors = "replace");
+  elif path.endswith(".jsonl"):
+    stream = open(path, mode = "rt", encoding = "utf-8", errors = "replace");
   else:
     print("count_file(): invalid input format {path}; exit.",
           file = sys.stderr)
@@ -75,7 +77,10 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
       keys.update(_.keys());
     except Exception as error:
       errors.append(i);
-      print(error, file = sys.stderr);
+      print("count_file(): error in {}; line #{}; skip."
+            "".format(path, i),
+            file = sys.stderr)
+      print(error, file = sys.stderr, flush = True);
       continue;
     documents += 1;
     segments += text.count("\n") + 1;
@@ -113,14 +118,12 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
     if "keys" in counts: keys.update(counts["keys"]);
     result["errors"] += len(counts["errors"]);
     result["files"] += 1;
-  d = counts["documents"];
-  required = list(); optional = list();
-  for key, n in counts["keys"].items():
-    if n == d:
-      if key not in required: required.append(key);
-    else:
-      if key not in optional: optional.append(key);
-  result["keys"] = {"required": required, "optional": optional};
+  d = result["documents"];
+  required = set(); optional = set();
+  for key, n in keys.items():
+    if n == d: required.add(key);
+    else: optional.add(key);
+  result["keys"] = {"required": list(required), "optional": list(optional)};
   if target is None: target = os.path.join(path, "counts.json");
   with open(target, "w", encoding="utf-8") as stream:
     json.dump(result, stream, indent = 2);
