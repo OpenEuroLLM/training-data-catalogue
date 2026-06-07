@@ -202,16 +202,17 @@ def main():
       # collect and massage all line-aligned chunks
       #
       line = line.rstrip();
+        
       if mode == "json": chunks.append(parse(line, arguments.trace, i));
       elif n > 1: chunks.append(line[:-1]);
       else: chunks.append(line);
+      if not len(line) or chunks[0] is None:
+        print("zstdconcat.py: premature end of file on {} (#{}); exit"
+              "".format(arguments.inputs[0], i),
+              file = sys.stderr, flush = True);
+        sys.exit(1);
       for j, stream in enumerate(streams[1:]):
         _ = stream.readline();
-        if not len(_):
-          print("zstdconcat.py: premature end of file on {} (#{}); exit"
-                "".format(arguments.inputs[j + 1], i),
-                file = sys.stderr, flush = True);
-          sys.exit(1);
         if not _.startswith("{" if mode == "string" else b"{"):
           print("zstdconcat.py: invalid JSON object {} ({}: #{}); exit"
                 "".format(_, arguments.inputs[j + 1], i),
@@ -227,6 +228,11 @@ def main():
           if j < n - 2:
             if len(_) > 3: chunks.append(_.rstrip()[1:-1]);
           else: chunks.append(_.rstrip()[1:]);
+        if not len(_) or chunks[-1] is None:
+          print("zstdconcat.py: premature end of file on {} (#{}); exit"
+                "".format(arguments.inputs[j + 1], i),
+                file = sys.stderr, flush = True);
+          sys.exit(1);
       #
       # finally, combine into one json representation, with minimal copying
       #
@@ -242,7 +248,17 @@ def main():
       #
       # enforce renaming(s), if requested
       #
-      for old,new in rename.items(): result[new] = result.pop(old);
+      for old, new in rename.items():
+        try:
+          result[new] = result.pop(old);
+        except Exception as error:
+          print("zstdconcat.py: error in renaming {} (#{}); exit"
+                "".format(old, i),
+                file = sys.stderr, flush = True);
+          if arguments.trace > 0:
+            print("".join(traceback.format_exception(error)),
+                  file = sys.stderr, flush = True);
+          sys.exit(1);
       
       #
       # optionally, ingest a (hopefully unique) UUID
