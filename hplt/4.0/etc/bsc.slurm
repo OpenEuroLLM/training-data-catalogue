@@ -1,6 +1,10 @@
 #!/bin/bash
 
 #
+# sbatch etc/bsc.slurm \
+#   tmp/eng_Latn \
+#   /scratch/project_462000963/datasets/bsc-edu-1.0-hplt-4-unfiltered/clean/eng_Latn
+#   tmp/eng_Latn+
 #
 
 #SBATCH --job-name=bsc
@@ -36,6 +40,7 @@ else
   ROOT="${path%/etc}";
 fi
 source ${ROOT}/../../etc/preamble.sh;
+export ROOT BASE;
 
 #
 # arguments are HPLT 4.0 data, BSC-edu annotations, and output directory respectively
@@ -70,13 +75,14 @@ function run() {
   local input=${1};
   local annotation=${bsc}/$(basename ${input});
   local output=${target}/$(basename ${input});
-  if [ -f ${annotation} ]; then
-    echo "bsc.slurm: missing annotations for ${input}; skip." >&2;
+  if [ ! -f ${annotation} ]; then
+    echo "bsc.slurm: ${annotation} missing annotations for ${input}; skip." >&2;
     return 1;
   fi
-  local command="${BASE}/etc/zstdcat.py --trace --cores 4";
+  local command="${BASE}/etc/zstdcat.py --trace --cores 4 --mode json";
   command="${command} --rename bsc-edu-1.0:bsc-edu --compress ${output}";
-  echo ${command} ${input} ${annotation};
+  echo ${input};
+  eval ${command} ${input} ${annotation};
 } # run()
 export -f run;
 
