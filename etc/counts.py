@@ -90,7 +90,7 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
             "tokens": tokens, "characters": characters, "keys": dict(keys),
             "errors": errors, "time": time.time() - start};
   if write:
-    with open(file, "w", encoding="utf-8") as _:
+    with open(file, "w", encoding = "utf-8") as _:
       json.dump(result, _, indent = 2);
   return result;
       
