@@ -243,6 +243,7 @@ def main():
                               align, chunk[arguments.align]),
                     file = sys.stderr, flush = True);
               sys.exit(1);
+            else: chunk.pop(arguments.align);
           chunks.append(chunk);
         else:
           #
