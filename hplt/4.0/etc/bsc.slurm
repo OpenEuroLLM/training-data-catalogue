@@ -92,7 +92,7 @@ PARALLEL="${PARALLEL} --group --jobs $[${CORES} / 4]";
 #
 # finally, iterate through all the languages in this collection of morsels
 #
-find ${source} -mindepth 1 -maxdepth 1 -type f -name \*.jsonl.zst \
+find ${source} -mindepth 1 -maxdepth 1 -name \*.jsonl.zst \
 | eval ${PARALLEL} run {};
 
 #

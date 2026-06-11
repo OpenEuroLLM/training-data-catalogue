@@ -86,6 +86,7 @@ def main():
   parser.add_argument("--pipe", action = "store_true");
   parser.add_argument("--mode", type = str, default = "bytes");
   parser.add_argument("--filter", type = str, default = None);
+  parser.add_argument("--align", type = str);
   parser.add_argument("--uuid", action = "store_true");
   parser.add_argument("--lid", action = "append", default = []);
   parser.add_argument("--rename", action = "append", default = []);
@@ -96,9 +97,10 @@ def main():
 
   io.DEFAULT_BUFFER_SIZE = arguments.buffer;
   outputs = dict();
-  if ((arguments.uuid or len(arguments.lid) or len(arguments.rename))
+  if ((arguments.align or arguments.uuid
+       or len(arguments.lid) or len(arguments.rename))
       and arguments.mode != "json"):
-    print("zstdconcat.py: --lid, --uuid, or --rename require JSON --mode; exit.",
+    print("zstdconcat.py: --align, --lid, --uuid, or --rename require JSON --mode; exit.",
           file = sys.stderr, flush = True);
     sys.exit(1);
 
@@ -203,7 +205,16 @@ def main():
       #
       line = line.rstrip();
         
-      if mode == "json": chunks.append(parse(line, arguments.trace, i));
+      if mode == "json":
+        chunk, align = parse(line, arguments.trace, i), None;
+        if arguments.align is not None:
+          if arguments.align not in chunk:
+            print("zstdconcat.py: missing --align key {} on {} (#{}); exit"
+                  "".format(arguments.align, arguments.inputs[0], i),
+                  file = sys.stderr, flush = True);
+            sys.exit(1);
+          else: align = chunk[arguments.align];
+        chunks.append(chunk);
       elif n > 1: chunks.append(line[:-1]);
       else: chunks.append(line);
       if not len(line) or chunks[0] is None:
@@ -218,7 +229,21 @@ def main():
                 "".format(_, arguments.inputs[j + 1], i),
                 file = sys.stderr, flush = True);
           sys.exit(1);
-        if mode == "json": chunks.append(parse(_, arguments.trace, i));
+        if mode == "json":
+          chunk = parse(_, arguments.trace, i);
+          if arguments.align is not None:
+            if arguments.align not in chunk:
+              print("zstdconcat.py: missing --align key {} on {} (#{}); exit"
+                    "".format(arguments.align, arguments.inputs[j + 1], i),
+                    file = sys.stderr, flush = True);
+              sys.exit(1);
+            elif chunk[arguments.align] != align:
+              print("zstdconcat.py: --align {} mismatch on {} (#{}: {} vs. {}); exit"
+                    "".format(arguments.align, arguments.inputs[j + 1], i,
+                              align, chunk[arguments.align]),
+                    file = sys.stderr, flush = True);
+              sys.exit(1);
+          chunks.append(chunk);
         else:
           #
           # avoid spurious commas before empty JSON objects
@@ -241,7 +266,7 @@ def main():
           s += 1;
         else:
           result = chunks.pop(0);
-          for chunk in chunks: result |= chunk;
+          for _ in chunks: result |= _;
       else:
         result = ("" if mode == "string" else b"").join(chunks);
 
