@@ -1,0 +1,28 @@
+{
+  "bytes": 37892557170,
+  "documents": 21405610,
+  "segments": 2171327953,
+  "tokens": 38176022740,
+  "characters": 120352354473,
+  "keys": {
+    "required": [
+      "char_count",
+      "content_mime_type",
+      "crawl",
+      "fetch_time",
+      "int_score",
+      "language",
+      "language_score",
+      "metadata",
+      "score",
+      "snapshot_type",
+      "text",
+      "token_count",
+      "url",
+      "warc_filename",
+      "warc_record_length",
+      "warc_record_offset"
+    ],
+    "optional": []
+  }
+}

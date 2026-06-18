@@ -1,0 +1,19 @@
+{
+  "bytes": 85932006363,
+  "documents": 48283984,
+  "segments": 4585623261,
+  "tokens": 79886524630,
+  "characters": 260093809213,
+  "keys": {
+    "required": [
+      "char_count",
+      "int_score",
+      "metadata",
+      "score",
+      "text",
+      "token_count",
+      "url"
+    ],
+    "optional": []
+  }
+}
