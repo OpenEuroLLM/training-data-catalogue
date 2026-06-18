@@ -32,7 +32,8 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [ -z "$TARGET" ] || ( ! $AGGREGATE && ! $REPORT && ! $INIT && [ -z "${SLURM_ARRAY_TASK_ID:-}" ] ); then
-    echo "Usage: $0 --init     [--pattern REGEX] [--max-tasks N] <target_dir>" >&2
+    echo "Usage: $0 --init     [--pattern REGEX] <target_dir>" >&2
+    echo "       $0 [--max-tasks N] [--pattern REGEX] <target_dir>  (as array task)" >&2
     echo "       $0 --aggregate                                  <target_dir>" >&2
     echo "       $0 --report   [--depth N]                       <target_dir>" >&2
     exit 1
@@ -68,6 +69,7 @@ if $INIT; then
     echo "Submit:"
     echo "  mkdir -p logs"
     echo "  JID=\$(sbatch --array=1-${n_tasks} --output='logs/%x-%A-%a.out' --parsable $0 --pattern '$PATTERN' $TARGET)"
+    echo "  # to use fewer tasks: change --array=1-N and add --max-tasks N to the counts.array.slurm arguments"
     echo "  sbatch --dependency=afterok:\$JID $0 --aggregate $TARGET"
     echo "  # after aggregate finishes:"
     echo "  bash $0 --report $TARGET"
