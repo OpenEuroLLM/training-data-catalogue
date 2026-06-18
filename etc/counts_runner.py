@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import counts
 
 
-def cmd_count_files(filelist, start, end):
+def cmd_count_files(filelist, start, end, key="text"):
     from transformers import AutoTokenizer
     with open(filelist) as fh:
         files = [l.strip() for l in fh if l.strip()]
@@ -23,7 +23,7 @@ def cmd_count_files(filelist, start, end):
         "google/gemma-3-4b-it", trust_remote_code=True, use_fast=True)
     for path in files[start:end]:
         print(f"Counting: {path}", flush=True)
-        counts.count_file(path, tokenizer=tokenizer)
+        counts.count_file(path, tokenizer=tokenizer, key=key)
         print(f"Done: {path}", flush=True)
 
 
@@ -209,8 +209,18 @@ if __name__ == "__main__":
     cmd = args[0] if args else ""
 
     if cmd == "count-files":
-        filelist, start, end = args[1], int(args[2]), int(args[3])
-        cmd_count_files(filelist, start, end)
+        key = "text"
+        rest = []
+        i = 1
+        while i < len(args):
+            if args[i] == "--key" and i + 1 < len(args):
+                key = args[i + 1]
+                i += 2
+            else:
+                rest.append(args[i])
+                i += 1
+        filelist, start, end = rest[0], int(rest[1]), int(rest[2])
+        cmd_count_files(filelist, start, end, key=key)
 
     elif cmd == "aggregate":
         force = "--force" in args

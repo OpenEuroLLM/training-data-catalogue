@@ -19,11 +19,13 @@ MAX_TASKS=190
 AGGREGATE=false
 REPORT=false
 INIT=false
+KEY="text"
 
 while [[ $# -gt 0 ]]; do
     case $1 in
         --pattern) PATTERN=$2; shift 2 ;;
         --max-tasks) MAX_TASKS=$2; shift 2 ;;
+        --key) KEY=$2; shift 2 ;;
         --aggregate) AGGREGATE=true; shift ;;
         --report) REPORT=true; shift ;;
         --init) INIT=true; shift ;;
@@ -68,7 +70,7 @@ if $INIT; then
     echo ""
     echo "Submit:"
     echo "  mkdir -p logs"
-    echo "  JID=\$(sbatch --array=1-${n_tasks} --output='logs/%x-%A-%a.out' --parsable $0 --pattern '$PATTERN' $TARGET)"
+    echo "  JID=\$(sbatch --array=1-${n_tasks} --output='logs/%x-%A-%a.out' --parsable $0 --pattern '$PATTERN' --key '$KEY' $TARGET)"
     echo "  # to use fewer tasks: change --array=1-N and add --max-tasks N to the counts.array.slurm arguments"
     echo "  sbatch --dependency=afterok:\$JID $0 --aggregate $TARGET"
     echo "  # after aggregate finishes:"
@@ -81,4 +83,4 @@ end=$(( start + batch ))
 (( end > total )) && end=$total
 
 echo "Task $SLURM_ARRAY_TASK_ID: files $((start + 1))-$end of $total"
-python3 counts_runner.py count-files "$FILELIST" "$start" "$end"
+python3 counts_runner.py count-files --key "$KEY" "$FILELIST" "$start" "$end"
