@@ -1,0 +1,22 @@
+{
+  "files": 128,
+  "bytes": 150028495486,
+  "documents": 136379427,
+  "segments": 2205864654,
+  "tokens": 105507164676,
+  "characters": 371091641765,
+  "time": 202174.25302886963,
+  "errors": 0,
+  "keys": {
+    "required": [
+      "source",
+      "id",
+      "text",
+      "added",
+      "timestamp",
+      "metadata",
+      "lang"
+    ],
+    "optional": []
+  }
+}
