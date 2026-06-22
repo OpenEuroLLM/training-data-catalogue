@@ -1,0 +1,13 @@
+{
+  "bytes": 10064765971,
+  "documents": 37164020,
+  "segments": 750777355,
+  "tokens": 7567764311,
+  "characters": 24038866794,
+  "keys": {
+    "required": [
+      "text"
+    ],
+    "optional": []
+  }
+}

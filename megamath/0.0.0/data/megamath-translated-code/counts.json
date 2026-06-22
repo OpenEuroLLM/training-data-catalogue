@@ -1,0 +1,15 @@
+{
+  "bytes": 4939221071,
+  "documents": 7369794,
+  "segments": 747375211,
+  "tokens": 6612961603,
+  "characters": 22480485953,
+  "keys": {
+    "required": [
+      "file_info",
+      "repo_info",
+      "text"
+    ],
+    "optional": []
+  }
+}

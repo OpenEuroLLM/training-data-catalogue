@@ -8,6 +8,7 @@ Commands:
   report      [--depth N] <dir>          -- convert counts.json to counts.md and metadata.md
 """
 
+import argparse
 import os
 import sys
 
@@ -15,7 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import counts
 
 
-def cmd_count_files(filelist, start, end):
+def cmd_count_files(filelist, start, end, key="text"):
     from transformers import AutoTokenizer
     with open(filelist) as fh:
         files = [l.strip() for l in fh if l.strip()]
@@ -23,7 +24,7 @@ def cmd_count_files(filelist, start, end):
         "google/gemma-3-4b-it", trust_remote_code=True, use_fast=True)
     for path in files[start:end]:
         print(f"Counting: {path}", flush=True)
-        counts.count_file(path, tokenizer=tokenizer)
+        counts.count_file(path, tokenizer=tokenizer, key=key)
         print(f"Done: {path}", flush=True)
 
 
@@ -205,39 +206,31 @@ def cmd_report(target_dir, depth=1):
 
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
-    cmd = args[0] if args else ""
+    parser = argparse.ArgumentParser(prog="counts_runner.py")
+    sub = parser.add_subparsers(dest="cmd")
 
-    if cmd == "count-files":
-        filelist, start, end = args[1], int(args[2]), int(args[3])
-        cmd_count_files(filelist, start, end)
+    p = sub.add_parser("count-files")
+    p.add_argument("--key", default="text")
+    p.add_argument("filelist")
+    p.add_argument("start", type=int)
+    p.add_argument("end", type=int)
 
-    elif cmd == "aggregate":
-        force = "--force" in args
-        rest = [a for a in args[1:] if not a.startswith("--")]
-        if not rest:
-            print("Usage: counts_runner.py aggregate [--force] <root_dir>", file=sys.stderr)
-            sys.exit(1)
-        cmd_aggregate(rest[0], force=force)
+    p = sub.add_parser("aggregate")
+    p.add_argument("--force", action="store_true")
+    p.add_argument("root_dir")
 
-    elif cmd == "report":
-        depth = 1
-        rest = []
-        i = 1
-        while i < len(args):
-            if args[i] == "--depth" and i + 1 < len(args):
-                depth = int(args[i + 1])
-                i += 2
-            else:
-                rest.append(args[i])
-                i += 1
-        if not rest:
-            print("Usage: counts_runner.py report [--depth N] <dir>", file=sys.stderr)
-            sys.exit(1)
-        cmd_report(rest[0], depth=depth)
+    p = sub.add_parser("report")
+    p.add_argument("--depth", type=int, default=1)
+    p.add_argument("dir")
 
+    args = parser.parse_args()
+
+    if args.cmd == "count-files":
+        cmd_count_files(args.filelist, args.start, args.end, key=args.key)
+    elif args.cmd == "aggregate":
+        cmd_aggregate(args.root_dir, force=args.force)
+    elif args.cmd == "report":
+        cmd_report(args.dir, depth=args.depth)
     else:
-        print("Usage: counts_runner.py count-files <filelist> <start> <end>", file=sys.stderr)
-        print("       counts_runner.py aggregate [--force] <root_dir>", file=sys.stderr)
-        print("       counts_runner.py report [--depth N] <dir>", file=sys.stderr)
+        parser.print_help(sys.stderr)
         sys.exit(1)
