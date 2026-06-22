@@ -1,0 +1,16 @@
+{
+  "files": 1,
+  "bytes": 2505627,
+  "documents": 1371,
+  "segments": 32971,
+  "tokens": 4450441,
+  "characters": 9388749,
+  "time": 5.157947778701782,
+  "errors": 0,
+  "keys": {
+    "required": [
+      "text"
+    ],
+    "optional": []
+  }
+}
