@@ -38,7 +38,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 ## <a id="use">Terms of Use</a>
 
-The dataset is released under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0), subject to [The-Stack-v2's licensing terms](https://huggingface.co/datasets/bigcode/the-stack-v2-train-smol-ids).
+The dataset is released under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
 ### Citation information
 
