@@ -10,38 +10,38 @@
   "tokenizer": "google/gemma-3-4b-it",
   "keys": {
     "required": [
-      "text",
-      "xml",
       "md",
-      "f",
       "o",
-      "s",
-      "rs",
-      "u",
+      "text",
       "c",
-      "ts",
-      "de",
-      "id",
       "openlid_v2",
+      "doc_scores",
+      "ts",
+      "bsc-edu",
       "glotlid_v3",
       "openlid_v3",
-      "seg_langs_openlid_v3",
-      "cluster_size",
-      "web-register",
+      "xml",
+      "rs",
+      "f",
       "crawl_id",
-      "filter",
-      "pii",
-      "doc_scores",
-      "bsc-edu",
+      "u",
+      "seg_langs_openlid_v3",
+      "web-register",
       "finepdfs-edu",
-      "jql",
+      "pii",
+      "filter",
       "propella-4b",
-      "noise"
+      "de",
+      "id",
+      "jql",
+      "noise",
+      "s",
+      "cluster_size"
     ],
     "optional": [
       "htmllang",
-      "metalang",
-      "allowed"
+      "allowed",
+      "metalang"
     ]
   }
 }
