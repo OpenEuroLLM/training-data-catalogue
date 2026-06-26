@@ -17,45 +17,44 @@ The dataset is distributed as 150 uncompressed JSONlines files, amounting to 889
 Files are stored under `stage5-auto-format/python/medium/` and follow the naming pattern `train_NNNN.jsonl`.
 
 <details>
-<summary>Available Metadata</summary>
-
+<summary><b>Record Fields</b></summary>
 
 | **Field** | **Status** |
 |-----------|------------|
-| Qwen3-14B_evaluation | required |
-| auto_fix_output | required |
-| blob_id | required |
-| branch_name | required |
-| committer_date | required |
-| content_id | required |
-| detected_licenses | required |
-| directory_id | required |
-| extension | required |
-| fork_events_count | required |
-| gha_created_at | required |
-| gha_event_created_at | required |
-| gha_language | required |
-| gha_license_id | required |
-| github_id | required |
-| improved_code | required |
-| improved_text | required |
-| is_generated | required |
-| is_vendor | required |
-| language | required |
-| length_bytes | required |
-| license_type | required |
-| lint_report | required |
-| old_text | required |
-| path | required |
-| repo_name | required |
-| revision_date | required |
-| revision_id | required |
-| score | required |
-| snapshot_id | required |
-| src_encoding | required |
-| star_events_count | required |
-| text | required |
-| visit_date | required |
+| `Qwen3-14B_evaluation` | required |
+| `auto_fix_output` | required |
+| `blob_id` | required |
+| `branch_name` | required |
+| `committer_date` | required |
+| `content_id` | required |
+| `detected_licenses` | required |
+| `directory_id` | required |
+| `extension` | required |
+| `fork_events_count` | required |
+| `gha_created_at` | required |
+| `gha_event_created_at` | required |
+| `gha_language` | required |
+| `gha_license_id` | required |
+| `github_id` | required |
+| `improved_code` | required |
+| `improved_text` | required |
+| `is_generated` | required |
+| `is_vendor` | required |
+| `language` | required |
+| `length_bytes` | required |
+| `license_type` | required |
+| `lint_report` | required |
+| `old_text` | required |
+| `path` | required |
+| `repo_name` | required |
+| `revision_date` | required |
+| `revision_id` | required |
+| `score` | required |
+| `snapshot_id` | required |
+| `src_encoding` | required |
+| `star_events_count` | required |
+| `text` | required |
+| `visit_date` | required |
 
 </details>
 
