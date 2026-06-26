@@ -16,17 +16,13 @@ Derived from [The-Stack-v2](https://huggingface.co/datasets/bigcode/the-stack-v2
 The dataset is distributed as 150 uncompressed JSONlines files, amounting to 889 GB on disk.
 Files are stored under `stage5-auto-format/python/medium/` and follow the naming pattern `train_NNNN.jsonl`.
 
-| **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|---------------|-----------:|--------------:|-------------:|-----------:|---------------:|
-| **Total** | **953,666,999,988** | **28,705,016** | **6,615,526,926** | **59,110,824,658** | **216,822,734,139** |
-
 ## <a id="languages">European Language Support</a>
 
 SwallowCode-v2 is Python code (English).
 
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|-------------|--------------:|-------------:|-----------:|---------------:|
-| **English** | 28,705,016 | 6,615,526,926 | 59,110,824,658 | 216,822,734,139 |
+| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
+|-------------|--------------:|-------------:|-----------:|-----------:|---------------:|
+| eng_Latn  | 28,705,016 | 6,615,526,926 | 59,110,824,658 | 2,059.3 | 216,822,734,139 |
 
 ## <a id="access">Access Information</a>
 
