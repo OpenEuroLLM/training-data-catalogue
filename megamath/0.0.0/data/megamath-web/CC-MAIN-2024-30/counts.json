@@ -1,0 +1,21 @@
+{
+  "bytes": 2142954065,
+  "documents": 847482,
+  "segments": 157157764,
+  "tokens": 2170778663,
+  "characters": 7605861599,
+  "keys": {
+    "required": [
+      "cc-path",
+      "domain",
+      "id",
+      "lang",
+      "lang_score",
+      "math_score",
+      "text",
+      "timestamp",
+      "url"
+    ],
+    "optional": []
+  }
+}
