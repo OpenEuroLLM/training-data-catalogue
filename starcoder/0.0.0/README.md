@@ -1,10 +1,10 @@
-# StarCoderData
+# StarCoder training data
 
 **[DRAFT] (Version 0.0.0; June 2026)**
 
 ## <a id="background">Background</a>
 
-StarCoderData ([Li et al., 2023](https://arxiv.org/abs/2305.06161)) is the training dataset for the StarCoder and StarCoderBase code language models, developed by the BigCode community. It covers 86 programming languages derived from The Stack v1, supplemented by GitHub Issues, Jupyter notebooks, and Git commits. The dataset underwent near-deduplication, PII removal, and benchmark decontamination before release.
+This is the training dataset for the StarCoder and StarCoderBase code language models, developed by the BigCode community ([Li et al., 2023](https://arxiv.org/abs/2305.06161)). It covers 86 programming languages derived from The Stack v1, supplemented by GitHub Issues, Jupyter notebooks, and Git commits. The dataset underwent near-deduplication, PII removal, and benchmark decontamination before release.
 Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/bigcode/starcoderdata).
 
 ## <a id="sources">Data Sources</a>
@@ -171,31 +171,14 @@ TODO
 ### Citation information
 
 ```bibtex
-@article{li2023starcoder,
-  title={StarCoder: may the source be with you!},
-  author={Raymond Li and Loubna Ben Allal and Yangtian Zi and Niklas Muennighoff
-          and Denis Kocetkov and Chenghao Mou and Marc Marone and Christopher Akiki
-          and Jia Li and Jenny Chim and Qian Liu and Evgenii Zheltonozhskii
-          and Terry Yue Zhuo and Thomas Wang and Olivier Dehaene and Mishig Davaadorj
-          and Joel Lamy-Poirier and Jo\~{a}o Monteiro and Oleh Shliazhko
-          and Nicolas Gontier and Nicholas Meade and Armel Zebaze and Ming-Ho Yee
-          and Logesh Kumar Umapathi and Jian Zhu and Benjamin Lipkin
-          and Muhtasham Oblokulov and Zhiruo Wang and Rudra Murthy
-          and Jason Stillerman and Siva Sankalp Patel and Dmitry Abulkhanov
-          and Marco Zocca and Manan Dey and Zhihan Zhang and Nour Fahmy
-          and Urvashi Bhattacharyya and Wenhao Yu and Swayam Singh
-          and Sasha Luccioni and Paulo Villegas and Maxim Kunakov and Fedor Zhdanov
-          and Manuel Romero and Tony Lee and Nadav Timor and Jennifer Ding
-          and Claire Schlesinger and Hailey Schoelkopf and Jan Ebert and Tri Dao
-          and Mayank Mishra and Alex Gu and Jennifer Robinson
-          and Carolyn Jane Anderson and Brendan Dolan-Gavitt and Danish Contractor
-          and Siva Reddy and Daniel Fried and Dzmitry Bahdanau and Yacine Jernite
-          and Carlos Mu\~{n}oz Ferrandis and Sean Hughes and Thomas Wolf
-          and Arjun Guha and Leandro von Werra and Harm de Vries},
-  year={2023},
-  eprint={2305.06161},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL}
+@misc{li2023starcodersourceyou,
+      title={StarCoder: may the source be with you!}, 
+      author={Raymond Li and Loubna Ben Allal and Yangtian Zi and Niklas Muennighoff and Denis Kocetkov and Chenghao Mou and Marc Marone and Christopher Akiki and Jia Li and Jenny Chim and Qian Liu and Evgenii Zheltonozhskii and Terry Yue Zhuo and Thomas Wang and Olivier Dehaene and Mishig Davaadorj and Joel Lamy-Poirier and João Monteiro and Oleh Shliazhko and Nicolas Gontier and Nicholas Meade and Armel Zebaze and Ming-Ho Yee and Logesh Kumar Umapathi and Jian Zhu and Benjamin Lipkin and Muhtasham Oblokulov and Zhiruo Wang and Rudra Murthy and Jason Stillerman and Siva Sankalp Patel and Dmitry Abulkhanov and Marco Zocca and Manan Dey and Zhihan Zhang and Nour Fahmy and Urvashi Bhattacharyya and Wenhao Yu and Swayam Singh and Sasha Luccioni and Paulo Villegas and Maxim Kunakov and Fedor Zhdanov and Manuel Romero and Tony Lee and Nadav Timor and Jennifer Ding and Claire Schlesinger and Hailey Schoelkopf and Jan Ebert and Tri Dao and Mayank Mishra and Alex Gu and Jennifer Robinson and Carolyn Jane Anderson and Brendan Dolan-Gavitt and Danish Contractor and Siva Reddy and Daniel Fried and Dzmitry Bahdanau and Yacine Jernite and Carlos Muñoz Ferrandis and Sean Hughes and Thomas Wolf and Arjun Guha and Leandro von Werra and Harm de Vries},
+      year={2023},
+      eprint={2305.06161},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.06161}, 
 }
 ```
 
