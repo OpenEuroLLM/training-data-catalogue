@@ -4,7 +4,7 @@
 
 ## <a id="background">Background</a>
 
-MegaMath ([Zhou et al., 2025](https://arxiv.org/abs/2504.02807)) is an open mathematics pre-training dataset curated from three complementary sources: re-extracted mathematical web text, high-quality math-related code, and synthetically generated content. It is designed to push the limits of open math corpora for LLM pre-training, exceeding prior datasets such as DeepSeekMath in both scale and diversity.
+MegaMath ([Zhou et al., 2025](https://arxiv.org/abs/2504.02807)) is an open mathematics pre-training dataset curated from three complementary sources: re-extracted mathematical web text, high-quality math-related code, and synthetically generated content.
 Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/LLM360/MegaMath).
 
 ## <a id="sources">Data Sources</a>
