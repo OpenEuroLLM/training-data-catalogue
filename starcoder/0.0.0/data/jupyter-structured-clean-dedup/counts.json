@@ -1,0 +1,19 @@
+{
+  "bytes": 1652864214,
+  "documents": 668743,
+  "segments": 98040910,
+  "tokens": 2028794971,
+  "characters": 5897389773,
+  "keys": {
+    "required": [
+      "chain_length",
+      "content",
+      "id",
+      "license",
+      "path",
+      "repo_name",
+      "size"
+    ],
+    "optional": []
+  }
+}

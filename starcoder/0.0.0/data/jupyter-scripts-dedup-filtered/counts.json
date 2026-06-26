@@ -1,0 +1,23 @@
+{
+  "bytes": 1896084516,
+  "documents": 914510,
+  "segments": 203912329,
+  "tokens": 2429892636,
+  "characters": 7085112308,
+  "keys": {
+    "required": [
+      "alphanum_fraction",
+      "avg_line_length",
+      "content",
+      "ext",
+      "hexsha",
+      "id",
+      "lang",
+      "max_stars_repo_licenses",
+      "max_stars_repo_name",
+      "max_stars_repo_path",
+      "size"
+    ],
+    "optional": []
+  }
+}
