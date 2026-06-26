@@ -4,7 +4,7 @@
 
 ## <a id="background">Background</a>
 
-SwallowCode-v2 ([Fujii et al., 2025](https://arxiv.org/abs/2505.02881)) is a 49.8 billion-token Apache-2.0-licensed Python code dataset rewritten from The-Stack-v2, designed for scalable LLM pre-training. All samples are auto-formatted, style-normalized, and enhanced for algorithmic clarity via an LLM rewriting pipeline.
+SwallowCode-v2 ([Fujii et al., 2025](https://arxiv.org/abs/2505.02881)) is an Apache-2.0-licensed Python code dataset rewritten from The-Stack-v2, designed for scalable LLM pre-training. All samples are auto-formatted, style-normalized, and enhanced for algorithmic clarity via an LLM rewriting pipeline.
 Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/tokyotech-llm/swallow-code-v2).
 
 ## <a id="sources">Data Sources</a>
