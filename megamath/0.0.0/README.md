@@ -33,7 +33,7 @@ Note: `megamath-code` contains only GitHub repository and file references (`file
 
 ## <a id="metadata">Available Metadata</a>
 
-The primary text field is `text`. Fields vary by partition; the web partitions include URL and quality-score metadata, while the code partitions carry repository and file-level metadata.
+TODO
 
 ## <a id="languages">European Language Support</a>
 
@@ -50,6 +50,7 @@ The primary download site for the data is the [HuggingFace Hub](https://huggingf
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/megamath/0.0.0/data/`
++ Leonardo: `/leonardo_work/openeurollm/training/megamath/0.0.0/data/`
 
 ## <a id="use">Terms of Use</a>
 
@@ -58,14 +59,14 @@ The dataset is released under the Open Data Commons Attribution License (ODC-By)
 ### Citation information
 
 ```bibtex
-@misc{zhou2025megamath,
-      title={MegaMath: Pushing the Limits of Open Math Corpora},
-      author={Fan Zhou and Zengzhi Wang and Nikhil Ranjan and Zhoujun Cheng
-              and Liping Tang and Guowei He and Zhengzhong Liu and Eric P. Xing},
+@misc{zhou2025megamathpushinglimitsopen,
+      title={MegaMath: Pushing the Limits of Open Math Corpora}, 
+      author={Fan Zhou and Zengzhi Wang and Nikhil Ranjan and Zhoujun Cheng and Liping Tang and Guowei He and Zhengzhong Liu and Eric P. Xing},
       year={2025},
       eprint={2504.02807},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.02807}, 
 }
 ```
 
