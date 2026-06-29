@@ -17,25 +17,25 @@ Details are available on the [HuggingFace dataset page](https://huggingface.co/d
 The dataset is distributed as 27,104 Zstd-compressed JSONlines files, amounting to 2.6 TB on disk.
 Files are organized into four partitions (`faq`, `math`, `table`, `tutorial`), each containing a single `train` split, following the naming pattern `NNN_NNNNN_N.jsonl.zst`.
 
-<detail>
+<details>
 <summary><b>Record fields</b></summary>
 
 | **Field** | **Status** |
 |-----------|------------|
-| dataset | required |
-| dump | required |
-| file_path | required |
-| id | required |
-| int_score | required |
-| language | required |
-| language_score | required |
-| rollout_results | required |
-| score | required |
-| text | required |
-| token_count | required |
-| url | required |
+| `dataset` | required |
+| `dump` | required |
+| `file_path` | required |
+| `id` | required |
+| `int_score` | required |
+| `language` | required |
+| `language_score` | required |
+| `rollout_results` | required |
+| `score` | required |
+| `text` | required |
+| `token_count` | required |
+| `url` | required |
 
-</detail>
+</details>
 
 ## <a id="languages">European Language Support</a>
 
