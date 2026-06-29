@@ -35,6 +35,18 @@ HPLT["3.0"] = {"gug_Latn": "Based on human data inspection via HPLT Analytics, t
                "szl_Latn": "Based on human data inspection via HPLT Analytics, this dataset was further filtered for frequent foreign-language domains in mid-October 2025."};
 HPLT["4.0"] = dict();
 
+def extract_text(document, key):
+  try:
+    for field in key.split("."):
+      _ = re.search(r"\[([0-9]+)\]$", field);
+      if _ is not None:
+        document = document[field[:_.start()]][int(_.group(1))];
+      else:
+        document = document[field];
+    return document;
+  except Exception:
+    return None;
+
 def count_file(path, tokenizer = None, key = "text", write = True, force = False):
 
   directory, file = os.path.split(path);
@@ -73,7 +85,7 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
   for i, line in enumerate(stream):
     try:
       _ = json.loads(line);
-      text = _[key];
+      text = extract_text(_, key);
       keys.update(_.keys());
     except Exception as error:
       errors.append(i);
