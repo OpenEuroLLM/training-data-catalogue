@@ -1,0 +1,28 @@
+{
+  "bytes": 2789607032451,
+  "documents": 1353978711,
+  "segments": 25856098457,
+  "tokens": 473242475944,
+  "characters": 2193599053915,
+  "time": 1060251.6080868244,
+  "errors": 0,
+  "files": 27104,
+  "keys": {
+    "required": [
+      "dataset",
+      "dump",
+      "file_path",
+      "id",
+      "int_score",
+      "language",
+      "language_score",
+      "rollout_results",
+      "score",
+      "text",
+      "token_count",
+      "url"
+    ],
+    "optional": []
+  },
+  "tokenizer": "google/gemma-3-4b-it"
+}

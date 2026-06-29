@@ -17,10 +17,8 @@ Details are available on the [HuggingFace dataset page](https://huggingface.co/d
 The dataset is distributed as 27,104 Zstd-compressed JSONlines files, amounting to 2.6 TB on disk.
 Files are organized into four partitions (`faq`, `math`, `table`, `tutorial`), each containing a single `train` split, following the naming pattern `NNN_NNNNN_N.jsonl.zst`.
 
-| **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|---------------|-----------:|--------------:|-------------:|-----------:|---------------:|
-
-## <a id="metadata">Available Metadata</a>
+<detail>
+<summary><b>Record fields</b></summary>
 
 | **Field** | **Status** |
 |-----------|------------|
@@ -37,12 +35,19 @@ Files are organized into four partitions (`faq`, `math`, `table`, `tutorial`), e
 | token_count | required |
 | url | required |
 
+</detail>
+
 ## <a id="languages">European Language Support</a>
 
 FinePhrase is English-only.
 
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|-------------|--------------:|-------------:|-----------:|---------------:|
+| **Partition** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
+|---------------|--------------:|-------------:|-----------:|-----------:|---------------:|
+| faq | 338,973,447 | 7,540,762,484 | 144,264,553,129 | 425.6  |687,663,875,186 |
+| math | 338,747,732 | 4,707,804,998 | 95,712,666,211 | 282.5 | 404,479,904,121 |
+| table | 338,546,433 | 5,056,398,354 | 90,623,736,636 | 267.7 | 432,001,135,297 |
+| tutorial | 337,711,099 | 8,551,132,621 | 142,641,519,968 | 422.4 | 669,454,139,311 |
+| **Total** | 1,353,978,711 | 25,856,098,457 | 473,242,475,944 | 349.5 | 2,193,599,053,915 |
 
 ## <a id="access">Access Information</a>
 
