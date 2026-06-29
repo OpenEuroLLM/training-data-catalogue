@@ -56,27 +56,28 @@ if $AGGREGATE; then
     exit 0
 fi
 
-mapfile -t all_files < <(find "$TARGET" -type f | grep -E "$PATTERN" | sort)
-total=${#all_files[@]}
-n_tasks=$(( total < MAX_TASKS ? total : MAX_TASKS ))
-batch=$(( (total + n_tasks - 1) / n_tasks ))
-
 if $INIT; then
+    mapfile -t all_files < <(find "$TARGET" -type f | grep -E "$PATTERN" | sort)
+    total=${#all_files[@]}
     printf '%s\n' "${all_files[@]}" > "$FILELIST"
     echo "Target:     $TARGET"
     echo "Pattern:    $PATTERN"
-    echo "Files:      $total across $n_tasks tasks (~$batch files/task)"
+    echo "Files:      $total"
     echo "Filelist:   $FILELIST"
     echo ""
     echo "Submit:"
     echo "  mkdir -p logs"
-    echo "  JID=\$(sbatch --array=1-${n_tasks} --output='logs/%x-%A-%a.out' --parsable $0 --pattern '$PATTERN' --key '$KEY' $TARGET)"
+    echo "  JID=\$(sbatch --array=1-190 --output='logs/%x-%A-%a.out' --parsable $0 --key '$KEY' $TARGET)"
     echo "  # to use fewer tasks: change --array=1-N and add --max-tasks N to the counts.array.slurm arguments"
     echo "  sbatch --dependency=afterok:\$JID $0 --aggregate $TARGET"
     echo "  # after aggregate finishes:"
     echo "  bash $0 --report $TARGET"
     exit 0
 fi
+
+total=$(wc -l < "$FILELIST")
+n_tasks=$(( total < MAX_TASKS ? total : MAX_TASKS ))
+batch=$(( (total + n_tasks - 1) / n_tasks ))
 
 start=$(( (SLURM_ARRAY_TASK_ID - 1) * batch ))
 end=$(( start + batch ))

@@ -1,0 +1,17 @@
+{
+  "bytes": 58422406,
+  "documents": 42103,
+  "segments": 11010464,
+  "tokens": 147060552,
+  "characters": 482987439,
+  "keys": {
+    "required": [
+      "content",
+      "id",
+      "max_stars_count",
+      "max_stars_repo_name",
+      "max_stars_repo_path"
+    ],
+    "optional": []
+  }
+}

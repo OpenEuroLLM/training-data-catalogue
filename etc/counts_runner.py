@@ -109,7 +109,9 @@ def cmd_aggregate(root, force=False):
         data_files = sorted(f for f in filenames if re.search(pattern, f))
         if data_files:
             # Leaf dir: aggregate from per-file counts
-            total = {k: 0 for k in ("bytes", "documents", "segments", "tokens", "characters")}
+            total = {k: 0 for k in ("bytes", "documents", "segments", "tokens", "characters", "time")}
+            total["errors"] = 0
+            files_count = 0
             key_counts = {}
             for fname in data_files:
                 cp = _per_file_counts_path(os.path.join(dirpath, fname))
@@ -117,15 +119,19 @@ def cmd_aggregate(root, force=False):
                     continue
                 with open(cp) as fh:
                     c = json.load(fh)
-                for k in total:
+                for k in ("bytes", "documents", "segments", "tokens", "characters", "time"):
                     total[k] += c.get(k, 0)
+                total["errors"] += len(c.get("errors", []))
+                files_count += 1
                 for key, count in c.get("keys", {}).items():
                     key_counts[key] = key_counts.get(key, 0) + count
+            total["files"] = files_count
             total_docs = total["documents"]
             total["keys"] = {
                 "required": sorted(k for k, n in key_counts.items() if total_docs and n == total_docs),
                 "optional": sorted(k for k, n in key_counts.items() if not total_docs or n != total_docs),
             }
+            total["tokenizer"] = counts.TOKENIZER
             _write_counts(dirpath, total)
         else:
             # Non-leaf dir: aggregate from children that have counts.json
@@ -136,12 +142,23 @@ def cmd_aggregate(root, force=False):
                     with open(p) as fh:
                         sub_counts.append(json.load(fh))
             if sub_counts:
-                total = {k: 0 for k in ("bytes", "documents", "segments", "tokens", "characters")}
+                total = {k: 0 for k in ("bytes", "documents", "segments", "tokens", "characters",
+                                         "time", "errors", "files")}
+                tokenizer = None
                 for c in sub_counts:
                     for k in total:
                         total[k] += c.get(k, 0)
+                    t = c.get("tokenizer")
+                    if t is not None:
+                        if tokenizer is None:
+                            tokenizer = t
+                        elif tokenizer != t:
+                            print(f"WARNING: tokenizer mismatch: {tokenizer!r} vs {t!r} under {dirpath}",
+                                  file=sys.stderr)
                 required, optional = _merge_keys(sub_counts)
                 total["keys"] = {"required": required, "optional": optional}
+                if tokenizer is not None:
+                    total["tokenizer"] = tokenizer
                 _write_counts(dirpath, total)
             else:
                 print(f"WARNING: no counts found under {dirpath}, skipping", file=sys.stderr)

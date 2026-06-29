@@ -4,7 +4,7 @@
 
 ## <a id="background">Background</a>
 
-SwallowMath-v2 ([Fujii et al., 2025](https://arxiv.org/abs/2505.02881)) is a large-scale mathematical dataset containing 32 billion tokens, developed as the successor to SwallowMath-v1. It employs an LLM-driven rewriting approach — removing boilerplate, restoring missing context, and reformatting solutions into clear, step-by-step explanations.
+SwallowMath-v2 ([Fujii et al., 2025](https://arxiv.org/abs/2505.02881)) is a large-scale mathematical dataset developed as the successor to SwallowMath-v1. It employs an LLM-driven rewriting approach — removing boilerplate, restoring missing context, and reformatting solutions into clear, step-by-step explanations.
 Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/tokyotech-llm/swallow-math-v2).
 
 ## <a id="sources">Data Sources</a>
@@ -16,19 +16,23 @@ Derived from [FineMath-3+](https://huggingface.co/datasets/HuggingFaceFW/finemat
 The dataset is distributed as 208 uncompressed JSONlines files, amounting to 102 GB on disk.
 Files are organised into two partitions: `stage3-qa` (question-answer format) and `stage3-textbook` (structured textbook-style explanations), each containing multiple shards following the naming pattern `train-NNNNN-Qwen3-235B-A22B-Thinking-2507-FP8.jsonl`.
 
-| **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|---------------|-----------:|--------------:|-------------:|-----------:|---------------:|
-| stage3-qa | 40,997,625,605 | 12,635,739 | 1,049,149,946 | 14,899,456,775 | 38,775,604,749 |
-| stage3-textbook | 68,506,697,311 | 13,302,336 | 944,442,899 | 19,050,621,555 | 66,277,727,067 |
-| **Total** | **109,504,322,916** | **25,938,075** | **1,993,592,845** | **33,950,078,330** | **105,053,331,816** |
+**Record Fields**
+      
+| **Field** | **Status** |
+|-----------|------------|
+| `text` | required |
+
 
 ## <a id="languages">European Language Support</a>
 
 SwallowMath-v2 is English-only.
 
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|-------------|--------------:|-------------:|-----------:|---------------:|
-| **English** | 25,938,075 | 1,993,592,845 | 33,950,078,330 | 105,053,331,816 |
+| **Partition** | **Documents** | **Segments** | **Tokens** | **Length**| **Characters** |
+|---------------|--------------:|-------------:|-----------:|----------:|---------------:|
+| stage3-qa | 12,635,739 | 1,049,149,946 | 14,899,456,775 | 1,179.2 | 38,775,604,749 |
+| stage3-textbook | 13,302,336 | 944,442,899 | 19,050,621,555 | 1,432.1 | 66,277,727,067 |
+| **Total** | **25,938,075** | **1,993,592,845** | **33,950,078,330** | **1,308.9** | **105,053,331,816** |
+
 
 ## <a id="access">Access Information</a>
 
@@ -37,6 +41,7 @@ The primary download site for the data is the [HuggingFace Hub](https://huggingf
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/swallow-math/2.0/data/`
++ Leonardo: `/leonardo_work/openeurollm/training/swallow-math/2.0/data/`
 
 ## <a id="use">Terms of Use</a>
 

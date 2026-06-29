@@ -6,6 +6,7 @@ etc/tmp.*
 etc/logs
 
 c4/3.1.0/multilingual
+c4/3.1.0/openeurollm
 common-pile/0.1/comma
 common-pile/0.1/stackv2
 common-pile/0.1/stackv2-edu

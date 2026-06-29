@@ -17,38 +17,37 @@ Details are available on the [HuggingFace dataset page](https://huggingface.co/d
 The dataset is distributed as 27,104 Zstd-compressed JSONlines files, amounting to 2.6 TB on disk.
 Files are organized into four partitions (`faq`, `math`, `table`, `tutorial`), each containing a single `train` split, following the naming pattern `NNN_NNNNN_N.jsonl.zst`.
 
-| **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|---------------|-----------:|--------------:|-------------:|-----------:|---------------:|
-| faq | 733,629,434,706 | 338,973,447 | 7,075,490,244 | 344,777,251,977 | 1,601,991,334,135 |
-| math | 664,216,543,679 | 338,747,732 | 7,070,860,869 | 344,550,428,346 | 1,600,927,196,681 |
-| table | 654,614,460,054 | 338,546,433 | 7,067,018,478 | 344,351,703,087 | 1,599,992,461,837 |
-| tutorial | 737,146,594,012 | 337,711,099 | 7,048,496,706 | 343,468,842,427 | 1,595,945,316,365 |
-| **Total** | **2,789,607,032,451** | **1,353,978,711** | **28,261,866,297** | **1,377,148,225,837** | **6,398,856,309,018** |
-
-## <a id="metadata">Available Metadata</a>
+<details>
+<summary><b>Record fields</b></summary>
 
 | **Field** | **Status** |
 |-----------|------------|
-| dataset | required |
-| dump | required |
-| file_path | required |
-| id | required |
-| int_score | required |
-| language | required |
-| language_score | required |
-| rollout_results | required |
-| score | required |
-| text | required |
-| token_count | required |
-| url | required |
+| `dataset` | required |
+| `dump` | required |
+| `file_path` | required |
+| `id` | required |
+| `int_score` | required |
+| `language` | required |
+| `language_score` | required |
+| `rollout_results` | required |
+| `score` | required |
+| `text` | required |
+| `token_count` | required |
+| `url` | required |
+
+</details>
 
 ## <a id="languages">European Language Support</a>
 
 FinePhrase is English-only.
 
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Characters** |
-|-------------|--------------:|-------------:|-----------:|---------------:|
-| **English** | 1,353,978,711 | 28,261,866,297 | 1,377,148,225,837 | 6,398,856,309,018 |
+| **Partition** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
+|---------------|--------------:|-------------:|-----------:|-----------:|---------------:|
+| faq | 338,973,447 | 7,540,762,484 | 144,264,553,129 | 425.6  |687,663,875,186 |
+| math | 338,747,732 | 4,707,804,998 | 95,712,666,211 | 282.5 | 404,479,904,121 |
+| table | 338,546,433 | 5,056,398,354 | 90,623,736,636 | 267.7 | 432,001,135,297 |
+| tutorial | 337,711,099 | 8,551,132,621 | 142,641,519,968 | 422.4 | 669,454,139,311 |
+| **Total** | 1,353,978,711 | 25,856,098,457 | 473,242,475,944 | 349.5 | 2,193,599,053,915 |
 
 ## <a id="access">Access Information</a>
 
