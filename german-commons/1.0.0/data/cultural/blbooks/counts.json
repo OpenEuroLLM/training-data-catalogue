@@ -1,0 +1,20 @@
+{
+  "bytes": 878847490,
+  "documents": 3714,
+  "segments": 3714,
+  "tokens": 730383439,
+  "characters": 2587579121,
+  "keys": {
+    "required": [
+      "id",
+      "license",
+      "num_tokens",
+      "ocr_score",
+      "perplexity",
+      "source",
+      "subset",
+      "text"
+    ],
+    "optional": []
+  }
+}
