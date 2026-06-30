@@ -20,7 +20,7 @@ and script/language consistency.
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 404 Zstd-compressed JSONlines files, amounting to 114 GB on disk.
+The dataset is distributed as 404 Zstd-compressed JSONlines files, amounting to 107 GB on disk.
 Files are organized into 325 per-language directories named after the wiki (e.g. `enwiki`, `dewiki`),
 each containing one or more files following the naming pattern `000_NNNNN.jsonl.zst`.
 
@@ -51,9 +51,10 @@ each containing one or more files following the naming pattern `000_NNNNN.jsonl.
 FineWiki covers 325 language editions of Wikipedia. Per-language statistics are available in [counts.md](counts.md).
 
 <details>
-<summary><b>Dataset statistics</b></summary>
+<summary><b>Dataset Statistics</b></summary>
+  
 | **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
-| ------------- | ----------: | --------------: | -------------: | -----------: | ---------: | ---------------: |
+|---------------|----------:|--------------:|-------------:|-----------:|-----------:|---------------:|
 | abwiki | 2,652,628 | 6,064 | 44,237 | 2,423,446 | 399.6 | 3,960,214 |
 | acewiki | 2,470,880 | 13,096 | 64,377 | 1,402,752 | 107.1 | 3,801,456 |
 | adywiki | 391,491 | 710 | 8,850 | 361,173 | 508.7 | 631,863 |
@@ -407,6 +408,8 @@ The dataset is released under the Creative Commons Attribution-ShareAlike 4.0 In
   year      = {2025},
   publisher = {Hugging Face Datasets},
   url       = {https://huggingface.co/datasets/HuggingFaceFW/finewiki},
+  urldate   = {2025-10-20},
+  note      = {Source: Wikimedia Enterprise Snapshot API (https://api.enterprise.wikimedia.com/v2/snapshots). Text licensed under CC BY-SA 4.0 with attribution to Wikipedia contributors.}
 }
 ```
 
