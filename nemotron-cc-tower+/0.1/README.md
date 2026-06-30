@@ -111,6 +111,8 @@ The dataset is released under the [Creative Commons CC0 license](https://creativ
 
 ### Citation Information
 
+ArXiv paper to be released soon.
+
 ```bibtex
 @dataset{mt_nemotron_cc_2025,
   title={MT-Nemotron-CC: Large-Scale Machine-Translated High Quality Web Text},
