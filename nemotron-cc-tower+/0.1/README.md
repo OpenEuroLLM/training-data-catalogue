@@ -6,8 +6,8 @@
 
 MT-Nemotron-CC is an open multilingual dataset comprising approximately one hundred billion tokens of English
 source material from Nemotron-CC, machine-translated into multiple European languages. It was
-produced by the MultiSynt team under the OpenEuroLLM project and is intended for multilingual
-LLM pretraining. Additional details are available on the
+produced by the MultiSynt project, partially supported by OpenEuroLLM, and is intended for
+multilingual LLM pretraining. Additional details are available on the
 [HuggingFace dataset page](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
 
 ## <a id="sources">Data Sources</a>
