@@ -1,0 +1,16 @@
+{
+  "bytes": 116960724113,
+  "documents": 140359346,
+  "segments": 3104719513,
+  "tokens": 89317743245,
+  "characters": 368921212191,
+  "keys": {
+    "required": [
+      "partition",
+      "text",
+      "tokens",
+      "warc_record_id"
+    ],
+    "optional": []
+  }
+}
