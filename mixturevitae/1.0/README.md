@@ -25,7 +25,7 @@ Tier 3 (civic/government works, ~18B tokens).
 The dataset is distributed as 96 gzip-compressed JSONlines files, amounting to 463 GB on disk.
 Files are organised into 13 partition directories named after the source type (e.g. `business/`,
 `fineweb/`), each containing one or more files following the naming pattern
-`PARTITION-N.jsonl.gz`.
+`CATEGORY-N.jsonl.gz`, where each partition can contain multiple `CATEGORY` file patterns.
 
 **Record Fields**
 | **Field** | **Status** |
