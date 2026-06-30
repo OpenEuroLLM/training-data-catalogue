@@ -1,0 +1,41 @@
+{
+  "bytes": 7552200,
+  "documents": 3053,
+  "segments": 1511110,
+  "tokens": 18023807,
+  "characters": 50359728,
+  "keys": {
+    "required": [
+      "alphanum_fraction",
+      "avg_line_length",
+      "content",
+      "ext",
+      "hexsha",
+      "lang",
+      "max_forks_count",
+      "max_forks_repo_forks_event_max_datetime",
+      "max_forks_repo_forks_event_min_datetime",
+      "max_forks_repo_head_hexsha",
+      "max_forks_repo_licenses",
+      "max_forks_repo_name",
+      "max_forks_repo_path",
+      "max_issues_count",
+      "max_issues_repo_head_hexsha",
+      "max_issues_repo_issues_event_max_datetime",
+      "max_issues_repo_issues_event_min_datetime",
+      "max_issues_repo_licenses",
+      "max_issues_repo_name",
+      "max_issues_repo_path",
+      "max_line_length",
+      "max_stars_count",
+      "max_stars_repo_head_hexsha",
+      "max_stars_repo_licenses",
+      "max_stars_repo_name",
+      "max_stars_repo_path",
+      "max_stars_repo_stars_event_max_datetime",
+      "max_stars_repo_stars_event_min_datetime",
+      "size"
+    ],
+    "optional": []
+  }
+}
