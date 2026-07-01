@@ -17,14 +17,14 @@ Text and LaTeX were extracted with boilerplate removal, then filtered for Englis
 The dataset is distributed as 114 Zstd-compressed JSONlines files, amounting to 15 GB on disk.
 Files are stored flat in the `data` directory and follow the naming pattern `train-NNNNN-of-00114-<hash>.jsonl.zst`.
 
-## <a id="metadata">Available Metadata</a>
+**Record Fields**
 
 | **Field** | **Status** |
 |-----------|------------|
-| date | required |
-| metadata | required |
-| text | required |
-| url | required |
+| `date` | required |
+| `metadata` | required |
+| `text` | required |
+| `url` | required |
 
 ## <a id="languages">European Language Support</a>
 
@@ -41,6 +41,7 @@ The primary download site for the data is the [HuggingFace Hub](https://huggingf
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/open-web-math/0.0.0/data/`
++ Leonardo: `/leonardo_work/openeurollm/training/open-web-math/0.0.0/data/`
 
 ## <a id="use">Terms of Use</a>
 
