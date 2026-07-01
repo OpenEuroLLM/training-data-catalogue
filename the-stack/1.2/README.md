@@ -437,7 +437,7 @@ Developers may request removal of their code via the [Am I In The Stack?](https:
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/the-stack/1.2/data/`
-+ Leonardo: `/leonardo_work/openeurollm/training/the-stack/1.2/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/the-stack/1.2/data/`
 
 ## <a id="use">Terms of Use</a>
 

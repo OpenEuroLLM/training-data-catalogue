@@ -91,7 +91,7 @@ The primary [download site](https://hplt-project.org/datasets/v3.0) for the data
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/hplt/2.0/`
-+ Leonardo: `/leonardo_work/openeurollm/training/hplt/2.0/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/hplt/2.0/`
 
 ## <a id="use">Terms of Use</a>
 

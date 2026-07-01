@@ -80,7 +80,7 @@ The primary download site for the data is the [HuggingFace Hub](https://huggingf
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/finemath/0.0.0/data/`
-+ Leonardo: `/leonardo_work/openeurollm/training/finemath/0.0.0/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/finemath/0.0.0/data/`
 
 ## <a id="use">Terms of Use</a>
 

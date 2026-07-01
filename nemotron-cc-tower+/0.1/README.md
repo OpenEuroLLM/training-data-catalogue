@@ -146,7 +146,7 @@ The primary download site for the data is the [HuggingFace Hub](https://huggingf
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/nemotron-cc-tower+/0.1/`
-+ Leonardo: `/leonardo_work/openeurollm/training/nemotron-cc-tower+/0.1/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/nemotron-cc-tower+/0.1/`
 
 ## <a id="use">Terms of Use</a>
 

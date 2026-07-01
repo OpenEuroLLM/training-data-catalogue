@@ -72,7 +72,7 @@ The download site for the data is hosted at [HuggingFace](https://huggingface.co
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/madlad/1.0/clean/`
-+ Leonardo: `/leonardo_work/openeurollm/training/madlad/1.0/clean/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/madlad/1.0/clean/`
 
 
 ## <a id="use">Terms of Use</a>

@@ -77,7 +77,7 @@ the [full](data/counts.md) and [educational](edu/counts.md) versions.
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/finepdfs/1.0.0/data/`
-+ Leonardo: `/leonardo_work/openeurollm/training/finepdfs/1.0.0/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/finepdfs/1.0.0/data/`
 
 ## <a id="use">Terms of Use</a>
 

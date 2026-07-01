@@ -108,7 +108,7 @@ The primary download site for the data is [HuggingFace Hub](https://huggingface.
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/fineweb/2.1.0/data/`
-+ Leonardo: `/leonardo_work/openeurollm/training/fineweb/2.1.0/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/fineweb/2.1.0/data/`
 
 ## <a id="use">Terms of Use</a>
 
