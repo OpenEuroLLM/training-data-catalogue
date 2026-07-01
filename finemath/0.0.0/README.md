@@ -26,8 +26,6 @@ subsets of the respective `-3plus` partitions.
 <details>
 <summary><b>Record Fields</b> (`finemath-3plus` and `finemath-4plus` partitions)</summary>
 
-The `finemath-3plus` and `finemath-4plus` partitions contain the following fields:
-
 | **Field** | **Status** |
 |-----------|------------|
 | `char_count` | required |
