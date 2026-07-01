@@ -13,7 +13,7 @@ GitHub repositories collected via [GHArchive](https://www.gharchive.org/). Appro
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 6,827 Zstd-compressed JSONlines files across 360 programming language subdirectories, amounting to 1.4 TB on disk.
+The dataset is distributed as 6,827 Zstd-compressed JSONlines files across individual programming language subdirectories, amounting to 1.4 TB on disk.
 Files are stored under `data/<language>/` and follow the naming pattern `train-NNNNN-of-NNNNN.jsonl.zst`.
 
 **Note:** The primary text field in this dataset is `content`, not `text`.
@@ -441,14 +441,14 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 ## <a id="use">Terms of Use</a>
 
-The dataset aggregates source code under various SPDX-approved permissive open-source licenses. Users must comply with the individual licenses of the repositories from which files originate; the full license list is available at the [HuggingFace dataset repository](https://huggingface.co/datasets/bigcode/the-stack/blob/main/licenses.json). Redistribution requires attribution where specified by the applicable license.
+TODO
 
 ### Citation information
 
 ```bibtex
 @article{Kocetkov2022TheStack,
   title={The Stack: 3 TB of permissively licensed source code},
-  author={Kocetkov, Denis and Li, Raymond and Ben Allal, Loubna and Li, Jia and Mou, Chenghao and Munoz Ferrandis, Carlos and Jernite, Yacine and Mitchell, Margaret and Hughes, Sean and Wolf, Thomas and Bahdanau, Dzmitry and von Werra, Leandro and de Vries, Harm},
+  author={Kocetkov, Denis and Li, Raymond and Ben Allal, Loubna and Li, Jia and Mou, Chenghao and Muñoz Ferrandis, Carlos and Jernite, Yacine and Mitchell, Margaret and Hughes, Sean and Wolf, Thomas and Bahdanau, Dzmitry and von Werra, Leandro and de Vries, Harm},
   journal={Preprint},
   year={2022}
 }
