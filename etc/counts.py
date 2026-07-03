@@ -37,13 +37,16 @@ HPLT["4.0"] = dict();
 
 def extract_text(document, key):
   try:
-    for field in key.split("."):
-      _ = re.search(r"\[([0-9]+)\]$", field);
-      if _ is not None:
-        document = document[field[:_.start()]][int(_.group(1))];
-      else:
-        document = document[field];
-    return document;
+    if isinstance(key, list):
+      return " ".join(extract_text(document, _) for _ in key);
+    else:
+      for field in key.split("."):
+        _ = re.search(r"\[([0-9]+)\]$", field);
+        if _ is not None:
+          document = document[field[:_.start()]][int(_.group(1))];
+        else:
+          document = document[field];
+      return document;
   except Exception:
     return None;
 
@@ -86,6 +89,9 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
     try:
       _ = json.loads(line);
       text = extract_text(_, key);
+      segments += text.count("\n") + 1;
+      tokens += len(tokenizer.tokenize(text));
+      characters += len(text);
       keys.update(_.keys());
     except Exception as error:
       errors.append(i);
@@ -95,9 +101,6 @@ def count_file(path, tokenizer = None, key = "text", write = True, force = False
       print(error, file = sys.stderr, flush = True);
       continue;
     documents += 1;
-    segments += text.count("\n") + 1;
-    tokens += len(tokenizer.tokenize(text));
-    characters += len(text);
   result = {"bytes": bytes, "documents": documents, "segments": segments,
             "tokens": tokens, "characters": characters, "keys": dict(keys),
             "errors": errors, "time": time.time() - start};
