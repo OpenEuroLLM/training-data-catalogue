@@ -80,7 +80,7 @@ For convenience, selected subsets of the data have also been ingested to the [Hu
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/hplt/2.0/cleaned/`
-+ Leonardo: `/leonardo_work/openeurollm/training/hplt/2.0/cleaned/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/hplt/2.0/cleaned/`
 
 ## <a id="use">Terms of Use</a>
 

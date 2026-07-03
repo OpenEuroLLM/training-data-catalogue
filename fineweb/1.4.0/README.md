@@ -35,10 +35,10 @@ For detailed statistics, see the [statistics for the full dataset](./data/counts
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/fineweb1.4.0/data/`
-+ Leonardo: `/leonardo_work/openeurollm/training/fineweb/1.4.0/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/fineweb/1.4.0/data/`
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/fineweb1.4.0/edu/`
-+ Leonardo: `/leonardo_work/openeurollm/training/fineweb/1.4.0/edu/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/fineweb/1.4.0/edu/`
 
 ## <a id="use">Terms of Use</a>
 

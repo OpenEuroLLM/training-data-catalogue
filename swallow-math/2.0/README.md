@@ -41,7 +41,7 @@ The primary download site for the data is the [HuggingFace Hub](https://huggingf
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/swallow-math/2.0/data/`
-+ Leonardo: `/leonardo_work/openeurollm/training/swallow-math/2.0/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/swallow-math/2.0/data/`
 
 ## <a id="use">Terms of Use</a>
 

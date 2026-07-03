@@ -48,7 +48,7 @@ The primary download site for the data is [hosted at Common Crawl](https://data.
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/nemotron-cc/1.0/`
-+ Leonardo: `/leonardo_work/openeurollm/training/nemotron-cc/1.0/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/nemotron-cc/1.0/`
 
 ## <a id="use">Terms of Use</a>
 
