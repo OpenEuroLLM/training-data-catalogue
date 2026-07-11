@@ -1,0 +1,42 @@
+{
+  "files": 3,
+  "bytes": 9467880402,
+  "documents": 7309948,
+  "segments": 446315635,
+  "tokens": 11611355280,
+  "characters": 21271692266,
+  "time": 9585.256301164627,
+  "errors": 0,
+  "tokenizer": "google/gemma-3-4b-it",
+  "keys": {
+    "required": [
+      "id",
+      "doc_scores",
+      "cluster_size",
+      "s",
+      "openlid_v2",
+      "xml",
+      "c",
+      "crawl_id",
+      "f",
+      "rs",
+      "u",
+      "glotlid_v3",
+      "seg_langs_openlid_v3",
+      "o",
+      "ts",
+      "text",
+      "filter",
+      "de",
+      "pii",
+      "md",
+      "openlid_v3",
+      "noise"
+    ],
+    "optional": [
+      "metalang",
+      "htmllang",
+      "allowed"
+    ]
+  }
+}

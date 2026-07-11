@@ -1,0 +1,48 @@
+{
+  "files": 21,
+  "bytes": 287653021105,
+  "documents": 215167516,
+  "segments": 7607553964,
+  "tokens": 137738276902,
+  "characters": 399159366627,
+  "time": 196386.56988477707,
+  "errors": 0,
+  "tokenizer": "google/gemma-3-4b-it",
+  "keys": {
+    "required": [
+      "id",
+      "f",
+      "glotlid_v3",
+      "openlid_v3",
+      "bsc-edu",
+      "s",
+      "cluster_size",
+      "o",
+      "noise",
+      "pii",
+      "filter",
+      "text",
+      "crawl_id",
+      "finepdfs-edu",
+      "jql",
+      "rs",
+      "ts",
+      "openlid_v2",
+      "web-register",
+      "u",
+      "md",
+      "doc_scores",
+      "fineweb2-hq",
+      "de",
+      "c",
+      "xml",
+      "seg_langs_openlid_v3"
+    ],
+    "optional": [
+      "htmllang",
+      "allowed",
+      "metalang",
+      "propella-4b"
+    ]
+  }
+}
