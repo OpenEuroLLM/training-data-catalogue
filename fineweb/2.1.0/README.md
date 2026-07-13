@@ -118,13 +118,13 @@ The dataset is released under the Open Data Commons Attribution License (ODC-By)
 
 ```bibtex
 @misc{penedo2025fineweb2pipelinescale,
-  title={FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language}, 
+  title={FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language},
   author={Guilherme Penedo and Hynek Kydlíček and Vinko Sabolčec and Bettina Messmer and Negar Foroutan and Amir Hossein Kargaran and Colin Raffel and Martin Jaggi and Leandro Von Werra and Thomas Wolf},
   year={2025},
   eprint={2506.20920},
   archivePrefix={arXiv},
   primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2506.20920}, 
+  url={https://arxiv.org/abs/2506.20920},
 }
 ```
 

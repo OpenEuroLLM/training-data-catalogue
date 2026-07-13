@@ -4,15 +4,15 @@
 
 ## <a id="background">Background</a>
 
-FinePDFs is a collection of PDF documents extracted from CommonCrawl for 
-language model pre-training. The dataset construction methodology is described 
-in research papers linked on its 
+FinePDFs is a collection of PDF documents extracted from CommonCrawl for
+language model pre-training. The dataset construction methodology is described
+in research papers linked on its
 [Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/finepdfs).
 
-FinePDFs-edu is a subset of the data obtained by filtering the FinePDFs 
-dataset using an "educational content" classifier based on FineWeb-Edu 
-quality predictions. The description of this dataset can be found on a 
-separate 
+FinePDFs-edu is a subset of the data obtained by filtering the FinePDFs
+dataset using an "educational content" classifier based on FineWeb-Edu
+quality predictions. The description of this dataset can be found on a
+separate
 [Hugging Face page](https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu).
 
 This catalogue entry provides both the full relerase of FinePDFs, in the `data/` subdirectory,
@@ -20,23 +20,23 @@ as well as the educational subset, in the `edu/` subdirectory.
 
 ## <a id="sources">Data Sources</a>
 
-The dataset is based on data from CommonCrawl, sourced from 105 snapshots 
-spanning from 2013 to 2025. Documents are organized by 
-language code directories, with each 
+The dataset is based on data from CommonCrawl, sourced from 105 snapshots
+spanning from 2013 to 2025. Documents are organized by
+language code directories, with each
 language further subdivided into train and test splits.
 
-The extraction pipeline uses the datatrove library and can be reproduced 
+The extraction pipeline uses the datatrove library and can be reproduced
 by using the [provided scripts](https://github.com/huggingface/datatrove/blob/main/examples/fineweb.py).
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 4,240 Zstd-compressed JSONlines files, 
+The dataset is distributed as 4,240 Zstd-compressed JSONlines files,
 amounting to a total of 3.8 TB on disk.
-The dataset is organized into two main collections: `edu` (729 GB, 1,147 files) 
+The dataset is organized into two main collections: `edu` (729 GB, 1,147 files)
 containing educational content, and `data` (3.1 TB, 3,093 files) containing general content.
-Files are organized by language code directories, with each language directory 
+Files are organized by language code directories, with each language directory
 containing `train` and `test` subdirectories.
-Each subdirectory contains files whose names follow the `xxx_yyyyy.jsonl.zst` naming pattern, 
+Each subdirectory contains files whose names follow the `xxx_yyyyy.jsonl.zst` naming pattern,
 where `xxx` and `yyyyy` start at zero and denote the shard.
 
 ## <a id="metadata">Available Metadata</a>
@@ -87,7 +87,7 @@ The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://
 ### Citation Information
 ```bibtex
 @misc{kydlicek2025finepdfs,
-      title={FinePDFs}, 
+      title={FinePDFs},
       author={Hynek Kydl{\'\i}{\v{c}}ek and Guilherme Penedo and Leandro von Werra},
       year={2025},
       publisher = {Hugging Face},

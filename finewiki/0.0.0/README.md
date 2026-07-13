@@ -52,7 +52,7 @@ FineWiki covers 325 language editions of Wikipedia. Per-language statistics are 
 
 <details>
 <summary><b>Dataset Statistics</b></summary>
-  
+
 | **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
 |---------------|----------:|--------------:|-------------:|-----------:|-----------:|---------------:|
 | abwiki | 2,652,628 | 6,064 | 44,237 | 2,423,446 | 399.6 | 3,960,214 |

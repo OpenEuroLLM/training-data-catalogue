@@ -17,7 +17,7 @@ The dataset is distributed as 208 uncompressed JSONlines files, amounting to 102
 Files are organised into two partitions: `stage3-qa` (question-answer format) and `stage3-textbook` (structured textbook-style explanations), each containing multiple shards following the naming pattern `train-NNNNN-Qwen3-235B-A22B-Thinking-2507-FP8.jsonl`.
 
 **Record Fields**
-      
+
 | **Field** | **Status** |
 |-----------|------------|
 | `text` | required |

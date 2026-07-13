@@ -61,13 +61,13 @@ The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://
 
 ```bibtex
 @misc{zhou2025megamathpushinglimitsopen,
-      title={MegaMath: Pushing the Limits of Open Math Corpora}, 
+      title={MegaMath: Pushing the Limits of Open Math Corpora},
       author={Fan Zhou and Zengzhi Wang and Nikhil Ranjan and Zhoujun Cheng and Liping Tang and Guowei He and Zhengzhong Liu and Eric P. Xing},
       year={2025},
       eprint={2504.02807},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.02807}, 
+      url={https://arxiv.org/abs/2504.02807},
 }
 ```
 

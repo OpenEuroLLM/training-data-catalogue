@@ -76,13 +76,13 @@ for the full source and license breakdown.
 
 ```bibtex
 @misc{nguyen2025mixturevitaeopenwebscalepretraining,
-      title={MixtureVitae: Open Web-Scale Pretraining Dataset With High Quality Instruction and Reasoning Data Built from Permissive-First Text Sources}, 
+      title={MixtureVitae: Open Web-Scale Pretraining Dataset With High Quality Instruction and Reasoning Data Built from Permissive-First Text Sources},
       author={Huu Nguyen and Victor May and Harsh Raj and Marianna Nezhurina and Yishan Wang and Yanqi Luo and Minh Chien Vu and Taishi Nakamura and Ken Tsui and Van Khue Nguyen and David Salinas and Aleksandra Krasnodębska and Christoph Schuhmann and Mats Leon Richter and Xuan-Son and Vu and Jenia Jitsev},
       year={2025},
       eprint={2509.25531},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2509.25531}, 
+      url={https://arxiv.org/abs/2509.25531},
 }
 ```
 
