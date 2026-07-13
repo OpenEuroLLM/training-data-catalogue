@@ -154,14 +154,15 @@ The dataset is released under the [Creative Commons CC0 license](https://creativ
 
 ### Citation Information
 
-ArXiv paper to be released soon.
-
 ```bibtex
-@dataset{mt_nemotron_cc_2025,
-  title={MT-Nemotron-CC: Large-Scale Machine-Translated High Quality Web Text},
-  author={MultiSynt},
-  year={2025},
-  url={https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC}
+@misc{idahl2026multisyntmttrilliontokenmultiparallelpretraining,
+      title={MultiSynt/MT: Trillion-Token Multi-Parallel Pre-Training Data Translated Across 36 Languages},
+      author={Maximilian Idahl and Jörg Tiedemann and Sampo Pyysalo and David Salinas and Tomasz Galica and Shenbin Qian and Tudor Nicolae Mateiu and Zihao Li and Anna Lokrantz and Fedor Vitiugin and André F. T. Martins and Jenna Kanerva and Filip Ginter and Matthias Lindemann and Tim Isbister and Birger Moell and Jonas Lindh and Jan Hajič and Jenia Jitsev and Andrey Kutuzov and Stephan Oepen and Gema Ramírez-Sánchez},
+      year={2026},
+      eprint={2607.00890},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2607.00890},
 }
 ```
 
