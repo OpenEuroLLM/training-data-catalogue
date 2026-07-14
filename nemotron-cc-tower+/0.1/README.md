@@ -1,4 +1,4 @@
-# Multisynt Translations from Nemotron-CC
+# Multisynt Tower+ Translations from Nemotron-CC
 
 **[DRAFT] (Version 0.1; December 2025)**
 
