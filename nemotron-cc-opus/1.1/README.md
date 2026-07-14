@@ -4,11 +4,35 @@
 
 ## <a id="background">Background</a>
 
+MultiSynt/MT is a trillion-token, multi-parallel machine-translated dataset
+produced by translating the English documents of the
+[Nemotron-CC](https://huggingface.co/datasets/nvidia/Nemotron-CC) corpus into
+36 languages by two different translation systems ([Idahl et al.,
+2026](https://arxiv.org/abs/2607.00890)). This part of the MultiSynt effort was
+carried out with the [OPUS-MT](https://github.com/Helsinki-NLP/OPUS-MT)
+collection of Marian-NMT models ([Tiedemann et al.,
+2023](https://doi.org/10.1007/s10579-023-09704-w)).  Version 1.1 adds
+translations for nine additional higher-resource languages on top of the
+original 27-language release.  Additional details are available on the
+[HuggingFace dataset
+page](https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated).
 
 ## <a id="sources">Data Sources</a>
 
+Source text is the high-quality partition of [Nemotron-CC](https://huggingface.co/datasets/nvidia/Nemotron-CC),
+a large-scale pretraining corpus derived from Common Crawl. Each English document was
+translated independently into every target language using the dedicated OPUS-MT (and, for some language
+pairs, HPLT-MT) model for that language pair, run with Marian-NMT.
 
 ## <a id="statistics">Structure & Statistics</a>
+
+The dataset is distributed as 8,100 gzipped JSONlines files, organised into one directory per target
+language, named by its ISO 639-3 (plus ISO 15924 script where relevant, e.g. `srp_Cyrl`) code. Languages
+added in the original release share the lower-resource document pool (~156M documents translated from the
+same Nemotron-CC subset); the nine languages added in version 1.1 use the larger, higher-resource pool
+(~316M documents). Because every language subset is a translation of the same underlying English documents,
+document and segment counts are identical within a resource tier, while token, character, and length
+statistics vary by target language.
 
 **Record Fields**
 
@@ -21,9 +45,7 @@
 
 ## <a id="languages">European Language Support</a>
 
-The dataset covers 36 European languages grouped in two tiers. Datasets in the
-lower-resource tier contain data from 156M documents. Datasets in the
-higher-resource tier (added in version 1.1) contain roughly twice the amount, ~316M documents.
+The dataset covers 36 European languages. See below for the per-language statistic breakdown.
 
 <details>
 <summary><b>Dataset Statistics</b></summary>
