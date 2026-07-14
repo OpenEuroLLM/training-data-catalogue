@@ -72,7 +72,7 @@ Currently, the MADLAD-400 dataset is distributed in compressed `.jsonl.gz` forma
 | ukr_Cyrl | 24,968,305 | 512,347,996 | 31,511,535,289 | 1,262.1 | 94,678,320,913 |
 | **Total** | 3,018,226,493 | 64,863,427,286 | 3,408,059,042,354 | 1,129.2 | 13,766,676,051,562 |
 
-<details>
+</details>
 
 
 ## <a id="access">Access Information</a>
