@@ -94,7 +94,7 @@ The translation effort has been described in the following paper:
 
 The OPUS-MT collection of models used to create the translations is published here:
 
-```
+```bibtex
 @article{tiedemann2023democratizing,
   title={Democratizing neural machine translation with {OPUS-MT}},
   author={Tiedemann, J{\"o}rg and Aulamo, Mikko and Bakshandaeva, Daria and Boggia, Michele and Gr{\"o}nroos, Stig-Arne and Nieminen, Tommi and Raganato, Alessandro and Scherrer, Yves and Vazquez, Raul and Virpioja, Sami},
