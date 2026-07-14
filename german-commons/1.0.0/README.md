@@ -64,6 +64,16 @@ German Commons is primarily in German.
 | web | 16,250,799,370 | 15,456,562 | 42,107,566 | 12,783,548,834 | 52,379,121,614 |
 | **Total** | 136,119,501,395 | 35,778,534 | 610,977,155 | 116,373,579,622 | 381,826,985,459 |
 
+## <a id="access">Access Information</a>
+
+The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/coral-nlp/german-commons).
+
+On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/german-commons/1.0.0/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/german-commons/1.0.0/data/`
+
+
 ## <a id="use">Terms of Use</a>
 All documents in the German Commons are distributed under licenses meeting the
 [Open Knowledge Foundation's Open Definition 2.1](https://opendefinition.org/od/2.1/).
@@ -96,4 +106,4 @@ Each document is tagged with its SPDX-canonical license URL linking to the origi
 
 ## <a id="curator">Catalogue Curator</a>
 
-Jindřich Helcl, University of Oslo, <jindrich@ifi.uio.no>
+Jindřich Helcl, University of Oslo, <jindrich@uio.no>
