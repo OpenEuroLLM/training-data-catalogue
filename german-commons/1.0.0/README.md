@@ -31,11 +31,34 @@ Files are organized into domain directories:
 `cultural` (85 files), `economic` (1 file), `legal` (16 files), `news` (259 files),
 `political` (10 files), `scientific` (7 files), and `web` (86 files).
 Each domain directory contains subdirectories for individual source datasets.
-Each line in the JSONlines files contains a JSON object with fields for `id`, `source`,
-`subset`, `text`, `license`, `num_tokens`, `perplexity`, and `ocr_score`.
+
+**Record Fields**
+
+| **Field** | **Status** |
+|-----------|------------|
+| `id` | required |
+| `license` | required |
+| `num_tokens` | required |
+| `ocr_score` | required |
+| `perplexity` | required |
+| `source` | required |
+| `subset` | required |
+| `text` | required |
 
 ## <a id="languages">European Language Support</a>
 
+German Commons is primarily in German.
+
+| **Partition** | **Bytes** | **Documents** | **Segments** | **Tokens** | **Characters** |
+|-------------|----------:|--------------:|-------------:|-----------:|---------------:|
+| cultural | 48,509,216,480 | 6,132,403 | 525,420,382 | 42,760,608,767 | 129,808,115,406 |
+| economic | 40,847,644 | 57,214 | 389,585 | 78,983,138 | 280,414,531 |
+| legal | 1,734,965,631 | 514,726 | 14,106,866 | 2,108,017,752 | 7,589,298,757 |
+| news | 66,914,707,836 | 13,266,052 | 13,631,250 | 55,516,067,223 | 180,444,548,404 |
+| political | 1,982,247,068 | 257,888 | 11,188,211 | 2,554,630,956 | 9,124,877,750 |
+| scientific | 686,717,366 | 93,689 | 4,133,295 | 571,722,952 | 2,200,608,997 |
+| web | 16,250,799,370 | 15,456,562 | 42,107,566 | 12,783,548,834 | 52,379,121,614 |
+| **Total** | 136,119,501,395 | 35,778,534 | 610,977,155 | 116,373,579,622 | 381,826,985,459 |
 
 ## <a id="use">Terms of Use</a>
 All documents in the German Commons are distributed under licenses meeting the
