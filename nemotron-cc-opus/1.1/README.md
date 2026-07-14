@@ -21,6 +21,13 @@
 
 ## <a id="languages">European Language Support</a>
 
+The dataset covers 36 European languages grouped in two tiers. Datasets in the
+lower-resource tier contain data from 156M documents. Datasets in the
+higher-resource tier (added in version 1.1) contain roughly twice the amount, ~316M documents.
+
+<details>
+<summary><b>Dataset Statistics</b></summary>
+
 | **Code(s)** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
 |-------------|--------------:|-------------:|-----------:|-----------:|---------------:|
 | bos | 156,431,999 | 3,851,874,477 | 113,835,888,390 | 727.7 | 371,189,680,444 |
@@ -61,6 +68,7 @@
 | ukr | 316,020,674 | 9,179,823,326 | 318,573,954,277 | 1,008.1 | 999,223,889,282 |
 | **Total** | 7,067,850,039 | 186,619,020,813 | 6,461,083,662,615 | 914.2 | 20,715,747,360,045 |
 
+</details>
 
 ## <a id="access">Access Information</a>
 
