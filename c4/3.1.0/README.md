@@ -13,9 +13,9 @@ Additional details are available on the [HuggingFace dataset page](https://huggi
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The data is organized into per-language subdirectories under `openeurollm/`, containing symlinks to the source files in `multilingual/`. Files are gzip-compressed JSON, named following the pattern `c4-<lang>.NNNNN-NNNNN-...-NNNNN.json.gz`. The `openeurollm/` subset covers 35 languages and comprises 5,300 files.
-
-**Note:** The primary text field in this dataset is `text`.
+The dataset is distributed as 9,010 gzip-compressed JSON files, named following the pattern `c4-<lang>.NNNNN-NNNNN-...-NNNNN.json.gz`, amounting to 14TiB on disk.
+The data is organized into per-language subdirectories under `openeurollm/`, containing symlinks to the source files in `multilingual/`. 
+The `openeurollm/` subset covers 35 languages and comprises 5,300 files, making up 8.7TiB of data out of the total.
 
 **Record Fields**
 
