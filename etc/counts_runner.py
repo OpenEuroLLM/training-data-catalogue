@@ -78,7 +78,7 @@ def cmd_aggregate(root, force=False):
     # Find leaf dirs and their data files
     leaf_dirs = {}
     for dirpath, dirnames, filenames in os.walk(root):
-        data_files = sorted(f for f in filenames if re.search(pattern, f))
+        data_files = sorted(f for f in filenames if re.search(pattern, f) and not f.startswith("."))
         if data_files:
             leaf_dirs[dirpath] = data_files
 
@@ -106,7 +106,7 @@ def cmd_aggregate(root, force=False):
 
     # Bottom-up traversal: os.walk with topdown=False visits leaves first, root last
     for dirpath, dirnames, filenames in os.walk(root, topdown=False):
-        data_files = sorted(f for f in filenames if re.search(pattern, f))
+        data_files = sorted(f for f in filenames if re.search(pattern, f) and not f.startswith("."))
         if data_files:
             # Leaf dir: aggregate from per-file counts
             total = {k: 0 for k in ("bytes", "documents", "segments", "tokens", "characters", "time")}
