@@ -5,7 +5,7 @@ CLI wrapper around counts.py for use from counts.array.slurm.
 Commands:
   count-files <filelist> <start> <end>   -- count files[start:end], tokenizer loaded once
   aggregate   [--force] <root_dir>       -- write counts.json for all dirs under root_dir
-  report      [--depth N] <dir>          -- convert counts.json to counts.md and metadata.md
+  report      [--depth N] <dir>          -- convert counts.json to counts.md and fields.md
 """
 
 import argparse
@@ -211,15 +211,15 @@ def cmd_report(target_dir, depth=1):
         fh.write("| **Total** | {bytes:,} | {documents:,} | {segments:,} | {tokens:,} | {characters:,} |\n".format(**totals))
     print(f"Wrote {counts_path}")
 
-    metadata_path = os.path.join(target_dir, "metadata.md")
-    with open(metadata_path, "w", encoding="utf-8") as fh:
+    fields_path = os.path.join(target_dir, "fields.md")
+    with open(fields_path, "w", encoding="utf-8") as fh:
         fh.write("| **Field** | **Status** |\n")
         fh.write("|-----------|------------|\n")
         for key in required:
             fh.write(f"| {key} | required |\n")
         for key in optional:
             fh.write(f"| {key} | optional |\n")
-    print(f"Wrote {metadata_path}")
+    print(f"Wrote {fields_path}")
 
 
 if __name__ == "__main__":
