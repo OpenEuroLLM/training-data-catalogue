@@ -84,7 +84,8 @@ All licenses permit redistribution, modification, and commercial use.
 Each document is tagged with its SPDX-canonical license URL linking to the original license text.
 
 
-### <a id="use">Citation Information</a>
+## <a id="citation">References</a>
+
 ```bibtex
 @article{gienapp:2025d,
     title        = {{The German Commons -- 154 Billion Tokens of Openly Licensed Text for German Language Models}},

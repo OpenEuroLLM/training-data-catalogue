@@ -86,7 +86,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0, subject to CommonCrawl's Terms of Use.
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{allal2025smollm2smolgoesbig,

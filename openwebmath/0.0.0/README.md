@@ -47,7 +47,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/). Use is also subject to the [Common Crawl Terms of Use](https://commoncrawl.org/terms-of-use).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{paster2023openwebmath,

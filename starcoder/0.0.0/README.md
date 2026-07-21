@@ -168,7 +168,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 TODO
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{li2023starcodersourceyou,

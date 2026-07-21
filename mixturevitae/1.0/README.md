@@ -72,7 +72,7 @@ The dataset is composed of permissive-licensed and public domain sources across 
 tiers. Consult the [dataset page](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated)
 for the full source and license breakdown.
 
-### Citation Information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{nguyen2025mixturevitaeopenwebscalepretraining,

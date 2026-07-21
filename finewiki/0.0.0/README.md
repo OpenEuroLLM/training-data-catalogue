@@ -399,7 +399,7 @@ The dataset is released under the Creative Commons Attribution-ShareAlike 4.0 In
 ([CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) and the GNU Free Documentation License
 ([GFDL](https://www.gnu.org/licenses/fdl-1.3.html)), in keeping with [Wikipedia's own licensing](https://dumps.wikimedia.org/legal.html).
 
-### Citation Information
+## <a id="citation">References</a>
 
 ```bibtex
 @dataset{penedo2025finewiki,

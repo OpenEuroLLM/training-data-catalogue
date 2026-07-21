@@ -62,7 +62,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{niklaus2026_the_synthetic_data_playbook_generating_trillions_of_the_finest_tokens,

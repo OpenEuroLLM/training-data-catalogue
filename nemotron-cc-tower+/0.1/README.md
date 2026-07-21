@@ -152,7 +152,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the [Creative Commons CC0 license](https://creativecommons.org/publicdomain/zero/1.0/) (no rights reserved). Original web content remains subject to the rights of website owners and the [Common Crawl Terms of Use](https://commoncrawl.org/terms-of-use).
 
-### Citation Information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{idahl2026multisyntmttrilliontokenmultiparallelpretraining,

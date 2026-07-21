@@ -47,7 +47,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{fujii2025rewritingpretrainingdataboosts,
