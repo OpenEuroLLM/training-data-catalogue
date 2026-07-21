@@ -26,8 +26,9 @@ pairs, HPLT-MT) model for that language pair, run with Marian-NMT.
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 8,100 gzipped JSONlines files, organised into one directory per target
-language, named by its ISO 639-3 (plus ISO 15924 script where relevant, e.g. `srp_Cyrl`) code. Languages
+The dataset is distributed as 8,100 gzipped JSONlines files, amounting to 8.3 TB on disk. Files are
+organised into one directory per target language, named by its ISO 639-3 (plus ISO 15924 script where
+relevant, e.g. `srp_Cyrl`) code. Languages
 added in the original release share the lower-resource document pool (~156M documents translated from the
 same Nemotron-CC subset); the nine languages added in version 1.1 use the larger, higher-resource pool
 (~316M documents). Because every language subset is a translation of the same underlying English documents,

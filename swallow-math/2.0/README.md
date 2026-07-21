@@ -13,8 +13,8 @@ Derived from [FineMath-3+](https://huggingface.co/datasets/HuggingFaceFW/finemat
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 208 uncompressed JSONlines files, amounting to 102 GB on disk.
-Files are organised into two partitions: `stage3-qa` (question-answer format) and `stage3-textbook` (structured textbook-style explanations), each containing multiple shards following the naming pattern `train-NNNNN-Qwen3-235B-A22B-Thinking-2507-FP8.jsonl`.
+The dataset is distributed as 208 uncompressed JSONlines files. For the catalogue internal uniformity, the files were Zstd-compressed, amounting to 27 GB on disk.
+Files are organised into two partitions: `stage3-qa` (question-answer format) and `stage3-textbook` (structured textbook-style explanations), each containing multiple shards following the naming pattern `train-NNNNN-Qwen3-235B-A22B-Thinking-2507-FP8.jsonl.zst`.
 
 **Record Fields**
 

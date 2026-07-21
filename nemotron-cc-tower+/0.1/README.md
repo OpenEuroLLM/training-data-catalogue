@@ -22,7 +22,8 @@ English dataset. Translations were produced using two neural machine translation
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is organized into two top-level partitions:
+The dataset is distributed as 704 Zstd-compressed JSONlines files, amounting to 2.6 TB on disk.
+It is organized into two top-level partitions:
 
 - `parallel/`: 140.4M documents aligned across all languages -- the same source documents
   translated into every target language -- plus the original English source under `eng_Latn/`.
