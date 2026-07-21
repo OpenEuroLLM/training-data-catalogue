@@ -60,11 +60,12 @@ There is a sole internal part stored under `stage5-auto-format/python/medium/`. 
 
 ## <a id="languages">European Language Support</a>
 
-SwallowCode-v2 is Python code (English).
+All content is LLM-generated Python code.
 
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
+| **Language** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
 |-------------|--------------:|-------------:|-----------:|-----------:|---------------:|
-| eng_Latn  | 28,705,016 | 6,615,526,926 | 59,110,824,658 | 2,059.3 | 216,822,734,139 |
+| Python  | 28,705,016 | 6,615,526,926 | 59,110,824,658 | 2,059.3 | 216,822,734,139 |
+
 
 ## <a id="access">Access Information</a>
 
@@ -79,7 +80,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{fujii2025rewritingpretrainingdataboosts,
