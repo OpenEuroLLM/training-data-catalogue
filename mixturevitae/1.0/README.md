@@ -8,7 +8,7 @@ MixtureVitae ([Nguyen et al., 2025](https://arxiv.org/abs/2509.25531)) is a 422B
 pretraining dataset designed to train competitive large language models using only
 permissive-licensed and low-risk data sources, prioritizing legal safety and transparent
 provenance. Additional details are available on the
-[HuggingFace dataset page](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
+[Hugging Face dataset page](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
 
 ## <a id="sources">Data Sources</a>
 
@@ -59,7 +59,7 @@ MixtureVitae is primarily English.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

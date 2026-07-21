@@ -6,7 +6,7 @@
 
 FineMath ([Allal et al., 2025](https://arxiv.org/abs/2502.02737)) is a curated collection of mathematical educational content extracted from CommonCrawl, designed to enhance language model capabilities in mathematical reasoning.
 Content was scored using a classifier trained on Llama-3.1-70B-Instruct annotations, then deduplicated using MinHash-LSH and decontaminated against standard math benchmarks (GSM8k, MATH, MMLU, ARC).
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/HuggingFaceTB/finemath).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/HuggingFaceTB/finemath).
 
 ## <a id="sources">Data Sources</a>
 
@@ -75,7 +75,7 @@ FineMath is English-only.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/HuggingFaceTB/finemath).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/HuggingFaceTB/finemath).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

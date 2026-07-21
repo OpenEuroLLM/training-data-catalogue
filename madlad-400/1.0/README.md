@@ -6,7 +6,7 @@
 
 MADLAD-400 is a 3T token dataset based on Common Crawl containing 419 languages, designed to encompass a larger amount of languages than other datasets created using similar methods.
 The data construction and preliminary experimental results of training are described in [Kudugunta et al. (2023)](https://arxiv.org/abs/2309.04662).
-Additional details and download instructions are available on the [HuggingFace MADLAD-400 repository](https://huggingface.co/datasets/allenai/MADLAD-400).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/allenai/MADLAD-400).
 
 ## <a id="sources">Data Sources</a>
 
@@ -77,7 +77,7 @@ Currently, the MADLAD-400 dataset is distributed in compressed `.jsonl.gz` forma
 
 ## <a id="access">Access Information</a>
 
-The download site for the data is hosted at [HuggingFace](https://huggingface.co/datasets/allenai/MADLAD-400).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/allenai/MADLAD-400).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
@@ -87,7 +87,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 ## <a id="use">Terms of Use</a>
 
-The dataset is released with the [CC-BY-4.0]([https://creativecommons.org/licenses/by/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/legalcode)) license, as stated in the [HuggingFace repository](https://huggingface.co/datasets/allenai/MADLAD-400) and the associated [GitHub repository](https://github.com/google-research/google-research/tree/master).
+The dataset is released with the [CC-BY-4.0]([https://creativecommons.org/licenses/by/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/legalcode)) license, as stated in the [Hugging Face repository](https://huggingface.co/datasets/allenai/MADLAD-400) and the associated [GitHub repository](https://github.com/google-research/google-research/tree/master).
 Any source files employed from the GitHub repository fall under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
 
 ## <a id="curator">Catalogue Curators</a>

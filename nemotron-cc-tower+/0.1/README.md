@@ -8,7 +8,7 @@ MT-Nemotron-CC is an open multilingual dataset comprising approximately one hund
 source material from Nemotron-CC, machine-translated into multiple European languages. It was
 produced by the MultiSynt project, partially supported by OpenEuroLLM, and is intended for
 multilingual LLM pretraining. Additional details are available on the
-[HuggingFace dataset page](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
+[Hugging Face dataset page](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
 
 ## <a id="sources">Data Sources</a>
 
@@ -141,7 +141,7 @@ Tower-Plus-72B, in two partitions: `parallel` (140.4M aligned documents per lang
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

@@ -8,7 +8,7 @@ FineWiki is a multilingual Wikipedia dataset covering 325 languages, based on th
 Wikimedia Enterprise HTML dump snapshot. Unlike earlier Wikipedia extractions that parse wikitext,
 FineWiki extracts text from pre-rendered HTML, which fully expands templates and preserves
 rich formatting including headings, lists, tables, code blocks, and mathematical content.
-Details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/HuggingFaceFW/finewiki).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/HuggingFaceFW/finewiki).
 
 ## <a id="sources">Data Sources</a>
 
@@ -385,7 +385,7 @@ FineWiki covers 325 language editions of Wikipedia. Per-language statistics are 
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/HuggingFaceFW/finewiki).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/HuggingFaceFW/finewiki).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

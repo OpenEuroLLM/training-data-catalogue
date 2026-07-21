@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 The Stack ([Kocetkov et al., 2022](https://arxiv.org/abs/2211.15533)) is a large-scale collection of permissively-licensed source code files developed by the BigCode project for training code language models. Version 1.2 covers 358 programming languages sourced from GitHub repositories created between January 2015 and March 2022, and incorporates opt-out requests submitted by February 2023 as well as removal of initially flagged malicious files.
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/bigcode/the-stack).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/bigcode/the-stack).
 
 ## <a id="sources">Data Sources</a>
 
@@ -430,7 +430,7 @@ The Stack contains code (natural language parts predominantly English). See belo
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/bigcode/the-stack).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/bigcode/the-stack).
 
 Developers may request removal of their code via the [Am I In The Stack?](https://huggingface.co/spaces/bigcode/in-the-stack) tool.
 

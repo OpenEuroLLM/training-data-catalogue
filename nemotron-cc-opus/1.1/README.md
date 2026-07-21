@@ -14,7 +14,7 @@ collection of Marian-NMT models ([Tiedemann et al.,
 2023](https://doi.org/10.1007/s10579-023-09704-w)).  Version 1.1 adds
 translations for nine additional higher-resource languages on top of the
 original 27-language release.  Additional details are available on the
-[HuggingFace dataset
+[Hugging Face dataset
 page](https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated).
 
 ## <a id="sources">Data Sources</a>
@@ -94,7 +94,7 @@ The dataset covers 36 European languages. See below for the per-language statist
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

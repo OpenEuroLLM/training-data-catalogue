@@ -66,7 +66,7 @@ German Commons is primarily in German.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/coral-nlp/german-commons).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/coral-nlp/german-commons).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 Multilingual C4 (mC4) is a large-scale multilingual web text corpus derived from Common Crawl, covering 108 languages. It was created as part of the mT5 project ([Xue et al., 2021](https://arxiv.org/abs/2010.11934)) and is distributed by the Allen Institute for AI as part of the broader [C4 dataset](https://huggingface.co/datasets/allenai/c4), which also includes English-only and filtered variants. The multilingual variant is intended for multilingual LLM pretraining.
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/allenai/c4).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/allenai/c4).
 
 ## <a id="sources">Data Sources</a>
 
@@ -71,7 +71,7 @@ The `openeurollm/` subset covers 35 languages and comprises 5,300 files, making 
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/allenai/c4).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/allenai/c4).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

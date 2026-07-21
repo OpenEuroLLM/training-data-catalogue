@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 MegaMath ([Zhou et al., 2025](https://arxiv.org/abs/2504.02807)) is an open mathematics pre-training dataset curated from three complementary sources: re-extracted mathematical web text, high-quality math-related code, and synthetically generated content.
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/LLM360/MegaMath).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/LLM360/MegaMath).
 
 ## <a id="sources">Data Sources</a>
 
@@ -45,7 +45,7 @@ MegaMath is English-only.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/LLM360/MegaMath).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/LLM360/MegaMath).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

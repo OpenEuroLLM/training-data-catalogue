@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 OpenWebMath ([Paster et al., 2023](https://arxiv.org/abs/2310.06786)) is a dataset of high-quality mathematical web text extracted from Common Crawl. It covers mathematics, physics, statistics, and computer science across 130,000+ domains, filtered from over 200 billion HTML files.
-Details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/open-web-math/open-web-math).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/open-web-math/open-web-math).
 
 ## <a id="sources">Data Sources</a>
 
@@ -36,7 +36,7 @@ OpenWebMath is English-only.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/open-web-math/open-web-math).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/open-web-math/open-web-math).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

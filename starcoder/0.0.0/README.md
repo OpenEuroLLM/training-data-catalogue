@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 This is the training dataset for the StarCoder and StarCoderBase code language models, developed by the BigCode community ([Li et al., 2023](https://arxiv.org/abs/2305.06161)). It covers 86 programming languages derived from The Stack v1, supplemented by GitHub Issues, Jupyter notebooks, and Git commits. The dataset underwent near-deduplication, PII removal, and benchmark decontamination before release.
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/bigcode/starcoderdata).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/bigcode/starcoderdata).
 
 ## <a id="sources">Data Sources</a>
 
@@ -157,7 +157,7 @@ StarCoder dataset contains code (natural language parts predominantly English). 
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/bigcode/starcoderdata).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/bigcode/starcoderdata).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 

@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 FineWeb 2 ([Penedo et al., 2025](https://arxiv.org/abs/2506.20920)) is a collection of multilingual datasets containing texts in over 1000 languages (excluding English -- for that, see our [catalogue page](https://github.com/OpenEuroLLM/training-data-catalogue/tree/main/fineweb/1.4.0) on [FineWeb 1](https://huggingface.co/datasets/HuggingFaceFW/fineweb)).
-Dataset details, download instructions and results of ablation experiments are described in the paper as well as on the [HuggingFace dataset page](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2).
 
 ## <a id="sources">Data Sources</a>
 
@@ -16,7 +16,7 @@ The dataset was filtered and deduplicated, totalling on 20 TiB of data. The data
 
 The documents in the datasets have been separated by langauge (using [GlotLID; Kargaran et al, 2023](https://aclanthology.org/2023.findings-emnlp.410/)) into subfolders, using the ISO-639-3 codes.
 In this catalogue, this dataset is distributed as Zstd-compressed JSONLines files in the language-specific subfolders.
-The data for each language is sharded in multiple `???_?????.jsonl.zst` files which correspond to the `???_?????.parquet` files that can be obtained from Huggingface Hub (here, each question mark correspond to a digit `0-9`).
+The data for each language is sharded in multiple `???_?????.jsonl.zst` files which correspond to the `???_?????.parquet` files that can be obtained from Hugging Face Hub (here, each question mark correspond to a digit `0-9`).
 
 ## <a id="languages">European Language Support</a>
 
@@ -103,7 +103,7 @@ The data for each language is sharded in multiple `???_?????.jsonl.zst` files wh
 | Total | 1,762,353,453 | 1,171,627 | 21,407,586 | 1,182,411,493 | 3,761,566,715 |
 
 ## <a id="access">Access Information</a>
-The primary download site for the data is [HuggingFace Hub](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesytem:
 
