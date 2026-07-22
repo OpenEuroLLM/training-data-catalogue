@@ -182,8 +182,8 @@ are linked depends on how the source is laid out.
 
 ## Operational Notes
 
-Operational specifics of the LUMI setup. These are the parts most likely to
-differ, or to be wrong, in another environment.
+Specifics of running this on LUMI. Unlike the rest of the document, these details
+are bound to our environment and will not transfer.
 
 ### Counting, end to end
 
@@ -202,14 +202,12 @@ bash counts.array.slurm --report <target_dir>
 - `--max-tasks N` sets how many slices the filelist is cut into; the script
   derives the per-task batch size from it. `--array` selects which of those
   slices actually run. In the simple case the two match: `--max-tasks 190` with
-  `--array=1-190`. It is not an argument to `--init`.
+  `--array=1-190`.
 - Waves: when the filelist needs more slices than the 200-job limit allows to run
   at once, cut it into more slices and run them in several passes, e.g.
   `--max-tasks 500` with `--array=1-190`, then `--array=191-380`, then
   `--array=381-500`. `--max-tasks` stays the same across all of them -- it
   defines the slicing, so changing it mid-way would shift the boundaries.
-- No `--parsable`, and no `--dependency` chaining -- aggregate is run separately
-  once the array has finished.
 - Aggregate and report are small and normally run on the login node with `bash`.
   Aggregate can equally be submitted with `sbatch` for a very large tree.
 - Default file pattern is `\.zst$`; pass `--pattern '\.gz$'` for gzip entries.
@@ -234,61 +232,4 @@ wave mechanics.
 - Never infer that a job finished from an output directory existing. Check the
   logs or the queue.
 - Use `lumi-quota` for disk and file quota, not `df` or `lfs quota`.
-- Keep heavy work off the login node. For integrity checks, prefer comparing
-  byte sizes to decompressing content.
-
-### Verifying an entry's stated statistics
-
-Run inside the entry's data directory -- usually `data/`, but not always; some
-entries name it differently or split across partitions with no single data
-directory:
-
-```bash
-find . -name '*.jsonl.zst' | wc -l
-du -hd1
-```
-
-Watch for an `openeurollm/` sibling: it holds symlinks to a language subset of
-the same files, and including it double-counts files and inflates the size.
-
-### Entry conventions
-
-Easy to get subtly wrong when writing an entry README:
-
-- Section headings carry their own anchors, as in
-  `## <a id="citation">References</a>`. Copy them from
-  [`etc/skeleton.md`](etc/skeleton.md).
-- "Hugging Face" is two words in prose; URLs (`huggingface.co`) and identifiers
-  (`HuggingFaceFW`, `huggingface_hub`) keep their own spelling.
-- Two sentences are used verbatim catalogue-wide: "Additional details are
-  available on the [Hugging Face dataset page](URL)." and "The primary download
-  site for the data is the [Hugging Face Hub](URL)."
-
-### Code style
-
-- Plain ASCII only, in code, comments, string literals, and docstrings.
-- Dataset-specific scripts hardcode their values rather than growing options.
-  Prefer calling the shared scripts in `etc/` with the right arguments; write a
-  self-contained script only when the logic genuinely warrants it.
-- Data processing scripts fail hard on anomalies. No silent skipping, no
-  swallowed errors -- a wrong number that looks plausible is worse than a crash.
-
-### Scripts
-
-| Script | Purpose |
-|---|---|
-| `etc/download-dataset.slurm` | Generic Hugging Face download (git lfs or `hf download`) |
-| `etc/convert.array.slurm` | Filelist array job, Parquet -> JSONL.ZST |
-| `etc/convert_single_parquet_to_jsonl.py` | Per-file converter called by the array job |
-| `etc/counts.array.slurm` | Filelist array job for counting |
-| `etc/counts_runner.py` | CLI wrapper: `count-files` / `aggregate` / `report` |
-| `etc/counts.py` | Counting implementation |
-| `etc/index.py` | Signature / domain / URL indices; overlap analysis |
-| `etc/recompress.slurm` | Array job, `.gz` -> `.zst` |
-| `etc/verify-gzip.slurm` | Array job, `.gz` integrity verification |
-| `etc/huggingface.py` | Hugging Face API helpers (list files, configs) |
-| `etc/preamble.sh` | Common shell setup sourced by per-dataset SLURM scripts |
-| `etc/skeleton.md` | Empty README template |
-
-`convert.slurm` and `counts.slurm` are earlier single-directory versions of the
-two array jobs, superseded by the filelist-based ones.
+- Keep heavy work off the login node.
