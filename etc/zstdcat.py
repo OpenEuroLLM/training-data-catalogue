@@ -10,6 +10,7 @@ import os;
 from pathlib import Path;
 import regex;
 from subprocess import Popen, PIPE;
+import random;
 import sys;
 import time;
 import traceback;
@@ -86,6 +87,7 @@ def main():
   parser.add_argument("--pipe", action = "store_true");
   parser.add_argument("--mode", type = str, default = "bytes");
   parser.add_argument("--filter", type = str, default = None);
+  parser.add_argument("--sample", type = float, default = 1.0);
   parser.add_argument("--align", type = str);
   parser.add_argument("--uuid", action = "store_true");
   parser.add_argument("--lid", action = "append", default = []);
@@ -103,6 +105,10 @@ def main():
     print("zstdconcat.py: --align, --lid, --uuid, or --rename require JSON --mode; exit.",
           file = sys.stderr, flush = True);
     sys.exit(1);
+  if arguments.sample > 1:
+    print("zstdconcat.py: invalid --sample value {}; exit."
+          "".format(arguments.sample),
+          file = sys.stderr, flush = True);
 
   #
   # increase output buffer size
@@ -307,6 +313,12 @@ def main():
                   file = sys.stderr, flush = True);
           sys.exit(1);
 
+      #
+      # random downsampling
+      #
+      if (arguments.sample < 1.0
+          and random.random() > arguments.sample):
+        continue;
       #
       # finally, write out result, either to our compressed or plain stream
       #
