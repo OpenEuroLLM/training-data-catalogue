@@ -1,0 +1,1666 @@
+corpus: hplt-v4-ltg
+srclang: ltg
+timestamp: 1789050050.6637528
+warnings:
+- src_warning_tok_nltk_wordpunct
+docs_collections: '[["CC-MAIN-2018-22", 847], ["CC-MAIN-2018-05", 566], ["CC-MAIN-2017-51",
+  543], ["CC-MAIN-2023-06", 472], ["CC-MAIN-2020-24", 463], ["wide00015", 461], ["CC-MAIN-2017-26",
+  449], ["CC-MAIN-2023-23", 448], ["CC-MAIN-2023-14", 439], ["CC-MAIN-2020-40", 432],
+  ["CC-MAIN-2020-05", 408], ["CC-MAIN-2023-40", 399], ["CC-MAIN-2020-16", 376], ["CC-MAIN-2020-10",
+  356], ["CC-MAIN-2020-29", 354], ["CC-MAIN-2025-21", 308], ["CC-MAIN-2022-21", 299],
+  ["CC-MAIN-2018-39", 292], ["CC-MAIN-2024-18", 272], ["CC-MAIN-2022-49", 272], ["CC-MAIN-2024-10",
+  256], ["CC-MAIN-2020-34", 244], ["wide00011", 229], ["CC-MAIN-2018-34", 219], ["CC-MAIN-2020-45",
+  215], ["CC-MAIN-2024-22", 185], ["CC-MAIN-2019-04", 179], ["CC-MAIN-2022-27", 172],
+  ["CC-MAIN-2014-15", 171], ["CC-MAIN-2022-40", 169], ["CC-MAIN-2024-26", 166], ["CC-MAIN-2021-49",
+  164], ["CC-MAIN-2025-05", 162], ["CC-MAIN-2021-04", 162], ["CC-MAIN-2021-21", 159],
+  ["CC-MAIN-2021-39", 154], ["CC-MAIN-2023-50", 151], ["CC-MAIN-2025-13", 149], ["CC-MAIN-2025-18",
+  145], ["CC-MAIN-2024-30", 144], ["CC-MAIN-2018-43", 138], ["CC-MAIN-2022-33", 136],
+  ["CC-MAIN-2024-51", 127], ["CC-MAIN-2022-05", 127], ["CC-MAIN-2024-46", 125], ["CC-MAIN-2021-43",
+  121], ["CC-MAIN-2021-25", 113], ["CC-MAIN-2025-26", 109], ["CC-MAIN-2024-42", 103],
+  ["CC-MAIN-2021-10", 101], ["CC-MAIN-2024-38", 99], ["CC-MAIN-2021-31", 99], ["CC-MAIN-2025-08",
+  89], ["CC-MAIN-2024-33", 88], ["CC-MAIN-2025-33", 87], ["CC-MAIN-2020-50", 81],
+  ["CC-MAIN-2025-30", 67], ["CC-MAIN-2021-17", 64], ["wide00016", 43], ["wide00002",
+  35], ["wide00017", 13], ["CC-MAIN-2014-35", 13], ["CC-MAIN-2014-42", 12], ["CC-MAIN-2016-44",
+  10], ["wide00012", 9], ["CC-MAIN-2017-04", 9], ["CC-MAIN-2016-40", 8], ["wide00005",
+  7], ["CC-MAIN-2016-30", 7], ["wide00006", 5], ["CC-MAIN-2015-18", 4], ["CC-MAIN-2015-11",
+  4], ["archivebot", 3], ["CC-MAIN-2015-48", 3], ["wide00010", 1]]'
+docs_langs: '[[0.2, 96], [0.3, 346], [0.4, 373], [0.5, 559], [0.6, 386], [0.7, 617],
+  [0.8, 1401], [0.9, 2243], [1.0, 8090]]'
+docs_segments: '[[1, 493], [2, 408], [3, 492], [4, 810], [5, 1045], [6, 1308], [7,
+  1290], [8, 1080], [9, 878], [10, 659], [11, 535], [12, 384], [13, 345], [14, 306],
+  [15, 295], [16, 515], [17, 194], [18, 181], [19, 190], [20, 165], [21, 162], [22,
+  124], [23, 128], [24, 138], [25, 111], [26, 113], [27, 116], [28, 99], [29, 86],
+  [30, 69], [31, 74], [32, 45], [33, 62], [34, 60], [35, 42], [36, 37], [37, 51],
+  [38, 52], [39, 49], [40, 45], [41, 40], [42, 34], [43, 41], [44, 27], [45, 32],
+  [46, 39], [47, 24], [48, 25], [49, 20], [50, 24], [51, 16], [52, 27], [53, 26],
+  [54, 20], [55, 18], [56, 12], [57, 9], [58, 11], [59, 7], [60, 12], [61, 10], [62,
+  14], [63, 9], [64, 12], [65, 13], [66, 9], [67, 13], [68, 6], [69, 12], [70, 8],
+  [71, 15], [72, 16], [73, 9], [74, 6], [75, 5], [76, 7], [77, 7], [78, 5], [79, 4],
+  [80, 3], [81, 10], [82, 7], [83, 5], [84, 5], [85, 1], [86, 3], [87, 3], [88, 4],
+  [89, 3], [90, 5], [91, 11], [92, 3], [93, 4], [94, 2], [95, 7], [96, 1], [97, 3],
+  [98, 5], [100, 1], [101, 3], [102, 2], [103, 3], [104, 3], [105, 4], [106, 4], [107,
+  2], [108, 4], [109, 6], [110, 4], [111, 1], [112, 2], [113, 1], [115, 1], [116,
+  1], [117, 3], [118, 2], [119, 2], [121, 1], [125, 1], [126, 4], [127, 1], [128,
+  1], [130, 3], [133, 1], [134, 1], [135, 1], [136, 2], [137, 1], [138, 1], [139,
+  2], [140, 2], [141, 1], [142, 1], [143, 1], [144, 1], [145, 1], [146, 1], [147,
+  1], [148, 1], [149, 2], [150, 2], [151, 1], [154, 1], [155, 1], [156, 1], [157,
+  1], [162, 1], [164, 1], [169, 2], [173, 1], [177, 3], [178, 1], [180, 1], [182,
+  1], [183, 1], [184, 3], [185, 2], [189, 2], [195, 1], [196, 1], [202, 1], [203,
+  1], [207, 1], [215, 1], [216, 1], [218, 1], [221, 2], [224, 1], [225, 1], [240,
+  1], [245, 1], [260, 1], [264, 1], [270, 2], [281, 1], [289, 1], [296, 2], [307,
+  1], [315, 1], [324, 1], [334, 1], [347, 1], [351, 1], [355, 1], [430, 1], [463,
+  1], [473, 1], [572, 1], [630, 1], [707, 1], [811, 1], [889, 1], [1065, 1], [1149,
+  1]]'
+docs_segments_mean: 15
+docs_segments_median: 9
+docs_top100_domains: '[["lakuga.lv", 7565], ["lgsc.lv", 823], ["ailab.lv", 754], ["lsm.lv",
+  655], ["wikipedia.org", 422], ["cyxob.lv", 261], ["naktineica.lv", 239], ["bonuks.lv",
+  239], ["lfk.lv", 159], ["daugavpilszinas.lv", 155], ["daugavpilsteatris.lv", 127],
+  ["newfuels.eu", 119], ["slevy-na.cz", 94], ["latgolyskongress.lv", 84], ["rezekneszinas.lv",
+  79], ["latgaleslaiks.lv", 77], ["dkradio.lv", 76], ["lrtv.lv", 73], ["voluda.lv",
+  69], ["radieceze.lv", 66], ["diamantova-bible.cz", 64], ["rezeknesbiblioteka.lv",
+  59], ["lpr.gov.lv", 58], ["nejzajimavejsi.cz", 53], ["muzyka.lv", 53], ["nfd.cz",
+  52], ["ludzasbiblio.lv", 52], ["jw.org", 51], ["zhitov.com", 49], ["ru.lv", 48],
+  ["rta.lv", 48], ["nejzadanejsi.cz", 45], ["latvijas-pilskalni.lv", 44], ["taiseitslatgola.lv",
+  43], ["a12.lv", 43], ["latgola.lv", 42], ["vieteja.lv", 37], ["upite.lv", 36], ["latgalesgors.lv",
+  35], ["ekstra.lv", 34], ["futureofmuseums.eu", 28], ["nejoblibenejsi.eu", 27], ["literatura.lv",
+  27], ["latgale.lv", 27], ["rezeknesnovads.lv", 25], ["jureits.lv", 24], ["fsspx-fsipd.lv",
+  24], ["ezerzeme.lv", 22], ["mozello.lv", 20], ["skreine.org", 19], ["fta.lv", 19],
+  ["vaduguns.lv", 18], ["ltgasoc.lv", 18], ["garamantas.lv", 18], ["giutbreidi.lv",
+  17], ["folklora.lt", 17], ["du.lv", 17], ["lv100.lv", 16], ["vilaka.lv", 15], ["travelnews.lv",
+  15], ["lkcizdevnieciba.lv", 14], ["blogspot.com", 14], ["ir.lv", 12], ["balvurcb.lv",
+  12], ["wordpress.com", 11], ["preili.lv", 11], ["pasakas.eu", 11], ["la.lv", 11],
+  ["karsava.lv", 11], ["bibliotekas.lv", 11], ["bibelesbiedriba.lv", 10], ["sciencegraph.net",
+  9], ["ruscath.ru", 9], ["online-qr-scanner.com", 9], ["visitludza.lv", 8], ["skaties.lv",
+  8], ["oratastic.eu", 8], ["kotini.lv", 8], ["biedribaslg.lv", 8], ["serde.lv", 7],
+  ["oremus.lv", 7], ["linux.edu.lv", 7], ["laiki.lv", 7], ["folklorasbiedriba.lv",
+  7], ["draugiem.lv", 7], ["baltinava.lv", 7], ["valodumaja.lv", 6], ["tvnet.lv",
+  6], ["rubon.eu", 6], ["malta.lv", 6], ["ludza.lv", 6], ["google.com", 6], ["eraksti.lv",
+  6], ["dv.lv", 6], ["vienotiba.lv", 5], ["tezaurs.lv", 5], ["skrivanek.lv", 5], ["lvportals.lv",
+  5], ["barkava.lv", 5], ["apple.com", 5]]'
+docs_top100_tld: '[["lv", 12812], ["org", 503], ["cz", 308], ["eu", 205], ["com",
+  143], ["gov.lv", 61], ["lt", 18], ["ru", 17], ["net", 15], ["edu.lv", 8], ["page",
+  4], ["info", 4], ["nl", 3], ["cf", 2], ["ws", 1], ["travel", 1], ["se", 1], ["io",
+  1], ["de", 1], ["club", 1], ["click", 1], ["ac.uk", 1]]'
+docs_total: 14111
+docs_wds: '[[0.5, 44], [0.51, 54], [0.52, 56], [0.53, 57], [0.54, 63], [0.55, 72],
+  [0.56, 67], [0.57, 74], [0.58, 75], [0.59, 71], [0.6, 75], [0.61, 92], [0.62, 82],
+  [0.63, 103], [0.64, 104], [0.65, 113], [0.66, 132], [0.67, 118], [0.68, 144], [0.69,
+  154], [0.7, 180], [0.71, 209], [0.72, 254], [0.73, 252], [0.74, 273], [0.75, 406],
+  [0.76, 454], [0.77, 457], [0.78, 464], [0.79, 490], [0.8, 610], [0.81, 713], [0.82,
+  669], [0.83, 523], [0.84, 486], [0.85, 357], [0.86, 321], [0.87, 408], [0.88, 461],
+  [0.89, 499], [0.9, 585], [0.91, 509], [0.92, 443], [0.93, 448], [0.94, 405], [0.95,
+  384], [0.96, 332], [0.97, 343], [0.98, 255], [0.99, 137], [1.0, 34]]'
+duplication_ratio: 0.1871
+sentence_pairs: 214613
+src_bytes: 49775013
+src_chars: 46163225
+src_pii: 956
+src_tokens: 8271732
+unique_sents: 174462
+src_sent_tokens: '[[1, 5292], [2, 7930], [3, 8102], [4, 7879], [5, 8444], [6, 8228],
+  [7, 9378], [8, 6725], [9, 6077], [10, 6104], [11, 5277], [12, 4492], [13, 4212],
+  [14, 3935], [15, 3894], [16, 4250], [17, 3228], [18, 2858], [19, 2438], [20, 2282],
+  [21, 2056], [22, 1950], [23, 2000], [24, 1814], [25, 1798], [26, 1673], [27, 1691],
+  [28, 1569], [29, 1642], [30, 1980], [31, 1497], [32, 1675], [33, 1543], [34, 1423],
+  [35, 1534], [36, 1497], [37, 1574], [38, 1553], [39, 1547], [40, 1747], [41, 1735],
+  [42, 2026], [43, 1962], [44, 1976], [45, 2081], [46, 1812], [47, 1705], [48, 1626],
+  [49, 1510], [50, 1284], [51, 1232], [52, 1229], [53, 1123], [54, 1065], [55, 1111],
+  [56, 1052], [57, 1107], [58, 961], [59, 918], [60, 911], [61, 948], [62, 923], [63,
+  815], [64, 866], [65, 971], [66, 992], [67, 1008], [68, 991], [69, 918], [70, 856],
+  [71, 838], [72, 842], [73, 827], [74, 749], [75, 742], [76, 710], [77, 685], [78,
+  610], [79, 683], [80, 631], [81, 585], [82, 569], [83, 570], [84, 522], [85, 537],
+  [86, 545], [87, 464], [88, 512], [89, 456], [90, 445], [91, 435], [92, 424], [93,
+  411], [94, 435], [95, 395], [96, 369], [97, 356], [98, 393], [99, 358], [100, 355],
+  [101, 347], [102, 325], [103, 337], [104, 305], [105, 292], [106, 267], [107, 271],
+  [108, 279], [109, 311], [110, 280], [111, 254], [112, 282], [113, 258], [114, 248],
+  [115, 248], [116, 277], [117, 221], [118, 216], [119, 231], [120, 205], [121, 214],
+  [122, 209], [123, 232], [124, 229], [125, 181], [126, 203], [127, 199], [128, 180],
+  [129, 166], [130, 146], [131, 169], [132, 162], [133, 171], [134, 152], [135, 145],
+  [136, 156], [137, 158], [138, 132], [139, 129], [140, 122], [141, 155], [142, 149],
+  [143, 116], [144, 108], [145, 121], [146, 123], [147, 131], [148, 125], [149, 92],
+  [150, 115], [151, 97], [152, 88], [153, 112], [154, 106], [155, 100], [156, 83],
+  [157, 111], [158, 79], [159, 78], [160, 92], [161, 65], [162, 98], [163, 74], [164,
+  78], [165, 70], [166, 80], [167, 67], [168, 72], [169, 71], [170, 69], [171, 73],
+  [172, 64], [173, 68], [174, 55], [175, 53], [176, 58], [177, 56], [178, 52], [179,
+  56], [180, 68], [181, 55], [182, 54], [183, 45], [184, 49], [185, 54], [186, 41],
+  [187, 56], [188, 50], [189, 41], [190, 52], [191, 49], [192, 37], [193, 46], [194,
+  37], [195, 38], [196, 32], [197, 31], [198, 32], [199, 38], [200, 25], [201, 31],
+  [202, 33], [203, 29], [204, 26], [205, 24], [206, 34], [207, 28], [208, 31], [209,
+  26], [210, 14], [211, 19], [212, 48], [213, 31], [214, 35], [215, 17], [216, 22],
+  [217, 23], [218, 29], [219, 22], [220, 16], [221, 24], [222, 19], [223, 13], [224,
+  20], [225, 24], [226, 21], [227, 16], [228, 21], [229, 17], [230, 29], [231, 20],
+  [232, 22], [233, 23], [234, 13], [235, 28], [236, 11], [237, 16], [238, 8], [239,
+  24], [240, 15], [241, 20], [242, 16], [243, 29], [244, 21], [245, 16], [246, 10],
+  [247, 14], [248, 19], [249, 16], [250, 8], [251, 11], [252, 15], [253, 12], [254,
+  7], [255, 11], [256, 10], [257, 11], [258, 16], [259, 19], [260, 15], [261, 13],
+  [262, 13], [263, 12], [264, 8], [265, 12], [266, 13], [267, 10], [268, 15], [269,
+  7], [270, 6], [271, 12], [272, 11], [273, 13], [274, 7], [275, 6], [276, 10], [277,
+  6], [278, 8], [279, 8], [280, 3], [281, 10], [282, 10], [283, 9], [284, 8], [285,
+  6], [286, 13], [287, 12], [288, 6], [289, 10], [290, 9], [291, 7], [292, 4], [293,
+  8], [294, 12], [295, 6], [296, 8], [297, 7], [298, 4], [299, 11], [300, 4], [301,
+  5], [302, 5], [303, 7], [304, 5], [305, 2], [306, 8], [307, 4], [308, 4], [309,
+  3], [310, 3], [311, 4], [312, 4], [313, 6], [314, 4], [315, 3], [316, 5], [317,
+  4], [318, 2], [319, 4], [320, 5], [321, 3], [322, 3], [323, 5], [324, 2], [325,
+  2], [326, 5], [327, 5], [328, 3], [329, 2], [330, 6], [331, 9], [332, 3], [333,
+  2], [334, 1], [335, 5], [336, 2], [337, 6], [338, 5], [339, 5], [340, 3], [341,
+  1], [342, 3], [343, 6], [344, 2], [345, 2], [346, 3], [347, 3], [348, 2], [349,
+  6], [350, 2], [351, 2], [352, 3], [353, 4], [354, 4], [355, 4], [356, 3], [357,
+  1], [358, 2], [359, 5], [360, 2], [361, 5], [362, 5], [363, 3], [364, 3], [365,
+  4], [366, 1], [367, 6], [368, 5], [369, 1], [370, 2], [371, 1], [372, 5], [373,
+  2], [375, 2], [376, 4], [377, 3], [378, 3], [379, 2], [380, 3], [381, 2], [383,
+  7], [384, 3], [385, 2], [386, 5], [387, 3], [388, 4], [389, 1], [390, 3], [391,
+  1], [392, 7], [393, 4], [394, 3], [395, 9], [396, 8], [397, 5], [398, 10], [399,
+  9], [400, 11], [401, 10], [402, 9], [403, 6], [404, 12], [405, 7], [406, 16], [407,
+  8], [408, 9], [409, 16], [410, 10], [411, 9], [412, 10], [413, 13], [414, 7], [415,
+  6], [416, 11], [417, 12], [418, 10], [419, 6], [420, 7], [421, 8], [422, 4], [423,
+  7], [424, 5], [425, 3], [426, 6], [427, 4], [428, 3], [429, 4], [430, 4], [431,
+  3], [433, 2], [434, 3], [435, 5], [436, 5], [437, 1], [440, 2], [442, 1], [443,
+  3], [444, 2], [445, 1], [447, 4], [449, 1], [452, 1], [455, 1], [457, 1], [460,
+  1], [461, 2], [462, 2], [464, 4], [466, 1], [469, 1], [470, 2], [472, 1], [474,
+  6], [475, 1], [478, 3], [479, 1], [480, 1], [481, 2], [483, 1], [484, 1], [485,
+  2], [486, 1], [487, 1], [488, 2], [489, 1], [492, 2], [494, 1], [495, 1], [496,
+  1], [497, 2], [501, 1], [502, 2], [504, 1], [507, 1], [514, 1], [516, 1], [519,
+  1], [522, 2], [525, 1], [537, 1], [555, 1], [558, 1], [559, 1], [561, 1], [571,
+  1], [574, 1], [575, 1], [577, 2], [585, 1], [592, 1], [594, 1], [599, 1], [601,
+  1], [605, 1], [609, 1], [610, 1], [613, 1], [616, 1], [631, 1], [633, 2], [639,
+  1], [646, 1], [725, 1], [738, 2], [757, 1], [769, 1], [773, 1], [807, 1], [820,
+  1], [829, 1], [915, 1], [996, 1], [1074, 1], [1100, 1], [1180, 1], [1552, 1], [1794,
+  1], [2825, 1], [3350, 1], [3515, 1], [4738, 1], [6216, 1], [6325, 1], [6607, 1],
+  [7232, 1], [7644, 1], [8321, 1], [9574, 1], [9739, 1], [9880, 1], [10692, 1], [11087,
+  1], [11521, 1], [13561, 1], [13641, 1], [14289, 1], [14661, 1], [15916, 1], [17567,
+  1], [18682, 1], [23529, 1], [25420, 1], [25421, 1], [34763, 1], [66927, 1], [87080,
+  1]]'
+src_sent_tokens_mean: 39
+src_sent_tokens_median: 19
+src_unique_sents: '[[1, 1429], [2, 3707], [3, 4637], [4, 5784], [5, 6583], [6, 6806],
+  [7, 6370], [8, 5869], [9, 5304], [10, 4776], [11, 4376], [12, 4006], [13, 3764],
+  [14, 3568], [15, 3391], [16, 3251], [17, 2961], [18, 2625], [19, 2192], [20, 2049],
+  [21, 1854], [22, 1751], [23, 1749], [24, 1617], [25, 1517], [26, 1527], [27, 1465],
+  [28, 1442], [29, 1480], [30, 1382], [31, 1379], [32, 1393], [33, 1425], [34, 1297],
+  [35, 1324], [36, 1334], [37, 1333], [38, 1375], [39, 1337], [40, 1423], [41, 1425],
+  [42, 1573], [43, 1521], [44, 1480], [45, 1492], [46, 1358], [47, 1326], [48, 1305],
+  [49, 1218], [50, 1084], [51, 1062], [52, 1105], [53, 1020], [54, 972], [55, 1019],
+  [56, 977], [57, 979], [58, 903], [59, 860], [60, 861], [61, 862], [62, 814], [63,
+  737], [64, 799], [65, 840], [66, 841], [67, 852], [68, 820], [69, 769], [70, 718],
+  [71, 733], [72, 706], [73, 699], [74, 662], [75, 638], [76, 648], [77, 627], [78,
+  571], [79, 627], [80, 593], [81, 544], [82, 543], [83, 530], [84, 486], [85, 495],
+  [86, 513], [87, 432], [88, 480], [89, 441], [90, 425], [91, 421], [92, 401], [93,
+  384], [94, 414], [95, 377], [96, 357], [97, 336], [98, 368], [99, 341], [100, 333],
+  [101, 324], [102, 307], [103, 317], [104, 292], [105, 278], [106, 252], [107, 253],
+  [108, 264], [109, 298], [110, 272], [111, 245], [112, 272], [113, 246], [114, 240],
+  [115, 240], [116, 258], [117, 215], [118, 210], [119, 221], [120, 201], [121, 201],
+  [122, 188], [123, 217], [124, 203], [125, 171], [126, 186], [127, 190], [128, 174],
+  [129, 161], [130, 142], [131, 159], [132, 156], [133, 165], [134, 146], [135, 140],
+  [136, 149], [137, 149], [138, 126], [139, 122], [140, 120], [141, 148], [142, 142],
+  [143, 112], [144, 102], [145, 117], [146, 115], [147, 115], [148, 119], [149, 90],
+  [150, 110], [151, 97], [152, 86], [153, 107], [154, 100], [155, 94], [156, 77],
+  [157, 105], [158, 77], [159, 72], [160, 84], [161, 56], [162, 94], [163, 72], [164,
+  73], [165, 67], [166, 78], [167, 66], [168, 67], [169, 70], [170, 65], [171, 63],
+  [172, 58], [173, 68], [174, 51], [175, 52], [176, 54], [177, 56], [178, 52], [179,
+  50], [180, 59], [181, 55], [182, 54], [183, 45], [184, 44], [185, 53], [186, 38],
+  [187, 55], [188, 47], [189, 35], [190, 52], [191, 46], [192, 37], [193, 40], [194,
+  36], [195, 33], [196, 32], [197, 30], [198, 31], [199, 37], [200, 24], [201, 28],
+  [202, 32], [203, 28], [204, 26], [205, 23], [206, 29], [207, 24], [208, 30], [209,
+  26], [210, 14], [211, 19], [212, 45], [213, 30], [214, 33], [215, 17], [216, 21],
+  [217, 23], [218, 29], [219, 22], [220, 16], [221, 22], [222, 18], [223, 13], [224,
+  20], [225, 23], [226, 21], [227, 16], [228, 20], [229, 17], [230, 27], [231, 20],
+  [232, 19], [233, 23], [234, 13], [235, 23], [236, 11], [237, 14], [238, 8], [239,
+  19], [240, 15], [241, 20], [242, 16], [243, 25], [244, 21], [245, 15], [246, 10],
+  [247, 14], [248, 17], [249, 12], [250, 8], [251, 11], [252, 15], [253, 12], [254,
+  7], [255, 11], [256, 9], [257, 11], [258, 16], [259, 18], [260, 13], [261, 13],
+  [262, 11], [263, 12], [264, 8], [265, 9], [266, 13], [267, 10], [268, 14], [269,
+  7], [270, 6], [271, 12], [272, 11], [273, 13], [274, 7], [275, 6], [276, 10], [277,
+  6], [278, 8], [279, 8], [280, 3], [281, 10], [282, 10], [283, 9], [284, 7], [285,
+  6], [286, 13], [287, 7], [288, 6], [289, 10], [290, 8], [291, 7], [292, 4], [293,
+  7], [294, 11], [295, 6], [296, 8], [297, 7], [298, 4], [299, 11], [300, 4], [301,
+  5], [302, 5], [303, 6], [304, 5], [305, 2], [306, 7], [307, 4], [308, 4], [309,
+  3], [310, 2], [311, 4], [312, 4], [313, 6], [314, 2], [315, 3], [316, 4], [317,
+  4], [318, 2], [319, 4], [320, 5], [321, 3], [322, 3], [323, 5], [324, 2], [325,
+  2], [326, 5], [327, 5], [328, 3], [329, 2], [330, 6], [331, 7], [332, 3], [333,
+  2], [334, 1], [335, 5], [336, 2], [337, 6], [338, 5], [339, 5], [340, 3], [341,
+  1], [342, 3], [343, 6], [344, 2], [345, 2], [346, 3], [347, 3], [348, 2], [349,
+  6], [350, 2], [351, 2], [352, 2], [353, 4], [354, 3], [355, 4], [356, 3], [357,
+  1], [358, 2], [359, 4], [360, 2], [361, 5], [362, 5], [363, 3], [364, 3], [365,
+  4], [366, 1], [367, 4], [368, 5], [369, 1], [370, 2], [371, 1], [372, 5], [373,
+  2], [375, 2], [376, 4], [377, 3], [378, 3], [379, 2], [380, 3], [381, 1], [383,
+  7], [384, 3], [385, 2], [386, 3], [387, 3], [388, 4], [389, 1], [390, 3], [391,
+  1], [392, 7], [393, 4], [394, 3], [395, 9], [396, 8], [397, 5], [398, 10], [399,
+  9], [400, 11], [401, 10], [402, 9], [403, 6], [404, 12], [405, 7], [406, 16], [407,
+  8], [408, 9], [409, 16], [410, 10], [411, 9], [412, 10], [413, 13], [414, 7], [415,
+  6], [416, 11], [417, 12], [418, 10], [419, 6], [420, 7], [421, 8], [422, 4], [423,
+  7], [424, 5], [425, 3], [426, 6], [427, 4], [428, 3], [429, 4], [430, 4], [431,
+  3], [433, 2], [434, 3], [435, 5], [436, 4], [437, 1], [440, 2], [442, 1], [443,
+  3], [444, 2], [445, 1], [447, 4], [449, 1], [452, 1], [455, 1], [457, 1], [460,
+  1], [461, 2], [462, 2], [464, 2], [466, 1], [469, 1], [470, 2], [472, 1], [474,
+  2], [475, 1], [478, 3], [479, 1], [480, 1], [481, 1], [483, 1], [484, 1], [485,
+  2], [486, 1], [487, 1], [488, 2], [489, 1], [492, 2], [494, 1], [495, 1], [496,
+  1], [497, 2], [501, 1], [502, 2], [504, 1], [507, 1], [514, 1], [516, 1], [519,
+  1], [522, 2], [525, 1], [537, 1], [555, 1], [558, 1], [559, 1], [561, 1], [571,
+  1], [574, 1], [575, 1], [577, 2], [585, 1], [592, 1], [594, 1], [599, 1], [601,
+  1], [605, 1], [609, 1], [610, 1], [613, 1], [616, 1], [631, 1], [633, 2], [639,
+  1], [646, 1], [725, 1], [738, 1], [757, 1], [769, 1], [773, 1], [807, 1], [820,
+  1], [829, 1], [915, 1], [996, 1], [1074, 1], [1100, 1], [1180, 1], [1552, 1], [1794,
+  1], [2825, 1], [3350, 1], [3515, 1], [4738, 1], [6216, 1], [6325, 1], [6607, 1],
+  [7232, 1], [7644, 1], [8321, 1], [9574, 1], [9739, 1], [9880, 1], [10692, 1], [11087,
+  1], [11521, 1], [13561, 1], [13641, 1], [14289, 1], [14661, 1], [15916, 1], [17567,
+  1], [18682, 1], [23529, 1], [25420, 1], [25421, 1], [34763, 1], [66927, 1], [87080,
+  1]]'
+src_langs: '[["ltg", 85088], ["lv", 81768], ["lt", 6388], ["fi", 5544], ["en", 4470],
+  ["sk", 2949], ["pl", 2781], ["nl", 2721], ["eo", 2363], ["fr", 2218], ["sl", 2194],
+  ["de", 1875], ["eu", 1601], ["es", 1441], ["sr", 1241], ["it", 926], ["sv", 836],
+  ["pt", 832], ["cs", 825], ["id", 606], ["hr", 507], ["hu", 454], ["ca", 353], ["et",
+  326], ["ko", 308], ["bs", 293], ["ru", 247], ["ur", 234], ["tr", 202], ["ceb", 186],
+  ["mn", 182], ["el", 175], ["io", 159], ["war", 140], ["gl", 131], ["vo", 127], ["nb",
+  122], ["ms", 105], ["sq", 96], ["uz", 95], ["uk", 80], ["mg", 74], ["la", 68], ["ja",
+  67], ["da", 65], ["vep", 63], ["az", 53], ["ro", 51], ["hy", 49], ["br", 46], ["th",
+  44], ["tl", 42], ["vi", 40], ["fy", 40], ["sw", 36], ["nn", 36], ["zh", 34], ["mwl",
+  34], ["als", 28], ["mt", 24], ["is", 24], ["yo", 21], ["rm", 21], ["ml", 21], ["ia",
+  21], ["af", 21], ["gv", 20], ["cy", 19], ["oc", 18], ["an", 17], ["wuu", 16], ["fa",
+  15], ["ar", 15], ["tg", 14], ["kw", 14], ["jbo", 14], ["lb", 12], ["jv", 12], ["qu",
+  11], ["ilo", 9], ["hsb", 9], ["su", 8], ["so", 8], ["ast", 8], ["os", 7], ["min",
+  7], ["diq", 7], ["bo", 7], ["ta", 6], ["sco", 6], ["sah", 6], ["nds", 6], ["hi",
+  6], ["my", 5], ["mk", 5], ["li", 5], ["ku", 5], ["ka", 5], ["ie", 5], ["ckb", 5],
+  ["bn", 5], ["bar", 5], ["wa", 4], ["tk", 4], ["te", 4], ["kn", 4], ["ga", 4], ["frr",
+  4], ["as", 4], ["nap", 3], ["co", 3], ["bg", 3], ["yi", 2], ["tt", 2], ["sc", 2],
+  ["kk", 2], ["gn", 2], ["azb", 2], ["vls", 1], ["tyv", 1], ["scn", 1], ["pa", 1],
+  ["new", 1], ["lrc", 1], ["ht", 1], ["hif", 1], ["gom", 1], ["be", 1]]'
+hardrules_tags: '{"not_too_long": 3241, "not_too_short": 20033, "length_ratio": 0,
+  "no_urls": 11463, "no_bad_encoding": 1, "pii": 956}'
+sample: '["\"\u0160udi\u0146, 16. novembr\u012b, 17:00 stu\u0146d\u0113s n\u016bteik
+  asoc. prof. Lidejis Leikumys lekceja par latgal\u012b\u0161u rokstu vol\u016bdu
+  i latgaliskajom izl\u016bksnem.\\n17:00 LNB, Barona \u012bla 14, 3. stuov\u0101,
+  312. ustob\u0101.\\n23. i 30. novembr\u012b latgal\u012b\u0161u rokstu vol\u016bdys
+  kursi LNB, Barona \u012bla 14, 3. stuov\u0101, 312. ustob\u0101.\\n17:00 n\u016bdarbeiba
+  \u012bsuociejim\\n18:00 n\u016bdarbeiba tim, kas gryb \u012bsavuiceit raksteit\\nKa
+  c\u012bnej sovu muotis, t\u0101va, dzeda, babys i sovu vol\u016bdu i gribi raksteit
+  pareizi, Tev ir loba \u012bspieja \u2013 kaids vuica i pastuosta tai\u0161ni Tev.
+  Nav po\u0161am juosam\u016bka saprast, kas i kai.\\nVoi Tu izmontoj vysys ituo laika
+  \u012bspiejis kruot gudreibu? K\u016b ni k\u016bdis, ni ryuss maitoj.\\nPasuokumu
+  atbolsta LNB i KKF, projekta vadeituoja Muora Mortuz\u0101ne.\\nVaira informacejis
+  ite.\\n25. novembr\u012b LgSC brauc gost\u016bs da Jelgovys studentu.\\nOrganizej
+  Krist\u012bne Makovska i Vita Bri\u0161ka.\\nP\u012bjimts jauns b\u012bdrs \u2013
+  Juo\u0146s Pape\u0146\u0161.\\nJis gotovs \u012bsasaisteit b\u012bdreibys dorb\u0101.
+  Varbyut tai\u0161ni jauni b\u012bdri nas jaunys idejis i azartu dareit i byut. Jau
+  tradicionaluo Z\u012bmyssv\u0101tku \u010dyguon\u016bs \u012b\u0161ona it\u016bgod
+  var\u0101tu n\u016btikt Aglyun\u0101, juo dzymtaj\u0101 v\u012bt\u0101.\\nLgSC ir
+  sataisiejs blogu i roksta ari portal\u0101 www.lv.lv, k\u016b taisa SIA \u201cLatvijas
+  V\u0113stnesis\u201d.\\nMes asam vysaidi, tok ir k\u016bpeigais \u2013 interese
+  par Latgolu i latgalisk\u016b, c\u012bns pret vierteibom i dr\u016bsme d\u016bmuot
+  cytai\u017e. Blog\u0101 ar laiku raksteis vairuok \u013cau\u017eu, niu Harija Biern\u0101na
+  roksts par aktual\u016b temu \u2013 latgal\u012b\u0161u vol\u016bda Latvejis va\u013cst\u012b.\\nLatgalie\u0161u
+  valoda k\u0101 latgalie\u0161u identit\u0101tes sast\u0101vda\u013ca ir kritiski
+  noz\u012bm\u012bga latviskas Latgales saglab\u0101\u0161anai. Latgalie\u0161u valoda,
+  kult\u016bra, pa\u0161apzi\u0146a ir t\u0101s latvie\u0161u tautas gar\u012bg\u0101s
+  \u201czelta rezerves\u201d, kas noput\u0113ju\u0161as, aizmirstas un nenov\u0113rt\u0113tas
+  ir gul\u0113ju\u0161as no pirm\u0101s republikas laikiem. Atz\u012bstot un nov\u0113rt\u0113jot
+  latgalie\u0161us un vi\u0146u valodu, valsts pret\u012b sa\u0146ems entuziastisk\u0101kos
+  un loj\u0101l\u0101kos pilso\u0146us, k\u0101di tai jebkad biju\u0161i. Latgalie\u0161u
+  valodai jaun\u0101, valsts atz\u012bt\u0101 lom\u0101 ir potenci\u0101ls k\u013c\u016bt
+  par to impulsu, kam sekos Latgales gar\u012bga un kultur\u0101la atdzim\u0161ana
+  \u2013 priek\u0161noteikums, bez kura nav iedom\u0101jama novada saimniecisk\u0101
+  izaugsme. Latgaliskums var k\u013c\u016bt par inovat\u012bvu un efekt\u012bvu Latvijas
+  atbildi kr\u012bzei. Jaut\u0101jums tikai \u2013 vai valstij pietiks gudr\u012bbas
+  to izmantot.\\nTurpynoj\u0101s b\u0101rnu i jaun\u012b\u0161u lob\u016bs stuostu
+  konkurss.\\nN\u016bsl\u0101gums 21. decembr\u012b. N\u016blykumu varit puorskaiteit
+  ite.\\nTok jau sajimtais pyrmais dorbs l\u012bcynoj \u2013 latgal\u012b\u0161u jaun\u012b\u0161i
+  d\u016bmoj, roksta i cer. Sagatavej ari sovu stuostu! Lobuok\u012b stuosti iz\u012bs
+  gruomot\u0101 jau pavasar\u012b.\"", "\"Kontakti\\nNed\u0113\u013cas skaitlis\\nPag\u0101ju\u0161i
+  5 gadi kop\u0161 latus m\u016bsu makos un bankas kontos ir nomain\u012bju\u0161i
+  eiro.\\nApspriest\\nAptauja\\nP\u0113c k\u0101diem krit\u0113rijiem J\u016bs izv\u0113laties
+  produktus?\\nJaun\u0101kie koment\u0101ri:\\n\u0160odien un tagad: par atbalstu
+  zemkop\u012bbas nozarei\\nVierteigs raidejums! S\u012bk\u0101k...\\nGrupa \\\"Latgalie\u0161u
+  reps\\\" raid\u012bjum\u0101 pirmatska\u0146o dziesmu\\nNakri\u0161kon, you keids
+  protav\u0101dars atsarodos:) mo\u0161ka zam tova klasifikatora nagova keidi vordu
+  salykumi voi ska\u0146ys gobols? Pats izspr\u012bdi voi kur n\u016bzaklausieji?
+  Sataisi lobok i tod runoi:) Nav k\u016b aplikt - pui\u0161i mala\u010di! S\u012bk\u0101k...\\nGrupa
+  \\\"Latgalie\u0161u reps\\\" raid\u012bjum\u0101 pirmatska\u0146o dziesmu\\nTei
+  nav hip-hopa apv\u012bneiba, pirmkuort! \u016atkuort, po\u0161i esot pretrun\u0101
+  ar sovu jaun\u016b dz\u012bsmu.. Lobuok n\u016bmainit sovys ''''apv\u012bneibys''''
+  n\u016bsaukumu iz nask\u016b solduoku. Yo! S\u012bk\u0101k...\"", "\"Voi Latgolys
+  kulturv\u012btys ir b\u0101rnim i jaun\u012b\u0161im draudzeigys?\\nRokstu sagataveja:
+  Laura Melne, portals lakuga.lv\\nRuod\u012bs, ka ar kotru godu vys leluoka viereiba
+  teik p\u012bv\u0101rsta kulturys p\u012bduovuojumam b\u0101rnu i jaun\u012b\u0161u
+  auditorejai. N\u016bzeimeiga l\u016bma tym\u0101 ir programai \u201cLatvijas skolas
+  soma\u201d, tok tikpat svareigi d\u016bt vareibu b\u0101rnim i jaun\u012b\u0161im
+  apmekl\u0113t kulturv\u012btys ari k\u016bp\u0101 ar saimi voi v\u012bnim po\u0161im.
+  Sov\u0101 p\u012bredz\u0113 portalam lakuga.lv doluos \u010detru Latgolys kulturv\u012btu,
+  kas eipa\u0161i d\u016bmoj par jaunuos audzis p\u012bsaistei\u0161onu, puorstuovi,
+  taipat aicynuojom sovu redz\u012bni izsaceit ari myusu sekuotuojim socialaj\u016bs
+  medej\u016bs, kab n\u016bskaidruotu, voi Latgolys kulturv\u012btys jim ruod\u012bs
+  b\u0101rnim i jaun\u012b\u0161im draudzeigys.\\nNav \u0161vuorbu, ka vareibys apmekl\u0113t
+  pasuokumus b\u0101rnim i jaun\u012b\u0161im Latgol\u0101 ir. Vaicuojumi drei\u017euok
+  var\u0101tu byut par t\u016bs daudzumu i kvalitati. Myusu d\u012bnuos daudz vaira
+  teik runuots par b\u0101rnu leidzdaleibys principu, k\u016b byutu labi \u012bv\u0101ruot
+  sevkur\u0101 dzeivis situacej\u0101 \u2013 \u013caut b\u0101rnim po\u0161im \u012bsasaisteit
+  l\u0101mumu p\u012bjim\u0161on\u0101 i izskaidruot kotru situaceju, kur\u0101 j\u012b
+  \u012bsaisteiti. Leidzeigai ir ari ar kulturys p\u012bduovuojumu \u2013 tuo veiduotuoji
+  nadreikst aizmierst, ka pasuokumi ir juoreikoj atbylst\u016b\u0161i b\u0101rnu i
+  jaun\u012b\u0161u, na p\u012baugu\u0161\u016bs interesem, kod leidzdaleiba teik
+  tik imit\u0101ta.\\nAt\u0161kireigu izpratni par b\u0101rnu i jaun\u012b\u0161u
+  auditorejis uzrunuo\u0161onu paruodeja ari Latgolys viestn\u012bceib\u0101 \u201cGors\u201d
+  p\u0101rnejuo gods beiguos n\u016btyku\u0161uo Latvejis Kulturys akademejis konference
+  \u201cKult\u016bra re\u0123ionos: iesp\u0113jas, izaicin\u0101jumi un perspekt\u012bvas\u201d.
+  V\u012bna nu tuos sekcejom beja ve\u013cteita tai\u0161ni jaun\u012b\u0161u auditorejai
+  region\u016bs. Pane\u013cdiskusej\u0101 par b\u0101rnu i jaun\u012b\u0161u auditorejis
+  \u012bsaisti p\u012bsadaleja L\u016bznovys mui\u017eys puorva\u013cdneica Iveta
+  Bal\u010d\u016bne, t\u016breizejais Daugovpi\u013cs Kulturys pi\u013cs vadeituojs
+  Harijs Vucins, L\u012bpuojis koncertz\u0101lis \u201cLielais Dzintars\u201d va\u013cdis
+  l\u016bceklis Timurs Tomsons, Ventspi\u013cs koncertz\u0101lis \u201cLatvija\u201d
+  va\u013cdis l\u016bcekle Sigita Migo\u013ca i programys \u201cLatvijas skolas soma\u201d
+  vadeituoja Aija T\u016bna. Ka Bal\u010d\u016bne i Tomsons stuosteja par jaun\u012b\u0161u
+  \u012bsaisti kulturv\u012btu darbeib\u0101 i gribie\u0161onu, lai j\u012b t\u012b
+  jiut\u0101s gaideiti ari kasd\u012bn\u0101, uorpus pasuokumu, Vucins eisti naizprota,
+  de\u013ckuo juorauga p\u012bsaisteit ari t\u016bs jaun\u012b\u0161us, kuri varbyut
+  ari skaita, ka j\u016bs kultura nainteresej, ka apleik ir gona taidu, kuri aktivi
+  \u012bsasaista pu\u013cce\u0146\u016bs i n\u016bdarbeibuos.\\nPortala lakuga.lv
+  skaiteituoju aptaujis rezultati l\u012bcynoj, ka situaceja Latgolys kulturv\u012btuos
+  nav \u012bpr\u012bcynoj\u016b\u0161a \u2013 70 % respondentu skaita, ka tamuos par
+  b\u0101rnu i jaun\u012b\u0161u auditoreju nateik p\u012bteik\u016b\u0161i daudz
+  d\u016bmuots.\\nKonkretuok vaicoj\u016bt, kurai vacuma grupai Latgolys kulturv\u012btuos
+  var\u0101tu tikt p\u012bv\u0101rsta leluoka uzmaneiba, vysb\u012b\u017euok sajimtuo
+  atbi\u013cde ir, ka vyds\u0161kol\u0101nim (31 %). Tuoli naatpal\u012bk ari suokum\u0161kol\u0101ni
+  (28,6 %) i pamat\u0161kol\u0101ni (26,2 %).\\nRaug\u016bt vaira izzynuot par faktorim,
+  kas veicynoj voi l\u012bdz apmekl\u0113t pasuokumus k\u016bp\u0101 ar sovys saimis
+  b\u0101rnim i jaun\u012b\u0161im, atsakluoj vairuokys problemys. Vysb\u012b\u017euok
+  portala lakuga.lv skaiteituoji izc\u0101lu\u0161i latgalisk\u016bs pasuokumu tryukumu
+  \u2013 pasuokumi b\u0101rnim Latgol\u0101 puorsvor\u0101 n\u016bteik latv\u012b\u0161u
+  literaraj\u0101 vol\u016bd\u0101, \u0161a\u013ctim vys v\u0113\u013c ari kr\u012bvyski.
+  Taipat teik pastreipuots, ka daudzim b\u0101rnim jau nu agrys bierneibys radeits
+  pr\u012b\u0161kstots, ka izaklaideit var \u0161k\u0101rsteikla vid\u0113, part\u016b
+  reali pasuokumi ni b\u0101rnim, ni j\u016bs vacuokim nasaruod\u012bs vajadzeigi.
+  \u012asacejumi kulturv\u012btom ir vysaidi, p\u012bm\u0101ram, da\u013cu pasuokumu,
+  kuru mierkauditoreja ir vacuokuo audze, aizstuot ar pasuokumim b\u0101rnim, kam
+  as\u016b\u0161uos n\u016btik\u0161onys \u201cir kek\u0161a piec, nanas ni va\u013cstiski,
+  ni dv\u0113seliski nikaida p\u012bnasuma\u201d. Taipat ir aicynuojums vysus pasuokumus
+  b\u0101rnim, pat sporta sp\u0113lis, vadeit latgaliski, lai b\u0101rni t\u012b var
+  i klauseit\u012bs vol\u016bdu, i po\u0161i runuot. Uzsvoru vajadz\u0101tu ari vaira
+  likt iz interaktivom n\u016btik\u0161onom, vairuoki \u012bsacejumi saisteiti ar
+  folklorys pasuokumim, tradicional\u016bs omotu i viesturis \u012bpazei\u0161onu,
+  latgal\u012b\u0161u literaturys popularizie\u0161onu b\u0101rnu vyd\u0101.\\nRakstn\u012bki,
+  saimis i chill out styureits\\nV\u012bna nu kulturv\u012btu, kas naatkareigi nu
+  pi\u013cs\u0101tys voi pogosta, kur atsar\u016bn, var\u0101tu byut b\u0101rnim i
+  jaun\u012b\u0161im vysdraudzeiguokuo, ir biblioteka. T\u016b m\u0101dz apmekl\u0113t
+  na tik, kab makl\u0101tu sev interesej\u016b\u0161ys gruomotys, tok ari sp\u0101l\u0101tu
+  sp\u0113lis voi v\u012bnkuor\u0161i pas\u0101d\u0101tu i pakav\u0101tu laiku, p\u012bm\u0101ram,
+  leidz tyvuokajam autobusam nu \u0161kolys iz s\u0101tu. Bibliotekys regulari rauga
+  organiz\u0113t ari vysaidus pasuokumus, p\u012bm\u0101ram, sasatik\u0161onys ar
+  literatim, tok na vysur regulari n\u016bteik ari atsevi\u0161ki pasuokumi b\u0101rnu
+  i jaun\u012b\u0161u auditorejai.\\nV\u012bns nu pozitiv\u016bs p\u012bm\u0101ru
+  ir Latgolys Centraluo biblioteka Daugovpil\u012b. Tuos filiale B\u0101rnu biblioteka
+  \u201cZ\u012bl\u012bte\u201d jau \u010detrus godus piec kuortys eistynoj projektu
+  \u201cTiekamies bibliot\u0113k\u0101! B\u0113rnu rakstnieki Daugavpil\u012b\u201d,
+  k\u016b atbolsta Va\u013csts kulturkapitala fonds. Tys d\u016bd vareibu iz Daugovpili
+  atbraukt b\u0101rnu i jaun\u012b\u0161u gruomotu autorim voi muokslin\u012bkim.
+  \u201cDzeivuo saikne storp autoru i skaiteituoju (ari potencial\u016b skaiteituoju)
+  d\u016bd t\u016b eipa\u0161\u016b kluotbyutnis sajiutu, paleidz \u012bpazeit jaunys
+  personeibys, izzynuot gruomotu tap\u0161onys viesturi, \u012binteres\u0113t po\u0161am
+  raudzeit ko\u010d k\u016b raksteit. Tycit ma\u0146, tys vyss veidoj jaunuos audzis
+  d\u016bmuo\u0161onu, pasau\u013ca uztveri, varbyut kaids jau rauga izaviel\u0113t,
+  k\u016b dareit nuok\u016btn\u0113. Itaidys sasatik\u0161onys ir gondrei\u017e kai
+  byu\u0161ona cyt\u0101 realitat\u0113, kai p\u012bdzeivuojums, kur\u0101 grib\u012bs
+  atsagr\u012bzt v\u0113\u013c i v\u0113\u013c,\u201d stuosta LCB filialis \u201cZ\u012bl\u012bte\u201d
+  vadeituoja Dace Jakovele.\\nTaipat \u201cZ\u012bl\u012bte\u201d sastd\u012bn\u0113s
+  organizej vysaiduokys aktivitatis saimem \u2013 literari tematiskus pasuokumus,
+  bibliotekaruos stu\u0146dis, rod\u016b\u0161uos darbneicys, kvestus, rod\u016b\u0161ys
+  sasatik\u0161onys ar Daugovpi\u013cs n\u016bvadn\u012bkim \u2013 dzejn\u012bkim,
+  rakstn\u012bkim, muokslin\u012bkim. \u201cSaimis \u012bt kupl\u0101 skait\u0101,
+  lai k\u016bp\u0101 ar cytom saimem l\u012btdereigi i sirsneigi pavadeitu laiku.
+  \u012asaistom na tik gruomotu fragmentu ska\u013caj\u0101 skaitei\u0161on\u0101,
+  meik\u013cu minie\u0161on\u0101, autoru dzeivis jubileju svietei\u0161on\u0101,
+  bet ari Leluos tolkys n\u016bris\u0113s, pu\u010du d\u016bbis \u012bkuortuo\u0161on\u0101
+  biblioteku pogolm\u016bs i tt.,\u201d bibliotekys daudzpuseig\u016b sadarbeibu ar
+  saimem raksturoj Dace Jakovele. Latgolys Centraluo biblioteka n\u016bteikti as\u016bt
+  v\u012bta, kur gaideiti na vi\u0146 \u010dakl\u012b gruomotu skaiteituoji. \u201cKotr\u0101
+  filial\u0113 ir sovs chill out styureits, kur var pavadeit laiku \u2013 v\u012bn\u0101
+  bibliotek\u0101 kaidam pateik \u012bkrist puf\u0101 ar teleponu r\u016bk\u0101,
+  kaidam otkon pi sirds \u012bt golda voi datorsp\u0113lis ar draugim voi v\u012bnkuor\u0161i
+  k\u016bp\u0101 byu\u0161ona sarunuos. Vysuos bibliotekuos ir ari n\u016bsaceiti
+  klusais styureits, kur var pabyut divv\u012bntuleib\u0101 ar gruomotu,\u201d tai
+  Dace.\\nNu pasuokuma sovejim leidz muzeja n\u016bdarbeibom\\nNu ituo gods suokuma
+  vareibu vysjaunuokajai audzei \u012bpazeit latgal\u012b\u0161u tradicejis p\u012bduovoj
+  muzejs \u201cOndrupinis lauku s\u0101ta\u201d. Mozuos tradiceju \u0161kolys mozajim
+  idejis autore ir muzeja n\u016bvodpietneica Evija Ma\u013ckevi\u010da-Grundele.
+  Jei stuosta: \u201cBierneib\u0101 daudz laika pavadeju k\u016bp\u0101 ar draugim
+  i j\u016bs vacuokim. Mums beja taidys kai regularys naformaluos sa\u012b\u0161onys,
+  eipa\u0161i z\u012bmys period\u0101, kab, p\u012bm\u0101ram, laist\u016bs nu kolna
+  ar ragave\u0146om, gr\u012bzt\u016bs gr\u012bztaukuos, sp\u0101l\u0101tu sp\u0113lis
+  voi v\u012bnkuor\u0161i jautri pavadeitu laiku. Niu, kod ma\u0146 po\u0161ai i ari
+  munim draugim i lobim pazi\u0146om ir b\u0101rni leidzeig\u0101 vacum\u0101, gribiejuos
+  itaidys byu\u0161onys k\u016bp\u0101 atkuortuot. Ituo gods suokuos sasazynuoju ar
+  da\u017eim draugim i pazi\u0146om, kab noskaidruotu, voi jim byutu interese sasatikt,
+  ko\u010d voi reizi mienes\u012b, kab myusu b\u0101rni k\u016bp\u0101 var jiedzegi
+  i interesanti pavadeit laiku.\u201d Evija suokuse d\u016bmuot par senejom sp\u0113lem
+  i tradicionalom izdareibom, k\u016b var\u0101tu k\u016bp\u0101 dareit, uzrunuojuse
+  Ondrupinis lauku s\u0101tu \u2013 varbyut var izmontuot j\u016bs telpys? Sataisejuse
+  ari simbolisku afi\u0161u, tok vyss jau izaviers tik n\u016bp\u012btnai, ka saj\u0101muse
+  aicynuojumu padareit t\u016b par publisku n\u016btik\u0161onu. \u201cIz pyrm\u016b
+  sa\u012b\u0161onu \u012bsaroda 14 pyrms\u0161kolys i suokum\u0161kolys vacuma b\u0101rni,
+  kluotyn beja ari j\u016bs vacuoki. Sajiemu \u012bdr\u016bsynuojumu turpynuot it\u016b
+  ideju atteisteit tuo\u013cuok kai realu vareibu tradicejom otkon \u012b\u012bt i
+  tikt aktualiz\u0101tom saim\u0113s, kas ir pamatu pamats spieceigom k\u016bp\u012bnom
+  i v\u012btejuo montuojuma saglobuo\u0161onai.\u201d Dorbu muzej\u0101 Evija suokuse
+  tik pie\u010duok, part\u016b soka, ka \u201cmozuo ideja par v\u012bnkuor\u0161u
+  saimu sa\u012b\u0161onu puortopa par praktisku tradiceju i prasmu izzinis pasuokumu
+  cyklu.\u201d\\nKa suokum\u0101 par golvon\u016b mierkauditoreju tyka skaiteiti pyrms\u0161kolys
+  vacuma b\u0101rni, kam tyvuokaj\u0101 apleic\u012bn\u0113 nav daudz n\u016bdarbeibu
+  i pu\u013cce\u0146u uorpus izgleiteibys \u012bstuodem, tod jau pyrmaj\u0101 sasatik\u0161onys
+  reiz\u0113 saprosts, ka vacuma r\u016bbe\u017ei nav juovalk \u2013 k\u016bp\u0101
+  ar mozajim lobu pruotu aktivitat\u0113s \u012bsasaista ari vacuok\u012b bruoli i
+  muosys, kas jau \u012bt \u0161kol\u0101. Sa\u012b\u0161onys n\u016bteik reizi mienes\u012b,
+  tematiski tuos sasaist\u016bt ar aktual\u016b godskuortu voi dorbim tradicional\u0101
+  lauku s\u0101t\u0101. Dorbuo\u0161onuos n\u016bteik kai muzej\u0101 vyd\u0101, tai
+  uor\u0101. Pr\u012b\u0161kr\u016bceiba ir ari vareiba izmontuot pr\u012b\u0161kmatus
+  nu muzeja kruojuma, kas paleidz stuosteit par senejim omotim i lauku dorbim. \u201c5-7
+  godi ir tys vacums, kod b\u0101rnam izastruodoj i n\u016bsastyprynoj vierteibu sistema,
+  izpratne par socialajom strukturom, tykumim i pasauli mums apleik. Identitatis i
+  p\u012bdareibys sovam dzymtajam n\u016bvodam styprynuo\u0161ona k\u016bp\u0101 ar
+  v\u012bnaud\u017eim i d\u016bmub\u012bdrim caur r\u016bta\u013com i k\u016bpeig\u016b
+  dorbuo\u0161on\u016bs ar vacuokim \u013caun b\u0101rnam t\u016b suokt skaiteit par
+  normu, i saskare ar tradiceju pal\u012bk par juo komforta zonu,\u201d ir puorl\u012bcynuota
+  Evija.\\nB\u0101rnu ustoba, kulturys viestn\u012bku programa i belets par 5 eiro\\nPar
+  b\u0101rnim i jaun\u012b\u0161im draudzeigu vidi rauga ryup\u0113t\u012bs ari Latgolys
+  viestn\u012bceiba \u201cGors\u201d. Tam p\u012bm\u0101rus var atrast na tik koncertz\u0101lis
+  repertuar\u0101, bet ari cytuos j\u016bmuos. P\u012bm\u0101ram, jau nu \u201cGora\u201d
+  pyrmsuokumu tym\u0101 dorboj\u0101s b\u0101rnu ustob\u0101, kur p\u012baugu\u0161\u016bs
+  uzraudzeib\u0101 var pamest b\u0101rnus, cikom j\u016bs vacuoki apmeklej pasuokumus,
+  kas eisti nav p\u012bm\u0101ruoti vysjaunuokajai auditorejai. Tok, kab radeitu leluoku
+  interesi tai\u0161ni par b\u0101rnu pasuokumim, p\u0101r\u0146 \u201cGor\u0101\u201d
+  aizsuokta Moz\u016bs kulturys viestn\u012bku programa \u2013 sakruoj\u016bt zeim\u016bdze\u0146us
+  par apmakl\u0101tajim pasuokumim, var tikt pi \u201cGora\u201d Mozuo viestn\u012bka
+  g\u016bda i sajimt bolvu. Pyrmuo ituos aktivitatis sezona beja p\u0101rnejuo gods
+  rudin\u012b, bet \u016btruo \u2013 ituo gods pavasar\u012b.\\n\u201cIdeja par programu
+  roduos ar mierki uzteikt aktivuok\u016bs kulturys n\u016btik\u0161onu apmakl\u0101tuojus
+  i r\u016bsynuot leluoku interesi i izpratni par vysaidom kulturys n\u016btik\u0161onom.
+  10 godu laik\u0101 \u201cGora\u201d saimis pulks ir pasapla\u0161ynuojs i daudzim
+  nu myusu ir aktuals vaicuojums \u2013 kur d\u016bt\u012bs ar sovom mozajom atlasem,
+  patur\u016bt pruot\u0101, kab tys byutu saist\u016b\u0161i b\u0101rnam, kvalitativi
+  i, v\u0101lams, ari tikt pi kaidys pal\u012bk\u016b\u0161ys atzinis dzeivei?\u201d
+  stuosta Latgolys viestn\u012bceibys \u201cGors\u201d marketinga n\u016bdalis vadeituoja
+  Santa K\u013cavi\u0146a.\\nRudi\u0146a sezon\u0101 vajadzeig\u016b zeim\u016bdze\u0146u
+  skaitu beja sakruoju\u0161i 26 b\u0101rni, kas tyka pi Mozuo kulturys viestn\u012bka
+  n\u016bzeimeitis i vareibys \u201cGor\u0101\u201d apmekl\u0113t kinu. \u201cSkaitom,
+  ka tys ir pozitivs ruodeituojs, kai ari jutom ar kaidu pr\u012bcu b\u0101rni sajam
+  sovu zeim\u016bdze\u0146u kart\u0113 i pietej, kurs tod byus j\u016bs nuoku\u0161ais
+  kulturys pasuokuma apmekliejums. Tys ari beja mudynuojums vierzeit\u012bs tuo\u013cuok
+  i turpynuot aizsuokt\u016b tradiceju,\u201d skaidroj Santa. Jei ari paturpynoj,
+  ka \u201cGors\u201d pavysam n\u016bteikti sevi skaita par b\u0101rnim i jaun\u012b\u0161im
+  draudzeigu i interesantu vidi: \u201cKotr\u0101 satura sapu\u013cc\u0113 c\u012bteigai
+  izviertejam nuoku\u0161uos sezonys p\u012bduovuojumu, kab t\u012b k\u016b sev saist\u016b\u0161u
+  atrostu i pavysam mozi, i ari jaun\u012b\u0161i.\u201d Taipat jaun\u012b\u0161im
+  leidz 25 godu vacumam ir eipa\u0161a akceja \u2013 pierk\u016bt beletu iz pasuokumu
+  stu\u0146di pyrma tuo suoku, belets moksoj vi\u0146 5 eiro. Tys vys atsat\u012bc
+  tik iz po\u0161ys koncertz\u0101lis organiz\u0101tajom n\u016btik\u0161onom.\\nVareiba
+  po\u0161im p\u012bsadaleit i veiduot saturu\\nJaun\u012b\u0161u auditorejai it\u016bpavasar
+  vysleluok\u016b viereibu ve\u013ctej ari Rotko muzejs Daugovpil\u012b. Aprel\u012b
+  t\u012b dorbu suocs muzeja Jaun\u012b\u0161u klubs, kas paradz\u0101ts vysmoz 15
+  godu vacim jaun\u012b\u0161im, kurus interesej muoksla i dizains. Tuo daleibn\u012bkim
+  byus vareiba breivpruoteigai \u012bsasaisteit muzeja kulturys i izgleiteibys pasuokumu
+  organizie\u0161on\u0101 i paleidz\u0113t veiduot tam jaun\u012b\u0161im saist\u016b\u0161u
+  saturu. Rotko muzeja izgleiteibys programu kuratore Mairita Folkmane stuosta, ka
+  myusu d\u012bnuos muzejam juobyut vysom paaudzei atv\u0101rtai i maineigai institucejai,
+  kas kai izgleitoj, tai ir ari breivuo laika pavadei\u0161onys v\u012bta: \u201cPart\u016b
+  svareigi, kab jaun\u012b\u0161i \u012btu ar sovu iniciativu, gribie\u0161onu te
+  pavadeit sovu laiku, byut p\u012bdareigim, kab j\u012b ite sasajustu kai s\u0101t\u0101
+  \u2013 ka j\u012b ir vajadzeigi sovai pi\u013cs\u0101tai i sovam muzejam. Ari mums,
+  muzeja darbin\u012bkim, ir svareigi, kab j\u012b te byutu. Tei ir taida obpusieja
+  vajadzeiba.\u201d Leidzeigs jaun\u012b\u0161u klubs jau nu 2017. goda dorboj\u0101s
+  Latvejis Nacionalaj\u0101 muokslys muzej\u0101. Daugovpil\u012b\u0161i nasliep,
+  ka ir \u012bsadvasmuoju\u0161i nu tuo darbeibys, it\u016bvosor paradz\u0101ta ari
+  p\u012bredzis apmainis sasatik\u0161ona jaun\u012b\u0161im Reig\u0101.\\nIz pyrm\u016b
+  Rotko muzeja Jaun\u012b\u0161u kluba sasatik\u0161onu atguoju\u0161i vaira nakai
+  20 jaun\u012b\u0161i. Diveju darbeibys miene\u0161u laik\u0101 jim jau bejuse vareiba
+  n\u016bsaklauseit muzeja vadeituoja M\u0101ra \u010ca\u010dkys lekceju par laikmeteig\u016b
+  muokslu, p\u012bsadaleit s\u012btsp\u012bdis apdrukys darbneic\u0101, v\u012bna
+  nu jaun\u012btem ari po\u0161a sataisejuse kluba logo. Jaun\u012b\u0161i aktivi
+  suoku\u0161i ari breivpruoteig\u016b dorbu muzej\u0101, p\u012bm\u0101ram, Muzeju
+  nakt\u012b beju\u0161i \u012bsaisteiti pat 11 Jaun\u012b\u0161u kluba daleibn\u012bki.
+  Jau it\u016bnede\u013c Jaun\u012b\u0161u klubam \u012bpl\u0101nuota sasatik\u0161ona
+  ar muokslys terapeiti Margaritu Sto\u013carovu. Taipat jaun\u012b\u0161im ir vareiba
+  po\u0161im organiz\u0113t sovus pasuokumus muzej\u0101, pyrmais var\u0101tu byut
+  jau ju\u0146a beiguos. J\u012b po\u0161i ari veidoj Jaun\u012b\u0161u kluba saturu
+  socialaj\u016bs medej\u016bs. Iz pr\u012b\u0161ku muzej\u0101 var\u0101tu byut ari
+  jaun\u012b\u0161u veiduotys i vadeitys n\u016bdarbeibys vysaidom vacumu grupom.\\nRotko
+  muzej\u0101 ari regulari n\u016bteik n\u016bdarbeibys b\u0101rnim nu septe\u0146u
+  da v\u012bnpadsmit godu vacuma. T\u016bs temys \u012brostai teik sasaisteitys ar
+  aktualajom Rotko muzeja ekspozicejom i izstuodem. Goda garum\u0101 jau vacuokim
+  jaun\u012b\u0161im muzej\u0101 beja vareiba \u012bpazeit arhitekta profeseju \u2013
+  reizi divej\u016bs miene\u0161\u016bs n\u016btyku\u0161ys sasatik\u0161onys \u2013
+  rod\u016b\u0161uos d\u016bmu darbneicys ar jaunajim profesionalim. Tam \u012bdviesmis
+  ol\u016bts bejuse ar Rotko muzeju c\u012b\u0161i saisteituo muokslin\u012bka P\u0113tera
+  Martinsona personeiba \u2013 juo pamatprofeseja beja arhitekts. N\u016bsl\u0101dz\u016b\u0161uo
+  sasatik\u0161ona ar dizaineru J\u0101ni Mercu paradz\u0101ta 27. jun\u012b.\\n\u0160a\u013ct\u012b,
+  kod sasazvonu ar Mairitu Folkmani, jai s\u016bpluok ir v\u012bna nu Jaun\u012b\u0161u
+  kluba daleibneicu \u2013 Laila. Pavaicoju ari juos redz\u012bni kai par Jaun\u012b\u0161u
+  klubu, tai vareibom jaun\u012b\u0161im Daugovpil\u012b k\u016bpum\u0101. Laila stuosta,
+  ka Rotko muzeju regulari apmekl\u0113juse ari \u012bpr\u012b\u0161k, tym\u0101 skait\u0101
+  laik\u0101, kod vuicejus\u0113s b\u0101rnu muokslys \u0161kol\u0101, tok par Jaun\u012b\u0161u
+  klubu izzynuojuse, pasasok\u016bt zi\u0146ai klasis WhatsApp \u010dat\u0101: \u201cTai
+  ar draudzini atguojom iz Rotko muzeju. \u012apasazynom ar daudzim cylv\u0101kim,
+  sovim v\u012bnaud\u017eim, kas ari interesej\u0101s par muokslu. Atrodom sev ko\u010d
+  k\u016b k\u016bpeigu. Jau n\u016bvadejom k\u016bp\u0101 ari Muzeju nakti, kas beja
+  loba p\u012bredze.\u201d Laila skaita, ka Daugovpil\u012b jaun\u012b\u0161im ir
+  c\u012b\u0161i daudz vareibu: \u201cVarbyut tik jaun\u012b\u0161i na vysod var atrast
+  tuos vareibys, part\u016b ka informaceju m\u0101dz izlikt Facebook, kam jaun\u012b\u0161i
+  tik c\u012b\u0161i nasekoj leidza. Ko\u010d k\u016b jaunu mes izzynojam, pasasok\u016bt
+  \u0161koluotuojim. Tod ari p\u012bsadolom. Kai \u012bsastuoju Rotko Jaun\u012b\u0161u
+  klub\u0101, ma\u0146 suokus\u0113s c\u012b\u0161i aktiva dzeive i ir c\u012b\u0161i
+  interesanti.\u201d\"", "\"V\u012bns jumts i k\u016bpeigi sp\u0101ki talantu izce\u013c\u0161onai
+  \u2013 R\u0113zeknis Muokslys i dizaina \u0161kola svietej 65 godu jubileju\\nRokstu
+  sagataveja: Laura Spundere, portals lakuga.lv\\nR\u0113zeknis Muokslys i dizaina
+  \u0161kola (RMDS) 26. oktobr\u012b svieteis 65 godu jubileju ar absolventu saliduojumu
+  i izstuodi divejuos v\u012btuos. Nu 2023. gods \u0161kola ir muokslys izgleiteibys
+  kompetencis centra \u201cLatgolys Muzykys i muokslys vyds\u0161kola\u201d (LMMV)
+  strukturv\u012bneiba. Sarun\u0101 ar MIKC LMMV direktoru Raimondu Arbid\u0101nu
+  i RMDS strukturv\u012bneibys vadeituojis v\u012btineicu Krist\u012bni Binduku raudzejom
+  dazynuot, kai ir muokslai i muzykai dzeivuot \u201czam v\u012bna jumta\u201d.\\nNu
+  izveiduo\u0161onys 1959. god\u0101 \u0161kola ir profesionaluos karjerys \u0161yupe\u013cs
+  daudzim pazeistamim muokslin\u012bkim i dizainerim, taipat ari n\u016bzeimeigs Austrumlatvejis
+  kulturys i izgleiteibys centrys, kas ryupej\u0101s par muokslys izgleiteibys turpynuo\u0161onys
+  n\u016bdr\u016bsynuo\u0161onu Latgol\u0101. Nu 2023. gods \u0161kola ir Muokslys
+  izgleiteibys kompetencis centra \u201cLatgolys Muzykys i muokslys vyds\u0161kola\u201d
+  (MIKC LMMV) strukturv\u012bneiba.\\nMuokslys izgleiteibys kompetencis centrys \u201cLatgolys
+  Muzykys i muokslys vyds\u0161kola\u201d ir Kulturys ministrejis pak\u013cauteib\u0101
+  as\u016b\u0161a izgleiteibys \u012bstuode, kura dorbu aizsuoce 2023. gods 1. august\u0101,
+  reorganizej\u016bt Juo\u0146a Ivanova R\u0113zeknis muzykys vyds\u0161kolu i R\u0113zeknis
+  Muokslys i dizainu vyds\u0161kolu (RMDS), ar mierki veicynuot kulturizgleiteibys
+  atteisteibu Latgol\u0101 i vairuot kulturizgleiteibys presti\u017eu i konkur\u0113tvareibu.\\nKai
+  soka MIKC LMMV direktors Raimonds Arbid\u0101ns, R\u0113zeknis Muokslys i dizaina
+  \u0161kola sov\u016bs 65 god\u016bs ir \u012bkruojuse p\u012bredzi, \u0161kolys
+  vadeibai i \u0161koluotuojim ir energeja, redz\u012b\u0146s par byu\u0161onu iz
+  pr\u012b\u0161ku, ir jau padareit\u012b dorbi i taidi, kas v\u0113\u013c pl\u0101n\u016bs.
+  \u201cAri apsav\u012bnuo\u0161ona ir juoiztver kai iz\u012b\u0161ona cyt\u0101 leimin\u012b.
+  Apsav\u012bnoj\u016bt muzykai i muokslai k\u016bp\u0101, r\u016bn\u0101s jauns paviers\u012b\u0146s,
+  ir jauni aizdavumi i jaunys atbi\u013cdeibys, spieja puorsameit vi\u0146 veicynoj
+  pastuovie\u0161onys \u012bspiejis. Kulturizgleiteiba faktiski ir ari nacionaluos
+  dr\u016bseibys vaicuojums, eipa\u0161i austrumu p\u012br\u016bbe\u017e\u0101,\u201d
+  tai Raimonds Arbid\u0101ns. Jis pastreipoj, ka \u0161kol\u0101nim teik \u012baudzynuotys
+  na vi\u0146 muokslu prasmis, tok i patriotismys. \u201cSapr\u016btams, ka apsav\u012bnuo\u0161ona
+  beja izaicynuojums, tok kai muzykys, tai muokslys strukturv\u012bneibom ir sovys
+  tradicejis, par p\u012bm\u0101ru, mes it\u016bgod nasvieteisim v\u012bna goda jubileju
+  kai muokslu izgleiteibys kompetencis centrs, tok svieteisim 65 godus tai\u0161ni
+  muokslys strukturv\u012bneibai, kam juos ir tradicejis, kuruos mums ir juoc\u012bnej,\u201d
+  ar sovu redz\u012bni pasadola Raimonds Arbid\u0101ns. Te ari juosoka, ka R\u0113zeknis
+  vyspuorejuos izgleiteibys \u012bstuod\u0113s absolventu vokori teik organiz\u0101ti
+  kotru godu, sovpus obejuos itamuos kulturizgleiteibys \u0161koluos ir prakse svieteit
+  opolys i pusopolys jubilejis.\\nRaimonds ari p\u012bzeist, ka p\u0101r\u0146, suoc\u016bt
+  dorbu, \u0161kolu apsav\u012bnuo\u0161ona v\u0113\u013c redzejuos kai nazkas teoretiskys,
+  tok niu, piec goda, teik struoduots pi c\u012b\u0161i praktisku l\u012btu, par p\u012bm\u0101ru,
+  n\u016bteik dorbs pi RMDS renovacejis projekta tehniskuos izstruodis, kuru pl\u0101nuots
+  suokt jau cytugod. Paradz\u0101ta vier\u012bneiga renovaceja, kas \u012btvers da\u017eaidus
+  aspektus, tym\u0101 skait\u0101 syltynuo\u0161onu, jumta mai\u0146u, apkuris i ventilacejis
+  n\u016bmai\u0146u i cytus dorbus. Raimonds pastreipoj, ka, tai\u0161ni pasasok\u016bt
+  \u0161kolu apsav\u012bnuo\u0161onai, ir vareiba kvalitativuok izmontuot Eiropys
+  Sav\u012bneibys strukturfondu leidzek\u013cus, ari RMDS renovaceja n\u016btiks,
+  pasasok\u016bt tai\u0161ni tam.\\nRaimonds ari soka, ka izgleiteibys \u012bstuo\u017eu
+  infrastruktura i ari vizualais skots ir c\u012b\u0161i n\u016bzeimeigs, kab byutu
+  vareiba aizinteres\u0113t jaun\u012b\u0161us i kotru godu n\u016bkomplekt\u0113t
+  kursus. Jis ari tur n\u016bceju, ka piec puora godu, kod tiks pabeigta renovaceja,
+  byus sajiutams ari audziek\u0146u p\u012bplyudums.\\nRMDS strukturv\u012bneibys
+  vadeituojis v\u012btineica Krist\u012bne Binduka stuosta, ka it\u016bgod nav bejs
+  audziek\u0146u skaita krytuma, \u0161kolys vadeiba eipa\u0161i struodoj pi tuo,
+  kab uzrunuotu t\u016b sab\u012bdreibys da\u013cu, kas ir \u012binteres\u0101ta vuiceit\u012bs
+  muokslu. \u201cIr atsevi\u0161kys n\u016bdalis, iz kurom konkurss ir leluoks, i,
+  sapr\u016btams, ka \u0161koluotuojam daudz v\u012bg\u013cuok ir struoduot ar b\u0101rnu,
+  kurs ir izturiejs konkursu i de\u013ctam ir stypri motiv\u0101tuoks. Tok ir ari
+  taidys n\u016bdalis, kur nav konkurencis na tik R\u0113zekn\u0113, bet i Latvej\u0101
+  k\u016bpum\u0101, p\u012bm\u0101ram, var redz\u0113t, ka jaun\u012b\u0161im ir mozuoka
+  interese par tekstilmuokslu, metalmuokslu, ari k\u016bkamatn\u012bceibu jaun\u012b\u0161i
+  eipa\u0161i naizalosa.\u201d Krist\u012bne Binduka ari pastreipoj, ka kulturizgleiteibys
+  \u012bstuod\u0113 audzynuo\u0161onys l\u012btys vys\u0101 atsa\u0161kir nu vyspuorizgleitoj\u016b\u0161\u016bs
+  \u0161kolu \u2013 kulturizgleiteib\u0101 \u0161kol\u0101ni sajam na tik zynuo\u0161onys
+  par zeimie\u0161onu, gleznuo\u0161onu, \u0161yu\u0161onu i tt., tok teik vuiceita
+  ari lobys gaumis izjiuta, kas \u012bt paraleli ar att\u012bksmi pret va\u013csti,
+  sab\u012bdreibu i sevi po\u0161u. \u201cMyusu \u0161kol\u0101 dorbs ar audzieknim
+  ir daudzreiz individualuoks i t\u016b jiut ari po\u0161i audziekni. Ari vacuoki,
+  kurim varbyut ir \u0161vuorbys, kur sovu b\u0101rnu \u201claist\u201d piec deveituos
+  klasis, b\u012b\u017ei izalosa tai\u0161ni myusu \u0161kolu de\u013c juos individualuos
+  p\u012bejis. Mes c\u012b\u0161i b\u012b\u017ei ari redzim piecteceibu \u2013 vuiceit\u012bs
+  \u012bt myusu absolventu b\u0101rni, kuri att\u012bceigi turpynoj izgleiteibu konservatorej\u0101
+  voi akademej\u0101, brauc iz uorzemem, taipat ari atsagr\u012b\u017e pi myusu i
+  struodoj kai \u0161koluotuoji.\u201d\\n\u201cSapr\u016btams, ka nu suoku puormainis
+  vysus b\u012bdynuoja, tok niu mums ir svareigi natier\u0113t energeju iz kaidu seikumu,
+  ir juopuorkuop par kasd\u012bnys rutinai i juosaver iz pr\u012b\u0161ku, iz atteisteibu.
+  Myusu \u0161kolys sauklis ir \u201cIzce\u013cam talantus\u201d, i pi tuo mums ari
+  juostruodoj,\u201d stuosta Raimonds Arbid\u0101ns.\\nSovpus Krist\u012bne Binduka
+  p\u012bbi\u013cst, ka RMDS jubilej\u0101 byus vareiba apsav\u0113rt publisk\u016b
+  izstuodi Latgolys viestn\u012bceib\u0101 \u201cGors\u201d, bet absolventu saliduojumu
+  \u0161kol\u0101 \u012bvadeis m\u016bdis skate, kura teik organiz\u0101ta kotra saliduojuma
+  p\u012bcgad\u0113. Diplomdorbu kolekcejis byus kai eisa \u012bsavier\u0161ona \u0161udi\u0146d\u012bnys
+  skaistuma izpratn\u0113. Interesanti, ka pasuokumu vadeis Kristaps Vi\u0161s, kurs
+  ir RMDS absolvents i ari niulinejais muzykys strukturv\u012bneibys pasn\u012bdziejs.\\n26.
+  oktobr\u012b sevkurs ir aicynuots iz svineig\u016b p\u012bjim\u0161onu i izstuodis
+  \u201cSkolot\u0101js\u201d atkluo\u0161onu 15 stu\u0146d\u0113s Latgolys viestn\u012bceib\u0101
+  \u201cGors\u201d. It\u016breiz RMDS jubilejis izstuod\u0113 g\u016bdynuos i izce\u013cs
+  pedagogu \u012bgu\u013cdejumu muokslys izgleiteib\u0101 i l\u016bmu jaunajuos muokslin\u012bku
+  paaudz\u0113s. Byus apsaverami beju\u0161\u016bs i as\u016b\u0161\u016bs RMDS pedagogu,
+  taipat i absolventu, kas palyku\u0161i par muokslys j\u016bmu \u0161koluotuojim,
+  muokslys dorbi. Sov\u0101 daudzveideib\u0101 j\u012b atkluos \u0161kolu caur laika
+  ritiejumu.\\nPiec svineiguos p\u012bjim\u0161onys izstuod\u0113 vysi absolventi
+  tiks sagaideiti RMDS telpuos (Bazneicys \u012bl\u0101 34, R\u0113zekn\u0113), kur
+  nu 18 stu\u0146\u017eu n\u016btiks absolventu saliduojums (daleibys moksa \u2013
+  10 eiro). T\u012b byus vareiba satikt sovus \u0161koluotuojus, \u0161kolys laika
+  b\u012bdrus i apsav\u0113rt izstuodis \u201c\u0160koluotuojs\u201d \u016btru ekspoziceju.
+  \u012asaras\u0161ona absolventu vokor\u0101 ar kluot\u012bnis registraceju gostu
+  gruomot\u0101 byus varama nu 17 stu\u0146\u017eu. Absolventi teik aicynuoti aiz
+  laika, da 21. oktobra, registr\u0113t\u012bs digitalaj\u0101 gostu gruomot\u0101,
+  kas atr\u016bnama ITE.\\nNu \u0161kolys viesturis\\nR\u0113zeknis Muokslys i dizaina
+  vysd\u0161kolys dzim\u0161onys laiks ir 1959. gods, kod Reigys l\u012bti\u0161kuos
+  muokslys vyds\u0161kola attaiseja filiali Latgolys Kulturviesturis muzeja telpuos.
+  Suokum\u0101 tei dorbuojuos ar divejom n\u016bda\u013com \u2013 Latgolai tradicional\u016b
+  keramiku i t\u016blaik p\u012bpraseit\u016b dekorativ\u016b n\u016bformie\u0161onu.
+  Leluokais n\u016bpalns \u0161kolys tap\u0161on\u0101 ir Voldem\u0101ram Kalpi\u0146am,
+  ar kuru leidza struoduoja Juo\u0146s Puj\u0101ts, Leons Toma\u0161ickis, Imants
+  \u017d\u016bri\u0146\u0161. Filialis vadeibu uzaj\u0113me v\u0101luok labi zynomais
+  akvare\u013cgleznuotuojs Juo\u0146s Unda.\\n1969. god\u0101 \u0161kola palyka par
+  R\u0113zeknis L\u012bti\u0161\u0137uos muokslys vyd\u0161kolu. Izgleiteibys \u012bstuodis
+  jaunuo s\u0101ta tyka izcalta 1980. god\u0101, kod s\u016bpluok suoce dorbuot\u012bs
+  ari B\u0101rnu muokslys \u0161kola. 1993. god\u0101 \u0161kola tyka reorganiz\u0101ta
+  par R\u0113zeknis Muokslys koled\u017eu, pie\u010duok \u2013 par R\u0113zeknis Muokslys
+  i dizaina vyds\u0161kolu (RMDV). Piecteceibu t\u012bpat R\u0113zekn\u0113 RMDV absolventim
+  n\u016bdr\u016bsynoj Latvejis Muokslys akademejis Latgolys filiale i R\u0113zeknis
+  Tehnologeju akademeja.\"", "\"Pi myusim Latgol\u0101! \u2013 14.02.2014. i 15.02.2014.\\nP\u012bduovojam
+  n\u016bsaklauseit producentu grupys SIA \u201cLieti\u0161\u0137\u0101 Latgale\u201d
+  taiseit\u016bs raidejumus \u201cPi myusim Latgol\u0101!\u201d.\\nP\u012bktd\u012bnis
+  raidejum\u0101 teik n\u016bskaidruots, cik daudz jaunizveiduotuo va\u013cdeiba d\u016bmoj
+  par Latgolu.\\nSastd\u012bnis raidejum\u0101 var izzynuot, kur vaicuojama folklorys
+  k\u016bpys \u201cCeiruleits\u201d p\u012bv\u012bnuotuo vierteiba.\\nRaidejums \u201cPi
+  myusim Latgol\u0101\u201d niu skan\u0113s radej\u0101 \u201cEf-Ei\u201d (FM 91,4
+  R\u0113zekne) i \u201cDivu krastu radio\u201d (FM 96,9 J\u0101kubpi\u013cs, FM 90,1
+  Daugovpi\u013cs):\\ncat\u016brtd\u012bn\u0113s 17:30, ar atkuortuojumim p\u012bktd\u012b\u0146
+  10:30 i 19:30, sastd\u012b\u0146 11:00 viesteis par kulturys aktualitatem;\\np\u012bktd\u012bn\u0113s
+  18:30, ar atkuortuojumu sastd\u012b\u0146 13:00 \u2013 nedelis aktualitatis;\\nsastd\u012bn\u0113s
+  16:00, ar atkuortuojumu sv\u0101td\u012b\u0146 16:00 \u2013 nedelis interveja.\\n\u0112ter\u0101
+  izskanieju\u0161\u016b raidejumu \u201cPi myusim Latgol\u0101\u201d klaus\u012bs
+  ari latgale.lv, lakuga.lv,lietiskalatgale.lv.\\nRaidejuma veiduotuojim var sekuot
+  ari socialaj\u016bs teikl\u016bs draugiem.lv i facebook.\"", "\"Latgolys \u016atrais
+  kongress 1917. goda decembr\u012b\\nRoksta autors: J\u0101nis \u0160ili\u0146\u0161,
+  viesturis zynuot\u0146u doktors, Latvejis Va\u013csts viesturis arhiva golvonais
+  pietn\u012bks\\nCe\u013c\u0161 iz Latvejis viesturisk\u016b n\u016bvodu apv\u012bnuo\u0161onu
+  beja vysai gars. Jau 19. godu symta \u016btraj\u0101 pus\u0113 jaunlatv\u012b\u0161i
+  \u012br\u016bsynuoja sadaleit Vydzemis guber\u0146u, kur\u0101 \u012btylpa gon myusu
+  d\u012bnu Vydzeme, gon Igauneja, i administrativi apv\u012bnuot ar K\u016brzemis
+  guber\u0146u (tuos sastuov\u0101 beja K\u016brzeme, Zemgale i Sieleja). Pr\u012bk\u0161stots
+  par Latvejis (tai latv\u012b\u0161u apdzeivuotuos zemis suoce saukt 19. godu symta
+  60. god\u016bs) austrumu r\u016bbe\u017eim gon beja vysai naskaidrs.\\nLatgola t\u016blaik
+  \u012btylpa Kr\u012bvejis imperejis Vitebskys guber\u0146\u0101 i dzeivuoja \u0161kierti
+  nu tai sauktajom \u201cBaltejis guber\u0146om\u201d (K\u016brzemis, Vydzemis i Igaunejis).
+  Latgol\u0101 dzeivoj\u016b\u0161\u016bs latv\u012b\u0161us parosti sauce par \u201cVitebskys
+  latv\u012b\u0161im\u201d, i par jim tautiskuos atm\u016bdys laik\u0101 vydzemn\u012bki
+  i k\u016brzemn\u012bki interes\u0113juos vysai moz. Latgol\u0101 beja cyts etniskais
+  sastuovs, religeja, saimin\u012bkuo\u0161onys tradicejis, i pastuov\u0113ja ari
+  \u201cdrukys aizl\u012bgums\u201d (l\u012bgums izmontuot lati\u0146u alfabetu).
+  19. i 20. godu symta mej\u0101 Latgolys puorstuovu (\u012bv\u0101ruojamuokais nu
+  j\u016bs beja Fra\u0146cs Trasuns) p\u012bsadalei\u0161ona Reigys Latv\u012b\u0161u
+  b\u012bdreibys organiz\u0101tajuos vosoryys sapu\u013cc\u0113s beja ko\u010d kas
+  eksotisks. J\u012b stuosteja par stuov\u016bkli Latgol\u0101 i raudzeja atguodynuot,
+  ka austrum\u016bs nu Aiv\u012bkstis dzeivoj lela latv\u012b\u0161u tautys da\u013ca.
+  De\u013c daudzu \u201cmuomu\u013cn\u012bku\u201d* tys beja puorsteigums. Fra\u0146cs
+  Kemps, acimradz\u016bt gon nadaudz puorspeilej\u016bt, par it\u016b laikmatu v\u0101luok
+  raksteja: \u201cLatgola tyka \u201catkluota\u201d kai sov\u0101 laik\u0101 Kolumbs
+  atkluoja Ameriku. Bet nikaidys pr\u012bcys par it\u016b atkluo\u0161onu nabeja,
+  pavysam \u016btrai\u017ei: latv\u012b\u0161u vold\u016b\u0161\u012b veiri pat n\u016bsabeida
+  i nazynuoja, k\u016b ar latgal\u012b\u0161im \u012bsuokt.\u201d\\nKara i revolucejis
+  l\u012bsm\u0113s\\nPyrmais pasau\u013ca kars radikali maineja it\u016b stuov\u016bkli.
+  Latgal\u012b\u0161i v\u012bsm\u012bleigi p\u012bj\u0113me K\u016brzemis bieg\u013cus;
+  s\u016bpluok puorej\u016bs latv\u012b\u0161u aktivi p\u012bsadaleja bieg\u013cu
+  organizaceju darbeib\u0101; tyukst\u016b\u0161om stuojuos latv\u012b\u0161u strieln\u012bku
+  bataljon\u016bs (v\u0101luok pulk\u016bs). Var\u0101tu saceit, ka kara l\u012bsmis
+  sakaus\u0113ja \u0161kiert\u016b latv\u012b\u0161u naceju v\u012bn\u0101 vasalum\u0101.
+  Par t\u016b l\u012bcynuoja ari Pyrmais Latgolys kongress, kas rysynuojuos R\u0113zekn\u0113
+  1917. goda maja suokum\u0101, napylnus div miene\u0161us piec Februara (piec jaunuo
+  stila \u2013 Marta) revolucejis i cara atsasacei\u0161onys nu tr\u016b\u0146a. Latgolys
+  latv\u012b\u0161u vairuokums steidz\u0113s deklar\u0113t sovu gribie\u0161onu atsadaleit
+  nu Kr\u012bvejis imperejis i p\u012bsav\u012bnuot sovu taut\u012b\u0161u apdzeivuotajom
+  Baltejis guber\u0146om, lai izveiduotu v\u012bnuotu, autonomu Latveju. Park\u016b
+  itaida steiga? Pastuov\u0113ja cereiba, ka jaunizveiduotuo Kr\u012bvejis Pagaidu
+  va\u013cdeiba, kura vysmoz vuord\u016bs deklar\u0113ja tautu po\u0161n\u016bsacei\u0161onuos
+  t\u012bseibu principu, var\u0101tu \u013caut Latgolys latv\u012b\u0161im p\u012bsav\u012bnuot
+  sovu tautys bruo\u013cu apdzeivuotajom teritorejom. Latgola ilgst\u016b\u0161i beja
+  c\u012btuse nu kulturaluos i religiskuos apsp\u012bsteibys, nu rusifikacejis politikys.
+  Na ve\u013cti nacionaluos kusteibys pr\u012bk\u0161gol\u0101 beja n\u016bsastuoju\u0161i
+  kat\u016b\u013cu muoceituoji. Kr\u012bvejis revolucej\u0101 tyka saskateits ilgi
+  gaideitais \u201c\u012bspieju l\u016bgs\u201d, kab eistynuotu Latgolys atsadalei\u0161onu.
+  D\u012bvam\u017e\u0101\u013c ni Georgejs \u013bvovs, ni Aleksandrs Kerenskis nagrib\u0113ja
+  nikuo dzierd\u0113t par Latgolys praseibom.\\nOpozicej\u0101 beja n\u016bsastuojuse
+  ari da\u013ca Latgolys mozokumtauteibu \u012bdzeivuotuoju i it sevi\u0161ki \u2013
+  Fra\u0146cs Kemps ar sovim p\u012bkritiejim. In\u017eeners Kemps, leidzeigi cytim
+  latv\u012b\u0161im, grib\u0113ja, lai Latgola atsadola nu Kr\u012bvejis. T\u016bm\u0101r
+  jis nagrib\u0113ja izreizis p\u012bsav\u012bnuot \u201cbalt\u012b\u0161im\u201d.
+  Juo izpratn\u0113 Latgolu apdzeivuoja atsevi\u0161\u0137a tauta \u2013 latgal\u012b\u0161i
+  (tai\u0161ni Kempa aktivitatis it\u016b vuordu padareja popularu), kurim juodaboj
+  autonomeja Kr\u012bvejis sastuov\u0101 i tikai piec tam juolem par sovu tuoluok\u016b
+  liktini. Pyrmaj\u0101 Latgolys kongres\u0101 Kemps i juo p\u012bkritieji c\u012bte
+  pi\u013cneigu sakuovi i ar \u0161kandalu pamete tuo n\u016brisis v\u012btu.\\nKuortejuo
+  varys mai\u0146a\\nPiec dzi\u013cuos vi\u013c\u0161onuos Kr\u012bvejis Pagaidu va\u013cdeib\u0101
+  Latgola ar lelom cereibom uztv\u0113re zi\u0146u par kuortej\u016b varys mai\u0146u
+  Petrograd\u0101. 1917. goda novembr\u012b Kr\u012bvejis golvyspi\u013cs\u0101t\u0101
+  apv\u0101rsumu veica lelyn\u012bki i mudri puorj\u0113me kontroli par p\u012bfrontis
+  rajonim. Tys atsat\u012bce ari iz Latgolu, kur\u0101 disloceituo Kr\u012bvejis 5.
+  armeja strauji lelin\u012bciskuojuos. Tyka izveiduoti jauni varys organi, i tam\u016bs
+  \u012bsastuoja daudzeji nacionali n\u016bska\u0146uoti latgal\u012b\u0161i. Sevi\u0161ki
+  daudz latv\u012b\u0161u tauteibys zemn\u012bku \u012bsastuoja R\u0113zeknis pad\u016bmis
+  Izpi\u013cdkomitejis zemn\u012bku sekcej\u0101. Leidzeigi kai piec cara guoz\u0161onys,
+  ari it\u016breiz latgal\u012b\u0161i steidz\u0113s sasaukt kongresu piec \u012bspiejis
+  mudruok, kab, kai soka, koltu dze\u013czi, cikom tei korsta.\\nJauna kongresa sasauk\u0161onu
+  grib\u0113ja gon F. Kemps, gon Latgolys Pagaidu zemis pad\u016bme, kurys darbeibu
+  agruokuo vara nabeja atzynuse, gon lelin\u012bki. F. Kemps naivi cer\u0113ja, ka
+  jam var\u0101tu izad\u016bt Latgolys nuok\u016btni \u012bvierzeit sev v\u0101lam\u0101
+  gultn\u0113, lai gon novembra beiguos n\u016btyku\u0161uos Kr\u012bvejis Satversmis
+  vielie\u0161onys beja nasu\u0161ys kuortej\u016b vi\u013c\u0161on\u016bs \u2013
+  Kempa atba\u013csteituoji saj\u0113me nagaideiti moz bolsu. Pagaidu zemis pad\u016bme
+  i nacionali n\u016bska\u0146uot\u012b latgal\u012b\u0161i cer\u0113ja beidz\u016bt
+  suokt kaidus realus s\u016b\u013cus ce\u013c\u0101 iz Latgolys p\u012bv\u012bnuo\u0161onu
+  puorejai Latvejai. Sovukuort lelin\u012bki (gon Vydzemis, gon Latgolys) saskateja
+  itam\u0101 kongres\u0101 \u012bspieju apl\u012bcynuot sovu \u012btekmi i dabuot
+  sab\u012bdreibys papyldu atbolstu, kura Latgol\u0101 tik c\u012b\u0161i tryuka.
+  P\u012bm\u0101ram, Vydzemis lelin\u012bki 1917. goda 27. novembr\u012b konstat\u0113ja,
+  ka \u201cLatgol\u0101 c\u012b\u0161i moz cylv\u0101ku, kas n\u016bstuot\u016bs iz
+  \u0161kirys pri\u0146cipim, juo Latgol\u0101 stypra nacionaluo kusteiba \u2013 latv\u012b\u0161u-latgal\u012b\u0161u
+  kusteiba\u201d.\\n\u016atruo kongresa organizei\u0161ona\\nLai gon lelin\u012bki
+  vuord\u016bs osai kritiz\u0113ja Latgolys Pagaidu zemis pad\u016bmi kai bur\u017euazisku,
+  tuos darbin\u012bki beja faktisk\u012b \u016atruo Latgolys kongresa organiz\u0101tuoji.
+  Par p\u012bvadumu, laikroksts \u201cLaika Domas\u201d 1917. goda 13. decembr\u012b
+  skaidri n\u016bruodeja, ka kongres\u0101 p\u012bsadaleja Pagaidu zemis pad\u016bme,
+  lai gon oficiali iniciativa par kongresa sasauk\u0161onu guoja nu R\u0113zeknis
+  Izpi\u013cdkomitejis pusis. Kongresa Organizacejis komitej\u0101 beja vairuoki nacionali
+  n\u016bska\u0146uoti latgal\u012b\u0161i: Stanislavs Kambala, Valereja Seile i P\u012bters
+  Lazd\u0101ns. Kongresu atba\u013csteja ari R\u0113zeknis apri\u0146\u010da komisars
+  P\u012bters L\u012bpi\u0146\u0161, kurs beja F. Kempa p\u012bkritiejs. Acimradz\u016bt
+  Kemps ar juo paleidzeibu cer\u0113ja eistynuot sovu programu.\\n\u016atrais kongress
+  divej\u016bs aspekt\u016bs atsa\u0161keire nu Pyrmuo Latgolys kongresa. Vysapyrma,
+  tam\u0101 aicynuoja p\u012bsadaleit lelu skaitu minorita\u0161u puorstuovu \u2013
+  27 kr\u012bvus (16 pareizticeig\u012b i 11 vacticeibn\u012bki), 12 ebrejus, 5 p\u016b\u013cus
+  i 2 boltkr\u012bvus. Taipat aicynuoja p\u012bsadaleit vysu n\u016bzeimeiguok\u016bs
+  po\u0161puorva\u013cdis, sab\u012bdrisk\u016bs i ekonomisk\u016bs organizaceju puorstuovus.
+  \u016atruo \u012bviereibys c\u012bneiguo at\u0161kireiba beja kat\u016b\u013cu gareidzn\u012bku
+  tryukums decembra kongres\u0101. N\u0101, tys nabeja bazneickungu boikots, kuri
+  beja faktisk\u012b \u012bpr\u012bk\u0161ejuo kongresa organizatori i vadeituoji.
+  It\u016breiz, kab \u201cnakaitynuotu\u201d lelin\u012bkus, beja n\u016blamts lyugt
+  bazneickungus nap\u012bsadaleit itam\u0101 pasuokum\u0101. Ari po\u0161u kongresu
+  demonstrativi sareikuoja sv\u0101td\u012bn\u0113. V\u0101luok, jau piec kongresa
+  n\u016bsl\u0101guma, prese ar gondarejumu raksteis: \u201cV\u0113\u013c var p\u012bzeimuot,
+  ka itam\u0101 Kongres\u0101 daleibu naj\u0113me niv\u012bns bazneickungs. I labi
+  padareis, ka ari iz nuoku\u0161\u016b kongresu nabrauks niv\u012bns. Lai pasauleig\u012b
+  po\u0161i spr\u012b\u017e par Latgolys nuok\u016btni.\u201d\\nKongresa pyrmuo d\u012bna\\nVitebskys
+  gubrenis latgal\u012b\u0161u apri\u0146\u010du pad\u016bmu kongress aba v\u012bnkuor\u0161i
+  \u016atrais Latgolys kongress saguoja R\u0113zekn\u0113 1917. goda 16. decembr\u012b
+  (piec vacuo stila 3. decembr\u012b). Pavysam iz t\u016b beja \u012bsarodu\u0161i
+  345 delegati nu Daugovpi\u013cs, R\u0113zeknis i Ludzys apri\u0146\u010dim. Beja
+  \u012bsarodu\u0161i ari Vydzemis puorstuovi \u2013 55 delegati. J\u016bs vyd\u0101
+  beja treis leln\u012bciskuos Latvejis Pad\u016bmis (Iskolata) puorstuovi, kurys
+  r\u016bkuos atsaroda diktatoriskuo vara Vydzem\u0113.\\nKongresa n\u016brisi 13
+  stu\u0146d\u0113s atkluoja komisars P. L\u012bpi\u0146\u0161. Nuoku\u0161ais d\u012bnys
+  kuorteibys punkts beja kongresa pr\u012bk\u0161s\u0101d\u0101tuoja vielie\u0161onys.
+  Tys izraiseja lelu konfliktu, kuru ar lelom pyulem izadeve atrysynuot tikai desmit
+  stu\u0146d\u0113s vokor\u0101, \u201ckod kongress beja pi\u013cneigi n\u016bgurs\u201d.
+  Vysapyrma F. Kempa p\u012bkritieji nagrib\u0113ja atzeit sovu pretin\u012bku puorstuova
+  Juo\u0146a Rubu\u013ca uzvaru. Kemps beja pasaryupejs par t\u016b, kab bolsuo\u0161onys
+  rezultatus apk\u016bpuotu juo p\u012bkritieji, bet div bolsu p\u012btryuka, kab
+  uzvar\u0101tu j\u016bs kandidats P. L\u012bpi\u0146\u0161.\\nNavar\u016bt n\u016bm\u012br\u0113t
+  satrokuot\u016bs kongresa dalin\u012bkus, Rubu\u013cs atsauce sovu kandidaturu.
+  \u201cPiec ilga tr\u016bk\u0161\u0146a\u201d par nuoku\u0161\u016b kandidadtu izvierzeja
+  vydzemn\u012bku puorstuovi, Iskolata l\u016bcekli V\u012bksni\u0146u. Ari jis bolsuo\u0161on\u0101
+  \u012bveice L\u012bpi\u0146u. Kempisti otkon suoce skali kl\u012bgt, apvainoj\u016bt
+  V\u012bksni\u0146u, ka jis as\u016bt vyltvuords i jam naas\u016bt vajadzeig\u016bs
+  pylnvaru, kab kandid\u0101tu iz kongresa pr\u012bk\u0161s\u0101d\u0101tuoja omotu.
+  Cyti skali lomuoja L\u012bpi\u0146u. Prese v\u0101luok raksteja, ka cylv\u0101ku
+  tr\u016bk\u0161\u0146uo\u0161onu naas\u016bt varieju\u0161i aptur\u0113t i \u201cstuov\u016bklis
+  bejs taids, ka kotr\u0101 breid\u012b var\u0113ja n\u016btikt kau\u0161onuos\u201d.
+  Lai n\u016bm\u012brynuotu delegatus, kongresu iz div stu\u0146\u017eu puortrauce.
+  Golu gol\u0101 v\u0101l\u0101 vokor\u0101 par kongresa pr\u012bk\u0161s\u0101d\u0101tuoju
+  \u012bviel\u0113ja F. Kempa p\u012bkritieju minorita\u0161u puorstuovi Mali\u0161enko.
+  Kongresa prezidej\u0101 nu kotra apri\u0146\u010da \u012bviel\u0113ja v\u0113\u013c
+  treis puorstuovus. J\u016bs vyd\u0101 beja gon lelin\u012bki, gon nacionali n\u016bska\u0146uoti
+  latgal\u012b\u0161i.\\nKongresa \u016btruo d\u012bna\\n\u016atruo kongresa d\u012bna
+  suoc\u0113s tai, it kai vysi byutu aizmiersu\u0161i par vakard\u012bnys nasaska\u0146om
+  \u2013 prese raksteja, ka kongres\u0101 \u201cva\u013cdeja m\u016b\u017es gorastuov\u016bklis\u201d.
+  Delegati v\u012bnuojuos par apsveikuma telegramys n\u016bsyutei\u0161onu Kr\u012bvejis
+  pad\u016bmu va\u013cdeibai. Sekuoja V\u012bksni\u0146a referats par tuos \u0161a\u013cts
+  politisk\u016b stuov\u016bkli. \u201cUorkuorteigi tr\u016bk\u0161\u0146ain\u0101
+  kongres\u0101 \u012bsastuoja kopa klusums.\u201d Nacionali n\u016bska\u0146uot\u012b
+  delegati ce\u0146t\u0113s tur\u0113t sovys emocejis pi sevis, kab otkon naizjauktu
+  kongresa gaitu. J\u012b cer\u0113ja, ka lelin\u012bki beidz\u016bt var\u0101tu paleidz\u0113t
+  Latgolu atdaleit nu Kr\u012bvejis. De\u013ctuo piec V\u012bksni\u0146a referata,
+  daudzim par puorsteigumu, nikaidys debatis nasasuoce. Vuordu gon j\u0113me komisars
+  L\u012bpi\u0146\u0161, kurs deve muoj\u012bni, ka V\u012bksni\u0146a \u012bsn\u0101gtuo
+  rezoluceja \u201ckliboj\u016bt\u201d. Iz t\u016b delegati nu z\u0101lis atsaceja
+  ar sauc\u012bnim: \u201cTu pats kliboj!\u201d Nikaida tuoluoka rezolucejis kritika
+  nasekuoja, i t\u016b gondrei\u017e v\u012bnbolseigi kongress p\u012bj\u0113me.\\nTurpynojum\u0101
+  kongress apspr\u012bde po\u0161u svareiguok\u016b d\u012bnyskuorteibys punktu \u2013
+  Latgolys atsadalei\u0161onu nu Kr\u012bvejis i potencial\u016b p\u012bsav\u012bnuo\u0161onu
+  Latvejai. Vysapyrma ar referatu par it\u016b vaicuojumu otkon uzastuoja V\u012bksni\u0146\u0161.
+  Sekuoja c\u012b\u0161i osys debatis. L\u012bpi\u0146\u0161 i Kemps pazi\u0146uoja,
+  ka j\u012b ari as\u016bt lelin\u012bki. Bet j\u016bs uzskoti \u012bv\u0101rojami
+  atsa\u0161keire \u2013 piec j\u016bs d\u016bmu, Latgolu apdzeivoj\u016bt atsevi\u0161\u0137a
+  tauta (\u201clatgal\u012b\u0161i\u201d) i tuos apdzeivuotuos teritorejis p\u012bv\u012bnuo\u0161ona
+  Latvejai as\u016bt puoragra. Prese raksteja, ka itamuos debat\u0113s \u201ckempisti
+  paruodeja sovu eist\u016b geimi. Ar kl\u012bg\u0161onu i lomuo\u0161on\u016bs teik
+  izbeigtys debatis, i teik \u012bsn\u0101gtys div rezolucejis, v\u012bna nu referenta,
+  \u016btra nu Kempa kunga pusis\u201d. Komisars L\u012bpi\u0146\u0161 gondrei\u017e
+  voi rauduodams lyudz\u012bs kr\u012bvus i ebrejus atba\u013csteit j\u016bs poziceju.
+  T\u016bm\u0101r ari it\u016breiz Kempa n\u016bmetne p\u012bdzeivuoja kaunpylnu sakuovi.
+  Par Latgolys atsadalei\u0161onu nu Kr\u012bvejis i p\u012bsav\u012bnuo\u0161onu
+  Latvejai n\u016bbolsuoja 202 delegati. Pret beja 74, bet atsatur\u0113ja 14. Aizasirdejs
+  Kemps, leidzeigi kai Pyrmuo Kongresa laik\u0101, pamete tuo n\u016brisis v\u012btu.\\nAr
+  Kempa aiz\u012b\u0161anu kongresa n\u016brise napalyka m\u012breiguoka. Pie\u0161ki
+  naz nu kur\u012bnis (varbyut Kempa syuteits) \u012bsaroda 5. armejis Revolucionaruos
+  kara komitejis pr\u012bk\u0161s\u0101d\u0101tuojs, kurs pazi\u0146uoja, ka 30 000
+  veiru lelais R\u0113zeknis garnizons naatzeist\u016bt kongresa n\u016brisi i vysim
+  juoizkleist. Delegatu reakceju iz itaidu pazi\u0146ojumu mes varim v\u012bgli \u012bsad\u016bmuot
+  \u2013 suoc\u0113s tik lels tr\u016bksnis, ka armejis puorstuovs beja sp\u012bsts
+  atsavai\u0146uot par sovu puordr\u016b\u0161\u016b pazi\u0146ojumu i steidzeigi
+  pamest nav\u012bsm\u012bleiguos telpys. Piec tam Kempa atba\u013csteituoji, kuri
+  nabeja sekuoju\u0161i sova lidera aiz\u012b\u0161onai, otkon sac\u0113le lelu tr\u016bksni
+  i j\u016bs izadeve n\u016bm\u012brynuot vi\u0146 ar lelom pyulem.\\nP\u0101dejuo
+  Kempa n\u016bmetnis cereiba tyka lykta iz leluokys \u012btekmis dabuo\u0161onu Latgolys
+  Pad\u016bm\u0113, kuru kongress \u012bviel\u0113ja Latgolys Pagaidu zemes pad\u016bmis
+  v\u012bt\u0101. Pavysam tuos sastuov\u0101 beja 36 l\u016bcekli (pa 12 nu kotra
+  apri\u0146\u010da). Kempisti raudzeja dabuot lauku pogostu puorstuovu nap\u012blais\u0161onu
+  pad\u016bmis vielie\u0161onuos: \u201cLai lobuok zemn\u012bki brauc\u016bt iz s\u0101tu.\u201d
+  J\u012b labi zynuoja, ka tai\u0161ni lauku pogostu dzeivuotuoji beja leluok\u012b
+  apsav\u012bnuo\u0161onys ar Latveju atba\u013csteituoji. T\u016bm\u0101r ari it\u016breiz
+  Kempa n\u016bmetne p\u012bdzeivuoja zaudiejumu, nasaver\u016bt iz draudim i lomuo\u0161on\u016bs.\\nGolu
+  gol\u0101 Latgolys Pad\u016bme tyka \u012bv\u0101l\u0101ta (nuoku\u0161aj\u0101
+  d\u012bn\u0101 \u012bviel\u0113ja ari tuos Izpi\u013cdkomiteju). Kongress ari izdeve
+  veikt pr\u012bk\u0161dorbus Latgolys atdalei\u0161onai nu Kr\u012bvejis i jauna
+  kongresa sasauk\u0161onai 1918. goda janvara vyd\u0101, kab oficiali n\u016bform\u0101tu
+  Latgolys apsav\u012bnuo\u0161onu ar puorej\u016b Latveju. Taipat kongress n\u016bl\u0113me
+  izveiduot Latgol\u0101 sorkon\u016b gvardi aizmuguris apsorguo\u0161onai pret laupeituoju
+  bandom.\\nPiec kongresa\\nPiec \u016atruo Latgolys kongresa n\u016bsl\u0101guma
+  iz Petrogradu dev\u0113s latgal\u012b\u0161u zaldatu i matro\u017eu delegaceja.
+  Tai beja izd\u016bts \u012bsn\u0113gt pad\u016bmu va\u013cdeibai Aloiza Boj\u0101ra
+  sastuodeitu lyugumrokstu par latgolys atdalei\u0161onu nu Vitebskys gubernis, kai
+  ari kongresa p\u012bjimtuos rezolucejis. Matr\u016b\u017eam Zn\u016bti\u0146am,
+  kurs vadeja delegaceju, izadeve \u012bsn\u0113gt vysus dokumentus \u012ak\u0161l\u012btu
+  tautys komisariat\u0101. 27. decembr\u012b komisariats izdeve reikojumu Nr. 92 par
+  Daugovpi\u013cs, Ludzys i R\u0113zeknis apri\u0146\u010du atdalei\u0161onu nu Vitebskys
+  gubernis. Latgal\u012b\u0161u ilgi gaideitais i ar lelom gryuteibom izceineitais
+  mierkis beja sasn\u0101gts. Piec \u010detru d\u012bnu delegaceja atsagr\u012bze
+  ar myn\u0101t\u016b l\u0101mumu R\u0113zekn\u0113.\\nLatgolys Pad\u016bme turpynuoja
+  dorbuot\u012bs leidz 1918. goda janvaram. Latgal\u012b\u0161i p\u012bsadaleja Latvejis
+  Struodn\u012bku, zaldatu i bezzemn\u012bku deputatu pad\u016bmu II kongres\u0101
+  Valm\u012br\u0101. Iskolats sn\u0113dze gon materialu, gon organizatorisku atbolstu
+  Latgolys Pad\u016bmei, gatavej\u016bt\u012bs obu n\u016bvodu apv\u012bnuo\u0161onai.
+  T\u016bm\u0101r leidz faktiskai vysys Latvejis apv\u012bnuo\u0161onai beja juogaida
+  v\u0113\u013c gondrei\u017e vasals gods. 1918. goda janvara Latgolys kongress tai
+  ari nan\u016btyka, part\u016b ka tuo reikuo\u0161ona aizakav\u0113ja leidz Vuocejis
+  armejis ofensivai februar\u012b.\\nGolu gol\u0101 Latvejis apv\u012bnuotuoji beja
+  navys lelin\u012bki, bet gon Latvejis Tautys Pad\u016bme i K\u0101r\u013ca Ulma\u0146a
+  Pagaidu va\u013cdeiba 1918. goda novembr\u012b, kas p\u012bj\u0113me i suoce dzeiv\u0113
+  eistynuot att\u012bceigus l\u0101mumus.\\n*Muomu\u013cn\u012bks \u2013 Reigys latv\u012b\u0161u
+  b\u012bdreibys b\u012bdrs, sab\u012bdriskys darbin\u012bks (leidz Pyrmajam pasau\u013ca
+  karam)\\nKarteit\u0113s R\u0113zeknis pi\u013cs\u0101tys skoti 20. godu symta suokum\u0101,
+  Latgolys Kulturviesturis muzeja kruojums.\"", "\"Kristaps Rasims i juo dorbi goda
+  gr\u012bzum\u0101:\\n1. Raidiejumu cykla \u201cApce\u013co Latgolu ar Kristapu Rasimu\u201d
+  \u012btvor\u0101, jis ar popularom Latvejis personeibom gasteja vysaiduos Latgolys
+  v\u012btuos.\\n2. Raidiejum\u0101 latgaliski runuot ci sadz\u012bduot tyka mudynuoti
+  taidi zynomi muokslin\u012bki kai Dons, Andris Bulis, Ralfs Eilands i cyti.\\n3.
+  Juo darbeiba ar grupu \u201cBez PVN\u201d \u2013 koncerti, videoklips.\\n4. Daudzu
+  pasuokumu vadei\u0161ona latgaliski, radzamuok\u012bs nu t\u012bm, \u201cLatgal\u012b\u0161u
+  vol\u016bdys nakts\u201d \u012btvor\u0101.\\n5. Jezupa l\u016bmys atveiduotuojs
+  serial\u0101 \u201cUgunsGr\u0113ks\u201d\"", "\"Dzejn\u012bks, rakstn\u012bks, folklorists,
+  n\u016bvodpietn\u012bks i muokslin\u012bks Ontons Sli\u0161\u0101ns ir z\u012bmys
+  saulgr\u012b\u017eu b\u0101rns, dzims 28. decembr\u012b, bet vuordad\u012bnu svieteja
+  18. janvar\u012b. Itys laiks Ontonam beja rod\u016b\u0161ais laiks, kod jis sovu
+  aktiv\u016b darbeibu ve\u013cteja Z\u012bme\u013clatgolai. Upeitis pamat\u0161kola
+  sadarbeib\u0101 ar Namaterialuos kulturys montuojuma centru \u201cUp\u012bte\u201d
+  aicynoj sajust Ontona Sli\u0161\u0101na goru, p\u012bsadol\u016bt rod\u016b\u0161\u016bs
+  dorbu konkurs\u0101.\\nKonkursa mierkis ir apl\u012bcynuot p\u012bdareibu i m\u012bleisteibu
+  sovam dzymtajam n\u016bvodam i styprynuot latgalisk\u016b kulturidentitati.\\nKonkurs\u0101
+  aicynuoti p\u012bsadaleit Vi\u013cakys, Ba\u013ctinovys, Ruguoju i Bolvu n\u016bvoda
+  \u0161kol\u0101ni, kurim teik p\u012bduovuoti div aizdavumi:\\n1. Rod\u016b\u0161ais
+  dorbs (eseja, miniatura i tt. dorbu var raksteit gon latv\u012b\u0161u litararaj\u0101,
+  gon latgal\u012b\u0161u rokstu vol\u016bd\u0101) \u201cAsu lapnys, ka asu latgal\u012bts\u201d.\\nViertie\u0161ona
+  byus pa vacuma grupom:\\n1.\u20134. klase dorbu var \u012bsn\u0113gt r\u016bkrokst\u0101,
+  dorba lelums 1 A4 formata lopa\\n5.\u20137. klase dorbu \u012bsn\u0101dz datorrokst\u0101,
+  dorba lelums 2 A4 formata lopas\\n8.\u201312. klase dorbu \u012bsn\u0101dz datorrokst\u0101,
+  dorba lelums 3 A4 formata lopas\\n2. Zeimiejumu konkurss \u201cIlustraceja munam
+  m\u012b\u013cuokajam O. Sli\u0161\u0101na dzej\u016b\u013cam\u201d. Zeimiejumu formats
+  A3 lopa, tehnika piec izvielis. Zeimiejumam juodal\u012bk ilustr\u0101tais dzej\u016b\u013cs.\\nViertie\u0161ona
+  byus pa vacuma grupom: 3\u20135 godi; 6\u20138 godi; 9\u201312 godi; 13\u201315
+  godi; 16\u201319 godi.\\nKotrys \u0161kol\u0101ns var p\u012bsadaleit v\u012bn\u0101
+  voi obej\u016bs konkurs\u016bs. Kotrys dalin\u012bks var \u012bsn\u0113gt na\u012br\u016bbe\u017euotu
+  skaitu sovu dorbu.\\nDorbi juo\u012bsn\u0101dz da 2017. gada 9. janvara v\u012bn\u0101
+  nu sev \u0101rtuok\u016bs veidu:\\n1. Upeitis pamat\u0161kol\u0101 kotru dorba d\u012bnu
+  nu 9.00 da 16.00 \u0161koluotuojai Sandrai Buk\u0161ai;\\n2. Syut\u016bt pa postu:
+  \u201cRod\u016b\u0161\u016bs dorbu konkursam\u201d Upeitis pamat\u0161kola, Stab\u013covys
+  \u012bla 1, Upeite, \u0160kilbanu pogosts, Vi\u013cakys n\u016bvods, LV-4587\\n3.
+  Rod\u016b\u0161\u016b dorbu var \u012bsn\u0113gt ari, syut\u016bt iz e-postu: upites.skola@inbox.lv\\nDorbam
+  juodal\u012bk: \u0161kol\u0101na vuords, pavuorde, vacums, klase, vuiceibu \u012bstuode,
+  \u0161koluotuoja vuords pavuorde, kontattelepons, e-posts.\\nN\u016bsl\u0101guma
+  pasuokums i uzvar\u0101tuoju apbolvuo\u0161ona 2017. goda 18. janvar\u012b Upeit\u0113.\\nNaskaidreibu
+  gad\u012bn\u012b zvaneit: Sandrai Buk\u0161ai 26307566 voi Ligitai Spridz\u0101nei
+  29868786 voi raksteit iz e-postu: upites.skola@inbox.lv.\\nKomentari sl\u0101gti.\"",
+  "\"Latgal\u012b\u0161u rokstu vol\u016bdys kursi byus. Ka nikas nan\u016bjuks, septembra
+  3. nede\u013c\u0101. Suoks\u012bs ar Dr. philol. Annys Stafeckys informativ\u016b
+  lekceju par myusud\u012bnu latgal\u012b\u0161u rokstu vol\u016bdu. Sekuos praktiskuos
+  vol\u016bdys n\u016bdarbeibys kotru 2. nede\u013cu Mg. philol. Muorys Mortuz\u0101nis
+  vadeib\u0101. Pa vydu varbyut byus v\u0113\u013c kaida lekceja par latgal\u012b\u0161u
+  rokstu vol\u016bdys viesturi i atteisteibys prognozem.\\nPasn\u012bdziejis sarunuotys,
+  papeira ir vasalys 3 pakys, printeram apmain\u0113sim k\u0101rtrid\u017eu. \ud83d\ude00\\nPagaidom
+  informaceja gon nateik izplateita, part\u016b ka SIF ir problemys ar atskaitem,
+  de\u013ctuo jim Va\u013csts kase napuorskaita naudu. Norvegejis i Briselis nauda
+  na\u012b\u012bt SIF kont\u0101, a nu t\u012bnis NVO kont\u016bs. Va\u013csts kai
+  vysod myusim ir unikala! Kur v\u0113\u013c \u016btru taidu rast.\\nLeidza ar t\u016b
+  LgSC nazyna, kai samoksuos par biroja ustobys \u012bri, narunoj\u016bt par telpu
+  \u012bri lekcejom i leluokim pasuokumim.\\nBet gon vyss tiks atrysynuots. Telpys
+  pagaidom meklejam par ve\u013cti, a mo\u017e da tuo laika i SIF atrysynuos sovys
+  b\u0101dys.\\nGols gol\u0101, LgSC vysu laiku ir iztics ar b\u012bdru podsv\u012bstim
+  z\u012bduojumim papeira pakys voi capumu izskot\u0101 i sovus projektus realiziejs
+  ce\u013coj\u016b\u0161aj\u0101 biroj\u0101 \u2013 pi kaida s\u0101t\u0101, dorb\u0101
+  voi ma\u0161yn\u0101. Naudys niv\u012bnam nav bejs ni de\u013c kuo. Narunoj\u016bt
+  par izsaimn\u012bkuo\u0161onu.\\nGryuteibys n\u016bryudej. Tai ka iz naudys tryukumu
+  LgSC ver\u0101s ar zynomom ba\u017eom pret n\u016bsl\u0101gtajim leigumim, tok cytai\u017e
+  najem c\u012b\u0161i golv\u0101.\\nKai viestej vaca LgSC gudreiba: \u201cNaudys
+  taipat nabyus nikod.\u201d :O)\"", "\"\u201cBorowa Mc\u201d, gatavej\u016bt\u012bs
+  20 godu jubilejis koncertam, sasadz\u012bduojuse ar Katr\u012bnu Dimantu\\nRokstu
+  sagataveja: portals lakuga.lv\\nGatavej\u016bt\u012bs svieteit vosoru i \u201cBorowa
+  Mc\u201d 20. dzim\u0161onys d\u012bnu, grupa izdavuse jaunu dz\u012bsmi \u201cPr\u016bjam
+  juo\u012bt\u201d, informej tuos liders Aigars Run\u010dis. Dz\u012bsme ir parafraze
+  par grupys 20 god\u016bs p\u012bdzeivuot\u016b, suoc\u016bt ar pyrmajim koncertim
+  i jut\u016bni kulturys nom\u016bs vys\u0101 Latvej\u0101, da atmi\u0146u \u201ckai
+  beja\u201d i puord\u016bmu \u201ckai byus\u201d.\\n\u201cDz\u012bsme nav par atsavadei\u0161onu,
+  bet atmi\u0146om! \u201cPr\u016bjam juo\u012bt\u201d ir vuordi, k\u016b nagribi
+  dzierd\u0113t, kod esi satics draugus i ba\u013c\u013coj\u012bs,\u201d soka grupys
+  daleibn\u012bks i dz\u012bsmis teksta autors Aigars Run\u010dis. Dz\u012bsmi \u012braksteja
+  Fakts (J\u0101nis \u0160m\u0113di\u0146\u0161), i \u012brokst\u0101 p\u012bsadola
+  Katr\u012bna Dimanta, kas \u012bnas tautysdz\u012bsmis motivu i ir kai zamapzinis
+  bolss, kas soka, ka ba\u013c\u013cuot v\u0113\u013c nav gona, vystik \u2013 juo\u012bt
+  iz s\u0101tu. Dz\u012bsmis teksta video sataisejs Regn\u0101rs Rudus.\\nTai kai
+  it\u016bgod grupa \u201cBorowa Mc\u201d svietej 20. dzim\u0161onys d\u012bnu, rudin\u012b
+  pl\u0101nuoti vairuoki jubilejis koncerti, p\u012bm\u0101ram, 19. oktobr\u012b Latgolys
+  viestn\u012bceib\u0101 \u201cGors\u201d, uz kur\u016b var jau n\u016bpierkt beletus.\\n\u201cPr\u016bjam
+  juo\u012bt\u201d ir pyrmais grupys \u201cBorowa Mc\u201d singlys it\u016bgod, kas
+  sekoj p\u0101r\u0146 izd\u016btajai dz\u012bsmei \u201cAtmosfera\u201d. Grupa \u201cBorowa
+  Mc\u201d dybynuota 2004. god\u0101 i ir izdavuse treis studejis albumus. Zynomuokuos
+  grupys dz\u012bsmis ir \u201cVysskaistuokai meiti\u0146ai\u201d, \u201cMa\u0146
+  navajag\u201d, \u201cIededzies par Latviju\u201d i cytys. Grupa saj\u0101muse treis
+  Latvejis Muzykys \u012brokstu goda bolvys. \u201cBorowa Mc\u201d dorboj\u0101s Aigars
+  Run\u010dis, Guntra Kuzmina-Jukna i Ingars Gus\u0101ns.\"", "\"Sarm\u012bte Tr\u016bpa.
+  Par babu, rudini i caurumu durovuos\\nStuosta autore: Sarm\u012bte Tr\u016bpa\\nSu\u0146s
+  aizrej. Aizdz\u012bdoj gai\u013cs \u2013 v\u012bnu reizi, \u016btru, p\u012bkt\u016b.
+  D\u012bna var \u012bsasuokt. Baba, izkuopuse nu \u012bsi\u013cdeituos gultys, kai
+  pele skrubynuoj pa skapa atvi\u013cktni, makl\u0101dama ze\u010du. Solt\u0101 laik\u0101
+  jei valk mugor\u0101 divejus bru\u0146\u010dus. Satausta skuste\u0146u skaudzi.\\n\u2013
+  Pasaver, meite\u0146, voi nava jaunais? \u2013 Na\u012bs jau tuo pa s\u0101tu sanosuot.\\n\u2013
+  Baba, de\u013ckam tev tik agri juosace\u013c? Baba, nu, kam tev tei spi\u013cka
+  pi kopkys dasprausta? De\u013ckam tev t\u012b diveji bru\u0146\u010di vajadzeigi,
+  plita jau kur\u012bs\u2026\\nAsu pam\u016bdynuota na\u0161alkt\u012b, i ma\u0146
+  nikas napateik.\\n\u2013 A kurs te iz mane ver\u0101s, kurs manis radz? \u2013 baba
+  sasasyrda i atsagu\u013c atpaka\u013c iz gultys \u2013 ar vysu pr\u012b\u0161kysautu
+  i obejim bru\u0146\u010dim. I spi\u013cku, daspraustu pi kryu\u0161u kai bro\u0161u.
+  \u2013 Nav jau nikaidi So\u010di.\\n\u2013 Es radzu, \u2013 soku. \u2013 I cyti
+  jau ari nava okli.\\nBabai taida runa napateik i jei pagr\u012b\u017e ska\u013cuok
+  radivi. A muns m\u012bgs ir pr\u016bm pavysam.\\nRadiv\u0113 jai daudz draugu, jei
+  pazeist vysus piec bolsim \u2013 Ausmu Indriksoni, Dzintri Kol\u0101tu. T\u012b
+  jai po\u0161i m\u012bluok\u012b. Baba zyna vysu par politikim, pensejom, tik t\u016b
+  \u201cintern\u0101tu\u201d v\u0113\u013c da gola nasapr\u016bt. Kai tys tai var
+  byut, ka par reizi kaids jem tai i syuta viestuli no v\u012bna pasau\u013ca mola
+  iz cytu?\\nAgruok viestuli vajadz\u0113ja ko\u010d da Moskovys vi\u013cc\u012b\u0146a
+  pyrmuo vagona posta \u0161kierbai n\u016bnest, ka grib\u0113ja, lai tei mudruok
+  da Reigai teik. A niule sajiemiejs var\u016bt s\u0113d\u0113t ko\u010d Amerik\u0101
+  voi Afrik\u0101 i \u016bksta napakustynuot, jau piec minota kluot atbi\u013cde.
+  N\u0101, tys cylv\u0101ka pruotam tikpo\u0161 naizpr\u016btamai kai volkuot\u012bs
+  pa Mienesi.\\nBabai pateik ce\u013cuot \u2013 i ar autobusim, i vi\u013cc\u012bnim.
+  Jai pateik sajust jaunus smuordus, sadzierd\u0113t vol\u016bdys i riti\u0146u n\u016bm\u012bryn\u016b\u0161\u016b
+  klab\u016b\u0146u. Tik kaidam vysod vajag v\u012bn\u0101 gol\u0101 j\u016b \u012bs\u0101dynuot
+  vi\u013cc\u012bn\u012b i \u016btr\u0101 sagaideit. Taipat kai se\u0146uok tuos viestulis
+  moskov\u012bt\u012b.\\nKotru d\u012bnu baba klausuos, cik pasaul\u012b daudz p\u016bsta
+  i nam\u012bra, i n\u016braud par vysim b\u016bj\u0101 guoju\u0161im. Kotru d\u012bnu
+  ir, par k\u016b rauduot. I kotru d\u012bnu ir, par k\u016b pasapr\u012bcuot. Gruomotys
+  losa akt\u012bri pr\u012b\u0161k\u0101, Danilenko aizdz\u012bdoj. Kod \u013custe,
+  jei padz\u012bdoj leidza. Baba grib, kab cyti ari pasaklausa. Jei pagr\u012b\u017e
+  radivi ska\u013cuok, a kaids par reizi kluse\u0146om aizver ustobys durovys. \u2013
+  Po\u0161i vaineigi, taids \u0161muks raidejums.\\nBet ari po\u0161am \u0161mukuokajam
+  da\u012bt ko\u010d kod gols, kai vysam itam\u0101 dzeiv\u0113. I \u0161mukajom l\u012btom
+  ve\u013c mudruok kai na\u0161mukajom. Babai vajag k\u016b navi\u0146 pastruoduot,
+  navar jau vysu d\u012bnu tik pa gultu vi\u0146 vi\u013cuot\u012bs. Kai ar gludekli
+  jei puorbrauc ar r\u016bku bryuni raibajam pr\u012bk\u0161in\u012bkam i taustuos
+  iz vyrtuvis pusi.\\n\u0160udi\u0146 loba d\u012bna, dorbs atsar\u016bn. Iz greidys
+  lelais kotlys, pylns cyukys galis. Mama \u012bsp\u012b\u017e babai r\u016bk\u0101
+  osu nazeiti, \u012bl\u012bk kliep\u012b plastmasys b\u013c\u016bdu. Baba ar nazeiti
+  mudri kosa gali nu kaula n\u016bst, tod apsyukoj kaulu, tik piec tam mat t\u016b
+  span\u012b, byus Rek\u0161am. Es capu peir\u0101gus. Mama vuorej studzini.\\nTaidys
+  d\u012bnys babai pa pruotam, kod vysi pi dorba, a ni va\u013coj\u0101s kotrys sov\u0101
+  kokt\u0101. Dorba vysod da besa, tik acs vajag pace\u013ct. Baba i bez ocu ce\u013c\u0161onys
+  zyna, kas doroms, tik niv\u012bns c\u012b\u0161i jim\u0101 nasaklausa. Tepat v\u0113\u013c
+  t\u0101rzuoja, a, cikom baba da puorejim atsataustejuse, cikom kr\u0101sla atroduse
+  ustobys kokt\u0101, vysi jau otkon nazkur pagaisu\u0161i. Kotrys iz sovu pusi izskraidelieju\u0161i.\\n\u2013
+  Kai taidi \u017eurkal\u0101ni, \u2013 baba purpinej.\\nBet \u0161udi\u0146 babai
+  loba d\u012bna. Galis b\u013c\u016bda pylna, Rek\u0161am kauli. Studzi\u0146s savuoreits.
+  Es \u012bleju jai p\u012bna, \u012bsp\u012b\u017eu r\u016bk\u0101 pluoci\u0146a
+  gobolu. Baba aizatausta iz sovu ustobu. Aiz l\u016bga jau malna nakts, rudin\u012b
+  mudri satymst, a babai elektreibys navajaga. Jei apsas\u0101st iz kr\u0101sla i
+  uzmaneigi puorbrauc ar r\u016bku golda molai, pastum tuo\u013cuok p\u012bna kr\u016bzi,
+  satausta radivi i n\u016bsp\u012b\u017e tre\u0161\u016b p\u016bdze\u0146u. Vokora
+  raidejums var suokt\u012bs.\\nKod baba jau beja n\u016bmyruse, beidz\u016bt atsazynu
+  mamai ar t\u0113ti, ka tei beju es, kas deve\u0146dasmytaj\u0101 god\u0101 izsyta
+  durovuos caurumu. Beju atguojuse nu \u0161kolys, a baba ustob\u0101 \u2013 aizmyguse
+  voi klausejuos kai parosti sovus raidejumus, nalaide manis \u012b\u0161k\u0101.
+  Baba gon beja pi\u013cneigi okla, tok dzierd\u0113ja labi. Syt\u016bs pi v\u012bnom
+  durovom, pi \u016btrom, pi l\u016bga. Nikuo. Kai iz So\u010dim voi Mienesi aizce\u013cuojuse.
+  Baba gon zynuoja stuosteit, ka iz Miene\u0161a nikuo naas\u016bt k\u016b redz\u0113t,
+  tik puteklis vi\u0146. A da Malnajai jiurai reiz jau jei beja aizakiuluse \u2013
+  ar vysu naredzie\u0161onu i tim p\u012bcim vuordim, k\u016b prota kr\u012bvyski.\\nGol\u0101,
+  kai spieru aiz dusmem pa durovom, \u2013 po\u0161a puorsabeidu. Zuoboks gondrei\u017e
+  \u012bspryuda caurum\u0101. Izbuo\u017eu r\u016bku cauri i pacie\u013cu nu \u012b\u0161kpusis
+  izlykt\u016b krampi. Baba pat laikam puoruok naizabrein\u0113ja, kod pie\u0161ki
+  jau stuovieju ustobys vyd\u0101. Ko\u010d vyspuor jei b\u012b\u017ei sasabeida,
+  ka kaids kluse\u0146om beja dasalaviejs kluotu. Tai i dzeivuojom puors d\u012bnu
+  ar caurumu durovuos, cikom atbrauca t\u0113te. Kod jis vaicuoja, kai tai gadej\u012bs,
+  es tik paraustieju placus. Par caurumu durovuos babai nivins nikod tai ari napastuosteja.\"",
+  "\"Roksta autore: Digne \u016adre, LU LFMI Latv\u012b\u0161u folklorys kruotuve,
+  zynuotniskuo asistente\\nKat\u016b\u013cticeibys simbols Latgol\u0101 \u2013 ce\u013cmolu
+  krysti\\nLatgolys kulturainovys tipiskuokais i reiz\u0113 kat\u016blisk\u016b ide\u0146titati
+  apl\u012bcynoj\u016b\u0161ais Latgolys kulturainovys elements ir ce\u013cmolu krysti
+  aba uora krucifiksi. T\u012b atsar\u016bn breiv\u0101 dob\u0101 vysaiduos v\u012btuos:
+  ce\u013cu moluos i krystce\u013c\u016bs, s\u0101d\u017eu centr\u016bs i pi v\u012bns\u0101tom,
+  bazneicom i kops\u0101tom. Taipo\u0161 vysaids ir ari ce\u013cmolu krystu vizualais
+  t\u0101ls, muokslin\u012bciskais i tehniskais izpi\u013cdejums \u2013 nu atsevi\u0161ku,
+  breivi stov\u016b\u0161u k\u016bka krystu leidz krucifiksim, kas n\u016bv\u012btuoti
+  n\u016bjum\u0113s, \u012b\u017e\u016bguoti ar siete\u0146u ci kolonnom i lob\u012bkuortuotu
+  apleicej\u016b vidi.\\nCe\u013cmolu krysti skaitomi par sakraluos arhitekturys objektim,
+  kur\u016bs apsav\u012bnuoju\u0161ys religiskuos muokslys vierteibys i tautys amatn\u012bceibys
+  prasmis. T\u012b apl\u012bcynoj kat\u016blisk\u016b tradiceju funkcionie\u0161onu
+  tautys vid\u0113 i atsp\u012bge\u013coj Latgolys specifiskuos tradicejis, kas veidoju\u0161uos
+  viesturisku apstuok\u013cu i cylv\u0101ku mej\u012bdarbeib\u0101 i puormontuotys
+  nu paaudzis paaudz\u0113.\\nKulturys montuojums ir cylv\u0101ka gareiguos darbeibys
+  l\u012bceiba material\u0101 voi namaterial\u0101 form\u0101. Latgolys ce\u013cmolu
+  krysti ir kulturys p\u012bminekli, kur\u016bs radzami sasateik materialais i namaterialais
+  kulturys montuojums. Senejuok\u012b krucifiksi globoj vierteigys l\u012bceibys par
+  Latgolys \u012bdzeivuotoju amatn\u012bceibys i k\u016bktieln\u012bceibys prasmem,
+  bet ituo montuojuma namaterial\u012b aspekti atsakluoj arvi\u0146 praktizeitaj\u0101
+  maja dz\u012bduojumu tradicej\u0101.\\nMaja dz\u012bduojumi\\nMaja dz\u012bduojumi
+  aba maja breivdobys d\u012bvakolpuojumi ir tradiceja, kas p\u0101dej\u016bs god\u016bs
+  \u012bmontoj arvi\u0146 leluoku atpazeistameibu na vi\u0146 Latgol\u0101, bet ari
+  cytv\u012bt Latvej\u0101. Dz\u012bduojumi teik skaiteiti par Latgolai i Aug\u0161zemei
+  rakstureigu tradiceju, bet dz\u012bduots pi krystim teik ari K\u016brzemis pus\u0113
+  pi suitu i nu 2015. goda ari Reig\u0101, Latvejis Etnografiskaj\u0101 breivdobys
+  muzej\u0101. Radio \u201cMarija\u201c translacejis dz\u012bduojumu klausei\u0161on\u016bs
+  n\u016bdr\u016bsynoj ari t\u012b\u0161aj\u0101 eter\u0101.\\nK\u016bp\u0101 ar myru\u0161\u016bs
+  oficeju Latgol\u0101 i Aug\u0161zem\u0113 maja dz\u012bduojumi ir \u012bk\u013cauti
+  Latvejis kulturys kanon\u0101. Ituos tautys religejis praksis aizsuokumi Latgol\u0101
+  meklejami 19. godu symta \u016btraj\u0101 pus\u0113. Maja miene\u0161a rituali par
+  g\u016bdu jumprovai Marejai \u012btver sev\u012b vairuokus aspektus: religisku p\u012bredzi,
+  muzykalu baudejumu i socializie\u0161on\u016bs v\u012btej\u0101 k\u016bp\u012bn\u0101.\\nLai
+  ari pasaruoda ba\u017eys par tradiceju puormontuo\u0161onu jaunuok\u016bs paaud\u017eu
+  vyd\u0101, tai p\u012bv\u0101rstuo namaterialuo kulturys montuojuma pietn\u012bku,
+  kai ari oficialuos bazneicys viereiba i i\u0146terese aktualizej it\u016b vaicuojumu.
+  Par lobu tradicejis dzeivuotspiejai l\u012bcynoj ari aizvi\u0146 nu jauna veiduot\u012b
+  \u012bsvieteit\u012b ce\u013cmolu krysti.\\nIr \u012brosts ce\u013cmolu krystus
+  apsav\u0113rt kai Latgolys kulturys montuojumu, vystik t\u016bs n\u016bzeime akcentejama
+  ari Latvejis m\u0101r\u016bg\u0101. Kotrs Latvejis regions ar sovys kulturainovys
+  sovdabeibu veidoj k\u016bpej\u016b Latvejis kulturys montuojumu. Par kulturys montuojuma
+  aizsardzeibu, praktisku saglobuo\u0161onu i izpieti Latvej\u0101 ryupej\u0101s Va\u013csts
+  kulturys p\u012bminek\u013cu aizsardzeibys inspekceja.\\nKulturys p\u012bminek\u013ca
+  aizsardzeiba Latvej\u0101\\nEiropys Pad\u016bmis Vyspuorej\u0101 konvencej\u0101
+  par kulturys montuojuma vierteibu sab\u012bdreibai (2005) kulturys montuojums teik
+  defin\u0101ts kai uzkruotu resursu k\u016bpums, kas sajimts montuojum\u0101 nu paguotnis
+  i kas naatkareigi nu p\u012bdereibys individa i sab\u012bdreibys uztver\u0113 teik
+  skaiteits par vierteibu, puorl\u012bceibu, zynuo\u0161onu, tradiceju atsp\u012bge\u013cuotuoju
+  i paudieju. Tys \u012btver ari vidi, kas izaveiduojuse cylv\u0101ku i v\u012btu
+  mej\u012bdarbeib\u0101, laikam \u012bm\u016bt. Saska\u0146\u0101 ar itaidu montuojuma
+  izpratni dorboj\u0101s Va\u013csts kulturys p\u012bminek\u013cu aizsardzeibys inspekceja
+  (VKPAI). Tei struodoj sab\u012bdreibys i\u0146teres\u0113s \u2013 apzynoj, aizsorgoj
+  i pietej kulturys montuojumu, \u2013 kab saglobuotu t\u016b nuoku\u0161om paaudzem
+  kai n\u016bzeimeigu cylv\u0101ka dzeivis kvalitatis faktoru.\\nLai ari ideja par
+  kulturys montuojuma aizsardzeibu ir senuoka, pamats kulturys p\u012bminek\u013cu
+  t\u012bsiskajai aizsardzeibai tyka radeits 1923. god\u0101, p\u012bjem\u016bt lykumu
+  par kulturys p\u012bminek\u013cu aizsardzeibu. Tym\u0101 po\u0161\u0101 god\u0101
+  tyka izveiduota P\u012bminek\u013cu va\u013cde \u2013 pyrmuo speciali kulturys p\u012bminek\u013cu
+  aizsardzeibai paredz\u0101tuo instituceja Latvej\u0101. Kab n\u016bdr\u016bsynuotu
+  kulturys montuojumu aizsardzeibu, tyka izveiduots aizsorgojam\u016bs p\u012bminek\u013cu
+  saroksts, pyrm\u016b obejektu tym\u0101 \u012bk\u013caun\u016bt 1924. god\u0101.\\nMysu
+  d\u012bnuos VKPAI turpynoj veiduot kulturys p\u012bminek\u013cu uzskaitis sarokstu.
+  Kotram objektam teik da\u0161kierts aizsardzeibys numers, \u012bdol\u016bt t\u016bs
+  grupuos \u2013 v\u012btejuos voi va\u013csts n\u016bzeimis p\u012bmineklis. \u012adalejums
+  teik veiduots ari pa tipim, izdol\u016bt arheologejis, arhitekturys, industrialuos
+  pi\u013cs\u0101tbyuvn\u012bceibys, viesturis i viesturisk\u016bs n\u016btykumu v\u012btys
+  p\u012bminek\u013cus.\\nIt\u016bbreid va\u013csts aizsorguojom\u016bs kulturys p\u012bminek\u013cu
+  sarokst\u0101 \u012bk\u013cauti vaira kai 9000 objektu. Kulturys p\u012bminek\u013cu
+  aizsardzeibu n\u016bdr\u016bsynoj VKPAI p\u012bcys regionaluos n\u016bdalis. Latgolys
+  regiona n\u016bda\u013ca atsar\u016bn R\u0113zekn\u0113. VKPAI ir atv\u0101rta dialogam
+  ar sab\u012bdreibu i tuos leidzadaleibu. \u012ar\u016bsynuojums par kaida objekta
+  \u012bk\u013cau\u0161onu va\u013csts aizsorgojam\u016bs kulturys p\u012bminek\u013cu
+  sarokst\u0101 var \u012bt nu sevkurys \u012bi\u0146teres\u0101tys personys.\\nAr
+  n\u016b\u017e\u0101lu juop\u012bzeist, ka Latgolys ce\u013cmolu krysti ir puorstuov\u0101ti
+  vi\u0146 ar treis objektim. 1998. god\u0101 va\u013csts aizsorgojam\u016bs kulturys
+  p\u012bminek\u013cu sarokst\u0101 kai va\u013csts n\u016bzeimis arhitekturys p\u012bmineklis
+  tyka \u012bk\u013cauts Leimani\u0161\u0137u krucifikss (Nr. 6131), kas atsar\u016bn
+  R\u0113zeknis n\u016bvoda Ka\u0146tin\u012bku pogost\u0101. 2015. god\u0101 sarokst\u0101
+  tyka \u012bk\u013cauti v\u0113\u013c diveji objekti kai v\u012btejuos n\u016bzeimis
+  arhitekturys p\u012bminekli nu R\u0113zeknis n\u016bvoda Feima\u0146u pogosta \u2013
+  Feima\u0146u krucifiksa n\u016bjume (Nr. 9091) i obelisks \u201cKrusta nes\u0113js\u201d
+  (Nr. 9092). Feima\u0146u krucifikss ir lobs p\u012bm\u0101rs tam, cik byutiskys
+  kriterijs kaida objekta \u012bk\u013cau\u0161onai va\u013csts aizsorgojam\u016bs
+  p\u012bminek\u013cu sarokst\u0101 ir tuo aute\u0146tiskums. Va\u013csts aizsardzeib\u0101
+  it\u016bbreid atsar\u016bn Feima\u0146u krufiksa n\u016bjume i obelisks, bet na
+  pats Kristus t\u0101ls, part\u016b ka tuo originals 1990. god\u0101 aizstuots ar
+  k\u016bktieln\u012bka Ontona Ranc\u0101na veiduotu dorbu. Kulturys p\u012bminek\u013cu
+  saglobuo\u0161onys byuteiba ir tuo pastuovei\u0161onys paildzynuo\u0161ona aute\u0146tisk\u0101,
+  namaineit\u0101 veid\u016bl\u0101, piec \u012bspiejis vairuok sagoloboj\u016bt nu
+  tuo originaluos substa\u0146cis. V\u012bns nu apdraudejumu kulturys p\u012bmineklim
+  var byut nakvalitativi renovacejis dorbi. Senejuok\u012b k\u016bktieln\u012bceibys
+  dorbi prosa eipa\u0161ys prasmis i zynuo\u0161onys. De\u013ctam VKPAI aizdavums,
+  sasadorboj\u016bt ar kulturys p\u012bminek\u013cu eipa\u0161n\u012bkim, ir veicynuot
+  iz tradicejom ba\u013csteitu meto\u017eu, materialu i \u012bma\u0146u izmontuo\u0161onu,
+  apzynoj\u016bt \u012bspiejis tuos l\u012btuot myusu d\u012bnuos.\\nKurpin\u012bku
+  krucifikss ce\u013c\u0101 iz \u012bk\u013cau\u0161onu aizsorgojum\u016bs kulturys
+  p\u012bminek\u013cu sarokst\u0101\\nKulturys montuojums Latvej\u0101 ir daudz pla\u0161uoks
+  nakai sarokst\u0101 \u012bk\u013cautais, i dorbs pi tuo apzynuo\u0161onys namiteigi
+  turpynoj\u0101s. Ituo goda jun\u012b VKPAI ir suokta dorbu n\u016brise, kab va\u013csts
+  aizsorgojam\u016bs kulturys p\u012bminek\u013cu sarokst\u0101 tyktu \u012bk\u013cauts
+  Kurpin\u012bku krucifikss ar n\u016bjumi, kas atsar\u016bn R\u0113zeknis n\u016bvoda
+  Rykovys pogosta Kurpin\u012bk\u016bs.\\nKurpin\u012bku krucifikss sovu atpazeistameibu
+  \u012bmontuojs vairuoku \u012bmaslu de\u013c. Vysupyrms jau ar tuo vizual\u016b
+  t\u0101lu \u2013 krysta n\u016bjume ar boltom kolonnom skaisti \u012bsak\u013caun
+  apleicej\u0101 lauku ainov\u0101, veidoj\u016bt domina\u0146ti, kas pamonoma jau
+  nu attuoluma. P\u012bminie\u0161onys v\u0101rts ir ari fakts, ka pi ituo krucifiksa
+  fi\u013cmeitys ainys nu Juo\u0146a Strei\u010da 1991. god\u0101 uzjimtuos kinys
+  \u201cCilv\u0113ka b\u0113rns\u201d. Kina veiduota piec Juo\u0146a Kl\u012bdz\u0113ja
+  taida po\u0161a n\u016bsaukuma romana motivu, i \u012bspiejams, ka ituo ce\u013cmolys
+  krysta izviele nav bejuse najau\u0161a, part\u016b ka k\u016bk\u0101 veiduotais
+  Kristus t\u0101ls sovulaik as\u016bt atsarads Juo\u0146a Kl\u012bdz\u0113ja dzeda
+  Donata Kl\u012bdz\u0113ja s\u0101tys pogolm\u0101. Pla\u0161uokys zinis par Kurpin\u012bku
+  krucifiksu sov\u0101 gruomot\u0101 \u201cKok\u0101 cirst\u0101s cie\u0161anas. Krucifiksi
+  Latgales ainav\u0101\u201d sn\u0113dzs k\u016bktieln\u012bks Ontons Ranc\u0101ns.\\nKurpin\u012bku
+  krucifiksa ansambli veidoj bolti kruosuota myura n\u016bjumeite ar skuorda jumtu.
+  Storp n\u016bjumis kolonnom \u012breikuots k\u016bka n\u016b\u017e\u016bguojums
+  ar vuortenim. N\u016bjumis vyd\u0101 n\u016bv\u012btuots masivs \u016bzulk\u016bka
+  krysts, kura gol\u016bs atsar\u016bn virpuotys k\u016bka l\u016bdis. Krystam p\u012bstyprynuots
+  1898. god\u0101 veiduots Kristus t\u0101ls nu k\u016bka. Pi n\u016bjumis aizmugurejuos
+  s\u012bnys pa kreisi atsar\u016bn Kristus, pa labi \u2013 Jumprovys Marejis sv\u0101tbi\u013cde.
+  \u012ak\u0161pus\u0113 nalels ga\u013cde\u0146\u0161 i s\u016ble\u0146\u0161. Krucifiksa
+  apleic\u012bne ir lab\u012bkuortuota i sak\u016bpta, \u012bk\u0161telpa r\u016btuota
+  ar muoksleigim z\u012bdim. Nu k\u016bka veiduotais Kristus t\u0101ls ir uzskotoms
+  p\u012bm\u0101rs tautys amatn\u012bceibys prasmem, lob\u012bkuortuotuo n\u016bjume
+  l\u012bcynoj par tradicejis dzeivuotspieju i aktualitati ari myusu d\u012bnuos,
+  bet k\u016bpejais ce\u013cmolys krysta ansamblis demonstrej kristeig\u016bs tradiceju
+  funkcionie\u0161onu taut\u0101 Latgolai rakstureig\u0101 veid\u0101.\\nOntons Ranc\u0101ns
+  n\u016bruoda, ka leidz ar Latvejis Tre\u0161uos atm\u016bdys laiku Kurpin\u012bku
+  krucifiksa n\u016bjumeiti sak\u016bps i atjaunuojs natuoli dzeivoj\u016b\u0161ais
+  zemn\u012bks Osvalds Salmanis. Itys p\u012bm\u0101rs apl\u012bcynoj kulturys montuojuma
+  vierteibu.\\nKulturys p\u012bminek\u013cu aizsardzeibys sistemai ir juokolpoj cylv\u0101kim
+  i sab\u012bdreibai, tei nav radeita, lai \u012br\u016bbe\u017euotu. Vystik juon\u016bruoda,
+  ka kulturys p\u012bminek\u013cu statuss var byut zynoms apgryutynuojums tuo eipa\u0161n\u012bkim.
+  Nare\u0161i kulturys p\u012bminekli \u012btver na vi\u0146 po\u0161u objektu, bet
+  ari vidi ap t\u016b. P\u012bmineklim juobyun n\u016bdr\u016bsynuotai publiskai p\u012bejameibai
+  i natrauc\u0101tai vizualai apskatei, de\u013ctam kotram nu tim teik n\u016bteikta
+  aizsardzeibys zona. Tai teik n\u016bdr\u016bsynuota pasorguo\u0161ona nu naatbylst\u016b\u0161ys
+  apbyuvis voi cytom p\u012bminekli degradej\u016b\u0161om darbeibom tuo tyvuokaj\u0101
+  apleic\u012bn\u0113. Kulturys p\u012bminek\u013cu saglobuo\u0161onai juobyun saisteitai
+  ar cylv\u0101ka dzeivis kvalitatis ce\u013c\u0161onu, i par p\u012bminekli juop\u012bzeist
+  taidi objekti, kuri ir n\u016bzeimeigi sab\u012bdreibys ac\u012bs. Nav \u0161aubu,
+  ka Latgolys ce\u013cmolys krysti taidi ir.\\nNa tikai Kurpin\u012bku krucifiksa,
+  bet ari daudzu cytu Latgolys ce\u013cmolu krystu \u012bk\u013cau\u0161ana va\u013csts
+  aizsorgojam\u016bs kulturys p\u012bminek\u013cu sarokst\u0101 ir pamats kulturviesturisku
+  vierteibu saglobuo\u0161onai ilgterme\u0146\u0101. Va\u013csts aizsorgojamuo kulturys
+  p\u012bminek\u013ca statusa p\u012b\u0161kier\u0161ona ir ituo objekta vierteibys
+  manifestaceja, kas reiz\u0113 ar tradicejis funkcionie\u0161onu i atteisteibu t\u016bm\u0101r
+  n\u016bdr\u016bsynoj sovys poguotnis sasn\u0101gumu g\u016bdynuo\u0161onu. Latgolys
+  ce\u013cmolu krysti ir da\u013ca nu k\u016bpejuo Latvejis kulturys montuojuma. Itys
+  montuojums ir myusu atbi\u013cdeiba, myusu aizdavums ir t\u016b saglobuot i n\u016bd\u016bt
+  l\u012btuo\u0161on\u0101 nuoku\u0161om paaudzem.\\nKartenis: Kurpin\u012bku krucifikss,
+  D. \u016adre\\nKomentari sl\u0101gti.\"", "\"R\u0113zekn\u0113 dzejiskys sarunys
+  ar Ingr\u012bdu T\u0101raudu\\nIz sasatik\u0161onu R\u0113zekn\u0113 aicynoj \u012arej\u0101
+  dzeivoj\u016b\u0161uo latgal\u012b\u0161u dzejneica Ingr\u012bda T\u0101rauda. Decembr\u012b
+  izguoja juos cat\u016brtais dzej\u016b\u013cu kruojums \u201cP\u0113rl\u012btes
+  zem k\u0101j\u0101m/Bisers zam kuoju\u201d, tym\u0101 apk\u016bpuoti dzej\u016bli
+  latgal\u012b\u0161u i latv\u012b\u0161u literaraj\u0101 vol\u016bd\u0101.\\nSasatik\u0161ona
+  ar dzejneicu n\u016btiks 20. mart\u0101 14.00 stu\u0146d\u0113s Latgolys Kulturviesturis
+  muzej\u0101 (R\u0113zekne).\\nIngr\u012bda T\u0101rauda stuosta, ka gruomotys n\u016bsaukums
+  bejs izd\u016bmuots jau godus desmit, bet tam \u201capak\u0161\u0101\u201d as\u016b\u0161\u012b
+  dzej\u016bli tyka \u012bpr\u012bk\u0161ej\u0101 kruojum\u0101 \u201cBoltais \u0161okolads\u201d
+  (2012), bet da\u017ei \u2013 par biseri \u2013 beja aizagivu\u0161i nikur napublic\u0101ti
+  i pyrma p\u012bcu godu suoce apaugt ar cytim dzej\u016blim, cikom beigbeiguos \u201cBisers..\u201d
+  tyka da logiska iznuokuma. \u201cD\u016bmoju, ka sovu stilu laika gait\u0101 i sovu
+  \u201cingridismu\u201d naasu pagaisynuojuse, par t\u016b, sapr\u016btams, spr\u012bss
+  skaiteituojs,\u201d soka Ingr\u012bda.\\n\u201cGruomotys izd\u016b\u0161onys ce\u013c\u0161
+  nabeja v\u012bgls \u2013 sponsori, konkursi i tamleidzeigai, vyss beidz\u0113s drei\u017euok
+  kai izd\u016bmuoju, bet gruomotai beja juoiz\u012bt tai\u0161ni itym\u0101 laik\u0101,
+  kab pasp\u0101tu pasaceit pa\u013cdis munim vystyvuokajim \u2013 eipa\u0161i munai
+  pyrmajai vyslaiku kritikei \u2013 mamai. Jei sagaideja it\u016b gruomate\u0146u!\u201d
+  par gruomotys izd\u016b\u0161onu atkluoj autore.\\nDzej\u016bli nu I. T\u0101raudys
+  jaunuokuo dzejis kruojuma \u201cP\u0113rl\u012btes zem k\u0101j\u0101m/Bisers zam
+  kuoju\u201d.\\n***\\ntu navaicoj manis kur pazuda\\np\u0101dejais spaits\\naiz tuo
+  zora i smylgu da\u0146\u010d\u016bs\\ntevi m\u012b\u013cuoju puori sirds lylumam\\npuori
+  laikam i n\u016blikteibai\\nniule cytus ce\u013cus \u012bsim\\ni dzaltonys p\u0101rkiunis
+  p\u0101rkiu\u0146uos\\ntai vajag\\n***\\n..rudi\u0146a n\u016bkruosu pylnys\\nleita
+  lasis\\nleist leist leist\\naiz ma\u0161ynys l\u016bgu\\ngleznu reprodukcejis\\nkolnu
+  viersyu\u0146u i da i na\\nkuopt pa i nu\\n**\\nmuokuli daradynuoti\\nkai pyukalaini
+  luocei\u0161i\\naiz manis\\ntyvuok tyvuok\\nzamuok zamuok\\nbolti bolti\\nar pal\u0101ku
+  traipu pa vydu\\ndasaucu tevi breinumus\\nv\u0113rt\u012bs\\npajimt dalnuos i sapyust
+  elp\u0101\\niz vysu pu\u0161u\\nnikas tovuos skr\u016bpstuos\\nnan\u016btreis\\nVaira
+  dzej\u016b\u013cu rokst\u0101 \u201cDZEJA. T\u0101raudu Ingrida: \u201c..ka var
+  byut i tai\u201d\u201d.\"", "\"Sab\u012bdrisk\u016bs medeju sv\u0101tku studej\u0101
+  Reig\u0101 ar dz\u012bsmem gost\u016bs Prei\u013cu folklorys k\u016bpa \u201eR\u016btoj\u201d
+  ar vadeituoju Ilzi Valaini, komponiste, Latgolys viestn\u012bceibys \u201eGors\u201d
+  Muokslin\u012bciskuos i pasuokuomu dalis vadeituoja, kora \u201eEzerzeme\u201d dalineica
+  Ilona Rupaine, Norvegejis latgal\u012bte, Norvegejis latv\u012b\u0161u kora \u201eLaipa\u201d
+  dalineica Ilga \u0160v\u0101ne, folklorys dz\u012b\u0161mu i deju k\u016bpys \u201eSv\u0101tra\u201d
+  dalin\u012bki Inese i Oskars Zu\u0123icki.\\nPar latgal\u012b\u0161im i latgalisk\u016b
+  27. Vyspuorej\u016bs latv\u012b\u0161u Dz\u012b\u0161mu i 17. Deju sv\u0101tk\u016bs,
+  sajiutom i p\u012bdzeivuot\u016b.\\n\u201eSajiutys ir breineigys, ir spiedums ac\u012bs
+  i taida \u012bdviesme jaunim dorbim. Vysleluokais ir tys, ka tu atbrauc iz Latveju
+  i ite sateic vysus sovus lob\u016bs draugus i pazinis. Tys sajiutys padora v\u0113\u013c
+  breineiguokys,\u201d\\ntai p\u012bzeist Norvegejis latv\u012b\u0161u kora \u201eLaipa\u201d
+  dalineica Ilga \u0160v\u0101ne.\\nKaidam juobyut dz\u012b\u0161mu sv\u0101tku repertuaram
+  \u2013 muokslin\u012bciski augstvierteigam i sare\u017egeitam voi juodz\u012bd vaira
+  vysim zynomus dz\u012bsmis, vaicuojom komponistei Ilonai Rupainei.\\n\u201eVysam
+  juobyut leidzsvor\u0101. Repertuar\u0101 juobyut dz\u012bsmem, kas ir vysim zynomys,
+  tyma skait\u0101 tautysdz\u012bsmis. Mes te, \u0161kol\u0101, runuojom ari par t\u016b,
+  ka nu nui, cik var dz\u012bduot \u201eKraukl\u012bts s\u0113\u017e ozol\u0101\u201d
+  voi ari \u201eR\u012bga dimd\u201d, voi cytys, bet mes ari sapr\u016btam, ka ari
+  myusu kor\u012b ir daudz jaun\u012b\u0161u, kuri pyrm\u016b reizi dz\u012b\u017e
+  sv\u0101tk\u016bs i kuri zyna pyrm\u016b pantu, tuo\u013cuok j\u012b nazyna. Paaudzis
+  n\u016bsamej i kotrai jaunai paaudzei itei byus kai pyrmuo tautysdz\u012bsme, kuru
+  j\u012b \u012bsavuiceis. Tys ir v\u012bns. Sovpus par tom sare\u017egeitajom dz\u012bsmem
+  ir tai, ka kors suokum\u0101 pukst i nasapr\u016bt, redz\u012bs, ka gryuts i tai,
+  tai beja ari, par p\u012bm\u0101ru, koncert\u0101 \u201eT\u012brums. Dziesmas ce\u013c\u0161\u201d
+  skanieja J\u0113kaba Jan\u010devska \u201eKoki\u201d, par kuru beja tik daudzi sarunu.
+  Tik gryuta dz\u012bsme i kai mes j\u016b niu izdz\u012bduosim, tik daudzi vysaidu
+  paviers\u012b\u0146u, modulaceju i zeimu. Sovpus koncert\u0101 itei beja v\u012bna
+  nu viersyu\u0146u, kai ma\u0146 redz\u012bs. Leidzsvors, tys ir tys, par k\u016b
+  juod\u016bmoj.\u201d\\nIeteikt\\nLatvijas Radio aicina izteikt savu viedokli par
+  raid\u012bjum\u0101 dzird\u0113to un atbalsta diskusijas klaus\u012bt\u0101ju starp\u0101,
+  tom\u0113r patur ties\u012bbas dz\u0113st koment\u0101rus, kas p\u0101rk\u0101pj
+  cie\u0146pilnas attieksmes un \u0113tiskas r\u012bc\u012bbas robe\u017eas.\\nPievienot
+  koment\u0101ru\\nPievienot atbildi\\nLai koment\u0113tu, ien\u0101c ar\u012b ar
+  savu draugiem.lv, Facebook vai X profilu!\"", "\"Radio raid\u012bjumi\\nTaps tautyst\u0101rpu
+  fotoprojekts \\\"Piecgar\u0161a\\\"\\n02.07.2024Storptautyskuos lid\u016bstys \\\"Reiga\\\"
+  apmakl\u0101tuojus pr\u012bcynoj b\u012bdreibys \u201cLatgolys etnografiskuo viestn\u012bceiba\u201d
+  organiz\u0101tais tautyst\u0101rpu fotoprojekts \\\"Piecgar\u0161a\\\". Izstuode
+  Reig\u0101 ir starts vasalai streipei it\u016bgod paradz\u0101t\u016bs fotoizstuodis
+  n\u016btik\u0161onu, kur fotoprojekts, tikai apj\u016bmeiguoks I v\u0113\u013c vierteiguoks
+  brauks iz Daugavpili, R\u0113zekni I cytur\u012bni.\\nPar projekta gaitu i tautyst\u0101rpa
+  volkuo\u0161onys kulturu stuosta \u201cLatgolys etnografiskuo viestn\u012bceibys\u201d
+  vadeituoja Iveta Seimanova.\\nRaidejums Pi myusu Latgol\u0101\u201d par Latgolys
+  regiona socialekonomiskajim vaicuojumim n\u016bzeimeigom sab\u012bdryski politiskom
+  t\u0113mom skan \u016btardin\u0113s 9.30 stu\u0146d\u0113s ar atkuortuojumim tre\u0161din\u0113s
+  10.30 i cat\u016brtdin\u0113s 13.30.\\nSovut\u012bs Kulturys n\u016btik\u0161onu
+  apskots dzier\u017eams \u201cDivu krastu radio\u201d eter\u0101 kotru cat\u016brtd\u012bni
+  16.30 stu\u0146d\u0113s ar atkuortuojumim p\u012bktdin\u0113s p\u013ckst. 8.30 i
+  13.30, kai i sastdin\u0113s 9.30.\\nRaidejumi teik puorraideiti ari radej\u0101
+  \u201cEf-Ei\u201d \u2013 \u016btartdin\u0113s 18.30, sovpus Kulturys n\u016btik\u0161onu
+  apskots cat\u016brtdin\u0113s 16.30 ar atkuortuojumu p\u012bktdin\u0113s 8.30 i
+  18.30.\\nRaidejumu klausit\u0113s ITE.\\nRadejis raidejumi n\u016bsaklausami portal\u016bs
+  daugavpilszinas.lv i rezekneszinas.lv, kai ari \u201cDivu krastu radio\u201d social\u016b
+  teiklu platform\u0101 \u201cFacebook\u201d.\\nProjektu finansej Medeju atbolsta
+  fonds nu Latvejis va\u013csts bud\u017eeta leidzek\u013cim.\\n#SIF_MAF2024\\nPar
+  raidejumu saturu atbi\u013cd projekta eistynuotuojs \\\"Divu krastu radio\\\"\\nPievienot
+  koment\u0101ru\\nLasiet v\u0113l\\nNed\u0113\u013cas skaitlis\\nDaugavpils siltumt\u012bkli:
+  paredz\u0113ts, ka no 1.maija pa\u0161reiz\u0113jais tarifs 81,13 EUR/MWh saruks
+  l\u012bdz 65,86 EUR/MWh.\\nApspriest\\nAptauja\\nP\u0113c k\u0101diem krit\u0113rijiem
+  J\u016bs izv\u0113laties produktus?\\nJaun\u0101kie koment\u0101ri:\\nKapusv\u0113tki
+  Daugavpils novada draud\u017eu kaps\u0113t\u0101s\\nDaugavpil\u012b pieauga simtgadnieku
+  skaits\\nTam minusotajam padoms.ja juns nepatik neviens mans komentars tak ludzu
+  nelasiet.tak nav spiesta lieta.ir tak citi portali ko lasit.es personigi konentarus
+  helasu vairs neviena portaaa..man tie neinteresee... S\u012bk\u0101k...\\nIepaz\u012bsti
+  Daugavpili aizraujo\u0161\u0101 ekskursij\u0101 bez maksas\\nManai draudzenei berniba
+  pagaja latgalee...ar kadu interesi es klausos vinas stastos..vina pec tehnikuma
+  beigsanas tija nosuutita uz zemgali darbaa tur aprevcejas..bet lai kur cilveks hedzivotu
+  latgaluesu sirsniba izpaludziba un krietnums nepazud. diakekts un latgaluesu daba
+  .vinai tur ir zemes ipasums bet majas vairs nav un cilveki viens no otra dzivo vairaku
+  km attalumaa..vina aizbrauc pue radiem uz kapusvetkiem..tie tur cienaa.apbrinoju
+  tos cilvekus kuri apciemo savu dzimto novadu un vietu..to hedrikst sirdii pazaudet..jo
+  tad tu pazaudee pats sevi. S\u012bk\u0101k...\"", "\"Ligita Spridz\u0101ne\\nLigita
+  Spridz\u0101ne dzymuse 1979.goda 6.mart\u0101 Juo\u0146a i Leont\u012bnes Spridz\u0101nu
+  kuplej\u0101 5 b\u0101rnu saimie. Ligita ir videjuo nu muosuom, kuo ari jai ir diveji
+  vacuoki bruo\u013ci. Ligita pate ar\u012b ir p\u012bcu b\u0101rnu mamma. Mamma divejuom
+  meituom i treis d\u0101l\u012bm.\\nVyd\u0161kolas izgl\u012bteibu \u012bguvuse Rekavas
+  vyd\u0161kol\u0101. Pyrmuo r\u016bkdorbu \u0161koluotuoja beja Ausma Ivanova, kas
+  \u0161kol\u0101 muoceja iz\u0161yut, adiet, tamburiet, kuo ari \u012bmuoceja t\u016b,
+  ka sas\u012btu mazglu ai lylu pac\u012bteibu i m\u012bru var atbreivuot i dabuot
+  valie, kuo ari t\u016b, ka mazgli s\u012bnuos dorb\u0101 kuram byus p\u012bkri\u0161ona.
+  Pyrmuos au\u0161onas \u012bma\u0146as pamat\u0161kolas p\u016bsm\u0101 \u012bgiva
+  nu Domicellas Buk\u0161as, kas vadeja au\u0161onas pulcini, kur tyka n\u016bausta
+  ar irisa i k\u016bkvylnas d\u012bg\u012bm kruosaina golda sedzine. Vyd\u0161kol\u0101
+  Ligita \u012bzamuoceja pie Anitas \u0160akinas (t\u0101din Pu\u017eules) ari \u0161yviejas
+  profesiju i sa\u0146ieme sovu pyrm\u016b \u0161yviejas kvalifikaceju. Muoc\u016bt\u012bs
+  \u0161yut Ligita saprota, ka \u012bceres, kas ir tov\u0101 golv\u0101 tu vari eistynuot
+  pats, tuod\u0101 veid\u0101 tikt pi jauna \u0161muka un eipo\u0161a apgierba. Vyd\u0161kolas
+  laik\u0101 tyka sa\u0161yuti \u017eetonu vokaram kostims i vyd\u0161kolas izlaiduma
+  t\u0101rps i pat sa\u0161yuts miete\u013cs izmontoj\u016bt sovas babas Em\u012blijas
+  Lo\u010dmeles mieteli i lylu r\u016btain\u016b lokatu.\\nPiec vyd\u0161kolas beig\u0161onas
+  \u012bzastuoja Latvejas Sporta Pedagogejas akademij\u0101 sliepo\u0161onas katedr\u0101,
+  kur izavieleja muociet\u012bs t\u016brismu. T\u012b jei \u012bgiva interesantu p\u012bredzi
+  n\u016bmet\u0146u organizie\u0161on\u0101. L\u012b\u010dupie k\u016bp\u0101 ai pasniedzeju
+  Arnoldu Br\u016bveru LSPA studenti organizeja da\u017euodas tematiskas n\u016bmetnes
+  b\u0101rnim. Itei p\u012bredze c\u012b\u0161i labi n\u016bder ari Ligitas t\u0101dinej\u0101
+  dorb\u0101 struodoj\u016bt Namaterialuos kulturas montojuma centr\u0101 \u201cUp\u012bte\u201d
+  organizej\u016bt d\u012bnas i nakts tras\u012btes i uznam\u016bt gostus i t\u016bristus,
+  kas brauc iz Up\u012bti \u012bzapazeit ai Up\u012btes kulturtelpu i aktivitatiem,
+  kas veidoj Up\u012btes vidi. LSPA napabeidz\u016bt, Ligita \u012bzastuoja LU PPF
+  (Latvejas Universitates pedagogejas i psihologejas fakultatie) i \u012bgiust muojtur\u012bbas,
+  muojsaimn\u012bc\u012bbas i kulturas viestures \u0161koluotoja kvalifikaceju. LU
+  au\u0161onas prasmes tyka papyldynuotas pi pasniedzejas Daces Pud\u0101nes. Kuo
+  diplomdorbu temu izavieleja izpietiet celai\u0146u au\u0161onas viesturi i tradicejas
+  Z\u012bme\u013clatgalie (\u201cDzimt\u0101 Zieme\u013clatgales novada au\u0161anas
+  trad\u012bciju izp\u0113te un jostu au\u0161anas tehnikas apguve 8.klas\u0113 m\u0101jtur\u012bb\u0101,
+  m\u0101jsaimniec\u012bb\u0101 un tehnolo\u0123ij\u0101s\u201d, 2007.god\u0101 pi
+  diplomdorba vadietojas M\u0101r\u012btes Kokinas Lilo) Interesanti tys, ka pa temas
+  izpietes laiku pi Ligitas n\u016bnuok kaimi\u0146\u016bs dzeivoju\u0161uos Marijas
+  Buk\u0161as (17.06.1917.-19.08.2011.) au\u017eom\u012b stuovi, kur moza byudama,
+  draudzej\u016bt\u012bs ai Marijas mozmeituom beja redziejuse, kuo Marija au\u017e.
+  Jei beja moza auguma s\u012bve\u0146a, kas sov\u0101 au\u017eom\u016b stuovu ustob\u0101
+  siedeja sov\u016bs au\u017eamej\u016bs stuov\u016bs, kuo princese tron\u0101, i,
+  b\u0101rnim apleik \u010daloj\u016bt, auda greidcele\u0146us. Tym\u0101 vosor\u0101
+  pi Ligitas montojum\u0101 n\u016bnuoca ari Bierzpils babas Hel\u0113nas Spridz\u0101nes
+  (1910-2000) au\u017eom\u012b stuovi, kuo ari izkuop\u016bt muojas aug\u0161\u0101
+  tyka atrosti ari \u016btras \u0160kilbanu babas Em\u012blijas Lo\u010dmeles (1910-1991)
+  au\u017eom\u012b stuovi.\\nRokst\u016bt sovu diplomdorbu, prakses v\u012bta Ligitai
+  beja Rekavas vyd\u0161kola, kur ar 5 burveiguom 8.klases meitu\u0161kuom brauca
+  muoc\u012bbu ekskursej\u0101 iz An\u010dipovu pi Hel\u0113nas \u0160akinas iz celu
+  j\u016bstu au\u0161onas meistarklasi. Aust cel\u016bs Hel\u0113na \u012bzamuocejuse
+  pi sovas veira muotes. Hel\u0113nas austuos celu j\u016bstas c\u012b\u0161i pla\u0161i
+  pazeist Up\u012btes kult\u016brtelp\u0101, j\u016b gondrei\u017e kotram Up\u012btes
+  folkloristam ir Hel\u0113nas duovynuotuo j\u016bsta.\\nTod 2009. godie vareja suokt\u012bs
+  lyl\u012bs ste\u013clu iznuoc\u012bns. P\u012bsaist\u016bt projektu, tyka sarunuota
+  Iveta Gabr\u0101ne, kas \u012bruodeja Up\u012btes puses aust grib\u0101toj\u012bm
+  gon auduma uzme\u0161onas, gon \u012bvilk\u0161onas, gon neitie\u0161onas, gon bierd\u0101
+  sakuortuo\u0161onas i au\u0161onas pamatus. Up\u012btes tautas noms puorzavierte
+  par au\u0161onas muoju. V\u012bnubreid au\u0161onas dorbi n\u016btyka pat 5 au\u017eamej\u016bs
+  stuov\u016bs. Iz skatuves tyka \u012bkuortuoti matam\u012b stuovi. Pr\u012bk\u0161
+  Up\u012btes tys beja kaut kas nabejs. Tod Ligita p\u012bnieme izaicynojumu p\u012bzadaliet
+  \u201cSatiec savu meistaru\u201d ai lynu dv\u012b\u013cu au\u0161onas meistarklasiem
+  Up\u012bt\u0113. N\u016btyka Andra Sli\u0161\u0101na Ze\u013c\u010du babas Hel\u0113nas
+  Vizules aust\u016b lynu dv\u012b\u013cu izpiete i vareja suokt\u012bs au\u0161onas
+  dorbi. Up\u012btie Ligitas vadeib\u0101 tyka austi ari vylnas lokati.\\nLigitai
+  pateik ari adiet. Vyd\u0161kolas laik\u0101 adieti puorsvor\u0101 tyka d\u017eemperi.
+  Kod b\u0101rni beja mozuoki tyka adietas ze\u010des. Adiet\u016b cymdu lyluok\u012bs
+  izaicynojums beja Latvejas symtgades god\u0101, kod tyka n\u016badieti rokstain\u012b
+  cymdi sov\u012bm mozuokej\u012bm b\u0101rn\u012bm, kur mozajai meitai Hel\u0113nai
+  jei n\u016badeja piec atmi\u0146as sovas Bierzpils babas Hel\u0113nas adiet\u016b
+  cymdu rokstu, k\u016b baba beja adejuse jai. Kod cymdi palyka mozi babas cymdu roksts
+  nabeja izguojs nu golvas, tod Ligita suoka mekliet, voi roksts cymdam ir tuods,
+  kuods ir Ligitai palics atmi\u0146\u0101. Nu babas adejumu klades tyka atsyutieti
+  da\u017ei roksti, kuru storp\u0101, par lylu breinumu jai, \u012braudzeja t\u012b\u0161i
+  t\u016b rokstu, kas jai beja palics atmi\u0146\u0101. Tyka izadieti vie\u013c v\u012bni
+  cymdi leidz\u012bguos kruosuos, kuodas beja palyku\u0161as Ligitas atmi\u0146uos.
+  Leidz\u012bg\u0101 rokst\u0101 ir izadeits vie\u013c v\u012bns lyluoks cymdu puors,
+  k\u016b Ligita nosoj pate.\\nT\u0101din ik godi t\u016bp vie\u013c kuods cymdu puors,
+  kas atr\u016bnams Mirdzas Slavas gruomat\u0101 \u201cLatvie\u0161u rakstainie cimdi\u201d.
+  Ligitai ir apsa\u0146iemuse n\u016badiet vusus 20 cimdu rokstus, kas ir itam\u0101
+  gruomat\u0101, kas ir nuoku\u0161i nu Bierzpils puses, kuo sovas babas Hel\u0113nas
+  p\u012bmi\u0146ai. Itam\u0101 gruomat\u0101 k\u016bp\u0101 ir 38 cimdu roksti, kas
+  nuok nu Bolvu n\u016bvoda. Vie\u013c v\u012bns lyls Ligitas adie\u0161onas izaicyonojums
+  ir adietas jakas, kuru adie\u0161onai Ligitu \u012bdvesmuojuse Annele Sli\u0161\u0101ne.
+  Nu Anneles Ligita ir \u012bzamuocejuse ari mazgluot \u0161mukas, kruosainas r\u016bkasspr\u0101dzes.\\nNu
+  2002. goda vie\u013c v\u012bna lyla aizarau\u0161ona ir solmu pynumi. Lyluok\u012bs
+  dorbs, kas n\u016bpeits ir rudzu solmu capure, k\u016b nosova Ontons Sli\u0161\u0101ns.
+  Capure t\u0101din atsar\u016bn Ontona Sli\u0161\u0101na Up\u012btes kulturviestures
+  muzeja kruojum\u0101.\\nKovid pandemijas laiks iedvesmova izpietiet vei\u017eu pei\u0161onas
+  tehniku, kuod\u0101 ir peitas l\u012bpu l\u016bku veizes Up\u012btes pusie. Ligita
+  soka, ka tei ari ir c\u012b\u0161i interesanta i aizrauj\u016b\u0161a n\u016bdarbe.
+  Ite jei vie\u013c ir eksperimentie\u0161onas un att\u012bsteibas celie.\\n2020.goda
+  janvarie \u012bzaguodova Toika digital\u016bs 24 nei\u0161u kuortu au\u017eom\u016bs
+  stuovus. Te Ligita \u012bzapazyna ar Ilzi Mail\u012bti, kas beja atbraukuse iz Up\u012bti,
+  lai salyktu kup\u0101 au\u017eom\u016b stuovu konstrukciju.\\n2022.god\u0101 beja
+  \u012bzastuojuse au\u0161onas kr\u012bze. Lai tyktu nu tuos valie, Ligita brauca
+  pi Ilzes Mail\u012btes iz \u0112rg\u013c\u012bm i t\u012b pavadeja 10 pylnas d\u012bnas
+  au\u0161onas apmuoc\u012bbuos. Piec muoc\u012bbuom \u0112rg\u013c\u016bs, Ligita
+  \u012bsuoka dorbu pi r\u016b\u017eu rokstu au\u0161onas, k\u016b \u012bdvesmova
+  veira babas Hel\u0113nas Vizules aust\u012b r\u016b\u017eu de\u010di. Ligitas rod\u016b\u0161\u012bs
+  r\u016b\u017eu lidojums beja pleds, piec tam tyka n\u016bausts, piec d\u0101la J\u0113kaba
+  skices, aust\u012bs r\u016b\u017eu de\u010ds.\\nVusus it\u016bs godus Ligita Up\u012bt\u0113
+  popularizei Z\u012bme\u013clatgales celai\u0146u au\u0161onu.\\nIz Up\u012bti, p\u012bzadaliet
+  meistarklasies, brauc \u0161kol\u0101ni i aust muociet\u012bs gryb\u0101tuoji nu
+  da\u017euoduom Latvejas v\u012btuom kuo ari nu uorzemiem. Suok\u016bt nu 2008.goda
+  ir realizieti vairuoki projekti, kuru \u012btvar\u016bs interesent\u012bm ir muocieta
+  Z\u012bme\u013clatgales celai\u0146u au\u0161ona. Ligita ir p\u012bzadalejuse \u201cSatiec
+  savu meistaru\u201d, kura \u012btvor\u016bs ari uz Up\u012bti brauca cilv\u0101ki,
+  kas gribieja \u012bzamuociet\u012bs aust j\u016bstas. Da\u017euodu projektu \u012btvar\u016bs
+  ir tapu\u0161as j\u016bstas i celain\u012btes, ar kuruom n\u016bs\u012bt me\u017egi\u0146u
+  ze\u010des, k\u016b valk pi sova tautas t\u0101rpa: folkloras k\u016bpas \u201cUp\u012bte\u201d
+  dal\u012bbn\u012bki, Up\u012btes b\u0101rnu folkloras k\u016bpas dal\u012bbn\u012bki,
+  Vi\u013cakas jaun\u012b\u0161u deju kolektiva meitenes. Ir pat bejs tuods \u201cv\u012bnas
+  d\u012bnas maratons\u201d, kod vienas d\u012bnas garum\u0101 cel\u016bs au\u0161onas
+  meistarklases t\u012bk n\u016bvad\u0101tas \u010detruom Vi\u013cakas n\u016bvoda
+  \u0161koluom ar gondrei\u017e 200 dal\u012bbn\u012bk\u012bm (Rekavas vyd\u0161kol\u0101,
+  Vidu\u010du pamat\u0161kol\u0101, Vi\u013cakas pamat\u0161kol\u0101 i \u017d\u012bguru
+  pamat\u0161kol\u0101, 2019. goda n\u016bgalie.)\\nPi Ligitas iz celu au\u0161onas
+  apmuoc\u012bbuom ari ir bejuse Evita Zaremba Kr\u012bgere, kas t\u0101din pate au\u017e
+  da\u017euodas j\u016bsti\u0146as i ir izpietejuse i n\u016bauduse Vi\u013cakas i
+  \u0160\u0137ilb\u0101nu puses celaines nu Latvejas Viestures muzeja kruojumu paraug\u012bm.\\nLigita
+  ir auduse celaines cilv\u0101k\u012bm svareig\u012bm dzeives gadejum\u012bm kuo
+  kuozas, krustabas voi krist\u012bbas.\\nLigitas veira muote Ir\u0113na Sli\u0161\u0101ne
+  Up\u012btes pamat\u0161kolas b\u0101rnu folkloras k\u016bpas daleibn\u012bk\u012bm
+  muoceja aust celu dekorus kuo virpu\u013cus, kur kuo audus \u012bauda smylgas voi
+  smolkus salmi\u0146us. Ituodus celu dekorus t\u0101din ari muoca aust Ligita gost\u012bm,
+  kas brauc iz Ontona Sli\u0161\u0101na Up\u012btes kulturviestures muzeju i p\u012bzadolas
+  muzeja pedagogiskejuos programmuos.\\n\u201cKotrs dzeivie satykt\u012bs cylv\u0101ks
+  ir viert\u012bba, kas ir atstuojuse da\u017euodus rokstus mun\u0101 personeibas
+  veiduo\u0161on\u0101, kas turpyna veiduot munu dzeives musturu\u201d, tuo soka Ligita
+  Spridz\u0101ne.\\nRoksts \u012bv\u012btuots 2022. goda decembrie\"", "\"R\u0113zekn\u0113
+  atba\u013csteiti 9 moz\u012b kulturys i turisma projekti\\nN\u016bsasliedzs po\u0161va\u013cdeibys
+  agenturys \u201cR\u0113zeknes Kult\u016bras un T\u016brisma centrs\u201d organiz\u0101tais
+  kasgadejais Moz\u016bs kulturys i turisma projektu konkurss. Agenturys puorstuove
+  Maija Upeniece informej, ka atba\u013csteiti deveni projekti i k\u016bp\u0101 p\u012b\u0161kierts
+  finansiejums 7200 eiro apm\u0101r\u0101.\\nIt\u016bgod projektu konkurs\u0101 beja
+  \u012bsn\u012bgti 16 projekti. Jem\u016bt v\u0101r\u0101 projektu izstruodis kvalitati
+  i atbi\u013csteibu n\u016blykumam, ilgtspiejis pamatuojumu i ituogods izvierzeituos
+  prioritatis atsp\u012bge\u013cuojumu \u2013 aktivys atpyutys vareibu palelynuo\u0161ona
+  R\u0113zeknis pi\u013cs\u0101t\u0101 -, Kulturys komiseja n\u016bl\u0113me atba\u013csteit
+  deve\u0146us projektus.\\nAtba\u013csteit\u012b projekti:\\n- Latgolys Kulturys
+  centra izdevn\u012bceibys projekts \u201cLiterat\u016bras almanahs \u201cOl\u016bts\u201d
+  21. laidiens\u201d \u2013 p\u012b\u0161kierti 400 eiro.\\nLiteraturys almanahs n\u016bdr\u016bsynoj
+  latgal\u012b\u0161u raksteituos literaturys puormontuojameibu i atsp\u012bge\u013coj
+  tuos leimeni it\u016b\u0161a\u013ct, \u012bpazeistynoj\u016bt \u0161kolu jaunatni
+  i skaiteituojus ar kulturys procesim Latgol\u0101.\\n- B\u012bdreibys \u201cARAYAN\u201d
+  projekts \u201c30. gadu ebreju kino\u201d \u2013 p\u012b\u0161kierti 450 eiro.\\nProjekta
+  \u012btvor\u016bs tiks turpynuota tradicionaluos ebreju kulturys izpiete i klezmer
+  muzykys vuicei\u0161onuos, n\u016bsl\u0101gum\u0101 demonstrej\u016bt malnbolt\u016b
+  m\u0101m\u016b kinu dzeivuos muzykys pavadejum\u0101.\\n- B\u012bdreibys \u201cT\u0101lu
+  skan\u201d projekts \u201cLatvijas elektronisk\u0101s m\u016bzikas m\u016bzi\u0137u
+  skates \u201cB\u012bts manai paaudzei\u201d\u201d \u2013 p\u012b\u0161kierti 420
+  eiro.\\nProjekt\u0101 paradz\u0101tuos muziku skatis planavuots reikuot pi\u013cs\u0101tys
+  sv\u0101tku \u012btvor\u016bs, aicynoj\u016bt jaun\u016bs muzikus \u012bsasaisteit
+  bez moksys i atkluoj\u016bt elektroniskuos muzykys daudzpuseibu.\\n- B\u012bdreibys
+  \u201cEXCELSUS\u201d projekts \u201cXIII Starptautiskais akordeonistu plen\u0113rs
+  \u201cGabrova \u2013 R\u0113zekne 2016\u201d\u201d \u2013 p\u012b\u0161kierti 1070
+  eiro.\\nPleners veicynoj akordeonistu profesional\u016b pylnveiduo\u0161on\u016bs
+  i styprynoj storptautysk\u016b sadarbeibu (Latveja, Zv\u012bdreja, S\u016bmeja,
+  Kr\u012bveja), n\u016bsl\u0101gum\u0101 p\u012bduovoj\u016bt plenera dalin\u012bku
+  koncertu.\\n- B\u012bdreibys \u201cJaunatnes \u010demod\u0101ns\u201d projekts \u201cPopieli\u0146a
+  \u201cPa pasakas tak\u0101m\u201d\u201d \u2013 p\u012b\u0161kierti 450 eiro.\\nProjekta
+  \u012btvor\u016bs tiks reikuots pasuokums 5.-8. kla\u0161u \u0161kol\u0101nim, veicynoj\u016bt
+  b\u0101rnu aktivu leidzdaleibu i d\u016bm\u016bt vareibu realiz\u0113t rod\u016b\u0161uos
+  idejis i izpaust sovus talantus.\\n- B\u012bdreibys \u201cSTOPTIME DANCE STUDIO\u201d
+  projekts \u201cVektors kust\u012bbai\u201d \u2013 p\u012b\u0161kierti 400 eiro.\\nProjekts
+  paradz n\u016borganiz\u0113t 4 bezmoksys aktivys atpyutys pasuokumus vysaida vacuma
+  R\u0113zeknis dzeivuotuojim i car deju, sporta n\u016bdarbeibom i orientie\u0161onuos
+  sp\u0113lem veicynuot i populariz\u0113t veseleigu dzeivisveidu.\\n- B\u012bdreibys
+  \u201cLatgalie\u0161i\u201d projekts \u201cM\u0101kslinieka Osvalda Zvejsalnieka
+  izst\u0101des \u201cR\u0113zekne\u201d katalogs\u201d \u2013 p\u012b\u0161kierti
+  1761 eiro.\\nParadz\u0101tais katalogs paruodeis i apk\u016bpuos muokslin\u012bka
+  O. Zvejsalnieka rod\u016b\u0161\u016b davumu glezn\u012bceib\u0101, sekmej\u016bt
+  R\u0113zeknis atpazeistameibu storptautysk\u0101 m\u0101r\u016bg\u0101 car muokslys
+  i kulturys procesim.\\n- R\u0113zeknis Muokslys i dizaina vyds\u0161kolys projekts
+  \u201cRestaur\u0113sim pils\u0113tas sen\u0101s v\u0113rt\u012bbas!\u201d \u2013
+  p\u012b\u0161kierti 1761 eiro.\\nProjekta mierkis ir veicynuot R\u0113zeknis Muokslys
+  noma restauracejis procesus, paradz\u016bt veikt greidys saguma restauracejis dorbus
+  4 zal\u016bs i \u012b\u012b\u0161onys vestibil\u0101.\\n- B\u012bdreibys \u201cJaunie\u0161u
+  klubs \u201cLingua\u201d\u201d projekts \u201cDances join people!\u201d \u2013 p\u012b\u0161kierti
+  488 eiro.\\nProjekts paradz styprynuot storpva\u013cstu sadarbeibu ar L\u012btovu
+  i Boltkr\u012bveju, p\u012bduovoj\u016bt vareibu vysaidom sab\u012bdreibys grupom
+  bez moksys p\u012bsadaleit Lati\u0146amerikys deju meistarklas\u0113s.\\nKarte\u0146\u0101:
+  2015. god\u0101 atba\u013csteitais projekts \u201cNu reite\u0146a caldamuos\u2026
+  Sievie\u0161u koris \u201eMedicus\u201d R\u0113zeknei\u201d. Foto nu \u201cMedicus\u201d
+  arhiva.\"", "\"dasad\u016brt vacim failim ir kai dasad\u016brt se\u0146 pagaisu\u0161am
+  pasau\u013cam. kai vacys av\u012bzis kurynuot cepl\u012b i aizaraut ar se\u0146
+  n\u016bmyru\u0161u cylv\u0101ku intervejom i rokstim. kai cyluot vacus \u017eurnalus
+  i puorskaiteit naivus rokstus par plaukst\u016b\u0161\u016b global\u016b ekonomiku,
+  dreiz\u016b p\u012bsav\u012bnuo\u0161onu eirozonai i peid\u017eeru l\u012btuo\u0161onu.\\nattais\u016bt
+  vacus failus, na re\u0161i var atrast vysaidus dabasu breinumus. to vysaidus n\u012bkus
+  i paguotnis putek\u013cus, to nazkod svareigys l\u012btys. voi se\u0146 raksteitus
+  tekstus, kas ko\u010d kaid\u0101 zi\u0146\u0101 pasaruod interesni i niule.\\nite
+  nazkod 4. tramvaj\u0101 p\u012braksteits dzej\u016b\u013cs. kod v\u0113\u013c dzeivuoju
+  s\u0101t\u0101 Mukul\u0113s i reizi nede\u013c\u0101 voi divejuos brau\u010du ar
+  gu\u013cammaisu iz Reigu \u2013 nazyn\u016bt, pi kuo palik\u0161u par nakti. ite
+  v\u012bna \u0161a\u013cte\u0146a nu dzeivis, kod tramvajs golapunkt\u0101 pi tierga
+  attais\u0113ja durovys i pa tom durovom vyd\u0101 \u012bskr\u0113ja nazcik smoku,
+  ska\u0146u i nazcik dzeivu.\\nlaikam nazkaid\u0101 zi\u0146\u0101 es tuo vysa grybu
+  otkon. myu\u017eeiguo ce\u013ca sajiutys zam kuoju. i s\u0101tys jut\u016bnis nazkur
+  vydspus\u0113, kod s\u0101t\u0101 gaida su\u0146s i dorbs. i nazkuo taida \u2013
+  nazkuo tuo nazyn kuo. kod nav m\u012bra a ni. i reiz\u0113 ir taids m\u012brs, ka
+  kai pluovam saplyust ar vysu pasauli i izgaist jim\u0101.\\nrudi\u0146s i pavasars
+  vysod \u012bt leidza ar nam\u012bru. ce\u013c\u0161 vylynoj \u2013 pasace\u013ct
+  i aiz\u012bt. eisa n\u016bstuo\u0161ona auto\u016bst\u0101 i otkon ce\u013c\u0101.
+  a nazkam te vysa dzeive.\\nauto\u016bsta\\nbol\u016b\u017ei pal\u0101ku rudi\u0146a
+  dabasu kruos\u0101. i \u010d\u0101guoni malni kai valni\\nkaijis sudobra spuornim
+  kai \u012bsama\u013cdieju\u0161ys. voi ari pa eistam\\nstaigoj i klem\u0161, maizis
+  druponu kle\u0146\u010dej\\nparaugi na\u012bd\u016bt! aiz\u012bs da cyta\\n\u013cau\u017eu
+  symti pi platformu\\nkruoj\u0101s kai dziernovu muork\u0101\\nl\u0113pinis, iudi\u0146a
+  lopys iudin\u012b maln\u0101\\nplastmasys butylkys maun i nazkaidi syudi\\nzivu
+  smoka nu tierga p\u0101dejuo pavi\u013cjona\\nnazkur daugova, jiura. nazkur vi\u013cni\\nite
+  kanal\u0101 iudi\u0146s kai \u012bryusiejs, sasastuojs glums\\nauto\u016bsta\\n\u010dygonkys
+  speideigys\\nmalnuos sukn\u0113s ar ze\u013cteitu dzeipuru streipem\\npu\u010dis,
+  volani, kleini i buorksts. ri\u0161e\u013cje roksti\\nkopcenis smolkys. pap\u012bdei\u0161i
+  kai ciersti\\npazeilei\u0161u\\ntev reitu byus laime\\n\u012bt saule iz pu\u0161d\u012bnis
+  laiku\\nvieja apraut\u016bs dabas\u016bs grymst\\nreitu s\u016bl\u0113ja sut\u016bni,
+  p\u0101rkiu\u0146a leitu i zibsni\\nreitu myusu vaira te nabyus\\nauto\u016bsta\\n\u013cauds
+  sasastuoj, n\u016bsastuoj, skr\u012bn\\ntreisdesmit cat\u016brtais, treisdesmit
+  p\u012bktais. sastais. septeitais. symtais\\nkurs v\u0113\u013c ar biletu?\\ns\u0101dv\u012btu
+  nav! dabuosit stuov\u0113t\\npar \u0161a\u013cti jiusu ite vairs nabyus\\na nazkam
+  te vysa dzeive\\nauto\u016bsta\\niz garmanis spielej vecs sierms i ar v\u012bnu
+  kuoju\\ndasyt ritmu. golvu dam\u012bdz pi garmanis suonu\\njis varbyut t\u016b garmani
+  atvede leidza\\npsrs\\nmes pasauli jaunu sev ce\u013csim\\nmes \u012bsuoksim jaunu
+  dzeivi\\njam reitu byus septe\u0146desmit\\njis ite jau se\u0161desmit godu\\niz
+  asvalta bol\u016b\u017eu m\u0101sli i spolvys\\nasnis iz s\u012bnys\\niztr\u012bpti
+  a\u0161\u0146a i nuovis roksti\\nak jau pa nakti kaids kuov\u012bs\\nak jau ka izdzeivuoja.
+  ak jau ite nu tierga\\nmelodeja\\n\u010deikst vaca kai \u017eyda roti\\nnu ve\u010da
+  garmanis \u0161keibuos\\njam reitu byus septe\u0146desmit\\njis ite jau vysu dzeivi\\n2006.
+  goda septembr\u012b\"", "\"Anotaceja\\nS\u0101bru regionu kulturys i izgleiteibys
+  institucejis R\u0113zekn\u0113, Grod\u0146\u0101 i K\u0113dai\u0146\u016bs ir boguotys
+  ar unikalu material\u016b i namaterial\u016b montuojumu, kas preze\u0146tej na vi\u0146
+  sovys lokaluos, tok ari k\u016bpejuos vierteibys kulturvid\u0113.\\nProjekta rezultat\u0101
+  \u012bcar\u0101ts izveidot inovativu kulturizgleiteibys i turisma produktu ar apv\u012bnuotu
+  datu bazi \u2013 virtual\u016b muzeju, kas myusu d\u012bnom atbylst\u016b\u0161i
+  i atraktivi paruoda da \u0161uo saleidzyn\u016b\u0161i statisk\u016b kulturviesturisk\u016b
+  montuojumu i juo interpretaceju. Ar jaunuok\u016bs tehnologeju paleidzeibu izveiduots
+  interaktivs, vysaidys leidza dorbuo\u0161onuos p\u012bduovoj\u016b\u0161s, jaunuokuos
+  paaudzis interesem atbylst\u016b\u0161s, potencial\u016bs turistus aicynoj\u016b\u0161s
+  i v\u012bgli l\u012btojams virtualais muzejs n\u016bdr\u016bsynuos internacionaluos
+  datu bazis sasn\u0101dzameibu sab\u012bdreibai na vi\u0146 puorr\u016bbe\u017eu
+  region\u016bs, a vys\u0101 \u0161k\u0101rsteikla vid\u0113.\\nVirtualuo muzeja izstruodis
+  \u012btum\u0101 paradz\u0101ts reikuot konfere\u0146cis, izgleitoj\u016b\u0161us
+  i p\u012bredzis apmainis seminarus, tradicionaluos kulturys pasuokumus sadarbeibys
+  partneru region\u016bs. Apm\u0101ram 1600 unikalu \u0161kierk\u013cu i artefaktu
+  aproksti i daudzpuseigs pasn\u012bg\u0161onys veids nu R\u0113zeknis Augst\u0161kolys,
+  Latgolys Kulturviesturis muzeja, Maksima Bagdanovi\u010da muzeja (Grod\u0146a),
+  K\u0113dai\u0146u Regionaluo muzeja datu bazem byus virtualuo muzeja pamats, k\u016b
+  byut\u012bn\u0113 paradz\u0101ts papyldynuot i ar \u012bsaisteit\u016bs \u012bstuo\u017eu
+  kulturviesturiskajom boguoteibom, i \u012bsaist\u016bt jaunus partnerus nu s\u0101bru
+  regionu, tai n\u016bdr\u016bsynoj\u016bt kulturviesturisk\u016bs vierteibu sasn\u0101dzameibu,
+  puormontuojameibu i izviertej\u016bt l\u012btuotuoju sn\u0101gt\u016bs komentarus.\\nProjekta
+  mierkis\\nPamatmierkis \u2013 n\u016bdr\u016b\u0161ynuot materialuo i namaterialuo
+  kulturys montuojuma vierteibu sasn\u0101dzameibu sab\u012bdreibai, izveidoj\u016bt
+  virtual\u016b muzeju i papla\u0161ynoj\u016bt puorr\u016bbe\u017eu p\u012bredzis
+  apmai\u0146u kulturizgleiteibys j\u016bm\u0101.\\nPamataizdavums \u2013 veiduot
+  virtualu ekspoziceju, sasaist\u016bt pietn\u012bcysk\u016b i muzeju darbeibys praktisk\u016b
+  p\u012bredzi, paruod\u016bt kulturviesturiskuos saiknis treju s\u0101bru va\u013cstu
+  pi\u013cs\u0101tu storp\u0101 \u2013 Grod\u0146a, R\u0113zekne, K\u0113daini.\\nRezultati\\nGaidom\u012b
+  rezultati:\\n- moderniz\u0101tys muzeja kruojuma saglobuo\u0161onys \u012bspiejis
+  i pasalelynuojuse juo da\u012bmameiba sab\u012bdreibai\\n- spieceiguoka sadarbeiba
+  pietn\u012bcyskaj\u0101, izgleitoj\u016b\u0161aj\u0101 i komunikacejis j\u016bm\u0101
+  \u012bsaisteit\u016bs regionu kulturizgleiteib\u0101\\n- palelynuots pyrmreizej\u016bs
+  muzeja apmakl\u0101tuoju skaits kotr\u0101 nu sadarbeibys partneru muzeju, eipa\u0161i
+  jaun\u012b\u0161u auditoreja\\n- sataiseits inovativs kulturizgleitoj\u016b\u0161s
+  turisma produkts \u2013 publiski da\u012bmams interaktivs virtualais muzejs\\n-
+  \u012bspieja studej\u016b\u0161ajim i pietn\u012bkim izmontuot datu bazis pietn\u012bcyskajom
+  vajadzeibom\\n- muzeja praksis i kulturizgleiteibys \u012bspiejis partneru teritorejuos\\nFaktisk\u012b
+  rezultati:\\n\u2013 4 kulturys i izgleiteibys \u012bstuo\u017eu sataiseits virtualais
+  muzejs ar 4 galerejom: \u201eLatgolys koncepti\u201d, \u201eLatgolys keramika\u201d,
+  \u201eSenej\u012b omoti K\u0113dai\u0146\u016bs\u201d, \u201eGrodnis regiona literatura\u201d\\n\u2013
+  3 muzeju \u012bsapazei\u0161onys videosi\u017eeti\\n\u2013 4 tradicionaluos kulturys
+  pasuokumi kotr\u0101 nu daleibva\u013cstu: Latgolys P\u016bdn\u012bku d\u012bnys
+  R\u0113zekn\u0113, Folklorys i omotu \u012bpazei\u0161ona K\u0113dai\u0146\u016bs,
+  Multikulturaluos literaruos tradicejis Grod\u0146\u0101, literari muzykalais Andreja
+  d\u012bnys pasuokums R\u0113zekn\u0113\\n\u2013 3 izgleitoj\u016b\u0161i seminari,
+  pa v\u012bnam kotr\u0101 no daleibva\u013cstu\\n\u2013 p\u012bredzis apmainis brauc\u012bni,
+  apsazynoj\u016bt kotra partnera kulturizgleitoj\u016b\u0161uos darbeibys specifiku\\n\u2013
+  n\u016bsl\u0101guma konfere\u0146ce \u2013 projekta dorba produktu i pietejumu prezentacejis\\n\u2013
+  k\u016bpeja projekta simbolika prezentacejis pr\u012b\u0161kmat\u016bs\\n\u2013
+  renov\u0101tys muzeju telpys i jauns tehniskais apreikuojums\\nPasuokumi\\n2014.
+  goda 24.\u201326. apre\u013cs, R\u0113zekne, Latgolys Kulturviesturis muzejs\\nIzgleitoj\u016b\u0161s
+  seminars \u201eVirtualais muzejs. Latgolys keramika\u201d (25. apre\u013cs)\\nLatgolys
+  P\u016bdn\u012bku d\u012bnys (24.\u201326. apre\u013cs)\\nLatgolys p\u016bdn\u012bceibys
+  izstuodis atkluo\u0161ona (26. apre\u013cs)\\n2014. goda 22.\u201323. majs, K\u0113daini,
+  K\u0113dai\u0146u Regionalais muzejs\\nIzgleitoj\u016b\u0161s seminars \u201eVirtualais
+  muzejs. Senej\u012b omoti K\u0113dai\u0146\u016bs\u201d (22. majs)\\nIzstuode \u201eAmatn\u012bceibys
+  tradicejis K\u0113dai\u0146u region\u0101\u201d (22. majs)\\nKulturys pasuokums
+  \u201eK\u0113dai\u0146u regiona folklorys i amatn\u012bceibys montuojuma \u012bpazei\u0161ona\u201d
+  (23. majs)\\n2014. goda ju\u0146s, Grod\u0146a\\nIzgleitoj\u016b\u0161s seminars
+  \u201eVirtualais muzejs. Grodnis regiona literatura\u201d\\n2014. goda 28.\u201330.
+  novembris, R\u0113zekne, R\u0113zeknis Augst\u0161kola\\nN\u016bsl\u0101guma konfere\u0146ce
+  (28.\u201329. novembris)\\nIzstuodis atkluo\u0161ona \u201eLatgolys koncepti\u201d
+  (28. novembris)\\nLiterari muzykalais pasuokums \u201eAndreja d\u012bna\u201d (30.
+  novembris)\\nPapyldu informaceja byus v\u0101luok\\nPublicitate\\n2013. goda 10.\u201311.
+  janvar\u012b n\u016btyka projekta atkluo\u0161onys konfere\u0146ce Latgolys Kulturviesturis
+  muzej\u0101.\\nPar pasuokumu:\\n- Gus\u0101ns, Ingars (2013). Virtu\u0101l\u0101s
+  pag\u0101tnes apzin\u0101\u0161anas komanda ir izveidota./Virtualuos paguotnis apzynuo\u0161onys
+  komanda ir izveiduota. http://www.ru.lv/aktualitates/453 /\\n- Gus\u0101ns, Ingars
+  (2013). Virtu\u0101l\u0101 pag\u0101tne ir pamats muzeju n\u0101kotnei./ Virtualuo
+  paguotne ir pamats muzeju byut\u012bnei. http://www.rezekne.lv/rezeknes-zinas/zina/_/rezeknes-zinas/-/virtuala-pagatne-ir-pamats-muzeju-nakotnei/\\n-
+  Gus\u0101ns, Ingars (2013). Virtu\u0101l\u0101s pag\u0101tnes apzin\u0101\u0161anas
+  komanda ir izveidota./ Virtualuos paguotnis apzynuo\u0161onys komanda ir izveiduota.
+  http://www.laiki.lv/_Rezekne/virtu%C4%81l%C4%81s-pag%C4%81tnes-apzin%C4%81%C5%A1anas-komanda-ir-izveidota.aspx\\n-
+  Gus\u0101ns, Ingars (2013). Turpynoj\u0101s projekta \u201eVirtualuo paguotne \u2013
+  muzeja nuok\u016btne\u201d realizie\u0161ona. http://lakuga.lv/2013/01/11/turpynojas-projekta-%E2%80%9Evirtualuo-paguotne-muzeja-nuokutne-realiziesona/\\n-
+  BipTya\u043bbH\u044b My\u0437e\u0439 xyTka a\u0434kp\u044be\u0446\u0446a \u045e
+  \u0413po\u0434Ha/ Drei\u017e byus da\u012bmams virtualais muzejs Grod\u0146\u0101
+  (2013). http://grodno.gov.by/be/main.aspx?guid=33803\\n- KpoT, Kac\u044f (2013).
+  y \u0413po\u0434He cTBopa\u0446b BipTya\u043bbH\u044b My\u0437e\u0439 MakciMa \u0411ar\u0434aHoBi\u0447a./
+  Grod\u0146\u0101 taisa Maksima Bagdanovi\u010da virtual\u016b muzeju. http://www.t-styl.info/by/114/news/9528/y-\u0413po\u0434He-cTBopa\u0446b-BipTya\u043bbH\u044b-My\u0437e\u0439-MakciMa-\u0411ar\u0434aHoBi\u0447a.htm\\n-
+  Zute, L\u0101sma (2013). Top triju valstu virtu\u0101lais muzejs./ Taisa treju va\u013cstu
+  virtual\u016b muzeju. http://www.youtube.com/watch?v=F4XEMDNX\u2013c\\n2013. goda
+  21.\u201323. mart\u0101 n\u016btyka pyrmais p\u012bredzis apmainis seminars Grod\u0146\u0101.\\n2013.
+  goda 17.\u201319. aprel\u012b n\u016btyka \u016btrais p\u012bredzis apmainis seminars
+  R\u0113zekn\u0113.\\nPar pasuokumu:\\n- Gus\u0101ns, Ingars (2013). Virtu\u0101l\u0101
+  muzeja izstr\u0101de rit piln\u0101 spar\u0101./ Virtualuo muzeja sagatavei\u0161ona
+  p\u012bjam apgr\u012bz\u012b\u0146us. http://www.ru.lv/aktualitates/629/\\n2013.
+  goda 23.\u201324. maj\u0101 n\u016btyka tre\u0161ais p\u012bredzis apmainis seminars
+  K\u0113dai\u0146\u016bs.\\n- Malinauskien\u0117, Au\u0161ra (2013). Representatives
+  of three countries create virtual museum. / Treju va\u013cstu puorstuovi taisa virtual\u016b
+  muzeju. http://www.kedainiumuziejus.lt/Pub/default.aspx?Page=NewsDetailEN&ID=536\\n-
+  Malinauskien\u0117, Au\u0161ra (2013). Trij\u0173 \u0161ali\u0173 atstovai kuria
+  virtual\u0173 muziej\u0173./ Treju va\u013cstu puorstuovi taisa virtual\u016b muzeju.
+  http://www.kedainiai.lt/go.php/lit/Triju-saliu-atstovai-kuria-virtualu-muzieju/1041/1\\n-
+  Malinauskien\u0117, Au\u0161ra (2013) Trij\u0173 \u0161ali\u0173 atstovai kuria
+  virtual\u0173 muziej\u0173./ Treju va\u013cstu puorstuovi roda virtual\u016b muzeju.
+  Rinkos aik\u0161t\u0117. 25. maj\u0101.\\n- Masilionyt\u0117, Vaida (2013) .Virtualaus
+  muziejaus\u201d k\u016brimo darbai \u012fgauna pagreit\u012f./ Dorbs pi virtualuo
+  muzeja \u012bgiust paauotrynuojumu. K\u0117daini\u0173 garsas. 28. maj\u0101.\\n-
+  K\u0117daini\u0173 \u017dinios (2013). http://www.youtube.com/watch?v=IiAfc41XBH0
+  (V\u0113rt\u012bs: 4.38.\u20137.53)\\nVad\u016b\u0161ais partners\\nR\u0113zeknis
+  Augst\u0161kola (RA, Latveja)\\nPartneri\\nLatgolys Kulturviesturis muzejs (LKM,
+  R\u0113zeknis pi\u013cs\u0101tys d\u016bme, Latveja)\\nK\u0113dai\u0146u Regionalais
+  muzejs (L\u012btuva)\\nMaksima Bagdanovi\u010da muzejs (Boltkr\u012bveja)\\nProjekta
+  realizie\u0161onys laiks\\n- goda 1. decembris \u2013 2014. goda 30. novembris\\nKontakti\\nAtbreivuo\u0161onys
+  aleja 115,\\nR\u0113zekne, Latveja, LV-4601\\nwww.ru.lv\\ninfo@ru.lv\\nLatvej\u0101:
+  Ingars Gus\u0101ns, projekta administrators, ingars.gusans@ru.lv\\nIndra Briv\u0146a,
+  projekta koordinatore, indra.brivna@rezekne.lv\\nL\u012btuv\u0101: Rimantas \u017dirgulis,
+  projekta koordinators, kedainiumuziejus@gmail.com\\nBoltkr\u012bvej\u0101: Svetlana
+  Rapeckaja, projekta koordinatore, rapeckaja@mail.ru\"", "\"Latgolys d\u012bnys pasuokumi
+  golvyspi\u013cs\u0101t\u0101\\nSagataveja: portals lakuga.lv\\nIt\u016bgod 27. aprel\u012b
+  pyrm\u016b reizi tiks atzeimuota Latgolys kongresa d\u012bna \u2013 1917. gods 26.\u201327.
+  apre\u013ca Latgolys kongresa atcerei. T\u016blaik R\u0113zekn\u0113 delegati p\u012bj\u0113me
+  viesturisku l\u0101mumu \u2013 atsadaleit nu Vitebskys gubernis, tai lykdami pamatu
+  myusu va\u013csts izveidei.\\nReig\u0101 n\u016bzeimeigi pasuokumi paradz\u0101ti
+  24., 26. i 27. aprel\u012b. Vysi interesenti eipa\u0161i teik praseiti iz Latgolys
+  d\u012bnu Latvejis Nacionalaj\u0101 bibliotek\u0101.\\nPla\u0161uoka informaceja
+  i pasuokumu programys ite.\""]'
+src_ngrams: '{"1": [[["i"], 197784], [["ir"], 100524], [["par"], 67210], [["nu"],
+  65624], [["kai"], 49603]], "2": [[["skaiteit vaira"], 6261], [["tys ir"], 4645],
+  [["par t\u016b"], 4584], [["portals lakuga"], 3764], [["latgal\u012b\u0161u kulturys"],
+  3702]], "3": [[["latgolys studentu centrs"], 1387], [["latgal\u012b\u0161u rokstu
+  vol\u016bdys"], 1289], [["latgal\u012b\u0161u kulturys goda"], 1083], [["pi myusim
+  latgol\u0101"], 888], [["sacky do vysavace"], 880]], "4": [[["ien\u0101c ar\u012b
+  ar savu"], 589], [["ar\u012b ar savu draugiem"], 589], [["latgal\u012b\u0161u kulturys
+  goda bolvys"], 544], [["viedokli par raid\u012bjum\u0101 dzird\u0113to"], 437],
+  [["tom\u0113r patur ties\u012bbas dz\u0113st"], 437]], "5": [[["ien\u0101c ar\u012b
+  ar savu draugiem"], 589], [["tom\u0113r patur ties\u012bbas dz\u0113st koment\u0101rus"],
+  437], [["savu viedokli par raid\u012bjum\u0101 dzird\u0113to"], 437], [["raid\u012bjum\u0101
+  dzird\u0113to un atbalsta diskusijas"], 437], [["radio aicina izteikt savu viedokli"],
+  437]]}'

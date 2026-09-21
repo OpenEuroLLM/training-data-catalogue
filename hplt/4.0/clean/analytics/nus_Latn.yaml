@@ -1,0 +1,1491 @@
+corpus: hplt-v4-nus
+srclang: nus
+timestamp: 1789046034.9598687
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2014-15", 25], ["CC-MAIN-2020-45", 11], ["wide00016",
+  6], ["wide00012", 3], ["CC-MAIN-2021-25", 3], ["CC-MAIN-2021-17", 3], ["CC-MAIN-2020-29",
+  3], ["CC-MAIN-2020-24", 3], ["CC-MAIN-2020-10", 3], ["CC-MAIN-2018-34", 3], ["CC-MAIN-2021-04",
+  2], ["CC-MAIN-2020-05", 2], ["CC-MAIN-2019-04", 2], ["wide00017", 1], ["wide00011",
+  1], ["wide00010", 1], ["archivebot", 1], ["CC-MAIN-2025-26", 1], ["CC-MAIN-2025-13",
+  1], ["CC-MAIN-2025-08", 1], ["CC-MAIN-2024-51", 1], ["CC-MAIN-2024-18", 1], ["CC-MAIN-2023-23",
+  1], ["CC-MAIN-2021-31", 1], ["CC-MAIN-2021-21", 1], ["CC-MAIN-2020-34", 1], ["CC-MAIN-2018-43",
+  1], ["CC-MAIN-2018-39", 1], ["CC-MAIN-2018-05", 1], ["CC-MAIN-2017-51", 1], ["CC-MAIN-2017-26",
+  1]]'
+docs_langs: '[[0.5, 22], [0.7, 2], [0.8, 3], [0.9, 39], [1.0, 21]]'
+docs_segments: '[[2, 21], [3, 3], [4, 2], [5, 1], [6, 3], [7, 1], [9, 2], [10, 1],
+  [11, 1], [12, 2], [13, 2], [14, 1], [15, 2], [16, 1], [19, 2], [22, 2], [30, 2],
+  [34, 1], [35, 1], [38, 2], [48, 1], [50, 1], [53, 1], [59, 1], [61, 1], [63, 1],
+  [64, 3], [67, 1], [69, 1], [71, 1], [72, 2], [75, 1], [76, 2], [77, 1], [78, 2],
+  [87, 1], [88, 2], [89, 1], [92, 1], [93, 1], [94, 1], [95, 1], [108, 1], [110, 1],
+  [111, 1], [117, 1], [133, 1], [162, 1]]'
+docs_segments_mean: 38
+docs_segments_median: 19
+docs_top100_domains: '[["nanetya-foundation.org", 28], ["indiana.edu", 24], ["jw.org",
+  11], ["consumer.vic.gov.au", 4], ["jobs.vic.gov.au", 3], ["unpaiddebt.org", 2],
+  ["coronavirus.vic.gov.au", 2], ["zhitov.com", 1], ["www.vic.gov.au", 1], ["wikimedia.org",
+  1], ["recovery.vic.gov.au", 1], ["omniglot.com", 1], ["multicultural.vic.gov.au",
+  1], ["liengejowda.com", 1], ["lchs.com.au", 1], ["dhhs.vic.gov.au", 1], ["dakotanewsnow.com",
+  1], ["blogspot.com", 1], ["bible.com", 1], ["4laws.com", 1]]'
+docs_top100_tld: '[["org", 42], ["edu", 24], ["vic.gov.au", 13], ["com", 7], ["com.au",
+  1]]'
+docs_total: 87
+docs_wds: '[[0.5, 18], [0.51, 6], [0.52, 10], [0.53, 6], [0.54, 11], [0.55, 1], [0.56,
+  3], [0.57, 5], [0.58, 3], [0.59, 1], [0.61, 3], [0.62, 4], [0.63, 1], [0.64, 2],
+  [0.65, 2], [0.68, 2], [0.69, 2], [0.7, 1], [0.71, 1], [0.72, 1], [0.75, 1], [0.8,
+  1], [0.81, 1], [0.83, 1]]'
+duplication_ratio: 0.0168
+sentence_pairs: 3329
+src_bytes: 320130
+src_chars: 271837
+src_pii: 3
+src_tokens: 80290
+unique_sents: 3273
+src_sent_tokens: '[[1, 2], [2, 29], [3, 33], [4, 135], [5, 40], [6, 70], [7, 59],
+  [8, 86], [9, 133], [10, 234], [11, 283], [12, 288], [13, 255], [14, 239], [15, 175],
+  [16, 139], [17, 120], [18, 84], [19, 68], [20, 49], [21, 49], [22, 40], [23, 28],
+  [24, 35], [25, 24], [26, 22], [27, 32], [28, 22], [29, 22], [30, 23], [31, 12],
+  [32, 26], [33, 19], [34, 19], [35, 11], [36, 13], [37, 16], [38, 11], [39, 8], [40,
+  6], [41, 35], [42, 10], [43, 11], [44, 8], [45, 11], [46, 11], [47, 8], [48, 11],
+  [49, 7], [50, 7], [51, 10], [52, 6], [53, 13], [54, 6], [55, 4], [56, 4], [57, 4],
+  [58, 7], [59, 3], [60, 2], [61, 6], [62, 4], [63, 5], [64, 2], [65, 6], [66, 1],
+  [67, 1], [68, 7], [69, 4], [70, 4], [71, 2], [72, 6], [73, 5], [74, 3], [75, 2],
+  [78, 1], [79, 3], [80, 3], [81, 1], [82, 4], [83, 2], [85, 2], [87, 2], [89, 1],
+  [90, 2], [91, 3], [93, 1], [94, 1], [95, 1], [98, 1], [100, 3], [101, 2], [102,
+  2], [103, 1], [104, 4], [106, 1], [107, 1], [108, 2], [109, 1], [110, 1], [112,
+  1], [114, 1], [115, 1], [116, 1], [117, 1], [118, 1], [119, 2], [122, 1], [123,
+  1], [125, 2], [127, 2], [129, 2], [133, 2], [134, 2], [135, 4], [136, 1], [137,
+  1], [138, 1], [140, 2], [142, 1], [143, 1], [144, 2], [146, 1], [147, 1], [148,
+  1], [149, 1], [150, 1], [152, 1], [154, 2], [156, 2], [163, 1], [166, 1], [168,
+  1], [170, 1], [173, 1], [175, 1], [177, 1], [182, 1], [183, 1], [192, 2], [203,
+  1], [207, 2], [213, 1], [217, 1], [218, 2], [219, 1], [220, 1], [229, 1], [234,
+  1], [241, 2], [341, 1], [344, 1], [364, 1], [370, 1], [407, 1], [419, 1], [421,
+  1], [425, 1], [426, 1], [461, 1], [467, 1], [485, 1], [487, 1], [492, 1], [494,
+  1], [513, 1], [590, 1], [600, 1], [649, 1], [731, 1], [1404, 1]]'
+src_sent_tokens_mean: 24
+src_sent_tokens_median: 14
+src_unique_sents: '[[1, 2], [2, 27], [3, 30], [4, 129], [5, 40], [6, 70], [7, 52],
+  [8, 85], [9, 133], [10, 234], [11, 282], [12, 288], [13, 255], [14, 239], [15, 174],
+  [16, 139], [17, 119], [18, 84], [19, 67], [20, 48], [21, 49], [22, 40], [23, 28],
+  [24, 35], [25, 24], [26, 22], [27, 31], [28, 21], [29, 22], [30, 23], [31, 12],
+  [32, 25], [33, 19], [34, 19], [35, 11], [36, 12], [37, 16], [38, 11], [39, 8], [40,
+  6], [41, 9], [42, 10], [43, 11], [44, 8], [45, 11], [46, 11], [47, 8], [48, 11],
+  [49, 7], [50, 7], [51, 10], [52, 6], [53, 13], [54, 6], [55, 4], [56, 4], [57, 4],
+  [58, 7], [59, 3], [60, 2], [61, 6], [62, 4], [63, 5], [64, 2], [65, 6], [66, 1],
+  [67, 1], [68, 6], [69, 4], [70, 4], [71, 2], [72, 6], [73, 5], [74, 3], [75, 2],
+  [78, 1], [79, 3], [80, 3], [81, 1], [82, 4], [83, 2], [85, 2], [87, 2], [89, 1],
+  [90, 2], [91, 3], [93, 1], [94, 1], [95, 1], [98, 1], [100, 3], [101, 2], [102,
+  2], [103, 1], [104, 4], [106, 1], [107, 1], [108, 2], [109, 1], [110, 1], [112,
+  1], [114, 1], [115, 1], [116, 1], [117, 1], [118, 1], [119, 2], [122, 1], [123,
+  1], [125, 2], [127, 2], [129, 2], [133, 2], [134, 2], [135, 3], [136, 1], [137,
+  1], [138, 1], [140, 2], [142, 1], [143, 1], [144, 2], [146, 1], [147, 1], [148,
+  1], [149, 1], [150, 1], [152, 1], [154, 2], [156, 2], [163, 1], [166, 1], [168,
+  1], [170, 1], [173, 1], [175, 1], [177, 1], [182, 1], [183, 1], [192, 2], [203,
+  1], [207, 2], [213, 1], [217, 1], [218, 2], [219, 1], [220, 1], [229, 1], [234,
+  1], [241, 2], [341, 1], [344, 1], [364, 1], [370, 1], [407, 1], [419, 1], [421,
+  1], [425, 1], [426, 1], [461, 1], [467, 1], [485, 1], [487, 1], [492, 1], [494,
+  1], [513, 1], [590, 1], [600, 1], [649, 1], [731, 1], [1404, 1]]'
+src_langs: '[["fi", 874], ["sl", 711], ["en", 415], ["es", 144], ["nl", 104], ["tt",
+  98], ["et", 88], ["als", 70], ["sq", 61], ["it", 46], ["cs", 46], ["pl", 43], ["kn",
+  43], ["de", 43], ["ms", 34], ["hr", 27], ["kw", 25], ["cy", 23], ["sv", 19], ["sr",
+  17], ["lo", 17], ["lb", 17], ["jbo", 17], ["fr", 16], ["hu", 15], ["ta", 14], ["pt",
+  13], ["su", 11], ["ro", 10], ["lv", 10], ["ilo", 10], ["eo", 10], ["bn", 10], ["uk",
+  9], ["ml", 9], ["lmo", 9], ["id", 9], ["da", 9], ["sw", 8], ["af", 8], ["tl", 7],
+  ["so", 7], ["sk", 7], ["oc", 7], ["ceb", 7], ["nds", 6], ["fy", 6], ["eu", 6], ["zh",
+  5], ["war", 5], ["ur", 5], ["tr", 5], ["sco", 5], ["ru", 5], ["bar", 5], ["ia",
+  4], ["gom", 4], ["az", 4], ["ar", 4], ["vo", 3], ["uz", 3], ["mt", 3], ["lt", 3],
+  ["is", 3], ["hsb", 3], ["gv", 3], ["fa", 3], ["te", 2], ["qu", 2], ["ne", 2], ["nb",
+  2], ["ja", 2], ["hi", 2], ["el", 2], ["dv", 2], ["cbk", 2], ["yi", 1], ["xal", 1],
+  ["vi", 1], ["th", 1], ["scn", 1], ["sc", 1], ["pnb", 1], ["pfl", 1], ["pam", 1],
+  ["nah", 1], ["mwl", 1], ["mr", 1], ["mn", 1], ["min", 1], ["la", 1], ["ku", 1],
+  ["jv", 1], ["he", 1], ["ckb", 1], ["bs", 1], ["ba", 1]]'
+hardrules_tags: '{"not_too_long": 21, "not_too_short": 180, "length_ratio": 0, "no_urls":
+  18, "no_bad_encoding": 0, "pii": 3}'
+sample: '["\"Mi di\u025bri, c\u0254l la\u0331a\u0331t tin lua\u0331k k\u025b naath
+  k\u025b kui coronavirus 1800 675 398 l\u00ebpk\u025b k\u025b c\u00e4\u014b k\u025bn\u025b
+  w\u00e4\u00e4r.\\nMi g\u00f6ri \u0263\u00f6\u00f6 ba ji lu\u0254c thok, c\u0254l
+  la\u0331a\u0331t k\u00e4 TIS National 131 450.\\nC\u0254l 000 mi tee k\u025b mi
+  diit mi ci tu\u0254k k\u00e4 ji k\u025b p\u025b\u0308th.\\nTin bi dhil tit\\n- L\u00e4thni
+  kuum nhiam mi r\u00f6\u014b nhiam mi kum wumdu k\u025bn\u025b thokdu mi ji\u025bni
+  ci\u00eb\u014bdu, p\u00ebk\u025b k\u025b gua\u0331th\u0254 cie\u014bi thin\u0254.\\n-
+  Tit\u025b g\u0254aa \u025bn \u0263\u00f6\u00f6 bi r\u0254 n\u0254an k\u025b kam
+  k\u00e4th mi 1.5 mitiri ki\u025b kaath di\u0254k k\u00e4 n\u025by tin k\u0254ki\u025bn\\n-
+  Lak t\u00ebtkun ni cia\u014b\\n- Mi j\u00ebki r\u0254 i ti k\u025b ju\u00eby, t\u00ebni
+  ci\u00eb\u014b, /cu w\u00eb l\u00e4t\\n- Ki\u025bli ki\u025b thiami k\u00e4 puut\u025b
+  ki\u025b ci\u00e4lu\\n- Mi t\u00eb k\u025b mi nyoth j\u025b i ti k\u025b coronavirus
+  (COVID-19), w\u00ebrk\u025b \u025b ji wa th\u025bm\\n- Coronavirus th\u025bm k\u025b
+  j\u025b baa\u014b k\u00e4 n\u025by diaal. N\u025bm\u025b matd\u025b n\u025by diaal
+  tin thi\u025bl Medicare Card ki\u025b ja\u0331a\u0331l tin b\u00e4 kuic ki\u025br,
+  n\u025by tin b\u00e4 k\u025b la\u0331t ki\u025b n\u025by ti g\u00f6\u00f6r \u0263\u00f6\u00f6
+  bi ci\u00eb\u014b wic\\n\u0190n gua\u0331th \u025bm\u025b\\nP\u00ebk K\u00e4tha
+  guk\u00e4 Bik-t\u00f6-ria tin pay tu\u0254k\\nCa\u0331p k\u025b kuic k\u00e4p guk\u00e4
+  cu\u0254\u014b k\u025bn\u025b ka\u0331a\u0331th tin de Bik-t\u00f6-ria jak\u00e4
+  COVID Normal ca k\u025b la\u0331th raar \u025b j\u0254c k\u00e4 Coronavirus (COVID-19)
+  roadmap to re-opening.\\nT\u00ebk\u025b Ca\u0331p k\u025bl mi ca rialik\u00e4 k\u025b
+  kuic Melbourne k\u025bn\u025b k\u025bl r\u025by ci\u00eb\u014b Bik-t\u00f6-ria\\nKu\u00e4r
+  pu\u0254l\u00e4 P\u0254a\u0331ny (The Chief Health Officer) b\u025b guk g\u025br
+  mi cia\u014b r\u0254d\u025b g\u025br\\nR\u025by ci\u00eb\u014b Melbourne\\nK\u00e4th
+  in r\u025bwd\u025b\u0331 \u025bt\u025bm\u025b ni k\u025b c\u00e4\u014b k\u00e4 28
+  k\u00e4 pay B\u00e4\u014buan 2020 r\u025by ci\u00eb\u014b Melbourne\\nThil\u025b
+  ram mi ba l\u025b p\u00ebn ja\u0331l r\u025by ci\u00eb\u014b Melbourne \u025bt\u025bm\u025b
+  ni thaak 5am dhieec k\u025b runwa\u014b k\u025b c\u00e4\u014b k\u00e4 28 k\u00e4
+  pay Ba\u014buan 2020\\nBi ji\u025bn cie\u014bdu k\u025b gua\u0331th \u025b g\u00f6\u00f6ri
+  m\u0254 k\u025b k\u025bl k\u00e4 lu\u0254tni da\u0331\u014b \u014buan titi\u0331\\n-
+  W\u00eb k\u0254k mi\u0331thni k\u025bn\u025b ti g\u00f6rk\u025b ci\u00eb\u014b\\n-
+  Ri\u00e4ny ci\u00f6kni ki\u025b wi pu\u0254nydu l\u00ebth rar ca jak\u00e4 kui\\n-
+  Wargak la\u0331t ki\u025b nh\u00f6k la\u0331t\\n- Mi th\u00f6pi lu\u00e4k, k\u025b
+  kui ram mi cuc ki\u025b wi duel wa\u0331l\\nRi\u00e4ny ci\u00f6kni ki\u025b wi pu\u0254nydu
+  l\u00ebth k\u025bn\u025b w\u00eb k\u0254k k\u025b tin g\u00f6rk\u025b cie\u014b,
+  bi dhil p\u00ebk gua\u0331th mi t\u00eb k\u025b kil\u025b mitiri da\u0331\u014b
+  5 dhiec k\u025b dh\u0254ru.\\n\u0190 t\u025bm\u025b ni\u025b gua\u0331th \u025bm\u025b\\n-
+  \u0190w\u00eb k\u00e4 n\u025b thi\u00ebc k\u00e4 dh\u00f6r da\u0331\u014b r\u025bw
+  nh\u00f6k\u025b k\u025b \u0263\u00f6\u00f6 d\u00ebk\u025b w\u00eb ji\u00ebk rar\\n-
+  B\u025b te k\u025b k\u00e4th bi ba kuany k\u025b \u0263\u00f6\u00f6 mi dhooli luoc
+  duel g\u0254r\u00e4 k\u00e4 (Prep to Grade 6),VCE/VCAL k\u025bn\u025b duelg\u0254r\u00e4
+  tin k\u0254\u014b k\u025b w\u00e4di\u025bn k\u00e4 k\u00e4th in 4 \u014buandi\u025bn
+  k\u025b l\u025bp duelg\u0254r\u00e4.\\n- Ba gu\u00e4th \u014biic\u00e4 gan ti t\u0254ani
+  l\u025bp\\n- Ba gu\u00e4th l\u00e4tni ti \u014buaan l\u025bp\\n- Ba pu\u0254l k\u00ebt
+  tin la \u014baark\u025b rar l\u025bp, n\u025by tin \u014bi\u00e4c k\u025b d\u00eb
+  k\u025b cop k\u00e4 n\u025by da\u0331\u014b r\u025bw k\u025b \u014biic k\u025bl\\n-
+  Pali ji \u014b\u00e4th\u00e4 ca nh\u0254k \u025bn \u0263\u00f6\u00f6 de n\u025by
+  ti co\u0254pk\u025b n\u025by da\u0331\u014b dhiec r\u0254 dol gua\u0331th k\u025bl
+  raar k\u025bn\u025b b\u00f6th pal\u00e4di\u025bn k\u025bl\\n- Ca ku\u00ebn nh\u00f6k
+  \u025bn \u0263\u00f6\u00f6 bak\u025b la\u0331t raar \u025b n\u025by ti cu\u0254pk\u025b
+  dhieec(Tee n\u025by tin ku\u00ebn k\u025bn\u025b n\u00eb\u00ebn da\u0331\u014b r\u025bw
+  r\u025bydi\u025bn)\\n- Ba ji moc karaam \u025b Bik-t\u00f6ria Poli\u0331th k\u025b
+  yi\u00f6w ti copk\u025b $4,957 mi ci w\u00e4 ja\u0331l r\u025by ci\u00eb\u014b Bik-t\u00f6-ria
+  \u025b thil luot mi g\u0254aa. Ba ji moc karaam b\u00e4 mi ci m\u00e4athdu k\u025bn\u025b
+  wa\u0331a\u0331tdu w\u00e4 guil mi cia cie\u014b k\u025b\u025bl k\u00e4 d\u0254\u014b
+  \u025b y\u025bn bu\u0254n mi diit bi p\u00e4l n\u025by da\u0331\u014b dhieec raar.
+  Ba\u0331 ji moc karaam mi ci ma\u0331a\u0331thdu k\u025bn\u025b wa\u0331a\u0331tdu
+  ji guil dh\u0254\u0254ru \u025b thil luot mi g\u0254aa, ki\u025b k\u025b ram mi
+  tiitdi.\\nK\u00e4th in di\u0254di\u025bn: mi ci cia\u014b paar c\u025b n\u025by
+  ti ca dhieec cop (r\u025by wec k\u025b\u025bliw) k\u025b k\u0254r ni\u0331ni\u0331
+  d\u00e4 14 W\u00e4l B\u00e4\u014buan tee ci w\u00e4 k\u025bn\u025b \u0263\u00f6\u00f6
+  ca mat \u025b Ku\u00e4\u00e4r Pu\u0254l\u00e4 Puany.\\n\u0190 t\u025bm\u025b ni\u025b
+  gua\u0331th \u025bm\u025b\\n- B\u025b cu thi\u025bl ram mi ba pen ja\u0331l k\u025b
+  w\u00e4r, b\u025b cu thi\u025bl guk mi p\u00ebni ji\u025bn dh\u0254ru ki\u025b p\u00ebni
+  w\u00eb ja\u0331l mi te k\u025b gua\u0331th mi Wii\u0331 ja\u0331l thin.\\n- \u0190w\u00eb
+  k\u00e4 n\u025by ti cu\u0254pk\u025b n\u025by da\u0331\u014b 10 w\u00e4l bik\u025b
+  nyuur raar gua\u0331th k\u025bl\\n- D\u00eb ji guil dh\u0254ru \u025b ja\u0331a\u0331l
+  ti co\u0254pk\u025b n\u025by da\u0331\u014b dhiec ti b\u00e4 dh\u0254r mi d\u0254di\u025bn.
+  K\u00e4 bi k\u025bn diaal dhil b\u00ebn dh\u0254r k\u025bl\\n- Dhooli duel g\u0254r\u00e4
+  tin tee k\u00e4 book 7 am\u00e4ni Book 10 bak\u025b nh\u0254k \u0263\u00f6\u00f6
+  bik\u025b luoc deuelg\u0254r\u00e4 mi ci juey k\u00e4pd\u025b ku\u025b\u0331\u0308\u025b\u0331\u0308
+  mi ca mat Kua\u0331r \u014a\u00e4c\u00e4 Pu\u0254l\u00e4 Puany\\n- Thukni k\u025bn\u025b
+  gua\u0331th ta\u0331k mi\u00e4m bak\u025b l\u025bp\\n- Gua\u0331th mi\u0331thni\u0331
+  k\u025bn\u025b cayni ba k\u025b l\u025bp k\u00e4 bi naath nyuur raar ka\u0331 bi
+  bu\u0254n nath \u025b n\u025by da\u0331\u014b 10 w\u00e4l\\n- K\u00e4th luoc\u00e4
+  \u014baari tin la \u014bark\u025b raar k\u00e4 ci naath r\u0254 thiek k\u025b kur\u025bn\u025b
+  n\u025b\u025bni tin del, \u014baari kur\u025bni raar bak\u025b tuk k\u025b n\u025by
+  tin ci runki\u025bn piny runi da\u0331\u014b 18 (derk\u025b r\u0254 thiek k\u00e4
+  /ca r\u0254 de thiek)\\nK\u00e4th in j\u0254ak: K\u025b luek in ba laar \u025b Ku\u00e4\u00e4r
+  Pu\u0254l\u00e4 Puany mi thil\u025b juey mi ci j\u0254c k\u025b k\u0254r nini da\u0331\u014b
+  14 tee ci w\u00e4 k\u025bn\u025b luek in ba laar \u025b Ku\u00e4\u00e4r Pu\u0254l\u00e4
+  Puany\\n\u0190 t\u025bm\u025b ni\u025b gua\u0331th \u025bm\u025b\\n- Ba n\u025by
+  ti copk\u025b 50 nh\u00f6k \u0263\u00f6\u00f6 bik\u025b r\u0254 dol gua\u0331th
+  k\u025bl raar\\n- Ba n\u025by ti copk\u025b 20 nh\u00f6k \u0263\u00f6\u00f6 dek\u025b
+  ji w\u00e4 guil dh\u0254\u0254ru\\n- Thukni diaal bak\u025b l\u025bp\\n- Gua\u0331th
+  mi\u0331thni\u0331 k\u025bn\u025b cayni ba k\u025b l\u025bp k\u00e4 bi naath nyuur
+  raar ka\u0331 ba bu\u0254n k\u025bl jak\u00e4 n\u025by ti 20 ji\u025bn da\u0331\u014b
+  r\u025bw ti bi nyuur r\u025by duel, k\u00e4 ba pek n\u025b\u025bni tin k\u00f6k
+  jak\u00e4 50\\n- Ba \u014baari kur\u025bni lu\u0254c thin, k\u00e4 ba cia\u014b
+  guirk\u00e4 mi g\u0254aa lath piny. Ba \u014baari kur\u025bni diaal tin la naath
+  \u025b jak\u00e4 k\u00e4 thieek ny\u0254k k\u025b l\u025bp k\u00e4 n\u025by diaal.\\n-
+  Ba n\u025by ti copk\u025b 50 nh\u00f6k \u0263\u00f6\u00f6 dek\u025b w\u00e4 gua\u0331th
+  kuen k\u025bn\u025b ku\u0254ny\\n- Ba gua\u0331th pali ji \u014b\u00e4th\u00e4 l\u025bp,
+  k\u00e4 bik\u025b \u014but mi\u0331ti\u0331ri k\u00e4thni da\u0331\u014b \u014buan
+  tit\\nCOVID Normal: Mi c\u025b thil ram mi ca li\u014b i ca k\u00e4p \u025b juey
+  k\u025b k\u0254r ni\u0331ni\u0331 ti 28 ji\u025bn r\u025bw wi\u0331d\u025b b\u00e4d\u00e4k,
+  k\u00e4 thil n\u025by ti te t\u0254c\u00e4 k\u025b juey (r\u025by wec k\u025b\u025bliw),
+  k\u00e4 thil\u025b di\u025br k\u00e4 Australia k\u025b \u0263\u00f6\u00f6 dee juey
+  r\u0254 ny\u0254k k\u025b tu\u0254k, k\u00e4 ci Kua\u0331r \u014a\u00e4c\u00e4 Pu\u0254l\u00e4
+  Puany mat thin.\\n\u0190 t\u025bm\u025b ni\u025b gua\u0331th \u025bm\u025b\\n- Ba
+  guk diaal ka\u0331p cu\u014b ki\u025b bak\u025b ka\u0331p nhial k\u025b kuic g\u0254y\u025b
+  rik\u00e4\\n- B\u025b t\u025b k\u025b k\u00e4th mi ba kuany \u025bn \u0263\u00f6o
+  bi n\u025by diaal tee l\u00e4t cie\u014bni luoc l\u00e4t\\n- Thil pek n\u025b\u025bni
+  ti ba l\u025b laar ti bi w\u00e4 gua\u0331th kuen ki\u025b kuony\u00e4\\n- Thil
+  pek n\u025b\u025bni ti ba l\u025b laar i dee r\u0254 dol gua\u0331th k\u025bl ki\u025b
+  dee w\u00e4 guel cie\u014b\\nR\u025by cie\u014b Bik-t\u00f6-ria\\nKa\u0331th in
+  di\u0254di\u025bn:\\nNi\u025b thaak 11:59pm k\u025b w\u00e4\u00e4r k\u025b c\u00e4\u014b
+  k\u00e4 16 k\u00e4 pay B\u00e4\u014buan 2020 r\u025by ci\u00eb\u014b Bik-t\u00f6-ria\\n-
+  B\u025b thi\u025bl guk lu\u0254tni mi bi ji l\u025b p\u00ebn ji\u025bn dh\u0254ru
+  ki\u025b gua\u0331th \u025b g\u00f6\u00f6ri we ja\u0331l thin\u0254 r\u025by cie\u014b
+  Bik-t\u00f6-ria\\n- \u0190w\u00eb k\u00e4 n\u025by ti co\u0254pk\u025b n\u025by
+  da\u0331\u014b 10 w\u00e4l nh\u00f6k nyuur raar gua\u0331th k\u025bl\\n- Ca ja\u0331a\u0331l
+  ti cu\u0254pk\u025b dhiec dh\u0254r mi d\u0254di\u025bn nh\u00f6k \u0263\u00f6\u00f6
+  de ji guil dh\u0254ru. K\u025bn ja\u0331a\u0331l diaal bik\u025b dhil ben ni\u025b
+  dh\u0254r\u0254 k\u025bl\u0254. Deri ram k\u025bl m\u025bk dh\u0254r mi d\u0254di\u025bn
+  mi dee ji guil \u025bn r\u025by gukni titi. Gaat ti tee piny p\u00e4thni da\u0331\u014b
+  w\u00e4l r\u025bw /cak\u025b ku\u025bn r\u025by ja\u0331a\u0331li.\\n- Gua\u0331th
+  mi\u0331thni\u0331 k\u025bn\u025b ca\u0331yni ba k\u025b l\u025bp k\u00e4 bi naath
+  nyuur raar k\u00e4 ba bu\u0254n k\u025bl jak\u00e4 n\u025by da\u0331\u014b 10 w\u00e4l\\n-
+  B\u025b te k\u025b gua\u0331th mi ba \u014baari kur\u025bni raar tin /ci nath r\u0254
+  thiek k\u025b k\u025b luoc thin k\u00e4 n\u025by tin del. k\u00e4 ba \u014baari
+  kur\u025bni raar luoc thin k\u00e4 n\u025by dial tin t\u00eb runki\u025bn piny ruuni
+  da\u014b 18 (thiek k\u025bn\u025b thil-thi\u00ebk\u00e4)\\nK\u00e4th in j\u0254ak:
+  K\u025b luek in ba laar \u025b Ku\u00e4\u00e4r Pu\u0254l\u00e4 Puany mi thil\u025b
+  juey mi ci j\u0254c (r\u025by wec k\u025b\u025bliw) k\u025b k\u0254r nini da\u0331\u014b
+  14 tee ci w\u00e4 b\u025b pek k\u025b luek in ba laar \u025b Ku\u00e4\u00e4r Pu\u0254l\u00e4
+  Puany\\n\u0190 t\u025bm\u025b ni\u025b gua\u0331th \u025bm\u025b\\n- \u0190w\u00eb
+  k\u00e4 n\u025by ti co\u0254pk\u025b 50 d\u00ebk\u025b r\u0254 dol gua\u0331th k\u025bl
+  raar\\n- Bi n\u025by ti co\u0254pk\u025b 20 ji guil dh\u0254ru\\n- Gu\u00e4th k\u00f6k\u00e4
+  diaal bak\u025b l\u025bp\\n- Gua\u0331th mi\u0331thni\u0331 k\u025bn\u025b ca\u0331yni
+  ba k\u025b l\u025bp k\u00e4 bi naath nyuur raar k\u00e4 ba bu\u0254n k\u025bl jak\u00e4
+  n\u025by ti 20 ji\u025bn da\u0331\u014b r\u025bw ti bi nyuur r\u025by duel, k\u00e4
+  ba p\u00ebk n\u025b\u025bni tin k\u00f6k jak\u00e4 50.\\n- Ba \u014baari kur\u025b
+  ni lu\u0254c thin, k\u00e4 ba cia\u014b guir\u00e4 mi g\u0254aa la\u0331th piny,
+  b\u00e4 \u014baari diaal ti yiiny naath r\u0254 thin l\u025bp k\u00e4 n\u025by diaal.\\n-
+  Ba n\u025by ti cu\u0254pk\u025b 50 nh\u00f6k \u0263\u00f6\u00f6 d\u00ebk\u025b w\u00eb
+  gua\u0331th ku\u00ebn k\u025bn\u025b ku\u0254ny/ gua\u0331th p\u00e4ra.\\n- Ba gu\u00e4th
+  pali ji \u014b\u00e4th\u00e4 l\u025bp, k\u00e4 bik\u025b \u014bu\u0254t mitiri da\u0331\u014b
+  \u014buaan tit\\nCOVID Normal: Mi c\u025b thil ram mi ca li\u014b i ca k\u00e4p
+  \u025b juey k\u025b k\u0254r ni\u0331ni\u0331 ti 28 ji\u025bn r\u025bw wi\u0331d\u025b
+  b\u00e4d\u00e4k, k\u00e4 thil n\u025by ti te t\u0254c\u00e4 k\u025b juey (r\u025by
+  wec k\u025b\u025bliw), k\u00e4 thil\u025b di\u025br k\u00e4 Australia k\u025b \u0263\u00f6\u00f6
+  dee juey r\u0254 ny\u0254k k\u025b tu\u0254k, k\u00e4 ci Kua\u0331r \u014a\u00e4c\u00e4
+  Pu\u0254l\u00e4 Puany mat thin.\\n\u0190 t\u025bm\u025b ni\u025b gua\u0331th \u025bm\u025b\\n-
+  Guk diaal bik\u025b cu\u0254\u014b ki\u025b bak\u025b woc k\u025b kuic g\u0254ya
+  rik\u00e4\\n- B\u025b t\u00eb k\u025b ka\u0331th mi ba kuany \u025bn \u0263\u00f6o
+  bi n\u025by diaal tin l\u00e4t ci\u00ebni luoc gu\u00e4th l\u00e4tni ki\u025bn\\n-
+  Thi\u025bl\u025b p\u00ebk k\u025b we gua\u0331th ku\u00ebn ki\u025b kuony\u00e4/
+  gua\u0331th p\u00e4rk\u00e4\\n- Thi\u025bl\u025b p\u00ebk k\u025b duol gua\u0331th
+  k\u025bl ki\u025b guil ji ci\u00eb\u014b du.\\nD\u00ebri ci\u00eb\u014b idi ag\u0254a
+  k\u025bn\u025b pu\u0254l\\nCoronavirus (COVID-19) \u014bot\u025b t\u00eb k\u025b
+  k\u0254n k\u025b\u025bl k\u00e4 d\u00ebr\u025b d\u00e4k r\u025by naath k\u025b p\u025b\u0308th.
+  Lu\u00e4k ni k\u025b \u0263\u00f6\u00f6 ban\u025b cie maanik\u0254n k\u025bn\u025b
+  n\u025b\u025bk\u0254n dial jak\u00e4 ci\u00eb\u014b ag\u0254aa, K\u0254n diaal ban\u025b
+  kuicdan la\u0331t\\nTiti k\u025b ti thia\u0331k thia\u0331a\u0331k ti d\u00eb ji
+  jak\u00e4 ci\u00eb\u014b ag\u0254aa\\n- Lak t\u00ebtku k\u025b thabuuny k\u025bn\u025b
+  piw k\u025b 20 th\u025bk\u025bn\\n- Ki\u025bli ki\u025b thiami k\u00e4 puut\u025b
+  ki\u025b ci\u00e4lu\\n- Tit\u025b g\u0254aa \u025bn \u0263\u00f6\u00f6 bi r\u0254
+  n\u0254an k\u025b kam k\u00e4th mi 1.5 mitiri mitiri ki\u025b kaath di\u0254k k\u00e4
+  n\u025by tin k\u0254ki\u025bn\\n- L\u00e4thni Kuum nhiam, \u025b tha\u0331a\u0331\u014b
+  luoc ci\u025b\u014b\u00e4 mi g\u0254aa \u2013 ba k\u0254n lu\u00e4k k\u025bn\u025b
+  \u0263\u00f6\u00f6 bik\u025b n\u025b\u025bk\u0254n ti k\u0254\u014b jak\u00e4 g\u0254w.\\n-
+  W\u00ebrk\u025b duelwa\u0331l ba ji w\u00e4 th\u025bm\\n- Mi j\u00ebki r\u0254 ci\u025b
+  ti k\u025b juey, t\u00ebni ci\u00eb\u014b. /cu watku guil ki\u025b cu w\u00e4 la\u0331t\\n-
+  \u0190 ji wa th\u025bm mi t\u00eb k\u025b mi nyoth j\u025b i ti k\u025b juey k\u00e4
+  wer birr ni dh\u0254ru.\\nLu\u00e4k tee thin\\nMi di\u025b\u025bri k\u00e4 kuic
+  k\u00e4 \u0263\u00f6\u00f6 ci yi\u00f6w bi jek kam gua\u0331th in lipi luot th\u025bmdu,
+  deri ro\u014b k\u025b lu\u00e4k k\u025b yi\u00f6w ti $450 tin la kamk\u025b ji coronavirus
+  (COVID-19) tin ca Th\u025bm k\u00e4 te gua\u0331thdi\u025bn k\u00e4r\u0254\\nMi
+  ci th\u025bmdu j\u025b nyoth i ti k\u025b juey ki\u025b ci thiek y\u025bn\u025b
+  ram mi ca \u014b\u00e4c i te k\u025b juey, ro\u014bi k\u025b \u0263\u00f6\u00f6
+  dee ji lu\u00e4k k\u025b yi\u00f6w ti $1,500. Mi g\u00f6\u00f6r \u014b\u00e4c k\u025b
+  kuic la\u0331a\u0331ri titi y\u0254t Coronavirus Hotline k\u025b 1800 675 398. Mi
+  g\u00f6\u00f6ri lu\u0254c thok, tuany ba\u014b (0).\\nMi di\u025bri ki\u025b te
+  k\u025b ram mi d\u0254\u014b mi \u014b\u00e4ci i di\u025br\u025b ki\u025b te k\u025b
+  mi kuic\u025b luotd\u025b, deri y\u0254at k\u025b Lifeline k\u025b 13 11 14 ki\u025b
+  Beyond Blue k\u025b 1800 512 348. Mi g\u00f6\u00f6ri lu\u0254c thok, k\u025b nhiam
+  y\u0254t 131450.\\nMi c\u00e4ri k\u025b t\u00e4du k\u00e4r\u0254adu, deri coronavirus
+  (COVID-19) hotline y\u0254tik\u00e4 k\u025b 1800 675 398 k\u00e4 tuany di\u0254k
+  (3). B\u00e4 ji jak\u00e4 jek k\u025b lu\u00e4k la\u0331t Australian Red Cross tin
+  dee ji g\u00f6\u00f6r n\u025by ti lu\u00e4k\u025b naath \u025bn gu\u00e4th \u025b
+  ti thin\u0254.\\nKuum Thok\\nN\u025by diaal k\u00e4 Bik-t\u00f6-ria, run w\u00e4l
+  r\u025bw k\u025bn\u025b n\u025by tin di\u0331t bik\u025b nhiam di\u025bn dhil kum
+  k\u025b kuum nhiam mi kum Wum k\u025bn\u025b thok mi ji\u025bn raan ci\u00eb\u014b,
+  \u025b ni mi te k\u025b lu\u0254t mi c\u025b d\u00eb lath k\u025b j\u025b. Ci\u025b
+  m\u025bm\u025b\\n- Mi ti k\u025b ri\u025bk jua\u0331th cie j\u0254k gup\u00e4 nhiamdu
+  ki\u025b mi ci yi\u00eb\u00eb ag\u0254a\\n- Mi ti r\u025by thu\u0254rbi\u025bl,
+  d\u0254\u014b ti k\u00e4 r\u0254adu ki\u025b yi\u025bn\u025b ram k\u025bl k\u00e4
+  ji dh\u0254aru\\n- Mi rinyi ci\u00f6ku ki\u025b l\u00ebth p\u0254a\u0331ny, du\u014bd\u025b
+  \u0263\u00f6\u00f6 bi kuum nhiamdu r\u0254m k\u025b ji k\u025b\u025bl\\nNi k\u025b
+  thaak 11:59 k\u025b w\u00e4\u00e4r, k\u025b c\u00e4\u014b k\u00e4 11 k\u00e4 pay
+  W\u00e4l bi kuum nhiam mi r\u0254\u014b nhiam du dhil lath mi kum womdu k\u025bn\u025b
+  thokdu. Mi lot ni \u0263\u00f6\u00f6 ci thokdu bil\u025b kum k\u025b mi d\u0254\u014b
+  mi cie k\u025b ciaal, tar\u025b ki\u025b mi d\u0254\u014b mi d\u00ebri nhiamdu kum
+  k\u025b j\u025b.\\nkam\u025b w\u00eb guk k\u025b we piny\u0254, bi ja\u0331l nath
+  r\u0254 r\u00ebp, g\u0254aa ni \u0263\u00f6\u00f6 bi Kuum nhiam lath mi kum wumdu
+  k\u025bn\u025b thokdu\\nTh\u00ebm k\u025bn\u025b ta\u0331a\u0331 k\u00e4r\u0254a\\nMi
+  ti k\u025b nyuuth ni coronavirus (COVID-19), ba ji dhil th\u025bm k\u00e4 bi dhil
+  te cie\u014b am\u00e4ni mi ca ji lu\u0254c lu\u0254t th\u00ebmdu. /cu we l\u00e4t
+  ki\u025b gua\u0331th k\u00f6k\u00e4\\nTin nyoth coronavirus k\u025bn tin\\n- L\u00eb\u00ebth
+  p\u0254a\u0331ny, k\u0254c ki\u025b l\u00ebth\\n- Kiel ki\u025b b\u025bc r\u00f6\u00f6l\\n-
+  Mi \u014buk\u025b yi\u00eb\u00ebku\\n- Thony thony\\n- Thi\u025bl\u025b mi \u014bu\u00e4ci
+  ki\u025b j\u00ebki \u025bcom/tu\u00e4k thokdu tu\u00e4k\\nN\u025by diaal th\u025bmk\u025b
+  baa\u014b k\u025b Coronavirus. Am\u00e4ni n\u025by ti thi\u025bl Medicare card,
+  ja\u0331a\u0331l ti b\u00eb kuic yi\u00ebri, n\u025by tin b\u00eb \u025bla la\u0331a\u0331t
+  k\u025bn\u025b n\u025by tin be k\u025b g\u00f6\u00f6r ci\u025b\u014b\u00e4 w\u00ebc.\\nMi
+  ci th\u025bmdu j\u025b nyoth \u025bn \u0263\u00f6\u00f6 ti k\u025b coronavirus (COVID-19),
+  bi dhil te gua\u0331thdu k\u00e4r\u0254a cie\u014b, mi g\u00f6\u00f6r \u014b\u00e4c
+  k\u00e4 \u0263\u00f6\u00f6 \u025b \u014bu deri la\u0331t\u0254 mi ci th\u025bmdu
+  nyoth ti k\u025b coronavirus (COVID-19) (Riet)\\nMi cia thiek y\u025bn\u025b ram
+  mi te k\u025b coronavirus (COVID-19) bi te gua\u0331thdu k\u00e4r\u0254adu k\u025b
+  ni\u0331n da\u0331\u014b 14 w\u00e4l \u014buaan. Mi g\u00f6\u00f6r \u014b\u00e4c
+  k\u00e4 \u0263\u00f6\u00f6 \u025b \u014bu deri la\u0331t\u0254 mi cia thiek y\u025bn\u025b
+  ram mi te k\u025b coronavirus (COVID-19) (Riet)\\nKuak lua\u0331k\\nL\u00e4\u00e4tni
+  kuak t\u0254\u0331 te piny t\u0254\u0331 k\u00e4 nyuak\u025b k\u025b y\u025bn\u025b
+  n\u025b\u025bku k\u025b email, r\u025by ji\u0254am k\u025bn\u025b dup tin k\u0254\u0331\u014b
+  tin ji\u00ebk\u025b l\u00e4\u00e4ri.\\nTh\u025bm k\u025bn\u025b t\u00e4\u00e4 g\u00f6l\u00e4\\n-
+  Min deri lat mi ca ji jek ni ju\u025by coronavirus (COVID-19) - What to do if you''ve
+  tested positive for coronavirus (COVID-19) (PDF)\\n- Min deri lat mi ca ji jek ni
+  ju\u025by coronavirus (COVID-19) - What to do if you''ve tested positive for coronavirus
+  (COVID-19) (Word)\\n- Min deri la\u0331t mi ci met thiek k\u025b ram mi ca jek ni
+  ju\u025by coronavirus (COVID-19) - What to do if you have been in close contact
+  with someone with coronavirus (COVID-19) (PDF)\\n- Min deri la\u0331t mi ci met
+  thiek k\u025b ram mi ca jek ni ju\u025by coronavirus (COVID-19) - What to do if
+  you have been in close contact with someone with coronavirus (COVID-19) (Word)\\n-
+  Get tested poster coronavirus (COVID-19) - (PDF)\\n- Get tested social tile\\n-
+  Coronavirus (Covid-19) Theem - Testing for coronavirus (COVID-19) fact sheet - (Word)\\n-
+  Coronavirus (Covid-19) Theem - Testing for coronavirus (COVID-19) fact sheet - (PDF)\\nCie\u014bni
+  ag\u0254aa\\n- Tin ca r\u0254\u0331 g\u025br k\u00e4 guk - Summary of changes to
+  Stage 4 restrictions \u2013 coronavirus (COVID-19) (PDF)\\n- Three ways to stay
+  safe poster coronavirus (COVID-19) - (PDF)\\n- Kum thokdu mi kieli\u0331 ki\u025b
+  thiami - Poster - Cover your cough and sneeze\\n- Lak tetku gua\u0331thni diaal
+  - Poster - Wash your hands regularly\\nG\u00f6\u00f6r lu\u00e4k\\n- Deri lu\u00e4k
+  jiek i\u0331di\u0331 mi jieki r\u0254 /ci mal,cuci,ki\u025b ga\u0331a\u0331ri k\u025b
+  coronavirus (COVID-19) - Emergency support fact sheet - (Word)\\n- Deri lu\u00e4k
+  jiek i\u0331di\u0331 mi jieki r\u0254 /ci mal,cuci,ki\u025b ga\u0331a\u0331ri k\u025b
+  coronavirus (COVID-19) - Emergency support fact sheet - (PDF)\"", "\"The Tower of
+  Babel (Genesis 11: 1-9)\\nNaadh (Nuer)\\n- T\u00e4\u00e4m\u025b piny k\u025b\u025bliw
+  thokd\u025b\\nk\u025bl k\u025b\u025b rieet ti t\u0254t.\\n- \u0194o\u0332th nath
+  k\u00e4 k\u00e4ny ca\u0332\u014b\\ncuk\u025b mun mi car car jek ro\u0332o\u0332l
+  Caynaar, k\u00e4\\ncuk\u025b pua\u0332t thi\u0332n.\\n- Cu k\u025bn \u025b la\u0332r
+  ro, \\\"Kuan\u025b ro la\u0332t\\nthu\u0254pni, bi k\u0254n k\u025b bul a bik\u025b
+  ci\u025bk.\\\"\\nCuk\u025b thu\u0254pni t\u00e4th k\u025b \u0264\u00f6\u00f6 thil\u025b\\nk\u025b
+  p\u00e4\u00e4m, cuk\u025b du\u0254\u0332\u0254\u0332r mi c\u0254al\\ni baytum\u025bn
+  ka\u0332n mi d\u0254p k\u025bn \u025b ni thu\u0254pni,\\nk\u025b \u0264\u00f6\u00f6
+  thil\u025b k\u025b d\u0254p d\u0254p mi l\u00e4t\\nk\u025bn \u025b thu\u0254pni.\\n-
+  K\u00e4 cu k\u025bn \u025b lar, \\\"Kuan\u025b ro l\u00e4t k\u00e4\\nwec mi di\u0332i\u0332t,
+  k\u025bn\u025b duel mi bi wi\u0332cd\u025b\\nr\u00e4th ni pu\u0254\u0332\u0254\u0332r\u00e4,
+  k\u00e4 ban\u025b ro\\nmoc mi baa k\u025bk k\u0254n, tu\u014b b\u025b m\u00e4\u00e4
+  mi\\nban\u025b ro d\u00e4k k\u00e4 piny t\u0254.\\\"\\n- K\u00e4 cu Jaopa ben piny,
+  b\u025b wec k\u025bn\u025b duel\\nt\u00eb\u00eb caa la\u0332t \u025b gaat nath ben
+  n\u025bn.\\n- Cu Jaopa j\u025b lar, \\\"N\u025b\u0308n\u025b j\u025b,\\nn\u025by
+  titi cikaa do\u0332r k\u025bl , k\u00e4 ci thoodi\u025bn\\na k\u025bl. K\u00e4 n\u025bm\u025b
+  \u025b ni j\u025bn in nhiam\\nin k\u0254n k\u025bn \u025b tok k\u025b l\u00e4tni,
+  k\u00e4\\nthil\u025b d\u0254di\u025bn mi bi k\u025bn \u025b car i bi k\u025bn\\n\u025b
+  la\u0332t mi bi k\u025b l\u025b dhal.\\n- B\u025b\u0308\u025b\u0308, wan\u025b piny,
+  ban\u025b thoodi\u025bn\\nw\u00e4 nyon k\u025b \u0264\u00f6\u00f6 ''ci ram\u0254
+  thok raam\u0254\\nbi l\u025b li\u014b.\\\"\\n- K\u00e4 m\u00eb\u00eb w\u00eb\u00eb
+  tey in\u025b cu Jaopa k\u025b\\nd\u00e4k k\u00e4 piny wi\u0332c mu\u0254\u0332\u0254\u0332n\\nk\u025b\u025bliw,
+  k\u00e4 cuk\u025b la\u0332t wec ba\u0332ny piny.\\n- K\u025b kui\u0332c \u025bm\u0254
+  cu\u0254 ci\u00f6td\u025b c\u0254l\\ni B\u025bybol k\u025b \u0264\u00f6\u00f6 ci
+  Jaopa thok k\u025bl\\n\u00eb\u00eb te k\u025b naath r\u025by \u0264\u0254aa k\u025b\u025bliw\\nnyon
+  \u025bn gu\u00e4th \u025bm\u0254. Cu Jaopa k\u025b coo d\u00e4k\\nk\u00e4 piny.\"",
+  "\"Collected and written by Michael Thilyang Gatkek With special thanks to Fr Christian
+  Carlassare and pastoral team of Holy Trinity Parish (Old Fangak) (for English translation
+  see their great book: Nuer Folktales, Proverbs and Riddles)\\nNyala\u014b j\u025bn
+  \u025b nyal k\u00e4 Gaaw\u00e4\u00e4r r\u025by nu\u00e4ri thok duel cie\u014b d\u0254\u0320\u0254\u0320l.
+  J\u025bn t\u025b k\u025b\u025bl k\u025b gaatman. J\u025bn b\u00e4\\n/c\u025b p\u025bl
+  \u025b d\u00e4y d\u00e4y. Mi tee naath r\u025by mu\u0254\u014b\u00e4 b\u025b wee
+  i c\u00e4\u014b k\u025bl bi naath ri\u0320\u014bd\u00e4 cam. Bi naath \u025b\\nd\u0254l
+  k\u00e4 c\u0254alk\u025b j\u025b i gua\u0320n kac\u00e4. K\u025b ru\u0254\u0320n
+  k\u025bl ci \u0263\u0254w te k\u025b bu\u0254th mi diit. K\u025b ruel cu nhiaal
+  d\u025bm k\u025b\\nw\u00e4\u00e4r. Cu luakdi\u025bn wa\u014b k\u00e4 te nyala\u014b
+  r\u025by luak k\u025b\u025bl k\u025b det. M\u00eb\u00eb ci \u0263\u0254w baak k\u025b
+  runwa\u014b cu\\nnaath w\u00e4 k\u025b \u0263\u00f6\u00f6 ba det w\u00e4 w\u00e4t
+  r\u025by luaak. Cuk\u025b k\u025b jek a cik\u025b tuak k\u025bn diaal. Cuk\u025b
+  det wa\u0320t\\nk\u00e4 camk\u025b k\u025b. K\u00e4 thil\u025b ram mi caar j\u025b
+  i ci nyala\u014b wa\u014b k\u025b\u025bl k\u025b det am\u00e4ni m\u00eb\u00eb ci
+  luak thu\u0254\u0320k k\u025b\\nwa\u0320t. K\u025b k\u0254r\u025b cuk\u025b r\u0254
+  thiec i k\u00e4 Nyala\u014b t\u025b ni m\u025b /ker\u025b j\u0254\u0254c \u025b
+  ni thiaa\u014b am\u00e4ni wa\u0320l\u025b? Ni\u025b wan\u0254\\ncu k\u025bn \u025b
+  \u014ba\u0320c i ca Nyala\u014b cam \u025b k\u025bn. Cuk\u025b ruac ee la lat\u025b
+  tim i k\u025b c\u00e4\u014b k\u025bl bi naaath \u0263\u00e4 cam.\\nCu naath ru\u0254\u0320n
+  \u025bm\u0254 c\u0254l i ru\u0254\u0320n Nyala\u014b k\u00e4 nu\u00e4ri diaal am\u00e4ni
+  wa\u0320l\u025b.\"", "\"Cu\u014b ku k\u00e4 au\u025btralia.\\nK\u0254k \u014b\u0254aani
+  thukdueeli lot\u025b ni \u014bu?\\nK\u0254k ni \u014b\u0254aani thukdueeli lot\u025b
+  ni \u0263\u00f6 de naath ki\u025b ran ben ce\u014b k\u00e4 \u0263\u0254n\u025b \u0263\u00f6:\\n-
+  k\u00f6k\u025b ji nyin ce\u014b\\n- de k\u025b mi ci ji\u00e4k dh\u0254ru rialik\u00e4\\n-
+  de k\u025b ji thieec I g\u025br mukt\u00e4p ga\u0331th, karaba, t\u025bl\u025bp\u0254n
+  ki\u025b int\u025brn\u025bt min l\u00e4t k\u025b.\\n\u0190 n\u025by de rami k\u0254k
+  \u014b\u0254aak ben dh\u0254r\u00e4 m\u0254?\\nRami k\u0254k \u014b\u0254aak der\u025b
+  ben dh\u0254ru k\u025b gua\u0331th mi cet:\\n- 9:00am k\u025bn\u025b 6:00pm c\u00e4\u014b
+  k\u00e4 k\u025bl \u025b we k\u00e4 c\u00e4\u014b k\u00e4 dhi\u00eb\u00ebc\\n- 9:00am
+  k\u025bn\u025b 5:00pm k\u025b c\u00e4\u014b k\u00e4 ba\u0331 k\u025bl.\\nCi k\u025b
+  de ben k\u025b c\u00e4\u014b kuoth ki\u025b c\u00e4\u014b l\u0254\u014b k\u00e4
+  wec k\u025b liw.\\nDu\u014b d\u025b \u0263\u00f6 n\u025by tin l\u00e4t \u014b\u0254aak
+  ki\u025b ji mukt\u00e4pk\u00e4 de k\u025b ben ce\u014b k\u025b gua\u0331th in lot
+  r\u0254 mi ci yi\u025bn\u025b mat.\\nK\u025b \u014but tin tith de gu\u0254r t\u0254
+  \u025b rami k\u0254k \u014b\u0254aak?\\nMi ci gua\u0331n k\u00f6k\u00e4 be thoduelu,
+  b\u025b ji dhil la\u0331r:\\n- Lot k\u00e4 min be k\u025b j\u025b\\n- Ci\u00f6t
+  d\u025b k\u025bn\u025b mukt\u00e4p la\u0331t d\u025b\\n- \u0194\u00f6 der\u025b
+  ji\u025bn mi ci\u025b \u0263\u00ebr. K\u00e4 mi ci gua\u0331n k\u00f6k\u00e4 ji\u00f6k
+  I j\u025by ni, c\u025b ji de ny\u0254k k\u025b ci\u00f6t \u025b ny\u0254k k\u025b
+  k\u0254r nini ti j\u025bn di\u0254k (30 days)\\n- Cu\u014b ku am\u00e4ni \u0263\u00f6
+  deri min cia mat d\u00e4k am\u00e4ni ta\u0331 in de da\u0331k ni min ci y\u025bn\u025b
+  mat\\n- L\u00e4th ni lu\u0254\u0254t ni ku dial r\u025by wargak\u00e4 min ci yi\u025bn
+  \u025b mat k\u00e4 ci yi\u025bn thany thin k\u025b ci\u00f6t n\u025bni tin n\u00f6\u014b
+  \u014b\u0254aak\\n- \u0190 ji ka\u0331m k\u025b thur\u025b wargak\u00e4 mi ca g\u0254r
+  (written) k\u00e4 ci yi\u025bn mat thin \u025b \u014bot k\u00e4n i ni thany\\n-
+  Thi\u025bl\u025b yi\u00f6w ti ba thi\u00eb\u00ebc k\u025b k\u0254r nini da\u0331\u014b
+  w\u00e4l (10) tin l\u00e4t k\u025b naath ki\u025b thany k\u025b wargak \u025bm\u025b
+  k\u025b j\u025b\\n- Cu pek mi g\u0254a nyoth mi l\u00e4ny yi\u00f6w ti $500 k\u025b
+  k\u0254r nini da\u0331\u014b w\u00e4l tin l\u00e4t k\u025b naath ki\u025b thany
+  k\u025b wargak \u025bm\u025b k\u025b j\u025b\\n- A thi\u025bl mi la\u0331t k\u025b
+  k\u025b k\u0254r nini da\u0331\u014b w\u00e4l tin thany k\u025b wargak k\u025b j\u025b.\\nThi\u025bl\u025b
+  mi nh\u0254ak\u00e4 k\u00e4 min lat k\u025b \u025b ram in k\u0254k \u014b\u0254aak
+  - \u025b \u014bu b\u00e4 l\u025bl\u0254?\\n- Lar\u025b \u2018c\u00e4n \u025b g\u00f6r\u2019\\n-
+  Cu r\u0254 kok \u025b l\u00f6\u014b I bi du\u0254r k\u0254k k\u00e4 rami k\u0254k
+  \u014b\u0254aak mi ci ben dh\u0254ru.\\nNi cia\u014b lar\u025b \u2018c\u00e4 l\u00f6k\u2019
+  mi ci rami k\u0254k \u014b\u0254aak ji:\\n- Ka\u0331m du\u0254r mi ci g\u0254a \u025bl\u00f6\u014b
+  k\u00e4 d\u0254\u014b der\u025b thu\u0254k\\n- Thi\u00eb\u00ebc k\u025b yi\u00f6w
+  \u025b \u014bot ka\u0331n du\u0254r ni la\u0331t\\n- Jak ji k\u00e4 dual k\u025b
+  ta\u0331 d\u025b.\\nNaath p\u025bl k\u025bn r\u00f6 I bek\u025b k\u00e4 kum\u025b\\n-
+  Mi ci ran ben thoduelu k\u00e4 lar\u025b j\u025b be k\u00e4 mukt\u00e4p kum\u025b,
+  cet k\u025b mukt\u00e4p thob\u00f6k\u00e4 ka au\u025btralia ki\u025b th\u00e4nt\u025brli\u014b
+  (Centrelink).\\n- Thi\u00eb\u00ebc k\u025b ji k\u025b gua\u0331th t\u0254w k\u00e4
+  yi\u00f6wni ku ki\u025b lu\u0254\u0254t ni ku, cet k\u025b \u0263\u00f6 bi yi\u00f6w
+  th\u00f6b\u00f6k\u00e4 yorpiny, ki\u025b ba yi\u00f6w tin lua\u0331k k\u025b ji
+  rep k\u00e4 th\u00e4nt\u025brli\u014b.\\n- Mi ci k\u025b lu\u0254\u0254t ni ku na\u014b,
+  de k\u025b yiow ku k\u025bn\u025b tin nyoth ji kual.\\nTitt\u025b (remember): guic
+  \u025bg\u0254a, mic I ran ben dh\u0254ru ka\u0331 lar\u025b j\u025b be k\u00e4 kum\u025b.
+  Ni cia\u014b thi\u00eb\u00ebc wargak mi nyoth j\u025b \u025b \u014ba. La\u0331t
+  kum\u025b ci k\u025b de ben k\u025b ben \u025b m\u025b.\\n\u0194\u00e4n dh\u0254ak\u00e4
+  min lat k\u025b \u025b ram in k\u0254k \u014b\u0254aak - \u0190\u014bu b\u00e4 l\u025bl\u0254?\\nMi
+  ci\u025b dh\u0254k I k\u0254ki du\u0254r k\u00e4 rami k\u0254k \u014b a ji thi\u00eb\u00ebc
+  k\u025b \u0263\u00f6 bia du\u0254r mat. M\u025b cia mat\u0254 ba:\\n- Dhil g\u0254rpiny
+  \u025bg\u0254a k\u025b ruac mi thia\u0331k\\n- Ri\u00e4\u00e4t dial mat thin\\n-
+  Pek yi\u00f6wni dial, ki\u025b ta\u0331 in mat k\u025b ni yiow nyoth\\n- Mat thin
+  am\u00e4ni yi\u00f6w tin ja\u0331k\u025b ni \u014b\u0254ak\\n- Ci\u00f6t k\u025bn\u025b
+  lu\u0254\u0254t ni ram in k\u0254k \u014b\u0254ak la\u0331t thin\\n- Luoni ram in
+  l\u00e4t/j\u00e4k \u014b\u0254ak ciet k\u025b gua\u0331th l\u00e4t d\u025b k\u025bn\u025b
+  t\u025bl\u025bp\u0254nd\u025b\\n- Thany \u025b jin yi\u025bn\u025b ram in k\u0254k
+  \u014b\u0254aak\\n- G\u0254r \u025b g\u0254a k\u00e4 ba thur (mi c\u00e4\u014b te
+  k\u025b mi ca g\u025br k\u025b gala\u0331m k\u00e4 ca thany)\\n- B\u025b te mi lar
+  \u0263\u00f6 deri mi cia mat d\u00e4k\\n- Mi we l\u0254c du \u025b thia\u0331k\\n-
+  Ka\u0331m ji k\u025bl k\u025b wargak mi lat cu\u0254\u014b du mi ci wicdu g\u025br.\\nTitt\u025b
+  (remember): mi kuici thok li\u014blith (English) \u025b g\u0254a, ce g\u0254a \u025bn
+  \u0263\u00f6 bi ram I k\u0254k \u014b\u0254aak gatdu thi\u00eb\u00ebc I b\u025b
+  thok lu\u0254c ji k\u025b \u0263\u00f6 bi du\u0254r kul\u025b nh\u0254k. \u0190
+  \u014bot th\u025bl\u025b mi ci thany, thi\u00eb\u00ebc thur\u025b wargak\u00e4 min
+  cia mat k\u025b thodun.\\nC\u00e4 du\u0254r nh\u0254k k\u00e4 ca wicd\u00e4 g\u025br
+  - \u025b \u014bu b\u00e4 l\u025bl\u0254?\\nMi ci\u025b nh\u0254k I k\u0254k I du\u0254r
+  mi g\u0254a mi na\u014b yi\u00f6w ti l\u00e4ny yi\u00f6w $100 k\u00e4 n\u025by tin
+  k\u0254k \u014b\u0254aak cee\u014bni, k\u025b k\u0254r nini da\u0331\u014b w\u00e4l
+  tin l\u00e4t k\u025b naath (10 business days), deri ca\u0331ru g\u025br k\u00e4
+  min cia mat. \u0190 n\u025bm\u025b c\u0254al j\u025b \u2018mi ci ca\u0331ru g\u025br\u2019
+  (cooling\u2013off period). Mi, k\u025b gua\u0331th \u025bm\u025b ci\u025b lar I
+  c\u025b g\u0254a \u025bn min cia mat, deri k\u00f6 d\u00e4k k\u00e4 thi\u025bl\u025b
+  mi de ka\u0331n k\u00e4 ji.\\n\u0190\u014but k\u00e4n I j\u025b ni nh\u0254k, de
+  gua\u0331n k\u00f6k\u00e4 ji la\u0331t cu\u014b ku. Mi ci ca\u0331ru g\u025br k\u025b
+  gua\u0331th in de ran ca\u0331r\u025b g\u025br k\u025b j\u025b, thi\u025bl\u025b
+  ram in n\u00f6\u014b du\u0254r ki\u025b k\u0254k \u014b\u0254aak lua\u0331\u014b
+  k\u025b \u0263\u00f6 b\u025b ji:\\n- thi\u00eb\u00ebc i p\u00e4l\u025b, \u2018cu
+  ca\u0331ru g\u025br\u2019\\n- ji\u00f6k I thany ni du\u0254r k\u025b bu\u0254m\\n-
+  ji\u00f6k I yori yi\u00f6w ti k\u0254\u014b piny k\u025b \u0263\u00f6 ci\u025b l\u00f6k.\\nDeri
+  mi ci nh\u0254k da\u0331k k\u025b ruac ki\u025b deri wargak g\u0254r.\\nMi ci ran
+  ben dh\u0254ru k\u00e4 thi\u00eb\u00ebc \u025b ji nh\u0254k I j\u025b de ga\u0331th
+  ki\u025b karaba dh\u0254aru g\u025br\\n- Lar\u025b j\u025b mukt\u00e4p di\u025bn
+  b\u025b ji moc mi g\u0254a k\u00e4 bi yi\u00f6w ti \u014buaan t\u0254w.\\n- Gua\u0331
+  k\u00f6k\u00e4 g\u00f6r\u025b \u0263\u00f6 bi du\u0254r mal nh\u0254k k\u025b p\u025bth.\\n-
+  Ca ji ci\u025b\u014b \u025b yu\u00e4t yu\u00e4t k\u00e4 ci cu thany.\\n- K\u025b
+  c\u00e4\u014b in d\u0254\u014b ci j\u025b lar I ci min ci k\u0254k g\u00f6r.\\nTitt\u025b
+  (remember):\\n- Cur\u0254 ja cia\u014b k\u025b yu\u00e4t yu\u00e4t k\u00e4 bi du\u0254r
+  cu thany, thi\u00eb\u00eb ram in k\u0254k \u014b\u0254aak k\u025b \u0263\u00f6 der\u025b
+  ji ba\u0331ny wargak ni ti bi l\u0254 ku\u025bn\\n- Mi ci du\u0254r thany k\u00e4
+  \u2018ci ca\u0331ru g\u025br\u2019, ti k\u025b gua\u0331th k\u025b \u0263\u00f6
+  bi ca\u0331r we ka\u0331n\\n- C\u0254l ji thuk\u00e4 k\u025b k\u0254r nini da\u0331\u014b
+  w\u00e4l (10) ti l\u00e4t k\u025b naath, ji\u00f6k ni k\u025b ci ca\u0331ru g\u025br\\n-
+  Thi\u025bl\u025b yi\u00f6w ti bi ka\u0331m ji thuk\u00e4 k\u025b \u0263\u00f6 ci
+  ca\u0331ru g\u025br.\\nMi g\u00f6ri \u014b\u00e4c lu\u0254\u0254t ni k\u00f6k\u00e4
+  \u014b\u0254aani thukdueeli tin ci g\u0254a \u025b l\u00f6\u014b, guil gua\u0331th
+  in guic k\u025b n\u025by ti lat k\u025b ji\u00e4k thin (SCAM watch website).\"",
+  "\"Collected and written by Michael Thilyang Gatkek With special thanks to Fr Christian
+  Carlassare and pastoral team of Holy Trinity Parish (Old Fangak) (for English translation
+  see their great book: Nuer Folktales, Proverbs and Riddles)\\nGatguub \u025b l\u025bt
+  mi la cam naath r\u025by Nu\u00e4ri k\u00e4 Fangak k\u025bn\u025b Bentiu (Bitim).
+  K\u025b c\u00e4\u014b k\u025bl t\u025b k\u025b\\nnyam mi c\u0254ali Nyan\u00e4r\u00e4
+  Ga\u0320l k\u00e4 Fangak. Cu\u025b ji\u025bn r\u025by r\u025b\u0308\u025b\u0308k
+  kuer jio\u0320kni (Juaibor) w\u025b\u025b cie\u014bd\u025b.\\nCuk\u025b r\u00f6m
+  k\u025bn\u025b Gatguub. Cu\u025b Nyan\u00e4r\u00e4 Ga\u0320l ji\u00f6k i L\u0254\u014bni.
+  Cu nyam \u025bm\u0254 l\u0254\u0320\u0254\u0320\u014b. K\u00e4 cu\u025b ji\u00f6k
+  i\\nth\u0254l pii. K\u025b gua\u0320a\u0320th mi t\u0254\u0320t cu d\u00e4man ben
+  k\u0254r, k\u025b \u0263\u00f6\u00f6 dual\u025b i ba cam \u025b Gatguub, min c\u025b
+  cop\\ndh\u0254r Gatguub, cu\u025b nyiman jek nyuur\u00e4. Cu\u025b j\u025b thiec
+  i \u025b \u014bu ti nyuur\u00e4 wan\u025b m\u025b? Cu Gatguub\\n\u025b loc i gaac\u00e4
+  cetnik\u025b ji Gatga\u0320l. Min c\u025b guic cu\u025b k\u025b ji\u00f6k i w\u025b\u0308\u025b\u0308k\u025b.
+  Cu nyan\u00e4r\u00e4 w\u00e4 k\u025bn\u025b d\u00e4man.\\nMi ci \u0263\u0254w a
+  ruel, mi ci nhial d\u025bm, bi naath w\u00e4 may k\u025b w\u00e4\u00e4r k\u025b
+  baak. Bi Gatguub w\u00e4 b\u00e4, mi\\nc\u025b raan cam b\u025b mua\u0320c b\u025b
+  wee i th\u00e4k r\u0254\u0320a\u0320l\u00e4 Gatguub i Gatguub a r\u0254\u0320l.
+  Mi ci raan \u025b ji\u00f6k i can\\ntee ta\u014b. B\u025b wee i c\u025b duth ruup.
+  Mi c\u025b rec yi\u025bth b\u025b th\u00f6p. Cu\u025b te thin k\u025b gua\u0320th
+  mi b\u00e4\u00e4r k\u00e4 \u014bot\u025b\\n/ca j\u025b \u014b\u00e4c \u025b naath.
+  K\u025b c\u00e4\u014b d\u00e4\u00e4r b\u025b w\u00e4 nyuur thar jiath, b\u025b w\u00e4
+  \u014bar k\u025b yi\u025bt. B\u025b ruac k\u00e4 r\u0254a b\u025b\\nwee i wicy\u0254l,
+  wic maker. Mi ci raan ben b\u025b ji\u00f6k i \u014barn\u025b. K\u025b k\u0254\u0254r\u025b
+  b\u025b raan cam. K\u025b c\u00e4\u014b k\u025bl t\u025b k\u025b\\nnyam mi ci r\u0254
+  moc ca\u0320p, cu\u025b pu\u0254nyd\u025b ku\u00e4th k\u025b dut am\u00e4ni ci\u00f6k\u025b.
+  Cu\u025b ben k\u025b du\u0254p \u025bm\u0254, cuk\u025b r\u00f6m\\nk\u025bn\u025b
+  Gatguub. Cu Gatguub \u025b guic, mi cik\u025b thiek k\u025bn\u025b nyal bi nyal
+  w\u00e4 k\u00e4 j\u025b, bi Gatguub r\u0254 baar,\\nam\u00e4ni m\u00eb\u00eb ci
+  nyal cop r\u025by dh\u0254ar. Min c\u025b Gatguub wicd\u025b yic cu\u025b wee i
+  waa \u025b ro\u0320l mi tee di m\u025b ku\\nwu\u0254\u0320r ni du\u0254\u0320t k\u025b
+  m\u025b?\"", "\"\u0190\u014aU mi ca g\u0254\u0331r r\u025by Baibol\u00e4du k\u00e4
+  Diit Pu\u0254ny\u00e4 k\u025bn\u025b Pal 83:18? Ci Baibol mi c\u0254ali New World
+  Translation of the Holy Scriptures \u025b lar: \u201c\u0190 j\u025b ba \u014ba\u0331c
+  \u025b naath \u025bn \u0263\u00f6\u00f6 \u025b ji\u0331n k\u00e4r\u0254a, \u025bn
+  min c\u0254alk\u025b ci\u00f6td\u025b i\u0331 Ja\u00f6ba, \u025b ji\u0331n in la
+  Ruey \u0194\u0254aa ni k\u025b\u025bliw.\u201d K\u00e4 ci tha\u0331a\u0331\u014b
+  Baiboli k\u0254\u0331ki\u025bn \u025b lat in\u0254 b\u00e4. Ku\u025b la \u0263\u00f6\u00f6
+  ci n\u025by t\u00eb\u00eb lu\u0254ck\u025b Baibol ci\u00f6t Ku\u0254th ni Ja\u00f6ba
+  ka\u0331m raar r\u025by Baiboliki\u025bn, k\u00e4 ca gua\u0331a\u0331thd\u025b moc
+  ni ci\u00f6t i\u0331\u0331 \u201cKu\u00e4\u00e4r\u201d ki\u025b \u201cKuoth.\u201d
+  \u0190 ci\u00f6t in mith mi d\u00eb\u00eb g\u0254\u0331r wan\u025bm\u025b \u0254?
+  \u0190 ci\u00f6t i\u0331\u0331 Ku\u00e4\u00e4r k\u025bn\u025b Kuoth ki\u025b ci\u00f6t
+  i\u0331\u0331 Ja\u00f6ba \u025bn\u0254 d\u00eb\u00eb g\u0254\u0331r \u0254?\\nCi\u00f6t
+  Ku\u0254th k\u025b thok \u0194i-b\u025b-ru\\n\u0194\u0254\u0331\u0254\u0331n, b\u00e4th
+  \u025bm\u025b ruac\u025b k\u025b ci\u00f6t Ku\u0254th. K\u025b \u0263\u00f6\u00f6
+  m\u00eb\u00eb g\u0254\u0331a\u0331rk\u025b Baibol k\u025b nhiam k\u025b thok \u0194i-b\u025b-ru,
+  ci\u00f6t Ku\u0254th ni Ja\u00f6ba in thil ci\u00f6t mi c\u00e4\u00e4t k\u025b j\u025b
+  t\u00eb\u00eb thi\u0331n. Ca j\u025b g\u0254\u0331r k\u025b wurubni \u0194i-b\u025b-ru
+  ti\u0331ti\u0331 \u05d9\u05d4\u05d5\u05d4 (Y\u0194W\u0194). K\u025b Thok Nath ci\u00f6t
+  \u025bm\u0254 \u025b \u201cJa\u00f6ba.\u201d \u0190n ci\u00f6t Ku\u0254th \u025bm\u025b
+  ni Ja\u00f6ba ca g\u0254\u0331r k\u00e4 b\u00e4th k\u025bl k\u00e4r\u0254a r\u025by
+  Baibol\u00e4 inun? \u0194aal, ci\u025b b\u00e4th k\u025bl k\u00e4r\u0254a. K\u025b
+  \u0263\u00f6\u00f6 j\u025bn c\u025b j\u0254\u0254c r\u025by Baibol\u00e4 nik\u00e4
+  7,000 k\u00e4 Pek \u00eb\u00eb Wal k\u025b thok \u0194i-b\u025b-ru!\\nCi\u00f6t
+  Ku\u0254th p\u00e4\u00e4r g\u0254\u0254yd\u025b k\u025b lee\u014bu? Guic pal \u00eb\u00eb
+  ci Yecu Kritho \u025b \u014bi\u0331i\u0331c ni ji\u0331 k\u0254aar\u025b. Cu\u025b
+  j\u025b tok in\u025b: \u201cGua\u0331a\u0331ra in te nhial a ci\u00f6tdu lu\u0254\u0331thk\u025b.\u201d
+  (M\u025b\u0308-thiw 6:9) K\u025b k\u0254\u0254r\u025b, cu Yecu Kuoth pal b\u00e4
+  i\u0331: \u201cGua\u0331di\u0331n liak ci\u00f6tdu.\u201d K\u00e4 cu j\u0254w Ku\u0254th
+  ben ni nhial w\u00eb\u00eb i\u0331, \u201cc\u00e4 j\u025b liak, k\u00e4 b\u00e4
+  j\u025b ny\u0254k k\u025b liak.\u201d (J\u0254\u0331\u0254\u0331n 12:28) \u0190puc,
+  ci\u00f6t Ku\u0254th ni Ja\u00f6ba thil\u025b ci\u00f6t mi p\u00e4\u00e4r k\u025b
+  j\u025b. K\u00e4 ku\u025b la \u014bu m\u0254 cu tha\u0331a\u0331\u014b n\u025b\u025bni
+  t\u00eb\u00eb lu\u0254ck\u025b Baibol ci\u00f6t Ku\u0254th ni Ja\u00f6ba ka\u0331m
+  raar r\u025by Baiboliki\u025bn k\u00e4 cuk\u025b gua\u0331thd\u025b moc ni \u0263\u00f6\u00f6
+  Ku\u00e4\u00e4r ki\u025b Kuoth \u0254?\\nT\u00eb\u00ebk\u025b gua\u0331th da\u0331\u014br\u025bw
+  ti ka\u0331mk\u025b ni ci\u00f6t Ku\u0254th raar \u025b k\u025bn. Min nhiam, lar
+  n\u025by ti \u014buan\u025b \u025bn \u0263\u00f6\u00f6 kueck\u025b du\u0254\u0331\u0254\u0331p
+  \u00eb\u00eb la c\u0254alk\u025b ni ci\u00f6t Ku\u0254th ni Ja\u00f6ba \u025b n\u025by
+  t\u00eb\u00eb wal, k\u00e4 \u025bn\u0254, kueck\u025b du\u0254\u0331\u0254\u0331p
+  in d\u00eb\u00eb c\u0254\u0254l ni ci\u00f6t Ku\u0254th \u025b k\u025bn \u025bn
+  wa\u0331l\u025b. N\u0254m\u0254 \u025b \u0263\u00f6\u00f6 thok \u0194i-b\u025b-ru
+  \u00eb\u00eb wal thil\u025b wurubni ti\u0331ti\u0331 \u2018a, e, i\u0331, \u00f6,
+  u,\u2019 tin g\u0254\u0331r k\u025b k\u0254n \u025bn wa\u0331l\u025b. K\u025b kui\u0331
+  \u025bm\u0254, thil\u025b ram mi \u014b\u00e4c du\u0254\u0331\u0254\u0331p in d\u00eb\u00eb
+  c\u0254\u0254l ni ci\u00f6t Ku\u0254th ag\u0254aa k\u025b wurubni thu\u0254k \u0194i-b\u025b-ru
+  ti\u0331ti\u0331 Y\u0194W\u0194 \u025bn wa\u0331l\u025b. Dee n\u0254m\u0254 k\u0254n
+  p\u00ebn \u0263\u00f6\u00f6 can\u025b ci\u00f6t Ku\u0254th ni Ja\u00f6ba bi c\u0254l
+  inun? K\u025b ni\u0331n t\u00eb\u00eb te Yecu wi\u0331i\u0331 mu\u0254\u0331\u0254\u0331n,
+  d\u0254\u0331\u014b c\u0254alk\u025b ci\u00f6td\u025b i\u0331 Ye-cua ki\u025b Ye-\u0263o-cua,
+  thil\u025b ram mi \u014b\u00e4c du\u0254\u0331\u0254\u0331p \u00eb\u00eb la c\u0254alk\u025b
+  ni ci\u00f6td\u025b ag\u0254aa. K\u00e4 \u025bn wa\u0331l\u025b n\u025by diaal wi\u0331i\u0331
+  mu\u0254\u0331\u0254\u0331n k\u025b\u025bliw c\u0254alk\u025b ci\u00f6t Yecu \u025b
+  k\u025bn, duund\u025b \u0263\u00f6\u00f6 c\u0254l n\u025by t\u0254\u0331 j\u025b
+  k\u025b du\u0254\u0331\u0254\u0331p in lot r\u0254 k\u025b thookdi\u025bn. /Cik\u025b
+  a po\u0331c k\u025b \u0263\u00f6\u00f6 kueck\u025b du\u0254\u0331\u0254\u0331p \u00eb\u00eb
+  la c\u0254alk\u025b ni j\u025b \u025b naath m\u00eb\u00eb t\u00eb\u00eb wi\u0331i\u0331
+  mu\u0254\u0331\u0254\u0331n. In\u0254 b\u00e4, mi ci w\u00e4 ja\u0331l ro\u0331o\u0331l
+  d\u0254\u0331di\u025bn \u025bn wa\u0331l\u025b, deri j\u025b n\u025bn b\u00e4 \u025bn
+  \u0263\u00f6\u00f6 ci\u00f6tdu pa\u0331ny bum latd\u025b k\u025b thok n\u025b\u025bni
+  k\u0254\u0331ki\u025bn. K\u025b kui\u0331 \u025bm\u0254, \u025bn \u0263\u00f6\u00f6
+  kueck\u025b du\u0254\u0331\u0254\u0331p \u00eb\u00eb la c\u0254alk\u025b ni ci\u00f6t
+  Ku\u0254th \u025b n\u025by t\u00eb\u00eb wal /ci\u025b mi dee k\u0254n p\u00ebn
+  \u0263\u00f6\u00f6 ban\u025b ci\u00f6td\u025b c\u0254l \u025bn wa\u0331l\u025b.\\nMin
+  r\u025bwd\u025b in ka\u0331mk\u025b ni ci\u00f6t Ku\u0254th raar \u025b naath r\u025by
+  Baiboliki\u025bn k\u025b ci\u025b\u014b ji\u0331 Juudh tin nyu\u0254nk\u025b ruaacni
+  Ku\u0254th. Tha\u0331a\u0331\u014b ji\u0331 Juudh \u025b k\u025bn i\u0331\u0331
+  ca ci\u00f6t Ku\u0254th dee c\u0254l \u025b t\u025bk. La\u0331tk\u025b n\u0254m\u0254
+  k\u025b \u0263\u00f6\u00f6 ka\u0331n \u014but Ku\u0254th in te k\u00e4 Baibol li\u014b
+  ag\u0254aa, min wee: \u201c/Cu ci\u00f6td\u00e4 la c\u0254\u0254li baa\u014b \u0263\u00e4n
+  Kuoth Nhial Kuothdu. K\u025b \u0263\u00f6\u00f6 \u0263\u00e4n Kuoth ram mi c\u0254\u0254l
+  ci\u00f6td\u00e4 baa\u014b ba du\u00e4c.\u201d\u2014\u0194\u00f6th ji\u0331 I-th\u025b-r\u025bl
+  20:7.\\n\u014aut \u025bm\u025b pen\u025b naath \u0263\u00f6\u00f6 ba ci\u00f6t Ku\u0254th
+  c\u0254l l\u0254\u0254r\u00e4 baa\u014b. Duund\u025b \u0263\u00f6\u00f6 dee \u014but
+  \u025bm\u0254 naath p\u00ebn \u0263\u00f6\u00f6 ba ci\u00f6t Ku\u0254th c\u0254l
+  r\u025by luth\u00e4 inun? D\u00ebn\u025b j\u025b loc i\u0331 thiaal. K\u025b \u0263\u00f6\u00f6
+  n\u025by t\u00eb\u00eb g\u0254\u0331a\u0331rk\u025b Baibol k\u025b thok \u0194i-b\u025b-ru
+  k\u00e4 (\u201cPek \u00eb\u00eb Wal\u201d) k\u025b ji\u0331 \u014b\u00e4th\u00e4
+  ti gu\u0254\u0331\u0254\u0331rk\u025b ni \u014bu\u0254\u0331t Ku\u0254th t\u00eb\u00eb
+  c\u025b th\u00f6p gaat I-th\u025b-r\u025bl k\u025b t\u00ebt Muth\u025b. K\u00e4
+  k\u025bn la c\u0254alk\u025b ci\u00f6t Ku\u0254th ni cia\u014b. K\u00e4 n\u025b\u0308n\u025b
+  j\u025b, cuk\u025b ci\u00f6t Ku\u0254th ni Ja\u00f6ba g\u0254\u0331a\u0331r k\u00e4
+  bok din ji\u0331 Juudh k\u025b \u0263\u00f6\u00f6 ba la puanyk\u025b. K\u025b kui\u0331
+  \u025bm\u0254, cu Kuoth Ja\u00f6ba n\u025b\u025bk\u025b com k\u025b \u0263\u00f6\u00f6
+  ba ci\u00f6td\u025b c\u0254l, k\u00e4 cua ruacd\u025b li\u014b \u025b ji\u0331 \u014b\u00e4th\u00e4
+  diaal. (Yo-el 2:32; L\u00e4t Jaakni Yecu 2:21) K\u00e4 \u025bn\u0254, ji\u0331 Kritho
+  \u025bn wa\u0331l\u025b cik\u025b po\u0331c k\u025b \u0263\u00f6\u00f6 ba ci\u00f6t
+  Ku\u0254th c\u0254l k\u025b luth ce\u0331tk\u025b m\u00eb\u00eb ca la\u0331t \u025b
+  Yecu Kritho m\u00eb\u00eb t\u00eb\u00eb wi\u0331i\u0331 mu\u0254\u0331\u0254\u0331n.\u2014J\u0254\u0331\u0254\u0331n
+  17:26.\\n\u0190n \u0263\u00f6\u00f6 cu\u0254 ci\u00f6t Ku\u0254th ka\u0331m raar
+  r\u025by Baibol\u00e4 k\u00e4 cua gua\u0331thd\u025b moc ni paak, \u025b duer mi
+  di\u0331i\u0331t \u025bl\u0254\u0331\u014b k\u00e4 n\u025by t\u00eb\u00eb lu\u0254ck\u025b
+  Baibol. Cik\u025b Kuoth jak\u00e4 ram mi na\u0331n \u025bl\u0254\u0331\u014b mi
+  thi\u025blk\u025b, k\u00e4 ci Baibol naath ji\u00f6k: \u201cKuoth Nhial, \u025b
+  m\u00e4\u00e4th n\u025b\u025bni tin lu\u0254\u0331thk\u025b j\u025b, k\u00e4 la
+  nyuth\u025b k\u025b mat ruacd\u025b.\u201d (Diit 25:14) Car kamdun y\u025bn\u025b
+  m\u00e4\u00e4thdu. Dee maarun te thi\u0331n i\u0331\u0331di\u0331 y\u025bn\u025b
+  m\u00e4\u00e4thdu mi kui\u0331ci ci\u00f6td\u025b \u0263en? Nik\u025b j\u025bn du\u0254\u0331\u0254\u0331p
+  \u025bm\u0254, mi ca naath p\u00ebn \u0263\u00f6\u00f6 ba ci\u00f6t Ku\u0254th ni
+  Ja\u00f6ba \u014ba\u0331c, dee maari\u025bn teedi k\u025b Gua\u0331ndi\u025bn ni
+  Kuoth? Min d\u0254\u0331di\u025bn b\u00e4 mi ka\u0331n ci\u00f6t Ku\u0254th c\u0254l
+  \u025b naath, ca lu\u0254td\u025b dee met \u014b\u00e4c \u025b k\u025bn. K\u00e4
+  t\u00e4\u00e4m\u025b ci\u00f6t Ku\u0254th ni Ja\u00f6ba lotd\u025b ni lee\u014bu?\\n\u0194\u0254\u0331\u0254\u0331n,
+  cu Kuoth lu\u0254t cio\u0331td\u00e4d\u025b la\u0331r ja\u0331\u014bd\u025b ni Muth\u025b.
+  M\u00eb\u00eb ci Muth\u025b Kuoth thiec k\u025b ci\u00f6td\u025b, cu Ja\u00f6ba
+  j\u025b loc: \u201c\u0190 \u0263\u00e4n mi te wan\u0254.\u201d (\u0194\u00f6th Ji\u0331
+  I-th\u025b-r\u025bl 3:14) Ci Baibol mi c\u0254ali Rotherham \u025b lar: \u201c\u0194\u00e4n
+  b\u00e4 r\u0254\u0254d\u00e4 looc ni tin diaal tin ba \u0263\u00e4 n\u00f6\u00f6\u014b
+  t\u025b\u0308th l\u0254aac.\u201d K\u025b kui\u0331 \u025bm\u0254, dee Ja\u00f6ba
+  r\u0254\u0254d\u025b looc ni tin diaal tin go\u0331o\u0331r\u025b k\u025b \u0263\u00f6\u00f6
+  bi ruaacnik\u025b ben ala thu\u0254\u0331\u0254\u0331k.\\nKu wee ji\u0331n ti\u0331i\u0331
+  k\u025b bu\u0254\u0331m k\u025b \u0263\u00f6\u00f6 deri r\u0254\u0254du looc ni
+  tin diaal tin go\u0331o\u0331ri. \u0190\u014bu mi deri l\u00e4t k\u00e4 m\u00e4\u00e4thniku?
+  Mi ci ram k\u025bl te juey k\u00e4 m\u00e4\u00e4thniku, deri r\u0254\u0254du looc
+  ni ki\u0331i\u0331\u0331m ki\u025b d\u00e4kt\u00f6r k\u025b \u0263\u00f6\u00f6 bi\u025b
+  te\u0331e\u0331k. Mi ci m\u00e4\u00e4thdu min d\u0254\u0331di\u025bn cuuc k\u025b
+  bu\u0254th, deri r\u0254\u0254du looc ni ram mi ri\u00e4\u014b ri\u00e4\u014b k\u025b
+  \u0263\u00f6\u00f6 bi\u025b moc mi\u0331th. Ku\u025b la \u0263\u00f6\u00f6 ji\u0331n
+  thil\u025b ji\u0331 bu\u0254\u0331m k\u025b \u0263\u00f6\u00f6 deri r\u0254\u0254du
+  looc ni ti diaal tin go\u0331o\u0331ri. K\u0254n diaal thil\u025b k\u0254n lua\u0331\u014b.
+  Mi wi\u0331i\u0331 r\u0254\u0254du w\u00e4 \u014bieec \u025bl\u0254\u0331\u014b
+  k\u025b Baibol bi\u025b \u014ba\u0331c \u025bn \u0263\u00f6\u00f6 Kuoth Ja\u00f6ba
+  t\u00eb\u00ebk\u025b lua\u0331\u014b k\u025b \u0263\u00f6\u00f6 der\u025b r\u0254\u0254d\u025b
+  looc ni tin diaal tin go\u0331o\u0331r\u025b k\u025b \u0263\u00f6\u00f6 bi ruaacnik\u025b
+  cop gua\u0331thniki\u025bn ala thu\u0254\u0331\u0254\u0331k. K\u00e4 j\u025bn go\u0331o\u0331r\u025b
+  \u0263\u00f6\u00f6 b\u025b bu\u0254\u0331md\u025b \u025bm\u0254 lu\u00e4k ni n\u025by
+  diaal tin nh\u0254ak\u025b j\u025b. (2 Ku\u025b\u0308\u025b\u0308ni 16:9) Ci\u025b\u014b
+  Ja\u00f6ba ti nyin g\u0254w ti\u0331ti\u0331 cik\u025b bath k\u00e4 n\u025by tin
+  kueck\u025b ci\u00f6td\u025b.\\n\u0190puc, \u025bpuc, ci\u00f6t Ku\u0254th ni Ja\u00f6ba
+  der\u025b dhil te k\u00e4 Baibol. Mi \u014ba\u0331cn\u025b lu\u0254t cio\u0331td\u00e4
+  Ku\u0254th k\u00e4 la c\u0254aln\u025b j\u025b k\u025b ci\u00f6td\u025b pa\u0331ny
+  r\u025by pal\u00e4dan, \u025bn wan\u0254 d\u00ebn\u025b cu thi\u00eb\u00ebk k\u025b
+  Gua\u0331ndan in te nhial ni Kuoth Ja\u00f6ba.*\\n* K\u025b \u0263\u00f6\u00f6 bi
+  ci\u00f6t Ku\u0254th \u014ba\u0331c ag\u0254aa k\u025bn\u025b min lotd\u025b, k\u025bn\u025b
+  \u0263\u00f6\u00f6 \u025b\u014bu mi d\u00ebn\u025b j\u025b la c\u0254aln\u025b k\u025b
+  ci\u00f6td\u025b m\u0254 r\u025by pal\u00e4dan, w\u00ebr guic\u025b k\u00e4 bok
+  mi c\u0254ali The Divine Name That Will Endure Forever, mi ca g\u0254\u0331r \u025b
+  N\u00eb\u00ebn Ja\u00f6ba.\"", "\"COVID-19 Translation - Thok Naath\\nMal\u025b.
+  M\u025bm\u025b \u025b l\u00e4\u00e4r mi b\u0254 k\u00e4 Multi-Cultural Center. \u025b
+  \u0263\u00e4n David Jal\\nM\u025bm\u025b \u025b l\u00e4\u00e4r mi b\u0254 k\u00e4
+  Multi-Cultural Center k\u025b kuic n\u025bni tin ca thok English li\u019e.\\n1.
+  Covid-19 \u025b juey j\u0254am mi d\u0254apk\u025b kam ni nath.\\n2. Nyuuthni tin
+  te n\u025by ti ca k\u00e4p \u025b Covid-19\\na. Leth puany min te k\u025b 100 \u025b
+  w\u00e4\u00e4 nhiam\\nb. Kiel\\nc. Dak yieek\u00e4\\n3. Nyuuthni tin te k\u025b
+  n\u025by tin b\u025bc puanyki\u025bn \u025bl\u0254\u019e, b\u025b pu\u0254th da\u019e
+  r\u025bu dial k\u00e4p.\\n4. COVId-19, jek k\u025b j\u025b kam n\u025bni ti ci r\u0254
+  thiek gu\u00e4th kiel. COVid-19 de ran \u025b jek b\u00e4 mi c\u025b dur k\u00e4p
+  k\u025b tetk\u025b.\\n5. Thi\u025bl\u025b w\u00e4l mi ca ni jek mi lu\u00e4\u019e
+  juey \u025bm\u025b. N\u025by tin ca k\u00e4p \u025b covid-19 bi k\u025b dhil w\u00e4
+  duel w\u00e4l k\u025b h\u00f6\u00f6 ba nyuuthni ju\u00e4th wuoc.\\n6. COvid-19 k\u00e4p\u025b
+  D\u0254\u019e k\u025bn\u025b n\u025by tin te k\u025b ju\u00e4th ni wen k\u025b p\u025b\u025bth.\\n7.
+  Ga\u019e r\u0254 k\u00e4pni d\u00e4\u00e4k Covid-19 cu\u0254\u019e:\\na. Cu r\u0254
+  thiek k\u025b n\u025by ti te ju\u00e4th.\\nb. Cu w\u00e4 gu\u00e4th du\u0254li.
+  N\u00e4\u00e4ni r\u0254 k\u025b naath-\u025b j\u025bn ca duel g\u0254r\u00e4 k\u025bn\u025b
+  thuokni g\u00e4\u00e4k\u0254 k\u025b h\u00f6\u00f6 bi naath r\u0254 n\u00e4\u00e4n.\\nc.
+  Cu w\u00e4 j\u00e4l ba\u019e mi thi\u025bl mi g\u0254a mi g\u00f6ri\\nd. Cu w\u00e4\u019eku,
+  wumku, k\u025b thokdu thiap.\\nf. Lak tetku k\u025b thabuony gauthni diaal.\\ng.
+  Kum thokdu mi kieli ki\u025b thiam i.\\nh. Bi tin diaal tin ci thiap dhil lak gu\u00e4th
+  ni diaal.\\n8. Mi \u025b Jin ki\u025b ram k\u025bl k\u00e4 ji dh\u0254aru te k\u025b
+  Nyuuthni COVID-19, Leth Puany, kiel, k\u025b dak yieek\u00e4.\\na. Bi dhil te Cie\u019e.
+  N\u00e4\u00e4ni r\u0254 k\u025b naath, teni duel k\u025bl, bi te k\u025b duel cuoni
+  du k\u00e4 r\u0254a.\\nb. Bi tetku dhil lak guathni diaal.\\nc. Bi dhil l\u0254\u0254\u019e
+  k\u00e4 bi pi ti \u019euan math.\\nd. Bi Cie\u019e dhil lak guathni diaal.\\ne.
+  Bia Kimdun c\u0254l a keni w\u00e4 duel w\u00e4l.\\n9. Mi pay i ben j\u00e4l wic
+  mi te k\u025b COVID-19:\\na. C\u0254l Kimdun bia l\u00e4r h\u00f6\u00f6 pay i ben
+  j\u00e4l k\u00e4 b\u025b ji l\u00e4r min bi lat.\\nb. Bi dhil te Cie\u019e k juokni
+  da\u019e r\u025bu.\\n10. Mi g\u00f6ri lu\u00e4k, bi 211 c\u0254l ki\u025b bi w\u00e4
+  k\u00e4 www.helplinecenter.org/ ki\u025b bi Multi-Cultural Center c\u0254l-605-367-7401\\n11.
+  Mi g\u00f6ri mi cam i ki\u025b tin k\u0254\u019e tin tek k\u025b naath:\\na. Sioux
+  Falls School District muoc\u025b gaat ti run ki\u025bn 1-18 ku\u00e4n \u025b tuok\u025b
+  ni thaak 11-30am-12:30pm k\u00e4\\n1. Laura B. Anderson\\n2. Hawthorne\\n3. Hayward\\n4.
+  Anne Sullivan\\n5. Terry Redlin\\n6. Lowell\\nb. Feeding South Dakota: muoc k\u025bn
+  ku\u00e4n b\u00e4. Bi w\u00e4 k\u00e4 www.feedingsouthdakota.org\\nc. Food for Sioux
+  Empire Kids: Bi k\u025b na\u019e dhorun. Bi w\u00e4 k\u00e4 completemeiainc.com/food-for-se-kids\\nd.
+  Corona Help SF: Bi k\u025b y\u025b n\u00f6\u00f6\u019e tin g\u00f6r\u025b dhorun
+  k\u00e4 bia ku\u00e4n luor k\u00e4 k\u025b mi g\u00f6r yi\u025bn\u025b. Bi w\u00e4
+  k\u00e4 www.coronahelpsf.com/i-need-help\\n12. K\u025b kuic dueli:\\na. Ku\u00e4r
+  Sioux Falls ni Paul Tenhaken c\u025b ruac k\u025b ji dueli diaal \u025bn h\u00f6\u00f6
+  thi\u025bl\u025b ram mi ba tu\u00f6k k\u025b guath \u025b te naath k\u00f6\u00f6r
+  k\u025b Covid-19.\\nb. Mi g\u00f6ri lu\u00e4k k\u025b kuic duel c\u0254l Multi=Cultural
+  Center-605-367-7401\\n13. Mi ca ji woc l\u00e4t ki\u025b ca th\u00e4\u00e4 thaakni
+  ku woc k\u025b kuic Covid-19\\na. Ku\u00e4r ni Paul Tenhaken c\u025b \u019e\u0254ak
+  rialik\u00e4 k\u025b kuic naath. C\u0254l-211 ki\u025b wer k\u00e4 www.helplinecenter.org/\\nb.
+  Mi g\u00f6ri lu\u00e4k k\u025b h\u00f6\u00f6 thiel i l\u00e4t. C\u0254l SD Dept
+  of Labor-605-773-3101 ki\u025b wer k\u00e4 dlr.sd.gov/\\nc. Catholic Community Foundation-Lu\u00e4k\u025b
+  ji duel ku\u0254thdi\u025bn-bi luak ku\u0254thdun c\u0254l.\\nd. Mi ci Tax Return
+  l\u00e4th r\u025bc k\u025b 2018 ki\u025b 2019, bi kum\u025b ji j\u00e4k\u00e4 yi\u00f6w
+  ti:\\n1. $1200 mi \u025b jin k\u00e4 r\u0254a.\\n2. $2400 mi ci ku\u025b\u025bn,\\n3.
+  $500 k\u025b gat k\u025bl mi ken run 16 coop\\n\u025b j\u025bn thu\u0254k l\u00e4\u00e4rik\u0254n
+  in\u0254. Ci l\u0254cda t\u025b\u025bth k\u025b h\u00f6\u00f6 ci r\u0254 m\u00e4t
+  k\u0254 k\u025b runwa\u019e \u025bm\u025b.\"", "\"Lu\u00e4k k\u025b loc k\u025b
+  ci\u025b\u014b k\u00e4 thin k\u025b k\u0254r k\u00e4 mi ci ri\u025bk tu\u0254k \u2013
+  lu\u00e4k ja thin\\n(Emergency relief and recovery \u2013 help is available)\\nWargak
+  \u025bm\u025b nyoth\u025b gua\u0331th tin de ji lu\u00e4k thin \u025b thia\u0331k
+  k\u025b k\u0254r k\u00e4 mi ci ri\u025bk tu\u0254k, k\u025bn\u025b dup tin la kum\u025b
+  Victoria naath a lu\u00e4k k\u025b yi\u00f6w k\u025b j\u025b.\\nDeri ri\u00e4t titi
+  li\u014b gua\u0331th \u025bm\u025b.\\nMi ci ri\u025bk tu\u0254k, kum\u025b Victoria
+  la l\u00e4t\u025b k\u025bl k\u025bn\u025b kum\u025b au\u025btralia, mukt\u00e4p
+  ni kum\u025b tin t\u0254ani am\u00e4ni mukt\u00e4p ni tin k\u0254\u014b ti lu\u00e4k
+  naath ciet k\u025b Red cro\u025b\u025b, \u0190alvo\u025b k\u025bn\u025b \u0190ave
+  the children, lu\u00e4k k\u025bn rami ci cuc k\u00e4 ca nyin k\u025b ya\u0331r \u025b
+  ri\u025bk in ci tu\u0254k ciet k\u025b ny\u0254c ki\u025b mach d\u0254aar.\\n\u0190\u014bu
+  mi \u014b\u00e4thi de te gua\u0331th in la naath a lu\u00e4k k\u025b thin mi ci
+  ri\u025bk tu\u0254k?\\nMi ci ri\u025bk tu\u0254k la mukt\u00e4pni kum\u025b tin
+  t\u0254ani tin thiek k\u025b gua\u0331th ci\u025b\u014b k\u00e4 du gua\u0331th riali
+  k\u00e4 mi ba lu\u00e4k th\u00f6p n\u025by tin ca nyin ki\u025bn ya\u0331r k\u00e4
+  thi\u025bl gua\u0331th mi d\u0254\u014b mi de k\u025b we thin.\\nGua\u0331th lu\u00e4k\u00e4
+  n\u0254m\u0254 la mi cam k\u025b a jek\u025b thin, biey ni, nyin pu\u0254l k\u00e4
+  pua\u0331ny k\u025bn\u025b yi\u00f6w tin la lua\u0331k k\u025b ri\u025bk. De k\u025bn
+  gua\u0331th t\u0254c k\u00e4 \u014bun du\u014b d\u025b \u0263\u00f6 l\u00e4t titi
+  gua\u0331c k\u025b k\u00e4 mukt\u00e4p ni.\\nJin b\u00e4, de ji lu\u00e4k a mukt\u00e4p
+  ni tin lua\u0331k ke naath ciet k\u025b Red Cross, ki\u025b Salvos, am\u00e4ni mukt\u00e4pni
+  tin t\u0254ani tin thiek k\u025b ji, ki\u025b (Department of human services). De
+  rami loc thok rial I k\u00e4 b\u00e4 mi g\u00f6ri j\u025b.\\nTin deri na\u014b gua\u0331th
+  lu\u00e4k\u00e4\\nDeri t\u025b ca g\u0254r ti na\u014b, ciet k\u025b:\\n- Wal, wargak
+  wal k\u025bn\u025b nyin pu\u0254l k\u00e4 pua\u0331ny tin k\u0254\u014b\\n- Wargak
+  ni tin nyoth ji\\n- Yi\u00f6w, piw k\u025bn\u025b mith tin ci de mal ji\u00e4k \u025b\u014bot
+  thaak ni wal rew (12 hour\u025b)\\n- Kuak gan, ciet k\u025b naphie\u025b k\u025bn\u025b
+  cak.\\nLa n\u025by gu\u00e4th tin lua\u0331k k\u025b naath thin a lat k\u00e4 web\u025bite
+  da.\\nYi\u00f6w tin lua\u0331k\u025b naath k\u00e4 yi\u00f6w la\u0331t woc cuc k\u00e4
+  ran\\nMukt\u00e4p Department of Human Services \u025bj\u025bn lat k\u025b \u0263\u00f6
+  b\u025b n\u025by ti tek k\u025b ri\u025bk lu\u00e4k\u0254. N\u025bm\u025b ca l\u00e4t
+  k\u025b \u0263\u00f6 ba nyin ran dial tin ci bath/riaw col, ciet k\u025b min la
+  la\u0331t k\u025b \u025b mukt\u00e4pni tin ciet k\u025b insurance.\\nBi gua\u0331th
+  dhil rial i k\u00e4 mi g\u00f6ri jek k\u025b la\u0331a\u0331t tin l\u00e4t gua\u0331th
+  in lua\u0331k k\u025b naath thin, ki\u025b mukt\u00e4p DHS. Bi ram in l\u00e4t gua\u0331th
+  lu\u00e4k\u00e4 ta\u0331 in de lu\u00e4k ni ji guic k\u00e4 b\u025b ji ka\u0331m
+  pek yi\u00f6w ni tin de ka\u0331m ji. Thiec ni k\u025b rami de ji loc thok mi gori
+  j\u025b.\\nLa\u0331t \u025bm\u025b th\u00f6p j\u025b k\u025b dup da\u014b r\u025bw
+  ti lua\u0331k k\u025b naath k\u025bk\u025b:\\n- Lu\u00e4k k\u025b kui ri\u025bk
+  k\u00e4 mi ci tu\u0254k\\nYi\u00f6w tin th\u00f6p k\u025b mi ci ri\u025bk tu\u0254k
+  ca k\u025b rial i k\u00e4 k\u025b \u0263\u00f6 bi k\u025b ji lu\u00e4k k\u025b l\u00e4t
+  ku ciet k\u025b mi cam k\u025b, bieyni, wal, gua\u0331th t\u0254c k\u00e4 k\u025bn\u025b
+  nyin ja\u0331l k\u025b gua\u0331th in pay ri\u025bk tu\u0254k.\\nLu\u00e4k k\u025b
+  kui ri\u025bk k\u00e4 mi ci tu\u0254k (Emergency Relief Assistance) - Lu\u00e4k
+  rami ny\u0254k r\u0254 k\u025b yi\u025bth piny mi ci thu\u0254k\\nK\u025b tha\u0331\u014b
+  gu\u00e4th ni, lu\u00e4k in ka\u0331m k\u025b rami ny\u0254k r\u0254 k\u025b yi\u025b\u0331th
+  piny d\u0254\u014b der\u025b te thin k\u00e4 tha\u0331\u014b naath. K\u025bn yi\u00f6w
+  titi de k\u025b ji lu\u00e4k mi ca dh\u0254ru ya\u0331r, k\u00e4 ci cup dh\u0254ru,
+  ki\u025b mi ci l\u025b cie\u014b dh\u0254ru k\u025b kui rieka min ci tu\u0254k.
+  K\u025bn yi\u00f6w titi lua\u0331k k\u025b ji k\u025b yor gua\u0331th ci\u025b\u014b
+  k\u00e4 mi d\u0254\u014b piny, woc ti ji\u00e4k ni cie\u014b, rail cie\u014b i k\u00e4,
+  ta\u0331th cie\u014b, ki\u025b g\u00eb\u00ebr nyini cie\u014b tin b\u0254m bu\u0254m.
+  Ca g\u025br ni la\u0331t in\u025burance.\\nLu\u00e4k rami ny\u0254k r\u0254 k\u025b
+  yi\u025bth piny mi ci thu\u0254k (Emergency Re-establishment Assistance)\\nLu\u00e4k
+  k\u025b r\u025by teleph\u0254k\u00e4\\nJin deri ri\u00e4t ti pay lat jek k\u00e4
+  mukt\u00e4p Victorian k\u025b kui riek\u00e4 min pay tu\u0254k k\u025bn\u025b ta\u0331
+  in ca rial i k\u00e4 k\u025b j\u025b.\\nC\u0254l n\u0254mb\u0254r kithk\u025bl wid\u025b
+  kurdi\u0254k, ba\u0331r\u0254w, ba\u0331\u014buan k\u00e4 r\u025bw, r\u025bw, di\u0254k
+  k\u025bn\u025b r\u025bw (1300 799 232).\\nK\u00e4 mi gori \u0263\u00f6 ba ji lu\u0254c
+  thok thiec ni ba ji lu\u00e4k.\\nLanguages display best in modern browsers. Languages
+  are also in PDFs\"", "\"Cio\u0332o\u0332k 14\\n1 K\u025b ni\u0332n ti te kua\u0332r
+  titi thi\u0332n a la Ama-rap\u025bl\\nku\u00e4\u00e4r Caynar, k\u025b\u025b Ari\u0254k
+  ku\u00e4\u00e4r Elathar, k\u025b\\nC\u025b-t\u0254-r\u025b-l\u025by-\u0254m\u025br
+  ku\u00e4\u00e4r Ilam, k\u025b\u025b Tayd\u0254l\\nku\u00e4\u00e4r G\u0254yim, 2
+  kua\u0332r t\u0254t\u0254 cuk\u025b nyi\u00eb\u00ebny k\u025b\\nB\u025bra ku\u00e4\u00e4r
+  Th\u0254d\u0254m, k\u025b\u025b Bi\u0332rca ku\u00e4\u00e4r G\u0254m\u0254ra,\\nk\u025b\u025b
+  Cinap ku\u00e4\u00e4r Ad\u025bma, k\u025b\u025b C\u025bm\u025bb\u025br ku\u00e4\u00e4r\\nDh\u025b-b\u0254\u0254yim,
+  k\u025b ku\u00e4\u00e4r B\u025bla min la Dhoar. 3\\nCu k\u025bn diaal t\u0254t\u0254
+  ro mat ko\u0332o\u0332r lo\u0332o\u0332l\u00e4 Thidim\\nmin la Bar Kat\u025b. 4
+  Cuk\u025b l\u00e4t k\u025b\\nC\u025b-t\u0254-r\u025b-l\u025by-\u0254m\u025br k\u025b
+  run w\u00e4l wi\u0332cd\u025b r\u025bw, k\u00e4\\nk\u025b run w\u00e4l di\u0254\u0332kdi\u025bn
+  cu k\u025bn \u025b lo\u0332k. 5 K\u025b w\u00e4l\\n\u014buaan runi cu C\u025b-t\u0254-r\u025b-l\u025by-\u0254m\u025br
+  k\u025bn\u025b kua\u0332r\\nt\u00eb\u00eb te k\u025b\u025bl k\u025b j\u025b ben,
+  cuk\u025b ji R\u025bp\u025byim gel\\nk\u00e4 Ac-t\u025b-roth-kar-nayim, k\u025b
+  ji Dhu-dhim k\u00e4\\nH\u025bm, k\u025b ji Emim k\u00e4 Ca-p\u025b-kiri-riath-ayim,\\n(Page
+  43)\\n6 a m\u00e4ni ji H\u0254rayt k\u00e4 p\u00e4m mi c\u0254al i Thi\u025b\u025br,\\na
+  r\u00e4th k\u00e4 Elparan min te kui\u0332c d\u0254aar. 7\\nT\u00e4\u00e4m\u025b
+  cuk\u025b ro riet j\u0254k, k\u00e4 cuk\u025b ben k\u00e4\\nEn-\u025bmi-c\u025bpat
+  min la K\u025byd\u025bc, k\u00e4 cuk\u025b ro\u0332l ji\\nAma-l\u025b-kayt k\u025b\u025bliw
+  gel a m\u00e4ni ji Amarayt ti\\ncie\u014b k\u00e4 Ha-dha-dh\u0254n-tamar. 8 K\u00e4
+  cu ku\u00e4\u00e4r\\nTh\u0254d\u0254m w\u00e4 raar k\u025bn\u025b ku\u00e4\u00e4r
+  G\u0254m\u0254ra, k\u025b ku\u00e4\u00e4r\\nAd\u025bma, k\u025b ku\u00e4\u00e4r
+  Dh\u025bboyim, k\u025b ku\u00e4\u00e4r B\u025bla min\\nla Dhoar, k\u00e4 cuk\u025b
+  ro mat ko\u0332o\u0332r lo\u0332o\u0332l\u00e4 Thidim.\\n9 Nyieenyk\u025b k\u025b
+  ku\u00e4\u00e4r C\u025b-t\u0254-r\u025b-l\u025by-\u0254m\u025br k\u00e4\\nIlam,
+  k\u025b\u025b Tayd\u0254l ku\u00e4\u00e4r G\u0254yim, k\u025b Ama-rap\u025bl\\nku\u00e4\u00e4r
+  Caynar a m\u00e4ni Ari\u0254k ku\u00e4\u00e4r Elathar.\\nKua\u0332r \u014buaan nyieenyk\u025b
+  k\u025b kua\u0332r dhieec. 10\\nT\u00e4\u00e4m\u025b lo\u0332o\u0332l Thidim c\u025b
+  thia\u0332a\u0332\u014b k\u025b pu\u0254\u0332l ti nu\u025b\u0308t\\nnu\u025b\u0308\u025b\u0308t.
+  M\u00eb\u00eb ci kua\u0332r Th\u0254d\u0254m k\u025bn\u025b G\u0254m\u0254ra ro\\nbar
+  cu tha\u0332a\u0332ndi\u025bn p\u025bn r\u025bydi\u025bn, k\u00e4 cu du\u0254th-\\nki\u025bn
+  ro bar wi\u0332c pa\u0332a\u0332m. 11 Cu ji t\u025b\u0308r kuak k\u025b\\nmi\u0332th
+  Th\u0254d\u0254m k\u025bn\u025b G\u025bm\u025bra coo p\u025bc k\u025bn diaal\\n\u025bwic,
+  k\u00e4 cuk\u025b w\u00e4 dupdi\u025bn. 12 Cuk\u025b\u025b L\u0254t\\ngat d\u00e4man
+  Abram mi cie\u014b k\u00e4 Th\u0254d\u0254m ni p\u025bc b\u00e4\\nk\u025b\u025b
+  kuak\u025b diaal, k\u00e4 cuk\u025b ji\u025b\u025bn.\\n(Page 44)\\n13 K\u00e4 ram
+  mi ci r\u0254 bar cu\u025b b\u025bn la\u0332r Abram\\nin la Hib\u025bruw in cie\u014b
+  kut ji\u025bn ok\\nM\u025b\u0308m\u025br\u025by min la raan Amarayt, d\u00e4man
+  Ec\u0254l k\u025bn\u025b\\nAn\u00e4r. K\u025b k\u025bn m\u00e4thni Abram r\u025by
+  k\u00f6\u00f6r.\\n14 M\u00eb\u00eb ci Abram \u025b li\u014b i caa n\u025by ti maar
+  k\u025b\\nj\u025b p\u025bc ko\u0332o\u0332r, cu\u025b wutni k\u00f6\u00f6r b\u00f6th
+  raar ti\\ndi\u00ebthk\u025b ni g\u0254\u0254li\u025bn pa\u0332ny, wutni ti kur di\u0254\u0332k\\nwi\u0332cd\u025b
+  j\u025bn b\u00e4d\u00e4k. Cu k\u025bn k\u025b cu\u0254p l\u025b\u025br k\u00e4\\nD\u025b\u0308n.
+  15 K\u025b w\u00e4\u00e4r, cu\u025b k\u025b ku\u00ebny tu\u0254\u0332\u014b, j\u025bn\\nk\u025bn\u025b
+  ji la\u0332td\u025b, k\u00e4 cu\u025b k\u025b j\u0254c, k\u00e4 cu\u025b k\u025b
+  piet\\nk\u00e4 Hoba kui\u0332c Da-math-k\u00e4th. 16 T\u00e4\u00e4m\u025b cu\u025b\\nkuak
+  diaal lu\u0254\u0332\u0254\u0332c j\u0254k m\u00e4ni watd\u025b ni L\u0254t b\u00e4\\nk\u025b\u025b
+  kuak\u025b, k\u025b m\u00e4n a m\u00e4ni n\u025b\u025bk\u025b. 17 K\u025b k\u0254r\\ngua\u0332th
+  \u00eb\u00eb luny k\u025b j\u025b j\u0254k juc\u00e4 C\u025b-t\u0254-r\u025b-l\u025by-\\n\u0254m\u025br
+  k\u025bn\u025b kua\u0332r tin k\u0254ki\u025bn, cuaa j\u025b lor \u025b\\nku\u00e4\u00e4r
+  Th\u0254d\u0254m lo\u0332o\u0332l\u00e4 k\u00e4 C\u025byp\u00e4 mi c\u0254al i Lo\u0332o\u0332l\\nKua\u0332r.
+  18 K\u00e4 cu M\u025bl-kith-\u025bd\u025bk-ku\u00e4\u00e4r Th\u025byl\u025bm\\nmi\u0332th
+  n\u00f6\u00f6\u014b raar k\u025bn\u025b k\u0254a\u014b. E j\u025bn gua\u0332n\\n\u014bu\u0254\u0332tni
+  Ku\u0254th in di\u0332i\u0332t. 19 K\u00e4 cu\u025b j\u025b poth,\\ncu\u025b wee,
+  \\\"A Abram pu\u0254thk\u025b \u025b Kuoth in di\u0332it,\\n(unclear) \u00e4k nhial
+  k\u025bn\u025b piny.\\n(Page 45)\\n20 A pu\u0254\u0332th w\u00e4 b\u00e4 k\u00e4
+  Kuoth in di\u0332i\u0332t m\u00eb\u00eb ci\\nji\u0332 t\u025b\u0308ru la\u0332th
+  tetk\u00e4du.\\\" K\u00e4 cu Abram k\u025bl\\nw\u00e4li \u014b\u0254akni diaal ka\u0332m
+  \u025b.\\n21 K\u00e4 cu ku\u00e4\u00e4r Th\u0254d\u0254m Abram ji\u00f6k, \\\"K\u00e4mni\\n\u0264\u00e4
+  pua\u0332ny nath, ku ka\u0332n ni \u014b\u0254ak k\u025b kui\u0332cdu. 22\\nCu Abram
+  ku\u00e4\u00e4r Th\u0254d\u0254m ji\u00f6k, \\\"\u0194\u00e4n c\u00e4 j\u025b yac\\nnhiam
+  Jaopa Kuoth in di\u0332it mi cak nhial k\u025bn\u025b\\npiny 23 \u025bn \u0264\u00f6\u00f6
+  c\u00e4\u014b \u025b\u025b lath ''caa bi ka\u0332n ki\u025b\u025b\\nla\u0332a\u0332k
+  wa\u0332a\u0332ri, ki\u025b\u025b du\u0254\u0332\u0254r mi la du\u014bdu m\u00e4\u00e4\\nmi
+  yi\u0332ki j\u025b lar, i caa Abram moc ria\u0332\u014b k\u025b j\u025b.\\n24 Thil\u025b
+  mi b\u00e4 ka\u0332n \u025b ni min caa cam \u025b\\n\u014bu\u025b\u0308tni k\u025bn\u025b
+  kui\u0332c wutni tin ci w\u00e4 k\u025b \u0264\u00e4 k\u025b\u025bl.\\nAa An\u00e4r
+  k\u025bn\u025b\u025b Ec\u0254l k\u025b\u025b M\u025b\u0308m\u025br\u025by ka\u0332n
+  k\u025b\\nkuii\u0332di\u025bn.\\\"\\n(Page 46)\"", "\"Lueek Pal\u00e4 N\u00eb\u00ebni
+  Ja\u00f6ba diaal k\u025b gua\u0331a\u0331th tin palk\u025b Ja\u00f6ba thi\u0331n.
+  K\u025b kui\u0331 \u025bm\u0254 mi la wan\u025b j\u025b w\u00e4 yi\u025bc ki\u025b
+  lakn\u025b j\u025b a b\u025b te k\u025b guec mi g\u0254aa mi ca tin ci ji\u00e4\u00e4k
+  thi\u0331n rialik\u00e4, n\u0254m\u0254 b\u025b nyoth \u025bn \u0263\u00f6\u00f6
+  nh\u0254akn\u025b j\u025b \u025bn \u0263\u00f6\u00f6 bi gua\u0331a\u0331th pal\u00e4dan
+  la mi g\u0254aa k\u025b \u0263\u00f6\u00f6 \u025b k\u025bl mi g\u0254aa \u025bl\u0254\u014b
+  mi den\u025b la\u0331t k\u025b kui\u0331 pal\u00e4dan. K\u0254n diaal den\u025b
+  la\u0331t \u025bm\u025b la\u0331t.\\nJakni r\u0254 k\u00e4 ram k\u025bl k\u00e4
+  n\u025by tin nh\u0254ak\u025b \u0263\u00f6\u00f6 ba Luak Pal\u00e4 yi\u025bc k\u025b
+  k\u0254r dol\u00e4. K\u025b k\u0254r dol\u00e4, d\u00e4manik\u0254n k\u025bn\u025b
+  nyimanik\u0254n la t\u025bth lo\u0331cki\u025bn k\u025b \u0263\u00f6\u00f6 ba Luak
+  Pal\u00e4 yi\u025bc ag\u0254aa. Min d\u0254\u014b b\u00e4 \u025b \u0263\u00f6\u00f6
+  la yi\u025b\u0308ck\u025b Luak Pal\u00e4 k\u00e4 k\u025b\u025bl k\u00e4 ju\u0254k
+  k\u025b yi\u0331ec mi di\u0331i\u0331t. La \u025bld\u025br ki\u025b l\u00e4\u00e4t
+  mi lu\u00e4\u00e4k la\u0331t a guic ni cia\u014b, guic\u025b li\u0331th \u014b\u0254aani
+  tin d\u00eb\u00eb la\u0331t ki\u025b tin d\u00eb\u00eb rialik\u00e4. Mi t\u00eb\u00eb
+  k\u025b mi g\u00f6rk\u025b i\u0331 ba la\u0331t, naath la kuanyk\u025b r\u0254 k\u00e4r\u0254
+  k\u025b \u0263\u00f6\u00f6 bik\u025b yi\u0331ec, cu\u0254thk\u025b pinyd\u025b,
+  t\u025b\u0308\u014bk\u025b tur\u025b, k\u00e4 rialk\u025b k\u0254amni i\u0331k\u00e4,
+  lak\u025b du\u00ebl coni k\u00e4 mu\u0254ck\u025b k\u025b w\u00e4l, k\u00e4 lak\u025b
+  w\u00ebr-nyi\u025bni k\u025bn\u025b neeni k\u025b, k\u00e4 ba dhiac cuo yi\u00e4k,
+  am\u00e4ni raar b\u00e4 ba rialik\u00e4. I\u0331n\u0254 b\u00e4, k\u025b ru\u0254n
+  t\u025bk\u025b c\u00e4\u014b k\u025bl mi ca rialik\u00e4 k\u025b \u0263\u00f6\u00f6
+  ba yi\u0331ec mi di\u0331t ni j\u025bn ben la\u0331t thi\u0331n. Mi wan\u025b w\u00e4
+  l\u00e4t k\u025b\u025bl k\u025b gaatk\u0254n, \u014bi\u0331i\u0331c k\u0254n nik\u025b
+  k\u025b \u0263\u00f6\u00f6 ba gua\u0331th pal\u00e4dan lu\u0254th \u025b k\u025bn.\\nDeri
+  naath lu\u00e4k mi tek\u025b mi g\u00f6rk\u025b i\u0331 ba rialik\u00e4. K\u025b
+  ru\u0254n la gu\u025bck\u025b ta\u0331a\u0331 in te k\u025b Luak pal\u00e4 k\u025b
+  \u0263\u00f6\u00f6 ba min ci ji\u00e4\u00e4k thi\u0331n \u014ba\u0331c, r\u025byd\u025b
+  am\u00e4ni j\u0254kd\u025b. K\u00e4 k\u025b j\u025bn la\u0331t \u025bm\u0254, la
+  rialk\u025b Luak i\u0331k\u00e4 ni cia\u014b k\u025b \u0263\u00f6\u00f6 b\u025b
+  g\u0254aa, lu\u00e4k\u025b k\u0254n b\u00e4 k\u025b \u0263\u00f6\u00f6 b\u025b thil
+  la\u0331t mi di\u0331i\u0331t mi bi yio\u0331w ti \u014buan l\u025b na\u014b. (2
+  Ku\u025b\u0308\u025b\u0308ni 24:13; 34:10) Luak Pal\u00e4 mi g\u0254aa mi ca rialik\u00e4
+  \u025b gua\u0331th mi g\u0254aa \u025bl\u0254\u014b mi den\u025b Kuoth dan pal thi\u0331n.
+  Mi wan\u025b w\u00e4 te k\u025b nyuak r\u025by la\u0331t \u025bm\u025b, ban\u025b
+  j\u025b nyoth \u025bn \u0263\u00f6\u00f6 nh\u0254akn\u025b Ja\u00f6ba k\u025bn\u025b
+  gua\u0331th pal\u00e4dan. (Diit 122:1) M\u025bm\u025b b\u00e4, b\u025b n\u025by
+  tin k\u0254\u014b jak\u00e4 tek\u025b k\u025b luth k\u025b gua\u0331a\u0331th pal\u00e4dan.\\n\u0190\u014bu
+  g\u0254aa\u025b m\u0254 \u025bn \u0263\u00f6\u00f6 /can\u025b gua\u0331a\u0331th
+  pal\u00e4dan bi pa\u0331l \u014bu\u025b\u0308th \u0254?\\nK\u025b l\u00e4t tinki\u025bn
+  tin ca rialik\u00e4 k\u025b \u0263\u00f6\u00f6 ba Luak Pal\u00e4 jak\u00e4 g\u0254aa?\"",
+  "\"Maj\u025bl\u025b in c\u0254ali Luak Yi\u00ebn \u0194\u0254aa k\u025bn\u025b Ta\u0331y\u025b
+  Ji\u0331n\u00e4!\\nK\u025bn maj\u025bl\u025bni Baibol\u00e4 k\u0254 ti\u0331ti\u0331
+  ca k\u025b rialik\u00e4 k\u025b thuk ti 150 k\u025b kui\u0331 raam mi go\u0331o\u0331r
+  \u0263\u00f6\u00f6 dee k\u025b na\u014b. \u0190n maj\u025bl\u025b \u025bm\u025b
+  c\u0254ali Luak Yi\u00ebn \u0194\u0254aa \u025b, nyuth\u025b k\u0254n tin tu\u0254\u0254k
+  r\u025by \u0263\u0254aa \u025bm\u025b k\u025b kui\u0331 ruaacni g\u00f6\u00f6kni
+  tin ca lat r\u025by Baibol\u00e4. J\u025bn buum\u025b lo\u0331c nath k\u00e4 coom\u025b
+  n\u025by diaal k\u025b thuk Ku\u00e4\u00e4r\u00e4 Ku\u0254th ti g\u0254w k\u00e4
+  mooc\u025b naath \u014bth mi di\u0331i\u0331t k\u025b Yecu Kritho. Maj\u025bl\u025b
+  in c\u0254ali Ta\u0331y\u025b Ji\u0331n\u00e4! nyuth\u025b k\u0254n \u0263\u00f6\u00f6
+  d\u00ebn\u025b rik rut i\u0331di\u0331 r\u025by \u0263\u0254aa \u025bm\u025b k\u00e4
+  mooc\u025b naath \u014ba\u0331th b\u00e4 k\u025b ruac Ku\u0254th \u00eb\u00eb c\u025b
+  lat \u025bn \u0263\u00f6\u00f6 bi naath cie\u014b k\u025b mal r\u025by \u0263\u0254aa
+  mi pay cak.\"", "\"T\u00eb\u00ebk\u025b \u014bu\u0254t c\u00e4k\u00e4 t i k a pk\u025b
+  w i c mu \u0254\u0254 n \u025b cie\u014b k\u0254n th i n\u025b. K\u00e4 t\u00eb\u00eb
+  k\u025b \u014bu\u0254\u0331t yieek\u00e4 b\u00e4 tin nyu\u0254\u0331thk\u025b ji
+  maarun y\u025bn\u025b Kuoth.\\n1. Kuoth nh\u0254k\u025b ji, k\u00e4 c\u025b muc
+  mi g\u00e4\u00e4y naath rialik\u00e4 k\u025b kuidu.\\nNh\u00f6k Ku\u0254th\\n\u201cK\u025b
+  \u0263\u00f6\u00f6 nh\u0254k Kuoth n\u025by diaal \u025bl\u0254\u0331\u014b cu\u025b
+  Gatd\u025b min k\u025bl k\u00e4rca mu\u0254c, k\u025b \u0263\u00f6\u00f6 ram mi
+  w\u00e4 j\u025b \u014b\u00e4th /c\u025b bi li\u0331w b\u025b tek\u025b t\u00ebk
+  mi thil pek.\u201d J \u0254\u0254 n 3:16\\nGuir Ku\u0254th\\n(Kritho ruac\u025b)
+  \u201cC\u00e4 ben k\u025b \u0263\u00f6\u00f6 de k\u025b t\u00ebk, k\u025b t\u00ebk
+  m i r o \u014b\u201d J \u0254\u0254 n 10:10\\n/Ci k_ n_y diaal k_n tin ci t\u00ebk
+  mi ro_ _ac, k_ .\u00f6\u00f6\u2026\\n2. Naath cik\u025b duer k\u00e4 cik\u025b d
+  a k k\u025b Kuoth. k\u025b \u0263\u00f6\u00f6 /ca nh\u00f6k Ku\u0254th k\u025bn\u025b
+  guir\u025b dee \u014b a c k\u025b ku i t\u00eb\u00ebk\u00e4dan.\\nNaath k\u025b
+  ji\u0331 dueeri.\\n\u201cK\u00e4 c i k\u025bn diaal duer, k\u00e4 p\u025bnk\u025b
+  a ci\u025bk k\u025b g\u0254\u0254y pu\u0254ny\u00e4 Ku\u0254th.\u201d J i R\u00f6m
+  3:23\\nCak\u025b k\u0254n k\u025b \u0263\u00f6\u00f6 bi k\u0254n a m\u00e4th k\u025b
+  Kuoth, k\u00e4 duund\u025b \u0263\u00f6\u00f6 can\u025b m\u025bk ni \u0263\u00f6\u00f6
+  ban\u025b w\u00e4 k\u025b du\u0254\u0331\u0254\u0331pdan. Ci m\u00e4\u00e4thdan
+  k\u025b Kuoth cu da\u0331k. \u0190 j\u025bn min c\u0254\u0254l Ruac Ku\u0254th in
+  R\u025bl r\u0254 j\u025b I duer. N\u025bm\u025b nyuoth\u025b \u0263\u00f6\u00f6:\\n1.
+  ci raan \u014but Ku\u0254th t o l;\\n2. K\u025b min /c i raan ri\u025bk k\u025b
+  Kuoth, k\u00e4;\\n3. c\u025b cie\u014b ag\u0254a k\u025b cian\u014b mi k o k k o
+  k in gor Kuoth\u025b\\nNaath ca r\u0254\u0331 koc\\n\u201cK\u025b \u0263\u00f6\u00f6
+  p e k l a t du i r\u00e4 \u025b li aa ,\u201d (d\u00e4k yieek\u00e4 piny k\u025b
+  Kuoth).\\nJ i R\u00f6m 6:23\\nKuoth r_l g__yd_ r_, k\u00e4 naath k_ ji dueeri. Te
+  k_n da__ r_w\\nk_ d\u00e4\u00e4k mi dii_ t. K__? k? _ t_ nyu_thk_ ni ._n_ nath k_
+  .\u00f6\u00f6\\ndeek_ Kuoth cop, k_n_ t\u00ebk mi ro__ k_ l\u00e4tki_n k\u00e4r__.
+  Cetk_\\nt\u00ebk mi g_aa, ciaa_ kuooth\u00e4, lu\u00e4k n__ni tin k___ am\u00e4ni\\nk__ki_n
+  b\u00e4, duund_ .\u00f6\u00f6 ci l\u00e4tki_n diaal thil lu_t.\\n3. Yecu Kritho
+  \u025b j\u025bn du\u0254\u0331 \u0254 p in k\u025bl k\u00e4r\u0254a, min dee raan
+  \u025b cop n i Kuoth. C\u025b l i w k\u025b ku i dan. R\u025byd\u025b deri Kuoth
+  \u014b a c k\u025b nh\u00f6kd\u025b k\u025bn\u025b gu i r\u025b k\u025b ku i t\u00eb\u00ebk\u00e4du.\\nC\u025b
+  l i w k\u00e4 c\u025b r\u0254 ji\u025bc lith\\nK\u025b \u0263\u00f6\u00f6 c i Kritho
+  l i w b\u00e4 n i k\u00e4 k\u025b\u025bl k\u025b ku i j i dueer i , \u025bn ram
+  m i Gu a n cu\u014bnu k\u025b ku i nath t i thi\u025bl cu \u0254\u0254 \u014b, k\u025b
+  \u0263\u00f6\u00f6 der\u025b k\u0254n n\u00f6\u014b Kuoth. 1 Pit\u0254r 3:18\\nK\u025b
+  nin ti ji\u025bn \u014buaan k\u025b k\u0254r liethd\u025b cu\u025b r\u0254 nyu\u0254th
+  k\u025b ni k\u00e4 ti nyin \u014buan, k\u025b dup ti nyu\u0254thk\u025b j\u025b
+  a thil diw en \u0263\u00f6\u00f6 t\u00ebk\u025b; ca n\u025bn \u025b k\u025bn k\u00e4
+  c\u025b ruac k\u025b k\u025b, k\u025b kui ku\u00e4\u00e4r\u00e4 Ku\u0254th.\\nL
+  a t J aa kn i 1:3\\n\u0190 J\u025bn k\u00e4r\u0254a la du \u0254\u0254 p \u0254\\nCu
+  Yecu j\u025b ji\u00f6k, \u201c\u0190 \u0263\u00e4n du \u0254\u0254 p, k\u00e4 \u025b
+  \u0263\u00e4n thu \u0254 k, k\u00e4 \u025b \u0263\u00e4n t\u00ebk; thil\u025b ram
+  m i bee k\u00e4 Gu a ndan, a /c\u025b b\u00e4 k\u025b \u0263\u00e4. J \u0254\u0254
+  n 14:6\\nKuoth c\u025b d\u00e4\u00e4k kam\u00e4dan k\u025b j\u025b d i r k\u025b
+  kubur k\u025b j\u00e4kn i Gatd\u025b, n i Yecu Kritho, k\u025b \u0263\u00f6\u00f6
+  b\u025b ben l i w w i c jiaath in g\u025b\u025br k\u025b gu aa dan.\\n/Ken\u025b
+  r o \u014b \u025bn \u0263\u00f6\u00f6 der i \u014b a c n i k\u025bn \u014bu \u0254
+  t d a \u014b di \u0254 k t i t i k\u00e4r\u0254a.\\n4. B i k\u0254n diaal k\u025b\u0308l
+  k\u025b\u0308\u025b\u0308l i Yecu Kritho dhil k\u00e4p a la Ku\u00e4\u00e4r k\u00e4
+  K\u00e4\u00e4n, \u025b j\u025bn dee k\u0254n nh\u00f6k k\u025bn\u025b guir Ku\u0254th
+  in c\u025b rial i k\u00e4 k\u025b ku i teek\u00e4dan kul\u025b \u014b a c.\\nBan\u025b
+  Kritho dhil k\u00e4p k\u025b \u014b a th\\nN\u025by diaal t i ca j\u025b nh\u0254k
+  k\u00e4 ca ci\u00f6td\u025b \u014b\u00e4th, cu\u025b k\u025b moc cu \u0254\u0254
+  \u014b k\u025b \u0263\u00f6\u00f6 b i k\u025b a gaat Ku\u0254th. J \u0254\u0254
+  n 1:12\\nK\u025b \u0263\u00f6\u00f6 ca y\u025b k\u00e4n dueer i k\u025b \u014b a
+  th r\u025by nh o k\u00e4d\u025b, K\u00e4 m\u025bm\u025b / ci\u025b m i l\u00e4t
+  y\u025bn\u025b \u025b j\u025bn muc Ku\u0254th, / c\u025b b\u00e4 k\u025b l a t k\u025b
+  \u0263\u00f6\u00f6 de raan r\u0254 y i k liak. \u0190p\u025bth\u025bth 2:8,9\\nK\u00e4p
+  k\u0254n Kritho k\u025b ci o l\u025b r\u025by teek\u00e4dan\\n(Lar Kritho \u025b
+  i ) \u201cN\u025b\u0308n\u025b, \u0263\u00e4n cu \u0254 \u014b\u00e4 thok dueel,
+  k\u00e4 d\u0254a\u014b\u00e4 th ii k; m i t\u00eb\u00ebk\u025b ram m i li\u014b
+  j\u0254wd\u00e4 k\u00e4 l\u025bp\u025b th ii k, b\u00e4 ben r\u025bc k\u00e4 j\u025b...\u201d
+  Nyuuth 3:20\\n/C\u025b r o \u014b \u025bn \u0263\u00f6\u00f6 b i cu mat n i j i
+  n k\u025b \u014b ii c Kritho. K a pdu k\u025b Kritho lotd\u025b ni r i tdu k\u025b
+  r\u0254 Kuoth k\u025b rietdu k\u025b r\u0254 dueeri. \u014a\u00e4\u00e4th k\u0254n
+  Kritho k\u025b \u0263\u00f6\u00f6 b\u025b ben r\u025by teek\u00e4dan k\u00e4 b\u025b
+  k\u0254n p a l dueerk\u0254n. Ban\u025b j\u025b jak k\u00e4 l\u00e4td\u025b k\u0254n
+  c e t k\u025b l a t in g oo \u0331 r\u025b i ban\u025b t\u00ebk k\u025b j\u025b.\\n\u0190
+  g o l-g o l in mith m in lot n i t\u00ebkdu?\\nK\u00e4 \u025b g o l-g o l indi\u025bn
+  g o r i i b i lot n i t\u00ebkdu?\\nM\u025b b\u00eb\u00eb k\u0254\u0254r\u025b latd\u025b
+  ni du \u0254\u0254 p in der i nh\u0254k Kritho:\\nDer i Kritho nh\u0254k \u0190n
+  t\u00e4\u00e4m\u025b\\nThiec\u025b \u025bn \u0263\u00f6\u00f6 der\u025b ben r\u025by
+  teek\u00e4du, \u014b\u00e4th\u025b i b\u025b min c\u025b lar l a t. J\u025bn `g
+  oo \u0331 r\u025b n i min lot i k\u025b l\u0254cdu, a leny\u025b n i rieet tin lat
+  i . D \u0254 \u014b deri j\u025b g o r i bi pal:\\n\u201cKu\u00e4\u00e4r n i Yecu,
+  \u0263\u00e4n g \u00f6\u00f6 r\u00e4 j i . \u0194\u00e4n la yiaan\u00e4 t\u00ebkd\u00e4
+  \u0263\u00e4n k\u00e4r\u0254a k\u00e4 c\u00e4 j i duer duer. C i l\u0254cd\u00e4
+  t\u025b\u025bth k\u025b \u0263\u00f6\u00f6 c i \u0263\u00e4 p a l dueerk\u00e4.
+  B\u00ebr r\u025by teek\u00e4d\u00e4 k\u00e4 yi\u025bn t\u00ebkd\u00e4. Jakn i \u0263\u00e4
+  k\u00e4 ram mi c e tk\u025b min go\u0331o\u0331ri.\u201d\\nDee pal\u025b m\u025b
+  nyoth n i min g o r l\u0254cdu j\u025b?\\nM i der\u025b a j\u025bn, pal pal \u025bm\u025b
+  t\u00e4\u00e4m\u025b, k\u00e4 b i Kritho ben r\u025by t\u00eb\u00ebk\u00e4du ciee
+  k\u025b m\u00eb\u00eb c\u025b lar.\\nDeri j\u025b \u014b a c i d i \u025bn \u0263\u00f6\u00f6
+  te Kritho r\u025by teek\u00e4du?\\nJ i n c i Kritho ci\u00f6\u00f6l r\u025by teek\u00e4du?
+  C e t k\u025b min c\u025b yac k\u00e4 Nyuuth 3:20 , J\u025bn a n i \u025bn Kritho
+  t\u00e4\u00e4m\u025b? Ci Kritho \u025b lar i b\u025b ben r\u025by teek\u00e4du.
+  Der\u025b lat ni kac? \u014a\u00e4c i j\u025b i d i i c i Kuoth palu loc? ....(K\u025b
+  \u0263\u00f6\u00f6 der i Kuoth \u014b\u00e4th k\u025bn\u025b ri e td\u025b).\\nRuac
+  Ku\u0254th in r\u025blr\u0254 c\u025b t\u00ebk m i d o raar lar k\u025b ku i c n\u025b\u025bni
+  tin ca Yecu \u014b\u00e4th (tin k a pk\u025b j\u025b).\\n\u201cKuoth c\u025b k\u0254n
+  k a m t\u00ebk m i d o raar, k\u00e4 \u025bn t\u00ebk \u025bm\u025b t\u00eb\u00eb
+  k\u025b Gatd\u025b. Ram m i te Gat Ku\u0254th k\u025b j\u025b t\u00eb\u00eb k\u025b
+  t\u00ebk \u025bm\u025b; k\u00e4 j\u025bn m i /c i te k\u025b Gat, thil\u025b j i
+  t\u00ebk \u025bm\u025b. \u0194\u00e4n g\u0254 a r\u00e4 m\u025bm\u025b y\u025b,
+  yen n\u025by tin \u014b a thk\u025b ci\u00f6t Gat\u00e4 Ku\u0254th, k\u025b \u0263\u00f6\u00f6
+  der\u025b \u014b a c i t a y\u025b k\u025b t\u00ebk m i d o raar.\u201d (1 J\u0254\u0331\u0254\u0331n
+  5:11-13)\\nL\u00e4ri Kuoth t\u025b\u0308thl\u0254aac ni cia\u014b k\u025b \u0263\u00f6\u00f6
+  te Kritho r\u025by teek\u00e4du. C\u025b lar i/c\u025b ji bi met bany piny. \u0194ib-ru
+  13:5\\nDeri j\u025b \u014bac i te Kritho r\u025bydu, k\u00e4 ti k\u025b t\u00ebk
+  mi doraar k\u025b \u0263\u00f6\u00f6 c\u025b yac.\\nCu r\u0254 \u014b\u00e4th n
+  i c\u00e4r\\nKrithcini t\u00ebk\u025b k\u025b \u014ba\u0331th Ku\u0254th k\u025bn\u025b
+  min ca lar r\u025by Ruac Ku\u0254th. Rieet Ku\u0254th tin c\u025b lar k\u025b k\u025bn
+  bu\u0254\u0331mdan. \u0190n thur\u025b l\u00f6ri \u025bm\u025b nyoth\u025b n i thu\u0254k
+  Baibola, k\u025b \u014b a th k\u025bn\u025b c\u00e4r ke l a t in l\u00e4t k\u025b
+  k\u025b k\u025b\u025blr\u025by t\u00eb\u00ebk\u00e4 Krithciin\u00e4du.\\n1. Thu
+  \u0254 k t\u00eb\u00eb k\u025b bu \u0254 m k\u025b \u014b a thdan.\\n2. Matk\u025b
+  k\u0254n \u025b bu\u0254\u0331m Thuk\u00e4 k\u025b \u014b a th\\n3. M i lu \u0254
+  thn\u025b Thu \u0254 k, la c\u00e4rk\u0254n cua gur n i du \u0254\u0254 p m i cu
+  \u0254\u0254 \u014b.\\n4. /Can\u025b \u014b\u00e4thn i c\u00e4rk\u0254n, \u014b
+  a thn\u025b n i Kuoth k\u025bn\u025b Thu \u0254 kd\u025b.\\nT\u00e4\u00e4m\u025b
+  c i Kritho ku k\u00e4p\\nN i \u025bn gu aa th\u0254 c i Kritho k\u00e4p \u0254 k\u025b
+  \u014ba\u0331th la ti \u014buan a tu\u0254\u0254k:\\n1. C i Kritho ben r\u025by
+  teek\u00e4du. Nyuuth 3:20 k \u025b n \u025b Kol\u0254thi 1:27\\n2. Caa dueerku p\u00e4l
+  Kol\u0254thi 1:14\\n3. C i cu aa gat Ku\u0254th J \u0254\u0254 n 1:12\\n4. B i j
+  i n Kuoth cu \u014b a c, k\u025bn\u025b min c\u025b rialik\u00e4 k\u025b ku i teek\u00e4duJ
+  \u0254\u0254 n 10:10 k\u025bn\u025b 2 Korinth 5:14,15,17\\nT\u00eb\u00ebk\u025b
+  m i g o r i dee tu\u0254\u0254k k\u00e4 j i m i lenyni \u014b a th Kritho?\\nBi\u025b
+  nh\u0254k i b i Kuoth l a r t\u025b\u0308thl\u0254aac t\u00e4\u00e4m\u025b k\u025b
+  pal k\u025b ku i k\u00e4 m i g\u0254a m i c\u025b l a t k\u025b ku i du? L\u00e4r
+  Kuoth t\u025b\u0308thl\u0254aa\u0254 nyooth\u025b ni \u014b a thdun.\\nPalan T\u00e4\u00e4m\u025b
+  \u025b\u014bu?\\nDee Raan Piith I d i R\u025by Yieek\u00e4\\nPi\u0331eth Yieek\u00e4
+  b\u00eb\u00eb k\u025b \u014ba\u0331th k\u025b Yecu Kritho. \u201cBi ram mi gua\u0331n
+  cu\u014bni t\u00ebk k\u025b \u014ba\u0331th.\u201d (Ji Ga-l\u00eb\u00eb-cia 3:11)
+  T\u00ebk \u014b\u00e4th\u00e4 b\u025b ji\u0331 jak\u00e4 ti\u0331 k\u025b \u014ba\u0331th
+  k\u025b Kuoth r\u025by teek\u00e4du k\u025b\u025bliw, k\u025bn\u025b \u0263\u00f6\u00f6
+  bi ti\u0331ti\u0331 la\u0331t:\\n\u00b7 L. L a \u014b\u025b Kuoth (k\u025b pal)
+  n i cia\u014b. J \u0254\u0254 n 15:7\\n\u2022 L. Li\u014b ruac Ku\u0254th (ku\u025bn
+  Ruac Ku\u0254th in r\u025bl r\u0254) n i cia\u014b. ( L a t J aa kni 17:11 ), tok\u025b
+  k\u00e4 ruac Ku\u0254th in ca g \u0254 r \u025b J \u0254\u0254 n.\\n\u00b7 L. Luthn
+  i Kuoth r\u025by thaak n i diaal. J \u0254\u0254 n 14 :21\\n\u00b7 L. Lat n\u00ebn
+  k\u025b ku i Yecu Kritho k\u025b t\u00ebkdu k\u025bn\u025b rieetku. M \u025b \u0308
+  th 4:19 k \u025b n \u025b J \u0254\u0254 n 15:8\\n\u00b7 \u014a\u00e4th Kuoth r\u025by
+  nyin\u00e4 teek\u00e4du diaal. 1 Pit\u0254r 5:7\\n\u00b7 Jakni Kuoth k\u00e4 ga\u014b\u025b
+  j i k\u00e4 mooc\u025b ji\u0331 bu \u0254 m n i cia\u014b r\u025by teek\u00e4du
+  k\u025bn\u025b n\u00ebndu. Gal\u025bcia 5:16 k\u025bn\u025b Lat Jaakni 1:8\\nDuel
+  Ku\u0254th g\u0254aa \u025bl\u0254\u0331\u014b\\nM i ca ji\u025bn ti k oo t thuki\u025bn
+  tu\u0254\u0331\u0254\u0331m, k\u00e4 ca k\u025b d\u0254p la macdi\u025bn a w\u00e4
+  n i nhial. K\u00e4 m i ci jiath k\u025bl ku\u00eb\u014b piny k\u00e4r\u0254a gu\u00e4th
+  mi \u0263\u0254\u0331a\u0331c der\u025b rual. In\u0254 b\u00e4 b\u025b bu \u0254
+  m \u025b t\u00ebt i deri t\u00ebk Krithciin\u00e4du yi\u025bn k\u00e4rca.\\nJ\u025bn
+  d i t g\u0254\u0254yd\u025b, \u025bn \u0263\u00f6\u00f6 deri mat k\u025b Krithcini
+  k \u0254 ki\u025bn tin ca Yecu k\u00e4p c e tk\u025b Ku\u00e4\u00e4ri\u025bn k\u00e4
+  K\u00e4\u00e4ndi\u025bn. Bi dhil w\u00e4 dueel Ku\u0254th in \u014b\u00e4\u00e4th
+  jik\u025b Ruac Ku\u0254th \u025bn \u0263\u00f6\u00f6 \u025b thu\u0254\u0331k, k\u00e4
+  \u025b j\u025bn gu aa th in lu \u0254 th k\u025b Yecu th i n. (\u0194e-b\u025b-ru
+  10:25)\"", "\"Collected and written by Michael Thilyang Gatkek With special thanks
+  to Fr Christian Carlassare and pastoral team of Holy Trinity Parish (Old Fangak)
+  (for English translation see their great book: Nuer Folktales, Proverbs and Riddles)\\nK\u025b
+  c\u00e4\u014b k\u025bl nyigol k\u025bn\u025b guak cik\u025b w\u00e4 p\u025b\u025bc
+  \u0263\u0254\u0320\u0254\u0320k. M\u00eb\u00eb cik\u025b cop gua\u0320th \u0263\u0254\u0320\u0254\u0320k,
+  cu nyigol r\u0254d\u025b jek ya\u014b mi kuei. Cu guak r\u0254 jek th\u00e4k. Cuk\u025b
+  luoc wicdi\u025bn. Min \u014botk\u025b j\u00e4l, cu naath k\u025b cop l\u025b\u025br.
+  Cu guak r\u0254 bar k\u025b th\u00e4kd\u025b, k\u00e4 nyigol kuic\u025b wu\u0254\u0320r.
+  Cu\u025b we\u0320e\u0320 i ba \u0263\u00e4 na\u0320k ni k\u0254r kueik\u00e4d\u00e4
+  min luotni \u0263\u00f6\u00f6 /c\u025b ya\u014b bi p\u00e4l a c\u00e4\u014b b\u025b
+  liw b\u00e4. M\u00eb\u00eb ci naath cop kutd\u025b (gek\u00e4d\u025b) cuk\u025b
+  j\u025b du\u00e4c k\u025b du\u00e4c mi di\u0320i\u0320t, k\u00e4 /c\u025b ya\u014b
+  p\u00e4l. K\u025b k\u0254r\u025b cu naath wee i a j\u025b ku\u025b na\u014b. Cu\u025b
+  ya\u014bd\u025b na\u014b. M\u00eb\u00eb cik\u025b cop wic, cuk\u025b \u0263\u0254\u0320kki\u025bn
+  mat r\u025by g\u0254aliki\u025bn. K\u025b k\u0254r ni\u0320ni\u0320 cu ya\u014b
+  nyigol dieth d\u0254\u0254r, k\u00e4 tee guak r\u025by \u0263\u0254\u0320\u0254\u0320k.
+  Ni\u025b wan\u0254 cu guak ca\u0320p c\u00e4p. Cu\u025b d\u0254w yaa\u014b nyigol
+  na\u014b a la d\u0254w tha\u0320a\u0320kd\u025b, k\u00e4 moc\u025b thar tha\u0320a\u0320kd\u025b
+  ri\u025bm, k\u00e4 cu\u025b thar yaa\u014b nyigol lak k\u025b pi, k\u025b \u0263\u00f6\u00f6
+  /ca bi \u014bic. Cu\u025b ben wic k\u025b d\u0254w yaa\u014b k\u00e4 laar\u025b
+  j\u025b i ci th\u00e4kd\u00e4 dieth. K\u00e4 j\u00e4l ya\u014b k\u025b lul k\u0254\u0254r\u025b.
+  Cu nyigol \u025b thiec, cu\u025b j\u025b gak. Cu nyigol luk l\u025bp k\u00e4 ku\u00e4r.
+  M\u00eb\u00eb ca lukdi\u025bn luk, cu guak wic naath nyuon k\u025b \u014bakn\u0254m.
+  Cu ku\u00e4r wee i c\u0254al\u025b nya\u014blew. Nya\u014blew \u025b dit mi nya\u014b
+  mi p\u025bl p\u025bl. M\u00eb\u00eb ci nya\u014blew cop k\u00e4 \u014b\u00e4c\u025b
+  thar ruac in latk\u025b, cu\u025b w\u00eb\u00eb i ku\u00e4r \u0263\u00e4n p\u025b\u0308th\u00e4
+  \u025bl\u0254\u0320\u014b k\u025b \u0263\u00f6\u00f6 ba\u0320ny\u00e4 gua\u0320r
+  piny dap\u025b b\u00e4 luoc thin. Cu guak \u025b luoc i t\u025b k\u025b wut mi de
+  dap? Cu Nya\u014blew \u025b ji\u00f6k k\u00e4 \u025b \u014bu dieth th\u00e4kdu m\u0254?
+  Ni\u025b wan\u0254 cu ku\u00e4r luk thuk in\u0254, cu\u025b d\u0254w yaa\u014b ka\u0320m
+  nyigol. K\u00e4 l\u00e4\u00e4r\u025b guak \u0263\u00f6\u00f6 ti k\u025b kac. K\u00e4
+  cu guak w\u00e4 k\u025b ji\u00e4k l\u0254ac. K\u025b k\u0254r\u025b nini cu\u025b
+  kuei nyigol w\u00e4 jek d\u0254\u0254r. Cu\u025b j\u025b r\u0254th k\u025b tu\u00e4k
+  k\u00e4 mat\u025b j\u025b r\u025by thi\u00e4\u014bni k\u00e4 juoc\u025b j\u025b
+  wic. Cu\u025b nyigol ji\u00f6k i thi\u00e4\u014b tin. B\u025b wee i yi\u025b\u025bth
+  m\u0254 tee nhiam \u0254, yi\u025b\u025bth m\u0254 tee daar \u0254. Ni\u025b wan\u0254
+  cu nyigol ya\u014bd\u025b n\u00e4k. K\u025b k\u0254\u0254r\u025b cu guak nyigol
+  ji\u00f6k wer col naath, cu\u025b ya\u014b jiaa\u014b k\u00e4 t\u0254\u0320w\u025b
+  ri\u014bd\u025b k\u00e4 cu\u025b wic yaa\u014b t\u025bt piny. K\u00e4 lar\u025b
+  j\u025b i ca ya\u014b na\u014b \u025b j\u0254\u0254k. Mi ci naath cuop cu\u025b
+  wee bia, th\u00f6tn\u025b ya\u014b. Cuk\u025b ya\u014b th\u00f6t k\u00e4 cu wic
+  yaa\u014b ben raar a thil pu\u0254\u0320ny k\u025b \u0263\u00f6\u00f6 ci\u025b ri\u014bd\u025b
+  t\u0254w ni w\u00e4n. K\u00e4 lar\u025b j\u025b i jin nyigol na\u014b tu\u0254\u0320\u014b
+  yaa\u014bdu.\"", "\"Cio\u0332o\u0332k 36\\n1 T\u00e4\u00e4m\u025b titi k\u025b k\u025bn
+  kuay Ith\u0254\u0254 min la Id\u0254m.\\n2 Ith\u0254\u0254 cu\u025b m\u00e4nk\u025b
+  ku\u025bn k\u00e4 nyier K\u025byn\u025bn, k\u025b\\nk\u025b\u025bn titi: Ad\u00e4
+  nya El\u0254n raan Hitayt,\\nO-holi-bam\u00e4 nya An\u00e4 gat Dhiy\u0254n raan
+  Hibayt,\\n3 k\u025b Bath\u025bmath nya Icm\u025by\u025bl min la nyiman\\nN\u025bbay\u0254th.
+  4 Cu Ad\u00e4 Ith\u0254\u0254 di\u00ebth gat mi c\u0254al\\ni Elipath, k\u00e4 cu
+  Bath\u025bmath dap k\u025b gatd\u025b ni\\nR\u025byul. 5 K\u00e4 cu O-holi-bam\u00e4
+  J\u025byuc dieth k\u025bn\u025b\\nJalam k\u025b\u025b Kor\u00e4. Titi k\u025b k\u025bn
+  gaat Ith\u0254\u0254 t\u00eb\u00eb\\ndi\u00ebth k\u025b j\u025b muun K\u025byn\u025bn.\\n6
+  T\u00e4\u00e4m\u025b cu Ith\u0254\u0254 m\u00e4nk\u025b ka\u0332n k\u025b gaatk\u025b,
+  k\u025b\\nnyieek\u025b, k\u025b ji g\u0254aal\u025b diaal, k\u025b \u0264\u0254\u0332\u0254\u0332k,
+  k\u025b ley\\ndiaal t\u00eb\u00eb w\u00eb\u00eb jek muun K\u025byn\u025bn, cu\u025b
+  w\u00e4 ci\u025b\u014b\\nmuun mi na\u0332n k\u025b d\u00e4man ni J\u025byk\u0254p.
+  7 K\u025b \u0264\u00f6\u00f6\\nnyinki\u025bn cik\u025b \u014buan \u025blo\u0332\u014b
+  k\u025b \u014buan mi di\u0332i\u0332t a\\n''cik\u025b dee ro\u0332\u014b k\u025b
+  ciaa\u014b gu\u00e4th k\u025bl, mun mi\\ncik\u025b w\u00e4 thi\u0332n ''c\u025b
+  k\u025b dee ro\u0332\u014b k\u025b kui\u0332c \u0264\u0254\u0332\u0254\u0332ki\u025bn.\\n8
+  K\u00e4 cu Ith\u0254\u0254 w\u00e4 cie\u014b muun l\u00f6li k\u00e4 Thi\u0332i\u0332r.\\nIth\u0254\u0254
+  \u025b j\u025bn Id\u0254m.\\n9 K\u00e4 titi k\u025b k\u025bn kuay Ith\u0254\u0254
+  in la gua\u0332n\\nId\u0254nayt muun l\u00f6li k\u00e4 Thi\u0332i\u0332r.\\n(Page
+  138)\\n10 K\u00e4 titi k\u025b k\u025bn ci\u00f6\u00f6t gan Ith\u0254\u0254: Elipath,\\ngat
+  ci\u00ebkd\u025b ni Ad\u00e4, k\u025b R\u025byul gat Bath\u025bmath min\\nla ciek
+  Ith\u0254\u0254. 11 K\u00e4 titi k\u025b gaat Elipath:\\nT\u025byman, Omar, Dh\u025bpo,
+  Gatam k\u025bn\u025b K\u025bnath. 12\\nK\u00e4 gat Ith\u0254\u0254 ni Elipath cu\u025b
+  te k\u025b ciek mi\\nlu\u0254m mi c\u0254al i Timn\u00e4. Cu\u025b Elipath di\u00ebth
+  gat\\nmi c\u0254al i Amal\u025bk. Titi k\u025b k\u025bn gaat Ad\u00e4 min\\nla ciek
+  Ith\u0254\u0254. 13 K\u00e4 titi k\u025b k\u025bn gaat\\nR\u025byul: N\u025byhath
+  k\u025bn\u025b Dh\u025br\u00e4, C\u025bym\u00e4 k\u025bn\u025b Midh\u00e4.\\nTiti
+  k\u025b k\u025bn gaat Bath\u025bmath min la ciek Ith\u0254\u0254\\nb\u00e4. 14 K\u00e4
+  titi b\u00e4 k\u025b k\u025bn gaat O-holi-bam\u00e4\\nmin la nya Ad\u00e4 min ku
+  la gat Dhibiy\u0254n. Cu\u025b\\nIth\u0254\u0254 di\u00ebth J\u025byuc k\u025bn\u025b
+  Jalam k\u025b Kor\u00e4.\\n15 K\u00e4 titi k\u025b k\u025bn kua\u0332r gan Ith\u0254\u0254:
+  k\u025b gaat\\nElipath min la gat in k\u025b\u0332\u0308\u025b\u0332\u0308 k\u00e4
+  Ith\u0254\u0254. Titi\\nk\u025b k\u025bn kua\u0332r: T\u025byman, Omar, Dh\u025bpo,
+  K\u025bnath 16\\nkor\u00e4, Gatam a m\u00e4ni Amal\u025bk. Titi k\u025b k\u025bn
+  kua\u0332r\\nk\u00e4 Elipath muun Id\u0254m, k\u025b k\u025bn gaat Ad\u00e4. 17\\nK\u00e4
+  titi k\u025b k\u025bn gaat R\u025byul gat Ith\u0254\u0254, k\u025bn\\ncukaa kua\u0332r
+  b\u00e4: N\u025byhath, Dh\u025br\u00e4, C\u025bym\u00e4 a\\nm\u00e4ni Midh\u00e4.
+  Kua\u0332r titi k\u025b k\u025bn kua\u0332r t\u00eb\u00eb ci\\nj\u0254\u0254c k\u00e4
+  gaat R\u025byul k\u00e4 Id\u0254m. K\u025b k\u025bn gaat\\nBath\u025bmath ciek Ith\u0254\u0254.\\n(Page
+  139)\\n18 K\u00e4 titi k\u025b gaat O-holi-bam\u00e4 min la ciek\\nIth\u0254\u0254,
+  titi k\u025b k\u025bn kua\u0332r: J\u025byuc, Jalam a m\u00e4ni\\nKor\u00e4. Cu
+  k\u025bn da\u0332\u014b di\u0254\u0332k diaal a kua\u0332r b\u00e4, k\u00e4\\nk\u025bn
+  diaal gaat O-holi-bam\u00e4 min la nya An\u00e4\\nciek Ith\u0254\u0254. 19 K\u00e4
+  t\u0254 diaal t\u0254t\u0254 k\u025b k\u025bn\\ngaat Ith\u0254\u0254 min la Id\u0254m,
+  k\u00e4 t\u0254t\u0254 k\u025b k\u025bn kua\u0332r-\\nki\u025bn.\\n20 Titi k\u025b
+  k\u025bn gaat Thi\u0332i\u0332r min la raan Horayt\\ntin la ji r\u00f6\u00f6l \u025bm\u0254:
+  \u025b j\u025bn Lotan k\u025bn\u025b Copal\\nk\u025b Dhibiy\u0254n k\u025b An\u00e4
+  21 k\u025b Dic\u0254n k\u025bn\u025b Edh\u025br\\nk\u025b Dican. Titi k\u025b k\u025bn
+  kua\u0332r t\u00eb\u00eb ci j\u0254\u0254c k\u00e4\\nji Horayt, gaat Thi\u0332i\u0332r
+  muun Id\u0254m. 22 K\u00e4\\nLotan cu\u025b te k\u025b gaat da\u0332\u014b r\u025bw,
+  Hori k\u025bn\u025b\\nH\u025byman, k\u00e4 nyiman Lotan c\u0254al\u025b Timn\u00e4.
+  23 K\u00e4\\ntiti k\u025b k\u025bn gaat Copal: Alpan, Manahath,\\nEbal, C\u025bpo
+  k\u025bn\u025b Onam. 24 K\u00e4 titi k\u025b k\u025bn\\ngaat Dhibiy\u0254n: Ay\u0254n
+  k\u025bn\u025b An\u00e4. E j\u025bn An\u00e4 \u025bn\\n\u00eb\u00eb jek k\u0254\u0332a\u0332k
+  pi\u0332i\u0332ni ti l\u00ebth l\u00ebth d\u00e4\u00e4r d\u0254\u0332a\u0332a\u0332r\\ngua\u0332th
+  \u00eb\u00eb l\u00e4\u00e4k\u025b mu\u0254\u0332li gua\u0332n ni Dhibiy\u0254n thi\u0332n.\\n25
+  K\u00e4 titi k\u025b k\u025bn gaat An\u00e4: Dic\u0254n k\u025bn\u025b\\nO-holi-bam\u00e4
+  min la nya An\u00e4. 26 K\u00e4 titi k\u025b\\nk\u025bn gaat Dic\u0254n: H\u025bmdan,
+  Ecban, Ith\u025bran k\u025bn\u025b\\nC\u025bran.\\n(Page 140)\\n27 Titi b\u00e4
+  k\u025b gaat Edh\u025br: Bilhan, Dhaapan\\nk\u025b Akan. 28 Titi k\u025b gaat Dican:
+  Adh k\u025bn\u025b\\nAran. 29 Titi k\u025b k\u025bn kua\u0332r t\u00eb\u00eb ci
+  j\u0254\u0254c k\u00e4\\nji Horayt: Lotan, Copal, Dhibiy\u0254n k\u025bn\u025b An\u00e4,\\n30
+  Dic\u0254n, Edh\u025br k\u025bn\u025b Dican. K\u025b k\u025bn kua\u0332r\\nt\u00eb\u00eb
+  j\u0254c k\u00e4 ji Horayt k\u025b pek thuk dueliki\u025bn\\nmuun Thi\u0332i\u0332r.\\n31
+  K\u00e4 titi k\u025b k\u025bn kua\u0332r tin di\u0332t t\u00eb\u00eb ruack\u025b\\nmuun
+  Idcm ni m\u00eb\u00eb \u014bot\u025b ''ken ku\u00e4\u00e4r mi di\u0332i\u0332t ni\\nte
+  k\u00e4 Ith\u025br\u025bl. 32 Cu gat B\u025by\u0254r ni B\u025bl\u00e4 a\\nku\u00e4\u00e4r
+  mi ruaac Id\u0254m, k\u00e4 ci\u00f6t wecd\u025b cua j\u025b\\nc\u0254l i Din-hab\u00e4.
+  33 Cu B\u025bl\u00e4 li\u0332w, cu Jop\u025b\u0308p\\ngat wut\u00e4 mi c\u0254al
+  i Dh\u025br\u00e4 raan Bodhr\u00e4 gua\u0332a\u0332d\u025b\\ngu\u00e4l, cua ku\u00e4\u00e4r.
+  34 Cu Jop\u025b\u0308p li\u0332w, k\u00e4 cu\\nraan r\u00f6\u00f6l ji T\u025bymanayt
+  mi c\u0254al i Hucam gua\u0332a\u0332d\u025b\\nl\u025b gu\u00e4l. 35 Cu Hucam li\u0332w,
+  cu H\u025byd\u025b\u0308t gat\\nB\u025byd\u025b\u0308t \u00eb\u00eb joc ji Mi-di\u025bn-ayt
+  d\u0254\u0254r k\u00e4 Moap\\ngua\u0332a\u0332th ku\u00e4\u00e4r\u00e4d\u025b gu\u00e4l.
+  Cuaa ci\u00f6t wecd\u025b min\\nci\u025b\u014b\u025b c\u0254l i Abith. 36 Cu h\u025byd\u025b\u0308t
+  li\u0332w, k\u00e4 cu\\nCaml\u00e4 raan Mac\u025br\u025bk\u00e4 gua\u0332a\u0332d\u025b
+  gu\u00e4l. 37 Cu Caml\u00e4\\nli\u0332w, cu raan R\u025byhoboth mi c\u0254al i Cawl
+  wi\u0332c\\nyi\u00eb\u00ebr mi c\u0254al i Yu-p\u025br\u025by-tith gua\u0332a\u0332d\u025b
+  gu\u00e4l.\\n(Page 141)\\n38 K\u00e4 cu Cawl li\u0332w, cu B\u025b\u025bl-hanan
+  gat Akbor\\ngua\u0332a\u0332d\u025b gu\u00e4l. 39 Cu gat Akbor ni B\u025b\u025bl-hanan\\nli\u0332w,
+  cu H\u025bydar gua\u0332a\u0332d\u025b gu\u00e4l, cu\u0254 ci\u00f6t wecd\u025b\\nc\u0254l
+  i Paw, k\u00e4 c\u0254al ciekd\u025b i M\u025b-h\u025bt-ab\u025bl nya\\nMat\u025br\u025bt
+  min la nya M\u025bdhahap.\\n40 Titi k\u025b k\u025bn ci\u00f6\u00f6t kua\u0332ri
+  gan Ith\u0254\u0254 k\u025b pek\\ng\u0254aliki\u025bn k\u025bn\u025b gua\u0332th
+  tin cie\u014bk\u025b thi\u0332n k\u025b\\nci\u00f6\u00f6tki\u025bn: Thim\u00e4,
+  Alpan k\u025b J\u025bth\u025bth, 41\\nO-holi-bam\u00e4, El\u00e4, Pin\u0254n, 42
+  K\u025bnath, T\u025byman\\nk\u025bn\u025b Mip-dhar, 43 k\u025b Makdi\u025bl k\u025bn\u025b
+  Iram..\\nTiti k\u025b k\u025bn kua\u0332r Id\u0254m min la Ith\u0254\u0254 gua\u0332n
+  Id\u0254m.\\nN\u025by t\u0254 k\u025b gua\u0332a\u0332di\u025bn mi cie\u014bk\u025b
+  thi\u0332n r\u025by mu\u0254\u0332\u0254\u0332n\\nmi la du\u014bdi\u025bn.\\n(Page
+  142)\"", "\"Cio\u0332o\u0332k 16\\n1 K\u00e4 ciek Abram ni Th\u025byray thil\u025b
+  j\u025b gaat\\nti c\u025b dieth. T\u00eb\u00eb k\u025b nya la\u0332t mi la nya ji\\nIjipt
+  mi c\u0254al ci\u00f6td\u025b i H\u025bygar. 2 Cu\\nTh\u025byray Abram ji\u00f6k,
+  \\\"Li\u014b \u025b, t\u00e4\u00e4m\u025b Jaopa c\u025b\\n\u0264\u00e4 p\u00ebn
+  dieth gan, w\u00ebr k\u00e4 dnya la\u0332td\u00e4, d\u0254\u0332\u0254\u0332 b\u00e4\\ngat
+  jek k\u025b j\u025b.\\\" Ci Abram j\u0254w Th\u025byray li\u014b.\\n3 Kuaa m\u00eb\u00eb
+  c\u025b ku cie\u014b muun K\u025byn\u025bn k\u025b run\\nw\u00e4l cu Th\u025byray,
+  ciek Abram, nya la\u0332td\u025b ni H\u025bygar\\nka\u0332n, nya ji Ijipt, cu\u025b
+  j\u025b ka\u0332m c\u0254wd\u025b ni Abram\\na la ciekd\u025b. 4 K\u00e4 cu\u025b
+  ni\u025b\u025bn k\u025b\u025b H\u025bygar,\\ncu\u025b ru\u00ebt. M\u00eb\u00eb c\u025b
+  j\u025b \u014ba\u0332c i ruet\u025b, cu l\u0254cd\u025b\\nthi\u0254\u0332\u0254\u0332l
+  k\u025b ku\u00e4\u00e4r\u025b ni Th\u025byray.\\n(Page 49)\\n5 Cu Th\u025byray Abram
+  ji\u00f6k, \\\"Bi mi ji\u00e4\u00e4k mi caa\\nl\u00e4t k\u00e4 \u0264\u00e4 a wi\u0332cdu.
+  C\u00e4 nya la\u0332td\u00e4 ku\u00eb\u014b baapdu,\\nk\u00e4 m\u00eb\u00eb c\u025b\u025b
+  \u014ba\u0332c i ruet\u025b cu l\u0254cd\u025b thi\u0254\u0332\u0254\u0332l k\u025b\\n\u0264\u00e4.
+  Bi Jaopa k\u025bmdan luk k\u0254n ji.\\\" 6 K\u00e4 cu\\nAbram Th\u025byray ji\u00f6k,
+  \\\"N\u025bn \u025b, nya la\u0332tdu t\u00eb\u00eb\\ntet\u00e4du, l\u00e4tni j\u025b
+  k\u00e4 mi go\u0332o\u0332ri.\\\" K\u00e4 cu\\nTh\u025byray j\u025b coo ci\u025b\u014b
+  a bum, k\u00e4 cu\u025b r\u0254 kual.\\n7 Cu j\u00e4\u00e4k Jaopa j\u025b jek gek\u00e4
+  pu\u0254\u0332\u0254l mi te\\ngek\u00e4 du\u0254\u0332p mi w\u00e4 k\u00e4 Cur.
+  8 Cu\u025b wee, \\\"H\u025bygar,\\nji\u0332n nya la\u0332t Th\u025byray, bii winith?
+  K\u00e4 wii ni\\nk\u00e4?\\\" Cu\u025b wee, ''\u0194\u00e4n kual\u00e4ni r\u0254\u0254d\u00e4
+  k\u025b ku\u00e4\u00e4r\u00e4\\nni Th\u025byray.\\\" 9 K\u00e4 cu j\u00e4\u00e4k
+  Jaopa j\u025b ji\u00f6k,\\n\\\"Locni k\u00e4 ku\u00e4\u00e4ru, k\u00e4mni j\u025b
+  l\u0254cdu.\\\" 10 Cu\\nj\u00e4\u00e4k Jaopa j\u025b l\u025b ni ji\u00f6k b\u00e4,
+  \\\"\u0194\u00e4n b\u00e4 kuayku\\njak k\u00e4 \u014buan a ''caa k\u025b bi lu\u00e4\u014b
+  k\u025b ku\u00ebn k\u025b \u0264\u00f6\u00f6\\nbik\u025b \u014buan \u025blo\u0332\u014b.\\\"
+  11 K\u00e4 cu j\u00e4\u00e4k Jaopa j\u025b\\nji\u00f6k, \\\"N\u025bn \u025b, gat
+  a jiidu bi dap k\u025b gat mi\\ndho\u0332o\u0332l, k\u00e4 bi ci\u00f6td\u025b c\u0254l
+  i Icm\u025by\u025bl k\u025b \u0264\u00f6\u00f6 ci\\nJaopa b\u025bc b\u025bcdu ka\u0332m
+  tiit. 12 B\u025b cet k\u025b\u025b\\nmuul d\u0254aar r\u025by nath k\u00e4 n\u025by
+  diaal bik\u025b g\u025b\u025bm\\nk\u025b j\u025b, k\u00e4 j\u025bn b\u025b g\u025b\u025bm
+  k\u025b n\u025by diaal, m\u00e4ni\\nwatk\u025b c\u025b bi cie\u014b k\u025b\u025bl
+  k\u025b k\u025b.\\n(Page 50)\\n13 Cu\u025b ci\u00f6t Jaopa mi ci ruac k\u025b j\u025b
+  coo\\nc\u0254l, i E ji\u0332n Kuoth mi neen, k\u00e4 c\u025b\u025b lar,\\n\\\"C\u00e4
+  Kuoth n\u025bn \u025b thu\u0254\u0332k?\\\" k\u00e4 d\u00eb\u00eb l\u025b \u014bot
+  k\u025b\\nt\u00ebk mi c\u00e4 J\u025b n\u025bn?\\\" 14 K\u025b kui\u0332c \u025bm\u0254
+  cuaa\\n(unclear) jiw \u025bm\u0254 c\u0254l i Bi-ri-la-hay-r\u0254y. T\u00eb\u00eb
+  kam\\nK\u025byd\u025bc k\u025bn\u025b\u025b B\u025br\u025bt.\\n15 K\u00e4 cu H\u025bygar
+  Abram di\u00ebth gat mi dho\u0332o\u0332l,\\ncu Abram gatd\u025b m\u0254 dieeth\u025b
+  k\u025b\u025b H\u025bygar \u0254 c\u0254l\\ni Icm\u025by\u025bl. 16 Abram runk\u025b
+  j\u025bn b\u00e4d\u00e4k wi\u0332cd\u025b\\nb\u00e4k\u025bl m\u00eb\u00eb dap H\u025bygar
+  k\u025b gat \u00eb\u00eb dieeth\u025b k\u025b\u025b\\nAbram ni Icm\u025by\u025bl.\"",
+  "\"L\u00e4t Victoria \u0263\u0254n d\u00e4r\\nL\u00e4t Victoria k\u00e4 \u0263\u0254n
+  d\u00e4r lud\u025b r\u0254 k\u025b n\u025by tin \u025b la n\u025by ti ci r\u0254
+  rial I k\u00e4 k\u025b \u0263\u00f6\u00f6 bi k\u025b l\u00e4t k\u025b n\u025by tin
+  bi k\u025b muoc k\u025b l\u00e4\u00e4t k\u025bn\u025b n\u025by tin ci r\u0254 rial
+  I k\u00e4 k\u025b l\u00e4t.\\nBi n\u025by l\u00e4t k\u025b ji k\u025bl k\u00e4 bak\u0254
+  ji lu\u00e4k k\u025b \u0263\u00f6\u00f6 bi min gori \u025bn \u0263\u00f6\u00f6 bi
+  l\u00e4t \u014b\u00e4c k\u00e4 bak\u0254 ji lu\u00e4k k\u025b gor n\u025bni ti \u014b\u00e4c
+  l\u00e4t k\u00e4 ti ci j\u00e4ny l\u00e4t k\u00e4 j\u025bn gu\u00e4th \u025bn gor
+  Victoria k\u025b l\u00e4t thin.\\nK\u00e4 l\u00e4t \u025b e di?\\nG\u0254r ni r\u0254
+  du piny k\u025b \u0263\u00f6\u00f6 bi l\u00e4\u00e4t bi k\u025b ja k\u00e4 \u014b\u00e4c
+  k\u00e4 k\u025b k\u00e4 n\u025by tin r\u0254\u014b k\u025b l\u00e4t k\u00e4 \u0263on
+  d\u00e4r l\u00e4\u00e4t k\u025b k\u025bn t\u0254t\u0254:\\n- k\u025b \u014bu\u0254t
+  bi k\u025bn \u025b p\u00e4th d\u00e4\u014b ti\u0254k, du\u014b d\u025b \u0263\u00f6\u00f6
+  k\u025b tha\u014b gu\u00e4\u00e4thni b\u0254 d\u00e4ra gu\u00e4th mi t\u0254t.\\n-
+  ba ji k\u00e4m yow k\u025b p\u00e4k \u025b t\u00e4 k\u00e4 mukt\u00e4p, ki\u025b
+  k\u025b p\u00e4k \u025b t\u00e4 k\u00e4 warga , ki\u025b k\u025b p\u00e4k \u025bn
+  dit ni j\u025bn.\\nk\u025b j\u025bn \u0263\u0254n d\u00e4r deri t\u0254t\u0254 ni
+  l\u00e4t:\\n- deri l\u00e4\u00e4t l\u00e4th \u0263\u0254n lany\\n- deri n\u025by
+  tin r\u0254\u014b k\u025b \u0263\u00f6\u00f6 bi k\u025b l\u00e4t k\u025bn\u025b
+  n\u025by tim ci r\u0254\u014b k\u025b lat d\u00e4k.\\n- kuany k\u025b k\u00e4 n\u025by
+  dial tin ci warga ni ki\u025bn l\u00e4th r\u025bc.\\nK\u00e4 de kul\u025b t\u0254k
+  \u0263i di?\\nThu\u00f6k r\u0254 k\u025b g\u0254r piny k\u00e4 warga \u025bn g\u0254r
+  n\u025by dial r\u0254 piny thin \u2013 g\u0254r ni c\u00f6du piny ki\u025b nimr\u0254
+  \u025bn ba j\u00e4k ni ji k\u025b min gori bi l\u00e4t.\\nk\u00e4 mi ci r\u0254
+  thu\u00f6k k\u025b g\u0254r piny bi t\u0254t\u0254 ni t\u0254k:\\n- bi n\u025by
+  ji c\u0254l k\u00e4 ban\u025b b\u00e4n ruac k\u025b kuic ba\u014bni tin te thin
+  k\u00e4 b\u00e4k\u0254 ji lu\u00e4k k\u025b lep b\u0254k \u025bn bi tuaw thin.\\n-
+  lep ni r\u0254 min bi lat k\u025b thur\u025b k\u00e4 min k\u00e4 jak ni j\u025b
+  k\u00e4 \u0263\u00f6\u00f6 bi k\u025b, k\u025bn\u025b w\u025bpcite du\\n- k\u00e4
+  bi ku tu\u0254k ni \u0263\u00f6\u00f6 leth i l\u00e4t k\u00e4 d\u00e4r.\\nDeri lu\u00e4k
+  g\u0254r k\u00e4 l\u00e4\u00e4 ni \u014buak ni l\u00e4t ?\\nLu\u00e4k k\u025b l\u00e4th
+  ni \u014buak ni l\u00e4\u00e4t k\u00e4 \u0263\u0254n d\u00e4r kua j\u025b \u014bu\u00f6n
+  \u025b Sidekicker: support@sidekicker.com.au ki\u025b yuat 1800 882 694.\\nT\u00e4
+  lu\u00e4k ti k\u0254 ki\u025bn thin b\u0254 k\u00e4 ti ja g\u0254r k\u025b kuic
+  n\u025bni tin tuok ni lat, d\u00e4 k\u025bn ji lu\u00e4k k\u025b \u0263\u00f6\u00f6
+  deri lat l\u00e4th k\u00e4 \u0263\u0254n lany e di k\u025bn\u025b t\u00e4\u0263\u00e4
+  \u025bn deri ba\u014b k\u025b kuic l\u00e4t ni.\\nK\u00e4 t\u00e4 lu\u00e4\u00e4k
+  ti k\u0254 kiwn thin?\\nMin d\u0254\u014b di\u025bn \u025bn \u025b k\u025bn\u025b
+  l\u00e4t tin t\u00e4 k\u00e4 \u0263\u0254n d\u00e4r, l\u00e4t Victoria k\u00e4m
+  k\u025bn l\u00e4\u00e4t dial jak\u025bn k\u025b k\u00e4 r\u00f6m k\u025bn\u025b
+  n\u025by tin th\u00f6p l\u00e4t.\\nL\u00e4t Victoria (JVEN) \u025b du\u014b d\u025b
+  min l\u00e4t d\u025b \u025bl\u0254\u014b k\u00e4 kum\u025b min lu\u00e4k n\u025by
+  tin ci l\u00e4t mala j\u00e4k. La k\u00e4m k\u025b k\u025bk\u025b \u025b n\u025by
+  tin \u014b\u00e4c th\u00f6p ni l\u00e4t ni. Tin l\u00e4t k\u025bl k\u025b n\u025by
+  tin ku naath muoc l\u00e4\u00e4t k\u00e4 tin ku ba\u014b l\u00e4t ni th\u00f6p k\u00e4
+  jak k\u025bn n\u025by tin gor k\u00e4 \u0263\u00f6\u00f6 bi k\u025b r\u0254 riali
+  k\u00e4 k\u025b kuic l\u00e4t ni t\u0254t\u0254.\\nL\u00e4t Victoria k\u025bn\u025b
+  n\u025by tin l\u00e4t k\u025b k\u0254 k\u025bl bi k\u025b ji lu\u00e4k k\u025b gor
+  lat a thi\u025bl mi bi yu\u0254r piny bi n\u025by:\\n- bak\u0254 l\u00e4t k\u025b
+  ji k\u025bl k\u025b \u0263\u00f6\u00f6 bi l\u00e4t \u014b\u00e4c k\u025bn\u025b
+  min bi mi wiw\u00e4 jany l\u00e4t\\n- k\u00e4 mi n\u025by tin r\u0254\u014b k\u025b
+  \u0263\u00f6\u00f6 bi lat \u025bm\u025b lut \u014b\u00e4c\\n- bi n\u025by tin gor
+  lat lu\u00e4k k\u025b rial i di\u025bn k\u025b r\u0254 k\u00e4 b\u025b t\u0254t\u0254
+  mat \u014bic ni k\u025b \u014b\u00e4c lat, rep \u014b\u00e4c di\u025bn k\u025b lat
+  k\u025bn\u025b \u014b\u00e4c ni di\u025bn k\u025b tin dial tin gor k\u025bn k\u025b.\\nK\u00e4
+  bi naath dial tin pay lat j\u00e4k ni\u025b min ci k\u025b lat j\u00e4k, k\u025b
+  \u0263\u00f6\u00f6 bi k\u025bn kul\u025b t\u00e4k\u025b \u014b\u00e4c k\u025b gu\u00e4th
+  lat.\\nGor n\u025by mi gori \u014b\u00e4c k\u00e4 ti \u014buan k\u025bn\u025b kuic
+  \u025bn d\u00e4 n\u025by \u025b lu\u00e4k ji k\u025b kuic lat du.\\nK\u00e4 deri
+  lat j\u00e4k b\u0254 k\u00e4 gor l\u00e4t ni Victoriar tin l\u00e4t gu\u00e4th \u025bn
+  cie\u014b e thina.\"", "\"Collected and written by Michael Thilyang Gatkek With
+  special thanks to Fr Christian Carlassare and pastoral team of Holy Trinity Parish
+  (Old Fangak) (for English translation see their great book: Nuer Folktales, Proverbs
+  and Riddles)\\nM\u00eb\u00ebdan t\u025b k\u025b gat mi c\u0254ali Gai Nyal\u0254r\u00e4.
+  Cie\u014b\u025b k\u025b\u025bl k\u025bn\u025b mand\u0254\u014bd\u025b. Gai c\u025b
+  pith a g\u0254aa. \u0190\\ndh\u0254l mi p\u025bl p\u025bl \u025bl\u0254\u0320\u014b.
+  K\u00e4 \u014b\u00e4c\u025b \u014b\u0254akni diaal. Nh\u0254k\u025b \u0263\u00f6\u00f6
+  b\u025b naath la\u0320t ruacni d\u0254ali. K\u00e4 Gai t\u025b k\u025b\\nk\u025bl
+  mi ji\u00e4k k\u00e4 j\u025b: lo\u0320k\u025b la\u0320t. K\u025b c\u00e4\u014b k\u025bl
+  cu mand\u0254\u014bd\u025b k\u0254a\u014b bim. K\u00e4 Gai nh\u0254k\u025b k\u0254a\u014b.
+  Min t\u025b\\nmu\u0254\u014b\u00e4 cu mand\u0254\u014bd\u025b j\u025b ji\u00f6k
+  i, gat nyaad\u00e4, bi \u0263\u00e4 na\u014b thok yieer ban pi w\u00e4 n\u00f6\u00f6\u014b.
+  Cu Gai \u025b\\nlo\u0320k. \u0220\u00e4c\u025b ni \u0263\u00f6\u00f6 ba k\u0254a\u014b
+  math j\u0254wd\u025b mi w\u025b w\u00e4 thok yieer. Cu\u025b \u014bot lat\u025b
+  ni ruacni d\u0254ali. M\u00eb\u00eb\\nci mand\u0254\u014bd\u025b cuuc k\u025b liepd\u025b,
+  cu\u025b dh\u0254l mi d\u0254di\u025bn ji\u00f6k i, gatd\u00e4 na\u014bni \u0263\u00e4
+  yieer. Cuk\u025b w\u00e4 yieer\\nk\u025b\u025bl. Cu mand\u0254\u014b l\u0254cd\u025b
+  t\u025b\u025bth \u025bl\u0254\u0320\u014b k\u025b j\u025b. M\u00eb\u00eb cik\u025b
+  luny j\u0254k cu\u025b dh\u0254l \u025bm\u0254 moc k\u0254a\u014b. Cu dh\u0254l\\nk\u0254a\u014bd\u025b
+  math. K\u00e4 Gai t\u025b l\u0254r\u00e4 a thil k\u0254a\u014b. Cu\u025b liep \u014b\u00e4c\u025b
+  ni \u0263\u00f6\u00f6 ba moc k\u0254a\u014b. Min ci Gai \u025b n\u025bn\\n\u025bn
+  \u0263\u00f6\u00f6 ci naath diaal math k\u025b k\u0254a\u014b k\u00e4 t\u025b l\u0254r\u00e4
+  cu\u025b wee i, \u0263\u0254\u0320\u0254\u0320n \u025bn pual thar leeny\u025b p\u025b\u0308l
+  thu\u0254k.\\nCa \u0263\u00e4 leny \u025b dh\u0254l \u025bm\u025b k\u025b \u0263\u00f6\u00f6
+  ci thar\u025b pual. P\u025b\u0308l thu\u0254kd\u00e4 \u025b l\u0254ar. \u0190 j\u025bn
+  laa naath a wee i pual\\nthar leny\u025b p\u025bl thok.\"", "\"Collected and written
+  by Michael Thilyang Gatkek With special thanks to Fr Christian Carlassare and pastoral
+  team of Holy Trinity Parish (Old Fangak) (for English translation see their great
+  book: Nuer Folktales, Proverbs and Riddles)\\nK\u025b run tee ci w\u00e4 guak k\u025bn\u025b
+  nyigol te k\u025b cie\u014bdi\u025bn. Ni cia\u014b la w\u00e4 k\u025b may k\u025b
+  r\u025bc, mi cik\u025b r\u025bc n\u00e4k bi guak k\u025b thal. B\u025b r\u025bc
+  ti g\u0254w moc \u014b\u025b\u0308th, b\u025b ti ji\u00e4k moc thiir. Mi ci nyigol
+  ben b\u025b ji\u00f6k i bi cam ni ti g\u0254w ki\u025b bi cam ni ti ji\u00e4k? Bi
+  nyigol wee i ba cam ni ti g\u0254w. Bik\u025b mith. Cuk\u025b tee thin k\u025b gua\u0320a\u0320th
+  mi b\u00e4\u00e4r \u025bl\u0254\u0320\u014b, k\u00e4 \u014bot\u025b /ca j\u025b
+  \u014b\u00e4c \u025b nyigol. K\u025b c\u00e4\u014b k\u025bl cu nya\u014blew ben
+  ci\u025b\u014b k\u025b\u025bl k\u025b k\u025b. K\u00e4 nya\u014blew \u014b\u00e4c\u025b
+  p\u025b\u0308l in te k\u025b guak. M\u00eb\u00eb cik\u025b w\u00e4 may cuk\u025b
+  r\u025bcki\u025bn n\u00f6\u00f6\u014b, cu guak r\u025bcki\u025bn thal. Cu\u025b
+  j\u025b la\u0320t cetk\u025b ta\u0320a\u0320 ee la l\u00e4t\u025b k\u00e4 nyigol,
+  cu\u025b r\u025bc tin g\u0254w moc \u014b\u025b\u0308th k\u00e4 cu\u025b r\u025bc
+  tin ji\u00e4k moc thiir. M\u00eb\u00eb ci nya\u014blew ben, cu\u025b j\u025b ji\u00f6k
+  i bi cam ni r\u025bc ti g\u0254w \u025b ti, ki\u025b bi cam ni r\u025bc ti ji\u00e4k
+  \u025b ti? Cu nya\u014blew wee i b\u00e4 cam ni r\u025bc ti ji\u00e4k ti. Cu guak
+  \u025b mir i ca p\u025bl\u00e4 \u014ba\u0320c \u025b nya\u014blew. Cu\u025b tok
+  d\u0254l, cu\u025b wee i \u025b lew \u025b lew, \u0263\u0254\u0320\u0254\u0320 kuan
+  mith. Cuk\u025b mith. K\u025b c\u00e4\u014b in d\u0254di\u025bn, cu\u025b r\u025bc
+  thal k\u00e4 cu\u025b tha\u0320\u014bki\u025bn w\u00e4 t\u0254\u0320w thar thu\u0254\u0320y,
+  k\u00e4 kuic\u025b j\u025b i tee nya\u014blew \u025bn wan\u0254. Cu\u025b luoc c\u00e4\u014b,
+  cu\u025b r\u025bc tin k\u0254ki\u025bn w\u00e4 thal, k\u00e4 l\u00e4t\u025b k\u025b
+  cetk\u025b ta\u0320a\u0320 in cia\u014b. Cu nya\u014blew r\u025bc cam k\u025bn diaal.
+  K\u025b k\u0254r\u025b cu\u025b ben, cuk\u025b ben mi\u0320th k\u025bn\u025b guak.
+  K\u025b k\u0254r\u025b cuk\u025b w\u00e4 \u014bar r\u025by kueer k\u025b walee,
+  walee \u025b jiath mi ca la\u0320t mi la dua\u0320c k\u025b k\u025b\u025bt, mi ci
+  guak walee y\u0254\u0320t, b\u025b wee i tee tut k\u025b ma\u014b\u00e4dh, bi nya\u014blew
+  \u025b loc i ma\u014b\u00e4dh ee ci ria\u0320r. B\u025b li\u014b ni ruac \u025bm\u0254
+  b\u025b wak, bi nya\u014blew \u025b thiec i \u025b \u014bu? B\u025b wee i tiim\u00e4
+  ni cie\u014b maari tee ci liw. Bi nya\u014blew \u025b ji\u00f6k i /ci lo\u0320k
+  ni \u0263\u00f6\u00f6 c\u00e4 p\u025blu \u014ba\u0320c? Cu\u025b wee i \u025b lew
+  \u025b lew gat nyimaar g\u0254a ni p\u025bl. Min c\u025b \u014ba\u0320c in\u0254
+  \u025bn guak, cu l\u0254cd\u025b t\u025b\u025bth k\u025b nya\u014blew. K\u00e4 /ken
+  \u025b ca\u0320p l\u025b ny\u0254k k\u025b l\u00e4tni, k\u025b \u0263\u00f6\u00f6
+  ca p\u025b\u0308l\u025b \u014ba\u0320c \u025b guak.\"", "\"Tu\u0254k C\u00e4k\u00e4
+  \u0194\u0254aa\\nCio\u0332o\u0332k 1\\n1 Ni tok\u00e4d\u025b Kuoth c\u025b nhial
+  k\u025bn\u025b piny cak.\\n2 \u0194\u0254w thil\u025b j\u025b piny. Wi\u0332c pi\u0332i\u0332ni
+  \u025b day, te\\nni muth thi\u0332n, k\u00e4 Yi\u00eb\u00eb Ku\u0254th in r\u025bl
+  r\u0254 t\u00eb\u00eb\\nju\u00e4\u00e4t ju\u00e4\u00e4t wi\u0332c pi\u0332i\u0332ni.\\n3
+  Cu Kuoth wee, \\\"A buay te wan\u0254.\\\" Cu\u025b cuaa\\nbuay. 4 Cu Kuoth buay
+  n\u025bn, c\u025b g\u0254aa. Cu\u025b\\nbuay k\u025bn\u025b muth da\u0332a\u0332k.
+  5 Cu Ku\u0254th buay c\u0254l i\\nC\u00e4\u014b D\u00e4\u00e4r, k\u00e4 cu\u025b
+  muth c\u0254l i W\u00e4\u00e4r. Cu\u025b te k\u025b\\nthia\u014b k\u025bn\u025b
+  runwa\u014b, k\u025b c\u00e4\u014b in jio\u0332l.\\n6 K\u00e4 cu Kuoth wee, \\\"A
+  pi baa kamki\u025bn guay.\\nA pi bi kamki\u025bn te k\u025b d\u00e4\u00e4k.\\\"
+  7 Kuoth cu\u025b\\nkam \u025bm\u0254 guay. Cu\u025b kam pi\u0332i\u0332ni pi\u025bny
+  da\u0332a\u0332k k\u025bn\u025b\\npi nhial, k\u00e4 cu\u025b cuaa j\u025bn. 8 Cu
+  Kuoth kam\\nnhial c\u0254l i Nhial. Cu\u025b te k\u025b thia\u014b k\u025bn\u025b\\nrunwa\u014b,
+  k\u025b c\u00e4\u014b in r\u025bwd\u025b.\\n9 K\u00e4 cu Kuoth wee, \\\"A pi ti
+  te piny baa ma\u0332a\u0332t\\ngu\u00e4th k\u025bl\\\", k\u00e4 cu\u025b cuaa jen.
+  10 Cu Kuoth\\nmun mi k\u00f6\u00f6t c\u0254l i Piny, k\u00e4 cu\u025b pi ti caa\\nma\u0332a\u0332t
+  c\u0254l i Bapdiitni. Cu Kuoth \u025b n\u025bn, c\u025b\\ng\u0254aa.\\n(Page 1)\\n11
+  K\u00e4 cu Kuoth \u025b lar, \\\"A piny ku do\u0332ny k\u025b\\njuaac ti camk\u025b,
+  ke wal ti \u014bu\u0254l k\u025b d\u025by, k\u025b\\nji\u025bn ti kui\u0332r k\u025b
+  kuay ti te k\u025b d\u025by g\u00f6\u00f6li.\\\"\\n12 Cu piny coo do\u0332ny k\u025b\u025b
+  juaac k\u025bn\u025b wal ti\\ncamk\u025b, k\u00e4 kui\u0332rk\u025b k\u025b kuayki\u025bn
+  g\u00f6\u00f6li. M\u00e4ni\\nji\u025bn b\u00e4 ti te k\u025b d\u025by g\u00f6\u00f6li
+  cuk\u025b kuer, k\u00e4\\nKuoth cu\u025b n\u0254m\u0254 n\u025bn, c\u025b g\u0254aa.
+  13 Cu\u025b coo te\\nk\u025b thia\u014b k\u025bn\u025b runwa\u014b ke c\u00e4\u014b
+  in di\u0254\u0332\u0254\u0332di\u025bn.\\n14 K\u00e4 cu Kuoth wee, \\\"A nhial te
+  k\u025b m\u00e4c k\u025b\\n\u0264\u00f6\u00f6 bik\u025b c\u00e4\u014b da\u0332a\u0332k
+  k\u025bn\u025b w\u00e4\u00e4r, bikaa nyuuthni.\\nBik\u025b ni\u0332n a nyu\u0254thk\u025b
+  k\u025b run, k\u025b m\u00e4y, k\u025bn\u025b\\nt\u0254\u0332t, k\u025b ruel k\u025bn
+  ji\u0254m. 15 Bikaa buay nhial\\nk\u025b \u0264\u00f6\u00f6 bik\u025b piny riaw.\\\"
+  Cu\u025b cuaa j\u025bn. 16\\nCu Kuoth m\u00e4c r\u025bw ti di\u0332t ti te k\u025b
+  buay la\u0332t.\\nCu\u025b min di\u0332t ni buayd\u025b la\u0332t k\u025b \u0264\u00f6\u00f6
+  b\u025b c\u00e4n d\u00e4\u00e4r\\nyien, k\u00e4 cu\u025b min kuiy ni buayd\u025b
+  la\u0332t ke \u0264\u00f6\u00f6\\nb\u025b w\u00e4\u00e4r yien. Cu\u025b ku\u025bl
+  jak k\u00e4 te wan\u0254 b\u00e4.\\n17 Cu Kuoth M\u00e4c da\u0332\u014b r\u025bw
+  t\u0254t\u0254 k\u025bn\u025b ku\u025bl la\u0332t\\nnhial k\u025b \u0264\u00f6\u00f6
+  bi piny te k\u025b buay, 18 k\u025b \u0264\u00f6\u00f6\\nbik\u025b c\u00e4n k\u025bn\u025b
+  w\u00e4\u00e4r yien, m\u00e4ni \u0264\u00f6\u00f6 bik\u025b buay\\nk\u025bn\u025b
+  muth da\u0332a\u0332k. Cu Kuoth \u025b n\u025bn, c\u025b g\u0254aa.\\n(Page 2)\\n19
+  Cu\u025b coo te k\u025b thia\u014b k\u025bn\u025b runwa\u014b, k\u025b c\u00e4\u014b\\nin
+  \u014buaandi\u025bn.\\n20 K\u00e4 cu Kuoth wee, \\\"A ley ti bi cie\u014b r\u025by\\npi\u0332i\u0332ni
+  te wan\u0254, a k\u025b matk\u025b ro thi\u0332n, k\u00e4\u0308 a \u0264\u0254w\\nbi
+  te k\u025b diit ti ri\u014b nhial.\\\" 21 Cu\u025b cuaa\\nj\u025bn \u025bn\u0254.
+  Kuoth cu\u025b ley bapdiit ti di\u0332t cak,\\na m\u00e4ni \u014b\u0254ak k\u0254ki\u025bn
+  ti t\u00ebk ti j\u00e4l r\u025by pi\u0332i\u0332ni,\\ncu\u025b k\u025b jak k\u00e4
+  di\u00ebthk\u025b ro k\u025b c\u00e4tki\u025bn g\u00f6\u00f6li.\\nM\u00e4ni diit
+  nhial cu\u025b k\u025b jak k\u00e4 di\u00ebthk\u025b ro k\u025b\\nc\u00e4tki\u025bn
+  g\u00f6\u00f6li. Cu Kuoth \u025b n\u025bn, c\u025b g\u0254aa. 22\\nCu Kuoth k\u025b
+  poth, cu\u025b wee, \\\"Y\u025bn di\u00ebth\u025b ro,\\nbaa \u014buan, baa b\u00e4pdiitni
+  thi\u00e4\u014b \u025b d\u025bykun a\\nm\u00e4ni diit nhial b\u00e4. A k\u025b di\u00ebthk\u025b
+  ro wi\u0332c\\nmu\u0254\u0332\u0254\u0332n.\\\" 23 Cu\u025b coo te k\u025b thia\u014b
+  k\u025bn\u025b runwa\u014b,\\nk\u025b c\u00e4\u014b in dhieecdi\u025bn.\\n24 K\u00e4
+  cu Kuoth wee, \\\"A wi\u0332c mu\u0254\u0332\u0254\u0332n te k\u025b ley\\nti baa
+  ro dieth ti te k\u025b dieth g\u00f6\u00f6li. \u0194\u0254\u0332k,\\nk\u025b ley
+  tin laa mol piny, k\u025b ley k\u0254ki\u025bn\\ng\u00f6\u00f6li wi\u0332c mu\u0254\u0332\u0254\u0332n
+  ke c\u00e4tdi\u025bn.\\\" Cu\u025b cuaa jen.\\n25 Cu Kuoth ley diaal cak k\u025b
+  c\u00e4tdi\u025bn g\u00f6\u00f6li\\nwi\u0332c mu\u0254\u0332\u0254\u0332n. Cu\u025b
+  \u0264\u0254\u0332k cak k\u025b c\u00e4tdi\u025bn, k\u00e4 cu\u025b\\n\u014b\u0254ak
+  tin laa mol piny cak k\u025b c\u00e4tdien g\u00f6\u00f6li.\\n(Page 3)\\nCu Kuoth
+  \u025b n\u025bn, c\u025b g\u0254aa.\\n26 K\u00e4 cu Kuoth wee, \\\"Kuan\u025b raan
+  cak k\u025b\\nc\u00e4tdan, ban\u025b j\u025b cal k\u025b c\u00e4tdan, k\u00e4 j\u025bn
+  b\u025b\\n\u014b\u0254ak diaal ti cie\u014b wi\u0332c mu\u0254\u0332\u0254\u0332n
+  yien. R\u025bc\\nyi\u00eb\u00ebr, diit nhial, \u0264\u0254\u0332k, mu\u0254\u0254l
+  pi\u025bny a m\u00e4ni\\npiny k\u025b\u025bliw b\u025b\u025b yien.\\\" 27 Cu Kuoth
+  raan\\ncak k\u025b c\u00e4td\u025b pa\u0332ny. C\u00e4t Ku\u0254th cu Kuoth raan\\ncak
+  ni k\u025b j\u025b. Cu\u025b tuut cak k\u025bn\u025b \u014bu\u0254\u0332\u0254\u0332t.
+  28\\nCu Kuoth k\u025b poth, cu\u025b k\u025b ji\u00f6k, cu\u025b wee, \\\"Y\u025bn\\ndi\u00ebth\u025b
+  ro baa \u014buan, bia piny thi\u00e4\u014b, bi y\u025bn\\npiny yien, biaa kua\u0332r
+  pi\u025bny. Bi y\u025bn r\u025bc ni\\nyien r\u025by yi\u00ebri, a m\u00e4ni diit
+  nhial, k\u025b ley\\ndiaal ti t\u00ebk ti j\u00e4l wi\u0332c mu\u0254\u0332\u0254\u0332n.\\\"
+  29 K\u00e4 cu\\nKuoth wee, \\\"Y\u025bn li\u025b\u014b\u025b j\u025b, \u0264\u00e4n
+  c\u00e4 y\u025b ka\u0332m \u014b\u0254ak\\ndiaal ti do\u0332ny piny ti laa kui\u0332r
+  k\u025b d\u025by w\u00ef\u0332c\\nmu\u0254\u0332\u0254\u0332n k\u025b\u025bliw.
+  A m\u00e4ni ji\u025bn diaal ti di\u00ebth k\u025b\\nd\u025by ti ck \u0264\u00e4n
+  k\u025b cak, c\u00e4 k\u025b ka\u0332m y\u025b a la\\nmi\u0332thkun. 30 A m\u00e4ni
+  ley diaal ti t\u00ebk ti cie\u014b\\nwi\u0332c mu\u0254\u0332\u0254\u0332n, m\u00e4ni
+  diit nhial diaal, k\u025b\u025b mu\u0254\u0254l\\npi\u025bny diaal tin t\u00ebk
+  \u025b ny\u0254\u0254t ny\u0254\u0254t wi\u0332c mu\u0254\u0332\u0254\u0332n,\\nc\u00e4
+  k\u025b ka\u0332m juaac diaal k\u025bn\u025b ji\u025bn diaal ti\\nt\u0254\u0332\u0254\u0332c
+  a la mi\u0332thiki\u025bn.\\\"\\n(Page 4)\\n31 Cu Kuoth \u014b\u0254ak diaal t\u00eb\u00eb
+  c\u025b la\u0332t ku guic,\\ncu\u025b k\u025b guic g\u0254wk\u025b \u025blo\u0332\u014b.
+  Cu\u025b te k\u025b thia\u014b\\nk\u025bn\u025b runwa\u014b, k\u025b c\u00e4\u014b
+  in b\u00e4k\u025bli\u025bn.\"", "\"Cio\u0332o\u0332k 20\\n1 Cu Ab\u025braam \u0264\u00f6th
+  gu\u00e4th \u025b\u025b t\u025b\u025b thi\u0332n, w\u00eb\u00eb\\nlot k\u00e4 taar
+  g\u025b\u0308w k\u00e4 N\u025bk\u025bp. Cu\u025b cie\u014b kam\\nK\u025byd\u025bc
+  k\u025bn\u025b\u025b Cur gu\u00e4th mi c\u0254al i G\u025brar. 2\\nCu Ab\u025braam
+  ruac k\u025b kui\u0332c ci\u00ebkd\u025b ni Th\u025byr\u00e4 i\\n\u025b nyimaar.
+  Cu Abim\u025bl\u025bk ku\u00e4\u00e4r G\u025brar raan ja\u0332k\\nmi bi Th\u025byr\u00e4
+  ben na\u014b. 3 K\u00e4 cu Kuoth ben\\nruac k\u025b la\u0332k k\u025b w\u00e4\u00e4r
+  k\u025b Abimelek, Cu\u025b j\u025b ji\u00f6k,\\n\\\"N\u025bn \u025b, \u025b ji\u0332n
+  ram mi ci li\u0332w k\u025b kui\u0332c ci\u00ebk \u025b ci\\nji\u0332n \u025b ka\u0332n\u025b
+  k\u025b \u0264\u00f6\u00f6 \u025b ciek wut\u00e4 mi d\u0254di\u025bn.\\\" 4\\nT\u00e4\u00e4m\u025b
+  Abim\u025bl\u025bk \u014bot\u025b ''ken\u025b ni ni\u025b\u025bn k\u025b j\u025b,
+  k\u025b\\nkui\u0332c \u025bm\u0254 cu\u025b lar, \\\"Ku\u00e4\u00e4r, bi n\u025by
+  ti thil duer\\nn\u00e4k? 5 ''Ken wut \u025bm\u0254 j\u025b lar pu\u0254\u0332nyd\u025b
+  i \u025b\\nnyimaar? K\u00e4 ci ciek pu\u0254\u0332nyd\u025b j\u025b lar i \u025b\\nd\u00e4maar?
+  Ci \u0264\u00e4n ciek \u025bm\u025b ka\u0332n k\u025b thu\u0254\u0332k l\u0254aacd\u00e4\\nmin
+  thil duer mi ci \u0264\u00e4n \u025b la\u0332t k\u025bn\u025b tetk\u00e4 tin\\nthil
+  mi ji\u00e4\u00e4k mi ci \u0264\u00e4n \u025b l\u00e4t ni k\u025b.\\\" 6 K\u00e4\\ncu
+  Kuoth ruac k\u025b j\u025b k\u025b la\u0332k \u025bm\u0254, \\\"\u0194\u0254\u0332\u0254\u0332n,
+  \u0194\u00e4n\\n\u014ba\u0332c\u00e4 j\u025b i ci ji\u0332n n\u025bm\u025b la\u0332t
+  k\u025b l\u0254c mi thu\u0254\u0332k mi\\nthil duer mi te thi\u0332n, k\u00e4 \u025b
+  \u0194\u00e4n ga\u014b ji m\u0254 k\u00e4\\nduer mi dee ji\u0332n \u025b l\u00e4t
+  k\u00e4 \u0194\u00e4. K\u025b kui\u0332c \u025bm\u0254\\n\u0194\u00e4n ''ka\u0332n
+  i jak k\u00e4 gueeri j\u025b.\\n(Page 65)\\n7 T\u00e4\u00e4m\u025b ku\u025b\u025b
+  li\u014b, locni ciek \u025bm\u0254 k\u00e4 c\u0254wd\u025b\\nk\u025b \u0264\u00f6\u00f6
+  \u025b g\u00f6k, b\u025b la\u0332\u014b k\u025b kui\u0332cdu, bi t\u00ebk. K\u00e4\\nmi
+  ''ci ji\u0332n \u025b bi lu\u0254\u0332c c\u0254wd\u025b, \u014b\u00e4cni \u025b\u025b
+  i bi\\nli\u0332w \u025bpuc, ji\u0332n y\u025bn\u025b n\u025b\u025bku diaal \u025bwic.\\\"
+  8 Cu\\nAbim\u025bl\u025bk coo keer k\u025b runwa\u014b \u025blo\u0332\u014b, k\u00e4
+  cu\u025b ji\\nla\u0332td\u025b jiaal c\u0254l, cu\u025b k\u025b la\u0332r \u014b\u0254ak
+  diaal titi.\\nCu wutni t\u0254t\u0254 dual \u025blo\u0332\u014b. 9 T\u00e4\u00e4m\u025b\\nAbim\u025bl\u025bk
+  cu\u025b Ab\u025braam c\u0254l, cu\u025b j\u025b thiec, \\\"E\\n\u014bu \u025bn
+  \u025b ci l\u00e4t k\u00e4 k\u0254 m\u025b? C\u00e4 ji duer duer i\\ndi m\u0254
+  cui duer \u025b di\u0332i\u0332t \u025bm\u025b n\u00f6\u00f6\u014b wi\u0332cd\u00e4
+  m\u0254 k\u0254n\u025b\\nn\u025b\u025bk\u00e4 ti ruaac\u00e4? Ci ji\u0332n \u0264\u00e4
+  l\u00e4t k\u00e4 du\u0254\u0332\u0254\u0332r mi\\n''caa dee met l\u00e4t k\u00e4
+  raan.\\\" 10 K\u00e4 cu\\nAbim\u025bl\u025bk Ab\u025braam l\u025b ni ji\u00f6k,
+  \\\"Caari ni \u014bu m\u0254\\ncui m\u025bm\u025b l\u00e4 t k\u00e4 \u0264\u00e4
+  m\u0254?\\\" 11 Cu Ab\u025braam wee,\\n\\\"C\u00e4 j\u025b la\u0332t k\u025b \u0264\u00f6\u00f6
+  \u025b \u0264\u00e4n i d\u0254\u0254 thil\u025b luth\\nKu\u0254th mi t\u0254\u0332t
+  wan\u025bm\u025b a cuaa coo wee d\u0254\u0254 bi k\u025bn\\n\u0264\u00e4 n\u00e4k
+  k\u025b kui\u0332c ci\u00ebkd\u00e4. 12 K\u00e4 \u025b\\nni nyimaar \u025blo\u0332\u014b,
+  \u025b nyaa gua\u0332a\u0332r, ''ci \u025b\u025b nyaa\\nmaar, k\u00e4 cuaa ciekd\u00e4.
+  13 M\u00eb\u00eb ci Kuoth \u0264\u00e4\\njak k\u00e4 ji\u025bn dueel gua\u0332a\u0332r
+  a b\u00e4 ben tee wi\u025bl\\nwi\u025bl cuaa j\u025b ji\u00f6k, \\\"N\u025bm\u025b
+  \u025b mal l\u0254aacdu mi bi\\nl\u00e4t k\u00e4 \u0264\u00e4, lapni j\u025b a laari
+  i \u025b d\u00e4maar.\\\"\\n(Page 66)\\n14 T\u00e4\u00e4m\u025b Abim\u025bl\u025bk
+  cu\u025b det k\u025bn\u025b th\u00e4\u00e4k, k\u025b\\nwutni ja\u0332a\u0332ni,
+  k\u025b nyier ja\u0332a\u0332ni ka\u0332n cu\u025b k\u025b ka\u0332m\\nAb\u025braam,
+  k\u00e4 cu\u025b ciekd\u025b ni Th\u025byr\u00e4 lu\u0254\u0332c j\u025b.\\n15 Cu
+  Abim\u025bl\u025bk wee, \\\"N\u025bn \u025b, mund\u00e4 a nhiamdu,\\ncie\u014bni
+  gua\u0332a\u0332th mi go\u0332o\u0332r l\u0254cdu j\u025b.\\\" 16 K\u00e4 cu\u025b\\nTh\u025byr\u00e4
+  ji\u00f6k, \\\"N\u025bn \u025b, c\u00e4 d\u00e4mu\u0254\u0254r moc k\u025b yio\u0332w\\nti
+  kur w\u00e4l. E nyuuth i thil\u025b ji duer nhiam\\nn\u025b\u025bni diaal ti te
+  nhiamdu, k\u00e4 caa ji moc\\ncu\u0254\u0332c\u014b nhiam n\u025b\u025bni diaal.\\\"
+  17 T\u00e4\u00e4m\u025b Ab\u025braam\\nCu\u025b Kuoth ku l\u00e4\u014b, k\u00e4
+  cu Kuoth Abim\u025bl\u025bk pu\u0254\u0332nyd\u025b\\ncoo jak k\u00e4 g\u0254aa
+  a m\u00e4ni pu\u0254\u0332ny ci\u00ebkd\u025b k\u025bn\u025b\\nnyier ja\u0332ani
+  a cuk\u025b gaat dieth. 18 K\u025b \u0264\u00f6\u00f6\\nci Jaopa m\u00e4n g\u0254aal
+  Abim\u025bl\u025bk diaal ka\u0332p cu\u0254\u0332\u014b\\nk\u025b kui\u0332c Th\u025byr\u00e4
+  ciek Ab\u025braam.\\n(Page 67)\""]'
+src_ngrams: '{"1": [[["k\u025b"], 3421], [["k\u00e4"], 1972], [["\u025b"], 1194],
+  [["cu"], 833], [["ci"], 813]], "2": [[["k\u025b \u0263\u00f6\u00f6"], 319], [["\u025bn
+  \u0263\u00f6\u00f6"], 158], [["k\u025b kui"], 154], [["k\u00e4 cu"], 128], [["n\u025by
+  tin"], 120]], "3": [[["titi k\u025b k\u025bn"], 49], [["k\u025b \u0263\u00f6\u00f6
+  b\u025b"], 31], [["k\u025b k\u025bn gaat"], 29], [["written by michael"], 28], [["with
+  special thanks"], 28]], "4": [[["written by michael thilyang"], 28], [["translation
+  see their great"], 28], [["thilyang gatkek with special"], 28], [["thanks to fr
+  christian"], 28], [["team of holy trinity"], 28]], "5": [[["written by michael thilyang
+  gatkek"], 28], [["with special thanks to fr"], 28], [["translation see their great
+  book"], 28], [["thilyang gatkek with special thanks"], 28], [["thanks to fr christian
+  carlassare"], 28]]}'

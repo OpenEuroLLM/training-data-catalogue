@@ -1,0 +1,1167 @@
+corpus: hplt-v4-pag
+srclang: pag
+timestamp: 1789039366.528899
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-50", 716], ["CC-MAIN-2025-30", 240], ["wide00016",
+  233], ["CC-MAIN-2021-10", 218], ["CC-MAIN-2021-04", 191], ["wide00011", 181], ["CC-MAIN-2014-15",
+  164], ["wide00012", 151], ["CC-MAIN-2014-35", 124], ["CC-MAIN-2021-17", 120], ["CC-MAIN-2025-08",
+  78], ["CC-MAIN-2017-26", 71], ["CC-MAIN-2025-26", 64], ["CC-MAIN-2024-46", 59],
+  ["CC-MAIN-2025-13", 57], ["CC-MAIN-2023-50", 51], ["CC-MAIN-2024-22", 45], ["CC-MAIN-2018-05",
+  43], ["CC-MAIN-2024-10", 39], ["CC-MAIN-2023-40", 39], ["CC-MAIN-2025-18", 35],
+  ["CC-MAIN-2021-21", 35], ["wide00015", 34], ["CC-MAIN-2017-04", 33], ["CC-MAIN-2024-18",
+  30], ["CC-MAIN-2020-34", 23], ["CC-MAIN-2025-21", 22], ["CC-MAIN-2024-26", 22],
+  ["wide00010", 19], ["CC-MAIN-2014-42", 17], ["CC-MAIN-2024-51", 15], ["CC-MAIN-2024-38",
+  15], ["CC-MAIN-2022-40", 15], ["CC-MAIN-2020-05", 15], ["CC-MAIN-2022-21", 14],
+  ["CC-MAIN-2025-05", 13], ["CC-MAIN-2022-27", 13], ["CC-MAIN-2021-39", 13], ["CC-MAIN-2024-42",
+  12], ["CC-MAIN-2020-10", 12], ["CC-MAIN-2018-22", 12], ["CC-MAIN-2015-11", 12],
+  ["CC-MAIN-2018-39", 11], ["wide00005", 9], ["wide00002", 9], ["CC-MAIN-2025-33",
+  8], ["CC-MAIN-2021-25", 8], ["CC-MAIN-2020-40", 8], ["CC-MAIN-2015-18", 8], ["wide00006",
+  7], ["CC-MAIN-2023-14", 7], ["CC-MAIN-2022-33", 7], ["CC-MAIN-2021-49", 7], ["CC-MAIN-2020-24",
+  7], ["CC-MAIN-2024-33", 6], ["CC-MAIN-2016-30", 6], ["wide00017", 5], ["CC-MAIN-2023-06",
+  5], ["CC-MAIN-2022-49", 5], ["CC-MAIN-2018-34", 5], ["CC-MAIN-2017-51", 5], ["CC-MAIN-2023-23",
+  4], ["CC-MAIN-2022-05", 4], ["CC-MAIN-2020-29", 4], ["CC-MAIN-2020-16", 3], ["CC-MAIN-2019-04",
+  3], ["CC-MAIN-2024-30", 2], ["CC-MAIN-2021-43", 2], ["CC-MAIN-2015-48", 2], ["archivebot",
+  1], ["CC-MAIN-2021-31", 1], ["CC-MAIN-2020-45", 1], ["CC-MAIN-2018-43", 1], ["CC-MAIN-2016-44",
+  1], ["CC-MAIN-2016-40", 1]]'
+docs_langs: '[[0.2, 16], [0.3, 25], [0.4, 42], [0.5, 61], [0.6, 77], [0.7, 132], [0.8,
+  218], [0.9, 435], [1.0, 2472]]'
+docs_segments: '[[1, 277], [2, 57], [3, 68], [4, 183], [5, 284], [6, 291], [7, 166],
+  [8, 138], [9, 153], [10, 120], [11, 88], [12, 88], [13, 107], [14, 101], [15, 68],
+  [16, 77], [17, 73], [18, 63], [19, 78], [20, 90], [21, 79], [22, 39], [23, 47],
+  [24, 42], [25, 26], [26, 21], [27, 18], [28, 24], [29, 23], [30, 24], [31, 27],
+  [32, 18], [33, 16], [34, 21], [35, 22], [36, 29], [37, 25], [38, 21], [39, 27],
+  [40, 34], [41, 34], [42, 20], [43, 34], [44, 20], [45, 20], [46, 27], [47, 13],
+  [48, 14], [49, 11], [50, 17], [51, 7], [52, 9], [53, 8], [54, 3], [55, 2], [56,
+  8], [57, 8], [58, 1], [59, 1], [61, 2], [62, 2], [63, 1], [64, 4], [65, 1], [66,
+  3], [67, 2], [68, 2], [69, 1], [70, 1], [71, 2], [72, 1], [73, 2], [74, 2], [75,
+  3], [77, 1], [78, 2], [80, 2], [84, 2], [88, 1], [89, 1], [95, 3], [103, 2], [107,
+  1], [108, 1], [109, 1], [110, 1], [114, 1], [117, 1], [129, 1], [134, 1], [139,
+  1], [148, 1], [153, 1], [166, 1], [175, 1], [190, 1], [248, 1], [280, 1], [314,
+  1], [346, 1], [527, 1], [555, 1], [566, 1], [752, 1], [2038, 1], [4226, 1], [8888,
+  1]]'
+docs_segments_mean: 22
+docs_segments_median: 11
+docs_top100_domains: '[["jw.org", 1953], ["bomboradyo.com", 271], ["bible.is", 260],
+  ["wikipedia.org", 219], ["wikisource.org", 186], ["ebible.org", 117], ["blogspot.com",
+  77], ["churchofjesuschrist.org", 73], ["zhitov.com", 53], ["wordpress.com", 50],
+  ["pia.gov.ph", 40], ["dagupan.com", 25], ["wikimedia.org", 19], ["vinceimbat.com",
+  9], ["blogspot.jp", 9], ["prepys.com", 8], ["rcald.org", 7], ["vallalar.net", 6],
+  ["nup.org.ph", 6], ["cbmresources.org", 5], ["watchtower.org", 4], ["andapangasinan.gov.ph",
+  4], ["webonary.org", 3], ["tsikot.com", 3], ["pressone.ph", 3], ["philippinepen.ph",
+  3], ["pangasinan.bible", 3], ["liwawa.org", 3], ["bible.com", 3], ["poemhunter.com",
+  2], ["omniglot.com", 2], ["gospelgo.com", 2], ["egwwritings.org", 2], ["classicistranieri.com",
+  2], ["world-hentai.ru", 1], ["videochat-ruletka.ru", 1], ["umich.edu", 1], ["teenpattigold-in.com",
+  1], ["sunstar.com.ph", 1], ["sleepostic.com", 1], ["sleephony.com", 1], ["sironeco.info",
+  1], ["seghea.com", 1], ["royalwinapp-vip.com", 1], ["rmn.ph", 1], ["rikefeurstein.com",
+  1], ["rappler.com", 1], ["premiumtextreader.com", 1], ["praning.com", 1], ["pinoysg.com",
+  1], ["photality.net", 1], ["ovvkus.ru", 1], ["nym.su", 1], ["marysrosaries.com",
+  1], ["lookup-id.com", 1], ["loc.gov", 1], ["know.cf", 1], ["inibaloi.com", 1], ["ideaurl.net",
+  1], ["grabinformations.com", 1], ["gpedia.com", 1], ["google.com", 1], ["familie-boersma.nl",
+  1], ["entropik.io", 1], ["doh.gov.ph", 1], ["distance2.com", 1], ["daycody.com",
+  1], ["dadudayal-vip.com", 1], ["da-no.ru", 1], ["congressomv.org", 1], ["cheldiokno.com",
+  1], ["cers-deutschland.org", 1], ["brainia.com", 1], ["bollywall.com", 1], ["blogspot.kr",
+  1], ["bestonlinecasinolist.top", 1], ["aqui-immo.be", 1], ["allvoices.com", 1],
+  ["allinonelanguage.com", 1], ["219.90.94.209.", 1]]'
+docs_top100_tld: '[["org", 2593], ["com", 531], ["is", 260], ["gov.ph", 45], ["jp",
+  9], ["net", 8], ["ph", 7], ["org.ph", 6], ["ru", 4], ["bible", 3], ["top", 1], ["su",
+  1], ["nl", 1], ["kr", 1], ["io", 1], ["info", 1], ["gov", 1], ["edu", 1], ["com.ph",
+  1], ["cf", 1], ["be", 1]]'
+docs_total: 3478
+docs_wds: '[[0.5, 12], [0.51, 11], [0.52, 15], [0.53, 13], [0.54, 9], [0.55, 12],
+  [0.56, 14], [0.57, 13], [0.58, 13], [0.59, 21], [0.6, 24], [0.61, 8], [0.62, 25],
+  [0.63, 27], [0.64, 28], [0.65, 34], [0.66, 32], [0.67, 38], [0.68, 32], [0.69, 24],
+  [0.7, 21], [0.71, 37], [0.72, 34], [0.73, 38], [0.74, 40], [0.75, 41], [0.76, 77],
+  [0.77, 76], [0.78, 102], [0.79, 105], [0.8, 331], [0.81, 222], [0.82, 138], [0.83,
+  118], [0.84, 95], [0.85, 84], [0.86, 63], [0.87, 61], [0.88, 97], [0.89, 149], [0.9,
+  211], [0.91, 209], [0.92, 84], [0.93, 76], [0.94, 86], [0.95, 101], [0.96, 146],
+  [0.97, 126], [0.98, 81], [0.99, 19], [1.0, 5]]'
+duplication_ratio: 0.0795
+sentence_pairs: 74796
+src_bytes: 17403121
+src_chars: 17195182
+src_pii: 11
+src_tokens: 3556862
+unique_sents: 68846
+src_sent_tokens: '[[1, 2663], [2, 1403], [3, 1574], [4, 1808], [5, 2021], [6, 1821],
+  [7, 1569], [8, 1873], [9, 1939], [10, 2322], [11, 2222], [12, 2079], [13, 1527],
+  [14, 1442], [15, 1198], [16, 1079], [17, 1034], [18, 1049], [19, 1044], [20, 880],
+  [21, 890], [22, 894], [23, 879], [24, 909], [25, 821], [26, 804], [27, 841], [28,
+  817], [29, 832], [30, 724], [31, 746], [32, 749], [33, 719], [34, 708], [35, 704],
+  [36, 623], [37, 630], [38, 642], [39, 597], [40, 575], [41, 533], [42, 589], [43,
+  487], [44, 480], [45, 524], [46, 491], [47, 480], [48, 428], [49, 432], [50, 415],
+  [51, 434], [52, 401], [53, 417], [54, 422], [55, 408], [56, 388], [57, 368], [58,
+  372], [59, 359], [60, 374], [61, 359], [62, 359], [63, 349], [64, 279], [65, 290],
+  [66, 289], [67, 319], [68, 325], [69, 249], [70, 284], [71, 315], [72, 275], [73,
+  257], [74, 261], [75, 286], [76, 222], [77, 270], [78, 236], [79, 244], [80, 243],
+  [81, 253], [82, 231], [83, 228], [84, 220], [85, 216], [86, 217], [87, 212], [88,
+  184], [89, 175], [90, 188], [91, 180], [92, 181], [93, 183], [94, 192], [95, 173],
+  [96, 162], [97, 192], [98, 189], [99, 192], [100, 158], [101, 178], [102, 152],
+  [103, 154], [104, 147], [105, 164], [106, 148], [107, 156], [108, 158], [109, 169],
+  [110, 136], [111, 129], [112, 115], [113, 123], [114, 135], [115, 146], [116, 112],
+  [117, 108], [118, 140], [119, 122], [120, 133], [121, 111], [122, 103], [123, 114],
+  [124, 114], [125, 112], [126, 110], [127, 100], [128, 98], [129, 105], [130, 113],
+  [131, 110], [132, 77], [133, 94], [134, 107], [135, 86], [136, 83], [137, 91], [138,
+  83], [139, 69], [140, 79], [141, 75], [142, 106], [143, 82], [144, 63], [145, 93],
+  [146, 74], [147, 67], [148, 62], [149, 72], [150, 68], [151, 59], [152, 61], [153,
+  56], [154, 63], [155, 55], [156, 64], [157, 49], [158, 58], [159, 61], [160, 59],
+  [161, 44], [162, 47], [163, 65], [164, 49], [165, 38], [166, 45], [167, 40], [168,
+  49], [169, 41], [170, 27], [171, 38], [172, 37], [173, 34], [174, 40], [175, 29],
+  [176, 43], [177, 42], [178, 32], [179, 34], [180, 35], [181, 35], [182, 27], [183,
+  23], [184, 23], [185, 37], [186, 15], [187, 25], [188, 26], [189, 21], [190, 23],
+  [191, 18], [192, 30], [193, 15], [194, 20], [195, 33], [196, 20], [197, 30], [198,
+  15], [199, 35], [200, 21], [201, 13], [202, 14], [203, 12], [204, 12], [205, 18],
+  [206, 19], [207, 17], [208, 15], [209, 18], [210, 9], [211, 17], [212, 9], [213,
+  8], [214, 12], [215, 7], [216, 11], [217, 10], [218, 18], [219, 10], [220, 8], [221,
+  18], [222, 13], [223, 3], [224, 9], [225, 12], [226, 4], [227, 6], [228, 8], [229,
+  10], [230, 7], [231, 9], [232, 4], [233, 8], [234, 4], [235, 12], [236, 14], [237,
+  7], [238, 3], [239, 11], [240, 8], [241, 4], [242, 3], [243, 8], [244, 6], [245,
+  8], [246, 3], [247, 3], [248, 3], [249, 8], [250, 8], [251, 6], [252, 7], [253,
+  10], [254, 4], [255, 3], [256, 8], [257, 4], [258, 8], [259, 4], [260, 3], [261,
+  2], [262, 4], [263, 2], [264, 4], [265, 1], [266, 3], [267, 1], [269, 1], [270,
+  2], [271, 6], [272, 3], [273, 4], [274, 5], [275, 2], [276, 3], [277, 4], [278,
+  4], [279, 3], [281, 5], [282, 1], [283, 6], [284, 1], [285, 5], [286, 5], [287,
+  6], [288, 1], [289, 2], [290, 2], [291, 4], [292, 5], [293, 1], [295, 1], [296,
+  1], [297, 2], [298, 3], [300, 4], [301, 3], [302, 1], [303, 1], [305, 2], [306,
+  2], [307, 3], [308, 2], [309, 4], [310, 2], [311, 3], [312, 1], [313, 2], [315,
+  1], [316, 1], [317, 2], [318, 3], [319, 1], [320, 1], [321, 3], [322, 4], [323,
+  1], [324, 2], [325, 1], [326, 1], [327, 1], [329, 3], [330, 1], [332, 2], [333,
+  1], [334, 2], [335, 2], [337, 1], [338, 2], [339, 1], [340, 2], [341, 1], [342,
+  2], [343, 2], [347, 2], [350, 1], [353, 2], [355, 1], [356, 1], [357, 1], [361,
+  1], [363, 3], [364, 1], [366, 1], [367, 4], [368, 2], [372, 2], [373, 1], [374,
+  1], [375, 1], [378, 1], [379, 1], [380, 1], [381, 1], [386, 2], [388, 2], [389,
+  1], [391, 1], [393, 2], [394, 1], [398, 1], [399, 2], [402, 1], [403, 2], [406,
+  1], [407, 1], [408, 2], [409, 3], [411, 1], [415, 1], [416, 2], [418, 1], [420,
+  1], [422, 2], [424, 2], [425, 2], [426, 2], [427, 1], [430, 1], [432, 1], [433,
+  1], [434, 1], [439, 1], [440, 3], [441, 3], [443, 1], [444, 1], [447, 2], [449,
+  1], [452, 2], [453, 1], [455, 1], [458, 3], [460, 1], [463, 1], [464, 2], [465,
+  1], [466, 1], [467, 3], [469, 1], [471, 1], [472, 1], [474, 2], [476, 1], [477,
+  3], [479, 3], [482, 1], [483, 1], [484, 1], [485, 2], [486, 1], [487, 2], [490,
+  1], [494, 1], [495, 1], [496, 1], [497, 3], [505, 1], [506, 3], [508, 1], [511,
+  1], [512, 2], [513, 1], [516, 2], [521, 1], [524, 1], [526, 2], [527, 1], [529,
+  1], [532, 1], [533, 1], [534, 2], [536, 2], [539, 1], [542, 1], [543, 1], [545,
+  2], [548, 1], [549, 1], [550, 1], [551, 1], [553, 1], [558, 1], [560, 1], [561,
+  2], [564, 2], [566, 1], [568, 1], [569, 1], [571, 1], [572, 2], [573, 1], [574,
+  1], [576, 1], [578, 1], [584, 1], [585, 1], [587, 1], [589, 1], [590, 2], [592,
+  2], [596, 2], [597, 1], [602, 2], [603, 1], [608, 1], [609, 1], [610, 3], [613,
+  2], [617, 1], [618, 1], [619, 3], [622, 1], [626, 2], [627, 2], [628, 2], [629,
+  1], [631, 3], [633, 1], [634, 1], [635, 2], [636, 1], [640, 3], [646, 1], [647,
+  2], [649, 3], [650, 1], [652, 1], [653, 1], [657, 2], [659, 2], [660, 1], [664,
+  1], [665, 1], [666, 1], [668, 1], [670, 1], [673, 1], [676, 1], [678, 1], [679,
+  1], [681, 3], [683, 2], [684, 1], [685, 1], [686, 1], [689, 2], [690, 1], [691,
+  2], [692, 1], [693, 1], [694, 2], [695, 1], [699, 1], [701, 1], [702, 1], [703,
+  1], [704, 2], [705, 1], [706, 1], [707, 1], [709, 2], [710, 1], [711, 1], [713,
+  1], [715, 1], [718, 2], [719, 2], [724, 2], [726, 1], [727, 1], [728, 1], [729,
+  1], [732, 1], [735, 2], [736, 1], [740, 1], [744, 1], [745, 2], [746, 1], [747,
+  1], [749, 2], [751, 2], [752, 1], [756, 4], [758, 1], [761, 1], [765, 1], [766,
+  2], [767, 2], [770, 1], [772, 2], [774, 1], [775, 2], [776, 1], [778, 1], [779,
+  1], [781, 1], [783, 1], [787, 1], [789, 2], [792, 1], [794, 1], [797, 1], [798,
+  1], [805, 2], [806, 1], [809, 1], [811, 1], [812, 2], [814, 1], [815, 2], [816,
+  1], [819, 3], [823, 1], [825, 1], [828, 1], [831, 1], [835, 1], [838, 1], [840,
+  2], [841, 1], [842, 1], [844, 2], [845, 1], [847, 1], [848, 1], [851, 2], [853,
+  1], [856, 1], [858, 1], [864, 1], [867, 1], [870, 1], [876, 1], [878, 1], [879,
+  1], [880, 2], [881, 1], [882, 1], [894, 1], [899, 2], [902, 1], [904, 2], [908,
+  1], [909, 2], [910, 1], [914, 1], [917, 1], [919, 1], [922, 2], [925, 1], [927,
+  1], [928, 2], [930, 1], [931, 1], [932, 1], [933, 1], [937, 1], [941, 1], [942,
+  1], [944, 1], [947, 1], [950, 1], [952, 1], [955, 1], [958, 1], [959, 2], [961,
+  1], [963, 1], [964, 1], [969, 1], [971, 1], [972, 1], [973, 1], [977, 1], [983,
+  1], [985, 1], [995, 1], [1002, 1], [1007, 1], [1008, 1], [1011, 1], [1013, 1], [1016,
+  1], [1017, 1], [1020, 1], [1023, 1], [1024, 1], [1033, 1], [1035, 1], [1044, 1],
+  [1045, 1], [1048, 1], [1053, 1], [1055, 1], [1057, 2], [1058, 1], [1062, 1], [1064,
+  1], [1065, 1], [1070, 1], [1072, 1], [1074, 1], [1082, 2], [1083, 1], [1085, 2],
+  [1088, 2], [1090, 3], [1098, 1], [1100, 1], [1102, 1], [1104, 1], [1105, 1], [1109,
+  1], [1112, 1], [1114, 1], [1119, 1], [1120, 1], [1122, 1], [1123, 1], [1125, 1],
+  [1126, 1], [1129, 1], [1130, 2], [1132, 1], [1134, 1], [1137, 1], [1143, 3], [1156,
+  1], [1157, 1], [1161, 1], [1162, 2], [1171, 1], [1173, 1], [1175, 1], [1177, 1],
+  [1179, 1], [1186, 1], [1188, 1], [1189, 1], [1194, 2], [1199, 1], [1200, 1], [1202,
+  1], [1208, 1], [1211, 1], [1214, 1], [1217, 1], [1225, 1], [1228, 1], [1229, 1],
+  [1236, 1], [1237, 1], [1241, 1], [1243, 1], [1244, 1], [1256, 1], [1264, 1], [1272,
+  1], [1286, 1], [1295, 1], [1301, 1], [1310, 1], [1317, 1], [1336, 1], [1337, 1],
+  [1338, 1], [1350, 1], [1364, 1], [1370, 1], [1383, 1], [1386, 1], [1405, 1], [1408,
+  1], [1414, 1], [1424, 1], [1442, 2], [1478, 1], [1481, 1], [1492, 1], [1497, 1],
+  [1524, 1], [1531, 1], [1546, 1], [1550, 1], [1559, 1], [1581, 1], [1589, 2], [1594,
+  1], [1598, 1], [1599, 1], [1609, 1], [1621, 1], [1623, 1], [1632, 1], [1637, 1],
+  [1665, 1], [1677, 1], [1679, 1], [1807, 1], [1833, 1], [1878, 1], [1905, 1], [4022,
+  1]]'
+src_sent_tokens_mean: 48
+src_sent_tokens_median: 26
+src_unique_sents: '[[1, 1672], [2, 1136], [3, 1162], [4, 1285], [5, 1434], [6, 1536],
+  [7, 1449], [8, 1671], [9, 1705], [10, 1995], [11, 2140], [12, 1920], [13, 1456],
+  [14, 1273], [15, 1113], [16, 959], [17, 943], [18, 1003], [19, 935], [20, 862],
+  [21, 858], [22, 857], [23, 847], [24, 879], [25, 792], [26, 787], [27, 819], [28,
+  793], [29, 808], [30, 703], [31, 729], [32, 714], [33, 688], [34, 680], [35, 684],
+  [36, 602], [37, 611], [38, 621], [39, 586], [40, 559], [41, 512], [42, 572], [43,
+  473], [44, 466], [45, 505], [46, 475], [47, 469], [48, 420], [49, 418], [50, 399],
+  [51, 423], [52, 396], [53, 407], [54, 409], [55, 398], [56, 382], [57, 364], [58,
+  360], [59, 352], [60, 360], [61, 349], [62, 346], [63, 338], [64, 273], [65, 289],
+  [66, 282], [67, 311], [68, 312], [69, 244], [70, 277], [71, 308], [72, 271], [73,
+  254], [74, 258], [75, 276], [76, 217], [77, 264], [78, 230], [79, 234], [80, 241],
+  [81, 249], [82, 225], [83, 221], [84, 217], [85, 213], [86, 212], [87, 208], [88,
+  181], [89, 174], [90, 186], [91, 177], [92, 179], [93, 181], [94, 187], [95, 172],
+  [96, 160], [97, 186], [98, 185], [99, 191], [100, 156], [101, 176], [102, 149],
+  [103, 152], [104, 144], [105, 161], [106, 148], [107, 156], [108, 154], [109, 168],
+  [110, 132], [111, 129], [112, 114], [113, 119], [114, 133], [115, 145], [116, 110],
+  [117, 108], [118, 138], [119, 119], [120, 129], [121, 108], [122, 103], [123, 114],
+  [124, 114], [125, 112], [126, 109], [127, 99], [128, 97], [129, 103], [130, 111],
+  [131, 107], [132, 75], [133, 93], [134, 105], [135, 85], [136, 79], [137, 90], [138,
+  83], [139, 69], [140, 77], [141, 72], [142, 106], [143, 81], [144, 62], [145, 93],
+  [146, 72], [147, 67], [148, 60], [149, 69], [150, 66], [151, 59], [152, 61], [153,
+  56], [154, 61], [155, 54], [156, 64], [157, 49], [158, 57], [159, 60], [160, 57],
+  [161, 44], [162, 47], [163, 63], [164, 48], [165, 38], [166, 45], [167, 40], [168,
+  48], [169, 41], [170, 27], [171, 38], [172, 37], [173, 34], [174, 40], [175, 28],
+  [176, 42], [177, 42], [178, 32], [179, 32], [180, 34], [181, 35], [182, 27], [183,
+  23], [184, 23], [185, 37], [186, 15], [187, 25], [188, 25], [189, 20], [190, 22],
+  [191, 17], [192, 30], [193, 15], [194, 20], [195, 31], [196, 20], [197, 30], [198,
+  15], [199, 34], [200, 21], [201, 13], [202, 14], [203, 12], [204, 12], [205, 18],
+  [206, 18], [207, 14], [208, 15], [209, 18], [210, 9], [211, 14], [212, 9], [213,
+  8], [214, 12], [215, 7], [216, 11], [217, 10], [218, 18], [219, 10], [220, 8], [221,
+  16], [222, 13], [223, 3], [224, 9], [225, 12], [226, 4], [227, 6], [228, 8], [229,
+  9], [230, 7], [231, 9], [232, 4], [233, 8], [234, 4], [235, 12], [236, 13], [237,
+  7], [238, 3], [239, 11], [240, 7], [241, 4], [242, 3], [243, 8], [244, 6], [245,
+  8], [246, 3], [247, 3], [248, 3], [249, 7], [250, 8], [251, 6], [252, 7], [253,
+  10], [254, 4], [255, 3], [256, 8], [257, 4], [258, 8], [259, 4], [260, 3], [261,
+  2], [262, 4], [263, 2], [264, 4], [265, 1], [266, 3], [267, 1], [269, 1], [270,
+  2], [271, 6], [272, 3], [273, 4], [274, 5], [275, 2], [276, 3], [277, 4], [278,
+  4], [279, 3], [281, 5], [282, 1], [283, 6], [284, 1], [285, 5], [286, 5], [287,
+  6], [288, 1], [289, 2], [290, 2], [291, 4], [292, 5], [293, 1], [295, 1], [296,
+  1], [297, 2], [298, 3], [300, 2], [301, 3], [302, 1], [303, 1], [305, 2], [306,
+  2], [307, 3], [308, 2], [309, 4], [310, 2], [311, 3], [312, 1], [313, 2], [315,
+  1], [316, 1], [317, 2], [318, 3], [319, 1], [320, 1], [321, 3], [322, 4], [323,
+  1], [324, 2], [325, 1], [326, 1], [327, 1], [329, 3], [330, 1], [332, 2], [333,
+  1], [334, 2], [335, 2], [337, 1], [338, 2], [339, 1], [340, 2], [341, 1], [342,
+  2], [343, 2], [347, 2], [350, 1], [353, 2], [355, 1], [356, 1], [357, 1], [361,
+  1], [363, 3], [364, 1], [366, 1], [367, 4], [368, 2], [372, 2], [373, 1], [374,
+  1], [375, 1], [378, 1], [379, 1], [380, 1], [381, 1], [386, 2], [388, 2], [389,
+  1], [391, 1], [393, 2], [394, 1], [398, 1], [399, 2], [402, 1], [403, 2], [406,
+  1], [407, 1], [408, 2], [409, 3], [411, 1], [415, 1], [416, 2], [418, 1], [420,
+  1], [422, 2], [424, 2], [425, 2], [426, 2], [427, 1], [430, 1], [432, 1], [433,
+  1], [434, 1], [439, 1], [440, 3], [441, 3], [443, 1], [444, 1], [447, 2], [449,
+  1], [452, 2], [453, 1], [455, 1], [458, 3], [460, 1], [463, 1], [464, 1], [465,
+  1], [466, 1], [467, 3], [469, 1], [471, 1], [472, 1], [474, 2], [476, 1], [477,
+  3], [479, 3], [482, 1], [483, 1], [484, 1], [485, 2], [486, 1], [487, 2], [490,
+  1], [494, 1], [495, 1], [496, 1], [497, 3], [505, 1], [506, 3], [508, 1], [511,
+  1], [512, 2], [513, 1], [516, 2], [521, 1], [524, 1], [526, 2], [527, 1], [529,
+  1], [532, 1], [533, 1], [534, 2], [536, 2], [539, 1], [542, 1], [543, 1], [545,
+  2], [548, 1], [549, 1], [550, 1], [551, 1], [553, 1], [558, 1], [560, 1], [561,
+  2], [564, 2], [566, 1], [568, 1], [569, 1], [571, 1], [572, 2], [573, 1], [574,
+  1], [576, 1], [578, 1], [584, 1], [585, 1], [587, 1], [589, 1], [590, 2], [592,
+  2], [596, 2], [597, 1], [602, 2], [603, 1], [608, 1], [609, 1], [610, 3], [613,
+  2], [617, 1], [618, 1], [619, 3], [622, 1], [626, 2], [627, 2], [628, 2], [629,
+  1], [631, 3], [633, 1], [634, 1], [635, 2], [636, 1], [640, 3], [646, 1], [647,
+  2], [649, 3], [650, 1], [652, 1], [653, 1], [657, 2], [659, 2], [660, 1], [664,
+  1], [665, 1], [666, 1], [668, 1], [670, 1], [673, 1], [676, 1], [678, 1], [679,
+  1], [681, 3], [683, 2], [684, 1], [685, 1], [686, 1], [689, 2], [690, 1], [691,
+  2], [692, 1], [693, 1], [694, 2], [695, 1], [699, 1], [701, 1], [702, 1], [703,
+  1], [704, 2], [705, 1], [706, 1], [707, 1], [709, 2], [710, 1], [711, 1], [713,
+  1], [715, 1], [718, 2], [719, 2], [724, 2], [726, 1], [727, 1], [728, 1], [729,
+  1], [732, 1], [735, 2], [736, 1], [740, 1], [744, 1], [745, 2], [746, 1], [747,
+  1], [749, 2], [751, 2], [752, 1], [756, 4], [758, 1], [761, 1], [765, 1], [766,
+  2], [767, 2], [770, 1], [772, 2], [774, 1], [775, 2], [776, 1], [778, 1], [779,
+  1], [781, 1], [783, 1], [787, 1], [789, 2], [792, 1], [794, 1], [797, 1], [798,
+  1], [805, 2], [806, 1], [809, 1], [811, 1], [812, 2], [814, 1], [815, 2], [816,
+  1], [819, 3], [823, 1], [825, 1], [828, 1], [831, 1], [835, 1], [838, 1], [840,
+  2], [841, 1], [842, 1], [844, 2], [845, 1], [847, 1], [848, 1], [851, 2], [853,
+  1], [856, 1], [858, 1], [864, 1], [867, 1], [870, 1], [876, 1], [878, 1], [879,
+  1], [880, 2], [881, 1], [882, 1], [894, 1], [899, 2], [902, 1], [904, 2], [908,
+  1], [909, 2], [910, 1], [914, 1], [917, 1], [919, 1], [922, 2], [925, 1], [927,
+  1], [928, 2], [930, 1], [931, 1], [932, 1], [933, 1], [937, 1], [941, 1], [942,
+  1], [944, 1], [947, 1], [950, 1], [952, 1], [955, 1], [958, 1], [959, 2], [961,
+  1], [963, 1], [964, 1], [969, 1], [971, 1], [972, 1], [973, 1], [977, 1], [983,
+  1], [985, 1], [995, 1], [1002, 1], [1007, 1], [1008, 1], [1011, 1], [1013, 1], [1016,
+  1], [1017, 1], [1020, 1], [1023, 1], [1024, 1], [1033, 1], [1035, 1], [1044, 1],
+  [1045, 1], [1048, 1], [1053, 1], [1055, 1], [1057, 2], [1058, 1], [1062, 1], [1064,
+  1], [1065, 1], [1070, 1], [1072, 1], [1074, 1], [1082, 2], [1083, 1], [1085, 2],
+  [1088, 2], [1090, 3], [1098, 1], [1100, 1], [1102, 1], [1104, 1], [1105, 1], [1109,
+  1], [1112, 1], [1114, 1], [1119, 1], [1120, 1], [1122, 1], [1123, 1], [1125, 1],
+  [1126, 1], [1129, 1], [1130, 2], [1132, 1], [1134, 1], [1137, 1], [1143, 3], [1156,
+  1], [1157, 1], [1161, 1], [1162, 2], [1171, 1], [1173, 1], [1175, 1], [1177, 1],
+  [1179, 1], [1186, 1], [1188, 1], [1189, 1], [1194, 2], [1199, 1], [1200, 1], [1202,
+  1], [1208, 1], [1211, 1], [1214, 1], [1217, 1], [1225, 1], [1228, 1], [1229, 1],
+  [1236, 1], [1237, 1], [1241, 1], [1243, 1], [1244, 1], [1256, 1], [1264, 1], [1272,
+  1], [1286, 1], [1295, 1], [1301, 1], [1310, 1], [1317, 1], [1336, 1], [1337, 1],
+  [1338, 1], [1350, 1], [1364, 1], [1370, 1], [1383, 1], [1386, 1], [1405, 1], [1408,
+  1], [1414, 1], [1424, 1], [1442, 2], [1478, 1], [1481, 1], [1492, 1], [1497, 1],
+  [1524, 1], [1531, 1], [1546, 1], [1550, 1], [1559, 1], [1581, 1], [1589, 2], [1594,
+  1], [1598, 1], [1599, 1], [1609, 1], [1621, 1], [1623, 1], [1632, 1], [1637, 1],
+  [1665, 1], [1677, 1], [1679, 1], [1807, 1], [1833, 1], [1878, 1], [1905, 1], [4022,
+  1]]'
+src_langs: '[["en", 16550], ["tl", 15853], ["id", 9460], ["es", 6024], ["sw", 5809],
+  ["eo", 2576], ["de", 1695], ["war", 1543], ["su", 1367], ["it", 1247], ["jv", 1233],
+  ["fi", 1130], ["la", 1113], ["ms", 878], ["ceb", 864], ["hu", 853], ["pl", 784],
+  ["fr", 526], ["hr", 433], ["nl", 422], ["tr", 407], ["lt", 344], ["ilo", 317], ["sv",
+  279], ["eu", 275], ["pt", 274], ["ur", 246], ["sl", 186], ["uz", 153], ["ca", 140],
+  ["cs", 137], ["et", 130], ["qu", 128], ["sr", 123], ["kw", 80], ["bcl", 80], ["sk",
+  63], ["rm", 61], ["gl", 54], ["kn", 50], ["cy", 49], ["ku", 47], ["io", 46], ["bs",
+  46], ["uk", 42], ["br", 40], ["sq", 39], ["el", 37], ["nb", 34], ["ja", 32], ["ru",
+  30], ["lv", 28], ["mg", 26], ["gn", 24], ["ro", 23], ["pms", 23], ["is", 22], ["pam",
+  20], ["jbo", 20], ["ast", 20], ["vi", 19], ["nn", 17], ["nds", 15], ["ht", 12],
+  ["da", 12], ["az", 12], ["min", 11], ["ga", 11], ["zh", 9], ["ie", 9], ["fa", 8],
+  ["he", 7], ["af", 7], ["so", 6], ["gd", 6], ["vo", 5], ["tg", 5], ["ml", 5], ["ia",
+  5], ["oc", 4], ["mt", 4], ["lmo", 4], ["lb", 4], ["bo", 4], ["bn", 4], ["ko", 3],
+  ["hy", 3], ["hsb", 3], ["fy", 3], ["diq", 3], ["bar", 3], ["yi", 2], ["vec", 2],
+  ["te", 2], ["ta", 2], ["si", 2], ["sco", 2], ["mr", 2], ["mk", 2], ["gom", 2], ["dv",
+  2], ["ar", 2], ["wuu", 1], ["vep", 1], ["tyv", 1], ["tk", 1], ["scn", 1], ["ne",
+  1], ["nap", 1], ["mwl", 1], ["kv", 1], ["km", 1], ["hi", 1], ["gv", 1], ["ckb",
+  1], ["cbk", 1], ["be", 1], ["azb", 1]]'
+hardrules_tags: '{"not_too_long": 1103, "not_too_short": 4957, "length_ratio": 0,
+  "no_urls": 292, "no_bad_encoding": 0, "pii": 11}'
+sample: '["\"Antoy nagawad sikatayo no ompatey itayo?\\nAkin et ompapatey itayo?\\nNaikdan
+  tayo kasi ilalo no naamtaan tayoy tua nipaakar ed patey?\\n1-3. Anto ray tepet na
+  totoo nipaakar ed patey, tan anto ray ebat na nanduruman relihyon?\\nABAYBAYAG lan
+  itetepet iratan na totoo. Importante iratan a tepet. Amin tayo et labay tayon naamtaan
+  so ebat ed saratan.\\n2 Diad Kapitulo 5, inaral tayo no panon a say insakripisyo
+  nen Jesu-Kristo ya bilay to so angiter ed sikatayo na ilalon manbilay ya tuloytuloy.
+  Naamtaan tayo met so ibabaga na Biblia ya onsabi panaon et \u201canggapo lay patey.\u201d
+  (Apocalipsis 21:4) Balet natan et ompapatey itayo nin amin. \u201cSaray mabilay
+  et amta ra ya ompatey ira,\u201d so imbaga na matalinon Ari ya si Solomon. (Eclesiastes
+  9:5) Labalabay tayon anggad posible et ondukey ni bilay tayo. Balet, siansian iisipen
+  tayo no anto kasi nagawad sikatayo no ompatey itayo.\\n3 No ompatey iray inad-aro
+  tayo, talagan maermen tayo. Tan nayarin nitepet tayo: \u2018Anto la kasi nagagawad
+  sikara? Maniirap ira kasi? Babantayan da tayo kasi? Kasin natulongan tayo ra? Kasin
+  nanengneng tayo lamet ira?\u2019 Nandurumay ebat na saray relihyon ed saratan a
+  tepet. Wala ray mangibabagan no maong kan too, onla kad tawen balet no mauges ka,
+  napoolan kad impierno. Ibabangat na arum a relihyon ya no walay ompatey, sikatoy
+  onlad kawalaan na saray espiritu pian nakaiba to ray abaybayag lan inatey ya kapamilya
+  tan kakanayon to. Ibabangat balet na arum ni ran relihyon ya no say sakey et ompatey,
+  onlad mundo na inaatey pian diman naukom, insan sikatoy onalis-alis odino iyanak
+  lamet ed sananey a laman.\\n4. Antoy pareparehon ibabangat na dakel a relihyon nipaakar
+  ed ipapatey?\\n4 Nanduruma so ibabangat na saray relihyon balet saksakey so ideya
+  ra\u2014walay walad sikatayo ya tuloytuloy nin manbilay anggano ompatey so pisikal
+  a laman tayo. Ibabaga na amin lawarin relihyon nensaman tan natan, ya tuloytuloy
+  tayo ni kunon manbilay ya makanengneng, makadngel, tan makapannonot. Balet, panon
+  itan ya nagawa anta say pakalikna, pakadngel, pakanengneng, pakaangob, tan pakataway,
+  pati say panagnonot et konektado ed utek? No ompatey so sakey, agla ongganay utek
+  to. Say memorya, liknaan, tan amin a parte na laman tayo et agmisteryoson onggana
+  ya bukor. Ontunda la iratan no agla onggaganay utek tayo.\\nANTON TALAGAY NAGAGAWA
+  NO OMPATEY SO TOO?\\n5, 6. Antoy ibabangat na Biblia nipaakar ed kipapasen na saray
+  inaatey?\\n5 Si Jehova, say nanggawa na utek na too, et aliwan misteryo ed sikato
+  so nagagawad ipatey na too. Amta to no antoy tua, tan diad Salita to, say Biblia,
+  et impaliwawa to so kipapasen na saray inaatey. Oniay malinew ya ibabangat na satan:
+  No ompatey so too, sikatoy ontunda lan manbilay. Say patey so kabaliktaran na bilay.
+  Saray inaatey et agmakanengneng, agmakadngel, tan agmakapan-isip. Anggapoy kabiangan
+  tayo ya tuloytuloy nin manbilay no ompatey tayo. Anggapoy imortal ya kamarerwa odino
+  espiritu tayo. *\\n6 Imbaga nen Solomon ya \u201csaray mabilay et amta ra ya ompatey
+  ira, balet saray inatey et anggapon balot so amta ra.\u201d Insan to impaliwawa
+  itan nen imbaga ton saray inatey et agda la nayariay mangaro odino manbusol tan
+  \u201canggapo so kimey odino plano odino kakabatan odino karunongan diad Lubok.\u201d
+  (Basaen so Eclesiastes 9:5, 6, 10.) Ibabaga met na Salmo 146:4 ya no ompatey so
+  too, \u201cnaandi so nonot to.\u201d Aliwa itayon imortal tan ag-itayo tuloytuloy
+  a manbilay no ompatey so laman tayo. Say bilay tayo et singa apoy na kandila. No
+  naerep so apoy, ag-itan onlad sananey a lugar. Anggapo la itan.\\nNO ANTOY IMBAGA
+  NEN JESUS NIPAAKAR ED PATEY\\n7. Panon ya impaliwawa nen Jesus so nipaakar ed kipapasen
+  na saray inaatey?\\n7 Walay imbaga nen Jesus ed saray disipulo to nipaakar ed kipapasen
+  na saray inaatey. Nen inatey so kabkabat ton si Lazaro, imbaga to: \u201cSay kaaro
+  tayon si Lazaro et naugip.\u201d Say atalosan na saray disipulo ed imbaga nen Jesus
+  et naugip labat si Lazaro, manpapainawa ta mansasakit. Aliway atalosan da. Oniay
+  impaliwawa nen Jesus: \u201cInatey lay Lazaro.\u201d (Basaen so Juan 11:11-14.)
+  Imanoen ya inkompara nen Jesus so patey ed ugip. Aglinmay Lazaro ed tawen odino
+  diad mandarlang ya impierno. Agto apinengnengan iray anghel odino saray kakanayon
+  ton abayag lan inatey. Si Lazaro et ag-inyanak lamet bilang sananey a too. Imbes,
+  sikatoy nampainawa ed patey, ya singa araldalem so ugip to. Inkompara na arum nin
+  teksto so patey ed ugip. Singa bilang, nen tinupak anggad inatey so disipulon si
+  Esteban, imbaga na Biblia ya sikatoy \u201cnaugip.\u201d (Gawa 7:60) Ontan met,
+  insulat nen apostol Pablo ya wala ray totoo ed panaon to ya \u201cnaugip lad patey.\u201d\u20141
+  Corinto 15:6.\\n8. Akin et segurado tayon aglabay na Dios ya ompatey so totoo?\\n8
+  Talaga kasin labay na Dios ya ompatey so totoo? Andi! Ginawa nen Jehova so totoo
+  ya manbilay ya tuloytuloy diad dalin. Singa naaralan tayo lad sayan libro, inyan
+  na Dios so inmunan sanasawan too diad marakdakep a paraiso. Ginawa to ran perpekto
+  kanian ag-ira mansakit tan ontatken. Labay nen Jehova ya maong so pansumpalan da.
+  Wala kasi maaron ateng ya labay ton manirap so ananak to lapud itatatken tan ipapatey?
+  Siempre, anggapo! Inaro nen Jehova iray ananak to tan labay ton maliket iran naynay
+  diad dalin. Oniay ibabaga na Biblia nipaakar ed saray totoo: \u201cInyan [nen Jehova]
+  ni ingen so andi-anggaan ed puso ra.\u201d (Eclesiastes 3:11) Nen ginawa itayo na
+  Dios, inyan tod puso tayo ya agtayo labay so ompatey. Tan sikato met so nanggaway
+  paraan pian niiter itan ya pilalek ed puso tayo.\\nNO AKIN YA OMPAPATEY SO TOTOO\\n9.
+  Antoy imbawal nen Jehova ed si Adan, tan akin et aliwan mairap ya unoren itan ya
+  ganggan?\\n9 Akin balet et ompapatey so totoo? Pian naebatan itan, amtaen tayo ni
+  no antoy agawa nen si Adan tan Eva ni labat so too diad dalin. Oniay ibabaga na
+  Biblia: \u201cSi Jehova a Dios et pinatubo tod dalin so amin a kiew a makapaliket
+  a nengnengen tan maabig a naakan.\u201d (Genesis 2:9) Balet walay sakey labat ya
+  imbawal to. Imbaga nen Jehova ed si Adan: \u201cManlapud amin a kiew ed hardin et
+  nayarian moy mangan na bunga anggad napesel ka. Balet agka nepeg a mangay bunga
+  na kiew na pikakabat ed maong tan mauges, ta diad agew a pangan mo ed satan et seguradon
+  ompatey ka.\u201d (Genesis 2:16, 17) Aliwan mairap ya unoren itan ya ganggan. Dakdakel
+  iray kakiewan ya napangalaan nen Adan tan Eva na kanen da. Kanian pankanawnawa dan
+  ipanengneng so pisasalamat dad samay angiter na amin ed sikara, pati say perpekton
+  bilay da. No ontulok ira, ipapanengneng dan rerespetoen day autoridad na maaron
+  Ama rad tawen tan labay day paibangat ed sikato.\\n10, 11. (a) Panon ya ag-inunor
+  na inmunan sanasawa so Dios? (b) Akin et seryoson bengatla so ag-intulok nen Adan
+  tan Eva?\\n10 Balet makapaermen ta pinili na inmunan sanasawa ya ag-unoren si Jehova.
+  Panamegley na sakey ya uleg, tinepetan nen Satanas si Eva: \u201cTalaga ta\u2019n
+  imbaga na Dios ya agkayo nepeg a mangay bunga na amin a kiew ed hardin?\u201d Inmebat
+  si Eva: \u201cNayarian mi mangay bunga na saray kiew ed hardin. Balet oniay inkuan
+  na Dios nipaakar ed bunga na kiew a walad pegley na hardin: \u2018Agkayo nepeg a
+  mangan ed satan, andi, agyo nepeg a diwiten itan; ta no ontan so gawaen yo, ompatey
+  kayo.\u2019\u201d\u2014Genesis 3:1-3.\\n11 Imbaga nen Satanas: \u201cSeguradon agkayo
+  ompatey. . . . Amta na Dios a diad mismon agew a pangan yo ed satan et nalukasan
+  iray mata yo tan magmaliw kayon singa Dios, ya amta yoy maong tan mauges.\u201d
+  (Genesis 3:4, 5) Labay nen Satanas ya kombinsien si Eva ya parad pankaabigan toy
+  pangan ed imbawal ya prutas. Singa ibabaga nen Satanas ya sarag nen Eva so mandesisyon
+  no anto so duga tan aliwa; sarag ton gawaen no antoy labay to. Papalsaan met nen
+  Satanas si Jehova ya intila To no antoy epekto na pangan ed prutas. Anisiay Eva
+  ed si Satanas. Kanian amudbor na prutas tan kinan to. Insan inikdan to si Adan,
+  tan angan met. Ag-ira ignorante ed ginawa ra. Amta ran say gagawaen da et amay mismon
+  imbaga na Dios ya agda nepeg a gawaen. Nen kinan da may prutas, ginagala ran ag-unoren
+  so sakey a simpli tan ag-ambelat ya ganggan. Agda nirespeto so Ama rad tawen tan
+  say autoridad to. Anggapoy nibaraan dad satan ya ginawa ra ed maaron Amalsa ed sikara!\\n12.
+  Antoy makatulong pian natalosan tayoy alikna nen Jehova nen agtinmulok si Adan tan
+  Eva?\\n12 Niay sakey ya ilustrasyon: Antoy naliknam no say pinabaleg tan inasikasom
+  ya anak et agto ka inunor, nirespeto, odino aaroen? Seguradon nasakitan ka. Isip
+  mo pa labat so sakit ya alikna nen Jehova nen agtinmulok si Adan tan Eva.\\n13.
+  Antoy imbaga nen Jehova ya nagawad si Adan no ompatey, tan antoy labay ya ibaga
+  na satan?\\n13 Anggapo lay rason pian abuloyan nen Jehova ya tuloytuloy nin manbilay
+  so agmatulok ya sanasawa. Inatey ira, ya singa imbaga to. Anggapo lay Adan tan Eva.
+  Ag-ira linma ed kawalaan na saray espiritu. Segurado tayod satan ta imbaga nen Jehova
+  ed si Adan nen tinepetan to ra nipaakar ed ginawa da. Imbaga na Dios: \u201cOmpawil
+  ka ed dalin, ta ditan so angalaan ed sika. Lapud dabok ka, ompawil ka ed dabok.\u201d
+  (Genesis 3:19) Ginawa na Dios si Adan manlapud dabok na dalin. (Genesis 2:7) Balet
+  antis to \u2019tan, anggapoy Adan. Kanian, nen imbaga nen Jehova ya ompawil ed dabok
+  si Adan, say labay Ton ibaga et ompawil ed dati, ya anggapoy Adan. Magmaliw ya anggapo
+  lay bilay to ya singa dabok, ya angalaan ed sikato.\\n14. Akin ya ompapatey tayo?\\n14
+  Mabilay ni komon natan si Adan tan Eva, balet inatey ira ta pinili ran ag-onuren
+  so Dios, kanian nankasalanan ira. Say rason no akin ya ompapatey itayo et impatawir
+  nen Adan ed amin ya anak to so kasalanan pati say patey. (Basaen so Roma 5:12.)
+  Satan a kasalanan et singa atawir ya graben sakit tan agnapaliisan na anggan siopa.
+  Say resulta to \u2019tan et patey, sakey ya sumpa. Say patey et sakey a kabusol,
+  aliwan kaaro. (1 Corinto 15:26) Talagan misalsalamat tayo ta inter nen Jehova so
+  dondon pian nisalba tayod satan ya makapataktakot ya kabusol!\\nMAKATULONG NO AMTA
+  TAYOY TUA NIPAAKAR ED PATEY\\n15. Akin et naligliwa itayo no amta tayoy tua nipaakar
+  ed patey?\\n15 Naligliwa itayo ed ibabangat na Biblia nipaakar ed kipapasen na inaatey.
+  Singa naaralan tayo la, saray inaatey et agnaiirapan odino nasasakitan. Agtayo ra
+  nepeg ya takotan ta agda itayo nasakitan. Agda kaukolan so tulong tayo tan agda
+  itayo natulongan. Agtayo ra nakatongtong tan agda itayo met nakatongtong. Ibabaga
+  na dakel ya lider na relihyon ya natulongan da kuno iray inaatey kanian babayaran
+  ira na totoon manisia ed sikara. Balet no amta tayoy tua, ag-itayo naloko na saray
+  mangibabangat ed saratan ya tila.\\n16. Siopay angimpluensya ed saray bangat na
+  dakel a relihyon, tan panon?\\n16 Kasin say ibabangat na dakel ya relihyon nipaakar
+  ed saray inaatey et mipara ed ibabangat na Biblia? Maslak et andi. Akin? Lapud saray
+  bangat da et naimpluensyaan nen Satanas. Uusaren toy palson relihyon pian panisiaen
+  so totoo ya no ompatey ira, manbilay ni ran siansia diad kawalaan na saray espiritu.
+  Saya et tila ya ilalaok nen Satanas ed arum ni ran tila pian niyarawi toy totoo
+  ed si Jehova a Dios. Panon?\\n17. Akin ya say bangat nipaakar ed impierno et mamauges
+  ed si Jehova?\\n17 Singa naamtaan tayo la, ibabangat na arum a relihyon ya no ompatey
+  so mauges ya too, onlad impierno pian tuloytuloy ya pairapen. Papaugesen na sayan
+  bangat so Dios. Si Jehova et maar-aron Dios tan agton balot itan gawaen. (Basaen
+  so 1 Juan 4:8.) Antoy naliknam no say sakey ya too et siniten toy lima na ugaw lapud
+  benger? Narespetom kasi itan a too? Labay mo ni kasin kabaten? Seguradon andi! Ompan
+  parad sika et marukruksa \u2019tan a too. Ontan so labay nen Satanas ya isipen tayo
+  nipaakar ed si Jehova, ya tuloytuloy To kuno ya papairapen tan popoolan iray totoo!\\n18.
+  Say pandayew ed saray inaatey et base ed anton tilan bangat na arum ya relihyon?\\n18
+  Uusaren met nen Satanas so arum a relihyon pian ibangat ya no ompatey iray totoo
+  et magmaliw iran espiritu, tan nepeg iran respetoen tan galangen na mabilay ya totoo.
+  Base ed satan ya bangat, say espiritu na saray inaatey et magmaliw kunon makapanyarin
+  kakaaro odino makapataktakot a kakabusol. Dakel so manisia ed sayan tila. Natatakot
+  irad saray inaatey kanian papagalangan tan dadayewen da ra. Balet, ibabangat na
+  Biblia ya saray inaatey et singa naugip, tan say nepeg labat ya dayewen tayo et
+  say tuan Dios, si Jehova, say Amalsa tan mangiiter ed amin ya kaukolan tayo.\u2014Apocalipsis
+  4:11.\\n19. Anto nin bangat na Biblia so natalosan tayo no amta tayoy tua nipaakar
+  ed saray inaatey?\\n19 No amta tayoy tua nipaakar ed saray inaatey, ag-itayo nibalang
+  na saray tilan bangat na arum ya relihyon. Ontulong met itan ed sika pian natalosan
+  mo ni ray arum ya bangat na Biblia. Singa bilang, lapud atalosan mo ya saray inaatey
+  et ag-oonla ed kawalaan na saray espiritu, magmaliw ya tudtua ed sika so promisa
+  ya manbilay ya tuloytuloy diad paraison dalin.\\n20. Anton tepet so naebatan ed
+  ontumbok ya kapitulo?\\n20 Nensaman et oniay intepet na maong ya toon si Job: \u201cNo
+  ompatey so sakey a too, nabilay lamet kasi?\u201d (Job 14:14) Nabilay lamet kasi
+  so inatey? Naligliwa tayo ed ibabangat na Biblia nipaakar ed satan, a singa naaralan
+  tayo ed ontumbok ya kapitulo.\"", "\"\u201cSay labay ton ibagan tan,\u201d kuanton
+  pinetek nen seminarista, \u201cso agto asalin balot so tinmubong ed simbaan kaleganay
+  makasalanan ya inpanbilay to. No tungtongey tua agkon balot anengneng ya akiulop
+  ed ontan lan karakel day buayan(1) onluloob ed simbaan.\u201d\\nAmaarap ira lamet
+  sirin ed samay sakey a baklad tan angiparaan a piduay Andeng na panselaran.\\nOntatayagtag
+  lay agew; mapalpalayupoy so siplog na dagem; naliliing iray daluyon a binelbinel
+  ed liberliber ton may buaya, tan \u201cmansibuag na atagtagey iray burakan ya pankidiamay
+  sinag na agew ed nambabangil iran kolor,\\\" unong na inkuanen omaanlong ya P. A.
+  Paterno.\\nTinmobat lamet so tugtog: si Iday manotugtog na arpa tan saramay lalaki,
+  saray akordion tan gitara ya wala lad tay balibali pananugtog to, wala met lay ag
+  makatono, et tinalo ran amin nen Albino ta andi pagsamaan ton gasgas lan gasgas
+  na gitara ya anggapoy natunton ton kompas, mansekiaw a pinaspasia ya nalilingoanan
+  toy totugtogen to odino igapo tod sakey a sonata kasanlilikna sananey lay isosuldong
+  to.\\nMagmaalem so linawa ran sinmingger ed samay sa key a koral ta mapagpaga ran
+  wadmay asawa ton may buayan inatey; et napnapnek so linawa ra ta kapag itagey day
+  iket napnoy sira.\\nSi Tia Isabel so manggagangan a kuanto:\\n\u201cSatay ayungin
+  mananam ya isegang; satay bonor para iskabitsi; say dalag tan bulanbulan ipisa.
+  Mabayag so bilay na dalag, kanian ipawil yo rad tan ed iket pian manayam nirad tan
+  ed danum. Ititi tay urang! Saratay balanak ipolpog a seksekay kamatis so eges da
+  insan balkoten irad bulong na ponti. Itilak yo ra tay arum a sira pian walay tapang
+  ta makapoy no ekalen ya ami lugan to,\u201d kuanton inabot.\\nDiad saya nanpagilig
+  laran sinmakbit dimad takel\\na kaibay daldalin nen Ibarra, ya kiew toray atatagey\\na
+  masalsalompapak tan mamasiken lara. Dimad sirum\\nday kakiyewan ed abay na manages
+  a kulos tan rosrosas\\nso angipaalageyan iray palapala ya pangogtoan da.\\n\u2014190\u2014\"",
+  "\"Biblia Online | BALON MUNDO A PATALOS NA MASANTON KASULATAN\\n-\\nApaabig so
+  mansasakit a laki diad Bethzatha (1-18)\\n-\\nSay autoridad nen Jesus et nanlapud
+  Ama to (19-24)\\n-\\nNarengel na inaatey so boses nen Jesus (25-30)\\n-\\nPantasi
+  nipaakar ed si Jesus (31-47)\\n5 Kasabi na piesta+ na saray Judio, tinmatdang si
+  Jesus ed Jerusalem.\\n2 Diman ed Jerusalem diad asingger ed Puerta na Saray Karnero+
+  et walay sakey a tiponan na danum a tatawagen ed Hebreo a Bethzatha, a walaay limaran
+  portiko.\\n3 Akarukol ditan so amayamay a mansasakit, bulag, piley, tan saramay
+  kinmekebet so lima odino sali ra.\\n4 \u2014\u2014\\n5 Balet walay laki ditan a
+  38 taon lan mansasakit.\\n6 Sanen anengneng nen Jesus iyan laki ya akarukol, tan
+  amta ton abayag lan mansasakit, inkuan tod sikato: \u201cLabay moy onabig?\u201d+\\n7
+  Inmebat ed sikato imay mansasakit: \u201cKatawan, anggapoy mangilasur ed siak diad
+  tiponan na danum sano nakikimbog la, balet sano onlasur ak la et walay sananey a
+  makauna ed siak.\u201d\\n8 Inkuan nen Jesus ed sikato: \u201cAlagey ka! Libit moy
+  dukolan mo tan manakar ka.\u201d+\\n9 Tan inmabig a tampol imay laki, tan nilibit
+  toy dukolan to tan nanakar la.Agew na Sabaton ed saman.\\n10 Kanian imbaga na saray
+  Judio ed samay apaabig a laki: \u201cSabaton natan, tan sebel a manlibit kay dukolan.\u201d+\\n11
+  Balet sikatoy inmebat ed sikara: \u201cSamay amaabig ed siak et inkuan ton, \u2018Libit
+  moy dukolan mo tan manakar ka.\u2019\u201d\\n12 Sikatoy tinepetan da: \u201cSiopa
+  tay angibaga ed sikan, \u2018Libit mo itan tan manakar ka\u2019?\u201d\\n13 Balet
+  agkabat na samay inmabig a laki no siopa imay anambal ed sikato, ta ag-aliklikas
+  a linmaok si Jesus ed dakdakel a totoon wadman.\\n14 Kayari na satan et sikatoy
+  anengneng nen Jesus diad templo tan inkuan tod sikato: \u201cNengneng mo, inmabig
+  ka la. Agka la mankakasalanan, ta pian anggapoy nagawa ed sikan mas mauges.\u201d\\n15
+  Linma iyan too ed saray Judio tan imbaga ton say amaabig ed sikato et si Jesus.\\n16
+  Lapud saya, si Jesus et pinasegsegang na saray Judio, ta gagawaen to iraya legan
+  na Sabaton.\\n17 Balet imbaga tod sikara: \u201cSay Amak et mankikimey ni anggad
+  natan, tan ontan ak met.\u201d+\\n18 Kanian lalon pursigido iray Judio a mamatey
+  ed sikato, lapud agto labat susumlangen so Sabaton noagta tatawagen to met ya Ama
+  to so Dios,+ ya ipapara toy sarili to ed Dios.+\\n19 Inkuan nen Jesus ed sikara:
+  \u201cIbagak ed sikayoy tua, agnagawaan na Anak so anggan sakey a bengatla unong
+  ed dilin panlabayan to, noagta saman labat so nanenengneng ton gagawaen na Ama.+
+  Ta antokaman a gagawaen na Ama, saraya so gagawaen met na Anak.\\n20 Ta aaroen na
+  Ama so Anak+ tan ipapanengneng tod sikato so amin a gagawaen to, tan ipanengneng
+  tod sikato iray kimey a babaleg nen saraya, pian onkelaw kayo.+\\n21 Ta no panon
+  a papaolien na Ama iray inaatey tan bibilayen to ra,+ ontan met so Anak a bibilayen
+  to so siopaman a labay to.+\\n22 Ta anggapon balot so uukomen na Ama, noagta inmatalek
+  to lad Anak so amin a pangukom,+\\n23 pian igalang na amin so Anak a singa pangigagalang
+  dad Ama. Siopaman ya agmangigalang ed Anak et agmangigagalang ed Ama ya angibaki
+  ed sikato.+\\n24 Ibagak ed sikayoy tua, siopaman ya ondengel ed salitak tan manisia
+  ed samay angibaki ed siak et walaan na bilay ya andi-anggaan,+ tan sikatoy agnaukom
+  noagta alabasan to lay ipapatey tan mamapaarap lad bilay.+\\n25 \u201cIbagak ed
+  sikayoy tua, onsabi oras, tan natan la itan, sano narengel na inaatey so boses na
+  Anak na Dios, tan saramay dinmengel tan tinmulok et nabilay.\\n26 Ta say Ama et
+  walaay pakayarin mangiter na bilay,+ tan inikdan to so Anak na pakayarin mangiter
+  met na bilay.+\\n27 Tan sikatoy inikdan toy autoridad a mangukom,+ lapud sikato
+  so Anak na too.+\\n28 Agyo pankelawan iya, lapud onsabi so oras a saray amin a walad
+  pakanodnonotan iran lubok et narengel day boses to+\\n29 tan ompaway ira, saramay
+  nanggaway maong et napaoli pian manbilay, tan saramay nanggaway mauges et napaoli
+  pian naukom.+\\n30 Agak makapanggawa na anggan sakey a bengatla unong ed panlabayan
+  ko. Mangukom ak unong ed narengel ko, tan say panangukom ko et matunong,+ ta say
+  aanapen ko et aliwan say linawak, noag say linawa na samay angibaki ed siak.+\\n31
+  \u201cNo siak labat so mantasi ed sarilik, aliwan tua so pantasik.+\\n32 Walay sananey
+  a mantatasi nipaakar ed siak, tan amtak a say pantatasi to nipaakar ed siak et tua.+\\n33
+  Angibaki kayo na totoo ed si Juan, tan tinasian toy katuaan.+\\n34 Anggaman ontan,
+  agko la kaukolan so pantasi na too, balet ibabagak iraya pian nilaban kayo.\\n35
+  Saman a too et singa silew a mandarlang tan maliwliwawa, tan diad antikey a panaon
+  et labalabay yon panliketan a maong so liwawa to.+\\n36 Balet walaan ak na mas mabiskeg
+  a prueba nen samay imbaga nen Juan a nanlapu ak ed Ama, ta saray mismon kimey ya
+  ingganggan na Amak a sumpalen ko, sarayan kimey a gagawaen ko, so mamaneknek ya
+  imbaki ak na Ama.+\\n37 Tan say Ama ya angibaki ed siak so mismon mantatasi ed siak.+
+  Agyon balot nadngel so boses to odino anengneng so itsura to,+\\n38 tan anggapo
+  ed puso yo so salita to, ta agyo panisiaan so mismon imbaki to.\\n39 \u201cUusisaen
+  yo so Kasulatan+ ta iisipen yo a nawalaan kayoy bilay ya andi-anggaan ed panamegley
+  na satan; tan satan a mismo so mantatasi nipaakar ed siak.+\\n40 Balet agyo labay
+  so ondago ed siak+ pian nawalaan kayoy bilay.\\n41 Agko aanapen so panangigloria
+  na totoo,\\n42 balet aliwa kayon ontan. Amtak ya anggapoy panangaro yod Dios.\\n43
+  Linma ak dia ed ngaran nen Amak, balet agyo ak inawat. No walay sananey ya onsabi
+  ed ngaran ton dili, sikatoy awaten yo.\\n44 Panon kayon manisia, anta aanapen yoy
+  panangigloria na balang sakey tan agyo aanapen so gloria a manlalapud saksakey a
+  Dios?+\\n45 Agyo iisipen ya akusaan ta kayo ed Ama; walay sakey a mangaakusa ed
+  sikayo,+ si Moises, a sikatoy paniilaloan yo.\\n46 Diad tua, no anisia kayod si
+  Moises, manisia kayo komon ed siak, lapud sikatoy nansulat nipaakar ed siak.+\\n47
+  Balet no agyo panisiaan iray insulat to, panon yon panisiaan so ibabagak?\u201d\"",
+  "\"Andi. Diad tua, nen naamtaan min dumad ibabaga na Biblia iray papanisiaan mi,
+  inuman mi iratan.\\nDakel ya taon antis kamin angi-publish na New World Translation
+  of the Holy Scriptures nen 1950, inaral mi lay Biblia. Inusar mi ray available ya
+  bersion tan ditan so angibasiyan mid saray papanisiaan mi. Imanoey pigaran abayag
+  lan papanisiaan na Saray Tasi nen Jehova, tan nengneng yo no kasin ontan ya talaga
+  so ibabangat na Biblia.\\nPapanisiaan mi: Say Dios et aliwan Trinidad. Oniay imbaga
+  na Hulyo 1882 ya Zion\u2019s Watch Tower: \u201cAmta na saray manbabasa ya manisia
+  kamid si Jehova tan Jesus, tan say masanton Espiritu, balet agmin balot aawaten
+  so agnibased Biblia ya bangat a saraya et taloran Dios ed saksakey a persona odino,
+  sakey a Dios a taloran persona.\u201d\\nNo antoy kuan na Biblia: \u201cSi Jehova
+  a Dios tayo sikato so sakey a Jehova.\u201d (Deuteronomio 6:4, Say Biblia, Philippine
+  Bible Society) \u201cPara sikatayo saksakey so Dios, say Ama ya amalsa ed amin a
+  bengatla tan manbibilay itayon para sikato. Saksakey met so Katawan, si Jesu-Kristo,
+  a diad panamegley to apalsay amin a bengatla, tan diad panamegley to met manbibilay
+  itayo.\u201d (1 Corinto 8:6, Maung a Balita) Imbagan mismo nen Jesus: \u201cSay
+  Ama babaleg nen say siak.\u201d\u2014Juan 14:28, Say Biblia.\\nPapanisiaan mi: Aliwan
+  tua so andi-anggaan a panamairap ed mandarlang ya impierno. Nibase ed Roma 6:23
+  na King James Version so tema na Hunyo 1882 a Zion\u2019s Watch Tower a \u201cSay
+  Bayar na Kasalanan et Patey,\u201d tan oniay nabasa: \u201cMalinew tan simpli itan
+  ya katuaan. Balet makapakelaw ta dakel ed saray mangibabagan manisia ran say Biblia
+  et Salita na Dios so kontran maong ed sayan malinlinew ya katuaan, tan ipipilit
+  day papanisiaan da, tan ibabangat kuno na Biblia, a say bayar na kasalanan et andi-anggaan
+  a panamairap ed mandarlang ya impierno.\u201d\\nNo antoy kuan na Biblia: \u201cSay
+  toon mankasalanan sikato so ompatey.\u201d (Ezequiel 18:4, 20, Maung a Balita) Say
+  dusa na saramay onkokontra ed Dios et aliwan andi-anggaan a panamairap, noagta \u201candi-anggaan
+  a kaderal.\u201d\u20142 Tesalonica 1:9, Maung a Balita.\\nPapanisiaan mi: Say Panarian
+  na Dios et tuan gobierno, aliwa labat a walad puso. Oniay imbaga na Disyembre 1881
+  ya Zion\u2019s Watch Tower nipaakar ed Panarian na Dios: \u201cSiempre, kaibad kiletneg
+  na sayan panarian so paneral ed amin a panarian diad dalin.\u201d\\nNo antoy kuan
+  na Biblia: \u201cTan dia ed saray agew naani na saratan ya ar-ari, say Dios na tawen
+  mamaalagey naani na sakey a panarian ya anggan kapigan agnaani naderal tan say pananguley
+  to agnaani niiter ed sananey a baley. Balet buybuyaken to naani tan upoten to naani
+  so saraya ya amin a panarian, et sikato so mansiansia lawas.\u201d\u2014Daniel 2:44,
+  Say Biblia.\\nKasin uusaren na Saray Tasi nen Jehova so New World Translation pian
+  nasuportaay papanisiaan da?\\nAndi. Uusaren mi nin siansia so nanduruman bersion
+  na Biblia diad pampupulong mi. Diad tua, anggano mangiiter kami na libren New World
+  Translation bilang kabiangan na libren programa na panangiyaral na Biblia, labay
+  mi met ya iyaralan iramay mas labay day arum a bersion na Biblia.\"", "\"IMPORTANTE:
+  DIAD PANGUSAR MOD WEBSITE MI TAN/ODINO DIAD PANGITER MOD SIKAMI NA ANGGAN ANTON
+  PERSONAL YA DATA TUNGKOL ED SIKA, MALINEW YA ONAABULOY KA YA AMIN A PERSONAL YA
+  DATA YA IN-SUBMIT MO ET SARAG MIN I-PROCESS ED PARAAN TAN GAGALA YA ADESKRIBE ED
+  SAYAN TOTONTONEN ED PRIVACY TAN BILANG PANUMBOK ED SARAY ONAPLIKAN LEY TAN REGULASYON
+  ED PERSONAL YA DATA.\\nSaray Totontonen ed Privacy\\nNengnengen met so\\nPANRESPETO
+  ED PRIVACY\\nGagawaen mi anggaay nayarian min protektaan tan respetoen so privacy
+  yo. Nabasa ed sayan Totontonen so gagala na personal ya data ya aalaen mi odino
+  iiter yod sikami, ya ipro-process mi ed website mi. Pansiasiansiaen min kompidensyal
+  iray pigaran impormasyon tungkol ed sikayo no onla kayod website mi tan ipapasen
+  min importante ya pansiansiaen so seguridad na saratan ya impormasyon tan ipaamta
+  mid sikayo no antoy gawaen mi ed saratan. Sikayoy mandesisyon no iter yod sikami
+  iray impormasyon ya ipapasen ya personal ya data. Say terminon \u201cpersonal ya
+  data\u201d ya nausar ed sayan Totontonen et ontutukoy ed saray impormasyon a singa
+  say ngaran, e-mail address, address, numero na telepono, odino arum nin data ya
+  nausar a pakabidbiran ed sika. Agla kaukolan so pangiter moy personal ya impormasyon
+  no onla kad saray page na sayan website ya parad publiko. Kaiba ed tutukoyen ya
+  \u201cwebsite\u201d iyan mismon website tan arum nin website mi, a singa say apps.jw.org,
+  tv.jw.org, stream.jw.org, tan wol.jw.org.\\nIMPORMASYON ED DATA CONTROLLER\\nSayan
+  website et kayarian na Watchtower Bible and Tract Society of New York, Inc. (\u201cWatchtower\u201d),
+  sakey ya korporasyon ed New York ya aliwan parad negosyo tan onsusuporta ed saray
+  aktibidad na Saray Tasi nen Jehova tan ed gagawaen dan panagbangat na Biblia. No
+  nandesisyon kan man-open na account, mangiter na donasyon, man-request na panagaral
+  na Biblia ya anggapoy bayar, odino antokaman so gawaen mon mankaukolan ya iter moy
+  personal ya data, onaabuloy ka sirin ed sayan Totontonen, pati ed pangi-save mid
+  satan ya data ed saray server ya walad United States of America tan ed pangala,
+  pan-process, pangi-transfer, tan pangi-save ed personal a data ya inter mod Watchtower
+  tan saray mitutulongan ya organisasyon ya onsusuportad Saray Tasi nen Jehova ed
+  nanduruman bansa, tan gawaen mi labat iratan no kaukolan pian na-process so request
+  mo. Say relihyoson organisasyon mi et walaan na saray nanduruman lokal ya ahensia
+  ed interon mundo. Pian naprotektaan iray data, nayarin kaibad saraya iray lokal
+  ya kongregasyon, branch office, tan arum nin mitutulongan ya organisasyon na Saray
+  Tasi nen Jehova.\\nNanduruma iray data controller parad inter mon personal ya data,
+  depende ed no antoy gawaen mo ed website mi. Singa bilang, no mandonasyon ka ed
+  sakey a legal ya ahensia mi diad sakey a bansa, say ngaran tan contact information
+  mo so iter ed satan ya legal ya ahensia pian usaren itan legan kan mandodonasyon.
+  Sakey nin alimbawa, no man-request kay panagaral na Biblia, say ngaran tan contact
+  information mo et iter ed sakey a branch office tan kongregasyon na Saray Tasi nen
+  Jehova pian nagawaan so request mo.\\nNo labay moy patulongan, tan no diad bansan
+  panaayaman mo et walay ley parad proteksion na data, nia so link ya pakaromogan
+  mod contact information ed bansan panaayaman mo: Saray Contact Parad Data Protection.\\nSEGURIDAD
+  NA DATA TAN NO PANON MI ITAN YA PANSIASIANSIAEN YA KOMPIDENSYAL\\nSeryoso kami ed
+  seguridad na inter mon data tan ed no panon min pansiasiansiaen itan ya kompidensyal.
+  Manguusar kami na saray sankabaloan ya technique ed seguridad tan panag-store na
+  data pian say inter mon personal ya impormasyon et naprotektaan ed ag-autorisadon
+  pan-access, aliwan panangusar o pangipaamta, ag-autorisadon pan-edit, ilegal ya
+  paneral odino aksidentin pakabalang ed data. Amin ya man-process ed inter mon personal
+  ya data tan anggan anton third-party ya website ya pangaalaan mi serbisyo pian i-process
+  so inter mon personal ya impormasyon et obligadon pansiansiaen ya kompidensyal so
+  inter mon impormasyon. Saray inter mon personal ya data et ire-retain mi labat anggad
+  nakaukolan parad gagala na impangala mid satan odino pian natumbok iray onaplikan
+  ley parad panag-report odino saray kakaukolanen parad pan-retain na dokumento.\\nNo
+  ise-send so personal ya data, proprotektaan mi itan diad panguusar mi ed saray encryption
+  protocol a singa say Transport Layer Security (TLS). Manguusar kami na saray computer
+  system ya limitado labat so maka-access tan walad saray lugar ya uusaran na pisikal
+  tan elektronikon paraan ed seguridad, tan wala ray procedure ya tutumboken pian
+  naprotektaan so impormasyon ya ise-send ed sikami. Istrikto iray estandarte mi parad
+  seguridad pian napaliisan iray ag-autorisadon pan-access.\\nSARAY MENOR-DE-EDAD\\nNo
+  ipapasen kan sakey a menor-de-edad ed bansa ya kawalaan mo tan onla kad website
+  mi, nayarian mo ya i-submit ed sayan website so personal ya data tungkol ed sika
+  no iyabuloy labat na (saray) ateng odino guardian mo. No sakey kan ateng odino guardian
+  tan abuloyan moy sakey a menor-de-edad ya i-submit ed sayan website so personal
+  ya data to, mipakna ka sirin ed sayan Totontonen nipaakar ed pangusar na menor-de-edad
+  ed sayan website.\\nSARAY THIRD-PARTY YA WEBSITE\\nNo maminsan, sayan website et
+  walaan na saray link ya onlad third-party ya website ya mangiiter na serbisyo parad
+  sikami (singa bilang, say panfill-up ed saray online form). Naamtaan mo ya wala
+  kad third-party ya website lapud duma so itsura na satan tan nasalatan so walad
+  address bar na browser mo. No manpipili kami na saray third-party ya website, iche-check
+  mi iray totontonen da ed privacy tan saray totontonen da ed proteksion na data pian
+  naseguro ya mipara so estandarte ra ed saray uusaren min totontonen, tan regular
+  min gagawaen iya. No wala ray tepet mo nipaakar ed saray totontonen na third-party
+  ya website, nengnengen so totontonen ya walad website da.\\nPANANGIPAAMTAD SARAY
+  PANANGUMAN ED SAYAN TOTONTONEN\\nTuloytuloy min papaaligwasen tan aaruman na saray
+  balon function tan feature iyan website, tan papaaligwasen tan aaruman mi iray dati
+  lan serbisyo mi. Lapud sarayan pananguman, pati saray pananguman ed ley tan ed teknolohiya,
+  sagpaminsan et manguman met iray regulasyon tan technique mi ed data. No kaukolan
+  ya umanen so Totontonen mi, i-post mi iray pananguman ed sayan page pian lanang
+  mon naamtaan no anto ray impormasyon ya aalaen mi tan no panon mi iratan ya uusaren.\\nACTIVE
+  SCRIPTING ODINO JAVASCRIPT\\nManguusar iyan website na scripting pian mas na-improve
+  iray function na website. Panamegley na sayan teknolohiya, maples a makapangiter
+  iyan website na impormasyon ed sika. Agbalot usaren na sayan website so scripting
+  pian man-install na software ed computer mo odino mantakew na impormasyon ed sika.\\nKaukolan
+  ya aka-enable so Active Scripting odino JavaScript ed browser pian duga so iyandar
+  na arum a parte na sayan website. Diad dakel a browser et nayarin i-set ed enable
+  o disable so scripting parad espisipiko iran website. Lukasan so Help documentation
+  na browser pian naamtaan mo no panoy pan-enable ed scripting parad pinilim iran
+  website.\"", "\"Nanengneng dia so isyu a pakaromogan ed artikulo\\nAARALEN IRAN
+  ARTIKULO\\nAgyo Papaulyanan ya Ombetel so Panangaro Yo, Mayo\\nAkin ya Importante
+  nin Siansia so Pagmaliw ya Mapaabeba? Ene.\\nAligen so Inkamaabagey nen Jehova,
+  Set.\\nAligen so Inkahustisya tan Panangasi nen Jehova, Nob.\\n\u201cAmtak a Sikatoy
+  Onoli,\u201d Dis.\\nAnapen so Tuan Kayamanan, Hul.\\nAnggapo Komon so Mangamper
+  ed Sikayon Naalay Premyo Yo, Nob.\\nAntoy Naandi No Onsabi Lay Panarian na Dios?
+  Abr.\\nAtateng\u2014Tulongan Yoy Ananak Yo a Magmaliw a \u201cMarunong Parad Kililiktar,\u201d
+  Dis.\\n\u201cIdayew Yoy Jah!\u201d\u2014Akin? Hul.\\n\u201cImatalek Mo ed Saray
+  Matoor a Lalaki,\u201d Ene.\\nIpulisay so Panagnonot na Mundo, Nob.\\nIpanengneng
+  so Pananisia\u2014Manggaway Makabat a Desisyon! Mar.\\nIter so Galang ed Saray Makanepegan,
+  Mar.\\nIwawanwan nen Jehova Iray Totoo To, Peb.\\nKabataan\u2014\u201cItultuloy
+  Yon Pansagpotan so Pakaliktar Yo,\u201d Dis.\\nKasin Ipapapusom Iray Nisulat ya
+  Pasakbay? Mar.\\nKasin Mabulos tan Maanos Kan Manalagar? Ago.\\nKasin Manpapasalimbeng
+  Ka ed si Jehova? Nob.\\n\u201cKasin Mas Inarom Ak Nen Saraya?\u201d Mayo\\nKasin
+  Miparad si Jehova so Panmoriam ed Inkahustisya? Abr.\\n\u201cKomon . . . Gawaen
+  Ton Matalona so Amin a Planom,\u201d Hul.\\nLiligliwaen Itayo nen Jehova Diad Amin
+  a Subok, Hun.\\nLingkoran si Jehova Diad Interon Puso! Mar.\\nMangansion a Malikeliket!
+  Nob.\\n\u201cMangaro Itayo . . . Diad Gawa tan Katuaan,\u201d Okt.\\n\u201cManmatalek
+  Kad si Jehova tan Manggawa Kay Maong,\u201d Ene.\\n\u2018Manpakpel Ka tan Igapom
+  Lay Kimey\u2019 Set.\\nManpokus ed Importantin Isyu, Hun.\\n\u201cMiakis Kayo ed
+  Saramay Onaakis,\u201d Hul.\\nNidayew Komon si Jehova ed Pamboboluntaryom! Abr.\\n\u201cNo
+  Antoy Insipan Mo, Toor Mo,\u201d Abr.\\nNo Panon ya Isulong tan Pansiansiaen so
+  Balon Personalidad, Ago.\\nNo Panon ya Lakseben tan Agla Ipawil so Daan a Personalidad,
+  Ago.\\nPaaligwasen so Panangontrol ed Sarili, Set.\\nPablien Iray Espiritual a Kayamanan,
+  Hun.\\nPablien so Regalon Makapandesisyon a Bukor, Ene.\\nSarag Moy Mansiansian
+  Mapaabeba Anggano Nasusubok, Ene.\\nSaray Karwahe tan Say Korona so Manprotekta
+  ed Sika, Okt.\\nSaray Pasingawey ed si Zacarias\u2014No Anto Ray Naaralan Mo, Okt.\\nSay
+  Dondon\u2014\u201cSankaabigan a Regalo\u201d ya Nanlapud Ama, Peb.\\n\u201cSay Kareenan
+  na Dios . . . Palumbasan Toy Amin a Pakatalos,\u201d Ago.\\nSay Katuaan et Mangiyakar
+  na \u201cEspada, Aliwan Kareenan,\u201d Okt.\\n\u201cSay Salita na Dios et Makapanyari,\u201d
+  Set.\\n\u201cSay Salita na Dios Tayo et Mansiansia ya Anggad Angga,\u201d Set.\\n\u201cSay
+  Ukom na Interon Dalin\u201d et Naynay Ton Gagawaen no Antoy Maptek, Abr.\\nSeguradon
+  Nasumpal so Gagala nen Jehova! Peb.\\nSiopay Mangidadaulod Totoo na Dios Natan?
+  Peb.\\nSuportaan so Inkasoberano nen Jehova! Hun.\\nTulongan Iray Ananak na Saray
+  \u201cDayon Miaayam,\u201d Mayo\\nTulongan Iray \u201cDayon Miaayam\u201d ya Maliket
+  Dan Lingkoran si Jehova, Mayo\\n\u201cWalay Ilalok ed Dios,\u201d Dis.\\nBIBLIA\\nISTORYAY
+  BILAY\\nAkaaral Ak Diad Impiulop Kod Saray Marunong (W. Samuelson), Mar.\\nAminpiga
+  Min Naeksperiensya so Agnaparaan ya Kaabigan na Dios (D. Guest), Peb.\\nAnggano
+  Telek Ak, Akapanbangat Ak Nin Siansia ed Arum (W. Markin), Mayo\\nApribilehyoan
+  Ak ya Mikimey ed Maespiritual ya Lalaki (D. Sinclair), Set.\\nDeterminado ya Mansiansian
+  Sundalo nen Kristo (D. Psarras), Abr.\\nManresulta ed Bendisyon so Pansungdo ed
+  Subok (P. Sivulsky), Ago.\\nSaray Bendisyon Diad Panumpal ed Pagagawa nen Jehova
+  (O. Matthews), Okt.\\nWala Ray Tinaynan Ko Pian Natumbok Koy Kristo (F. Fajardo),
+  Dis.\\nJESU-KRISTO\\nKUALIDAD TAN BILAY NA KRISTIANO\\nAro\u2014Mabmablin Kualidad,
+  Ago.\\nKasin Ayosen Moy Agpantatalosan Pian Niwalay Kareenan? Hun.\\nKasin Bawal
+  ya Mangasawa Iray Ministro? No. 2\\nMaong ya Resulta na Panangiter, No. 2\\nNayari
+  Kasin Man-Krismas Iray Kristiano? No. 6\\nNo Nasusubok so Pankakaaro, Mar.\\nSay
+  Dugan Isipen No Walay Alingo, No. 6\\nTaloen so Kalaban ya Onaataki ed Nonot Mo,
+  Hul.\\nMISELANYOS\\nAnto tay Armagedon? No. 6\\nAntoy Ibabaga na Biblia Tungkol
+  ed Bilay tan Patey? No. 4\\nAntoy Niyugali na Saray Judio a Sengegan ya Kinondena
+  nen Jesus so Pansamba? Okt.\\nAg-onnenengneng ed Itsura, Hun.\\n\u201cApaliket Ton
+  Maong so Dios\u201d (Enoc), No. 1\\nApatiran Akakabayo, No. 3\\nJose a Taga Arimatea,
+  Okt.\\nKapagaan, No. 4\\nKasin \u201cMatatakew\u201d Iray Manlalako na Ayayep diad
+  Templo? Hun.\\n\u201cMaganggana Kan Bii,\u201d No. 3\\nManbibilay Tayo la ed \u201cKaunoran
+  Iran Agew\u201d? No. 2\\nNensaman, Panon Dan Aawiten ed Arum a Lugar so Apoy? Ene.\\nNgaran
+  ed Biblia ya Akaukit ed Dagdaan lan Buyog, Mar.\\nNibulos ed Impakaaripen, No. 2\\n\u201cNirayew
+  Komon so Maong a Pakatebek Mo!\u201d (Abigail), Hun.\\nNiwala ni Tuan Hustisya Diad
+  Mundo? No. 3\\nNiwalay Deen Diad Dalin? No. 5\\nNo Grabe so Sakit na Inad-arom,
+  No. 4\\nPaniirap, No. 1\\nParaiso ed Dalin\u2014Imahinasyon Labat o Talagan Wala?
+  No. 4\\nSankamelagan a Letra na Hebreo, No. 4\\nSankarakepan ya Regalo, No. 6\\nSuhestion
+  nen Pablo ya Agni Ituloy so Pambiahe (Gaw 27), No. 5\\nTinawag na Dios ya \u201cPrinsesa\u201d
+  (Sara), No. 5\\nTinulongan nen Gayo Iray Agagi To, Mayo\\nWala ray Anghel? No. 5\\nTASI
+  NEN JEHOVA\\n\u201cAnggapoy Mairap odino Andukey ya Biyahe\u201d (Australia), Peb.\\nInyapay
+  day Inkasikara Diad Turkey, Hul.\\nInyapay day Inkasikara (saray single ya sister),
+  Ene.\\n\u201cKapigan so Onsublay ya Asemblea Tayo?\u201d (Mexico), Ago.\\n\u201cMabunlok
+  a Too et Nabendisyonan\u201d (pandonasyon), Nob.\\nMakapan-adjust ed Balon Kongregasyon
+  Mo, Nob.\\nMaliket so Simplin Bilay, Mayo\\n\u2018Mas Maseseg tan Balo so Panangaro
+  Mi\u2019 (1922 ya kombension), Mayo\\nSakey a Gawa na Kristianon Kaabigan, Okt.\\nTEPETEPET
+  NA SARAY MANBABASA\\nAkin et mandumaan so insulat nen Mateo tan Lucas nipaakar ed
+  impanugaw nen Jesus? Ago.\\nIpasen na sanasawan Kristiano ya say IUD et agkontra
+  ed Kasulatan? Dis.\\nKaukolan ya walay kanepegan na sakey bilang panguloan pian
+  magmaliw ya inmunan ateng na Mesias? Dis.\\nNayari kasi nawalaan na paltog pian
+  protektaay sarili ed arum ya too? Hul.\\nSi Jehova et \u201cagto abuloyan a nipaarap
+  kayod tukso ya agyo nayarian\u201d (1Co 10:13), Peb.\"", "\"\u2018Manmatalek ka
+  ed Jehova ed simoon a pusom, tan agka onsasaral ed dilin pakatalos mo.\u2019\u2014ULI.
+  3:5.\\n1, 2. Antoy nibagam ed panagdesisyon mo, tan antoy resulta na saratan?\\nINAGEW-AGEW
+  itayon mandedesisyon. Antoy nibagam ed panagdesisyon mo? Wala ray arum ya sarasarag
+  dan idesisyonay sarili da. Isipen dan kanepegan da itan, tan agda labay ya ipiya
+  itan ed arum. Say arum balet et antakot ya manggaway importante iran desisyon. Kanian
+  manaanap iray tulong diad saray libro odino diad arum a too tan igastosan da ni
+  ingen pian makala iray nakaukolan dan simbawa.\\n2 Iisipen balet na dakel ed sikatayo
+  ya wala ray agtayo kanepegan ya desisyonan, tan wala met iray sarag tayon desisyonan
+  depende ed labay tayo. (Gal. 6:5) Balet siempre, amta tayon aliwan amin ya desisyon
+  et makabat tan maabig so pansumpalan to.\\n3. Anto ran instruksion so tutumboken
+  tayo sano mandedesisyon tayo, balet akin et ag-itan mainomay no maminsan?\\n3 Misalsalamat
+  tayo ran lingkor nen Jehova ta inikdan to itayo na malinew iran instruksion ed saray
+  importantin dedesisyonan ed bilay. No tumboken tayo iratan, makapanggawa tayo na
+  saray desisyon ya mamaliket ed si Jehova tan parad pankaabigan tayo. Balet, ompan
+  wala ray naeksperiensya tayon problema o situasyon ya anggapoy espisipikon simbawad
+  Biblia. No ontan, panoy pandesisyon tayo? Alimbawa, amta tayo ya mauges so mantakew.
+  (Efe. 4:28) Balet ibabaga na arum ya aliwa met a mauges so mangala na agmo gawa
+  no talagan kakkaukolan mo odino agmet mabli. Panon itayon mandesisyon ed saray situasyon
+  ya anggapoy malinew tan espisipikon ganggan ed Biblia? Antoy makatulong ed sikatayo?\\nMANDESISYON
+  YA WALAY LIMPION PANAGNONOT\\n4. Antoy nayarin isimbawa na arum sano walay dedesisyonan
+  tayo?\\n4 Sano nasalita tayod sakey ya agi ya walay importantin dedesisyonan tayo,
+  ompan ibaga ton mandesisyon itayo ya walay limpion panagnonot. Duga itan ya simbawa.
+  Ibabaga na Biblia ya agtayo bastabasta mandedesisyon. Nabasa tayo: \u201cNo magangganat
+  kan manggawa, et kakulangan so nagunggonam.\u201d (Pro. 21:25, Maung a Balita) Balet
+  antoy labay ya ibaga na pandesisyon ya walay limpion panagnonot? Kasin say labay
+  ya ibaga na satan et mannonot tayon maong, agmanaapura, magmaliw ya realistiko,
+  tan aralen so situasyon? Tua, importante irayan amin pian dugay desisyon tayo, balet
+  wala ni mas nakaukolan.\u2014Roma 12:3; 1 Ped. 4:7.\\n5. Akin et aliwan perpektoy
+  panagnonot tayo?\\n5 Anggapoy toon perpektoy panagnonot to. Lapud makasalanan itayon
+  amin, aliwan perpekto so laman tan nonot tayo. (Sal. 51:5; Roma 3:23) Sakey ni,
+  dati et agkabat na dakel ed sikatayo si Jehova tan saray matunong ya estandarte
+  to lapud \u201cbinulag\u201d itayo nen Satanas. (2 Cor. 4:4; Tito 3:3) Kanian no
+  ibase tayo labat iray desisyon tayo ed iisipen tayon duga tan praktikal, ompan aliwa
+  nin siansiay desisyon tayo anggano ninonot tayon maong itan.\u2014Uli. 14:12.\\n6.
+  Antoy makatulong pian nawalaan itayoy limpion panagnonot?\\n6 Aliwan perpekto so
+  laman tan nonot tayo, balet si Aman Jehova et perpekto ed ami-amin. (Deu. 32:4)
+  Makapaliket ta tutulongan to itayon manguman pian nawalaan itayoy limpion panagnonot.
+  (Basaen so 2 Timoteo 1:7.) Bilang Kristiano, labay tayo ya limpio so panagnonot,
+  panagkatunongan, tan kiwas tayo. Kanian nepeg tayon aralen ya kontroley panagnonot
+  tan liknaan tayo pian naalig tayoy panagnonot, liknaan, tan kiwas nen Jehova.\\n7,
+  8. Mangisalaysay na eksperiensya no panoy dugan pandesisyon anggano dedesdesen itayo
+  na arum tan mairap so situasyon.\\n7 Niay sakey ya alimbawa. Dakel ya sanasawan
+  mana-abroad so mangisesempet ed kapangiyanak ya anak da pian say mangasikaso et
+  saray kakanayon da. Ontan so gagawaen da pian nitultuloy day mananap na pambilay
+  ed abroad. * Naeksperiensya itan na sakey ya bii ya nananak ed arum ya bansa. Sanen
+  kapananak to, ginmapon nanaral na Biblia tan inmaligwas ed espiritual. Sikato tan
+  say asawa to et dedesdesen na saray kakaaro tan kakanayon da ya isempet imay ugaw
+  ed saray bai tan laki to. Balet naaralan na sayan bii ya say inikdan na Dios na
+  responsabilidad ya mangasikasod anak et say ateng. (Sal. 127:3; Efe. 6:4) Kasin
+  mialig iyan bii ed gagawaen na arum ta singa atan so praktikal? Odino iyaplika toy
+  nanaaralan tod Biblia anggano mairap tan ompan sikatoy balawen na arum? Antoy gawaen
+  mo no sikay walad situasyon to?\\n8 Na-stress iyan bii lapud panedesdes na arum,
+  kanian nampikasid si Jehova tan kinerew toy panangigiya to. Sanen intongtong to
+  iyan problema to ed mangiyaaral ed sikato tan ed arum nin agagi ed kongregasyon,
+  diman to atalosan no antoy panmoria nen Jehova. Ninonot to met so posiblin epekto
+  ed emosyon na anak to no sikatoy ombaleg ya arawid atateng to. Kayari ton inaral
+  ya maong so ibabaga na Biblia ya onaplikad situasyon to, nandesisyon ya agto isempet
+  so ugaw. Nen naimano na asawan laki so insuportad sikara na saray agagi tan anengneng
+  ton naaasikason maong so anak da, nampaiyaral met la tan iibaan to lan miaral so
+  asawa to.\\n9, 10. Antoy labay ya ibaga na panagdesisyon ya limpioy panagnonot,
+  tan panon tayon nagawaan itan?\\n9 Sakey labat itan ya alimbawa, balet ipapanengneng
+  na satan ya say pandesisyon ya walay limpion panagnonot et ag-akadepende ed iisipen
+  tayon praktikal odino ed ibabaga na arum ya duga. Say imperpekton nonot tan puso
+  tayo et singa relo ya mapmaples odino matattantan. No paigiya tayod satan, aliway
+  pansumpalan tayo. (Jer. 17:9) Kanian nepeg tayon seguroen ya say nonot tan puso
+  tayo et igigiya na saray estandarte na Dios.\u2014Basaen so Isaias 55:8, 9.\\n10
+  Maabig sirin no tumboken tayo iyan simbawa na Biblia: \u2018Manmatalek ka ed Jehova
+  ed simoon a pusom, tan agka onsasaral ed dilin pakatalos mo. Dia ed saray amin a
+  dalan mo sikato so bidbiren mo, et itonton to ray basbas mo.\u2019 (Uli. 3:5, 6)
+  Ibabaga na sayan teksto ya \u2018agka onsasaral ed dilin pakatalos mo.\u2019 Insan
+  to imbagan \u201c[si Jehova] so bidbiren mo.\u201d Sikato labat so walaay perpekton
+  panagnonot. Kanian no walay dedesisyonan tayo, aralen tayoy ibabaga na Biblia pian
+  naamtaan tayoy panmoria na Dios. Insan satan so nepeg ya pangibasiyan tayoy desisyon
+  tayo. Ontan so panagdesisyon ya limpioy panagnonot\u2014say pangalig ed panagnonot
+  nen Jehova.\\nIPASAL SO PAKAYARIN MANTALOS\\n11. Antoy nepeg ya gawaen na sakey
+  no labay ton aralen so dugan panagdesisyon?\\n11 Aliwan mainomay ya aralen so dugan
+  panagdesisyon tan anggan say mismon panumpal ed desisyon tayo. Lalo lan mairap iya
+  ed saray balo nid katuaan odino saramay onaaligwas ni labat ed espiritual. Balet
+  posible so itatken dad espiritual. Diad Biblia et tinukoy ira bilang \u2018melag
+  ya ugugaw\u2019 ya aliling toy manaaral ni labat ya onakar. Diad unona et angkekelag
+  ni kupbang na ugaw balet makaaral ya siansia no ipasal lan ipasal. Ontan met so
+  nepeg a gawaen na sakey no labay ton aralen so dugan panagdesisyon. Imbaga nen apostol
+  Pablo ya saray matatken ed espiritual et \u2018manguusar ed pakayari ran mantalos
+  kanian nipapasal itan a mangibiig ed duga tan aliwa.\u2019 Ipapanengneng na salitan
+  \u201cmanguusar\u201d tan \u2018nipapasal\u2019 ya kaukolan so tuloytuloy ya pansagpot,
+  tan ontan so nepeg ya gawaen na saray balo ni.\u2014Basaen so Hebreos 5:13, 14.\\n12.
+  Mangiter na alimbawa no panon tayon naaralan so dugan panagdesisyon?\\n12 Singa
+  abitlad gapo, inagew-agew tayon mandedesisyon, melag man o baleg. Unong ed sakey
+  ya research, masulok ya 40 porsiento na gagawaen tayo et base ed apasalan tayo tan
+  agninonot ya maong. Alimbawa, kada kabuasan et mandedesisyon ka no antoy isulong
+  mo. Ompan isipen mon agtanton importante itan ya desisyon, kanian agmo la nonoten
+  a maong lalo la no manaapura ka. Balet diad tua, importantin isipen no kasin say
+  isulong mo et manepeg ed sakey a lingkor nen Jehova. (2 Cor. 6:3, 4) No mangasaliw
+  kay kawes, antoy sankanonot mo? Kasin no antoy uso, odino nononoten mo met no kasin
+  masimpit tan sarag moy presyo to? No dugay panagdesisyon tayo ed sarayan melag a
+  bengatla, nipapasal tayoy pakayari tayon mantalos, ya ontulong pian makapandesisyon
+  tayoy duga ed mas baleg iran dedesisyonan.\u2014Luc. 16:10; 1 Cor. 10:31.\\nPABISKEGEY
+  DETERMINASYON MON GAWAEN SO DUGA\\n13. Antoy makatulong pian nagawaan tayo so desisyon
+  tayo?\\n13 Anggano duga so desisyon tayo, no maminsan et aliwan mainomay ya sumpalen
+  itan. Alimbawa, wala ray labay da lan itunday panagsigarilyo da, balet agda nagagawaan
+  ta kulang ira na determinasyon. Kaukolan ya mabiskeg so determinasyon tayon gawaen
+  so desisyon tayo. Singa itan muscle na laman. No lanang ya nanausar, diman met lalon
+  ombibiskeg. No matalag balet ya nanausar, onkapuy. Anto sirin so ontulong pian ombiskeg
+  so determinasyon tayon gawaen so desisyon tayo? Kerewen tayoy tulong nen Jehova.\u2014Basaen
+  so Filipos 2:13.\\n14. Akin et mabiskeg so determinasyon nen Pablo ya gawaen so
+  nepeg ton gawaen?\\n14 Asali iyan mismo nen Pablo. Aminsan et oniay imbaga to: \u201cWalay
+  pilalek kon manggawa na maong, balet ta agko nagawaan so labay ko.\u201d Amta to
+  no antoy labay tan nepeg ton gawaen, no maminsan balet et irap ton gawaen. Inamin
+  to: \u201cDiad inkatook et panlikliketan koy ganggan na Dios, balet nanenengneng
+  ko ed laman ko so sananey a ganggan a misusumlangan ed ganggan na nonot ko tan itotonton
+  to ak a magmaliw ya aripen na ganggan na kasalanan a walad laman ko.\u201d Labay
+  kasin ibaga na saya ya anggapo lay nagawaan nen Pablo? Andi. Imbaga to: \u201cSalamat
+  ed Dios diad panamegley nen Jesu-Kristo a Katawan tayo!\u201d (Roma 7:18, 22-25)
+  Insulat to ni: \u201cTa diad amin a bengatla et ombibiskeg ak diad panamegley na
+  samay mangiiter ed siak na pakayari.\u201d\u2014Fil. 4:13.\\n15. Akin et nepeg ya
+  determinado itayon gawaen so duga?\\n15 Malinew sirin ya pian abobonan itayo na
+  Dios, nepeg ya determinado itayon gawaen so duga. Nonoten imay imbaga nen Elias
+  ed saray mandadayew ed si Baal tan apostatan Israelita diad Palandey Carmelo: \u2018Panon
+  kabayag ya manpawilpawil kayod nankaduan kanonotan? No si Jehova so Dios, ontumbok
+  kayo ed sikato; balet no si Baal, sirin ontumbok kayo ed sikato.\u2019 (1 Ara. 18:21)
+  Amta na saray Israelita ya si Jehova labat so nepeg dan dayewen, balet \u2018nankaduay
+  kanonotan\u2019 da. Nanengneng tayoy baleg a pandumaan ed si Josue, ya oniay imbaga
+  tod saray Israelita pigaran taon lay apalabas: \u201cNo isipen yo a mauges so panlingkor
+  ed si Jehova, manpili kayo ed sayan agew no siopa so panlingkoran yo . . . balet
+  nipaakar ed siak tan say abung ko, manlingkor kami ed si Jehova.\u201d (Jos. 24:15)
+  Antoy resulta na determinasyon nen Josue? Sikato tan saray kakaiba to et abendisyonan
+  ya manayam ed Insipan a Dalin, \u201cdalin a panag-agusay gatas tan dilo.\u201d\u2014Jos.
+  5:6.\\nMANDESISYON NA MAKABAT PIAN NABENDISYONAN\\n16, 17. Antoy maabig ya resulta
+  no mandesisyon tayo unong ed panlabayan na Dios? Mangiter na alimbawa.\\n16 Walay
+  brother ya agano ni labat ya abautismoan. Walay asawa to tan taloray anak da ya
+  angkekelag ni. Sikatoy kokombinsien na katrabaho to ya onalis irad kompanyan mas
+  baleg so sueldo tan mas dakel so benepisyo. Nannonot a maong so brother tan impikasi
+  to itan. Anggano melag labat so sueldod trabaho to natan, anggapoy loob na Sabado-Simba
+  kanian makakapiaral tan makakapanpulong kaibay pamilya to. Naisip ton no onalis
+  na trabaho, naderal \u2019tan ya eskedyul da. Antoy gawaen mo no sikay walad situasyon
+  to?\\n17 Ninonot na brother ya naapektoay espiritualidad to, kanian agto inawat
+  so trabahon mas baleg so sueldo. Nagbabawian to kasi itan ya desisyon to? Andin
+  balot. Amta ton mas importante parad sikaran pamilya so espiritual iran bendisyon
+  nen say baleg a sueldo. Malikeliket iran sanasawa nen imbaga na panguloan ya anak
+  dan bii a mantaon na samplora ya inar-aro to ran maong, pati ray agagi, tan si Jehova.
+  Imbaga ton labay to lan idedikay bilay tod si Jehova tan manpabautismo. Seguradon
+  naapresya ton maong so alimbawa na ama to lapud inyuna toy panlingkor ed si Jehova.\\n18.
+  Akin et importante ya makabat so pandesisyon tayo diad inagew-agew?\\n18 Singa si
+  Moises ya indaulo to ray Israelita diad kalawakan, pigaran dekada lan idadaulo nen
+  Jesu-Kristo iray totoo na Dios ed sayan mundo nen Satanas. Tan singa si Josue ya
+  angiloob ed saray Israelita diad Insipan a Dalin, akaparaan lay Jesus ya panganggaen
+  iyan mauges a mundo tan iter ed saray papatumbok to so insipan ya balon mundo na
+  inkatunong. (2 Ped. 3:13) Kanian agti la komon papawilen so datin panagnonot, ugali,
+  kagagawa, tan panlabayan tayo. Saya la so panaon pian mas talosan no antoy labay
+  na Dios ya gawaen tayo. (Roma 12:2; 2 Cor. 13:5) Komon ta napatnagan ed saray desisyon
+  tan pipilien mo ya makanepegan ka parad andi-anggaan ya bendisyon na Dios.\u2014Basaen
+  so Hebreos 10:38, 39.\"", "\"No iyaansakit itayo na Dios, akin et agto la patundaen
+  so kaugsan tan paniirap?\\nAkin et segurado tayon manbibilay tayo lad kaunoran iran
+  agew na sayan mundo?\\nPanon tayon amta ya nasumpal iray sipan na Biblia nipaakar
+  ed Panarian na Dios?\\nKasin makatulong so Biblia ed sikatayo pian makagawa tayoy
+  duga iran desisyon natan?\\nLapud inaro itayo na Amalsa, inter tod sikatayo iray
+  ebat ed saratan tan ed dakel nin tepet. Pian natulongan kan naalmo iray ebat, onlad
+  website mi ya www.jw.org/pag, ya denesinyo ya ontulong ed totoon naaralan da so
+  Biblia.\\nDiad satan ya website, nanengneng mo iray activity, artikulo, audio tan
+  video iran rekording, interbyu, tan nanduruman publikasyon, kaiba lay Biblia. Amin
+  iratan et libre.\"", "\"Panon ya si Jesus et akapampulong ya impormal?\\n4:7\u2014Inggapo
+  toy tongtongan diad inkerew toy danum ya inumen imbes ya ipaamta ton tampol so Panarian
+  odino ibaga ton sikato so Mesias\\n4:9\u2014Agto hinusgaan imay Samaritana lapud
+  lahi to\\n4:9, 12\u2014Nen aminpigan sinalambit na bii iray punto ya nayarin pansengegay
+  sangsangan, mataktikan pinaliisan nen Jesus iratan ya isyu.\u2014cf 77 \u00b63\\n4:10\u2014Angusar
+  na ilustrasyon ya imbase tod inagew-agew a kabibilay na bii\\n4:16-19\u2014Anggano
+  imoral so kabibilay na bii, sikatoy trinato nen Jesus ya walaay dignidad\\nPanon
+  ya nanengneng ed sayan agawa so kaimportantian na impormal a panagpulong?\"", "\"Bangued,
+  Abra\\nSay Bangued sakey baley ed luyag na Abra na Region Administrativo na Cordillera
+  na Filipinas. Sakey say kapital na Abra. Onong ed census 2000, walay populasyon
+  to ya 38,965 ya too didad 7,971 ya pamilya.\\nListaan na barangay[edit | edit source]\\nSay
+  Bangued walay 31 ya barangay.\\nSaray gawing ed labas[edit | edit source]\\n- Opisyal
+  ya websayt na Baley na Bangued\\n- Philippine Standard Geographic Code\\n- Bangued:
+  Your Ultimate Online Guide\\n- Bangued: Your Ultimate Online Guide (second link)\"",
+  "\"Siopa odino anto so Diablo?\\nANTOY EBAT MO? Say Diablo et . . .\\nsakey ya espiritun
+  persona\\nsimbolo na kaugsan a walad dalem na sakey a too\\nimahinasyon labat na
+  too\\nNO ANTOY IBABAGA NA BIBLIA\\nSay Diablo et akitongtong ed si Jesus tan \u201ctinukso\u201d
+  to. (Mateo 4:1-4) Kanian aliwan imahinasyon labat so Diablo, tan aliwan simbolo
+  labat na kaugsan. Sikatoy sakey ya mauges ya espiritun persona.\\nANTO NI NAARALAN
+  TAYOD BIBLIA?\\nSay Diablo et datin anghel, balet \u201cagnansiansia ed katuaan.\u201d
+  (Juan 8:44) Nagmaliw ya matila tan nanrebelde ed Dios.\\nAkila so arum ya anghel
+  nen nanrebelde si Satanas.\u2014Apocalipsis 12:9.\\nBubulagen na Diablo so kanonotan
+  na totoo pian ag-ira manisia ya sikatoy wala.\u20142 Corinto 4:4.\\nKasin sarag
+  na Diablo ya kontrolen so totoo?\\nIBABAGA NA ARUM ya aliwan tua ya sarag na Diablo
+  ya kontrolen so totoo, balet say arum et natatakot ya ompan selepan ira na mauges
+  iran espiritu. Parad sika ey?\\nNO ANTOY IBABAGA NA BIBLIA\\n\u201cSay interon mundo
+  et walad pakayari na samay sakey a mauges.\u201d (1 Juan 5:19) Tua ya mabisbiskeg
+  so impluensya na Diablo ed totoo, balet agto kokontrolen so kada too.\\nANTO NI
+  NAARALAN TAYOD BIBLIA?\\nPapalingoen na Diablo iray totoo pian mas dakel so naimpluensyaan
+  to.\u20142 Corinto 11:14.\\nNo maminsan et sarag ya kontrolen na mauges iran espiritu
+  so totoo.\u2014Mateo 12:22.\\nDiad tulong na Dios, sarag mon \u2018sumpaen [o labanan]
+  so Diablo.\u2019\u2014Santiago 4:7.\"", "\"5\\n1 Isonga niman, ali\u1e83en singa
+  baga\u2010en kito ma ja inpokok ni bilin nonta bayag da, ta inbolos shakito nen
+  Cristo. Jet eg to koston on\u2010oli kiton manngeshan mowan ni baga\u2010en. Isonga
+  karejo itolok ja pesakbat shay digat ni bilin nonta bayag da son si\u2010kayo.\\n2
+  Si\u2010kak si Pablo, jet sajay alin ikowan ko, ali\u1e83en pampamaayan: nemnemnem
+  jo. No itolok joy kowan sha, ja onoren jo sota ogadi ni Hodiyos, enshi malay jo
+  kaybibiyangan son Cristo. 3 Asan iyay pay i ikowan ko. Sota ira toon on\u2010onod
+  ni sakey ya ogadi ni Hodiyos, may\u2010eshig ey singa naypagod ira ta mesepol la
+  onoren shen emin sota bilin ni Hodiyos. 4 Sota toon kowan to ey say kosto\u2010an
+  son Apo Shiyos ket, sota pengonod to ni kowan ni bilin ni Hodiyos, naysi\u2010jan
+  et ngo mowan son Cristo, ta ibiyang toy kaasi nen Apo Shiyos. 5 Nem si\u2010katejo,
+  \u1e83aray namnama tayo ey kosto\u2010an shakito di nen Apo Shiyos shi ka\u2010onoran
+  na timpo, jet sotan i tayoka segsegsha ni olay. Wara sota Ispirito Santo nen Apo
+  Shiyos son si\u2010katejo, tan \u1e83ara kito pay shi pamati, isonga sajay i itsora
+  ni namnama tayo. 6 Jet no memati kito son Cristo, say epateg bengat ja nemnemen
+  tayo, sota pamati son si\u2010kato. Ta sotan na pamati, si\u2010katoy kedepo\u2010i
+  ni semek. No sota maypangkep ni pengonod nonta bilin ni Hodiyos, enshiy to naykamitan
+  shi pamati son Cristo.\\n7 Makedsang met i pamatiyo son Cristo nonta pilmiro, nem
+  \u1e83ara gayam i toon inpabaki son si\u2010kayo; isonga singa eg jo ma onoren sota
+  intorok ka podno. 8 Sajay ya inpangawis sha son si\u2010kayo, esel sha bengat; ali\u1e83en
+  edapo son Apo Shiyos ja engawis son si\u2010kayod koston pamati. 9 Asas jo, baka
+  ma\u2010edinan kayo ni kowan sha, ta inges niyay sota kowan tayo ey, \u201cAngkena
+  ootik ka bobod, edinan ton emin i kayboboran to.\u201d 10 Jet \u1e83aray namnamak
+  son Apo Jesus ni maypangkep son si\u2010kayo ey sota kowan ko i pati\u2010en jo
+  met laeng nem anongosto, ali\u1e83en sota kowan ni eshom. Jet sota toon emengadilaw
+  son si\u2010kayo, kenshat ta shosa\u2010en ali nen Apo Shiyos, angken ngantoy katoo
+  to.\\n11 Si\u2010kayon a\u2010akik shi pamati, no bilang ey si\u2010kak ket itorok
+  pay laeng i maypangkep ni ogadi ni Hodiyos ja ikowan ko ey si\u2010kato et ngo mowan
+  i epateg, istay eg sha\u2010ak pedigaten ni Hodiyos, ta enshiy kesekitan ni nemnem
+  sha; ekak mengitosho nonta maypangkep ni koros nen Cristo. 12 Nem say kowan ko,
+  angka et nem sota emengadilaw son si\u2010kayo, ma\u2010ma\u2010en sha sota ogadiren
+  kogit: angken pankeponan sha shorog i bakdang sha!\\nE\u1e83aya kiton emati son
+  Cristo, nem ali\u1e83en piyan ton a\u2010selen na bolos i pandeka tayo ni kompormi\\n13
+  A\u2010akik shi pamati, say kabol la pinidi\u2010an shakejo so nen Apo Shiyos, say
+  me\u1e83edja\u2010an kayo, nem sajay ya \u1e83aya, ali\u1e83en jo koma osalen shi
+  pipiyan jon dag\u2010en ja ngaaw. No diket say pesing jo et mango, ipa\u2010sas
+  joy semek jo ni sakey tan sakey son si\u2010kayo ni joka pantitinolong. 14 Ta sota
+  emin na bilin nen Apo Shiyos, sakey bengat i esa\u2010nopan ton esel, jet si\u2010kato
+  iyay: \u201cSemek moy kait mon too ja inges toy moka penmek ni bakdang mo.\u201d
+  15 Nem no mankikinalat kayo ja singa aso, tan sekitan joy eshom, asas jo ta baka
+  sheshalen joy joka pankagait.\\n16 Isonga kowan ko ey itodok joy Ispirito Santo
+  nen Apo Shiyos ja mengiredan son si\u2010kayo, say eg jo onoren sota pipiyan ni
+  bakdang jon dag\u2010en ja ngaaw. 17 Ta sota ngaaw wa pipiyan ni bakdang nga dag\u2010en,
+  maykontra shi piyan ni Ispirito Santo. Sota piyan ni Ispirito Santo, eg ngo piyan
+  ni bakdang nga dag\u2010en. Sajay ya showa, eg man\u2010inawatan, isonga emedingding
+  sota piyan jon dag\u2010en ja mapteng. 18 Nem no sota Ispirito Santo nen Apo Shiyos
+  i mengiredan son si\u2010kayo, e\u1e83aya kayo ma ta eg shakejo ma sekopan ni bilin
+  nonta bayag da.\\n19 Sota aramid ja na\u2010alas ja pipiyan ni bakdang nga dag\u2010en,
+  edawag, jet si\u2010kato ira jay: sota pemii ono kompormin ensekig ga aramid, pandeka
+  ni ngaaw ja mengibiyang ni kowan ni eshom, 20 panshedjaw shi sinan shiyos, panmantala,
+  sota igem, babakal, apal, bonget, isew, eg peki\u2010olnos shi eshom, 21 pengamkam
+  ni kokowa ni eshom, panboteng, edaos ja pandadsak, tan \u1e83ara pay i eshom ma
+  banag ja inges niyay ya ngaaw. Ipinshowak mowan iya inkowan ko nontan son si\u2010kayo,
+  ey sota sajay i aramid to, eg ira mayda\u2010kam shi pantoshayan nen Apo Shiyos
+  ali.\\n22 Nem sota toon kaishalan ni Ispirito Santo nen Apo Shiyos, iyay iray ma\u2010sas
+  son si\u2010kato: semek, imdeng, talna, anos, pengaasi, mapteng nga nemnem, tan
+  emepiyal pay; 23 amta ton memesinsiya ni eshom, tan amta ton tetngelen shorog i
+  bakdang to. Sajay iren ogadi, emaytotop shi emin na bilin nen Apo Shiyos. 24 Sota
+  toon \u1e83ara son Cristo Jesus, singa inpakilansara shi koros sota ngaaw wa ogadira,
+  pati sota ngaaw ja istay pipiyan sha, jet inbiyang sha ma sotan iren ngaaw. 25 Jet
+  sota Ispirito Santo nen Apo Shiyos i engi\u2010kan ni biyag tayo, isonga mesepol
+  ngon si\u2010katoy mengiredan son si\u2010katejo. 26 Ali\u1e83en kito koma mandastog,
+  ja mengi\u2010kan ni bongetan ni kait, ono mengi\u2010kan ni epalan to.\"", "\"Nen
+  Disyembre 28, 2022, inaprobaan na Town Board na Ramapo so special permit parad construction
+  project diad Ramapo. a Lapud sayan special permit, nayari lan usaren so property
+  ya pampaalageyan na saray pasilidad ya kaukolan tayo. Ontan met, nayari lan ekalen
+  iray kiew diad loob na property bilang preparasyon ed gawaen ya approval na Town
+  Planning Board diad 2023. Lapud wala yan special permit, naiwasan so pakaabala na
+  proyekto.\\nOniay imbaga nen Brother David Soto ya manlilingkor ed Construction
+  Project Committee: \u201cMalikeliket kami nen naawat mi yan approval. Anggano wala
+  ni ray kaukolan ya gawaen antis ya nigapo so aktual ya construction, segurado kami
+  ya tuloytuloy ya bendisyonan nen Jehova iray sagpot tayo.\u201d\\nTime Line na Saray
+  Agawa ed Construction Project Diad Ramapo\\nOktubre 5, 2019\\nInyanunsio na Mananguley
+  ya Ulop so plano ya pankasakeyen lay amin ya media production tayo ed sakey a balon
+  pasilidad diad Ramapo, New York\\nHunyo 26, 2020\\nPormal itayon nan-submit diad
+  Ramapo Town Board\\nHulyo 8, 2020\\nSay unonan project meeting ya kaiba so Ramapo
+  Town Board\\nMarso 31, 2021\\nAngi-submit tayo na Draft Environmental Impact Statement\\nMarso
+  8, 2022\\nAngiter na permit so Town of Tuxedo Planning Board parad pamaawang tan
+  pangipetek na dalan paonlad property diad Ramapo\\nMarso 12, 2022\\nInawat so Final
+  Environmental Impact Statement\\nNobyembre 9, 2022\\nInaprobaan na Ramapo Town Board
+  so balon ganggan pian nausar tayo so property ya pangipaalageyan na saray opisina
+  tan residence\\nDisyembre 28, 2022\\nInaprobaan na Ramapo Town Board so special
+  permit, pian nausar so property parad saray pasilidad tan nayari lan ekalen iray
+  kiew\\nPending ni\\nSay approval na plano na interon site\"", "\"MANTULTULOY A MANBANTAY!\\nDiad
+  2024 Summer Olympic Games, binilyon ya totoo so nambantay ed kompetisyon na saray
+  atleta ya nanlapud 206 ya bansa. Balet niiter kasi na Olympics so kareenan tan pankakasakey?\\nWALA
+  KASI NANDESINYO?\\nLegan ya nabubuo so agni niyanak ya ugaw, ondakel iray selula
+  tan magmaliw iratan ya nilasus nilibo ya selula.\\nPANANGASAWA TAN PAMILYA\\nNo
+  nanenengneng yon naiirapan so anak yo ed gagawaen to, kasin tulongan yo lan tampol?
+  Odino kasin bangatan yoy anak yon agbasta-basta onsuko?\\nMANTULTULOY A MANBANTAY!\\nAgmantultuloy
+  iray maruksan nagagawa ed politika tan inkaapag-apag na totoo. Ipapaliwawa na Biblia
+  no panon iyan nagawa.\\nSAY PANAG-BANTAYAN\u2014PANARALAN YA EDISYON\\nKasin no
+  maminsan et nanairapan kan tandaan so inaral mo? Anto sirin so gawaen mo pian agmo
+  iratan nalingwanan?\"", "\"toray duan siko tod lamisaan. inepas to ra, inmokok lamet
+  tan ontan ya aminniga.....\\n\u201cKagalgalang kora!\u201d kuanto nen akasalita
+  ed bosis a makalkalna: \u201cnamnatalek ak ya amadagop ed sikayo ed sayan singbatan.
+  . . ehem ! ehem ! . . . Palabasen tayoy pistay patron tin San Diego no k-12 ed sayan
+  bulan. . . . ehem! ehem!.....k-2 la natan.....ehem; ehem!\u201d\\nNanokok diay pinaspasia
+  na okok ya anawnawet tan amagamaga ya agto nituloy so pansasalita to.\\nInmalagey
+  ed satan dimad bankon kawalaan day mamatatken so lakin sakey ya apataploy taon to
+  ya nengneng toy ag mangitaltalek. Sikatoyay Kapitan Basilion mayaman, ya kaarap
+  tod sakey ya asunto ed juzgado nen Don Rafael aman, sakey a toon diad pakaisip to
+  et agni kinmorang ono binmolaslas so mundo nanlapod impatey nen Sto. Tomas de Aquino,
+  tan nanlapo met ed dilin intonda ton nanaral ed kolegioy S. Juan de Letran(I) et
+  manpapasuner so talbay katoowan.\\n\u201cKagalang kora, abuloyan yo ak pan mansalita
+  nipaakar ed sakey a pamaakaran a napnoy kabaliksan,\u201d kuanto. \u201cOnona ak
+  a mansalita anggaman dakel niray mas makankanepegan ed saray wadian akaarap, et
+  yogonak ta diad magter kon pakatalus, no onia ran kipapasen say ononan mansalita
+  aliwan kabaliksan toy sikatoy manonaan, tan ontan met a say naonor et agto talus
+  so sikatoy sankasaginonoran. Sakey ni, saray bengat lan salitaen ko ontan lay tagey
+  na kakanaan da ya ag ira nayarin ipaleen odino yalagar ed unor, kanian labay ko
+  komoy mansalitad gapd pian niiter so\\nbelat dan kanepegan. Abuloyan yo ak pa sirin
+  ya ono\\nnan mansalita ed sayan togiop ya anggaman wadia ran\\nakaarap so ankabli
+  ran totoo ya singa di kagalang a\\nKapitan a peles, di Kapitan a nanpaso, pinablin
+  kaarok a kasiporan a nanlapod inkaugaw mi, Don Julio ya\\nontan met a nankapitan,
+  di Don Melchor a nibantog a\\nKapitan day cuadrilleros, tan arum nira, ya diad kakulangay
+  tiempo et agko lara nabitla, balet ta nanengneng yon wadia met iran akaarap. Pikasik
+  pa sirin ed\\nkablian yo ra, ya abuloyan yo ak a mansalita kasakbayan day arum.
+  Mapalar ak kasin makagamor nian mag\\nter a kerew ko?\u201d\\n__________\\n(1) Colegio
+  ya ikukurang day paparin Dominiko.\"", "\"Kasin idadasal mo met ya onsabi lay Panarian
+  na Dios? Diad inlabas na nilasus iran taon, bibitlaen na minilyon iray salitan \u201cOnsabi
+  komon so panarian mo\u201d no mandadasal ira. Akin et idadasal da itan? Lapud imbaga
+  nen Jesus ed saray patumbok to ya ipikasi da so isabi na Panarian na Dios.\\nDiad
+  gapo, ag-atalosan ya tampol na saray patumbok nen Jesus so amin ya detalye nipaakar
+  ed satan ya Panarian. Aminsan et tinepetan day Jesus: \u201cKatawan, ipawil mo ta
+  so panarian na Israel diad sayan panaon?\u201d Nayarin abigla ra lapud agdirektan
+  imbaga nen Jesus no kapigan onsabi so Panarian na Dios. (Gawa 1:6, 7) Labay to kasin
+  ibaga ya agtayo lan balot naamtaan no anto tay Panarian na Dios tan no kapigan itan
+  onsabi? Andi!\\nMakatulong iyan isyu na Say Panag-bantayan pian naamtaan iray ebat
+  ed sarayan tepet:\\nAkin et kaukolan tayo so Panarian na Dios?\\nSiopa so Ari ed
+  Panarian na Dios?\\nKapigan uleyan na Panarian na Dios so dalin?\\nAntoy gawaen
+  na Panarian na Dios?\\nAkin et importante ya suportaan la natan so Panarian na Dios?\\nAnto
+  so Panarian na Dios?\"", "\"Petsa: Hunyo 14-16, 2019\\nLugar: Olympic Stadium diad
+  Berlin, Germany\\nLenguahe na Programa: English, German, Russian\\nInmatendi: 37,115\\nAbautismoan:
+  255\\nBilang na International Delegate: 5,000\\nImbitadon Branch: Brazil, Britain,
+  Canada, Ecuador, Finland, Greece, Poland, Scandinavia, Slovenia, tan United States\\nEksperiensya:
+  Nan-tour iray delegate ed sikat ya Pergamon Museum diad Berlin ta kaiba itan ed
+  saray aktibidad da likud ed kombension. Onia so naobserbaan na sakey a guardia ed
+  saray agagi ya binmisita ed museum: \u201cNaeekal lay ilalo na dakel a totoo ta
+  anggapo so pananisia ra. Balet anengneng kod sikayo ya walay pananisia yo tan inar-aro
+  yoy kada sakey.\u201d Onia so imbaga na sakey nin guardia: \u201cMaples ya onlabas
+  so oras ed saray bisita ya singa sikayo, kanian ayos labat ed siak anggano man-overtime
+  ak.\u201d\\nInabet na saray agagi ed Berlin iray delegate diad airport\\nSaray agagi
+  diad paway na lugar na kombension\\nSaray delegate ya manpapalitrato, wala ray akasulong
+  na national costume da\\nSi Brother Samuel Herd, ya membro na Mananguley ya Ulop,
+  legan na sampot a paliwawa ed Sabado na ngarem\\nSaray delegate ya ondedengel ed
+  programa diad English tan isusulat da iray naaralan da legan na sesyon. Duaran sister
+  so aka-headset legan dan dedengelen so radio broadcast na programa\\nBabantayan
+  na saray agagi so bautismo diad Sabado\\nManpapayapay iray inmatendin special full-time
+  servant ed saray agagi diad pegley na pankombensionan legan na sampot ya agew na
+  kombension\\nSay Berlin\u2019s Olympic Stadium, ya asumpal ya impaalagey nen 1936,
+  litrato iya na unonan agew na kombension. Sayan stadium so inusar diad agnalingwanan
+  ya internasyonal a kombension nen 1990, ya agawa kayari na inkagba na Berlin Wall\\nSaray
+  delegate ya manpa-public witnessing diad arap na sikat ya Brandenburg Gate diad
+  Berlin\\nNantitipon iray delegate diad Colonnade Courtyard, ya asingger ed Pergamon
+  Museum\\nMantipak iray delegate diad sampot na evening gathering\"", "\"Si Sigmund
+  Freud (/fr\u0254\u026ad/ FROYD, German: ; nianak si Sigismund Schlomo Freud; 6 Mayo
+  1856 - 23 Setyembre 1939) et sakey ya Austrian neurologist tan nanmopag na psychoanalysis,
+  sakey ya klinikal ya paraan pian nasukat tan manambal ed saray patolohiya ya ipapasen
+  ya manlalapuan na saray kontrobersiya ed laman, diad panamegley na dialog ed pegley
+  na pasyente tan psychoanalyst, tan pandumaan ya teoria na nonot panlalapuan na too.[2]\\nSi
+  Freud et nianak ed Galician Jewish parents diad Moravian town na Freiberg, diad
+  Austria. Sikatoy nagmaliw ya doktor na medisina nen 1881 diad University of Vienna.[3][4]
+  Nen asumpal toy habilitasyon to nen 1885, sikatoy tinuro bilang docent ed neuropathology
+  tan nagmaliw ya afilyan propesor nen 1902.[5] Si Freud so nanayam tan nanlingkor
+  ed Vienna tan inletneg toy klinika to diman nen 1886. Kayari na impakeket na Alemanya
+  ed Austria nen Marso 1938, tinaynan nen Freud so Austria pian makaliktar ed panamasegsegang
+  na Nazi. Sikatoy inatey nen 1939 legan ton inilid United Kingdom.\\nDiad impangiletneg
+  ed psicoanalysis, in-develop nen Freud iray therapeutic techniques a singa say pangusar
+  na libre ya asosasyon tan say aka-discover ya transference, ya angiletneg na central
+  role to ed analytic process. Say impangipawil nen Freud ed sexuality pian nibilang
+  iray infantil ya porma to so amakiwas ed sikato ya ipaliwawa so Oedipus complex
+  bilang manunan prinsipyo na teorya na psychoanalytical.[6] Say impan-analisa to
+  ed saray panaginip bilang impangipagawa na pilalek so angiter ed sikato na saray
+  modelon pan-analisa ed clinical analysis na pangipapasakbay na saray sintomas tan
+  saray manunan mekanismo na panag-responsya. Diad sayan base et impaliwawa nen Freud
+  so teorya to nipaakar ed ag-amta tan inyarum to so sakey a modelon mental ya kabiangan
+  na id, ego tan super-ego.[7] Impaseguro nen Freud ya walay libido, seksual ya enerhiya
+  ya uusaren na saray mental a proseso tan istruktura tan mangiter na erotiko iran
+  panangalikdo, tan say sakey a panag-drive ed patey, say manunan panmoria, gura,
+  agresyon, tan neurotiko iran kasalanan.[7] Diad saginonor ya kimey to, angipatnag
+  si Freud na maawang ya interpretasyon tan kritikan nipaakar ed relihyon tan kultura.\\nSaray
+  reperensiya[dumaen | dumaen so pinanlapuan]\\n- Halberstadt, Max (c. 1921). \\\"Sigmund
+  Freud, half-length portrait, facing left, holding cigar in right hand\\\". https://www.loc.gov/item/98514770/.
+  Nakuha noong 8 June 2017.\\n- Pick, Daniel (2015). Psychoanalysis: A Very Short
+  Introduction. Oxford: Oxford University Press. Kindle Edition, p. 3.\\n- Noel Sheehy;
+  Alexandra Forsythe (2013). \\\"Sigmund Freud\\\". Fifty Key Thinkers in Psychology.
+  Routledge. ISBN 978-1-134-70493-4.\\n- Kandel, Eric R. (2012). The Age of Insight:
+  The Quest to Understand the Unconscious in Art, Mind and Brain, from Vienna 1900
+  to the Present, pp. 45\u201346. New York: Random House.\\n- Gay 2006, pp. 136\u201337.\\n-
+  Jones, Ernest (1949). What is Psychoanalysis?, p. 47. London: Allen & Unwin.\\n-
+  Mannoni, Octave (2015) [1971]. Freud: The Theory of the Unconscious, pp. 49\u201351,
+  146\u201347, 152\u201354. London: Verso.\"", "\"Abra\\nSay Abra et kumatlo ya klase
+  luyag na Cordillera Administrative Region, Pilipinas. Unong ed 2010 Census, say
+  papulasyon to et 234,733 totoo.\\nWalay kabaleg tan sukat to ya 4,165.25 kilometro
+  kuwadrado. Say dialling code to et 74. Say kapital to et Bangued.\\nSaray baley[edit
+  | edit source]\\nSay Abra walay 27 ya baley.\\nSaray nipaway ya kawing[edit | edit
+  source]\\n- Say Opisyal ya Websayt na Gobierno na Luyag na Abra\\n- abrenian.com
+  The Most Read Online Community for Abrenians around the world - simple laeng lakay\"",
+  "\"Salitan Iloko\\nSay salitan Iloko (salitan Iloko: Pagsasao a Iloko o Iloko o
+  Ilokano) say salitan Sagor na Baybay na Luzon ya sanga na boleg ya salitan Ilokano.
+  Onsulok ya marami so mansasalita. Saray mansasalita naananap ed Luzon tan Metro
+  Manila ed sagor na Manila.\\nSaray kansyon na salitan Iloko[dumaen | dumaen so pinanlapuan]\\n-
+  Manang Biday\\n- Duaya ni Ayyat (Dungdungwen Kanto)\\n- Pamulinawen\\n- Naraniag
+  a Bulan\\n- Ti Ayat Ti Maysa Nga Ubing\\nThis article is a is a stub. You can help
+  Wikipedia by expanding it.\""]'
+src_ngrams: '{"1": [[["ed"], 100974], [["ya"], 100005], [["so"], 84199], [["tan"],
+  65834], [["nen"], 47160]], "2": [[["ed saray"], 10573], [["nen jehova"], 8338],
+  [["nen jesus"], 7543], [["son si"], 6926], [["si jehova"], 5280]], "3": [[["nen
+  apo shiyos"], 3623], [["ed si jehova"], 2232], [["kowan to ey"], 1383], [["tasi
+  nen jehova"], 1122], [["ibabaga na biblia"], 1039]], "4": [[["ja kowan to ey"],
+  904], [["saray tasi nen jehova"], 699], [["nen apo shiyos ja"], 645], [["ja kowan
+  sha ey"], 477], [["ibabaga na biblia ya"], 350]], "5": [[["nen apo shiyos son si"],
+  308], [["ispirito santo nen apo shiyos"], 274], [["ed biblia diad sayan simba"],
+  190], [["babasaen ed biblia diad sayan"], 190], [["maong a balita na panarian"],
+  137]]}'

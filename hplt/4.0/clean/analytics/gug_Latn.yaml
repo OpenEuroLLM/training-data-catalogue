@@ -1,0 +1,1378 @@
+corpus: hplt-v4-gn
+srclang: gn
+timestamp: 1789039736.9037957
+warnings:
+- src_warning_tok_nltk_wordpunct
+docs_collections: '[["CC-MAIN-2021-39", 637], ["CC-MAIN-2017-04", 565], ["CC-MAIN-2018-05",
+  524], ["CC-MAIN-2023-06", 469], ["CC-MAIN-2014-15", 421], ["CC-MAIN-2017-51", 413],
+  ["CC-MAIN-2023-50", 304], ["CC-MAIN-2024-38", 272], ["CC-MAIN-2019-04", 254], ["CC-MAIN-2020-05",
+  253], ["CC-MAIN-2017-26", 249], ["CC-MAIN-2018-39", 247], ["CC-MAIN-2023-40", 237],
+  ["CC-MAIN-2023-14", 218], ["wide00016", 206], ["CC-MAIN-2024-18", 190], ["CC-MAIN-2024-10",
+  187], ["CC-MAIN-2024-26", 177], ["CC-MAIN-2023-23", 177], ["CC-MAIN-2022-33", 165],
+  ["CC-MAIN-2022-40", 164], ["CC-MAIN-2020-10", 156], ["CC-MAIN-2022-05", 148], ["CC-MAIN-2018-34",
+  147], ["CC-MAIN-2020-24", 145], ["CC-MAIN-2021-04", 144], ["CC-MAIN-2021-43", 138],
+  ["wide00011", 135], ["CC-MAIN-2020-29", 131], ["CC-MAIN-2024-22", 126], ["CC-MAIN-2018-43",
+  125], ["CC-MAIN-2022-27", 124], ["CC-MAIN-2021-31", 121], ["CC-MAIN-2018-22", 121],
+  ["CC-MAIN-2020-45", 117], ["CC-MAIN-2022-21", 115], ["wide00012", 114], ["CC-MAIN-2025-13",
+  113], ["wide00015", 107], ["CC-MAIN-2024-46", 107], ["CC-MAIN-2021-49", 100], ["CC-MAIN-2022-49",
+  97], ["CC-MAIN-2020-50", 96], ["CC-MAIN-2016-44", 94], ["CC-MAIN-2024-51", 93],
+  ["CC-MAIN-2021-17", 88], ["CC-MAIN-2024-42", 86], ["CC-MAIN-2020-34", 86], ["CC-MAIN-2025-05",
+  85], ["CC-MAIN-2024-30", 85], ["CC-MAIN-2020-16", 85], ["CC-MAIN-2025-33", 81],
+  ["CC-MAIN-2024-33", 79], ["CC-MAIN-2016-30", 79], ["CC-MAIN-2025-08", 77], ["CC-MAIN-2014-35",
+  75], ["CC-MAIN-2020-40", 66], ["CC-MAIN-2025-21", 60], ["CC-MAIN-2025-18", 47],
+  ["CC-MAIN-2025-30", 45], ["CC-MAIN-2021-10", 44], ["wide00005", 43], ["CC-MAIN-2025-26",
+  42], ["wide00010", 41], ["CC-MAIN-2021-25", 38], ["CC-MAIN-2014-42", 35], ["wide00002",
+  34], ["CC-MAIN-2021-21", 34], ["archivebot", 29], ["CC-MAIN-2015-18", 20], ["CC-MAIN-2015-48",
+  18], ["wide00017", 17], ["CC-MAIN-2015-11", 17], ["wide00006", 16], ["CC-MAIN-2016-40",
+  14]]'
+docs_langs: '[[0.0, 10797], [0.2, 2], [0.3, 5], [0.4, 2], [0.5, 3]]'
+docs_segments: '[[1, 188], [2, 355], [3, 478], [4, 494], [5, 576], [6, 552], [7, 532],
+  [8, 380], [9, 389], [10, 403], [11, 400], [12, 434], [13, 349], [14, 313], [15,
+  284], [16, 324], [17, 250], [18, 267], [19, 200], [20, 243], [21, 202], [22, 137],
+  [23, 134], [24, 131], [25, 123], [26, 118], [27, 112], [28, 95], [29, 106], [30,
+  101], [31, 87], [32, 89], [33, 111], [34, 109], [35, 91], [36, 101], [37, 92], [38,
+  94], [39, 87], [40, 89], [41, 79], [42, 61], [43, 62], [44, 52], [45, 48], [46,
+  31], [47, 38], [48, 39], [49, 25], [50, 36], [51, 32], [52, 22], [53, 21], [54,
+  17], [55, 21], [56, 13], [57, 23], [58, 16], [59, 15], [60, 15], [61, 7], [62, 13],
+  [63, 10], [64, 17], [65, 8], [66, 9], [67, 18], [68, 8], [69, 8], [70, 8], [71,
+  12], [72, 13], [73, 11], [74, 2], [75, 8], [76, 6], [77, 8], [78, 7], [79, 6], [80,
+  5], [81, 7], [82, 6], [83, 11], [84, 4], [85, 5], [86, 6], [87, 6], [88, 5], [89,
+  5], [90, 3], [91, 4], [92, 3], [93, 5], [94, 7], [95, 3], [96, 9], [97, 1], [98,
+  1], [99, 2], [100, 4], [101, 3], [102, 7], [103, 5], [104, 6], [105, 2], [106, 5],
+  [107, 5], [109, 2], [110, 4], [111, 2], [112, 1], [113, 3], [114, 7], [115, 1],
+  [116, 2], [117, 1], [118, 4], [119, 3], [120, 4], [121, 4], [123, 1], [125, 1],
+  [127, 3], [128, 4], [129, 2], [130, 2], [131, 3], [132, 3], [133, 2], [134, 4],
+  [135, 2], [136, 1], [137, 3], [138, 1], [139, 4], [140, 1], [141, 3], [142, 1],
+  [143, 1], [145, 2], [147, 1], [149, 2], [150, 4], [151, 1], [152, 1], [154, 2],
+  [156, 1], [157, 1], [158, 1], [161, 2], [164, 1], [166, 1], [168, 1], [170, 1],
+  [171, 2], [172, 2], [176, 1], [177, 1], [179, 1], [181, 1], [183, 1], [184, 1],
+  [186, 1], [187, 1], [188, 1], [189, 1], [193, 1], [194, 1], [198, 1], [199, 1],
+  [200, 1], [201, 3], [202, 1], [205, 1], [206, 1], [207, 2], [210, 2], [211, 1],
+  [214, 1], [215, 1], [218, 1], [219, 1], [220, 1], [221, 1], [227, 1], [229, 1],
+  [232, 1], [234, 1], [236, 1], [239, 1], [242, 1], [244, 1], [245, 3], [248, 1],
+  [252, 1], [253, 1], [255, 1], [259, 2], [265, 1], [268, 1], [274, 1], [280, 1],
+  [282, 1], [285, 1], [296, 1], [307, 1], [310, 1], [317, 1], [327, 2], [328, 2],
+  [333, 1], [335, 1], [337, 1], [340, 1], [344, 1], [345, 1], [348, 1], [349, 1],
+  [351, 1], [355, 1], [366, 1], [369, 1], [378, 1], [382, 1], [385, 1], [389, 1],
+  [392, 1], [405, 1], [413, 1], [419, 1], [463, 1], [467, 1], [473, 1], [534, 1],
+  [547, 1], [564, 1], [579, 1], [584, 1], [598, 1], [684, 1], [721, 1], [739, 1],
+  [837, 1], [918, 1], [931, 1], [976, 1], [1014, 1], [3633, 1], [4141, 1], [6109,
+  1]]'
+docs_segments_mean: 23
+docs_segments_median: 13
+docs_top100_domains: '[["wikipedia.org", 2139], ["misaguarani.com", 1257], ["spl.gov.py",
+  1192], ["jw.org", 1180], ["abc.com.py", 633], ["blogspot.com", 533], ["wordpress.com",
+  241], ["eu5.org", 234], ["biblics.com", 211], ["wol-children.net", 181], ["ip.gov.py",
+  129], ["portalguarani.com", 125], ["uma.es", 107], ["forasuncionlovers.com", 86],
+  ["mozilla.org", 84], ["paraguaynoticias247.com", 78], ["yellow.place", 77], ["ideasnopalabras.com",
+  68], ["diputados.gov.py", 54], ["zhitov.ru", 53], ["paraguaydigital.com", 52], ["heraldsofhope.org",
+  50], ["yvymaraey.com.py", 45], ["over-blog.es", 43], ["paraguay-nachrichten.com",
+  37], ["blogspot.com.ar", 34], ["bacn.gov.py", 34], ["doctoralia.com.mx", 33], ["myheritage.com",
+  26], ["canindeyudigital.com", 26], ["aguaraynoticias.com", 25], ["ea.com.py", 24],
+  ["buenastareas.com", 24], ["opexflow.com", 22], ["guiamedica.com.do", 22], ["wikiplanet.click",
+  21], ["ning.com", 21], ["divmagic.com", 21], ["twr360.org", 18], ["mopc.gov.py",
+  18], ["altoparanadigital.com", 18], ["sbp.org.py", 17], ["realsuntime.com", 17],
+  ["metalymetal.com", 17], ["wiktionary.org", 16], ["raices.com.py", 15], ["qqcheatingcable.com",
+  15], ["mdn.gov.py", 15], ["docplayer.es", 15], ["paraguay-directorio.com", 14],
+  ["jem.gov.py", 13], ["gsartificial.com", 13], ["chinahener.com", 13], ["blogia.com",
+  13], ["oyang-group.com", 12], ["guaranitavarandu.com.ar", 12], ["elcaminodelavida.org",
+  12], ["cdenews.com", 12], ["blogdiario.com", 12], ["wikimedia.org", 11], ["net:12345.",
+  11], ["kyafasteners.com", 11], ["giveamenu.com", 11], ["blogspot.com.br", 11], ["bible.com",
+  11], ["yvymaraey.edu.py", 10], ["sejoygroup.com", 10], ["remove-bg.io", 10], ["sld.cu",
+  9], ["oratlas.com", 9], ["mapsof.net", 9], ["gotquestions.org", 9], ["eplusproject.eu",
+  9], ["edupratt.com", 9], ["domanovic.org", 9], ["conamu.edu.py", 9], ["cineaparte.com",
+  9], ["capitanbado.com", 9], ["amazonaws.com", 9], ["una.py", 8], ["ultimahora.com",
+  8], ["slideshowes.com", 8], ["scribd.com", 8], ["leyuacrylic.com", 8], ["know.cf",
+  8], ["chinasprayer.com", 8], ["bibliotecanacional.gov.py", 8], ["aka.com.py", 8],
+  ["ujcm.edu.pe", 7], ["journalismcourses.org", 7], ["inadi.gob.ar", 7], ["elesquiu.com",
+  7], ["wikipedia.su", 6], ["senado.gov.py", 6], ["proyectozorzal.org", 6], ["portaldafronteira.com",
+  6], ["lds.org", 6], ["lacuerda.net", 6], ["ipalmar.org", 6], ["holrymotor.com",
+  6]]'
+docs_top100_tld: '[["org", 3870], ["com", 3561], ["gov.py", 1497], ["com.py", 766],
+  ["net", 221], ["es", 206], ["com.ar", 84], ["place", 77], ["ru", 63], ["org.py",
+  41], ["com.mx", 34], ["edu.py", 29], ["com.br", 28], ["com.do", 22], ["click", 21],
+  ["mx", 15], ["eu", 13], ["io", 12], ["info", 12], ["cu", 11], ["co", 11], ["int",
+  10], ["cl", 10], ["gob.ar", 9], ["py", 8], ["edu.pe", 8], ["com.es", 8], ["cf",
+  8], ["edu.ar", 7], ["de", 7], ["su", 6], ["gob.mx", 6], ["com.uy", 6], ["org.ar",
+  5], ["news", 5], ["gov.ar", 5], ["fm", 5], ["edu.co", 5], ["tech", 4], ["edu.ec",
+  4], ["br", 4], ["it", 3], ["fr", 3], ["aq", 3], ["xyz", 2], ["pe", 2], ["org.uy",
+  2], ["org.pe", 2], ["org.co", 2], ["me", 2], ["gov.co", 2], ["gob.bo", 2], ["eus",
+  2], ["edu.uy", 2], ["com.co", 2], ["co.uk", 2], ["club", 2], ["app", 2], ["ac.cr",
+  2], ["ws", 1], ["world", 1], ["win", 1], ["vn", 1], ["uy", 1], ["space", 1], ["sk",
+  1], ["ro", 1], ["pub", 1], ["pro", 1], ["org.mx", 1], ["org.br", 1], ["no", 1],
+  ["mus.br", 1], ["mobi", 1], ["jp", 1], ["is", 1], ["in", 1], ["id", 1], ["hu", 1],
+  ["gub.uy", 1], ["fun", 1], ["fan", 1], ["edu.mx", 1], ["edu.cu", 1], ["edu.br",
+  1], ["edu", 1], ["com.tr", 1], ["com.pe", 1], ["cloud", 1], ["ch", 1], ["cat", 1],
+  ["ca", 1], ["biz", 1]]'
+docs_total: 10809
+docs_wds: '[[0.5, 256], [0.51, 282], [0.52, 345], [0.53, 334], [0.54, 356], [0.55,
+  346], [0.56, 315], [0.57, 332], [0.58, 354], [0.59, 313], [0.6, 310], [0.61, 317],
+  [0.62, 314], [0.63, 299], [0.64, 306], [0.65, 306], [0.66, 327], [0.67, 288], [0.68,
+  315], [0.69, 298], [0.7, 284], [0.71, 290], [0.72, 290], [0.73, 303], [0.74, 333],
+  [0.75, 308], [0.76, 295], [0.77, 309], [0.78, 253], [0.79, 255], [0.8, 240], [0.81,
+  204], [0.82, 169], [0.83, 134], [0.84, 115], [0.85, 112], [0.86, 102], [0.87, 97],
+  [0.88, 102], [0.89, 83], [0.9, 54], [0.91, 49], [0.92, 19], [0.93, 25], [0.94, 20],
+  [0.95, 10], [0.96, 14], [0.97, 11], [0.98, 8], [0.99, 5], [1.0, 3]]'
+duplication_ratio: 0.2267
+sentence_pairs: 253772
+src_bytes: 38582642
+src_chars: 35467407
+src_pii: 739
+src_tokens: 7001663
+unique_sents: 196231
+src_sent_tokens: '[[1, 7620], [2, 8247], [3, 10394], [4, 9389], [5, 11231], [6, 13585],
+  [7, 13206], [8, 10698], [9, 9934], [10, 8670], [11, 7729], [12, 7191], [13, 6827],
+  [14, 6467], [15, 6209], [16, 5110], [17, 4734], [18, 4203], [19, 3602], [20, 3169],
+  [21, 2724], [22, 3076], [23, 2497], [24, 2452], [25, 2173], [26, 2345], [27, 2137],
+  [28, 2265], [29, 2007], [30, 2166], [31, 2064], [32, 1973], [33, 1960], [34, 1938],
+  [35, 1627], [36, 1725], [37, 1581], [38, 1509], [39, 1479], [40, 1657], [41, 1504],
+  [42, 1656], [43, 1762], [44, 1508], [45, 1479], [46, 1409], [47, 1306], [48, 1326],
+  [49, 1412], [50, 1402], [51, 1399], [52, 1270], [53, 1156], [54, 1154], [55, 1135],
+  [56, 1039], [57, 1036], [58, 976], [59, 863], [60, 852], [61, 860], [62, 802], [63,
+  773], [64, 762], [65, 721], [66, 685], [67, 623], [68, 603], [69, 602], [70, 613],
+  [71, 563], [72, 532], [73, 558], [74, 480], [75, 553], [76, 500], [77, 490], [78,
+  464], [79, 451], [80, 399], [81, 401], [82, 392], [83, 401], [84, 384], [85, 354],
+  [86, 332], [87, 340], [88, 342], [89, 323], [90, 320], [91, 319], [92, 294], [93,
+  276], [94, 307], [95, 268], [96, 251], [97, 231], [98, 253], [99, 259], [100, 226],
+  [101, 254], [102, 228], [103, 194], [104, 195], [105, 204], [106, 196], [107, 205],
+  [108, 209], [109, 226], [110, 217], [111, 149], [112, 184], [113, 188], [114, 182],
+  [115, 159], [116, 165], [117, 137], [118, 167], [119, 139], [120, 125], [121, 106],
+  [122, 133], [123, 133], [124, 123], [125, 134], [126, 149], [127, 162], [128, 117],
+  [129, 107], [130, 108], [131, 107], [132, 120], [133, 130], [134, 90], [135, 89],
+  [136, 106], [137, 93], [138, 92], [139, 75], [140, 120], [141, 78], [142, 78], [143,
+  77], [144, 86], [145, 74], [146, 69], [147, 70], [148, 71], [149, 78], [150, 82],
+  [151, 75], [152, 70], [153, 78], [154, 65], [155, 65], [156, 60], [157, 69], [158,
+  61], [159, 72], [160, 58], [161, 32], [162, 61], [163, 56], [164, 46], [165, 50],
+  [166, 27], [167, 44], [168, 59], [169, 51], [170, 41], [171, 32], [172, 44], [173,
+  33], [174, 39], [175, 41], [176, 45], [177, 24], [178, 25], [179, 33], [180, 38],
+  [181, 32], [182, 34], [183, 33], [184, 43], [185, 29], [186, 37], [187, 28], [188,
+  25], [189, 29], [190, 27], [191, 30], [192, 23], [193, 20], [194, 16], [195, 18],
+  [196, 27], [197, 24], [198, 28], [199, 23], [200, 14], [201, 20], [202, 20], [203,
+  12], [204, 25], [205, 24], [206, 25], [207, 12], [208, 17], [209, 27], [210, 14],
+  [211, 14], [212, 20], [213, 11], [214, 11], [215, 21], [216, 6], [217, 16], [218,
+  11], [219, 21], [220, 10], [221, 9], [222, 13], [223, 14], [224, 11], [225, 9],
+  [226, 11], [227, 6], [228, 10], [229, 12], [230, 13], [231, 13], [232, 8], [233,
+  8], [234, 7], [235, 17], [236, 9], [237, 6], [238, 11], [239, 10], [240, 15], [241,
+  17], [242, 6], [243, 5], [244, 6], [245, 9], [246, 6], [247, 10], [248, 7], [249,
+  12], [250, 9], [251, 12], [252, 12], [253, 6], [254, 9], [255, 1], [256, 16], [257,
+  9], [258, 7], [259, 4], [260, 5], [261, 2], [262, 5], [263, 17], [264, 7], [265,
+  7], [266, 6], [267, 6], [268, 3], [269, 7], [270, 9], [271, 4], [272, 6], [273,
+  3], [274, 5], [275, 3], [276, 11], [277, 5], [278, 7], [279, 5], [280, 10], [281,
+  3], [282, 3], [283, 6], [284, 4], [285, 5], [286, 7], [287, 5], [288, 3], [289,
+  2], [290, 2], [291, 8], [292, 9], [293, 3], [294, 3], [295, 1], [296, 7], [297,
+  5], [298, 3], [299, 4], [300, 3], [301, 2], [302, 7], [303, 7], [304, 2], [305,
+  8], [306, 4], [307, 3], [308, 6], [309, 7], [310, 2], [311, 5], [312, 7], [313,
+  2], [314, 1], [315, 2], [316, 3], [317, 5], [318, 4], [319, 2], [320, 5], [321,
+  7], [322, 4], [323, 2], [324, 2], [325, 4], [326, 5], [328, 1], [329, 2], [331,
+  5], [332, 4], [333, 2], [334, 4], [335, 2], [336, 6], [337, 3], [338, 3], [339,
+  1], [340, 2], [341, 2], [343, 2], [344, 1], [345, 1], [346, 3], [347, 1], [348,
+  1], [349, 3], [351, 1], [352, 2], [354, 1], [356, 2], [357, 2], [358, 2], [360,
+  3], [361, 1], [362, 5], [363, 8], [365, 5], [366, 2], [368, 4], [369, 1], [370,
+  1], [375, 2], [377, 4], [378, 7], [381, 1], [382, 3], [386, 1], [387, 1], [388,
+  1], [391, 2], [392, 5], [393, 2], [394, 1], [395, 1], [396, 2], [397, 2], [398,
+  1], [399, 1], [400, 1], [402, 1], [403, 1], [407, 2], [409, 2], [410, 2], [412,
+  1], [415, 3], [417, 3], [418, 1], [419, 2], [420, 3], [421, 1], [422, 1], [424,
+  1], [426, 3], [427, 1], [429, 2], [430, 2], [431, 1], [432, 5], [433, 3], [435,
+  2], [437, 2], [439, 2], [440, 1], [441, 1], [443, 5], [444, 2], [445, 1], [448,
+  2], [449, 1], [450, 3], [452, 4], [453, 2], [454, 2], [455, 1], [457, 1], [458,
+  1], [461, 1], [462, 1], [464, 3], [468, 4], [469, 2], [473, 3], [479, 1], [488,
+  4], [490, 2], [498, 2], [499, 1], [500, 1], [502, 1], [505, 1], [507, 1], [510,
+  1], [517, 1], [521, 3], [523, 1], [525, 1], [529, 1], [531, 1], [533, 1], [537,
+  3], [539, 1], [540, 1], [549, 1], [550, 1], [551, 1], [552, 1], [555, 1], [556,
+  2], [557, 2], [560, 1], [561, 1], [563, 1], [564, 1], [566, 1], [567, 1], [569,
+  1], [575, 1], [579, 1], [580, 3], [581, 3], [587, 1], [589, 1], [595, 1], [596,
+  1], [598, 1], [606, 1], [609, 1], [610, 1], [613, 2], [616, 4], [617, 2], [620,
+  1], [623, 1], [628, 1], [629, 1], [633, 3], [635, 1], [638, 3], [640, 3], [647,
+  1], [648, 2], [651, 3], [655, 1], [656, 1], [659, 1], [670, 1], [678, 1], [685,
+  1], [687, 1], [688, 1], [690, 2], [700, 1], [704, 2], [714, 1], [723, 1], [731,
+  1], [738, 1], [741, 1], [742, 1], [743, 1], [747, 1], [759, 1], [766, 1], [768,
+  1], [772, 1], [775, 3], [776, 1], [788, 1], [790, 1], [793, 1], [794, 1], [800,
+  1], [813, 1], [828, 1], [829, 1], [835, 1], [863, 1], [868, 2], [902, 1], [903,
+  1], [914, 1], [926, 1], [935, 1], [937, 1], [946, 1], [954, 1], [959, 1], [968,
+  1], [984, 1], [989, 1], [991, 1], [1003, 1], [1011, 1], [1014, 3], [1023, 1], [1066,
+  1], [1104, 1], [1124, 1], [1157, 1], [1175, 3], [1223, 3], [1292, 3], [1315, 1],
+  [1395, 1], [1403, 1], [1409, 3], [1608, 1], [1611, 1], [1966, 1], [1976, 1], [2024,
+  1], [2565, 1], [3025, 1], [3162, 1], [3598, 1], [3677, 1], [3754, 1], [3767, 1],
+  [3903, 1], [9212, 1], [49807, 1]]'
+src_sent_tokens_mean: 28
+src_sent_tokens_median: 14
+src_unique_sents: '[[1, 2234], [2, 4224], [3, 5005], [4, 5847], [5, 7750], [6, 8563],
+  [7, 9364], [8, 8748], [9, 7875], [10, 6990], [11, 6508], [12, 6209], [13, 5860],
+  [14, 5356], [15, 5406], [16, 4474], [17, 4123], [18, 3812], [19, 3248], [20, 2921],
+  [21, 2532], [22, 2682], [23, 2248], [24, 2204], [25, 2017], [26, 2101], [27, 1965],
+  [28, 1959], [29, 1831], [30, 1879], [31, 1689], [32, 1748], [33, 1610], [34, 1666],
+  [35, 1466], [36, 1507], [37, 1375], [38, 1294], [39, 1272], [40, 1300], [41, 1293],
+  [42, 1175], [43, 1226], [44, 1069], [45, 1157], [46, 1065], [47, 1080], [48, 1037],
+  [49, 1063], [50, 960], [51, 1015], [52, 955], [53, 908], [54, 845], [55, 941], [56,
+  814], [57, 771], [58, 774], [59, 706], [60, 744], [61, 764], [62, 678], [63, 681],
+  [64, 668], [65, 613], [66, 621], [67, 567], [68, 554], [69, 566], [70, 556], [71,
+  511], [72, 482], [73, 519], [74, 445], [75, 496], [76, 457], [77, 450], [78, 424],
+  [79, 416], [80, 366], [81, 368], [82, 363], [83, 363], [84, 345], [85, 324], [86,
+  308], [87, 313], [88, 309], [89, 294], [90, 302], [91, 288], [92, 273], [93, 256],
+  [94, 279], [95, 240], [96, 236], [97, 216], [98, 230], [99, 249], [100, 214], [101,
+  237], [102, 211], [103, 186], [104, 182], [105, 185], [106, 183], [107, 189], [108,
+  197], [109, 211], [110, 193], [111, 142], [112, 171], [113, 172], [114, 162], [115,
+  147], [116, 154], [117, 130], [118, 152], [119, 130], [120, 117], [121, 100], [122,
+  120], [123, 123], [124, 122], [125, 119], [126, 133], [127, 142], [128, 108], [129,
+  98], [130, 104], [131, 100], [132, 108], [133, 118], [134, 85], [135, 82], [136,
+  98], [137, 86], [138, 72], [139, 66], [140, 77], [141, 67], [142, 72], [143, 71],
+  [144, 74], [145, 69], [146, 66], [147, 66], [148, 63], [149, 72], [150, 71], [151,
+  71], [152, 63], [153, 64], [154, 57], [155, 62], [156, 58], [157, 61], [158, 56],
+  [159, 62], [160, 52], [161, 32], [162, 52], [163, 43], [164, 43], [165, 44], [166,
+  27], [167, 39], [168, 53], [169, 42], [170, 38], [171, 32], [172, 33], [173, 29],
+  [174, 34], [175, 37], [176, 38], [177, 24], [178, 23], [179, 31], [180, 29], [181,
+  30], [182, 32], [183, 27], [184, 32], [185, 24], [186, 28], [187, 27], [188, 25],
+  [189, 22], [190, 25], [191, 24], [192, 23], [193, 18], [194, 14], [195, 17], [196,
+  20], [197, 18], [198, 17], [199, 19], [200, 11], [201, 17], [202, 15], [203, 11],
+  [204, 22], [205, 16], [206, 20], [207, 10], [208, 15], [209, 22], [210, 11], [211,
+  13], [212, 18], [213, 9], [214, 11], [215, 16], [216, 5], [217, 14], [218, 10],
+  [219, 16], [220, 8], [221, 9], [222, 10], [223, 11], [224, 9], [225, 8], [226, 11],
+  [227, 6], [228, 10], [229, 9], [230, 12], [231, 10], [232, 8], [233, 6], [234, 7],
+  [235, 15], [236, 8], [237, 6], [238, 7], [239, 10], [240, 11], [241, 11], [242,
+  6], [243, 5], [244, 6], [245, 5], [246, 5], [247, 6], [248, 5], [249, 11], [250,
+  5], [251, 9], [252, 8], [253, 6], [254, 6], [255, 1], [256, 10], [257, 9], [258,
+  6], [259, 4], [260, 3], [261, 2], [262, 5], [263, 10], [264, 5], [265, 7], [266,
+  4], [267, 6], [268, 3], [269, 4], [270, 8], [271, 4], [272, 4], [273, 3], [274,
+  4], [275, 3], [276, 8], [277, 4], [278, 7], [279, 2], [280, 8], [281, 3], [282,
+  3], [283, 6], [284, 4], [285, 5], [286, 5], [287, 3], [288, 2], [289, 2], [290,
+  2], [291, 6], [292, 8], [293, 3], [294, 3], [295, 1], [296, 6], [297, 4], [298,
+  3], [299, 4], [300, 3], [301, 2], [302, 5], [303, 4], [304, 2], [305, 8], [306,
+  4], [307, 3], [308, 3], [309, 4], [310, 2], [311, 4], [312, 4], [313, 2], [314,
+  1], [315, 2], [316, 3], [317, 4], [318, 3], [319, 2], [320, 4], [321, 5], [322,
+  4], [323, 2], [324, 2], [325, 2], [326, 4], [328, 1], [329, 2], [331, 4], [332,
+  3], [333, 2], [334, 2], [335, 2], [336, 5], [337, 2], [338, 3], [339, 1], [340,
+  2], [341, 1], [343, 2], [344, 1], [345, 1], [346, 3], [347, 1], [348, 1], [349,
+  3], [351, 1], [352, 2], [354, 1], [356, 2], [357, 2], [358, 2], [360, 2], [361,
+  1], [362, 3], [363, 3], [365, 3], [366, 2], [368, 3], [369, 1], [370, 1], [375,
+  2], [377, 2], [378, 4], [381, 1], [382, 1], [386, 1], [387, 1], [388, 1], [391,
+  2], [392, 3], [393, 2], [394, 1], [395, 1], [396, 2], [397, 2], [398, 1], [399,
+  1], [400, 1], [402, 1], [403, 1], [407, 1], [409, 2], [410, 2], [412, 1], [415,
+  3], [417, 3], [418, 1], [419, 2], [420, 1], [421, 1], [422, 1], [424, 1], [426,
+  3], [427, 1], [429, 2], [430, 2], [431, 1], [432, 2], [433, 3], [435, 2], [437,
+  2], [439, 2], [440, 1], [441, 1], [443, 4], [444, 2], [445, 1], [448, 2], [449,
+  1], [450, 3], [452, 2], [453, 2], [454, 2], [455, 1], [457, 1], [458, 1], [461,
+  1], [462, 1], [464, 1], [468, 2], [469, 2], [473, 3], [479, 1], [488, 2], [490,
+  2], [498, 2], [499, 1], [500, 1], [502, 1], [505, 1], [507, 1], [510, 1], [517,
+  1], [521, 3], [523, 1], [525, 1], [529, 1], [531, 1], [533, 1], [537, 1], [539,
+  1], [540, 1], [549, 1], [550, 1], [551, 1], [552, 1], [555, 1], [556, 2], [557,
+  2], [560, 1], [561, 1], [563, 1], [564, 1], [566, 1], [567, 1], [569, 1], [575,
+  1], [579, 1], [580, 2], [581, 1], [587, 1], [589, 1], [595, 1], [596, 1], [598,
+  1], [606, 1], [609, 1], [610, 1], [613, 1], [616, 3], [617, 2], [620, 1], [623,
+  1], [628, 1], [629, 1], [633, 1], [635, 1], [638, 1], [640, 1], [647, 1], [648,
+  2], [651, 3], [655, 1], [656, 1], [659, 1], [670, 1], [678, 1], [685, 1], [687,
+  1], [688, 1], [690, 2], [700, 1], [704, 2], [714, 1], [723, 1], [731, 1], [738,
+  1], [741, 1], [742, 1], [743, 1], [747, 1], [759, 1], [766, 1], [768, 1], [772,
+  1], [775, 1], [776, 1], [788, 1], [790, 1], [793, 1], [794, 1], [800, 1], [813,
+  1], [828, 1], [829, 1], [835, 1], [863, 1], [868, 2], [902, 1], [903, 1], [914,
+  1], [926, 1], [935, 1], [937, 1], [946, 1], [954, 1], [959, 1], [968, 1], [984,
+  1], [989, 1], [991, 1], [1003, 1], [1011, 1], [1014, 1], [1023, 1], [1066, 1], [1104,
+  1], [1124, 1], [1157, 1], [1175, 1], [1223, 1], [1292, 1], [1315, 1], [1395, 1],
+  [1403, 1], [1409, 1], [1608, 1], [1611, 1], [1966, 1], [1976, 1], [2024, 1], [2565,
+  1], [3025, 1], [3162, 1], [3598, 1], [3677, 1], [3754, 1], [3767, 1], [3903, 1],
+  [9212, 1], [49807, 1]]'
+src_langs: '[["es", 95344], ["gn", 81651], ["en", 12396], ["pt", 10310], ["it", 6713],
+  ["ast", 4572], ["hu", 4026], ["hr", 3538], ["cs", 2992], ["fr", 2563], ["war", 2231],
+  ["fi", 1634], ["la", 1606], ["is", 1600], ["gl", 1324], ["pl", 1212], ["su", 1144],
+  ["ga", 1112], ["ht", 1077], ["de", 1063], ["tl", 1044], ["et", 955], ["ro", 868],
+  ["cbk", 781], ["cy", 708], ["gom", 706], ["ja", 662], ["ceb", 646], ["qu", 572],
+  ["eo", 564], ["ca", 518], ["mt", 516], ["kw", 507], ["id", 441], ["tr", 401], ["nl",
+  387], ["kv", 335], ["sl", 303], ["nap", 297], ["pms", 291], ["sv", 274], ["vi",
+  242], ["lt", 229], ["eml", 209], ["uk", 208], ["bs", 172], ["ilo", 167], ["sq",
+  162], ["sk", 145], ["ku", 143], ["vec", 139], ["br", 133], ["sr", 131], ["eu", 131],
+  ["ru", 129], ["jbo", 122], ["mrj", 89], ["wa", 75], ["el", 69], ["sw", 64], ["mg",
+  64], ["ia", 63], ["uz", 62], ["rm", 60], ["nb", 59], ["ms", 57], ["io", 47], ["yo",
+  46], ["zh", 45], ["ml", 45], ["ur", 44], ["da", 36], ["jv", 34], ["sc", 27], ["diq",
+  23], ["oc", 20], ["lmo", 19], ["yue", 18], ["lv", 17], ["pam", 16], ["fa", 15],
+  ["vep", 14], ["nah", 13], ["lb", 12], ["kn", 12], ["az", 12], ["wuu", 11], ["gv",
+  11], ["tk", 10], ["scn", 10], ["gd", 10], ["fy", 10], ["nn", 9], ["mk", 9], ["pfl",
+  8], ["sco", 7], ["nds", 7], ["li", 7], ["kk", 7], ["ie", 7], ["bcl", 7], ["ar",
+  7], ["an", 7], ["ta", 6], ["hi", 6], ["dsb", 6], ["als", 6], ["ko", 5], ["gu", 5],
+  ["co", 5], ["bg", 5], ["mwl", 4], ["hif", 4], ["bn", 4], ["vo", 3], ["tg", 3], ["te",
+  3], ["sah", 3], ["lo", 3], ["hy", 3], ["be", 3], ["th", 2], ["pnb", 2], ["or", 2],
+  ["new", 2], ["mr", 2], ["min", 2], ["ka", 2], ["ce", 2], ["ba", 2], ["av", 2], ["tt",
+  1], ["so", 1], ["si", 1], ["mn", 1], ["km", 1], ["he", 1], ["bar", 1], ["af", 1]]'
+hardrules_tags: '{"not_too_long": 1556, "not_too_short": 24690, "length_ratio": 0,
+  "no_urls": 4797, "no_bad_encoding": 1401, "pii": 739}'
+sample: '["\"O\u00ef niko \u00f1ande apyt\u00e9pe ojup\u00edva oipytyv\u00f6 hagu\u00e4
+  het\u00e4me ha katu, amo ipah\u00e1pe, o\u00f1epypytyv\u00f6 ha''e, oipytyv\u00f6
+  ita''\u00fdra, itaj\u00fdra, hembireko ha isosioku\u00e9rapente.\\nJahecha jaik\u00f3vo
+  mba''\u00e9ichapa Parlamento ha ambue instituciones p\u00fablicasku\u00e9rape ojepuru
+  \u00f1ande pl\u00e1ta o\u00f1embohetave hagu\u00e4 empleado publicoku\u00e9ra. Um\u00edvape
+  \u00f1ande japaga isu\u00e9ldo japag\u00e1gui impu\u00e9sto.\\nUmi o\u00efva yvate,
+  oguerek\u00f3va poder, o\u00f1embokokuete Estado koku\u00e9re. Oipuru imba''eku\u00e9rar\u00f6
+  gu\u00e1icha. Omoinge omoinges\u00e9va, ome''\u00ebuka chupeku\u00e9ra su\u00e9ldo
+  kyra kyra.\\nUpe aja katu heta \u00f1ane ret\u00e4ygua okar\u00far\u00f6ntema okar\u00fava,
+  imboriahuetev\u00e9va o\u00efgui oisyrykup\u00e1va umi imba''eku\u00e9ra r\u00e4ngue.\\nOjepur\u00fagui
+  hendape''\u00ff pe viru Ministerio de Hacienda ombyat\u00fdva impuestoku\u00e9ragui
+  ndajaguerek\u00f3i hetave hospital, no\u00f1emyatyr\u00f6i eskuelaku\u00e9ra ochororop\u00e1va
+  okyvove ha ndojasfalt\u00e1i \u00f1ande rape jaju ha jaha pya''eve hagu\u00e4 opa
+  rupi.\\n\u00c4 mba''e he''iseh\u00edna Paraguay imboriahuveha o\u00efgui jatevuita
+  ohuguy''\u00f3va chupe, okamb\u00fava hese \u00e1ra ha pyhare.\\nAg\u00e4 jatevuku\u00e9ra
+  r\u00e9ra os\u00ebmba oik\u00f3vo. Ha ojetyvyro hiku\u00e1i. Peichanteva''er\u00e4voi.
+  Hi''\u00e4 ko oik\u00f3va ndopare\u00edri pe t\u00e9ra jekua\u00e1pente. Hi''\u00e4
+  hasypeve o\u00f1andumi avei hiku\u00e1i ojap\u00f3r\u00f6 ojapo''\u00ffva''er\u00e4
+  ndopytare\u00edriha. Jahechase ojekastigam\u00edr\u00f6 omomboriahuv\u00e9va Paraguay.\"",
+  "\"FIFA Tembiesar\u00e1i Yvypav\u1ebd 2014\\nFIFA Tembiesar\u00e1i Yvypav\u1ebd
+  2014 (Copa do Mundo FIFA 2014, poytuga\u00f1e''\u1ebdme) ha''e akue upe 20ha vakapipopo
+  \u00f1embosar\u00e1i hetatet\u00e3rehegua kuimba''erehegua ojapova FIFA rehe, pe
+  Vakapipopo Tembiesar\u00e1i Yvypav\u1ebd. Ojejapo Pindorama ret\u00e3me, \u00e1ra
+  12 jasypote\u0129 guive \u00e1ra 13 jasypok\u00f5i peve ary 2014-jave, Pindorama
+  ojapo mok\u00f5iha jey pete\u0129 FIFA Tembiesar\u00e1i Yvypav\u1ebd, upear\u00f5
+  \u00d1embyam\u00e9rika ojapo 5ha jey pete\u0129 tembiesar\u00e1i.\\nAry 2004-jave,
+  FIFA oiporavo akue yvyrusu \u00d1embyam\u00e9rika ojapo hag\u0303ua Tembiesar\u00e1i
+  Yvypav\u1ebd 2014. Oimera\u1ebd tet\u00e3 oguerohory ramo jepe oikuaavo pe marandu,
+  Brasil ha Kolombia he''\u00edva mante oipot\u00e1va ojapo pe Tembiesar\u00e1i, \u00e1ra
+  18 jasypak\u00f5i ary 2006-jave. Ha upei, Kolombia oheja, ha opyta mante Brasil
+  ojejapo hag\u0303ua. \u00c1ra 30 jasypa ary 2007-jave, FIFA he''i akue ha omo\u00f1e''\u1ebd
+  ha''eteh\u00e1pe Brasil ojap\u00f3va Tembiesar\u00e1i Yvypav\u1ebd 2014. [1]\\nTet\u00e3
+  Alema\u00f1a ipu''ak\u00e1va, irundyha jey, o\u00f1eha''\u00e3ta ha''eteh\u00e1pe
+  FIFA Tembiesar\u00e1i Yvypav\u1ebd 2018, ojejap\u00f3va Rrusia ret\u00e3me, ipu''aka
+  mok\u00f5iha ha''e Argentina.\\nKo tembiesar\u00e1ipe ojeporu pete\u0129h\u00e1me
+  ta''angam\u00fdi apu''apop\u00f3gua, he''\u00edva apu''apopo oike hupytur\u00e3me,
+  kombutad\u00f3ra rupive ha ta''angam\u00fdi rupive. [2]\\nTembikuaa''aty rechaukaha\\nTenda
+  ojap\u00f3va jeporavo[jehaijey | editar c\u00f3digo]\\nCONMEBOL ha UEFA ha''e um\u00edva
+  opu''ak\u00e1va mante FIFA hechaukaha. \u00d1embyam\u00e9rika opu''aka 9 hechaukaha
+  mbohapy tet\u00e3me: Pindorama ipu''ak\u00e1va 5 hechaukaha, Urugu\u00e1i ipu''ak\u00e1va
+  mok\u00f5ime ha Argentina mok\u00f5ime avei. H\u00e1katu, FIFA Tembiesar\u00e1i
+  Yvypav\u1ebd ojejapo irundy \u00d1embyam\u00e9rikape (Urugu\u00e1i, Brasil, Chile
+  ha Argentina, umi FIFA Tembiesar\u00e1i Yvypav\u1ebd 1930, FIFA Tembiesar\u00e1i
+  Yvypav\u1ebd 1950, FIFA Tembiesar\u00e1i Yvypav\u1ebd 1962 ha FIFA Tembiesar\u00e1i
+  Yvypav\u1ebd 1978), ha Europa ojejapo 10 FIFA Tembiesar\u00e1i Yvypav\u1ebd katu.\\n\u00c1ra
+  7 jasyapy ary 2004-jave, FIFA omo\u00f1e''\u1ebd akue Conmebol het\u00e3ngu\u00e9ra
+  ikat\u00fava ojapo pe tembiesar\u00e1i pav\u1ebd. Up\u00e9vare, \u00e1ra 17 jasyapy,
+  Conmebol he''i oipot\u00e1va Brasil ojejapor\u00e3 Tembiesar\u00e1i 20ha.\\nFIFA
+  hi''arapapaha rupive, tet\u00e3ng\u00e9ra hera\u00f1emoguapy ojejapor\u00e3 pe tembiesar\u00e1i
+  o\u00f1epyr\u0169 \u00e1ra 5 jasypak\u00f5i ary 2006-jave ha opa \u00e1ra 18 jasypak\u00f5i.
+  Up\u00e9va aja, Brasil ha Kolombia oteraguapy ojejapor\u00e3 pe tembiesar\u00e1i,
+  \u00e1ra 13 ha \u00e1ra 18, h\u00e1katu, Kolombia oheja, \u00e1ra 11 jasyrundy ary
+  2007-jave.\\nO\u00f1emohend\u00e1va[jehaijey | editar c\u00f3digo]\\nArange[jehaijey
+  | editar c\u00f3digo]\\nTembiesar\u00e1i o\u00f1emohenda akue ojejapo hag\u0303ua
+  \u00e1ra 12 jasypote\u0129 guive \u00e1ra 13 jasypok\u00f5i peve ary 2014-jave,
+  umi arapok\u00f5indy aty mich\u0129 mboyve Europa het\u00e3ngu\u00e9ra hembiesar\u00e1i
+  vakapipopo kuimba''e rehegua, ha araro''\u00fdre Pindoramagua ha opa Yvy ipeh\u1ebdngue
+  \u00f1emby gotyo.\\nT\u00e1va ojejap\u00f3va[jehaijey | editar c\u00f3digo]\\nAry
+  2006-jave, pete\u0129 kuatia\u00f1e''\u1ebd Brasil-gua o\u00f1e''\u1ebd akue t\u00e1va
+  Rio de Janeiro, S\u00e3o Paulo, Porto Alegre, Belo Horizonte ha t\u00e1va Bel\u00e9m
+  ha''eta nunga umi t\u00e1va ikat\u00fava ojejapo tembiesar\u00e1i ku\u00e9ra. H\u00e1katu
+  umi t\u00e1va ku\u00e9ra ndorekoi vaekue vakapipopo \u00f1eha''\u00e3 renda ipor\u00e3eterei,
+  ha ojogapo va''er\u00e3 t\u00e9r\u00e3 omopor\u00e3 va''er\u00e3.[3]\\n\u00c1ra
+  31 jasypo ary 2009-jave, FIFA Atykatuete omo\u00f1e''\u1ebd umi 12 t\u00e1va ku\u00e9ra
+  ojejap\u00f3va tembiesar\u00e1i kuera. Belo Horizonte, Brasilia, Cuiab\u00e1, Curitiba,
+  Fortaleza, Manaos, Natal, Porto Alegre, Recife, Rio de Janeiro, Salvador (Bah\u00eda)
+  ha S\u00e3o Paulo ojeporav\u00f3va,[4] ha Bel\u00e9m, Campo Grande, Florian\u00f3polis,
+  Goi\u00e2nia, Macei\u00f3 ha Rio Branco ndoiporav\u00f3iva.[5] Vakapipopo \u00f1eha''\u00e3
+  renda o\u00f1emopor\u00e3, ha t\u00e1va Brasilia-pe, Cuiab\u00e1, Manaus ha Natal-pe,
+  ojogapo vakapipopo \u00f1eha''\u00e3 renda pyahu. T\u00e1va Recife mante ojogapo
+  pyahuete.\\nUmi 12 t\u00e1va ku\u00e9ra o\u0129ha ko tys\u00fdipe. Umi \u00f1e''\u1ebd
+  karap\u00e3, he''ise vakapipopo \u00f1eha''\u00e3 renda pyahu.\\nAty o\u00f1eha''\u00e3va[jehaijey
+  | editar c\u00f3digo]\\nAty A[jehaijey | editar c\u00f3digo]\\n- 12 Jasypote\u0129
+  2014 17:00 - Vrasil 3-1 Kyoasia\\n- 13 Jasypote\u0129 2014 13:00 - M\u00e9hiko 1-0
+  Kamer\u0169\\n- 17 Jasypote\u0129 2014 16:00 - Vrasil 0-0 M\u00e9hiko\\n- 18 Jasypote\u0129
+  2014 19:00 - Kamer\u0169 0-4 Kyoasia\\n- 23 Jasypote\u0129 2014 17:00 - Kamer\u0169
+  1-4 Vrasil\\n- 23 Jasypote\u0129 2014 17:00 - Kyoasia 1-3 M\u00e9hiko\\nAty B[jehaijey
+  | editar c\u00f3digo]\\n- 13 Jasypote\u0129 2014 16:00 - Epa\u00f1a 1-5 Tet\u00e3ngu\u00e9ra
+  Yv\u00fdi\\n- 13 Jasypote\u0129 2014 19:00 - Chile 3-1 Autaralia\\n- 18 Jasypote\u0129
+  2014 13:00 - Autaralia 2-3 Tet\u00e3ngu\u00e9ra Yv\u00fdi\\n- 18 Jasypote\u0129
+  2014 16:00 - Epa\u00f1a 0-2 Chile\\n- 23 Jasypote\u0129 2014 13:00 - Autaralia 0-3
+  Epa\u00f1a\\n- 23 Jasypote\u0129 2014 13:00 - Tet\u00e3ngu\u00e9ra Yv\u00fdi 2-0
+  Chile\\nAty C[jehaijey | editar c\u00f3digo]\\n- 14 Jasypote\u0129 2014 13:00 -
+  Kolombia 3-0 Gyresia\\n- 14 Jasypote\u0129 2014 22:00 - Marfil Rembe''y 2-1 Hap\u00f5\\n-
+  19 Jasypote\u0129 2014 13:00 - Kolombia 2-1 Marfil Rembe''y\\n- 19 Jasypote\u0129
+  2014 19:00 - Hap\u00f5 0-0 Gyresia\\n- 24 Jasypote\u0129 2014 17:00 - Hap\u00f5
+  1-4 Kolombia\\n- 24 Jasypote\u0129 2014 17:00 - Gyresia 2-1 Marfil Rembe''y\\nAty
+  D[jehaijey | editar c\u00f3digo]\\n- 14 Jasypote\u0129 2014 16:00 - Urugu\u00e1i
+  1-3 Kosta Rrika\\n- 14 Jasypote\u0129 2014 19:00 - Ingyaterra 1-2 Italia\\n- 19
+  Jasypote\u0129 2014 16:00 - Urugu\u00e1i 2-1 Ingyaterra\\n- 20 Jasypote\u0129 2014
+  13:00 - Italia 0-1 Kosta Rrika\\n- 24 Jasypote\u0129 2014 13:00 - Italia 0-1 Urugu\u00e1i\\n-
+  24 Jasypote\u0129 2014 13:00 - Kosta Rrika 0-0 Ingyaterra\\nAty E[jehaijey | editar
+  c\u00f3digo]\\n- 15 Jasypote\u0129 2014 13:00 - Suisa 2-1 Ekuador\\n- 15 Jasypote\u0129
+  2014 16:00 - Hy\u00e3sia 3-0 Hondura\\n- 20 Jasypote\u0129 2014 16:00 - Suisa 2-5
+  Hy\u00e3sia\\n- 20 Jasypote\u0129 2014 19:00 - Hondura 1-2 Ekuador\\n- 25 Jasypote\u0129
+  2014 17:00 - Hondura 0-3 Suisa\\n- 25 Jasypote\u0129 2014 17:00 - Ekuador 0-0 Hy\u00e3sia\\nAty
+  F[jehaijey | editar c\u00f3digo]\\n- 15 Jasypote\u0129 2014 19:00 - Argentina 2-1
+  Vonia ha Hesegovina\\n- 16 Jasypote\u0129 2014 16:00 - Ir\u00e1n 0-0 Niheria\\n-
+  21 Jasypote\u0129 2014 13:00 - Argentina 1-0 Ir\u00e1n\\n- 21 Jasypote\u0129 2014
+  19:00 - Niheria 1-0 Vonia ha Hesegovina\\n- 25 Jasypote\u0129 2014 13:00 - Niheria
+  2-3 Argentina\\n- 25 Jasypote\u0129 2014 13:00 - Vonia ha Hesegovina 3-1 Ir\u00e1n\\nAty
+  G[jehaijey | editar c\u00f3digo]\\n- 16 Jasypote\u0129 2014 13:00 - Alema\u00f1a
+  4-0 Poytuga\\n- 16 Jasypote\u0129 2014 19:00 - Gana 1-2 Tet\u00e3 pete\u0129 reko
+  Am\u00e9rikagua\\n- 21 Jasypote\u0129 2014 16:00 - Alema\u00f1a 2-2 Gana\\n- 22
+  Jasypote\u0129 2014 19:00 - Tet\u00e3 pete\u0129 reko Am\u00e9rikagua 2-2 Poytuga\\n-
+  26 Jasypote\u0129 2014 13:00 - Tet\u00e3 pete\u0129 reko Am\u00e9rikagua 0-1 Alema\u00f1a\\n-
+  26 Jasypote\u0129 2014 13:00 - Poytuga 2-1 Gana\\nAty H[jehaijey | editar c\u00f3digo]\\n-
+  17 Jasypote\u0129 2014 13:00 - V\u00e9yhika 2-1 Arhelia\\n- 17 Jasypote\u0129 2014
+  19:00 - Rrusia 1-1 Yvykorea\\n- 22 Jasypote\u0129 2014 13:00 - V\u00e9yhika 1-0
+  Rrusia\\n- 22 Jasypote\u0129 2014 16:00 - Yvykorea 2-4 Arhelia\\n- 26 Jasypote\u0129
+  2014 17:00 - Yvykorea 0-1 V\u00e9yhika\\n- 26 Jasypote\u0129 2014 17:00 - Arhelia
+  1-1 Rrusia\\n\u00d1embosar\u00e1i pahague[jehaijey | editar c\u00f3digo]\\nAty 16[jehaijey
+  | editar c\u00f3digo]\\n- 28 Jasypote\u0129 2014 13:00 - Vrasil 1-1 (3-2 pen.) Chile\\n-
+  28 Jasypote\u0129 2014 17:00 - Kolombia 2-0 Urugu\u00e1i\\n- 29 Jasypote\u0129 2014
+  13:00 - Tet\u00e3ngu\u00e9ra Yv\u00fdi 2-1 M\u00e9hiko\\n- 29 Jasypote\u0129 2014
+  17:00 - Kosta Rrika 1-1 (5-3 pen.) Gyresia\\n- 30 Jasypote\u0129 2014 13:00 - Hy\u00e3sia
+  2-0 Niheria\\n- 30 Jasypote\u0129 2014 17:00 - Alema\u00f1a 2-1 t.s. Arhelia\\n-
+  1 Jasypok\u00f5i 2014 13:00 - Argentina 1-0 t.s. Suisa\\n- 1 Jasypok\u00f5i 2014
+  17:00 - V\u00e9yhika 2-1 t.s. Tet\u00e3 pete\u0129 reko Am\u00e9rikagua\\nIrund\u00fdva[jehaijey
+  | editar c\u00f3digo]\\n- 4 Jasypok\u00f5i 2014 13:00 - Hy\u00e3sia 0-1 Alema\u00f1a\\n-
+  4 Jasypok\u00f5i 2014 17:00 - Vrasil 2-1 Kolombia\\n- 5 Jasypok\u00f5i 2014 13:00
+  - Argentina 1-0 V\u00e9yhika\\n- 5 Jasypok\u00f5i 2014 17:00 - Tet\u00e3ngu\u00e9ra
+  Yv\u00fdi 0-0 (4-3 pen.) Kosta Rrika\\nMok\u00f5iva[jehaijey | editar c\u00f3digo]\\nIpu''ak\u00e1va
+  mbohapyha[jehaijey | editar c\u00f3digo]\\n- 12 Jasypok\u00f5i 2014 17:00 - Vrasil
+  0-3 Tet\u00e3ngu\u00e9ra Yv\u00fdi\\nPaha[jehaijey | editar c\u00f3digo]\\nIpu''ak\u00e1va[jehaijey
+  | editar c\u00f3digo]\\nUmi Gol[jehaijey | editar c\u00f3digo]\\n6 gol[jehaijey
+  | editar c\u00f3digo]\\n5 gol[jehaijey | editar c\u00f3digo]\\n4 gol[jehaijey |
+  editar c\u00f3digo]\\n3 gol[jehaijey | editar c\u00f3digo]\\n2 gol[jehaijey | editar
+  c\u00f3digo]\\n- Tim Cahill\\n- Mario Mand\u017euki\u0107\\n- Ivan Peri\u0161i\u0107\\n-
+  Jackson Mart\u00ednez\\n- Gervinho\\n- Wilfried Bony\\n- Luis Su\u00e1rez\\n- Andr\u00e9
+  Ayew\\n- Asamoah Gyan\\n- Clint Dempsey\\n- Memphis Depay\\n- Ahmed Musa\\n- Islam
+  Slimani\\n- Abdelmoumene Djabou\\n- Alexis S\u00e1nchez\\n- Bryan Ruiz\\n- Mats
+  Hummels\\n- Miroslav Klose\\n- Toni Kroos\\n- Mario G\u00f6tze\\n- David Luiz\\n-
+  Oscar\\n1 gol[jehaijey | editar c\u00f3digo]\\n- Fred\\n- Fernandinho\\n- Thiago
+  Silva\\n- Oribe Peralta\\n- Rafael M\u00e1rquez\\n- Andr\u00e9s Guardado\\n- Javier
+  Hern\u00e1ndez\\n- Giovani dos Santos\\n- Xabi Alonso\\n- David Villa\\n- Fernando
+  Torres\\n- Juan Mata\\n- Stefan de Vrij\\n- Leroy Fer\\n- Wesley Sneijder\\n- Klaas-Jan
+  Huntelaar\\n- Daley Blind\\n- Georginio Wijnaldum\\n- Jorge Valdivia\\n- Jean Beausejour\\n-
+  Eduardo Vargas\\n- Charles Ar\u00e1nguiz\\n- Pablo Armero\\n- Te\u00f3filo Guti\u00e9rrez\\n-
+  Juan Quintero\\n- Juan Cuadrado\\n- Keisuke Honda\\n- Shinji Okazaki\\n- Edinson
+  Cavani\\n- Diego God\u00edn\\n- Joel Campbell\\n- \u00d3scar Duarte\\n- Marco Ure\u00f1a\\n-
+  Claudio Marchisio\\n- Mario Balotelli\\n- Daniel Sturridge\\n- Wayne Rooney\\n-
+  Admir Mehmedi\\n- Haris Seferovi\u0107\\n- Blerim D\u017eemaili\\n- Granit Xhaka\\n-
+  Vedad Ibi\u0161evi\u0107\\n- Edin D\u017eeko\\n- Miralem Pjani\u0107\\n- Avdija
+  Vr\u0161ajevi\u0107\\n- Mesut \u00d6zil\\n- Sami Khedira\\n- John Anthony Brooks\\n-
+  Jermaine Jones\\n- Julian Green\\n- Sofiane Feghouli\\n- Rafik Halliche\\n- Yacine
+  Brahimi\\n- Marouane Fellaini\\n- Dries Mertens\\n- Divock Origi\\n- Jan Vertonghen\\n-
+  Kevin De Bruyne\\n- Romelu Lukaku\\n- Lee Keun-Ho\\n- Son Heung-Min\\n- Koo Ja-Cheol\\n-
+  Aleksandr Kerzhakov\\n- Aleksandr Kokorin\\n- Mile Jedinak\\n- Ivica Oli\u0107\\n-
+  Olivier Giroud\\n- Blaise Matuidi\\n- Mathieu Valbuena\\n- Moussa Sissoko\\n- Paul
+  Pogba\\n- Carlo Coslty\\n- Peter Odemwingie\\n- Nani\\n- Silvestre Varela\\n- Cristiano
+  Ronaldo\\n- Jo\u00ebl Matip\\n- Andreas Samaris\\n- Georgios Samaras\\n- Sokratis
+  Papastathopoulos\\n- Marcos Rojo\\n- \u00c1ngel Di Mar\u00eda\\n- Gonzalo Higua\u00edn\\n-
+  Reza Ghoochannejhad\\nGol en contra[jehaijey | editar c\u00f3digo]\\n- Marcelo -
+  Kyoasia-pe guar\u00e3\\n- Noel Valladares - Hy\u00e3sia-pe guar\u00e3\\n- Sead Kola\u0161ina\u0107
+  - Argentina-pe guar\u00e3\\n- John Boye - Poytuga-pe guar\u00e3\\n- Joseph Yobo
+  - Hy\u00e3sia-pe guar\u00e3\\nFinal standings[jehaijey | editar c\u00f3digo]\\nMba''e
+  omohechauk\u00e1va[jehaijey | editar c\u00f3digo]\\nApu''apopo[jehaijey | editar
+  c\u00f3digo]\\nMarandu pete\u0129ha o\u00f1e\u00f1e''\u1ebdva apu''apopo pyah\u00fava
+  FIFA Tembiesar\u00e1i Yvypav\u1ebd 2014-pegua \u00e1ra 2 jasyporundy ary 2012-jave,
+  FIFA, Atyvete Ojejap\u00f3va Tembiesar\u00e1i ha Adidas omboh\u00e9ra eteh\u00e1pe
+  pe apu''apopo ojepur\u00fava: \\\"Adidas Brazuca\\\". Oiporavo 1 119 539 kuimba''e
+  ha ku\u00f1a oikov\u00e9va Pindorama oiporavo hag\u0303ua apu''apopo h\u00e9ra,
+  t\u00e9ra \u00abBrazuca\u00bb ipu''aka 70 % oiporav\u00f3va hese, upear\u00f5 omyengovia
+  pe apu''apopo \\\"Adidas Jabulani\\\".[6][7]\\nT\u00e9ra ambu\u00e9va ikatu ojeporav\u00f3va:
+  \u00abBossa Nova\u00bb ha \u00abCarnavalesca\u00bb. Opa t\u00e9ra ikatu ojeporavo
+  akue ou Pindorama hekotee.[8] Pe t\u00e9ra opu''ak\u00e1va, \u00abBrazuca\u00bb,
+  he''ise Vrasil hekotee por\u00e3.[7]\\nK\u00f3va tembiasa ohasa Vrasil-pe ha''e
+  jeporavo pete\u0129ha apu''apop\u00f3pe guar\u00e3 FIFA-pegua, opaite tembiesar\u00e1i
+  ojejap\u00f3va vaekue ndoiporav\u00f3i hi''apu''apopo h\u00e9ra, tapicha ku\u00e9ra
+  oiporavo pete\u0129h\u00e1me Vrasil-pe.[6]\\nFIFA Tembiesar\u00e1i Yvypav\u1ebd
+  2014, tembiesar\u00e1i 22ha vakapipop\u00f3gui, atyvete Adidas ome''\u1ebd apu''apopo
+  \u00f1eha''\u00e3h\u00e1ra o\u00f1embosar\u00e1i hag\u0303ua ary 1970-guive.[8]\\nKo
+  \u00f1e''\u1ebd \u00abBrazuca\u00bb tapichaku\u00e9ra Vrasil-gua oipuru omboh\u00e9ra
+  m\u00e1va ohe\u00f1\u00f3i Vrasil ret\u00e3me. Upear\u00f5 \\\"Brazuca\\\" he''ise
+  \\\"Vrasil-gua\\\".[9]\\n\u00abChe vy''aeterei tapicha ku\u00e9ra Vrasil-gua ikatu
+  oiporav\u00f3gui mba''e omohechaukaete pe tembiesar\u00e1i h\u00e9ra. Che aimo''\u00e3
+  pe apu''apopo Brazuca heraku\u00e3r\u00e3 mbukuh\u00e1pe ijoaju ambue apu''apopo
+  pav\u1ebd heraku\u00e3va, apu''apopo Tango-icha Argentina-pe ary 1978-jave ha pe
+  apu''apopo Azteca-icha M\u00e9jiko-pe ary 1986-pe\u00bb[7]\\nPo''areruha[jehaijey
+  | editar c\u00f3digo]\\nFIFA ha Atyvete Ojejap\u00f3va Tembiesar\u00e1i omohechauka
+  pete\u0129 mymba po''areruha (mask\u00f3ta) pete\u0129 tatu juehegua oikov\u00e9va
+  Vrasil ret\u00e3me mante (pe Tatu ka''at\u0129nga).\\nT\u00e9le hechauka h\u00e9rava
+  \\\"Fant\u00e1stico\\\", ohas\u00e1va TV Globo rupive opa arate\u0129me, omohechauka
+  pete\u0129h\u00e1me pe mymba''i po''areruha, vakapipopo ha''\u00e3h\u00e1ra Ronaldo
+  omohechauka, karai vakapipopo ha''\u00e3h\u00e1ra heraku\u00e3va Vrasil-gua ha o\u0129va
+  Atyvete Ojejap\u00f3va Tembiesar\u00e1i-pe.\\n\u00ab\\\"Che vy''aeterei amomaite\u00edgui
+  pe mymba''i tenondeguaite 2014-pegua \u2013he''i Ronaldo opukavy\u2013, \u00f1andemoha''ang\u00e1ta
+  upe mok\u00f5i ar\u00fdpe. Ipy''amongetaha katuete heta mit\u00e3me ha mit\u00e3
+  vakapipopo ha''\u00e3h\u00e1ra Vrasil-pe, ha Yvypav\u1ebdme, ohayhuetere\u00edgui
+  ivakapipopo \u00f1eha''\u00e3 ha het\u00e3\\\".\u00bb\\nFIFA henda intern\u00e9pe,
+  tapicha ku\u00e9ra ikato oiporavo akue mymba''i h\u00e9rar\u00e3. Mbohapy t\u00e9ra
+  ikatu ojeporav\u00e9va ha''e akue: Amijubi \u2013omohechauk\u00e1va tekohayhu ha
+  vy''a, o\u00fava mok\u00f5i \u00f1e''\u1ebd amizade ha j\u00fabilo he''is\u00e9va
+  tekohayhu ha vy''a\u2013 ha mok\u00f5i t\u00e9ra ambu\u00e9va omohechauka tekor\u00e3ndy
+  \u00f1e\u00f1angareko: Fuleco ha Zuzeco.\\nMymba po''areruha ojoaju ambue mymba
+  po''areruha ndie, Zakumi (Tembiesar\u00e1i Yvypav\u1ebd 2010 Yvyafrika ret\u00e3me),
+  Goleo (Tembiesar\u00e1i Yvypav\u1ebd 2006 Alema\u00f1a ret\u00e3me) ha heta ambu\u00e9va.\\nMandu''apy[jehaijey
+  | editar c\u00f3digo]\\n- FIFA.com, 26/10/07, \u00abReporte de inspecci\u00f3n para
+  la Copa Mundial de la FIFA Brasil 2014 disponible en FIFA.com\u00bb\\n- FIFA. \u00abPrograma
+  de Calidad de la FIFA\u00bb. Consultado el 23 de enero de 2014.\\n- Blatter sugiere
+  candidatura de Chile y Argentina para organizar Mundial 2014, El Mercurio; Blatter
+  sugiri\u00f3 que Argentina y Chile organicen el Mundial 2014, Clar\u00edn\\n- FIFA.com
+  (31-5-09). \u00abBrasil 2014: reveladas las sedes\u00bb. Consultado el 9-6-09.\\n-
+  La Tercera (ed.): \u00abR\u00edo de Janeiro y Sao Paulo lideran ciudades subsedes
+  del Mundial de 2014\u00bb (31 de mayo de 2009).\\n- La Raz\u00f3n (ed.): \u00abBrazuca,
+  nombre del bal\u00f3n oficial de Brasil 2014\u00bb.\\n- FIFA (ed.): \u00abLos brasile\u00f1os
+  decidieron que el bal\u00f3n oficial se llame adidas Brazuca\u00bb (2 de septiembre
+  de 2012). Consultado el 16 de octubre de 2013.\\n- Adidas (ed.): \u00abBRAZUCA\u00bb.
+  Consultado el 16 de octubre de 2013.\\n- Telemetro (ed.): \u00abEl bal\u00f3n del
+  Mundial 2014 se llamar\u00e1 \\\"Brazuca\\\"\u00bb.\\nJoaju[jehaijey | editar c\u00f3digo]\\n-
+  Wikimedia Commons oguereko ta''\u00e3nga FIFA Tembiesar\u00e1i Yvypav\u1ebd 2014
+  reheguaCommons.\\n- FIFA Tembiesar\u00e1i Yvypav\u1ebd 2014 Renda\\n- P\u00e1gina
+  web del torneo Pindorama Teku\u00e1i \u00d1embyatypyre rupive\"", "\"Tet\u00e3 pete\u0129
+  reko Am\u00e9rikagua Yvateam\u00e9rika Canad\u00e1 Canad\u00e1 (Fran\u00e7ais) Tet\u00e3
+  pete\u0129 reko Am\u00e9rikagua (Espa\u00f1ol) Am\u00e9rica Latina Argentina Bolivia
+  Brasil Chile Colombia Costa Rica Puerto Rico M\u00e9xico Honduras Panam\u00e1 Rep\u00fablica
+  Dominicana Ecuador Guatemala Per\u00fa El Salvador Uruguay Paraguay Europa Belgi\u00eb
+  \u010cesko Deutschland Francia Espa\u00f1a Polski Liechtenstein Schweiz Portugal
+  Irlanda Rom\u00e2nia T\u00fcrkiye E\u03bb\u03bb\u03ac\u03b4a Reino Unido Sverige
+  Italia \u00d6sterreich Holanda Luxemburgo [...]\\nInscripci\u00f3n Facebook Twitter
+  LinkedIn Pinterest Bolsillo WhatsApp A LiveGoodE uma empresa inovadora e possui
+  um Plano de Recompensas diferente de todas ha''eh\u00e1icha outras empresas ojapo
+  mercado. Al\u00e9m disso ela vem crescendo em um ritmo realmente assustador e obviamente
+  algumas pessoas cuestionam se a ViveIpor\u00e3 \u00e9 de fato uma empresa leg\u00edtima.
+  Uma das principais rehegua\\nEjeregistra Oke Parches Eikuaa pe secreto oke pypuk\u00fape
+  LiveGood Healthy Sleep Parches rupive. Ko\u2019\u00e3 parche ipyah\u00fava ome\u2019\u1ebd
+  pete\u0129 mezcla ijojaha\u2019\u1ef9va ingrediente natural rehegua, o\u00f1embohyru
+  directamente tuguy rape opytu\u2019u pya\u2019e ha ipuk\u00fava. \u00a1Edespedi
+  pyhare oke\u2019\u1ef9vagui ha maitei oke imit\u00e3v\u00e9vape LiveGood ndive!
+  Miembro Precio: $14.95Precio al por menor: $19.95 JOGUA AHORA Tenonder\u00e3ve O\u00fava\\nEjeregistra
+  Eike Productos Estados Unidos X Energ\u00eda ha Enfoque Parches Ehasa energ\u00eda
+  ilimit\u00e1do ha enfoque l\u00e1ser-icha haimbe LiveGood Energy & Focus Parches
+  ndive. \u00a1Pe absorci\u00f3n directa ogarantisa rendimiento sostenido, penemombaret\u00e9va
+  peconquista ha\u011dua \u00e1ra ha \u00e1ra vitalidad natural ha concentraci\u00f3n
+  inquebrantable reheve! Miembro Precio: $14.95Precio al por menor: $19.95 JOGUA AHORA
+  Anterior Siguiente Precio: $14.95Precio al por menor: $19.95 JOGUA AHORA\\nRegistrar
+  Login Productos Estados Unidos X Equilibrio Hormonal Ku\u00f1angu\u00e9rape guar\u00e3
+  E\u2019experimenta pe jeguata transformador re\u2019equilibr\u00e1 ha\u011dua LiveGood
+  Equilibrio Hormonal ndive: Alivio natural a medida ojejap\u00f3va umi ku\u00f1a
+  remikotev\u1ebd hormonal intrincado-pe \u011duar\u00e3, omokyre\u2019\u1ef9va vitalidad
+  ha bienestar \u00f1eha\u2019\u00e3\u2019\u1ef9re, penemombaret\u00e9va pe\u2019abraza
+  ha\u011dua tekove plenamente. Miembro Precio: $14.95Precio al por menor: $19.95
+  JOGUA AHORA Anterior Siguiente Miembro Precio:\\nEjeregistra Eike Productos Estados
+  Unidos X Mit\u00e3ngu\u00e9ra Goma Multi-Vitamina LiveGood Mit\u00e3ngu\u00e9ra
+  Goma Multi-Vitamina Org\u00e1nica: USDA Certificado Org\u00e1nico. O\u00f1embohyru
+  umi nutriente esencial tete okakua\u00e1vape guar\u00e3, oimeh\u00e1pe Vitamina
+  C ha Zinc pytyv\u00f5 inmunol\u00f3gico-pe guar\u00e3. He\u2019\u1ebd, ipot\u0129
+  ha tuvaku\u00e9ra omon\u00e9\u0129va. \u00a1Edespedi umi aditivo sint\u00e9tico-gui
+  ha maitei pe mba\u2019epor\u00e3 hes\u00e3ivagui! Miembro Precio: $14.95Precio al
+  por menor: $19.95 JOGUA AHORA Tenonder\u00e3ve O\u00fava\\nEjeregistra Eike Productos
+  Estados Unidos X LEAN Oikuaauk\u00e1vo LiveGood LEAN: Pe mba\u2019e\u2019apopy paha
+  pe peso jeporu rehegua. O\u00f1eformula omokyre''\u00ff hagu\u00e3 metabolismo,
+  ombogue hagu\u00e3 apetito, ohapy hagu\u00e3 ikyrakue ha oipytyv\u00f5 salud inmune.
+  \u00a1Errevoluciona nde viaje bienestar rehegua ko \u00e1rape! Miembro Precio: $19.95Precio
+  al por menor: $27.95 JOGUA AHORA Anterior Siguiente Precio de Miembro: $19.95Precio
+  al por menor: $27.95 JOGUA AHORA Disponible en LiveGood DESCRIPCI\u00d3N MBA''\u00c9ICHAPA
+  OJEPORU:\\nRegistro Login Productos Estados Unidos X Factor4 Oikuaauk\u00e1vo LiveGood
+  Factor 4: Pete\u0129 mezcla ipyah\u00fava ojapova\u2019ekue inmun\u00f3logo Dra.
+  Heather Volpp, ombojoaj\u00fava Aceite de Pescado, C\u00farcuma, Coenzima Q10 ha
+  Ajo. Ojepytas\u00f3vo inflamaci\u00f3n rehe, oikuave''\u00eb apoyo hol\u00edstico,
+  omon\u00e9\u00eeva Dr. Volpp eficacia orek\u00f3va rehe. Emoambue nde salud naturalmente
+  ha errecupera vitalidad. Ejagarra control LiveGood Factor 4. Miembro ndive\\nRegistrar
+  Eike Productos Estados Unidos X Bio-Active Multi-Vitamina Completo Ku\u00f1angu\u00e9rape
+  guar\u00e3 Ojedesblokea salud kyre''\u00ffme LiveGood BioActive Multivitamina Completo
+  Ku\u00f1angu\u00e9rape guar\u00e3 rupive. Ojejapo 24 nutriente esencial ha hierro
+  oipytyv\u00f5va inmunidad, energ\u00eda ha vitalidad. \u00a1Eabraza \u00e1ra ha
+  \u00e1ra jerovia ha bienestar reheve! Miembro Precio: $9.95Precio al por menor:
+  $14.95 JOGUA AHORA Anterior Siguiente Precio: $9.95Precio al por menor: $14.95\\nRegistrar
+  Eike Productos Estados Unidos X Bio-Active Multi-Vitamina Completo Kuimba''\u00e9pe
+  guar\u00e3 Ehasa kuimba''eku\u00e9ra salud \u00f3ptima LiveGood BioActive Multivitamina
+  reheve. Pete\u00ee mezcla ampliada 24 nutriente esencial oipytyv\u00f5 inmunidad,
+  salud card\u00edaca, reducci\u00f3n estr\u00e9s ha hetave mba''e. Edesblokea nde
+  vitalidad ha e\u2019abraza pete\u0129 vida de bienestar. \u00a1E\u00f1e\u00f1andu
+  por\u00e3, eiko por\u00e3iterei! Miembro Precio: $9.95Precio al por menor: $14.95
+  JOGUA AHORA Ymavegua\"", "\"Home -- Guarani -- Perform a PLAY -- 124 (Jehoshaphat
+  & Ahab -1-)\\n124. Josafat \u00f1emo\u00f1e\u00b4ekuaav\u00e9va\\nMburuvichaku\u00e9ra
+  jeviditar\u00e2 o\u00f1embosako\u00b4i ojejapo pya\u00b4e pya\u00b4e. (purah\u00e9i).\\nO\u00f1emboveve
+  poyvi ha tembi\u00b4u hev\u00e9va okaru. Mburuvicha Josafatpe jeguerohory tuichapajepe.
+  \u00bfHe\u00b4i hiku\u00e1i o\u00eene hagu\u00e2 pensamiento ka\u00f1ymby pe \u00f1eipehe\u00b4a
+  rapyku\u00e9ri? Mbujruvicha Acab pya\u00b4e oho chupe hesakuait\u00e9pe:\\nAcab:
+  \u201cMburuvicha Josafat, Ramot t\u00e1va jandaha\u00b4ev\u00e9ima chemba\u00b4e.
+  P\u00e9va chemolestaiterei. \u00bfIkatu chepytyv\u00f4 asambyhyjeyhagu\u00e2?\u201c\\nJosafat:
+  \u201cJaikua\u00e1ngo up\u00e9va. Ikatu rejerovia che\u00f1orair\u00f4h\u00e1kuerare.
+  Ha katu... \u00bfndajajerur\u00e9ivaer\u00e2piko consejo \u00d1andej\u00e1rape?
+  Che ajapose Ha\u00b4e oipot\u00e1vante.\\\"\\n\u00d1amopete\u00ee k\u00f3va Tup\u00e2
+  \u00f1epytyv\u00f4ndi ipor\u00e2. Rejapyh\u00fdke ko techapyr\u00e2 k\u00f3va Josafatgui.
+  Che ha\u00b4e p\u00e9va ha\u00b4eha pete\u00ee mba\u00b4e ika\u00f1ymby. Maym\u00e1vaite
+  ohayhu Josafatpe. Oguereko heta chavol\u00e1i. Avave nda\u00b4ija\u00b4\u00e9iva
+  hese araka\u00b4ev\u00e9nte nombetis\u00e9i hese. Opaguio rei ou chupe jop\u00f3i.
+  Iconsejero ha\u00b4e \u00d1andej\u00e1ravoi. Opa mba\u00b4e Tup\u00e2mera\u00ea
+  oporandu.\\nMburuvicha Acab i\u00f1ambue. Oporanduvaer\u00e2 \u00d1andej\u00e1rape
+  nda\u00b4ikavoi chupe mba\u00b4ever\u00e2.\\nP\u00e9va ikatu avei ohasa nde angir\u00fbngu\u00e9ra
+  at\u00fdpe, remba\u00b4apos\u00e9ro \u00d1andej\u00e1randi.\\nA\u00f1eteh\u00e1pe
+  ipor\u00e2va hetajey ndaha\u00b4\u00e9i ojehayhup\u00e1va opa hend\u00e1pe, rey
+  Acabre oikohagu\u00e9icha.\\nAcab: \u201c\u00bfTekotev\u00eapa? O\u00eepor\u00e2.
+  \u00a1Tembigu\u00e1i, pehen\u00f3i profetaku\u00e9rape!\\\" (jeguata)\\nAcab: \u201c\u00bfJa\u00b4atacavaer\u00e2
+  Ramot t\u00e1va t\u00e9r\u00e2 nah\u00e2niri?\\\"\\nProfeta: \u201c\u00a1Pe atacakatu!
+  Pes\u00eata tenonde.\\\"\\nMburuvicha Acab o\u00ee vy\u00b4\u00e1pe. Rey Josafat
+  nah\u00e2niri. Oikuaa Tup\u00e2 \u00f1e\u00b4\u00ea ha oikuaa pe \u00f1e\u00b4\u00ea
+  ohend\u00fava ndaha\u00b4\u00e9iha \u00d1andej\u00e1ra \u00f1e\u00b4\u00ea. Umi
+  400 kuimba\u00b4e ijapu, o\u00f1e\u00b4\u00ea Acab favorpe; o\u00f1ehepyme\u00b4\u00ea
+  chupeku\u00e9ra ojapohagu\u00e9re.\\nJosafat: \u201c\u00bfNdoip\u00f3ri ko\u00b4\u00e1pe
+  ambue profeta \u00f1aporanduhagu\u00e2 chupe?\\\"\\nAcab: \u201cPete\u00eente o\u00ee.
+  Ha katu ndacha\u00b4e\u00edhese. Ako\u00ednte chemomarandu.\\\"\\nJosafat: \u201cEheja
+  tou.\\\"\\nMica\u00edas ou h\u00edna. Pete\u00ee \u00d1andej\u00e1ra mensahero a\u00f1etah\u00e1pe,
+  sapy\u00b4apy\u00b4\u00e1nte o\u00f1embojar\u00famiva.\\nAcab: \u201cMica\u00edas,
+  \u00bfja\u00b4atacaver\u00e2 Ramot?\\\"\\nMica\u00edas: \u201cH\u00eae, h\u00eae,
+  e\u00b4ataca, res\u00eata tenonde.\\\"\\nAcab (poch\u00fdpe): \u201cEre vaer\u00e2
+  a\u00f1etegua. \u00bfMba\u00b4e he\u00b4i Tup\u00e2?\\\"\\n\u00bfA\u00f1eteh\u00e1pe
+  ohenduse \u00d1andej\u00e1ra consejo? Ikatu ohenduhagu\u00e2, ha katu ndaha\u00b4\u00e9i
+  i\u00f1e\u00b4\u00earenduhagu\u00e2. Mica\u00edas o\u00f1embohovasy.\\nMica\u00edas:
+  \u201cTup\u00e2 ohechaka ch\u00e9ve nde soldadoku\u00e9ra pya\u00b4et\u00e9nte ha\u00b4\u00e9ta
+  umi ovecha ndorek\u00f3iva pastorichataha. Mburuvicha Acab nde ej\u00e9rcito ojer\u00e9ta
+  nderehe\u00b4\u00ff.\\\"\\nAcab (poch\u00fdpe): \u201c\u00bfPeh\u00eand\u00fapa?
+  Omomarandu chemano. \u00a1Pegueraha pemoinge chupe ka\u00b4ir\u00e2ime! \u00a1Pya\u00b4\u00e9ke!\\\"\\nAmbue
+  \u00e1ra pok\u00f4ind\u00fdpe jaikuaav\u00e9ta hesegua.\\nPersonajes: Relator, Josafat,
+  Acab, Mica\u00edas, profeta\\n\u00a9 Copyright: CEF-Germany\"", "\"1. Che ra\u0177cuera,
+  che ja\u00e9uc\u00e1 pe\u00eame co cuatia \u00f1e\u00ea me coambae reje, anichene
+  jagu\u00e2 pe\u00eacuera pe\u00f1emo angaipa. Oime ramo pete\u00ee \u00f1and\u00e9va
+  o\u00f1emo angaipa vaecue, oime yareco o\u00f1e\u00eajar\u00e2 \u00f1andereje T\u00favape,
+  pe Jesu Cristo pe jecoitepegua.\\n2. Jae voi pe omo\u00f1yr\u00f4j\u00e1ra \u00f1ane
+  angaipa reje, ja na \u00f1ane angaipa reje a\u00f1oi, opavave ybyp\u00f3ra angaipa
+  reje avei.\\n3. Ja coicha \u00f1ande yaicuaa yaicuaaj\u00e1 Ichupe \u00f1ambuete
+  ramo jecope jembiapoucap\u0177.\\n4. Oime ramo jeiva oicuaaj\u00e1 Ichupe ja nombuetev\u00e1i
+  jembiapoucap\u0177, up\u00e9va iyap\u00fava vo\u00ed, ja na jendai ipype pe \u00f1e\u00ea
+  a\u00f1etegua.\\n5. Oime ramo ombuet\u00e9va i\u00f1e\u00ea, a\u00f1ete iya ichupe
+  oja\u0177juvo jecoit\u00e9pe T\u00fbp\u00e2 \u00d1andey\u00e1rape, ja upeicha icatu
+  yaicuaa Jeseguaj\u00e1 \u00f1ande.\\n6. Oime ramo je\u00edva oicoj\u00e1 Jesegua
+  ramo, up\u00e9va oico vaer\u00e2 jec\u00f3pe, Jae oico jagueicha jecoit\u00e9pe.\\n7.
+  Che rayjup\u00e1ra cuera, nda ipyaj\u00fav\u00e1i co tembiapoucap\u0177 ja\u00e9uc\u00e1va
+  pe\u00eame co cuatia \u00f1e\u00ea rupi, pe tembiapoucap\u0177 ymaguar\u00e9nte
+  vo\u00ed pe\u00eacuera voi pejend\u00fa vaecue i\u00f1ypyrumb\u0177 guive. Pe tembiapoucap\u0177
+  ymaguare up\u00e9a voi upe \u00f1e\u00ea pejendu voi vaecue.\\n8. Upeicha rejeve
+  ja\u00e9uc\u00e1 aina cuatia \u00f1e\u00eame tembiapoucap\u0177 ambue ipyaj\u00fava
+  jecoitepegu\u00e1va vo\u00ed Jae guivo, ja pe\u00ea guivo avei, upe i\u00f1ypyt\u00fbva
+  ojas\u00e1maj\u00e1 reje ojovo ja pe ojesap\u00e9 jaet\u00e9va ojesap\u00e9maj\u00e1
+  reje jina.\\n9. Oime ramo jeiva oij\u00e1 ojesap\u00e9j\u00e1pe ja o\u00f1amotare\u0177va
+  japich\u00e1pe, up\u00e9va oi pyt\u00fbnguype coanga peve.\\n10. Oime ramo ojayj\u00fava
+  japich\u00e1pe, up\u00e9va opyta ojesap\u00e9j\u00e1pe, ja ndaiyai ichupe omo\u00f1epysang\u00e1
+  jagu\u00e2 ambuepe.\\n11. Oime ramo o\u00f1amotare\u0177va japich\u00e1pe up\u00e9va
+  oi i\u00f1ypyt\u00fbj\u00e1pe, ja oico pyt\u00fbnguype, ja ndoicuaai mamo rupipa
+  ojo jina, omo\u00f1ypyt\u00fbj\u00e1 reje jesa pe pyt\u00fb.\\n12. Che arajauca
+  pe\u00eame co cuatia \u00f1e\u00ea, che ra\u0177cuera, pene angaipa o\u00f1embo\u00ed
+  jague reje J\u00e9ra rupi.\\n13. Arajauca co cuatia \u00f1e\u00ea pe\u00eame pe\u00eacuera
+  t\u00favape, pe\u00ea peicuaaj\u00e1 reje Upe oim\u00e9vape i\u00f1ypyrumb\u0177
+  guive. Arajauca co cuatia \u00f1e\u00ea pe\u00eame, pe\u00eacuera caria\u0177 cuerape,
+  pende puaca jague reje pe mbaepochy reje. Arajauca vaecue pe\u00eame cuatia \u00f1e\u00ea
+  pe\u00eame, pe\u00eacuera che ra\u0177cuera, peicuaaj\u00e1 reje pe T\u00favape.\\n14.
+  Arajauca vaecue pe\u00eame cuatia \u00f1e\u00ea, pe\u00eacuera tuvacuera, pe\u00ea
+  peicuaaj\u00e1 reje Upe oic\u00f3vape i\u00f1ypyrumb\u0177 guive. Arajauca vaecue
+  pe\u00eame cuatia \u00f1e\u00ea, pe\u00eacuera caria\u0177, pene mbaraete retej\u00e1
+  reje, ja pe T\u00fbp\u00e2 \u00d1andey\u00e1ra \u00d1e\u00ea iyaj\u00e1 reje pende
+  pyape, ja pe\u00eacuera pende puaca jague reje pe mbaepochy reje.\\n15. Ani pejayju
+  umi ybyp\u00f3ra cuera recope, ja mbaeve ybyarigua. Oime ramo pete\u00eeva ojayj\u00fava
+  ybyp\u00f3racuera reco, ndaiyai ipy\u00e1pe ojayj\u00fa jagu\u00e2icha pe T\u00favape.\\n16.
+  Opambae oimeva ybyari, umi jeco va\u00edr\u00e2 \u00f1ande rete rupigua, umi jeco
+  va\u00edr\u00e2 \u00f1ande \u00f1ande res\u00e1 rupigua cuera, ja umi jeco by\u00e1
+  rei ja oyeicove p\u00f4r\u00e2j\u00e1 gui, opa umi mbae nda pe T\u00fava guiv\u00f3gu\u00e1i
+  ybyp\u00f3ra guiv\u00f3 guante.\\n17. Ja co yby ja jeco va\u00edr\u00e2 ojas\u00e1
+  ojovo. Upe ombuaye T\u00fbp\u00e2 \u00d1andey\u00e1ra rembipota, up\u00e9vante opyta
+  ar\u00e9 tapia gu\u00e2r\u00e2.\\n18. Che ra\u0177cueramimi, ji\u00e1ra paj\u00e1ma
+  ja pejendu jagueicha ou jagu\u00e2 iya\u00e9-\u0177-va rejegua Cristo reje, coanga
+  yepeve o\u00f1emoingoma jeta umi Cristo reje iya\u00e9-\u0177-va, ja upea gui ore
+  roicuaa ji\u00e1ra paj\u00e1maj\u00e1, Jaecuera os\u00ea ramo yepe ore apytegui,
+  ndajaei orerejegua yepe.\\n19. Jaecuera ore rejegua rire mo jiar\u00e9 rae orendive.
+  Umiva os\u00ea vaecue oyecua\u00e1uc\u00e1 jagu\u00e2 nda opavavei umichagua ore
+  rejeguaj\u00e1.\\n20. Pe\u00eacuera pe\u00f1emongara\u00ed o\u00f1emona pyr\u00e9icha
+  \u00f1and\u0177pe pe imarangat\u00fava rupi ja opavave peicuaa jec\u00f3pe opambae.\\n21.
+  Arajauca ramo yepe pe\u00eame co cuatia \u00f1e\u00ea, ndajaei peicuaa-\u0177-j\u00e1reje
+  co \u00f1e\u00ea a\u00f1etegua gui, peicuaaj\u00e1 rejente vo\u00ed, ja peicuaaj\u00e1
+  reje ndip\u00f3rij\u00e1 mbaeveichagua yap\u00fa a\u00f1etegua rejeguava.\\n22.
+  \u00bfMavapa upe iyap\u00fava? Pe omom\u00e2r\u00e2vante Jes\u00faspe ja jeiva Jae
+  ndajaeij\u00e1 Cristo. Cova pe Cristo reje iya\u00e9-\u0177-va, pe omom\u00e2r\u00e2va
+  pe T\u00fava ja pe Ta\u0177rape.\\n23. Oime ramo omom\u00e2r\u00e2va pe Ta\u0177rape,
+  up\u00e9va nda pe T\u00fava rejegu\u00e1vai; upe omombe\u00fava pe Ta\u0177ra rejeguaj\u00e1,
+  up\u00e9va pe T\u00fava rejegu\u00e1nte avei.\\n24. Ja pe pe\u00eacuera pejend\u00fa
+  vaecue i\u00f1ypyrumb\u0177 guive topyta umimbae pendepyape. Jiar\u00e9 ramo pendepype
+  co pejendu vaecue i\u00f1ypyrumb\u0177 guive, pe\u00eacuera avei pende ar\u00e9ne
+  pe Ta\u0177ra ja pe T\u00fava rejeguava ramo avei.\\n25. Cova voi pe o\u00f1ecuame\u00ea
+  mbyr\u00e9 Jae oicuame\u00ea vaecue \u00f1andeve pe tecov\u00e9 iyapyra-\u0177-va
+  yaicove tapia jagu\u00e2.\\n26. Coambae ja\u00e9uc\u00e1 pe\u00eame co cuatia \u00f1e\u00ea
+  rupi umi penemboyabys\u00e9va reje.\\n27. Pe\u00eame voi iya gueteri upe puaca pe
+  pe\u00f1emongara\u00ed jague Ja\u00e9rupi, ja upeareje na peic\u00f4tev\u00eai avave
+  pene mboe vaer\u00e2 reje. Upea rangue co pe\u00f1embo puacaj\u00e1 rupi, Ja\u00e9
+  pene mboe opa mbae reje. Cova a\u00f1ete nda yapuiri, ja up\u00e9va penemboe jagueicha
+  pe\u00ea pepyta Jesegua ramo.\\n28. Ja coanga, che ra\u0177cuera mimi, pepytaite
+  Jesegua ramo, icatu jagu\u00e2 sapya oyejechauca yeby ramo gu\u00e2r\u00e2 Jae,
+  \u00f1ande yayerovia \u00f1ande poyju\u0177jape, ja anichene jagu\u00e2 \u00f1a\u00f1emot\u00ee
+  iy\u0177pype ou yeby rire.\\n29. Pe\u00ea peicuaa jaicha vo\u00ed Jae jecoitepeguaj\u00e1,
+  peicuaa vaer\u00e2 avei pe cuimbae jeco p\u00f4r\u00e2iteva up\u00e9va i\u00f1emo\u00f1ar\u00e9
+  Jesegua voi-j\u00e1.\"", "\"Escucha el evangelio y la reflexi\u00f3n en: https://youtu.be/eNnaJUTzQ74\\nLunes
+  31 Durante el A\u00f1o Lucas 14, 1. 12 \u2013 14\\nUp\u00e9r\u00f5 pytu\u2019uha
+  \u00e1rape, pete\u0129 faris\u00e9o ruvicha okonvida Jes\u00faspe oho hag\u0303ua
+  osena hendive h\u00f3gape. Opa umi o\u0129va up\u00e9pe oma\u00f1a joa hiku\u00e1i
+  Jes\u00fas rehe.\\nJes\u00fas he\u2019i pe chupe onkonvida vaeku\u00e9pe: Rejap\u00f3r\u00f5
+  karu guasu, \u00e1rape t\u00e9r\u00e3 pyhare, ani ekonvida ne ir\u0169 ngu\u00e9rape,
+  t\u00e9r\u00e3 nde ryvy ha nde ryke\u2019yku\u00e9rape, t\u00e9r\u00e3 nde rogagu\u00e1pe
+  ha umi rr\u00edkoku\u00e9ra nde r\u00f3ga jere rupi oik\u00f3vape. \u00c1g\u0303a
+  up\u00e9i, ha\u2019eku\u00e9ra ave ne konvid\u00e1ne, ha p\u00e9icha\\nrepyta por\u00e3
+  hendiveku\u00e9ra. \u00c1g\u0303a rejapo je\u00fdvo, ekonvida umi imboriah\u00favape,
+  umi ipy ch\u00e9keva, i\u00f1ep\u00e3va ha umi hesat\u0169vape.\\nHa\u2019eku\u00e9ra
+  niko ndaikatu mo\u2019\u00e3i ne konvida mba\u2019ev\u00e9pe ha ndaikatu mo\u2019\u00e3i
+  omyengovia nd\u00e9ve. \u00d1andej\u00e1ra katu tuicha nde rovasa va\u2019er\u00e3
+  \u00e1g\u0303a opa hekojoj\u00e1va oikove jeyha \u00e1rape.\\n\u00d1andej\u00e1ra
+  Jesucristo \u00f1e\u2019\u1ebd.\\n\u00d1AMBOGUEJY \u00d1ANDE REKOV\u00c9PE\u2026\\nPe
+  \u00f1ane s\u00e1nto \u00e1rape ningo jajapo jepi tembi\u2019u por\u00e3, jajogua
+  jay\u2019umi va\u2019er\u00e3, ha \u00f1akonvida \u00f1ane h\u00e9nteku\u00e9rape,
+  \u00f1ane ir\u0169 jahayh\u00favape. Oim\u00e9ramo \u00f1amboty aniversario, t\u00e9r\u00e3
+  katu oik\u00f3ramo menda, mit\u00e3 karai, quince a\u00f1o, colaci\u00f3n ha mba\u2019e
+  niko katuete um\u00edva ogueru vy\u2019a ha o\u00f1emos\u00e3 jepi karu guasu, jeroky,
+  jotopa reheve, jaguerohory hagu\u00e3 o\u00f1ondive \u00f1ande rekove ha \u00d1andej\u00e1ra
+  gracia por\u00e3ita. Ha umivar\u00e3 ningo sapy\u2019\u00e1nte o\u00f1ekonvida karai
+  guasu ku\u00e9ra, ojeheka mit\u00e3 kara\u00edpe guar\u00e3 umi pa\u00edno ikatu
+  va\u2019er\u00e3 up\u00e9i ojevale hese.\\nUmi mburuvicha o\u00f1emboguapy ipor\u00e3veh\u00e1pe
+  ha o\u00f1emongaru por\u00e3 \u00e1g\u00e3 up\u00e9i ojejerure hagu\u00e3icha \u00f1epytyv\u00f5
+  compadre t\u00e9r\u00e3 comadre ro\u2019\u00f3pe. Ha up\u00e9i ave jaikuaa ojejapoha
+  karu guasu, jeroky, aty guasu ojajaip\u00e1va, hepy hep\u00fdva, fiesta social o\u00f1ehen\u00f3iva,
+  ojejap\u00f3va o\u00f1eipytyv\u00f5 hagu\u00e3 mboriahuku\u00e9rape hepyku\u00e9re.
+  Mboriahu katu ndoh\u00f3i up\u00e9pe, umi ipl\u00e1ta het\u00e1vante. Oho ojechauka
+  opyta por\u00e3 hagu\u00e3 ha o\u00f1e\u00f1e\u2019\u1ebd por\u00e3 hagu\u00e3 heseku\u00e9rante.\\nJes\u00fas
+  niko oh\u00f3miva umi karu guasu h\u00e1pe, \u00f3ga h\u00e1rupi o\u00f1ekonvid\u00e1ramo
+  vy\u2019ar\u00e3, menda h\u00e1pe ha aty por\u00e3me ha\u2019e oho avei okaru ha
+  omboy\u2019u hapicha ku\u00e9ra ndive. Ovy\u2019akuaa ha\u2019e hapicha ku\u00e9ra
+  ndive, ha ohecha avei mba\u2019\u00e9ichapa o\u0129 o\u00f1embotapyku\u00e9va. Ha
+  ombojoja pe \u00d1andej\u00e1ra Reino, yv\u00e1ga pegua, karu guasu ha vy\u2019a
+  reheve. Up\u00e9pe jepe, he\u2019i Jes\u00fas, itenond\u00e9ta umi ko\u2019\u00e3ga
+  itapyku\u00e9va ha itapyku\u00e9ta umi itenond\u00e9va. Ha up\u00e9vare che reindy
+  ha nde che ir\u0169, Jes\u00fas \u00f1anembo\u2019e javy\u2019a kuaa hagu\u00e3,
+  jajejapo\u2019\u1ef9re \u00f1ande avei.\\n\u00d1akonvida mboriahu, has\u00fdvape,
+  umi ndaikat\u00faiva omyengovia \u00f1and\u00e9ve. \u00d1andej\u00e1ra \u00f1ande
+  rovas\u00e1ta ha tuicha h\u00e1icha omyengovi\u00e1ta h\u00edna \u00f1and\u00e9ve
+  amo ipah\u00e1pe.\\nPa\u2019i Jasy.\"", "\"Canci\u00f3n de\\nEMILIANO R. FERN\u00c1NDEZ\\n(Enlace
+  a datos biogr\u00e1ficos y obras\\nEn la GALER\u00cdA DE LETRAS del\\nwww.portalguarani.com
+  )\\n.\\nCHE MBOTAVY NINGO RACA\u2019E\\nPete\u00ef mango ra''y guype ere vaecue
+  ch\u00e9ve nei\\njha ere repoy jhumi oimejha pete\u00ef guyra\\nne cu\u00e4ir\u00fc
+  rerecojha ere vaecue ch\u00e9ve up\u00e9r\u00f6\\nup\u00e9va nd\u00e9ve ome''\u00ebvo
+  che a\u00f1oite apytatajha\\n\u2026.. Che aic\u00f3ma nde rapycu\u00e9ri \u00f1aimo''\u00e4nte
+  cu itav\u00fdva\\n\u2026.. na\u00f1andui ch\u00e9ve ni jhasyva tayuke torojhecha\\n\u2026..
+  aimo''\u00e4gui che mba''er\u00e4 como ere cheve nei\\n\u2026.. nimbo epe taguato''i
+  nemorayjhu yarar\u00e4\\n\u2026.. nemorayjhu yarar\u00e4.\\nChe jha''emi vacue nd\u00e9ve
+  che jha''e nerembigu\u00e1i\\nanich\u00e9ne rombojhov\u00e1i che \u00e4jh\u00f3r\u00f6
+  che reinami\\nco''\u00e1ga ch\u00e9ve ivai nerejhendusev\u00e9i mba''eve\\nmburic\u00e1icha
+  cherejhe jhat\u00e4ngue repyvoi.\\n\u2026.. Ryguasu co imembymi jhetait\u00e9mi
+  ojhavi''u\\n\u2026.. up\u00e9inte oico ijhu''u omombo''o iyejhegui\\n\u2026.. ndave
+  co p\u00e9icha avei cunu''\u00fcme yaico rire\\n\u2026.. nda nde avei che rejhe
+  upe ne a\u00f1\u00e1gui rei.\\n\u2026.. Upe ne a\u00f1\u00e1gui rei.\\n.\\n.\\nNo
+  hay comentarios:\\nPublicar un comentario en la entrada\"", "\"1\\n1Coa co cuatia
+  Jesu Cristo mo\u00f1emo\u00f1ajar\u00e9 ypycue guare. Ja\u00e9 Davidrejegua, ja
+  Abraamrejegua avei.\\n2Abraam omo\u00f1emo\u00f1a Isa\u00e1cpe: Isaac omo\u00f1emo\u00f1a
+  Jacobpe: Jacob omo\u00f1emo\u00f1a Judape, ja tybyracuerape: 3Juda omo\u00f1emo\u00f1a
+  Farespe ja Zarape pe Tamargui: Fares omo\u00f1emo\u00f1a Esrompe: Esrom omo\u00f1emo\u00f1a
+  Arampe: 4Aram omo\u00f1emo\u00f1a Aminadabpe: Aminadab omo\u00f1emo\u00f1a Naass\u00f3npe:
+  ja Naass\u00f3n omo\u00f1emo\u00f1a Salm\u00f3npe: 5ja Salm\u00f3n omo\u00f1emo\u00f1a
+  Boespe Racabgui: ja Boes omo\u00f1emo\u00f1a Jobedpe Rutgui: ja Obed omo\u00f1emo\u00f1a
+  Jess\u00e9pe: 6ja Jess\u00e9 omo\u00f1emo\u00f1a pe mburuvicha guasu Davidpe.\\nPe
+  David omo\u00f1emo\u00f1a Salom\u00f3npe pe Ur\u00edas rembirecocue gui: 7ja Salom\u00f3n
+  omo\u00f1emo\u00f1a Roboampe: ja Roboam omo\u00f1emo\u00f1a Ab\u00edape: ja Ab\u00eda
+  omo\u00f1emo\u00f1a Asape: 8ja Asa omo\u00f1emo\u00f1a Josafatpe: ja Josafat omo\u00f1emo\u00f1a
+  Jorampe: ja Joram omo\u00f1emo\u00f1a Oz\u00edaspe: 9ja Oz\u00edas omo\u00f1emo\u00f1a
+  Joatampe: ja Joatam omo\u00f1emo\u00f1a Ak\u00e1zpe: ja Ak\u00e1z omo\u00f1emo\u00f1a
+  Ezek\u00edaspe: 10ja Ezek\u00edas omo\u00f1emo\u00f1a Manas\u00e9spe: ja Manas\u00e9s
+  omo\u00f1emo\u00f1a Am\u00f3npe: ja Am\u00f3n omo\u00f1emo\u00f1a Jos\u00edaspe:
+  11ja Jos\u00edas omo\u00f1emo\u00f1a Jecon\u00edaspe ja tybyracuerape oyereraja
+  rire guare Babiloniape.\\n12Upegui oyebyparire pe Babiloniape oyereraja jaguegui
+  pe Jecon\u00edas omo\u00f1emo\u00f1a Salatielpe: ja Salatiel omo\u00f1emo\u00f1a
+  Zorobabelpe: 13ja Zorobabel omo\u00f1emo\u00f1a Abiudpe: ja Abiud omo\u00f1emo\u00f1a
+  Eliak\u00edmpe: ja Eliak\u00edm omo\u00f1emo\u00f1a Azorpe: 14ja Azor omo\u00f1emo\u00f1a
+  Sadocpe: ja Sadoc omo\u00f1emo\u00f1a Ak\u00edmpe, ja Ak\u00edm omo\u00f1emo\u00f1a
+  Eliudpe: 15ja Eliud omo\u00f1emo\u00f1a Eleazarpe: ja Eleazar omo\u00f1emo\u00f1a
+  Mat\u00e1npe: ja Mat\u00e1n omo\u00f1emo\u00f1a Jacobpe: 16ja Jacob omo\u00f1emo\u00f1a
+  Jos\u00e9pe, pe Mar\u00eda mena: pe Mar\u00eda voi Jes\u00fas joa jague pe oyee
+  vaecue Cristo.\\n17Upeichav\u00f3 oime umi \u00f1emo\u00f1ajar\u00e9 retacue Abraam
+  guive David peve catorce; ja pe David guive oyereraja peve Babiloniape ojupity catorce
+  \u00f1emo\u00f1ajar\u00e9; ja upegui oyeby guive pe Babiloniape oyereraja jaguegui
+  Cristo peve ojupity catorce \u00f1emo\u00f1ajar\u00e9.\\n18Ja oyeju coicha o\u00f1emo\u00f1a
+  jagu\u00e2 Jesu Cristo. Pe is\u0177r\u00e2 Mar\u00eda ome\u00ea raca\u00e9 i\u00f1e\u00ea
+  Jos\u00e9pe omenda jagu\u00e2 jese, ja oico mboyve o\u00f1ondive yepe, jae oyeyuju
+  jygueguasumaj\u00e1 Espiritu Santogui. 19Upei catu imenar\u00e2 Jos\u00e9, cara\u00ed
+  iyojeipyr\u00e9 vo\u00ed, ndoipotaigui j\u00ear\u00e2cu\u00e2 va\u00ed jagu\u00e2
+  ichugui, opoiucase ichupe i\u00f1e\u00eagui k\u00eer\u00eer\u00eejame. 20Upeyave
+  ji\u00e2 pype jina ichupe oyapo jagu\u00e2 upea, sapya \u00d1andey\u00e1ra remimbou
+  yvapegua oyejechauca ichupe ikepe, ja jei ichupe: Nde, Jos\u00e9, David ra\u0177,
+  ani rekyj\u0177y\u00e9 re\u00ed rerojory jagu\u00e2 nerembirecor\u00e2 co Mar\u00edape:
+  Upe o\u00f1emo\u00f1\u00e1va jyguepe, upeva Espiritu Santoguiguante. 21Ja jae imembyr\u00e1ne,
+  ja pe Mit\u00e2 cuimbaepe imemby remboj\u00e9ra vaer\u00e2 Jes\u00fas. Jae vo\u00ednte
+  oicone umi oyejegua Rep\u0177j\u00e1r\u00e2 i\u00f1angaip\u00e1gui. 22\u00c2mbae
+  vo\u00ed oyeju vaecue oico jagu\u00e2 jecope pe \u00d1andey\u00e1ra \u00f1e\u00eangue
+  jeiuca vaecue pe \u00f1emo\u00f1e\u00eajar\u00e9 yururupi: 23Ma\u00eake! peina oimene
+  cu\u00f1at\u00e2\u00ed im\u00e2r\u00e2\u0177va jygue guasu vaer\u00e2 ja imembyr\u00e1
+  vaer\u00e2, ja pe Mit\u00e2 cuimbae pe imemby, o\u00f1emboj\u00e9rane Ichupe Emmanuel,
+  T\u00fbp\u00e2 \u00d1andey\u00e1ra \u00f1anendivegua yaemo ava\u00f1e\u00eame. 24Upei
+  catu opa\u0177ma r\u00e1mo Jos\u00e9 okej\u00e1gui, oyapo vo\u00ed pe \u00d1andey\u00e1ra
+  remimbou oyapouc\u00e1 jagueicha ichupe, ja oguerojor\u0177 jembirecope jogape.
+  25Opaichav\u00e9vo ndoicoi jendive imembyr\u00e1 peve. Ja omboj\u00e9ra pe imemby
+  cuimbaepe Jes\u00fas.\"", "\"Tuminguaave''\u1ef9\\nTuminguaave''\u1ef9 (karai\u00f1e''\u1ebd:
+  \u00e1tomo) t\u00e9r\u00e3 tumingue''a [1]ha''e opa mba''e peh\u1ebdngue pete\u0129cha,
+  imba''epy hekopete kimikuaa rap\u00e9pe, ha oguerek\u00f3va ijapyt\u00e9pe heta
+  vore chu''imimi imba''epy hekopete''\u1ef9mi kimikuaa rap\u00e9pe. Opaite ap\u1ef9i
+  kimi rehegua o\u00f1emohenda tuminguaave''\u1ef9 ha''ete rupive ha ndakat\u00faiva
+  o\u00f1emboja''o.\\nKo''\u00e3ga ojeikuaa opa tuminguaave''\u1ef9 oguereko imbyt\u00e9pe
+  pete\u0129 tumingue''ambyte (n\u00facleo at\u00f3mico karai\u00f1e''\u1ebdme), haimete
+  imba''era''\u00e3mba h\u00e1icha o\u0129 ku rend\u00e1pe, ojere chupe pete\u0129
+  peh\u1ebdrendyry arai. Ko mba''ekuaar\u00e3 ojehechauka pete\u0129h\u00e1me saro''y
+  XX \u00f1epyr\u0169me, upe saro''y XIX aja yvyp\u00f3ra oimo''\u00e3 tuminguaave''\u1ef9
+  ndakat\u00faiva o\u00f1emboja''o, up\u00e9vare, heta \u00f1e''\u1ebdme o\u00f1emboh\u00e9ra
+  chupe \u00e1tomo, karai\u00f1e''\u1ebdme h\u00e1icha, o\u00fava a-t\u00f3mo- gyresia\u00f1e''\u1ebd
+  megua ha p\u00e9va he''se ''\u00f1emboja''o''\u1ef9''. Ha upei, yvyp\u00f3ra ojuhu
+  tumingue''ambyte oguereko niko ra''e mok\u00f5i vore, umi peh\u1ebdjy (protones),
+  oguereko apakuavoh\u00fdi ombojakua\u00e1va ipype (carga positiva karai\u00f1e''\u1ebdme),
+  ha peh\u1ebdte''\u1ef9re, mbytegua hendyr\u00fdva. Umi peh\u1ebdrendyry (electrones),
+  ijapakuavoh\u00fdi hendyry kangy, o\u00f1embojoaju chupe mbaretekue tendyry\u00f1ohasa
+  rupive (fuerza electromagn\u00e9tica karai\u00f1e''\u1ebdme).\\nMandu''apy[jehaijey
+  | editar c\u00f3digo]\\nJoaju[jehaijey | editar c\u00f3digo]\\n- Wikimedia Commons
+  oguereko ta''\u00e3nga Tuminguaave''\u1ef9 reheguaCommons.\"", "\"LECTURA PETE\u00ceHA:\\nKo\u2019\u00e1g\u00e3
+  \u00f1ahend\u00fata Tup\u00e3 \u00d1andej\u00e1ra \u00f1e\u2019\u1ebd G\u00e9nesis
+  aranduk\u00e1pe o\u0129 h\u00e1icha 2, 4b. 7a. 18-24\\n\u00d1andej\u00e1ra ojapo
+  ramo guare opa mba\u2019e, ndaip\u00f3ri va\u2019ekue gueteri mba\u2019eveichagua
+  yvyra ra\u2019y ha nahe\u00f1\u00f3iri mba\u2019eve yvy \u00e1ri, nomong\u00fdigui
+  ha ndaip\u00f3rigui avei avave omba\u2019ap\u00f3va yvy rehe. Yvy gu\u00fdgui katu
+  os\u1ebd yvu omohe\u2019\u00f5va yvy ape. Up\u00e9ma ramo \u00d1andej\u00e1ra ojapo
+  \u00f1ai\u2019\u0169gui kuimba\u2019e ha oipeju it\u0129ngu\u00e1pe ipytu oporo
+  moingov\u00e9va.\\nUp\u00e9i \u00d1andej\u00e1ra he\u2019i: \u201cKuimba\u2019e
+  naipor\u00e3i oiko ha\u2019e\u00f1o. Ajap\u00f3ta ichupe i\u00f1ir\u0169r\u00e3,
+  pete\u0129 oipytyv\u00f5 va\u2019er\u00e3 ichupe\u201d. Up\u00e9ma ramo \u00d1andej\u00e1ra
+  ojapo \u00f1ai\u2019\u0169gui opaichagua tymba ha guyra, ha ogueraha kuimba\u2019e
+  rend\u00e1pe ha\u2019e omboh\u00e9ra hagu\u00e3. Ha opa ite tymba opyta h\u00e9ra,
+  omboh\u00e9ra hagu\u00e9icha kuimba\u2019e. Kuimba\u2019e omboh\u00e9ra mymba, guyra
+  ha tymba saite ha ijapyt\u00e9peku\u00e9ra ndojuh\u00fai oipytyv\u00f5va ichupe
+  ha\u2019e oikotev\u1ebdh\u00e1icha.\\nUp\u00e9ma ramo \u00d1andej\u00e1ra omonge
+  hat\u00e3 kuimba\u2019\u00e9pe. Ha oke aja, oipe\u2019a ichugui pete\u0129 k\u00e3ngue
+  ijyke pegua ha up\u00e9i omboty jevy upe ik\u00e3ngue rendague. Upe ik\u00e3ngu\u00e9gui
+  ojapo pete\u0129 ku\u00f1a, ha ogueraha kuimba\u2019\u00e9pe. Ha ha\u2019e ohech\u00e1vo
+  he\u2019i: \u201cK\u00f3va katu che k\u00e3ngue ha che ro\u2019\u00f3gui os\u1ebdva,
+  h\u00e9rata \u2018ku\u00f1a\u2019 os\u1ebdre kuimba\u2019\u00e9gui\u201d.\\nUp\u00e9va
+  rehe kuimba\u2019e oheja it\u00fava ha is\u00fdpe, ojoaju hembireko ndive, ha oiko
+  mok\u00f5iv\u00e9gui pete\u0129 tekov\u00e9nte.\\nTup\u00e3 \u00d1andej\u00e1ra
+  \u00d1e\u2019\u1ebd.\\nOpavave: Romomba\u2019e guasu nd\u00e9ve, \u00d1andej\u00e1ra.\\nSALMO
+  \u00d1EMBOHOV\u00c1I 127, 1-6\\nOpavave: \u00d1andej\u00e1ra ta \u00f1ande rovasa
+  opa \u00e1ra jaikove aja\\nRevy\u2019a va\u2019er\u00e3 \u00d1andej\u00e1ra rehe
+  rejerovia ramo,\\nha reiko ramo ha\u2019e oipota h\u00e1icha.\\nNde ry\u2019\u00e1i
+  repyku\u00e9gui rekar\u00fane,\\nrevy\u2019\u00e1ne, ha opa mba\u2019\u00e9pe res\u1ebd
+  por\u00e3ne. O.\\nNde r\u00f3ga p\u00fdpe ne rembireko ojogu\u00e1ta\\nku parral
+  hi\u2019a het\u00e1vape.\\nNe mesa jere rehe katu nde ra\u2019y ha nde rajy ku\u00e9ra\\nojogu\u00e1ta
+  umi yvyra roky pyah\u00fape. O.\\n\u00d1andej\u00e1ra ta nde rovasa Si\u00f3n guive\\nreikove
+  aja pukukue. Reikov\u00e9ta rehecha hagu\u00e3\\nmba\u2019\u00e9ichapa Jerusal\u00e9n
+  opu\u2019\u00e3. O.\\nHa reikov\u00e9ta rehecha hagu\u00e3 nde ra\u2019y ra\u2019yr\u00e9pe.\\nPy\u2019a
+  guapy to\u0129 Isra\u00e9lpe. O.\\nLECTURA MOK\u00d5IHA:\\nKo\u2019\u00e1g\u00e3
+  \u00f1ahend\u00fata kuatia\u00f1e\u2019\u1ebd ojehai va\u2019ekue Hebreosku\u00e9rape
+  2, 9-11\\nChe pehengueku\u00e9ra: Jahecha mba\u2019\u00e9ichapa Jes\u00fas, Tup\u00e3
+  omomich\u0129mive va\u2019ekue sapy\u2019ami \u00c1nhel ku\u00e9ragui, yvate ohupi
+  ha omomba\u2019e guasu ichupe, pe omano hagu\u00e9icha omano rupi. Tup\u00e3, ohechauk\u00e1vo
+  imborayhu \u00f1ande rehe, oheja omano \u00f1ande reheh\u00e1pe.\\nOpa mba\u2019e
+  o\u0129 Tup\u00e3me guar\u00e3 ha Tup\u00e3 ojap\u00f3gui, oipot\u00e1va opa ta\u2019\u00fdra
+  oike heko mimbip\u00e1pe. Up\u00e9va rehe Tup\u00e3, Jesucristo ohasa asy rupi,
+  ojapo va\u2019er\u00e3 va\u2019ekue ichugui pete\u0129 ivai\u2019\u1ef9va mba\u2019ev\u00e9pe,
+  oporopysyr\u00f5va. Opavave niko pete\u0129nte it\u00fava, umi imarangat\u00fava
+  ha pe oporomo marangat\u00fava. Up\u00e9va rehe, Tup\u00e3 Ra\u2019y not\u0129ri
+  he\u2019i hagu\u00e3 heseku\u00e9ra ipeh\u1ebdngueha.\\nTup\u00e3 \u00d1andej\u00e1ra
+  \u00d1e\u2019\u1ebd.\\nOpavave: Romomba\u2019e guasu nd\u00e9ve, \u00d1andej\u00e1ra.\\nALELUIA
+  1Jn 4, 12b\\nAleluia.\\nJajoayhu ramo, \u00d1andej\u00e1ra o\u0129 \u00f1ande pype
+  ha imborayhu o\u0129 hekopete \u00f1ande pype.\\nAleluia.\\nEVANGELIO\\nMarandu
+  por\u00e3 \u00d1andej\u00e1ra Jesucr\u00edsto rekove ha hemimbo\u2019e San Marcos
+  omombe\u2019u h\u00e1icha 10, 2-16\\nUp\u00e9r\u00f5 o\u0129 mimi faris\u00e9o ku\u00e9ra
+  o\u00f1emboj\u00e1va Jes\u00fas rend\u00e1pe ombopakova pires\u00e9gui chupe hiku\u00e1i.
+  Oporandu hiku\u00e1i Jes\u00faspe ikat\u00fanepa m\u00e9naku\u00e9ra opoi hembirek\u00f3gui.
+  Jes\u00fas he\u2019i chupe ku\u00e9ra: \u2014 Mba\u2019\u00e9iko he\u2019i Moises
+  l\u00e9ipe.\\nHa\u2019eku\u00e9ra he\u2019i chupe: \u2014 Moises l\u00e9ipe niko
+  he\u2019i ikatuha japoi \u00f1ane rembirek\u00f3gui \u00f1ame\u2019\u1ebdma guive
+  chupe kuatia. Up\u00e9va reheve \u00f1amos\u1ebd kua\u00e1ma \u00f1ande r\u00f3gagui.\\nHa
+  Jes\u00fas he\u2019i chupeku\u00e9ra: \u2014 Pende py\u2019a hat\u00e3guinte Moises
+  oheja va\u2019ekue pe\u1ebdme up\u00e9va pe l\u00e9i. I\u00f1epyr\u0169mb\u00fdpe
+  niko \u00d1andej\u00e1ra ojapo va\u2019ekue kuimba\u2019e ha ku\u00f1a. Up\u00e9vare,
+  kuimba\u2019e oheja it\u00fava ha is\u00fdpe, ha ojoaju hembireko ndive.\\nMok\u00f5iv\u00e9va
+  oiko pete\u0129cha. Ndaha\u2019e v\u00e9ima mok\u00f5i. Up\u00e9vare, umi \u00d1andej\u00e1ra
+  ombojoaju va\u2019ekue ndaikat\u00fai avave oipe\u2019a ojuehegui.\\nOgu\u00e3h\u1ebd
+  rire hiku\u00e1i h\u00f3gape, idis\u00edpulo ku\u00e9ra oporandu jey chupe ko\u2019\u00e3
+  mba\u2019\u00e9re.\\nJes\u00fas he\u2019i chupeku\u00e9ra: \u2014 Oimera\u1ebdva
+  opo\u00edva hembirek\u00f3gui ha up\u00e9i omenda je\u00fdva, omyak\u00e3rat\u0129
+  h\u00edna hembirek\u00f3pe. Ha pete\u0129 ku\u00f1a opo\u00edr\u00f5 im\u00e9nagui
+  ha up\u00e9i omenda jey, ha\u2019e ave omyak\u00e3 rat\u0129 im\u00e9nape.\\nUpe
+  jave ogueraha hiku\u00e1i mit\u00e3 mimi Jes\u00fas rend\u00e1pe opoko hagu\u00e3
+  heseku\u00e9ra.\\nUmi idis\u00edpuloku\u00e9ra katu omongavaju umi mit\u00e3 oguer\u00favape.
+  Jes\u00fas ohech\u00e1vo p\u00e9va ipochy chupeku\u00e9ra, ha he\u2019i: \u2014
+  Peheja umi mit\u00e3 tou che rend\u00e1pe. Ani pejoko. \u00d1andej\u00e1ra R\u00e9ino
+  niko mit\u00e3me guar\u00e3 ha umi mit\u00e3icha oik\u00f3vape guar\u00e3.\\nA\u00f1ete
+  ha\u2019e pe\u1ebdme, pe ndojerovi\u00e1iva \u00d1andej\u00e1rare ko\u2019\u00e3
+  mit\u00e3icha ndoike mo\u2019\u00e3i \u00d1andej\u00e1ra R\u00e9inope. Ha ohupi
+  ijyva \u00e1ri umi mit\u00e3. Omo\u0129 ipo heseku\u00e9ra ha ohovasa.\\n\u00d1andej\u00e1ra
+  Jesucr\u00edsto \u00d1e\u2019\u1ebd.\\nOpavave: Romomba\u2019e guasu nd\u00e9ve,
+  \u00d1andej\u00e1ra Hesukr\u00edsto.\"", "\"Jahechami\\nTeju jagua\\nHa\u2019e Tau
+  ha Kerana memby ypykue. Ko mymba tuicha ha ivaietere\u00edva, hete teju ha i\u00f1ak\u00e3
+  jagua. Oje\u2019e hese oguerekoha ipogu\u00fdpe itakua ha avei o\u00f1angarekoha
+  yvaku\u00e9ra rehe.\\nMb\u00f3i tu\u2019\u0129\\nTau ha Kerana memby mok\u00f5iha.
+  Hete ojogua mb\u00f3ipe ha ijuru ha\u2019ete tu\u2019\u00ee. Mb\u00f3i tu\u2019\u00ee
+  o\u00f1angarek\u00f3je umi mymba oik\u00f3va yvy \u00e1ri ha \u00fdpe oikokua\u00e1va
+  rehe.\\nMo\u00f1\u00e1i\\nHa\u2019e h\u00edna Tau ha Kerana memby mbohapyha. Mbohapy
+  hague, umi \u00f1u ha yvytyjere, ipokov\u00edvare ija\u2019\u00e9va ha mondaha pytyv\u00f5h\u00e1ra.
+  Ha\u2019e karai guasu umi \u00f1\u00fare ha o\u00f1angareko yvytu ha guyraku\u00e9ra
+  rehe; ha\u2019eichagua ndaip\u00f3ri umi tend\u00e1re.\\nJasy jatere\\nTau ha Kerana
+  memby irundyha. Ko mit\u00e3\u2019i yv\u00e1gaicha hesa hovy as\u00fdva ha kuarahy
+  mimb\u00edcha i\u00f1ek\u00e3rague sa\u2019yju. Mich\u0129 ramo jepe mborayhu a\u00f1et\u00e9gui
+  henyh\u1ebd ha oguah\u1ebdvo asajepyte os\u1ebd omosarambi, yvoty rop\u00e9icha,
+  mborayhu eirete. Oje\u2019e hese op\u00edvo oikoha opa rupiete ha ip\u00f3pe ogueraha
+  ka\u2019a rak\u00e3 peh\u1ebdngue ome\u2019\u1ebdva ichupe mba\u2019e kuaaita.\\nKurupi\\nTau
+  ha Kerana memby poha. Ha\u2019e ndajeko pete\u0129 karia\u2019y karape\u2019i oik\u00f3va
+  asajepyte ka\u2019agu\u00fdre ka\u00f1yh\u00e1pe. Oik\u00f3je ohape ra\u2019ar\u00f5
+  mit\u00e3ku\u00f1a os\u1ebdva asajerei h\u00f3gagui.\\nNdaip\u00f3ri ku\u00f1ata\u0129
+  o\u00f1anise\u2019\u00ffva ahech\u00e1vo karia\u2019y vaiete. Kurupi ojura katuete
+  ha ogueraha ka\u2019aguy hesak\u00e3h\u00e1pe kapi\u2019ipe hovy\u0169 ha hyaku\u00e3vure\u00edva
+  \u00e1ri arair\u00f5 ombotarova t\u00e9r\u00e3 ojuka peve.\\nAo ao\\nTau ha Kerana
+  \u00f1emo\u00f1are pote\u0129ha. Oje\u2019e niko Ao ao oikoha kure ka\u2019agu\u00fdcha,
+  aty at\u00fdpe o\u00f1ondive, ha oikoha yvyp\u00f3ra ro\u2019\u00f3re. Up\u00e9vare
+  oiko tapia ko\u2019\u00e3va rapyku\u00e9ri.\\nO\u0129 ramo ojup\u00edva yvyra rak\u00e3re
+  ani hagu\u00e3 Ao ao ho\u2019u chupe, pindo m\u00e1tare ojup\u00edvare katu mba\u2019eve
+  ndojap\u00f3i, ku oguerokor\u00f5gu\u00e1icha heseku\u00e9ra kurundu.\\nLuis\u00f5\\nTau
+  ha Kerana memby pok\u00f5iha. Ha\u2019e pete\u0129 mymba jagu\u00e1pe ojogu\u00e1va,
+  ivai, hesa vera ha i\u00f1ak\u00e3 guasu. Pyhare pyt\u00e9vove oho ojapajer\u00e9i
+  te\u2019ongue \u00e1ri, up\u00e9vare hesa\u2019yju ha ine.\"", "\"LECTURAS DEL DOMINGO
+  3\u00b0 DE ADVIENTO\\nLECTURA PETE\u00ceHA:\\nKo\u2019\u00e1g\u00e3 \u00f1ahend\u00fata
+  Tup\u00e3 \u00d1andej\u00e1ra \u00f1e\u2019\u1ebd Isa\u00edas aranduk\u00e1pe o\u0129
+  h\u00e1icha 35, 1-6a.10\\nTa hory yvy ojeiko\u2019\u1ef9ha ha yvy i\u00f1apek\u00e3mb\u00e1va,
+  to vy\u2019a ha ta ipoty yvy per\u00f5! Ta henyh\u1ebd yvot\u00fdgui, ta hory, to
+  sapuk\u00e1i vy\u2019\u00e1gui!\\nIchupe o\u00f1eme\u2019\u1ebd L\u00edbano reko
+  mimbi, Carmelo ha Sar\u00f3n reko jegua. Ha\u2019eku\u00e9ra ohechata \u00d1andej\u00e1ra
+  omimbip\u00e1vape, Tup\u00e3 ojajaip\u00e1vape ohech\u00e1ta. Pemombarete ikang\u00fdvape,
+  pemokyre\u2019\u1ef9 ikane\u2019\u00f5vape.\\nPeje ojepy\u2019ap\u00fdvape: \u201cN\u00e9ike,
+  ani pekyhyje!\\n\u00c1pe o\u0169 pene Tup\u00e3, ou omyengovi\u00e1vo pende rehe
+  ija\u2019e\u2019\u1ef9vape ha\u2019ete voi ou pende pe\u2019\u00e1vo jejopy va\u00edgui\u201d.\\nUpe
+  ramo umi ohecha\u2019\u1ef9va ohech\u00e1ta, ha umi ohendu\u2019\u1ef9va ohend\u00fata,
+  paral\u00edtico guas\u00faicha o\u00f1an\u00edta ha i\u00f1e\u2019\u1ebdng\u00fava
+  vy\u2019\u00e1gui osapuk\u00e1ita.\\nOu jev\u00fdta umi \u00d1andej\u00e1ra oipysyr\u00f5va;
+  ha oik\u00e9ta Si\u00f3npe sapuk\u00e1i ha vy\u2019a p\u00f3pe, ombojevygui ichupeku\u00e9ra
+  vy\u2019a ijapyra\u2019\u1ef9va. Vy\u2019a ha tory omoir\u0169ta ichupeku\u00e9ra,
+  ha mombyry opyt\u00e1ta pyah\u1ebd ha vy\u2019a\u2019\u1ef9.\\nTup\u00e3 \u00d1andej\u00e1ra
+  \u00d1e\u2019\u1ebd.\\nOpavave: Romomba\u2019e guasu nd\u00e9ve, \u00d1andej\u00e1ra.\\nSALMO
+  \u00d1EMBOHOV\u00c1I 146, 6-10\\nOpavave: \u00d1andej\u00e1ra, eju ore salva.\\n\u00d1andej\u00e1ra
+  niko nopyr\u00fci va\u2019ekue i\u00f1e\u2019\u1ebd rehe,\\nO\u00f1emo\u0129 uvei
+  ojejopy va\u00edva yke rehe,\\nomongaru i\u00f1embyah\u00fdivape.\\n\u00d1andej\u00e1ra
+  opoiuka umi i\u00f1apyt\u0129mb\u00fdpe ojeguerek\u00f3va. O.\\n\u00d1andej\u00e1ra
+  omonguera umi ohecha\u2019\u1ef9vape ha ohecha jevy,\\n\u00d1andej\u00e1ra omopu\u2019\u00e3
+  umi ikang\u00fdvape,\\n\u00d1andej\u00e1ra ohayhu umi heko joj\u00e1vape,\\n\u00d1andej\u00e1ra
+  o\u00f1angareko umi mombyryguare. O.\\nItyre\u2019\u1ef9 ha im\u00e9na man\u00f3vape
+  ha\u2019e oipytyv\u00f5.\\nHeko va\u00edva rape katu ombotyai.\\n\u00d1andej\u00e1ra
+  niko mburuvicha guasu tapiaite guar\u00e3.\\nOis\u00e3mbyhy Si\u00f3n, nde Tup\u00e3
+  opaite \u00e1rape. O.\\nLECTURA MOK\u00d5IHA:\\n\u00d1ahend\u00fata Tup\u00e3 \u00d1andej\u00e1ra
+  \u00d1e\u2019\u1ebd Santiago kuatia\u00f1e\u2019\u1ebdme o\u0129 h\u00e1icha 5,
+  7-10\\nChe peh\u1ebdngueku\u00e9ra, peha\u2019ar\u00f5 kuaa ou peve \u00d1andej\u00e1ra
+  Jesucr\u00edsto. Pema\u2019\u1ebdmina mba\u2019\u00e9ichapa umi o\u00f1emit\u00fdva
+  oha\u2019ar\u00f5 kuaa ama, up\u00e9i omono\u2019\u00f5 hagu\u00e3 ikoga\u2019a.
+  Pe\u1ebdke avei peha\u2019ar\u00f5 kuaa ha ani pene kangy, vok\u00f3i et\u00e9nte
+  niko ou jev\u00fdta \u00d1andej\u00e1ra Jesucr\u00edsto.\\nChe peh\u1ebdngueku\u00e9ra,
+  ani pe\u00f1omo\u0129 va\u00edtei, ani hagu\u00e3 avei pe\u1ebd penembojovake yv\u00e1pe.
+  Pejesarek\u00f3ke Tup\u00e3 oporombojovakeha \u00e1ra niko hi\u2019agu\u0129ma h\u00edna.
+  Che peh\u1ebdngueku\u00e9ra, pene mandu\u2019\u00e1ke umi maranduh\u00e1ra rehe
+  o\u00f1e\u2019\u1ebd va\u2019ekue \u00d1andej\u00e1ra r\u00e9rape, ha\u2019eku\u00e9ra
+  heta mba\u2019e ogueropu\u2019aka va\u2019ekue.\\nTup\u00e3 \u00d1andej\u00e1ra
+  \u00d1e\u2019\u1ebd.\\nOpavave: Romomba\u2019e guasu nd\u00e9ve, \u00d1andej\u00e1ra.\\nALELUIA
+  Is 61, 1\\n\u00d1andej\u00e1ra esp\u00edritu o\u0129 che pype,\\nHa\u2019e che mbou
+  agueru hagu\u00e3 marandu pyahu mboriahuku\u00e9rape.\\nEVANGELIO\\nMarandu por\u00e3
+  \u00d1andej\u00e1ra Jesucr\u00edsto rekove ha hemimbo\u2019e San Mateo omombe\u2019u
+  h\u00e1icha 11, 2-11\\nOpavave: Romomba\u2019e guasu nd\u00e9ve, \u00d1andej\u00e1ra.\\nJuan
+  Baut\u00edsta o\u0129va up\u00e9r\u00f5 k\u00e1rselpe, ohendu umi mba\u2019e Cristo
+  ojap\u00f3va. Up\u00e9mar\u00f5 omondo idis\u00edpuloku\u00e9ra apyt\u00e9gui Jes\u00fas
+  rend\u00e1pe. Ha\u2019eku\u00e9ra oporandu chupe: \u2013 Nde piko h\u00edna pe Juan
+  he\u2019i va\u2019ekue outaha, t\u00e9r\u00e3pa roha\u2019ar\u00f5 va\u2019er\u00e3
+  ambu\u00e9pe.\\nJes\u00fas he\u2019i chupeku\u00e9ra: \u2013 Tapeho peje Ju\u00e1npe
+  ko\u2019\u00e3 mba\u2019e pe\u1ebd pehech\u00e1va ha pehend\u00fava pe\u00edna.\\nPemombe\u2019u
+  chupe ohecha\u2019\u1ef9va ohecha jeyha, paral\u00edtiko oguata por\u00e3ha, lepr\u00f3so
+  okueraha, ohendu\u2019\u1ef9va ohendu jeyha, oman\u00f3va oikove jevyha ha imboriah\u00favape
+  o\u00f1ehendukaha marandu por\u00e3. Ha ovy\u2019ait\u00e9ne umi norreneg\u00e1iva
+  che rehe che kuaa rire.\\nJuan remimbo\u2019eku\u00e9ra ohoku\u00e9vo, Jes\u00fas
+  o\u00f1epyr\u0169 o\u00f1e\u2019\u1ebd hese opavav\u00e9pe, ha he\u2019i: \u2013
+  Pe\u1ebd pes\u1ebd ramo guare peho desi\u00e9rtope, mba\u2019e pehecha hagu\u00e3pa
+  peho ra\u2019e. Pehech\u00e1pa ra\u2019e taku\u00e1ra yvytu ombovav\u00e1va.\\nNah\u00e1niri.
+  Maer\u00e3 aipo ramo peho. Peh\u00f3pa pehecha pete\u0129 kuimba\u2019e o\u00f1emonde
+  jeguap\u00e1vapa. Pe\u1ebd niko peikuaa por\u00e3 umi o\u00f1emonde jegu\u00e1va
+  oikoha mburuvicha guasu ku\u00e9ra r\u00f3gapente. Amo ipah\u00e1pe, mba\u2019e
+  aipo ramo pes\u1ebd pehecha. Pete\u0129 prof\u00e9tape, aj\u00e9pa.\\nUp\u00e9icha
+  a\u00f1ete. Ha pejuhu pete\u0129 mba\u2019e guasuv\u00e9va prof\u00e9tagui katu.
+  Juan rehe niko \u00d1andej\u00e1ra \u00d1e\u2019\u1ebdme he\u2019i: \u201cChe amondo
+  che \u00f1e\u2019\u1ebd rerahaha ne renonder\u00e3, ombosako\u2019i hagu\u00e3 nd\u00e9ve
+  nde raper\u00e3.\u201d\\nA\u00f1eteh\u00e1pe ha\u2019e pe\u1ebdme, ndaip\u00f3ri
+  yvyp\u00f3raku\u00e9ra apyt\u00e9pe mba\u2019e guasuv\u00e9va Juan Baut\u00edstagui.
+  Op\u00e1ichavo, pe mich\u0129v\u00e9va \u00d1andej\u00e1ra Rr\u00e9ino pe, up\u00e9va
+  mba\u2019e guasuve chugui.\\n\u00d1andej\u00e1ra Jesucr\u00edsto \u00d1e\u2019\u1ebd.\\nOpavave:
+  Romomba\u2019e guasu nd\u00e9ve, \u00d1andej\u00e1ra Hesukr\u00edsto.\"", "\"A\\nN\u00edvel:
+  Iniciante\\nLA CAUTIVA INTRO: ( A C#m Bm E ) A A Oimeva oico peyaire pet\u00eai
+  guyr\u00e1 o\u00f1emiva C#m Bm E Che ambojhera la cautiva oicore i\u00f1a pytimby
+  Bm E Che py are o yatapyva acanunduicha i\u00f1arova Bm E A Mborayjhu chup\u00e9
+  arecova arema i\u00f1onga tupy A Jha cu\u00f1a ipyajhatava mborayjhu oicua`\u00e1
+  se\u00ffva C#m Bm E Che coraz\u00f3n o\u00f1otyva qyseichagu\u00e1 mboraijhu Bm
+  E Oicojhagu\u00e1 che cutu manterei jhaijhupape Bm E A Ou rang\u00fce che rendape
+  jha ipepope che pey\u00fa INTRO: ( A C#m Bm E ) A REPETE INICIO AO FIM SOLO FINAL:
+  A E A\"", "\"Frida Kahlo\\nMagdalena Carmen Frida Kahlo Calder\u00f3n (T\u00e1va
+  M\u00e9hiko; 6 jasypok\u00f5i 1907-13 jasypok\u00f5i 1954),[1] ojekua\u00e1va chupe
+  oparupi Frida Kahlo ramo, ha''e akue \u00f1emongolo apoh\u00e1ra M\u00e9hiko pegua
+  heraku\u00e3it\u00e9va i\u00f1emoha''ang\u00e1re ojehechah\u00e1pe mba''\u00e9ichapa
+  ha''e oiko ha mba''\u00e9ichapa oiko het\u00e3 rekoha.[2] Hembiapokue niko omombe''u
+  hekove rembiasa ha pe ombohasa''as\u00fdva chupe. Ojapo 150 tembiapokue, tuichait\u00e9pe
+  o\u00f1emoha''anga ijehegui, umi ta''ang\u00e1pe ojehechah\u00e1pe hasyite chupe
+  oikove hag\u0303ua.\\nOhasa asy hekove pukuku\u00e9vo ojehu sapy''\u00e1gui mba''e
+  vai chupe imit\u00e3r\u00f5 ha heta \u00e1ra aja o\u00f1eno va''er\u00e3 hup\u00e1pe
+  ikang\u00fdgui, up\u00e9vare ohasa va''er\u00e3 32 pire\u00f1ekyt\u0129 rupive o\u00f1epohano
+  por\u00e3ve hag\u0303ua.[3] Ha''e niko oiko hekope''\u1ef9, hekove ijojaha''\u1ef9va.[3]
+  Frida ha im\u00e9na rembiapokue, \u00f1emongolo apoh\u00e1ra Diego Rivera, o\u00f1omokyre''\u1ef9
+  hiku\u00e1i. Ohayhuite hiku\u00e1i M\u00e9hiko ypykue rembiapopor\u00e3 ha ogueraha
+  hembiapoku\u00e9pe umi mba''e, up\u00e9icha avei omokyre''\u1ef9 hiku\u00e1i tembiapopor\u00e3
+  apoh\u00e1ra ambu\u00e9va M\u00e9hiko ret\u00e3me.\\nAry 1939-pe oho Hy\u00e3sia
+  ret\u00e3me ohechauka hag\u0303ua hembiapokue, karai Andr\u00e9 Breton ojerur\u00e9gui
+  chupe, ha''e niko he''i Kahlo-pe ha''angaku\u00e9ra reko \u00absurrealista\u00bb,
+  Kahlo katu he''i chupe ndaha''\u00e9iva up\u00e9icha hembiapoku\u00e9pe nomoha''ang\u00e1igui
+  umi mba''e k\u00e9pe ojehech\u00e1va, omoha''anga katu hekove tee. Oikove aja hetaite
+  tembiapopor\u00e3 apoha omomor\u00e3 chupe, techapyr\u00e3me Pablo Picasso, Vasili
+  Kandinski, Andr\u00e9 Breton, Marcel Duchamp, Tina Modotti ha Concha Michel, ko''\u00fdte
+  heraku\u00e3 por\u00e3ve hembiapokue ha''e omano rire, tuichait\u00e9pe 1980 aryku\u00e9ra
+  pukuku\u00e9vo ha 1990 aryku\u00e9ra \u00f1epyr\u0169me.\\nMandu''apy[jehaijey |
+  editar c\u00f3digo]\\n- \u00abEl Coraz\u00f3n de Frida - Magdalena Carmen Frida
+  Kahlo Y Calder\u00f3n 1907-1954\u00bb. Ojehech\u00e1kuri \u00e1rape: 4 de abril
+  de 2017.\\n- Barrag\u00e1n, Almudena (13 de julio de 2017). \u00abLa muerte de Frida
+  Kahlo, el nacimiento de un icono pop\u00bb. El Pa\u00eds. Ojehech\u00e1kuri \u00e1rape:
+  22 de mayo de 2021.\\n- \u00abLa vida de Frida Kahlo\u00bb. Ojehech\u00e1kuri \u00e1rape:
+  4 de abril de 2014.\\nJoajuha[jehaijey | editar c\u00f3digo]\\n- Wikimedia Commons
+  oguereko ta''\u00e3nga Frida Kahlo reheguaCommons.\"", "\"LECTURAS LUNES VIG\u00c9SIMA
+  S\u00c9PTIMA SEMANA\\nLECTURA PETE\u00ceHA:\\n\u00d1ahend\u00fata Tup\u00e3 \u00d1andej\u00e1ra
+  \u00d1e\u2019\u1ebd San Pablo ohai va\u2019ekue Galacia gu\u00e1pe 1, 6-12\\nChe
+  peh\u1ebdngueku\u00e9ra: Che mbopy\u2019and\u00fdi pe\u00f1e momombyry pya\u2019ete
+  hague Tup\u00e3 \u00d1andej\u00e1ragui, pene ren\u00f3i va\u2019ekue ohechauk\u00e1vo
+  pe\u1ebdme ipy\u2019a por\u00e3 Jesucristo rupi, ha pehasa hague ambue marand\u00fape.
+  A\u00f1eteh\u00e1pe, ndaha\u2019\u00e9i oim\u00e9va ambue marandu.\\nOim\u00e9nte
+  niko umi pene moak\u00e3 tav\u00fdva ha omboais\u00e9va Jesucristo marandu por\u00e3.
+  Ha oim\u00e9r\u00f5 ohenduk\u00e1va pe\u1ebdme marandu ndaha\u2019\u00e9iva ore
+  romoas\u00e3i va\u2019ekue, toho a\u00f1a ret\u00e3me. Mar\u00e3ve ndoik\u00f3i
+  che ramo, t\u00e9r\u00e3 pete\u0129 Tup\u00e3 \u00d1andej\u00e1ra remimbou ramo.
+  Ha\u2019\u00e9ma hagu\u00e9icha voi pe\u1ebdme Ko\u2019\u00e1g\u00e3 ha\u2019e jevy
+  pe\u1ebdme: Oim\u00e9r\u00f5 omosaramb\u00edva pende apyt\u00e9pe marandu por\u00e3
+  ndaha\u2019\u00e9iva pe oguah\u1ebdma va\u2019ekue pe\u1ebdme, toho a\u00f1a ret\u00e3me.\\nChe
+  ndahek\u00e1i yvyp\u00f3ra ojuhu por\u00e3 che rembiapo, Tup\u00e3 \u00d1andej\u00e1ra
+  ojuhu por\u00e3nte che aipota. Che ndahek\u00e1i apyta por\u00e3 yvyp\u00f3ra ndive.
+  Apyta por\u00e3se rire, ndaha\u2019\u00e9i va\u2019er\u00e3 mo\u2019\u00e3 Jesucristo
+  rembigu\u00e1i. Peikua\u00e1ke k\u00f3va, che peh\u1ebdngueku\u00e9ra: pe marandu
+  por\u00e3 che amoas\u00e3iva, ndaha\u2019\u00e9i yvyp\u00f3ra ojapo va\u2019ekue.
+  Noguah\u1ebdi ch\u00e9ve ha ndaikua\u00e1i va\u2019ekue mba\u2019eveichagua yvyp\u00f3ragui.
+  Jesucristo ite voi katu oikuaauka va\u2019ekue ch\u00e9ve.\\nTup\u00e3 \u00d1andej\u00e1ra
+  \u00d1e\u2019\u1ebd.\\nSALMO \u00d1EMBOHOV\u00c1I 110, 1-2. 7-9. 10c\\nOpavave:
+  Tup\u00e3 \u00d1andej\u00e1ra ndahesar\u00e1iri i\u00f1e\u2019\u1ebd marangat\u00fagui\\nChe
+  py\u2019aite guive arohory Tup\u00e3 \u00d1andej\u00e1rape,\\naty guasu ha hekojoj\u00e1va
+  atyh\u00e1pe.\\nTuich\u00e1ko h\u00edna umi Tup\u00e3 \u00d1andej\u00e1ra rembiapokue,\\nha
+  umi oguerojepy\u2019a mongeta hese. O.\\nA\u00f1ete ha teko joja pegua meme hembiapokue,\\nhembiapoukap\u00fdre
+  jajerovia kuaa.\\nA\u00f1ete ha tekojoj\u00e1pe o\u00f1embohapo,\\nha nai\u00f1ambu\u00e9i
+  ch\u00e9ne araka\u2019eve. O.\\nHet\u00e3 gu\u00e1pe ha\u2019e oguenoh\u1ebd jejopy
+  va\u00edgui,\\nha ome\u2019\u1ebd i\u00f1e\u2019\u1ebd opa \u00e1rape guar\u00e3.\\nTup\u00e3
+  \u00d1andej\u00e1ra niko imarangatu ha jakyhyjeha.\\nTo \u00f1emomba\u2019e guasu
+  Tup\u00e3me opa \u00e1ra. O.\\nALELUIA Jn 13, 34\\nAleluia.\\nAme\u2019\u1ebd pe\u1ebdme
+  pete\u0129 tembiapoukapy pyahu: pejoahu ojoapyt\u00e9pe, Che pohayhu hagu\u00e9icha.\\nAleluia.\\nEVANGELIO\\nKo\u2019\u00e1g\u00e3
+  \u00f1ahend\u00fata \u00d1andej\u00e1ra Jesucristo rekove ha hemimbo\u2019e San
+  Lucas omombe\u2019u h\u00e1icha 10, 25-37\\nUpe ramo pete\u0129 Mois\u00e9s rembiapoukapy
+  mbo\u2019eha oho o\u00f1e\u2019\u1ebd Jes\u00fas ndive, ha oha\u2019\u00e3 hagu\u00e3
+  ichupe oporandu: Mbo\u2019eh\u00e1ra, mba\u2019e piko ajapo va\u2019er\u00e3 areko
+  hagu\u00e3 jeikove opa\u2019\u1ef9va?\\nJes\u00fas he\u2019i ichupe: Mba\u2019\u00e9pa
+  o\u0129 tembiapoukap\u00fdpe? Mba\u2019e piko pehech\u00e1va kuati\u00e1pe?\\nUpe
+  Mois\u00e9s rembiapoukapy mbo\u2019eha he\u2019i: Ehayhu Tup\u00e3 nde J\u00e1rape
+  ne nde py\u2019a ite guive, ne \u00e1nga rugua guive ha opa ne arandukue reheve,
+  ha ehayhu nde rapich\u00e1pe rejehayhu h\u00e1icha nde. Ha Jes\u00fas katu he\u2019i:
+  Ere por\u00e3, rejap\u00f3r\u00f5 up\u00e9icha, reikov\u00e9ta.\\nPe tembiapoukapy
+  mbo\u2019eha katu, omo\u0129 por\u00e3s\u00e9vo imba\u2019e porandu, he\u2019i Jes\u00faspe:
+  Ha m\u00e1va piko pe che rapicha?\\nAip\u00f3r\u00f5 Jes\u00fas he\u2019i ichupe:
+  Pete\u0129 karia\u2019y oguata oh\u00f3vo Jerusal\u00e9n rap\u00e9guio Jeric\u00f3
+  gotyo, ha pete\u0129 mondaha aty ohape joko ichupe, ha oipe\u2019a ichugui ijao
+  peve. Oinup\u00e3 hiku\u00e1i ha oheja ichupe omano ha noman\u00f3ime. Peichah\u00e1gui
+  rei pete\u0129 pa\u2019i ohasa upe rupi, ha ohech\u00e1vo ichupe ojere ichugui ha
+  oh\u00f3nte ha ndopyt\u00e1i. Pete\u0129 lev\u00edta avei oguah\u00eb up\u00e9pe,
+  ha ohecha vove, ojere ichugui ha oh\u00f3nte avei tenonder\u00e3.\\nPete\u0129 kuimba\u2019e
+  Samariagua katu, oh\u00f3va h\u00edna upe tape up\u00e9vare avei, ohech\u00e1vo
+  oiporiahuvereko ichupe. O\u00f1emboja hese, oipohano \u00f1andyry ha v\u00ednope
+  ha ojokua ichupe umi ojekutu hague rupi. Up\u00e9i ohupi ichupe ikavaju tee \u00e1ri,
+  ogueraha pete\u0129 \u00f3ga ojepytah\u00e1pe ha o\u00f1angareko hese.\\nUpe riregua
+  ko\u2019\u1ebdme, upe Samariagua oguenoh\u1ebd mok\u00f5i \u00e1ra mba\u2019apokue
+  repy ha ome\u2019\u1ebd upe \u00f3ga j\u00e1rape, ha he\u2019i ichupe: E\u00f1angareko
+  ko karia\u2019\u00fdre. Ndohupityp\u00e1ir\u00f5 viru, che ahepyme\u2019\u1ebdta
+  nd\u00e9ve up\u00e9i ajev\u00fdvo. Ha n\u00e9i, m\u00e1vapa ko\u2019\u00e3vagui,
+  nd\u00e9ver\u00f5 guar\u00e3 pe karia\u2019y rapicha, ohape joko va\u2019ekue umi
+  mba\u2019e vai apoha? Upe Mois\u00e9s rembiapoukapy mbo\u2019eha he\u2019i: Pe oiporiahuvereko
+  va\u2019ekue ichupe.\\nJes\u00fas katu he\u2019i ichupe: N\u00e9i, tereho ha ejapo
+  nde ave up\u00e9icha.\\n\u00d1andej\u00e1ra Jesucristo \u00d1e\u2019\u1ebd\"", "\"Asunci\u00f3n,
+  Agencia IP.- Polis\u00eda Caminera he\u2019i kuri arapok\u00f5indy ohas\u00e1vape,
+  900 tapichaku\u00e9ra o\u00f1emulta kuri ambue control-pe ojejap\u00f3va \u00f1ane
+  ret\u00e3 pukuku\u00e9pe. Avei, oikuaaka hiku\u00e1i 35 tapicha oka\u2019\u00fava
+  omboguata jave ikami\u00f5.\\nUp\u00e9icha avei, ojejoko kuri 127 kami\u00f5 ha
+  16 m\u00f3to. Umi multa ojejap\u00f3va kuri, 95 ha\u2019e oh\u00f3va tenonde gotyo
+  ndaha\u2019\u00e9ih\u00e1pe ha 8 katu ha\u2019e kami\u00f5 ndorek\u00f3iva ch\u00e1pa.\\nPatricia
+  Ferreira, mba\u2019apoh\u00e1ra Polis\u00eda Caminera-gua, omombe\u2019u oipytyv\u00f5
+  hiku\u00e1i avei 29 accidente oik\u00f3vape: 12 oheja da\u00f1o material a\u00f1\u00f3nte,
+  17 oheja herido ha 5 tapicha oman\u00f3va.\\nMinisterio de Obras P\u00fablicas y
+  Comunicaciones (MOPC) omomba\u2019eguasu tet\u00e3yguaku\u00e9rape to\u00f1e\u00f1angareko
+  omboguata jave tape rehe, ani oiko accidente tr\u00e1nsito-pe.\"", "\"Ohai: David
+  Galeano Olivera\\nKAPI\u2019AT\u00c2 HE\u2019IS\u00c9VA (ACERCA DEL SIGNIFICADO
+  DE KAPIATA)\\nKAPI\u2019AT\u00c2 (KAPIATA)\\nKAPI\u2019AT\u00c2 TAVAO (MUNICIPALIDAD
+  DE KAPIATA)\\nLos Intendentes Municipales fueron. T\u00e1va Motenondeh\u00e1ra niko
+  ko\u2019\u00e2va:\\nLu\u00eds Alberto Rachit Fiandro (1968 \u2013 1971)\\nFacundo
+  Barreiro (1971 \u2013 1989)\\nTimoteo Gonz\u00e1lez Galv\u00e1n (1989 \u2013 1991)\\nBenita
+  Jara Ca\u00f1iza (1991 \u2013 1996)\\nBernardo Ram\u00f3n Sosa Viveros (1996 \u2013
+  2001)\\nDerlis Ariel Alejandro Osorio Nunes (2001 \u2013 2006)\\nC\u00e9sar Rivas
+  (2006 \u2013 2010)\\nPedro Antonio Galeano Aquino (2010 \u2013 2015)\\nKAPIATA,
+  CHE T\u00c1VA POR\u00c2\\nOhai: David Galeano Olivera\\nI\\nParaguay ret\u00e2 yvy
+  jeguapa\\nP\u00e9ina anoh\u00ea che koras\u00f4 ku\u00e1gui\\n\u00d1e\u2019\u00ea
+  rorymi nd\u00e9ve \u011duar\u00e2ite\\nII\\nNd\u00e9ngo avei t\u00e1va ypykue ko
+  \u00f1ane ret\u00e2me ha\\nJep\u00e9mo up\u00e9icha ku mit\u00e2ra\u2019\u00fdicha
+  nde rete kyr\u0177i\\n\u00d1aimo\u2019\u00e2vo\u00ednte kuehe nere\u00f1\u00f3iva
+  che t\u00e1va por\u00e2\\nHa tory, vy\u2019\u00e1pe reipyk\u00fai reh\u00f3vo mborayhu
+  rape\\nIII\\nKapiata, nd\u00e9ve ahopejora che \u00f1e\u2019\u00eanguemi\\nChe \u00f1e\u2019\u00e2
+  mbyt\u00e9gui otykytyk\u00fdva ysapy ko\u2019\u00eaicha,\\nYvoty ryaku\u00e2me o\u00f1e\u00f1apyt\u00eeva
+  ha\\nguyraita \u00f1e\u2019\u00eapuror\u00fdpe nd\u00e9ve aropoj\u00e1iva\\nAipot\u00e1gui
+  ak\u00f3i netenondeve che t\u00e1va guasu\\nIV\\nAj\u00e9pa ipor\u00e2 ne rembiasakue\\nHa
+  ndaijojah\u00e1i mba\u2019e por\u00e2ita ndepype he\u00f1\u00f3iva\\nTapicha arandu
+  ha ikatupyr\u00fdva nembojeguapa\\nUm\u00edvako h\u00edna umi omba\u2019ap\u00f3va
+  nembojerovi\u00e1vo\\nV\\nAhupi che po ha amomaitei \u00d1ande Ru Guas\u00fape\\nOme\u2019\u00eare
+  ch\u00e9ve t\u00e1va por\u00e2ite che renda\u011duami\\nApe che avy\u2019a ha ahecharamo
+  ko che rekoha\\nAk\u00f3inte ojaj\u00e1iva ko yv\u00e1ga gu\u00fdpe che t\u00e1va
+  por\u00e2\\nKapiata, t\u00e1va ymaiteguare ha ko\u2019\u00e1\u011dagu\u00e1va\\nNd\u00e9ve
+  rohayh\u00fagui\u2026 nd\u00e9ve a\u00f1ak\u00e2ity che t\u00e1va por\u00e2\\nNo
+  hay comentarios:\\nPublicar un comentario en la entrada\"", "\"domingo, 6 de junio
+  de 2010\\nREUNI\u00d3N MENSUAL EN EL ATENEO PARA CELEBRAR LA VICTORIA\\nREUNI\u00d3N
+  PARA CELEBRAR LA VICTORIA\\n1. AYVU\u2019APOKUAA MBO\u2019ESYRY (CURSO DE TERMINOLOG\u00cdA)\\n2.
+  ATENEO ATY JEPIVEGUA (REUNI\u00d3N MENSUAL DEL ATENEO)\\nLeer original (hacer clic)
+  en: http://groups.google.com.py/group/guarani-nee/web/reunin-mensual-del-ateneo-para-festejar-la-victoria\\nEl
+  domingo 6 de junio de 2010, de 7 a 14 horas, el ATENEO DE LENGUA Y CULTURA GUARANI
+  llev\u00f3 a cabo en su Sede Central \u201cGuarani R\u00f3ga\u201d, ubicada en la
+  Ciudad de Fernando de la Mora; otra clase del CURSO DE TERMINOLOG\u00cdA GUARANI-CASTELLANO,
+  del cual participan numerosos directores y docentes del ATENEO. Heta S\u00e2mbyhyh\u00e1ra
+  ha Mbo\u2019eh\u00e1ra ATENEO-ygua o\u00f1ehekombo\u2019e ko mbo\u2019esyry rupive
+  oikuaapor\u00e2v\u00e9vo \u00f1e\u2019\u00ea ha \u00f1e\u2019\u00eandy \u00f1ane
+  Ava\u00f1e\u2019\u00eamegua (\u00f1e\u2019\u00ea re\u00f1\u00f3i, rembiasa, \u00f1emohenda,
+  \u00f1e\u2019\u00ea\u2019asa ha he\u2019is\u00e9va).\\nPosteriormente, ya en la
+  REUNI\u00d3N MENSUAL, los Directores y docentes del ATENEO DE LENGUA Y CULTURA GUARANI
+  hicieron una evaluaci\u00f3n del reciente CONGRESO DE EDUCACI\u00d3N BILING\u00dcE
+  convocado por el Ministerio de Educaci\u00f3n y la Comisi\u00f3n Nacional de Bilinguismo,
+  los d\u00edas 3 y 4 de junio de 2010. Todos hicieron referencia a la exitosa gesti\u00f3n
+  del grupo que llev\u00f3 a obtener las reivindicaciones propuestas. Opavavete omomba\u2019eguasu
+  umi mba\u2019e ojehupyt\u00fdva \u00f1ane Ava\u00f1e\u2019\u00eame \u011duar\u00e2.
+  Heta ary MEC omboykes\u00e9kuri Guarani \u00f1e\u2019\u00eame ha hekovia ha h\u00e9rape
+  ombo\u2019e jopara ha ohaivaipa umi arandukaku\u00e9ra. P\u00e9ina ko\u2019\u00e1\u011da,
+  ko amandaje rupive, oje\u2019e MEC-pe tekotev\u00eaha ombo\u2019e hekopete \u00f1ane
+  Ava\u00f1e\u2019\u00ea ha avei tekotev\u00eaha omyatyr\u00f4 umi aranduka vaikue.\\nA
+  modo de recordaci\u00f3n, a continuaci\u00f3n incluimos los aspectos m\u00e1s resaltantes
+  que se reivindicaron para el Guarani en dicho Congreso:\\n1. MEC omombareteveva\u2019er\u00e2
+  Guarani \u00f1e\u2019\u00ea tekombo\u2019\u00e9pe \u2013 El MEC deber\u00e1 fortalecer
+  a la Lengua Guarani en la Educaci\u00f3n.\\n2. MEC ome\u2019\u00eava\u2019er\u00e2
+  aravo joja Guarani ha Espa\u00f1a \u00f1e\u2019\u00eame opavave mbo\u2019esyry ha
+  mbo\u2019er\u00e2me \u2013 El MEC otorgar\u00e1 igual carga horaria al Guarani y
+  al castellano en todos los cursos (grados) y asignaturas.\\n3. MEC -o\u00ee meve
+  Guarani \u00d1e\u2019\u00ea Atyha- oipuruva\u2019er\u00e2 hekopete Guarani Achegety
+  oguerek\u00f3va 33 tai, o\u00f1anduk\u00e1va 33 taipu Ava\u00f1e\u2019\u00eamegua.
+  El MEC -hasta la creaci\u00f3n de la Academia de Lengua Guarani- respetar\u00e1
+  el sistema ortogr\u00e1fico del Guarani fundado en las 33 letras que representan
+  a los 33 fonemas\\n4. MEC omboykeva\u2019er\u00e2 jehe\u2019a rei ha tekotev\u00ea\u2019\u1ef9va
+  (jopara) ombo\u2019\u00e9va Guaran\u00edr\u00f4 ha hendagu\u00e9pe ombo\u2019eva\u2019er\u00e2
+  hekopete Guarani \u00f1e\u2019\u00ea. El MEC excluir\u00e1 la ense\u00f1anza del
+  jehe\u2019a (jopara) indiscriminado e innecesario que actualmente ense\u00f1a como
+  Guarani; y en su lugar ense\u00f1ar\u00e1 correctamente la lengua Guarani.\\n5.
+  MEC omyatyr\u00f4 ha ombopyahuva\u2019er\u00e2 umi aranduka ojehaivaip\u00e1va Guaran\u00edme
+  \u2013 El MEC deber\u00e1 corregir (reelaborar) los textos mal elaborados y mal
+  escritos en Guarani\\n6. MEC ohekombo\u2019e ha ombokatupyryva\u2019er\u00e2 hetave
+  mbo\u2019eh\u00e1ra Guarani ha Espa\u00f1a \u00f1e\u2019\u00eame \u2013 El MEC promover\u00e1
+  la formaci\u00f3n y capacitaci\u00f3n de m\u00e1s docentes de Guarani y castellano.\\n7.
+  MEC omoingovejeyva\u2019er\u00e2 Mbo\u2019eh\u00e1ra I\u00f1e\u2019\u00eak\u00f4iva
+  Aty \u2013 El MEC deber\u00e1 reactivar la Red de Educadores Bilingues.\\n8. MEC
+  ombokatupyryva\u2019er\u00e2 t\u00fava ha syku\u00e9rape \u00f1ane Ava\u00f1e\u2019\u00eame
+  ha upeichah\u00e1pe toikuaa por\u00e2 hiku\u00e1i mba\u2019\u00e9repa tekotev\u00ea
+  o\u00f1embo\u2019e Guarani, avei ikatuha\u011du\u00e1icha ha\u2019eku\u00e9ra oipytyv\u00f4
+  hekopete i\u00f1emo\u00f1ar\u00e9pe \u2013 El MEC deber\u00e1 concienciar a los
+  padres y madres acerca de la importancia del Guarani en la educaci\u00f3n; de manera
+  que ellos tambi\u00e9n puedan ayudar a sus hijos en el aprendizaje del Ava\u00f1e\u2019\u00ea.\\n9.
+  To\u00f1emoha\u2019e\u00f1o, tojehupive S\u00e2mbyhyh\u00e1ra Guas\u00far\u00f4
+  ha to\u00f1emombareteve MEC ryep\u00fdpe pe \u00d1e\u2019\u00eak\u00f4i Rekombo\u2019e
+  Renda \u2013 Que se independice, se eleve a Direcci\u00f3n General y fortalezca
+  al Departamento de Educaci\u00f3n Biling\u00fce, en la estructura del MEC.\\nPosteriormente,
+  se present\u00f3 el XXV SEMINARIO NACIONAL SOBRE AN\u00c1LISIS DEL BILINGUISMO PARAGUAYO
+  que tendr\u00e1 lugar en Villarrica, el domingo 27 de junio de 2010; y cuyo afiche
+  es el siguiente:.\\nEl ATENEO DE LENGUA Y CULTURA GUARANI\\nInvita al\\nVIGESIMOQUINTO
+  SEMINARIO NACIONAL SOBRE AN\u00c1LISIS DEL BILINGUISMO PARAGUAYO\\nCiudad de Villarrica\\nDOMINGO
+  27 DE JUNIO 2010\\nHorario: 07:30 a 16:30 horas.\\nCosto: 25.000 (Con certificado
+  por 20 horas y materiales did\u00e1cticos)\\nInformes e inscripci\u00f3n\\nATENEO
+  DE LENGUA Y CULTURA GUARANI \u2013 Tel: 021-520.276; o la REGIONAL VILLARRICA DEL
+  ATENEO \u2013 Tel: 0541-40.170\\nCorreo Electr\u00f3nico: ateneoguarani@tigo.com.py\\nPor
+  \u00faltimo, se record\u00f3 a todos que siguen abiertas las inscripciones para
+  el CURSO DE INFORM\u00c1TICA EN GUARANI, bajo la direcci\u00f3n de Fernando David
+  Villalba. Este curso formar\u00e1 a los interesados en diferentes aspectos (dactilograf\u00eda,
+  procesadores de textos, software para escribir en Guarani, elaboraci\u00f3n de power
+  point y acceso y uso de Internet, entre otros). P\u00e9icha, ATENEO omo\u00f1epyr\u00fb
+  pete\u00ee tape pyahu ha tekotev\u00eava. Taha\u2019eha\u2019\u00e9va (mbo\u2019eh\u00e1ra
+  ha temimbo\u2019e) jaipurukuaava\u2019er\u00e2 pe ayvurenda opaite \u00f1ane rembiap\u00f3pe.
+  P\u00e9icha avei \u00f1ambopyahu ha \u00f1amombaretev\u00e9ta Guarani \u00f1e\u2019\u00ea
+  rekove.\\nMaitei horyv\u00e9va opavav\u00e9pe\\nDavid Galeano Olivera\\n(ATENEO
+  Motenondeh\u00e1ra)\\nateneoguarani@tigo.com.py\\nASISTENTES AL ENCUENTRO DE LA
+  FECHA (06-06-2010)\\n-Dr. Catalino Gilberto Recalde (Regional Villeta \u2013 Departamento
+  Central),\\n-Dra. Serafina Haid\u00e9e Villalba G\u00f3mez (Regional San Pedro del
+  Parana \u2013 Departamento de Itap\u00faa),\\n-Mg. Ram\u00f3n Br\u00edgido C\u00e1ceres
+  V\u00e1zquez (Regional Pastoreo \u2013 Departamento de Ka\u2019aguasu),\\n-Dr. Pedro
+  Ernesto Escurra Franco (Regional Pedro Juan Caballero \u2013 Departamento de Amambay),\\n-Dr.
+  Angel Mart\u00ednez Gaona (Regional Kapi\u2019ivary \u2013 Departamento de San Pedro),\\n-Dra.
+  Lorenza Morel de Marecos (Regional Emboscada \u2013 Departamento de Cordillera),\\n-Dra.
+  Teresa Beatriz Cardozo Ch\u00e1ves (Regionales de Kuruguaty y Puente Kyha \u2013
+  Departamento de Kanindeju),\\n-Dra. Egidia Matilde Galeano de Aguiar (Regional Aregua
+  \u2013 Departamento Central),\\n-Dr. Rub\u00e9n Ovelar Olmedo (Regional 1\u00ba
+  de Marzo \u2013 Departamento de Cordillera),\\n-Lic. Eduardo Acosta Medina (Regionales
+  de Mariano Roque Alonso y Asunci\u00f3n-Mcal. Estigarribia),\\n-Mg. Nelson Zacar\u00edas
+  Ort\u00edz (Regionales de Lambare e Ita \u2013 Departamento Central),\\n-Mg. Selva
+  Concepci\u00f3n Acosta Gallardo (Regional Asunci\u00f3n-Centro),\\n-Lic. Mariela
+  Cabrera Gauto (Regional Eusebio Ayala \u2013 Departamento de Cordillera),\\n-Dra.
+  Zulma Beatriz Trinidad Zarza (Regional San Estanislao \u2013 Departamento de San
+  Pedro),\\n-Dra. Mar\u00eda Antonia Rojas Aranda (Regional Ka\u2019asapa \u2013 Departamento
+  de Ka\u2019asapa),\\n-Mg. Pastora Leguizam\u00f3n de Mafra (Regional Karapegua \u2013
+  Departamento de Paraguari),\\n-Lic. Magdalena Valiente Gonz\u00e1lez (Regional Isla
+  Puku \u2013 Departamento de Cordillera),\\n-Mg. Ramona Ayala Colm\u00e1n (Regional
+  Edelira \u2013 Departamento de Itap\u00faa),\\n-Prof. Carmen Gladys Bernatto Joubert
+  (Regional Posadas \u2013Provincia de Misiones, Argentina),\\n-Mg. Paternio Emiliano
+  Vera Gonz\u00e1lez (Regional Villarrica \u2013 Departamento de Guaira),\\n-Lic.
+  Gudelio Ignacio B\u00e1ez Ben\u00edtez (Regional Buenos Aires, Argentina),\\n-Dr.
+  Paublino Carlos Ferreira Qui\u00f1\u00f3nez (Regional Fernando de la Mora \u2013
+  Departamento Central),\\n-Mg. Petrona Albarenga de Gonz\u00e1lez (Regionales de
+  Ciudad del Este y Santa Rita \u2013 Departamento de Alto Parana),\\n-Mg. Augusto
+  Mart\u00edn Jara L\u00f3pez (Regionales de Y\u00fb y San Joaqu\u00edn \u2013 Departamento
+  de Ka\u2019aguasu),\\n-Dr. Juan F\u00e9lix Gonz\u00e1lez (Regional de Jataity del
+  Norte \u2013 Departamento de San Pedro),\\n-Lic. Ernesta Mart\u00ednez Apodaca (Regional
+  Asunci\u00f3n-Sajonia),\\n-Dr. Virgilio Silvero Ar\u00e9valos (Regionales de San
+  Lorenzo \u2013 Departamento Central; y Jaguaron \u2013 Departamento de Paraguari),\\n-Mg.
+  Luis Lugo Medina (Regionales de Luque y Limpio \u2013 Departamento Central),\\n-Dra.
+  Irene Estela Segovia de Villamayor (Regional Asunci\u00f3n-Sant\u00edsima Trinidad),\\n-Mg.
+  Carmen Pereira Irala (Regional Minga Guasu \u2013 Alto Parana),\\n-Mg. Edgar Eduardo
+  Gonz\u00e1lez M\u00e9ndez (Regional General Artigas \u2013 Departamento de Itap\u00faa),\\n-Mg.
+  Carmen Ramona Caballero de Vera (Regional General Aquino \u2013 Departamento de
+  San Pedro),\\n-Mg. Felipe Nery Miranda (Regional Tovat\u00ee \u2013 Departamento
+  de Cordillera).\\n-Mg. Sabina Antonia Ovelar Cabrera (Regional Arroyos y Esteros
+  \u2013 Departamento de Cordillera),\\n-Lic. Evangelista Atienza Rotela (Regional
+  Asunci\u00f3n-Barrio San Pablo),\\n-Mg. Porfiria Orrego Invernizzi (Regional Paraguari
+  \u2013 Departamento de Paraguari),\\n-Lic. Derlis Rub\u00e9n Gonz\u00e1lez Gamarra
+  (Regional Itaipyte \u2013 Departamento de Alto Parana),\\n-Mg. Celia Beatriz Chaparro
+  de Garay (Regional Sapuk\u00e1i \u2013 Departamento de Paraguari),\\n-Mg. Mirian
+  Bernarda Osorio (Regional Ky\u2019\u1ef9indy \u2013 Departamento de Paraguari),
+  ha\\n-Prof. Jorge Rom\u00e1n G\u00f3mez (Regional Yt\u00fbs\u00e2ingo, Corrientes
+  \u2013 Argentina).\\nAsimismo,\\n-Mg. Pablino G\u00f3mez Vera (Regional Jaguaron
+  \u2013 Deparamento de Paraguari),\\n-Mg. Modesto Romero Cueto (Regional Fernando
+  de la Mora),\\n-Lic. Omar Alfonso Cibils Aquino (Regional Puente Kyha),\\n-Dra.
+  Alberta Margarita Leiva Villaverde (San Lorenzo),\\n-Mg. Elvira Ferreira Gonz\u00e1lez
+  (Regional Kapi\u2019ivary),\\n-Mg. Blanca Elisa Gim\u00e9nez Gonz\u00e1lez (Limpio),\\n-Lic.
+  Zunilda Arriola Cabriza (Regional 1\u00ba de Marzo),\\n-Lic. Olga Cristina Arriola
+  (Regional 1\u00ba de Marzo),\\n-Lic. Antoliano Urbieta Cuenca (Eusebio Ayala),\\n-Lic.
+  Edgar Isidro Mart\u00ednez (Regional Asunci\u00f3n-Barrio San Pablo),\\n-Prof. Mar\u00eda
+  Mercedes Ojeda Aquino (Asunci\u00f3n),\\n-Prof. Miguel Sabino Fern\u00e1ndez (Regional
+  Asunci\u00f3n-Centro),\\n-Mg. Liduvina Esther Ayala Colm\u00e1n (Ciudad del Este),\\n-Mg.
+  Kang Wen Yueh (Kapi\u2019at\u00e2),\\n-Dr. Ram\u00f3n Silva (Asunci\u00f3n),\\n-Mg.
+  Mario Ra\u00fal Bogado (Asunci\u00f3n),\\n-Lic. Rub\u00e9n Ben\u00edtez Alvarenga
+  (Regional Mariano Roque Alonso),\\n-Prof. Crisanto Nicol\u00e1s Costadoni (Buenos
+  Aires, Argentina),\\n-Lic. Ram\u00f3n Osvaldo Ver\u00f3n (Buenos Aires, Argentina),\\n-Prof.
+  Luis Alberto Fleitas (Regional Campo 9),\\n-Lic. Luciano Figueredo Dom\u00ednguez
+  (Regional Luque),\\n-Lic. Mirian Lisa Acosta de Ort\u00edz (Regional Lambare),\\n-Mg.
+  Sabina de la Cruz N\u00fa\u00f1ez Cardozo (Sede Central),\\n-Mg. Huber Iv\u00e1n
+  Marecos Morel (Emboscada),\\n-Lic. Jorge Tadeo Galeano N\u00fa\u00f1ez (Sede Central),\\n-Lic.
+  Edgar David Galeano N\u00fa\u00f1ez (Sede Central),\\n-Lic. Norma Sabina Galeano
+  N\u00fa\u00f1ez (Sede Central),\\n-Anai Mburukuja Galeano N\u00fa\u00f1ez (Sede
+  Central),\\n-Lic. Mar\u00eda Eugenia Aguiar Galeano (Aregua),\\n-Mar\u00eda Makarena
+  Aguiar Galeano (Kapiata),\\n-Lic. Wilma Ben\u00edtez de Ferreira (Sede Central),\\n-Lic.
+  Amada Regina Insfr\u00e1n Ru\u00edz (Regional Mariano Roque Alonso \u2013 Departamento
+  Central),\\n-Dra. Felipa Gonz\u00e1lez Br\u00edtez (Regional Pilar \u2013 Departamento
+  de \u00d1e\u2019\u00eambuku),\\n-Lic. Eliodoro Mora Mart\u00ednez (Regional Campo
+  9 \u2013 Departamento de Ka\u2019aguasu),\\n-Lic. Luc\u00eda Valiente Gonz\u00e1lez
+  (Regional Isla Puku \u2013 Departamento de Cordillera),\\n-Lic. Venancio Mart\u00edn
+  Tillner Aquino (Regional Paraguari \u2013 Departamento de Paraguari),\\n-Lic. Lorena
+  Victoria Ag\u00fcero Insfr\u00e1n (Regional San Pedro del Ykuamandyju \u2013 Departamento
+  de San Pedro),\\n-Lic. Jos\u00e9 Librado Silva Cardozo (Regional San Pedro del Ykuamandyju
+  \u2013 Departamento de San Pedro), ha\\n-Mg. Favio Cabrera Duarte (Asunci\u00f3n).\\nNo
+  hay comentarios:\\nPublicar un comentario en la entrada\"", "\"La toma de Samaklay
+  por los Bolivianos, gener\u00f3 la reacci\u00f3n ciudadana. As\u00ed, el d\u00eda
+  22 de octubre del a\u00f1o 1931, el Centro de Estudiantes Universitarios dirigido
+  por Agust\u00edn \u00c1vila convoc\u00f3 a una marcha desde la Plaza Uruguaya. Y
+  as\u00ed ocurri\u00f3, la manifestaci\u00f3n fue hasta el Palacio de Gobierno y
+  al no encontrar al Presidente Jos\u00e9 P. Guggiari, recorri\u00f3 las calles y
+  lleg\u00f3 hasta su domicilio, donde se pronunciaron discursos y apedrearon la casa
+  de Guggiari. Finalmente, los manifestantes fueron dispersados por la polic\u00eda.
+  Ho\u2019\u00e1vo Samaklay Bolivia pogu\u00fdpe, \u00f1ane ret\u00e2ygua huguy raku
+  opyt\u00e1vo. Up\u00e9icha, \u00e1ra 22 jasypa ary 1931-pe, Temimbo\u2019e Mbo\u2019ehaovusugua
+  Aty omyak\u00e2va Agust\u00edn \u00c1vila ojap\u00f3kuri \u00f1ehen\u00f3i pete\u00ee
+  \u00f1emongu\u2019eguasur\u00e2 os\u00eatava Uruguay Okarus\u00fagui. Ha up\u00e9icha
+  ojeh\u00fakuri, upe \u00f1emongu\u2019e oh\u00f3kuri Mburuvichapav\u00ea Ogavusu
+  peve ha ndojuh\u00faimar\u00f4 up\u00e9pe Mburuvichapav\u00ea Jos\u00e9 P. Guggiari-pe,
+  oguat\u00e1kuri tapeku\u00e9rare ha o\u011duah\u00eakuri h\u00f3ga peve, up\u00e9pe
+  ojejap\u00f3kuri heta \u00f1e\u2019\u00easyry ha ojapi hiku\u00e1i it\u00e1pe Guggiari
+  r\u00f3ga. Ipah\u00e1pe, tahachiku\u00e9ra omosarambipa chupeku\u00e9ra.\\nAl d\u00eda
+  siguiente, 23 de octubre, los estudiantes del COLEGIO NACIONAL DE LA CAPITAL y de
+  la Escuela Normal se movilizaron para exigir la defensa del Chaco y para protestar
+  por la represi\u00f3n policial del d\u00eda anterior, acompa\u00f1ados de sus profesores,
+  obreros, ancianos, mujeres, j\u00f3venes y ni\u00f1os. Fueron hasta los diarios,
+  arrojaron piedras a la casa de los liberales y llegaron al Palacio de Gobierno.
+  En un momento, los estudiantes atropellaron el cord\u00f3n policial y fueron hacia
+  la escalera de acceso al despacho presidencial. Se descontrol\u00f3 la situaci\u00f3n
+  y la guardia presidencial respondi\u00f3 con una r\u00e1faga de ametralladora. El
+  presidente Jos\u00e9 P. Guggiari orden\u00f3 el cese del fuego. M\u00e1s tarde,
+  Guggiari refugiado en la Escuela Militar, deleg\u00f3 la presidencia a Emiliano
+  Gonz\u00e1lez Navero. Al frente de aquella gran movilizaci\u00f3n marcharon los
+  directivos del Centro de Estudiantes del CNC: \u00c1vila, Garay, Riquelme, F\u00faster,
+  Valle, G\u00f3mez y Esp\u00ednola, entre otros, enarbolando la bandera del Centro,
+  que qued\u00f3 rota y manchada de sangre. \u00c1ra upeigu\u00e1pe, 23 jasypa, temimbo\u2019eku\u00e9ra
+  COLEGIO NACIONAL DE LA CAPITAL ha Escuela Normal-pegua o\u00f1emongu\u2019eje\u00fdkuri
+  ojerure ha\u011dua Ch\u00e1ko yvy pysyr\u00f4 ha ombotove ha\u011dua tahachi \u00f1embyepoti
+  guasu oikova\u2019ekue upe \u00e1ra mboyve, hendiveku\u00e9ra oguat\u00e1kuri imbo\u2019eharaku\u00e9ra,
+  mba\u2019apoh\u00e1ra, ituj\u00e1va, ku\u00f1a, mit\u00e2rusu ha mit\u00e2. Oh\u00f3kuri
+  hiku\u00e1i o\u00f1e\u00f1anduk\u00e1vo momaranduhaku\u00e9ra renond\u00e9pe, ojap\u00edkuri
+  it\u00e1pe chovyku\u00e9ra r\u00f3ga ha o\u011duah\u00eakuri Mburuvichapav\u00ea
+  Ogavusu peve. Sapy\u2019ami rire, temimbo\u2019eku\u00e9ra ojapyhara tahachiku\u00e9ra
+  jejoko ha oh\u00f3makatu hiku\u00e1i jupiha gotyo o\u00eeh\u00e1me mburuvichapav\u00ea
+  koty. Upe sarambi oikoku\u00e9vo mburuvichapav\u00ea \u00f1angarekoharaku\u00e9ra
+  o\u00f1epyr\u00fbkuri ombokapu o\u00f1emongu\u2019\u00e9va \u00e1ri. Mburuvichapav\u00ea
+  Jos\u00e9 P. Guggiari ojokouka \u00f1embokapu. Uperiremi, Guggiari oka\u00f1yva\u2019ekue
+  Guarini Mbo\u2019ehao (Escuela Militar)-pe, oheja Emiliano Gonz\u00e1lez Navero
+  pogu\u00fdpe tet\u00e2 s\u00e2mbyhy. Omotenond\u00e9kuri upe \u00f1emongu\u2019e
+  guasu Temimbo\u2019e Atyha CNC-pegua rendotaku\u00e9ra: \u00c1vila, Garay, Riquelme,
+  F\u00faster, Valle, G\u00f3mez ha Esp\u00ednola, hetave apyt\u00e9pe, oguerah\u00e1va
+  yvatete Atyha poyvi, ikuapa ha huguyp\u00e1va opyt\u00e1vo.\\nDiez estudiantes del
+  Colegio Nacional de la Capital fueron asesinados aquel triste d\u00eda: Julio C\u00e9sar
+  Franco, Ismael Gonz\u00e1lez, Benigno Gonz\u00e1lez, Ra\u00fal Roig Ocampo, Marcial
+  M\u00e9ndez, Liberato Ru\u00edz R\u00edos, Alfredo Gonz\u00e1lez Taboas, Celestino
+  Ram\u00edrez, Eugenio G\u00f3mez y Seraf\u00edn O. Vidal, y un anciano desconocido
+  que vend\u00eda pororo en la plaza. Pa temimbo\u2019e Colegio Nacional de la Capital-pegua
+  ojejuk\u00e1kuri upe \u00e1ra ityre\u2019\u0177et\u00e9vape: Julio C\u00e9sar Franco,
+  Ismael Gonz\u00e1lez, Benigno Gonz\u00e1lez, Ra\u00fal Roig Ocampo, Marcial M\u00e9ndez,
+  Liberato Ru\u00edz R\u00edos, Alfredo Gonz\u00e1lez Taboas, Celestino Ram\u00edrez,
+  Eugenio G\u00f3mez ha Seraf\u00edn O. Vidal, ha pete\u00ee karai tujami ohepyme\u2019\u00eavajepi
+  pororo upe okarus\u00fape.\\nEn recordaci\u00f3n a aquel luctuoso acontecimiento
+  y en homenaje a los ca\u00eddos, el Centro de Estudiantes del Colegio Nacional de
+  la Capital pas\u00f3 a denominarse \u201c23 de octubre\u201d, y tambi\u00e9n lleva
+  ese nombre la m\u00e1xima condecoraci\u00f3n que dicho Centro otorga a los egresados
+  destacados del CNC. Ogueromandu\u2019\u00e1vo upe mba\u2019e vaiete ha ohechakua\u00e1vo
+  umi ojejukava\u2019eku\u00e9pe, Temimbo\u2019e Atyha Colegio Nacional de la Capital-pegua
+  upe guive ojehero \u201c23 de octubre\u201d, ha avei ogueraha upe t\u00e9ra pe pyti\u2019ajegua
+  tuichav\u00e9va upe Atyha ome\u2019\u00eavajepi CNC temimbo\u2019ekue poravopyr\u00e9pe.\\nOhai:
+  David Galeano Olivera\"", "\"ATENEO DE LENGUA Y CULTURA GUARANI Maitei opavav\u00e9pe
+  David Galeano Olivera UNA REPARACI\u00d3N QUE ESPER\u00d3 100 A\u00d1OS LA CRE\u00cdBLE
+  HISTORIA DE DAMIANA Publicado por ABC Color: 31/10/2010 Leer original (hacer clic)
+  en: http://www.abc.com.py/nota/la-creible-historia-de-damiana/...\\nSE REALIZ\u00d3
+  EL III CONGRESO GUARANI, EN ITUZAINGO El s\u00e1bado 30 de octubre de 2010, la REGIONAL
+  YTUS AINGO - ATENEO DE LENGUA Y CULTURA GUARANI llev\u00f3 a cabo el III CONGRESO
+  \u201cGUARANI DIOMA OFICIAL DEL MERCOSUR\u201d - III AMANDAJE \u201cGUARANI MERCOSUR
+  \u00d1E\u2019\u00ca TEETE\u201d...\\nATENEO DE LENGUA Y CULTURA GUARANI Maitei horyv\u00e9va
+  opavav\u00e9pe David Galeano Olivera EN IDIOMA GUARAN\u00cd SE HIZO EL CENSO EN
+  LOS ESTEROS DEL YVERA (CORRIENTES, ARGENTINA) Publicado por CorrientesIn Leer original
+  (hacer clic) en: http://corrientes.in/?p=18538...\\nREP\u00daBLICA DEL PARAGUAY
+  ATENEO DE LENGUA Y CULTURA GUARANI ARY - 25- A\u00d1OS GUARANI, MERCOSUR \u00d1E\u2019\u00ca
+  TEETE INVESTIGADOR DE LA UNIVERSIDAD AUT\u00d3NOMA DE M\u00c9XICO, EN EL ATENEO
+  En la fecha, jueves 28 de octubre, a las 10 horas, en la Sede Central del ATENEO
+  DE LENGUA...\\nREP\u00daBLICA DEL PARAGUAY ATENEO DE LENGUA Y CULTURA GUARANI ARY
+  - 25- A\u00d1OS GUARANI, MERCOSUR \u00d1E\u2019\u00ca TEETE HOMENAJE A DIEGO GAVIL\u00c1N,
+  CREADOR DEL TRADUCTOR GUARANI PARA INTERNET El viernes 29 de octubre de 2010, a
+  las 19 horas, tendr\u00e1 lugar la presentaci\u00f3n...\\nREP\u00daBLICA DEL PARAGUAY
+  ATENEO DE LENGUA Y CULTURA GUARANI ARY - 25- A\u00d1OS GUARANI, MERCOSUR \u00d1E\u2019\u00ca
+  TEETE LEY DE LENGUAS EN EL PROGRAMA KAY\u2019UH\u00c1PE, DE RAM\u00d3N SILVA El
+  mi\u00e9rcoles 27 de octubre de 2010, el ATENEO DE LENGUA Y CULTURA GUARANI particip\u00f3
+  del programa...\\nATENEO DE LENGUA Y CULTURA GUARANI Maitei horyv\u00e9va opavav\u00e9pe
+  David Galeano Olivera CUESTI\u00d3N DE ALTERIDADES: LA ACIAGA VIDA DEL TUP\u00c3
+  GUARAN\u00cd EN LA LITERATURA DE LOS \\\"BLANCOS\\\" Y EN LA VITAL VERSI\u00d3N
+  ORAL DE LOS MBY\u00c1 Por: IRMA RUIZ * Leer original (hacer...\\nEDUARDO GALEANO,
+  GUARAN\u00cdME Ohai: David Galeano Olivera Eduardo Germ\u00e1n Hughes Galeano he\u00f1\u00f3ikuri
+  \u00e1ra 3 jasyporundy ary 1940-pe, t\u00e1va Montevideo, Uruguay ret\u00e2me. Marandumyas\u00e2ih\u00e1ra,
+  mombe\u2019uh\u00e1ra ha haira\u2019\u00e2h\u00e1ra. Ha\u2019\u00e9niko pete\u00ee
+  \u00e1ra anduha (arandu) ijojaha\u0177va,...\\nIII CONGRESO \u201cGUARANI IDIOMA
+  OFICIAL DEL MERCOSUR III AMANDAJE \u201cGUARANI MERCOSUR \u00d1E\u2019\u00ca TEETE\u201d
+  Organiza: REGIONAL YTUS AINGO - ATENEO DE LENGUA Y CULTURA GUARANI Fecha: S\u00e1bado,
+  30 de octubre de 2010 Local: Centro Cultural de la Ciudad de Ituzaing\u00f3 Carga...\\nK\u00c1SO
+  \u00d1EMOMBE''U: IRUNDY KUIMBA\u2019E REMBIASAKUE Ohai: David Galeano Olivera Ramona
+  herava\u2019ekue pete\u0129 ku\u00f1ata\u0129 ipor\u00e3itereirasa ha imaranga t\u00fava
+  oik\u00f3va isymi ndive, amoite Ka\u2019asap\u00e1pe, itap\u1ef9im\u00edme. Ramona
+  ndaje ndoikuaajep\u00e9i it\u00favape, omanojep\u00e9gui ha\u2019e he\u00f1\u00f3i
+  mboyve....\""]'
+src_ngrams: '{"1": [[["de"], 101284], [["pe"], 81395], [["umi"], 68299], [["e"], 60631],
+  [["la"], 44571]], "2": [[["de la"], 13704], [["tup\u00e3 \u00f1andej\u00e1ra"],
+  4541], [["en el"], 3867], [["paragu\u00e1i \u00f1e"], 3749], [["en la"], 3651]],
+  "3": [[["lengua y cultura"], 2840], [["de lengua y"], 2574], [["ateneo de lengua"],
+  2491], [["y cultura guarani"], 2450], [["ladislaa alcaraz de"], 1948]], "4": [[["de
+  lengua y cultura"], 2559], [["ateneo de lengua y"], 2473], [["lengua y cultura guarani"],
+  2427], [["ladislaa alcaraz de silvero"], 1932], [["fernando de la mora"], 821]],
+  "5": [[["ateneo de lengua y cultura"], 2464], [["de lengua y cultura guarani"],
+  2211], [["del ateneo de lengua y"], 624], [["\u00f1andej\u00e1ra jesucristo rekove
+  ha hemimbo"], 551], [["el ateneo de lengua y"], 482]]}'

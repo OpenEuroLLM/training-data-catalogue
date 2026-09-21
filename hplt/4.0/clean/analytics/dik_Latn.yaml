@@ -1,0 +1,1326 @@
+corpus: hplt-v4-dik
+srclang: dik
+timestamp: 1789039219.3420632
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2014-15", 136], ["CC-MAIN-2017-51", 114], ["CC-MAIN-2014-35",
+  84], ["CC-MAIN-2020-05", 41], ["CC-MAIN-2022-49", 29], ["CC-MAIN-2020-16", 26],
+  ["CC-MAIN-2014-42", 22], ["CC-MAIN-2024-18", 21], ["CC-MAIN-2018-39", 21], ["CC-MAIN-2025-13",
+  20], ["CC-MAIN-2020-29", 20], ["CC-MAIN-2025-08", 19], ["CC-MAIN-2020-24", 19],
+  ["CC-MAIN-2018-34", 18], ["CC-MAIN-2021-10", 17], ["CC-MAIN-2020-10", 16], ["CC-MAIN-2022-21",
+  15], ["CC-MAIN-2025-18", 14], ["CC-MAIN-2022-27", 14], ["CC-MAIN-2018-05", 14],
+  ["CC-MAIN-2017-26", 14], ["CC-MAIN-2025-33", 10], ["CC-MAIN-2024-26", 10], ["CC-MAIN-2025-21",
+  9], ["CC-MAIN-2022-05", 9], ["CC-MAIN-2018-43", 9], ["CC-MAIN-2018-22", 9], ["wide00012",
+  8], ["CC-MAIN-2024-38", 8], ["CC-MAIN-2023-50", 8], ["CC-MAIN-2023-14", 8], ["CC-MAIN-2021-17",
+  8], ["CC-MAIN-2020-40", 8], ["CC-MAIN-2020-34", 8], ["CC-MAIN-2015-18", 8], ["CC-MAIN-2024-22",
+  7], ["CC-MAIN-2025-26", 6], ["CC-MAIN-2021-49", 6], ["CC-MAIN-2021-04", 6], ["CC-MAIN-2020-50",
+  6], ["CC-MAIN-2015-11", 6], ["CC-MAIN-2024-46", 5], ["CC-MAIN-2019-04", 5], ["CC-MAIN-2015-48",
+  5], ["CC-MAIN-2024-33", 4], ["CC-MAIN-2024-30", 4], ["CC-MAIN-2024-10", 4], ["CC-MAIN-2023-23",
+  4], ["CC-MAIN-2022-40", 4], ["CC-MAIN-2021-25", 4], ["CC-MAIN-2021-21", 4], ["CC-MAIN-2020-45",
+  4], ["wide00015", 3], ["wide00011", 3], ["wide00005", 3], ["CC-MAIN-2025-05", 3],
+  ["CC-MAIN-2024-51", 3], ["CC-MAIN-2021-39", 3], ["CC-MAIN-2021-31", 3], ["wide00016",
+  2], ["wide00010", 2], ["wide00006", 2], ["CC-MAIN-2025-30", 2], ["CC-MAIN-2023-40",
+  2], ["CC-MAIN-2023-06", 2], ["CC-MAIN-2016-30", 2], ["wide00017", 1], ["archivebot",
+  1], ["CC-MAIN-2024-42", 1], ["CC-MAIN-2022-33", 1], ["CC-MAIN-2021-43", 1], ["CC-MAIN-2017-04",
+  1], ["CC-MAIN-2016-40", 1]]'
+docs_langs: '[[0.2, 3], [0.3, 1], [0.4, 5], [0.5, 34], [0.6, 16], [0.7, 46], [0.8,
+  105], [0.9, 108], [1.0, 622]]'
+docs_segments: '[[1, 260], [2, 51], [3, 28], [4, 47], [5, 65], [6, 54], [7, 32], [8,
+  20], [9, 14], [10, 10], [11, 5], [12, 16], [13, 9], [14, 14], [15, 12], [16, 12],
+  [17, 12], [18, 16], [19, 14], [20, 13], [21, 12], [22, 7], [23, 10], [24, 9], [25,
+  13], [26, 4], [27, 6], [28, 6], [29, 11], [30, 4], [31, 5], [32, 8], [33, 4], [34,
+  3], [35, 7], [36, 2], [37, 4], [38, 7], [39, 3], [40, 3], [41, 2], [42, 3], [43,
+  2], [44, 4], [45, 1], [46, 4], [47, 4], [48, 1], [49, 3], [50, 3], [51, 3], [52,
+  4], [53, 1], [54, 4], [55, 4], [56, 2], [57, 2], [58, 3], [60, 2], [61, 2], [64,
+  3], [66, 1], [68, 1], [70, 1], [71, 1], [72, 1], [74, 1], [76, 1], [77, 1], [78,
+  1], [79, 1], [80, 1], [81, 1], [82, 1], [86, 1], [87, 1], [88, 1], [93, 2], [98,
+  2], [101, 1], [104, 1], [106, 1], [110, 1], [111, 1], [115, 1], [118, 1], [126,
+  1], [129, 2], [132, 1], [143, 1], [147, 1], [149, 1], [155, 2], [160, 1], [163,
+  1], [179, 2], [184, 1], [190, 1], [214, 1], [261, 1], [319, 1], [639, 1], [899,
+  1], [1942, 1], [2038, 1], [3274, 1], [8566, 1]]'
+docs_segments_mean: 35
+docs_segments_median: 6
+docs_top100_domains: '[["wikipedia.org", 271], ["bible.is", 262], ["ebible.org", 72],
+  ["zhitov.com", 44], ["sbs.com.au", 26], ["bringingupgreatkids.org", 18], ["www.vic.gov.au",
+  15], ["nsw.gov.au", 13], ["jw.org", 13], ["homeaffairs.gov.au", 11], ["lerni.net.au",
+  10], ["coronavirus.vic.gov.au", 9], ["jobs.vic.gov.au", 8], ["communitydoor.org.au",
+  8], ["duhoctrungquoc.vn", 6], ["bible.com", 6], ["1800respect.org.au", 6], ["worksafe.vic.gov.au",
+  5], ["vec.vic.gov.au", 5], ["consumer.vic.gov.au", 5], ["dinkarek.org", 4], ["allgood.org.au",
+  4], ["mybluesky.org.au", 3], ["health.gov.au", 3], ["yourenergysavings.gov.au",
+  2], ["workingwithchildren.vic.gov.au", 2], ["vietnamimmigration.org", 2], ["vallalar.net",
+  2], ["ses.vic.gov.au", 2], ["seniorsonline.vic.gov.au", 2], ["mixcloud.com", 2],
+  ["lebthur.org", 2], ["lchs.com.au", 2], ["esafety.gov.au", 2], ["dhhs.vic.gov.au",
+  2], ["da-no.ru", 2], ["cancervic.org.au", 2], ["business.vic.gov.au", 2], ["africanstorybook.org",
+  2], ["4laws.com", 2], ["yumpu.com", 1], ["xxxmoviesdownload.club", 1], ["world-hentai.ru",
+  1], ["workcover.com", 1], ["wordpress.com", 1], ["womensrefugeecommission.org",
+  1], ["wikizeroo.org", 1], ["wikiplanet.click", 1], ["wikimedia.org", 1], ["watchtower.org",
+  1], ["videochat-ruletka.ru", 1], ["vicroads.vic.gov.au", 1], ["usp-compulink.ru",
+  1], ["unicode.org", 1], ["tuv.org.au", 1], ["tio.com.au", 1], ["tigerspike.com",
+  1], ["tenantsvic.org.au", 1], ["tallyroom.vic.gov.au", 1], ["surveymonkey.com",
+  1], ["supremecourt.vic.gov.au", 1], ["stirling.wa.gov.au", 1], ["sleepostic.com",
+  1], ["sleephony.com", 1], ["seriousillness.org", 1], ["sands.org.au", 1], ["rtwsa.com",
+  1], ["recovery.vic.gov.au", 1], ["raisingchildren.net.au", 1], ["radaris.com.au",
+  1], ["pwcs.edu", 1], ["player.fm", 1], ["orangedoor.vic.gov.au", 1], ["ntv.org.au",
+  1], ["ndis.gov.au", 1], ["multicultural.vic.gov.au", 1], ["livinggreener.gov.au",
+  1], ["liverwell.org.au", 1], ["lighthousedisability.org.au", 1], ["legalaid.wa.gov.au",
+  1], ["legalaid.vic.gov.au", 1], ["kidscount.com.au", 1], ["kasahorow.org", 1], ["justice.vic.gov.au",
+  1], ["jieenglanguageaustralia.org.au", 1], ["jesusforafrica.net", 1], ["ivy.fm",
+  1], ["imha.vic.gov.au", 1], ["humanservices.gov.au", 1], ["healthdirect.gov.au",
+  1], ["growingahealthybaby.org.au", 1], ["gospelgo.com", 1], ["fiscat.com", 1], ["fines.vic.gov.au",
+  1], ["everyday-law.org.au", 1], ["entropik.io", 1], ["energymadeeasy.gov.au", 1],
+  ["embracementalhealth.org.au", 1], ["ecsa.sa.gov.au", 1], ["earlychildhood.qld.gov.au",
+  1]]'
+docs_top100_tld: '[["org", 394], ["is", 262], ["vic.gov.au", 70], ["com", 70], ["gov.au",
+  40], ["org.au", 34], ["com.au", 33], ["net.au", 11], ["vn", 6], ["ru", 5], ["net",
+  3], ["wa.gov.au", 2], ["sa.gov.au", 2], ["fm", 2], ["qld.gov.au", 1], ["io", 1],
+  ["edu", 1], ["club", 1], ["click", 1], ["ca", 1]]'
+docs_total: 940
+docs_wds: '[[0.5, 15], [0.51, 21], [0.52, 25], [0.53, 32], [0.54, 25], [0.55, 39],
+  [0.56, 36], [0.57, 24], [0.58, 48], [0.59, 41], [0.6, 42], [0.61, 50], [0.62, 72],
+  [0.63, 40], [0.64, 30], [0.65, 13], [0.66, 17], [0.67, 16], [0.68, 8], [0.69, 12],
+  [0.7, 13], [0.71, 16], [0.72, 17], [0.73, 24], [0.74, 25], [0.75, 17], [0.76, 19],
+  [0.77, 14], [0.78, 19], [0.79, 27], [0.8, 25], [0.81, 17], [0.82, 16], [0.83, 12],
+  [0.84, 8], [0.85, 7], [0.86, 13], [0.87, 8], [0.88, 9], [0.89, 8], [0.9, 9], [0.91,
+  7], [0.92, 1], [0.93, 1], [0.94, 1], [0.95, 1]]'
+duplication_ratio: 0.1062
+sentence_pairs: 33276
+src_bytes: 6496055
+src_chars: 5570835
+src_pii: 60
+src_tokens: 1495670
+unique_sents: 29742
+src_sent_tokens: '[[1, 948], [2, 693], [3, 683], [4, 893], [5, 747], [6, 1043], [7,
+  900], [8, 1044], [9, 735], [10, 857], [11, 724], [12, 831], [13, 635], [14, 730],
+  [15, 808], [16, 609], [17, 567], [18, 585], [19, 677], [20, 600], [21, 631], [22,
+  677], [23, 604], [24, 618], [25, 596], [26, 549], [27, 552], [28, 536], [29, 584],
+  [30, 508], [31, 517], [32, 520], [33, 475], [34, 447], [35, 451], [36, 444], [37,
+  423], [38, 393], [39, 346], [40, 324], [41, 289], [42, 274], [43, 296], [44, 283],
+  [45, 253], [46, 227], [47, 219], [48, 214], [49, 203], [50, 180], [51, 153], [52,
+  156], [53, 160], [54, 159], [55, 141], [56, 140], [57, 131], [58, 112], [59, 129],
+  [60, 120], [61, 97], [62, 109], [63, 113], [64, 92], [65, 98], [66, 92], [67, 92],
+  [68, 67], [69, 73], [70, 71], [71, 59], [72, 68], [73, 65], [74, 69], [75, 58],
+  [76, 72], [77, 65], [78, 55], [79, 62], [80, 51], [81, 49], [82, 50], [83, 47],
+  [84, 53], [85, 32], [86, 43], [87, 47], [88, 29], [89, 40], [90, 31], [91, 28],
+  [92, 41], [93, 31], [94, 30], [95, 43], [96, 23], [97, 40], [98, 37], [99, 32],
+  [100, 28], [101, 33], [102, 24], [103, 26], [104, 18], [105, 22], [106, 25], [107,
+  25], [108, 29], [109, 18], [110, 19], [111, 23], [112, 22], [113, 16], [114, 17],
+  [115, 23], [116, 27], [117, 17], [118, 14], [119, 15], [120, 33], [121, 13], [122,
+  13], [123, 13], [124, 12], [125, 15], [126, 14], [127, 15], [128, 11], [129, 9],
+  [130, 10], [131, 10], [132, 13], [133, 9], [134, 18], [135, 7], [136, 8], [137,
+  2], [138, 12], [139, 13], [140, 9], [141, 11], [142, 6], [143, 8], [144, 11], [145,
+  9], [146, 1], [147, 7], [148, 7], [149, 6], [150, 5], [151, 6], [152, 7], [153,
+  6], [154, 6], [155, 7], [156, 6], [157, 5], [158, 13], [159, 8], [160, 3], [161,
+  8], [162, 2], [163, 6], [164, 5], [165, 5], [166, 5], [167, 3], [168, 7], [169,
+  2], [170, 8], [171, 7], [172, 2], [173, 3], [174, 4], [175, 6], [176, 4], [177,
+  6], [178, 3], [179, 2], [180, 2], [181, 5], [182, 5], [183, 3], [184, 2], [185,
+  7], [186, 3], [187, 3], [188, 3], [189, 4], [190, 5], [191, 3], [192, 2], [193,
+  2], [194, 4], [195, 1], [196, 3], [197, 8], [198, 6], [199, 1], [201, 3], [203,
+  1], [204, 3], [205, 4], [206, 2], [207, 1], [208, 3], [211, 2], [212, 1], [213,
+  2], [214, 1], [216, 1], [217, 1], [219, 3], [220, 4], [221, 2], [222, 2], [223,
+  1], [224, 2], [225, 3], [226, 1], [227, 3], [228, 1], [229, 2], [230, 2], [231,
+  2], [233, 2], [234, 2], [235, 1], [237, 1], [238, 1], [239, 1], [241, 2], [242,
+  3], [243, 3], [244, 2], [246, 2], [247, 2], [248, 1], [250, 2], [252, 2], [254,
+  2], [255, 2], [256, 1], [259, 2], [260, 1], [261, 1], [264, 1], [265, 1], [266,
+  1], [267, 1], [269, 1], [272, 1], [273, 1], [276, 2], [277, 1], [280, 1], [283,
+  1], [284, 1], [290, 1], [291, 3], [292, 2], [293, 1], [309, 1], [310, 1], [311,
+  1], [313, 1], [316, 1], [324, 3], [325, 1], [328, 1], [330, 1], [331, 1], [332,
+  1], [333, 1], [336, 1], [340, 1], [341, 1], [342, 2], [344, 1], [353, 2], [357,
+  1], [359, 1], [362, 2], [366, 1], [369, 1], [370, 1], [372, 1], [375, 1], [381,
+  1], [382, 1], [385, 4], [391, 1], [395, 1], [397, 1], [398, 1], [402, 1], [405,
+  1], [408, 1], [413, 2], [417, 3], [420, 1], [421, 1], [424, 1], [431, 2], [434,
+  1], [436, 1], [440, 1], [441, 1], [445, 1], [446, 1], [449, 1], [450, 2], [451,
+  1], [453, 1], [456, 1], [458, 1], [463, 1], [464, 2], [474, 1], [478, 1], [479,
+  1], [482, 1], [484, 1], [485, 1], [486, 1], [487, 1], [488, 1], [490, 1], [493,
+  1], [495, 3], [496, 1], [501, 1], [503, 1], [504, 1], [505, 2], [509, 1], [511,
+  2], [518, 2], [521, 3], [525, 1], [527, 1], [530, 1], [533, 1], [534, 1], [538,
+  1], [543, 1], [547, 1], [548, 2], [551, 2], [553, 1], [554, 1], [555, 4], [556,
+  1], [557, 1], [559, 3], [567, 1], [578, 1], [579, 1], [581, 1], [586, 1], [587,
+  1], [588, 1], [589, 1], [590, 1], [591, 1], [593, 1], [594, 1], [596, 1], [598,
+  1], [599, 1], [605, 1], [607, 2], [608, 2], [610, 1], [611, 1], [614, 1], [616,
+  1], [617, 2], [623, 1], [624, 1], [627, 1], [632, 1], [634, 1], [638, 1], [639,
+  1], [641, 1], [644, 2], [645, 1], [648, 1], [652, 2], [657, 1], [658, 2], [659,
+  1], [661, 1], [663, 1], [665, 1], [668, 1], [669, 1], [671, 1], [673, 1], [677,
+  1], [679, 1], [680, 4], [682, 1], [684, 2], [687, 3], [689, 2], [693, 1], [694,
+  1], [695, 2], [696, 2], [700, 1], [701, 1], [703, 1], [709, 1], [710, 1], [712,
+  2], [713, 1], [714, 2], [717, 1], [718, 2], [719, 1], [720, 2], [721, 1], [724,
+  2], [727, 1], [729, 1], [731, 2], [733, 2], [734, 1], [737, 1], [738, 1], [748,
+  1], [751, 1], [752, 1], [754, 1], [759, 1], [761, 1], [768, 1], [769, 3], [771,
+  1], [773, 1], [774, 1], [778, 1], [780, 1], [781, 1], [783, 2], [786, 1], [787,
+  1], [789, 1], [790, 1], [793, 2], [797, 1], [799, 3], [802, 1], [803, 1], [804,
+  2], [806, 1], [808, 2], [812, 1], [813, 1], [816, 1], [818, 1], [821, 1], [823,
+  2], [824, 1], [825, 1], [827, 1], [828, 2], [829, 1], [830, 1], [831, 1], [834,
+  1], [843, 2], [844, 1], [845, 2], [847, 1], [848, 1], [849, 2], [856, 1], [858,
+  1], [861, 1], [863, 1], [864, 1], [865, 2], [867, 1], [868, 2], [869, 2], [871,
+  1], [874, 1], [876, 1], [878, 2], [879, 1], [880, 1], [887, 1], [888, 1], [890,
+  2], [891, 1], [894, 1], [896, 1], [897, 1], [898, 1], [905, 2], [908, 1], [912,
+  1], [916, 1], [918, 1], [921, 1], [923, 2], [927, 1], [928, 1], [931, 2], [932,
+  1], [939, 1], [944, 3], [945, 1], [948, 1], [949, 2], [950, 1], [953, 1], [959,
+  1], [961, 1], [962, 2], [964, 1], [966, 1], [967, 2], [968, 1], [971, 1], [973,
+  1], [974, 1], [975, 1], [976, 1], [977, 1], [979, 1], [980, 1], [981, 1], [983,
+  1], [984, 1], [985, 1], [987, 1], [989, 1], [993, 2], [998, 2], [1001, 1], [1004,
+  1], [1008, 3], [1010, 1], [1011, 1], [1017, 2], [1019, 1], [1021, 1], [1024, 1],
+  [1025, 2], [1026, 1], [1031, 1], [1035, 2], [1040, 1], [1041, 1], [1042, 1], [1044,
+  1], [1045, 1], [1046, 2], [1049, 1], [1050, 1], [1053, 1], [1057, 1], [1059, 2],
+  [1077, 2], [1080, 1], [1081, 2], [1091, 1], [1092, 1], [1096, 1], [1098, 1], [1099,
+  2], [1103, 2], [1107, 1], [1109, 1], [1110, 1], [1116, 1], [1117, 1], [1118, 1],
+  [1121, 1], [1122, 1], [1129, 3], [1145, 1], [1147, 2], [1148, 1], [1151, 1], [1153,
+  1], [1154, 1], [1160, 1], [1163, 2], [1169, 1], [1170, 1], [1171, 1], [1174, 1],
+  [1175, 1], [1178, 1], [1181, 1], [1182, 1], [1184, 1], [1188, 1], [1196, 1], [1198,
+  1], [1204, 1], [1207, 3], [1208, 1], [1209, 1], [1211, 1], [1222, 1], [1226, 1],
+  [1237, 1], [1240, 1], [1244, 2], [1256, 1], [1257, 1], [1263, 1], [1264, 1], [1274,
+  1], [1276, 1], [1278, 1], [1280, 1], [1282, 1], [1285, 1], [1286, 1], [1287, 1],
+  [1288, 1], [1289, 1], [1291, 1], [1293, 1], [1295, 1], [1300, 1], [1301, 1], [1302,
+  1], [1307, 1], [1311, 1], [1313, 1], [1316, 1], [1321, 1], [1322, 1], [1324, 1],
+  [1325, 1], [1326, 1], [1331, 1], [1332, 1], [1334, 2], [1338, 1], [1339, 1], [1341,
+  1], [1355, 1], [1360, 1], [1363, 1], [1364, 1], [1367, 1], [1369, 1], [1372, 1],
+  [1386, 1], [1393, 1], [1411, 1], [1413, 2], [1419, 2], [1420, 1], [1427, 2], [1431,
+  1], [1438, 1], [1442, 1], [1445, 1], [1449, 1], [1456, 1], [1460, 1], [1461, 1],
+  [1466, 1], [1476, 1], [1478, 2], [1479, 1], [1489, 1], [1501, 1], [1503, 1], [1511,
+  1], [1522, 1], [1527, 1], [1529, 1], [1534, 1], [1539, 1], [1544, 1], [1548, 1],
+  [1549, 1], [1568, 1], [1574, 1], [1578, 1], [1579, 1], [1580, 1], [1583, 1], [1610,
+  1], [1634, 1], [1640, 1], [1643, 1], [1654, 1], [1655, 1], [1675, 2], [1689, 1],
+  [1691, 1], [1695, 1], [1697, 1], [1713, 1], [1731, 1], [1748, 1], [1755, 1], [1768,
+  1], [1771, 1], [1807, 1], [1816, 1], [1826, 1], [1839, 1], [1854, 1], [1855, 1],
+  [1859, 1], [1868, 1], [1877, 1], [1893, 1], [1908, 1], [1932, 1], [1973, 1], [1982,
+  1], [2032, 1], [2050, 1], [2087, 1], [2157, 1], [2159, 1], [2269, 1], [2319, 1]]'
+src_sent_tokens_mean: 45
+src_sent_tokens_median: 23
+src_unique_sents: '[[1, 285], [2, 561], [3, 553], [4, 623], [5, 636], [6, 893], [7,
+  735], [8, 925], [9, 634], [10, 776], [11, 649], [12, 774], [13, 592], [14, 680],
+  [15, 747], [16, 576], [17, 531], [18, 553], [19, 623], [20, 563], [21, 591], [22,
+  638], [23, 563], [24, 589], [25, 547], [26, 526], [27, 512], [28, 505], [29, 547],
+  [30, 476], [31, 478], [32, 478], [33, 445], [34, 400], [35, 422], [36, 405], [37,
+  382], [38, 368], [39, 323], [40, 298], [41, 265], [42, 264], [43, 277], [44, 261],
+  [45, 240], [46, 208], [47, 211], [48, 194], [49, 189], [50, 169], [51, 147], [52,
+  147], [53, 149], [54, 153], [55, 131], [56, 127], [57, 122], [58, 110], [59, 121],
+  [60, 112], [61, 91], [62, 101], [63, 102], [64, 86], [65, 89], [66, 83], [67, 85],
+  [68, 65], [69, 69], [70, 68], [71, 57], [72, 66], [73, 61], [74, 65], [75, 55],
+  [76, 68], [77, 62], [78, 53], [79, 60], [80, 50], [81, 47], [82, 48], [83, 43],
+  [84, 51], [85, 30], [86, 42], [87, 45], [88, 29], [89, 37], [90, 30], [91, 28],
+  [92, 39], [93, 30], [94, 30], [95, 39], [96, 21], [97, 37], [98, 37], [99, 30],
+  [100, 27], [101, 30], [102, 23], [103, 25], [104, 18], [105, 21], [106, 24], [107,
+  23], [108, 28], [109, 17], [110, 19], [111, 21], [112, 21], [113, 13], [114, 16],
+  [115, 23], [116, 26], [117, 16], [118, 13], [119, 15], [120, 21], [121, 13], [122,
+  12], [123, 13], [124, 12], [125, 13], [126, 14], [127, 14], [128, 10], [129, 9],
+  [130, 10], [131, 9], [132, 11], [133, 9], [134, 17], [135, 5], [136, 7], [137, 2],
+  [138, 12], [139, 12], [140, 8], [141, 11], [142, 5], [143, 8], [144, 10], [145,
+  8], [146, 1], [147, 7], [148, 7], [149, 5], [150, 5], [151, 6], [152, 7], [153,
+  5], [154, 6], [155, 7], [156, 6], [157, 5], [158, 12], [159, 8], [160, 3], [161,
+  8], [162, 1], [163, 5], [164, 5], [165, 4], [166, 4], [167, 3], [168, 7], [169,
+  2], [170, 7], [171, 7], [172, 2], [173, 3], [174, 4], [175, 5], [176, 4], [177,
+  6], [178, 2], [179, 2], [180, 2], [181, 5], [182, 5], [183, 3], [184, 2], [185,
+  7], [186, 3], [187, 3], [188, 3], [189, 4], [190, 5], [191, 3], [192, 2], [193,
+  2], [194, 3], [195, 1], [196, 3], [197, 8], [198, 6], [199, 1], [201, 3], [203,
+  1], [204, 3], [205, 3], [206, 2], [207, 1], [208, 3], [211, 2], [212, 1], [213,
+  2], [214, 1], [216, 1], [217, 1], [219, 3], [220, 4], [221, 2], [222, 2], [223,
+  1], [224, 2], [225, 3], [226, 1], [227, 3], [228, 1], [229, 2], [230, 2], [231,
+  2], [233, 2], [234, 2], [235, 1], [237, 1], [238, 1], [239, 1], [241, 2], [242,
+  3], [243, 3], [244, 2], [246, 2], [247, 2], [248, 1], [250, 2], [252, 2], [254,
+  2], [255, 1], [256, 1], [259, 2], [260, 1], [261, 1], [264, 1], [265, 1], [266,
+  1], [267, 1], [269, 1], [272, 1], [273, 1], [276, 2], [277, 1], [280, 1], [283,
+  1], [284, 1], [290, 1], [291, 3], [292, 2], [293, 1], [309, 1], [310, 1], [311,
+  1], [313, 1], [316, 1], [324, 3], [325, 1], [328, 1], [330, 1], [331, 1], [332,
+  1], [333, 1], [336, 1], [340, 1], [341, 1], [342, 2], [344, 1], [353, 2], [357,
+  1], [359, 1], [362, 2], [366, 1], [369, 1], [370, 1], [372, 1], [375, 1], [381,
+  1], [382, 1], [385, 4], [391, 1], [395, 1], [397, 1], [398, 1], [402, 1], [405,
+  1], [408, 1], [413, 2], [417, 3], [420, 1], [421, 1], [424, 1], [431, 2], [434,
+  1], [436, 1], [440, 1], [441, 1], [445, 1], [446, 1], [449, 1], [450, 2], [451,
+  1], [453, 1], [456, 1], [458, 1], [463, 1], [464, 1], [474, 1], [478, 1], [479,
+  1], [482, 1], [484, 1], [485, 1], [486, 1], [487, 1], [488, 1], [490, 1], [493,
+  1], [495, 3], [496, 1], [501, 1], [503, 1], [504, 1], [505, 2], [509, 1], [511,
+  2], [518, 2], [521, 3], [525, 1], [527, 1], [530, 1], [533, 1], [534, 1], [538,
+  1], [543, 1], [547, 1], [548, 2], [551, 2], [553, 1], [554, 1], [555, 4], [556,
+  1], [557, 1], [559, 3], [567, 1], [578, 1], [579, 1], [581, 1], [586, 1], [587,
+  1], [588, 1], [589, 1], [590, 1], [591, 1], [593, 1], [594, 1], [596, 1], [598,
+  1], [599, 1], [605, 1], [607, 2], [608, 2], [610, 1], [611, 1], [614, 1], [616,
+  1], [617, 2], [623, 1], [624, 1], [627, 1], [632, 1], [634, 1], [638, 1], [639,
+  1], [641, 1], [644, 2], [645, 1], [648, 1], [652, 2], [657, 1], [658, 2], [659,
+  1], [661, 1], [663, 1], [665, 1], [668, 1], [669, 1], [671, 1], [673, 1], [677,
+  1], [679, 1], [680, 4], [682, 1], [684, 2], [687, 3], [689, 2], [693, 1], [694,
+  1], [695, 2], [696, 2], [700, 1], [701, 1], [703, 1], [709, 1], [710, 1], [712,
+  2], [713, 1], [714, 2], [717, 1], [718, 2], [719, 1], [720, 2], [721, 1], [724,
+  2], [727, 1], [729, 1], [731, 2], [733, 2], [734, 1], [737, 1], [738, 1], [748,
+  1], [751, 1], [752, 1], [754, 1], [759, 1], [761, 1], [768, 1], [769, 3], [771,
+  1], [773, 1], [774, 1], [778, 1], [780, 1], [781, 1], [783, 2], [786, 1], [787,
+  1], [789, 1], [790, 1], [793, 2], [797, 1], [799, 3], [802, 1], [803, 1], [804,
+  2], [806, 1], [808, 2], [812, 1], [813, 1], [816, 1], [818, 1], [821, 1], [823,
+  2], [824, 1], [825, 1], [827, 1], [828, 2], [829, 1], [830, 1], [831, 1], [834,
+  1], [843, 2], [844, 1], [845, 2], [847, 1], [848, 1], [849, 2], [856, 1], [858,
+  1], [861, 1], [863, 1], [864, 1], [865, 2], [867, 1], [868, 2], [869, 2], [871,
+  1], [874, 1], [876, 1], [878, 2], [879, 1], [880, 1], [887, 1], [888, 1], [890,
+  2], [891, 1], [894, 1], [896, 1], [897, 1], [898, 1], [905, 2], [908, 1], [912,
+  1], [916, 1], [918, 1], [921, 1], [923, 2], [927, 1], [928, 1], [931, 2], [932,
+  1], [939, 1], [944, 3], [945, 1], [948, 1], [949, 2], [950, 1], [953, 1], [959,
+  1], [961, 1], [962, 2], [964, 1], [966, 1], [967, 2], [968, 1], [971, 1], [973,
+  1], [974, 1], [975, 1], [976, 1], [977, 1], [979, 1], [980, 1], [981, 1], [983,
+  1], [984, 1], [985, 1], [987, 1], [989, 1], [993, 2], [998, 2], [1001, 1], [1004,
+  1], [1008, 3], [1010, 1], [1011, 1], [1017, 2], [1019, 1], [1021, 1], [1024, 1],
+  [1025, 2], [1026, 1], [1031, 1], [1035, 2], [1040, 1], [1041, 1], [1042, 1], [1044,
+  1], [1045, 1], [1046, 2], [1049, 1], [1050, 1], [1053, 1], [1057, 1], [1059, 2],
+  [1077, 2], [1080, 1], [1081, 2], [1091, 1], [1092, 1], [1096, 1], [1098, 1], [1099,
+  2], [1103, 2], [1107, 1], [1109, 1], [1110, 1], [1116, 1], [1117, 1], [1118, 1],
+  [1121, 1], [1122, 1], [1129, 3], [1145, 1], [1147, 2], [1148, 1], [1151, 1], [1153,
+  1], [1154, 1], [1160, 1], [1163, 2], [1169, 1], [1170, 1], [1171, 1], [1174, 1],
+  [1175, 1], [1178, 1], [1181, 1], [1182, 1], [1184, 1], [1188, 1], [1196, 1], [1198,
+  1], [1204, 1], [1207, 3], [1208, 1], [1209, 1], [1211, 1], [1222, 1], [1226, 1],
+  [1237, 1], [1240, 1], [1244, 2], [1256, 1], [1257, 1], [1263, 1], [1264, 1], [1274,
+  1], [1276, 1], [1278, 1], [1280, 1], [1282, 1], [1285, 1], [1286, 1], [1287, 1],
+  [1288, 1], [1289, 1], [1291, 1], [1293, 1], [1295, 1], [1300, 1], [1301, 1], [1302,
+  1], [1307, 1], [1311, 1], [1313, 1], [1316, 1], [1321, 1], [1322, 1], [1324, 1],
+  [1325, 1], [1326, 1], [1331, 1], [1332, 1], [1334, 2], [1338, 1], [1339, 1], [1341,
+  1], [1355, 1], [1360, 1], [1363, 1], [1364, 1], [1367, 1], [1369, 1], [1372, 1],
+  [1386, 1], [1393, 1], [1411, 1], [1413, 2], [1419, 2], [1420, 1], [1427, 2], [1431,
+  1], [1438, 1], [1442, 1], [1445, 1], [1449, 1], [1456, 1], [1460, 1], [1461, 1],
+  [1466, 1], [1476, 1], [1478, 2], [1479, 1], [1489, 1], [1501, 1], [1503, 1], [1511,
+  1], [1522, 1], [1527, 1], [1529, 1], [1534, 1], [1539, 1], [1544, 1], [1548, 1],
+  [1549, 1], [1568, 1], [1574, 1], [1578, 1], [1579, 1], [1580, 1], [1583, 1], [1610,
+  1], [1634, 1], [1640, 1], [1643, 1], [1654, 1], [1655, 1], [1675, 2], [1689, 1],
+  [1691, 1], [1695, 1], [1697, 1], [1713, 1], [1731, 1], [1748, 1], [1755, 1], [1768,
+  1], [1771, 1], [1807, 1], [1816, 1], [1826, 1], [1839, 1], [1854, 1], [1855, 1],
+  [1859, 1], [1868, 1], [1877, 1], [1893, 1], [1908, 1], [1932, 1], [1973, 1], [1982,
+  1], [2032, 1], [2050, 1], [2087, 1], [2157, 1], [2159, 1], [2269, 1], [2319, 1]]'
+src_langs: '[["sq", 8730], ["en", 5500], ["fi", 3716], ["sl", 2274], ["su", 1408],
+  ["ja", 1019], ["fr", 931], ["ms", 923], ["nl", 755], ["et", 641], ["tl", 453], ["ht",
+  412], ["kw", 379], ["ml", 323], ["als", 306], ["id", 288], ["es", 283], ["cy", 273],
+  ["kn", 265], ["hu", 239], ["it", 238], ["wa", 229], ["de", 219], ["af", 216], ["sw",
+  203], ["vi", 188], ["sv", 166], ["hr", 163], ["sco", 160], ["mt", 144], ["fy", 136],
+  ["tr", 124], ["nds", 110], ["eo", 108], ["pl", 94], ["so", 92], ["pt", 75], ["ca",
+  72], ["ilo", 65], ["scn", 55], ["br", 49], ["jv", 44], ["bh", 44], ["ku", 43], ["tt",
+  42], ["la", 42], ["eu", 42], ["cs", 40], ["ro", 39], ["da", 39], ["ceb", 39], ["nb",
+  38], ["gd", 34], ["diq", 32], ["ta", 31], ["bn", 31], ["oc", 30], ["az", 30], ["lo",
+  26], ["sr", 25], ["yo", 24], ["lb", 24], ["pms", 23], ["pam", 22], ["zh", 20], ["ru",
+  20], ["lmo", 20], ["io", 19], ["vo", 17], ["mg", 17], ["el", 17], ["gv", 16], ["lv",
+  15], ["war", 14], ["sk", 13], ["ne", 13], ["mn", 13], ["dv", 13], ["ur", 12], ["ia",
+  12], ["fa", 11], ["uz", 10], ["si", 9], ["is", 9], ["hi", 9], ["tk", 8], ["lt",
+  8], ["frr", 8], ["vls", 7], ["th", 7], ["tg", 7], ["pnb", 7], ["gu", 7], ["gn",
+  7], ["rm", 6], ["mr", 6], ["jbo", 6], ["hif", 6], ["ast", 6], ["sc", 5], ["ie",
+  5], ["hsb", 4], ["dsb", 4], ["uk", 3], ["te", 3], ["ky", 3], ["kv", 3], ["ko", 3],
+  ["ka", 3], ["gl", 3], ["bcl", 3], ["yi", 2], ["nap", 2], ["mwl", 2], ["mk", 2],
+  ["min", 2], ["co", 2], ["bar", 2], ["wuu", 1], ["sd", 1], ["sah", 1], ["pa", 1],
+  ["nn", 1], ["new", 1], ["nah", 1], ["my", 1], ["li", 1], ["km", 1], ["hy", 1], ["ga",
+  1], ["ckb", 1], ["cbk", 1], ["bs", 1], ["azb", 1], ["ar", 1]]'
+hardrules_tags: '{"not_too_long": 584, "not_too_short": 2171, "length_ratio": 0, "no_urls":
+  313, "no_bad_encoding": 0, "pii": 60}'
+sample: '["\"1Ye\u014b\u00f6 buk j\u00e4l lueel rin Abaram wund\u00eft th\u025b\u025br
+  k\u0254c Itharel? Ye\u014b\u00f6 c\u00ef rot looi t\u00ebn\u00eb ye? 2Na Abaram
+  la k\u00ebn\u00eb c\u00ef looi b\u00ef yen la c\u00f6k t\u00ebn\u00eb Nhialic, \u014bu\u0254\u0308t
+  ala k\u00ebn\u00eb ye yen nhiam. Ku ac\u00ef\u00ef loi k\u00ebl\u00e4 t\u00ebn\u00eb
+  Nhialic. 3C\u00efm\u00ebn ye w\u00ebl c\u00ef g\u0254\u0308t ath\u00f6r th\u025b\u025br
+  w\u00ebl Nhialic yic ye lueel \u00ebl\u00e4, \\\"Abaram ac\u00ef Nhialic gam ku
+  rin gamde ac\u00ef Nhialic c\u0254l ala c\u00f6k t\u00ebn\u00eb ye.\\\" 4Raan luui
+  aye ri\u0254p, ku w\u00eb\u00ebu ye ye ri\u0254p aacie mi\u0254\u0308c, ari\u00f6pden
+  c\u00ef yen luui. 5Ku raan cie luui la gam t\u00ebn\u00eb Nhialic, Nhialic yen k\u0254c
+  c\u00ef k\u00e4r\u025bc looi c\u0254l aala c\u00f6k, ke gamde yen \u00eb ye c\u0254l
+  ala c\u00f6k t\u00ebn\u00eb Nhialic. 6Ku Debit ac\u00ef w\u025b\u0308t th\u00f6\u014b
+  kek \u00eb w\u025b\u0308t k\u00ebn\u00eb lueel w\u00e4\u00e4r yen jam rin raan mit
+  pu\u0254\u0308u c\u00ef Nhialic gam ke la c\u00f6k t\u00ebn\u00eb ye, ke cie lu\u0254i
+  pu\u0254th ye looi, 7\\\"K\u0254c mit pu\u0254\u0308th aa k\u0254c c\u00ef Nhialic
+  aw\u00e4cken p\u00e4l piny, ku wuuny adumu\u0254\u0308\u0254\u0308mken wei. 8Raan
+  mit pu\u0254\u0308u ee raan c\u00ef B\u025b\u0308ny b\u00ef ku\u025b\u0308n gu\u0254\u0308p
+  k\u00e4r\u025bc c\u00ef looi.\\\" 9Ye mi\u025bt pu\u0254\u0308u c\u00ef Debit jam
+  k\u00ebn k\u0254c Itharel \u00eb r\u00f6t? Acie k\u00ebden kep\u025b\u0308c. Ee
+  k\u00ebn k\u0254c cie k\u0254c Itharel aya, ku wek aa we yeku l\u025b\u0308k k\u00eb
+  cuk y\u00f6k ath\u00f6r w\u00ebl Nhialic yic, rin ac\u00ef w\u025b\u0308t c\u00ef
+  g\u0254\u0308t th\u025b\u025br lueel l\u0254n, \\\"Abaram ac\u00ef Nhialic gam,
+  ku gamde ac\u00ef yen a raan la c\u00f6k t\u00ebn\u00eb Nhialic.\\\" 10Ye n\u025bn
+  yen looi k\u00ebn\u00eb rot? Loi rot tue\u014b w\u00e4\u00e4r k\u00ebc Abaram \u014boot
+  aye w\u00e4\u00e4r c\u00ef ye \u014boot? Ee tue\u014b, acie \u014bu\u0254\u0308t
+  c\u00f6k ci\u00eb\u00ebn. 11Ku \u014bu\u0254\u0308tden j\u0254l ye l\u0254\u0308k
+  \u014boot ci\u00eb\u00ebn, aye nyu\u0254\u0254th l\u0254n gam Abaram ac\u00ef Nhialic
+  ye gam ke ye raan la c\u00f6k t\u00ebn\u00eb ye tue\u014b w\u00e4\u00e4r k\u00ebc
+  ye cak \u014boot. Ku k\u00ebl\u00e4, Abaram \u00eb wund\u00eft k\u0254c c\u00ef
+  Nhialic gam, ku aaye gam ke ye k\u0254c la c\u00f6k t\u00ebn\u00eb ye c\u0254k al\u0254n
+  k\u00ebc ke \u014boot. 12Ku yen \u00eb wund\u00eft k\u0254c c\u00ef \u014boot aya.
+  Ku acie rin c\u00ef ke \u014boot, ee rin c\u00ef kek dh\u00ebl p\u00efr gam th\u00f6\u014b
+  ke p\u00efr w\u00e4da Abaram bu\u0254\u0254th yic w\u00e4\u00e4r k\u00ebc ye cak
+  \u014boot. 13Nhialic ac\u00e4 Abaram th\u0254n ku m\u00efth b\u00ef l\u0254\u0308k
+  dhi\u00eb\u00ebth l\u0254n b\u00ef pinynhom a k\u00ebden. Nhialic ak\u00ebc ath\u00f6n
+  k\u00ebn\u00eb looi rin theek Abaram l\u00f6\u014b, ee rin c\u00ef yen gam, ku gam
+  yen ac\u00ef yen a raan la c\u00f6k t\u00ebn\u00eb Nhialic. 14Rin na ye k\u00eb
+  ye Nhialic th\u0254\u0308n k\u0254c g\u00e4m k\u0254c l\u00f6\u014b theek, ke gam
+  ac\u00efn w\u025b\u0308tde yic, ku c\u00efn k\u00ebpu\u0254th t\u0254\u0308 ath\u00f6n
+  Nhialic yic. 15L\u00f6\u014b \u00eb r\u025b\u0308\u025b\u0308c pu\u0254\u0308u Nhialic
+  b\u025b\u0308\u025b\u0308i, ku t\u025b\u0308 c\u00efn yic l\u00f6\u014b, ac\u00efn
+  l\u00f6\u014b ye dh\u0254\u0308l yic. 16Nhialic \u00eb loi ath\u0254\u0308nde rin
+  gam ku rin dh\u025b\u0308\u025b\u0308\u014bde, b\u00ef ath\u0254\u0308nde a k\u00ebn
+  yic t\u00ebn\u00eb m\u00efth b\u00ef l\u0254\u0308k dhi\u00eb\u00ebth t\u00ebn\u00eb
+  Abaram \u00ebb\u00ebn. Ku acie t\u00ebn\u00eb k\u0254c la l\u00f6\u014b \u00eb r\u00f6t,
+  ee t\u00ebn\u00eb k\u0254c c\u00ef gam aya c\u00efm\u00ebn Abaram. Rin Abaram yen
+  \u00eb w\u00e4dan w\u025b\u0308ikua \u0263odhie, 17c\u00efm\u00ebn c\u00ef ye g\u0254\u0308t
+  ath\u00f6r th\u025b\u025br w\u00ebl Nhialic yiic \u00ebl\u00e4, \\\"Y\u00efn aca
+  looi ba ya wun k\u0254c wu\u0254\u0308t ju\u00ebc.\\\" Abaram ac\u00ef ya W\u00e4da
+  Nhialic nhom, Nhialic c\u00ef gam, Nhialic yen k\u0254c c\u00ef thou c\u0254l aben
+  p\u00efr, ku w\u025b\u0308t ye lueel ke liu th\u00efn c\u0254l aloi rot. 18Abaram
+  ac\u00ef gam ku \u014b\u025b\u0308\u025b\u0308th k\u00eb c\u00efn k\u00eb \u014b\u0254\u0308th
+  th\u00efn, ku yen ac\u00ef yen b\u025b\u0308n a wun k\u0254c wu\u0254\u0308t ju\u00ebc
+  c\u00efm\u00ebn c\u00ef Nhialic ye l\u025b\u0308k ye \u00ebl\u00e4, \\\"K\u0254ckun
+  b\u00ef l\u0254\u0308k dhi\u00eb\u00ebth aab\u00ef ju\u00ebc ka b\u00ef ci\u025b\u0308t
+  ku\u025bl.\\\" 19W\u00ebn c\u00ef Abaram cak dhi\u0254p \u00eb ru\u0254\u0308nke
+  aa c\u00eft bu\u0254\u0254t, ku \u014bic l\u0254n ti\u025b\u014bde Thara ke c\u00ef
+  dhi\u0254p ke k\u00ebc dhi\u00ebth, ke \u014bot k\u00ebc dh\u0254\u0308r gamde yic.
+  20Ku r\u00eb\u00ebr ke \u014b\u0254\u0308th ku c\u00ef\u00ef diu ath\u00f6n Nhialic,
+  ku gamde ac\u00ef ye b\u025b\u0308n yi\u00ebk ri\u025bl ku leec Nhialic. 21Ee \u014bic,
+  ke c\u00efn diu l\u0254n b\u00ef Nhialic la ri\u025bl b\u00ef k\u00eb c\u00ef th\u0254n
+  dhi\u025bl looi. 22Ku \u00eb yen ac\u00ef Nhialic Abaram gam ke ye raan la c\u00f6k
+  t\u00ebn\u00eb ye. 23Ku w\u00eblk\u00e4, \\\"Yen ac\u00ef gam ke ye raan la c\u00f6k,\\\"
+  aa k\u00ebc g\u0254\u0308t ri\u025bnke \u00eb rot. 24Aake g\u025b\u0308t ri\u025bnkua
+  \u0263ok k\u0254c b\u00ef Nhialic gam aya ke \u0263o la c\u00f6k, \u0263ok k\u0254c
+  ye gam l\u0254n yen Nhialic yen c\u00ef Jethu B\u00e4nyda j\u0254t thou yic. 25Yen
+  ac\u00ef c\u0254l athou rin adumu\u0254\u0308\u0254\u0308mkua, ku j\u0254t b\u00ef
+  p\u00efr b\u00ef \u0263o c\u0254l aala c\u00f6k t\u00ebn\u00eb Nhialic.\"", "\"Pawut
+  Lol\\nPawut Lol: Lol ee pawun t\u00f6\u014b \u00eb Paguot Thudan kathi\u025b\u0308roukub\u025b\u0308t
+  (28) w\u00e4\u00e4r cii b\u025b\u0308ny Kiir yam ak\u00f6l\u00ebrou, ru\u0254\u0308n
+  tiim kaarou kuthi\u00e4rkudhi\u00ebc pen\u00ebthi\u025b\u0308r 2/K\u00f6n/2015.
+  Pawut Lol at\u0254\u0308 l\u0254\u0308k \u00eb Bahr el Ghadhal aba\u014b\u00eb parutcu\u0254l
+  \u00eb Paguot Thudan. Pawut Lol athi\u00f6k kepan yee c\u0254\u0254l Paank\u0254c
+  Ci\u025bl de Aprika aba\u014b\u00eb pacu\u0254l, Thud\u00e4n aba\u014b\u00eb parut,
+  pawut Awiel aba\u014b\u00eb pabak, ku pawut Wau aba\u014b\u00eb paguotbak.\\nWaar
+  th\u025b\u025br ak\u00f6l\u00eb 2/K\u00f6n/2015, b\u025b\u0308nymacbaai Thalva Kiir
+  \u00eb May\u00e4rd\u00eft aci l\u00f6\u014b yam l\u00f6\u014b b\u00eb Pawuut thi\u00e4r
+  ci g\u0254\u0308t w\u00eblmacyic tekiic arak 28, ago na\u014b Pawut thi\u00e4rkub\u025b\u0308t.
+  Pawuut ju\u025b\u0308c t\u0254\u0308thin yak\u00f6l\u00eb acii ketekthook \u00eb
+  ku\u025btku\u025bt. Pawuut k\u0254\u0308k cit Pawun\u00eb Lol aa cie\u014b ku\u025btku\u025bt
+  ku\u0254\u0308t cimin Dinka ku Partit. Pawun\u00eb Lol ee pawun t\u00f6\u014b \u00eb
+  Pawuut w\u00e4\u00e4r cii piac yam. Kiir aci ye nhom b\u025bn tak ku \u0263\u025b\u0308th
+  l\u00f6\u014b den w\u00e4r ci yam n\u00eb \u0263\u00f6n\u00ebl\u00f6\u00f6\u014b
+  e rin b\u00ebl\u00f6\u014b k\u00ebn\u00eb g\u00e4tpiny ku b\u00eb w\u00eblmac waar
+  yic.Naa w\u00ebn l\u0254 p\u025bi \u00eb thi\u025b\u0308rkut\u00f6k b\u025b\u0308n,
+  go k\u0254c \u0263\u00f6n\u00ebl\u00f6\u00f6\u014b de Paguot Thudan b\u025b\u0308ny
+  Kiir yi\u025b\u0308k ri\u025bl bi yenke Pawuut yam cak. Raan yee c\u0254\u0254l
+  Ridhik Dhakariya Hathan aci jal b\u025bn kuany bi yaa b\u025b\u0308nypawun\u00eb
+  Lol n\u00eb pen\u00ebthi\u00e4r kurou, ak\u00f6l\u00eb 24 ru\u0254\u0308n tiim karou
+  ku thiar kudhi\u00ebc. W\u00ebn cin\u00eb yeen t\u025b\u0308\u025b\u0308mbei, Pawut
+  lol aci jal b\u025b\u0308n tekic bi yaa ar\u0254\u0308mb\u025b\u0308i kaa 11, ku
+  keek aye aba\u014b\u00eb 180 ar\u0254\u0308mb\u025b\u0308i t\u0254\u0308 pan \u00eb
+  JunubThudan ab\u025b\u0308n. Keek ar\u0254\u0308mb\u025b\u0308i kaa 11 k\u00e4k\u00eb,
+  an\u0254\u014b Eri, Gomjuer Pacu\u0254l, Gomjuer Pabak, Korok Pabak, Korok Pacu\u0254l,,
+  Kuru Majakbai, Marialbai, Malual Parut, Malual Calic ku j\u0254l yaa Ringi. Genamatnhom
+  de Pawut Lol aye c\u0254\u0254l Raga, Paguot Thudan. Raga yen ee pen ditbet\u025b\u025bm
+  n\u00eb Pawutic, ku yeen aaye cie\u014b k\u0254c ju\u025b\u0308c ap\u025bi tine
+  Pawut th\u025b\u025br w\u00e4\u00e4r ye c\u0254\u0254l W\u025b\u0308t\u1e27\u025b\u0308n
+  Bahr El Ghadhal. P\u025bn k\u0254\u0308k t\u0254\u0308 n\u00eb pawun\u00eb lolic
+  aye Gothi\u014ba ku Deim Dhubeer. Translated by Joseph Makuur Gai Lueeth MBBS.\"",
+  "\"Pi\u00f6cemanhraan\\nPi\u00f6cemanhraan ee pi\u00f6c koc. Pi\u00f6cemanhraan
+  ee pi\u00f6cekapir ku pi\u00f6c\u00ebk\u00e4th\u025b\u025br. Pioce\u014bicka\u014b
+  ee hok kuony be ten reer koc theer thin pinynhom. Koc c\u00eb pioc piocmanhraan
+  ayoopwel tau r\u00eb\u00ebr koc thiin y\u00e4kol ku tau r\u00eb\u00ebr koc thiin
+  th\u025b\u0308\u025b\u0308r. Ayoopwel geeth yakolic ku baai ta aheer ku koc cie\u014bthin.
+  Awelyoop akut kocic ku tay\u00eb koc tie\u014b kaam winhoor ku piir. Ka ku loi e
+  piocemanhraan \u00eb koc kony riin ne l\u00eb ka c\u00ef y\u00f6k theer pioce\u014bicka\u014b.
+  To\u014b thiok ciyok \u00eb piocemanhraan \u00eb dhuk cien waartheer dheel ke \u014biec
+  loi puor koc cie\u014b r\u00f6\u00f6k America. Piocemanhraan ac\u00eb kaar araak
+  \u014buan kakciwecbei. Kakciwecbei ta cit tan cie\u014b koc th\u025b\u0308\u025b\u0308i
+  th\u00efn. Koc kuen kak koc th\u025b\u0308\u025b\u0308r aka tueny \u014bic kak cit
+  abiany tony wela abuoc weth. piocemanhraan ku guop. \u00eb pioc raan ku \u014bic
+  ta y\u00eb koc ku guop raan kayic waar kaamic. Koc kuen guop koc akuen ja\u014b,
+  agok ku laai kok. Cie\u014b piocemanhraan et\u00ebn piir koc thiin yakol ku tan
+  piir koc thiin th\u025b\u0308\u025b\u0308r.\"", "\"1\u0194\u0254n yen ru\u0254\u0308\u0254\u0308n
+  thi\u00e4\u00e4r ku dhi\u00ebc ke Tiberi\u00f6th ye b\u025b\u0308ny, ku Pilato ke
+  ye b\u025b\u0308nyd\u00eft mac Judia, Antip\u00e4th \u0194\u00ebrot \u00eb ye b\u025b\u0308ny
+  Galilia ku Pilipo w\u00e4m\u00ebnh \u00eb mac Ituria kek Trakonitith, ku Lithaniath
+  \u00eb ye b\u025b\u0308ny Abilene, 2ku Anath kek Kaipa aake ye b\u00e4nyd\u00eft
+  k\u00e4k Nhialic. T\u025b\u0308\u025b\u0308n\u00eb, ke Nhialic l\u00ebk w\u025b\u0308t
+  Joon w\u00ebn Dh\u00e4karia t\u0254\u0308 roor. 3Go Joon b\u025b\u0308\u025b\u0308i
+  t\u0254\u0308 w\u00e4r Jordan y\u0254u ku\u025bny yiic ke w\u00eb\u00ebt k\u0254c,
+  \\\"P\u00e4lk\u00eb lu\u0254i k\u00e4r\u025bc, ku calk\u00eb r\u00f6t aa mu\u0254c
+  nh\u00ef\u00efm, rin b\u00ef adumu\u0254\u0308\u0254\u0308mkun p\u00e4l piny t\u00ebn\u00eb
+  we.\\\" 4C\u00efm\u00ebn c\u00ef ye g\u0254\u0308t ath\u00f6r Ithaya yic raan k\u00e4k
+  Nhialic t\u00ef\u014b \u00ebl\u00e4, \\\"Raan k\u00e4kki\u025b\u0308 t\u00ef\u014b
+  ab\u00ef k\u00ebc\u00eft l\u0254\u0308\u0254\u0308r gut yic b\u00ef yen k\u0254c
+  caal t\u025b\u0308de \u00eb rot, ku l\u00ebk keek \u00ebl\u00e4, ''Gui\u025brk\u00eb
+  dh\u00ebl \u00eb B\u025b\u0308ny, lu\u0254ik\u00eb dh\u0254\u0308lke b\u00efk la
+  c\u00f6k. 5Th\u0254\u0308nyk\u00eb \u0263\u0254\u0308n la ti\u00e4m piny ku dhu\u0254\u0308kk\u00eb
+  \u0263\u0254n th\u00f6ny nh\u00ef\u00efm piny, ku c\u0254\u0308kk\u00eb dh\u00ebl
+  cie yic neer, ku th\u0254\u0308\u0254\u0308\u014bk\u00eb dh\u0254\u0308l la yiic
+  \u014b\u0254ny nh\u00ef\u00efm. 6Ku raan \u00ebb\u00ebn, ab\u00ef t\u025b\u0308
+  ye Nhialic \u0263ook lu\u00e4k th\u00efn t\u00ef\u014b!'' \\\" 7Ku l\u00ebk k\u0254c
+  ju\u00ebc b\u0254\u0308 t\u00ebn\u00eb ye b\u00ef ke b\u025b\u0308n mu\u0254\u0254c
+  nh\u00ef\u00efm, \\\"Awek dhi\u00ebnh k\u00e4pi\u025bny! Ye\u014ba l\u00ebk we b\u00e4k
+  kat k\u00ebr\u025b\u025bc b\u0254\u0308? 8Lu\u0254ik\u00eb k\u00e4k ye nyooth l\u0254n
+  c\u00ef wek mu\u0254\u0308l k\u00e4r\u025bc yak\u00eb ke looi. Ku du\u0254\u0308kk\u00eb
+  wepu\u0254\u0308th t\u0254\u014b ku lu\u025blk\u00eb \u0263ok aa m\u00efth Abaram.
+  Al\u025b\u0308k we l\u0254n al\u00ebu Nhialic b\u00ef aleelk\u00e4 c\u0254l aaye
+  m\u00efth Abaram. 9Ku \u00ebm\u00ebn y\u00ebp ac\u00ef ther b\u00ef ke tiim yep,
+  rin na ye tim cie lu\u0254k, ka yep ku cu\u025bt \u00eb m\u025b\u025bc.\\\" 10Go
+  th\u00e4n aw\u00ebn Joon thi\u00eb\u00ebc \u00ebl\u00e4, \\\"Na ye k\u00ebya, buk
+  \u014b\u00f6 looi?\\\" 11Go Joon b\u025b\u0308\u025b\u0308r, \\\"Raan la al\u025b\u0308th
+  karou, adhil t\u00f6k yi\u00ebk raan c\u00efn alath, ku raan la mi\u00ebth adhil
+  looi k\u00ebya.\\\" 12Go k\u0254c aju\u00ebr kut b\u025b\u0308n t\u00ebn\u00eb ye
+  aya b\u00ef ke b\u025b\u0308n mu\u0254\u0254c nh\u00ef\u00efm, ku thi\u00ebck\u00eb,
+  \\\"Raan pi\u00f6\u00f6c buk \u014b\u00f6 looi?\\\" 13Go l\u025b\u0308k ke, \\\"Du\u0254\u0308kk\u00eb
+  w\u00eb\u00ebu ye l\u00f6\u00f6m \u00eb ru\u00eb\u00ebny t\u00ebn\u00eb k\u0254c.\\\"
+  14Go apuruuk b\u025b\u0308n ku thi\u00ebck\u00eb \u00ebl\u00e4, \\\"Na \u0263ook,
+  buk \u014b\u00f6 looi?\\\" Go l\u025b\u0308k ke, \\\"Du\u0254\u0308kk\u00eb k\u0254c
+  ye rum, ku du\u0254\u0308kk\u00eb k\u0254c ye gaany w\u025b\u0308t \u00eb lueth,
+  ku yak\u00eb pu\u0254\u0308th la yum ari\u0254\u0308pdun yic.\\\" 15Go \u014b\u00e4thden
+  j\u00e4l d\u00eft, ku yek\u00eb tak l\u0254n nad\u00eb ke mony ab\u00ef dhi\u025bl
+  a Raan c\u00ef Nhialic l\u0254c ku d\u0254\u0254c. 16Go Joon l\u025b\u0308k ke \u00ebb\u00ebn
+  \u00ebl\u00e4, \\\"Wek aa ya mu\u0254\u0254c nh\u00ef\u00efm p\u00efu \u00eb path,
+  ku raan d\u00eft ku ril ap\u025bi t\u00ebn\u00eb \u0263a ab\u0254\u0308, raan na
+  c\u0254k aa warke ka c\u00e4 l\u00ebu ba ke d\u0254\u0308k. Ku \u00eb yic \u0263\u025bn
+  ac\u00ef\u00ef path ba l\u00ebu, ba ya alu\u0254nyde. Ku yeen ab\u00ef k\u0254c
+  k\u0254\u0308k weyiic mu\u0254\u0254c nh\u00ef\u00efm W\u00ebi Nhialic, ku mu\u0254\u0254c
+  k\u0254c k\u0254\u0308k nh\u00ef\u00efm \u00eb mac. 17Yeen ac\u00eft raan muk l\u0254k
+  k\u00e4m ye rap k\u0254\u0308\u0254\u0308m, b\u00ef rap tek thook kek mi\u00ebl.
+  Ku wiiu rap ku t\u0254\u0308u ke. Ku y\u0254\u0254t mi\u00ebl many cie thou.\\\"
+  18W\u00ebl k\u0254\u0308k c\u00eft k\u00e4kk\u00e4 aac\u00ef Joon l\u025b\u0308k
+  k\u0254c ap\u025bi b\u00ef yen W\u025b\u0308t Pu\u0254th Yam pi\u0254\u0308\u0254\u0308c
+  th\u00efn. 19Ku Joon \u00ebc\u00ef Antip\u00e4th \u0194\u00ebrot, b\u025b\u0308ny
+  Galilia j\u00e4\u00e4m gu\u0254\u0308p k\u00e4r\u025bc ap\u025bi, rin c\u00ef yen
+  \u0194\u00ebrodia ti\u014b w\u00e4m\u00ebnh rum b\u00ef ya ti\u025b\u014bde, ku
+  looi k\u00e4ju\u00ebc r\u025bc k\u0254\u0308k aya. 20Go Antip\u00e4th \u0194\u00ebrot
+  Joon mac, ku k\u00ebn\u00eb \u00eb k\u00ebr\u025b\u025bc d\u025b\u0308t c\u00ef
+  mat k\u00e4racken c\u00ef looi yiic. 21Naw\u00ebn c\u00ef th\u00e4n aw\u00ebn mu\u0254\u0254c
+  nhom \u00ebb\u00ebn, ku Jethu ke c\u00ef mu\u0254\u0254c nhom aya. Kaam w\u00ebn
+  r\u00f6\u00f6k yen ke nhial liep rot. 22Ku b\u0254\u0308 W\u00ebi Nhialic yenhom
+  kec\u00eft kuur \u00eb dit. Ku pi\u014b r\u00f6l Nhialic nhial ke lueel, \\\"Y\u00efn
+  \u00eb manhdi\u025b\u0308n nhiaar. \u0194\u025bn amit pu\u0254\u0308u kek y\u00ef.\\\"
+  23W\u00e4\u00e4r j\u0254\u0254k Jethu pi\u0254\u0308\u0254\u0308cde c\u00f6k, ke
+  ru\u0254\u0308nke aake ye thi\u00e4rdi\u00e4k. Ku \u00eb ye raan \u00ebb\u00ebn
+  tak l\u0254n \u00eb yen w\u00ebn Jothep, w\u00e4\u00e4r w\u00ebn \u0194eli, 24w\u00ebn
+  Mathat, w\u00ebn Leb\u00ef, w\u00ebn Melki, w\u00ebn Janai, w\u00ebn Jothep, 25w\u00ebn
+  Matathia, w\u00ebn Amoth, w\u00ebn Na\u0263um, w\u00ebn Ethli, w\u00ebn Nagai, 26w\u00ebn
+  Manth, w\u00ebn Matathia, w\u00ebn Themein, w\u00ebn Jothek, w\u00ebn Joda, 27w\u00ebn
+  Joanan, w\u00ebn Retha, w\u00ebn Dherubabel, w\u00ebn Cealtiel, w\u00ebn Neri, 28w\u00ebn
+  Melki, w\u00ebn Adi, w\u00ebn Kotham, w\u00ebn Elmadam, w\u00ebn Er, 29w\u00ebn
+  Jocua, w\u00ebn Eliedher, w\u00ebn Jorim, w\u00ebn Mathat, w\u00ebn Leb\u00ef, 30w\u00ebn
+  Thaimon, w\u00ebn Juda, w\u00ebn Jothep, w\u00ebn Jonam, w\u00ebn Eliakim, 31w\u00ebn
+  Meliea, w\u00ebn Mena, w\u00ebn Matatha, w\u00ebn Nathan, w\u00ebn Debit, 32w\u00ebn
+  Jethe, w\u00ebn Obet, w\u00ebn Boath, w\u00ebn Thalmon, w\u00ebn Nacon, 33w\u00ebn
+  Aminadap, w\u00ebn Admin, w\u00ebn Arni, w\u00ebn \u0194edhron, w\u00ebn Peredh,
+  w\u00ebn Juda, 34w\u00ebn Jakop, w\u00ebn Ith\u00e4k, w\u00ebn Abaram, w\u00ebn
+  Tera, w\u00ebn Na\u0263\u00f6r, 35w\u00ebn Theruk, w\u00ebn Reu, w\u00ebn Pelek,
+  w\u00ebn Eber, w\u00ebn Cela, 36w\u00ebn Kainan, w\u00ebn Arpakcat, w\u00ebn Cem,
+  w\u00ebn Noa, w\u00ebn Lamek, 37w\u00ebn Methuthela, w\u00ebn Enok, w\u00ebn Jaret,
+  w\u00ebn Malaleel, w\u00ebn Kenan, 38w\u00ebn Enok, w\u00ebn Theth, w\u00ebn Adam
+  w\u00ebn Nhialic.\"", "\"Ji\u00eb\u00ebm de pi\u0254\u0308u n\u00eb telepuunic n\u00eb
+  ajui\u025b\u0308\u025b\u0308r de w\u025b\u0308\u025b\u0308r (TIS) de thookic\\nAkut
+  de 1800RESPECT al\u00e4\u00e4u en\u0254\u014b kedhi\u025b paan de Australia k\u0254c
+  ci yaa\u014b y\u00f6k n\u00eb bi\u00e4k de rum de di\u00e4\u00e4r ku ku\u0254\u0308c
+  ce\u014b ku t\u0254\u014b baai. K\u0254c c\u00ef pi\u0254\u0308\u0254\u0308c ku
+  c\u00efk luui ar\u00eb\u00ebt aye k\u0254c j\u00e4\u00e4m pi\u0254\u0308\u0254th,
+  n\u00eb w\u00ebl ku kony k\u00eb k\u0254c b\u00efk \u0263\u00e4n ke ku\u0254\u0254ny
+  y\u00f6k n\u00eb ye bi\u00e4k\u00eb. Ajui\u025b\u0308\u025b\u0308r\u00eb at\u0254\u0308
+  n\u00eb th\u025b\u025b yiic kee 24 n\u00eb k\u00f6\u00f6l t\u00f6kic, n\u00eb nin
+  kee dherou n\u00eb wikic.\\nTelepun de w\u025b\u0308\u025b\u0308r de thook ee \u0263\u0254\u0308\u0254\u0308r
+  n\u00eb n\u00efniic kee 7 ku n\u00eb th\u025b\u025b yiic kee 24 (TIS National) at\u0254\u0308
+  ke l\u00e4\u00e4u ke c\u00efn w\u00ebu k\u0254\u0254r ke t\u00eb yup y\u00efn akut
+  de 1800RESPECT.\\nAgo ye k\u00ebn\u00eb juiir:\\nC\u0254l 1800RESPECT n\u00eb 1800
+  737 732 ku thi\u025b\u0308c duw\u00ebr de thok. Duji\u00ebm de pi\u0254\u0308u ab\u00eb
+  ajuiir looi, ka\\nC\u0254l akut de w\u025b\u0308\u025b\u0308r de thook (TIS) n\u00eb
+  131 450 ku thi\u025b\u0308c ke b\u00efk akut de 1800RESPECT k\u0254\u0308\u0254\u0308r
+  y\u00ef.\\nJi\u00eb\u00ebm de pi\u0254\u0308u t\u0254\u0308 online de akut de 1800RESPECT
+  ayen\u00eb jam n\u00eb tho\u014b de de\u014blith.\\nNa n\u0254\u014b k\u00eb n\u00e4k\u00eb
+  ke y\u00ef c\u0254l 000 b\u00eb bolith b\u025b\u0308n.\\nNa k\u0254\u0254r ba yup
+  n\u00eb telepun c\u00efn g\u00e4\u00e4u ke y\u00ef c\u0254\u0308t\u00eb n\u00eb
+  TTY ka n\u00eb National Relay Service, t\u00ef\u014b Calls to emergency services\"",
+  "\"Aluk Akec Mabior\\nAluk Akec Mabior adhi\u00ebth p\u025b\u025bi niin 8, P\u025bn\u00ebrou
+  1994. Yen ee duri\u00e4\u014b de ad\u00ef\u00efrc\u00f6k piny de Pagu\u00f6t Thud\u00e4n
+  k\u00ebdet\u00f6k c\u00ef adiir loi keye lu\u0254i\u00ebci\u025b\u014b ku ye raan
+  t\u00f6\u014b akutam\u00ebtuuk de Al-Merreikh SC Parut de Thud\u00e4nic. Aluk Akec
+  ag\u0254l tuukden n\u00eb lu\u0254i\u00ebci\u025b\u014b adiirc\u00f6k piny de Parut
+  \u00eb Thud\u00e4n ke Pagu\u00f6t Thudan k\u00ebc nh\u00f6ml\u00e4\u00e4u gu\u0254
+  y\u00f6k. N\u00eb 2009, go Aluk dhuk pagu\u00f6t. N\u00eb ru\u0254\u0308n 2012,
+  ka Aluk l\u0254 Salaam Aweil, na ye run 2014 ac\u00ef\u00ef \u0263aac t\u00ebn\u0254\u014b
+  Malakia. \u0194\u0254n tuuk Aluk Juba keye am\u00ebtuuk de Malakia, go aci\u025bthlu\u0254i
+  de adiirc\u00f6k Paguot Thudan detic l\u0254n l\u00ebu yen r\u0254t ku pu\u0254th
+  ap\u025bidit b\u00eb Aluk tuuk kek\u00eb Akutam\u00ebtuuk ad\u00ef\u00efrc\u00f6k
+  wutic de Paguot Thud\u00e4n. Malakia ac\u00eb Aluk b\u025bn \u0263aac t\u00ebn\u0254\u014b
+  Al-Merriekh Kosti de Thud\u00e4n run 2014, ku lek \u0263aac pei t\u00ebn\u0254\u014b
+  Al-Marreikh SC. N\u00eb ye run\u00eb yic 2015, go akutam\u00ebtuuk de Merreikh Omdurman
+  Thud\u00e4n Aluk thany b\u00eb yaa duri\u00e4\u014bden. N\u00eb w\u025b\u025bt aw\u00ebn
+  c\u00ef yen tuuk n\u00eb t\u00eb\u00ebr kaampamaac de Paguot Thud\u00e4nic, go akutnhom
+  ad\u00ef\u00efrc\u00f6k de Parut Thud\u00e4n Aluk p\u025bn tuuk n\u00eb Amatthok
+  Tue\u014b de Thud\u00e4nic a\u0263et t\u00eb ler kek w\u025b\u025bt j\u00e4l kuanyic.\\nAluk
+  Akec ac\u00eb ri\u00e4\u014b tue\u014b kek\u00eb akutam\u00ebtuuk ad\u00ef\u00efrc\u00f6k
+  wutic Paguot de Thud\u00e4n n\u00eb k\u025b\u025bmken kek\u00eb Kenya, Mali, quatorial
+  Guinea ku Mauritania. Aluk Akec ee duri\u00e4\u014b k\u00ebdet\u00f6k de Paguot
+  Thudan c\u00ef yi\u025bk yaar thith n\u00eb Biny de Pinynhom tekmuoocthok de m\u00eb\u00ebnku\u00f6tic
+  [qualifying tournament] l\u0254k de Nouackchott, genamatnhom de Mauritania. N\u00eb
+  p\u025bi niin 4, P\u025bn\u00ebdho\u014buan 2016, Aluk ac\u00ef maat n\u00eb akutam\u00ebtuuk
+  de Paguot Thud\u00e4n c\u00eb r\u0254\u0254m kek\u00eb Equatorial Guinea n\u00eb
+  th\u00f6k \u00eb m\u00eb\u00ebn de Paguot Thud\u00e4n n\u00eb ye run\u00eb yic 2017
+  n\u00eb Biny de Pamaac tekmuoocthok akut C.\"", "\"Amatd\u00eft de Juba (1947)\\nAmatd\u00eft
+  de Juba ee loi n\u00eb P\u025bn\u00ebdhetem 1947. Amatd\u00eft ee cen\u00eb k\u0254c
+  ke miir\u00eb de De\u014blith ku k\u0254c ke Miir\u00eb de Thudan k\u0254c kuany
+  t\u00eb de amat b\u00efk l\u0254 looi kal de Juba. Paanthiin n\u0254\u014b genamatnhom
+  de Pawut de Ekuatoria Piny Ci\u025b\u025bm de Thudan (ku n\u00eb ye k\u00f6\u00f6l\u00eb
+  ke yen\u00eb ke Genamatnhom de miir\u00ebd\u00eft de Piny Ci\u025b\u025bm de Thudun).\\nGo
+  Miir\u00eb de De\u014blith amatd\u00eft juiir b\u00eb k\u0254c ke piny parut ku
+  piny paguot de Thudan mat yiic \u00ebke ye Pamac T\u00f6\u014b. Agut c\u00eb ye
+  t\u00ebn\u00eb, ke piinyk\u025b\u0308 keerou aake macke n\u00eb ri\u025bl de al\u025bi
+  de miir\u00eb de k\u0254c ke De\u014blith. N\u00eb\u014b\u00f6 thooken, nhi\u025b\u0308liicken
+  ku ciee\u014bken aake w\u00e4\u00e4c. K\u0254c ke piny parut de Thudan aakee c\u00eb
+  wel b\u00efk yaa luui n\u00eb lu\u0254\u0254i de Laraab ku keek aake c\u00eb pi\u00f6c
+  n\u00eb m\u00e4ny de baai ku j\u0254l yaa ji\u025b\u025bk d\u00eft w\u025b\u0308\u025b\u0308r
+  kek k\u0254c ke piny paguot de Thudan. K\u0254c ke piny parut aake ye Yith\u00eblam
+  gam ku y\u00efke door, keek aake c\u00eb pi\u00f6c ar\u00ebtic. Ku k\u00eb t\u0254\u0308
+  th\u00efn, k\u0254c ke piny paguot de Thudan aake ye ku\u025b\u025bt ye ke c\u0254\u0254l
+  Nilotiik, aakee ye Nhialic door n\u00eb dh\u00f6l de K\u00ebr\u00ebthanu\u0254\u0254i
+  matk\u00eb ken\u00eb du\u0254\u0308\u0254\u0308r de jak th\u025b\u025br ke kuarken
+  y\u00efk\u00eb keek gam. Ku pi\u00f6c de ji\u025b\u025bk de ka ke p\u00ef\u00efr
+  de baai ee k\u00ebn\u00eb juiir c\u00eft k\u0254c ke piny parut de Thudan.\\nYet\u025b\u0308n,
+  ac\u00ef\u00ef Amatd\u00eft de Juba gam lan ben\u00eb piny parut ku piny paguot
+  de Paan de Thudan yaa pamac n\u00eb ri\u025bl t\u00f6k ku \u0263\u00f6nt\u00f6\u014bd\u00ef\u00eft
+  de Amat mat ke nh\u00ef\u00efm. Ku k\u00eb t\u0254\u0308 th\u00efn, k\u0254c \u00ebke
+  t\u0254\u0308 \u0263\u00f6n de amat ke piny paguot de Thudan aake n\u0254\u014b
+  di\u025bu n\u00eb ka c\u00eb gam n\u00eb amatic. N\u00eb\u014b\u00f6 paanden ee
+  t\u0254\u0308 t\u00eb ni\u0254p ee k\u00ebn\u00eb pi\u00f6c th\u00efn ku n\u00eb
+  ju\u025b\u0308\u025b\u0308r de m\u00e4ny de baai.\\nN\u00eb yic, di\u025buden ee
+  b\u025b\u0308n deetic \u0263\u0254n ji\u025b\u0308l\u00eb k\u0254c ke Miir\u00eb
+  de De\u014blith n\u00eb th\u00f6c ke m\u00e4ny de baai keebu\u0254t keeb\u025b\u0308t
+  800 nh\u00ef\u00efm ke ye aju\u025b\u025br de m\u00e4ny de r\u00f6t \u201cmac r\u00f6t\u201d
+  de k\u0254c ke Thudan, kaa ye th\u00f6c kee\u014buan 4 abac ke miir\u00eb kee kaa
+  b\u025b\u0308n l\u0254 t\u00ebn\u0254\u014b k\u0254c ke piny paguot de Thudan. Yeken\u00eb
+  \u0263\u0254n len\u00eb ye jaamic k\u00eb b\u00eb yaa juiir de pamac de Thudan looi
+  yad\u025b\u0308, ke madiriyaai aake c\u00eb ny\u00e4\u00e4\u014b wei n\u00eb ajui\u025b\u025bric.\\nKu
+  ye lu\u0254\u0254i\u00eb ak\u00ebn b\u025b\u0308n piath, yen\u00eb kee c\u00eb t\u0254\u014b
+  Tuee\u014b ku de Rou b\u025b\u0308n b\u025b\u0308i n\u00eb k\u025bm ke k\u0254c
+  ke Thudan, yen ka j\u0254l k\u0254c ke Piny Ci\u025b\u025bm r\u00f6t week \u00ebke
+  ye baai Paan de k\u0254c Ci\u025b\u025bm de Thudan n\u00eb run de bi\u00e4nabuur
+  rou ku thi\u025b\u0308\u025b\u0308r ku t\u00f6k 2011.\"", "\"Di\u00e4k\\nDi\u00e4k:
+  3. Ac\u00efnic, ac\u00efnic. T\u00f6k, t\u00f6k. Rou, rou. Di\u00e4k, di\u00e4k.
+  Thu\u0254\u014bj\u00e4\u014b Dictionary ac\u00efnic t\u00f6k rou di\u00e4k\\nLotje
+  van der Bie\\nLotje van der Bie ake \u014ba? Lotje van der Bie ake raan. Yen ake
+  ti\u025b\u014b. Ap\u00efr de. Ak\u00f6l yom dhi\u00ebth de\\nFrans-Willem van Gils\\nFrans-Willem
+  van Gils ake \u014ba? Frans-Willem van Gils ake raan. Yen ake mi\u0254ny. Ap\u00efr
+  de. Ak\u00f6l yom d\\nThird Person Singular Pronoun Thu\u0254\u014bj\u00e4\u014b
+  \\\"Ye\\\"\\nAlexandria, Cape Town ku Douala. Thu\u0254\u014bj\u00e4\u014b-English
+  Exercise What is \u0263a in English? _____________ Wha\\nLuis Reyes Pe\u00f1aranda\\nLuis
+  Reyes Pe\u00f1aranda ake \u014ba? Luis Reyes Pe\u00f1aranda ake raan. Yen ake mi\u0254ny.
+  Ap\u00efr de. Ak\u00f6l yom dhi\"", "\"Awu\u00f6c yam \u00eb n\u00e4k raan t\u00ebn
+  lu\u0254i ac\u00ef luel th\u00efn l\u00f6\u00f6\u014b pialw\u00ebi t\u00ebn lu\u0254i
+  ku c\u00efn k\u00ebrac tuul w\u00ebi yic.\\nAwu\u00f6c ac\u00ef looi t\u00ebn ku\u00f6c
+  lu\u0254i ye akutnhom lui ted\u00e4 agui\u025br muk loiloi c\u00efm\u025bn c\u00ef
+  yen luel piny, ted\u00e4 ke b\u00ebny \u00eb akutnhom lu\u0254i, w\u00ebn c\u00ef
+  kuat loiloi tem k\u0254\u0308\u0254\u0308th ye dh\u00f6l pialw\u00ebi t\u00ebn lu\u0254i
+  ku c\u00ebn k\u00ebrac Looi 2004 (OHS Act) ku ac\u00ef thu\u0254u looi t\u00ebn
+  raan w\u00ebn lui \u00eb lu\u0254ide.\\nG\u025bm n\u00e4k raan t\u00ebn lu\u0254i
+  ac\u00ef b\u00ef looi dhukci\u00ebn n\u00e4k th\u025b\u025bric. K\u00ebn w\u00ebtde
+  yic l\u0254n b\u00ef thu\u0254\u0308u w\u00ebn looi rot ak\u00f6ln\u00efn 1 Ak\u00f6ld\u00eft
+  2020 c\u00f6kc\u00ef\u00ebn yen al\u00ebu b\u00ef gam.\\nL\u00f6\u00f6\u014b yam
+  k\u00ebn aloi b\u00ef thu\u0254u g\u00ebl t\u00ebn lu\u0254i, g\u025bm ke ri\u00e4c
+  ril ap\u025bi t\u00ebn akutnh\u00ef\u00efm muk lu\u0254i b\u00ef dhi\u025bl lui
+  ku theek k\u00ef\u00ef pialw\u00ebi d\u025b\u025bn t\u00ebn lu\u0254i ku k\u00e4k
+  w\u00efc b\u00efk c\u00ebn k\u00ebrac eb\u00ebn, ku toc w\u00ebt ril ap\u025bi l\u0254n
+  t\u025b\u0308\u025b\u0308u ke p\u00ef\u00efr k\u0254c t\u00ebw\u00ebn rac th\u00efn
+  t\u00ebn lu\u0254i ac\u00ef b\u025b\u0308 ya k\u0254\u014b gum c\u00efn.\\nW\u025b\u0308\u025b\u0308r
+  yic eb\u00ebn aci\u00eb loiloi k\u00f6k b\u025b\u0308\u025b\u0308 juak/cak th\u00efn;
+  keek ab\u00ef dukuma rilic ap\u025bi looi t\u00ebn loiloi r\u00eb\u00ebr t\u0254\u0308th\u00efn
+  alu\u00f6t ye dh\u00f6l ee OHS Act. C\u00eftm\u025bn c\u00ef l\u00f6\u00f6\u014b
+  em\u025bn yen gam eb\u00ebn, akutnhiim lui ku agui\u025br muk loiloi k\u00f6k adhil
+  k\u0254\u0308\u0254\u0308c b\u00ef ya taak al\u0254\u014b k\u00e4k ri\u00f6c w\u00ebn
+  luth\u00efn lu\u0254i \u00eb t\u00ebj\u00e4ri\u025b denic, ku ye\u014b\u00f6 k\u00e4\u00e4th
+  l\u00ebu b\u00efk kek l\u0254\u0308\u0254\u0308m b\u025b\u0308 ke k\u00e4k ri\u00f6ck\u00eb
+  nyai eb\u00ebn.\\nNa y\u00efn atheek gaanun ku\u0254\u0308n loiloi OHS, y\u00efn
+  aloi ked\u00e4\u014b w\u00ebn yic ku y\u00efn c\u00ef w\u00efc ba keda\u014b w\u00ebn
+  looi arote t\u00ebn Ak\u00f6ln\u00efn 1 Bild\u00eft. Na y\u00efn ak\u00ebc l\u00f6\u014b
+  theekic, ke k\u00e4\u00e4\u014b b\u00ef r\u00f6t looi t\u00ebn l\u0254n k\u00ebc
+  y\u00ef tak al\u0254\u014b k\u00ebr\u025bc w\u00ebn ri\u00f6c al\u00ebu b\u025b\u0308
+  ya ked\u00eft rac ap\u025bi.\\nK\u00e4k \u00eb awu\u00f6c \u00eb n\u00e4k raan t\u00ebn
+  lu\u0254i\\nK\u00e4k \u00eb awu\u00f6c yam n\u00e4k raan t\u00ebn lu\u0254i aye:\\n-
+  raan l\u00ebu b\u00ef kuum adh\u00efl akutnhom ted\u00e4 ke raan w\u00ebn k\u00ebc
+  lu\u00f6i ted\u00e4 raan rot juar b\u025b\u0308 lui ab\u025bc;\\n- keek adh\u00efl
+  na\u014b ked\u00e4\u014b t\u00f6k t\u00ebn aba\u014b ek\u00ebd\u00ef ye k\u00e4\u00e4\u014b
+  lu\u0254i n\u00eb dh\u00f6l ye OHS Act\\n- keek ac\u00ef lu\u0254i ked\u00e4\u014b
+  tem-k\u0254\u0308u ye ku\u00f6c lu\u0254i\\n- t\u00ebm-k\u0254\u0308u \u00eb lu\u0254i
+  yen c\u00ef thu\u0254u looi \u00eb t\u00ebn raan, ku\\n- na raan c\u00ef kuum ee
+  raan th\u025b\u025br ka keek adhil na\u014b lu\u0254i apath ku juarke w\u00ebn c\u00ef
+  lu\u0254i tem-k\u00f6u.\\nYe\u014ba al\u00ebu b\u00ef kum n\u00e4k raan t\u00ebn
+  lu\u0254i?\\nAkutnh\u00ef\u00efm lui eb\u00ebn ku k\u0254c c\u00ef r\u00f6t lu\u00f6i
+  ar\u00f6tden\\nAkutnh\u00ef\u00efm lui ku k\u0254c c\u00ef r\u00f6t lu\u00f6i arotden
+  w\u00ebn muk loiloi \u014bic ye dh\u00f6l OHS Act (c\u00efm\u025bn c\u00ef yen luel
+  piny) al\u00ebu b\u025b\u0308 kuum ye w\u00ebt awu\u00f6c \u00eb n\u00e4k raan t\u00ebn
+  lu\u0254i. Akutnh\u00ef\u00efm lui an\u0254\u014b yic:\\n- akutnh\u00ef\u00efm luoi
+  (c\u0254l nyu\u0254th, akutnh\u00ef\u00efm loiloi c\u00ef g\u00e4t-piny)\\n- akut
+  amaatnh\u00ef\u00efm\\n- akutnh\u00ef\u00efm l\u00f6\u00f6\u014b\\n- akut \u00eb
+  lu\u0254i akutnhiim\\n- akutnhiim c\u00efn luoi l\u00f6\u00f6\u014b (unincorporated
+  bodies) ku amaatnh\u00ef\u00efm c\u00ef looi l\u00f6\u00f6\u014b (unincorporated
+  associations)\\n- akutnh\u00ef\u00efm r\u0254\u0254m lu\u0254i (partnerships)\\n-
+  akutnh\u00ef\u00efm lu\u0254i akuma (government entities).\\nB\u00e4\u00e4ny\\nB\u00e4\u00e4ny
+  \u00eb akutnhom lu\u0254i l\u00f6\u00f6\u014b, akutnh\u00ef\u00efm r\u0254\u0254m
+  lu\u0254i, ku akutnh\u00ef\u00efm c\u00efn lu\u0254i l\u00f6\u00f6\u014b ted\u00e4
+  amaatnh\u00ef\u00efm c\u00ef looi l\u00f6\u00f6\u014b eb\u00ebn al\u00ebu b\u00eb
+  kum w\u00ebt awu\u00f6c \u00eb n\u00e4k raan t\u00ebn lu\u0254i t\u00ebna akutnhomden
+  amuk loiloi w\u00ebn \u014bic ye dh\u00f6l lu\u0254i ee OHS Act.\\nB\u00e4\u00e4ny
+  aye k\u0254c w\u00ebn t\u0254\u0308\u0254\u0308u nhiaal \u00eb lu\u0254i akutnhom
+  yic, keek an\u0254\u014b ri\u025bl ap\u025bi ku k\u00e4\u00e4\u014b w\u00ebn b\u025b\u0308\u025b\u0308
+  pialw\u00ebi juakic, c\u00efm\u025bn:\\n- b\u00ebnyd\u00eft ted\u00e4 b\u00ebny
+  g\u00e4\u00e4t \u00eb akutnhom\\n- raan:\\n- w\u00ebn k\u00e4\u00e4\u014b looi,
+  ted\u00e4 m\u025b\u025bt rot th\u00efn lu\u0254i, t\u025b\u0308kt\u025b\u0308k eb\u00ebn
+  w\u00ebn j\u0254\u0308\u0254\u0308r ked\u00e4\u014b eb\u00ebn, ted\u00e4 ke aba\u014b
+  \u00eb lu\u0254i tej\u00e4ri\u025b; ted\u00e4\\n- w\u00ebn n\u0254\u014b ri\u025bl
+  b\u00eb akutnhom c\u0254\u0254l aj\u0254\u0308\u0254\u0308r luoi ap\u025bi n\u00eb
+  aba\u014b w\u00ebu; ted\u00e4\\n- th\u00efn ka th\u00f6\u00f6\u014b ke k\u00e4\u00e4\u014b
+  ye\u014b\u00e4 c\u00ef luel ka nyuuth eb\u00ebn ted\u00e4 k\u00e4k g\u0254\u0308\u0254\u0308r
+  b\u00e4\u00e4nyd\u00eft \u00eb akutnhom ac\u00ef looi ke l\u00f6\u00f6\u014b\\n-
+  raan th\u00efn amaatnhom yic (a partner in a partnership)\\n- raan muk m\u00e4kt\u00e4b
+  \u00eb amaatnhom c\u00ef looi l\u00f6\u00f6\u014b (an unincorporated association).\\nK\u0254c
+  lu\u0254i ku k\u0254c lui apath\\nAwu\u00f6c \u00eb n\u00e4k raan t\u00ebn lu\u0254i
+  ak\u00ebc luoi t\u00ebn raan lui apath ted\u00e4 ke raan lui w\u00ebu, al\u00ebu
+  b\u00ef t\u00ebw\u00ebn aye raan lui w\u00ebu ee b\u00ebny \u00eb akutnhom eya.\\nKeya,
+  ke raan lui al\u00ebu b\u025b\u0308 kuum t\u00ebn t\u00ebw-k\u0254\u0308u loiloi
+  luthin dh\u00f6l ye OHS Act, w\u00ebn na\u014b yic lu\u0254i:\\n- t\u00ebn b\u00efn
+  \u014b\u00efc muk apiath looi t\u00ebn pialw\u00ebi ku c\u00efn k\u00ebracden, ku
+  pialw\u00ebi ku c\u00efn k\u00ebrac \u00eb t\u00ebn k\u0254c k\u00f6k luth\u00efn
+  ye \u0263\u00e4\u00e4n lu\u0254i yic\\n- m\u00e4\u00e4t kek akutnhom luiden rin
+  loiloi ye akutnhom lui l\u0254\u0308\u0254\u0308m eb\u00ebn b\u025b\u0308 gam l\u00f6\u00f6\u014b
+  \u00eb OHS\\n- ac\u00ef\u00eb l\u00ebu ba d\u00ef\u00efk lu\u0254i ted\u00e4 ku\u00f6c
+  la thuur th\u00efn ked\u00e4\u014bic ted\u00e4 ked\u00e4\u014b ku\u00f6c lu\u0254i
+  w\u00ebn g\u025bm t\u00ebn lu\u0254i b\u00efn ku\u0254ny pialw\u00ebi, c\u00efn
+  k\u00ebrac ku p\u00ef\u00efr apath\\n- du kuc rot maat th\u00efn lu\u0254i w\u00ebn
+  dhil b\u025b\u0308 raand\u025b\u0308t t\u0254\u0308th\u00efn lu\u0254i yic la t\u00e4u
+  \u00eb tet\u00f6k r\u025bcd\u00eft ap\u025bi.\\nL\u00f6\u00f6\u014b loiloi OHS l\u00e4c\u00f6k
+  ku k\u0254c muk lu\u0254i\\nN\u00e4k raan t\u00ebn lu\u0254i alui t\u00ebw\u00ebn
+  c\u00ef t\u00ebm-k\u00f6u \u00eb loiloi w\u00ebn \u014bic n\u00eb dh\u00f6l ye lu\u0254i
+  OHS Act. L\u00f6\u00f6\u014b eb\u00ebn ak\u00ebc ay\u00ef loiloi yam cak n\u00eb
+  dh\u00f6l \u0263e OHS Act.\\nAkutnh\u00ef\u00efm lui, b\u00e4\u00e4ny lu\u0254i
+  ku akutnh\u00ef\u00efm k\u00f6k w\u00ebn theek k\u00e4\u00e4\u014b th\u025b\u025br
+  ku ala tue\u014b kek ath\u025b\u0308\u025b\u0308k, k\u00e4kken luth\u00efn OHS ac\u00ef
+  l\u00ebu b\u00eb ke kum ye n\u00e4k raan t\u00ebn lu\u0254i. Ked\u00e4\u014b ye
+  l\u00f6\u00f6\u014b yam looi ee k\u00e4k w\u00ebn c\u00ef tem-k\u0254\u0308\u0254\u0308th
+  \u00eb loiloi dhi\u025bl looi b\u00efk yic r\u00eb\u00ebc ap\u025bid\u00eft.\\nLoiloi
+  lac\u00f6k luth\u00efn an\u0254\u014bic:\\n- lu\u0254i \u00eb akutnh\u00ef\u00efm
+  lui b\u00efk g\u025bm ku guirk\u00eb t\u00ebn lu\u0254i t\u00eb k\u0254c lui w\u00ebn
+  yen piath ku ac\u00efn k\u00ebrac t\u00ebn pialw\u00ebi\\n- lu\u0254i \u00eb akutnh\u00ef\u00efm
+  lui b\u00efk dai ye pialw\u00ebi \u00eb k\u0254c c\u00ef lu\u00f6i ku k\u00e4k j\u0254\u0308\u0254\u0308r
+  lu\u0254i yic eb\u00ebn\\n- lu\u0254i \u00eb akutnh\u00ef\u00efm lui b\u00efk nyu\u0254th
+  k\u0254c k\u00f6k t\u00ebn k\u0254c lui ac\u00efn k\u00ebrac ye lu\u0254i \u00eb
+  t\u00ebj\u00e4ri\u025b yic (agut k\u0254c b\u025b\u0308n neem eb\u00ebn, j\u00e4\u00e4\u014b
+  ku k\u0254c k\u00f6k lu\u0254i eb\u00ebn)\\n- lu\u0254i \u00eb k\u0254c c\u00ef
+  r\u00f6t lu\u00f6i ar\u00f6tden ab\u00efk nyu\u0254th l\u0254n k\u0254c ak\u00ebc
+  thi\u00e4k ke t\u00ebn k\u00e4k ri\u00f6c OHS t\u00ebn k\u00ebd\u025bn looi k\u00ef\u00ef\\n-
+  lu\u0254i \u00eb k\u0254c kek muk agui\u025br lu\u0254i ted\u00e4 g\u00ebl \u00eb
+  \u0263\u00e4\u00e4n lu\u0254i b\u00efk nyu\u0254th l\u0254n t\u00ebn lu\u0254i ku
+  dh\u00f6l \u00eb lath\u00efn ku j\u00e4l aa pu\u0254l\\n- lu\u0254i \u00eb akutnh\u00ef\u00efm
+  gi\u00ebt b\u00efk nyu\u0254th agui\u025br/tiim, ku buuth eb\u00ebn ku cu\u00eb\u00ebc
+  eb\u00ebn ye looi t\u00ebn \u0263\u00e4\u00e4n lu\u0254i, ac\u00ef \u014bi\u00ebc
+  giit apiath ar\u00ebtic\\n- lu\u0254i \u00eb akutnh\u00ef\u00efm cerkaat ku agui\u025br
+  k\u00e4\u00e4\u014b b\u00ebi b\u00efk looi agui\u025br teda waal eb\u00ebn ac\u00ef
+  \u014bi\u00ebc looi apath ap\u025bid\u00eft ku api\u0254l b\u025b\u0308 ked\u00e4\u014b
+  looi kek\\n- lu\u0254i \u00eb raan aci\u00eb ku\u00f6c lu\u0254i th\u00efn w\u00ebn
+  dhil b\u025b\u0308 raand\u025b\u0308t t\u00ebn lu\u0254i cu\u0254k th\u00efn \u00eb
+  k\u00ebrac/yi\u00ebk tet\u00f6k rac ap\u025bid\u00eft.\\nT\u00f6k \u00eb loiloi
+  k\u00e4k aw\u00efc raan muk-luoi b\u00ef lu\u0254i dhi\u025bl lu\u0254i keya tetui
+  adhil b\u025b\u0308 \u014bi\u00ebc lu\u0254i piath.\\nW\u00ebl k\u00f6k al\u0254\u014b
+  loiloi k\u00e4k aluth\u00efn ye w\u025bbthi\u00e4t ee WorkSafe.\\nKu\u00f6c lu\u0254i\\nT\u00ebn
+  lu\u0254i \u00eb n\u00e4k raan t\u00ebn lu\u0254i, lu\u0254i ab\u00ef dhil gam ke
+  ''ku\u00f6c'' t\u00ebna yen ac\u00ef m\u00e4\u00e4tic:\\n- l\u00f6\u00f6nyd\u00eft
+  \u00eb lu\u0254i \u00eb \u014bi\u00ebc muk w\u00ebn l\u00ebu b\u00ef raan l\u0254\u0308\u0254\u0308m
+  n\u00eb lu\u0254i th\u00efn k\u00e4\u00e4\u014b looi yic, ku\\n- ri\u00f6cd\u00eft
+  \u00eb thu\u0254u, tet\u00f6k rac ap\u025bi ted\u00e4 tuany rac ap\u025bid\u00eft.\\nKu\u00f6c
+  lu\u0254i eya an\u0254\u014bic l\u0254n k\u00ebc y\u00ef rot lac weel ba ked\u00e4\u014b
+  looi (ee \u2018nyi\u00eb\u014b th\u00efn\u2019), t\u00ebn nyu\u0254th yen adh\u00efl
+  b\u00ef ked\u00e4\u014b maat l\u0254n ye n\u025bn k\u00eb raan:\\n- k\u00ebd\u00e4\u014b
+  ci\u00eb \u014b\u00efc looi, g\u00ebl ted\u00e4 tiit k\u0254cken lu\u0254i eb\u00ebn,
+  ted\u00e4\\n- lu\u0254i lac\u00f6k l\u0254\u0308\u0254\u0308m b\u025bn ked\u00e4\u014b
+  j\u0254\u0308\u0254\u0308r c\u00f6kpiny, t\u00ebw\u00ebn k\u00ebc yen looi keya
+  th\u00efn al\u00ebu b\u00ef ri\u00f6cd\u00eft \u00eb thu\u0254u looi,tet\u00f6k
+  rac ap\u025bi ku tuany rac ap\u025b\u0308id\u00eft.\\nAth\u00ebm ac\u00ef looi t\u00ebn
+  ath\u00ebm l\u00f6\u00f6\u014b luth\u00efn alu\u00f6t t\u00eb awu\u00f6c ku\u00f6c
+  lu\u0254i th\u00efn Victoria ku k\u00ebd\u00e4\u014b lac\u00f6k ap\u025bid\u00eft
+  buk kuum/karama ju\u00e4c dhi\u025bl looi t\u00ebn awu\u00f6c ya.\\nT\u00e4\u00e4muu\\nLu\u0254i
+  \u00eb akutnhiim ted\u00e4 raan c\u00ef kuum k\u00ebn n\u00e4k raan t\u00ebn lu\u0254i
+  adh\u00efl b\u00ef na\u014b l\u0254n c\u00ebn thu\u0254u \u00eb raan looi.\\nYen
+  ee looi l\u0254n ath\u00ebm l\u00f6\u00f6\u014b luth\u00efn aluot ac\u00ef looi
+  t\u00ebn t\u00e4\u00e4muu. K\u00ebn w\u00ebtde l\u0254n luoi ted\u00e4 nyi\u00eb\u014b
+  w\u00ebi eb\u00ebn \u00eb raan c\u00ef kuum adhil na\u014b k\u00ebril looi t\u00ebn
+  th\u0254\u0308u ted\u00e4 na\u014b lu\u0254ide ku aguir \u00eb yen looi. Yen ee
+  aci\u00eb k\u00ebril ba l\u00f6\u00f6\u014b k\u00ebn g\u0254\u0254l lu\u0254i ted\u00e4
+  ny\u00e4\u00e4\u014b \u00eb raan c\u00ef kuum wei k\u00eb yen ked\u00e4\u014b looi
+  \u00eb thon raan. Lu\u0254i adhil b\u00ef c\u00eftm\u025bn l\u0254n raan apath ab\u00ef
+  yen muk, w\u00ebt lu\u0254i \u00eb \u014bi\u00ebc t\u025b\u0308k, b\u025b\u0308
+  th\u0254u \u00eb raan looi.\\nN\u00e4k raan t\u00ebn lu\u0254i adh\u00efl b\u00ef
+  looi t\u00ebw\u00ebn c\u00ef th\u0254u \u00eb raan rot looi th\u025b\u025br ci\u00ebn
+  lu\u0254i lac\u00f6k yic, c\u0254\u0254l nyu\u0254th, t\u00ebw\u00ebn c\u00ef raan
+  lui ac\u00ef tuany tet\u00f6k d\u0254m ruun lu\u0254i c\u00f6k ci\u00ebn t\u00ebw\u00ebn
+  c\u00ef akutnhom lui ku\u00f6c looi keek lua\u014b ye tuany ec\u0254l asbestos.\\nKarama
+  eb\u00ebn\\nNa kuum \u00eb n\u00e4k raan t\u00ebn lu\u0254i, ke karama bi\u0254th
+  k\u0254\u0308\u0254\u0308th p\u00efny ka looi (c\u00efm\u025bn ak\u00f6ln\u00efn
+  1 Bild\u00eft 2020):\\n- ak\u00e4rd\u00eft \u00eb 25 ruun m\u025b\u0308\u025b\u0308c
+  t\u00ebn k\u0254c; ku\\n- akaramad\u00eft \u00eb $16.5 million t\u00ebn akutnh\u00ef\u00efm
+  lu\u0254i.\\nKarama k\u00e4k ab\u00ef r\u025bcr\u025bc \u00eb awu\u00f6c nyu\u0254th
+  ku ac\u00ef guir b\u00efk k\u0254c kony g\u00ebl thu\u0254u t\u00ebn lu\u0254i ye
+  ci\u025b\u0308k ker\u00efl ri\u00f6c t\u00ebn akutnh\u00ef\u00efm lui ku b\u00e4\u00e4ny
+  lu\u0254i t\u00ebn t\u00ebm-k\u00f6u l\u00f6\u00f6\u014b pialw\u00ebi ku c\u00efn
+  k\u00ebrac t\u00ebn loiloi ek\u00ef\u00ef looi eb\u00ebn.\\nG\u0254\u0308\u0254\u0308r
+  w\u00ebt c\u00f6k ku lu\u0254i gaanun\\nC\u00eftm\u025bn na\u014b y\u00ef t\u00ebm-kou
+  d\u025b\u0308\u025b\u0308t l\u00f6\u00f6\u014b \u00eb OHS Act, WorkSafe ab\u00ef
+  \u014b\u00f6\u00f6r g\u0254\u0308\u0254\u0308r w\u00ebl c\u00f6k t\u00eb awu\u00f6c
+  n\u00e4k raan t\u00ebn lu\u0254i.\\nBu\u0254th c\u00f6k lu\u0254i k\u00ebr\u025bcd\u00eft
+  c\u00ef rot looi t\u00eb lu\u0254i ku alui ke agui\u025br t\u0254\u0308th\u00efn
+  aluot eb\u00ebn, WorkSafe ku Bol\u00efth Victoria ab\u00ef lui tet\u00f6k b\u00efk
+  nyu\u0254th l\u0254n k\u00e4\u00e4\u014b eb\u00ebn yen nyoth ee c\u00ef looi ku
+  aba\u014b lu\u0254i ee k\u00ebn piath ap\u025bi ku k\u00e4k ri\u00f6c t\u00ebn pialw\u00ebi
+  \u00eb k\u0254c at\u0254\u0308\u0254\u0308u ted\u00e4 c\u00eftm\u025bn ka b\u00ef
+  b\u025b\u0308n et\u00e4n.\\nTh\u00efn abeeric em\u025bn agui\u025br k\u00e4k yic
+  eb\u00ebn, WorkSafe ab\u00ef n\u025b\u014b mu\u00f6k \u00eb n\u00e4k raan t\u00ebn
+  lu\u0254i agut t\u00ebn b\u00ef raan c\u00ef t\u00e4\u00e4muu n\u0254\u014b leer
+  t\u00ebn luk. M\u00e4kt\u00e4m \u00eb dukuum j\u00e4\u00e4\u014b eb\u00ebn ab\u00ef
+  lu\u0254i k\u00ebn l\u0254\u0308\u0254\u0308m b\u025b\u0308 \u0263\u00e4\u00e4th
+  lukic.\\nN\u00e4k raan t\u00ebn lu\u0254i ee awu\u00f6c kuum ku ac\u00efn kaam l\u00f6\u00f6\u014b
+  w\u00ebn luel. Yen ac\u00ef\u00eb p\u00ef\u014b ku luoi d\u025b\u0308\u025b\u0308tic
+  w\u00ebl c\u00ef puoc yic (in the Magistrates\u2019 Court of Victoria).\\nT\u00ebn
+  g\u0254\u0308r yi w\u00ebl al\u0254\u014b WorkSafe investigations ee ke luth\u00efn
+  ye w\u025bbthiat n\u00eb WorkSafe website.\"", "\"8\\nThaany \u00eb dhorou\\n1 Naw\u00ebn
+  \u014bany Manh Am\u00e4\u00e4l thaany \u00eb dhorou thok, kam w\u00ebn ke piny la
+  bit t\u025b\u0308thin-ny\u0254\u0254t koor.\\n2 Ku ti\u025b\u0308\u014b atuuc kadhorou
+  ke k\u00e4\u00e4c Nhialic nhom ku \u014b\u025bk ke c\u00ef yi\u00ebk ka\u014b.\\n3
+  Ku b\u0254\u0308 atuny d\u025b\u0308t, ku k\u025b\u0308\u025b\u0308c ari\u00e4k
+  l\u0254\u0308\u0254\u0308m ke muk k\u00eb ye ad\u00f6\u014b \u014b\u00efr took th\u00efn
+  c\u00ef looi m\u00efl\u00e4\u014b t\u0254\u0308c. Ku yeen \u00ebc\u00ef g\u00e4m
+  ad\u0254\u0308k ju\u00ebc \u014b\u00efr ap\u025bi, b\u00ef ke juaar kek r\u00f6\u00f6k
+  k\u0254c \u00eb Nhialic ari\u00e4k c\u00ef looi m\u00efl\u00e4\u014b t\u0254\u0308c
+  nhom, r\u025b\u0308\u025b\u0308r \u00eb th\u00f6\u00f6c l\u0254\u0308\u0254\u0308m.\\n4
+  Ku la tol ad\u00f6\u014b \u014b\u00efr c\u00ef took nhial, kek r\u00f6\u00f6k k\u0254c
+  \u00eb Nhialic muk atuny nhial k\u00e4\u00e4c Nhialic nhom.\\n5 Go atuny k\u00eb
+  ye ad\u00f6k took th\u00efn l\u00f6\u00f6m, ku mu\u0254\u0254c yic many r\u025b\u0308\u025b\u0308r
+  ari\u00e4k nhom ku cu\u025bt piny. Ku pi\u014b k\u00eb c\u00eft m\u00e4r \u00eb
+  de\u014b ku bir, ku loi ayi\u025b\u0308\u025b\u0308kyi\u025b\u0308\u025b\u0308k
+  rot.\\nK\u025b\u014b\\n6 Go atuuc kadhorou la k\u025b\u014b kadhorou r\u00f6t guiir
+  b\u00efk ke kooth.\\n7 Go atuny tue\u014b ka\u014bde kooth yic, go ya g\u0254i ku
+  many c\u00ef li\u00e4\u00e4p kek ri\u025bm kek l\u00f6\u00f6ny pinynhom. Go mac
+  t\u00f6\u00f6\u014b \u00eb di\u00e4k tiim ku wal c\u00ef cil pinynhom nyop.\\n8
+  Go atuny \u00eb rou ka\u014bde kooth yic, go ya k\u00ebd\u00ef\u00eft c\u00eft kuur
+  \u00eb mac yen piir rot ad\u025b\u0308kdi\u025b\u025bt yic. Go t\u00f6\u00f6\u014b
+  \u00eb di\u00e4k rot waar b\u00ef ya ri\u025bm.\\n9 Go t\u00f6\u00f6\u014b \u00eb
+  di\u00e4k k\u00e4k p\u00efr ad\u025b\u0308kdi\u025b\u025bt thou, ku r\u025bc t\u00f6\u00f6\u014b
+  \u00eb di\u00e4k ri\u00ebth.\\n10 Ku koth atuny \u00eb di\u00e4k ka\u014bde. Go
+  ya kueld\u00eft ap\u025bi d\u025b\u0308p yen l\u00f6\u00f6ny t\u00f6\u00f6\u014b
+  \u00eb di\u00e4k w\u00ebr ku ny\u00efn p\u00efu ye dek yiic.\\n11 Ku rin \u00eb
+  kuel k\u00ebn\u00eb ac\u0254l k\u00ebkec \u0263\u0254r. Go p\u00efu r\u00f6t wel
+  b\u00efk k\u025bc, ku k\u0254c ju\u00ebc ke c\u00ef dek th\u00efn aac\u00ef b\u025b\u0308n
+  thou rin c\u00ef p\u00efu k\u025bc.\\n12 Go atuny \u00eb \u014buan ka\u014bde kooth.
+  Go t\u00f6\u00f6\u014b \u00eb di\u00e4k ak\u0254\u0308l ku p\u025b\u025bi ku ku\u025bl
+  rac ab\u00ef t\u00f6\u00f6\u014b \u00eb di\u00e4k ru\u025blden yic liu. Ku c\u00efn
+  ru\u025bl t\u00f6\u00f6\u014b \u00eb di\u00e4k ak\u00f6l ku w\u025b\u0308\u025b\u0308r.\\n13
+  Ku jal jat \u0263anyin, ke ye acu yen ti\u025b\u0308\u014b ke p\u00e4r nhial, ku
+  pi\u025b\u014b ke c\u00f6t r\u00f6ld\u00eft ap\u025bi ku lueel, \u201cYe k\u00ebr\u025b\u025bc
+  \u00eb d\u00e4! Ye k\u00ebr\u025b\u025bc \u00eb d\u00e4 t\u00ebn\u00eb k\u0254c
+  \u00eb pinynhom rin aab\u00ef k\u00e4r\u025bc y\u00f6k, t\u025b\u0308 le atuuc k\u0254\u0308k
+  kadi\u00e4k k\u025b\u014b kooth yiic.\u201d\"", "\"L\u00ebk ye lueth ku yith n\u00eb
+  bi\u00e4k de tuaany \u00eb Coronavirus (COVID-19)\\nLUETH: Y\u00efn al\u00ebu ba
+  tuaany \u00eb coronavirus lu\u0254\u0308i y\u00eflac \u00eb w\u025bl ke antibiotics
+  (w\u025bl \u00eb tuaany awu\u0254\u0254k nyaai) ka antimalarial (w\u025bl \u00eb
+  mal\u00e4riya)\\nYIC: Yen ac\u00efn w\u025b\u0308l abirgu\u0254\u0308p ka y\u00eflac
+  de tuaany \u00eb coronavirus.\\nk\u0254c \u00eb wal g\u00f6\u00f6rc\u00f6k \u00eb
+  pinynhom alui ar\u00ebt b\u00efk w\u025b\u0308l abirgu\u0254\u0308p yen\u00eb tuaany
+  ti\u025b\u025bt roor looi. K\u0254c ju\u025b\u0308c them w\u025bl abirgu\u0254\u0308p
+  at\u0254\u0308 \u00ebm\u025bn n\u00eb dh\u00f6l de th\u00ebm \u00ebyic \u00eb wal.
+  T\u00ebd\u0254\u0308, acie nyicku ye kaam y\u00efnd\u00ef b\u00ef lon ajui\u025b\u025br
+  \u00eb wal nyaai.\\nk\u0254c \u00eb wal g\u00f6\u00f6rc\u00f6k alui aya b\u00efk
+  t\u00eb w\u025bl \u00eb yam ku t\u0254\u0308\u0254\u0308 k\u00eb \u00ebm\u025bn
+  kek l\u00ebu b\u00efk kony \u00eb yilac de coronavirus. c\u00eftm\u025bn de, w\u025bl
+  \u00eb yilac de tu\u025bny \u00eb rim yiic ye c\u0254\u0254l remdesivir, ac\u00ef
+  gam am\u025b\u0308\u025b\u0308th n\u00eb Australia yic b\u00ef k\u0254c c\u00ef
+  tuaany de COVID-19 t\u00f6k ar\u00ebt ke d\u0254m. w\u025bl k\u0254\u0308k k\u0254\u0254r
+  kek c\u00f6k an\u0254\u014biic w\u025bl \u00eb tuaaany \u00eb yomthook, w\u025bl
+  \u00eb mal\u00e4riya ku HIV. Keek acie l\u00ebu b\u00efk coronavirus lu\u0254\u0308I
+  y\u00eflac kua al\u00ebu b\u00efk cin \u00eb k\u0254c d\u0254m tuaany kek tekic
+  ku j\u0254l ya t\u00f6k \u00eb tu\u025bny c\u00ef tu\u0254\u0308l\\nYen athiekic,
+  \u00ebk\u025by\u025b, ba r\u0254t g\u00ebl lu\u0254\u0308\u0254\u0308I\u00eb tiitroor
+  acu\u0254l nhom ku ci\u025b\u0308n acu\u0254l ne ku\u025br \u00eb w\u00eb\u00ebi,
+  ye r\u0254t m\u025b\u025bc roor, r\u025b\u0308\u025b\u0308r \u00eb baai ku c\u0254k
+  r\u0254t athem na bec y\u00efn gu\u0254\u0308p, ku cie\u014b alanh \u00eb kum \u00eb
+  nyin na t\u0254\u0308 y\u00efn \u00eb baai l\u0254\u014b tek tuaany r\u0254t piny
+  th\u00efn ar\u00ebt, \u00ebjik t\u00eb ril yen yic ba m\u025b\u025bc \u00eb r\u0254twei
+  t\u00ebn\u00eb k\u0254c k\u0254\u0308k ya lu\u0254\u0308\u0254\u0308I nhom.\\nLUETH:
+  M\u00efth kek aye ye coronavirus \u2018t\u025bkpiny ar\u00ebtic\u2019\\nYIC: Na
+  c\u0254k m\u00efth ya nyic l\u0254n yekek rui ku k\u00e4m \u2018t\u025bkpiny ar\u00ebtic\u2019,
+  c\u00eftm\u025bn de ju\u025b\u0308i, kaye tuaany de COVID-19 nyu\u0254\u0254th \u00ebm\u025bn
+  aye lueel l\u0254n ye awu\u0254\u0254k \u00eb k\u025bm \u00eb m\u00efth n\u00eb
+  thukulic acie ku\u0254\u0308tic. D\u0254\u0308 t\u0254\u0308, yen ac\u00efn k\u00ebn\u00eb
+  nyu\u0254\u0254th t\u00ebd\u0254\u0308 \u00eb pinynhom l\u0254n tek \u00eb piny
+  \u00eb tuaany tu\u0254\u0308l n\u00eb kuer \u00eb m\u00efth. T\u00eb c\u0254k yen
+  r\u0254t ya l\u00ebu, k\u025b\u0308k \u00eb yith nyu\u0254\u0254th ab\u025b\u0308n
+  aye lueel l\u0254n cie yekek COVID-19 t\u025bkpiny ar\u00ebtic.\\nLUETH: Australia
+  acie l\u00ebu b\u00efk k\u025b\u0308k ak\u00efm \u00eb y\u00eflac ku k\u025b\u0308k
+  \u00eb ku\u0254\u0254ny (makana aw\u00eb\u00ebi ku\u0254nyth\u00efn, ka yen\u00eb
+  ke wuumkum, k\u025b\u0308k \u00eb them)\\nYIC: Australia ac\u00ef luui ab\u00ef
+  tiam n\u00eb t\u00ebk \u00eb yic de tuaany, k\u00eb ye \u00eb k\u00e4n lueel l\u0254n
+  c\u00ef \u0263ok k\u0254c ju\u025b\u0308c dur bec ab\u00ef b\u025b\u0308\u025b\u0308I
+  ak\u00efm thi\u00e4\u014b cu\u0254\u0308k aloi r\u0254t.\\n\u0263ok an\u0254\u014b
+  kaju\u025b\u0308c \u00eb lu\u0254i de ak\u00efm at\u0254\u0308 Australia, kek\u00eb
+  kaju\u025b\u0308c aye looi n\u00eb Australia ku tek \u00ebkek piny Australia yic
+  n\u00eb th\u00e4\u00e4 thook ab\u025b\u0308n. C\u00eftm\u025bn, k\u025b\u0308k \u00eb
+  y\u00eflac c\u00ef kek kutnh\u00ef\u00efm baai ac\u00ef d\u00f6\u014b kake ju\u025b\u0308c
+  apu\u0254th ku ac\u00ef ka w\u025b\u0308r bak de bianabur thi\u025b\u0308rnyi\u025bny
+  ke al\u025b\u0308th \u00eb kum \u00eb nyin c\u00ef ke juiir \u00eb b\u00ef\u00ef
+  n\u00eb run de 20201 yic.\\nakutnh\u00ef\u00efm \u00eb luup de nhom t\u00ebn\u00eb
+  akuma de k\u0254c Australia, n\u0254\u014biic, Communicable Diseases Network Australia
+  (akutnhom \u00eb tueny-tueny yeke wu\u0254\u0254k Australia) ku Public Health Laboratory
+  Network (Akut de ti\u025b\u0308\u025b\u0308\u014b ke rim \u00eb pialgup \u00eb ju\u00e4\u00e4c)
+  aye mat ak\u00f6lk\u00f6l b\u00efk ajui\u025b\u025br de k\u025b\u0308k ath\u00ebm
+  \u00eb tuaany de COVID-19 ya dhuk \u00eb t\u00ef\u014b, b\u00ef looi ago ya ath\u00ebm
+  thiekic yen b\u00ef ya looi t\u00ebn\u00eb ku\u0254\u0254ny \u00eb dhuk \u00eb nhom
+  de pialgup da t\u00ebn\u0254\u014b tuaany de COVID-19 kuany baai yic.\\nLUETH: B\u025b\u0308\u025b\u0308I
+  ak\u00efm ke Australia acie l\u00ebu b\u00efk cin \u00eb k\u0254c ju\u025b\u0308c
+  d\u0254m tuaany \u00eb coronavirus yen juak yic ke l\u00ebu.\\nYIC: Australia ac\u00ef
+  luui ab\u00ef tiam n\u00eb t\u00ebk \u00eb yic de tuaany, k\u00eb ye \u00eb k\u00e4n
+  lueel l\u0254n c\u00ef \u0263ok k\u0254c ju\u025b\u0308c dur bec ab\u00ef b\u025b\u0308\u025b\u0308I
+  ak\u00efm thi\u00e4\u014b cu\u0254\u0308k aloi r\u0254t. Australia an\u0254\u014b
+  b\u025b\u0308\u025b\u0308I ak\u00efm \u00eb pialgup t\u0254\u0308 nh\u00ef\u00efm
+  tue\u014b kek c\u00ef r\u00f6t juiir b\u00efk kaju\u025b\u0308c m\u025bt \u00eb
+  th\u00efn yu\u00efc kek n\u00eb th\u00e4\u00e4 de tuaany \u00eb COVID-19 kuany baai
+  kek na ye k\u0254\u0254r. k\u00e4n an\u0254\u014bic ri\u025bl l\u00ebu b\u00efn\u00eb
+  ag\u025bn \u00eb panak\u00efm k\u0254\u0308k mat th\u00efn, k\u025b\u0308k \u00eb
+  lu\u0254i ak\u00efm, kaye k\u0254\u0254r panak\u00ef\u00efm, ku k\u0254c \u00eb
+  y\u00eflac ak\u00efm looi n\u00eb kuer m\u025b\u0308n \u00eb cin\u00eb kaam de akuma
+  \u00eb k\u0254c Australia, Akumaa ke state ku territory ku bak \u00eb yilac de y\u00efk
+  \u014b\u025bk.\\nLUETH: Thi\u00f6\u00f6k \u00eb k\u025b\u0308\u014b thook n\u00eb
+  l\u00e4\u00e4t karou ab\u00ef tekpiny de tuaany \u00eb coronavirus c\u0254k ak\u00e4\u00e4c\\nYIC:
+  T\u025b\u0308\u025b\u0308u \u00eb g\u00ebl \u00eb k\u0254c n\u00eb l\u00e4\u00e4t
+  karou ka di\u00e4k ku ny\u025b\u025bi g\u00ebl ku dhuk k\u0254c \u00eb p\u00ef\u00efr
+  th\u025b\u025bric acie b\u00ef tekpiny \u00eb tuaany de COVID-19. c\u0254k ak\u00e4\u00e4c.\\nK\u0254c
+  ju\u025b\u0308c c\u00ef tuaany de COVID-19 ke d\u0254m aye gup na\u014b c\u00eft
+  \u00eb b\u00ebc kor ka liu k\u00eb. K\u00ebr\u025b\u025bc y\u00f6k k\u0254c n\u00eb
+  thi\u00f6\u00f6k \u00eb thok de k\u025b\u0308\u014b ee l\u0254n k\u0254c c\u00efn
+  gup c\u00eft \u00eb tuaany de COVID-19 al\u00ebu b\u00efk k\u0254c k\u0254\u0308k
+  c\u0254k awu\u0254\u0254k \u00eb tuaany t\u00eb c\u00efn\u00eb k\u025b\u0308\u014b
+  ri\u025b\u0308\u025b\u0308c ab\u025b\u0308n liep b\u00ef \u0263\u0254\u0308\u0254\u0308r
+  n\u00eb th\u00f6k de g\u00ebl \u00eb c\u00e4th.\\nKuer pu\u0254th ar\u00ebt b\u00ef
+  kony n\u00eb cu\u0254\u0308k tekpiny \u00eb tuaany de COVID-19 ee b\u00ef tiitroor
+  acu\u0254l nhom ku ci\u025b\u0308n acu\u0254l ne ku\u025br \u00eb w\u00eb\u00ebi,
+  ye r\u0254t m\u025b\u025bc roor, r\u025b\u0308\u025b\u0308r \u00eb baai ku c\u0254k
+  r\u0254t athem na bec y\u00efn gu\u0254\u0308p, ku cie\u014b alanh \u00eb kum \u00eb
+  nyin na t\u0254\u0308 y\u00efn \u00eb baai l\u0254\u014b tek tuaany r\u0254t piny
+  th\u00efn ar\u00ebt t\u00eb ril yen yic ba m\u025b\u025bc \u00eb r\u0254twei t\u00ebn\u00eb
+  k\u0254c k\u0254\u0308k ya lu\u0254\u0308\u0254\u0308I nhom t\u00eb cien r\u0254t
+  ye l\u00ebu.\\nK\u0254c ku\u025bk nyin lu\u0254i \u00eb pialgup k\u0254c ab\u00ef
+  g\u025b\u0308k kake bu\u0254th d\u00f6m \u00eb tuaany c\u00f6k ak\u00f6lk\u00f6l
+  n\u00eb Australia yic ku yen \u00eb te looi awu\u0254\u0254k r\u0254t th\u00efn.
+  Keek ab\u00ef k\u0254c l\u025b\u0308k ka c\u00efk y\u00f6k n\u00eb ku\u00ebny \u00eb
+  c\u00f6k yic n\u00eb k\u00eb c\u00eft l\u00f6\u014b \u00eb yam ka g\u00ebl \u00eb
+  k\u0254c kek b\u00ef t\u00e4\u00e4u piny. Kuat \u00eb raan ab\u025b\u0308n apu\u0254th
+  b\u00ef ya r\u00eb\u00ebr ke nyic g\u00ebl \u00eb k\u0254c t\u0254\u0308 \u00eb
+  m\u025bn n\u00eb l\u0254 t\u00ebn\u00eb www.australia.gov.au.\\nLUETH: Th\u00ebm
+  \u00eb kuat de raan ab\u025b\u0308n ab\u00ef tekpiny de tuaany \u00eb coronavirus
+  c\u0254k ak\u00e4\u00e4c\\nYIC: Ath\u00ebm acie tekpiny \u00eb tuaany ye c\u0254k
+  ak\u00e4\u00e4c.\\nT\u00f6\u014b de ka thiekiic t\u00ebn\u00eb g\u00ebl de ku muk
+  \u00eb nhompiny de tuaany \u00eb COVID-19 aye yi\u025b\u0308k th\u00e4\u00e4, aye
+  th\u025bm dh\u00f6l ku nyi\u025bc them pu\u0254th l\u0254c\u00f6k. Them \u00eb ti\u025b\u0308\u025b\u0308\u014b
+  de tuaany athiekic n\u00eb nyi\u025bc lu\u025bl \u00eb t\u00eb c\u025bth tuaany
+  th\u00efn, l\u00ebk de k\u00eb looi r\u0254t ku ajui\u025b\u025br \u00eb mu\u0254\u0308\u0254\u0308k
+  de ku\u00ebny \u00eb c\u00f6k, ku th\u00f6k de n\u00eb dhuk \u00eb nyinpiny awu\u0254\u0254k
+  \u00eb k\u0254c k\u025bm.\\nT\u00ebd\u0254\u0308, ath\u00ebm c\u00efn tuaany \u00eb
+  COVID-19 c\u00ef y\u00f6k k\u00e4n acie nyu\u0254\u0254th l\u0254n l\u00ebu ben
+  ci\u025b\u0308n ker\u025b\u025bc y\u00f6k y\u00efn ka k\u00ebr\u025b\u025bc y\u00f6k
+  k\u0254c k\u0254\u0308k. Y\u00efn al\u00ebu b\u00ef y\u00ef them ku y\u00f6k COVID-19
+  ke liu \u00eb gu\u0254\u0308p n\u00eb th\u00e4\u00e4 c\u00efn thi\u00e4\u00e4k kek\u00eb
+  SARS-CoV-2 (rui kek ye tuaany de COVID-19 j\u0254\u0254k) kua y\u00efn ak\u00ebn
+  c\u00eft \u00eb tuaany gu\u0254\u0308r nyu\u0254\u0254th. Yen \u00ebk\u00eb yen
+  yic thi\u025bk ar\u00ebt ba tiit acu\u0254l roor ya looi ku r\u00eb\u00ebr kay\u00ef
+  mec yic kek\u00eb k\u0254c k\u0254\u0308k, ku r\u00eb\u00ebr baai y\u00efle t\u00eb
+  n\u0254\u014b yen k\u00eb thiekic l\u0254 k\u0254\u0254r. ka looi k\u00e4k, at\u00f6k
+  kek\u00eb ath\u00ebm \u00eb gu\u0254\u0308p c\u00ef juiir akony k\u0254c n\u00eb
+  g\u00ebl \u00eb tekpiny \u00eb tuaany cie COVID-19 \u00eb ku tu\u025bnytu\u025bny
+  k\u0254\u0308k aya, cot g\u00f6r \u00eb konykony \u00eb k\u025b\u0308k \u00eb pialgup
+  ke k\u0254c Australia nyinpiny.\\nTi\u025b\u0308m \u00eb mu\u0254\u0308\u0254\u0308k
+  de t\u00ebde pialgup de ju\u00e4\u00e4c t\u00eb ju\u025bk k\u0254c d\u0254m tuaany
+  kek ku tek r\u0254t piny \u00eb \u0263\u00e4n w\u00ebn t\u025b\u0308\u025b\u0308k
+  thook ak\u0254\u0254r b\u00ef ath\u00ebm ya dhil \u00eb lu\u0254\u0254i apu\u0254th
+  b\u00ef t\u00e4\u00e4u \u00eb kaam de mu\u0254\u0308\u0254\u0308k \u00eb tuaany
+  tek r\u0254t piny ku g\u00ebl lu\u0254i de \u0263\u00e4n \u00eb th\u00ebm de tu\u025bnytu\u025bny
+  ku ri\u025bl t\u0254\u0308 kek\u00eb \u0263\u00e4n \u00eb th\u00ebm\\nTh\u00ebm
+  c\u00ef t\u025b\u0308\u025b\u0308knhom de k\u0254c Australia c\u00efn gup c\u00eft
+  \u00eb tuaany yek\u00eb nyu\u0254\u0254th acien\u00eb k\u0254c ye ri\u025b\u025bl
+  pu\u0254\u0308th b\u00efk ya looi. Ajui\u025b\u025br \u00eb th\u00ebm \u00eb gu\u0254\u0308p
+  k\u00e4n acie yic t\u00ebn\u00eb tekpiny \u00eb tuaany ku acie kuer pu\u0254th yen\u00eb
+  w\u00ebu t\u00ebn\u00eb ny\u00efc de t\u00eb c\u025bth tuaany \u00eb k\u0254c k\u025bm.
+  aye akum de k\u0254c Australia nyic l\u0254n l\u00ebu b\u00ef ath\u00ebm \u00eb
+  k\u0254c c\u00efn gup c\u00eft \u00eb tuaany na\u014b k\u00eb looi n\u00eb \u0263\u00e4n
+  k\u0254\u0308k t\u00ebn\u00eb muk \u00eb nhom piny \u00eb tuaany ku w\u025b\u0308t
+  \u00eb nyint\u00ef\u00eft. Kek \u00eb \u0263\u00e4n k\u00eb an\u0254\u014biic ajui\u025b\u025br
+  \u00ebt\u00eb c\u00ef tuaany thi\u025b\u0308I piny, k\u0254c kek l\u00ebu b\u00ef
+  tuaany ke dar ar\u00ebt t\u00eb tek yen r\u0254t piny t\u00ebn\u00eb \u0263\u00e4n
+  c\u00efn k\u00ebdit c\u00ef r\u0254t looi th\u00efn, k\u0254c kek l\u00ebu b\u00efk
+  yii\u0254 thi\u0254\u0308k ar\u00ebt kek\u00eb t\u00eb t\u0254\u0308 tuaany th\u00efn,
+  ku k\u0254c kek t\u0254\u0308 t\u00eb tek tuaany r\u0254t piny th\u00efn ar\u00ebt
+  kek ye ya k\u0254c ni\u0254p aya t\u00ebn\u00eb tuaany t\u00f6k r\u00ebt na wu\u0254\u0254k
+  kek.\\nAkuma de k\u0254c Australia ag\u025b\u0308k keye ajui\u025b\u025br \u00eb
+  th\u00ebm \u00eb gup lueel keye k\u00eb pu\u0254th, n\u0254\u014biic ath\u00ebm
+  \u00eb gu\u0254\u0308p n\u00eb \u0263\u00e4n \u00eb lu\u0254i t\u00ebn\u00eb k\u0254c
+  c\u00efn gup c\u00eft \u00eb tuaany, b\u00ef juiir ke c\u00ef laaric kek\u00eb k\u0254c
+  mac lon de pialgup \u00eb ju\u00e4\u00e4c ku k\u0254c looi lon \u00eb nyuuth de
+  ti\u025b\u0308\u025b\u0308\u014b \u00eb tu\u025bnytu\u025bny yiic. Yen \u00eb k\u00e4n
+  ee looi apu\u0254th b\u00ef ku\u025br tu\u0254\u0308\u0254\u0308m ku luui k\u00eb
+  ar\u00ebt kek yeke lu\u0254\u0308\u0254\u0308i. n\u00eb l\u00ebk ju\u025b\u0308c
+  t\u00ebn\u00eb k\u00eb looi akuma de k\u0254c Australia n\u00eb l\u0254\u0254\u014b
+  ath\u00ebm c\u00ef thi\u00e4i piny t\u00ebn\u00eb k\u0254c c\u00efn gup c\u00eft
+  \u00eb tuaany, alim ba t\u00ef\u014b \u00eb Department of Health website.\\nLUETH:
+  Ka yen\u00eb them acie \u00e4th\u00ebm l\u0254c\u025b\u0308p ye b\u025b\u0308\u025b\u0308i\\nYIC:
+  N\u00eb Australia yic<, ath\u00ebm de tuaany \u00eb COVID-19 aye ath\u00ebm l\u0254c\u025b\u0308p
+  b\u025b\u0308\u025b\u0308i. ku\u025br yen\u00eb jke them ab\u025b\u0308n yeke lu\u0254\u0308\u0254\u0308I
+  Australia ac\u00ef kek c\u0254\u0308kpiny \u00eb them ar\u00ebt. Kek ag\u025b\u0308k
+  kake ye ti\u025b\u0308\u014b dh\u00f6l n\u00eb Therapeutic Goods Administration
+  (TGA) (amatnhom mac ka yen\u00eb them \u00eb k\u0254c gup) ku ajui\u025b\u025br
+  \u00eb dhil \u00eb m\u025bt r\u00f6t n\u00eb th\u00f6\u00f6\u014b de ka yen\u00eb
+  ke k\u0254c them gup yen c\u00ef juiir \u00eb lu\u0254i keye k\u00eb yen\u00eb SARS-CoV-2
+  (rui kek ye tuaany de COVID-19 j\u0254\u0254k).\\nN\u00eb Australia yic, laboratory-based
+  polymerase chain reaction testing (PCR) ee nyi\u025bc them ar\u00ebt t\u00eb luui
+  yen b\u00efn\u00eb SARS-CoV-2 t\u00f6k ar\u00ebt c\u00ef wu\u0254\u0254k \u00eb
+  gu\u0254\u0308p du yic, ku ak\u0254\u0254r b\u00ef kaye l\u00f6\u00f6m n\u00eb ku\u025br
+  \u00eb w\u00eb\u00ebi ya nyaai b\u00efn\u00eb ke ath\u00ebm looi. Ath\u00ebm \u00eb
+  PCR aye l\u0254 nyeei ar\u00ebt ku aye ka thii kor ye t\u0254\u0308 n\u00eb gu\u0254\u0308p
+  du yic kek nhi\u025b\u025br SARS-CoV-2 kek n\u00eb k\u025b\u0308k ath\u00ebm n\u00eb
+  w\u00eb\u00ebi c\u00ef ku\u0254\u0308\u0254\u0308tic.\\nKuat \u00eb lon de ath\u00ebm
+  ye yam t\u00ebn\u00eb Australia aye k\u0254\u0254r b\u00ef ka\u014b ya themic apu\u0254th
+  n\u00eb TGA b\u00ef looi ago nyi\u025bc ya luui ku ye kapu\u0254th y\u00f6k n\u00eb
+  th\u00ebmic ku ju\u025bk b\u00ef\u00ef de yic n\u00eb dh\u00f6l \u00eb l\u00f6\u014b.
+  N\u00eb l\u00ebk pu\u0254c b\u025brpiny t\u00ebn\u00eb ath\u00ebm de tuaany \u00eb
+  COVID-19 at\u0254\u0308 th\u00efn n\u00eb webthiaat de Australian Register of Therapeutic
+  Goods yic. Alim ke nem n\u00eb : www.tga.gov.au/covid-19-test-kits-included-artg-legal-supply-australia.\\nLUETH:
+  tuaany de Coronavirus ee w\u025b\u025bt\\nYIC: Tuaany de COVID-19 aye j\u0254\u0254k
+  n\u00eb coronavirus (SARS-CoV-2), yen ye bak \u00eb kuat d\u00eft de rui kek l\u00ebu
+  b\u00efk awu\u0254\u0254k \u00eb tuaany de w\u00eb\u00ebi b\u025b\u0308\u025b\u0308I
+  t\u00ebn\u00eb k\u025bc ku l\u025b\u0308\u025b\u0308i. awu\u0254\u0254k k\u00e4k
+  al\u00ebu b\u00efk yiic kut j\u0254\u0254k n\u00eb k\u00eb cie t\u0254\u0308k l\u0254
+  n\u00eb tuaany t\u00f6k ar\u00ebt. Tuaany \u00eb COVID-19 ee r\u0254t t\u025bkpiny
+  \u00eb k\u025bm ke k\u0254c n\u00eb kuer thuthuei ye l\u00f6\u00f6ny piny ku kuer
+  \u00ebk\u025b\u0308 ye \u014b\u0254\u0254t nh\u00ef\u00efm c\u00ef ya wu\u0254\u0254k.\\nN\u00eb
+  Australia yic, Victorian Infectious Diseases Reference Laboratory (VIDRL) yen t\u0254\u0308
+  the Peter Doherty Institute for Infection and Immunity, ee ye k\u00eb tue\u014b
+  de ath\u00ebm \u00eb ri\u025bm ak\u00ebnbaai de china b\u00ef tuaany de SARS-CoV-2
+  ya week thok. VIDRL ar\u0254m tuaany c\u00ef r\u0254t wel kek\u00eb \u0263\u00e4n
+  ath\u00ebm \u00eb ri\u025bm ke k\u0254c Australia k\u0254\u0308k, World Health Organization
+  (man\u025b\u0308th\u025b\u0308ma muk pialgup \u00eb piny nhom) ku b\u025b\u0308\u025b\u0308I
+  k\u0254\u0308k, b\u00efk ajui\u025b\u025br \u00eb lu\u0254i \u0263\u00e4th tue\u014b,
+  c\u00f6kpiny de k\u00eb looi ku th\u00ebm \u00eb yic de ath\u00ebm \u00eb gup t\u00ebn\u00eb
+  tuaany de COVID-19.\\nAustralia amigu\u0254\u0308p b\u00ef ku\u0254ny n\u00eb akutnhom
+  n\u0254\u014b k\u00eb nyick\u00eb de \u0263\u00e4n \u00eb ti\u025b\u0308\u025b\u0308\u014b
+  \u00eb ri\u025bm yiic ke ju\u00e4\u00e4c ku k\u025b\u0308k \u00eb y\u00efk \u014b\u025bk
+  kek n\u0254\u014b ri\u025bl ku c\u00e4\u00e4da tu\u0254\u0308\u0254\u0308m yekek
+  ke tuaany de SARS-CoV-2 dac moth ku nyic. ri\u025bl t\u0254\u0308 kek\u00eb \u0263\u00e4n
+  \u00eb th\u00ebm \u00eb rim k\u00e4k c\u00ef kek ath\u00ebm \u0263\u00e4th nyin
+  nhial ac\u00ef ya lon pu\u0254th n\u00eb ti\u025b\u0308m de Australia tuaany cu\u0254t
+  nyin piny ku p\u025b\u0308l k\u00eb ri\u025b\u0308\u014bd\u00eft awu\u0254\u0254k
+  dur r\u0254t looi yen c\u00ef t\u00ef\u014b n\u00eb b\u025b\u0308\u025b\u0308I k\u0254\u0308k
+  yiic. L\u00ebk \u00eb cin t\u0254\u0308 n\u00eb k\u0254c n\u0254\u014b gup tuaany
+  de COVID-19 ku cin \u00eb k\u0254c cin \u00eb k\u0254c c\u00ef thou t\u00ebn\u00eb
+  tuaany aye ku\u0254\u0308\u0254\u0308tic Australia ku piny nhom ab\u025b\u0308n.
+  k\u00eb yen c\u00ef r\u0254t looi aye gu\u00e4r a\u0263eer ak\u00f6lk\u00f6l n\u00eb
+  Australian Department of Health.\\nLUETH: Al\u025b\u0308th \u00eb kum \u00eb nyin
+  acie luui apu\u0254th ku/ka arac.\\nYIC: al\u025b\u0308th \u00eb kum \u00eb ny\u00efn,
+  t\u00eb luui \u00ebke ke ku\u025br \u00eb ti\u025b\u0308t \u00eb r\u00f6t k\u0254\u0308k
+  c\u00eftm\u025bn de tiitroor ac\u0254u, meec \u00eb rotwei t\u00ebn\u00eb k\u0254c
+  k\u0254\u0308k, ku r\u00eb\u00ebr baai ku th\u00ebm t\u00eb bec raan gu\u0254\u0308p,
+  aye kony n\u00eb t\u00ebk \u00eb yic \u00eb tekpiny de tuaany \u00eb COVID-19.\\nC\u00eftm\u025bn
+  \u00eb rui ju\u025b\u0308c \u00eb w\u00eb\u00ebi yic, SARS-CoV-2 (rui ke ye tuaany
+  de COVID-19 j\u0254\u0254k) yen ye ad\u00f6c \u00eb tekpiny looi n\u00eb kuer \u00eb
+  thuthuei thii \u00eb l\u00f6\u00f6ny piny, kek ye r\u00f6t looi t\u00eb ji\u025b\u025bm
+  raan c\u00ef wu\u0254\u0254k, \u0263\u0254\u0254l ka t\u00ef\u00efm. Tekpiny al\u00ebu
+  b\u00ef r\u0254t ya tu\u0254\u0308l aya n\u00eb kuer \u00eb k\u025b\u0308\u014b
+  k\u0254\u0308\u0254\u0308th yeke g\u0254\u0254t c\u00ef ya wu\u0254\u0254k. Alanh
+  \u00eb kum \u00eb nyin al\u00ebu b\u00ef ya lu\u0254\u0308\u0254\u0308I n\u00eb
+  raan yen c\u00ef d\u0254m \u00eb tuaany de w\u00eb\u00ebi yic, n\u0254\u014bic COVID-19,
+  kek\u00eb ka c\u00efn gu\u0254\u0308p c\u00eft \u00eb tuaany, b\u00ef k\u0254c k\u0254\u0308k
+  kony n\u00eb t\u00ebk \u00eb yic de tekpiny \u00eb thuthuei awo\u014b \u00eb tuaany
+  de w\u00eb\u00ebi. Al\u025b\u0308th \u00eb kum \u00eb ny\u00efn aye kek lu\u0254\u0308\u0254\u0308I
+  n\u00eb k\u0254c \u00eb lu\u0254i de pialgup ku mu\u0254\u0308\u0254\u0308k b\u00efk
+  r\u00f6t ye g\u00ebl t\u00eb c\u00efn kek kaam ye kek r\u00eb\u00ebr kake meec r\u00f6twei
+  t\u00ebn\u00eb raan c\u00ef wu\u0254\u0254k n\u00eb tuaany de w\u00eb\u00ebi, n\u0254\u014bic
+  COVID-19.\\nCi\u025b\u025b\u014b alanh \u00eb kum \u00eb nyin ee kuer t\u00f6\u014b
+  de cu\u0254\u0308k tekpiny \u00eb tuaany de COVID-19 ku ac\u00efn k\u00ebn\u00eb
+  yen geric t\u00ebnm\u00eb ku\u025br k\u0254\u0308k yen\u00eb ke r\u00f6t g\u00ebl.
+  Yen athiekic ba ya g\u025b\u0308k n\u00eb luui \u00eb nhom de tiitroor acu\u0254l
+  ku ci\u025b\u0308n acu\u0254l ne ku\u025br \u00eb w\u00eb\u00ebi, ye r\u0254t m\u025b\u025bc
+  roor, r\u025b\u0308\u025b\u0308r \u00eb baai ku c\u0254k r\u0254t athem na bec y\u00efn
+  gu\u0254\u0308p,\\nYen ac\u00efn k\u00eb ye yen nyu\u0254\u0254th l\u0254n cie pu\u0254th
+  ci\u025b\u025b\u014b \u00eb lanh \u00eb kum \u00eb nyin ka al\u00ebu b\u00ef na\u014b
+  k\u00ebr\u025b\u025bc b\u00ef\u00ef c\u00eftm\u025bn de dak aliir \u00eb w\u00eb\u00ebi.
+  K\u0254c ye mu\u0254\u0308\u0254\u0308k \u00eb pialgup gam ac\u00ef al\u025b\u0308th
+  \u00eb kum ny\u00efn cie\u014b n\u00eb kaam b\u025b\u0308ric n\u00eb run ju\u025b\u0308
+  ar\u00ebt kua c\u00efn k\u00ebr\u025b\u025bc c\u00ef tu\u0254\u0308l.\\nYe webthiaat
+  k\u00e4n neem \u00eb nyindi\u025b ba t\u0254\u0308 ke y\u00efn nyic ka looi r\u0254t
+  n\u00eb bi\u00e4k de dhuk Akuma de k\u0254c Australia tuaany de covid-19 nhom th\u00efn.\\nSBS
+  an\u0254\u014b l\u00ebk ju\u025b\u0308c t\u0254\u0308 aya n\u00eb tuaany \u00eb
+  covid-19 n\u00eb tho\u014bdu. Al\u00ebu ba \u025bpp \u00eb pun dun \u00eb mobail
+  lu\u0254\u0308\u0254\u0308i ku t\u00ef\u014b ka c\u00ef mat \u00eb ye thok b\u00ef
+  l\u00ebk akam geeric. G\u00f6\u00f6r t\u00f6\u014b b\u00ef k\u0254\u0254r thi\u0254\u0308\u0254\u0308\u014b
+  nhom.\\nT\u00eb b\u00efn l\u00ebk k\u0254\u0308k m\u025bt r\u00f6t th\u00efn y\u00f6k
+  n\u00eb d\u00ef\u014bg\u00efl\u00efth, l\u0254\u0254r n\u00eb www.australia.gov.au.\"",
+  "\"Abraham Akec Awuolic ee raan t\u00f6\u014b\u00eb k\u0254c c\u00eb akut\u00eb
+  People\u2019s Coalition for Civil Action ku\u0254\u0308\u0254\u0308tic n\u00eb ye
+  n\u00ef\u00efnk\u025b\u0308. N\u00eb k\u00eb c\u00ef\u00ef lueel n\u00eb ath\u00f6\u00f6rden
+  yic, keka ye c\u00f6\u00f6t b\u00eb B\u025b\u0308ny Kiir May\u00e4rd\u00eft, Ri\u025b\u0308k
+  Mac\u00e4r ku j\u0254l ya k\u0254c t\u0254\u0308 n\u00eb \u014b\u0254\u0308\u0254\u0308ric
+  ken\u00eb kek b\u00efk nyuc piny ku b\u00efk baai p\u00e4l k\u0254c k\u0254\u0308k
+  b\u00eb yen b\u025b\u025br laar tue\u014b.\\nAkei mane t\u0254\u0308 ke ye b\u025b\u0308ny
+  akut\u00eb Sudd Institute at\u0254\u0308 n\u00eb kat\u00eb n\u00eb ye m\u025bn ku
+  Gob\u00ebna thi\u025b\u025br\u00eb pan\u00eb Aweil ka ye North Bhar el gazal Ku\u00ebl
+  Agu\u00ebr Ku\u00ebl at\u0254\u0308 ke c\u00eb mac n\u00eb Blue House n\u00eb Juba.\\n\u201cK\u00eb
+  mac Ku\u00ebl ku j\u0254 ya k\u00eb cop \u0263a ku k\u0254c k\u0254\u0308k, \u0263okka
+  c\u00eb nyuc piny w\u025b\u0308\u025b\u0308r ku jokku baai t\u00ef\u014b \u00eb
+  t\u00eb leer baai th\u00efn. Ke baai acuk t\u00ef\u014b ke ye pane k\u0254c ye n\u00e4k
+  \u00eb k\u0254c, k\u0254c ye th\u0254\u0308\u0254\u0308r kuke pane k\u0254c ye k\u0254c
+  peec. Kuke pane k\u0254c c\u00ebn ken\u00eb mi\u00e4k yekk\u025b\u0308 b\u025b\u025br
+  tak, ee pane b\u00eb k\u0254c th\u0254\u0308\u0254\u0308r ku b\u00eb k\u0254c mi\u0254c
+  n\u00eb b\u00e4\u00e4ny\u2026.. kuka c\u00ebn l\u0254 tue\u014b\u00eb baai loi r\u0254t.\u201d\"",
+  "\"Ku\u025br\u00ebyor\\nKu\u025br\u00ebyor aye looi t\u00eb c\u00efn yen d\u00eb\u014b
+  pi\u025b\u025bth tueny, ka k\u0254c aayee piu juak k\u00e4c\u00efpuric b\u00eb kek
+  kony b\u00efk d\u00eft. Piiu ke ku\u025br\u00ebyor al\u00ebu b\u00ef g\u025b\u0308\u025b\u0308rbei
+  w\u025b\u0308ric c\u00eft man ki\u025b\u025br, b\u025b\u025br k\u00e4\u014bpinynhom,
+  b\u025b\u025br yee c\u00efk n\u00eb dir, ka n\u00eb y\u00ef\u00efth, t\u00ebd\u025b\u0308t
+  b\u00eb c\u0254k ku\u00ebr l\u0254 dumiic n\u00eb ri\u025bl de miitpiny ar\u00f6ln\u00ebpiu-yic
+  ka lald\u00eftic.\\nKu\u025b\u025bt ke Ku\u025br\u00ebyor[cokic | cok t\u00ebn\u00eby\u00f6kic]\\nPiiu
+  ke ku\u025br\u00ebyor al\u00ebu b\u00ef pi\u0254\u0254k n\u00eb k\u00e4c\u00efpuric
+  n\u00eb m\u00efw\u00ebrpiu yee pilic looi b\u00eb piiu w\u025b\u025brbei, t\u00ebd\u025b\u0308t
+  n\u00eb ar\u00f6\u00f6k. N\u00eb ku\u025br\u00ebyor de w\u00ebr, piiu aye pik n\u00eb
+  ar\u00f6ln\u00ebpiu l\u0254 m\u00efw\u00ebrpiu yee t\u0254\u0308\u0254\u0308u n\u00eb
+  \u0263\u0254n juac domic. Ku\u025br\u00ebyor de ci\u025blwic (n\u00eb m\u00efw\u00ebrpiu
+  yee rotwiic) ee kuand\u025b\u0308t de ku\u025br\u00ebyor. N\u00eb ku\u025br\u00ebyordethuat
+  (yor yee p\u00efu thuat \u00eb dep-dep), piu ayee \u0263\u00e4th l\u0254 k\u00e4c\u00efpur
+  n\u00eb ar\u00f6ln\u00ebpiu ke adhuum.\\nN\u00eb dh\u00f6l de ti\u0254pnom, p\u00efu
+  al\u00ebu b\u00eb ku\u00ebr n\u00eb ti\u0254pnom n\u00eb lald\u00eftic t\u00ebd\u025b\u0308t
+  ar\u00f6ln\u00ebpiu-yic. N\u00eb dh\u00f6l de mukci\u025b\u025b\u014bth\u025b\u025br,
+  p\u00efu al\u00ebu b\u00eb ku\u00ebr n\u00eb ti\u0254pnom domic \u00ebb\u025b\u0308n,
+  lakin ku\u025br\u00ebyordethuat ayee wo kony buk p\u00efu c\u0254k l\u0254 n\u00eb
+  mei ke k\u00e4c\u00efpuric ku l\u00ef\u00efm c\u00f6k, ku k\u00ebn\u00eb ayee p\u00efu
+  lik ar\u00ebt c\u0254k l\u0254wei n\u00eb ti\u0254pic t\u00eb th\u00f6\u00f6\u014b\u0308\u00eb
+  yen ke ku\u025br k\u0254\u0308k yen\u00ebke duum yor th\u00efn. Ku\u025br\u00ebyor
+  n\u00eb ti\u0254pnomc\u00f6k ayee c\u0254k nyin\u00ebp\u00efu l\u0254nhial, ee rin
+  ku meei ke k\u00ebc\u00efpur l\u00ebu b\u00eb ye d\u00f6\u00f6t, ku piu lik aa puorwei.\\nK\u00e4b\u00ebtu\u0254\u0308lth\u00efn[cokic
+  | cok t\u00ebn\u00eby\u00f6kic]\\nKu\u025br\u00ebyor ac\u0254k tue\u014b n\u00eb
+  kuend\u00eft cil n\u00eb domt\u0254\u0308\u014b\u00eb, t\u00ebd\u025b\u0308t ac\u0254k
+  k\u00ebc\u00efpur cil n\u00eb m\u00ebi-yic. Cinde at\u0254\u0308 nhial, ku adhil
+  b\u00ef loi ke k\u0254c c\u00eb kepu\u0254\u0308\u0254\u0308th t\u00e4upiny ku b\u00efk
+  d\u00efk \u00eb \u014bic l\u0254n b\u00ef ku\u0254ny b\u00eb b\u025b\u0308n bei
+  th\u00efn, n\u00eb k\u00eb b\u00eb kac\u00efpur keyiic juak, d\u00eft t\u00ebn\u00eb
+  cin b\u00eb l\u0254 n\u00eb ju\u00ebr ku luoi de ku\u025br\u00ebyor yam b\u00ef
+  b\u025b\u0308\u025b\u0308y\u00eb.\"", "\"Lingua Franca Nova (Elefen) ee tho\u014b
+  c\u00ef guiir b\u00ef ya lac lac deet apath, ku b\u00ef ya yic ku b\u00ef ya lac
+  pi\u0254\u0308\u0254\u0308c ago ya jam n\u00eb pinynhom eb\u00ebn. Ac\u00ef k\u00e4ju\u00ebc
+  pu\u0254th b\u025b\u0308n:\\n- Yen an\u0254\u014b nambaai thiekic de w\u00ebl. Ee
+  th\u00f6\u014b ken\u00eb tho\u014b Italian ka Spanish.\\n- Aye g\u0254\u0308t n\u00eb
+  tho\u014b de\u014b. Ac\u00efn meth l\u00ebu b\u00ef run ju\u00ebc ya ku\u025b\u0308n
+  pi\u00f6\u00f6c de k\u00e4 c\u00ef\u00ef r\u0254t loi.\\n- Yen an\u0254\u014b tho\u014b
+  de thu\u0254\u014b de thu\u0254\u014b de piny, th\u00f6\u014b ken\u00eb tho\u014b
+  de Creole pinynhom.\\n- Yen an\u0254\u014b k\u00e4 thiekic ku k\u00e4 ju\u00ebc
+  ke k\u00e4 ye kek looi n\u00eb k\u00e4 ye kek lueel n\u00eb w\u00ebl yiic.\\n- Ac\u00ef
+  l\u00f6\u00f6\u014b \u014bic apath t\u00ebn\u00eb w\u00ebl ke thook, c\u00eft t\u025b\u0308
+  ye thook ju\u00ebc thiek yiic.\\n- W\u025b\u0308t ye lueel ee thi\u00e4\u00e4k ken\u00eb
+  thook ke Romances. Thookk\u00e4 kek aa lac w\u00e4\u00e4c ku aa na\u014b ri\u025bl
+  ap\u025bi, ku keek aac\u00ef k\u00e4 ju\u00ebc ke thook ke tho\u014b de English
+  b\u025b\u0308n t\u00e4\u00e4u th\u00efn\\n- Ac\u00ef guiir b\u00ef w\u00ebl ke Latin
+  ku w\u00ebl ke Greek ya gam, man ye de facto \\\"world standard\\\".\\n- Ac\u00ef
+  looi b\u00ef ya k\u00eb ye k\u0254c \u014bic thook ke k\u0254c Romance t\u00ef\u014b
+  ke ye thook path, ke c\u00efn k\u00eb ye k\u0254c k\u0254\u0308k y\u00f6k ke ril
+  b\u00efk ke pi\u0254\u0308\u0254\u0308c.\"", "\"Lop\\nLop ee ke cii rap, aye cam
+  cim\u025bn de ku\u00efn n\u00eb piiny ju\u00ebc ke Athia. Aye puur t\u00eb tuc n\u00eb
+  piinyk\u0254\u0308k n\u00eb pinynhom, cim\u025bn de Athia, Apirika, parut de Italy
+  ku piny pacu\u0254l n\u00eb w\u025b\u0308\u025b\u0308ry\u0254u de Parut Amerika.\\nLop
+  at\u0254\u0308 ke ye mi\u025b\u0308th ye cam ak\u00f6l ri\u025b\u0308\u025b\u0308c
+  n\u00eb b\u025b\u0308i k\u0254\u0308k ju\u00ebc. Ak\u00f6l k\u0254\u0308k aye thaal
+  k\u00e4 tuuc\u00eb yet\u00f6k ku ka cie nyindhi\u025b ne \u0263\u00e4n k\u0254\u0308k
+  cim\u025bn de Thipain. Lop aye geet tuee\u014b n\u00eb mi\u00f6k de olip k\u00e4
+  mi\u00f6kde we\u014b ku thal n\u00eb piu k\u00e4 cuaai. N\u00eb piny k\u0254\u0308k
+  yiic cim\u025bn de India lop aye cam kenn\u00eb anuai (ye c\u0254l aluega) lop al\u00ebu
+  bi dhiim \u00ebya ke ye m\u0254\u0308u ku bi raan c\u0254l amu\u0254\u0308l cim\u025bn
+  de Japan ac\u00efk gam.\\nLop ac\u00ef gam ke ye k\u00eb tuee\u014b de k\u00e4 ye
+  lu\u0254k piny wanth\u025b\u025br paguot de Ca\u00efna ku India. Cum de lop aa bi\u00eb
+  Japan, t\u025bkd\u025b\u0308 n\u00eb ru\u0254\u0308\u0254\u0308n tim t\u00f6\u00f6k
+  ke Kritho k\u00ebn b\u025b\u0308n ku j\u0254l nhiaar ar\u00eb\u00ebt n\u00eb raan
+  n\u00eb tim reu ku tim di\u00e4k. N\u00eb India lop aci r\u0254t t\u025bk piny paguot
+  de Yurop ku Apirika.\\nTiamli\u025b\u025bt ku ti\u0254\u0308\u014bde piu ci d\u00ebu
+  yen n\u00eb ka pi\u025bth ben n\u00eb lop com th\u00efn. K\u00e4u de lop ak\u0254\u0254r
+  24C k\u00e4 tue\u014b ku w\u025b\u0308\u025b\u0308r th\u00ef\u00efn koor t\u00eb
+  com\u00eb ye ku cilde ku t\u00eb tem \u00eb ye n\u00eb ru\u0254\u0308\u0254\u0308nic.
+  Ee cil api\u0254th n\u00eb \u0263\u00e4n ye tu\u025bny de de\u014b ke ya 100cm.
+  K\u025bm ke w\u00eb\u00ebr, w\u00e4r, li\u025bl ku baar t\u00eb l\u0254 tooc, piny
+  th\u00f6\u014b n\u00eb k\u025bm ke kur yen n\u00eb ka pi\u025bth ke cum.\\nLop aye
+  com piny th\u00f6\u014b nhom ku n\u0254\u014bic piu ke k\u00ebn n\u00eb gu\u0254
+  com, piu aaye ke mi\u025b\u025bt wei domic. A\u014boot mapuur ke ke k\u00ebn aju\u025b\u025br
+  pu\u0254th de pu\u0254\u0308\u0254\u0308r gu\u0254 looi, w\u00e4l \u00eb tim kueet,
+  aaye piny c\u0254l al\u0254\u0308\u014bic n\u00eb ru\u0254\u0308\u0254\u0308n t\u00f6k
+  ka rou ke mapuur pur n\u00eb \u0263\u00e4n k\u0254\u0308k.\\nN\u00eb \u0263\u00e4n
+  tuc, thi\u00e4\u00e4k ke t\u00eb ye ak\u0254\u0308l t\u00eb\u00ebk th\u00efn, mapuur
+  aye k\u0254\u0308th rekic n\u00eb rou n\u00eb ru\u0254\u0308\u0254\u0308n t\u00f6kic.\\nLop
+  an\u0254\u014bic k\u00e4 ju\u00ebc ye k\u0254c mi\u0254\u0254c gup \u00ebpiu. Lop
+  ee yic rou, mathi\u00e4\u014b ku mabi\u00f6\u00f6r. Lop mathi\u00e4\u014b an\u0254\u014b
+  k\u0254\u0308u p\u00e4\u00e4t deen ye nyu\u0254\u0254n wei, ku ka n\u0254\u014bic
+  miith aw\u00e4r lop mabi\u00f6\u00f6r.\"", "\"Tasmania\\naba\u014b PDF t\u00ebn\u00eb
+  ap\u00e4m k\u00ebn\u00eb (19kb)\\nKorthaat ku k\u0254c ye k\u0254c ku\u0254ny\\nPi\u00f6\u00f6c
+  e k\u0254c dit Tasmania\\nPir korthaat 800 yenhom at\u0254\u0308 n\u00eb Tasmania\\n\u0194\u00f6\u00f6t
+  Neibourhood ku \u0263aan ke pi\u00f6c akut nhom\\nAkut k\u0254c Tasmania de akut
+  nhom \u0263\u00f6\u00f6t yen e \u0263aan athor nyooth gam n\u00eb Tasmania\\nTasmania
+  Polytechnic\\nE thukul dit ye k\u0254c ku\u0254ny pi\u00f6c \u00eb pu\u0254\u0308th
+  thath. Yen aya e k\u0254c ku\u0254ny cok aguir t\u00ebn\u00eb abek\u00f6\u00f6k.\\nThukul
+  k\u00e4k t\u00ebt Tasmania\\nPi\u00f6c k\u00e4k t\u00ebt n\u00eb Launceston\\nK\u00e4k
+  pi\u00f6c akut nhom k\u0254\u0308k\\nMat\u00ebm \u00eb pi\u00f6\u00f6c Tasmania\\nBa
+  nu\u025bt t\u00ebn\u00eb k\u00e4k pi\u00f6\u00f6c akut nhom n\u00eb Tasmania\\nK\u00e4k
+  t\u00ebtTasmania\\nL\u00ebk e ku\u0254ny akuma \u00eb pi\u00f6\u00f6c k\u00e4k t\u00ebt
+  ku pi\u00f6c n\u00eb Tasmania.\"", "\"Kanye West\\nKanye Omari West (dhi\u00ebth
+  P\u025bn\u00ebdhetem ak\u0254l 8, 1977), raan Amer\u00efka pan Chicago, ee ari\u00e4\u014bti\u00f6n
+  \u0263ip\u0263op, mag\u0254\u0308tdi\u025bt, mab\u00ebk\u00e4\u014bbei \u00eb d\u00f6m\u00ebdi\u025bt
+  [record producer], madiir \u00eb c\u00e4that\u00ef\u00efp [movies], raanguirji\u025bk,
+  ku maguiirk\u00e4cie\u014b. L\u025bcde ac\u00eb l\u0254 nhial ru\u0254\u0308n 2000
+  ci\u025blic. Akuut\u00ebdi\u025btke tue\u014b karou, The College Dropout (\\\"Ap\u00e4lg\u00e4\u00e4t
+  \u00eb \u0194\u00f6nd\u00eft\\\") ku Late Registration (\\\"G\u00ebtpiny c\u00eb
+  Gau\\\") ac\u00eb k\u00e4leec\u00eblonpath [awards] juac (adekic Grammys kadhetem)
+  y\u00f6k, ku ac\u00ef leec n\u00eb k\u0254c yee t\u00efo\u014bdh\u00eb\u00eb\u014b
+  [m\u00e4dhik\u00e4] laathic ku ac\u00eb ti\u025bm ar\u00ebt ay\u025b lo\u014b de
+  \u0263\u025b\u025bc n\u00eb d\u00f6m\u00ebdi\u025btke. West aya an\u0254\u014b de
+  akutm\u025b\u0308tloiweu \u00eb d\u00f6m\u00ebdi\u025bt c\u0254l GOOD Music. Ab\u00ef\u00efduar\u00eb
+  ku r\u025b\u0308\u025b\u0308\u014b\u00eb\u0263\u025b\u025bc\u00eb ye k\u00f6\u00f6r-ayu\u00e4\u00e4l.
+  Kin \u00eb k\u00f6\u00f6r-ayu\u00e4\u00e4l ac\u00eb t\u00efc n\u00eb k\u0254\u0308\u0254\u0308th
+  ke akuut\u00ebdi\u025btken tue\u014b kadi\u00e4k k\u0254\u0254th ku n\u00eb din
+  t\u00f6k k\u0254u aya c\u0254l \\\"Stronger\\\" (\\\"Ari\u025bl Ap\u025b\u00ef\\\").
+  Ru\u0254\u0308n 2008 ac\u00ef akuut\u00ebdi\u025bt\u00eb ka\u014buan b\u025b\u0308n
+  bei, 808s & Heartbreak (\\\"808s ku Dhienpu\u0254\u0308u\\\"). Ru\u0254\u0308n 2010
+  ac\u00ef akuut\u00ebdi\u025bt\u00eb kadhi\u00ebc b\u025b\u0308n bei, c\u0254l Words
+  (W\u00ebl), ku ru\u0254\u0308n 2013 akuut\u00ebdi\u025bt\u00eb kadhetem, Yeezuz.
+  Yeezuz ac\u00ef ben dhuuklaath apath y\u00f6k n\u00eb k\u0254c yee tu\u00f6ndh\u00eb\u00eb\u014b
+  laathic.\\nP\u00efrden tue\u014b[cokic | cok t\u00ebn\u00eby\u00f6kic]\\nWest ac\u00eb
+  dhi\u00ebth n\u00eb amidhi\u00eb\u00ebth k\u0254c col tokaamiccielic [middle-class]
+  pan Atlanta, Georgia. Yen kek\u00eb man aac\u00eb k\u0254\u0308k Chicago \u0263\u0254n
+  yen ru\u0254\u0308nke di\u00e4k. Yen ac\u00eb g\u0254\u0308l b\u00eb k\u00ebp dh\u00eb\u014b
+  g\u0254\u0308t keye ru\u0254\u0308n dhi\u00ebc. Kanye kek\u00eb man aac\u00eb j\u0254l
+  Nanji\u014b, China waar yen ru\u0254\u0308nke thi\u00e4\u00e4r. N\u00eb ru\u0254\u0308n
+  1997, West ac\u00eb g\u0254l b\u00eb teet\u00eby\u00ef\u025bu pi\u00f6\u00f6c n\u00eb
+  American Academy of Art (\u0194\u00f6nd\u00eft \u00eb Teetdh\u00eb\u014b de Amerik\u00e4)
+  n\u00eb pan Chicago. N\u00eb kaam thiin c\u00f6k ac\u00eb t\u00ebde g\u00e4\u00e4r
+  waaric b\u00eb l\u0254 Chicago State University (\u0194\u00f6nd\u00eft Pawut Chicago)
+  b\u00eb pi\u00f6cde ru\u0254k l\u0254\u014b Tho\u014bd\u00ef\u014bl\u00efth. Na
+  wen c\u00eb ruon 20 \u0263\u00f6nd\u00eft paal b\u00eb nyin tuir n\u00eb ti\u00f6ndh\u00eb\u00eb\u014b.\"",
+  "\"G\u0254\u0308c \u00ebk\u00eb c\u00ef g\u0254\u0308t\\naba\u014b PDF t\u00ebn\u00eb
+  ap\u00e4m k\u00ebn\u00eb (29kb)\\nL\u00e4t de k\u0254cd\u00eft pi\u0254\u0308c ador
+  kapu\u0254th ju\u025b\u0308c ye ke y\u00f6k n\u00eb pi\u00f6c \u00eb k\u0254cd\u00eft
+  yic t\u0254\u0308 n\u00eb Australia.\\nThukul de k\u0254c cie\u014b baai ac\u00ef
+  liep thok t\u00ebn\u00eb k\u0254c kek n\u0254\u014b run ku\u0254\u0308tiic ku n\u0254\u014b
+  k\u00eb thukul wu\u00e4\u00e4c . \u00cb ru\u0254\u0308n t\u00f6kic bu\u0254t de
+  al\u00efb de k\u0254c ke Australia aye kuen \u00eb ku\u025br n\u00eb lu\u0254\u0308i
+  tajir kueen, pu\u0254\u0308r, ku\u025br \u00eb lu\u0254i, k\u0254mpu\u0254\u0308ta,
+  d\u00eb\u00ebt ku thuur, di\u025b\u0308r, pial de gup, th\u00e4t, ku thook n\u00eb
+  kuer de akutnh\u00ef\u00efm \u00eb k\u0254c cie\u014b baai ye pi\u00f6\u00f6c .\\nThukul
+  \u00eb k\u0254c ke baai ac\u00efn w\u00ebu ju\u025b\u0308c yeke k\u0254\u0254r ku
+  yen aye gam n\u00eb kuer pu\u0254th tu\u0254\u0308\u0254\u0308m ke k\u0254c, n\u0254\u014biic
+  thukuul d\u00eft ke k\u0254c cie\u014b baai, \u0263\u00f6\u00f6t ak\u025b\u025bthnh\u00ef\u00efm,
+  \u0263\u00f6\u00f6t ke ath\u00f6r ku TAFE. \u0194\u00e4n ye abak\u00f6\u00f6k ke
+  k\u025b\u0308k ku\u0254\u0254ny y\u00f6k th\u00efn k\u0254\u0308k aye thukul gam,
+  ku kek al\u00ebu b\u00efk y\u00efn kony n\u00eb y\u00f6k de k\u0254\u0308\u0254\u0308th
+  tu\u0254\u0308\u0254\u0308m kek\u00eb k\u0254\u0254r. Y\u00efn al\u00ebu ba r\u0254t
+  mat n\u00eb akutnhom de pol yic, w\u025b\u0308kc\u0254p de k\u00f6l t\u00f6k, ka
+  ye k\u0254\u0308\u0254\u0308th \u00eb l\u00e4\u00e4t ka p\u025b\u0308i ju\u025b\u0308c.\\nThukul
+  ke k\u0254c cie\u014b baai k\u00ebn\u00eb ke yi\u025b\u0308k ri\u025bl (k\u0254\u0308\u0254\u0308th
+  c\u00efn ny\u00efny d\u00ef\u00eft ye l\u0254 y\u00f6k th\u00efn nhi\u00e4k) al\u00ebu
+  b\u00efk ya kuer pu\u0254th juiir l\u0254 \u00eb thukul tue\u014b d\u0254\u0308
+  yic, luui, ka g\u025b\u0308\u025b\u0308r \u00ebk\u00eb ca nyic. K\u0254\u0308\u0254\u0308th
+  cekic al\u00ebu b\u00ef y\u00efn kony ba na\u014b ny\u00efny \u00eb t\u00eb\u00ebt
+  de yam ka ku\u025br \u00eb pi\u00f6cd\u00eft, kuany k\u00ebn\u00eb pu\u0254\u0308n
+  du c\u00f6k, c\u0254\u0308k \u00eb ku\u025br kuk \u00eb jam piny, ku ye r\u0254\u0308m
+  ken\u00eb k\u0254c \u00eb dhi\u00ebnh du\u0254\u0308n. Y\u00efn ab\u00ef t\u00eb
+  ye thukuul Australia luui th\u00efn nyic ar\u00ebt j\u0254k deet \u00eb pu\u0254\u0308u
+  b\u00efn lu\u0254i ku pi\u00f6c kuanyc\u00f6k n\u00eb kuer \u00eb yam.\\nBa\u014b
+  pu\u0254th n\u00eb c\u00e4th dun \u00eb p\u00efr de pi\u00f6c b\u025b\u0308ric!\"",
+  "\"22\\n1 Ku ben atuny nhial \u0263a nyu\u0254\u0308th w\u00e4r c\u00ef thi\u00e4\u014b
+  p\u00efu \u00eb p\u00efr la k\u00efrk\u00efr ap\u025bi b\u0254\u0308 t\u00ebn\u00eb
+  th\u00f6ny Nhialic ku Manh Am\u00e4\u00e4l,\\n2 ke ku\u00eb\u00ebr geeu g\u00ebk
+  ci\u025bl yic. Ag\u00f6r \u00eb w\u00e4r l\u0254\u014b ku l\u0254\u014b, ak\u025b\u0308\u025b\u0308c
+  tim \u00eb p\u00efr th\u00efn, tim lu\u0254k \u00eb p\u025b\u025bi thok \u00ebb\u00ebn
+  ru\u0254\u0308\u0254\u0308n t\u00f6k yic, ku k\u0254c wu\u0254\u0308t \u00ebb\u00ebn
+  aa yi\u025b\u0308thke l\u00f6\u00f6m b\u00ef kek \u0263\u0254\u0308nt\u00f6\u00f6k
+  aa c\u0254l adem, ku tu\u025bny k\u0254\u0308k aya.\\n3 Ac\u00efn d\u025b\u0308t
+  m\u025b\u025bn Nhialic b\u00ef r\u00eb\u00ebr ye gen k\u00ebn\u00eb yic. K\u0254c
+  Nhialic ku th\u00f6ny Nhialic kek th\u00f6ny Manh Am\u00e4\u00e4l kek aa r\u025b\u0308\u025b\u0308r
+  th\u00efn, ku k\u0254c \u00eb Nhialic kek aab\u00ef ye aa door.\\n4 K\u0254ck\u00e4
+  aab\u00ef Nhialic aa t\u00ef\u014b ku rin Nhialic ab\u00ef g\u00e4t kenh\u00ef\u00efm
+  tue\u014b.\\n5 Ab\u00ef ci\u025b\u0308n cu\u0254l \u00eb piny ye gen yic. K\u0254c
+  \u00eb r\u00eb\u00ebr th\u00efn aac\u00ef\u00ef b\u00ef w\u00efc ru\u025bl ak\u0254\u0308l,
+  t\u025b\u0308d\u00eb ke ye many b\u00ef piny mer yen w\u00efck\u00eb. Rin Nhialic
+  yen ab\u00ef ya ru\u025blden. Aab\u00ef r\u00eb\u00ebr th\u00efn ke ye b\u00e4ny
+  ak\u00f6lri\u00eb\u00ebc \u00ebb\u00ebn.\\nB\u025b\u0308n \u00eb Jethu\\n6 Go atuuc
+  l\u025b\u0308k \u0263a, \u201cKuat k\u00e4k ca t\u00ef\u014b ku pi\u014b ke aa yith
+  \u00ebb\u00ebn. Ku B\u025b\u0308ny Nhialic yen W\u025b\u0308ike \u0263\u00e4th \u00eb
+  k\u0254c k\u00e4k Nhialic t\u00ef\u014b gup, yen ac\u00e4 atu\u0254\u0308nyde tu\u0254\u0308\u0254\u0308c
+  b\u00ef kacke nyu\u0254\u0308th k\u00e4k b\u00ef r\u00f6t looi ye n\u00efnk\u00e4.\u201d\\n7
+  Aye Jethu lueel \u00ebl\u00e4, \u201cDhi\u025blk\u00eb pi\u014b apath! \u0194\u025bn
+  ab\u0254\u0308 \u00ebm\u00ebn! K\u0254c mit pu\u0254\u0308th aa k\u0254c thek k\u00e4k
+  c\u00ef lueel ath\u00f6r k\u00ebn\u00eb yic \u00ebb\u00ebn!\u201d\\n8 Ee \u0263\u025bn
+  Joon \u0263\u025bn a \u0263a p\u00ef\u014b ku ti\u025b\u0308\u014b k\u00e4kk\u00e4.
+  T\u025b\u0308w\u00ebn c\u00ef \u0263\u025bn ke pi\u014b ku ti\u025b\u0308\u014b
+  ke, ke \u0263a gut \u0263anhi\u0254l piny yec\u00f6k ku du\u0254\u0254r atuny w\u00ebn
+  nyuth \u0263\u025bn k\u00e4kk\u00e4.\\n9 Go jal l\u025b\u0308k \u0263a, \u201cDuk
+  loi k\u00ebya! \u0194\u025bn alony c\u00efm\u00ebndu, ku mi\u025b\u0308thakui k\u0254c
+  k\u00e4k Nhialic t\u00ef\u014b, ku k\u0254c \u00ebb\u00ebn k\u00e4k t\u0254\u0308
+  ath\u00f6r yic theek. Dor Nhialic!\u201d\\n10 Ku l\u00ebk \u0263a, \u201cDuk k\u00e4k
+  c\u00ef g\u0254\u0308t ath\u00f6r k\u00e4k Nhialic k\u00ebn\u00eb yic thian t\u00ebn\u00eb
+  k\u0254c, rin c\u00ef piny thi\u0254\u0308k ke th\u00f6k.\\n11 Ku k\u0254c k\u00e4r\u025bc
+  looi aab\u00ef \u014bot ke la tue\u014b ke looi k\u00e4r\u025bc, ku k\u0254c c\u00ef
+  w\u025b\u0308t J\u0254\u014brac gam aab\u00ef \u014bot loik\u00eb k\u00ebya. Ku
+  k\u0254c \u00eb luui k\u00e4path aab\u00ef ya luui k\u00e4path. Ku k\u0254c Nhialic
+  aab\u00ef la tue\u014b ke luui Nhialic.\u201d\\n12 Aye Jethu lueel \u00ebl\u00e4,
+  \u201cPi\u025b\u014bk\u00eb apath \u0263\u025bn ab\u0254\u0308 \u00ebm\u00ebn thiin,
+  \u0263\u025bn ab\u0254\u0308 ba k\u0254c b\u025b\u0308n ri\u0254p, t\u025b\u0308d\u00eb
+  ke \u0263a t\u00ebm k\u0254c awu\u0254\u0308c th\u00f6\u014b kek k\u00eb c\u00ef
+  \u014b\u025bk looi th\u025b\u025br w\u00e4\u00e4r.\\n13 Ee \u0263\u025bn j\u0254\u0308k
+  \u00eb c\u00f6k ku \u0263\u025bn th\u00f6k \u00eb k\u00e4\u014b.\\n14 \u201cK\u0254c
+  mit gup aa k\u0254c c\u00e4 al\u00e4thken l\u0254\u0254k ri\u025bm Manh Am\u00e4\u00e4l,
+  rin aab\u00ef la yic b\u00efk m\u00efth tim p\u00ef\u00efr cam, ku aala yic aya
+  b\u00efk la gen Nhialic \u00eb yam.\\n15 K\u0254c t\u0254\u0308 g\u025bu k\u0254\u0308u
+  aa k\u0254c pan mac, k\u0254c c\u00ef kegup yi\u00ebk acu\u0254l rin theek kek j\u0254\u014brac,
+  k\u0254c n\u00e4k \u00eb k\u0254c, ku k\u0254c \u00eb jam lueth, ku k\u0254c luui
+  k\u00e4k bal aac\u00ef\u00ef k\u0254\u014b la \u00eb gen k\u00ebn\u00eb yic ac\u00efn.\\n16
+  \u201cAye Jethu lueel \u00ebl\u00e4, \u0194\u025bn ac\u00e4 atu\u0254\u0308nydi\u025b\u0308
+  tooc b\u00ef k\u00e4kk\u00e4 b\u025b\u0308n l\u025b\u0308k we, wek akuut c\u00ef
+  gam. \u0194\u025bn \u00eb kuat dhi\u00ebnh b\u025b\u0308ny\u014baknhom Debit, ee
+  ci\u00eb\u00ebr bak piny \u00eb ru\u025bl b\u025b\u0308\u025b\u0308i.\u201d\\n17
+  Aye W\u00ebi Nhialic ku k\u0254c Nhialic kek c\u00eft nyan thiak \u00eb Manh Am\u00e4\u00e4l
+  lueel, \u201cB\u00e4k!\u201d Ku kuat raan pi\u014b \u00eb k\u00ebn\u00eb adhil lueel
+  aya, \u201cB\u00e4k!\u201d Na le raan n\u025b\u0308k rou ke b\u0254\u0308, kuat
+  raan n\u025b\u0308k rou ab\u00ef dek p\u00efu p\u00ef\u00efr \u00eb path.\\nTh\u00f6k
+  \u00eb w\u00ebl\\n18 \u0194\u025bn Joon, \u0263\u025bn al\u00ebk kuat raan pi\u014b
+  \u00eb w\u025b\u0308t k\u00ebn\u00eb pu\u0254\u0308u \u00ebb\u00ebn, na le raan
+  ju\u025bk k\u00ebde th\u00efn ka b\u00ef Nhialic tu\u0254\u0308c k\u00e4r\u025bc
+  c\u00ef g\u0254\u0308t ath\u00f6r k\u00ebn\u00eb yic.\\n19 Ku na le raan ny\u025b\u025bi
+  w\u025b\u0308t t\u00f6k kam w\u00ebl t\u0254\u0308 ath\u00f6r w\u00ebl c\u00ef nyu\u0254\u0308th
+  \u0263\u025bn yic, ke Nhialic ab\u00ef yinyden b\u00ef t\u025b\u0308k ye m\u00efth
+  tim \u00eb p\u00ef\u00efr yic, ku la gen yam, c\u00ef ke g\u0254\u0308t ath\u00f6r
+  k\u00ebn\u00eb yic, nyaai t\u00ebn\u00eb ye.\\n20 Ku Jethu raan l\u00ebk k\u0254c
+  k\u00e4kk\u00e4 \u00ebb\u00ebn aye lueel, \u201c\u0194\u025b\u0308\u025b\u0308-\u0263\u025b\u0308\u025b\u0308!
+  \u0194\u025bn ab\u0254\u0308 \u00ebm\u00ebn!\u201d K\u00ebya, ee t\u025b\u0308de.
+  B\u00e4\u00e4r B\u025b\u0308ny Jethu!\\n21 B\u00ef dh\u00eb\u00eb\u014b B\u025b\u0308ny
+  Jethu r\u00eb\u00ebr kek k\u0254c \u00eb Nhialic. Yenakan.\"", "\"Y\u00e4cpou\\nY\u00e4cp\u00efu
+  [cholera n\u00eb th\u00f6\u014b D\u00ef\u014bl\u00efth] ee tu\u00ebny kocli\u00e4p
+  t\u00eb ci abu\u00f6t Maguat-Pou ye cak. Ee c\u00efnkor yen ayee d\u0254m. K\u00eft
+  \u014bic ap\u025b\u0308i eyaa ciith pi\u00e9u ap\u025b\u0308i. R\u025b\u0308\u025b\u0308cde
+  ap\u025b\u0308i, ciith ee yec\u00f6k r\u025b\u025bk abi raan thou kamkor rin \u00eb
+  d\u00f6upiuguop.\\nY\u00e4cpou ee tuany de runth\u025b\u025br. W\u00eblcig\u0254t
+  de y\u00e4cpou (n\u00eb th\u00f6\u014b Sanskrit) aaci y\u00f6k g\u00f6lcok runbu\u0254t
+  yekek dhiec YKD (Yecu K\u00ebc Dhieth). W\u00eblth\u025b\u025bric eb\u00ebn, ano\u014b
+  m\u025b\u014bbei ju\u00ebc ku akumpiny de y\u00e4cpou ci r\u00f6t loi.\\nAbu\u00f6t
+  Ma\u014buat-Pou ano\u014b kuat (mecthok) ju\u00ebc. Ab\u00ebk ken aa ci\u00e9k tu\u00ebny
+  riliic tene k\u00f6k. Rin\u00ebken, k\u0254c k\u00f6k ci li\u00e4\u00e4p y\u00e4cpou
+  aa cin kiit \u00e9 tuany; k\u0254c k\u00f6k aa na\u014b kiit cie r\u00ebc ap\u025b\u0308i,
+  ku k\u00f6k aa na\u014b kiit r\u00ebc ap\u025b\u0308i.\\nY\u00e4cpou a\u014bot ye
+  liaap \u0263\u00f4n ju\u00ebc de pinynhom. Th\u00f6\u014bkou n\u00eb 2010 aye luel
+  ula raan kam mali\u00f6n ka 3 agutci mali\u00f6n ka 5 aaye y\u00e4cpou d\u0254m
+  ru\u00f6n thok eb\u00ebn, ku 58,000\u2013130,000 aathou ne tueny kene ruon eb\u00ebn.
+  Yak\u00f6l\u00eb, y\u00e4cpou aye c\u0254l a\u0263u\u0254kthai. Kuyenaya, ag\u00e4k
+  apei ne b\u025b\u025bi cilatue\u014b yiic, alo\u014bdietde ne m\u00efth yic.\\nCi\u00ebk
+  de Y\u00e4cpou[cokic | cok t\u00ebn\u00eby\u00f6kic]\\nK\u0254c aa y\u00e4cpou y\u00f6k
+  ne dhel c\u00e4\u00e4m de c\u00e4m aye d\u00ebk de piu no\u014b acu\u0254l. K\u0254c
+  n\u00ebk y\u00e4cpou aa ciith ap\u025bi, ku abu\u00f6t de y\u00e4cpou ee r\u00ebr
+  p\u00efr ne w\u00ebric. Ne b\u00eb\u00ebi latue\u014b yic, arakthok, acin liucuol
+  path. Y\u00e4cpou ee thiai t\u00e4lee c\u00efth li\u00e4p kek piu ye k\u0254c k\u00f3k
+  gem.\\nCim\u00ebn\u00eb, t\u00e4le acu\u0254l (w\u00eb\u00ebr raan) la \u0263et
+  w\u00e4r ye k\u0254c ju\u00ebc gem thin, k\u0254c aaye y\u00e4cpou d\u0254m t\u00e4le
+  kek:\\n- Dek piu ne w\u00e4r k\u00ebn\u00eb yic\\n- Cam mi\u00ebth cik lok kou w\u00e4ric\\n-
+  Cam r\u00ebc ci\u00eb\u014b w\u00e4r k\u00ebn\u00eb yic, t\u00e4 k\u00ebc yen \u014bi\u025bc
+  thaal ar\u00ebk bi abu\u00f6t y\u00e4cpou n\u0254k.\\nK\u00ebn\u00eb ee yen ci\u00ebk
+  ne y\u00e4cpou g\u00e4\u00e4k ap\u025bi t\u00ebn\u00eb b\u00eb\u00ebi cilatue\u014b.
+  K\u0254c cam miithwiir cim\u00ebn\u00eb ju\u00e4l bii bei pi\u025b\u0308u no\u014bic
+  abu\u00f6t y\u00e4cpou ku go tu\u0254\u0254c dukan b\u00ebi cilatue\u014b.\""]'
+src_ngrams: '{"1": [[["\u00eb"], 23724], [["raan"], 13273], [["de"], 11653], [["yen"],
+  11327], [["nhialic"], 11102]], "2": [[["\u00eb th\u00e4\u00e4t"], 1158], [["southwestern
+  dinka"], 998], [["wek aa"], 858], [["th\u00e4\u00e4t \u00eb"], 794], [["\u00eb th\u00e4\u00e4"],
+  747]], "3": [[["l\u0254c ku d\u0254c"], 1008], [["raan c\u00ef l\u0254c"], 993],
+  [["\u00eb th\u00e4\u00e4t \u00eb"], 739], [["th\u00e4\u00e4t \u00eb th\u00e4\u00e4t"],
+  713], [["\u00eb th\u00e4\u00e4 \u00eb"], 472]], "4": [[["\u00eb th\u00e4\u00e4t
+  \u00eb th\u00e4\u00e4t"], 673], [["th\u00e4\u00e4t \u00eb th\u00e4\u00e4t \u00eb"],
+  506], [["\u00eb th\u00e4\u00e4 \u00eb th\u00e4\u00e4"], 394], [["th\u00e4\u00e4
+  \u00eb th\u00e4\u00e4 \u00eb"], 324], [["ath\u00f6r th\u025b\u025br w\u00ebl nhialic"],
+  255]], "5": [[["raan c\u00ef l\u0254c ku d\u0254c"], 986], [["\u00eb th\u00e4\u00e4t
+  \u00eb th\u00e4\u00e4t \u00eb"], 485], [["th\u00e4\u00e4t \u00eb th\u00e4\u00e4t
+  \u00eb th\u00e4\u00e4t"], 472], [["th\u00e4\u00e4 \u00eb th\u00e4\u00e4 \u00eb th\u00e4\u00e4"],
+  302], [["\u00eb th\u00e4\u00e4 \u00eb th\u00e4\u00e4 \u00eb"], 300]]}'

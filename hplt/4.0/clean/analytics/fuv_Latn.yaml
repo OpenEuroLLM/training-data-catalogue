@@ -1,0 +1,1098 @@
+corpus: hplt-v4-ff
+srclang: ff
+timestamp: 1789028104.1011932
+warnings:
+- src_ngrams_ff_nostopwords
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2024-42", 1239], ["CC-MAIN-2025-30", 373], ["CC-MAIN-2018-05",
+  367], ["wide00012", 239], ["CC-MAIN-2025-33", 223], ["CC-MAIN-2025-21", 218], ["CC-MAIN-2020-05",
+  209], ["CC-MAIN-2025-26", 199], ["CC-MAIN-2023-06", 195], ["CC-MAIN-2020-10", 190],
+  ["CC-MAIN-2024-22", 159], ["CC-MAIN-2025-13", 141], ["CC-MAIN-2023-23", 130], ["CC-MAIN-2023-14",
+  124], ["CC-MAIN-2022-49", 122], ["CC-MAIN-2024-38", 121], ["CC-MAIN-2025-18", 110],
+  ["CC-MAIN-2023-40", 107], ["CC-MAIN-2025-08", 103], ["CC-MAIN-2017-51", 101], ["CC-MAIN-2017-26",
+  95], ["CC-MAIN-2025-05", 89], ["CC-MAIN-2024-46", 88], ["CC-MAIN-2024-18", 77],
+  ["CC-MAIN-2022-27", 72], ["CC-MAIN-2020-29", 69], ["CC-MAIN-2024-51", 68], ["CC-MAIN-2022-21",
+  67], ["CC-MAIN-2019-04", 67], ["CC-MAIN-2018-39", 64], ["CC-MAIN-2020-34", 61],
+  ["CC-MAIN-2020-16", 60], ["CC-MAIN-2014-15", 59], ["CC-MAIN-2022-40", 54], ["CC-MAIN-2021-43",
+  52], ["CC-MAIN-2018-22", 51], ["CC-MAIN-2021-04", 50], ["CC-MAIN-2022-33", 48],
+  ["CC-MAIN-2024-26", 47], ["CC-MAIN-2021-39", 46], ["CC-MAIN-2024-30", 44], ["CC-MAIN-2020-24",
+  43], ["CC-MAIN-2018-34", 42], ["CC-MAIN-2023-50", 41], ["CC-MAIN-2024-33", 39],
+  ["CC-MAIN-2021-10", 36], ["CC-MAIN-2021-25", 32], ["CC-MAIN-2021-17", 31], ["CC-MAIN-2020-40",
+  31], ["wide00015", 29], ["CC-MAIN-2022-05", 29], ["CC-MAIN-2021-31", 29], ["CC-MAIN-2024-10",
+  28], ["CC-MAIN-2021-49", 28], ["CC-MAIN-2014-35", 28], ["CC-MAIN-2020-45", 26],
+  ["CC-MAIN-2020-50", 25], ["wide00010", 23], ["CC-MAIN-2021-21", 23], ["CC-MAIN-2015-18",
+  23], ["CC-MAIN-2016-30", 22], ["CC-MAIN-2017-04", 21], ["CC-MAIN-2014-42", 18],
+  ["wide00017", 17], ["CC-MAIN-2015-48", 17], ["CC-MAIN-2018-43", 14], ["CC-MAIN-2015-11",
+  14], ["CC-MAIN-2016-40", 13], ["wide00011", 11], ["wide00006", 10], ["wide00016",
+  6], ["wide00005", 4], ["CC-MAIN-2016-44", 3], ["wide00002", 1]]'
+docs_langs: '[[0.0, 6755]]'
+docs_segments: '[[1, 35], [2, 368], [3, 498], [4, 650], [5, 820], [6, 650], [7, 548],
+  [8, 453], [9, 316], [10, 260], [11, 207], [12, 195], [13, 145], [14, 145], [15,
+  140], [16, 120], [17, 93], [18, 91], [19, 74], [20, 78], [21, 72], [22, 57], [23,
+  53], [24, 61], [25, 54], [26, 40], [27, 35], [28, 16], [29, 37], [30, 19], [31,
+  34], [32, 16], [33, 15], [34, 19], [35, 20], [36, 18], [37, 18], [38, 14], [39,
+  13], [40, 15], [41, 7], [42, 7], [43, 4], [44, 17], [45, 12], [46, 7], [47, 9],
+  [48, 5], [49, 12], [50, 7], [51, 6], [52, 4], [53, 4], [54, 9], [55, 3], [56, 2],
+  [57, 4], [58, 6], [59, 5], [60, 2], [62, 4], [63, 1], [64, 4], [65, 2], [66, 1],
+  [67, 4], [68, 3], [69, 2], [70, 1], [71, 4], [72, 3], [73, 1], [74, 2], [75, 5],
+  [76, 3], [77, 2], [78, 1], [79, 4], [80, 2], [81, 3], [83, 2], [84, 2], [86, 1],
+  [87, 1], [88, 1], [89, 1], [90, 3], [91, 3], [92, 2], [94, 1], [95, 2], [96, 3],
+  [97, 1], [105, 1], [106, 1], [107, 1], [111, 1], [113, 2], [117, 1], [121, 1], [124,
+  1], [126, 1], [134, 2], [135, 1], [140, 1], [143, 1], [147, 1], [151, 1], [153,
+  1], [154, 1], [155, 1], [166, 2], [192, 1], [196, 1], [197, 1], [209, 1], [214,
+  1], [232, 1], [237, 1], [249, 1], [266, 1], [306, 1], [332, 1], [352, 1], [546,
+  1], [1344, 1]]'
+docs_segments_mean: 12
+docs_segments_median: 7
+docs_top100_domains: '[["wikipedia.org", 1730], ["von.gov.ng", 1481], ["pulaar.org",
+  1382], ["rfi.fr", 275], ["binndipulaar.com", 245], ["dingiralfulbe.com", 230], ["pulaaronline.com",
+  219], ["lewlewal.com", 189], ["fuutamedia.com", 153], ["koode.net", 132], ["iqna.ir",
+  89], ["initiativesnews.com", 52], ["flightscanner.com", 45], ["zhitov.com", 44],
+  ["fulfulde24.com", 41], ["misiide.net", 24], ["wordpress.com", 23], ["golal.info",
+  21], ["tabitalpulaaku.org", 20], ["fulbemedia.com", 20], ["daofm.com", 18], ["ufpweb.org",
+  17], ["demeth.net", 15], ["pulaagu.com", 14], ["ikna.ir", 13], ["mozilla.org", 12],
+  ["golalmedia.org", 11], ["webfuuta.net", 10], ["peeral.com", 10], ["lereflet.net",
+  10], ["gotquestions.org", 10], ["daakaamedias.com", 10], ["aanyam.com", 10], ["tummudefulfulde.com",
+  6], ["openedition.org", 6], ["kasahorow.org", 6], ["islamdetailed.com", 5], ["hadeethenc.com",
+  5], ["avomm.com", 5], ["wikimedia.org", 4], ["inform-e.net", 4], ["blogspot.com",
+  4], ["bible.com", 4], ["thiernoabdourahmane.org", 3], ["shadowserver.org", 3], ["openwho.org",
+  3], ["lavoixpeuhle.info", 3], ["farmradio.fm", 3], ["cnept-coalition.org", 3], ["blogs-de-voyage.fr",
+  3], ["voluntaryreturn.be", 2], ["voaafrique.com", 2], ["unicode.org", 2], ["sodefitex.sn",
+  2], ["sifaa.net", 2], ["over-blog.com", 2], ["ouldyenge.info", 2], ["medic-help.ch",
+  2], ["mawthuq.net", 2], ["fondation-thiernowollendiaye.com", 2], ["faggudu.com",
+  2], ["blog-pulaagu.com", 2], ["accessagriculture.org", 2], ["youscribe.com", 1],
+  ["world-hentai.ru", 1], ["winamp.com", 1], ["wikiplanet.click", 1], ["wikipedia.su",
+  1], ["websaz.info", 1], ["webonary.org", 1], ["webanalytik.info", 1], ["voiceofnigeria.ng",
+  1], ["vietnamimmigration.org", 1], ["urgenceidentiteafrique.org", 1], ["unblog.fr",
+  1], ["umcom.org", 1], ["toulde.org", 1], ["szymbark.info", 1], ["sunufm.com", 1],
+  ["sumochka.mobi", 1], ["steissbeinfistel.info", 1], ["sleepostic.com", 1], ["sleephony.com",
+  1], ["sig.gov.bf", 1], ["seriousillness.org", 1], ["seneweb.com", 1], ["semkatr.com",
+  1], ["saggitorde.org", 1], ["readbag.com", 1], ["radiofouta.info", 1], ["r2consulting.fr",
+  1], ["pulaar-fulfulde.org", 1], ["pressbooks.pub", 1], ["photality.net", 1], ["peeraluk.org",
+  1], ["ovvkus.ru", 1], ["oumarou.net", 1], ["noema.info", 1], ["muhe.live", 1], ["montraykreyol.org",
+  1]]'
+docs_top100_tld: '[["org", 3229], ["gov.ng", 1481], ["com", 1391], ["fr", 281], ["net",
+  203], ["ir", 103], ["info", 37], ["ru", 3], ["fm", 3], ["be", 3], ["sn", 2], ["club",
+  2], ["ch", 2], ["ws", 1], ["su", 1], ["pub", 1], ["ng", 1], ["news", 1], ["net.ar",
+  1], ["mobi", 1], ["live", 1], ["is", 1], ["io", 1], ["hu", 1], ["gov.bf", 1], ["eu",
+  1], ["click", 1], ["cf", 1]]'
+docs_total: 6755
+docs_wds: '[[0.5, 34], [0.51, 41], [0.52, 59], [0.53, 40], [0.54, 49], [0.55, 44],
+  [0.56, 58], [0.57, 54], [0.58, 59], [0.59, 69], [0.6, 66], [0.61, 56], [0.62, 59],
+  [0.63, 58], [0.64, 60], [0.65, 64], [0.66, 89], [0.67, 80], [0.68, 74], [0.69, 81],
+  [0.7, 96], [0.71, 110], [0.72, 100], [0.73, 107], [0.74, 139], [0.75, 172], [0.76,
+  203], [0.77, 196], [0.78, 287], [0.79, 389], [0.8, 1051], [0.81, 688], [0.82, 280],
+  [0.83, 173], [0.84, 162], [0.85, 112], [0.86, 126], [0.87, 136], [0.88, 142], [0.89,
+  147], [0.9, 110], [0.91, 118], [0.92, 96], [0.93, 106], [0.94, 81], [0.95, 74],
+  [0.96, 42], [0.97, 52], [0.98, 44], [0.99, 16], [1.0, 6]]'
+duplication_ratio: 0.175
+sentence_pairs: 81776
+src_bytes: 17543600
+src_chars: 16880008
+src_pii: 55
+src_tokens: 3295778
+unique_sents: 67468
+src_sent_tokens: '[[1, 2231], [2, 3631], [3, 3224], [4, 2507], [5, 2695], [6, 2213],
+  [7, 2229], [8, 2180], [9, 2054], [10, 1703], [11, 1644], [12, 1616], [13, 1422],
+  [14, 1170], [15, 1138], [16, 1065], [17, 1024], [18, 1078], [19, 976], [20, 997],
+  [21, 963], [22, 1085], [23, 1093], [24, 1051], [25, 1029], [26, 1023], [27, 1057],
+  [28, 1041], [29, 962], [30, 950], [31, 928], [32, 846], [33, 892], [34, 855], [35,
+  754], [36, 755], [37, 800], [38, 802], [39, 812], [40, 696], [41, 665], [42, 642],
+  [43, 570], [44, 522], [45, 521], [46, 570], [47, 476], [48, 461], [49, 458], [50,
+  483], [51, 460], [52, 395], [53, 397], [54, 372], [55, 364], [56, 388], [57, 395],
+  [58, 387], [59, 407], [60, 353], [61, 340], [62, 397], [63, 299], [64, 327], [65,
+  326], [66, 357], [67, 339], [68, 300], [69, 300], [70, 272], [71, 289], [72, 284],
+  [73, 254], [74, 319], [75, 263], [76, 277], [77, 259], [78, 261], [79, 235], [80,
+  233], [81, 243], [82, 243], [83, 235], [84, 214], [85, 187], [86, 214], [87, 208],
+  [88, 217], [89, 240], [90, 203], [91, 225], [92, 176], [93, 176], [94, 188], [95,
+  143], [96, 191], [97, 146], [98, 191], [99, 165], [100, 169], [101, 162], [102,
+  131], [103, 156], [104, 136], [105, 125], [106, 124], [107, 131], [108, 141], [109,
+  122], [110, 136], [111, 119], [112, 117], [113, 115], [114, 96], [115, 125], [116,
+  103], [117, 112], [118, 91], [119, 92], [120, 78], [121, 93], [122, 96], [123, 92],
+  [124, 73], [125, 84], [126, 89], [127, 75], [128, 93], [129, 83], [130, 89], [131,
+  85], [132, 75], [133, 76], [134, 65], [135, 73], [136, 83], [137, 74], [138, 55],
+  [139, 69], [140, 66], [141, 66], [142, 58], [143, 56], [144, 47], [145, 51], [146,
+  47], [147, 51], [148, 43], [149, 50], [150, 49], [151, 54], [152, 45], [153, 57],
+  [154, 49], [155, 38], [156, 50], [157, 52], [158, 36], [159, 49], [160, 42], [161,
+  32], [162, 42], [163, 42], [164, 43], [165, 40], [166, 40], [167, 26], [168, 33],
+  [169, 28], [170, 29], [171, 32], [172, 44], [173, 33], [174, 40], [175, 32], [176,
+  29], [177, 29], [178, 27], [179, 28], [180, 27], [181, 29], [182, 36], [183, 25],
+  [184, 32], [185, 15], [186, 29], [187, 16], [188, 21], [189, 23], [190, 23], [191,
+  17], [192, 16], [193, 16], [194, 22], [195, 10], [196, 20], [197, 22], [198, 18],
+  [199, 13], [200, 24], [201, 18], [202, 13], [203, 24], [204, 17], [205, 20], [206,
+  24], [207, 20], [208, 22], [209, 18], [210, 16], [211, 10], [212, 29], [213, 9],
+  [214, 7], [215, 15], [216, 23], [217, 14], [218, 15], [219, 8], [220, 17], [221,
+  12], [222, 11], [223, 6], [224, 8], [225, 13], [226, 1], [227, 11], [228, 10], [229,
+  16], [230, 13], [231, 11], [232, 7], [233, 14], [234, 10], [235, 14], [236, 9],
+  [237, 7], [238, 14], [239, 6], [240, 10], [241, 12], [242, 11], [243, 10], [244,
+  11], [245, 9], [246, 12], [247, 7], [248, 5], [249, 11], [250, 2], [251, 11], [252,
+  11], [253, 10], [254, 4], [255, 8], [256, 4], [257, 5], [258, 8], [259, 9], [261,
+  9], [262, 8], [263, 5], [264, 9], [265, 2], [266, 6], [267, 8], [268, 5], [269,
+  37], [270, 9], [271, 5], [272, 3], [273, 3], [274, 8], [275, 5], [276, 11], [277,
+  3], [278, 6], [279, 12], [280, 10], [281, 3], [282, 4], [283, 4], [284, 5], [285,
+  3], [286, 4], [287, 6], [288, 5], [289, 11], [290, 4], [291, 3], [292, 1], [293,
+  4], [294, 6], [295, 5], [296, 2], [297, 1], [298, 6], [299, 2], [300, 5], [301,
+  2], [302, 6], [303, 3], [304, 4], [305, 3], [306, 5], [307, 3], [308, 3], [309,
+  4], [310, 5], [311, 2], [312, 4], [313, 3], [314, 3], [315, 2], [316, 6], [317,
+  1], [318, 5], [319, 5], [320, 1], [321, 3], [322, 4], [323, 1], [324, 1], [325,
+  3], [326, 5], [327, 1], [328, 2], [329, 2], [330, 2], [331, 6], [332, 2], [333,
+  1], [334, 4], [335, 2], [337, 2], [338, 1], [339, 7], [341, 2], [342, 2], [343,
+  6], [344, 5], [345, 2], [346, 3], [347, 1], [349, 1], [350, 4], [351, 1], [352,
+  3], [354, 3], [355, 2], [356, 2], [357, 4], [358, 3], [359, 3], [360, 1], [361,
+  4], [362, 1], [364, 2], [366, 1], [367, 1], [368, 3], [369, 3], [370, 1], [371,
+  1], [372, 1], [373, 2], [374, 1], [376, 1], [377, 1], [378, 1], [380, 2], [381,
+  1], [382, 1], [383, 1], [384, 3], [385, 1], [386, 1], [387, 2], [389, 2], [390,
+  4], [391, 2], [393, 2], [394, 1], [395, 1], [396, 2], [397, 2], [398, 3], [399,
+  1], [400, 2], [404, 1], [405, 1], [406, 1], [408, 1], [409, 1], [411, 1], [412,
+  1], [415, 1], [416, 1], [417, 1], [420, 3], [425, 1], [427, 1], [429, 5], [431,
+  2], [432, 1], [436, 2], [437, 1], [442, 1], [443, 1], [444, 1], [445, 2], [449,
+  1], [452, 2], [453, 2], [454, 1], [456, 3], [457, 1], [458, 1], [462, 1], [464,
+  3], [469, 1], [471, 1], [476, 1], [477, 1], [480, 1], [486, 1], [487, 1], [489,
+  1], [493, 1], [498, 1], [502, 1], [505, 1], [508, 1], [509, 1], [511, 1], [512,
+  2], [513, 1], [521, 2], [522, 1], [523, 2], [524, 1], [530, 1], [532, 1], [539,
+  1], [541, 1], [542, 1], [548, 1], [560, 1], [571, 1], [573, 1], [577, 1], [579,
+  2], [583, 2], [594, 1], [598, 1], [610, 1], [623, 1], [624, 1], [628, 2], [647,
+  1], [651, 1], [656, 1], [657, 2], [670, 1], [684, 1], [700, 1], [736, 1], [750,
+  1], [785, 1], [797, 1], [798, 1], [801, 1], [807, 1], [809, 1], [810, 1], [844,
+  1], [846, 1], [862, 1], [886, 1], [1013, 1], [1042, 1], [1077, 1], [1123, 1], [1161,
+  1], [1183, 1], [1250, 1], [1419, 1], [1595, 1], [1633, 1], [1666, 1], [4259, 1],
+  [6634, 1], [7055, 1]]'
+src_sent_tokens_mean: 40
+src_sent_tokens_median: 24
+src_unique_sents: '[[1, 873], [2, 1675], [3, 1814], [4, 1881], [5, 2034], [6, 1882],
+  [7, 1990], [8, 1911], [9, 1822], [10, 1507], [11, 1380], [12, 1399], [13, 1195],
+  [14, 1028], [15, 981], [16, 958], [17, 895], [18, 968], [19, 921], [20, 922], [21,
+  879], [22, 955], [23, 940], [24, 904], [25, 890], [26, 894], [27, 904], [28, 896],
+  [29, 792], [30, 835], [31, 786], [32, 738], [33, 763], [34, 758], [35, 682], [36,
+  668], [37, 693], [38, 656], [39, 681], [40, 591], [41, 563], [42, 557], [43, 518],
+  [44, 475], [45, 454], [46, 496], [47, 433], [48, 420], [49, 400], [50, 425], [51,
+  404], [52, 348], [53, 355], [54, 324], [55, 327], [56, 335], [57, 351], [58, 341],
+  [59, 344], [60, 310], [61, 295], [62, 332], [63, 268], [64, 273], [65, 278], [66,
+  288], [67, 263], [68, 262], [69, 270], [70, 230], [71, 245], [72, 237], [73, 209],
+  [74, 240], [75, 220], [76, 223], [77, 222], [78, 221], [79, 203], [80, 207], [81,
+  217], [82, 211], [83, 186], [84, 178], [85, 161], [86, 189], [87, 173], [88, 171],
+  [89, 188], [90, 154], [91, 176], [92, 156], [93, 151], [94, 148], [95, 130], [96,
+  155], [97, 137], [98, 164], [99, 139], [100, 152], [101, 146], [102, 109], [103,
+  140], [104, 121], [105, 115], [106, 114], [107, 118], [108, 118], [109, 115], [110,
+  122], [111, 113], [112, 106], [113, 108], [114, 88], [115, 121], [116, 90], [117,
+  107], [118, 89], [119, 89], [120, 76], [121, 89], [122, 88], [123, 90], [124, 71],
+  [125, 79], [126, 87], [127, 69], [128, 84], [129, 81], [130, 83], [131, 82], [132,
+  74], [133, 76], [134, 63], [135, 71], [136, 82], [137, 73], [138, 55], [139, 65],
+  [140, 64], [141, 64], [142, 58], [143, 56], [144, 44], [145, 51], [146, 47], [147,
+  50], [148, 42], [149, 49], [150, 49], [151, 51], [152, 41], [153, 55], [154, 48],
+  [155, 37], [156, 49], [157, 52], [158, 35], [159, 47], [160, 40], [161, 32], [162,
+  41], [163, 42], [164, 43], [165, 40], [166, 40], [167, 26], [168, 33], [169, 28],
+  [170, 28], [171, 29], [172, 43], [173, 33], [174, 40], [175, 32], [176, 29], [177,
+  27], [178, 27], [179, 28], [180, 27], [181, 28], [182, 33], [183, 25], [184, 32],
+  [185, 15], [186, 29], [187, 15], [188, 20], [189, 22], [190, 23], [191, 16], [192,
+  16], [193, 16], [194, 22], [195, 10], [196, 20], [197, 21], [198, 18], [199, 13],
+  [200, 23], [201, 17], [202, 13], [203, 24], [204, 17], [205, 19], [206, 24], [207,
+  20], [208, 17], [209, 16], [210, 16], [211, 10], [212, 27], [213, 9], [214, 7],
+  [215, 15], [216, 23], [217, 14], [218, 15], [219, 8], [220, 17], [221, 12], [222,
+  11], [223, 6], [224, 8], [225, 12], [226, 1], [227, 11], [228, 10], [229, 14], [230,
+  13], [231, 11], [232, 7], [233, 14], [234, 10], [235, 14], [236, 9], [237, 7], [238,
+  14], [239, 6], [240, 10], [241, 12], [242, 11], [243, 9], [244, 11], [245, 9], [246,
+  12], [247, 7], [248, 5], [249, 11], [250, 2], [251, 11], [252, 10], [253, 10], [254,
+  4], [255, 8], [256, 4], [257, 5], [258, 8], [259, 9], [261, 9], [262, 8], [263,
+  5], [264, 9], [265, 2], [266, 6], [267, 8], [268, 5], [269, 10], [270, 9], [271,
+  5], [272, 3], [273, 3], [274, 8], [275, 5], [276, 10], [277, 3], [278, 6], [279,
+  12], [280, 6], [281, 3], [282, 4], [283, 4], [284, 5], [285, 3], [286, 4], [287,
+  6], [288, 5], [289, 6], [290, 4], [291, 3], [292, 1], [293, 4], [294, 6], [295,
+  5], [296, 2], [297, 1], [298, 6], [299, 2], [300, 5], [301, 2], [302, 6], [303,
+  3], [304, 4], [305, 3], [306, 5], [307, 3], [308, 3], [309, 4], [310, 5], [311,
+  2], [312, 4], [313, 3], [314, 3], [315, 2], [316, 5], [317, 1], [318, 4], [319,
+  5], [320, 1], [321, 3], [322, 4], [323, 1], [324, 1], [325, 3], [326, 5], [327,
+  1], [328, 2], [329, 2], [330, 2], [331, 6], [332, 2], [333, 1], [334, 4], [335,
+  2], [337, 2], [338, 1], [339, 7], [341, 2], [342, 2], [343, 6], [344, 5], [345,
+  2], [346, 2], [347, 1], [349, 1], [350, 4], [351, 1], [352, 3], [354, 3], [355,
+  2], [356, 2], [357, 4], [358, 3], [359, 3], [360, 1], [361, 4], [362, 1], [364,
+  2], [366, 1], [367, 1], [368, 3], [369, 3], [370, 1], [371, 1], [372, 1], [373,
+  2], [374, 1], [376, 1], [377, 1], [378, 1], [380, 2], [381, 1], [382, 1], [383,
+  1], [384, 3], [385, 1], [386, 1], [387, 2], [389, 2], [390, 4], [391, 2], [393,
+  2], [394, 1], [395, 1], [396, 2], [397, 2], [398, 3], [399, 1], [400, 2], [404,
+  1], [405, 1], [406, 1], [408, 1], [409, 1], [411, 1], [412, 1], [415, 1], [416,
+  1], [417, 1], [420, 3], [425, 1], [427, 1], [429, 5], [431, 2], [432, 1], [436,
+  2], [437, 1], [442, 1], [443, 1], [444, 1], [445, 2], [449, 1], [452, 2], [453,
+  2], [454, 1], [456, 3], [457, 1], [458, 1], [462, 1], [464, 2], [469, 1], [471,
+  1], [476, 1], [477, 1], [480, 1], [486, 1], [487, 1], [489, 1], [493, 1], [498,
+  1], [502, 1], [505, 1], [508, 1], [509, 1], [511, 1], [512, 2], [513, 1], [521,
+  2], [522, 1], [523, 2], [524, 1], [530, 1], [532, 1], [539, 1], [541, 1], [542,
+  1], [548, 1], [560, 1], [571, 1], [573, 1], [577, 1], [579, 2], [583, 2], [594,
+  1], [598, 1], [610, 1], [623, 1], [624, 1], [628, 2], [647, 1], [651, 1], [656,
+  1], [657, 2], [670, 1], [684, 1], [700, 1], [736, 1], [750, 1], [785, 1], [797,
+  1], [798, 1], [801, 1], [807, 1], [809, 1], [810, 1], [844, 1], [846, 1], [862,
+  1], [886, 1], [1013, 1], [1042, 1], [1077, 1], [1123, 1], [1161, 1], [1183, 1],
+  [1250, 1], [1419, 1], [1595, 1], [1633, 1], [1666, 1], [4259, 1], [6634, 1], [7055,
+  1]]'
+src_langs: '[["en", 30785], ["fi", 17836], ["cy", 3508], ["fr", 3328], ["et", 3278],
+  ["la", 2851], ["nl", 2587], ["tr", 1855], ["es", 1801], ["de", 1604], ["it", 1520],
+  ["tl", 1341], ["ur", 531], ["su", 501], ["pt", 482], ["eo", 461], ["war", 446],
+  ["sl", 434], ["hu", 374], ["nb", 371], ["ms", 321], ["hr", 295], ["id", 294], ["pl",
+  290], ["sw", 281], ["ar", 278], ["kw", 253], ["af", 252], ["az", 221], ["kn", 207],
+  ["ceb", 176], ["fy", 168], ["sq", 157], ["zh", 147], ["ilo", 147], ["sr", 146],
+  ["sv", 135], ["jbo", 122], ["so", 113], ["cs", 92], ["ro", 81], ["ru", 78], ["io",
+  78], ["scn", 77], ["br", 67], ["ml", 66], ["als", 63], ["uz", 57], ["uk", 53], ["nn",
+  51], ["mt", 50], ["lt", 50], ["ja", 50], ["eu", 46], ["da", 46], ["nds", 44], ["jv",
+  44], ["si", 42], ["gv", 40], ["ca", 40], ["lv", 39], ["qu", 38], ["vi", 34], ["bn",
+  34], ["is", 30], ["ku", 29], ["gl", 29], ["mg", 28], ["bs", 28], ["hi", 20], ["ta",
+  17], ["sk", 16], ["ug", 15], ["oc", 15], ["pnb", 14], ["ast", 14], ["nap", 12],
+  ["lb", 12], ["fa", 12], ["sco", 11], ["ht", 11], ["el", 11], ["lmo", 10], ["gn",
+  9], ["tk", 8], ["hsb", 8], ["vo", 7], ["mr", 7], ["diq", 7], ["bar", 7], ["wuu",
+  6], ["azb", 6], ["te", 5], ["pms", 5], ["ne", 5], ["mn", 5], ["hy", 5], ["ce", 5],
+  ["arz", 5], ["ps", 4], ["pam", 4], ["ko", 4], ["gu", 4], ["gom", 4], ["gd", 4],
+  ["dsb", 4], ["cbk", 4], ["yo", 3], ["vep", 3], ["km", 3], ["ie", 3], ["ga", 3],
+  ["yi", 2], ["xmf", 2], ["vec", 2], ["sah", 2], ["rm", 2], ["nah", 2], ["li", 2],
+  ["ka", 2], ["ia", 2], ["hif", 2], ["he", 2], ["be", 2], ["bcl", 2], ["th", 1], ["tg",
+  1], ["sd", 1], ["sc", 1], ["new", 1], ["my", 1], ["mk", 1], ["min", 1], ["kv", 1],
+  ["cv", 1], ["ba", 1], ["an", 1]]'
+hardrules_tags: '{"not_too_long": 1225, "not_too_short": 7350, "length_ratio": 0,
+  "no_urls": 1306, "no_bad_encoding": 8, "pii": 55}'
+sample: '["\"Hamida Ahmad bey qizi Javanshir (Azerbaijan: H\u0259mid\u0259 Cavan\u015fir
+  ; 19 lewru Yarkomaa 1873 \u2013 6 lewru Feebariyee 1955) ko daranii\u0257o Azerbaijaan,
+  gooto e rew\u0253e Azerbaijaan adan\u0253e, daartiyanke tropist , firoore, tergal
+  fedde winndoo\u0253e Azerbaijaan.\\nNdee feccere tuugii ko e lowre wootere no feewi
+  walla fof. (feebariyee 2024)\\nHamida Javanshir jibinaa ko e nder galle maamiraa\u0253e
+  makko to wuro Kahrizli, o woni \u0253iy maw\u0257o Ahmad bey Javanshir (1828-1903),
+  daartoowo Azeri, firoore e ofisee konu laamu Riisi,[1] e debbo makko Mulkijahan.
+  Ko kanko woni mawniiko mawniiko Ibraahiima Khalil Khan, laam\u0257o cakkitii\u0257o
+  e nder leydi Karabakh.[citation needed] Hamida e mi\u00f1i mum gorko ina njanngi
+  e galle; nde o he\u0253i duu\u0253i jeenay, galle jannginoo\u0253e Riisi ari ho\u0257dude
+  e ma\u0253\u0253e ngam ardude e ja\u014bde ma\u0253\u0253e. Nde o he\u0253i duu\u0253i
+  14, o anndi binndol Orop e lislaam, omo haalda kadi \u0257emngal Riisi e Farayse
+  no feewi.[citation needed]\\nE hitaande 1889, Hamida Javanshir resi debbo gooto
+  jeyaa\u0257o to Barda, hono lietnaa kolonel Ibraahiima bey Davatdarov. \u0181e ko\u0257i
+  to Brest-Litovsk (Brest hannde oo, Bielorussi). \u0181ooytaani \u0253i\u0253\u0253e
+  ma\u0253\u0253e \u0257i\u0257o, Mina e Muzaffar njibinaa. Javanshir \u01b4ettii
+  ja\u014bde jim\u0257i, o janngi Almaa\u00f1 e Polo\u00f1. E hitaande 1900, \u0253esngu
+  nguu ummii Kars, \u0257o Davatdarov to\u0257\u0257aa gardii\u0257o safrirde konu.
+  Hitaande caggal \u0257uum, o maayi, paandaale Hamida ngam janngude safaara to Moscow
+  ina nanndi e ko wa\u0257aani.[1]\\n\u0181i\u0257\u0257o Hamida Javanshir biyetee\u0257o
+  Mina Davatdarova ko jannginoowo ganndo, ballitoo\u0257o e du\u0257al Kahrizli haa
+  o sankii e hitaande 1923\\nO ronii jeyi Kahrizli e juu\u0257e baaba makko, o jokki
+  e golle makko cotton \u0257e o he\u0253i. E fawaade e yi\u0257de makko, o \u01b4etti
+  binndol deftere makko daartol wiyeteende \u00ab On des affaires politiques de l\u2019affaires
+  politiques de l\u2019arm\u00e9e Karabakh \u00bb e hitaande 1747\u20131805, o fayi
+  \u0257um to Tiflis (Tbilisi hannde, Georgia) ngam he\u0253de nde yaltinde \u0257um
+  to galle bayyinoowo Geyrat. Ko \u0257oon e lewru oktoobar 1905 o hawri e Jalil Mammadguluzadeh,
+  oon sahaa wonnoo ko winndiyanke jaaynde wiyeteende Sharg-i rus e \u0257emngal Azeri.
+  E hitaande 1907, \u0253e resndi (Mammadguluzadeh ko debbo jom suudu laabi \u0257i\u0257i
+  e oon sahaa)[2], \u0253e nguuri Tiflis haa hitaande 1920. \u0181e nda\u00f1i \u0253i\u0253\u0253e
+  wor\u0253e \u0257i\u0257o \u2013 Midhat, jibinaa\u0257o e hitaande 1908, e Anvar,
+  jibinaa\u0257o e hitaande 1911.[3] O gollodiima e Mammadguluzadeh ngam muulde molla
+  Nasraddin, jaaynde satiriire.[4][5]\\nE nder heege Karabakh e hitaande 1907, Javanshir
+  renndini kosam e njuumri e wuro heege, kadi o woniino hakkunde Armeni en e Azeris
+  en caggal duu\u0253i \u0257i\u0257i warngooji ba\u0257noo\u0257i.[1] E hitaande
+  1908, o sosi du\u0257al coeducational to wuro makko Kahrizli, ngal wonti du\u0257al
+  Azeri gadanal \u0257o sukaa\u0253e wor\u0253e e rew\u0253e mbaawi janngude e nder
+  suudu janngirdu wooturu. E hitaande 1910, Javanshir, e wondude e rew\u0253e jeyaa\u0253e
+  e laam\u0253e Azeri wuro ngoo, cosi fedde mo\u01b4\u01b4ere rew\u0253e juul\u0253e
+  Caucasian.[1] E nder rafi mboros e jamaanu Sowiyet,[nde?] o soodi \u00f1awbuuli,
+  o rokki yim\u0253e Kahrizli \u00f1awbuuli.[6][7]\\nE hitaande 1921, caggal nde o
+  ho\u0257i Tabriz fotde hitaande, \u0253esngu nguu ummii to Baku, o winndi toon ciimtol,
+  o firti golle jom suudu makko. O yaltinii deftere e kitaale 1930, Awake: Deftere
+  debbo juul\u0257o see\u0257a e nguurndam mum e gollondiral mum e gardii\u0257o Molla
+  Nasreddin, jaaynde \u0253urnde waawde satiriik e nder Kaukasus e Iraan, 1907\u20131931,
+  yaltinaa ko caggal maayde makko e hitaande 1977 Engele ko Hasan Jawadi e Willem
+  Floor winndi.[8] O firti kadi yimre Riisi.[4] O \u0253uri \u0253i\u0253\u0253e makko
+  \u0257i\u0257o wuurde: Mina e hitaande 1923 e Midhat e hitaande 1935.[3] O sankii
+  ko Baku e hitaande 1955. Ina woodi musee nguurndam makko e golle makko to Kahrizli.\\nPewnugol
+  koton e nder leydi Azerbaijaan\\n^ Juppu haa: a b c d (e \u0257emngal Aserbaijaan)
+  Megastar e Annoore mum. Yeewtere e taaniiko Hamida Javanshir Doktoor Mina Davatdarova.
+  Jinnaa\u0257o-az.org\\n^ (e \u0257emngal Riisi) Goonga mo Nasreddin ganndo oo haali
+  Arsiif 2007-09-28 to masi\u014b Wayback. Nash vek. #21 (260). 28 lewru Mbooy 2004.
+  \u01b3eewtaa ko 1 Duujal 2007\\n^ Jump up to: a b (e \u0257emngal Riisi) Manngu
+  men: Jalil Mammadguluzadeh. Leydi Azerbaijaan. 4 lewru Yarkomaa 2007. \u01b3eewtaa
+  ko 1 Duujal 2007\\n^ Juppude haa: a b Yolasan, Serkan (lewru Yarkomaa 2019). \\\"Resooji
+  Azeri rewrude e teddungal e \u0253uu\u0253ngal: politik Asii hirnaange ummoraade
+  e gite diaspora\\\". Jaaynde ganndal Orop. 10 (1): 40. Dowlaaji 10.1177/1879366518814936.
+  ISSN 1879-3665.\\n^ Ameri, Anan (1999). Hermeneutik e teddungal: Kaaldigal nokku
+  \\\"public\\\" debbo e nder renndooji lislaam/ate. CMES Havard. p. 100. ISBN 978-0-932885-21-0.\\n\u2191
+  Heyat, Faride (5 mars 2014). Rew\u0253e Azerbaijan e nder mbayliigu: Rew\u0253e
+  e nder Azerbaijaan Sowiyet e caggal Sowiyet. Rootledge. 68-69. ISBN 978-1-136-87177-1.\\n^
+  \\\"Hamide Khanum Javanshir 1873-1955\\\" Debbo-hood (6 mars 2019).\\n^ Javanshir,
+  Hamide Kanum (2016). Awake : deftere debbo juul\u0257o see\u0257a, ko fayti e nguurndam
+  mum e gollondiral mum e gardii\u0257o Molla Nasreddin, jaaynde \u0253urnde maantinde
+  e nder Kaukasus e Iraan, 1907-1931. Javadi, Hasan, Floor, Wilem M. Wasinton DC.
+  ISBN 978-1-933823-87-4. OCLC 960719559.\"", "\"Hannde Njeslaare malla Alarba, deental
+  kollitoo\u0253e to janngille jaami\u2019a ngal ASUU, darnii tikkere nde ngal fu\u0257\u0257unoo
+  nder lewru Mbooyi malla Maarisru, hitaande nde\u2019e nde 2020. Hooreejo deental
+  ngal Biodun Ogunyemi, anndinii jaayndiyankoo\u0253e ka darnuki tikkere nden ton
+  to laamorde lesdi ndi\u2019i nde Abuja.\\nDeental ngal darnii tikkere nden nde lebbi
+  joweenayi, \u0253aawo ngal narridii e laamu lesdi ndi\u2019i. Nihi wa\u0257i tikkere
+  nden darnaa. \u0181aawo \u0253e nee\u0253ii no \u0253e njo\u0257doo ammaa narral
+  he\u0253aaka hakkunde ma\u0253\u0253e naaki jooni. Non kam\u0253e maa fukaraa\u0253e
+  \u0253en e kadi deente \u0257uu\u0257\u0257e nee\u0253i e nodda laamu lesdi e maa
+  deental ngal dow \u0253e narrinndira hakkunde ma\u0253\u0253e ngam he\u0253a \u0253e
+  co\u201dee janngille ma\u0253\u0253e.\\nMinistaajo Kuu\u0257e Chris Ngige han ardii
+  narral ngal wa\u0257aa. Haa laamu lesdi ndin yerdii e \u0257a\u0253\u0253ere deental
+  ASUU ngal. Deental ngal ni, tefii laamu lesdi, rokka ceede wo\u201ditinki jaami\u2019aaje,
+  e kadi yo\u0253uki-\u0253e ngeenaari ma\u0253\u0253e, nden kadi \u0253e ittee nder
+  noone njo\u0253di IPPIS, e maa kadi, \u0253e njo\u0253ee nyamaande nde \u0253e tokkata
+  laamu lesdi ndin. Jooni ni, ngomnati ja\u0253i ko deental ngal ra\u0253\u0253iti
+  wa\u0257ee.\"", "\"Purushottama Bilimoria ko filisaafo Ameriknaajo e Australiyaani
+  e jannginoowo O.P. Jindal  Global University .\\nO janngii to du\u0257al jaa\u0253i-haa\u0257tirde
+  Auckland (BA) e du\u0257al jaa\u0253i-haa\u0257tirde Otago (PGDiplArts), to Nuwel
+  Selannde, o he\u0253i doktoraa makko e hitaande 1983 to du\u0257al jaa\u0253i-haa\u0257tirde
+  La Trobe to Ostarali. Hannde, o to\u0257\u0257aama hooreejo nokku wi\u0257to Purushottama
+  ngam filosofi e pinal leydi Indiya, kadi o wonii ganndo to du\u0257al jaa\u0253i
+  haa\u0257tirde sehilaagal le\u01b4\u01b4i leydi Riisi, to Mosku, leydi Riisi. Ko
+  kanko kadi woni Fedde mawnde e Du\u0257al Ja\u014bde Filosof e Daartol e Fedde mawnde
+  e wi\u0257to e nder Du\u0257al Ostarali Inndo Institute o woppi golle e lewru marse
+  2022, kam\u0253e \u0257i\u0257o fof e nder Du\u0257al Jaa\u0253i-haa\u0257tirde
+  Melbourne, Ostarali.\\nIna jeyaa e golle makko ja\u014bde cakkitii\u0257e \u0257ee
+  : Fulbright-Nehru teddu\u0257o e jannginoowo njillu to du\u0257al jaa\u0253i haa\u0257tirde
+  Ashoka to Delhi, to leydi Inndo (Fall 2019); ko maw\u0257o duumotoo\u0257o e nokku
+  Oxford ngam janngude Hindu, Du\u0257al jaa\u0253i haa\u0257tirde Oxford ; jannginoowo
+  teddu\u0257o e wi\u0257toowo maw\u0257o e filosofi Inndo e ko adii \u0257uum ko
+  doktoraa maw\u0257o to Du\u0257al Diineeji (Union Theologique) to Berkeley ; Ganndo
+  kanselor, jannginoowo e jannginoowo njillu to du\u0257al jaa\u0253i haa\u0257tirde
+  Kaliforni, to Berkeley ; ganndo njillu to Du\u0257al Janngir\u0257e Asii Fu\u0257naange,
+  Du\u0257al Jaa\u0253i-haa\u0257tirde Kaliforni to Berkeley]]; e porfeseer teddu\u0257o
+  to du\u0257al jaa\u0253i haa\u0257tirde Deakin. Ganndo njillu to du\u0257al jaa\u0253i-haa\u0257tirde
+  Ljubljana (Programme en filosofi e Indologie indienne), e du\u0257al jaa\u0253i-haa\u0257tirde
+  Ko\u00e7 (Istanbul).\\nMo \u0257on ha\u0253\u0253ita dow kawtal lesdi Australiya
+  ngam anndal Asiya e anndal hakkiilo. [ta\u01b4to ko haani], o woni ko''o\u0257o
+  jaayndiyanke''en ''Sophia'' (joornaal caa\u0257ngal nder Falsafaaji e Tradisiyonji,
+  e Springer, nder ja\u014bde Melbourne) e ''Journal of Dharma Studies'' (Springer),
+  e jaayndiyaajo (jo Amy Rayner) nder Routledge History of Indian Philosophy (2018).
+  O woni boo mo dental e mo dental hawrugol Sophia Studies in Cross-Cultural Philosophy
+  of Traditions and Culture (ko jooni e 30 \u0257erewol; e Springer).\\n- \u018auum
+  je \u0257on ha\u0253\u0253ii e ha\u0253\u0253iiji nder diisiplinji e diisiplinje
+  (ko''o ha\u0253\u0253ii bee Rita Sherma, Springer 2021)\\n- Cee\u0257al dow ko''e
+  ma\u0253\u0253e e Hinduism (ko''e Rita Sherma, Routkedge 2020)\\n- Routledge History
+  of Indian Philosophy (2018)\\n- Sabda Pramana: Wolde e anndal/Wolde nder anndal
+  Indiyan (Springer 1988; Delhi 2008)\\n- Ngam \u0257ume walaa ko woodi sey ko woodi?
+  (Sophia (2013)\\n- Indiyanko''en \u0253e \u0257on njoo\u0257ana Indiyanko\u0253e
+  e Sikh''en nder Australia (1996; 2015)\\n- The Self & its Other in Hindu Thought
+  (2005)\\n- Filosofiya jamanu e J.L. Shaw (ed.) (2006)\\n- Essays in Indian Philosophy:
+  Traditional and Modern (1995) (e J. Mohanty)\\n- Laawol feere: NGO''s e Feminist
+  Perspectives from South and East Asia (1998) (e R. Sharma).\\n- \\\"Emotions in
+  Indian-Thought System\\\" (2015 e Aleksander Wenta)\\n- \\\"Filoosofiya Filosofiya
+  Postkolonial\\\" (2009 e Andrew Irvine)\\n- \\\"J L Shaw e Falsafaaku Fuu\u0257uki\\\"
+  (e Michael Hemmingsen, 2016)\\n- \\\"Hindiaani Ethics vol I Classical and Contemporary
+  Changes (e J Prabhu e Renuka Sharma 2017 Routledge Paperback)\\n- \\\" Indian Ethics
+  vol II Jindeeji e Hakkilol (e hawti e Prabhu, Sharma e Amy Rayner) (Springer 2018)\\n-
+  \\\"Handeeji to Theory of Empathy and Practice in Psychotherapy\\\" nder Renuka
+  Sharma (2014)\\n- \\\"Globalization, Transnationalism, Gender and Ecological Engagement\\\"
+  (e Amy Rayner, 2012)\"", "\"He keblungal mawninde duu\u0253i teemedere ko na\u0253akayanke
+  Senegaalnaajo o, Usmaan Semmben jibinanoo, jaagor\u0257o toppitii\u0257o Pinal e
+  Ngaluuji daartolyankeeji, Pr Aliw Sow habrii maa Senegaal sos\u2026\\nFedde San\u0257aa\u0253e
+  Ful\u0253e to jaa\u0253i haa\u0257tirde Gaston Berger mo Sannaar (St. Louis), ene
+  ngoowi wa\u0257de \u00f1alawmaaji pinal. Hikka ne \u0253e luutnaani aadi ma\u0253\u0253e
+  e mawninde\u2026\\n\u00d1alnde Talaata jawtu\u0257o o, Ceerno Alasan Sall hooreejo
+  landa la Republique des Valeurs, ariino tawtoreede Daaka wonndude e maw\u0253e lannda
+  makko heew\u0253e. O naati Madiina\u2026\\nUniversit\u00e9 num\u00e9rique Cheikh
+  Hamidou Kane, hollirii maande mum hesere hanki, Njeslaare (Alarba) 8/03/2023. \u201cPee\u00f1ingol
+  ndeen maande (logo) hesere ene timmina ciinugol pellital hooreejo leydi o\u2026\\nCaggal
+  defte makko Binndan\u0257e Hiisankooje (2016) e Gannde Hiisiwe (2019) Dr Muhammadu
+  Faalil Sih yaltinii deftere mum tati\u0253ere he Hiisiwal (math\u00e9matiques).
+  \u00d1oggannde Silo Hiisiwo, ko\u2026\\nNuwaksoot, reenoo\u0253e dummbirde wonnoo\u0253e
+  he golle mum he damal dummbirde mawnde Nuwaksoot, \u0257o wa\u0257bonyankoo\u0253e
+  salafiyankoo\u0253e cokanoo, mbaraama hanki jamma 5 Mbooy 2023. Wiyaama \u0253e
+  ke\u0253ti\u2026\\n\u201cPodoor Diwal am\u201d ko dillal (mouvement) ummaniingal
+  ha\u0253aneede mbele falnde Podoor ene wa\u0257tee diiwal. Ngam tabitinde ndeen
+  hare, e\u0253e pi\u0253noo wa\u0257de seppo hannde Hoore-biir, 4/03/23\u2026\\nGine,
+  hooreejo laamu hakkundeewu, Mamadi Dummbuya yahii hanki boowal laa\u0257e diwooje
+  Ahmadu Seyku Tuure to Konakiri ngam ja\u0253\u0253oyaade \u0253iy\u0253e leydi Gine
+  ummitii\u0253e toTunis. He haalannde\u2026\\nJaagor\u0257o Senegaal kalfinaa\u0257o
+  ge\u0257e jokkondiral caggal leydi e Senegaalnaa\u0253e won\u0253e caggal leydi,
+  Aysata Taal Sal, yaltii he de\u01b4\u01b4ere mum. Caggal haalaluuji coof\u0257i
+  \u0257i hooreejo leydi\u2026\"", "\"Ilejemeje woni nokkuure laamu lesdi haa lesdi
+  Ekiti, lesdi Naajeeriya, nde mari gure jowee\u0257i\u0257i. Joo\u0257orde mayre
+  woni ko e wuro wiyeteengo Eda Oniyo.\\nWertallo mayri ko 95 km2, e binnditagol 2006
+  ngol ko 43 530 ne\u0257\u0257o. Kod posto mayre ko 372.[1]\\nIlejemeje LGA ina jogii
+  njaajeendi 95 kiloomeeteer kaaree, nguleeki mum tolniima e 28 \u00b0C. Hakindo henndu
+  LGA ko 10 km/h, zum wonnoo ko 63 %.\\nKoolondiral ge\u0257e leydi ko 7,958367 e
+  5,23734.[2]\\nE nder gese keewze ndema e nder LGA Ilejemeje, ina heen pepper, njuumri,
+  njuumri, e kakawo, ndema ko golle faggudu mawze wonande yimve nokku oo. E nder luumooji
+  ceertu\u0257i e nder LGA \u0257o marsandiisuuji keew\u0257i coodetee e yeeyde, njulaagu
+  ina yahra yeeso kadi toon. Poo\u0257ondiral, dogdu, e \u01b4ettugol le\u0257\u0257e
+  ina jeyaa e golle faggudu go\u0257\u0257e maantin\u0257e \u0257e ho\u0257\u0253e
+  e LGA Ilejemeje mba\u0257ata.[3]\\n- \\\"Post Offices- with map of LGA\\\". NIPOST.
+  Archived from the original on 2009-10-07. Retrieved 2009-10-20.\"", "\"Sorte Uddital
+  En puddirii innde Alla jom hinney kuubudo jom hinney keeriido. 1- Yettoore woodani
+  Alla jom tageefooji. 2- Jom hinney kuubu\u0111o jom hinney keeriido. 3- Mardo nyannde
+  diina (darngal] 4- Aan tan men ndewata wo Aan tan men dabbirta mballa. 5- Handa
+  men laawol dartiingol. 6- Laawol been be\\nLoowdi ko woni e ndee deftere ngardiindi
+  fulo \u2026\u2026 ngardiindi: keerol gadanal: yoga e tinndinooje e cellugol diina
+  lislaam\u2026.. 1-do\u014bkin\u2019gol ganndal e nder kur\u2019aana teddu\u010fo\u2026\u2026\u2026..
+  a-Kur\u2019aana e mawnugol fewre (fu\u010f\u010foode reedu)\u2026.. b-kur\u2019aana
+  e kaay\u2019e\u2026. 6-kur\u2019aana e fu\u010f \u010foode aduna\u2026 c-kur\u2019aana
+  e ngaandi ne\u013c\u0137o\u2026.. d-kur\u2019aana e maaje e caalli. d-kur\u2019aana
+  e\\n\u0628\u0627\u0633\u0644\u0627\u0645 \u0627\u06cc\u0645 \u0645\u0624 \u0642\u0636\u06cc
+  \u062c\u0647\u0646\u0645 \u062f\u0627\u062e\u0631\u064a\u0646 \u0627\u0644\u062d\u0645\u062f
+  \u0644\u0644\u0647 \u0631\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0646\u060c
+  \u0648\u0635\u0644\u0649 \u0627\u0644\u0644\u0647 \u0639\u0644\u0649 \u0631\u0633\u0648\u0644\u0647
+  \u0627\u0644\u0645\u0628\u0639\u0648\u062b \u0631\u062d\u0645\u0629 \u0644\u0644\u0639\u0627\u0644\u0645\u064a\u0646
+  \u0633\u064a\u062f\u0646\u0627 \u0645\u062d\u0645\u062f \u062e\u0627\u062a\u0645
+  \u0627\u0644\u0623\u0646\u0628\u064a\u0627\u0621 \u0648\u0627\u0644\u0645\u0631\u0633\u0644\u064a\u0646
+  \u0648\u0639\u0644\u0649 \u0622\u0644\u0647 \u0648\u0623\u0635\u062d\u0627\u0628\u0647
+  \u0648\u0633\u0644\u0645 \u0645\u0633\u062a\u0647 \u060c \u0644\u062b\u0647 \u0629
+  \u0646\u062a\u0646\u064a \u0645\u0633\u0647\u060c \u0623\u0636\u0648\u062b\u0647
+  \u0639\u0646\u0648\u062b\u0647 \u0628\u0643\u0644 : \u062a\u0648\u062f\u0647 \u0643\u0644
+  \u062c\u0644\u0637\u0632 \u0646\u0648\u062d\u0647 \u062a\u062c\u0646 \u0639\u0642\u0648\u0644
+  \u0648\u0645\u0631\u0627\u0637\u0624 \u0645\u0648\u0637 \u0648\u062a\u0639\u0647
+  \u062a\u062c\u0646\u0631 \u0639\u0628\u0623\u0646 \u0627\u0644\u0644\u0647 \u062a\u0637\u0624\u0637
+  \u0639\u0681\u0648\u0624\\nBismillaahi arrahmaani arrahiimi. ANNDIN KI DIINA ISLAAMA:
+  Yettoore tabitanii ALLAH joomu tageefooji. Salaatu jawmiraawo e kisndam maako tabita
+  doo jaagordo nulaabe, koohoowo needen: Muhammadu e aalo en maako e sahaabo en maako
+  fuu. Zaawonon: Anndin kima;diina lislaama kapka woni ragare diinaaji di ALL. Jippini
+  doo ragareejo annado en e nulaabe\"", "\"Linda Lingle (woowo Cutter; 4 Juun 1953)
+  ko politikko Amerik, mo woni gomnaajo jowto Hawaii gila 2002 haa 2010. O woni gomnati
+  leydi Hawaii arandeejo Republican gila 1962. Lingle boo o woni debbo arandeejo lesdi
+  nden nden boo o woni gomnati Yahuudiyankeejo arandeejo. Ka\u014bko o wa\u0257i hooreejo
+  leydi, Lingle wa\u0257i hooreejo Maui, ardii\u0257o kawral, e hooreejo jamiroore
+  Republican Party Hawaii.\\nNder kawtal lesdi Republican nder 2004 nder New York
+  City, Lingle wa\u0257i hooreejo kawtal nder wakkati Dennis Hastert mo \u0257on joo\u0257oto
+  dow kawtal. E hitaande 2012, o wonnoo mo gollotoo\u0253e Republican''en ngam Senate
+  Amerik, o ha\u0253\u0253iima ngam joo\u0257orde feere nde senator Amerika Daniel
+  Akaka mo o yahri to leydi ndii.\\nNder lewru Janaare 2015, Lingle nodditi bo laamuwo
+  maw\u0257o to gomnaaru Illinois Bruce Rauner, o dilli dow kuugal ngal nder lewru
+  Yuli 2016. O \u0257on jeya nder Council of Governors of the Bipartisan Policy Center
+  in Washington, DC Lingle \u0257on jeya haa Hawaii nder karndol \u0257i\u0257a\u0253u
+  2017 o laati ardii\u0257o nder kalfinaaji Hawaii Pacific University nder lewru Juun
+  2017.\\nLingle woni debbo go''o \u0253ur\u0257o wa\u0257ugo hooreejo leydi Hawaii.\\nLingle
+  jibinaa Linda Cutter to saare Yahuudiyankee\u0253e to St. Louis, Missouri nder 1953,
+  \u0253i\u0257\u0257o Mildred e Richard Cutter. Lingle yahdi bee baaba''en maako
+  to Southern California nde o woodi duu\u0253i 12. O he\u0253ii jaangirde Birmingham
+  High School nder Lake Balboa, California (jo wakkati \u0257on, go''o Van Nuys),
+  nden o he\u0253ii jaango maako nder jaangirde californiyanko''en, Northridge, nder
+  hitaande 1975.\\n\u0181aawo maajum, o tokki baaba maako haa Hawaayi, o huuwi arande
+  nder Honolulu bana darnde jaaynde ngam Teamsters e Hotel Worker Union. \u0181aawo,
+  o dilli haa Molokai, to o fu\u0257\u0257ii Molokai Free Press, ko wondi nder nder
+  nder nder leydi.\\nLingle \u0257on ware nden \u0257on wo\u0257\u0257ina nde \u0257i\u0257i.
+  O ware gorko maako arande, Charles Lingle, wakkati o \u0257on ja\u014bde, nder 1972.
+  Nde o dilli California haa Hawaii, o dilli bee maako nder hitaande 1975 amma o haani
+  innde Lingle. Nder sahaa maako nde o laamii\u0257o Maui County, Lingle wo\u0257\u0257ii
+  gorko maako \u0257i\u0257a\u0253o, wakiliila Maui William Crockett, mo o dewti diga
+  1986 haa 1997. Lingle \u0257on \u0257on haalde e walaa \u0253i\u0253\u0253e.\\nMaama
+  maako wa\u0257i carol carol Cutter Ford nder Hawai\u02bbi.\\nLingle woni ja\u014bde
+  California State University, Northridge 2004 mo ja\u014bde mum.\\nTemplate:Election
+  box begin no change Template:Election box winning candidate with party link no change
+  Template:Election box candidate with party link no change Template:Election box
+  candidate with party link no change Template:Election box total no change Template:Election
+  box hold with party link no change Template:Election box endTemplate:Election box
+  begin no change Template:Election box winning candidate with party link no change
+  Template:Election box candidate with party link no change Template:Election box
+  total no change Template:Election box gain with party link no change Template:Election
+  box endTemplate:Election box begin no change Template:Election box winning candidate
+  with party link no change Template:Election box candidate with party link no change
+  Template:Election box total no change Template:Election box hold with party link
+  no change Template:Election box endTemplate:Election box begin Template:Election
+  box winning candidate with party link Template:Election box candidate with party
+  link Template:Election box total Template:Election box hold with party link no swing
+  Template:Election box end\"", "\"Spain\\nSpain wujodu jeyaa\u0257o nji\u0257o kawru\u0257o
+  to Europe, to gaziyaa\u0257o Iberia. Ko tadii cuu\u0257i ko\u0257ini ko teema Andorra
+  e France to dow e Portugal to kelle. Spain wujodu ngol bonnude kahoonandi mum, wiyde
+  Felipe VI e bonnere mum. Adunaire ma\u0253\u0253e mbi\u0257aa a Spain ko Kastilan,
+  e maayre jeyde ko Madrid. Spain wujodu kesal bonnude 47 miliyo\u014beeba ndee, kod\\nNguurndam\\nAs
+  maabu hay sohore mum Spain woto yafemeende, wonde haalaaji tolow leydiingu. Tuufre
+  temperatuur fu Madrid, leydiingo fandude, ngalawani 5-10 graduNgal toppito\\n- Bayugol
+  kala woni hammee jom Fulah, hannde majaade ama kareti. Baanagol njoyta\u0253ol yi\u0257de
+  kataa denee ko Fulannde. Bayyagol yi\u0257de si\u0257iyankoo ko mosntaara baanagol
+  yi\u0257de i manndi, ko mooftinfu\u0257e wo insaaniwo. Njogii paainde haa naamnii:\\n-
+  Ja\u0253\u0253orgo garowol\u0257o mba\u0257o Donkij\u0257o, eteeje newaare tiindan\u0257e,
+  finndu\u0257e, new\u0257i, nde \u0253ennii wo cakkiti mbojji ye\u00f1ataa finndu\u0257i-\u0257i\\n-
+  Ja\u0253\u0253orgo siinin \u0257o jim\u0257iree dakka cayor maa \u0257oo ko new\u0253eekoppen
+  mbe\u0257u woto etee\u0253e e nguu Ful\u0253e mbe\u0257u maa. Mbeedti haa-alaa jogaade
+  majaade to ma\u0253\u0253e mbe\u0257u rewaade e gaada ndi\\n- Ja\u0253\u0253orgo
+  Ba\u0257aagaa, to woni new\u0253e-laare mooftii\u0257o Jaabaaru maa, wonataa eteeje
+  wa\u0257de UNESCO\\n- Mandanka to \u0257ee njegumaa paainde maa, duka Jantoo maritoo
+  laatii maa galle si\u0257o, wonataa Costa del Sol tawa Barseloo\\n- Ja\u0253\u0253orgo
+  \u0253\u00f6\u0253\u0253e hono cayor \u0257o maa mo\u01b4\u01b4irtaade Mbarate ndi,
+  jogaade tammbereetu ndi eteeje ko won\u0253e jim\u0253eere wo \u00f1ippere daa\u0253tunde
+  maa\\n- Ja\u0253\u0253orgo \u0257oo\u0257oo Garayndaafamiliaa, hono kaddu\u0257u
+  kala Barcelona, jahdi heew\u0253e Gaudi usnde\\n- Mohi halgande to ma\u0253\u0253e
+  maa, hono paella wo laajo\u00f1aaji, wooti\u0253e tapas (rekke mbeestee\u0257e)\\n-
+  Ko natee, paainde maa hiraa lollintee\u0257e haa baanee. Ko mooftinfu\u0257e wo
+  ani a\u0257a ndo \u00f1emtote woni etee\u0253e, jimre maa e cimo, walla baddante
+  mo\u01b4\u01b4aandi so\u0257\u0257itaade haa ji\u0257iree jaaba nde m\u0257i.\"",
+  "\"Hikka kadi, Fedde \u0181amtaare Pulaar he Muritani mawninii, \u0257o jo\u0257nde
+  mum \u0257oo, \u00d1alawma winndereejo \u018aemngal neeniwal, \u00f1alnde alet 21
+  feebariyee 2021. Hade \u0257uum, \u00f1alnde aset 20, nulaa\u0253e cate jeegom (6)
+  F\u0181PM gon\u0257o he Nuwaasoot, kam e yonaa\u0253e pelle \u0257i\u0257i (2) janngunoo\u0253e
+  e du\u0257e \u01b4eewndor\u0257e Du\u0257al \u018aem\u0257e ngenndiije, ndentii
+  ngam heblaade ko faati e Dallinannde pelle pinal \u0257ee, e heblude \u00d1alngu
+  nguu. Cofte tati e\u0253\u0253anoo heen : wejo defte, gaafgol tappir\u0257e Pulaar
+  e kollitgol dallinannde ndee.\\nHuunde e hooree\u0253e teddungal fedde ndee, ko
+  wayi no Sammba Joom Bah, Hammadi Sukki Mbooc, Mammadu Siley Bah, Umaar Idiriisa
+  Saawo, e Aamadu Umar Jah, kam e hoohoo\u0253e wo\u0257\u0253e, ko wayi no Doktoor
+  Alasan Jah \u0257em\u0257iyanke, e yim\u0253e heew\u0253e wo\u0257\u0253e, nootiima
+  e kewu nguu. Udditi \u00f1alngu nguu ko konngol hooreejo F\u0181PM, hono Bookara
+  Aamadu Bah, \u0257o o siftini daartol \u00d1alngu nguu, kam e nafoore wonnde e janngingol
+  sukaa\u0253e he nder \u0257em\u0257e mum en neeniije gila e fu\u0257\u0257oode,
+  e himme maw\u0257o mo UNICEF rokki \u0257uum, Caggal \u0257uum, hooree\u0253e teddungal
+  kam e hooree\u0253e pelle wo\u0257\u0253e e jagge tawtoranoo\u0257e \u0257ee, kam
+  e almud\u0253e janngunoo\u0253e he du\u0257e \u01b4eewndor\u0257e yu\u0253\u0253u\u0253e
+  e nder fedde Belaa e fedde almu\u0253\u0253e Umar Demmba Jallo, mbaawii seedtaade
+  nafoore ja\u014bde \u0257emngal neeniwal. E\u0257en mbaawi wiyde kadi nafoore mawnde
+  he\u0253aama e \u00f1alawma hee sibu heew\u0253e ngaafanaama tappir\u0257e Pulaar
+  e telefo\u014baaji mum en e ordinateruuji mum en, tee \u0257uum maa wallit cargol
+  binndol \u0257emngal ngal.\\nHe kitaale \u0253ennu\u0257e cakkitii\u0257e \u0257ee,
+  ko pelle pinal Pulaar, Sooninke e Wolof keewnoo mawnininde \u00f1alawma oo, kono
+  hikka, sabu ha\u0257de woodnde ndee, sabu \u00f1awu covid-19, fedde fof yu\u0253\u0253ini
+  pottital ko to jo\u0257nde mum tan, kono kam \u0257e mbaa\u0257ii yaltinde bayyinaango
+  ngam tee\u014btinde \u0257a\u0253\u0253aande laaw\u0257ingol \u0257em\u0257e Pulaar,
+  Soninke e Wolof, kam e naattingol mum en nder Tippudi Nehdi e Ja\u014bde leydi ndii.\\nKonngol
+  hooreejo F\u0181PM\\nMusi\u0253\u0253e bismaa\u0253e, hooree\u0253e teddungal, banndiraa\u0253e
+  teddu\u0253e,\\nHono no nganndir-\u0257on nii, Dowlaaji \u0257ii kam e Unesco ine
+  mawnina hitaande kala \u00d1alawma winndereejo \u0257emngal neeniwal mo UNESCO laaw\u0257innoo
+  \u00f1alnde 21 feebariyee hitaande 2000.\\nHono no aduna oo fof nii, Pelle pinal
+  ngenndiije, hono ARPRIM, AMPLCS, APROLAWO ine mawnina hitaande kala, duu\u0253i
+  keew\u0257i jooni, oo \u00d1alawma ngam semmbinde laamu Muritani waylude Tippudi
+  Nehdi e Ja\u014bde leydi ndii, haa tuugnoo he ja\u014bde denndaangal \u0257em\u0257e
+  men ngenndiije.\\nMawningol oo \u00d1alawma ummorii ko Bangladesh nde polis e konu
+  Dowla Pakistaan jiimnoo\u0257o oon sahaa Bangladesh, pelli yim\u0253e haaloo\u0253e
+  \u0257emngal Bengali seppantunoo\u0253e hakkeeji mum en to bannge \u0257emngal,
+  to Daka. \u00d1alnde kewu ngadanu nju\u0253\u0253inanoongu, Koolaa\u0257o Kuu\u0253al
+  Ngenndiije dentu\u0257e oon sahaa, hono Kofi Anan, wiyiino wonde oo \u00f1alawma
+  ine foti addande \u0253esnguuji kala finande faayiida coomii\u0257o he \u0257em\u0257e.
+  O wasiyii yim\u0253e fof yo \u0253eydu darnde ngam hisnude \u0257em\u0257e sabu
+  mum en wonde ndonaandi/ngalu winndere ndenndaandi.\\n\u00d1alngu nguu mawniniraa
+  hikka ko tiitoonde \u00ab Semmbinde keewal \u0257em\u0257e ngam naatnugol he nder
+  ja\u014bde e renndo \u00bb. Ngu hawri ko e ca\u0257eele tee\u014btu\u0257e \u0257e
+  \u00f1awu Covid-19 kuu\u0253todinngu addi he winndere ndee, naatni jii\u0253ru bonndu
+  nder tippule ja\u014b\u0257eele \u0257ee, tee\u014btini jo\u00f1gol dente renndo
+  keew\u0257e, \u0253eydi \u0253urondire.\\nMusi\u0253\u0253e teddu\u0253e, e miijo
+  UNESCO, Nehdi e ja\u014bde tuugiindi he \u0257emngal gadanal walla \u0257emngal
+  muuynangal foti fu\u0257\u0257oraade ko gila e gaggaa\u0253e, sibu ko ndeenka kam
+  e nehdi e ja\u014bde gaggaa\u0253e woni ngooroondi ja\u014bde. E nder \u0257uum,
+  UNESCO hollitii dalillaaji keew\u0257i tee\u014btinooji ja\u014bde tuugiinde he
+  \u0257emngal neeniwal/nokkuwal. E\u0257en mbaawi limtude heen :\\n\u2013 Denndaangal
+  humpitooji e wi\u0257tooji ba\u0257aa\u0257i, jowitii\u0257i he ja\u014bde tuugiinde
+  e \u0257emngal neeniwal, ine kollita wonde sukaa\u0253e \u0253uri yaawde janngude
+  ko e \u0257em\u0257e mum en neeniije. Ko \u0257uum addani UNESCO semmbinde, gila
+  1953, ja\u014bde \u0257emngal neeniwal he tolno ja\u014bde leslesre. Unesco limtii
+  humpitooji ba\u0257aa\u0257i he nder winndere ndee, haa tee\u014bti noon to Mali,
+  to Papouasie Nouvelle Guin\u00e9e, to Peru, to Dental Dowlaaji Amerik (humpitooji
+  \u0257i Unesco joganii duttor\u0257e), walla he nokkuuji go\u0257\u0257i he winndere
+  ndee, to Gatemala, Burkina Faso, Ecopi, Filipiin, Afrik worgo, Kamaruun, RDC, Ruwannda\u2026
+  E tonngol humpitooji da\u00f1aa\u0257i he nder ley\u0257e nay gadane limtaa\u0257e
+  dow \u0257ee, ine wiyaa heen : \u00ab ko teskaa heen koo ine laa\u0253ti : ja\u014bde
+  \u0257em\u0257i\u0257iire, tuugiinde he \u0257emngal neeniwal ine yuumtina no feewi
+  je\u00f1tudi ja\u014bde almu\u0253\u0253e jeyaa\u0253e he dente \u0253uraa\u0257e
+  keeweendi \u0257ee\u2026 Kadi \u00ab \u018aeen golle no mbaawi sa\u0257tude fof,
+  humpitooji nay kaalaa\u0257i \u0257ii ine kollita wonde, so tawii ine yahdi e pellital
+  e nju\u0253\u0253udi mo\u01b4\u01b4iri, ley\u0257eele \u0257ee kala ine mbaawi,
+  so cu\u0253iima huutoraade ja\u014bde \u0257em\u0257i\u0257iire he nder \u0257emngal
+  neeniwal, yenaneede gaddanaade almu\u0253\u0253e mum haaloo\u0253e \u0257em\u0257e
+  \u0253uraa\u0257e keeweendi, nje\u00f1tudi ja\u014bde \u0253urndi mo\u01b4\u01b4ude
+  fofof. \u00bb\\n\u2013 Hannde, golloo\u0253e ko faati he ja\u014bde fof ine kawri
+  wonde \u00ab politikaaji kuutoragol \u0257em\u0257e nder ja\u014bde, lelnanoo\u0257i
+  ko \u0253ooyi, \u0257o tuuganoo ngam wallitde \u0253amataare faggudu e renndo, \u0257iin
+  politikaaji ngallii. \u00bb\\n\u2013 Ngenndiije aduna oo kuniima daranaade paandaale
+  Ja\u014bde wonande yim\u0253e fof, kono e\u0257e nanndi e ca\u0257tu\u0257e, walla
+  nii \u0257e ngaa\u0253notaako yetteede \u0257oo e hitaande 2030. Harallee\u0253e
+  ke\u0253tinii wonde ko yahraa yeeso feewde e paandaale EPT ngam mo\u01b4\u01b4ingol
+  ja\u014bde e jaajtingol kattan\u0257e ja\u014bde wonande goomuuji jo\u00f1aa\u0257i,
+  \u0253uraa\u0257i \u00ab njonaani tee njaawaani ngam waawde \u0257oftaade lajal
+  dottangal ngal, haa tee\u014bti wonande ley\u0257e Afrik worgo Saharaa kam e dowlaaji
+  Arab. \u00bb Nii woni, huunde e harallee\u0253e ja\u014bde mbiyi wonde ley\u0257e
+  jogoytoo\u0257e farta\u014b\u014be yettaade paandaale EPT ko ley\u0257e \u0257e
+  ja\u014bde mum en tuugnii he \u0257emngal neeniwal janngoowo oo, tan.\\n\u2013 Yim\u0253e
+  ine \u0253eydoo \u00f1alnde kala yeneneede faayiida keewal \u0257em\u0257e e pine
+  he nder renndo, haa tee\u014bti noon e sahaa \u0257o pine e \u0257em\u0257e kulanaa\u0257e
+  majjude \u0253eydotoo heewde \u00f1alnde kala. Ja\u014bde he nder \u0257emngal neeniwal
+  ko huunde waawnde wallitde hisnude pine kulanaa\u0257e majjude, tee ine rokka mo
+  woni kala feere ngam tee\u014btinde, \u01b4ellitde, yuumtinde ne\u0257\u0257aagal
+  mum.\\nMusi\u0257\u0253e teddu\u0253e, Humpito wo\u0257ngo ine woodi, \u0253urngo
+  nii ma a taw \u0257ii humpitooji kaalaa\u0257i, yuumtude. So humpito da\u00f1anoongo
+  he Muritani hakkunde 1979 e 1990 rewrude he Du\u0257al \u0257em\u0257e ngenndiije.
+  Seede mum ko \u0253etooji \u0257i\u0257i \u0257i Breida kam e jaagordu ja\u014bde
+  leydi ndii mba\u0257noo. Ngoo humpito ine yaajnaa no feewi he nder dallinannde pelle
+  pinal, hono F\u0181PM, AMPLCS e APROLAWO. \u0181urii duu\u0253i 10 jooni ko \u0257ee
+  pelle ceeraani e \u0257a\u0253\u0253ude hono ko UNESCO \u0257a\u0253\u0253ata gila
+  1953 koo, so \u00ab naatnugol tabitngol \u0257em\u0257e neeniije nder Tippudi nehdi
+  e ja\u014bde leydi ndii. \u00bb Wa\u0257i noon ko hannde, wi\u0257to hollitii haa
+  laa\u0253ti cer wonde \u201c kuutoragol \u0257emngal neeniwal janngoowo ko huunde
+  wa\u0257\u0257iinde ngam ekko yuumtungo \u201d. Noon fedde ndee wagginiri kadi \u00ab
+  cu\u0253agol e dewgol tippudi ja\u014bde keew\u0257em\u0257iiri sibu julyultondiral
+  kam e muuyaa\u0257e demokaraasi \u0257a\u0253\u0253ude he almu\u0253\u0253e \u0253ee
+  margol mo\u01b4\u01b4ol, ko idii fof, \u0257em\u0257e mum en \u0257e muuyni \u0257ee
+  tawo, kono kadi, margol \u0257em\u0257e maw\u0257e winndereeje e diiwaneeje ngam
+  waawde yettaade renndo \u0253urngo yaajde e waawde jeytoreede no haanirta nii he
+  aduna mo nguuri oo. \u00bb\\nOn njaaraama\"", "\"\u00d1alnde Talaata 21 Faabiriyee
+  \u0253ennunde ndee, hooreejo ndenndaandi Tuunus Kayis Sayed yaltinii haala mawka
+  sanne. O artiri konngol makko ko he ko o woowi so hollirde yim\u0253e fof ngoni
+  ko he moojde ngam li\u0253de mo, o joopii uujankoo\u0253e won\u0253e nder Tuunus
+  haa tee\u014bti he ummii\u0253e \u0253aleeri Afirik.\\nLeydi Tuunus ko ndenndaani
+  ngonndi rewo Afirik, lommbiindi nder lompoodu hakkunde Alseri bannge hirnaange,
+  e Libi bannge fu\u0257naage-worgo, e Maayo Mediteraane heedi rewo e fu\u0257naange
+  (\u01b4eewee kartal ngal). Leydi ndii wiyetee ko Tuunus, laamorgo ngoo ne ko Tuunus
+  inniraa. Gure mayri \u0253ur\u0257e lollude ko Biserta, takko mayo haa\u0257ngo.
+  Ina heen kadi Kayruwaan mee\u0257noongo wonde wuro ngo \u0181alee\u0253e umminoo\u0253e
+  Misra tuddinnoo. E\u0257en teskoo kadi ko he ngoo wuro Abdallahi ibn Yaasiin mo
+  Maraabat en jeyaa. Wuro lollungo kadi ko Siidi Busid, \u0257o suka gorko Tunusnaajo
+  hu\u0253\u0253unoo hoore ngam salaade baasal e kii\u0257al ngal laamu Ben Aali fawnoo
+  he ma\u0253\u0253e haa jibini waklitere demminaare aarabee\u0253e.\\nEn njiyii he
+  kartal hee Siidi Busid woni ko nehaande Tuunus. \u00d1alnde 17 desambar 2010, nder
+  wuro Siidi Busid, Muhammad Busisi, jahroowo he duu\u0253i 26 tan, ina jogii taabel
+  ina yeeya \u0253i\u0253\u0253e le\u0257\u0257e. Sahaa fof noon alkatee\u0253e ngara
+  nawa taabel makko. Ko o calii\u0257o rokkude \u0253e ceede mbuu\u00f1aari. Heen
+  gootol \u0253e ngari kadi \u0253e ndufi taabel makko, \u0253e nik\u00f1i njeeygu
+  makko haa boni. \u018auum metti mo sanne, kono o alanaa \u0257um safaara. O soodi
+  isaas e almet, o fayi joo\u0257ore tunndu (perfee), o yuppi e hoore makko isaas,
+  o hu\u0253\u0253i jayngol, \u0253anndu makko nanngondiri wonti ooyre wootere. Jayngol
+  \u00f1ifaa o fayraa safrirde, kono o sankii \u00f1alnde 4 saawiyee 2011. Ko \u0257oo
+  demminaare Aarabee\u0253e fu\u0257\u0257ii, waklitere \u0253esngu haa yoo\u0253ii
+  lammu Ben Aali e laamuuji aarabee\u0253e keddii\u0257i hono Misra e Siriya e Iraak.
+  Leydi Tuunus wa\u0257i ko Aarbee\u0253e e \u0253e ngonaa Aarbee\u0253e, adii\u0253e
+  \u0257oon joo\u0257aade hade mum en uujde ngabbii worgo. \u0181een goni \u0181alee\u0253e
+  ar\u0253e gila he uujooji Misra haa yettii dahngooji ley\u0257e \u0181alee\u0253e
+  worgo keerol peccol. Ina heen kadi Berbeer en adii\u0253e \u0257oon Aarabee\u0253e.
+  Ina tawee he mayri iwdi Ruumnaa\u0253e e Turkinaa\u0253e gila nde diiwal ngal woni
+  les njiimaandi ma\u0253\u0253e.\\nCiftinen he wiyde Sekene Moodi Siisoko, daartiya\u014bke
+  \u014banaa mo leydi Mali, helemere \u201cafrik\u201d ndee ko leydi Tuunus hannde
+  ndii wiyetenoo noon nde rewo Afrik ngoo fof woni he njiimaandi Ruumnaa\u0253e. O
+  wiyi ko ruggiyanke Aarabe biyetee\u0257o \u201cFirikisha\u201d naati Magreb, hirnaange-rewo
+  duunde Afrik hedde teeminannde 6\u0253ere caggal Annebi Iisaa. O ha\u0253i \u0257oon
+  e Berbeer en ngam yi\u0257de halfude \u0253e. Kono o foolaa, o dogi o woppi yoga
+  e jagge konu makko he juu\u0257e Berbeer en. \u018aum wa\u0257noo ko he diiwaan
+  leydi Tuunus hannde ndii. Gila ndeen, ho\u0257\u0253e \u0257oon mbiyaa \u00ab Ifirikiyin
+  \u00bb (yim\u0253e Ifirikisha). Leydi ndii inniraa \u00ab Ifirikiya \u00bb. Ndeke,
+  ko diiwaan leydi Tuunus ndii wiyetenoo \u00ab Ifirikiya \u00bb. Ko nde Rumnaa\u0253e
+  ngari njiimi rewo Afrik fof, gila Moretani (hedde Maruk e Alseri hannde), haa Tiripoliteen
+  (hedde Libiya hannde), \u0253e inniri do\u014bre ndee fof \u00ab Ifirikiya \u00bb
+  haa wontoyi Afrik.\\nCogge-cooge ujjankoo\u0253e\\nE wiyde Kayis Sayed, ko \u00ab
+  cogge-cogge ujjankoo\u0253e suu\u0257ii\u0253e \u00bb caabii ca\u0257eele nder leydi
+  Tuunus. A\u0253e mba\u0257a \u00ab golle kaantare \u00bb, ge\u0257e \u00ab baylooje
+  mbaydi le\u00f1ol Aarabee\u0253e e diine Islaam \u00bb. O jokki o wiyi gonal ma\u0253\u0253e
+  Tuunus ko \u00ab moojobere anniyiinde waylude ngonka le\u00f1ol Aarabee\u0253e e
+  keeweendi mum nder leydi Tuunus \u00bb. Ndee haalannde bonnde nde Kayis Sayed \u01b4eesti
+  yer\u0253inii yim\u0253e heew\u0253e haa arti e pelle \u0257e ngonaa laamuyankooje
+  (ONG) nder Tuunus e hoore mum haa he caggal mum.\\nHayso \u0257ee kelme mettinii
+  \u0253er\u0257e heew\u0253e, \u201c \u00f1aamankoo\u0253e \u201d ley\u0257e Orop
+  mbeltiima heen. Hono hooreejo leydi Itali maa luulndiyanke bay\u0257o no Eric Semuur
+  mo Farayse, daranii\u0257o miijannde moojobere nde \u0253e inniri \u201c grand remplacement
+  \u201d woni \u201c lomto yaajngo \u201d. E wiyde ma\u0253\u0253e, uujoyankoo\u0253e
+  nganniyii ko lomtaade \u0253esnguuji \u201c jeyi-leydi en \u201d ngam keewal mum
+  en, mba\u0257ta \u0257um leydi \u0181alee\u0253e.\\nKayis Sayed holliti miijo ngoo
+  ko he batu Diiso Kisal ngenndiwal. Ina yahdi e jeeyngal jaajngal a\u00f1amle\u00f1aagu
+  nder geese renndo enternet e jaay\u0257e leydi Tuunus. Gila lewru siilo 2023, jogii\u0257o
+  konngol laamu Tuunus, Kalifa Shibani, hollitiino nder yeewtere rajo heeriingo \u201c
+  \u0253ee Afirikinaa\u0253e \u0253alee\u0253e inan pu\u0257\u0257oo heewde nder wuro
+  Esfaksa \u201d. Ko adii \u0257uum jaamburee\u0253e, fotde 300 \u0181alee\u0253e
+  Afiriknaa\u0253e njaggaama nder yontere wootere, cokaa sibu woytoraandu \u0253e
+  ngalaa kaayitaaji jamirooji \u0253e joo\u0257aade he leydi hee. Moo\u0253e ONG keew\u0257e
+  caaktii hare fotnde huccaneede he kaa \u201c haala nga\u00f1gu nguru \u0253anndu
+  \u201d ka Kayis Sayed \u0253amti he innde mum.\\nRenndoyanke faraysenaajo Wincent
+  Geisser, karallo ngonka ley\u0257e Magreb hollitii \u201c haala nga\u00f1amtumaagu
+  feewde he uujoyankoo\u0253e e \u0181alee\u0253e Tunusnaa\u0253e\u201d ina woodnoo
+  ko adii hannde. Ko gila ko \u0253ooyi. Hes\u0257i ngol laawol ko \u201c hooreejo
+  leydi Tuunus e hoore mum fuybiima he \u0257ee bempe\u01b4\u01b4e nga\u00f1gu, wa\u0257ti
+  \u0257e miijooji laamu ngam kisal e faa\u0257eende le\u00f1ol \u201d.\\nGorko biyetee\u0257o
+  Kensa ben Asuus ko Tunusnaajo wi\u0257tiyannke renndo Tuunus, karallo le\u00f1amle\u00f1amaagu
+  nder Tuunus, winndi wiyi \u00ab ge\u0257e a\u00f1amnguraagu ina teskanoo ko \u0253ooyi
+  nder dingire dawrugol kono hooreejo leydi \u0253amtude \u0257e ko huunde hesere
+  nder Tinus \u00bb.\\nNgonka mettuka\\nKamaruunaajo dilloowo he naatnaattondiral
+  uuj\u0253e won\u0253e wuro Esfaksa to Tuunus, won ko haali nder geece renndo. O
+  wiyi \u201c so en pawiima he ko pelle \u0257e ngonaa laamuyankooje (ONG) kaali,
+  ko ina \u0253ura 30 haa 50 ujune ummii\u0253e \u0253aleeri Afrik ina tawee nder
+  leydi Tuunus, kono alaa ko \u0253e ngoni so wonaa tata\u0253al uuj\u0253e \u0253ee
+  fof tolnoytoo\u0253e he 0,5 % \u0253esngu Tuunus fof no woorunoo \u201d.\\nWa\u0257de
+  noon yillii\u0253e won\u0253e Tuunus ina ngo\u0257\u0257i waawde \u00ab lomtaade
+  \u00bb \u0253esngu Tuunus, helmere nde a\u00f1amnguree\u0253e kuutortoo to ley\u0257e
+  Orop haa arti he Farayse. Nde fu\u0257\u0257ii fee\u00f1de nder Tuunus ko he \u0257ii
+  duu\u0253i sappo \u0253ennu\u0257i.\\nHaa he kitaale 2000, Tuunus ko yawtirde tan
+  wonnoo fayde Orop, kono hannde ina he uuj\u0253e joo\u0257ii\u0253e \u0257oon sabi
+  yottaade Orop inan tan \u0253eydoo sa\u0257tude.\\nE wiyde Tunusnaajo Kensa ben
+  Asuus, \u00ab \u0253uri heewde he wo\u0257\u0253e yillii\u0253e Tuunus ko janngoo\u0253e
+  e gollotoo\u0253e golle muus\u0257e, kala ko Tuunus naftortoo to faggudu e to pinal.
+  Kono jamirooje sariya e nju\u0253\u0253udi laamu u\u0253\u0253ii \u0253e, \u0253e
+  mba\u0257ti lee\u0253teede he kala ge\u0257e bon\u0257e hono cangarte rew\u0253e
+  mba\u0257taa kuutor\u0257e \u00bb.\\nHaalannde hooreejo leydi Tuunus fu\u0257\u0257iima
+  jibinde ge\u0257e \u0257e mo\u01b4\u01b4aani sibu wonii heen gollatnoo\u0253e ko
+  \u0253ooyi ndiiwaama tawa aldaa he ndaamordi. Wo\u0257\u0253e njaltinaama galleeji
+  kasnoo he yamiroore \u00ab polis \u00bb. Ko he kaa ngonka mettuka \u0253alee\u0253e
+  Afriknaa\u0253e ngoni nder leydi Tuunus.\\nGaagaa ge\u0257e jowitii\u0257e he uujan\u0253e
+  Tuunus, pelle \u0257e ngonaa laamuyankooje tee\u014btinii to\u0257\u0257aa tan ko
+  \u0253alee\u0253e. \u0181een \u0253alee\u0253e noon ko uuj\u0253e yamiraa\u0253e
+  e suu\u0257ii\u0253e \u0253ee, janngoo\u0253e, hay nih \u0253alee\u0253e Tunusnaa\u0253e.
+  Tunusnaa\u0253e njoobotoo ko \u0253alee\u0253e e kuu\u0253al, njotondiral ma\u0253\u0253e
+  he ca\u0257eele kisal nder leydi ndii. So \u01b4eewaama bannge worgo leydi ndii,
+  \u0253alee\u0253e Tuunusnaa\u0253e ina kii\u0257aa toon no feewi, \u0253e njaggiraaka
+  nih ko he leydi hee \u0253e njeyaa. Ko teskaade Aarabee\u0253e ummii\u0253e ley\u0257e
+  go\u0257\u0257e inan toon, hono Libiyaa e Misra e Lubnaan e Siriya e Iraak. Kono
+  Kayis Sayed haalaani \u0253een.\\n\u201cMoojobere\u201d nde gasataa\\nHe fil\u00f1itere
+  2011, leydi Tuunus yahriino tigi yeeso nder hare feewde e a\u00f1amle\u00f1amaagu
+  e ndoolndoolaagu he waawnere. Ge\u0257e \u00ab banndiyaagal \u00bb keewiino haa
+  walliti a\u00f1amle\u00f1amee\u0253e, ko wayi no Konngonaa\u0253e \u0257i\u0257o
+  waranoo\u0253e he 2016, yanti e sar\u0257iyankoo\u0253e \u0257i\u0257o cakkiti sariya
+  ka\u0253oowo e a\u00f1amle\u00f1amaagu, e nga\u00f1gu, e ceerundal. \u018auum fof
+  e woodde addanaani ngonka kaa waylaade. Ko noon Hatem Nafti wiyi nde o holliri heerto
+  (lannda) dawrugol bonngol gollortoo : heerto ngenndiiwo Tuunus he\u0253tinaama gila
+  he hitaande 2018. Ko ngoo heerto ruttukeeciiwo caroowo miijooji nawtooji caggal
+  e yiyde moojobbe he kala dille, caroowo miijooji \u00ab grand remplacement \u00bb.\\nHaalannde
+  Kaysi Sayed haawnaaki\\nYim\u0253e fof ina ceedii leydi Tuunus woni ko he ii\u00f1curu
+  mawndu, tee\u014bti to bannge faggudu e to renndo e to dawrugol. Ndeke Kayis Sayed
+  won miijooji jogitii \u0257i o haalaani. O wa\u0257i uujiyankoo\u0253e ko woytoraarndu
+  ca\u0257eele \u0257e leydi ndii jookii he nder mum. \u018aum wee\u0253anii mo, so
+  joopaade ho\u0253\u0253e leydi, wonaa kay etaade \u00f1awndude sa\u0257\u0257a \u0253esngu,
+  sompa mbaylaandi ittoori Tunusnaa\u0253e he heege e \u0257omka, naatna \u0257um
+  en demokarasi.\\nIna he ca\u0257eele Tunusnaa\u0253e hannde yo\u0253de \u00f1amaale
+  Kayes Sayed, \u0253eydagol njaru \u00f1ameele hono kosam e gawri e conndi mba\u0257irteendi
+  mburu. Njaru ceede Tuunus (dinaar) ustiima ko ina tolnoo he 10% : firti ko kala
+  ko jaratnoo 100 dinaar, jarata jooni ko 110. Siftorde Covid-19 e kareeli hakkunde
+  Riisi e Ukreen ko woytoraandu tan. Kaa ngonka jeyi dallillaaji haalannde hooreejo
+  Tuunus ngam suu\u0257de ca\u0257eele nderndere \u0257e \u0253e muti he nder mum
+  en.\\nHeen sahaaji o joopotoo ko julankoo\u0253e tokos\u0253e \u0253e o wiyata ina
+  moofta njeeygu mum en mbele \u0253esngu ina hey\u0257a, murta. Sahaaji go\u0257\u0257i
+  ko jaayndiyankoo\u0253e, maa dente dawrugol maa pelle \u0257e ngonaa laamuyankooje
+  \u0257e o wiyi ndaranii ko ley\u0257e janane.\\nHedde 9 lewu mbooy, o jokkondirii
+  e Umar Siisoko Mbaalo gardii\u0257o fedde faggudu CEDEAO. O holliti mo haala makko
+  ko ko waylaa, wa\u0257taa ko o haalaani. O wiyi ko o \u201cAfriknaajo etee omo faarnorii
+  \u0257um\u201d. Kaa haala dow \u00f1ii\u01b4e ko haa wela \u0181alee\u0253e Afrik,
+  kono o haalii o wa\u0257ii ko woni miijo makko.\\nKo he ndeen yontere o \u01b4etti
+  sariya firtude diisnetee\u0253e ngalluuje (meeriiji), jooni ko kanko to\u0257\u0257otoo
+  fotoo\u0253e ardaade ngalluuje nder Tuunus. \u018aum ko ke\u0253e gila he waklitere
+  2011 nde \u0253esngu Tinusnaa\u0253e sompunoo. Ko woni yeeso da\u0257aani gite sibu
+  ko nih Ben Aali fu\u0257\u0257orinoo hade mum riiweede.\\nKo ina tolnoo jooni e
+  duu\u0253i \u0257i\u0257i, loowdi kala nde o haali ko wiyde won \u00f1ukkintoo\u0253e
+  ngam yoolde Tuunus, doole ummii\u0257e caggal leydi. Hay sinno e\u0257en njenanaa
+  \u0253ee uujiyankoo\u0253e ko woytoraandu tan, \u0253uri yaajde he haala makko ko
+  sikkude yim\u0253e fof njiylotoo ko tel\u0253inde leydi Tuunus, ellee ko kam woni
+  nehaande winndere. Laa\u0253ii noon Sayid Kayis (hayso innde makko ko hitowol Berbeer)
+  anndaa daartol leydi Tuunus.\\nHoli KAYIS SEYID, Hooreejo leydi Tuunus ?\\nKayis
+  Seyid, jibinaa ko 22 Colte (feebariyee) 1958 nder wuro Tunis. Iwdi galle ma\u0253\u0253e
+  ko Beni Kiyaar en to diiwal Nabili fu\u0257naange-worgo wuro Tuunus. O resi ko biyetee\u0257o
+  Ishraf Shebil, jeyaa\u0257o wuro Monastiir, \u0253e nda\u00f1dii sukaa\u0253e tato,
+  rew\u0253e \u0257i\u0257o e gorko. Kayis Sayid janngii nder leydi Tuunus haa o he\u0253i
+  ceedante toow\u0257e to bannge \u00f1aawooje. O jannginii haa 1999 nder du\u0257e
+  toow\u0257e to Tuunus. Kono kadi o ardiima goomuuji keerii\u0257i to kuu\u0253al
+  Maalde Aarabee\u0253e.\\nO winndii defte keew\u0257e jowitii\u0257e he \u00f1aawooje.
+  O tawtoraama batuuji keew\u0257i nder Tuunus e boowal mum haa arti nde Maalde Aarabee\u0253e
+  joo\u0257ii Nuwaasoot he 1997.\\nO fu\u0257\u0257ii naatde he \u201cwooteeji\u201d
+  hooreleydaadal ko he 2019. Hay heerto dawrugol wooto o jeyanooka. Nde wonnoo omo
+  teskoranoo nuun\u0257al, o yahdi hoore boowal ko Nabil Karawi mo o fooli nde o da\u00f1i
+  to\u0253\u0253e 73 %. Caggal \u00f1abbu Covid-19, o rokki hoore makko mbaawka hooreejo
+  leydi timmuka he 2021. O riiwi jaagor\u0257e laamu fof, o dartini golle suudu sar\u0257iyeeji
+  hade makko mumtude \u0257um. Luulndii\u0253e e fanniyankoo\u0253e dawrugol njaggiri
+  \u0257um ko follo laamu (kudetaa).\\nHe 2022, o winnditii doos\u0257e leydi kese
+  teskoraa\u0257e wa\u0257tude mbaawka fof he juu\u0257e makko. O wa\u0257ti heen
+  fayndaare nju\u0253\u0253udi leydi Tuunus fawii ko he diine Lislaam. Luulndii\u0253e
+  \u0253ee noon ko salii\u0253e \u0257uum. E\u0257en ciftora gila he Habib Burgiba,
+  Tuunus ko leydi caliinoondi renndinde diine e dawrugol, \u0257o debbo wellitaa sanne.
+  Kayis Sayid firtii fof. Fanniyankko\u0253e kollii Kayis Sayid jeyaa ko he miijan\u0257e
+  \u201c ngenndiyankaagal Arab \u201d, o fu\u0257\u0257ii tabitinde \u201cjeytaare\u201d
+  leydi ley\u0257e aarabee\u0253e haa o wiyi \u201ckala jotondiral he leydi Israayiil
+  foti jaggireede ko jamfa maw\u0257o\u201d. O holliri leydi Tuunus ko leydi aarabee\u0253e,
+  kala mo wonaa Aarabe jaggiraaka ko Tunusnaajo alaa kay ko haali jillii\u0257o \u0257oon.\\nKo
+  he 2023 o wiyi : \u201cujjujooji Afirknaa\u0253e \u0181alee\u0253e ko moojobere
+  \u01b4ii\u01b4iire nder \u0257ee daror\u0257e teeminannde 21\u0253iire, \u0257i
+  fayndaare mum laatii waylude ngonka renndo \u0253esngu Tuunus, ngam wa\u0257tude
+  ndi leydi Afrik tan, ubba jeloode mayri leydi Aarabaagal e Lislaam\u201d. Ellee
+  leydi Tuunus woni ko nder do\u014bre Asiya maa Orop.\\nAamadu Malal Gey\"", "\"Mi
+  he\u0257tiima widewooji e ojooji yi\u0257\u0253e yu\u0253\u0253itin\u2019de haala
+  Farba Ngom kono pulaar ena wiya so konngol rufii hoccataako.\\nLaamu e jawkal aduna,
+  e ganndal ena jibinana aade bewre, ko \u0257uum addani yoga e laam\u0253e hannde
+  ko murteende nanngi\u0253e.\\n(1)Senegaal alaa \u0257emngal ngenndi, njogi\u0257en
+  ko \u0257em\u0257e ngenndiije.\\n(2)Ne\u0257\u0257o mo\u01b4\u01b4o, pin\u0257o,
+  malaa\u0257o, so tawii \u0257emngal ena hii\u0253a, a\u00f1\u0253e ena ndarii jamma
+  e \u00f1alawma ngam yi\u0257de warde \u0257emngal ma neeniwal, a\u0257a haani daraade
+  calo\u0257a, kono wonaa a\u0257a wallita \u0253een.\\n(3)Yonti kala laamii\u0257o
+  biyoowo mbiymi nde \u0253e nganndinte en ngalaa ko \u0253uri le\u00f1ol ngol, etee
+  alaa ko firti le\u00f1ol so wonaa \u0257emngal ngal. #Yero_Dooro_Jallo ena wiyatnoo
+  so \u0257emngal maayi le\u00f1ol maayi. So \u0257emngal wuuri le\u00f1ol wuuri.
+  Kala mo daraaki e wallude en no \u0257emngal pulaar \u0253amtorii, oon haanaani
+  daraade ena naamndo en daa\u0257e men.\\n(4)Teskaama hannde e nguu\u0257o laamu
+  yoga e sgataa\u0253e \u0253e le\u00f1ol ngol yaakorno e\u0253e ndartii hannde darnde
+  gertoo\u0257e e nder gallle, foccude, joggude, ko aldaa e gollude, \u0257um noon
+  mbiyen \u0253e kes walla kus.\\n#Tijjaani_Aan ena wiyatnoo bonni laam\u0253e ko
+  haarde, kala e ma\u0253\u0253e kaar\u0257o jamfoto le\u00f1ol ngol, walla daroo
+  ena wiyaa miin mi jinngata tawa noon hay Geno koko jinngi.\\n(5)Ena jeyaa e ko jibinii
+  \u0257ee ca\u0257eele woni fam\u0257ude humpito, e salaade he\u0257taade renndo
+  mum, ngati so wonaano wonde faalkis laam\u0257o pullo haanaani faljude \u0257ee
+  paljan\u0257e, ngam \u0257ii duu\u0253i cakkitii\u0257i ko e hareeji \u0257emngal
+  tan ngon\u0257en.\\nLaana ndiwoowa ka ngenndi Senegaal en njiyi ko\u0253e fam\u0257in-\u0253e
+  toon \u0257emngal pulaar.\\nLaana njoorndi ka (Teer) ko hono noon kadi \u0253e mba\u0257iri.\\nTarngo
+  ngam fof en (LPT)ko hono noon.\\nAyaawo ngenndi (RTS) ko \u0257oon \u0253uri bonde.\\nHaa
+  yettii gollor\u0257e ngenndi saha kala ko ca\u0257eele teski\u0257en heen, ngam
+  kala jah\u0257o toon \u0253e mbiyata ko e\u0253e mbaawnu-ma yo a haal \u0257emngal
+  gonngal, so a tii\u0257aani e ko ngon\u0257a ko, tawtaa\u0253e.\\nhttps://fb.watch/c5hbHCW3XA/\\nYIMRE
+  PULAAR.\\nPULAAR KO \u018aEMNGAL AM, KO NGAL \u018aEMNGAL WONI FI\u018aTAANDU AM.\\nMI
+  \u0181AMII NGAL \u018aEMNGAL NO AFO JALTU\u018aO E AM, YI\u018aDAM E MAGGAL MI FAWAANI
+  E PINAL WALLA GANNDL.\\nPULAAR KO NGAL DAKMUNGAL, BELNGAL, NGAL \u018aEMNGAL KAY
+  KO NGAL TIMMUNGAL.\\nGILA TO DOOS\u018aE, DUTTOR\u018aE, CELLUKA MAA \u018aA\u018aI
+  MAGGAL, KALA MO YAWI NGAL, ANNDAA FAAYIIDA MAGGAL.\\nAFRIKA E YAAJEENDE MUM, PULAAR
+  HUU\u0181TIDINI KEERI MAGGAL, ALAA TO NGAL \u018aEMNGAL WONAANI NGAM CARAGOL HAALOO\u0181E,
+  WINNDOO\u0181E E MAGGAL.\\nSO MI\u018aO HAALA NGAL MI TAMPATA NGAM NEWAARE ENA TAWEE
+  E MAGGAL.\\nSO MI\u018aO JA\u014aTOO E MAGGAL HAALA JUUTATA HAA MI JOOKO E MAGGAL.\\n\u018aEMNGAL
+  E PAAFTOR\u018aE MUM, KELME KESE E KII\u018a\u018aE ENA TAFEE E NDER MAGGAL.\\nPULAAR
+  KO \u018aEMNGAL \u00d1EE\u00d1-\u01b3U NGAL JANNGU PAHMAA HOL KO SOOMI E NDER MAGGAL,
+  YI\u018a NGANNDAA HOL KO WONI DAKAMME E NDEE MAGGAL.\\nPULAAR KO AAN \u0181URANIMI
+  NEENE E BAABA AM, CUDDII\u018aO E \u0181I\u018a\u018aO KO NGAL \u018aEMNGAL HEEWI
+  \u0181ERNDE AM, KALA MO YI\u018aI NGAL MI YI\u018aMAA E BELDAL, KALA MO A\u00d1I
+  NGAL MI A\u00d1MA KO ALDAA E DUTTAL.\\nSO GOOL ENA DOKTANA YUMMUM.\\nSO MBORTU ENA
+  WOYANA YUMMUM.\\nSO LIINGU ENA HISA E MAAYA MUM.\\nSO DOOMBURU ENA DA\u018aA E NDER
+  NGASKA MUM.\\nSO ULLUNDU ENA WUURA E RADDO MUM.\\nSO FAWRU ENA HAARA SONNGA MUM.\\nJAALAL
+  ENA WELTOO E HAALDE \u018aEMNGAL MUM.\\n\u018aEMNGAL PULAAR KO DOW.\\nJAALAL LE\u00d1OL
+  BAH.\"", "\"Ardiido Lesdi Naajeeriya, Muhammadu Buhari mettini kippe mbarhoore mbarki,
+  Reverend John Cheitnum mo Kafanchan Catholic Diocese ko wada ha Jihawol Kaduna bawti
+  be Bindigaaji hoosino mo nyalde 4 ko saali.\\nWakkati Buhari mettini haala kan,O
+  wi, \u201cfakat haalakn suni am sanne musamman mbarki mo haykaleeru kastaado mo
+  be nanata nder Lesd Naajeeriya.\u201d\\n\u201cyaaruki kipped ow muumini\u2019en
+  musamman maube diina naadum hunnde on ko waddata jam nder Lesdi fu.\\n\u201cmido
+  tabitina Naajeeriyaabe mi jeedata cip dow haalakan mi wadan fodde bawde am ngam
+  yiiki Laabka wanngi nden hurga gannudi din nder Lesdi Naajeeriya.,\u201d\\nO yottini
+  kofli foofo maako yaaki Lenyol sooyudo yonki muudum enanta Ardungal ummaatoore Jihawol
+  Kaduna nofoti.\\nSADIQ ALFA\"", "\"Basil Pesambili Mramba (15 mee 1940 \u2013 17
+  ut 2021) ko politikyanke CCM mo Tansani, gonnoo\u0257o tergal parlemaa to diiwaan
+  Rombo tuggi 2004 haa 2014.\\nNder 2015, o e ministaaru Daniel Yona \u0253e wa\u0257i
+  anniya je''e duu\u0253i tati ngam hokki huutore huutoreeki to bandiraaku UK Alex
+  Stewart Assayers, \u0257um wa\u0257i kuu\u0257e maako nder Tanzania \u0257on haaki
+  diga jonta. Caggal lebbi jee\u0257i\u0257i nder suudu ceerno, ko haani nder Murtu\u0257o
+  Mramba e Yona, \u0257um ha\u0253\u0253ii to gollaaki ummaatoore.\\nO maayi ngam
+  nyau COVID-19 e 17 Ogos 2021 to Dar es Salaam e duu\u0253i 81 wakkati nyau COVID-19
+  nder Tanzania.\"", "\"Afganistan\\n''Afganistan ko \u0253ia Daulaji Jul\u0253e \u0257un
+  Afganistan un lesdi e in\u0257e hakku\u0257e e fombina ge\u0253al Aasiya. E \u0257un
+  noddiradi e in\u0257e \u0253er\u0257e Asiya. \u018ai hauti kerol e Pakistan e ta
+  fuuna denbo e fombina haubo Iran eta hirna hai Turkministan gada woyla faaro hirna
+  e Uzbekistan gada woyla Tajiskistan, gada woyla faaro fuuna hai bo \u0257en China,
+  gada woyla faaro fuuna \u0257en e ta fuuna. E \u0257i maari jairii \u0257i jajirka
+  kiloomita 652,864 (252,072sq mi) leydi \u0257in e\u0257i woodi nyoole \u0257u\u0257\u0257e
+  \u0257eri bo \u0257i \u0253ure \u0257u\u0257irka jairi e ta wuttudu woyla e \u0257embo
+  fombina faaro hirna, e \u0257en nyolde Hindu kush \u0257un hen\u0257i hakku\u0257e
+  maajun e ko yaari 2021. \u018au\u0257irka ummatore maari yaari miliyan 40.2 \u0257en
+  e\u0257un ma\u0253\u0253odi e lasgi maw\u0257i lesdi \u0257un Baano \u0253e pashtuns,
+  Tajik, Hazaras e Uzbek, Kabul kanje ke gelle \u0253ur\u0257e mawgu lesdi \u0257in
+  \u0257enbo kanje gooni jonde gelle maw\u0257e laamu lesdi \u0257un.\\n\u018aemle
+  e lasgi[ta\u01b4to | ta\u01b4to \u0257a\u0257i wiki]\\nYim\u0253e Afganistan e \u0257en
+  maari \u0257emle e lasgi \u0257u\u0257\u0257i. Pushtuns man\u0253e goni lasgol \u0253urgol
+  mawgu latti kam\u0253e ngon 39% \u0257un \u0257uu\u0257irka ummatore lesdi \u0257in
+  (les wiigo liuutuugo laanyowo ngo 2019 \u0257un horeeji Asiya) Hai Tajik (ko forsiwans)
+  latti \u0253e koochi 37% \u0257un ummatore lesdi \u0257in luttu\u0257e \u0257en
+  maw\u0257i lasgi tati tokku\u0253e ga\u0257a ham\u0253e ngoni Tajik, Hadaras e Uzbek.
+  E woodi \u0253eddago lasgi kanji sappo e han\u0253e ma e\u0253a \u0257er \u0257emle
+  arduje \u0257embo ko \u0257eye \u0257un inni in\u0257e maa\u0253e eder mantinare
+  lesdi Afganistan.\\n\u018aemle sappoje sappo \u0257en e Pashto hanje ke \u0257emle
+  ngomnaati e Afganistan e \u0257uun wolda e Bolle ko \u0253uri go\u2019o un huu\u0257e
+  lattati\u0257un ba \u0257iyam jemma kautu\u0257an gelle dari un wolde komoye e komoye
+  e gelle Kabul den bo e \u0253urdun \u0257uu\u0257uki e gattuti woyla e woyla faaro
+  hirna lesdi \u0257un. Nanoo\u0253e bolle dari \u0257un ko \u0253ene lasgi e \u0257un
+  noddira\u0253e forsiwan.\\nPashto kanuun woni bolle Pashtu \u0257un usl haidan \u0257ud\u0253e
+  eder ma\u0253\u0253e e \u0253e ekkito bolle Pashto. Hai dai fuu enon Pashtus \u0253e
+  lattake \u0253e \u0253urgo \u0257uu\u0257uki e siyasawal Afganistan \u0257uu\u0253i
+  aru, aru. Dari lattake wolde \u0257e \u0257un \u0253uri yi\u0257uuki wolwiro\u0253e
+  bolle dari \u0253e nyaari 78% \u0257un yim\u0253e leydi \u0257in (Litlz) e wiigo
+  CIA World Factbook yim\u0253e \u0253e \u0257un hoo\u2019ata e jonde wolde leydi
+  \u0257un enon bo wolde \u0253e e wolde dari \u0253e nyaari 78% \u0257un yim\u0253e
+  lesdi \u0257in \u0257en ham\u0253e \u0257uri hooshi e dau bolle leydi \u0257un \u0257enbo
+  Pushto ebe goodi 50%, Uzbek 10%, Innglishi 5%, Turkmen 2%, Urdu 2%, Pashayi 1%,
+  Nuristani 1%, Larabawankore 1%, e Balochi 1% (2021 est) e woodi bo pamare-pamare
+  \u0257emle gebal der haae Uzbek, Turkmen, Balochi, Pashayi e Nuristani wolde ko
+  famuki Hindustani (Urdu-Hindi) inare e \u0257uun \u0257un waadi e go\u0257\u0257un
+  ge\u0253ol Saboe wartuki doggu\u0253e wadu\u0253e Hijra Afganistan gada Pakistan
+  e \u0257enbo an\u0257iraki fimiji-fimiji \u0257i Bollywood. Haa e hande wo\u0253\u0253e
+  gada \u0257er ummatore yim\u0253e lesdi e\u0253e faama inglishire \u0257en e\u0257un
+  hee\u0253a yi\u0257ago gada nduungu 2000 wo\u0253\u0253e \u0253e Afganistan e\u0253e
+  \u0253awii bolle Ruslankar e \u0257un ekkito\u0253e \u0257un gongirla ngomnati eder
+  1980.\"", "\"Browsing Category\\nUncategorized\\nHitordu majalissa ardundal yake
+  risku lesde Africa hirnankere ECOWAS ta\u2019an kita hakkunde Mr. Ousmane Sonko
+  be ngomnati leddi Senegal nyande altine waratado jeego leuru November.\\nWullido
+  ha kita kan, Mr.!-->!-->!-->!-->!-->\u2026\\nArdiido Lesdi Naajeeriya Bola Ahmed
+  Tinubu yottini kofli mooko musamman ngam wadanki Ardiido Lesdi Naajeeriya boymaajo,
+  General Yakubu Gowon, Rtd barka bee hewtuki Duubi danyorde maako di 89.\\nTinubu
+  wadani ndottiijo on!-->!-->!-->\u2026\\nBallo Ardiido Lesdi Naajeeriya, Kashim Shettima
+  yahi ggidal haa Havana Lesdi Cuba, jee G77 kadima bee giidal ardiibe Lesdi China.\\nShettima
+  luutani Ardiido Tinubu haa giidal ngal ko tammi fuddeeki 15th yaaki 17th Lewru!-->!-->!-->\u2026\\nArdiio
+  Lesdi Naajeeriya Bola Tinubu wadani Alake mo mardi Egba, Oba Adedotun Aremu Gbadebo
+  III, CFR, bee hewtuki Duubi 80 Duubi danyorde maako.\\nNder batakewol ardiido on
+  windi ngam wadanki lamdo on barkani woodi mantooje!-->!-->!-->\u2026\\nArdiido Lesdi
+  Naajeeriya Bola Tinubu tammi wolwiku haa moobtorde nde 78th dum majaliisa moobgal
+  LesdeDuuniyaaru (UNGA) ko watte haa hodorde UN haa Galluure New York Lesdi America
+  nyennde Salaasa, 19th!-->\u2026\\nBallo ardiido Lesdi Naajeeriya, Kashim Shettima,
+  nodditiri siyaasaabe wada fodde bawde mabbe sanne ngam yiiki Lesd ndin hawti koppi,hebi
+  jahargal yeeso hawtaade bwee narral hakkunde ummaatoore Lesdi Naajeeriya.\\nHooreejo
+  mo!-->!-->!-->\u2026\\nArdiido Lesdi Naajeeriya, Bola Tinubu, tefri taadiibe hawta
+  Ko\u2019e mabbe ngam be renta ummaatoore \u2018e jawle mabbe nden be heban jabrude
+  no hurgirta gannudi soynde rento haa nder Lesdi Naajeeriya.\\nArdiido on wadi tefre
+  nden nyennde Altine!-->!-->!-->\u2026\\nArdiido Lesdi Naajeeriya Muhammadu Buhari
+  tammi yaaki Lesdi Mawritaania nyannde Salaasa 17 Lewru January, 2023, musamman ngam
+  jabuki haatimmeere manoore .\\nArdiido on jaban haatimmeere nden ngam tidal maako
+  haro habduki!-->!-->!-->\u2026\\nHukuuma hakkilanta shaanu pijirle Bol kosde nga
+  Lesdi Naajeeriya, NFF wi hooreejo tokkere nden mo Super Eagles, Jose Peseiro wurtinan
+  inde fijoobe ko hewtani 23 Altine, 7th November musamman ngam fijirde mabbe bee
+  Lesd Portugal.\\n!-->!-->!-->\u2026\\nUmmaatoore Jihawol Imo taskani ngilla Ardiido
+  Muhammadu Buhari nyennde Altine 31st, October.\\nArdiido Buhari wadi ngillakan musamman
+  ngam omtuki giidal besduki anndal jee Ardiibe Police \u2018en dum hitaande 2022
+  musamman!-->!-->!-->\u2026\"", "\"\u00d1alawma hannde 20 06 2017 dawraama entree
+  en e cfee ekkol 2 mo wurosoogi inniraa\u0257o Abu Jaawara gootal e du\u0257e nasraan
+  leslese \u0257e. \u018ao e Wurosoogi ko sahnga waktuuji 8 subaka kalfinaa\u0257o
+  diiwaan o hono, Umaar Mammadu Baalde ardii e sete mum ngam wa\u0257de njillu mum
+  e nder ekkolaaji \u0257i e \u01b4eewde no kawgel ngel no yahrata. Yanti kadi I.A,
+  IEF kam\u0253e fof \u0253e ngarii \u01b4eewde golle \u0257e.\\nE wiyde Mammadu Joob
+  gardii\u0257o golle kawgel ngel : \u00ab nde min ngari subaka o janngoo\u0253e fof
+  ngarii \u00bb. Guwerneer ardii e perefee e sete timmu\u0257o. \u018aereeji \u0257i
+  \u014bakkaani, wor\u0253e \u0253e winndinoo ko 105 kono ari ko 104, rew\u0253e ko
+  winndinoo ko 160 kono ari ko 157.\\nFof so renndii wonata ko 264 wadde wor\u0253e
+  \u0253e ko gooto woni mo araani, rew\u0253e \u0253e ko 3, wa\u0257de ko janngoo\u0253e
+  4 ngoni \u0253e ke\u0253aani wa\u0257de kawgel. O hollirii ko feewti e binndan\u0257e
+  \u0253eto \u0257e tii\u0257aani, ko ko wa\u0257aa \u01b4eewtindaa e dow sirlu. To
+  bannge \u0257emngal e jokkondiral ina way KAWGEL SETno ko \u0253e njogii ko \u0253urtii
+  sabu \u0253e njogii ko 264 kanndidaa aawolo\u014baaji \u0257i ko 390 kadi min \u01b4eewtiima
+  alaa ko wa\u0257i heen ca\u0257eele, fof ina timmi. Kam\u0253e janngoo\u0253e \u0253e
+  \u0253e kollitii e oo sahaa golle ina ndee\u01b4ni \u0253er\u0257e. Ina jokki haa
+  kikii\u0257e ngam kawgel ngel waawa joofde\\nBookar sek lewlewal Maatam\\nPost your
+  comments\\nVous devez \u00eatre connect\u00e9(e) pour r\u00e9diger un commentaire.\"",
+  "\"Bayyinaama \u00f1alnde talaata 20 abril wonde \u00ab Idiriis Deebi Itnoo, gonnoo\u0257o
+  hooreejo leydi Caad sankiima caggal nde gaa\u00f1ii e hare nde ardinoo feewde e
+  murtu\u0253e ummorii\u0253e to leydi Libi \u00bb. Nde wonde Idiriis Debi Itnoo (IDI)
+  ina aadorii kala nde leydi mum yanaa (Caad ina heewi buklet baklet) o dadoo haa
+  tii\u0257a, o ardoo konu, o faloyoo a\u00f1\u0253e, sabu e ko o heewi wiyde \u00ab
+  tawde ko o soofa e nder konu, ko o deennaa\u0257o leydi, so tawii woodi ko jeemii
+  ndi, woodani mo ko falaade \u0257um \u00bb. Kono ngol laawol ko heen o heddii.\\nJubbande
+  see\u0257a e daartol politik Caad.\\nLeydi Caad, no yoga e ley\u0257eele men, jeyanoo
+  ko e tiimaandi kolo\u00f1aal Farayse gila e hitaande 1900 caggal pel\u0253ondiral
+  hakkunde kolo\u00f1aal Farayse e harbiyanke Sudaannaajo daraninoo\u0257o tiimde
+  leydi ndii e nokku biyetee\u0257o Kuseeri sara wuro Njamenaa hannde ngoo. E\u0257en
+  poti teskaade noon e oon yonta ko wiyetee hannde Caad koo, feccitinoo ko e laamuyon
+  njonkon e gardagol lawakoo\u0253e, ma a taw nii ko \u0257um saabii ca\u0257eele
+  \u0257e leydi ndii hawri e poo\u0257ondire politik yontaa\u0253e nokku oo e pollugol
+  laamuuji. Leydi ndii he\u0253i jeytaare mum ko \u00f1alnde 11 ut 1960, caggal nde
+  nanondiri \u0257um e leydi Farayse. Adii ardaade leydi ndii ko Faransuwaa TOMBALBAYE
+  haa hitaande 1975.\\nKo e maayir\u0257e 1965 ca\u0257eele Caad pu\u0257\u0257ii,
+  sabu ko ndeen hare \u0253esngu fu\u0257\u0257ii e cosgol fedde wiyeteende FROLINAT
+  siforteende no murto le\u01b4\u01b4i rewankooji aarabee\u0253e (sabu hiisaade \u0253e
+  wonde ko le\u01b4\u01b4i worgankooji \u0257ii njoo\u0257ii e jappeere laamu nguu
+  e ballal leydi Farayse). Law Tommbalbaay hawri e ca\u0257eele ummoraade e murtooji
+  le\u01b4\u01b4i rewo \u0257ii, tee\u014bti noon e le\u00f1ol Tubu en e gardagol
+  Hisen Haabere, ko e nder nduun i\u00f1curu woodi pel\u0253ondiral joli e nder konu
+  Caad, laamu Tommbabaay follaa, o waraa e hitaande 1975, lomtiimo ko Seneraal FELIX
+  MAALUM, oon ne \u0253ooyaani heen, sabu e hitaande 1979 o woppiri Hisseyni Habre
+  laamu, gollodii\u0257o Gukkunii Wedey hay so wonaa e belaa\u0257e makko, murto rewankoo\u0253e
+  doolnii no feewi, \u0257um ko e wolde adannde e nder Njamenaa.\\nE ballal leydi
+  Libi e yarahmu Muammaar Kaddaafi, e hitaande 1980, e nder wolde \u0257immere e nder
+  Njamenaa Gukkuni Wedey, folli laamu Hisen Haabere, fooli jaadii\u0257o mum, lomtii
+  kono e hitaande 1982 maa Hisen Haabere rutto e laamu caggal nde riddi Gukkuni e
+  ballal konu Farayse. Caggal nde laamu Libi ronki dentingol leydi Libi e Caad, ngu
+  etiima jiimde Caad, kono \u0257um laataaki sabu \u01b4aa\u00f1gol konu Farayse haa
+  addani konu Caad riiwtude konu Kaddaafi haa e lefol lollirngol AOUZOU, \u0253e la\u014bki
+  \u0253e calii yaltude.\\nKo e hitaande 1990 Idiris Debi ne lomi yolnde caggal nde
+  ummini wolde, riddi Hisen Haabere. Laamu Habre e dumunna mum woyaama no feewi sabu
+  ceddugol mum, daranii\u0253e hakkeeji aadee limtanii mo bonanndeeji keew\u0257i
+  : le\u0253te ; warkoyeeji, porlugol jawdi \u0253esngu, kasooji tee\u014bti noon
+  wonande luulndii\u0253e laamu makko. O wattindi ko dogde (o nawori dimle jawdi,
+  kaalis e cibooji) o mooloyii Kameruun caggal \u0257uum to Senegaal. Ko toon \u00f1aawirde
+  bonaandeeji adunankoore (C.P.I.) rullini mo, o \u00f1aawaa, o ta\u01b4anaa kaso
+  kaa\u0257di nguurndam.\\nIdiriis Debii e laamu mum\\nDuu\u0253i capan\u0257e tati
+  hikka ko o laamii ma a taw ko manndaa jeego\u0253o mo o hebornoo fiileede oo, woni
+  mo jigaani mo, sabu ko caggal bal\u0257e \u0257i\u0257i laaw\u0257ingol poolgu makko
+  e woote hooreleydaagu \u0253ennu\u0257o oo, o hawri e lajal to o yahnoo faloyaade
+  murto wo\u0257ngo. Laamu Idiriis Debii seertaani no feewi e laamu Hisen Haabere,
+  ngu maantorii ko lankugol e laamu, le\u0253tugol luulndii\u0253e e boomde \u0257um
+  en, wuuranaade le\u00f1ol mum e \u0253esngu mum e moo\u0253de jawdi ko aldaa e happu.
+  E ngu joofaa no feewi e baasgol hormaade jojjan\u0257i aadee.\\nMartaba IDI \u0253uri
+  mawnude ko e nder ley\u0257eele Afrik, tee\u014bti noon e\u0257e Saahel \u0257ee,
+  sabu o hiisaa hannde ko o kanndal wonande \u0257een ley\u0257eele, baaw\u0257o falaade
+  musibbaaji beeyooji e mum en : o da\u0257ndii Mali e bonannde jihadiya\u014bkoo\u0253e,
+  o helii ger\u00f1e Bokku Haraam to Niijeriyaa, o faddiima jihadiya\u014bkoo\u0253e
+  to Niseer, jiidaani noon o eeraama e ley\u0257eele keew\u0257e (Santarafrik, Konngo
+  ekn) yo o ar o walla laamuuji mum en no nda\u0257iri. So tawii ko goonga, Caad ina
+  jogii konu tigi rigi, yim\u0253e suus\u0253e, harbiya\u014bkoo\u0253e, jogitii\u0253e.
+  Ina walliti \u0257um iwdi le\u01b4\u01b4i \u0257ii e golwole \u0257e \u0253e nguuri
+  gila leydi ndii he\u0253i jeytaare mum, ina rokki \u0253e tigi rigi humpito hare
+  e karallaagal njogitaaje. Leydi Farayse ka\u00f1um woni \u01b4aa\u00f1gal tii\u0257ngal
+  wonande laamu IDI walla nii mbiyen ndi mee\u0257aa ittude junngo mayri e fiyakuuji
+  leydi Caad gila ndi he\u0253i \u00ab jeytaare \u00bb mayri sabu teski-\u0257en ko
+  kala dille ummii toon, maa en nan heen Farayse so tawi nii wonaa kayri sakkii. E\u0257en
+  teskii kadi ley\u0257eele keed\u0257e ndi rewo \u0257ee (Libi e Sudaan) ina mba\u0257ti
+  e mayri hakkille, tee\u014bti noon e Libi e jamaanu laamu Kaddaafi, tawde endi etoo
+  nii diwde keerol ngam fawde e mayri junngo (lefol Aouzou).\\nPoo\u0257ondiral hakkunde
+  \u0257ee ley\u0257eele \u0257i\u0257i battinii tigi rigi e nguurndam Caad, ha\u0257ii
+  ndi dee\u01b4re etee saabii \u0257um fof ko ngaluuji pee\u00f1\u0257i, maa \u0257aminaa\u0257e
+  ina kebori aggiteede e nder leydi. So tawii Farayse ina faami \u0257um gila nde
+  tiimi nokku oo, Kaddaafi ina tiimi nii leydi ngal\u0257undi, kono sabu mum yi\u0257de
+  hoonaade e nokku hee e nder Afrik kala, mawmawu mum ina diwti aadi. Ko \u0257um
+  wa\u0257i en teskaade laaminoo\u0253e Caad kala ndeftii ko gooto e laam\u0253e maa
+  Libi walla Farayse tee\u014bti noon e Farayse haa yettani maa battindii\u0257o oo,
+  hono IDI.\\nSaahal, Caad e Farayse\\nSahaal ko nokku mo leydi Farayse wa\u0257ti
+  hakkille mum tigi rigi, gaagaa wonde \u0257um \u01b4a\u014borgol da\u0253\u0253ol
+  hakkunde tiimaale mum ley\u0257e Magreb e ley\u0257e Afrik bannge worgo, ko nokku
+  oogir\u0257e mooftu\u0257e oogaa\u0257e katojinaa\u0257e hannde e aduna oo tee\u014bti,
+  kala paw\u0257o heen junngo mum maa hoono e nder aduna oo, tee\u014bti noon e nder
+  ley\u0257e hirnaange \u0257ee. Ko \u0257um wa\u0257i deeyre ko e ngo\u01b4a dowrowa
+  hannde leydi Farayse e nder nokku hee sabu faggudu \u01b4ellitaako \u0257o deeyre
+  alaa, kono kadi dawrugol leydi Farayse e kitaale 2011 feewde e Libi e warngo Kaddaafi
+  addii pusgu Libi gonnoo\u0257o \u00ab saare korndolli \u00bb jihadiya\u014bkoo\u0253e
+  walla mbiyaa terorist en, \u0253e nda\u00f1aano \u01b4uu\u00f1de koye e laamu makko.
+  Nguun pusgu sari ka\u0253ir\u0257e bon\u0257e e yoga e ley\u0257eele sawndooji nokku
+  oo haa yettoyii e won nokkuuji pooccii\u0257i e nder Afrik bannge worgo (Libi ko
+  leydi \u0253urnoondi faggaade ka\u0253ir\u0257e toos\u0257e), \u01b4aa\u00f1gol
+  leydi Farayse IDI e Caad ko joo\u0257toraade ko nguun konu tan waawi falaade ownoo\u0253e,
+  da\u0257nda Saahal.\\nMaayde IDI e kapan\u0257e Caad\\nWiya wonde \u00ab IDI sa\u014bkii
+  ko caggal gaa\u00f1an\u0257e \u0257e he\u0253noo e hare nde da\u00f1dunoo e murto
+  ummorinoongo libi (FACT : Maalde ngam lomlomtondiral e Kawral to Caad) e nder diwaan
+  Kanem \u00bb. Ngoon murto noon ngo Mahamat Mahdi Ali ardii (jeyaa ko e le\u00f1ol
+  Hisen Haabere en) ina tuumaa ko Khalifa Haftaar (mo leydi Farayse ngemmbi) gardii\u0257o
+  murto to leydi Libi \u01b4aa\u00f1i ngo, en tawii \u0257oo kadi \u0253arakke Farayse
+  no aadorinoo e luure e nder leydi Caad, so ngemmbude kala mo \u0257aminii \u0253uri
+  waawde heedannde \u0257um e nafooje mum e nokku hee.\\nSo tawii \u0257um laatiima,
+  hol ko aldi Farayse e IDI ? Hollitaama gila e hitaande 2017, IDI ko caltii\u0257o
+  wonde kuutorgal ma\u0253\u0253e e nder dawru\u0257i mayri e nokku hee, ko \u0257um
+  wa\u0257i o ja\u0253aani wallitde pollugol laamu Justin Tuedra to Santarafrik (ngu
+  laamu Farayse itodtaako) haa oon nii fiiltanaa lefol go\u0257ngol e manndaa mum
+  \u0257immo. IDI \u00f1i\u014bii no feewi fedde OTAN (ley\u0257eele Erop kuuf\u0257e
+  geec atlantik) nde o tuumi ko kam \u201cfusi leydi libi, wari Muammaar Kaddaafi\u201d
+  (so malol sa\u00f1tii jubol tiinde\u2026) etee e miijo makko, ko \u0257uum saabii
+  i\u00f1curu hannde e nder sahaal e koonagol jihadiya\u014bkoo\u0253e. \u018aum addani
+  heew\u0253e wiyde wonde ko wa\u0257i Caad koo, ko kuudetaa. Ine nanndi heen tawde
+  doosgal leydi yowaama, mo doosgal ngal rokkunoo mbaawka so hooreejo leydi nattii
+  he\u0253aade, ko hooreejo Asammbele lomtotoo \u0257um haa wooteeji nju\u0253\u0253inee,
+  kono oon jo\u00f1aama, sukku\u0253e mo miijaaka, militeer en tafii goomu mum en
+  \u201cyo ardo laamu nguu e cabbagol wooteeji pot\u0257i yu\u0253\u0253ineede \u0257oo
+  e lebbi 18\u201d, \u0253e ngardini nguun goomu ko \u0253iyum IDI, Seneraal Mahamat
+  Debi. Ko haawnii koo kay, ko Farayse e wo\u01b4eede yo \u201cDoosgal leydi horme,
+  kuudetaaji karmine\u201d dillaani, diwii \u0257oon nii wii \u201cina teskii wonde
+  laamu sabbordu ndu no fu\u0257\u0257orii ina feewi\u201d ina \u0257aminii \u201c\u0253ooyataa
+  siwil en ke\u0253ta laamu e juu\u0257e militeer en\u201d. \u201cfeew\u0253e juu\u0257e\u201d
+  ina mbiya IDI waraaka e nder wolde, ko soldatee\u0253e mum mbari \u0257um etee Farayse
+  humpaaka \u0257um, so tawii kay \u0253e cakkaaki les (\u0257um ko miijo am). \u018aum
+  ina \u0257e\u0253a siftinde en warngo Kabila to Konngo, \u0253iyum lomtii \u0257um
+  e jappeere.\\nMaayde IDI jibinii faayre e nder Caad e diwaan Saahal kala sabu amo
+  wa\u0257anoo yaakaare mawnde ngam falaade jihaadiya\u014bkoo\u0253e re\u0253oo\u0253e
+  ina telloo \u0253ee, murto Mahamat Mahdi wiinoo\u0253e ina \u0253uu\u0253na see\u0257a,
+  ina keblanii haaldeede njaltii e \u0257uum tawde \u0253e mbii \u201cko Debi go\u0257\u0257o
+  ari\u201d, luulndo leydi ndii inan ha\u0253oo ko \u0253e kiisii ko \u201ckuudetaa\u201d
+  koo, \u0257uum fof firti tan ko leydi Caad ina hulanaa nde ruttotoo e aadaaji mum
+  pel\u0253ondiral \u0253esngu mum e i\u00f1curu mawndu e duu\u0253i paa\u0257i.\\nMaamuudu
+  H. Joob\"", "\"Ardiido Lesdi America Joe Biden mani tiinaaje Ardiido Lesdi Naajeeriya
+  Muhammadu Buhari dow ko Laarani shaanu siyaasa haa Lesde Africa.\\nArdiido on suuditi
+  haalakan wakkati be wadanno giidal mabbe jee Ardiibe Lesde Africa ko hewtani 6 subaabe
+  marde cubi 2023 garooji haa Lesdi America.\\nBiden wi O larti noka waari iga 2015
+  cubi warki jotta on wadi O mani ardiido Lesdi Naajeeriya.kadima O tefri ummaatoore
+  Lesdi Naajeeriya bee Ardiido on besda waduki ko haandi ngam Laamu dimocradiyya tabita
+  haa giifakan.\\nArdiido on Lamsika bee wiiki Giidal mabbe wadaama bee Ardiibe ben
+  bana mo Democratic Republic of the Congo, Gabon, Liberia, Madagascar, enanta Sierra
+  Leone ngam be meta dowko laarani haala Cubi gadeteedi haa Lesde Mabbe.\\nSADIQ ALFA\"",
+  "\"[Giza] (/ \u02c8\u0261i\u02d0z\u0259/ ; Wonnde wakkitire no winndira Gizah ,
+  Geeza; misrankoore Arabic: \ufe9f\ufef4\ufeb0\ufe93 el-G\u012bza , misrankoore Arabic
+  noddirte: [el \u02c8gi\u02d0ze] ) un de \u0257ii\u0257awre gallure mawde \u0257er
+  leydi Misra \u0253aawoo Cairo e nayiire \u0257er galluje mawde \u0257er Afrik \u0253aawo
+  [Kinshasa],l[Lagos]],e [Cairo] . \u018ain \u0257e kapital \u0257un [Giza] hukumaare
+  hauti e \u0257uu\u0257irka yimm\u0253e fittugo haa no \u0257un 9.2 miliyanji ede
+  2021. E\u0257um \u0257i jottori e ta \u0257e [Nile]3mi fombina cakare [Cairo]e un
+  a \u0253ann\u0257u \u0257un mau\u0257um \u0257e [Cairo] ge\u0253\u0253al. Giza jottori
+  less \u0257e 30km (18.64mi) woyla \u0257um memphis(menefer) latti\u0257e kapital
+  artungal dun [Egypt diiwe gada nyal\u0257e \u0257un \u0257e artuude pharaoh Narmer\\nAppearance\"",
+  "\"Ngomnati Lesdi Germany wii kuude hurguti gannudi hijirbe dum hunnde on jee kawtal
+  koppi ngam non Lesdi Germany enanta Naajeeriya hhudan.\\nHaalakan wurti haa hunnduo
+  hooreejo Lesdi Germany, Olaf Scholz bawti giidal maako bee ardiido Lesdi Naajeeriya
+  Tinubu,.\\nScholz besdika bee wiiki ndini haa giidal bananiido hebaama hakkunde
+  Lesde den woodi laabka ko tammi tokkuki baawo.\\nadded that debates were ongoing
+  on the migration and very soon the gray areas will be addressed.\\nScholz Kadima
+  wi kampaniiji haa Lesdi Germany kewdum yidi wada rufayontaaku ha Lesdi Naajeeriya
+  hedi ko laarani shaanu nyibaali musamman kuude Laabi laanaaje lesdi.\\nNon ardiido
+  Lesdi Naajeeriya Bola Ahmed Tinubu anndimo down der ardungal maako do hebbini bee
+  gidaadi kuude Luumooku ko waddata jahargal yeeso Lesdi Naajeeriya.\\nArdiibe ben
+  meti duudka ko waddata jahargal yeeso hakkunde Lesde den 2.\\nSADIQ ALFA\""]'
+src_ngrams: '{"1": [[["e"], 175443], [["ko"], 88341], [["o"], 36442], [["nder"], 34918],
+  [["ina"], 22652]], "2": [[["e nder"], 16629], [["ko e"], 8594], [["e hitaande"],
+  6384], [["mum en"], 3661], [["lesdi naajeeriya"], 2957]], "3": [[["du\u0257al jaa\u0253i
+  haa\u0257tirde"], 1341], [["e nder leydi"], 1226], [["ko wayi no"], 1011], [["to
+  du\u0257al jaa\u0253i"], 930], [["ko faati e"], 816]], "4": [[["to du\u0257al jaa\u0253i
+  haa\u0257tirde"], 842], [["ko \u0253uri heewde e"], 599], [["e asli mum \u00f1alnde"],
+  407], [["nder nder nder nder"], 294], [["ko ina tolnoo e"], 268]], "5": [[["archived
+  from the original on"], 241], [["ko e asli mum \u00f1alnde"], 212], [["mooftaa ko
+  e asli mum"], 190], [["ardiido lesdi naajeeriya muhammadu buhari"], 177], [["fedde
+  \u0253amtaare pulaar e muritani"], 171]]}'

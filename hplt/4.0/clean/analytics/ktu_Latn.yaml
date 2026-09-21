@@ -1,0 +1,448 @@
+corpus: hplt-v4-ktu
+srclang: ktu
+timestamp: 1789050049.9666896
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["archivebot", 61], ["CC-MAIN-2022-40", 39], ["CC-MAIN-2014-15",
+  26], ["CC-MAIN-2025-33", 21], ["CC-MAIN-2025-05", 20], ["CC-MAIN-2020-05", 16],
+  ["CC-MAIN-2021-21", 15], ["CC-MAIN-2022-21", 14], ["CC-MAIN-2023-06", 13], ["CC-MAIN-2022-27",
+  12], ["wide00002", 11], ["CC-MAIN-2024-51", 10], ["CC-MAIN-2024-46", 10], ["CC-MAIN-2022-05",
+  9], ["CC-MAIN-2020-24", 8], ["wide00011", 7], ["CC-MAIN-2025-30", 7], ["CC-MAIN-2024-42",
+  7], ["wide00006", 6], ["CC-MAIN-2023-40", 6], ["CC-MAIN-2022-33", 6], ["CC-MAIN-2020-10",
+  6], ["CC-MAIN-2018-05", 6], ["wide00016", 5], ["CC-MAIN-2024-18", 5], ["CC-MAIN-2020-29",
+  5], ["CC-MAIN-2025-08", 4], ["CC-MAIN-2024-22", 4], ["CC-MAIN-2017-26", 4], ["wide00012",
+  3], ["CC-MAIN-2025-13", 3], ["CC-MAIN-2024-26", 3], ["CC-MAIN-2021-49", 3], ["CC-MAIN-2021-10",
+  3], ["CC-MAIN-2020-50", 3], ["wide00015", 2], ["CC-MAIN-2025-21", 2], ["CC-MAIN-2025-18",
+  2], ["CC-MAIN-2024-10", 2], ["CC-MAIN-2023-50", 2], ["CC-MAIN-2022-49", 2], ["CC-MAIN-2021-04",
+  2], ["CC-MAIN-2020-16", 2], ["CC-MAIN-2017-51", 2], ["CC-MAIN-2016-30", 2], ["CC-MAIN-2024-38",
+  1], ["CC-MAIN-2021-43", 1], ["CC-MAIN-2021-39", 1], ["CC-MAIN-2021-31", 1], ["CC-MAIN-2020-40",
+  1], ["CC-MAIN-2019-04", 1], ["CC-MAIN-2018-39", 1], ["CC-MAIN-2018-22", 1], ["CC-MAIN-2015-11",
+  1], ["CC-MAIN-2014-42", 1]]'
+docs_langs: '[[0.3, 4], [0.4, 7], [0.5, 25], [0.6, 10], [0.7, 23], [0.8, 67], [0.9,
+  44], [1.0, 231]]'
+docs_segments: '[[1, 3], [2, 6], [3, 70], [4, 55], [5, 43], [6, 58], [7, 49], [8,
+  30], [9, 19], [10, 6], [11, 5], [12, 3], [13, 6], [14, 1], [15, 4], [16, 2], [18,
+  3], [19, 4], [20, 6], [21, 7], [22, 5], [23, 1], [25, 1], [26, 3], [27, 1], [28,
+  3], [29, 1], [32, 2], [33, 2], [35, 2], [39, 1], [42, 1], [49, 1], [67, 1], [69,
+  2], [72, 1], [79, 1], [91, 1], [92, 1]]'
+docs_segments_mean: 9
+docs_segments_median: 6
+docs_top100_domains: '[["radiookapi.net", 225], ["une.cd", 69], ["wikipedia.org",
+  59], ["jw.org", 18], ["congopage.com", 7], ["afrikblog.com", 4], ["bible.com", 3],
+  ["wikiplanet.click", 2], ["unicode.org", 2], ["kongomedia.net", 2], ["editorial7.net",
+  2], ["blogspot.com", 2], ["wikipediahtml.org", 1], ["wikikongo.net", 1], ["svfellowship.info",
+  1], ["sistercollinsministry.com", 1], ["seghea.com", 1], ["sebastiensasa.org", 1],
+  ["rickwarren.org", 1], ["radiokongodieto.com", 1], ["nonviolent-conflict.org", 1],
+  ["mundamba.com", 1], ["mbuela-lodge.com", 1], ["fichier-pdf.fr", 1], ["eklablog.net",
+  1], ["congoplanet.com", 1], ["bundudiakongo.org", 1], ["blogspot.ch", 1]]'
+docs_top100_tld: '[["net", 231], ["org", 84], ["cd", 69], ["com", 22], ["click", 2],
+  ["info", 1], ["fr", 1], ["ch", 1]]'
+docs_total: 411
+docs_wds: '[[0.5, 6], [0.52, 5], [0.53, 3], [0.55, 3], [0.56, 3], [0.57, 5], [0.58,
+  5], [0.59, 2], [0.61, 2], [0.62, 2], [0.63, 2], [0.64, 3], [0.65, 4], [0.66, 3],
+  [0.67, 7], [0.68, 10], [0.69, 5], [0.7, 13], [0.71, 23], [0.72, 13], [0.73, 25],
+  [0.74, 14], [0.75, 13], [0.76, 15], [0.77, 24], [0.78, 27], [0.79, 54], [0.8, 61],
+  [0.81, 31], [0.82, 11], [0.83, 2], [0.84, 2], [0.85, 3], [0.86, 2], [0.87, 1], [0.88,
+  4], [0.89, 2], [0.95, 1]]'
+duplication_ratio: 0.0821
+sentence_pairs: 3739
+src_bytes: 512941
+src_chars: 510070
+src_pii: 2
+src_tokens: 107145
+unique_sents: 3432
+src_sent_tokens: '[[1, 66], [2, 76], [3, 122], [4, 98], [5, 136], [6, 140], [7, 167],
+  [8, 108], [9, 211], [10, 46], [11, 69], [12, 52], [13, 43], [14, 36], [15, 43],
+  [16, 60], [17, 72], [18, 50], [19, 61], [20, 59], [21, 46], [22, 73], [23, 59],
+  [24, 61], [25, 50], [26, 59], [27, 74], [28, 65], [29, 47], [30, 64], [31, 52],
+  [32, 57], [33, 62], [34, 72], [35, 53], [36, 69], [37, 52], [38, 46], [39, 53],
+  [40, 47], [41, 41], [42, 33], [43, 32], [44, 41], [45, 29], [46, 40], [47, 22],
+  [48, 27], [49, 35], [50, 22], [51, 24], [52, 21], [53, 24], [54, 24], [55, 26],
+  [56, 25], [57, 24], [58, 23], [59, 20], [60, 21], [61, 21], [62, 14], [63, 9], [64,
+  17], [65, 10], [66, 5], [67, 7], [68, 7], [69, 4], [70, 9], [71, 5], [72, 8], [73,
+  9], [74, 6], [75, 9], [76, 8], [77, 7], [78, 3], [79, 11], [80, 3], [81, 9], [82,
+  7], [83, 6], [84, 5], [85, 2], [86, 4], [87, 6], [88, 4], [89, 2], [90, 5], [91,
+  2], [92, 1], [93, 2], [94, 3], [95, 5], [97, 1], [98, 1], [99, 3], [100, 2], [101,
+  1], [102, 1], [106, 1], [108, 2], [109, 1], [110, 4], [112, 1], [113, 1], [114,
+  2], [115, 1], [118, 1], [120, 1], [121, 1], [122, 3], [123, 2], [124, 1], [127,
+  1], [128, 1], [129, 3], [130, 1], [133, 1], [134, 1], [135, 2], [137, 2], [138,
+  1], [139, 1], [144, 1], [147, 1], [153, 1], [154, 1], [161, 1], [164, 1], [166,
+  1], [174, 1], [179, 1], [180, 1], [184, 2], [193, 2], [197, 1], [200, 1], [203,
+  1], [210, 1], [215, 1], [232, 1], [235, 1], [243, 1], [276, 1], [283, 1], [286,
+  1], [305, 1], [380, 1], [391, 1], [577, 1]]'
+src_sent_tokens_mean: 29
+src_sent_tokens_median: 23
+src_unique_sents: '[[1, 44], [2, 53], [3, 107], [4, 79], [5, 122], [6, 99], [7, 112],
+  [8, 84], [9, 186], [10, 41], [11, 63], [12, 49], [13, 40], [14, 30], [15, 41], [16,
+  57], [17, 69], [18, 49], [19, 60], [20, 56], [21, 45], [22, 72], [23, 58], [24,
+  60], [25, 48], [26, 57], [27, 71], [28, 63], [29, 45], [30, 63], [31, 51], [32,
+  56], [33, 61], [34, 69], [35, 53], [36, 67], [37, 51], [38, 44], [39, 53], [40,
+  45], [41, 41], [42, 33], [43, 32], [44, 39], [45, 29], [46, 40], [47, 22], [48,
+  27], [49, 35], [50, 22], [51, 24], [52, 21], [53, 24], [54, 24], [55, 25], [56,
+  25], [57, 24], [58, 23], [59, 20], [60, 21], [61, 21], [62, 14], [63, 9], [64, 17],
+  [65, 10], [66, 5], [67, 7], [68, 7], [69, 4], [70, 9], [71, 5], [72, 8], [73, 9],
+  [74, 6], [75, 9], [76, 7], [77, 7], [78, 3], [79, 11], [80, 3], [81, 9], [82, 7],
+  [83, 6], [84, 5], [85, 2], [86, 4], [87, 6], [88, 4], [89, 2], [90, 5], [91, 2],
+  [92, 1], [93, 2], [94, 3], [95, 5], [97, 1], [98, 1], [99, 3], [100, 2], [101, 1],
+  [102, 1], [106, 1], [108, 2], [109, 1], [110, 4], [112, 1], [113, 1], [114, 2],
+  [115, 1], [118, 1], [120, 1], [121, 1], [122, 3], [123, 2], [124, 1], [127, 1],
+  [128, 1], [129, 3], [130, 1], [133, 1], [134, 1], [135, 2], [137, 2], [138, 1],
+  [139, 1], [144, 1], [147, 1], [153, 1], [154, 1], [161, 1], [164, 1], [166, 1],
+  [174, 1], [179, 1], [180, 1], [184, 2], [193, 2], [197, 1], [200, 1], [203, 1],
+  [210, 1], [215, 1], [232, 1], [235, 1], [243, 1], [276, 1], [283, 1], [286, 1],
+  [305, 1], [380, 1], [391, 1], [577, 1]]'
+src_langs: '[["sw", 1753], ["en", 533], ["eo", 256], ["fr", 215], ["tl", 165], ["su",
+  108], ["id", 83], ["it", 57], ["es", 55], ["de", 48], ["pt", 40], ["nl", 35], ["pl",
+  32], ["tr", 29], ["qu", 26], ["hr", 17], ["ms", 16], ["ceb", 16], ["sr", 15], ["mt",
+  15], ["bs", 15], ["kw", 14], ["sv", 13], ["ro", 13], ["cy", 13], ["fi", 12], ["sl",
+  11], ["la", 11], ["uz", 7], ["so", 7], ["pam", 7], ["jv", 7], ["hu", 7], ["mg",
+  5], ["ku", 5], ["eu", 5], ["war", 4], ["rm", 4], ["io", 4], ["ca", 4], ["az", 4],
+  ["sk", 3], ["scn", 3], ["kn", 3], ["jbo", 3], ["et", 3], ["cs", 3], ["cbk", 3],
+  ["uk", 2], ["si", 2], ["pms", 2], ["mk", 2], ["hsb", 2], ["gd", 2], ["bcl", 2],
+  ["ast", 2], ["vi", 1], ["ur", 1], ["sq", 1], ["ru", 1], ["lv", 1], ["lt", 1], ["ja",
+  1], ["hif", 1], ["gn", 1], ["fy", 1], ["el", 1], ["da", 1], ["br", 1], ["bh", 1],
+  ["als", 1], ["af", 1]]'
+hardrules_tags: '{"not_too_long": 13, "not_too_short": 246, "length_ratio": 0, "no_urls":
+  93, "no_bad_encoding": 0, "pii": 2}'
+sample: '["\"1/KINSHASA : yau zibukaka kilumbu ya ntete kisadilu sambu na kuteka ya
+  mbote na pweleleto march\u00e9 public na munkufi ba ke bokila yau SGMAP;\\n2/BUNIA
+  : Bantu kumi na iya me monaka lufwa na bumvuanzi kotisilaka bau binuani ya CODECO
+  na localit\u00e9 Lodjo na territoire ya Djugu na kizunga Ituri;\\n3/ MBUJI MAYI
+  : na kasasi Oriental , kukondwa nguizani me kota na territoire ya Tshilenge , bantu
+  iya lwadisamaka na bantu iya mpe ba inzo mingi zikisamaka tiya , ntalu nayau me
+  zabana ntete ve/sites/default/files/2022-08/300822-p-a-d-journalkikongomatin-00.mp3\"",
+  "\"1/ Kinshasa : Inzo ya Moise Katumbi na ya Salomona awa Kinshasa, yambaka bantu
+  ya bisalu ya makesa ya kusosa sosa ba nsangu , inki bau monaka kuna nionso na inda
+  ya nsangu yai.\\n2/ Mbandaka : Na Bumba, ya kele na kizunga Mongala, maza ya nzadi
+  me fuluka katuka ngonda mosi , na ba quartiers ya kele finakani na maza\\n/sites/default/files/2023-06/08062023-p-a-d-journalkikongosoir-00.mp33/
+  Goma : Mabuta mingi ya ba policiers ke zingaka na finakani ya boloko ya nene ya
+  Munzenze na Goma , fwana katuka na ntoto ina na luzahisu tulaka kinyemo ntuadisi
+  ya kizunga .\"", "\"JOURNAL EN KIKONGO DE CE JEUDI 26082021 SOIR\\n1. BUKAVU : Na
+  Mwenga ba chinois ke landakana na kutimuna mabanga ya ntalu na kukondwa kuzitisa
+  nsiku bakaka ntuadisi ya kizunga\\n2. BUTEMBO: Ba infirmier ya Butembo me vutukila
+  kisalankatu kuvingila lukanu ya intersyndical na bau\\n3. BANDUNDU : Bantu ya mabwala
+  Nkonde mpe Nkolombeke ke kulala na nganda , inzo na bau /sites/default/files/2021-08/26082021-a-k-journalkikongosoir-00_0.mp3bwaka
+  na mvula mpe mupepe lutaka kuna, bau ke lomba na ba mfumu na kubanzila bau\"", "\"1\\nNkanda
+  ya mbutukulu ya Yesu\\n1Nkanda ya mbutukulu ya Yesu Klisto, mwana ya Davidi, mwana
+  ya Abalahami. Luk. 3:23\\n2Abalahami vandaka tata ya Isaki, Isaki tata ya Yakobi,
+  Yakobi tata ya Yuda ye bampangi ya yandi. 1 Mose 21:2; 25:24; 29:35\\n3Yuda ye Tamali
+  butaka Pelesi ye Sela, Pelesi tata ya Heselone, Heselone tata ya Lami. 1 Mose 38:27;
+  1 Lus. 2:4, 5\\n4Lami tata ya Aminadabi, Aminadabi tata ya Nasoni, Nasoni tata ya
+  Salamoni. Luti 4:19\\n5Salamoni ye Lakabi butaka Boasi, Boasi ye Luti butaka Obedi,
+  Obedi tata ya Isai.\\n6Isai tata ya Davidi, ntinu, Davidi ye nkento ya vandaka ya
+  Ulia butaka Solomo. 1 Sam. 17:12; 2 Sam. 12:24\\n7Solomo tata ya Lehabami, Lehabami
+  tata ya Abia, Abia tata ya Asa.\\n8Asa tata ya Yosafati, Yosafati tata ya Yolami,
+  Yolami tata ya Usia. 1 Nt. 15:24; 2 Nt. 8:16, 24\\n9Usia tata ya Yotami, Yotami
+  tata ya Ahasi, Ahasi tata ya Hiskia. 2 Lus. 26:23; 27:9; 2 Nt. 16:20\\n10Hiskia
+  tata ya Manase, Manase tata ya Amoni, Amoni tata ya Yosia. 2 Nt. 20:21; 1 Lus. 3:14;
+  2 Lus. 33:25\\n11Yosia tata ya Yekonia ye mpangi ya yandi mu ntangu ya bau natwaka
+  ku Babeli. 2 Nt. 23:30, 34; 1 Lus. 3:15, 16\\n12Kulanda ya bau natwaka ku Babeli,
+  Yekonia tata ya Sealatieli, Sealatieli tata ya Zelubabeli. 1 Lus. 3:17, 19; Yes.
+  3:2; 5:2\\n13Zelubabeli tata ya Abiudi, Abiudi tata ya Eliakimi, Eliakimi tata ya
+  Asoli.\\n14Asoli tata ya Sadoki, Sadoki tata ya Akimi, Akimi tata ya Eliudi.\\n15Eluidi
+  tata ya Elasali, Elasali tata ya Matani, Matani tata ya Yakobi.\\n16Yakobi tata
+  ya Yosefi, bakala ya Malia ya butaka Yesu, ya bingwa Klisto.\\n17Mpilayai bambandu
+  yonso tuka Abalahami ti Davidi ikele babandu kumi ye iya; bambandu tuka Davidi ti
+  bau; natwaka ku Babeli ikele kumi ye iya; bambandu tuka bau natwaka ku Babeli ti
+  Klisto ikele kumi ye iya.\\nLubutuku ya yandi ye nkumbu ya yandi\\n18Lubutuku ya
+  Yesu Klisto vandaka mpilyai: Bu ngudi ya yandi Malia silwaka kwa Yosefi, bu bau
+  imene kwiza sikamosi ve, yandi monwaka na divumu ya katuka na Mpeve Yanlongo. Luk.
+  1:37\\n19Kansi Yosefi bakala ya yandi, sambu na yandi vandaka muntu ya lunungu ye
+  zolaka ve kumonisa yandi nsoni nantwala ya bantu, yandi zolaka kubika yandi mu kinsweki.
+  5 Mose 24:1\\n20Bu yandi yindulaka mambu yai, tala, wanjo ya Mfumu monikaka kwa
+  yandi mu ndozi, kutuba: Yosefi, mwana ya Davidi, tita ve kubaka Malia nkento ya
+  nge, kadi yina ya yimitwa mu yandi ikele ya Mpeve Yanlongo.\\n21Yandi tabuta mwana
+  bakala, ye nge tabinga nkumbu ya yandi YESU, kadi yandi tavulusa bantu ya yandi
+  na masumu ya bau. Luk. 1:31; 2:21; Bis. 4:12; 10:43; 13:38\\n22Mambu yai yonso vandaka,
+  na yo lenda maniswa ya Mfumu tubaka mu mbikudi, kutuba:\\n23Tala, nkento ya imene
+  kuzaba bakala ve tavanda na divumu ye tabuta mwana bakala; bau tabinga nkumbu ya
+  yandi Emanueli, tendula ya yo ikele yai: Nzambi ikele na beto.\\n24Yosefi sikamaka
+  na tulu ye salaka mpilamosi wanjo ya Mfumu sikidikisaka yandi, ye bakaka nkento
+  ya yandi.\\n25Kansi yandi zabaka yandi ve ti yandi butaka mwana bakala; yandi bingaka
+  nkumbu ya yandi YESU.\"", "\"- BENI : Na bansangu yayi, beto ta tubila mavuanga
+  ya lutaka mazono na mbanza Beni, na kutala mutindu ya bimvuka yankaka ya nkangu
+  lombaka na muntu nionso kubikala na nzo nandi, wapi bisalu nionso ya munkiti kangamaka.\\n-
+  BUKAVU : Na mbanza Bukavu, kuna, nsangu kele ya luyantiku ya ndambu ya zole ya kupesa
+  mangwele ya kimbefo ya Corona Virus.\\n- KINDU : Na mbanza Kindu, Kisangani bwela
+  diaka Butembo, minganga me ndima na kuvutukila kisalu na bau.\\n- BENI-TERRITOIRE
+  : Mpe na yau mosi Territoire ya Beni, bimvuka ya nkangu, mpe bimvuka yankaka ya
+  ke la ndilaka banswa ya bantu ke pesa nsangu ya kutambula ya bimpumbulu ya ba Adf,
+  ya ke na kukatuka na ndambu ya Esete, mpe ya ke na kukwenda na ndambu ya Ouesete
+  ya Territoire.\\n- GOMA: Beto bikala kaka kuna na Kivu ya zulu, wapi mfumu ya kizunga
+  me lomba kuvukisa mabanza ti bizunga ya ke na kukabula bandilu ti bau; ya vanda
+  mpe ti nsi ya Rwanda, Ouganda, mpe Burundi samu na kusosa kuvutuka ya ngemba ya
+  kieleka na ndambu yina ya nsi na beto. Lieutenant-g\u00e9n\u00e9ral Constant Ndima
+  Kongba monisaka zola nandi yayi na kilumbu ya sabala me luta, mingi na ntangu ya
+  makesa monisaka na ntwala ya bapanzi kimvuka mosi ya bimpumbulu.\\n- MATADI : Mazono,
+  mbuta Felix Tshisekedi lungisaka bamvula tatu na kiyeka ya nsi na beto. Na kilumbu
+  yina ya makumi zole na iya ya ngonda yantete, nsobasani ya kimfumu salamaka na ngemba
+  nionso na kati ya mbuta Felix Tshisekedi mpe muntu ya yandi yinga, mbuta Josep Kabila.\\n-
+  BUTEMBO : Na mbanza Butembo, ba infirmiers mpe bakalaka ya banzo ya lusansu ya mbula
+  matadi me ndima na kuvutukila kisalu na nima ya bangonda sambanu ya ba buyaka kisalu.
+  Nionso yayi na kulanda kutulama ya maboko ya mukanda ya ngwakana na kati ya bantumwa
+  na bau mpe luyalu na sabala me luta.\\n/sites/default/files/2022-01/25012022-p-k-journalkikongomatin-00_.mp3\"",
+  "\"BENI: ba ntuadisi ya mambu ya mavimpi ya nzutu mpe bayina ya socit\u00e9 civil
+  ke lomba na nakangu na kusadisla ba nukanu me bakamaka na ba mbuta ya luyalu sambu
+  na kunuanisa kimbevo ya Ebola;\\nBANDUNDU : Bantu tinaka territoire ya Kwamouth
+  sambu na ba nkindu ke luta kati ya Bateke na Bayake ba me yamba bau na Bolobo ,
+  na kizunga Mayi ndombe kuna bau kemona mpasi bau kele na mfunu ya lusadisu me zabisa
+  ntuadisi ya territoire;\\nBUNIA ba nzietelo me telemisama na nzila ya national numero
+  2 kati ya Beni Komanda sambu an kukondwa lukengelo ke nata binuani ya ba ADF/sites/default/files/2022-08/250822-p-a-d-journalkikongomatin-00_.mp3\"",
+  "\"Ba lenda bimisa zizulunalo zeto mu Internet mu zindinga luta 200, diaka mu ndinga
+  za mababa. Linongi ya Mosenzeli [Nzo ya Nkengedi] yeti bangula beto mambu momo meti
+  luta mu nza yamvimba mulungisa zimbikudulu za Bibila. Meti kindisa bobo batanganga
+  mo mu nzila ya nsangu ya mbote ya Kimfumu kia Nzambi ye yeti kubasadisa bakala minu
+  mu Yesu Klisto. Lamuka! yeti monisa beto mpila tufueti tomisina mambu ma ntangu\u2019eto.
+  Yeti vovila mambu ma mfunu ye ma manene mukwikila vo Nsemi wuna fuanisa nsilulu\u2019andi
+  ya tula nza ya mpa ya yenge ye ya kondua wonga. Sola ndinga yi uzolele mu fulu kina,
+  mpe niema vana basonekene \u201cSosa\u201d mu mona nkia mutindu a zizulunalo zena
+  mu ndinga yina.\"", "\"- KINSHASA: RDc me manisa kutanga ba mbefu makumi iya na
+  tanu mpe zole me manis akufwa kuluta nkama sambanu vuandaka finakani na ba mbefu,
+  makumi iya na iya kele na quarantaine\\n- KINSHASA: Muntu ya ntete ina belaka kimbevo
+  ya coronavirus na RDc me beluka mpe yandi fwana basika na lupitalu na ba ntangu
+  ke kwisa\\n- BENI: CNPR nord kivu me baka lukanu ya kunuanisa kimbevo ya Coronavirus,na
+  yau ntalu ya bantu ke bakama na kati ya matoma me kita, kansi bakwa matoma ke nionga
+  sambu an ba mpaku na nzila\\n- BANDUNDU: Sambu na kukitanina na kimbevo ya Coronavirus,
+  ntuadisi ya kizunga me zabisti konso kilumbu ya tanu ya sabala ta vanda bisambu
+  sambu na kizunga,insi mpe inza ya mvimbi\\n- BUTEMBO: Ntalu ya ba billet sambu na
+  nzietelo me mata , katuka na ba dollars makumi zole na tanu ti na makumi tanu ya
+  ba dollars\\n- KINSHASA: batonier Mukendi wa Mulumba me fwa bubu na suka , mutindu
+  mosi ngimbisi ya insi ya Cameroun Manu Dibangu me kufwa mpe, bau nionso me fwa na
+  kimbevo ya Coronavirus\\n- BENI: Binunai ya ba ADF makumi samnanu na zole me kufwa
+  , makesa mpe ya FARDC me kufwa kati na bau vuandaka na mfumu ya makesa, bau me fwa
+  na mvita ke salama kuna na territoire ya Beni/sites/default/files/2020-03/24032020-s-k-journalkikongosoir-00.mp3\"",
+  "\"24\u00e8 Le\u00e7on Chronique \u201d les \u00e9lections c`est facile \u00e0 comprendre
+  \u201d de la semaine du 21 au 25 Novembre 2005\\n\u201d Bureau ya vote ikele inki
+  ?( Inki bake bokila Bureau ya vote ?) \u201crn*na ntwala ya kupesa mvutu na kiuvu
+  yai,ya fwana ntete kuzabisa ti,kupona kele mutindu ya mwana ya insi,to bantu ya
+  kimvuka ke monisa luzolo to mabanza na bau na kubaka lukanu.na kupona to kusola
+  beto lenda tuba nde yau ikele, dibanza ya konso muntu me bokidisama na kusola ke
+  monisa.\\nYau ikele mpe mutindu ya kuzaba na nzila ya biuvu mabanza ya kangu samu
+  ba monisa luzolo na bau na kupona ba twadisi na bau mpe ba nsiku ina ta twadisa
+  R\u00e9publiqueya tatu.\\nSamu na kuvutuka na kiuvu na nge,bureaux ya vote kele
+  kisika ina ba nketo mpe babakala ke kwenda monisa mabanza na bau na kupona ba ntuadisi
+  na bau to ba nsiku ta twadisa insi.Kulandana na ndonga kumi na nana, ya nsiku 05
+  / 010 ya salamaka na bilumbu makumi zole na zole ya mvula beto ikele,me tala kupona
+  ba nsiku na RDC,du 22 juin 2005 inswa me pesamaka na CEI, samu yau tula ba bureaux
+  ya vote, yau nde ta zaba ntalu nay au mpe kutula yau na bisika nionso me fuankana
+  na kati ya insi ya mvimba.\\n* Yau nkangu ke zola kuzaba, wapi sika ta vuanda ba
+  bureaux de vote ?\\n* Nsiku 05 /010 ya salamaka na bilumbu makumi zole na zole mngonda
+  sambanu ya mvula beto kele, ke sikimisa ti,CEI lenda tula ba beraux ya vote mingi
+  ata na cmaps ya antu me tinaka mvita, na ba lupitalu,mpe na ba boloko, samu na kusadisa
+  ba mbefu,ba nketom kele na bivumu,batu kele na bifu na nitiu, mpe matoko, bau kuzua
+  tangu ya kupona na kisika bau ikele. Mpe kana bantu yai beto me katuka kutanga me
+  kuma na kisika ya kupona ya fwana mbote kupesa bau kisika bau kupona bantu na ntete.\\nKima
+  ya kaka beno fwana zaba kele yai, ba lenda tula ve tat fioti ve, bureau ya vote
+  na kisika ya : rnInzo nzambi,rnInzo ya bisalu ya politique ,ya syndicats to mpe
+  ya ONGrnNa kisika ya kuteka to kunua malavu ve, rnNa camps ya ba militaires ve;rn
+  Ba inzo kanda ya zulu to mpe inzo kanda ya ba militaire !\\n* eto lenda zaba ba
+  nani ta sala na bureaux ya vote ?\\n* Konso bureau ya kupona to ya vote ta vuanda
+  na ntwadisi mosi, bilandi na yandi zole, kwa maswekamu, mpe kisadi ya kaka sambu
+  na kupesa maboko na bilanda ya ntwadisi ya bureaux. Bisadi ya bureaux ya votefwana
+  zaba kusonikampe bau fwana kuzua malongi na mambu ma tala kusonika mazina ya bantu.CEi
+  lenda tngu nionso yandi me mona ti bak e sala kisalu mbote ve, to bau me sala kifu,
+  kukatula bau me kutula muntu ya kaka.\\nNtwadisi ya bureau ya fwana basika kati
+  ya bisadi ya l\u2019Etat.To mpe kati ya bisadi ya ba compagnie ya mbula matadito
+  ina kele na lutuadisu ya bantu bau mosi.\\nTEXTE de SAMUEL KATSHAK rnOndes CourtesrnT\u00e9l.
+  : ( 00243 ) 998909787rnTraduction faite par:rnMicheline TshwalarnJournaliste productricernTel
+  :+243 09 98186793rnRadio Okapi Kinshasarn*************************************\"",
+  "\"Manaka ya maponami : intu intu Denis kadima na ntuala ya Adolphe Muzito lumbu
+  kintete bubu na Mbanza kinsasa\\nNa nima ya Fayulu, Matata, Sesanga, mpe Mo\u00efse
+  katumbi, mfumu ntuadisi ya maponami ata solula diaka na ntuadisi ya kinvuka politiki
+  nouvel \u00c9lan,lumbu ya ntete bubu ki 03 ya ngonda sambwandi 2023 n''a kinsasa.\\nIntu
+  intu Denis kadima na ntuala ya Adolphe Muzito masolo na bau ata tadila penza maponami
+  kele kwisa na Kongo d\u00e9mocratiki wapi bi kinvuka politiki opposition buya yau.\\n\u00ab
+  Mono ke yamba, lumbu kintete bubu ki 03 ya ngonda sambwandi 2023 n''a tangu ya kumi
+  ,kuna Congo h\u00f4tel, mfumu ntuadisi ya kinvuka politiki nouvel \u00c9lan, M.Adolphe
+  Muzito,sambu na solula ndiambu ya manaka ya maponami \u00bb, sonikaka mfumu ntuadisi
+  ya maponami na kibaka Andi ya tweeter.\\nNa ntuala ya Denis kadima lumbu ya sambanu
+  ki 30 ya ngonda sambanu mene luta, kinvuka ya ba opposants lombaka penza tadila
+  ya mbote ya nkanda maponami,yidika mbote penza CENI mpe kinvuka ya ba zuzi.Adolphe
+  Muzito lenda bwela ku ntuala ya Fayulu, Matata,Sesanga, mpe Mo\u00efse katumbi.\"",
+  "\"Bahumbu\\nBahumbu to bawumbu kele bantu, yina ke zingaka na ndambu ya Kinsasa.
+  Na kinkulu bau vwandaka bankwa ya Kongo ya Ntotila, na ndambu ya Mpumbu. Ndinga
+  ya bau kele mutindu mosi na ndinga ya bateke, yina kwizaka na Mpumbu na nima.\\nNdinga
+  betu bahumbu ka ndinga bateke ko. Betu bahumbu ndinga dia betu kele bonso ndinga
+  dia bambala...ye makanda makaka kuna bandundu...kizeyi kwami ko. Kansi betu kuna
+  Kongo dia Ntotila ta kuisa kuvanda mu kinshasa...tua sumba toto ko...tua samba toto
+  ko...\\nBe mono luvila la me Kinsau ka lunga wa lunga ngonda e tangu...ba nkaka
+  ba me...batuka ku Kongo dia Ntotila...Mutom a mpansu munkati a nde Ndona Lukula
+  babuta Mfumu Itonga... Benu luzeyi mana? Mbote kwa beno bansi Kongo dia Ntotila!\"",
+  "\"Nsi ya Luangu\\nNsi ya Luangu vuanda kintinu na mpanzi ya Ngabu, Repubilika ya
+  Kongo na Kabinda. Yau me zingaka katuka bamvula nkama ya 15 tuka bamvula nkama ya
+  19. Na ntangu ya bunene ya yau, na bamvula nkama ya 17, yau me yalumuka katuka buala
+  ya Mayumba ti nzadi Lueme. Mbanza ya kimfumu ya yau vuanda Luangu. Bantu luta nene
+  ya nsi ya Luangu vuanda bavili.\\nBandambu[soba | edit source]\\nLuangu vuanda na
+  bandambu nsambuadi. Yau vanda:\\n- Kikanu (Tsikanu)\\n- Kikuni (Tsikuni)\\n- Kilunge
+  (Tsilunge)\\n- Kuangu\\n- Luanzili (Loandjili)\\n- Mpili\\n- Yombi\\nMaluangu[soba
+  | edit source]\\nMaluangu vuanda zina ya ntinu ya nsi ya Luangu. Maluangu vuandaka:\\n-
+  bamvula nkama ya 17\\n- Maluangu Nzimbi (1600)\\n- Maluangu Tati (1630)\\n- Maluangu
+  Mue Puati (1660)\\n- Nguli Nkama Luembe (1680)\\n- Nganga Mvumba Niambi (1700)\\n-
+  bamvula nkama ya 18\\n- bamvula nkama ya 19\\n- bamvula nkama ya 20\"", "\"Kiswahili\\nKiswahili
+  kele nd\u00eenga ya yinsi ya Tanzania, Kenya, Uganda mpe Kongo-Kinsasa.\\nKiswahili
+  me butama nt\u00e2ngu babantu me kuta balabu na simu ya esete ya Afrika. Kiswahili
+  kele na m\u00e2mbu m\u00eengi yina katuka kilabu. Bubu yayi kiswahili kele nd\u00eenga
+  ya yinsi ya Tanzania, Kenya mpe Uganda, mpe yawu kele nd\u00eenga ya bwala ya K\u00f4ngo-Kinsasa.\\nNtalu
+  ya batubi ya Kiswahili:\\n- Kongo-Kinsasa 15 000 000\\n- Burundi 2 000 0000\\n-
+  Kenya 20 000 000\\n- Rwanda 2 000 000\\n- Tanzania 32 000 000\\n- Uganda 8 000 000\\n-
+  Bankaka 1 000 000\\n- Na kimvuka: 80 000 000\\nM\u00e2mbu[soba | edit source]\\nM\u00e2mbu
+  ya kibantu[soba | edit source]\\nKiswahili kele na m\u00e2mbu m\u00eengi yina kele
+  mosi na kik\u00f4ngo.\\n- jambo (dyambu)\\n- kaa (kala)\\n- kucheka (kuseka)\\n-
+  mtu, watu (muntu, bantu)\\n- mwana\\n- ndege/nyuni (ndeke/nuni)\\n- njia (nzila)\\nKik\u00f4ngo
+  kele mpe na m\u00e2mbu yina katukaka na kiswahili:\\n- at\u00e1 (sw. hata)\\n- k\u00eeti
+  (sw. kiti)\\n- langi (sw. rangi)\\n- madidi (sw. baridi)\\n- sanduku (sw. sanduku)\"",
+  "\"TESTIMONIES\\nEnglish | German | Haitian Creole | Italian | Kinyarwanda | Lingala\\nMalagasy
+  | Malayalam | Polish | Spanish | Tamil | Telugu\\nNgizulu ami ku Canada yatukisa
+  lebakana kua kunene mu mwuela''mi mu diambu dia matedi nza yayi ye mayindu ma mpila
+  mu mpila mu mvwilu a lekua bia nza. Yakatuka ku Vancouver, B.C. buala bundi yiza
+  tudila ku Canada, mu kuenda vuandi ku Montr\u00e9al. Ya kala mvu minya ku Montr\u00e9al,
+  Qc nate ye ndiele vutuki ku Vancouver, B.C. mu kala kuna ye longuka ki ngeloso.\\nLebakana
+  ye mayindu mu bilekua bia nza evo mambu manza yayi manata zimpasi mu mwela''mi.\\nMamo
+  ma ya zola vanga, makala ma bedusua. Ndi yenda kota zi nzo zitatu za tata Nsambi,
+  kasi ya tambula lekwa ko. Mpasi zami, za luta ngolo, kadi ka sekuka nzo Nsambi ko
+  yi vananga mpulusu, kasi ntima usekuka uvananga luvovomo.\\nMatai 6:33-34 \u00abLu
+  tomba ntete kinfumu kia mazulu\u2026\u00bb\\n\u00abKa lukalandi mayindu ko mu lumbu
+  kia mbazi\u2026\u00bb\\nMu ngonde ya ntatu mu mvu wa 1996 ku Vancouver, B.C., ya
+  tumusua mu kuenda ku lukutukunu mu dibundu dia Sr Collins. Ya wa malongi ma tata
+  Nsambi ma longua mu lulendo lua mpeve ya nlongo. Ya tambula malongi momo mu ntimami,
+  ye yalomba mlemvo kua Mfumu Yesu mu mambi mamo.\\nMfumu Yesu wa ndem''vukila ye
+  mpeve ya nlongo ya yiza mu ntima''mi. Mfumu wa katula lebakana ye mabanza mamo manza
+  ye watula luvovomo ye kiese kia zulu mu ntima''mi, ye mu mwuela mi. Ye ya tambula
+  zingu kia mona.\\nBibila kivovele mu Matai 11:28 \u00abLuiza kwa mono, beno babo
+  luena ba lebakana ye nati a bizitu, mono siya kulu vundisa\u00bb\\n1 Yoane 1:9 \u00abVo
+  tutambudidi masumu meto kwa Yesu, yandi sika kutu lemvukila ye kutu vedisa mu yambi
+  ya yonso\u00bb.\\nNgiena ye mayangi mu ntima''mi mu vulusua ye mu zaba Yesu mu Kedika,
+  ye mu zaba vo zina diami dia sonama ku zulu. Bika nkumbu a Mfumu Yesu yi kembusua.
+  Mvutudi mpe matondo ma mpuele maka malendi suka ko, mu diambu dia zi nkutukunu mu
+  dibundu dia sielo kiandi kia nketo Sr Collins.\\nMatondo diaka kua Mfumu mu mamo
+  matueti tambula mu mdongolo, mu zi nduengosolo mu malongi ma nkadulu mu nzila Nsambi
+  ye mu zi nsambudulu zazo.\\nSr Collins i Nsamuni waKedika. Weti longa mambu ma Nsambi
+  nate ye lumbu kiaki, mu lulendo lua mpeve ya nlongo, mu bunga ye bebisa mavanga
+  ma satana mu miela mi batu.\\nIdiau, batu ba vuata fuani kia ma meme mu dibundu,
+  ye kabena ma meme ma Kedika ko, bau i zi nkonsi. Batu bobo, ba totuka mu dibundu
+  bau veka ye bayenda sonika ye vova mambu ma luvunu ye makondolo nsundu mu diambu
+  dia Sr Collins ye dibundu. Batu bobo, bazolele votikisa dibundu dia tata Nsambi.
+  Yuda 4\\nKwa beno lueti tanga:\\n- Wa Kedika Kia Mfumu Yesu Kieti longua Kua Sr
+  Collins, Nsamuni wa Kedika, wa solua kua Tata Nsambi.\\n- Kadi zibula matu meno
+  mu wa luvunu lwa satana ye batu bandi ba yaluwa kwa mpeve za sumuka. Kadi batu bobo
+  beti vanga mambi ye bankwa masumu bena. Ba zolele tula nkindu mu dibundu dia Sr
+  Collins, ye beti sonika mambu ma luvunu beni ye vekisa mo mu bifulu. Kasi kaba beki
+  lulendo mu bunga dibundu dia tata Nsambi ko. \u00abLulenda kuiza tala ye mekisa
+  bonso bwena nlemvo a Mfumu Yesu\u00bb\\n- Nate ye bwabu, Mfumu weti nata batu mu
+  dibundu, ba zolele mpulusu, ba zolele tambula Kedika kia Yesu mu ntima miau, ye
+  ba zolele niaka mu bimbevo mpe.\\n- Bobwau, Mfumu weti tatamana sadila sielo kiandi
+  kia nketo, mu ndongolo a mambu ma Nzambi maKedika ye mu zinsambudulu zandi kua makanda
+  mamo mu nsi zazo.\\nMu manisa: Sr Collins i Nsamuni wa Kedika, ye weti zingila mu
+  Kedika Kia Mfumu Yesu, ye mu luzolo lua Mfumu kua batu ba zi nsi zazo. 1 Yoane 5:20\\nNtondele
+  beni kua Sr Collins.\\nBernice Nzumba Baku-Vuvu\\nR\u00e9publique D\u00e9mocratique
+  du Congo (RDC)\"", "\"/sites/default/files/2021-12/01122021-p-k-journalkikongosoir-00.mp3JP
+  lingala soir du 01122021\\n1/ BENI : Makesa ya insi ya Ouganda na kimvuka na makesa
+  ya RDC me vukana sambu na kukuka bimpumbulu ya ADF na Beni\\n2/KINSHASA : Divula
+  PNMLS me pes ntalu ya bantu ke zingaka na kim bevo ya SIDA na RDC mpe na kinshasa,
+  ba ke lomba na bantu nionso kukitanina\\nKISANGANI : Ann\u00e9e academique to mvula
+  ya inzo nkanda ya zulu ya unikis manisaka , ya mfunu kuluta kele ti , mulongoki
+  mosi kifwa meso mpe makutume manisa na diplome ya licence na Pedagogie\"", "\"-
+  Bunia:kukuma ya mama Commissaire ya Onu na kiyekwa ya inswa ya mutu bubu yayi kuna
+  na Bunia na kizunga ya Ituri\\n- Lubumbashi:Kimvuka Asadho mebokuta na kifu ya ku
+  kuamisa bisadi ya Nzambibonso ya mekuma kumonika na mbanza Lubumbashi ti na mfinakani
+  na yawu kuna na kizunga ya Haut Katanga\\n- Kinshasa:Kimvuka Redd meyamikisa Kongo
+  democratike mevidisa bahetar milion kumi ya mfinda na kilokola ya bamvula kumi\\n-
+  Kinshasa:Kufutisa mphaku ya bainzo na ya mapangu yamebanda tsika DGRK ya mbanza
+  Kitsasa\\n- Matadi :bazandu ya bima ya thama ke katukaka na mputu to Bilokos yamefuluka
+  na mbanza Matadi kuna na kizunga ya Kongo Central\\n- Kinshasa:Kuzieta na bantomabilu
+  ya nzietolo yabatu yonso yamekuma nkuamusu na kati ambanza Kitsasa\\n- Kinshasa:Ndinga
+  ya ntuadisi ya kimvuka kelandilaka kisalu ya bampanzi tsangu na yinametala bakalati
+  ya kisalu na tsungi yayi./sites/default/files/2020-01/23012020-a-s-journalkikongosoir-00.mp3\"",
+  "\"Ngola\\nNgola kele nsi mosi ya Afelika ya Sudi. Bansi ya pembeni kele Kongo-Kinsasa,
+  Zambia na Namibia. Kizunga ya Kabinda kele na ndilu na Kongo-Braza. Luanda kele
+  mbanza-mfumu ya Ngola.\\n[balula] Kinkulu\\nBansi ya ntotila ke tulama na sika ya
+  Ngola na ntwala. Bau vanda Kakongo na Kabinda, Kongo ya Ntotila na node, Ndongo
+  ye Matamba na katikati ye Benguela na sudi. Er negrito monito bonito kerer zumbar.\\nNgola
+  vuandaka koloni ya Portugal.\\n[balula] Bizunga\\n- Bengo\\n- Bengela\\n- Biye\\n-
+  Kabinda\\n- Kuando Kubango\\n- Kuanza Node\\n- Kuanza Sudi\\n- Kunene\\n- Wambu\\n-
+  Wila\\n- Luanda\\n- Lunda Node\\n- Lunda Sudi\\n- Malanzi\\n- Musiku\\n- Namibe\\n-
+  Wizi\\n- Nzadi\\n[balula] Bantu\\nKimputulukesi kele ndinga ya kisalu. Bandinga
+  ya bwala kele kikongo, kimbundu, ovimbundu, kitshokue, kimbunda na kikuanyama.\"",
+  "\"BENI : Makesa ya nsi landaka na kukota awa na ntoto na beto, tuka Territoire
+  ya Beni.\\nKINSHASA : Kaka na bansangu yayi, beto ta tubila inki mutindu ya nsi
+  na beto ke na kusala samu na kumanisa kimbefo ya Sida.\\nKISANGANI : Na mbanza Kisangani,
+  kele mazono ya mukembo ya nsuka ya mvula salamaka na Universit\u00e9 ya Kisangani.\\nASSEMBLEE
+  NATIONALE : Kele na kilumbu ya mazono ya nzo ya kinzonzi ndimaka samu na mbala ya
+  kumi na tatu ya kulandakana ya luyalu ya kele na maboko ya makesa mpe bapulusi na
+  kizunga ya Ituri, mpe ya Kivu ya zulu.\\nKINSHASA : Lukanu yayi ya me pesa nswa
+  na makesa ya Kongo Kinshasa mpe ya nsi ya Ouganda samu na kunuanisa bimpumbulu ya
+  ba Adf, lukanu yayi me tadila bansi nionso zole yayi ; lukanu mpe ya Monusco ke
+  na kuzitisa.\"", "\"Repubilika ya K\u00f4ngo ya Dimokalasi\\nRepubilika ya K\u00f4ngo
+  ya Dimokalasi to K\u00f4ngo Demokratiki to K\u00f4ngo-Kinsasa kele yinsi na Afelika
+  ya Kati. Bayinsi ya p\u00e8ne-p\u00e8ne na yawu kele Repubilika ya K\u00f4ngo, Repubilika
+  ya Afelika ya Kati, Sudan, Uganda, Rwanda, Burundi, Zambia n\u00e1 Ngola. K\u00f4ngo-Kinsasa
+  kele yinsi ya tatu na bunene ya Afelika.\\nContents\\nKinkulu[soba | edit source]\\nTuka
+  2000 NK t\u00ee 500 BK bitembo ya babantu katuka londe sompaka na nd\u00e2mbu ya
+  K\u00f4ngo ya nt\u00e2ngu yayi. Bantu ya kisina, bambekele, fwanaka sompa na dikabu
+  ngele ya yinsi. Babantu yina kotisaka kisalu ya bilanga pe kisalu ya kibende tuka
+  Afrika-Mputu.\\nP\u00e8ne-p\u00e8ne na mvula 400 kimvuka mosi bandaka kukulisa na
+  simu ya nzadi Lualaba. Nk\u00fbmbu ya kimvuka yayi vwandaka Upemba. Yawu kumaka
+  Luba ya Ntotila na nima (p\u00e8ne-p\u00e8ne na 1585). Kimvuka ya mfunu ya nkaka
+  vwandaka K\u00f4ngo ya Ntotila, yina butukaka p\u00e8ne-p\u00e8ne na mvula 1400
+  mpe zingaka t\u00ee 1885 na nsiku.\\nLuyalu ya Belezi (1908 \u2013 1960)[soba |
+  edit source]\\nK\u00f4ngo vwandaka koloni ya Belezi banda 1908 t\u00ee kuna 1960.\\nVita
+  ya yinsi (1960-1965)[soba | edit source]\\nZaire (1971 \u2013 1997)[soba | edit
+  source]\\nNa nima ya mvula t\u00e2nu ya vita mpe ya ngemba ve, Joseph-D\u00e9sir\u00e9
+  Mobutu, lieutenant g\u00e9n\u00e9ral ya banwani, basisaka Kasa Vubu katuka k\u00eeti
+  ya luyalu na ngolo na 1965. Mobutu nataka ngemba na yinsi, kasi luyalu na yandi
+  vwezaka bansua ya muntu mpe salaka lukwikilu ya muntu samu na Mobutu kibeni.\\nNa
+  bamvula kumi ya 1970 Mobutu salaka politiki ya kuzairisa (kifalanse: za\u00efrianisation).
+  Na mvula 1971 yandi pesaka K\u00f4ngo zina ya yimpa, Zaire, yina kele mpila ya kupola
+  ya mpovo ya kik\u00f4ngo, Nzadi.\\nTransition (1996 \u2013 bubu)[soba | edit source]\\nNa
+  mvula 2005 Repubilika ya K\u00f4ngo ya Dimokalasi me kuzwa misiku ya yinsi ya yimpa.
+  Banda misiku yayi nzila me zibulama samu na kumanisa transition na nswalu nyonso
+  na kubimisa nsiku ya maponama ke kwiza. Kimvuka ya kimpwanza ya kupona (Commission
+  electorale independante) salaka maponama samu na ntwadisi ya yinsi n\u00e1 luyalu
+  ya yinsi na 30.7.2006. Joseph Kabila nungaka Jean-Pierre Bemba n\u00e1 bakandida
+  ya nkaka na maponama ya ntwadisi ya nsi.\\nB\u00easi[soba | edit source]\\nKibuka
+  ya bantu ya nene kele:\\n- baluba 18 %\\n- bak\u00f4ngo 16,1 %\\n- bankundu 13,5
+  %\\n- banyarwanda n\u00e1 banyamulenge 10,3 %\\n- bazande 6,1%\\n- babangi n\u00e1
+  bangala 5,8%\\n- bantu ya nkaka 30,2%\\nBand\u00eenga[soba | edit source]\\nNd\u00eenga
+  ya kisalu ya K\u00f4ngo-Kinsasa yawu kele kifalanse. Band\u00eenga ya bwala kele
+  kik\u00f4ngo, kiluba, kiswahili na lingala. Yinsi ke tembikisa band\u00eenga yina
+  nyonso na kuloza ata mosi ve. Band\u00eenga ya nkaka ya yinsi yawu kele samu na
+  lukumu ya yinsi ya Kongo yina luyalu ke kwiza kakila.\\nLukwikilu[soba | edit source]\\n-
+  bana ya Yesu ya katolika 70%\\n- bana ya Yesu ya misioni 20%\\n- bana ya Kimbangu
+  10%\\n- basilamu 10%\\n- lukwikilu ya bambuta 10%\\nMalongi ya ntoto[soba | edit
+  source]\\nNzadi K\u00f4ngo n\u00e1 bana-nzadi ya yandi ke sabuka yinsi ya mvimpa.
+  Nzadi K\u00f4ngo ke kabula K\u00f4ngo-Balazavile na K\u00f4ngo-Kinsasa. Nzadi Ubangi
+  kele ndilu na Yinsi ya Afelika ya Kati. Uganda kele na simu ya Mazanga Mobutu na
+  Rwitanzige. Rwanda kele na simu ya Kivu. Burundi na Tanzania kele na simu ya Tanganyika.
+  Dizanga Mweru ye nzadi Luapula salama bonso ndilu na Zambia. Kwango na Kas\u00e2yi
+  ke l\u00e2nda ndilu ya Ngola.\\nBiz\u00fbnga[soba | edit source]\\nRepubilika ya
+  K\u00f4ngo ya Dimokalasi kele na biz\u00fbnga mak\u00fbmi z\u00f4le na t\u00e2nu,
+  na mb\u00e2nza Kinsasa.\\nPolitiki[soba | edit source]\\nMinsiku ya leta[soba |
+  edit source]\\nBantwadisi ya nsi[soba | edit source]\\n- 1960 - 1965 Joseph Kasa
+  Vubu\\n- 1965 - 1997 Mobutu Sese Seko\\n- 1997 - 2001 Laurent Kabila\\n- 2001 -
+  Joseph Kabila\\nBantumwa ya ntete[soba | edit source]\\n- 1960 - 1960 Patrice Lumumba\\n-
+  1961 - 1961 Joseph Ileo\\n- 1961 - 1964 Cyrille Adoula\\n- 1964 - 1965 Moise Tshombe\\n-
+  1965 - 1965 Evariste Kimba\\n- 1965 - 1966 L\u00e9onard Mulamba\\n- 1966 - 1977
+  ?\\n- 1977 - 1979 Mpinga Kasenga\\n- 1979 - 1980 Bo-Boliko Lokonga Mihambo\\n- 1980
+  - 1981 Jean Nguza Karl-I-Bond\\n- 1981 - 1982 Joseph Untube N''singa Udjuu\\n- 1982
+  - 1986 Kengo Wa Dondo\\n- 1987 - 1988 Mabi Mulumba\\n- 1988 - 1988 Sambwa Pida Nbagui\\n-
+  1988 - 1990 Kengo wa Dondo\\n- 1990 - 1991 Lunda Bululu\\n- 1991 - 1991 Mulumba
+  Lukoji\\n- 1991 - 1991 \u00c9tienne Tshisekedi\\n- 1991 - 1991 Bernardin Mungul
+  Diaka\\n- 1991 - 1992 Jean Nguza Karl-I-Bond\\n- 1992 - 1993 \u00c9tienne Tshisekedi\\n-
+  1993 - 1994 Faustin Birindwa\\n- 1994 - 1997 Kengo Wa Dondo\\n- 1997 - 1997 \u00c9tienne
+  Tshisekedi\\n- 1997 - 1997 Likulia Bolongo\\n- 2007 - ??? Antoine GIZENGA\"", "\"1/
+  GOMA : Kimvuka Africa RDC me tombula ndinga sambu na kuzabisa ti binuani ya ba Nyatura
+  bazungu ke baka ba leke na ndonga na bau sambu na kukotisa bau na ndonga ya binuani;\\n2/BENI
+  : Na kizungta nord kivu , na sabala me katuka kuluta ba tangaka muntu mosi kele
+  n kimbevo ya Ebola na kizunga ya mavimpi ya nzutu na Beni;\\n3/MBUJIA MAYI : Na
+  kasai Oriental bisadilu ya kubongisa na yau ba nzila bonso ba bitume kuluta nkama
+  mosi ya goudron ian ta sadisala kusala ba nzila kulandana na manaka Tshilejelu./sites/default/files/2022-08/230822-p-a-d-journalkikongomatin-00_.mp3\""]'
+src_ngrams: '{"1": [[["mpe"], 1110], [["bau"], 635], [["kizunga"], 505], [["bantu"],
+  497], [["yayi"], 495]], "2": [[["edit source"], 97], [["makumi zole"], 78], [["bubu
+  yayi"], 70], [["nord kivu"], 62], [["bansangu yayi"], 50]], "3": [[["kizunga ya
+  ituri"], 56], [["kivu ya zulu"], 51], [["ntuadisi ya kizunga"], 46], [["mfumu ya
+  insi"], 42], [["repubilika ya k\u00f4ngo"], 34]], "4": [[["kizunga ya kongo central"],
+  28], [["kizunga ya nord kivu"], 22], [["awa na mbanza kinshasa"], 22], [["bimpumbulu
+  ya ba adf"], 19], [["ntoto na beto y"], 14]], "5": [[["konso muntu kele na luve"],
+  22], [["repubilika ya k\u00f4ngo ya dimokalasi"], 15], [["konso muntu ke na luve"],
+  15], [["ntuala ya ba mwangisi nsangu"], 12], [["kilumbu ya sabala me luta"], 12]]}'

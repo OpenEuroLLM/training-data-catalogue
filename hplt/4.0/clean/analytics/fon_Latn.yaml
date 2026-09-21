@@ -1,0 +1,1500 @@
+corpus: hplt-v4-fon
+srclang: fon
+timestamp: 1789029447.298014
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-10", 273], ["CC-MAIN-2018-05", 160], ["CC-MAIN-2017-51",
+  128], ["CC-MAIN-2020-50", 107], ["CC-MAIN-2025-33", 73], ["CC-MAIN-2020-45", 61],
+  ["CC-MAIN-2025-21", 54], ["CC-MAIN-2020-34", 54], ["CC-MAIN-2025-26", 53], ["CC-MAIN-2022-21",
+  48], ["CC-MAIN-2025-13", 44], ["CC-MAIN-2024-10", 40], ["CC-MAIN-2024-46", 39],
+  ["CC-MAIN-2024-22", 36], ["CC-MAIN-2024-38", 25], ["wide00016", 24], ["CC-MAIN-2024-42",
+  23], ["CC-MAIN-2021-25", 23], ["CC-MAIN-2024-18", 21], ["CC-MAIN-2025-30", 19],
+  ["CC-MAIN-2025-08", 19], ["CC-MAIN-2024-30", 19], ["CC-MAIN-2025-05", 17], ["CC-MAIN-2024-26",
+  16], ["CC-MAIN-2024-33", 15], ["CC-MAIN-2023-50", 15], ["CC-MAIN-2025-18", 14],
+  ["CC-MAIN-2024-51", 14], ["CC-MAIN-2021-49", 14], ["CC-MAIN-2023-14", 6], ["CC-MAIN-2023-06",
+  6], ["CC-MAIN-2021-43", 6], ["CC-MAIN-2020-40", 6], ["CC-MAIN-2021-39", 5], ["CC-MAIN-2021-31",
+  5], ["CC-MAIN-2020-24", 4], ["wide00012", 3], ["CC-MAIN-2021-21", 3], ["CC-MAIN-2020-29",
+  3], ["CC-MAIN-2018-43", 3], ["wide00015", 2], ["wide00010", 2], ["CC-MAIN-2023-40",
+  2], ["CC-MAIN-2021-10", 2], ["CC-MAIN-2021-04", 2], ["CC-MAIN-2019-04", 2], ["CC-MAIN-2018-34",
+  2], ["CC-MAIN-2018-22", 2], ["wide00017", 1], ["CC-MAIN-2023-23", 1], ["CC-MAIN-2022-40",
+  1], ["CC-MAIN-2022-27", 1], ["CC-MAIN-2021-17", 1], ["CC-MAIN-2020-16", 1], ["CC-MAIN-2020-05",
+  1], ["CC-MAIN-2018-39", 1], ["CC-MAIN-2017-26", 1], ["CC-MAIN-2014-15", 1]]'
+docs_langs: '[[0.2, 4], [0.3, 14], [0.4, 8], [0.5, 42], [0.6, 35], [0.7, 50], [0.8,
+  77], [0.9, 88], [1.0, 1206]]'
+docs_segments: '[[1, 14], [2, 63], [3, 87], [4, 111], [5, 134], [6, 137], [7, 119],
+  [8, 73], [9, 66], [10, 69], [11, 47], [12, 49], [13, 49], [14, 41], [15, 24], [16,
+  20], [17, 27], [18, 28], [19, 16], [20, 19], [21, 14], [22, 14], [23, 14], [24,
+  19], [25, 18], [26, 10], [27, 8], [28, 5], [29, 7], [30, 5], [31, 5], [32, 3], [33,
+  6], [34, 6], [35, 7], [36, 12], [37, 10], [38, 16], [39, 18], [40, 20], [41, 19],
+  [42, 9], [43, 10], [44, 10], [45, 15], [46, 9], [47, 5], [48, 5], [49, 4], [50,
+  1], [51, 2], [52, 1], [53, 3], [55, 1], [56, 1], [60, 1], [62, 1], [64, 2], [69,
+  1], [78, 1], [82, 1], [90, 1], [95, 1], [101, 1], [106, 1], [113, 1], [127, 1],
+  [133, 1], [148, 1], [154, 1], [155, 1], [162, 1], [306, 1]]'
+docs_segments_mean: 15
+docs_segments_median: 9
+docs_top100_domains: '[["jw.org", 918], ["wikipedia.org", 371], ["wikimedia.org",
+  68], ["zhitov.com", 46], ["wikinews.org", 39], ["bensino-eg.com", 31], ["wikiquote.org",
+  11], ["association-ayizokogbe.org", 9], ["saxwe.net", 5], ["accessagriculture.org",
+  3], ["xender.click", 2], ["vietnamimmigration.org", 2], ["vallalar.net", 2], ["spip.net",
+  2], ["planeteterreaterretv.bj", 2], ["da-no.ru", 2], ["world-hentai.ru", 1], ["videochat-ruletka.ru",
+  1], ["unicode.org", 1], ["theshamanstrail.com", 1], ["mymp3tracks.com", 1], ["gayhomeland.org",
+  1], ["entropik.io", 1], ["corebizify.com", 1], ["congressomv.org", 1], ["bookconekt.com",
+  1], ["beninlangues.com", 1]]'
+docs_top100_tld: '[["org", 1424], ["com", 82], ["net", 9], ["ru", 4], ["click", 2],
+  ["bj", 2], ["io", 1]]'
+docs_total: 1524
+docs_wds: '[[0.5, 77], [0.51, 77], [0.52, 82], [0.53, 93], [0.54, 64], [0.55, 82],
+  [0.56, 82], [0.57, 61], [0.58, 45], [0.59, 49], [0.6, 48], [0.61, 49], [0.62, 52],
+  [0.63, 36], [0.64, 46], [0.65, 48], [0.66, 47], [0.67, 28], [0.68, 32], [0.69, 24],
+  [0.7, 23], [0.71, 27], [0.72, 34], [0.73, 32], [0.74, 26], [0.75, 28], [0.76, 34],
+  [0.77, 24], [0.78, 24], [0.79, 30], [0.8, 29], [0.81, 16], [0.82, 11], [0.83, 3],
+  [0.84, 8], [0.85, 6], [0.86, 9], [0.87, 4], [0.88, 4], [0.89, 11], [0.9, 6], [0.91,
+  5], [0.92, 2], [0.93, 1], [0.94, 1], [0.95, 2], [0.96, 1], [0.97, 1]]'
+duplication_ratio: 0.0548
+sentence_pairs: 22720
+src_bytes: 6746711
+src_chars: 5457343
+src_pii: 21
+src_tokens: 1608214
+unique_sents: 21474
+src_sent_tokens: '[[1, 247], [2, 430], [3, 288], [4, 362], [5, 369], [6, 542], [7,
+  450], [8, 456], [9, 434], [10, 389], [11, 470], [12, 449], [13, 396], [14, 406],
+  [15, 409], [16, 332], [17, 367], [18, 317], [19, 330], [20, 323], [21, 293], [22,
+  290], [23, 286], [24, 235], [25, 245], [26, 239], [27, 256], [28, 201], [29, 211],
+  [30, 167], [31, 170], [32, 153], [33, 154], [34, 151], [35, 147], [36, 138], [37,
+  121], [38, 115], [39, 158], [40, 121], [41, 109], [42, 121], [43, 118], [44, 110],
+  [45, 140], [46, 100], [47, 104], [48, 109], [49, 91], [50, 88], [51, 82], [52, 113],
+  [53, 95], [54, 80], [55, 73], [56, 94], [57, 85], [58, 75], [59, 68], [60, 76],
+  [61, 75], [62, 85], [63, 62], [64, 70], [65, 74], [66, 56], [67, 75], [68, 72],
+  [69, 74], [70, 74], [71, 79], [72, 68], [73, 67], [74, 67], [75, 78], [76, 75],
+  [77, 61], [78, 63], [79, 60], [80, 68], [81, 86], [82, 67], [83, 53], [84, 61],
+  [85, 63], [86, 72], [87, 65], [88, 69], [89, 71], [90, 57], [91, 63], [92, 60],
+  [93, 62], [94, 75], [95, 62], [96, 65], [97, 71], [98, 67], [99, 68], [100, 57],
+  [101, 69], [102, 84], [103, 62], [104, 59], [105, 74], [106, 59], [107, 60], [108,
+  71], [109, 61], [110, 65], [111, 58], [112, 59], [113, 67], [114, 70], [115, 67],
+  [116, 67], [117, 56], [118, 52], [119, 62], [120, 58], [121, 77], [122, 58], [123,
+  67], [124, 73], [125, 57], [126, 57], [127, 70], [128, 62], [129, 59], [130, 66],
+  [131, 64], [132, 47], [133, 61], [134, 56], [135, 51], [136, 57], [137, 43], [138,
+  46], [139, 49], [140, 47], [141, 46], [142, 50], [143, 62], [144, 62], [145, 44],
+  [146, 51], [147, 55], [148, 40], [149, 45], [150, 39], [151, 35], [152, 45], [153,
+  50], [154, 52], [155, 44], [156, 52], [157, 43], [158, 53], [159, 44], [160, 40],
+  [161, 47], [162, 34], [163, 35], [164, 54], [165, 53], [166, 49], [167, 47], [168,
+  29], [169, 45], [170, 50], [171, 46], [172, 37], [173, 36], [174, 33], [175, 42],
+  [176, 32], [177, 41], [178, 47], [179, 30], [180, 39], [181, 40], [182, 41], [183,
+  29], [184, 33], [185, 22], [186, 32], [187, 32], [188, 38], [189, 34], [190, 26],
+  [191, 28], [192, 30], [193, 37], [194, 37], [195, 31], [196, 31], [197, 26], [198,
+  25], [199, 28], [200, 29], [201, 19], [202, 26], [203, 29], [204, 25], [205, 23],
+  [206, 23], [207, 25], [208, 24], [209, 28], [210, 18], [211, 22], [212, 18], [213,
+  16], [214, 20], [215, 21], [216, 24], [217, 19], [218, 21], [219, 24], [220, 23],
+  [221, 19], [222, 18], [223, 22], [224, 19], [225, 18], [226, 23], [227, 19], [228,
+  17], [229, 13], [230, 26], [231, 12], [232, 14], [233, 17], [234, 21], [235, 18],
+  [236, 13], [237, 15], [238, 15], [239, 15], [240, 27], [241, 15], [242, 22], [243,
+  18], [244, 14], [245, 8], [246, 11], [247, 8], [248, 10], [249, 11], [250, 14],
+  [251, 5], [252, 17], [253, 11], [254, 9], [255, 17], [256, 14], [257, 13], [258,
+  12], [259, 7], [260, 7], [261, 11], [262, 13], [263, 9], [264, 7], [265, 9], [266,
+  15], [267, 11], [268, 8], [269, 7], [270, 7], [271, 14], [272, 4], [273, 11], [274,
+  14], [275, 10], [276, 6], [277, 6], [278, 9], [279, 4], [280, 6], [281, 18], [282,
+  6], [283, 6], [284, 10], [285, 10], [286, 7], [287, 2], [288, 6], [289, 5], [290,
+  7], [291, 7], [292, 8], [293, 8], [294, 1], [295, 8], [296, 2], [297, 8], [298,
+  4], [299, 7], [300, 8], [301, 10], [302, 2], [303, 4], [304, 8], [305, 2], [306,
+  6], [307, 8], [308, 4], [309, 3], [310, 8], [311, 4], [312, 3], [313, 6], [314,
+  8], [315, 1], [316, 1], [317, 3], [318, 3], [319, 4], [320, 3], [321, 4], [322,
+  3], [323, 5], [324, 5], [325, 4], [326, 4], [327, 1], [328, 3], [329, 6], [330,
+  4], [331, 2], [332, 2], [333, 2], [334, 2], [335, 4], [338, 2], [339, 3], [340,
+  2], [341, 2], [342, 2], [343, 2], [344, 1], [346, 1], [347, 2], [348, 3], [349,
+  1], [350, 2], [352, 1], [353, 1], [355, 4], [356, 3], [357, 1], [359, 2], [361,
+  2], [362, 1], [364, 1], [365, 1], [366, 1], [368, 1], [370, 2], [371, 1], [373,
+  2], [374, 1], [375, 1], [376, 1], [380, 1], [381, 1], [382, 2], [389, 2], [392,
+  1], [396, 1], [399, 1], [400, 1], [401, 1], [402, 1], [403, 1], [406, 1], [407,
+  1], [412, 1], [419, 1], [421, 1], [423, 1], [435, 2], [440, 1], [451, 1], [459,
+  1], [461, 1], [464, 2], [465, 1], [476, 1], [484, 1], [488, 1], [524, 1], [530,
+  1], [724, 1], [725, 1], [859, 1], [861, 1], [973, 1]]'
+src_sent_tokens_mean: 71
+src_sent_tokens_median: 39
+src_unique_sents: '[[1, 95], [2, 385], [3, 220], [4, 284], [5, 311], [6, 474], [7,
+  360], [8, 400], [9, 374], [10, 367], [11, 409], [12, 386], [13, 372], [14, 372],
+  [15, 387], [16, 315], [17, 359], [18, 309], [19, 321], [20, 312], [21, 281], [22,
+  281], [23, 281], [24, 229], [25, 235], [26, 232], [27, 240], [28, 190], [29, 203],
+  [30, 165], [31, 168], [32, 151], [33, 147], [34, 147], [35, 143], [36, 138], [37,
+  115], [38, 113], [39, 145], [40, 119], [41, 108], [42, 112], [43, 116], [44, 106],
+  [45, 129], [46, 93], [47, 100], [48, 107], [49, 90], [50, 85], [51, 79], [52, 105],
+  [53, 93], [54, 78], [55, 71], [56, 85], [57, 79], [58, 72], [59, 66], [60, 74],
+  [61, 72], [62, 84], [63, 60], [64, 69], [65, 74], [66, 55], [67, 74], [68, 71],
+  [69, 69], [70, 73], [71, 79], [72, 65], [73, 66], [74, 65], [75, 76], [76, 73],
+  [77, 61], [78, 63], [79, 60], [80, 67], [81, 86], [82, 67], [83, 52], [84, 60],
+  [85, 61], [86, 71], [87, 64], [88, 68], [89, 71], [90, 57], [91, 60], [92, 60],
+  [93, 62], [94, 75], [95, 62], [96, 64], [97, 71], [98, 66], [99, 67], [100, 56],
+  [101, 69], [102, 83], [103, 61], [104, 59], [105, 74], [106, 59], [107, 60], [108,
+  69], [109, 61], [110, 65], [111, 58], [112, 59], [113, 67], [114, 70], [115, 66],
+  [116, 67], [117, 56], [118, 51], [119, 62], [120, 58], [121, 77], [122, 58], [123,
+  67], [124, 72], [125, 56], [126, 57], [127, 70], [128, 62], [129, 59], [130, 64],
+  [131, 64], [132, 47], [133, 61], [134, 56], [135, 51], [136, 57], [137, 43], [138,
+  46], [139, 49], [140, 47], [141, 46], [142, 50], [143, 62], [144, 62], [145, 44],
+  [146, 51], [147, 55], [148, 40], [149, 45], [150, 39], [151, 35], [152, 44], [153,
+  50], [154, 52], [155, 44], [156, 52], [157, 43], [158, 53], [159, 44], [160, 40],
+  [161, 47], [162, 34], [163, 35], [164, 54], [165, 53], [166, 49], [167, 44], [168,
+  29], [169, 44], [170, 49], [171, 46], [172, 37], [173, 36], [174, 33], [175, 42],
+  [176, 32], [177, 41], [178, 47], [179, 30], [180, 39], [181, 40], [182, 41], [183,
+  29], [184, 33], [185, 22], [186, 31], [187, 32], [188, 38], [189, 34], [190, 26],
+  [191, 28], [192, 30], [193, 37], [194, 37], [195, 31], [196, 31], [197, 26], [198,
+  25], [199, 28], [200, 29], [201, 19], [202, 26], [203, 29], [204, 25], [205, 23],
+  [206, 23], [207, 25], [208, 24], [209, 28], [210, 18], [211, 22], [212, 18], [213,
+  16], [214, 20], [215, 21], [216, 24], [217, 19], [218, 21], [219, 24], [220, 23],
+  [221, 19], [222, 18], [223, 22], [224, 19], [225, 18], [226, 23], [227, 19], [228,
+  17], [229, 13], [230, 26], [231, 12], [232, 14], [233, 17], [234, 21], [235, 18],
+  [236, 13], [237, 15], [238, 15], [239, 15], [240, 27], [241, 15], [242, 19], [243,
+  18], [244, 14], [245, 8], [246, 11], [247, 8], [248, 10], [249, 11], [250, 14],
+  [251, 5], [252, 17], [253, 11], [254, 9], [255, 17], [256, 13], [257, 13], [258,
+  12], [259, 7], [260, 7], [261, 11], [262, 13], [263, 7], [264, 7], [265, 9], [266,
+  13], [267, 11], [268, 8], [269, 7], [270, 7], [271, 14], [272, 4], [273, 11], [274,
+  13], [275, 10], [276, 6], [277, 6], [278, 9], [279, 4], [280, 6], [281, 18], [282,
+  6], [283, 5], [284, 10], [285, 10], [286, 7], [287, 2], [288, 6], [289, 5], [290,
+  7], [291, 7], [292, 8], [293, 8], [294, 1], [295, 7], [296, 2], [297, 8], [298,
+  4], [299, 7], [300, 8], [301, 8], [302, 2], [303, 4], [304, 8], [305, 2], [306,
+  6], [307, 7], [308, 4], [309, 3], [310, 8], [311, 4], [312, 3], [313, 6], [314,
+  8], [315, 1], [316, 1], [317, 3], [318, 3], [319, 4], [320, 2], [321, 4], [322,
+  2], [323, 5], [324, 2], [325, 3], [326, 4], [327, 1], [328, 3], [329, 5], [330,
+  3], [331, 2], [332, 2], [333, 2], [334, 2], [335, 4], [338, 2], [339, 3], [340,
+  2], [341, 2], [342, 2], [343, 2], [344, 1], [346, 1], [347, 2], [348, 3], [349,
+  1], [350, 2], [352, 1], [353, 1], [355, 4], [356, 3], [357, 1], [359, 2], [361,
+  2], [362, 1], [364, 1], [365, 1], [366, 1], [368, 1], [370, 2], [371, 1], [373,
+  2], [374, 1], [375, 1], [376, 1], [380, 1], [381, 1], [382, 2], [389, 2], [392,
+  1], [396, 1], [399, 1], [400, 1], [401, 1], [402, 1], [403, 1], [406, 1], [407,
+  1], [412, 1], [419, 1], [421, 1], [423, 1], [435, 2], [440, 1], [451, 1], [459,
+  1], [461, 1], [464, 1], [465, 1], [476, 1], [484, 1], [488, 1], [524, 1], [530,
+  1], [724, 1], [725, 1], [859, 1], [861, 1], [973, 1]]'
+src_langs: '[["ga", 4256], ["en", 2090], ["pt", 1877], ["gl", 1321], ["es", 1314],
+  ["cs", 1248], ["ba", 673], ["it", 656], ["eml", 615], ["fr", 609], ["gom", 565],
+  ["lo", 546], ["kw", 525], ["kn", 402], ["uz", 400], ["gn", 325], ["vi", 311], ["ca",
+  261], ["sl", 255], ["nap", 231], ["kv", 227], ["su", 220], ["uk", 187], ["ilo",
+  180], ["ast", 178], ["sk", 160], ["hu", 136], ["war", 131], ["de", 126], ["yo",
+  124], ["pl", 120], ["vec", 117], ["lmo", 110], ["is", 109], ["fi", 109], ["tl",
+  102], ["ru", 96], ["nl", 78], ["cy", 78], ["rm", 75], ["tr", 71], ["id", 63], ["gd",
+  58], ["eo", 54], ["hr", 53], ["eu", 53], ["et", 52], ["cbk", 51], ["el", 49], ["ur",
+  48], ["ms", 46], ["lt", 46], ["sw", 45], ["pam", 43], ["pms", 41], ["zh", 40], ["av",
+  40], ["la", 38], ["mt", 32], ["ro", 31], ["tg", 30], ["te", 29], ["sr", 24], ["so",
+  24], ["ml", 24], ["jbo", 24], ["ceb", 24], ["br", 24], ["jv", 22], ["diq", 21],
+  ["sv", 20], ["ku", 20], ["da", 18], ["gv", 17], ["nn", 15], ["ja", 15], ["als",
+  15], ["ht", 14], ["bs", 13], ["xal", 12], ["bn", 11], ["ta", 10], ["oc", 10], ["qu",
+  9], ["ko", 9], ["bcl", 9], ["nb", 8], ["bh", 8], ["kk", 7], ["tt", 6], ["az", 6],
+  ["th", 5], ["mg", 5], ["ie", 5], ["hy", 5], ["bxr", 5], ["ar", 5], ["sq", 4], ["nds",
+  4], ["lez", 4], ["be", 4], ["af", 4], ["scn", 3], ["pfl", 3], ["pa", 3], ["ne",
+  3], ["lv", 3], ["hsb", 3], ["hi", 3], ["dsb", 3], ["co", 3], ["bo", 3], ["tk", 2],
+  ["si", 2], ["or", 2], ["mrj", 2], ["mn", 2], ["min", 2], ["li", 2], ["lb", 2], ["fa",
+  2], ["cv", 2], ["ckb", 2], ["bar", 2], ["an", 2], ["yue", 1], ["wa", 1], ["vep",
+  1], ["ug", 1], ["sco", 1], ["sc", 1], ["rue", 1], ["ps", 1], ["os", 1], ["new",
+  1], ["my", 1], ["mk", 1], ["km", 1], ["ia", 1], ["gu", 1], ["fy", 1], ["dv", 1],
+  ["ce", 1], ["as", 1]]'
+hardrules_tags: '{"not_too_long": 191, "not_too_short": 899, "length_ratio": 0, "no_urls":
+  128, "no_bad_encoding": 8, "pii": 21}'
+sample: '["\"Wp/fon/Alw\u025bm\u025bnun\u0254\\n\u0189o af\u0254gok\u0254 B\u00e9n\u025b
+  t\u0254n \u0256o taji \u0254 Kut\u0254nu, Agbom\u025b, Glexwe kpodo toxo e l\u025bdo
+  ye l\u025b e kpan \u0254, m\u025b\u0256axo Jo\u00ebl Noret yi cy\u0254 nu wiwa gege
+  sin t\u025bnm\u025b nu xwe m\u0254kpan. E s\u0254 cy\u0254 nuwiwa \u0254 e n\u0254
+  m\u0254 y\u025bsufif\u0254 w\u025bn\u025b m\u0254 \u0256o kplekplem\u025b y\u025bsufif\u0254''li
+  t\u0254n \u0256o af\u0254gok\u0254 B\u00e9n\u025b t\u0254n : nu m\u01d0 s\u0254
+  Klisanwun katolika l\u025b, gbigb\u0254wiwe n\u0254, l\u025b gbagb\u0254n\u0254
+  l\u025b kpo h\u025bndo m\u01d0t\u0254n l\u025b kpo. Nuwiwa gege n\u0254 do gungun
+  nu cy\u0254 nu wiwa kpodo tuto t\u0254n l\u025b kpan kaka yij\u025b cy\u0254\u0256i\u0256i
+  gudo. M\u025b\u0256axo Jo\u00ebl Moret s\u0254 kp\u0254ndewu \u0256okpo \u0256o
+  te : Cy\u0254 nu wiwa N\u0254ye Mireille t\u0254n. E kp\u0254nm\u025b \u0254, m\u01d0
+  h\u025bn \u0254 m\u01d0 na \u0256\u0254 m\u025b gege w\u025b \u0256onu \u0256o cy\u0254
+  nu wiwa \u0254 m\u025b, b\u025bsin h\u025bnnum\u0254 m\u025b e ku e t\u0254n ji
+  kaka yij\u025b h\u025bnnu s\u025bya h\u025bnnu l\u025b bi ji kpodo cy\u0254 nu wa
+  t\u0254 l\u025b kpan. \u0189okpo \u0256okpon\u0254 yet\u0254n \u0256o nu\u0256e
+  bo na wa \u0256o cy\u0254\u0256i\u0256i \u0254 m\u025b sin xoxo hwenu kaka wa t\u0254n
+  fi. Lo \u0254, e na \u0256\u0254 nu wiwa n\u025b l\u025b \u0254 n\u0254 wa ta my\u0254
+  deji \u0256o hwenu ta\u21b5ji taji \u0256e l\u025b \u0256o gb\u025bzinzan gb\u025bt\u0254
+  t\u0254n m\u025b, \u0256o taji \u0254 kuhwenu kpodo cy\u0254 nu wiwa hwenu kpan.\\nVogbingb\u0254n
+  e t\u01d0in \u0256o Hw\u025bndo nu wiwa af\u0254gok\u0254 B\u00e9n\u025b to \u0254
+  t\u0254n e kpodo Sins\u025bn nu wiwa Sins\u025bn l\u025b t\u0254n kpan n\u0254 z\u0254n
+  b\u0254 cy\u0254\u0256i\u0256i n\u0254 do zinflu do m\u025b hw\u011bnu e na nyikan
+  nu cy\u0254 nu wiwa e. Nukije kije M\u025b\u0256axo Moret t\u0254n \u0254 \u0256e
+  t\u025bn e m\u025b e m\u025b \u0256okpo \u0256okpo \u0256e nu \u0256o cy\u0254 nu
+  wiwa m\u025b e xwl\u025b kpodo t\u025bn e m\u025b m\u025b e ku e \u0256esu \u0256ee
+  xwl\u025b, e na \u0256\u0254 t\u025bn e m\u025b e \u0256e nu h\u025bnnu t\u0254n
+  (T\u0254/N\u0254, Asu/Asi, n\u0254vi, v\u01d0...) m\u0254 \u0256okpo \u0254 Sins\u025bn
+  \u011b e n\u0254 yi e kpodo az\u0254 \u011b e n\u0254 wa e kpan : m\u025b n\u025b
+  l\u025b \u0256okpo \u0256okpo h\u025bn \u0254 ye na k\u025bnu do tito cy\u0254\u0256i\u0256i
+  m\u025b e ku e t\u0254n m\u025b. Fi e ad\u0254ndind\u0254n n\u0254 wukun sin e \u0256okpo
+  n\u025b. Nu \u0256\u0254gbotinsa kpodo ali fifa kpodo gbe\u0256okp\u0254 h\u025bnnum\u0254
+  l\u025b biba kpan \u0256o taji \u0256esu. E \u0256o m\u0254 c\u00f2 c\u0254\u0301c\u0254\u0301
+  do\u025b, jl\u025b kpodo adangbl\u0254n nu m\u025b kpan kpodo k\u025bnli do k\u025bnm\u025b
+  kpan n\u0254 han \u0256o cy\u0254 nu wiwa gege m\u025b a.\\nM\u025b\u0256axo gb\u025bgbe
+  nu nu wal\u0254 n\u025b l\u025b e e n\u0254 m\u0254 cy\u0254\u0256i\u0256i hwenu
+  e bo do zogboe nuba\u0256u e \u0256o cy\u0254\u0256i\u0256i m\u025b nu \u0256okpo
+  \u0256okpo m\u025b e \u0256o nu \u0256e m\u025b e t\u0254n ji, \u0256o taji klan
+  e n\u0254 wa t\u01d0in \u0256o h\u025bnnu \u0254 kpodo sins\u025bn l\u025b kpan
+  t\u025bntin e kpan.\"", "\"Joseph Djogb\u00e9nou \u0254, hw\u025b\u0256\u0254t\u0254,
+  s\u025bnz\u0254wat\u0254, nukpl\u0254nm\u025bt\u0254 kpl\u0254nyiji''alav\u0254
+  B\u00e9n\u025b t\u0254n w\u025b. Sin lexwele 2018 \u0254 \u011be w\u025b nyi gan
+  e xw\u00e8 aza do Sinz\u0254waxwe e n\u0254 y\u0254l\u0254 \u0256\u0254 Cours constitutionnelle
+  e nu. E ji \u0256o Agbom\u025b \u0256o azan ko g\u0254 nuxwasun xwe 1969 t\u0254n
+  m\u025b.\\nM\u025bsi s\u025bnkpl\u0254m\u025b gan \u0256axo \u0256okpo w\u025b e
+  nyi Kpl\u0254nyiji''alav\u0254 Agbom\u025b-Kandofi t\u0254n. E l\u025b nyi gan nu
+  nunyw\u025b gbasa e n\u0254 yl\u0254 \u0256\u0254 Centre de recherche et d''\u00e9tude
+  en droit et institutions judiciaires en Afrique (CREDIJ). Ganhw\u025b\u0256\u0254t\u0254
+  w\u025b nyi Barrot B\u00e9n\u025b t\u0254n. E l\u025b nyi gb\u025bt\u0254 nukun\u0256eji
+  hunj\u025bdo toji t\u0254 B\u00e9n\u025b t\u0254n, bo ka \u0256o toxo\u0256\u0254gb\u025b
+  Alternative citoyenne m\u025b.\\nM\u025b\u0256axo Djogb\u00e9nou \u0256u gan \u0256o
+  s\u025bn gbasa \u0256axo Ben\u025b t\u0254n sin azan w\u025bn\u025b g\u0254 ayidosun
+  xwe 2018 t\u0254n m\u025b. \u0189o liyansun xw\u00e9 2022 t\u0254n m\u025b m\u025b\u0256axo
+  s\u0254 az\u0254 k\u0254n yanyi bo na l\u025b xw\u00e9 aza \u0256o ta nu s\u025bngbasa
+  \u0256axo Ben\u025b to \u0254 nu a.\\nM\u025b\u0256axo Djogb\u00e9nou w\u025b xo
+  aza \u0256o ta nu toxod\u0254gb\u025bta UP t\u0254n nu sin liyansun xw\u00e9 2022
+  t\u0254n m\u025b.\"", "\"A dji dji YAAAH ! Changez les places N''dja \u0256\u0254
+  V\u00c9RI tawun Papa Na Tenaille A tun xode Quelques choses se passent au B\u00e9nin.
+  Nun l\u025b bi se \u0256o axi v\u025b w\u025b Wam\u0254nn\u0254n l\u025b f\u0254n
+  bo \u0256o ya ji w\u025b, b\u0254 kw\u025b n\u0254 l\u025b f\u0254n bo \u0256o kw\u025b
+  \u0256o w\u025b S\u0254 \u0256e wa yi \u0254, ye ze kw\u025b do GBADE ji Ayi wa
+  h\u0254n b\u0254 e ze kw\u025b do AMI ji Egbe di ye ko l\u025b ze \u0256''AYI ji
+  B\u0254 nu l\u025b bi \u0256o to mit\u0254n m\u025bn wa v\u025b axi TROP C''EST
+  TROP Y\u0254nnu l\u025b n\u0254 yi axi, a m\u0254n wuv\u025b ye n\u0254 h\u025bn
+  wa TROP C''EST TROP Aka xo wa s\u025b hun yi aga, mi s\u0254 si gb\u0254dj\u025b
+  a TROP C''EST TROP Jinukun l\u025b si kw\u025b \u0256''aga yi w\u025b, b\u0254 SALAIRE
+  \u0256o do yi w\u025b TROP C''EST TROP Y\u025bhue \u0256o kpo \u0256e mi n\u0254
+  xa \u0254, nu l\u025b ni v\u025b kp\u0254 kw\u025b TROP C''EST TROP SIRAC SOLDAT,
+  papa Na Tenaille, oun wa bo do gbe m\u025bn bi Oun si \u0256i sa, gb\u0254n m\u025bn
+  bi ji a, w\u025b z\u0254n b\u0254 n''ze GBE ce yi ji Nu \u0256e \u0256o jij\u0254
+  w\u025b \u0256o TO mit\u0254n m\u025bn fi, nugbo \u0256i\u0256\u0254 mit\u0254n
+  l\u025b cik\u0254 Xov\u025b n\u0254 si mi, Si k\u0254 n\u0254 xu mi, m\u025bn bi
+  bl\u025b mit\u0254n l\u025b cik\u0254 Il n''y a pas l''argent dans notre pays, c\u00f3
+  nu mi nan \u0256u \u0254 l\u025b v\u025b kw\u025b Az\u0254 \u0256e a, mi \u0256u
+  nu yi x\u0254 a, n\u025bn mi na wa gb\u0254n bo su x\u0254 kw\u025b ? Mi s\u0254
+  n\u0254 kp\u0254n ALI co bo n\u0254n dasa a, \u0256o mitun \u0256\u0254 KU \u0254
+  \u0256okpo w\u025b \u0256e BAR l\u025b \u0256esu s\u0254 \u0256o nu sa w\u025b a,
+  a yi \u0256\u0254n EKU \u0256o kpo p\u025b j\u025bn \u0256e La RUE s''est lev\u00e9,
+  on veut savoir ce qui se passe, sinon zan nan ku keze Mi n\u0254 coup\u00e9 COURANT
+  gasi a gamin, dans la NUIT nous on dors dans l''OBSCURITE La VIE est devenue tellement
+  ch\u00e8re au BENIN que tout \u00e7a me fait chi\u00e9 De vous \u00e0 moi, a m\u0254n
+  nu bo \u0256u a, bo yi WC, est-ce que tu peux chi\u00e9 ? Quelques choses se passent
+  au B\u00e9nin. Nun l\u025b bi se \u0256o axi v\u025b w\u025b Wam\u0254nn\u0254n
+  l\u025b f\u0254n bo \u0256o ya ji w\u025b, b\u0254 kw\u025b n\u0254 l\u025b f\u0254n
+  bo \u0256o kw\u025b \u0256o w\u025b S\u0254 \u0256e wa yi \u0254, ye ze kw\u025b
+  do GBADE ji Ayi wa h\u0254n b\u0254 e ze kw\u025b do AMI ji Egbe di ye ko l\u025b
+  ze \u0256''AYI ji B\u0254 nu l\u025b bi \u0256o to mit\u0254n m\u025bn wa v\u025b
+  axi TROP C''EST TROP Y\u0254nnu l\u025b n\u0254 yi axi, a m\u0254n wuv\u025b ye
+  n\u0254 h\u025bn wa TROP C''EST TROP Aka xo wa s\u025b hun yi aga, mi s\u0254 si
+  gb\u0254dj\u025b a TROP C''EST TROP Jinukun l\u025b si kw\u025b \u0256''aga yi w\u025b,
+  b\u0254 SALAIRE \u0256o do yi w\u025b TROP C''EST TROP Y\u025bhue \u0256o kpo \u0256e
+  mi n\u0254 xa \u0254, nu l\u025b ni v\u025b kp\u0254 kw\u025b TROP C''EST TROP Akw\u025b
+  s\u0254 \u0256e a, Az\u0254 \u0256e s\u0254 \u0256e a, b\u0254 vi l\u025b bi h\u00faz\u00fa
+  BIZI Ce n''est pas de leur faute, a se nu e \u0256o gbo w\u025b \u0254, N\u0186NVI
+  a nan \u0256u caki \u0189o tier-qua m\u025bn fi, papa na DOLLARS, \u0256''ayi \u0254
+  hu\u025b w\u025b n\u0254 zan cinji Nu bi wa gbele, BUSINESS fo nu, a kpon gb\u025b
+  m\u025bn bo n\u0254n \u0256u caki ESSENCE go \u0256o kpo hu FAVI AZIN MI go \u0256o
+  kpo hu CAKI GBADE \u0254, et\u025b s\u0254 n\u0254 \u0256\u0254 a, e gosin KPON
+  WEWE bo wa t\u0254n \u0256o FAVI BENIN complet bi se \u0256''avi ji S\u0254 nan
+  y\u0254n, m\u025bn bi wezun ji Akw\u025b n\u0254n sin VI l\u025b n\u0254 \u0256u
+  GB\u0190 \u0256o S\u0186 ji B\u0254 WAM\u0186NN\u0186N l\u025b \u0256i z\u0254nlin
+  Ce n''est pas la PEINE Des fois \u00e7a m''\u00e9nerve, \u00e7a n''vaut pas la PEINE
+  Oun yan kw\u025b nu we Sa nu ax\u0254 nu we Oun l\u025b wa yl\u0254 we Tu n''prends
+  pas l''APPEL PRESIDENT a \u0256o to ji a ? MINISTRE - DEPUTE, mi \u0256o to ji a
+  ? VLADMIR POUTINE w\u025b nan yl\u0254 hw\u025b co b\u0254 mi nan tun\u0256\u0254
+  TOV\u01cf l\u025b \u0256o avi ji a ? Emb\u00eatement ! Quelques choses se passent
+  au B\u00e9nin. Nun l\u025b bi se \u0256o axi v\u025b w\u025b Wam\u0254nn\u0254n
+  l\u025b f\u0254n bo \u0256o ya ji w\u025b, b\u0254 kw\u025b n\u0254 l\u025b f\u0254n
+  bo \u0256o kw\u025b \u0256o w\u025b S\u0254 \u0256e wa yi \u0254, ye ze kw\u025b
+  do GBADE ji Ayi wa h\u0254n b\u0254 e ze kw\u025b do AMI ji Egbe di ye ko l\u025b
+  ze \u0256''AYI ji B\u0254 nu l\u025b bi \u0256o to mit\u0254n m\u025bn wa v\u025b
+  axi TROP C''EST TROP Y\u0254nnu l\u025b n\u0254 yi axi, a m\u0254n wuv\u025b ye
+  n\u0254 h\u025bn wa TROP C''EST TROP Aka xo wa s\u025b hun yi aga, mi s\u0254 si
+  gb\u0254dj\u025b a TROP C''EST TROP Jinukun l\u025b si kw\u025b \u0256''aga yi w\u025b,
+  b\u0254 SALAIRE \u0256o do yi w\u025b TROP C''EST TROP Y\u025bhue \u0256o kpo \u0256e
+  mi n\u0254 xa \u0254, nu l\u025b ni v\u025b kp\u0254 kw\u025b TROP C''EST TROP A
+  dji dji YAAAH ! \u00c0 toutes les bonnes DAMES du BLED \u00c0 tous mes gars qui
+  ont connu la RUE On s''impose car la lutte continue SOLDAT\"", "\"Movement Charter/Content/N\u01d4wal\u0254
+  \u0256agbe l\u025b kpodo wal\u0254 dodo e ji e na ze gb\u025b \u0254 junj\u0254n
+  l\u025b e kp\u00e1n\\n\u2190 E n\u01d0 l\u025bk\u0254 y\u00ec xos\u0254d\u2019agun
+  \u0254 j\u00ed | Mi l\u025bk\u0254 y\u00ec mimam\u025b \\\"Az\u0254\u030c ee ny\u00ed
+  m\u025bt\u0254n e kp\u00f3 dandanm\u025bnu l\u025b kp\u00f3 j\u00ed\\\" \u2192\\nM\u01d0
+  ny\u00ed af\u0254s\u0254\u0256otet\u0254 nunyw\u025b e e s\u0254 junj\u0254n nuwiwa
+  ji l\u025b e t\u0254\u0300n.Nunyw\u025b n\u025b e e hun n\u00fa m\u025bb\u01d0 \u00e9.
+  Kpasin mit\u0254n l\u025b \u0256o t\u00e9 nu nunyw\u025b gb\u025b \u0254 bi t\u0254n
+  b\u0254 jolokokom\u025b w\u025b m\u025b \u0256okpo \u0256okpo n\u0254 n\u0254\u0300
+  bo n\u0254 s\u0254\u0301 nunyw\u025b t\u0254n d\u00f3 n\u01d4 ee n\u0254 h\u025b\u0300n
+  nunyw\u025b n\u025b l\u025b \u0256\u00f2 kanji \u00e9 j\u00ed. Nutito mit\u0254n
+  l\u025b kpodo nuwal\u0254 \u0256agbe mit\u0254n ayih\u0254ngbe-ayih\u0254ngbe t\u0254n
+  l\u025b kpan n\u0254 xwedo nuwal\u0254 \u0256agbe togun l\u025b t\u0254n bo ka n\u0254
+  d''al\u0254 Wikimedia sin gb\u025bvi e \u0256\u00f2 gb\u025b \u0254 m\u025b l\u025b
+  e b\u0254 ye n\u0254 \u0256\u0254 xo d\u2019ewu \u0256\u00f2 nugbom\u025b m\u025b\u0256e-ma-n\u0254-m\u025b\u0256e-j\u00ed.\\nN\u01d4wal\u0254
+  \u0256agbe kpodo wal\u0254 dodo mit\u0254n l\u025b kp\u00e1n yigbe d\u2019eji \u0256\u0254\u0300
+  w\u025bnl\u025bnwin nunyw\u025b s\u0254 \u0256o at\u025bji \u0256\u0254 e nyi gandudo
+  nuwa\u0256okp\u0254 t\u0254n bo ka wa nu xwedo :\\n\u0189o linlin nunyw\u025b \u0256o
+  jlokoko m\u025b t\u0254n m\u025b \u0254 mi n\u0254 m\u00e1 n\u01d4 e mi wlan l\u025b
+  e kp\u00f3 gb\u025b \u0254 b\u01d0 kp\u00f3, alyannu ya\u0256eya\u0256e \u00e8 e
+  d\u01d2 na gb\u00e8 m\u025b\u030cbi na kpaa e w\u025b mi n\u0254 z\u00e1n. Mi s\u0254
+  gbetak\u025bn bo na blo t\u025bnm\u025b nu nunyw\u025b e hwenuxo ma s\u0254 \u0256o
+  ajo a l\u025b \u0256o tito mit\u0254n l\u025b m\u025b.\\nMi \u0256o gando w\u025b
+  bo na wanu \u0256o jlokoko m\u025b,ma \u0256onukun m\u025bb\u0254t\u0254 \u0256e
+  e ma ny\u00ed m\u0254 \u01ce \u0254\u0301,nunyw\u025b''z\u0254 wiwa mit\u0254n \u0256o
+  jlokoko m\u025b \u0254 taa wa \u0256\u00f3 bl\u0254\u030c. M\u01d0 \u0256\u00f2
+  aj\u0254wat\u0254 \u0256\u00e9,toxo\u0256\u0254t\u0254 \u0256\u00e9, akw\u025bn\u0254
+  \u0256\u00e9 al\u01d2 m\u025b s\u0254\u0301 \u0256\u2019aj\u00f2 t\u0254 \u0256\u00e9
+  al\u01d2 m\u025b\u0256e s\u00edn kannu \u01ce.\\nMi n\u0254 h\u025bns\u0254 m\u025b
+  e n\u0254 n\u0254 kp\u0254\u0301 bo n\u0254 d\u00f3 nu w\u01ce b\u0254 nudowa en\u025b
+  \u0254 junj\u0254n mi na xo ta xpl\u00e9 bo blo j\u00ed. E s\u0254\u0301 titom\u025b
+  mit\u0254n l\u025b \u0256ote n\u00fa gbe l\u025b b\u01d0 d\u00f3 t\u0254\u0301 b\u2019\u025b
+  ka \u0256\u00f2 w\u025b\u0300n \u0256\u00f2 n\u01d4 ee n\u0254 h\u025b\u0300n nunyw\u025b
+  \u0256\u00f2 kanji \u00e9 t\u025bnm\u025bt\u025bnm\u025b j\u00ed. Linlin m\u025bbi
+  t\u0254n kpaa kpodo alyannu l\u025b s\u0254 h\u025b\u0300ns\u0254\u0300 m\u025b
+  n\u00e1 kp\u00e1n. Wal\u0254 mit\u0254n l\u025b junj\u0254n gbe yi n\u00fa n\u01d4
+  ee jlo m\u025b \u0256okpo \u0256okpo e biblo kpo ac\u025b\u0300 togun mit\u0254n
+  l\u025b t\u0254n kp\u00f3 j\u00ed bo n\u0254 yax\u025b\u0300 \u0256\u00f2 y\u011b
+  j\u00ed. En\u025b w\u00fa \u0254, mi wl\u00e1n s\u025b\u0301n \u0256e l\u025b\u025b
+  bo n\u0254 z\u0254n gb\u0254n e j\u00ed lobo n\u0254 \u0256o ay\u00ec t\u00e8 bonu
+  m\u025b \u0256okpo \u0256okpo na m\u0254 \u0256\u0254 e k\u00fan x\u00f2 emi ny\u00ec
+  k\u025b\u0301n o lobo s\u0254\u0301 emi yl\u0254 \u0256\u0254\u0300 n\u01d4.\\n\u0189\u00f2
+  n\u01d4 ee n\u0254 h\u025b\u0300n nunyw\u025b \u0256\u00f2 kanji l\u025b e s\u00edn
+  alinu w\u025b a al\u01d2 \u0256\u00f2 gan \u0256u \u0256\u00f2 tito mit\u0254n l\u025b
+  n\u00fa s\u00edn aliji w\u025b a, m\u025b e n\u01d4 \u0254 kan l\u025b e \u0256es\u00fa
+  w\u025b n\u0254 kp\u2019ac\u025b n\u00e1. Gb\u0254\u0300n m\u0254\u030c \u0254\u0301,
+  mi n\u0254 xokan n\u00fa tog\u00f9n e n\u0254 w\u00e0 n\u01d4 xwedo nuwal\u0254
+  \u0256\u0251gbe wikimedia gb\u025bta gb\u025b \u0254 b\u01d0 t\u0254n l\u025b e
+  \u0256es\u00fa ni n\u0254\u0300 n\u01d4 yet\u0254n n\u00fa \u0256\u00f2 jolokokom\u025b.\\nMi
+  n\u0254 g\u0254so n\u00fa togun l\u025b bo n\u0254 h\u025bns\u0254 y\u011b gb\u0254\u0300n
+  ac\u025bkpikpa s\u025b af\u0254 wa dok\u0254\u0300nuwiwa gblam\u025b kpodo m\u025b\u0256eesinun\u0254
+  \u0256o nuwiwa m\u025b\u0300 kp\u00e1n. L\u011b\u00e8 mi n\u0254 wanu gb\u0254n
+  b\u0254 z\u025b\u030cnz\u025b\u030cnnin\u0254 n\u0254 \u0256\u00e8 \u0256o nunyw\u025blinu
+  \u0254 j\u025bn mi n\u0254 wa gb\u0254\u0300n \u0256\u00f2 nu\u0256i\u0256o mit\u0254n
+  l\u025b linu. M\u0254 \u0256okpo \u0254 j\u025bn mi n\u0254 l\u025b xok\u00e0n n\u00fa
+  m\u025b e n\u0254 z\u00e1n at\u025b mit\u0254n l\u025b \u00e9 kpod\u00f3 m\u025b
+  e \u0256o nu \u0256\u00f2 nuwiwa mit\u0254n m\u025b l\u025b e kp\u00e1n gb\u0254n
+  sisi \u0256\u00f2 n\u00fa ac\u025b yet\u0254n l\u025b \u0256\u00f2 m\u025b\u0256e
+  ma s\u00e8 m\u025b\u0256e xo linu l\u011b\u00e8 mi kp\u2019ewu gb\u0254n \u00e8.\\nMi
+  n\u0254 z\u00ecn al\u0254 d\u2019ak\u0254n \u0256\u00f2 m\u025bbi nuk\u0254n bo
+  n\u0254 y\u00ed wema e e z\u011b \u0256\u00f3 t\u00e8 n\u00fa m\u025bb\u01d0 b\u0254
+  e h\u025bn \u0254\u0301 e na huz\u00fa ad\u00e0 na \u00e9 lobo n\u0254 \u0256\u00f3
+  titom\u025b l\u025b kp\u00f3 az\u0254\u030c e mi wa l\u025b \u00e9 kp\u00f3 s\u00edn
+  gb\u00e8 n\u00fa m\u025bb\u01d0 kpaa bo ka n\u0254 \u0256\u00e8 m\u025b e ny\u00ed
+  ag\u00f9nkplat\u0254 l\u025b e \u0256\u00f3 v\u00f2 \u0256\u00f2 ac\u025b kp\u00f3d\u2019az\u0254\u030c
+  ee x\u00f3 ak\u0254jij\u025bs\u025b\u0301n \u0254 \u0256\u0254 l\u025b \u00e9 kp\u00e1n
+  linu.\\nN\u01d4 ee z\u0254n b\u0254\u0300 m\u01d0 \u0256\u00f2 nuk\u0254nyiyi \u0256\u00f3
+  w\u025b e w\u025b ny\u00ed nuy\u0254y\u0254 dido w\u00e1 kp\u00f3d\u00f3 n\u01d4
+  e mi k\u00f3 \u0256\u00f3 l\u025b e tint\u025bnkp\u0254n kp\u00e1n bo ka n\u0254
+  \u0256\u00f2 n\u01d4 e e six\u00fa yl\u0254 \u0256\u0254\u0300 jolokokom\u025bnun\u0254
+  \u0256\u00f2 nunyw\u025b liji l\u025b e \u0256y\u0254 w\u025b\u0300 ma gbok\u0254.
+  M\u01d0 n\u0254 xwed\u00f3 wl\u025bnwin kpodo wal\u0254 ee s\u0254gbe bo junj\u0254n
+  xl\u025b jil\u025b \u00e9. Mi n\u0254 x\u00f2 nuk\u0254nyiyi s\u00edn k\u00e0n \u0256\u00f2
+  gb\u025bta mit\u0254n l\u025b kpod\u00f3 tog\u00f9n mit\u0254n l\u025b m\u025b kp\u00e1n.\\n\u2190
+  Back to the Preamble | To the \\\"Roles and Responsibilities\\\" section \u2192\"",
+  "\"Ee Jezu bl\u00f3 bapt\u025bm gudo tlolo \u00e9 \u0254, gbigb\u0254 Mawu t\u0254n
+  kpl\u00e1 \u025b y\u00ec gbet\u00f3tl\u00f3 Jud\u00e9e t\u0254n m\u025b. \u00c9
+  \u0256\u00f3 na lin tam\u025b kp\u0254\u0301n d\u00f3 n\u01d4 g\u00e8g\u011b j\u00ed.
+  \u00d0\u00f2 bapt\u025bm Jezu t\u0254n s\u00edn hwenu \u0254, \u201cjinuk\u00fansin
+  hun.\u201d (Maki 1:10) En\u025b wu \u0254, \u00e9 h\u025bn \u0254 \u00e9 na fl\u00edn
+  n\u01d4 \u0256\u011b\u0256ee \u00e9 kpl\u0254\u0301n l\u025b \u00e9 kpo n\u01d4
+  \u0256\u011b\u0256ee \u00e9 w\u00e0 hwenu e \u00e9 \u0256\u00f2 jixw\u00e9 l\u025b
+  \u00e9 kpo. Nugb\u01d2 \u0254, n\u01d4 g\u00e8g\u011b j\u00ed w\u025b \u00e9 \u0256\u00f3
+  na lin tam\u025b kp\u0254\u0301n d\u00f3!\\nK\u00e9ze 40 z\u01cen 40 w\u025b Jezu
+  x\u0254 \u0256\u00f2 gbet\u00f3tl\u00f3 \u0254 m\u025b. \u00c9 \u0256u n\u01d4 \u0256eb\u01d4
+  hwe en\u025b l\u025b nu \u01ce. En\u025b gudo \u0254, hwenu e xov\u025b s\u00ecn
+  Jezu tawun \u00e9 \u0254, Sat\u00e1an Awovi s\u025bkp\u0254 \u025b bo na t\u025b\u0301n
+  \u025b kp\u0254\u0301n. \u00c9 \u0256\u0254 n\u2019i \u0256\u0254: \u201cN\u00fa
+  Mawu v\u00ed j\u025bn w\u025b a ny\u00ed nugb\u01d2 h\u01d4n, \u0256egbe n\u00fa
+  awinnya el\u0254 l\u025b, n\u00fa ye ni huzu n\u00f9\u0256u\u0256u.\u201d (Matie
+  4:3) \u00d0\u00f3 Jezu tu\u00f9n \u0256\u0254 \u00e9 k\u00fan s\u0254gbe bonu emi
+  na z\u00e1n hl\u0254nhl\u0254n e emi n\u0254 d\u00f3 bl\u00f3 n\u00f9jiw\u01d4 na
+  l\u025b \u00e9 d\u00f3 gb\u0254 jl\u01d2 emi\u0256esu t\u0254n l\u025b na \u00f3
+  wutu \u0254, \u00e9 \u0256u \u0256\u00f2 t\u025bnkp\u0254n en\u025b \u0254 j\u00ed.\\nAwovi
+  ka n\u0254te \u0256\u00f3 fin\u025b \u01ce. \u00c9 l\u025b\u0301v\u0254 z\u00e1n
+  wl\u025bnw\u00edn \u0256evo. \u00c9 \u0256\u0254 n\u00fa Jezu \u0256\u0254 \u00e9
+  ni l\u0254\u0301n s\u00edn t\u025bmpli \u0254 ta bo j\u025b dodom\u025b. Am\u0254\u030c,
+  Jezu jl\u00f3 bo na l\u0254\u0301n s\u00edn t\u025bmpli \u0254 ta bonu w\u025bnsagun
+  l\u025b na w\u00e1 hwl\u025bn \u025b \u01ce. Jezu \u0256\u00e8 x\u00f3 s\u00edn
+  Biblu \u0254 m\u025b, bo \u0256exl\u025b\u0301 \u0256\u0254 \u00e9 nyla \u0256esu
+  \u0256\u0254 \u00e8 ni t\u025b\u0301n Mawu kp\u0254\u0301n \u0256\u00f2 ali en\u025b
+  nu.\\nEn\u025b gudo \u0254, Awovi l\u025b\u0301 t\u025b\u0301n Jezu kp\u0254\u0301n
+  az\u0254n at\u0254ng\u0254 \u0254 bo xl\u025b\u0301 \u025b \u201cax\u0254su\u0256uto
+  gb\u025bm\u025b f\u00ed t\u0254n l\u025b, kpodo d\u0254kun yet\u0254n l\u025b kpan\u201d
+  bo \u0256\u0254: \u201cEnyi a j\u025bkpo, bo \u0256\u00e8k\u0254\u0301 n\u00fa m\u00ec
+  \u0254, un na na n\u01d4 en\u025b l\u025b b\u01d0 we.\u201d Jezu l\u025b\u0301v\u0254
+  gb\u025b\u0301 b\u01d0 ml\u025b\u0301ml\u025b\u0301, bo \u0256\u0254: \u201cSat\u00e1an,
+  b\u01d4 d\u00f3 m\u00ec!\u201d (Matie 4:8-10) \u00c9 j\u025b t\u025bnkp\u0254n m\u025b
+  bo w\u00e0 n\u01d4 nyanya \u01ce, \u0256\u00f3 \u00e9 tu\u00f9n \u0256\u0254 Jehovah
+  k\u025b\u0256\u025b w\u025b \u00e8 \u0256\u00f3 na s\u025b\u0300n. Nugb\u01d2 \u0254,
+  \u00e9 y\u00ed gb\u00e8 bo n\u0254 gbeji n\u00fa Mawu.\\nM\u025bt\u025bnkp\u0254n
+  en\u025b l\u025b kpo lee Jezu \u0256u \u0256\u00f2 ye j\u00ed gb\u0254n \u00e9 kpo
+  sixu kpl\u0254\u0301n n\u01d4 g\u00e8g\u011b m\u01d0. Awovi t\u00ed\u00ecn nugb\u01d2,
+  bo ny\u00ed m\u025b\u0256\u00e9 b\u0254 \u00e8 sixu m\u0254 kpo nuk\u00fan kpo \u01ce,
+  lob\u0254 tan en\u025b l\u025b\u0301 xl\u025b\u0301 \u0256\u0254 \u00e9 w\u025b
+  \u0256\u00f3 ac\u025b d\u00f3 ac\u025bkpikpa gb\u025b\u0300 \u0254 t\u0254n l\u025b
+  j\u00ed. \u00c9 ma ny\u00ed m\u0254\u030c \u01ce \u0254, \u00e9 sixu z\u00e1n ye
+  bo d\u00f3 t\u025b\u0301n Klisu kp\u0254\u0301n \u01ce.\\nG\u0254\u0301 na \u0254,
+  Awovi \u0256\u0254 \u0256\u0254 emi na d\u00f3 aj\u0254 Jezu bo na na \u025b ax\u0254su\u0256uto
+  gb\u025b\u0300 \u0254 t\u0254n l\u025b b\u01d0, enyi \u00e9 \u0256\u00e8k\u0254\u0301
+  n\u00fa emi \u0254 n\u025b. Awovi sixu ba na t\u025b\u0301n m\u01d0 l\u0254 kp\u0254\u0301n
+  \u0256\u00f2 ali m\u0254hun nu, b\u0254ya \u00e9 sixu z\u00e9 ali \u0256\u011b\u0256ee
+  m\u01d0 na gb\u0254n bo m\u0254 d\u0254kun, hl\u0254nhl\u0254n, al\u01d2 t\u025bnm\u025b
+  \u0256ax\u00f3 \u0256ax\u00f3 gb\u025b\u0300 \u0254 t\u0254n l\u025b \u00e9 \u0256\u00f3
+  nuk\u0254n n\u00fa m\u01d0. Am\u0254\u030c, enyi m\u01d0 xw\u00e9do kp\u0254\u0301nd\u00e9w\u00fa
+  Jezu t\u0254n bo n\u0254 gbeji n\u00fa Mawu \u0256\u00f2 m\u025bt\u025bnkp\u0254n
+  al\u0254kpa l\u025b b\u01d0 m\u025b \u0254, \u00e9 na xl\u025b\u0301 \u0256\u0254
+  m\u01d0 ny\u00ed n\u00f9nyw\u025bt\u0254\u0301. L\u025b\u030c fl\u00edn \u0256\u0254
+  ee Awovi t\u025b\u0301n Jezu kp\u0254\u0301n gudo \u00e9 \u0254, \u201c\u00e9 t\u00f3
+  j\u00f3 \u00e8 d\u00f3 hw\u025b\u030c.\u201d (Luki 4:13) \u00c9 sixu ny\u00ed m\u0254\u030c
+  n\u00fa m\u01d0 l\u0254m\u0254\u030c, en\u025b wu \u0254, m\u01d0 \u0256\u00f3 na
+  \u0256\u00f2 ac\u00e9j\u00ed hweb\u01d0nu.\"", "\"Aganmal\u0254m\u025b \u0254 tokp\u0254nlavi
+  \u0256okpo w\u025b \u00e9 nyi \u0256o tokp\u0254nlavi 09 tokp\u0254nla Kpomas\u025b
+  t\u0254n l\u025b m\u025b bo \u0256o tokp\u0254n Atlantique t\u0254n m\u025b \u0256o
+  Ben\u025b\u025bto m\u025b.\\nDogbo t\u0254n l\u025b[wl\u01cen n\u00fa | wla n\u00fa
+  \u0256o\u0256o \u0254]\\nTokp\u0254nlavi n\u025b \u0254, \u0256o t\u025bntinm\u025b
+  hwet\u0254nwaji n\u00fa tokp\u0254nla Kpomas\u025b t\u0254n. \u00c9 \u0256o dogbo
+  x\u00e1 T\u0254kpa-Dom\u025b kpo S\u025bgb\u025bya kpo \u0256o taligbe bo l\u025b
+  \u0256o x\u00e1 S\u025bgbohw\u025b \u0256o af\u0254ligbe.\\nGletoxo t\u0254n l\u025b[wl\u01cen
+  n\u00fa | wla n\u00fa \u0256o\u0256o \u0254]\\nTokp\u0254nlavi \u00e9 n\u025b \u0254,
+  \u0256o gletoxo villages) 07 y\u011b \u0256ie :\\n- Aganmal\u0254m\u025b (centre)\\n-
+  Ayij\u025bdo\\n- Hesa\\n- Kugbeji\\n- Kuzum\u025b\\n- Lokosa\\n- Nugboyifi\\nT\u00e0n
+  kleun[wl\u01cen n\u00fa | wla n\u00fa \u0256o\u0256o \u0254]\\n\u0189o az\u01cen
+  27 nuxwas\u00f9n xw\u00e8 2013 t\u0254n m\u025b w\u025b Aganmal\u0254m\u025b \u00e9
+  n\u025b \u0254 huzu tokp\u0254nlavi nu tokp\u0254nla Kpomas\u025b t\u0254n.\\nTovi
+  nabi \u00e9 do e[wl\u01cen n\u00fa | wla n\u00fa \u0256o\u0256o \u0254]\\n\u0189o
+  k\u025b\u0301n \u00e9 \u00e8 s\u0254 \u0256o xw\u00e8 2013 t\u0254n m\u025b e \u0254,
+  tokp\u0254nlavi n\u025b \u0254 \u0256o hw\u025bndo 1054 bo \u0256o gb\u025bt\u0254\u0301
+  4523.\"", "\"Agn\u00e8s Agboton (xe ny\u00ed jiji to 1960) ny\u00ed wekant\u0254,
+  ox\u00f3 milomilo-k\u00e0nt\u0254, ot\u00e0n-\u0256\u0254t\u0254 , kp\u00f3 l\u025bd\u00f3gbe\u0256evom\u025b-bas\u00edt\u0254
+  kp\u00f3 B\u00e9nin t\u0254n \u0256\u00e9. \u00c9 n\u0254 n\u0254\u0300 Espagne
+  todin. \u00c9 w\u00e1 s\u0254\u0301n hw\u025bnd\u00f3 Fon t\u0254n m\u025b, bo kanwe
+  to ogb\u00e8 susu m\u025b, exe b\u025b Catalogne-gb\u00e8, Espagne-gb\u00e8, kp\u00f3
+  Gungb\u00e8 kp\u00f3 h\u025bn. \u00c9 ko wlan ow\u011b susu gand\u00f3 n\u00fa\u0256\u00f9\u0256\u00f9
+  kp\u00f3 aca Aflika t\u0254n l\u025b kp\u00f3 go, kp\u00f3\u0256\u0254 \u00e9 ny\u00ed
+  nyinyw\u025b n\u00e1 az\u0254\u030cn et\u0254n to wekun kink\u00e0n kp\u00f3 l\u025bd\u00f3gbe\u0256evom\u025b
+  aca B\u00e9nin t\u0254n l\u025b kp\u00f3 m\u025b g\u0254n\u00e1 ot\u00e0n l\u025b
+  n\u00e1 m\u025bxom\u025b l\u025b kp\u00f3 ovi l\u025b kp\u00f3. Hum\u0254, \u00e9
+  ko z\u00edn b\u025bkplid\u00f3kp\u0254\u0301 z\u025b\u0301nkla t\u0254n awe j\u025bgbonu
+  to Gungb\u00e8 t\u0254n kp\u00f3 Espagne-gb\u00e8 kp\u00f3 m\u025b. \u00c9 n\u0254
+  ny\u00ed kpinkp\u0254nhlan tayi\u0256i om\u025b nuk\u00fandeji \u0256\u00e9 to nukinkan
+  Afro-espagnol t\u0254n m\u025b.\\nAgboton ny\u00ed jiji to Porto-Novo, B\u00e9nin,
+  Hw\u00e8yix\u0254 Aflika t\u0254n, fie \u00e9 kpl\u0254\u0301n nad\u00f3 n\u0254
+  d\u00f3 Gungb\u00e8, kp\u00f3 Flansegbe kp\u00f3 te. To tintan hwenu, \u00e9 kpl\u0254\u0301nn\u01d4
+  to wex\u0254m\u025b Katoliki t\u0254n \u0256\u00e9 m\u025b to Abomey, kp\u00f3\u0256\u0254
+  to godo m\u025b \u00e9 s\u025bt\u025bn y\u00ec C\u00f4te d''Ivoire nad\u00f3 zind\u00f3n\u00f9k\u0254n
+  to wekpinkpl\u0254\u0301n et\u0254n m\u025b. \u00c9 \u0256ukos\u0254 x\u025b asu
+  et\u0254n, Manuel Carrera, bo s\u025bt\u025bn x\u025b \u025b y\u00ec Catalania to
+  oxwe 18 m\u025bvi nyinyi m\u025b to 1978, bos\u0254 kpl\u0254\u0301n Hispanic philology
+  to wex\u0254m\u025b alav\u0254 Barcelona t\u0254n, kp\u00f3\u0256\u0254 to Catalogne-gb\u00e8
+  kp\u00f3 Espagne-gb\u00e8 kp\u00f3 m\u025b.\\nL\u025bn\u0256ay\u01d0 az\u0254\u030cn
+  Agboton t\u0254n ko ny\u00ed nad\u00f3 hwl\u00e1 ot\u00e0n n\u00f9m\u025b t\u0254n
+  xe b\u025b aca xe w\u00e1 s\u0254\u0301n B\u00e9nin kp\u00f3 Aflika kp\u00f3 l\u025b
+  h\u025bn. S\u0254\u0301n 1990 gb\u0254\u0301n, \u00e9 ko to az\u0254\u0301nwa to
+  wex\u0254m\u025b l\u025b to Catalonia. \u00c9 n\u0254 kpl\u0254\u0301nn\u01d4 wex\u0254m\u025bvi
+  l\u025b gand\u00f3 ot\u00e0n Aflika t\u0254n l\u025b, otangblo l\u025b, kp\u00f3
+  aca ot\u00f2 l\u0254 t\u0254n l\u025b kp\u00f3 go. \u00c9 ko z\u00edn b\u025bkplid\u00f3kp\u0254\u0301
+  voovo at\u0254\u0300n j\u025bgbonu s\u0254\u0301n B\u00e9nin kp\u00f3 Aflika kp\u00f3,
+  xe \u00e9 k\u00e0n bo bas\u00ed l\u025bd\u00f3gbe\u0256evom\u025b s\u0254\u0301n
+  Gungbe \u0256ohwenu t\u0254n m\u025b. To 2005, \u00e9 z\u00edn ow\u011b \u0256\u00e9
+  j\u025bgbonu gand\u00f3 ot\u00e0n gb\u025bz\u01cen t\u0254n et\u0254n go to Espagne-gb\u00e8
+  m\u025b. To ow\u011b exe m\u025b, \u00e9 flin ot\u0254\u0301 et\u0254n xe ny\u00ed
+  m\u025bkpl\u0254\u0301nt\u0254 wex\u0254m\u025b t\u0254n kp\u00f3 al\u0254g\u0254t\u0254
+  l\u025bd\u00f3 l\u0254 t\u0254n \u0256\u00e9 kp\u00f3 to B\u00e9nin. \u00c9 ko s\u0254
+  k\u00e0n ow\u011b susu gand\u00f3 n\u00fa\u0256\u00f9\u0256\u00f9 Aflika t\u0254n
+  kp\u00f3 az\u0254ngban ny\u0254nu l\u025b t\u0254n to hw\u025bnd\u00f3 Aflika t\u0254n
+  l\u025b m\u025b kp\u00f3 go. \u00c9 ko z\u00edn b\u025bkplid\u00f3kp\u0254\u0301
+  ox\u00f3 milomilo l\u025b t\u0254n awe j\u025bgbonu to Gungb\u00e8 kp\u00f3 Espagne-gb\u00e8
+  kp\u00f3 m\u025b:Canciones del poblado y del exilio (2006) kp\u00f3 Voz de las dos
+  orillas (2009) kp\u00f3. L\u025bd\u00f3gbe\u0256evom\u025b Gl\u025bnsigbe t\u0254n
+  xe Lawrence Schimel bas\u00ed to Voz de las dos orillas m\u025b ny\u00ed sisl\u025b
+  tayi\u0256i \u0256okp\u00f3 to World Literature Today xe dinyi 100 to 2021 l\u025b
+  m\u025b. Schimel s\u0254 bas\u00ed l\u025bd\u00f3gbe\u0256evom\u025b ox\u00f3 milomilo
+  l\u025b t\u0254n gb\u0254n ew\u0254 dali xe ny\u00ed yiyid\u00f3g\u0254\u0301 tito-to-hwinnu
+  New Daughters of Africa 2019 t\u0254n (xe ny\u00ed kinkan gb\u0254n Margaret Busby
+  dali). To 2012, Agboton y\u00ec Londres n\u00e1 nujij\u0254 ayi\u0256ego t\u0254n
+  \u0256\u00e9 xe n\u0254 ny\u00ed yiyl\u0254\u0256\u0254 Poetry Parnassus. \u00c9
+  s\u0254 n\u0254 w\u00e0 aca B\u00e9nin t\u0254n l\u025b tayi\u0256i akpa\u0256exwe
+  ot\u00e0n n\u00f9m\u025b t\u0254n xe gbayikp\u00e9 l\u025b.\"", "\"\u00c8 J\u00cc
+  M\u00cc \u00d0\u00d2: 1953\\nT\u00d2 CE: AUSTRALIE\\nTAN CE: KANNUM\u0186 F\u0186T\u00d3O
+  N\u00d9BLIBLIWIWA T\u0186N L\u0190 KPINKP\u0186N T\u0186N\\nN\u01d3 E UN W\u00c0
+  W\u00c1 Y\u00cc L\u0190 \u00c9:\\nT\u0254\u0301 ce s\u025b\u0300 t\u025bn s\u00edn
+  Allemagne w\u00e1 y\u00ec Australie \u0256\u00f2 1949. \u00c9 w\u00e1 az\u0254\u030c
+  ba gb\u00e9 \u0256\u00f2 az\u0254\u030cxw\u00e9 e n\u0254 kun d\u0254kun dogl\u0254
+  t\u0254n l\u025b \u00e9 kpo ee n\u0254 bl\u00f3 zota (groupes \u00e9lectrog\u00e8nes)
+  l\u025b \u00e9 kpo, bo j\u025b agban \u0256\u00f3 gletoxo Victoria t\u0254n m\u025b.
+  Fin\u025b w\u025b \u00e9 da n\u0254 ce \u0256\u00e8, b\u0254 ye j\u00ec m\u00ec
+  \u0256\u00f2 1953.\\nXw\u00e8 y\u0254yw\u025b \u0256\u00e9 gudo \u0254, n\u0254
+  ce j\u025b Biblu kpl\u0254\u0301n x\u00e1 K\u00fannu\u0256et\u0254\u0301 Jehovah
+  T\u0254n l\u025b j\u00ed, b\u0254 n\u00f9kpl\u0254nm\u025b Biblu t\u0254n l\u025b
+  \u0256\u00f2 n\u01d4 e \u00e8 d\u00f3 d\u00f3 ayi m\u025b n\u00fa m\u00ec \u0256\u00f2
+  v\u01d4 ce l\u025b \u00e9 m\u025b. Am\u0254\u030c, t\u0254\u0301 ce n\u0254 m\u0254
+  sins\u025bn \u0256eb\u01d4 gb\u0254 \u01ce. \u00c9 w\u00e1 huzu adakaxot\u0254\u0301,
+  bo n\u0254 l\u025b\u0301 d\u00f3 x\u025bsi m\u025b, b\u0254 n\u0254 ce n\u0254 \u0256i
+  x\u025bsi n\u2019i tawun. N\u0254 ce ka kp\u00f2 \u0256\u00f2 Biblu \u0254 kpl\u0254\u0301n
+  w\u025b \u0256\u00f2 n\u01d4gl\u0254, lobo w\u00e1 y\u00ed w\u01cen n\u00fa n\u00f9kpl\u0254nm\u025b
+  e \u0256\u2019em\u025b l\u025b \u00e9. Enyi papa ce ma \u0256\u00f2 xw\u00e9gbe
+  \u01ce \u0254, \u00e9 n\u0254 m\u00e1 n\u01d4 e \u00e9 kpl\u0254\u0301n l\u025b
+  \u00e9 x\u00e1 n\u0254v\u00ed ce ny\u0254nu \u0254 kpo ny\u00ec kpo. \u00c9 \u0256\u0254
+  pala\u0256isi ayik\u00fangban j\u00ed t\u0254n s\u0254gudo t\u0254n \u0254 kpo aw\u01cejij\u025b
+  e nugbod\u00f2d\u00f3 Biblu t\u0254n l\u025b xwixwed\u00f3 sixu h\u025bn w\u00e1
+  n\u00fa m\u01d0 \u00e9 kpo s\u00edn x\u00f3 n\u00fa m\u01d0.\u2014\\nHwenu e un
+  \u0256\u00f3 xw\u00e8 18 \u00e9 \u0254, adakaxixo papa t\u0254n z\u0254\u0301n b\u0254
+  un gb\u0254 bo j\u025b gb\u011b. Un \u0256i n\u01d4 n\u00fa n\u01d4 e n\u0254 ce
+  kpl\u0254\u0301n m\u00ec \u0256\u00f2 Biblu m\u025b l\u025b \u00e9, am\u0254\u030c,
+  ye ka x\u0254 akw\u025b \u0256\u00f2 nuk\u00fan ce m\u025b \u01ce. En\u025b wu \u0254,
+  un xwed\u00f3 n\u00f9kpl\u0254nm\u025b en\u025b l\u025b \u01ce. Un j\u025b l\u025btlikiz\u0254\u0301
+  w\u00e0 j\u00ed \u0256\u00f2 f\u00ed e \u00e8 n\u0254 kun ak\u00e1n \u0256\u00e8
+  \u00e9 \u0256\u00e9. Un \u0256\u00f3 xw\u00e8 20 \u00e9 \u0254, un d\u2019as\u00ec.
+  M\u01d0 j\u00ec nuk\u0254nv\u00ed m\u01d0t\u0254n e ny\u00ed ny\u0254nu \u00e9 \u0256\u00f2
+  xw\u00e8 at\u0254n gudo, b\u0254 un v\u0254\u0301 tam\u025b lin kp\u0254\u0301n
+  d\u00f3 n\u01d4 e \u0256\u00f2 taji \u0256\u00f2 gb\u025bz\u00e1n ce m\u025b \u00e9
+  j\u00ed. Un tu\u00f9n \u0256\u0254 Biblu sixu d\u2019al\u0254 xw\u00e9do m\u01d0t\u0254n,
+  en\u025b wu w\u025b un j\u025b Biblu kpl\u0254\u0301n x\u00e1 K\u00fannu\u0256et\u0254\u0301
+  Jehovah T\u0254n \u0256\u00e9 j\u00ed. Am\u0254\u030c, as\u00ec ce gb\u025b\u0301
+  w\u01cen n\u00fa K\u00fannu\u0256et\u0254\u0301 l\u025b tawun. Hwenu e un y\u00ec
+  kpl\u00e9 yet\u0254n l\u025b \u0256okpo \u00e9 \u0254, \u00e9 s\u0254\u0301 n\u01d4
+  w\u00e8 \u0256\u00f3 te bo \u0256\u0254 ny\u00ec \u0256\u00f3 na s\u0254\u0301 \u0256okpo:
+  j\u01d2 Biblu kpl\u0254nkpl\u0254n d\u00f3 al\u01d2 t\u0254\u0301n s\u00edn xw\u00e9gbe.
+  Un m\u0254 \u0256\u0254 un k\u00fan kp\u00e9 n\u00f9\u0256\u00e9 wu \u00f3, bo gb\u0254
+  bo y\u00ed gb\u00e8 n\u00fa n\u01d4 \u00e9 by\u0254 m\u00ec \u00e9 lobo j\u00f3
+  K\u00fannu\u0256et\u0254\u0301 l\u025b d\u00f3. \u00c9 w\u00e1 v\u025b\u0301 n\u00fa
+  m\u00ec \u0256\u00f2 gudo m\u025b \u0256\u0254 un k\u00fan w\u00e0 n\u01d4 e s\u0254gbe
+  b\u0254 un tu\u00f9n \u00e9 \u00f3.\\nGb\u00e8 \u0256okpo \u0254, az\u0254\u030cgb\u025b\u0301
+  ce l\u025b xl\u025b\u0301 m\u00ec f\u0254t\u00f3o n\u00f9blibliwiwa t\u0254n l\u025b.
+  \u00c9 d\u0254n m\u00ec tawun bo l\u025b\u0301 xy\u0254w\u01d4 n\u00fa m\u00ec,
+  b\u2019\u025b z\u0254\u0301n b\u0254 ayi ce d\u00f3hw\u025b m\u00ec sy\u025bnsy\u025bn.
+  Un fl\u00edn n\u01d4 e un kpl\u0254\u0301n \u0256\u00f2 Biblu m\u025b l\u025b \u00e9,
+  bo m\u0254 \u0256\u0254 Mawu na d\u0254n t\u00f3 n\u00fa m\u00ec j\u025bn w\u025b.
+  Am\u0254\u030c, ee un f\u0254\u0301n bo \u0256\u00f2 \u0256i\u0256e kwijikwiji l\u025b
+  kp\u0254\u0301n w\u025b \u00e9 \u0254, linlin e un \u0256\u00f3 d\u00f3 f\u0254t\u00f3o
+  n\u00f9blibliwiwa t\u0254n wu \u00e9 w\u00e1 \u0256y\u0254. Un tl\u025b w\u00e1
+  huzu kannum\u0254 na.\\n\u00d0\u00f2 xw\u00e8 20 e b\u0254 d\u2019ewu l\u025b \u00e9
+  vlam\u025b \u0254, un s\u025byi z\u0254 b\u01d0 n\u00fa nugbod\u00f2d\u00f3 e n\u0254
+  ce kpl\u0254\u0301n m\u00ec l\u025b \u00e9. N\u01d4 e un n\u0254 b\u025b\u0301 d\u00f3
+  ayi m\u025b l\u025b \u00e9 n\u0254 t\u0254\u0301n \u0256\u00f2 wal\u0254 ce l\u025b
+  m\u025b. X\u00f3 gbl\u00e9gbl\u00e9 l\u025b n\u0254 t\u0254\u0301n s\u00edn nu ce
+  m\u025b, b\u0254 un y\u00ed w\u01cen n\u00fa alis\u00e1 gbl\u00e9gbl\u00e9 l\u025b.
+  Un w\u00e1 \u0256\u00f3 linlin ag\u0254 d\u00f3 x\u00f3\u0256\u00f3x\u00e1m\u025b
+  wu. Ny\u00ec kpo as\u00ec ce kpo kp\u00f3 \u0256\u00f2 kp\u0254\u0301 c\u00f3, un
+  n\u0254 t\u0254\u0301n x\u00e1 ny\u0254nu \u0256evo l\u025b. Un kp\u0254\u0301n
+  n\u00f9kp\u025b\u0301n m\u025b gb\u00e8 \u0256okpo bo \u0256\u0254 n\u00fa nyi\u0256\u00e9e
+  \u0256\u0254, \u2018Un gb\u025b\u0301 w\u01cen n\u00fa we.\u2019 S\u00eds\u00ed
+  e un n\u0254 \u0256\u00f3 n\u00fa nyi\u0256\u00e9e \u0254 w\u00e1 b\u00fa b\u01d0
+  b\u0254 n\u01d4 nyi\u0256esun\u0254 t\u0254n s\u0254\u0301 n\u0254 ny\u0254\u0301
+  nuk\u00fan ce m\u025b \u0256eb\u01d4 \u01ce.\\nAl\u0254wliwli ce gb\u00e0, b\u0254
+  gb\u025b\u0300 ce by\u0254 k\u0254\u0301blumanya m\u025b. Un w\u00e1 xo\u0256\u025b
+  s\u025b\u0301d\u00f3 Jehovah kpo ayi ce b\u01d0 kpo. Un j\u00f3 Biblu kpl\u0254nkpl\u0254n
+  d\u00f3 \u00e9 \u0254, xw\u00e8 20 ko w\u00e1 y\u00ec c\u00f3, un l\u025b\u0301v\u0254
+  b\u025b\u0301. T\u0254\u0301 ce ko k\u00fa hwen\u025bnu, b\u0254 n\u0254 ce ko bl\u00f3
+  bapt\u025bm bo huzu K\u00fannu\u0256et\u0254\u0301 Jehovah T\u0254n.\\nLEE BIBLU
+  HUZU GB\u0190Z\u00c1N CE GB\u0186N \u00c9:\\nLee un n\u0254 z\u00e1n gb\u025b\u0300
+  gb\u0254n \u00e9 gb\u0254n vo tawun d\u00f3 nugbod\u00f2d\u00f3 Biblu t\u0254n titewungbe
+  l\u025b. Am\u0254\u030c d\u00ecn \u0254, un kudeji bo na \u0256\u00f3 vivo ayi m\u025b
+  t\u0254n e s\u00edn akp\u00e1 Biblu d\u00f3 \u00e9. Un \u0256\u0254 n\u00fa nyi\u0256\u00e9e
+  \u0256\u0254 na bl\u00f3 b\u0254 x\u00f3gbe e m\u025b\u0301 l\u025b \u00e9 na n\u0254
+  t\u0254\u0301n s\u00edn nu ce m\u025b, bo k\u00fan s\u0254\u0301 na n\u0254 yawu
+  s\u00ecn xom\u025b \u0256\u011b \u00f3. Un l\u025b\u0301v\u0254 w\u00e1 gbeta \u0254
+  k\u0254n bo na j\u00f3 gb\u025b\u0300 bl\u00edbl\u00ed zinzan, ak\u0254xixo, ahannudingan,
+  kpo ajojija d\u00f3 g\u01cen ce kpo d\u00f3.\\nAz\u0254\u030cgb\u025b\u0301 ce l\u025b
+  m\u0254 nuk\u00fann\u00fa j\u025b n\u01d4 e wu un jl\u00f3 na bl\u00f3 huzuhuzu
+  kpligidi m\u0254hun l\u025b \u00e9 wu \u01ce. Ye n\u0254 s\u00eds\u025b\u0301 m\u00ec
+  bonu m\u00e1 l\u025b\u0301 j\u025b gb\u025b\u0300 ce x\u00f3x\u00f3 \u0254 z\u00e1n
+  j\u00ed, kaka n\u00fa xw\u00e8 at\u0254n. Enyi un \u0256\u00e8 af\u0254 ny\u00ec
+  d\u00f2 klewun, \u0256i un yawu s\u00ecn xom\u025b al\u01d2 \u0256\u0254 x\u00f3
+  mas\u0254gbe \u0256\u00e9 \u0254, ye n\u0254 s\u00fax\u00f3 \u0256\u0254: \u201cEen\u025b!
+  Joe m\u01d0t\u0254n x\u00f3x\u00f3 \u0254 \u0256\u00ede h\u01d4n.\u201d X\u00f3gbe
+  en\u025b l\u025b n\u0254 v\u025b\u0301 n\u00fa m\u00ec kp\u0254\u0301n! Hw\u025bhw\u025b
+  w\u025b un n\u0254 m\u0254 \u0256\u0254 \u00e9 k\u00fan na kpa m\u00ec \u00f3.\\nF\u0254t\u00f3o
+  n\u00f9blibliwiwa t\u0254n l\u025b g\u0254\u0301 az\u0254\u030c ce m\u025b, \u0256\u00f2
+  \u0254dinat\u025b\u0301\u025b kpo wema l\u025b kpo m\u025b. Az\u0254\u030cgb\u025b\u0301
+  ce l\u025b \u0256\u00f3 aca bo n\u0254 s\u025b\u0301 f\u0254t\u00f3o jikwikwi t\u0254n
+  l\u025b d\u00f3 ye\u0256\u00e9e l\u025b gb\u0254n \u0254dinat\u025b\u0301\u025b
+  yet\u0254n l\u025b j\u00ed, lee un n\u0254 bl\u00f3 gb\u0254n \u0256\u2019ay\u01d0
+  \u00e9. Un \u0256\u00f2 tint\u025bnkp\u0254n w\u025b bo s\u0254\u0301 na ny\u00ed
+  kannum\u0254 na \u01ce, am\u0254\u030c, \u00e9 c\u00ed \u0256\u0254 ye kan\u0256eji
+  bo na zin m\u00ec d\u025b\u0301 j\u025bn w\u025b \u0256\u0254hun. Un ba al\u0254do
+  kpo ak\u0254nkpinkpan kpo \u0256\u00f2 m\u025b e n\u0254 kpl\u0254\u0301n Biblu
+  x\u00e1 m\u00ec \u00e9 g\u0254\u0301n. \u00c9 \u0256\u00f3t\u00f3 m\u00ec kpo s\u0254xwixwe
+  kpo hwenu e un \u0256\u00f2 xom\u025b \u0256\u0254 n\u2019i w\u025b \u00e9. \u00c9
+  z\u00e1n wemaf\u0254 Biblu t\u0254n tawun tawun \u0256\u00e9 l\u025b, bo xl\u025b\u0301
+  m\u00ec lee un ma s\u0254\u0301 na ny\u00ed kannum\u0254 na \u01ce gb\u0254n \u00e9,
+  lobo d\u00f3 wusy\u025bn lanm\u025b n\u00fa m\u00ec \u0256\u0254 m\u00e1 f\u0254\u0301n
+  bo \u0256\u00f2 \u0256\u025b x\u00f2 s\u025b\u0301d\u00f3 Jehovah w\u025b bo n\u0254
+  by\u0254 al\u0254do t\u0254n.\u2014\\nUn \u0256\u0254 n\u00fa az\u0254\u030cgb\u025b\u0301
+  ce l\u025b gb\u00e8 \u0256okpo \u0256\u0254 un jl\u00f3 na m\u0254 ye. Ee ye kpl\u00e9
+  \u00e9 \u0254, un \u0256\u0254 n\u00fa ye \u0256\u0254 ye ni na biya sunnu w\u00e8
+  e \u0256\u0254 n\u00fa m\u01d0 \u0256\u0254 emi ny\u00ed ahannumun\u0254 \u0256\u2019ay\u01d0
+  l\u025b \u00e9. Ye b\u01d0 s\u00fax\u00f3 bo \u0256\u0254: \u201cA ma sixu \u0256\u0254
+  m\u0254\u030c n\u025b! Xwi \u0256\u00ed w\u025b m\u025b en\u025b l\u025b \u0256\u00e8
+  bo s\u0254\u0301 na ny\u00ed kannum\u0254 na \u01ce s\u00edn!\u201d Un y\u00ed gb\u00e8
+  n\u00fa ye \u0256\u0254: \u201cNugb\u01d2 w\u025b, n\u01d4 e w\u00e0 w\u025b ny\u00ec
+  l\u0254 \u0256\u00e8 \u00e9 n\u025b.\u201d B\u025b\u0301s\u00edn gb\u00e8 n\u025b
+  gb\u00e8 \u0254, ye m\u0254 n\u01d4 j\u025b wu \u0256\u0254 un \u0256\u00f2 xwi
+  \u0256\u00ed w\u025b bo k\u00fan s\u0254\u0301 na ny\u00ed kannum\u0254 n\u00fa
+  f\u0254t\u00f3o n\u00f9blibliwiwa t\u0254n l\u025b kpinkp\u0254n \u00f3, lob\u0254
+  ye s\u0254\u0301 n\u0254 gbidi k\u0254 n\u00fa m\u00ec bonu ma l\u025b\u0301 j\u025b
+  gb\u025b\u0300 ce x\u00f3x\u00f3 \u0254 z\u00e1n j\u00ed \u0256\u011b \u01ce.\\n\u00c9
+  w\u00e1 y\u00e1 \u00e9 \u0254, kpodo al\u0254do \u0256ax\u00f3 Jehovah t\u0254n
+  kpo \u0254, un \u0256u \u0256\u00f2 kannum\u0254 e un ny\u00ed n\u00fa f\u0254t\u00f3o
+  n\u00f9blibliwiwa t\u0254n l\u025b kpinkp\u0254n \u00e9 j\u00ed. \u00d0\u00f2 1999
+  \u0254, un bl\u00f3 bapt\u025bm bo huzu K\u00fannu\u0256et\u0254\u0301 Jehovah T\u0254n,
+  b\u0254 ali e hun n\u00fa m\u00ec az\u0254n weg\u0254 \u0254 bonu m\u00e1 z\u00e1n
+  gb\u025b\u0300 m\u00edm\u025b\u0301, aw\u01cejij\u025b gb\u025b\u0300 \u00e9 s\u00f9
+  nuk\u00fan ce m\u025b tawun.\\nUn m\u0254 nuk\u00fann\u00fa j\u025b n\u01d4 e wu
+  Jehovah gb\u025b\u0301 w\u01cen n\u00fa n\u01d4 e un y\u00ed w\u01cen na n\u00fa
+  xw\u00e8 m\u0254kpan l\u025b \u00e9 wu d\u00ecn lo. \u00d0\u00f3 \u00e9 ny\u00ed
+  T\u0254\u0301 wanyiyin\u0254 \u0256\u00e9 wutu \u0254, \u00e9 jl\u00f3 na cy\u0254n
+  al\u0254 j\u01d0 ce \u0256\u00f2 n\u01d4 e f\u0254t\u00f3o n\u00f9blibliwiwa t\u0254n
+  l\u025b kpinkp\u0254n n\u0254 h\u025bn gbl\u00e9 d\u00f3 m\u025b wu l\u025b \u00e9
+  s\u00ed. X\u00f3 nugb\u01d2 tawun w\u025b N\u00f9nyw\u025bx\u00f3 3:5, 6 \u0256\u0254!
+  Wemaf\u0254 en\u025b l\u025b \u0256\u0254: \u201c\u00d0eji d\u00f3 Mawu Mav\u0254mav\u0254
+  wu kpo ayixa towe b\u01d0 kpo. Ma ganj\u025b n\u00f9nyw\u025b hwi\u0256esun\u0254
+  t\u0254n wu \u00f3. Ba jl\u01d2 Mawu Mav\u0254mav\u0254 t\u0254n \u0256\u00f2 n\u01d4
+  e a n\u0254 w\u00e0 l\u025b b\u01d0 m\u025b; en\u025b \u0254, \u00e9 na xl\u025b\u0301
+  ali we.\u201d \u00c9 ny\u00ed al\u0254 k\u025b\u0256\u025b w\u025b nugbod\u00f2d\u00f3
+  Biblu t\u0254n l\u025b n\u0254 cy\u0254n m\u025b j\u00ed \u01ce, lo\u0254, ganj\u025bwu
+  \u0256u\u0256eji t\u0254n w\u025b ye l\u025b\u0301v\u0254 ny\u00ed.\u2014\\nL\u00c8
+  E UN M\u0186 L\u0190 \u00c9:\\n\u00d0\u2019ay\u01d0 \u0254, un gb\u025b\u0301 w\u01cen
+  n\u00fa nyi\u0256\u00e9e tawun, am\u0254\u030c d\u00ecn \u0254, un \u0256\u00f3
+  s\u00eds\u00ed m\u025b\u0256esun\u0254 t\u0254n kpo vivo ayi m\u025b t\u0254n kpo.
+  Un n\u0254 z\u00e1n gb\u025b\u0300 m\u00edm\u025b\u0301 \u0256\u00e9 bo tu\u00f9n
+  \u0256\u0254 Jehovah s\u0254\u0301 hw\u025b k\u025b m\u00ec bo l\u025b\u0301 \u0256\u00f2
+  gudo ce. \u00d0\u00f2 2000 \u0254, un da Karolin, ny\u0254nu Klisanwun \u0256\u025bkp\u025b\u0256\u025bkp\u025b
+  \u0256\u00e9 w\u025b bo y\u00ed w\u01cen n\u00fa Jehovah tawun ny\u00ec \u0256\u0254hun.
+  Xw\u00e9 m\u01d0t\u0254n gb\u00e8 ny\u00ed vivot\u00edns\u00e1 \u0256\u00e9. W\u01d4j\u0254m\u025b
+  \u0256ax\u00f3 \u0256\u00e9 w\u025b \u00e9 ny\u00ed n\u00fa m\u01d0, b\u0254 m\u01d0
+  \u0256\u00f2 kpl\u00e9kpl\u00e9 Klisanwun l\u025b t\u0254n e m\u025b\u0301 bo \u0256\u00f3
+  wanyiyi, lobo gb\u0254n gb\u025b\u0300 \u0254 b\u01d0 m\u025b \u00e9 \u0256\u00e9
+  m\u025b.\"", "\"Agasa \u0254 kanlin \u0256e w\u025b bo \u0256o go. E n\u0254 n\u0254
+  t\u0254 m\u025b kpo ageji kpo.\\nAgasa al\u0254kpa al\u0254kpa w\u025b t\u01d0in.
+  E \u0256e \u011be e n\u0254 yl\u0254 \u0256\u0254 Brachyura alo agasa j\u0254 agasa
+  e kpodo \u011be e n\u0254 yl\u0254 \u0256\u0254 Anomura bo nyi agasa ag\u0254nk\u025b''tin
+  t\u0254n e kpodo \u0256evoe kpan. E \u0256o m\u0254\u0300 c\u00f3 agasa l\u025b
+  bi nyi agasa. Y\u025bgletete xum\u025b t\u0254n e \u0256o gb\u025bta Brachyura t\u0254n
+  e alo agasa bernard l''hermite kpodo galath\u00e9es bo \u0256o gb\u025bta Anomura
+  t\u0254n e kpan \u0256e nyi agasa \u01ce. E na \u0256\u0254 \u0254 agasa e n\u0254
+  wili \u0256o xwe \u0256okpo m\u025b \u0254 \u0256\u00ec bla yi t\u0254nu livi \u0256okpo
+  ada\u0256e m\u0254 (1,2). Agasa \u0254 kanlin xuto t\u0254n w\u025b b\u0254 wiliwili
+  t\u0254n b\u0254wu tawun. \u0189\u00f2 wamam\u0254n\u0254 t\u00f2 l\u025b m\u025b
+  \u0254 nu\u0256u\u0256u titeungbe w\u025b bo ka kp\u0254 akw\u025b. Y\u0254kp\u0254vu
+  l\u025b w\u025b n\u0254 wli\"", "\"M\u025b\u030c m\u025b\u030c e ka ny\u00ed \u00d0agbewat\u0254\u0301
+  ee x\u00f3 Jezu \u0256\u0254 \u0256\u00f2 z\u01cen e j\u025b nuk\u0254n n\u00fa
+  k\u00fa t\u0254n \u00e9 m\u025b \u00e9? Et\u025bwu \u00e9 ka na ye t\u025bnm\u025b-nyik\u0254
+  en\u025b?\\n\u00d0\u00f2 z\u01cen e j\u025b nuk\u0254n n\u00fa k\u00fa Jezu t\u0254n
+  \u00e9 m\u025b \u0254, \u00e9 \u0256\u00e8 w\u011b x\u00e1 m\u025bs\u025b\u0301d\u00f3
+  t\u0254n l\u025b \u0256\u0254 ye ni ma ba t\u025bn nuk\u00fan\u0256eji \u0256\u00f2
+  n\u01d4\u0256it\u0254\u0301 hat\u0254\u0301 yet\u0254n l\u025b t\u025bntin \u00f3.
+  \u00c9 \u0256\u0254 n\u00fa ye \u0256\u0254: \u201cTogun e ma ny\u00ed Jwifu \u01ce
+  l\u025b s\u00edn ax\u0254su l\u025b n\u0254 kpa ac\u025b gannaganna n\u00fa ye,
+  b\u0254 m\u025b e ny\u00ed g\u01cen l\u025b n\u0254 ba \u0256\u0254 \u00e8 ni yl\u0254\u0301
+  emi \u0256\u0254 \u2018\u00d0agbewat\u0254\u0301.\u2019 Lo\u0254, n\u01d4 na ny\u00ed
+  m\u0254\u030c \u0256\u00f2 mid\u025b\u025b l\u025b m\u025b \u01ce.\u201d\u2014Luk.
+  22:25, 26.\\nM\u025b\u030c m\u025b\u030c e ka ny\u00ed \u00d0agbewat\u0254\u0301
+  ee x\u00f3 Jezu \u0256\u0254 l\u025b \u00e9? N\u01d4 e \u00e8 wlan d\u00f3 awinnya,
+  al\u01d2, n\u01d4 m\u0254hun \u0256\u00e9 j\u00ed l\u025b \u00e9, akw\u025b kpo
+  n\u01d4wlanwl\u00e1n l\u025b kpo xl\u025b\u0301 \u0256\u0254 \u00e9 ny\u00ed aca
+  n\u00fa Gl\u025bkinu l\u025b kpo Hl\u0254manu l\u025b kpo b\u0254 ye n\u0254 z\u00e1n
+  t\u025bnm\u025b-nyik\u0254 \u00c9verg\u00e8tes, al\u01d2, \u00d0agbewat\u0254\u0301
+  d\u00f3 x\u0254 susu n\u00fa sunnu nuk\u00fan\u0256eji l\u025b kpo ac\u025bkpat\u0254\u0301
+  l\u025b kpo. \u00c8 n\u0254 x\u0254 susu en\u025b n\u00fa sunnu m\u0254hun l\u025b
+  \u0256\u00f3 az\u0254\u030c x\u0254 akw\u025b e ye w\u00e0 d\u00f3 m\u025b geg\u011b
+  tak\u00fanm\u025b \u00e9 wu.\\n\u00c8 na t\u025bnm\u025b-nyik\u0254 \u00d0agbewat\u0254\u0301
+  \u0254 ax\u0254su \u0256\u00e9 l\u025b. Ye m\u025b \u0256\u00e9 l\u025b \u0256\u00ede:
+  Ejipu x\u0254su ee \u00e8 n\u0254 yl\u0254\u0301 \u0256\u0254 Ptol\u00e9m\u00e9e
+  III \u00c9verg\u00e8tes \u00e9 (\u0256ibla y\u00ec 247-222 J.H.M.) kpo Ptol\u00e9m\u00e9e
+  VIII \u00c9verg\u00e8tes II (\u0256ibla y\u00ec 147-117 J.H.M.) kpo. Hl\u0254ma
+  x\u0254su Jules C\u00e9sar (48-44 J.H.M.) kpo Auguste (31 J.H.M.\u201314 H.M.) kpo
+  l\u0254 \u0256\u00f3 t\u025bnm\u025b-nyik\u0254 en\u025b; g\u0254\u0301 n\u00fa
+  Elodu \u00d0ax\u00f3 \u0254 ee ny\u00ed ax\u0254su Jud\u00e9e t\u0254n \u00e9. Elodu
+  \u0254, \u00e9 c\u00ed \u0256\u0254 hwenu e \u00e9 h\u025bn bl\u011be s\u00edn togudo
+  w\u00e1 n\u00fa togun t\u0254n, bo l\u025b\u0301 na av\u0254 m\u025b e \u0256\u00f2
+  hudo m\u025b l\u025b \u00e9 d\u00f3 h\u025bn s\u0254 ye hwenu e ad\u0254 \u0256\u00e9
+  t\u0254\u0301n \u00e9 w\u025b \u00e8 na \u025b t\u025bnm\u025b-nyik\u0254 en\u025b
+  \u0254 \u0256\u0254hun.\\nS\u0254gbe x\u00e1 n\u01d4 e ak\u0254w\u00e9 Biblu t\u0254n
+  Allemagne nu Adolf Deissmann \u0256\u0254 \u00e9 \u0254, t\u025bnm\u025b-nyik\u0254
+  \u00d0agbewat\u0254\u0301 zinzan \u0254 gbakp\u00e9. \u00c9 \u0256\u0254: \u201c\u00c9
+  na v\u025bw\u01d4 cob\u0254 \u00e8 na m\u0254 awinnya al\u01d2 n\u01d4 m\u0254hun
+  e j\u00ed \u00e8 wlan t\u025bnm\u025b-nyik\u0254 en\u025b \u0256\u00f3 \u00e9 geg\u011b
+  \u01ce, \u00e9 na \u0256u t\u00e1an \u0256eb\u01d4 cob\u0254 \u00e8 na m\u0254 [t\u025bnm\u025b-nyik\u0254
+  en\u025b e \u00e8 z\u00e1n \u00e9] az\u0254n kanweko j\u025bji \u01ce.\u201d\\nEn\u025b
+  wu \u0254, et\u025b \u0256\u0254 gb\u00e9 Jezu ka ja hwenu e \u00e9 \u0256\u0254
+  n\u00fa ahwanvu t\u0254n l\u025b \u0256\u0254: \u201cLo\u0254, n\u01d4 na ny\u00ed
+  m\u0254\u030c \u0256\u00f2 mid\u025b\u025b l\u025b m\u025b \u01ce\u201d \u00e9?
+  \u00d0i\u0256\u0254 w\u025b Jezu \u0256\u00e8 \u0256\u0254 ye ni \u0256\u00f3 linlin
+  e ma na w\u00e0 \u0256agbe n\u00fa m\u025b \u0256evo l\u025b \u01ce \u00e9, en\u025b
+  w\u025b ny\u00ed \u0256\u0254 ganjinin\u0254 m\u025b e l\u025bl\u025b\u030c d\u00f3
+  ye kpaa l\u025b \u00e9 t\u0254n ni ma n\u0254 \u0256u ayi m\u025b n\u00fa ye \u00f3
+  \u00e0? \u00d0eb\u01d4 \u01ce. \u00c9 c\u00ed \u0256\u0254 n\u01d4 e \u0256u ayi
+  m\u025b n\u00fa Jezu \u00e9 w\u025b ny\u00ed n\u01d4 e s\u00eds\u025b\u0301 m\u025b
+  b\u0254 \u00e8 hun al\u0254 d\u00f3 na n\u01d4 \u00e9 \u0256\u0254hun.\\nJezu s\u00edn
+  az\u01cen gb\u00e8 \u0254, d\u0254kunn\u0254 l\u025b n\u0254 n\u0254 gudo n\u00fa
+  ayi\u0256e\u0256ay\u01d0 l\u025b kpo ayihundida \u0256\u00f2 n\u01d4kp\u0254nt\u025bn
+  l\u025b kpo, n\u0254 bl\u00f3 jikp\u00e1 l\u025b kpo sins\u025bnx\u0254 l\u025b
+  kpo, lobo n\u0254 n\u0254 gudo n\u00fa n\u01d4wiwa m\u0254hun l\u025b b\u00e1 d\u00f3
+  \u0256\u00f3 nyik\u0254 \u0256agbe. Am\u0254\u030c, bonu gb\u025bt\u0254\u0301 l\u025b
+  na d\u00f3 x\u0254 susu n\u00fa ye, bonu ye na ny\u00ed m\u025b nuk\u00fan\u0256eji,
+  al\u01d2 m\u025b l\u025b na s\u0254\u0301 ye \u0256\u00f2 g\u01cens\u00eds\u0254\u0301
+  hwenu wutu w\u025b ye n\u0254 w\u00e0 n\u01d4 en\u025b l\u025b. Al\u0254dl\u025bnd\u00f3n\u01d4
+  \u0256\u00e9 \u0256\u0254: \u201cN\u01d4gbo w\u025b \u0256\u0254, kp\u0254\u0301nd\u00e9w\u00fa
+  \u0256\u00e9 l\u025b xl\u025b\u0301 \u0256\u0254 n\u01d4nam\u025bt\u0254\u0301 en\u025b
+  l\u025b n\u0254 na n\u01d4 m\u025b kpo ayi b\u01d0 kpo c\u00f3, cej\u025bnnabi \u0256\u00f2
+  tox\u00f3\u0256i\u0256\u0254 linu w\u025b n\u0254 \u0256\u00f2 gudo n\u00fa n\u01d4nam\u025b
+  en\u025b l\u025b hw\u025bhw\u025b.\u201d Linlin goyiyi kpo cej\u025bnnabi kpo t\u0254n
+  w\u025b Jezu \u0256\u00f2 wusy\u025bn d\u00f3 lanm\u025b n\u00fa ahwanvu t\u0254n
+  l\u025b w\u025b \u0256\u0254 ye ni nyi al\u0254 na.\\nXw\u00e8 \u0256\u00e9 l\u025b
+  gudo \u0254, m\u025bs\u025b\u0301d\u00f3 P\u0254lu t\u025b\u0256\u025b\u030c n\u01d4gbo
+  taji \u0256okpo e k\u00fankpl\u00e1 n\u01d4 e na s\u00eds\u025b\u0301 m\u025b b\u0254
+  \u00e8 na na n\u01d4 m\u025b \u00e9 j\u00ed. \u00c9 wlan s\u025b\u0301d\u00f3 n\u01d4\u0256it\u0254\u0301
+  hat\u0254\u0301 t\u0254n K\u0254l\u025bnti t\u0254n l\u025b \u0256\u0254: \u201cH\u01d4n,
+  m\u025b \u0256okpo \u0256okpo \u0256\u00f3 na na n\u01d4 m\u025b lee \u00e9 lin
+  gb\u0254n \u0256\u00f2 ayi t\u0254n m\u025b \u00e9; ni ma na n\u01d4 m\u025b, bonu
+  \u00e9 l\u025b\u0301 v\u025b\u0301 n\u2019i, ab\u01d0 ni ny\u00ed dandan s\u00edn
+  n\u01d4 n\u2019i \u00f3. \u00d0\u00f3 Mawu y\u00ed w\u01cen n\u00fa m\u025b e n\u0254
+  na n\u01d4 m\u025b kpodo xom\u025bhunhun kpo \u00e9.\u201d\u20142 K\u0254. 9:7.\"",
+  "\"Gis\u00e8le Hountondji ny\u00ed jiji to 1954 to B\u00e9nin. Wekant\u0254 \u0256\u00e9,
+  kp\u00f3\u0256\u0254 l\u025bd\u00f3gbe\u0256evom\u025b - bas\u00edt\u0254 \u0256\u00e9
+  kp\u00f3 w\u025b \u00e9 ny\u00ed. Ew\u0254 w\u025b ny\u00ed ny\u0254nu tintan xe
+  k\u00e0n ow\u011b l\u025b s\u0254\u0301n B\u00e9nin. Glelelele wlan ow\u011b \u0256\u00e9
+  xe n\u0254 ny\u00ed \\\"Une citronnelle dans la neige\\\". \u00c9 gand\u00f3 gb\u025bz\u01cen
+  et\u0254n to hwenuena \u00e9 ny\u00ed wex\u0254m\u025bvi \u0256\u00e9 to Europe,
+  titewungbe to Paris go. \u00c9 kanwe gand\u00f3 ojl\u025b sinsinny\u025b xe m\u025b
+  \u00e9 jugb\u0254n l\u025b go.\\nGis\u00e8le Hountondji ny\u00ed jiji to 1954 to
+  Cotonou, B\u00e9nin. Ot\u0254\u0301 et\u0254n n\u0254 waz\u0254\u0301n to kpinkp\u00e1n-glint\u025bn
+  \u0256\u00e9. \u00c9 jlo \u0256\u0254 \u00e9 ni kpl\u0254\u0301nwe ganji. En\u025bwutu,
+  \u00e9 d\u00f3 \u00e9 hlan nad\u00f3 y\u00ec n\u0254 x\u025b naf\u025b et\u0254n
+  kp\u00f3 tav\u025b et\u0254n kp\u00f3. Tav\u025b et\u0254n ny\u00ed m\u025bkpl\u0254\u0301nt\u0254
+  \u0256\u00e9. Gis\u00e8le y\u00ec wex\u0254m\u025b \u0256ok\u0254\u0300 t\u0254n
+  to Paouignan. En\u025bgodo, \u00e9 y\u00ec wex\u0254m\u025b \u0256axo to Abomey
+  s\u0254\u0301n 1965 j\u025b 1972.\\nGis\u00e8le Hountondji y\u00ec Paris nad\u00f3
+  kpl\u0254\u0301nn\u01d4 to wex\u0254m\u025b alav\u0254 t\u0254n \u0256\u00e9 s\u0254\u0301n
+  1973 j\u025b 1978. \u00c9 s\u0254 dla London kp\u00f3 Madrid kp\u00f3 kp\u0254\u0301n
+  nad\u00f3 kpl\u0254\u0301n ogb\u00e8 l\u025b. \u00c9 m\u0254 wema von\u0254tawun
+  \u0256\u00e9 kp\u00f3 gbe\u0256ewema az\u0254\u0301nnyw\u025bt\u0254 \u0256\u00e9
+  t\u0254n kp\u00f3 y\u00ed nad\u00f3 bas\u00ed l\u025bd\u00f3gbe\u0256evom\u025b
+  Espagne-gb\u00e9 kp\u00f3 Gl\u025bnsigbe kp\u00f3 t\u0254n. En\u025bgodo, \u00e9
+  kpl\u0254\u0301n nususu d\u00f3g\u0254\u0301 nad\u00f3 l\u025bzun l\u025bd\u00f3gbe\u0256evom\u025b
+  bas\u00edt\u0254 \u0256\u00e9 to London. To 1983, \u00e9 m\u0254 gbe\u0256ewema
+  y\u00ed nad\u00f3 bas\u00ed l\u025bd\u00f3gbe\u0256evom\u025b Flansegbe kp\u00f3
+  Gl\u025bnsigbe kp\u00f3 t\u0254n to ojl\u025b \u0256okp\u00f3l\u0254 m\u025b. To
+  oxwe xe b\u0254dego m\u025b, \u00e9 j\u025b az\u0254\u0301nwa ji tayi\u0256i l\u025bd\u00f3gbe\u0256evom\u025b
+  - bas\u00edt\u0254 \u0256\u00e9 to B\u00e9nin. Todin, Gis\u00e8le n\u0254 waz\u0254\u0301n
+  tayi\u0256i l\u025bd\u00f3gbe\u0256evom\u025b bas\u00edt\u0254 \u0256\u00e9 to Cotonou,
+  B\u00e9nin.\\nGis\u00e8le Hountondji wlan ow\u011b titewungbe \u0256\u00e9 xe n\u0254
+  ny\u00ed yiyl\u0254\u0256\u0254 \\\"Une citronnelle dans la neige\\\". Ow\u011b
+  exe gb\u0254nvo tawun n\u00e1 hwla tintan \u0256ie xe m\u025b\u0256\u00e9 k\u00e0nwe
+  gand\u00f3 n\u01d4xe \u00e9 tayi\u0256i nad\u00f3 ny\u00ed ny\u0254nu m\u025byuu
+  \u0256\u00e9 to France go. J\u025bnuk\u0254nna ow\u011b et\u0254n, wekant\u0254
+  \u0256\u00e9vo l\u025b tayi\u0256i Ak\u00e9 Loba, Bernard Dadi\u00e9, kp\u00f3 Cheikh
+  Hamidou Kane kp\u00f3 k\u00e0nwe gand\u00f3 wex\u0254m\u025bvi Aflika t\u0254n l\u025b
+  go to Paris, cigb\u01ce y\u00e9 ma kanwe gand\u00f3 ny\u0254nu m\u025byuu nyinyi
+  go gba. Ow\u011b Gis\u00e8le t\u0254n ny\u00ed ow\u011b tangan \u0256\u00e9 to wekinkan
+  Aflika t\u0254n l\u025b m\u025b to xwel\u0254nu. Gis\u00e8le s\u0254 ny\u00ed nyinyw\u025b
+  tayi\u0256i ny\u0254nu tintan s\u0254\u0301n B\u00e9nin nad\u00f3 k\u00e0n ow\u011b
+  \u0256\u00e9.\\nTo ow\u011b Gis\u00e8le Hountondji t\u0254n m\u025b, om\u025b tangan
+  l\u0254 n\u0254 y\u00ec France nad\u00f3 kpl\u0254\u0301nn\u01d4. Ot\u0254\u0301
+  et\u0254n yiw\u01cenna aca Flansegbe t\u0254n bo \u0256\u0254 \u0256\u0254 France
+  ny\u00ed n\u0254t\u025bn al\u0254k\u025byi t\u0254n \u0256\u00e9 bos\u0254 ny\u00ed
+  ot\u00f2 xe v\u00f2 \u0256\u00e9. Cigb\u01ce to hwenuena \u00e9 j\u025b France to
+  1970, \u00e9 \u0256oayi \u00e9 go \u0256\u0254 \u00e9 manyi m\u0254 gba. Gb\u025bt\u0254\u0301
+  l\u025b n\u0254 y\u00ed nuk\u00fankp\u025bvi d\u00f3 kp\u0254\u0301n \u025bn, kp\u00f3\u0256\u0254
+  \u00e9 v\u025bawuna \u025bn nad\u00f3 m\u0254 fixe \u00e9 n\u00e1 n\u0254\u0300.
+  \u00c9 tl\u025b tind\u00f3 numim\u0254 ylankan \u0256\u00e9 xe to hwenue \u00e9
+  t\u025bnkp\u0254n nad\u00f3 k\u0254nawud\u00f3kp\u0254\u0301 x\u025b klasi we\u0256u\u0256u
+  t\u0254n \u0256\u00e9. \u00c9 s\u0254 tind\u00f3 xacincan awubla kp\u00f3 flum\u025bjij\u025b
+  t\u0254n \u0256\u00e9 kp\u00f3 x\u025b d\u01cewe Flansenu \u0256\u00e9. Nin\u0254m\u025b
+  l\u0254 ylan bos\u0254 v\u0254 ylan \u0256\u00e9ji, kp\u00f3\u0256\u0254 axwli ay\u01cej\u025bn\u0254
+  l\u0254 w\u00e0 j\u025bflum\u025b tawun. Gis\u00e8le Hountondji y\u00ed ahun\u0256okp\u00f3
+  d\u00f3 kanwe gand\u00f3 numim\u0254 ylankan xe \u00e9 tind\u00f3 to France l\u025b
+  go. To ow\u011b et\u0254n Une citronnelle dans la neige m\u025b, \u00e9 bas\u00ed
+  z\u025b\u025bm\u025b om\u025b France t\u0254n l\u025b t\u0254n kp\u00f3 ahun\u0256okp\u00f3
+  kp\u00f3. \u00c9 \u0256\u0254 \u0256\u0254 y\u00e9 gb\u025bw\u01cenna m\u025byuu
+  l\u025b kp\u00f3 m\u025bxe w\u00e1 s\u0254\u0301n Asia l\u025b kp\u00f3, bo ma s\u0254
+  tind\u00f3 sisi n\u00e1 y\u00e9. Wenyw\u025bt\u0254 \u0256\u00e9 xe n\u0254 ny\u00ed
+  Adrien Huannou \u0256\u0254 \u0256\u0254 Hountondji d\u00f3 om\u025b France t\u0254n
+  l\u025b xya \u0256i cejannabin\u0254, bo n\u0254 x\u00f2 ye\u0256etiti t\u0254n
+  kp\u0254\u0301n, bos\u0254 n\u0254 l\u025bn\u0256\u0254 y\u00e9 kp\u0254nte x\u00fa
+  m\u025b\u0256evo l\u025b. \u00c9 s\u0254 kanwe gand\u00f3 lexe l\u025bnunnunyw\u025b
+  kp\u00f3 dodinnanu amasin t\u0254n kp\u00f3 ny\u00ed yiyizan nad\u00f3 n\u0254god\u00f3n\u00e1
+  linl\u025bn xe ma s\u0254gbe l\u025b d\u00f3 go.\\nGis\u00e8le Hountondji ma kanwe
+  \u0256\u00e9vo \u0256\u00e9kp\u00f3kp\u00e9 to Une citronnelle dans la neige godo.
+  To hwenuena gb\u025bt\u0254\u0301 l\u025b k\u00e0n n\u01d4xewutu s\u00e8, \u00e9
+  \u0256\u0254 \u0256\u0254 m\u025bsusu w\u025b tin to Aflika, titewungbe to B\u00e9nin,
+  bo ma yiw\u01cenna wexixya. Cigb\u01ce \u00e9 w\u00e1 kanwe kleunkleun l\u025b,
+  tayi\u0256i \u0256\u00e9xe \u00e9 kan to 1988 xe n\u0254 ny\u00ed yiyl\u0254\u0256\u0254
+  Mettez-vous au go\u00fbt du jour, Madame la n\u00e9gresse : exprimez-vous en fran\u00e7ais.\\n\u00c9
+  k\u00e0n ot\u00e0n kleun \u0256\u00e9 xe n\u0254 ny\u00ed yiyl\u0254\u0256\u0254
+  \\\"Daniel\\\" to 1996. To 2002, \u00e9 kanwe n\u00e1 linlinwe \u0256\u00e9 xe n\u0254
+  ny\u00ed yiyl\u0254\u0256\u0254 La Nouvelle Tribune. \u0256\u00e9l\u025b to wekinkan
+  et\u0254n l\u025b m\u025b s\u0254 tin to ow\u011b xe wekant\u0254 susu \u0256\u00e9vo
+  l\u025b k\u00e0n m\u025b. \u0189okp\u00f3 to ow\u011b exel\u025b m\u025b n\u0254
+  ny\u00ed yiyl\u0254\u0256\u0254 La petite fille des eaux s\u1ecdn 2006.\"", "\"Honorine
+  Attikpa, ny\u01d0k\u0254 j\u0254un et\u0254n w\u025b Honorine Z. Hounnonkpe Attikpa,
+  \u00e9 ny\u00ed t\u00f2nu\u0256\u0254t\u0254\u0301 B\u00e9nin t\u0254n \u0256\u00e9.
+  Ew\u0254 ny\u00ed Agbagog\u00e1n \u0256\u00e9 to gan\u0256u\u0256u Toxo\u0256\u0254t\u0254
+  Boni Yayi Ayi\u0256osun18, 2015 t\u0254n m\u025b to Xwejisun 2016 t\u0254n m\u025b,
+  kp\u00f3\u0256\u0254 ana\u0256enanut\u0254 to ak\u0254\u0300 vivasud\u00f3 B\u00e9nin
+  t\u0254n m\u025b kakaj\u025b 2015.\\nHonorine Attikpa k\u0254nawu\u0256\u0254\u0256\u0254
+  x\u025b gan\u0256u\u0256u Boni Yayi t\u0254n b\u0254\u0256o v\u0254jlad\u00f3 liz\u0254nyiz\u0254nwiwa
+  t\u0254n xe w\u00e1 aim\u025b to jeudi 18t\u0254 2015 go.\\n\u00c9 ze \u00e9\u0256\u00e9
+  jo tayi\u0256i tat\u0254\u0301 Liz\u0254nyiz\u0254n Hw\u025bnd\u00f3 t\u0254n, Kpikpli
+  Gb\u025bt\u0254\u0301vi l\u025b t\u0254n, Tovi Ot\u00f2 l\u0254 t\u0254n, Xix\u0254\u0301t\u0254
+  Ot\u00f2 l\u0254 T\u0254n l\u025b, \u00c9 ny\u00ed t\u025bn\u0256y\u0254\u0301n\u00e1
+  to Xwejisun 2016 to ojl\u025b awe gan\u0256u\u0256u tog\u00e1n l\u0254 t\u0254n
+  l\u025b c\u025bnc\u025bn. J\u025bnuk\u0254nna tenin\u0254 exe, Honorine Attikpa
+  ny\u00ed nuk\u0254nt\u0254 n\u00e1 Kpikpli Ak\u0254ta Loteli t\u0254n xe n\u0254
+  kp\u00e9nuk\u00fand\u00f3 B\u00e9nin go to 8 aviv\u0254sun 2011. Ew\u0254 w\u025b
+  ny\u00ed og\u00e1n az\u0254\u0301nwat\u025bn Dignit\u00e9 F\u00e9minine t\u0254n
+  kp\u00f3 og\u00e1n az\u0254\u0301nxw\u00e9 xe n\u0254 \u0256\u00e9anana az\u0254\u0301nxw\u00e9
+  l\u025b t\u0254n kp\u00f3 xe n\u0254 bas\u00ed tito n\u00e1 max\u025b tintind\u00f3
+  ny\u0254nu l\u025b t\u0254n to az\u0254\u0301nx\u0254 \u0256axo\u0256axo gbigb\u00e1
+  m\u025b.\"", "\"Akp\u00e1xw\u00e9 el\u0254 kpl\u0254\u0301n n\u01d4 m\u01d0 d\u00f3
+  m\u025b winnyawinnya, gbeyi\u0256\u0254 kpo ax\u0254su kpo \u0256\u011b\u0256ee
+  \u0256\u00e8 n\u00f9\u0256i\u0256i nuk\u00fan\u0256eji xl\u025b\u0301 \u0256\u00f2
+  Jehovah m\u025b l\u025b \u00e9 wu. \u00d0\u00f2 Sil\u00edi \u0254, ny\u0254nuv\u00ed
+  Izlay\u025blinu \u0256\u00e9 \u0256\u00f3 n\u00f9\u0256i\u0256i \u0256\u0254 gbeyi\u0256\u0254
+  Jehovah t\u0254n na gb\u0254 az\u0254n e j\u025b w\u025b Naamani \u0256\u00e8 \u00e9.
+  Gbeyi\u0256\u0254 Eliz\u00e9e \u0256\u00f3 ji\u0256e ml\u025b\u0301ml\u025b\u0301
+  \u0256\u0254 Jehovah na cy\u0254n al\u0254 emi j\u00ed, bo hwl\u025bn emi \u0256\u00f2
+  k\u025bnt\u0254\u0301 l\u025b s\u00edn ahwang\u0254nu \u0256\u00e9 s\u00ed. V\u0254san\u00faxwl\u00e9mawut\u0254\u0301
+  \u00d0ax\u00f3 Yexoyada s\u0254\u0301 gb\u025b\u0300 t\u0254n \u0256\u00f3 ax\u0254
+  nu, bo m\u0254 t\u025bn d\u00f3 hwl\u025bn Joasi e kp\u00f2 \u0256\u00f2 v\u01d4
+  \u00e9 s\u00edn g\u01cen\u2019maa t\u0254n n\u01d4nyanyawat\u0254\u0301 Atal\u00edi
+  s\u00ed. Ax\u0254su Ezekiyasi \u0256eji \u0256\u0254 Jehovah na hwl\u025bn Jeluzal\u025bmu,
+  b\u2019\u025b s\u00edn en\u025b wu b\u0254 \u00e9 j\u00f3 gb\u00e8 \u0256\u00f2
+  ad\u01cengbl\u0254\u0301nn\u00fam\u025b Asil\u00edi t\u0254n nuk\u0254n \u01ce.
+  Ax\u0254su Joziyasi \u0256\u00e8 vodunsins\u025bn s\u00edn t\u00f2 \u0254 m\u025b,
+  v\u0254\u0301 t\u025bmpli \u0254 bl\u00f3\u0256\u00f3 bo bl\u00f3 b\u0254 ak\u0254ta
+  \u0254 l\u025b\u0301 j\u025b sins\u025bn nugb\u01d2 \u0254 bl\u00f3 j\u00ed.\"",
+  "\"Jezu: Ali \u0254, Nugb\u01d2 \u0254, Gb\u025b\u0300 \u0186\\n\u00d0\u00f2 wema
+  el\u0254 m\u025b \u0254, x\u00e0 n\u01d4 d\u00f3 n\u01d4 e j\u025b \u0256\u00f2
+  gb\u025bz\u00e1n Jezu t\u0254n m\u025b b\u0254 Biblu \u0256\u0254 l\u025b \u00e9
+  b\u01d0 j\u00ed.\\nWEMATA 61\\nJezu \u0256\u0254 \u0256\u0254 n\u00f9\u0256i\u0256i
+  ma \u0256\u00f3 w\u025b z\u0254\u0301n b\u0254 \u00e8 ma kp\u00e9w\u00fa bo nya
+  y\u025b nyanya \u0254 \u01ce, b\u0254 m\u025b\u030c ma ka \u0256\u00f3 n\u00f9\u0256i\u0256i
+  \u0254 \u01ce lo? Nyav\u00ed \u0254 w\u025b \u00e0? T\u0254\u0301 t\u0254n w\u025b
+  \u00e0? Al\u01d2 ahwanvu Jezu t\u0254n l\u025b w\u025b \u00e0?\\nWEMATA 70\\nAhwanvu
+  l\u025b k\u00e0n n\u01d4 e wu \u00e8 j\u00ec nya \u0256\u00e9 nuk\u00fant\u00ednt\u0254\u0301nn\u0254
+  t\u0254n \u00e9 by\u0254. Hw\u025b w\u025b \u00e9 hu \u00e0? M\u025bjit\u0254\u0301
+  t\u0254n l\u025b hu hw\u025b w\u025b \u00e0? M\u025b l\u025b \u0256\u00f3 linlin
+  vovo hwenu e Jezu gb\u0254 az\u0254n n\u00fa nya \u0254 \u00e9.\\nWEMATA 71\\nX\u00f3jl\u025bdox\u00f3wu
+  nya e ny\u00ed nuk\u00fant\u00ednt\u0254\u0301nn\u0254 \u0256\u2019ay\u01d0 \u00e9
+  t\u0254n d\u00f3ma Falizy\u025bn l\u025b. Ye nya \u025b t\u0254\u0301n s\u00edn
+  kpl\u0254\u0301ngbas\u00e1 \u0254 lee m\u025bjit\u0254\u0301 t\u0254n l\u025b ko
+  \u0256i x\u025bsi t\u0254n gb\u0254n \u00e9.\\nWEMATA 72\\n\u00d0\u00f2 Jud\u00e9e
+  \u0254, Jezu s\u025b\u0301 ahwanvu 70 d\u00f3 bo m\u00e1 ye web\u0254 web\u0254
+  b\u0254 ye ny\u00ed w\u025bnjlat\u0254\u0301 Ax\u0254su\u0256uto \u0254 t\u0254n.
+  Fit\u025b ahwanvu l\u025b ka y\u00ec m\u0254 m\u025b l\u025b \u0256\u00e8? Kpl\u0254\u0301ngbas\u00e1
+  l\u025b w\u025b \u00e0 al\u01d2 m\u025b l\u025b s\u00edn xw\u00e9gbe?\\nWEMATA 75\\nJezu
+  na x\u00f3sin m\u025b e \u0256\u00f2 x\u00f3 m\u0254 \u0256\u0254 d\u00f3 wutu t\u0254n
+  w\u025b l\u025b \u00e9, bo \u0256\u0254 x\u00f3 d\u00f3 \u201cal\u0254v\u00ed Mawu
+  t\u0254n\u201d kpo lee Ax\u0254su\u0256uto Mawu T\u0254n \u0256\u00f2 t\u025bntin
+  yet\u0254n gb\u0254n \u00e9 kpo wu. \u00c9 l\u025b\u0301 xl\u025b\u0301 lee m\u025b
+  l\u025b na \u0256\u00f3 aw\u01cejij\u025b adodw\u00e9 gb\u0254n \u00e9.\\nWEMATA
+  78\\nJezu xl\u025b\u0301 \u0256\u0254 ganjinin\u0254 ahwanvu emit\u0254n l\u025b
+  t\u0254n \u0256\u00f2 gbigb\u0254 lixo n\u0254 \u0256u ayi m\u025b n\u00fa emi.
+  Az\u0254\u030c t\u025b m\u025bs\u025bnt\u0254\u0301 \u0256\u00e9 ka na w\u00e0 bonu
+  ahwanvu Jezu t\u0254n l\u025b na n\u0254 ganji \u0256\u00f2 gbigb\u0254 lixo? Et\u025bwu
+  n\u00f9kpl\u0254nm\u025b e \u0256\u0254 \u0256\u0254 \u00e8 ni n\u0254 ac\u00e9j\u00ed
+  \u00e9 ka ny\u00ed n\u01d4 taji s\u0254m\u0254\u030c?\\nWEMATA 79\\nJezu \u0256\u0254
+  \u0256\u0254 \u00e8 na s\u00fa k\u00fan d\u00f3 n\u00fa m\u025b \u0256\u011b\u0256ee
+  emi \u0256\u00f2 al\u0254 d\u00f3 w\u025b l\u025b \u00e9, enyi ye ma l\u025bk\u0254
+  s\u00edn hw\u025b yet\u0254n l\u025b gudo \u01ce \u0254 n\u025b. Ye ka na y\u00ed
+  gb\u00e8 n\u00fa n\u01d4 taji e Jezu \u0256\u00f2 kpinkpl\u0254n ye w\u025b b\u2019\u025b
+  k\u00fankpl\u00e1 kancica yet\u0254n x\u00e1 Mawu \u00e9 \u00e0?\\nWEMATA 80\\nKancica
+  e \u0256\u00f2 l\u025bngb\u0254nyit\u0254\u0301 \u0256\u00e9 kpo l\u025bngb\u0254\u030c
+  \u0256\u00e9 kpo t\u025bntin \u00e9 xl\u025b\u0301 lee ahwanvu Jezu t\u0254n l\u025b
+  s\u00edn n\u01d4 c\u00ed n\u2019i \u00e9 ganji. Ye ka na tu\u00f9n n\u00f9kpl\u0254nm\u025b
+  t\u0254n l\u025b bo na xwed\u00f3 \u00e9 \u00e0?\\nWEMATA 83\\nHwenu e Jezu \u0256\u00f2
+  n\u01d4 \u0256u w\u025b \u0256\u00f2 Falizy\u025bn \u0256\u00e9 xw\u00e9 \u00e9
+  \u0254, \u00e9 d\u00f3 l\u01d2 d\u00f3 gbada n\u00f9\u0256u\u0256u \u0256ax\u00f3
+  \u0256\u00e9 wu. N\u00f9kpl\u0254nm\u025b taji \u0256\u00e9 \u0256\u00f2 l\u01d2
+  en\u025b m\u025b n\u00fa togun Mawu t\u0254n \u0254 b\u01d0. N\u00f9kpl\u0254nm\u025b
+  t\u025b w\u025b?\\nWEMATA 85\\nS\u025bnkpl\u0254nm\u025bt\u0254\u0301 l\u025b kpo
+  Falizy\u025bn l\u025b kpo m\u0254 x\u00f3 \u0256\u0254 d\u00f3 Jezu wu \u0256\u00f3
+  \u00e9 n\u0254 w\u00e0 n\u01d4 \u0256\u00f3 kp\u0254\u0301 x\u00e1 gb\u025bt\u0254\u0301
+  kpa\u00e0 l\u025b wu. Jezu d\u00f3 l\u01d2 w\u00e8 d\u00f3 xl\u025b\u0301 linlin
+  e Mawu \u0256\u00f3 d\u00f3 hw\u025bhut\u0254\u0301 l\u025b wu \u00e9.\\nWEMATA
+  99\\n\u00c9 c\u00ed \u0256\u0254 tan Biblu t\u0254n e k\u00fankpl\u00e1 nuk\u00fant\u00ednt\u0254\u0301nn\u0254
+  e Jezu hun nuk\u00fan na \u0256\u00f2 Jeliko kp\u00e1 \u00e9 jl\u00f3 na s\u0254\u0301
+  ta \u00e9\u0256\u00e9e \u0256\u0254hun. N\u025b\u030c \u00e8 ka sixu m\u0254 n\u01d4
+  j\u025b m\u025b gb\u0254n?\\nWEMATA 106\\nKp\u0254\u0301n l\u01d2 e Jezu d\u00f3
+  b\u0254 nya \u0256\u00e9 by\u0254 v\u01d0 sunnu t\u0254n w\u00e8 l\u025b \u0256\u0254
+  ye ni y\u00ec w\u2019az\u0254\u030c \u0256\u00f2 v\u01d0wungbo emit\u0254n m\u025b
+  \u00e9, kpo l\u01d2 e \u00e9 d\u00f3 b\u0254 nya \u0256\u00e9 s\u0254\u0301 v\u01d0wungbo
+  t\u0254n d\u2019al\u0254 m\u025b n\u00fa v\u01d0wunz\u0254\u0301wat\u0254\u0301
+  nyanya \u0256\u00e9 l\u025b \u00e9 kpo s\u00edn tinm\u025b.\\nWEMATA 137\\n\u00d0\u00f2
+  f\u00ednf\u0254\u0301n s\u00edn k\u00fa Jezu t\u0254n kpo jixw\u00e9 yiyi t\u0254n
+  kpo s\u00edn avla m\u025b \u0254, \u00e9 t\u025b\u0256\u025b\u030c n\u01d4 e ahwanvu
+  t\u0254n l\u025b na m\u0254 \u00e9 kpo lee ye na z\u00e1n gb\u0254n \u00e9 kpo j\u00ed
+  n\u00fa ye az\u0254n g\u00e8g\u011b.\"", "\"Adan\u0256ozan, b''\u025b j\u00edj\u0254\u0301n
+  ax\u0254\u0301suzinkpo j\u00ed sin xw\u00e8 1797 t\u0254n m\u025b wa yi xw\u00e8
+  1818 t\u0254n m\u025b \u00e9, nyi ax\u0254\u0301su \u00e9 e w\u0254n \u0256\u00f2
+  hwenuxo danxom\u025b t\u0254n l\u025b m\u025b e.\\nAx\u0254\u0301su e ma \u0256\u00f3
+  ny\u01d0 \u0256o ax\u0254\u0301su Danxom\u025b t\u0254n l\u025b m\u025b e, b\u0254
+  e su ny\u01d0 i \u0256\u0254 ax\u0254\u0301su n\u01d4dosint\u0254\u0301 m\u025bhut\u0254\u0301.
+  M\u01d0 na fl\u00edn \u0254, e \u0256\u0254 hwenuxo \u0256e nu m\u01d0 hwenu e m\u01d0
+  \u0256o az\u0254nm\u025bxwe dok\u0254 t\u0254n e \u0256\u0254 : Ny\u0254\u030cnu
+  x\u00f2x\u00f3n\u0254 \u0256e t\u00edl\u0300n b\u00f3 \u0256\u00f2 d\u00ecnd\u01d0n
+  w\u025b b\u0254 Danxom\u025bx\u0254su \u0254 na gbe \u0256\u0254 e ni wl\u01d0 b\u00f3
+  z\u025b ad\u0254go t\u0254n b''a kp\u0254n \u0256\u0254 vi e \u0256o x\u00f2 t\u0254n
+  m\u025b e \u0254\u0301,sunnuvi alo ny\u0254nuvi w\u025b a ji. Hw\u025b e do e \u0254
+  gege w\u025b, \u0256o taji \u0254 hwenu e \u00e9 \u0256''ax\u0254su \u0256u w\u025b
+  \u0254, e gb\u025b\u0301 bi bo nyi kpodem\u025b bo \u0256\u00f3n\u01d4 kannum\u0254
+  sa d\u00f3 yovo n\u00f9. Ax\u0254\u0301su Danxom\u025b t\u0254n e xo m\u01d0 b\u025b
+  e \u0254 Dada Adan\u0256ozan w\u025b. Ax\u0254su Danxom\u025b t\u0254n \u0254 w\u025b,
+  bo j\u025b Dada Ag\u0254nglo gudo \u0256o xw\u00e8 1797 t\u0254n m\u025b bo \u0256u
+  ax\u0254\u0301su nu xw\u00e8 ko-nukun-\u0256okpo co b\u0254 y\u011b wa k\u0254ngan
+  \u025b gannugannu \u0256o xw\u00e8 1818 t\u0254n m\u025b.\\nAx\u0254suzinkpo ji
+  yiyi t\u0254n[wl\u01cen n\u00fa | wla n\u00fa \u0256o\u0256o \u0254]\\nAdan\u0256ozan
+  \u0254, cobo nu e na j\u025b ax\u0254su''nyi \u0254 Ax\u0254vi nyik\u0254 t\u0254n
+  w\u025b nyi Akakpo. Vi weg\u0254\u0254 Dada Ag\u0254nglo t\u0254n w\u025b, bo j\u025b
+  Ax\u0254vi A\u0256ukonu gudo. A\u0256ukonu \u0254 e j\u01d0i kpodo w\u0254n\u0256owu
+  kpo. E n\u025b \u0254 w\u025b z\u0254n b\u0254 e ma j\u025b xa ax\u0254su''zinkpo
+  \u0254 a. N\u0254vi t\u0254n Ax\u0254vi Gakpe, \u011be na wa nyi Dada Gezo e \u0256o
+  xwe 5 \u0256o w\u025b hwe n\u025b nu. Finn\u025b w\u025b Ax\u0254vi Akakpo wa huzu
+  9\u0254 Danxom\u025b t\u0254n \u0256e bo x\u0254 ny\u01d0 sy\u025bnsy\u025bn Adan\u0256ozan
+  e sin t\u01d0nm\u025b nyi \u00abAdan \u0256o zan t\u0254n\u00bb. Wuntun e s\u0254
+  e w\u025b nyi zan (Adan''zan) b\u0254 xo xwedo bo wa nu t\u0254n \u0254\u030c nyi
+  \u00abAdan \u0256o zan t\u0254n b\u0254 n\u025b\u0256e sixu kpewu bo fl\u01d0i (mla)
+  a\u00bb.\\nM\u025b nyinyi t\u0254n[wl\u01cen n\u00fa | wla n\u00fa \u0256o\u0256o
+  \u0254]\\n\u0189i m\u025b e kpodo m\u025b kpo j\u0254 hwe n\u025b nu l\u025b kpo
+  \u0256\u0254hun \u0254, m\u01d0 sixu \u0256\u0254 xo \u0256e do y\u0254kp\u0254vu
+  m\u025b t\u0254n kpodo d\u0254nkp\u025bvu m\u025b t\u0254n kpan wu a. Xo e m\u01d0
+  s\u011b do m\u025b wu hw\u011bnu e m\u025b kpo\u0256o Ax\u0254vi Akakpo nyi w\u025b
+  e \u0256ye : M\u025b nyi sunnu hunsy\u025bn kpank\u0254n, sunnu e nubi s\u0254gbe
+  na e, bo ka nyi m\u025b bo wan nu ase bla do m\u025bta e. S\u025bnunyw\u025b kp\u011b
+  m\u025b, b\u0254 m\u025b n\u0254 bado n\u00fa n\u01d4. Sin y\u0254kp\u0254m\u025b
+  m\u025bt\u0254n \u0256okpo w\u025b e ko \u0256owu kp\u0254 xa, bok\u0254n\u0254
+  fa kan t\u0254 l\u025b kpodo gb\u025bd\u0254kpo kije t\u0254 \u011be \u0256o Danxom\u025b
+  e kpo \u011be gosin Ay\u0254nu l\u025b gbeji bo \u0256o Dada kannu l\u025b kpan.
+  \u0189o wu \u0256okp\u0254 xa m\u025b e n\u025b l\u025b m\u025b\u030c \u0254, m\u025b
+  yi nunyw\u025bn gege \u0256o yexwi m\u025b\u0300. Nu n\u025b l\u025b bi w\u025b
+  z\u0254n b\u0254 m\u025b ny\u01d0 Ax\u0254vi kpikpe bo wa nyi Ax\u0254su \u011be
+  m\u025b\u030cbi n\u0254 \u0256i x\u025bs\u01d0 si \u0256o Danxom\u025b kpodo ax\u0254su
+  \u0256uto \u0256e l\u025b m\u025b kpan \u00e9.\\nAx\u0254su \u0256u\u0256u hl\u00fanhl\u00f9n
+  t\u0254n[wl\u01cen n\u00fa | wla n\u00fa \u0256o\u0256o \u0254]\\nE kp\u0254n \u0254
+  Ax\u0254su \u0256\u00fa\u0256\u00f9 m\u025bt\u0254n b\u025b Dada \u0256e l\u025b
+  t\u0254n \u0256\u0254hun. L\u01d0nlin \u0256okpo \u0254 ma gege wukun \u0256o m\u025b
+  kpodo m\u025b\u030c e l\u025bdo m\u025b l\u025b kpan t\u025bnt\u01d0n. M\u025b nyi
+  Ax\u0254su \u0256e\u0256ovo, bo gb\u0254n vo nu linlin kpodo nu wiwa kpan m\u025b,
+  bo ka l\u025b \u0256o nunyw\u025b tawun bo n\u0254 yawu m\u0254nu j\u025b xobam\u025b''k\u025bnudewu
+  (sujet) gege wu gb\u0254n xom\u0254doxowu ya\u0256e ya\u0256e kpodo wal\u0254 y\u0254y\u0254
+  kpan gblam\u025b. Nuwiwa m\u025bt\u0254n l\u025b n\u0254 j\u025b gan gudo \u0256o
+  num\u025bs\u025bn gan Danxom\u025b t\u0254n l\u025b nukun m\u025b, bo z\u0254n b\u0254
+  hl\u00fanhl\u00f9n gege t\u0254n kaka b\u0254 e k\u0254n gan m\u025b. Nu taji we
+  wu j\u025bn m\u01d0 na \u0256\u0254. Nuk\u0254n t\u0254n \u0254, M\u025b gb\u025b
+  kannum\u0254 sisa bo \u0256o nwi nu. M\u025b gb\u025b bi nyi kpo dwe t\u0254n m\u025b
+  b\u0254 m\u025b\u0256e l\u025b m\u0254 \u0256\u0254 M\u025b jlo na sunkundo nu akw\u025bvi
+  e ye n\u0254 m\u0254 l\u025b. E na \u0256\u0254\u030c\u0254, m\u025b gb\u025b wannu
+  kannum\u0254 nuwiwa m\u0254 w\u025b a, lo \u0254 ahwandoji bo yi b\u025b gb\u025bt\u0254
+  bo sa do yovo, b\u0254 ye na yi fi ma ya fi do to yet\u0254n \u0254 w\u025b m\u025b
+  gb\u025b. E \u0256\u0254 Xogbe el\u0254 \u0254 do m\u025b wu \u0256\u0254 : M\u025b
+  n\u0254 lin \u0256\u0254 e h gb\u0254 bo zan kannum\u0254 n\u025b l\u025b nu nuk\u0254nyiyi
+  Danxom\u025b t\u0254n e na ny\u0254hu. Ye na l\u025b gl\u011b, bo do jinukun, b\u0254
+  m\u01d0 na sa jinukun n\u025b \u0254 nu yovo l\u025b. \u00ab\u0189''aniwu ye na
+  yi wa az\u0254 e ye h\u025bn \u0254 ye na wa \u0256o fi e \u0256o fi\u0256evo. En\u025b
+  wu \u0254 m\u025b gb\u025b \u0256o 1800 \u0256\u0254 e kun s\u0254 na sa kannum\u0254
+  \u0256e do yov\u01d2 \u0256o Danxom\u025b. Nu n\u025b \u0254 v\u025b m\u025b\u0301
+  \u0256e l\u025b kaka bo ci ta\u0256un\u0254 nuwiwa \u0256\u0254hun nu ye nukun\u0256eji
+  Danxom\u025b e s\u0254 m\u025bsisa n\u025b do \u0256o d\u0254kun j\u025b na w\u025b
+  l\u025b e. En\u025b \u0254 wu w\u025b, M\u025b wli Caca Francisco de SUZA, (kannum\u0254
+  sa do yovo t\u0254 \u0256axo \u0256okpo w\u025b bo saxwe nyi Gl\u011bxwe), dogan
+  \u0256o e gb\u025bgbe nu Dada''x\u01d2. Nya n\u025b \u0254 kpodo aseblabla m\u025b\u0301
+  nukun\u0256eji Danxom\u025b t\u0254n \u0256e l\u025b kpodo Ax\u0254vi Gakpe \u011be
+  nyi ahwanfunt\u0254 l\u025b gan hwen\u025bnu bo ka l\u025b nyi m\u025b\u0300 bo
+  yiwannu m\u025bsadoyovo \u0254 kpan \u0254 gbagan. Ax\u0254vi Gakpe t\u00f2 gb\u025b
+  \u0256\u0254 mi kun sixu wa nu m\u0254hun xa Ax\u0254su m\u01d0t\u0254n o, lo \u0254
+  e wa yi gbe hwenu e Dada Adan\u0256ozan sa Gakpe''n\u0254 Ax\u0254si AG\u0186NTIM\u0190
+  do Bresil e. Tan\u0256\u0254num\u025bt\u0254 l\u025b \u0256\u0254 Dada Adan\u0256ozan
+  blo m\u0254 b''a do \u0256exwl\u025b m\u025b e gb\u025b wan nu s\u025bn e m\u025b
+  do l\u025b e, le do e e s\u0254 m\u025b sin m\u025b m\u025b\u0301t\u0254n kpa e
+  n\u0254 v\u025b s\u0254 e. Nu n\u025b e m\u025b wa e wa g\u0254 so nu gbetak\u025bn
+  m\u025b\u0301t\u0254n \u0256evo. Weg\u0254 \u0254 M\u025bhuhu gbigb\u025b\u030c.
+  M\u01d0 na fl\u01d0in \u0256\u0254 Dada Adan\u0256ozan ko hum\u025b \u0256o bib\u025bm\u025b
+  Ax\u0254su nyinyi t\u0254n cobo wa gb\u025b nuwiwa m\u0254hun \u0256o ax\u0254si
+  m\u025bt\u0254n \u0256okpo wu. Ax\u0254si n\u025b \u0254 yovo w\u025b bo nyi Portugaise
+  alo Hollandaise (e tunwun tawun a), bo \u0256\u0254 xo m\u025b \u0254, m\u025b n\u0254
+  se, bo hun nukun n''ii do nuj\u025bgan (ideaux) hwen\u025bnu t\u0254n \u0256el\u025b
+  ji. Hwen\u025bnu \u0254, m\u025bhuhu do sav\u0254 na \u0254 e n\u0254 blo do s\u025b
+  w\u025bnsagun do t\u0254gbo e \u0256o ku l\u025b e nu ye na yi do l\u011be nuwiwa
+  l\u025b \u0256o yiyi gb\u0254n w\u025b \u0256o Danxom\u025b e nu ye. Nu m\u0254hun
+  na nyi wiwa \u0254 m\u025bwli\u0256''ahwan w\u025b e n\u0254 \u0256enyi v\u0254sanu
+  do sav\u0254 n\u025b \u0254. Dada Adan\u0256ozan gb\u025b wal\u0254 m\u0254hun bi
+  gbidigbidi b\u0254 nuv\u025bnum\u025b l\u025b j\u025b ji \u0256o m\u025b nukun\u0256eji
+  l\u025b t\u0254n m\u025b. Bo na d\u00f2 d\u00f3 zogbwe s\u025bn n\u025b \u0254 ji
+  \u0254, m\u025b \u0256\u0254 m\u025bwli\u0256''ahwan l\u025b n\u0254 donu Danxom\u025b
+  to \u0254 \u0256o kudonu bo n\u0254 sixu yi do w\u025bn e wu e s\u025b ye do ku
+  e gbeji t\u0254n a. Bo na do f\u0254 h\u025bndo n\u025b \u0254, Dada Adan\u0256ozan
+  s\u0254 ax\u0254vi sunnu kpodo ny\u0254nu Danxom\u025b t\u0254n \u0256el\u025b kpan
+  do sav\u0254 na nu ye na yi \u0256o gbe nu t\u0254gbo l\u025b. Nu n\u025b \u0254
+  l\u025b nyi a\u0256ukun\u0256u\u0256u''nu nu k\u025bnt\u0254 t\u0254n l\u025b b\u0254
+  ye s\u0254 gbetak\u025bn bo na k\u0254ng\u025bn \u025b\\nGan k\u0254n m\u025b[wl\u01cen
+  n\u00fa | wla n\u00fa \u0256o\u0256o \u0254]\\nEe ye ma sixu s\u025b\u030cdo aba\u0256axwe
+  j\u025bsu a e \u0254, ye gb\u0254 bo ze gbetak\u025bn bo na k\u0254n gan \u025b\u030c.
+  Lo\u0254 ye \u0256o na blo gb\u0254n \u0256e b\u0254 tovi l\u025b na yi gbe na hw\u025b.
+  En\u025b wu \u0254, ye ba adingban \u0256el\u025b bo \u0256o do tox\u0254su sin
+  nuwal\u0254 l\u025b wu bo nu tovi l\u025b ni gb\u025b wan n\u01d0. E nyla hu bi
+  e, w\u025b nyi, ye \u0256\u0254 Dada \u0254 b\u025b sakpata(variole) e nyi nylado''z\u0254n
+  e. Ee tovi l\u025b gb\u025b wan nu Dada bo \u0256ek\u0254 d''\u011be \u0254, nukun\u0256eji
+  Danxom\u025b t\u0254n l\u025b k\u0254ng\u025bn \u025b bo s\u0254 ax\u0254vi Gakpe
+  do zinkpo ji. Ax\u0254vi Gakpe j\u025b ny\u01d0 bo nyi Gezo bo n\u0254 ax\u0254su''zonkpo
+  ji nu xwe kan\u0256e (1818-1858). Nu n\u025b j\u025b co, Dada Adan\u0256ozan hwl\u025bn
+  t\u025bn e nyi et\u0254n \u0254 bo yi a. Ye l\u025b gb\u025b n''\u01d0i \u0256\u0254
+  ny\u01d0k\u0254 e do x\u0254 to na e \u0254 ni ma s\u0254 zan, b\u0254 ehuzu ax\u0254vi
+  Akakpo.\"", "\"Afyank\u00f9 b''\u025b \u00e9 yl\u0254 \u0256o flans\u00e9gb\u00e9m\u025b
+  \u0256\u0254 antilope chaval alo antilope hippotrague nyi zunm\u025b kanlin b\u00f3
+  \u0256o tof\u0254ligb\u00e9-hwef\u0254ngbaji aflika t\u0254n.\\nY\u00e9 n\u0254
+  w\u01ce n\u01d4 \u0256o kpl\u00e9 kpl\u00e9 m\u025b b\u00f3 n\u0254 \u0256u amaa[1].
+  Kinikini w\u025b nyi afyank\u00f9 s\u00ecn kant\u0254\u0300 tawun t\u0254n.\\nAfyank\u00f9
+  l\u025b\u0300 \u0256o tof\u0254ligb\u00e9-hwef\u0254ngbaji m\u025bwigbeji t\u0254n.
+  Y\u00e9 n\u0254 m\u0254 ye tawun \u0256o Mozambiquet\u00f2\u201a Tanzanit\u00f2\u201a
+  Zambit\u00f2\u201a Namibit\u00f2\u201a Botswanat\u00f2\u201a K\u0254ngot\u00f2,
+  Angolat\u00f2 kpod\u00f2 Afrique du sud kpan m\u025b.\\nAfyank\u00f9 as\u01d4 n\u0254
+  nyi wiw\u00ec b\u0254 as\u00ec n\u0254 c\u00ec k\u0254s\u00ecnn\u0254. As\u01d4
+  l\u025b\u0300 n\u0254 l\u025bv\u0254 do z\u014f x\u00ecx\u01ce x\u01d4 asi l\u025b\u0300[2].\\n-\\nAfyank\u00f9
+  asi -\\nAfyank\u00f9 as\u01d4\"", "\"M\u025b e n\u0254 kp\u00e9 nuk\u00fan d\u00f3
+  t\u025bn \u025bnt\u025bn\u025bti t\u0254n www.zhitov.ru wu, b\u0254 \u00e8 n\u0254
+  yl\u0254 \u0256\u00f2 f\u00ed \u0256\u0254 t\u025bn \u025bnt\u025bn\u025bti t\u0254n
+  \u0254 \u00e9 n\u0254 \u0256\u00f3 s\u00eds\u00ed n\u00fa ac\u025b e m\u025b e n\u0254
+  y\u00ec t\u025bn \u025bnt\u025bn\u025bti t\u0254n el\u0254 j\u00ed l\u025b \u00e9
+  \u0256\u00f3 \u00e9. M\u01d0 tu\u00f9n ganji \u0256\u0254 n\u01d4 m\u025b\u0256esun\u0254
+  t\u0254n e m\u025b e n\u0254 w\u00e1 t\u025bn \u0190nt\u025bn\u025bti t\u0254n m\u01d0t\u0254n
+  j\u00ed l\u025b \u00e9 \u0256\u00f3 \u00e9 \u0256\u00f2 taji tawun. N\u01d4 e m\u01d0
+  n\u0254 y\u00ed bo n\u0254 l\u025b\u0301 x\u00f2 kpl\u00e9 hwenu e a \u0256\u00f2
+  t\u025bn \u0190nt\u025bn\u025bti t\u0254n el\u0254 z\u00e1n w\u025b \u00e9 w\u025b
+  \u0256\u00f2 wexw\u025b el\u0254 j\u00ed. M\u01d0 \u0256\u00f3 nuk\u00fan \u0256\u0254
+  n\u01d4 en\u025b l\u025b na d\u2019al\u0254 we b\u0254 a na w\u00e1 gbeta e s\u0254gbe
+  l\u025b \u00e9 k\u0254n d\u00f3 n\u01d4 m\u025b\u0256esun\u0254 t\u0254n e a na
+  m\u01d0 l\u025b \u00e9 j\u00ed.\\nN\u01d4 e \u00e8 n\u0254 x\u00f2 kpl\u00e9 gb\u0254n
+  t\u025bn \u0190nt\u025bn\u025bti t\u0254n el\u0254 j\u00ed l\u025b \u00e9 kpo n\u01d4
+  e \u00e8 n\u0254 x\u00f2 kpl\u00e9 gb\u0254n t\u025bn \u0190nt\u025bn\u025bti t\u0254n
+  el\u0254 j\u00ed l\u025b \u00e9 kpo k\u025b\u0256\u025b w\u025b S\u025b\u0301n M\u025b\u0256esun\u0254
+  T\u0254n el\u0254 k\u00e0n.\\nN\u01d4 e \u00e8 x\u00f2 kpl\u00e9 l\u025b \u00e9
+  .\\nEnyi a y\u00ec t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 j\u00ed \u0254,
+  m\u01d0 n\u0254 tu\u00f9n nyik\u0254 dom\u025b t\u0254n m\u025b e n\u0254 na n\u01d4
+  we \u00e9 t\u0254n, t\u00f2 t\u0254n kpo f\u00ed e \u00e8 na \u0256y\u0254 wexw\u025b
+  e \u00e8 s\u0254\u0301 l\u025b \u00e9 kpo \u0256\u00e8 \u00e9.\\n\u00c8 sixu z\u00e1n
+  n\u01d4 e m\u01d0 n\u0254 m\u0254 \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti
+  t\u0254n el\u0254 j\u00ed l\u025b \u00e9 d\u00f3 bl\u00f3 b\u0254 a na z\u00e1n
+  t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 b\u0254 \u00e9 na b\u0254w\u01d4
+  n\u00fa we, b\u0254 n\u01d4 el\u0254 l\u025b \u0256\u00ede:\\n- bl\u00f3 tuto n\u00fa
+  t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 \u0256\u00f2 ali e b\u0254kun hug\u01cen
+  n\u00fa m\u025b e n\u0254 z\u00e1n l\u025b \u00e9 nu \u00e9 .\\nN\u01d4 m\u025b\u0256esun\u0254
+  t\u0254n \u0256\u011b\u0256ee a na kpo jl\u01d2 kpo hwenu e a y\u00ec t\u025bn \u0190nt\u025bn\u025bti
+  t\u0254n \u0254 j\u00ed al\u01d2 wlan nyik\u0254 d\u00f3 j\u00ed \u00e9 k\u025b\u0256\u025b
+  w\u025b t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 n\u0254 x\u00f2 kpl\u00e9.
+  N\u01d4 e n\u0254 xl\u025b\u0301 \u0256\u0254 a ny\u00ed m\u025b\u0256\u00e9 \u00e9
+  w\u025b \u0256\u00f2 n\u01d4 m\u025b\u0256esun\u0254 t\u0254n l\u025b m\u025b, \u0256i
+  nyik\u0254 towe al\u01d2 adl\u025bsi e-mail towe. Hwenu e a sixu kp\u0254\u0301n
+  n\u01d4 e \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti t\u0254n el\u0254 j\u00ed
+  l\u025b \u00e9, bo ma ka na wlan nyik\u0254 d\u00f3 wema m\u025b \u01ce \u00e9 \u0254,
+  a na \u0256\u00f3 na wlan nyik\u0254 d\u00f3 wema m\u025b cobo na \u0256u l\u00e8
+  n\u01d4 \u0256\u00e9 l\u025b t\u0254n.\\nT\u025bn \u0190nt\u025bn\u025bti t\u0254n
+  \u0254 n\u0254 z\u00e1n n\u01d4nyw\u025b xwitixwiti s\u00edn n\u01d4 l\u025b d\u00f3
+  bl\u00f3 gbe\u0256i\u0256\u00f3 n\u01d4jl\u025bdon\u01d4wu t\u0254n l\u025b. Cookies
+  l\u025b n\u0254 \u0256\u00f3 n\u01d4 \u0256\u011b\u0256ee sixu \u0256\u00f2 dandan
+  n\u00fa t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 l\u025b \u00e9 - bo na
+  d\u00f3 h\u025bn n\u01d4 e a s\u0254\u0301 \u0256\u2019ay\u01d0 l\u025b \u00e9 \u0256\u00f3
+  t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 j\u00ed bo na d\u00f3 sixu kp\u0254\u0301n
+  n\u01d4 l\u025b, lobo na l\u025b\u0301 x\u00f2 n\u01d4jl\u025bdon\u01d4wu l\u025b
+  kpl\u00e9 \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 j\u00ed,
+  \u00e9 w\u025b ny\u00ed \u0256\u0254. Am\u0254\u030c, n\u01d4 en\u025b l\u025b b\u01d0
+  k\u00e0n hwi m\u025b \u0256okpo \u0256okpo \u0256\u00f2 ali \u0256eb\u01d4 nu \u01ce.
+  Cookie l\u025b n\u0254 wlan adl\u025bsi e-mail towe al\u01d2 n\u01d4 m\u025b\u0256esun\u0254
+  t\u0254n \u0256eb\u01d4 d\u00f3 w\u01d4 we \u01ce. M\u025b e n\u0254 kp\u0254\u0301n
+  jon\u0254 l\u025b \u00e9 l\u0254 n\u0254 z\u00e1n n\u01d4nyw\u025b xwitixwiti s\u00edn
+  n\u01d4 en\u025b \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 j\u00ed.\\nG\u0254\u0301
+  na \u0254, m\u01d0 n\u0254 z\u00e1n n\u01d4 e \u00e8 n\u0254 yl\u0254 \u0256\u0254
+  standard web logs \u00e9 d\u00f3 x\u00e0 m\u025b nabi e w\u00e1 t\u025bn \u0190nt\u025bn\u025bti
+  t\u0254n m\u01d0t\u0254n j\u00ed l\u025b \u00e9, bo n\u0254 l\u025b\u0301 gb\u00e9j\u00e9
+  n\u01d4wukpikp\u00e9 n\u01d4nyw\u025b xwitixwiti t\u0254n e \u0256\u00f2 t\u025bn
+  \u0190nt\u025bn\u025bti t\u0254n m\u01d0t\u0254n j\u00ed l\u025b \u00e9 kp\u0254\u0301n.
+  M\u01d0 n\u0254 z\u00e1n n\u01d4 en\u025b l\u025b d\u00f3 tu\u00f9n m\u025b nabi
+  e n\u0254 y\u00ec t\u025bn \u0190nt\u025bn\u025bti t\u0254n el\u0254 j\u00ed \u00e9,
+  bo n\u0254 l\u025b\u0301 t\u00f2 wema l\u025b \u0256\u00f2 ali e b\u0254kun hug\u01cen
+  \u00e9 nu, bo n\u0254 kp\u0254\u0301n \u0256\u0254 t\u025bn \u0190nt\u025bn\u025bti
+  t\u0254n \u0254 s\u0254gbe x\u00e1 n\u01d4 e ye n\u0254 z\u00e1n l\u025b \u00e9,
+  lobo n\u0254 bl\u00f3 b\u0254 n\u01d4 e \u0256\u00f2 t\u025bn \u025bnt\u025bn\u025bti
+  t\u0254n m\u01d0t\u0254n l\u025b j\u00ed l\u025b \u00e9 n\u0254 h\u025bn l\u00e8
+  w\u00e1 n\u00fa jon\u0254 m\u01d0t\u0254n l\u025b lee \u00e9 ny\u0254\u0301 bl\u00f3
+  gb\u0254n \u00e9. M\u01d0 n\u0254 wlan n\u01d4 d\u00f3 f\u00ed e \u00e8 n\u0254
+  s\u025b\u0300 t\u025bn y\u00ec \u00e9 j\u00ed \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti
+  t\u0254n el\u0254 j\u00ed, am\u0254\u030c, m\u01d0 n\u0254 wlan n\u01d4 d\u00f3
+  m\u025b \u0256okpo \u0256okpo j\u00ed \u01ce, en\u025b wu \u0254, \u00e8 na h\u025bn
+  n\u01d4 tawun tawun e k\u00fankpl\u00e1 we l\u025b \u00e9 \u0256\u011b al\u01d2
+  z\u00e1n ye \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 j\u00ed
+  \u01ce, enyi a ma y\u00ed gb\u00e8 na \u01ce \u0254 n\u025b.\\nBo na d\u00f3 kp\u0254\u0301n
+  n\u01d4 l\u025b cookies m\u025bvo \u0254, a sixu bl\u00f3 b\u0254 n\u01d4 e a n\u0254
+  z\u00e1n \u0256\u00f2 \u025bnt\u025bn\u025bti j\u00ed \u00e9 na y\u00ed cookies
+  l\u025b \u01ce, al\u01d2, enyi \u00e8 s\u025b\u0301 ye d\u00f3 we \u0254, \u00e9
+  na n\u0254 \u0256\u0254 n\u00fa we \u01ce.\\nN\u01d4 l\u025b m\u00edm\u00e1.\\n\u00d0\u00f2
+  nin\u0254m\u025b \u0256eb\u01d4 m\u025b \u0254, Az\u0254\u030cx\u0254sa E N\u0254
+  Kp\u00e9 Nuk\u00fan D\u00f3 T\u025bn \u0190nt\u025bn\u025bti T\u0254n Wu \u00c9
+  n\u0254 s\u00e0 al\u01d2 x\u0254 n\u01d4 m\u025b\u0256esun\u0254 t\u0254n towe l\u025b
+  n\u00fa m\u025b \u0256evo l\u025b \u01ce. M\u01d0 n\u0254 l\u025b\u0301 \u0256\u00e8
+  n\u01d4 m\u025b\u0256esun\u0254 t\u0254n e a na l\u025b \u00e9 xl\u025b\u0301 \u01ce,
+  afi n\u00fa s\u025b\u0301n by\u0254 m\u0254\u030c.\\nM\u025b e n\u0254 kp\u00e9
+  nuk\u00fan d\u00f3 t\u025bn \u025bnt\u025bn\u025bti t\u0254n \u0254 wu l\u025b \u00e9
+  \u0256\u00f3 kancica \u0256\u00e9 x\u00e1 Google, b\u0254 ye n\u0254 s\u0254\u0301
+  n\u01d4 e \u00e8 n\u0254 jla l\u025b \u00e9 kpo n\u01d4 e \u00e8 n\u0254 jla l\u025b
+  \u00e9 kpo \u0256\u00f3 t\u025bn \u025bnt\u025bn\u025bti t\u0254n \u0254 s\u00edn
+  wexw\u025b l\u025b j\u00ed, bo n\u0254 s\u00fa akw\u025b \u0256\u00e9. \u00d0\u00f2
+  al\u0254dido en\u025b m\u025b \u0254, Az\u0254\u030cx\u0254sa E N\u0254 Kp\u00e9
+  Nuk\u00fan D\u00f3 T\u025bn \u0190nt\u025bn\u025bti T\u0254n Wu \u00c9 n\u0254 h\u025bn
+  n\u01d4 el\u0254 l\u025b w\u00e1 n\u00fa m\u025b e \u0256\u00f3 jl\u01d2 l\u025b
+  \u00e9 b\u01d0:\\n1. Google, ee ny\u00ed n\u01d4sat\u0254\u0301 m\u025b \u0256evo
+  t\u0254n \u00e9 n\u0254 z\u00e1n cookies l\u025b d\u00f3 jla n\u01d4 l\u025b \u0256\u00f2
+  t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254 j\u00ed.\\n2. Google n\u0254 z\u00e1n
+  cookies n\u01d4jlajla t\u0254n DoubleClick DART t\u0254n l\u025b \u0256\u00f2 n\u01d4jlajla
+  e \u00e8 n\u0254 jla \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti t\u0254n \u0254
+  j\u00ed l\u025b \u00e9 m\u025b, bo n\u0254 \u0256\u2019al\u0254 \u0256\u00f2 tuto
+  AdSense n\u00fa n\u01d4 e \u0256\u00f2 t\u025bn \u0190nt\u025bn\u025bti t\u0254n
+  \u0254 j\u00ed l\u025b \u00e9 m\u025b.\\n3. Google s\u00edn cookie DART zinzan n\u0254
+  z\u0254\u0301n b\u0254 \u00e9 n\u0254 x\u00f2 n\u01d4 e m\u025b e w\u00e1 t\u025bn
+  \u0190nt\u025bn\u025bti t\u0254n el\u0254 j\u00ed l\u025b \u00e9 \u0256\u0254 l\u025b
+  \u00e9 kpl\u00e9 bo n\u0254 l\u025b\u0301 z\u00e1n ye, \u00e9 ma ny\u00ed nyik\u0254,
+  adl\u025bsi, adl\u025bsi e-mail t\u0254n al\u01d2 alokan s\u00edn k\u025b\u0301n
+  \u01ce, d\u00f3 lee a n\u0254 y\u00ec t\u025bn \u0190nt\u025bn\u025bti t\u0254n
+  \u0254 j\u00ed gb\u0254n \u00e9 kpo t\u025bn \u025bnt\u025bn\u025bti t\u0254n \u0256evo
+  l\u025b kpo j\u00ed, bo na d\u00f3 sixu jla n\u01d4 e \u00e8 n\u0254 s\u00e0 l\u025b
+  \u00e9 kpo az\u0254\u030c e \u00e8 n\u0254 w\u00e0 l\u025b \u00e9 kpo . n\u00fa
+  we.\\n4. Google n\u0254 xwed\u00f3 tuto m\u025b\u0256esun\u0254 t\u0254n l\u025b
+  d\u00f3 x\u00f2 n\u01d4 en\u025b l\u025b kpl\u00e9.\\n5. M\u025b e n\u0254 z\u00e1n
+  t\u025bn \u025bnt\u025bn\u025bti t\u0254n el\u0254 l\u025b \u00e9 sixu gb\u025b\u0301
+  \u0256\u0254 emi k\u00fan na z\u00e1n cookies DART t\u0254n l\u025b \u00f3 gb\u0254n
+  .\\nS\u025b\u0301n M\u025b\u0256esun\u0254 T\u0254n n\u00fa Google Ads kpo X\u00f3jlawema
+  Az\u0254\u030cgb\u025b\u0301 l\u025b T\u0254n kpo.\\nN\u01d4 e \u00e8 \u0256\u0254
+  \u00e9\\nMi k\u025bnkl\u025bn fl\u00edn \u0256\u0254 n\u01d4 m\u025b\u0256esun\u0254
+  t\u0254n l\u025b \u0256i\u0256e s\u025b\u0301d\u00f3 m\u025b hwenu e \u00e8 \u0256\u00f2
+  t\u025bn \u025bnt\u025bn\u025bti t\u0254n m\u025b \u0256evo l\u025b t\u0254n j\u00ed
+  y\u00ec w\u025b \u00e9, kaka j\u025b t\u025bn \u025bnt\u025bn\u025bti t\u0254n az\u0254\u030cxw\u00e9
+  e \u0256\u00f2 az\u0254\u030c w\u00e0 \u0256\u00f3 kp\u0254\u0301 x\u00e1 m\u01d0
+  w\u025b l\u025b \u00e9 j\u00ed \u00e9 j\u00ed, enyi t\u025bn \u025bnt\u025bn\u025bti
+  t\u0254n \u0254 na bo tl\u025b \u0256\u00f3 x\u00f3jlawema \u0256\u00e9 al\u01d2
+  t\u025bn \u025bnt\u025bn\u025bti t\u0254n \u0254 \u0256\u00f3 x\u00f3jlawema en\u025b
+  l\u025b \u0254, wema el\u0254 k\u00fan \u0256\u0254 x\u00f3 d\u2019eji \u00f3. N\u01d4
+  e t\u025bn \u025bnt\u025bn\u025bti t\u0254n \u0256evo l\u025b n\u0254 w\u00e0 l\u025b
+  \u00e9 s\u00edn agban w\u025b ny\u00ed Az\u0254\u030cx\u0254sa E N\u0254 Kp\u00e9
+  Nuk\u00fan D\u00f3 T\u025bn \u0190nt\u025bn\u025bti T\u0254n Wu \u00c9 \u01ce. Wema
+  \u201cProtection des informations personnelles\u201d al\u01d2 n\u01d4 m\u0254hun
+  \u0256evo e \u0256\u00f2 t\u025bn \u025bnt\u025bn\u025bti t\u0254n az\u0254\u030cxw\u00e9
+  en\u025b l\u025b t\u0254n j\u00ed \u00e9 w\u025b n\u0254 \u0256\u0254 lee \u00e8
+  n\u0254 x\u00f2 n\u01d4 m\u025b\u0256esun\u0254 t\u0254n l\u025b kpl\u00e9 bo n\u0254
+  l\u025b\u0301 s\u025b\u0301d\u00f3 m\u025b \u0256evo l\u025b gb\u0254n \u00e9.\"",
+  "\"Isidore de Souza, b''\u025b ji i \u0256o az\u01cen \u025bn\u025b g\u0254 \u0254
+  (4) Lidos\u00f9n xw\u00e8 1934 t\u0254n m\u025b \u0256o Glexw\u00e9 \u0254, nyi
+  y\u025bhwen\u0254gan Iggl\u00e9j\u00e1 Katolika t\u0254n. \u00c9 nyi y\u025bhwen\u0254gan
+  nu y\u025bhwen\u0254xwedo Kut\u0254nu t\u0254n b\u025b sin az\u01cen k\u01d2 at\u0254\u0254n
+  nukun w\u00e8 g\u0254 (27), woos\u00f9n xw\u00e8 1990 t\u0254n yi j\u025b hwenu
+  \u00e9 nyi matint\u0254 \u00e9 \u0256o az\u01cen w''at\u0254n g\u0254 \u0254 (13)
+  Xw\u00e9j\u00eds\u00f9n xw\u00e8 1999 t\u0254n m\u025b.\\n\u00c9 do wuntun Isidore
+  de Souza, b''\u025b huzu y\u025bhwen\u0254 \u0256o xw\u00e8 1962 t\u0254n m\u025b.
+  \u00c9 kpl\u0254n w\u00e9ma g\u0254 nu w\u00e9ma \u0256o yovoto Roma t\u0254n m\u025b
+  bo n\u0254 f\u01d0 n\u025b hwenu \u011b blo kpl\u00e9 \u0256axo y\u025bhwen\u0254gan
+  l\u025b t\u0254n \u00e9 yl\u0254 \u0256\u0254 Vatican II \u00e9.\\n\u00c9 wa kpl\u0254n
+  w\u00e9ma m\u025b \u0256o w\u00e9max\u0254m\u025b sins\u025bnnuwiwa t\u0254n Abidjan
+  t\u0254n lo bo w''az\u0254 nu \u0256y\u0254\u0256y\u0254 w\u00e9max\u0254m\u025b
+  \u0254 t\u0254n b''\u025b huzu Wemax\u0254m\u025b Igl\u00e9ja Katolika hw\u00e9yix\u0254waj\u00ed
+  Aflika t\u0254n ee yl\u0254 \u0256o Flans\u00e9gb\u00e8m\u025b \u0256\u0254 Institut
+  catholique de l''Afrique de l''Ouest \u00e9.\\nY\u025bhwen\u0254gan Isidore de Souza
+  w\u025b nyi gan nu gb\u025bta \u00e9 xw\u00e9 aza \u0256o t\u00e1 nu kple \u0256axo
+  \u00e8 blo \u0256o Ben\u025b\u025bto m\u025b \u0256o zoflinpl\u0254sun xwe 1990
+  t\u0254n m\u025b e \u0256o PLM Aledjo b''\u025b yl\u0254 \u0256\u0254 Conf\u00e9rence
+  nationale \u00e9. \u00c9 l\u025b nyi gan nu Gb\u025bta \u0256aho \u011b s\u0254
+  do t\u00e9, \u0256o kpl\u00e9 n\u025b gudo e bo na do kp\u00e9nukun do titom\u025b
+  Ben\u025b\u025bto t\u0254n l\u025b wu b''\u025b yl\u0254 \u0256\u0254 Haut Conseil
+  de la R\u00e9publique \u0256o flans\u00e9gb\u00e8m\u025b \u00e9.\\n\u0189o Glexw\u00e9
+  \u0254, \u00e9 gba wemax\u0254m\u025b \u0256okpo lobo sunny\u01d0 \u0256\u0254 Isidore
+  de Souza.\"", "\"\u201cMi fl\u00edn \u0256\u0254 mi \u0256\u00f3 na y\u00ed ye m\u025b
+  e n\u0254 w\u00e1 ba jon\u0254 mi l\u025b \u00e9 ganji.\u201d\u2014EBL. 13:2.\\nHAN
+  L\u0190: 124, 79\\n1, 2. (a) Wuv\u025b\u030c t\u025b l\u025b jon\u0254 g\u00e8g\u011b
+  ka n\u0254 m\u0254 \u0256\u00f2 \u00e9gb\u00e9? (Kp\u0254\u0301n f\u0254t\u00f3o
+  e \u0256\u00f2 b\u01d0b\u025b\u030cm\u025b \u00e9.) (b) Et\u025b m\u025bs\u025b\u0301d\u00f3
+  P\u0254lu ka fl\u00edn m\u01d0? N\u00f9kanby\u0254 t\u025b l\u025b n\u00f9fl\u00ednm\u025b
+  en\u025b ka s\u0254\u0301 ny\u00ec at\u025b j\u00ed?\\nXW\u00c8 ko h\u00fa 30 d\u00ecn
+  b\u0254, Osei [1] e ma ny\u00ed K\u00fannu\u0256et\u0254\u0301 hwen\u025bnu \u01ce
+  \u00e9 gosin Ghana bo w\u00e1 El\u0254pu. \u00c9 fl\u00edn \u0256\u0254: \u201cUn
+  yawu \u0256\u2019ayi wu \u0256\u0254 g\u00e8g\u011b m\u025b l\u025b t\u0254n k\u00fan
+  keya n\u00fa m\u00ec \u00f3. J\u0254h\u0254n \u0254 l\u0254 f\u00e1 h\u00fa glasi.
+  Hwenu e un gosin j\u0254m\u025bhunjay\u01d0t\u025bn \u0254 b\u0254 aviv\u0254 \u0254
+  bla m\u00ec az\u0254n nuk\u0254nt\u0254n \u00e9 \u0254, un b\u025b\u0301 av\u01d0.\u201d
+  \u00d0\u00f3 Osei s\u00e8 gb\u00e8 ganji \u01ce wutu \u0254, \u00e9 n\u0254 az\u0254\u030c
+  j\u0254 az\u0254\u030c \u0256\u00e9 ma m\u0254 kaka n\u00fa xw\u00e8 \u0256okpo
+  j\u025bji. \u00d0\u00f3 \u00e9 l\u00edn d\u00f3 m\u025b t\u0254n l\u025b wutu \u0254,
+  \u00e9 n\u0254 m\u0254 \u0256\u0254 emi \u0256\u00f2 emi\u0256okpon\u0254 b\u0254
+  xw\u00e9 n\u0254 jl\u00f3 \u00e8.\\n2 Lin tam\u025b d\u00f3 lee a na jl\u00f3 \u0256\u0254
+  m\u025b \u0256evo l\u025b ni w\u00e0 n\u01d4 x\u00e1 we gb\u0254n hwenu e a na \u0256\u00f2
+  nin\u0254m\u025b m\u0254hun m\u025b \u00e9 j\u00ed. Enyi \u00e8 y\u00ed we kpo akp\u00e0kp\u00e0
+  s\u0254\u0301 m\u025b kpo \u0256\u00f2 Kpl\u00e9x\u0254 Ax\u0254su\u0256uto \u0254
+  T\u0254n m\u025b, ma keya n\u00fa t\u00f2 e m\u025b a gosin \u00e9 al\u01d2 sinm\u025b
+  e agbaza towe \u0256\u00f3 \u00e9 \u0254, \u00e9 na s\u00f9 nuk\u00fan towe m\u025b
+  \u00e0 c\u00e9? Nugb\u01d2 \u0254, Biblu d\u00f3 wusy\u025bn lanm\u025b n\u00fa
+  Klisanwun nugb\u01d2 l\u025b \u0256\u0254: \u201cMi fl\u00edn \u0256\u0254 mi \u0256\u00f3
+  na n\u0254 y\u00ed ye m\u025b e n\u0254 w\u00e1 ba jon\u0254 mi l\u025b \u00e9 ganji.\u201d
+  (Ebl. 13:2) En\u025b wu \u0254, mi n\u00fa m\u01d0 ni gb\u00e9j\u00e9 n\u00f9kanby\u0254
+  el\u0254 l\u025b kp\u0254\u0301n: Linlin t\u025b Jehovah ka \u0256\u00f3 d\u00f3
+  jon\u0254 l\u025b wu? Et\u025bwu \u00e9 ka sixu by\u0254 \u0256\u0254 m\u01d0 ni
+  \u0256y\u0254 linlin e m\u01d0 n\u0254 \u0256\u00f3 d\u00f3 jon\u0254 l\u025b wu
+  \u00e9? N\u025b\u030c m\u01d0 ka sixu d\u2019al\u0254 m\u025b e gosin t\u00f2 \u0256evo
+  m\u025b l\u025b \u00e9 b\u0254 ye na vo \u0256\u00f2 agun \u0254 m\u025b gb\u0254n?\\nLINLIN
+  E JEHOVAH \u00d0\u00d3 D\u00d3 JON\u0186 L\u0190 WU \u00c9\\n3, 4. S\u0254gbe kpo
+  T\u00ednt\u0254\u0301n 23:9 kpo \u0254, n\u025b\u030c togun Mawu t\u0254n hwex\u00f3nu
+  t\u0254n \u0254 ka \u0256\u00f3 na w\u00e0 n\u01d4 x\u00e1 jon\u0254 l\u025b gb\u0254n?
+  Et\u025bwu?\\n3 Ee Jehovah hwl\u025bn togun t\u0254n s\u00edn Ejipu gudo \u00e9
+  \u0254, \u00e9 na ye s\u025b\u0301n \u0256\u011b\u0256ee xl\u025b\u0301 \u0256\u0254
+  \u00e9 ny\u0254\u0301 xom\u025b bun\u0254 \u0256\u00e9 d\u00f3 ak\u0254ta t\u025bnm\u025b
+  t\u025bnm\u025b e ny\u00ec ahwan xwed\u00f3 ye l\u025b \u00e9 wu \u00e9. (T\u00edn.
+  12:38, 49; 22:20) \u00d0\u00f3 jon\u0254 l\u025b n\u0254 \u0256\u00f2 hudo m\u025b
+  wutu \u0254, Jehovah bl\u00f3 tuto n\u01d4 g\u00e8g\u011b t\u0254n \u0256\u2019ay\u01d0
+  n\u00fa ye kpo xom\u025bny\u00edny\u0254\u0301 kpo. N\u01d4k\u00fan cyancyan \u0256\u00f2
+  gle l\u025b m\u025b ny\u00ed \u0256okpo \u0256\u00f2 ac\u025b e ye \u0256\u00f3
+  l\u025b \u00e9 m\u025b.\u2014Lev. 19:9, 10.\\n4 Jehovah \u0256egbe n\u00fa Izlay\u025bli-v\u00ed
+  l\u025b kpowun \u0256\u0254 ye ni n\u0254 \u0256\u00f3 s\u00eds\u00ed n\u00fa jon\u0254
+  l\u025b \u01ce, \u00e9 ny\u0254\u0301 w\u00e0 \u0254, \u00e9 by\u0254 ye \u0256\u0254
+  ye ni s\u00e8 wuv\u025b\u030c x\u00e1 jon\u0254 l\u025b. (X\u00e0 T\u00ednt\u0254\u0301n
+  23:9.) Ye tu\u00f9n \u201cn\u01d4 e n\u0254 gb\u00f2 to\u0256evom\u025bnu \u00e9.\u201d
+  Cobonu Ejipunu l\u025b tl\u025b na s\u0254\u0301 Ebl\u00e9e l\u025b d\u00f3 \u0256\u00f3
+  kannum\u0254 \u0254, \u00e9 c\u00ed \u0256\u0254 ye ko n\u0254 gb\u025b\u0301 w\u01cen
+  n\u00fa ye \u0256\u00f3 ak\u0254 k\u00ednkl\u00e1n al\u01d2 sins\u025bn \u0256okpo
+  \u0254 m\u025b e ye ma \u0256\u00e8 \u01ce \u00e9 wutu. (B\u01d0b. 43:32; 46:34;
+  T\u00edn. 1:11-14) Izlay\u025bli-v\u00ed l\u025b jiya tawun hwenu e ye ny\u00ed
+  jon\u0254 \u0256\u00f2 t\u00f2 \u0256evo m\u025b \u00e9, am\u0254\u030c, Jehovah
+  by\u0254 ye \u0256\u0254 ye ni w\u00e0 n\u01d4 x\u00e1 jon\u0254 l\u025b \u2018t\u00f2
+  yet\u0254n m\u025b nu w\u025b ye ny\u00ed \u0256\u0254hun.\u2019\u2014Lev. 19:33,
+  34.\\n5. Et\u025b ka na d\u2019al\u0254 m\u01d0 b\u0254 jon\u0254 l\u025b s\u00edn
+  n\u01d4 na n\u0254 \u0256u ayi m\u025b n\u00fa m\u01d0 Jehovah \u0256\u0254hun?\\n5
+  \u00d0\u00f2 \u00e9gb\u00e9 \u0256esu \u0254, m\u01d0 sixu kudeji \u0256\u0254 to\u0256evom\u025bnu
+  e n\u0254 w\u00e1 kpl\u00e9 l\u025b \u0256\u00f2 agun m\u01d0t\u0254n l\u025b m\u025b
+  l\u025b \u00e9 s\u00edn n\u01d4 n\u0254 \u0256u ayi m\u025b n\u00fa Jehovah. (S\u025b\u0301n.
+  10:17-19; Mal. 3:5, 6) Enyi m\u01d0 lin tam\u025b d\u00f3 wuv\u025b\u030c e ye n\u0254
+  m\u0254 l\u025b \u00e9, \u0256i m\u025b k\u00ednkl\u00e1n \u0256\u00f3 vo al\u01d2
+  gbemase j\u00ed \u0254, m\u01d0 na ba ali e nu m\u01d0 na \u0256\u00e8 xom\u025bny\u00edny\u0254\u0301
+  kpo wanyiyi n\u0254v\u00ed n\u0254v\u00ed t\u0254n kpo xl\u025b\u0301 ye \u0256\u00e8
+  l\u025b \u00e9.\u20141 Pi. 3:8.\\n\u00c9 KA BY\u0186 \u00d0\u0186 M\u01cf NI \u00d0Y\u0186
+  LINLIN E M\u01cf N\u0186 \u00d0\u00d3 D\u00d3 JON\u0186 L\u0190 WU \u00c9 W\u0190
+  \u00c0?\\n6, 7. Et\u025b ka \u0256exl\u025b\u0301 \u0256\u0254 Klisanwun xw\u00e8
+  kanweko nuk\u0254nt\u0254n \u0254 t\u0254n l\u025b t\u025bnkp\u0254n bo \u0256u
+  \u0256\u00f2 linlin ag\u0254 \u0256i\u0256\u00f3 d\u00f3 m\u025b \u0256evo l\u025b
+  wu sy\u025bnsy\u025bn j\u00ed?\\n6 Klisanwun xw\u00e8 kanweko nuk\u0254nt\u0254n
+  \u0254 t\u0254n l\u025b t\u025bnkp\u0254n bo \u0256u \u0256\u00f2 linlin ag\u0254
+  \u0256i\u0256\u00f3 d\u00f3 m\u025b \u0256evo l\u025b wu e kpa zinkpo \u0256\u00f2
+  Jwifu l\u025b t\u025bntin \u00e9 j\u00ed. \u00d0\u00f2 Pantekotu xw\u00e8 33 H.M.
+  t\u0254n \u0254, ye m\u025b e n\u0254 n\u0254 Jeluzal\u025bmu l\u025b \u00e9 y\u00ed
+  jon\u0254 m\u025b \u0256\u011b\u0256ee gosin x\u00e1 vovo l\u025b m\u025b bo huzu
+  Klisanwun y\u0254y\u0254\u030c l\u025b \u00e9 t\u0254n. (M\u025b. 2:5, 44-47) Lee
+  n\u00f9\u0256it\u0254\u0301 ay\u01d0 \u0256evo j\u00ed t\u0254n l\u025b s\u00edn
+  n\u01d4 \u0256u ayi m\u025b n\u00fa Klisanwun Jwifu l\u025b gb\u0254n \u00e9 xl\u025b\u0301
+  \u0256\u0254 ye m\u0254 nuk\u00fann\u00fa j\u025b x\u00f3kwin \u201cjon\u0254yiyi\u201d
+  \u0254 s\u00edn tinm\u025b wu, \u00e9 w\u025b ny\u00ed \u201cxom\u025bny\u00edny\u0254\u0301
+  d\u00f3 jon\u0254 l\u025b wu.\u201d\\n7 \u00c9 \u0256\u00f2 m\u0254\u030c c\u00f3,
+  ee agun Klisanwun nuk\u0254nt\u0254n l\u025b t\u0254n \u0256\u00f2 jij\u025bji w\u025b
+  \u00e9 \u0254, nin\u0254m\u025b e vl\u025b\u0301 m\u025b k\u00ednkl\u00e1n \u0256\u00f3
+  vo \u00e9 \u0256\u00e9 w\u00e1 xwet\u0254\u0301n. Jwifu e n\u0254 d\u00f3 Gl\u025bkigbe
+  l\u025b \u00e9 hlun n\u01d4 \u0256\u0254 j\u00ed \u00e8 k\u00fan \u0256\u00f2 n\u01d4
+  w\u00e0 x\u00e1 as\u00fak\u00fasi emit\u0254n l\u025b w\u025b ganji \u00f3. (M\u025b.
+  6:1) Bo na d\u00f3 \u0256e\u0256\u025b tagba \u0254 \u0254, m\u025bs\u025b\u0301d\u00f3
+  l\u025b \u0256\u00e8 sunnu t\u025bnwe bonu ye na n\u0254 bl\u00f3 b\u0254 \u00e8
+  na dov\u025b\u030c n\u00fa m\u025b\u0256eb\u01d4 \u01ce. Sunnu en\u025b l\u025b
+  b\u01d0 w\u025b \u0256\u00f3 Gl\u025bki nyik\u0254, b\u0254 en\u025b xl\u025b\u0301
+  \u0256\u0254 m\u025bs\u025b\u0301d\u00f3 l\u025b jl\u00f3 na k\u0254n f\u00edf\u00e1
+  d\u00f3 tagba \u0256eb\u01d4 e sixu ko \u0256\u00f2 Klisanwun nuk\u0254nt\u0254n
+  l\u025b t\u025bntin bo k\u00fankpl\u00e1 f\u00ed e nu \u00e8 ny\u00ed \u00e9 \u00e9
+  m\u025b.\u2014M\u025b. 6:2-6.\\n8, 9. (a) Et\u025b ka sixu \u0256exl\u025b\u0301
+  \u0256\u0254 m\u01d0 \u0256\u00f2 linlin ag\u0254 \u0256\u00f3 d\u00f3 m\u025b \u0256evo
+  l\u025b wu w\u025b al\u01d2 m\u01d0 \u0256\u00f2 ak\u0254 kl\u00e1n w\u025b? (b)
+  Et\u025b m\u01d0 ka \u0256\u00f3 na h\u0254n \u0256\u0254 na s\u00edn ayi m\u01d0t\u0254n
+  m\u025b? (1 Pi. 1:22)\\n8 M\u01d0 b\u01d0 w\u025b n\u0254 w\u00e0 n\u01d4 s\u0254gbe
+  x\u00e1 aca f\u00ed e nu m\u01d0 ny\u00ed \u00e9 t\u0254n, enyi m\u01d0 m\u0254
+  nuk\u00fann\u00fa j\u025b wu kpo m\u01d0 gb\u0254 kpo \u0254 n\u025b. (Hl\u0254.
+  12:2) G\u0254\u0301 na \u0254, m\u01d0 na ko s\u00e8 b\u0254 n\u0254zo m\u01d0t\u0254n
+  l\u025b, az\u0254\u030cgb\u025b\u0301 m\u01d0t\u0254n l\u025b, al\u01d2 az\u0254\u030cm\u025bvigb\u025b\u0301
+  m\u01d0t\u0254n l\u025b na \u0256\u0254 x\u00f3 nyanya l\u025b d\u00f3 m\u025b e
+  ny\u00ed f\u00ed \u0256evo nu, ak\u0254 \u0256evo, al\u01d2 \u0256\u00f3 any\u01d4
+  \u0256evo l\u025b \u00e9 wu. B\u01ce t\u025b m\u025b linlin ag\u0254 en\u025b l\u025b
+  ka n\u0254 w\u00e0 n\u01d4 d\u00f3 m\u01d0 wu \u0256\u00f3? Enyi m\u025b\u0256\u00e9
+  c\u00e1 n\u00fa t\u00f2 e m\u025b m\u01d0 gosin \u00e9, vlafo gb\u0254n s\u00ecn
+  did\u00f3 aca m\u01d0t\u0254n \u0256\u00e9 l\u025b j\u00ed gblam\u025b \u0254, n\u025b\u030c
+  m\u01d0 ka n\u0254 w\u00e0 n\u01d4 gb\u0254n?\\n9 M\u025bs\u025b\u0301d\u00f3 Piy\u025b\u0301\u025b
+  \u0256\u00f3 linlin ag\u0254 d\u00f3 m\u025b e ma ny\u00ed Jwifu \u01ce l\u025b
+  \u00e9 wu n\u00fa t\u00e1an \u0256\u00e9, am\u0254\u030c, kp\u025b\u0256\u00e9 kp\u025b\u0256\u00e9
+  \u0254, \u00e9 t\u025bnkp\u0254n bo \u0256\u00e8 linlin m\u0254hun l\u025b s\u00edn
+  ayi m\u025b. (M\u025b. 10:28, 34, 35; Ga. 2:11-14) M\u0254\u030c \u0256okpo \u0254,
+  enyi m\u01d0 \u0256\u2019ayi wu \u0256\u0254 linlin ag\u0254 \u0256i\u0256\u00f3
+  al\u01d2 ak\u0254 k\u00ednkl\u00e1n s\u00edn wuntun \u0256\u00e9 v\u00e1 d\u00f3
+  m\u01d0 wu \u0254, m\u01d0 \u0256\u00f3 na v\u00e1n k\u00e0n tawun bo h\u0254n \u0256\u0254
+  na s\u00edn ayi m\u01d0t\u0254n m\u025b. (X\u00e0 1 Piy\u025b\u0301\u025b 1:22.)
+  M\u01d0 \u0256\u00f3 na fl\u00edn \u0256\u0254 m\u01d0 m\u025b \u0256\u011b k\u00fan
+  j\u025bxa hwl\u025bng\u00e1n \u00f3; m\u01d0 b\u01d0 w\u025b ny\u00ed hw\u025bhut\u0254\u0301,
+  enyi m\u01d0 na bo gosin t\u00f2 \u0256eb\u01d4 m\u025b \u0254 n\u025b. (Hl\u0254.
+  3:9, 10, 21-24) En\u025b wu \u0254, aniwu m\u01d0 ka na n\u0254 m\u0254 \u0256\u0254
+  m\u01d0 hug\u01cen m\u025b \u0256\u011b l\u025b? (1 K\u0254. 4:7) M\u01d0 \u0256\u00f3
+  na \u0256\u00f3 linlin \u0256okpo \u0254 m\u025bs\u025b\u0301d\u00f3 P\u0254lu \u0256\u0254hun,
+  \u00e9y\u025b gb\u025b\u0301 n\u01d4 n\u00fa Klisanwun y\u00ed ami d\u00f3 \u0256\u00e8
+  l\u025b \u0256\u0254: \u201cMi s\u0254\u0301 ny\u00ed jon\u0254 ab\u01d0 m\u025b
+  e gosin f\u00ed \u0256evo bo w\u00e1 \u00e9 \u01ce; lo\u0254, . . . [mi] \u0256\u00f2
+  h\u025bnnu Mawu t\u0254n m\u025b.\u201d (Ef\u025b. 2:19) G\u01cendido b\u00e1 \u0256u
+  \u0256\u00f2 linlin ag\u0254 l\u025b \u0256i\u0256\u00f3 d\u00f3 m\u025b e ny\u00ed
+  f\u00ed \u0256evo nu l\u025b \u00e9 wu j\u00ed na d\u2019al\u0254 m\u01d0 b\u0254
+  m\u01d0 na s\u0254\u0301 m\u025b y\u0254y\u0254\u030c \u0254 d\u00f3.\u2014Kolo.
+  3:10, 11.\\nLEE M\u01cf SIXU NY\u0186\u0301 XOM\u0190 D\u00d3 JON\u0186 L\u0190
+  WU GB\u0186N \u00c9\\n10, 11. N\u025b\u030c Bowozi ka \u0256\u00f3 linlin e Jehovah
+  \u0256\u00f3 d\u00f3 jon\u0254 l\u025b wu \u00e9, \u0256\u00f2 lee \u00e9 w\u00e0
+  n\u01d4 x\u00e1 Hwliti M\u0254wabunu \u0254 gb\u0254n \u00e9 m\u025b gb\u0254n?\\n10
+  \u00c9 \u0256\u00f2 w\u025bn \u0256\u0254 Bowozi \u0256\u00f3 linlin e Jehovah \u0256\u00f3
+  d\u00f3 jon\u0254 l\u025b wu \u00e9, \u0256\u00f2 lee \u00e9 w\u00e0 n\u01d4 x\u00e1
+  Hwliti M\u0254wabunu \u0254 gb\u0254n \u00e9 m\u025b. Hwenu e Bowozi w\u00e1 gle
+  t\u0254n l\u025b kp\u0254\u0301n gb\u00e9 \u0256\u00f2 n\u01d4k\u00fan-yiya hwenu
+  \u00e9 \u0254, \u00e9 \u0256\u2019ayi ny\u0254nu jon\u0254 az\u0254\u030csy\u025bnsy\u025bnwat\u0254\u0301
+  \u0256\u00e9 wu, b\u2019\u025b \u0256\u00f2 n\u01d4k\u00fan cyan w\u025b \u0256\u00f2
+  f\u00ed e n\u01d4k\u00fan-yat\u0254\u0301 t\u0254n l\u025b ko gb\u0254n d\u00edn
+  \u00e9. Ny\u0254nu \u0254 \u0256\u00f3 ac\u025b bo na cyan n\u01d4k\u00fan \u0254
+  m\u0254\u030c c\u00f3, ee Bowozi s\u00e8 \u0256\u0254 \u00e9 t\u00f3 by\u0254 gb\u00e8
+  hw\u025b\u030c \u00e9 \u0254, \u00e9 ny\u0254\u0301 xom\u025b d\u00f3 w\u01d4 t\u0254n
+  bo \u0256\u0254 n\u2019i \u0256\u0254 \u00e9 ni cyan \u0256\u00f2 n\u01d4k\u00fan
+  s\u00edn k\u0254 e \u00e8 ko l\u00ed l\u025b \u00e9 m\u025b.\u2014X\u00e0 Hwliti
+  2:5-7, 15, 16.\\n11 X\u00f3\u0256\u0254\u0256\u00f3kp\u0254\u0301 e b\u0254 d\u2019ewu
+  \u00e9 xl\u025b\u0301 \u0256\u0254 Hwliti kpo nin\u0254m\u025b n\u00f9\u0256\u00e9ma\u0256\u00f3
+  t\u0254n e m\u025b \u00e9 \u0256\u00e8, \u0256\u00f3 \u00e9 ny\u00ed jon\u0254 wutu
+  \u00e9 kpo \u0256u ayi m\u025b n\u00fa Bowozi nugb\u01d2. Hw\u025bjij\u0254 \u0256okpo
+  w\u025b ny\u00ed \u0256\u0254, \u00e9 \u0256\u0254 n\u00fa Hwliti \u0256\u0254 \u00e9
+  ni n\u0254 kp\u0254\u0301 kpo ny\u0254nu l\u025b kpo, bonu sunnu e \u0256\u00f2
+  az\u0254\u030c w\u00e0 \u0256\u00f2 gle \u0254 m\u025b l\u025b \u00e9 ni ma d\u00f3
+  j\u025bngwinj\u025bngwin n\u2019i \u00f3. \u00c9 tl\u025b l\u025b\u0301 bl\u00f3
+  b\u0254 Hwliti na m\u0254 n\u00f9\u0256u\u0256u kpo s\u00ecn kpo b\u2019\u025b na
+  kp\u00e9 \u00e8, az\u0254\u030cwat\u0254\u0301 e \u00e9 y\u00ed l\u025b \u00e9 \u0256\u0254hun.
+  G\u0254\u0301 na \u0254, Bowozi \u0256\u0254 x\u00f3 d\u00f3 \u0256\u00e8 ny\u0254nu
+  jon\u0254 wamam\u0254n\u0254 en\u025b kp\u00f2 \u01ce, lo\u0254, \u00e9 d\u00f3
+  wusy\u025bn lanm\u025b n\u2019i.\u2014Hwliti 2:8-10, 13, 14.\\n12. \u00d0agbe t\u025b
+  xom\u025bny\u00edny\u0254\u0301 m\u01d0t\u0254n ka sixu w\u00e0 n\u00fa jon\u0254
+  e gosin t\u00f2 \u0256evo m\u025b l\u025b \u00e9?\\n12 \u00c9 ny\u00ed wanyiyi cej\u025bnnabi
+  ma \u0256\u00f3 t\u0254n e Hwliti \u0256\u00f3 n\u00fa as\u00fa t\u0254n n\u0254
+  N\u0254em\u00edi \u00e9 k\u025b\u0256\u025b w\u025b jiw\u01d4 n\u00fa Bowozi \u01ce,
+  lo\u0254, Jehovah s\u025bnt\u0254\u0301 e \u00e9 huzu \u00e9 l\u0254 jiw\u01d4 n\u2019i.
+  Xom\u025bny\u00edny\u0254\u0301 Bowozi t\u0254n \u0254, xom\u025b e Jehovah ny\u0254\u0301
+  d\u00f3 ny\u0254nu e w\u00e1 \u2018h\u0254n hwla c\u00ed Mawu Izlay\u025bli t\u0254n
+  s\u00edn awa gl\u0254\u2019 \u00e9 \u0256\u00e9 wu \u00e9 s\u00edn xl\u025b\u030c
+  w\u025b. (Hwli. 2:12, 20; N\u00f9x. 19:17) \u00d0\u00f2 \u00e9gb\u00e9 \u0256esu
+  \u0254, wal\u0254 xom\u025bny\u00edny\u0254\u0301 t\u0254n m\u01d0t\u0254n l\u025b
+  sixu d\u2019al\u0254 \u201cgb\u025bt\u0254\u0301 al\u0254kpa l\u025b b\u01d0\u201d
+  b\u0254 ye na tu\u00f9n nugb\u01d2 \u0254, bo m\u0254 l\u011b d\u00f2 e Jehovah
+  y\u00ed w\u01cen n\u00fa ye s\u0254\u0301 \u00e9.\u20141 Tim. 2:3, 4, NWT.\\n13,
+  14. (a) Et\u025bwu m\u01d0 ka \u0256\u00f3 na n\u0254 d\u00f3 g\u01cen bo d\u00f3
+  gb\u00e8 jon\u0254 l\u025b \u0256\u00f2 Kpl\u00e9x\u0254 Ax\u0254su\u0256uto \u0254
+  T\u0254n m\u025b? (b) Enyi jon\u0254 l\u025b sis\u025bkp\u0254 n\u0254 v\u025bw\u01d4
+  n\u00fa we \u0254, n\u025b\u030c a ka sixu \u0256u \u0256\u2019eji gb\u0254n?\\n13
+  M\u01d0 sixu \u0256\u00e8 xom\u025bny\u00edny\u0254\u0301 xl\u025b\u0301 m\u025b
+  y\u0254y\u0254\u030c e gosin ay\u01d0 \u0256evo j\u00ed l\u025b \u00e9 gb\u0254n
+  gb\u00e8 did\u00f3 ye \u0256\u00f2 Kpl\u00e9x\u0254 Ax\u0254su\u0256uto \u0254 T\u0254n
+  m\u025b kpo wanyiyi kpo gblam\u025b. M\u01d0 sixu ko \u0256\u2019ayi wu \u0256\u0254
+  jon\u0254 l\u025b n\u0254 k\u00fa winnya hwe\u0256el\u025bnu bo n\u0254 s\u025b\u0300
+  ye\u0256\u00e9e xw\u00e8. Kpl\u0254\u0301n e ye y\u00ed \u00e9 al\u01d2 nin\u0254m\u025b
+  yet\u0254n sixu z\u0254\u0301n b\u0254 ye na m\u0254 \u0256\u0254 emi k\u00fan ny\u00ed
+  n\u01d4t\u00ed \u0256\u00f2 ak\u0254 \u0256evo l\u025b al\u01d2 to\u0256evom\u025bnu
+  l\u025b kp\u00e1 \u00f3. En\u025b wu \u0254, m\u01d0 \u0256\u00f3 na \u0256\u00e8
+  af\u0254 nuk\u0254nt\u0254n \u0254 bo xl\u025b\u0301 ye \u0256\u0254 m\u01d0 n\u0254
+  keya n\u00fa ye nugb\u01d2 nugb\u01d2. Enyi JW Language \u0256\u00f2 gb\u00e8 towe
+  m\u025b \u0254, \u00e9 sixu d\u2019al\u0254 we b\u0254 a na kpl\u0254\u0301n lee
+  a na d\u00f3 gb\u00e8 jon\u0254 l\u025b gb\u0254n d\u00f3 an\u0254nugbe yet\u0254n
+  m\u025b \u00e9.\u2014X\u00e0 Filipunu l\u025b 2:3, 4.\\n14 Jon\u0254 l\u025b sis\u025bkp\u0254
+  sixu n\u0254 v\u025bw\u01d4 n\u00fa we. Am\u0254\u030c, bonu a na \u0256u \u0256\u2019eji
+  \u0254, a sixu \u0256\u0254 x\u00f3 towe \u0256\u00e9 n\u00fa ye. Zaan \u0254, a
+  sixu \u0256\u2019ayi wu \u0256\u0254 vogbingb\u0254n kaka \u0256\u00e9 k\u00fan
+  \u0256\u00f2 t\u025bntin mit\u0254n \u00f3, b\u0254 ak\u0254 \u0256okpo \u0256okpo
+  \u0256\u00f3 wal\u0254 t\u0254n \u0256agbe l\u025b kpo n\u01d4j\u025bdo t\u0254n
+  l\u025b kpo.\\nD\u2019AL\u0186 M\u0190 L\u0190 B\u01cf BONU YE NI VO\\n15. Et\u025b
+  ka na d\u2019al\u0254 m\u01d0 b\u0254 m\u01d0 na n\u0254 \u0256\u00f3 su\u00falu
+  d\u00f3 m\u025b e \u0256\u00f2 aca t\u00f2 \u0254 t\u0254n kpl\u0254\u0301n w\u025b
+  l\u025b \u00e9 wu?\\n15 Bonu a na d\u2019al\u0254 m\u025b \u0256evo l\u025b b\u0254
+  ye na vo \u0256\u00f2 agun \u0254 m\u025b \u0254, kanby\u0254 hwi\u0256\u00e9e d\u00f3
+  n\u00f9j\u0254n\u01d4 m\u025b \u0256\u0254, \u2018Enyi ny\u00ec w\u025b ny\u00ed
+  jon\u0254 \u0256\u00f2 t\u00f2 \u0256evo m\u025b \u0254, n\u025b\u030c un ka na
+  ba \u0256\u0254 \u00e8 ni w\u00e0 n\u01d4 x\u00e1 m\u00ec gb\u0254n?\u2019 (Mat.
+  7:12) N\u0254 \u0256\u00f3 su\u00falu d\u00f3 jon\u0254 e \u0256\u00f2 aca t\u00f2
+  \u0254 t\u0254n l\u025b kpl\u0254\u0301n w\u025b \u00e9 wu. \u00d0\u00f2 b\u01d0b\u025b\u030cm\u025b
+  \u0254, m\u01d0 sixu n\u0254 ma m\u0254 nuk\u00fann\u00fa j\u025b lee ye n\u0254
+  lin n\u01d4 gb\u0254n \u00e9 kpo lee ye n\u0254 w\u00e0 n\u01d4 gb\u0254n \u00e9
+  kpo wu ml\u025b\u0301ml\u025b\u0301. Ma \u0256\u00f3 nuk\u00fan \u0256\u0254 ye
+  \u0256\u00f3 na zunfan aca m\u01d0t\u0254n l\u025b \u00f3, lo\u0254, et\u025bwu
+  a ma ka na y\u00ed ye \u0256\u00f3 lee ye \u0256\u00e8 \u00e9 \u01ce?\u2014X\u00e0
+  Hl\u0254manu l\u025b 15:7.\\n16, 17. (a) Af\u0254 t\u025b l\u025b m\u01d0 ka sixu
+  \u0256\u00e8 bo na m\u0254 t\u025bn d\u00f3 s\u025bkp\u0254 m\u025b e ny\u00ed ay\u01d0
+  \u0256evo j\u00ed nu l\u025b \u00e9? (b) Et\u025b l\u025b m\u0254\u030c m\u01d0
+  ka sixu w\u00e0 d\u00f3 d\u2019al\u0254 jon\u0254 e \u0256\u00f2 agun m\u01d0t\u0254n
+  m\u025b l\u025b \u00e9?\\n16 Enyi m\u01d0 kpl\u0254\u0301n n\u01d4 d\u00f3 m\u025b
+  \u0256\u011b\u0256ee gosin t\u00f2 \u0256evo m\u025b l\u025b \u00e9 s\u00edn aca
+  kpo n\u01d4wiwa t\u00f2 yet\u0254n t\u0254n l\u025b kpo wu \u0254, \u00e9 sixu b\u0254w\u01d4
+  n\u00fa m\u01d0 b\u0254 m\u01d0 na w\u00e0 n\u01d4 \u0256\u00f3 kp\u0254\u0301 x\u00e1
+  ye. M\u01d0 sixu \u0256\u00e8 hwenu \u0256\u00f2 t\u00e1an e m\u01d0 n\u0254 z\u00e1n
+  n\u00fa sins\u025bn-biblo xw\u00e9do t\u0254n m\u01d0t\u0254n \u00e9 m\u025b, bo
+  ba d\u00f2 n\u00fa n\u01d4 d\u00f3 m\u025b \u0256\u011b\u0256ee \u0256\u00f2 agun
+  m\u01d0t\u0254n al\u01d2 x\u00e1 m\u01d0t\u0254n m\u025b b\u0254 m\u01d0 ma tu\u00f9n
+  ganji \u01ce l\u025b \u00e9 wu. N\u01d4 \u0256evo e \u00e8 sixu w\u00e0 bo s\u025bkp\u0254
+  m\u025b e gosin ay\u01d0 \u0256evo j\u00ed l\u025b \u00e9 w\u025b ny\u00ed \u0256\u0254
+  \u00e8 na yl\u0254 ye b\u0254 ye na w\u00e1 \u0256u n\u00f9\u0256\u00e9 \u0256\u00f3
+  kp\u0254\u0301 x\u00e1 m\u01d0 \u0256\u00f2 xw\u00e9 m\u01d0t\u0254n gb\u00e8. \u00d0\u00f3
+  Jehovah \u201chun ali n\u00fa m\u025b e ma ny\u00ed Jwifu \u01ce l\u025b . . . bonu
+  ye l\u0254 na sixu \u0256i n\u01d4\u201d wutu \u0254, m\u01d0 l\u0254 h\u025bn \u0254,
+  m\u01d0 na hun h\u0254n m\u01d0t\u0254n l\u025b n\u00fa jon\u0254 e ny\u00ed \u201cn\u0254v\u00ed
+  \u0256\u00f2 n\u00f9\u0256i\u0256i m\u025b\u201d m\u01d0t\u0254n l\u025b \u00e9
+  \u00e0 c\u00e9?\u2014M\u025b. 14:27; Ga. 6:10; J\u0254b. 31:32.\\n17 Enyi m\u01d0
+  n\u0254 n\u0254 kp\u0254\u0301 x\u00e1 xw\u00e9do jon\u0254 \u0256\u00e9 \u0254,
+  m\u01d0 na m\u0254 nuk\u00fann\u00fa j\u025b b\u01ce e m\u025b ye \u0256\u00f2 g\u01cen
+  d\u00f3 w\u025b b\u00e1 w\u00e0 n\u01d4 s\u0254gbe x\u00e1 aca m\u01d0t\u0254n l\u025b
+  \u0256\u00f3 \u00e9 wu ganji. M\u01d0 sixu \u0256\u2019ayi wu \u0256\u0254 ye \u0256\u00f3
+  hudo al\u0254do tawun \u0256\u00e9 l\u025b t\u0254n b\u00e1 kpl\u0254\u0301n gb\u00e8
+  \u0254. G\u0254\u0301 na \u0254, m\u01d0 ka sixu jl\u025b\u0301 az\u0254\u030cx\u0254sa
+  x\u00e1 \u0254 m\u025b t\u0254n \u0256\u011b\u0256ee sixu d\u2019al\u0254 ye b\u0254
+  ye na m\u0254 x\u0254 \u0256agbe al\u01d2 az\u0254\u030c \u00e9 n\u00fa ye \u00e0?
+  N\u01d4 m\u0254hun l\u025b wiwa sixu h\u025bn gb\u025bz\u00e1n n\u00f9\u0256it\u0254\u0301
+  h\u00e0t\u0254\u0301 \u0256\u00e9 t\u0254n kp\u0254\u0301n te tawun.\u2014N\u00f9x.
+  3:27.\\n18. S\u00eds\u00ed \u0256\u00f3 n\u00fa m\u025b kpo \u0256agbetu\u00f9nn\u00fam\u025b
+  kpo s\u00edn kp\u0254\u0301nd\u00e9w\u00fa t\u025b jon\u0254 l\u025b ka sixu xwed\u00f3
+  \u00e9h\u0254nm\u025b?\\n18 Nugb\u01d2 \u0254, jon\u0254 l\u025b \u0256\u00f3 na
+  w\u00e0 n\u01d4 e wu ye kp\u00e9 \u00e9 b\u01d0 b\u00e1 s\u0254gbe x\u00e1 aca t\u00f2
+  y\u0254y\u0254\u030c e m\u025b ye w\u00e1 \u00e9 t\u0254n. Hwliti s\u0254\u0301
+  kp\u0254\u0301nd\u00e9w\u00fa \u0256agbe \u0256\u00e9 \u0256\u2019ay\u01d0 \u0256\u00f2
+  ali en\u025b nu. Nuk\u0254nt\u0254n \u0254, \u00e9 \u0256\u00f3 s\u00eds\u00ed n\u00fa
+  aca t\u00f2 y\u0254y\u0254\u030c e m\u025b \u00e9 w\u00e1 \u00e9 t\u0254n l\u025b,
+  bo by\u0254 gb\u00e8 b\u00e1 cyan n\u01d4k\u00fan \u0256\u00f2 f\u00ed e n\u01d4k\u00fan-yat\u0254\u0301
+  l\u025b ko gb\u0254n d\u00edn \u00e9. (Hwli. 2:7) \u00c9 bl\u00f3 un \u0256\u00f3
+  ac\u025b s\u00edn n\u01d4 c\u00ed n\u01d4 \u0256\u0254 m\u025b \u0256evo l\u025b
+  \u0256u n\u00f9\u0256\u00e9 s\u00edn ax\u0254 d\u00f3 \u00e8 w\u025b \u0256\u0254hun
+  \u01ce. Weg\u0254 \u0254, \u00e9 s\u0254\u0301 jl\u01d2 d\u00f3 \u0256exl\u025b\u0301
+  \u0256\u0254 xom\u025b e \u00e8 ny\u0254\u0301 d\u00f3 emi wu \u00e9 s\u00f9 nuk\u00fan
+  emit\u0254n m\u025b. (Hwli. 2:13) Enyi jon\u0254 l\u025b \u0256\u00e8 juj\u0254
+  m\u0254hun l\u025b xl\u025b\u0301 \u0254, m\u025b e \u0256\u00f2 x\u00e1 \u0254
+  m\u025b l\u025b \u00e9 kpo n\u00f9\u0256it\u0254\u0301 h\u00e0t\u0254\u0301 yet\u0254n
+  l\u025b kpo na \u0256ibla \u0256\u00f3 s\u00eds\u00ed n\u00fa ye hug\u01cen.\\n19.
+  Hw\u025bjij\u0254 t\u025b l\u025b wu m\u01d0 ka n\u0254 y\u00ed jon\u0254 e \u0256\u00f2
+  t\u025bntin m\u01d0t\u0254n l\u025b \u00e9 ganji?\\n19 Xom\u025b m\u01d0t\u0254n
+  hun \u0256\u0254 Jehovah gb\u0254n f\u025b\u0301n\u00fa t\u0254n gblam\u025b bo
+  hun ali n\u00fa ak\u0254ta l\u025b b\u01d0 b\u0254 ye na s\u00e8 w\u025bn\u0256agbe
+  \u0254. Jon\u0254 \u0256\u00e9 l\u025b t\u00ed\u00ecn b\u0254 \u0256\u00f2 t\u00f2
+  yet\u0254n m\u025b \u0254, ye sixu n\u0254 ma kp\u00e9w\u00fa b\u00e1 kpl\u0254\u0301n
+  Biblu al\u01d2 vo bo d\u00f3 gb\u025b\u030c x\u00e1 togun Jehovah t\u0254n. Am\u0254\u030c
+  d\u00ecn e ali hun n\u00fa ye b\u0254 ye na n\u0254 kp\u0254\u0301 x\u00e1 m\u01d0
+  \u00e9 \u0254, \u00e9 j\u025bxa \u0256\u0254 m\u01d0 ni d\u2019al\u0254 ye bonu
+  ye ma s\u0254\u0301 n\u0254 m\u0254 \u0256\u011b \u0256\u0254 emi ny\u00ed jon\u0254
+  \u0256\u00f2 t\u025bntin m\u01d0t\u0254n \u00f3 \u00e0 c\u00e9? Enyi n\u01d4 e m\u01d0
+  sixu na ye \u00e9 al\u01d2 al\u0254 e m\u01d0 sixu d\u00f3 ye \u00e9 na bo ma tl\u025b
+  hw\u025b\u0301n n\u00f9\u0256\u00e9 \u01ce \u0254, xom\u025b e m\u01d0 n\u0254 ny\u0254\u0301
+  d\u00f3 ye wu \u00e9 n\u0254 ny\u00ed xl\u025b\u030c wanyiyi e Jehovah \u0256\u00f3
+  n\u00fa ye \u00e9 t\u0254n. En\u025b wu \u0254, \u0256\u00f3 m\u01d0 n\u0254 \u2018w\u00e0
+  n\u01d4 Mawu \u0256\u0254hun\u2019 wutu \u0254, mi n\u00fa m\u01d0 ni w\u00e0 n\u01d4
+  e wu m\u01d0 kp\u00e9 \u00e9 b\u01d0 bo y\u00ed jon\u0254 e \u0256\u00f2 t\u025bntin
+  m\u01d0t\u0254n l\u025b \u00e9 ganji.\u2014Ef\u025b. 5:1, 2.\"", "\"Colin Udoh ny\u00ed
+  linlinwekant\u0254 ot\u00f2 n\u00e1ijilia t\u0254n kp\u00f3 tito televizi\u0254n
+  aihundida lanm\u025byiya t\u0254n bayit\u0254 \u0256\u00e9 kp\u00f3. Colin to az\u0254\u030cn
+  wa n\u00e1 aihundida lanm\u025byiya t\u0254n Kwese t\u0254n to al\u0254nu d\u01d0n.
+  \u00e9 ko s\u0254awuxya tayi\u0256i stu\u0256io analyst n\u00e1 Super Sport television
+  network bo ko s\u0254 kan linlin n\u00e1 Kick Off xe m\u025bl\u025b ny\u0254\u0301\u025bn
+  ganji \u0256\u00e9. \u00e9 s\u0254 waz\u0254n n\u00e1 Nigeria Football Fe\u0256eration
+  tayi\u0256i linlinnam\u025bt\u0254-gan \u0256\u00e9. E s\u0254 waz\u0254n n\u00e1
+  Nigeria Football Fe\u0256eration tayi\u0256i linlinnam\u025bt\u0254-gan \u0256\u00e9.
+  Udoh wleal\u0254 x\u025b ny\u0254\u0301nu n\u00e1ijilia-nu b\u0254\u0254lu-xot\u0254
+  t\u00f2godo t\u0254n \u0256\u00e9 xe n\u0254 ny\u00ed Mercy Aki\u0256e. To xokanse
+  \u0256\u00e9 m\u025b, \u00e9 d\u00f3nuego lexe az\u0254nwiwa tayi\u0256i linlinnam\u025bt\u0254-gan
+  \u0256\u00e9 to ot\u00f2 n\u00e1ijilia t\u0254n m\u025b nyi nuvivinu \u0256\u00e9
+  to akpa\u0256\u00e9xwe b\u0254 to akpa \u0256evo xwe \u00e9 n\u0254 h\u025bn akp\u0254cim\u025b
+  wa d\u00f3. Maxokp\u0254nna \u00e9xe, \u00e9 \u0256\u0254 \u0256\u0254 \u00e9mi
+  ma n\u00e1 \u0256i\u0254 numim\u0254 \u00e9mit\u0254n n\u00e1 nu\u0256\u00e9kp\u00f3kp\u00e9.\\nAppearance\""]'
+src_ngrams: '{"1": [[["l\u025b"], 48932], [["m\u025b"], 32669], [["t\u0254n"], 31849],
+  [["na"], 31550], [["\u0256\u00f2"], 26387]], "2": [[["t\u0254n l\u025b"], 5809],
+  [["\u0256\u00f3 na"], 3134], [["l\u025b kpo"], 2966], [["m\u025b l\u025b"], 2433],
+  [["t\u0254n m\u025b"], 2390]], "3": [[["m\u025b \u0256evo l\u025b"], 1056], [["l\u025b
+  \u00e9 kpo"], 1025], [["m\u01d0 \u0256\u00f3 na"], 732], [["y\u00ed w\u01cen n\u00fa"],
+  702], [["w\u025b ny\u00ed \u0256\u0254"], 688]], "4": [[["d\u00f3 wusy\u025bn lanm\u025b
+  n\u00fa"], 400], [["m\u01d0 b\u0254 m\u01d0 na"], 302], [["al\u0254 m\u01d0 b\u0254
+  m\u01d0"], 290], [["m\u01d0 ka \u0256\u00f3 na"], 247], [["n\u00fa m\u025b \u0256evo
+  l\u025b"], 209]], "5": [[["al\u0254 m\u01d0 b\u0254 m\u01d0 na"], 195], [["al\u0254
+  we b\u0254 a na"], 146], [["lee n\u01d4 n\u0254 c\u00ed n\u00fa"], 111], [["n\u0254v\u00ed
+  sunnu kpo n\u0254v\u00ed ny\u0254nu"], 97], [["n\u01d4 e \u00e8 n\u0254 z\u00e1n"],
+  93]]}'

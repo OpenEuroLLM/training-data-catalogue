@@ -1,0 +1,1625 @@
+corpus: hplt-v4-war
+srclang: war
+timestamp: 1788989037.4600554
+warnings:
+- src_warning_tok_nltk_wordpunct
+docs_collections: '[["CC-MAIN-2014-15", 1072], ["CC-MAIN-2024-33", 534], ["CC-MAIN-2024-30",
+  348], ["CC-MAIN-2024-38", 347], ["CC-MAIN-2021-04", 306], ["CC-MAIN-2023-14", 282],
+  ["CC-MAIN-2020-34", 280], ["CC-MAIN-2024-26", 255], ["CC-MAIN-2024-42", 253], ["CC-MAIN-2020-05",
+  250], ["CC-MAIN-2021-49", 214], ["CC-MAIN-2022-21", 193], ["CC-MAIN-2022-05", 177],
+  ["CC-MAIN-2017-26", 175], ["CC-MAIN-2020-10", 163], ["CC-MAIN-2020-40", 158], ["CC-MAIN-2022-27",
+  151], ["wide00011", 150], ["wide00016", 147], ["CC-MAIN-2014-35", 142], ["wide00012",
+  141], ["CC-MAIN-2018-05", 134], ["CC-MAIN-2020-24", 133], ["CC-MAIN-2024-22", 122],
+  ["CC-MAIN-2025-33", 115], ["CC-MAIN-2021-10", 112], ["CC-MAIN-2017-51", 111], ["CC-MAIN-2020-29",
+  106], ["CC-MAIN-2018-39", 105], ["CC-MAIN-2022-40", 104], ["CC-MAIN-2021-17", 104],
+  ["CC-MAIN-2021-31", 100], ["CC-MAIN-2021-43", 97], ["CC-MAIN-2018-22", 93], ["CC-MAIN-2021-39",
+  92], ["CC-MAIN-2025-08", 91], ["CC-MAIN-2018-34", 87], ["CC-MAIN-2023-23", 82],
+  ["CC-MAIN-2018-43", 75], ["CC-MAIN-2024-46", 72], ["CC-MAIN-2025-18", 71], ["CC-MAIN-2023-40",
+  70], ["CC-MAIN-2025-13", 69], ["CC-MAIN-2024-18", 67], ["CC-MAIN-2020-16", 67],
+  ["CC-MAIN-2023-50", 65], ["CC-MAIN-2022-33", 62], ["CC-MAIN-2022-49", 61], ["CC-MAIN-2021-25",
+  60], ["CC-MAIN-2020-50", 60], ["CC-MAIN-2020-45", 58], ["CC-MAIN-2025-30", 56],
+  ["CC-MAIN-2024-10", 52], ["CC-MAIN-2015-11", 46], ["wide00005", 45], ["wide00002",
+  44], ["CC-MAIN-2023-06", 44], ["wide00015", 42], ["CC-MAIN-2025-26", 42], ["CC-MAIN-2019-04",
+  40], ["CC-MAIN-2021-21", 39], ["CC-MAIN-2014-42", 37], ["wide00010", 32], ["CC-MAIN-2015-48",
+  30], ["CC-MAIN-2025-21", 28], ["CC-MAIN-2016-30", 25], ["CC-MAIN-2024-51", 18],
+  ["CC-MAIN-2017-04", 18], ["wide00017", 17], ["CC-MAIN-2025-05", 14], ["wide00006",
+  10], ["CC-MAIN-2015-18", 10], ["CC-MAIN-2016-40", 3], ["archivebot", 1]]'
+docs_langs: '[[0.2, 75], [0.3, 176], [0.4, 213], [0.5, 545], [0.6, 426], [0.7, 785],
+  [0.8, 1071], [0.9, 1413], [1.0, 4372]]'
+docs_segments: '[[1, 294], [2, 283], [3, 451], [4, 765], [5, 1049], [6, 1042], [7,
+  881], [8, 708], [9, 566], [10, 454], [11, 296], [12, 251], [13, 200], [14, 167],
+  [15, 123], [16, 116], [17, 110], [18, 118], [19, 111], [20, 114], [21, 83], [22,
+  67], [23, 46], [24, 55], [25, 50], [26, 44], [27, 23], [28, 25], [29, 26], [30,
+  31], [31, 24], [32, 24], [33, 16], [34, 17], [35, 19], [36, 18], [37, 19], [38,
+  12], [39, 15], [40, 19], [41, 16], [42, 12], [43, 16], [44, 15], [45, 15], [46,
+  19], [47, 13], [48, 15], [49, 7], [50, 6], [51, 13], [52, 13], [53, 15], [54, 12],
+  [55, 8], [56, 7], [57, 10], [58, 6], [59, 6], [60, 6], [61, 3], [62, 4], [63, 3],
+  [64, 5], [65, 4], [67, 3], [68, 2], [69, 1], [71, 1], [73, 2], [74, 1], [75, 2],
+  [76, 3], [77, 2], [78, 3], [80, 1], [81, 2], [82, 3], [83, 1], [84, 1], [87, 5],
+  [91, 1], [92, 1], [94, 2], [95, 1], [97, 6], [98, 1], [99, 1], [102, 1], [104, 1],
+  [106, 1], [107, 1], [108, 1], [120, 2], [121, 1], [124, 1], [125, 1], [126, 1],
+  [130, 1], [131, 1], [135, 1], [143, 1], [150, 1], [160, 1], [172, 1], [175, 2],
+  [181, 1], [182, 1], [184, 1], [189, 1], [191, 1], [196, 1], [200, 1], [201, 1],
+  [203, 1], [204, 1], [206, 1], [207, 1], [209, 1], [224, 1], [232, 1], [253, 1],
+  [287, 1], [289, 1], [310, 1], [333, 1], [386, 1], [411, 1], [428, 1], [495, 1],
+  [655, 1], [668, 1], [750, 1], [1918, 1], [2173, 1]]'
+docs_segments_mean: 12
+docs_segments_median: 7
+docs_top100_domains: '[["wikipedia.org", 2145], ["isumat.com", 1618], ["bomboradyo.com",
+  1488], ["jw.org", 942], ["pia.gov.ph", 910], ["rmn.ph", 327], ["bible.is", 262],
+  ["wordpress.com", 156], ["tacloban.gov.ph", 124], ["my-greenday.de", 116], ["brigadanews.ph",
+  84], ["blogspot.com", 81], ["zhitov.com", 58], ["cpp.ph", 46], ["easternvista.com",
+  41], ["philippinerevolution.nu", 40], ["medjugorje.org", 38], ["churchofjesuschrist.org",
+  37], ["google-info.pl", 35], ["wikiplanet.click", 32], ["pressone.ph", 24], ["catbalogan.gov.ph",
+  22], ["info-about.ru", 21], ["guiuan.gov.ph", 21], ["gtbs.org", 19], ["gpedia.com",
+  18], ["yumpu.com", 16], ["wiko.wiki", 16], ["wikisource.org", 16], ["ircalbayog.com",
+  16], ["search.com.vn", 15], ["blogspot.de", 15], ["rappler.com", 12], ["catarman-nsamar.gov.ph",
+  8], ["northernsamar.gov.ph", 7], ["dorelco.com.ph", 7], ["vallalar.net", 6], ["philboxing.com",
+  6], ["mikeligalig.com", 6], ["know.cf", 6], ["estenews.org", 6], ["canavid.gov.ph",
+  6], ["watchtower.org", 5], ["warayblogger.com", 5], ["ueliserio.net", 5], ["pinoybalita.info",
+  5], ["biliranisland.com", 5], ["wikimedia.org", 4], ["ubod.ph", 4], ["nsamarpio.online",
+  4], ["itacloban.com", 4], ["friendster.com", 4], ["dioceseofborongan.com", 4], ["classicistranieri.com",
+  4], ["wikiwand.com", 3], ["phnews.online", 3], ["nup.org.ph", 3], ["ndfp.org", 3],
+  ["leytesamardailynews.com", 3], ["gospelgo.com", 3], ["esamelco.com.ph", 3], ["dominicweb.eu",
+  3], ["whdl.org", 2], ["villarealsamar.com", 2], ["skyscrapercity.com", 2], ["sinirangan.com",
+  2], ["samarisland.com", 2], ["quinapondan.gov.ph", 2], ["pinoyonboard.com", 2],
+  ["philippinestrending.com", 2], ["philippinerevolution.net", 2], ["omniglot.com",
+  2], ["norsam.net", 2], ["marmelisms.com", 2], ["lol646l.ph", 2], ["inclusivedemocracy.ph",
+  2], ["ethnicgroupsphilippines.com", 2], ["duhoctrungquoc.vn", 2], ["calbayogjournal.com",
+  2], ["bible.com", 2], ["azlyricdb.com", 2], ["archdioceseofpalo.org", 2], ["anibongpalm.com",
+  2], ["amaranthvsu.com", 2], ["zaoan.us", 1], ["yahoo.com", 1], ["world-hentai.ru",
+  1], ["wordnik.com", 1], ["wikia.com", 1], ["videochat-ruletka.ru", 1], ["unicode.org",
+  1], ["translatewiki.net", 1], ["toptencasinoonline.top", 1], ["theworldoffilipinas.com",
+  1], ["theaistory.app", 1], ["symbianize.com", 1], ["sunshineonline.news", 1], ["steemit.com",
+  1], ["seghea.com", 1], ["scribd.com", 1]]'
+docs_top100_tld: '[["com", 3614], ["org", 3230], ["gov.ph", 1107], ["ph", 491], ["is",
+  262], ["de", 131], ["nu", 40], ["pl", 35], ["click", 32], ["ru", 25], ["net", 21],
+  ["wiki", 16], ["com.vn", 15], ["com.ph", 12], ["online", 7], ["info", 7], ["cf",
+  6], ["top", 3], ["org.ph", 3], ["eu", 3], ["com.au", 3], ["vn", 2], ["us", 2], ["io",
+  2], ["news", 1], ["net.ph", 1], ["edu.ph", 1], ["cloud", 1], ["art", 1], ["app",
+  1]]'
+docs_total: 9076
+docs_wds: '[[0.5, 49], [0.51, 60], [0.52, 61], [0.53, 66], [0.54, 75], [0.55, 86],
+  [0.56, 91], [0.57, 67], [0.58, 70], [0.59, 76], [0.6, 85], [0.61, 94], [0.62, 99],
+  [0.63, 98], [0.64, 100], [0.65, 106], [0.66, 111], [0.67, 99], [0.68, 117], [0.69,
+  91], [0.7, 114], [0.71, 117], [0.72, 117], [0.73, 151], [0.74, 153], [0.75, 161],
+  [0.76, 227], [0.77, 256], [0.78, 349], [0.79, 515], [0.8, 1110], [0.81, 954], [0.82,
+  693], [0.83, 447], [0.84, 325], [0.85, 240], [0.86, 153], [0.87, 144], [0.88, 147],
+  [0.89, 152], [0.9, 199], [0.91, 216], [0.92, 75], [0.93, 67], [0.94, 66], [0.95,
+  58], [0.96, 67], [0.97, 50], [0.98, 32], [0.99, 11], [1.0, 9]]'
+duplication_ratio: 0.1351
+sentence_pairs: 110228
+src_bytes: 23013743
+src_chars: 22879817
+src_pii: 103
+src_tokens: 4575777
+unique_sents: 95340
+src_sent_tokens: '[[1, 3155], [2, 3143], [3, 3212], [4, 2928], [5, 3454], [6, 2949],
+  [7, 2868], [8, 3724], [9, 2673], [10, 2161], [11, 2153], [12, 2913], [13, 1757],
+  [14, 1784], [15, 1682], [16, 1574], [17, 1851], [18, 1422], [19, 1443], [20, 1439],
+  [21, 1389], [22, 1447], [23, 1384], [24, 1539], [25, 1425], [26, 1438], [27, 1505],
+  [28, 1390], [29, 1432], [30, 1374], [31, 1444], [32, 1408], [33, 1429], [34, 1336],
+  [35, 1290], [36, 1263], [37, 1187], [38, 1103], [39, 1167], [40, 1161], [41, 1077],
+  [42, 1057], [43, 987], [44, 1042], [45, 913], [46, 944], [47, 861], [48, 809], [49,
+  800], [50, 742], [51, 724], [52, 695], [53, 663], [54, 665], [55, 625], [56, 564],
+  [57, 557], [58, 522], [59, 537], [60, 495], [61, 470], [62, 468], [63, 421], [64,
+  406], [65, 396], [66, 363], [67, 393], [68, 330], [69, 428], [70, 367], [71, 359],
+  [72, 286], [73, 304], [74, 319], [75, 297], [76, 281], [77, 299], [78, 257], [79,
+  268], [80, 255], [81, 244], [82, 233], [83, 223], [84, 201], [85, 198], [86, 225],
+  [87, 217], [88, 217], [89, 194], [90, 204], [91, 176], [92, 166], [93, 188], [94,
+  160], [95, 178], [96, 187], [97, 169], [98, 138], [99, 159], [100, 173], [101, 165],
+  [102, 159], [103, 174], [104, 159], [105, 132], [106, 144], [107, 158], [108, 142],
+  [109, 115], [110, 133], [111, 152], [112, 143], [113, 123], [114, 140], [115, 112],
+  [116, 126], [117, 133], [118, 128], [119, 102], [120, 114], [121, 104], [122, 90],
+  [123, 91], [124, 117], [125, 94], [126, 90], [127, 86], [128, 95], [129, 96], [130,
+  79], [131, 84], [132, 88], [133, 70], [134, 92], [135, 80], [136, 95], [137, 84],
+  [138, 63], [139, 64], [140, 85], [141, 74], [142, 79], [143, 71], [144, 73], [145,
+  79], [146, 70], [147, 67], [148, 70], [149, 64], [150, 56], [151, 59], [152, 68],
+  [153, 67], [154, 64], [155, 59], [156, 56], [157, 70], [158, 47], [159, 53], [160,
+  54], [161, 59], [162, 54], [163, 43], [164, 42], [165, 52], [166, 42], [167, 44],
+  [168, 48], [169, 32], [170, 32], [171, 35], [172, 46], [173, 42], [174, 36], [175,
+  39], [176, 41], [177, 34], [178, 42], [179, 44], [180, 28], [181, 35], [182, 32],
+  [183, 25], [184, 31], [185, 29], [186, 23], [187, 28], [188, 37], [189, 33], [190,
+  25], [191, 29], [192, 23], [193, 22], [194, 30], [195, 28], [196, 22], [197, 26],
+  [198, 23], [199, 23], [200, 22], [201, 21], [202, 20], [203, 21], [204, 24], [205,
+  17], [206, 24], [207, 22], [208, 24], [209, 13], [210, 11], [211, 15], [212, 14],
+  [213, 7], [214, 16], [215, 19], [216, 17], [217, 26], [218, 5], [219, 12], [220,
+  18], [221, 15], [222, 9], [223, 14], [224, 12], [225, 11], [226, 8], [227, 6], [228,
+  12], [229, 15], [230, 12], [231, 11], [232, 8], [233, 11], [234, 12], [235, 4],
+  [236, 5], [237, 6], [238, 9], [239, 8], [240, 13], [241, 3], [242, 12], [243, 11],
+  [244, 10], [245, 10], [246, 8], [247, 7], [248, 11], [249, 7], [250, 8], [251, 4],
+  [252, 3], [253, 5], [254, 5], [255, 4], [256, 6], [257, 4], [258, 8], [259, 2],
+  [260, 6], [261, 4], [262, 9], [263, 4], [264, 4], [265, 3], [266, 3], [267, 9],
+  [268, 5], [269, 4], [270, 4], [271, 5], [272, 6], [273, 5], [274, 2], [275, 1],
+  [276, 3], [277, 3], [278, 4], [279, 2], [280, 5], [281, 2], [282, 10], [283, 5],
+  [284, 2], [285, 6], [286, 2], [287, 3], [288, 3], [289, 2], [290, 3], [291, 1],
+  [292, 3], [293, 5], [294, 3], [295, 1], [296, 3], [297, 3], [298, 3], [299, 3],
+  [300, 4], [301, 3], [302, 1], [304, 1], [305, 1], [306, 3], [307, 1], [309, 1],
+  [310, 1], [311, 2], [312, 5], [313, 1], [314, 4], [316, 1], [317, 3], [318, 1],
+  [319, 2], [320, 3], [322, 3], [323, 1], [324, 2], [325, 5], [326, 1], [327, 3],
+  [329, 3], [330, 2], [335, 3], [336, 2], [337, 1], [340, 1], [341, 1], [343, 2],
+  [346, 4], [347, 1], [348, 1], [350, 2], [351, 1], [352, 1], [355, 1], [356, 2],
+  [357, 1], [359, 2], [360, 1], [361, 2], [362, 1], [366, 2], [368, 2], [370, 1],
+  [371, 1], [372, 1], [374, 2], [376, 1], [377, 1], [378, 2], [379, 4], [380, 1],
+  [384, 2], [389, 1], [391, 1], [395, 2], [397, 2], [398, 1], [399, 1], [400, 2],
+  [404, 1], [405, 1], [406, 1], [407, 1], [408, 1], [409, 1], [410, 1], [411, 1],
+  [413, 1], [414, 1], [416, 2], [417, 1], [418, 1], [419, 1], [420, 1], [423, 4],
+  [426, 2], [427, 1], [429, 2], [431, 1], [432, 3], [433, 1], [436, 1], [437, 4],
+  [439, 1], [447, 1], [449, 2], [452, 2], [453, 2], [455, 2], [457, 1], [460, 1],
+  [464, 6], [466, 1], [468, 1], [470, 1], [473, 2], [474, 1], [475, 2], [482, 1],
+  [486, 1], [487, 3], [488, 2], [489, 1], [491, 1], [492, 1], [493, 2], [499, 1],
+  [501, 2], [502, 1], [503, 1], [504, 1], [505, 1], [507, 1], [508, 2], [512, 1],
+  [515, 2], [516, 1], [519, 1], [520, 1], [523, 1], [524, 1], [526, 4], [530, 1],
+  [531, 1], [534, 1], [536, 1], [537, 1], [538, 2], [540, 1], [541, 1], [542, 1],
+  [544, 2], [545, 1], [546, 4], [548, 1], [552, 1], [553, 2], [555, 1], [557, 1],
+  [560, 1], [561, 1], [562, 1], [564, 1], [570, 1], [573, 1], [575, 1], [579, 1],
+  [582, 1], [583, 3], [585, 1], [589, 2], [592, 1], [593, 1], [594, 1], [596, 1],
+  [597, 2], [602, 1], [603, 6], [605, 3], [606, 1], [607, 1], [609, 5], [612, 1],
+  [613, 2], [616, 1], [617, 1], [622, 1], [623, 2], [624, 1], [625, 2], [627, 2],
+  [629, 1], [631, 1], [635, 2], [638, 1], [640, 3], [643, 1], [648, 1], [650, 2],
+  [652, 1], [654, 3], [658, 1], [660, 1], [661, 2], [662, 1], [663, 1], [665, 1],
+  [666, 1], [669, 1], [672, 1], [675, 5], [677, 2], [680, 1], [682, 1], [683, 1],
+  [689, 1], [691, 1], [696, 1], [697, 1], [698, 1], [699, 5], [700, 1], [701, 1],
+  [702, 1], [703, 3], [704, 4], [709, 1], [712, 3], [718, 1], [719, 2], [721, 1],
+  [722, 1], [725, 1], [726, 2], [730, 4], [731, 2], [732, 2], [733, 3], [734, 1],
+  [736, 3], [738, 3], [741, 3], [742, 2], [743, 3], [745, 2], [746, 1], [747, 2],
+  [748, 2], [749, 1], [752, 1], [754, 2], [755, 1], [756, 1], [758, 1], [761, 1],
+  [762, 2], [764, 3], [765, 2], [767, 2], [768, 2], [769, 1], [771, 1], [772, 1],
+  [773, 3], [774, 1], [776, 2], [779, 1], [782, 1], [784, 2], [785, 1], [786, 2],
+  [788, 1], [790, 1], [795, 1], [798, 1], [800, 1], [801, 2], [802, 2], [803, 1],
+  [806, 2], [808, 1], [810, 1], [814, 1], [816, 2], [820, 1], [823, 3], [824, 1],
+  [825, 1], [826, 1], [828, 1], [829, 1], [830, 1], [831, 2], [834, 1], [835, 1],
+  [837, 1], [844, 1], [846, 1], [850, 2], [852, 1], [856, 1], [857, 1], [859, 1],
+  [860, 2], [861, 1], [867, 1], [870, 2], [876, 1], [880, 1], [881, 2], [890, 2],
+  [891, 1], [894, 1], [895, 1], [902, 1], [904, 1], [909, 1], [911, 1], [912, 1],
+  [913, 1], [916, 1], [917, 2], [918, 2], [921, 2], [923, 2], [927, 1], [928, 1],
+  [929, 2], [930, 1], [931, 1], [937, 1], [940, 2], [941, 1], [942, 1], [944, 2],
+  [945, 1], [946, 1], [948, 2], [949, 1], [951, 1], [955, 1], [956, 1], [960, 1],
+  [962, 2], [963, 1], [966, 1], [968, 3], [970, 1], [973, 1], [974, 1], [975, 1],
+  [976, 1], [978, 1], [980, 1], [990, 1], [992, 1], [994, 1], [1000, 1], [1007, 2],
+  [1008, 1], [1009, 2], [1012, 1], [1013, 1], [1018, 1], [1023, 1], [1024, 1], [1025,
+  1], [1029, 1], [1031, 1], [1032, 1], [1035, 1], [1037, 1], [1040, 1], [1042, 1],
+  [1043, 1], [1044, 2], [1046, 1], [1051, 2], [1055, 1], [1058, 1], [1061, 1], [1063,
+  2], [1069, 1], [1071, 1], [1072, 1], [1073, 1], [1074, 1], [1075, 1], [1076, 3],
+  [1087, 1], [1091, 1], [1094, 1], [1101, 1], [1102, 2], [1106, 1], [1110, 2], [1111,
+  2], [1116, 1], [1123, 1], [1125, 1], [1137, 1], [1141, 1], [1146, 1], [1148, 1],
+  [1150, 1], [1153, 1], [1154, 1], [1162, 2], [1173, 1], [1175, 1], [1180, 1], [1183,
+  1], [1184, 1], [1186, 1], [1190, 1], [1201, 1], [1206, 1], [1207, 1], [1211, 1],
+  [1213, 1], [1219, 1], [1222, 1], [1226, 1], [1230, 1], [1233, 1], [1236, 1], [1237,
+  1], [1239, 1], [1248, 1], [1249, 1], [1250, 1], [1253, 1], [1262, 1], [1263, 1],
+  [1264, 1], [1273, 1], [1276, 1], [1279, 1], [1288, 1], [1290, 1], [1291, 1], [1301,
+  1], [1303, 2], [1313, 1], [1328, 1], [1329, 1], [1330, 1], [1332, 1], [1333, 1],
+  [1341, 1], [1343, 1], [1348, 1], [1349, 1], [1353, 3], [1354, 2], [1356, 1], [1359,
+  1], [1362, 1], [1363, 1], [1364, 1], [1370, 1], [1372, 2], [1374, 1], [1376, 1],
+  [1381, 1], [1388, 2], [1391, 1], [1394, 1], [1395, 1], [1399, 1], [1400, 1], [1403,
+  1], [1404, 2], [1406, 1], [1410, 1], [1415, 1], [1422, 1], [1433, 1], [1441, 1],
+  [1450, 1], [1459, 1], [1469, 1], [1476, 1], [1489, 1], [1491, 1], [1496, 1], [1506,
+  1], [1519, 1], [1522, 1], [1532, 1], [1534, 1], [1539, 1], [1558, 1], [1559, 1],
+  [1560, 1], [1578, 1], [1586, 1], [1627, 1], [1635, 1], [1645, 1], [1650, 1], [1662,
+  1], [1682, 1], [1694, 1], [1701, 1], [1719, 1], [1747, 1], [1755, 1], [1760, 1],
+  [1769, 1], [1802, 1], [1809, 1], [1810, 2], [1820, 1], [1860, 1], [1866, 1], [1878,
+  1], [1900, 1], [1914, 1], [1915, 1], [1935, 1], [1937, 1], [1943, 1], [1970, 1],
+  [1975, 1], [1986, 1], [2121, 1], [2131, 1], [2191, 1], [2201, 1], [4408, 1]]'
+src_sent_tokens_mean: 42
+src_sent_tokens_median: 25
+src_unique_sents: '[[1, 1231], [2, 2299], [3, 2086], [4, 2243], [5, 2488], [6, 2391],
+  [7, 2138], [8, 2326], [9, 1879], [10, 1775], [11, 1665], [12, 2377], [13, 1565],
+  [14, 1497], [15, 1522], [16, 1420], [17, 1438], [18, 1338], [19, 1353], [20, 1359],
+  [21, 1337], [22, 1372], [23, 1325], [24, 1446], [25, 1349], [26, 1363], [27, 1423],
+  [28, 1325], [29, 1359], [30, 1303], [31, 1370], [32, 1347], [33, 1363], [34, 1268],
+  [35, 1210], [36, 1217], [37, 1120], [38, 1068], [39, 1122], [40, 1110], [41, 1032],
+  [42, 1020], [43, 960], [44, 989], [45, 894], [46, 910], [47, 843], [48, 781], [49,
+  744], [50, 713], [51, 706], [52, 660], [53, 638], [54, 636], [55, 601], [56, 548],
+  [57, 540], [58, 501], [59, 516], [60, 480], [61, 455], [62, 457], [63, 400], [64,
+  393], [65, 381], [66, 348], [67, 379], [68, 320], [69, 345], [70, 352], [71, 342],
+  [72, 273], [73, 288], [74, 294], [75, 275], [76, 274], [77, 281], [78, 241], [79,
+  250], [80, 248], [81, 229], [82, 221], [83, 209], [84, 192], [85, 190], [86, 217],
+  [87, 200], [88, 202], [89, 186], [90, 185], [91, 171], [92, 161], [93, 178], [94,
+  151], [95, 169], [96, 175], [97, 162], [98, 132], [99, 154], [100, 162], [101, 146],
+  [102, 142], [103, 161], [104, 150], [105, 122], [106, 139], [107, 143], [108, 137],
+  [109, 106], [110, 123], [111, 142], [112, 134], [113, 117], [114, 131], [115, 105],
+  [116, 124], [117, 121], [118, 115], [119, 96], [120, 106], [121, 98], [122, 87],
+  [123, 88], [124, 108], [125, 87], [126, 83], [127, 81], [128, 85], [129, 92], [130,
+  78], [131, 74], [132, 84], [133, 64], [134, 87], [135, 74], [136, 95], [137, 75],
+  [138, 60], [139, 61], [140, 80], [141, 68], [142, 74], [143, 70], [144, 68], [145,
+  74], [146, 64], [147, 62], [148, 68], [149, 60], [150, 54], [151, 52], [152, 62],
+  [153, 63], [154, 57], [155, 56], [156, 55], [157, 65], [158, 47], [159, 51], [160,
+  54], [161, 55], [162, 48], [163, 39], [164, 40], [165, 47], [166, 41], [167, 44],
+  [168, 41], [169, 32], [170, 31], [171, 32], [172, 40], [173, 39], [174, 35], [175,
+  33], [176, 38], [177, 33], [178, 40], [179, 42], [180, 25], [181, 32], [182, 31],
+  [183, 25], [184, 31], [185, 28], [186, 23], [187, 28], [188, 35], [189, 32], [190,
+  25], [191, 26], [192, 21], [193, 19], [194, 26], [195, 26], [196, 19], [197, 25],
+  [198, 22], [199, 21], [200, 22], [201, 18], [202, 15], [203, 20], [204, 21], [205,
+  17], [206, 24], [207, 22], [208, 24], [209, 13], [210, 11], [211, 15], [212, 13],
+  [213, 7], [214, 16], [215, 19], [216, 16], [217, 23], [218, 5], [219, 12], [220,
+  17], [221, 15], [222, 9], [223, 14], [224, 12], [225, 11], [226, 8], [227, 6], [228,
+  10], [229, 14], [230, 10], [231, 11], [232, 8], [233, 10], [234, 12], [235, 4],
+  [236, 5], [237, 6], [238, 9], [239, 8], [240, 13], [241, 3], [242, 12], [243, 11],
+  [244, 10], [245, 10], [246, 8], [247, 6], [248, 10], [249, 7], [250, 8], [251, 4],
+  [252, 3], [253, 5], [254, 4], [255, 4], [256, 6], [257, 4], [258, 7], [259, 2],
+  [260, 5], [261, 4], [262, 9], [263, 4], [264, 4], [265, 3], [266, 3], [267, 7],
+  [268, 5], [269, 4], [270, 4], [271, 5], [272, 6], [273, 5], [274, 2], [275, 1],
+  [276, 3], [277, 3], [278, 4], [279, 2], [280, 5], [281, 2], [282, 5], [283, 5],
+  [284, 2], [285, 4], [286, 2], [287, 3], [288, 3], [289, 2], [290, 3], [291, 1],
+  [292, 3], [293, 4], [294, 2], [295, 1], [296, 3], [297, 3], [298, 2], [299, 3],
+  [300, 4], [301, 3], [302, 1], [304, 1], [305, 1], [306, 3], [307, 1], [309, 1],
+  [310, 1], [311, 2], [312, 2], [313, 1], [314, 4], [316, 1], [317, 3], [318, 1],
+  [319, 2], [320, 3], [322, 3], [323, 1], [324, 2], [325, 3], [326, 1], [327, 3],
+  [329, 2], [330, 2], [335, 3], [336, 2], [337, 1], [340, 1], [341, 1], [343, 2],
+  [346, 2], [347, 1], [348, 1], [350, 2], [351, 1], [352, 1], [355, 1], [356, 2],
+  [357, 1], [359, 2], [360, 1], [361, 2], [362, 1], [366, 2], [368, 2], [370, 1],
+  [371, 1], [372, 1], [374, 2], [376, 1], [377, 1], [378, 2], [379, 3], [380, 1],
+  [384, 2], [389, 1], [391, 1], [395, 2], [397, 2], [398, 1], [399, 1], [400, 2],
+  [404, 1], [405, 1], [406, 1], [407, 1], [408, 1], [409, 1], [410, 1], [411, 1],
+  [413, 1], [414, 1], [416, 2], [417, 1], [418, 1], [419, 1], [420, 1], [423, 3],
+  [426, 2], [427, 1], [429, 2], [431, 1], [432, 3], [433, 1], [436, 1], [437, 2],
+  [439, 1], [447, 1], [449, 2], [452, 2], [453, 2], [455, 2], [457, 1], [460, 1],
+  [464, 5], [466, 1], [468, 1], [470, 1], [473, 2], [474, 1], [475, 2], [482, 1],
+  [486, 1], [487, 3], [488, 2], [489, 1], [491, 1], [492, 1], [493, 2], [499, 1],
+  [501, 2], [502, 1], [503, 1], [504, 1], [505, 1], [507, 1], [508, 2], [512, 1],
+  [515, 2], [516, 1], [519, 1], [520, 1], [523, 1], [524, 1], [526, 4], [530, 1],
+  [531, 1], [534, 1], [536, 1], [537, 1], [538, 2], [540, 1], [541, 1], [542, 1],
+  [544, 2], [545, 1], [546, 4], [548, 1], [552, 1], [553, 2], [555, 1], [557, 1],
+  [560, 1], [561, 1], [562, 1], [564, 1], [570, 1], [573, 1], [575, 1], [579, 1],
+  [582, 1], [583, 1], [585, 1], [589, 2], [592, 1], [593, 1], [594, 1], [596, 1],
+  [597, 2], [602, 1], [603, 6], [605, 2], [606, 1], [607, 1], [609, 3], [612, 1],
+  [613, 2], [616, 1], [617, 1], [622, 1], [623, 2], [624, 1], [625, 2], [627, 2],
+  [629, 1], [631, 1], [635, 2], [638, 1], [640, 3], [643, 1], [648, 1], [650, 1],
+  [652, 1], [654, 1], [658, 1], [660, 1], [661, 1], [662, 1], [663, 1], [665, 1],
+  [666, 1], [669, 1], [672, 1], [675, 3], [677, 2], [680, 1], [682, 1], [683, 1],
+  [689, 1], [691, 1], [696, 1], [697, 1], [698, 1], [699, 5], [700, 1], [701, 1],
+  [702, 1], [703, 3], [704, 2], [709, 1], [712, 3], [718, 1], [719, 2], [721, 1],
+  [722, 1], [725, 1], [726, 2], [730, 2], [731, 2], [732, 2], [733, 2], [734, 1],
+  [736, 3], [738, 3], [741, 3], [742, 2], [743, 3], [745, 2], [746, 1], [747, 2],
+  [748, 2], [749, 1], [752, 1], [754, 2], [755, 1], [756, 1], [758, 1], [761, 1],
+  [762, 2], [764, 3], [765, 1], [767, 2], [768, 2], [769, 1], [771, 1], [772, 1],
+  [773, 3], [774, 1], [776, 2], [779, 1], [782, 1], [784, 2], [785, 1], [786, 2],
+  [788, 1], [790, 1], [795, 1], [798, 1], [800, 1], [801, 1], [802, 2], [803, 1],
+  [806, 2], [808, 1], [810, 1], [814, 1], [816, 2], [820, 1], [823, 3], [824, 1],
+  [825, 1], [826, 1], [828, 1], [829, 1], [830, 1], [831, 2], [834, 1], [835, 1],
+  [837, 1], [844, 1], [846, 1], [850, 2], [852, 1], [856, 1], [857, 1], [859, 1],
+  [860, 2], [861, 1], [867, 1], [870, 2], [876, 1], [880, 1], [881, 2], [890, 2],
+  [891, 1], [894, 1], [895, 1], [902, 1], [904, 1], [909, 1], [911, 1], [912, 1],
+  [913, 1], [916, 1], [917, 2], [918, 2], [921, 2], [923, 2], [927, 1], [928, 1],
+  [929, 2], [930, 1], [931, 1], [937, 1], [940, 2], [941, 1], [942, 1], [944, 2],
+  [945, 1], [946, 1], [948, 2], [949, 1], [951, 1], [955, 1], [956, 1], [960, 1],
+  [962, 2], [963, 1], [966, 1], [968, 3], [970, 1], [973, 1], [974, 1], [975, 1],
+  [976, 1], [978, 1], [980, 1], [990, 1], [992, 1], [994, 1], [1000, 1], [1007, 2],
+  [1008, 1], [1009, 2], [1012, 1], [1013, 1], [1018, 1], [1023, 1], [1024, 1], [1025,
+  1], [1029, 1], [1031, 1], [1032, 1], [1035, 1], [1037, 1], [1040, 1], [1042, 1],
+  [1043, 1], [1044, 2], [1046, 1], [1051, 2], [1055, 1], [1058, 1], [1061, 1], [1063,
+  2], [1069, 1], [1071, 1], [1072, 1], [1073, 1], [1074, 1], [1075, 1], [1076, 3],
+  [1087, 1], [1091, 1], [1094, 1], [1101, 1], [1102, 2], [1106, 1], [1110, 2], [1111,
+  2], [1116, 1], [1123, 1], [1125, 1], [1137, 1], [1141, 1], [1146, 1], [1148, 1],
+  [1150, 1], [1153, 1], [1154, 1], [1162, 2], [1173, 1], [1175, 1], [1180, 1], [1183,
+  1], [1184, 1], [1186, 1], [1190, 1], [1201, 1], [1206, 1], [1207, 1], [1211, 1],
+  [1213, 1], [1219, 1], [1222, 1], [1226, 1], [1230, 1], [1233, 1], [1236, 1], [1237,
+  1], [1239, 1], [1248, 1], [1249, 1], [1250, 1], [1253, 1], [1262, 1], [1263, 1],
+  [1264, 1], [1273, 1], [1276, 1], [1279, 1], [1288, 1], [1290, 1], [1291, 1], [1301,
+  1], [1303, 2], [1313, 1], [1328, 1], [1329, 1], [1330, 1], [1332, 1], [1333, 1],
+  [1341, 1], [1343, 1], [1348, 1], [1349, 1], [1353, 3], [1354, 2], [1356, 1], [1359,
+  1], [1362, 1], [1363, 1], [1364, 1], [1370, 1], [1372, 2], [1374, 1], [1376, 1],
+  [1381, 1], [1388, 2], [1391, 1], [1394, 1], [1395, 1], [1399, 1], [1400, 1], [1403,
+  1], [1404, 2], [1406, 1], [1410, 1], [1415, 1], [1422, 1], [1433, 1], [1441, 1],
+  [1450, 1], [1459, 1], [1469, 1], [1476, 1], [1489, 1], [1491, 1], [1496, 1], [1506,
+  1], [1519, 1], [1522, 1], [1532, 1], [1534, 1], [1539, 1], [1558, 1], [1559, 1],
+  [1560, 1], [1578, 1], [1586, 1], [1627, 1], [1635, 1], [1645, 1], [1650, 1], [1662,
+  1], [1682, 1], [1694, 1], [1701, 1], [1719, 1], [1747, 1], [1755, 1], [1760, 1],
+  [1769, 1], [1802, 1], [1809, 1], [1810, 2], [1820, 1], [1860, 1], [1866, 1], [1878,
+  1], [1900, 1], [1914, 1], [1915, 1], [1935, 1], [1937, 1], [1943, 1], [1970, 1],
+  [1975, 1], [1986, 1], [2121, 1], [2131, 1], [2191, 1], [2201, 1], [4408, 1]]'
+src_langs: '[["war", 58941], ["en", 14030], ["tl", 13723], ["ceb", 11809], ["es",
+  2003], ["it", 1938], ["id", 972], ["ilo", 860], ["hr", 714], ["pt", 584], ["de",
+  542], ["fr", 435], ["eo", 432], ["ca", 253], ["nl", 230], ["sv", 215], ["pl", 202],
+  ["tr", 182], ["gl", 152], ["ms", 146], ["fi", 115], ["la", 91], ["ru", 88], ["lt",
+  86], ["ur", 85], ["sr", 85], ["hu", 79], ["ja", 73], ["th", 69], ["vi", 65], ["nn",
+  56], ["cs", 55], ["eu", 51], ["ro", 43], ["jv", 42], ["ia", 39], ["sw", 38], ["sl",
+  35], ["et", 35], ["nb", 33], ["uz", 32], ["el", 29], ["zh", 27], ["fa", 27], ["sq",
+  26], ["cy", 23], ["sk", 21], ["su", 20], ["rm", 18], ["br", 18], ["az", 16], ["qu",
+  15], ["ml", 14], ["ku", 14], ["pam", 13], ["nds", 13], ["mk", 13], ["min", 13],
+  ["io", 13], ["da", 13], ["uk", 12], ["ht", 11], ["fy", 11], ["bs", 11], ["ar", 11],
+  ["kn", 10], ["is", 10], ["gn", 8], ["ta", 7], ["oc", 7], ["lv", 7], ["ko", 7], ["hy",
+  6], ["gd", 6], ["vo", 5], ["so", 5], ["sco", 5], ["my", 5], ["bcl", 5], ["tg", 4],
+  ["pms", 4], ["lb", 4], ["hsb", 4], ["hi", 4], ["ga", 4], ["te", 3], ["mg", 3], ["jbo",
+  3], ["he", 3], ["gv", 3], ["yo", 2], ["ug", 2], ["li", 2], ["kw", 2], ["ie", 2],
+  ["cv", 2], ["co", 2], ["bn", 2], ["bg", 2], ["af", 2], ["yue", 1], ["wuu", 1], ["ps",
+  1], ["os", 1], ["or", 1], ["nap", 1], ["mwl", 1], ["mr", 1], ["lmo", 1], ["kv",
+  1], ["ka", 1], ["cbk", 1], ["be", 1], ["bar", 1], ["ast", 1], ["am", 1]]'
+hardrules_tags: '{"not_too_long": 1432, "not_too_short": 8439, "length_ratio": 0,
+  "no_urls": 3272, "no_bad_encoding": 5, "pii": 103}'
+sample: '["\"Isumat.com/3:52AM, September 14, 2020\\nMagkakamay-ada hin Game 7 ha
+  butnga han Nuggets ngan Clippers ha Western Conference Finals kataliwan la nga paglumson
+  han Denver an hugpo nira Kawhi Leonard, 111-98, dida han ika-unom nga mulay basi
+  makatabla ha 3-3.\\nIni nga paka-igbaw han Nuggets in come-from-behind win tungod
+  kay naka-abante anay hin 16 puntos an Clippers katapos han 1st half.\\nPero waray
+  matarantar an grupo nira Nikola Jokic ngan naghimo hira hin paagi basi makalanat.
+  Dida han 3rd quarter, naghulog hira hin 30-16 nga bomba, ngan ginsundan ini hin
+  34-19 nga bunal ha last quarter.\\nHi Jokic an nanguna han Denver pinaagi han iya
+  34 puntos ngan ginsuportaran han 21 puntos ni Jamal Murray.\\nHi Paul Jorge in mayda
+  34 puntos, ngan 29 puntos naman tikang kan Leonard ha panig han Clippers.\\nAn Game
+  7 in hihimoon dida hiton Mierkules, Setyembre 16. Amo gihapon ini nga petsa an pag-abri
+  han best of seven Eastern Conference Finals ha butnga han Miami Heat ngan Boston
+  Celtics.\\nAn LA Lakers in naghuhulat han makakadaog ha asdangay han Nuggets ngan
+  Clippers. #\"", "\"Leonard Bernstein\\n- Mayda impormasyon hini nga artikulo nga
+  aada han Iningles nga bersyon nga angay ighubad ha Winaray\\nHi Leonard Bernstein
+  (Agosto 25, 1918 \u2013 Oktubre 14, 1990) usa nga Americano nga kompositor, pianista
+  ngan konduktor. Hiya an syahan nga konduktor nga natawo ha Estados Unidos han America
+  nga nakakuha hin pagkakilala ha bug-os nga kalibutan, ngan kilalado hiya tungod
+  han iya pagkondukt han New York Philharmonic, upod han mga kilalado nga Young People''s
+  Concerts nga series, ngan an iya damo nga mga kinumposo, sugad han West Side Story,
+  Candide ngan On The Town.\"", "\"Sulod hin duha ka adlaw mag papahigayon hin pag
+  distribwer han mga land tittle an mga taga DENR ug Land Registration Authority LRA
+  upod an LGU Guiuan ha panguna ni Mayor Annaliz Gonzales-Kwan ngadto han 651 ka mga
+  benipisyaryo han programa nga HANDOG TITULO PROGRAM.\\nMismo hi Mayor Annaliz an
+  nag hangyo ngadto ha DENR ug LRA nga hira na iton pumakanhi ha Guiuan agud pag distribwer
+  han mga titulo han tuna agud nga diri na pumakadto ha Borongan an mga nag patitulo
+  han ira mga katuna-an.\\nSanglit dako naman an pasalamat ug hingalipay han mga nag
+  patitulo dara nga minus gastos na ngan makakalikay pa hira han hulga han virus dara
+  hini yana nga pandemya.\\nPolice Station\\n09173498833\\nFire Station\\n09269921534\\n09469382458\"",
+  "\"Para ha imo, ito ba . . .\\naada la ha imo kasingkasing?\\nsimboliko nga mga
+  pulong?\\nusa nga gobyerno ha langit?\\nKON ANO AN GINSISIRING HAN BIBLIA\\n\u201cAn
+  Dios ha langit magpapabangon hin usa nga ginhadian, nga diri gud magugunaw.\u201d\\n\u201cHa
+  aton iginhatag an usa nga anak nga lalaki; ngan an kagamhanan [\u201cgobyerno,\u201d
+  Douay Version] maaada ha iya sugbong.\u201d\\nKON ANO AN KAPULSANAN HITO HA IMO\\nMakakagtagana
+  han imo mga panginahanglan inin matadong nga gobyerno.\\n\u2014Isaias 48:17, 18.
+  Ha tiarabot nga bag-o nga kalibotan, perpekto na an imo kahimsog ngan magigin malipayon
+  ka gud.\\n\u2014Pahayag 21:3, 4.\\nMASASARIGAN GUD BA NATON AN GINSISIRING HAN BIBLIA?\\nOo,
+  ha duha nga hinungdan:\\nIginpakita ni Jesus kon ano an bubuhaton han Ginhadian
+  han Dios. Gintutdoan ni Jesus an iya mga sumurunod nga ig-ampo nga kumanhi an Ginhadian
+  han Dios ngan matuman an kaburut-on han Dios dinhi ha tuna. (Mateo 6:9, 10) Iginpakita
+  ni Jesus kon paonan-o babatunon ito nga pag-ampo.\\nHan nakanhi hi Jesus ha tuna,
+  nagpakaon hiya ha mga nagugutom, nagtambal hin may sakit, ngan nagbanhaw hin mga
+  patay! (Mateo 15:29-38; Juan 11:38-44) Sugad nga Magmarando han Ginhadian han Dios
+  ha tidaraon, iginpakita ni Jesus an magpakaruruyag nga bubuhaton hito nga Ginhadian
+  ha mga sakop hito.\\n\u2014Pahayag 11:15. Ginpapamatud-an han mga panhitabo ha kalibotan
+  nga hirani na umabot an Ginhadian han Dios. Igintagna ni Jesus nga antes gud pahinaboon
+  han Ginhadian an kamurayawan ha tuna, magkakaada mga girra, gutom, ngan linog.\u2014Mateo
+  24:3, 7.\\nNakikita naton mismo ito nga mga panhitabo yana. Salit makakasarig kita
+  nga hirani na tapuson han Ginhadian han Dios an ngatanan nga problema.\\nALAYON
+  HUNAHUNAA INI\\nAno an magigin kahimtang han kinabuhi kon magmando na an Ginhadian
+  han Dios?\\nGinbabaton ito han Biblia ha SALMO 37:29 ngan ISAIAS 65:21-23.\"", "\"Caibiran\\nAn
+  Caibiran usa nga ikalima nga klase nga munisipalidad o bungto ha lalawigan han Biliran
+  ha Sinirangan nga Kabisay-an ha Pilipinas. Ha amihanan han bungto mabibilngan an
+  bungto han Culaba. Ha salatan o habagatan han bungto matatad-an an bungto han Cabucgayan.
+  Ha katundan han Caibiran mabibilngan an mga bungto han Biliran ngan Naval. Aadto
+  ha census han tuig na 2015 nga an Caibiran may-ada populasyon nga 22,524. An kabug-at
+  han populasyon kay 270 nga mangurukoy kada kilometro kwadrado.\\nEtimolohiya[igliwat
+  | Igliwat an wikitext]\\nGin-ngaranan an bungto han ngaran nga Caibiran tungod han
+  kadamo han mga \u201cibid\u201d (an gintikangan nga pulong) nga aadto. An kadaan
+  nga pagluwas hini kay Ca-ibiran (damo na mga ibid) pero han paglabay han panahon,
+  gindidiretso nala ini pagluwas.\\nTinikangan[igliwat | Igliwat an wikitext]\\nHadto
+  na bag-o pala nga bungto an Caibiran, nakagtukod an mga nangungukoy han singbahan
+  ngan usa nga lantawan. Usa ka adlaw, tungod han mga subasko nga uran, tumaob an
+  salog nga aadto han bungto ngan nagbaha. Naguba hini nga baha an bungto upod an
+  iba nga mga tawo nga aadto. Dara ngay-an han salog an peligro ha mangurukoy han
+  bungto.\\nHa tuig nga 1882, gin-upod ni Kapitan Bebiano Maderazo an mangurukoy han
+  Caibiran ha bag-o nga katunaan ngan didto na nahimo na bungto an Caibiran samtang
+  an daan nira nga katunaan nahimo na usa nga barangay hini na bungto nga gin-ngaran
+  na \\\"Binohangan\\\" tungod han kabuhang didto hadtun pagbaha.\\nHeograpiya[igliwat
+  | Igliwat an wikitext]\\nNakahimutang an Caibiran ha 11\u00b034\u2032N 124\u00b035\u2032E.\\nAadto
+  ha Philippine Statistics Authority nga an bungto may-ada kahiluag han tuna na 83.55
+  kilometro kwadrado ginkukompuwestuan an 15.59% ha 536.01-kilometro-kwadrado- (206.95
+  sq mi) nga kabug-usan na kahiluag han Biliran.\\nMga Baranggay[igliwat | Igliwat
+  an wikitext]\\nNatutunga an Caibiran ha 17 nga mga baranggay. Hadtun 1948, nabalhin
+  an mga barangay nga Ungale, Tuo, and Inasuyan ha Kawayan, Biliran.\\nKinuhaan[igliwat
+  | Igliwat an wikitext]\\n- \\\"Municipality\\\". Quezon City, Philippines: Department
+  of the Interior and Local Government. Retrieved 31 May 2013\\n- \\\"Province: Biliran\\\".
+  PSGC Interactive. Quezon City, Philippines: Philippine Statistics Authority. Retrieved
+  12 November 2016.\\n- Census of Population (2015). \\\"Region VIII (Eastern Visayas)\\\".
+  Total Population by Province, City, Municipality and Barangay. PSA. Retrieved 20
+  June 2016.\\n- \\\"Municipal: Caibiran, Biliran\\\". PSGC Interactive. Quezon City,
+  Philippines: Philippine Statistics Authority. Retrieved 8 January 2016.\\n- \\\"An
+  act to separate the barrios of Ungale, Tuo, and Inasuyan from the municipality of
+  Caibiran, province of Leyte, and to merge these barrios with the municipality of
+  Kawayan, of the same province\\\". LawPH.com. Retrieved 2011-04-08.\"", "\"Tyatro\\nAn
+  tyatro o teatro (tikang han Kinatsila \\\"teatro\\\", nga tikang han Griyego \\\"theatron\\\",
+  \u03b8\u03adatpov, nga nangangahulogan \\\"lugar hin pagkita\\\") amo in sanga han
+  pagpasundayag nga mga arte nga ginhuhubad nga ano an \\\"nahihinabo kon in usa o
+  damo pa nga mga tawo, nga nahibulag ha taknan ngan/o lugar, nagpapasundayag han
+  ira kalugaringon ha iba o mga iba.\\\"[1] Ha hini nga haluag nga kahubad, an tyatro
+  nakada tikang han kahadto nga mga panahon, komo resulta han pagkaruyag hin tawo
+  hin pagsumat hin istorya. Tikang han pagtikang hini, nagkaada hin damo nga forma
+  an tyatro, nga agsob maggamit hin mga elemento sugad hin pagyakan, pagsinyal, musika,
+  sayaw, ngan ispektakulo, nga ginkombina han iba nga mga pagpasundayag nga mga arte,
+  pati gihapon han visual nga gma arte, ngadto hin usa nga artistiko nga forma.\\nMga
+  reperensya[igliwat | edit source]\\n- Bernard Beckerman, head of Hofstra University''s
+  department of drama, in his book, Dynamics of Drama\"", "\"TACLOBAN CITY \u2013
+  Duha nga mga rebelde nga taga-Calbiga, Samar an nagsurender ha Calbiga Municipal
+  Police Station.\\nGinkilala an mga ine kanda alyas Ker, 36-anyos an pangidaron,
+  usa nga staff han SRC Emporium ngan membro han Municipal Group Unit ni Ka-Onang,
+  ngan membro gihapon han Libas Platoon nga ginmamanguluhan naman ni Ka-Liloy ngan
+  alyas Pacayra, 34-anyos an pangidaron, membro gihapon han nasabi nga mga grupo.\\nSumala
+  kan PCpt. Marvin Labrague, Chief of Police hiton Calbiga Municipal Police Station,
+  taga-Calbiga an mga ine pero nakadto an mga ine pagdudumara han ira operasyon ha
+  Silvino Lobos, Northern Samar.\\nHa pagsurender han mga ine in dayun an mga ine
+  nga kumarawat hin cash assistance ngan grocery items agud may magastos ngan magamit
+  nga pagtikang samtang ginpo-proseso pa an pagbulig han mga ine ha mga programa han
+  gobyerno para ha mga rebel surrenderees.\\nSamtang, nanawagan naman an nasabi nga
+  opisyal ha mga aadto pa ha kabukiran nga bumalik na ha gobyerno ngan dire mag-alang
+  pakipagsumpayan ha ira kay andam hira nga bumulig ha mga ine.\\nHa pagkayana in
+  ada na ha ilarom han kustodiya han Calbiga Municipal Police Station an mga ine.\"",
+  "\"Baghdad\\nAn Baghdad (Inarabo: \u0628\u063a\u062f\u0627\u062f, Ba\u0121d\u0101d,
+  IPA: [b\u00e6\u0263\u02c8d\u00e6\u02d0d]) in ulohan han Republika han Irak, nganhin
+  igkasipareho it tetoryo ha Governorato han Baghdad. An populasyon han Baghdad han
+  2011 in ginbabanabanahan nga 7,216,040, nga nahimo nga may-ada pinakadamo nga tawo
+  nga syudad han nasod. Ini an gidadakoi nga nasod han Iraq[1][2], ngan ikaduha nga
+  gidadakoi nga syudad ha Kalibutan Arabo (nasunod la ha Cairo, Ehipto), ngan ikaduha
+  nga gidadkoi nga syudad ha Katundan nga Asya (sinmunod la ha Tehran, Iran).\\nNahamutang
+  ha may Salog Tigris, an syudad in gintukod ha ika-8 gatostuig ngan naging ulohan
+  han Kalipo han Abbasid. Ha sulod han gutiay nga panahon tikang ha pagkatukod, an
+  Baghdad in tinmubo ngadto ha us''ka mahinungdanon nga kultural, komersyal, ngan
+  intelektuwal nga sentro han Kalibutan Islamico. Ini in labot ha puy-anan hin pipira
+  nga panguna nga institusyon academica (sugad han Balay han Kabaltok) nga naghatag
+  hin kalibutanon nga reputasyon ha syudad komo an \\\"Sentro han Pag-aram\\\". Ha
+  bug-os nga pag-agi han Hitaas nga Butnga nga Panahon, an Baghdad in gincoconsiderar
+  nga gidadakoi nga syudad ha kalibutan nga may''da ginbabanabanahan nga populasyon
+  nga 1,200,000 nga katawhan[3]. An syudad in ginruba ha mga kamot han Imperyo Mongol
+  ha 1258, nga nagbunga hin pag-ubos nga pinmadayon hin pipira nga mga gatos-tuig
+  tungod han agsob nga mga sakit ngan dirudilain nga mga susronod nga mga imperyo.
+  Han paghatag hin pagkilala han Iraq komo us''ka naglulugaring nga syudad (anay Britanico
+  nga Mandato han Mesopotamia) ha 1938, an Baghdad in hinayhinay nga nakabawi han
+  iya pipira nga mga anay prominente komo us''ka mahinungdadnon nga sentro han kultura
+  Arabo.\\nHa pagkayana, an syudad in naatubang hin hilarom nga pagkaguba han inprastruktura,
+  tungod han diri la maiha nga ginpapangunahan han Amerikano nga langyaw nga pag-okupa
+  han Marso 2009 ngan an sinmunod nga kahimtang hin sunod-sunod nga gera nga natapos
+  han Disyembre 2011. Han pipira nga tuig nga naglabay, an syudad in makadamo nga
+  nagkarawat hin mga gios han rebelde ngan mga atake han terorista.\\nSulod\\nToponimo[igliwat
+  | edit source]\\nMay''da pipira nga magkaribal nga mga pagduso mahiunong ha specifico
+  nga etimolohiya han ngaran Baghdad. An gimahitatapori ngan an pinakahaluag nga pagkarawat
+  ha mga ini in an ngaran in us''ka Butnga nga Pinersyano[4][5][6][7][8][9][10] nga
+  gindugtong nga pulong hiton Bag \\\"diyos\\\" + d\u0101d \\\"ginhatag\\\", nga nahuhubad
+  ngadto ha \\\"ginhatag han Diyos\\\" o \\\"kanan Diyos regalo\\\", nga nagawas an
+  Kayanaan nga Persiyano Ba\u0263d\u0101d. Ini in mas nagtikang ha Kadaan nga Persiyano.[11]\\nAn
+  us''ka mas maluya nga tigo in ginkuha ha pinagdugtong nga Pinersiyano nga Ba\u011f
+  \\\"hardin\\\" + d\u0101d \\\"baysay\\\", nahuhubad ha \\\"An baysay nga Hardin\\\",[12][13]\\nMayda
+  liwat nangunguna nga pagduso in an ngaran in nagtikang ha Butnga nga Pinersyano
+  nga B\u0101gh-d\u0101d \\\"An Ginhatag nga Hardin\\\". An ngaran in ugsa-Islamico
+  ngan an mga katikangan in diri sayod, pero ini in nahisumpay ha inmagi nga mga panimungto,
+  nga waray bisan ano nga politikal o komersyal nga gahom, nga naghihimo ini nga haros
+  bag-o nga pagtukod ha panahon han mga Abbasid.[12][13]\\nPero an Baghdad, komo us''ka
+  ngaran, in natawag komo Baghdadu ha Assyriano nga cuneiform nga panuratan han ika
+  9 nga gatos tuig UC, ngan an Babylonon nga mga tisa in nagdadara hin Ginhadianon
+  nga Palutop ni Hadi Nebuchadnezzar (ika-6 nga gatos tuig UC).[14]\\nAn baryo han
+  Baghdad in mas malaksi nga naghing mahinungdahon han panahon nga gintukod ini han
+  kalipa han Abbasid na hi al-Mansur, nga nagpili ha ngaran nga Madinat al-Salaam
+  o \\\"Syudad han Kamurayaw\\\" para han iya bag-o nga pagtukod. Ini an naging buhatanon
+  nga ngaran ha sinsilyo, pabug-at ngan iba nga buhatanon nga gamit, bisan an kadam-an
+  nga tawo in nagpapadayon ha paggamit ha daan nga ngaran. Han ika-11 nga gatostuig,
+  \\\"Baghdad\\\" an haros gingagamit la nga ngaran para han hini nga bantog-ha-kalibutan
+  nga metropolis.\\nKaagi[igliwat | edit source]\\nPagkatukod[igliwat | edit source]\\nHan
+  30 Hulyo 762, hi kalipa Al Mansur in nagsugo ha pag-ayad han syudad ngan ini in
+  nahitindog ha ilarom ha pagbantay han Barmacidas.[15] Gintoohan ni Mansur nga an
+  Baghada in perfecto nga syudad para maging lohan han imperyo Islamico ha ilarom
+  han mga Abasida. Ginhigugma ni Mansur hin duro an lugar nga hiya in nabatian nga
+  sinmiring, \\\"Ini lagi an syudad nga akon igtutukod, kun hain ako maukoy, ngan
+  kun diin an akon mga manurunod in mamumuno pagkasunod\\\".[16]\\nAn kanan syudad
+  pagdako in nabuligan an iya kahimutangan, nga nahatag hin kontrol ha stratehiko
+  ngan aragian han pannegosyo, ha may Tigris. Us''ka rason kun kay-ano an Baghdad
+  in nahatag hin maupay nga lokasyon in kadamo han tubig ngan kamara han klima. May''da
+  tuig ha amihanan ngan salatan nga katubtoban han ganghaan han syudad, nga natugot
+  han ngatanan nga mga panimalay nga magkamay''da hin damo nga suplay, nga urusahon
+  han hiton nga panahon.\\nNasalipdan han Baghdad an Ctesiphon, an ulohan han Imperyo
+  Persiyano, nga nahamutang han mga 30 km (19 mi) ha timugan. Ha yana an nabilin han
+  Ctesiphon in bungto han Salman Pak, salatan la han Durudako nga Baghdad. An Ctesiphon
+  in nasaliwanan ngan nahitampo ha Seleucia, an syahan nga ulohan han Imperyo Seleucid.
+  An Seleucia in nagsaliwan han syudad han Babylon ha mas uruuna nga panahon.\\nMga
+  bugto nga syudad[igliwat | edit source]\\n- Amman, Jordan[Nagkikinahanglan hin kasarigan]\\n-
+  Beirut, Lebanon[17]\\n- Dubai, United Arab Emirates[Nagkikinahanglan hin kasarigan]\\n-
+  Sana''a, Yemen[18]\\n- Nishapur, Iran[19]\\n- Pyongyang, North Korea (tikang 21
+  Septyembre 2011)[Nagkikinahanglan hin kasarigan]\\n- Basra, Iraq[Nagkikinahanglan
+  hin kasarigan]\\nPinanbasaran[igliwat | edit source]\\n- Estimates of total population
+  differ substantially. The Encyclop\u00e6dia Britannica gives a 2001 population of
+  4,950,000, the 2006 Lancet Report states a population of 7,216,040 in 2011.\\n-
+  \\\"Baghdad\\\" Encyclop\u00e6dia Britannica. 2006. Encyclop\u00e6dia Britannica
+  Online. 13 November 2006.\\n- PDF (242 KB). By Gilbert Burnham, Riyadh Lafta, Shannon
+  Doocy, and Les Roberts. The Lancet, October 11, 2006\\n- Baghdad from GlobalSecurity.org\\n-
+  \\\"Cities and urban areas in Iraq with population over 100,000\\\", Mongabay.com\\n-
+  List of largest cities throughout history. Wikipedia.\\n- http://admin.iraqupdates.net/p_articles.php/article/35631\\n-
+  http://www.blackanthem.com/News/Fact_Sheets/Baghdad_Iraq10693.shtml\\n- http://persiangulfstudies.com/en/index.asp?P=NEWS2&Nu=45\\n-
+  http://islam.about.com/cs/history/a/aa040703a.htm\\n- http://www.iranica.com/articles/baghdad-iranian-connection-1-pr-Mongol\\n-
+  http://books.google.com/books?id=rezD7rvuf9YC&pg=PA563&dq=%22Baghdad+name+middle+persian%22&hl=en&ei=eJ22Td_1OZSL4gaA_LTQDw&sa=X&oi=book_result&ct=result&resnum=4&ved=0CFQQ6AEwAw#v=onepage&q&f=false\\n-
+  http://books.google.com/books?id=i-4WhilzYkQC&pg=PA33&dq=%22Baghdad+godgiven%22&hl=en&ei=Ep62TfPrM4i74QaMwsncDw&sa=X&oi=book_result&ct=result&resnum=2&ved=0CDoQ6AEwAQ#v=onepage&q&f=false\\n-
+  Guy Le Strange, \\\"Baghdad During the Abbasid Caliphate from Contemporary Arabic
+  and Persian\\\", pg 10\\n- \u0645\u0627 \u0645\u0639\u0646\u0649 \u0627\u0633\u0645
+  \u0645\u062f\u064a\u0646\u0629 \u0628\u063a\u062f\u0627\u062f \u0648\u0645\u0646
+  \u0633\u0645\u0627\u0647 \u061f. Seenjeem.maktoob.com. Ginkit\u00e0 dida han 2010-04-27.\\n-
+  \u0645\u0627 \u0645\u0639\u0646\u0649 (\u0628\u063a\u062f\u0627\u062f)\u061f - \u062a\u0645\u062a
+  \u0627\u0644\u0625\u062c\u0627\u0628\u0629 \u0639\u0646\u0647 - Google \u0625\u062c\u0627\u0628\u0627\u062a.
+  Egabat.google.com. Ginkit\u00e0 dida han 2010-04-27.\\n- http://www.atlastours.net/iraq/baghdad.html\\n-
+  Times History of the World. London: Times Books. 2000.\\n- Wiet, Gastron (1971).
+  Baghdad: Metropolis of the Abbasid Caliphate. Univ. of Oklahoma Press.\\n- Twinning
+  the Cities. City of Beirut. ginhipos tikang ha an orihinal dida han 2008-02-21 Ginkit\u00e0
+  dida han 2008-01-13.\\n- Iraqi capital of Baghdad twinned with North Yemen counterpart
+  of Sanaa [Yemen news items 1989:Twinning]\\n- http://www.neishabourcity.com/shahrdari/index.php\\nPadugang
+  nga barasahon[igliwat | edit source]\\n- By Desert Ways to Baghdad, by Louisa Jebb
+  (Mrs. Roland Wilkins), 1908 (1909 ed) (a searchable facsimile at the University
+  of Georgia Libraries; DjVu & PDF (11.3 MB) format)\\n- A Dweller in Mesopotamia,
+  being the adventures of an official artist in the Garden of Eden, by Donald Maxwell,
+  1921 (a searchable facsimile at the University of Georgia Libraries; DjVu & PDF
+  (7.53 MB) format)\\n- Miastoprojekt goes abroad: the transfer of architectural labour
+  from socialist Poland to Iraq (1958\u20131989) by Lukasz Stanek, The Journal of
+  Architecture, Volume 17, Issue 3, 2012\\nMga libro:\\n- Pieri, Caecilia (2011).
+  Baghdad Arts Deco: Architectural Brickwork, 1920-1950 (1st ed.). The American University
+  in Cairo Press. p. 160. ISBN 978-9774163562.\\n- \\\"Travels in Asia and Africa
+  1325-135\\\" by Ibn Battuta\\n- \\\"Gertrude Bell: the Arabian diaries,1913\u20131914.\\\"
+  by Bell Gertrude Lowthian, and O''Brien, Rosemary.\\n- \\\"Historic cities of the
+  Islamic world.\\\"by Bosworth, Clifford Edmund.\\n- \\\"Ottoman administration of
+  Iraq, 1890\u20131908.\\\" by Cetinsaya, Gokhan.\\n- \\\"Naked in Baghdad.\\\" by
+  Garrels, Anne, and Lawrence, Vint.\\n- \\\"A memoir of Major-General Sir Henry Creswicke
+  Rawlinson.\\\" by Rawlinson, George.\\nMga sumpay ha gawas[igliwat | edit source]\\nBaghdad
+  pagtugway hit paglakat tikang ha Wikivoyage\\n- Map of Baghdad\\n- Iraq Image -
+  Baghdad Satellite Observation\\n- National Commission for Investment in Iraq\\n-
+  Interactive map\\n- Iraq - Urban Society\\n- - Baghdad government websites\\n- Envisioning
+  Reconstruction In Iraq\\n- Description of the original layout of Baghdad\\n- Ethnic
+  and sectarian map of Baghdad - Healingiraq\\n- UAE Investors Keen On Taking Part
+  In Baghdad Renaissance Project\\n- Man With A Plan: Hisham Ashkouri\\n- Behind Baghdad''s
+  9/11\\n- Iraq Inter-Agency Information & Analysis Unit Reports, maps and assessments
+  of Iraq from the UN Inter-Agency Information & Analysis Unit\"", "\"Isumat.com/7:46AM,
+  Enero 14, 2021\\nNaawat an kinabuhi hin usa nga lola han pusilon hiya hadin nag-agi
+  nga adlaw ha Brgy Cagbuhangin, Ormoc City.\\nAn biktima in ginkilala nga hi Milagros
+  Toralba, 70 anyos ngan residente han Purok 3 han nasabi nga barangay. An suspetsado
+  in ginkilala nga hi Joechel Pelayo, nag-uukoy ha Brgy Masarayao, Kananga, Leyte.\\nSumala
+  han inisyal nga imbestigasyon, tigda la nga umulpot hi Pelayo ha balay ni Toralba
+  ngan iya ginpusil an biktima ha ulo hinungdan han kamatay hini. Nagpruweba pag-eskapo
+  an suspetsado pero na-aresto hiya katapos hin pira ka oras.\\nPersonal nga dilito
+  ha butnga han lola ug han suspetsado an gintutudlok nga motibo han krimen, pahayag
+  pa han mga imbestigador. #\"", "\"Zaz (magkaranta)\\nHi Isabelle Geffroy[1] (natawo
+  1 Mayo 1980 ha Tours, Fransya), nga kilalado ha agnay nga Zaz, usa nga Franses nga
+  magkaranta-manunurat-hin-kanta nga nagsasagol hin mga jazzy nga mga estilo, Franses
+  nga variety, soul ngan acoustic. Kilalado hiya tungod han iya hit nga \\\"Je veux\\\",
+  tikang han iya syahan nga album, Zaz, nga ginpagaw\u00e1s han 10 Mayo 2010.[2] Nakabaligya
+  hiy\u00e1 hin labaw 3.4 ka ribo o milyon nga album ha kalibotan ngan us\u00e1 hiy\u00e1
+  han mga nagmalinamposon nga mga Franses nga magkaranta ha kalibutan.\\nSulod\\nSyahan
+  nga bahin han kinabuhi[igliwat | Igliwat an wikitext]\\nAn iya nanay usa nga magturutdo
+  hin Kinatsila, ngan an iya amay nagtrabaho para hin kompanyiya el\u00e9ktrica. Han
+  1985, sinmulod hiy\u00e1 han Conservatoire de Tours upod han iya bugto-nga-babayi
+  ngan iya bugto-nga-lalaki, nga diin nagtambong hir\u00e1 hin mga kurso tikang hin
+  mga panuigon nga lima tubtob napulo-kag-us\u00e1. Nag-aram hiy\u00e1 hin teorya
+  hin musika, labi na an violin, piano, sista, ngan pagkanta nga choral. Han 1994,
+  binmalhin hiy\u00e1 ha Burdeos. Han 1995, kinmuha hiya hin mga leksyon hin pagkanta
+  ngan nagmulay hiya hin paugnat-ha-kalawasan hin us\u00e1 ka tuig ha Burdeos, samtang
+  nag-aaram hiya hin kung fu upod hin propesyonal nga coach. Han 2000, nakadaog hiya
+  hin scholarship tikang han rehiyonal nga konseho, nga nagbulig ha iya nga umapi
+  hin iskwela hin moderno nga musika,, an CIAM (Sentro para hin Musikal nga mga Buruhaton
+  ngan Impormasyon) han Bordeaux. Lakip han iya mga impluwensya ha musika an ''Four
+  Seasons'' ni Vivaldi, mga jazz nga magkaranta sugad kan Ella Fitzgerald, ngan iba
+  nga mga magkaranta sugad kanda Enrico Macias, Bobby McFerrin, ngan Richard Bona,
+  pati gihapon mga ritmo nga Aprikano, Latin, ngan Cubano. Han 2006, binmalhin hiy\u00e1
+  ha Paris.\\nKarera ha pagkanta[igliwat | Igliwat an wikitext]\\nHan 2001, nagtikang
+  hiy\u00e1 han iya karera hin pagkanta did\u00e2 han blues nga banda \\\"Fifty Fingers\\\".
+  Nagkanta hiy\u00e1 upod hin mga grupo nga musikal ha Angoul\u00eame, labi n\u00e1
+  hin usa nga jazz quintet.[3] Nahimo hiy\u00e1 nga us\u00e1 han upat nga magkaranta
+  han Izar-Adatz (Vinasco para hin \\\"Natalsik nga Bitoon\\\"), usa nga banda hin
+  variedad nga nahihimo hin napulo-kag-unom ka tawo nga upod niya hin pag-tour hin
+  duh\u00e1 ka tuig, labi na ha Midi-Pyrenees ngan ha Pa\u00eds Vasco. Nagtrabaho
+  hiy\u00e1 dida hin studio nga backing nga magkaranta ha Toulouse ngan nagpasundayag
+  hiya upod hin damo nga mga magkaranta, nga upod hin\u00ed hira Maeso, Art Mengo,
+  Vladimir Max, Jean-Pierre Mader, Eduardo Sanguinetti, the latinoamerican philosopher
+  and land-artist,[4] ngan hi Serge Guerao.\\nHan 2011, nakadaog hi Zaz hin EBBA Award.
+  Ha tagsa nga tuig, an European Border Breakers Awards (EBBA) nagkikilala han pagkamalinamposon
+  hin napulo nga tigawas nga mga artista o grupo nga nakabot hin mga magkirita gawas
+  han ira kalugaringon nga mga kanasoran pinaagi han ira syahan nga ginpagawas ha
+  langaw nga album han naglabay nga tuig.\\nHan May 2010, nagpas\u00e1ngyaw an Franses
+  nga magazine nga T\u00e9l\u00e9rama: \\\"Nagdako hin mga hurobhurob ha diri pa la
+  naiha nga mga semana: hi Zaz us\u00e1 nga extraordinaryo nga tingog, ngan hiy\u00e1
+  an magigin pahayag han verano!\\\".[5] Han 10 May 2010, ginpagaw\u00e1s ni Zaz an
+  iya syahan nga album. An sulod hini nga album mga kanta nga iya ginsurat (\\\"Trop
+  sensible\\\") ngan ginkumposo upod hin kapadis (\\\"Les passants\\\", \\\"Le long
+  de la route\\\", \\\"Prends garde \u00e0 ta langue\\\", \\\"J''aime \u00e0 nouveau\\\",
+  \\\"Ni oui ni non\\\"). Hi Kerredine Soltani nagproducir han album did\u00e2 han
+  label nga \\\"Play On\\\" ngan nagsurat ngan nagkumposo han hit nga single nga \\\"Je
+  veux\\\". An pop nga magkaranta nga hi Rapha\u00ebl Haroche nagsurat han kan Zaz
+  mga kanta nga \\\"\u00c9blouie par la nuit\\\", \\\"Port Coton\\\" ngan \\\"La f\u00e9e\\\".
+  Han 2010, nagpirma hi Zaz hin kontrata para han iya mga tour upod han Caramba ngan
+  han magmamantala nga Sony ATV. Gin-imbitar hiya nga maghimo hin pipira nga mga salida
+  ha telebisyon (sugad han Taratata o Chabada) ngan gin-feature hiy\u00e1 hin p\u00edpira
+  nga mga programa ha radyo. Han Dominggo 6 Oktubre 2013, sinmalida hi Zaz did\u00e2
+  han kanan BBC One The Andrew Marr Show ha Londres ngan kinmanta hin live han \\\"Je
+  veux\\\".\\nSunod hin\u00ed, nagtour hi Zaz han Fransya (Paris, La Rochelle, Montauban,
+  Saint-Ouen, Chateauroux, Landerneau, F\u00e9camp...), nagpasundayag ha Francofolies
+  han Montreal (Canada), ngan kinmanta ha Monthey (Swiza), Bruselas, Berlin, ngan
+  Milan. Han otonyo hi Zaz binmawbaw han mga chart ha Belhika, Swiza, ngan Austria.
+  An iya manager ngan producer ha Caramba Entertainment nga hi Matthieu Baligand,
+  nagpah\u00e1yag ha Lib\u00e9ration: \\\"Gihihiruhimangraw namon hiy\u00e1 hin damo
+  ha yan\u00e2 ngahaw ngan mga tawo naghuhulat ha iy\u00e1 ha higay\u00f3n... Bisan
+  pa han demanda, baga hin mauruupay nga buh\u00e1ton an syahan nga tour ha kalim-an
+  nga gagmay nga mga lugar nga maghahatag ha hiya hin kredibilidad. Hi Zaz popular,
+  intuitibo nga artista, nga hi-ara hin musika, nakakanta, kundi it pagb\u00fahat
+  hin pasundayag hin kalidad iba nga but\u00e1ng (...).\\\" Han Nobyembre 2010, an
+  debut nga album Zaz nahimo nga doble nga platinum ngan ginpasidunggan hiy\u00e1
+  hin \\\"Revelation Song\\\" han Acad\u00e9mie Charles Cros. Nakadaog gihapon hi
+  Zaz European Border Breakers Award: han 2010 gin-ngaranan hiy\u00e1 nga amo an Franses
+  nga artista nga pinakamasurong gintotokar ha langyaw. Sumalay hin survey nga ginmantala
+  han L''Internaute, hi Zaz amo an pinakapopular nga Franses nga magkaranta dida han
+  pagranggo han 2010.[6]\\nGin-feature gihapon hiy\u00e1 dida han kanta nga \\\"Coeur
+  Volant\\\" para han soundtrack han 2011 nga pelikula, Hugo. An iya live CD ngan
+  DVD Zaz live tour Sans Tsu Tsou ginpahayag.\\nGin-feature an iya kanta nga \\\"Eblouie
+  Par La Nuit\\\" did&a han 2013 nga Americano nga neo-noir nga crime thriller, \\\"Dead
+  Man Down\\\".\\nHan 2012, linmakat hin tour hi Zaz ngan nagb\u00fahat hiy\u00e1
+  hin mga konsyerto hin mga dirudilain nga kanasoran han kalibutan upod an Japan,
+  Canada, Alemanya, Polonya, Swiza, Slovenya, Tseka nga Republika (Colours of Ostrava),
+  Croatia, Bulgaria, Serbia, ngan Turkey, ha mga iba nga nasod.[7]\\nPinaagi han iya
+  album nga Paris nagdaog hiy\u00e1 han 2015 Echo nga premyo para hin gimaupayi nga
+  internasyonal nga babaye nga rock/pop artist.[8]\\nHan 2016, gin-imbitar hi Zaz
+  nga magpasundayag ha Syudad han Zacatecas, Mehiko komo api han Festival Cultural
+  Zacatecas[1].\\nPilantropiya[igliwat | Igliwat an wikitext]\\nHan 2011, inmapi hiy\u00e1
+  han Les Enfoir\u00e9s nga charity ensemble.\\nGinhim\u00f2 ni Zaz an proyekto nga
+  Zazimut basi \\\"magpadukwag ngan magpadayag hin mga proyekto hin katiringban nga
+  darudako an respeto hin kinabuhi ha tanan hini nga porma\\\".\\nDiskograpiya[igliwat
+  | Igliwat an wikitext]\\nMga album[igliwat | Igliwat an wikitext]\\n- Mga iba pa\\n-
+  2014: Recto verso / Zaz (dung\u00e1n nga pagpagaw\u00e1s hin otro han duh\u00e1
+  nga mga album) (Peak: FR: #64)[25]\\nMga live nga album[igliwat | Igliwat an wikitext]\\nMga
+  single[igliwat | Igliwat an wikitext]\\n1 Waray mag-chart did\u00e2 han prinsipal
+  nga chart Ultratop, kundi namumur\u00e2 ha ilarom han Ultratip Chart. Nagdug\u00e1ng
+  hin 50 ka posisyon han aktwal nga Ultratip nga posisyon para hin paggamit hin pagsumat
+  dida hin tabula.\\nCharity nga mga single[igliwat | Igliwat an wikitext]\\n- 2014:
+  Le chemin de pierre (version pop) (upod kanda Nolwenn Leroy, Thomas Dutronc...)\\nIba
+  nga nag-chart nga mga kanta[igliwat | Igliwat an wikitext]\\nMga kasarigan[igliwat
+  | Igliwat an wikitext]\\n- \\\"Zaz : de saltimbanque chanteuse de rue... au sommet
+  des charts !\\\" (ha Frinanses). Purepeople. Ginkuh\u00e0 28 Mayo 2010.CS1 maint:
+  unrecognized language (link)\\n- \\\"interview et live de Zaz, chanteuse aux actualit\u00e9s
+  A2\\\" (ha Frinanses). 2424actu. Ginkuh\u00e0 28 Mayo 2010.CS1 maint: unrecognized
+  language (link)\\n- \\\"Zaz n''a pas la voix dans sa poche\\\" (ha Frinanses). Respectmag.
+  Ginkuh\u00e0 5 Enero 2011.CS1 maint: unrecognized language (link)\\n- Carlos Espartaco,
+  Eduardo Sanguinetti: The Experience of Limit Buenos Aires, Argentina, Ediciones
+  de Arte Gaglianone, syahan ginmantala han 1989 ISBN 950-9004-98-7\\n- \\\"Zaz \u2013
+  chanson\\\". Telerama (ha Frinanses). Ginkuh\u00e0 4 Enero 2011.CS1 maint: unrecognized
+  language (link)\\n- \\\"Musique: Zaz personnalit\u00e9 pr\u00e9f\u00e9r\u00e9e de
+  l''ann\u00e9e\\\" (ha Frinanses). Linternaute. Ginkuh\u00e0 4 Enero 2011.CS1 maint:
+  unrecognized language (link)\\n- \\\"ZAZ - Bandsintown - Facebook\\\".\\n- Brunner,
+  Ula (27 Marso 2015). \\\"''Die Helene-Fischer-Festspiele haben begonnen''\\\" [''The
+  Helene Fischer festival has begun'']. RBB online (ha Inaleman). Rundfunk Berlin-Brandenburg.
+  Ginhipos tikang han orihinal han 30 Marso 2015. Ginkuh\u00e0 27 Marso 2015.Cite
+  uses deprecated parameter\\n|deadurl=\\n(help)CS1 maint: unrecognized language (link)
+  - \\\"ZAZ \u2013 ZAZ, in various albums charts\\\" (ha Frinanses). Lescharts. Ginkuh\u00e0
+  5 Enero 2011.CS1 maint: unrecognized language (link)\\n- \\\"ZAZ \u2013 ZAZ, in
+  various albums charts\\\". acharts. Ginkuh\u00e0 13 Nobyembre 2011.\\n- \\\"ZAZ
+  \u2013 ZAZ, in various albums charts\\\" (ha Rinusya). lenta.ru. Ginkuh\u00e0 7
+  Agosto 2012.CS1 maint: unrecognized language (link)\\n- Mga posisyon hin pag-peak
+  ha chart ha Polonya:\\n- \\\"Zaz \u2013 Zaz, Czech Albums Chart\\\" (ha Tsineka).
+  \u010cNS IFPI. Ginkuh\u00e0 18 Nobyembre 2011.CS1 maint: unrecognized language (link)\\n-
+  \\\"Zaz \u2013 Zaz, Austrian certification\\\" (ha Inaleman). IFPI. Ginhipos tikang
+  han orihinal han 1 Hulyo 2013. Ginkuh\u00e0 24 Mayo 2013.Cite uses deprecated parameter\\n|deadurl=\\n(help)CS1
+  maint: unrecognized language (link) - \\\"Zaz \u2013 Zaz, Belgian certification\\\".
+  IFPI. Ginkuh\u00e0 24 Mayo 2013.\\n- \\\"Zaz \u2013 Zaz, French certification\\\".
+  SNEP. Ginhipos tikang han orihinal han 18 Enero 2012. Ginkuh\u00e0 24 Mayo 2013.Cite
+  uses deprecated parameter\\n|deadurl=\\n(help) - \\\"Zaz \u2013 Zaz, German certification\\\"
+  (ha Inaleman). IFPI. Ginkuh\u00e0 24 Mayo 2013.CS1 maint: unrecognized language
+  (link)\\n- \\\"2012 Polish Platinum Certifications\\\" (ha Pinolako). ZPAV. Ginkuh\u00e0
+  18 Enero 2015.CS1 maint: unrecognized language (link)\\n- \\\"Zaz \u2013 Zaz, Russian
+  certification\\\" (ha Rinusya). IFPI. Ginkuh\u00e0 24 Mayo 2013.CS1 maint: unrecognized
+  language (link)\\n- \\\"Zaz \u2013 Zaz, Swiss certification\\\" (ha Inaleman). IFPI.
+  Ginkuh\u00e0 24 Mayo 2013.CS1 maint: unrecognized language (link)\\n- \\\"Belgian
+  Certifications in 2013\\\". ultratop.be. Ginkuh\u00e0 27 Oktubre 2013.\\n- \\\"SNEP
+  Certifications October 2013\\\" (PDF). SNEP. Ginhipos tikang han orihinal (PDF)
+  han 18 Oktubre 2013. Ginkuh\u00e0 27 Oktubre 2013.Cite uses deprecated parameter\\n|deadurl=\\n(help)
+  - \\\"2016 Polish Platinum Certifications\\\" (ha Pinolako). ZPAV. Ginkuh\u00e0
+  13 Enero 2016.CS1 maint: unrecognized language (link)\\n- SCHWEIZER HITPARADE \u2013
+  ALBEN TOP 100 << 22.09.2013 (ha Inaleman). hitparade.ch. Retrieved 22 Septyembre
+  2013.\\n- Lescharts: Recto verso / Zaz pakli han album\\n- \\\"Le Top de la semaine
+  : Top Albums - SNEP\\\". 1 Nobyembre 2013.\\n- \\\"OLiS - Official Retail Sales
+  Chart :: sales for the period 26.02.2016 - 03.03.2016\\\". OLiS. Ginkuh\u00e0 12
+  Marso 2016.\\n- \\\"ultratop.be \u2013 Zaz discography\\\". Ginkuh\u00e0 13 Nobyembre
+  2011.\\n- \\\"ultratop.be \u2013 Zaz discography\\\". Ginkuh\u00e0 13 Nobyembre
+  2011.\\n- \\\"ZAZ \u2013 \\\"Je veux\\\", in various singles charts\\\" (ha Franses).
+  Lescharts. Ginkuh\u00e0 10 Oktubre 2013.CS1 maint: unrecognized language (link)\\nMga
+  sumpay ha gawas[igliwat | Igliwat an wikitext]\\n- Opisyal nga websayt\\n- Zaz ha
+  imusic.am\\n- Zaz Istanbul Concert 2011\"", "\"TACLOBAN CITY \u2013 Malipayon an
+  mga kabataan ha norte nga parte han syudad nga upod hira ha nagpapadayon nga National
+  ID registration program nga proyekto han national government ipinaagi han Philippine
+  Statistics Authority (PSA) ngan han City Government of Tacloban.\\nAn mao nga registration
+  center in nahimumutang ha Tacloban North City Hall Extension Office ha Brgy. 106
+  Sto. Ni\u00f1o nga gin-establisar ni Mayor Alfred S. Romualdez agud maserbisyuhan
+  an mga taga Norte Tacloban kun diin nahimumutang an mga Yolanda survivors nga diri
+  na madurohan han gastos pasahe ngan panahon ha pagkakadto ha sentro han siyudad.\\nSumala
+  kan Paul T. Opiniano, Supervisor han ID Registration, ha luyo han kadamo han napa
+  rehestro, ira ginsisiguro nga nasusunod an mga Health Protocols, sugad han pagsul-ot
+  han face mask, face shield, ngan physical distancing.\\nMababaruan nga nagtikang
+  han nakalabay nga Hunyo 15 an panrehistro han National ID para ha mga kabataan nganag
+  eedad hin 15 -anyos paigbaw, samtang hine la nga bulan han Hulyo gintikangan liwat
+  an panrehistro han mga kabataan nga nag-eedad hin 5-anyos paigbaw.\\nGinkikinahanglan
+  la nga igpakita han mga maparehistro nga kabataan an ira Live Birth ngan valid ID.\\nGinmalatumat
+  naman han mao nga opisyal nga maaboy ha 175 nga indibidwal an ira narerehistro kada-adlaw,
+  tinikangan ha Lunes hangtod ha adlaw hiton Biyernes.\\nMababaruan nga naghuman na
+  ngada han nakalabay nga Sabado ngan Domingo an ira panrehsitro ha Norte nga parte
+  han syudad, ngan hapagkyana in nagpapadayon naman an ira panrehistro ha Astrodome
+  area syudad han Tacloban.\"", "\"Birmania\\nAn Birmania o Myanmar (Binirmano: [mj\u0259m\u00e0])
+  nga an buhatonon nga pagtawag Republika han Paghiusa han Myanmar ngan kilalado gihapon
+  nga Burma, usa nga nasod ha Timugan nga Asya. Ginsasapitan an Birmania han India
+  ngan Bangladesh ha katundan, Thailand ngan Laos ha sinirangan ngan han Tsina ha
+  amihan ngan ha dumagsaan. Ha salatan, mga hin ka-tulo nga bahin han bug-os nga perimeter
+  han Birmania hin 5,876 km (3,651 mi) naghihimo hin durudiritso nga labnasan hin
+  1,930 km (1,200 mi) ha Bay han Bengal ngan han Dagat Andaman. An 2014 census han
+  nasod nag-ihap han kamulopyohan han nasod nga 51 ka milyon nga tawo.[1] Han 2017,
+  an kamolupyohan mga 54 ka milyon.[2] An Birmania 676,578 square kilometres (261,228
+  square miles) hin kadako. An pamunoan nga syudad hini Naypyidaw, ngan an gidako-i
+  nga syudad ngan kasanhi nga pamunoan Yangon (Rangoon).[3] An Birmania api han Association
+  of Southeast Asian Nations (ASEAN) tikang han 1997.\\nMga kasarigan[igliwat | Igliwat
+  an wikitext]\\n- \\\"Asian Development Bank and Myanmar: Fact Sheet\\\". Asian Development
+  Bank. 30 Abril 2012. Ginhipos tikang ha an orihinal han 26 Nobyembre 2011. Ginkuh\u00e0
+  20 Nobyembre 2012.\\n- Ipakita an sayop: Invalid\\n\\ntag; no text was provided
+  for refs namedworldometers.info\\n- \\\"The World Factbook \u2013 Burma\\\". cia.gov.
+  Ginhipos tikang ha an orihinal han 4 Nobyembre 2010. Unknown parameter\\n|access-date=\\nignored
+  (help)\"", "\"Pagpamingaw ha midya, pan-gipit ha mga batakan nga kalibrihan, patikang
+  han pasista nga tiraniya ilarum ni Marcos II\\nNagsering an National Democratic
+  Front-Eastern Visayas yana nga ginbubuksas ni Marcos II an iya kalugaringon komo
+  pasista nga tiraniya ha tinikangan pala han iya termimo, kasumpay han susrunod nga
+  insidente han pagpamingaw ha midya ngan pan-gigipit ha mga batakan nga kalibrihin
+  antes ngan ha paglingkod niya ha poder.\\nHa mga adlaw antes an inagurasyon ni Marcos
+  Junior komo ika-17 nga presidente han gubyerno ha Manila ha bendisyon han US, ginmandar
+  han National Telecommunications Commission an pagpaserra ha Philippine Revolution
+  Web Central (PRWC) sugad liwat an mga independyente nga ahensya han midya ngan mga
+  progresibo nga organisasyon sugad han Bulatlat, Rural Missionaries of the Philippines
+  (RMP), ngan Save Our Schools (SOS) Network. Usa nga iskema ni Hermogenes Esperon
+  ngan han iya igkasi mga pasista ha National Task Force-Elcac, ini nga pag-atake
+  ha kalibrihan han midya kaparte han pan-red-tag han reaksunaryo nga gubyerno ha
+  mga ligal ngan demokratiko nga mga grupo ngan organisasyon han midya, sugad liwat
+  an pagbansag nga \u201cterorista\u201d an Partido Komunista ng Pilipinas ngan an
+  mga kaalyado nga rebolusyunaryo nga organisasyon.\\nUsa kaadlaw antes an inagurasyon,
+  ginmando naman han Securities and Exchange Commission an pagpaserra ha website nga
+  Rappler nga kilalado komo madig-on nga kritiko han mga Duterte ngan mga Marcos.
+  Pinaagi han pagpalandaw ha mga teknikalidad ha pananag-iya han prangkisa han Rappler,
+  gintapo han bag-o nga rehimen Marcos an katawhan Pilipino hin butaray nga paggamit
+  han poder agud gipiton an mga alternatibo nga opinyon, pugngan an kritikal nga diskurso,
+  ngan gamiton an balaud kontra ha pampulitika nga oposisyon.\\nHa adlaw han iya inagurasyon,
+  Hunyo 30, ginhikawan ni Marcos Junior an katawhan han ira batakan nga katungod nga
+  igpahayag an ira mga ungara ngan murayaw nga magtirok online ngan offline pinaagi
+  han overkill nga deployment han mga pulis, pag-aresto han mga aktibista, restriksyon
+  ha mobilidad, ngan pagpagios han mga paragsulsol nga mga pro-Marcos agud pakarauton
+  ngan igsabotahe an mga demonstrasyon ha kakalsadahan.\\nGinsering ni Fr. Santiago
+  \u201cKa Sanny\u201d Salas, tagapagyakan han NDF-EV, nga ini nga mga pag-atentar
+  diri la baga hin pagbalik ha panahon han balaud militar, kundi palantaw liwat han
+  pasismo ha ilarum han bag-o nga rehimen Marcos. Sugad han militar nga paghahadi
+  han iya amay, gintatamas-tamasan niya an libre nga pagpahayag ngan kalibrihan ha
+  pamamahayag ngan gin-aatake an mga organisado nga pwersa han oposisyon agud tukuron
+  an harigi han usa nga pasista nga diktadura.\\nGin-eksplikar ni Fr. Salas nga an
+  website ngan mga social media account han PKP nagseserbe nga aragian han pusisyon
+  han mga rebolusyunaryo nga organisasyon hiunong ha mga importante nga rehiyunal
+  ngan nasyunal nga isyu sugadman han pagbuksas ha mga panraugdaug han militar ha
+  mga baryo nga kaagsuban diri natatagan atensyon han midya. Pinaagi han pagpaserra
+  ha PRWC, ginbubutad ni Marcos Junior an iya lurong nga kontra-komunista nga tindog
+  ngan aktibo nga pakigkunsabo ha mga armado nga pwersa han reaksyunaryo nga estado.\\nAn
+  Bulatlat, RMP, ngan SOS Network sugad liwat an iba nga website ngan makatawo nga
+  organisasyon, epektibo nga ginpapahayag an mga isyu ngan araba han mga kablas ha
+  kabaryuhan, mga katutubo, ngan iba nga sektor nga kulang han representasyon ngan
+  haros diri natatagan hin atensyon ha mainstream nga midya. Pinaagi han pag-red-tag
+  ha ira ngan pagpaserra ha ira online, nag-aatentar an reaksyunaryo nga gubyerno
+  nga pamingawon an katawhan, pugngan an mga diskusyon ha ira mga isyu, ngan palandawon
+  an kontra-komunista nga panhadlok agud igpasangil an pag-imponer han pasista nga
+  diktadura.\\nGinsering ni Fr. Salas nga an waray konsensya nga hi Marcos Junior
+  nagyiyinawyaw hin mga islogan han \u201cnasyunal nga pagkaurusa\u201d ngan an iya
+  makasurumo nga linya nga \u201clapayan nala\u201d an mga pasista nga krimen ngan
+  pandambong han iya pamilya ha nasyunal nga karikuhan samtang ginhihimo an mga pareho
+  gud nga pamaagi han diktadura ni Marcos Senior pinaagi han pagpamingaw ha midya
+  sugad han Rappler ngan kriminalisasyon ha iya mga kritiko sugad han nahitabo ha
+  iya inagurasyon.\\n\u201cMatikagrabe pa gud an kamutangan han kalibrihan han midya
+  ngan han aton mga demokratiko nga prinsipyo. Ginlalauman nga an pamilya Marcos \u2014
+  nga nakabalik ha poder prinsipal tungod ha mga ginbaydan nga alipures ngan troll,
+  manipulasyon han sarbey, hiluagan nga disimpormasyon, ngan sistematiko nga pagrebisa
+  han kasaysayan \u2014 igpapadayon la an usa nga bug-os nga sistema han impormasyon
+  han mga buwa, panguwat ngan saywar komo kaparte han pagkonsolida han ira katin ha
+  absoluto nga poder. Temprano nga ginbutang ni Marcos Junior an mga kroni han iya
+  amay ngadto ha mga yawe nga pusisyon ha burukrasya, ginpasilitar an bahinay ha poder
+  ha ranggo han naghahadi nga paksyon, ngan gintalapas an mga demokratiko nga checks-and-balances
+  nga ginlaladawan han supermayoriya ha Kongreso ngan an kawaray hin pagtipa ha mga
+  nagborotosay ha mga huwes han Korte Suprema agud paburan an iya pagkatin ha poder.\\nHa
+  luyo nga bahin, damo an naaaghat ngadto ha parlamentaryo han kakalsadahan ngan armado
+  nga pag-ato dara han natikahaligot nga wada para ha pagtipa ha ranggo han mga ligal-burges
+  nga institusyon. Pinaagi han pag-atake ha mga tagdepensa han kamatuoran ngan mangaraway
+  para ha katalwasan, diri tinuyo nga ginbubuksas ni Marcos Junior an kadunutan han
+  bagakolonyal ngan bagapyudal nga sistema ngan ginduduso an katawhan nga purisigido
+  nga atuhan an namamangpangan nga diktadura,\u201d pagtapos ni Fr. Salas.\"", "\"Hi
+  Grace Patricia Kelly (Nobyembre 12, 1929 \u2013 Septyembre 14, 1982) nga kilalado
+  gihapon nga Grace han Monaco, us\u00e1 nga Amerikana nga aktris ngan Prinsesa han
+  Monaco komo asawa ni Prinsipe Rainier III tikang han ira pag-asawa did\u00e2 han
+  Abril 18, 1956, kutob han iya kamatay. Ugsa han ira pagkaasawa, star hiy\u00e1 did\u00e2
+  hin pipira nga mga importante nga mga pel\u00edkula han sayao nga bahin kutob han
+  kamutngaan han 1950 nga dekada. Kilalado hiy\u00e1 nga us\u00e1 nga nangunguna nga
+  aktris han Bulawan nga Panahon han Hollywood. Nakakarawat hiy\u00e1 hin us\u00e1
+  nga Academy Award, tul\u00f3 nga Golden Globe Award ngan gintalaan hiy\u00e1 nga
+  ika-13 dida han 25 Greatest Female Stars nga talaan han American Film Institute.[1]\\nNatawo
+  hi Kelly hin nangunguna nga Katoliko nga pamilya ha Philadelphia.[2][3][4][5][6]
+  Katapos maggradwar tikang han American Academy of Dramatic Arts han 1949, nagtikang
+  hi Kelly nga nakad\u00e2 did\u00e2 hin mga teatriko nga mga produksyon han Syudad
+  han New York ngan mga broadkast ha telebisyon. Naghimo hiy\u00e1 han iya film debut
+  o syahan nga pag-akting ha pelikula dida han Fourteen Hours (1951) ngan nagin-star
+  hiy\u00e1 tikang han iya mga papel dida han western nga pelikula ni Fred Zinnemann
+  nga High Noon (1952), ngan han kan John Ford adventure-romance nga pelikula nga
+  Mogambo (1953), nga diin an urhe hin\u00ed nga duh\u00e2 nga pelikula nagdar\u00e2
+  ha iy\u00e2 hin pangnominar han Academy Award for Best Supporting Actress. Nagdaog
+  hiy\u00e1 han Academy Award for Best Actress tungod han iya pagdara hin papel dida
+  han drama nga The Country Girl (1954).[7] Mga iba pa nga mga kilalado nga mga buhat
+  niya amo an pelikula hin gera nga The Bridges at Toko-Ri (1954), an komedya romantiko
+  nga High Society (1956), ngan tul\u00f3 nga suspense thriller ni Alfred Hitchcock:
+  Dial M for Murder (1954), Rear Window (1954), ngan To Catch a Thief (1955).\\nNagretiro
+  hi Kelly tikang hin pag-akting ha edad o panuigon nga 26 basi mag-asawa hiy\u00e1
+  kan Rainier ngan tumik\u00e1ng han iya mga papel komo Prinsesa han Monaco. Hira
+  Grace ngan Rainier nagkaada hin tul\u00f3 nga anak: Prinsesa Caroline, Prinsipe
+  Albert, ngan Prinsesa St\u00e9phanie. An buhat hin charity ni Prinsesa Grace nagfokus
+  hin mga kabataan ngan han mga arte. Han 1964, gintukod niya an Princess Grace Foundation
+  para pagsuporta hin lokal nga mga artisan. An iya organisasyon para hin mga katungdanan
+  hin mga kabataan, AMADE Mondiale, nakak\u00fah\u00e0 hin consultive nga status ha
+  UNICEF ngan UNESCO. An iya kataposan nga papel ha pelikula an pagpahayag han The
+  Children of Theatre Street (1977), nga ginnominar para hin Academy Award for Best
+  Documentary Feature.\\nNamatay hi Kelly ha panuigon nga 52 ha Monaco Hospital, tungod
+  hin mga pagkasamaran nga nadangatan hin pagcrash hin awto.[8] An iya anak nga in
+  Prinsipe Albert, nagbulig pagtukod han Princess Grace Awards han 1984 para pagkilala
+  hin mga nagtitikang nga mga nagpapasundayag ha pel\u00edkula, teatro, ngan s\u00e1yaw.\\n-
+  \\\"America''s Greatest Legends\\\" (PDF). American Film Institute. 2005. Ginhipos
+  tikang han orihinal (PDF) han Hulyo 7, 2011.\\n- Kearns, Kevin C. (Septyembre 21,
+  2018) (in en). Ireland 1963: A Year of Marvels, Mysteries, Merriment and Misfortune.
+  Gill & Macmillan Ltd. ISBN 978-0-7171-8076-9.\\n- \\\"A Celebration of Grace Kelly\\\".
+  Irish America (ha English). Enero 1, 2008. Ginhipos tikang han orihinal han Disyembre
+  29, 2021. Ginkuh\u00e0 Disyembre 29, 2021.\\n- \\\"Grace Kelly: An Understudied
+  Irish-American Icon | H-Announce | H-Net\\\". networks.h-net.org. Ginhipos tikang
+  han orihinal han Pebrero 2, 2022. Ginkuh\u00e0 Disyembre 29, 2021.\\n- Stein, Robert
+  (2005) (in en). Media Power: Who Is Shaping Your Picture of the World?. iUniverse.
+  ISBN 978-0-595-35825-0. https://books.google.com/books?id=rkhfappe2VUC&dq=grace+kelly+irish+american+family&pg=PA91.
+  Ginkuh\u00e0 Disyembre 29, 2021.\\n- Mallory, Mary (Hunyo 30, 2018) (in en). Living
+  with Grace: Life Lessons from America''s Princess. Rowman & Littlefield. ISBN 978-1-4930-3687-5.\\n-
+  \\\"1954 Academy Awards: Winners and History\\\". AMC Filmsite. Ginhipos tikang
+  han orihinal han Mayo 24, 2019. Ginkuh\u00e0 Oktubre 9, 2014.\\n- Robinson, Jeffery
+  (Oktubre 23, 1989). \\\"Princess Grace''s Fatal Crash: Her Daughter''s Account\\\".
+  Chicago Tribune. Ginhipos tikang han orihinal han Hulyo 31, 2014. Ginkuh\u00e0 Hulyo
+  28, 2018.\"", "\"An mga Celta in etno-lingguwistiko nga grupo han tribuhanon nga
+  sosyudad han Panahon han Puthaw ngan Butnga nga Panahon nga Europa nga nakakayakan
+  hin Yinaknan Celta ngan may-ada kaparehas nga kultura.\\nIton Pag-aram hin Tuminongnong
+  nga Amerikano in interdisiplinarya nga larangan akademiko nga nag-aaram han kaagi,
+  kultura, pulitika, mga isyu, ngan kontemporaryo nga eksperyensya han mga tuminongnong
+  nga katawhan ha Amihanan Amerika.\\nIton Bungtohanon nga susmatanon in mga leyenda,
+  musika, yinakan nga kaagi, darahonon, patawa, kustombre nga nagin tradisyon han
+  usa nga kultura o subkultura o hugpo.\\nIton klasika in sanga hin Humanidades nga
+  naglalakip hin linggwahe, literatura, pilosopiya, kasaysayan, arte, arkelohiya ngan
+  iba nga mga kultura han kinadaan nga Miditteraneo han panahon han Antigo klasiko.\\nHi
+  Herodotus han Halicarnassus usa nga Griyego nga historyano nga nagukoy han ika 5
+  siglo BC ngan gintatahoran nga \\\"Amay han Kaagi\\\" ha Katundan nga kultura.\\nAn
+  Rebolusyon ha Kultura in usa ka pultikal nga kampanya ha Tsina nga ginpatikangan
+  han pinuno han Partido Komunista han Tsina, ni Mao Zedong para mawara an mga kaaway
+  ngan mapagbag-o an sosyudad han Tsina.\\nAn siday epiko in hilaba nga susmaton nga
+  siday, nga agsob nanginginlabot hin seryoso nga himangrawon nga nagsusulod hin mga
+  detalye hin bayanihon nga buhat ngan mahinongdanon nga panhitabo ha uska kultura
+  o nasod.\\nAn Dragon in leyendahon nga hayop nga agsob ginpapakita nga usa ini nga
+  dako ngan makusog nga halas o reptilya, ngan aada ini ha mito han damo nga kultura.\\nIton
+  tinta in usa ka likidu nga may-ada pigmento o tina nga gingagamit hin pagbutang
+  hin kolor ha usa ka bawbaw para makahatag hin imahe, teksto o desinyo. An tinikangan
+  Damo nga kadaan nga kultura an naka diskubre hin magka-durudilain nga pama-agi hin
+  paghimo hin tinta para igsurat o igbutang ha bawbaw an iya nahuhuna-hunaan. An tinikangan
+  han tinta han mga Waraynon masusubay naton hadto nga panahon han mga Pintados. Ini
+  in ira kinuha ha mantsa han nuus/agiw.\\nAn katilingban o katiringb\u00e1n o sosyedad
+  o sosiyed\u00e1d amo an katawhan o kahayopan nga komunidad o grupo, nga nagbuburubligay
+  ngan posible mayda pagsasaro hin pareho nga kultura, pagkakaurusa ngan eusosyalidad.\\nIton
+  pag-aasawa o kasal, in ginkikilala han katelingban o tungod hin ritwal nga pag-kausa
+  o kontrata legal, ngadto ha mag-asawa, nga naghahatag ha ira hin mga katungod ngan
+  mga obligasyon para ngahaw la gihap ha ira nga duha, komo kag-anak ngadto ha ira
+  mga anak, o ha ira nga duha komo mga umagad ngadto ha ira mga ugangan. An buot signgon
+  an pag-aasawa in nagkakaibaiba sumala ha durudilain nga mga kultura, pero ini gud
+  in usa nga institusyon hin interpersonal nga pakikipagrelasyon, labi na hit pakikipaghilawas,
+  in ginkikilala. Ha iba nga mga kultura, iton pag-aasawa in ginrerekomenda o kin
+  ...\\nAn Budlo amo an mga mananap san pamilya Gryllotalpidae, ilarum sa order Orthoptera.
+  Mayada 3\u20135 centimetro an kahilaba an budlo. An Gryllotalpidae in uska familia
+  han Orthoptera. An Gryllotalpidae in nahilalakip ha familia nga Grylloidea, ordo
+  nga Orthoptera, classis nga Insecta, punoan nga Arthropoda, ngan regnum nga Animalia.
+  An familia nga Gryllotalpidae in naglalakip hin 97 ka mga species, sumala ha Catalogue
+  of Life.\\nIton diperensya ha panhunahuna o sakit ha panhunahuna in sikolohikal
+  nga pagsunodsunod, nga posible makit-an ha pamatasa, nga agsob nahisusumpay ha pagkakuri
+  han kahimtang o disabilidad, nga diri lakip han normal nga pagdukwag han kultura
+  han usa ka tawo. An diperensya ha panhunahuna in agsob sinisiring nga pagtampo kun
+  unanhon umaabat, kumiwa, maghunahuna. Ini in mahisusumpay ha partikular nga rehiyon
+  o mga buruhaton han utok o an salin han sistem nerbosa, agsob ha sosyal nga konteksto.
+  Ini in pagkilala nga pagintende han kahimtang han kaupayan han panhunahuna nga nagliliwan-liwan
+  han pan ...\\nAn diplomasy\u00e1 amo an arte ngan buhat ha pagkipagnegosasyon han
+  mga pinili han mga grupo o estado. Agsob ini tawagon nga diplomasya han kanasuran,
+  nga an mga kiwa han pakikipagrelasyon han kanasuran ginbubuhat han mga propesyonal
+  nga diplomatiko tungod han mga isyu han kamurayaw, negosyo, ekonomiya, gyera, ngan
+  kultura.\\nAn Rebolusyon Industiyal amo an panahon ha urhi ika 18 siglo ngadto ha
+  unhan ika 19 siglo nga dagko nga pagbag-o an nanhitabo ha pag-uma, paghimo hin produkto,
+  pagmina, ngan mga sarakyan nga dako an epekto ha socioekonomiya ngan kultura nga
+  kabutangan ha Britanya. An mga pagbag-o nagkalat didto ha Europa, Amihanan nga Amerika,
+  ngan ha uruurhi, ha kabug-usan han kalibutan.\\nAn katungod pantawo amo an kinahanglanon
+  nga katungod ngan katalwasan nga mayda ngatanan nga tawo. Pananglitan ha katungod
+  pantawo, upod dinhi an katungod sibil ngan pulitika, sugad han katungod mabuhi ngan
+  matalwas, katalwasan makapagyakan, ngan patas ha atubangan han balaod; ngan pansosyodad,
+  pankultura ug pagpakabuhi nga mga katungod, kaupod dinhi an katungod magbulig ha
+  kahiaraan o kultura, an katungod makakaon, katungod makapagpakabuhi, ngan katungod
+  makapag-aram. \\\"Ngatanan nga tawo natawo nga talwas ug pareho ha dignidad ngan
+  katungod. Mayda hira panhunahuna ug pamurootboot nga dapat ...\\nPac-Man, kilala
+  na PAC-MAN, kay usa na karakter ha usa na arcade game na gin himo han Namco ngan
+  una gingawas ha publiko han Japan han Mayo 1980. Hinimo hiya hin usa na Hapon na
+  Video Game Designer na hi Toru Iwatani. Nakalisensya an mulay pagpagawas ha Estados
+  Unidos dida han Oktubre 1980 ha pamaagi han Midway. Kilala dayun tikang han iya
+  paggawas ha publiko hasta yana, it Pac-Man kay usa ha mga classics hit retro style
+  na video games, ngan usa na icon han kultura dekada ochenta. han paggawas niya,
+  an mulay ngan - an iya mga Pac-Man derivatives - naging social phenomenon nga nagresukta
+  hi ...\\n\u24d8 Kultura\\nAn kultura puydi maging:\\n- mga pareho nga batasan, panuyuan
+  ngan pamaagi nga pangilal-han usa ka institusyon, katig-uban o grupo\\n- maupay
+  nga pagpili hin pino nga arte ngan humanidad, gintatawag gihap nga hataas nga kultura\\n-
+  an kabug-osan han pagtampo han kaaradman, gintotoohan ngan pamatasan nga nadependar
+  ha kapasidad hin panhunana simboliko ngan durungan nga paghibaro\\n1. Padugang nga
+  pagkukuhaan\\nMga libro- 1957. \\\"Ritual and Social Change: A Javanese Example\\\",
+  American Anthropologist, Vol. 59, No. 1. doi:10.1525/aa.1957.59.1.02a00040\\n- Wolfram,
+  Stephen. 2002 A New Kind of Science. Wolfram Media, Inc. ISBN 978-1-57955-008-0\\n-
+  Dell Hymes 1969. Reinventing Anthropology.\\n- UNESCO. 2002. Universal Declaration
+  on Cultural Diversity, issued on International Mother Language Day, February 21,
+  2002. Retrieved: 2006-06-23.\\n- Whorf, Benjamin Lee 1941. \\\"The relation of habitual
+  thought and behavior to language\\\". Language, Culture, and Personality: Essays
+  in Honor of Edward Sapir. Menasha, WI: Sapir Memorial Publication Fund.\\n- Reese,
+  W.L. 1980. Dictionary of Philosophy and Religion: Eastern and Western Thought. New
+  Jersey U.S., Sussex, U.K: Humanities Press.\\n- Ankerl, Guy 2000. Global communication
+  without universal civilization, vol.1: Coexisting contemporary civilizations: Arabo-Muslim,
+  Bharati, Chinese, and Western. INU societal research. Geneva: INU Press. ISBN 2-88155-004-5.\\n-
+  Jary, D. and J. Jary. 1991. The HarperCollins Dictionary of Sociology. New York:
+  HarperCollins. ISBN 0-06-271543-7\\n- James, Paul; Szeman, Imre 2010. Globalization
+  and Culture, Vol. 3: Global-Local Consumption. London: Sage Publications.\\n- Terrence
+  Deacon 1997. The Symbolic Species: The Co-evolution of Language and the Brain. New
+  York and London: W. W. Norton.\\n- Bakhtin, M. M. 1981 The Dialogic Imagination:
+  Four Essays. Ed. Michael Holquist. Trans. Caryl Press. ISBN 978-0-252-06445-6.\\n-
+  Goodall, J. 1986. The Chimpanzees of Gombe: Patterns of Behavior. Cambridge, MA:
+  Belknap Press of Harvard University Press. ISBN 978-0-674-11649-8\\n- Kim, Uichol
+  2001. \\\"Culture, science and indigenous psychologies: An integrated analysis.\\\"
+  In D. Matsumoto Ed., Handbook of culture and psychology. Oxford: Oxford University
+  Press\\n- Dawkins, R. 1982. The Extended Phenotype: The Long Reach of the Gene.
+  Paperback ed., 1999. Oxford Paperbacks. ISBN 978-0-19-288051-2\\n- \\\"Adolf Bastian\\\",
+  Encyclop\u00e6dia Britannica Online, 27 January 2009\\n- White, L. 1949. The Science
+  of Culture: A study of man and civilization. New York: Farrar, Straus and Giroux.\\n-
+  Walter Taylor 1948. A Study of Archeology. Memoir 69, American Anthropological Association.
+  Carbondale IL: Southern Illinois University Press.\\n- Arnold, Matthew. 1869. Culture
+  and Anarchy. New York: Macmillan. Third edition, 1882, available online. Retrieved:
+  2006-06-28.\\n- Reagan, Ronald. \\\"Final Radio Address to the Nation\\\", January
+  14, 1989. Retrieved June 3, 2006.\\n- Tylor, E.B. 1974. Primitive culture: researches
+  into the development of mythology, philosophy, religion, art, and custom. New York:
+  Gordon Press. First published in 1871. ISBN 978-0-87968-091-6\\n- Wilson, Edward
+  O. 1998. Consilience: The Unity of Knowledge. Vintage: New York. ISBN 978-0-679-76867-8.\\n-
+  Benedict, Ruth 1934. \\\"Patterns of Culture\\\". Boston: Houghton Mifflin Company.\\n-
+  Keiser, R. Lincoln 1969. The Vice Lords: Warriors of the Streets. Holt, Rinehart,
+  and Winston. ISBN 978-0-03-080361-1.\\n- Bourdieu, Pierre. 1977. Outline of a Theory
+  of Practice. Cambridge University Press. ISBN 978-0-521-29164-4\\n- Barzilai, Gad.
+  2003. Communities and Law: Politics and Cultures of Legal Identities University
+  of Michigan Press. ISBN 0-472-11315-1\\n- McClenon, James. \\\"Tylor, Edward Burnett\\\".
+  Encyclopedia of Religion and Society. Ed. William Swatos and Peter Kivisto. Walnut
+  Creek: AltaMira, 1998. 528-29.\\n- Findley & Rothney. Twentieth-Century World Houghton
+  Mifflin, 1986\\n- Kroeber, A. L. and C. Kluckhohn, 1952. Culture: A Critical Review
+  of Concepts and Definitions. Cambridge, MA: Peabody Museum\\n- Geertz, Clifford.
+  1973. The Interpretation of Cultures: Selected Essays. New York. ISBN 978-0-465-09719-7.\\n-
+  Middleton, R. 1990. Studying Popular Music. Philadelphia: Open University Press.
+  ISBN 978-0-335-15275-9.\\n- ONeil, D. 2006. Cultural Anthropology Tutorials, Behavioral
+  Sciences Department, Palomar College, San Marco, California. Retrieved: 2006-07-10.\\n-
+  Ralph L. Holloway Jr. 1969. \\\"Culture: A Human domain\\\". Current Anthropology.
+  104.\\n- Cohen, Anthony P. 1985. The Symbolic Construction of Community. Routledge:
+  New York,\\n- Michael Tomasello 1999. \\\"The Human Adaptation for Culture\\\".
+  Annual Review of Anthropology. 28.\\n- Hoult, T. F., ed. 1969. Dictionary of Modern
+  Sociology. Totowa, New Jersey, United States: Littlefield, Adams & Co.\\n- \\\"Adolf
+  Bastian\\\". Today in Science History. 27 Jan 2009 Today in Science History\\n-
+  The Meaning of\\\" Culture\u201d 2014-12-27, Joshua Rothman, The New Yorker\\n2.
+  Mga sumpay ha gawas\\n- Religion and Culture: Differences Table Archived 2014-12-09
+  at the Wayback Machine.\\n- Cultura: International Journal of Philosophy of Culture
+  and Axiology\\n- An Pag - aram hit kultura in larangan akademiko han teyorya kritikal
+  ngan kritisismo literarya nga syahan ginpakilala han akademiko Briton hadton 1964.\\n-
+  Katig - uban han Nagkaurusa nga mga Nasod para ha Pag - Aram, Syensya ngan Kultura
+  Iningles: United Nations Educational, Scientific and Cultural Organization\\n- kanan
+  usa nga tawo pamilya o tribu o kommunidad, depende ha kultura Depende ha kultura
+  an ngatanan nga api han pamilya puydi magka - mayda hin papreho\\n- An Makaagihon
+  Nasodnon nga Parke Pan - kultura han Chaco in uska Makaagihon Nasodnon nga Parke
+  han Estados Unidos.\\n- tinatawag gihapon in\u00ed nga Syudad han Tul\u00f3 nga
+  mga Kultura tungod han mga impluwensya han kultura han mga Kristohanon, Muslim,
+  ngan Hudeo nga naipakita\\n- nga websayt han komyun Frinanses Websayt mahiunong
+  han komyun Frinanses Talaan han Franses nga Ministro hin Kultura para han Plabennec
+  Frinanses\\n- An baroko usa nga kasaysayan ha periyodo nga artistiko nagpapasamwak
+  han mga arte ngan mga kultura nga ginsasalikway an istilo.\\n- tradisyon ngan buruhaton
+  ha pagluto nga nahasumpay hin ispisipiko nga kultura It mga kanan relihiyon nga
+  balaod hin pagkaon puyde liwat maka - impluwensya\\n- An Museo Britaniko in usa
+  nga museo ha London para han kaagi han katawhan ngan kultura\\nSionismo\\nSionismo
+  in uska porma hin nasyonalismo han mga Hudiyo ngan Hudiyonon nga kultura nga nagsusuporta
+  hin Hudiyonon nga estado nasod ha teritoryo nga ginsisiring nga Tuna han Israel.\\nHip
+  hop (tukar)\\nAn Hip hop nga tukar amo an grupo han mga musika nga nahimo kadungan
+  han hip hop nga kultura. Nagtikang ini han mga dekada 1970 ha mga Aprikano-Amerikano
+  nga mga komunidad ha dagko nga mga syudad han Estados Unidos. Nagamit ini han istilo
+  han pagkanta nga tinatawag nga rap.\\nEtnograpiya\\nIton etnograpiya in makakalidad
+  nga desinyo nga panhalikwat nga may-ada panuyuan nga mapanginano an mga panhitabo
+  kultural. An resulta han pag-aram han larangan o an sumat kaso in nagpapakita han
+  kaaradman ngan an sistema han mga kasirigngon ha kinabuhi han usa ka grupo kultural.
+  An etnograpiya in uska pamaagi para makarepresenta ha grapiko nga paagi ngan ha
+  pagsurat, an kultura han uska katawhan.\"", "\"Maynila - Nagsugad karon si Deputy
+  Presidential spokesman Anthony Golez nga kinahanglan pa niya makakarawat sin report
+  san possible nga pagebakwet san mga sibilyan didto san mga lugar nga kuno adto si
+  Italian Eugeno Vagni bilang hostage san Abu Sayyaf kidnappers.\\nPero nagsugad si
+  Golez nga mao gihapon an chairman san National Disaster Coordinating Council (NDCC),
+  nga kun kinahanglan na gud ine maabo, an mga sibilyan sa mga lugar nga yaun kadelikaduhan
+  san aragyway mao in igkakadtu sa libre nga mga lugar.\\nSi Golez an nagbaton san
+  mga report nga possible nga magkayaun sin military operations pag libre kan Vagni
+  nga mao an nabibilin nala san tulo nga gin kidnap nga mga natrabaho san International
+  Committee of the Red Cross (ICRC) nga ada pa sa mga kamot san Abu ayyaf nga mga
+  bandido sa Sulu.\\nNagsugad gihapon si Gloz nga an local government unit san mga
+  nasabi nga mga lugar ngan san NDCC in gintagan na sin mga instructions nga mga tirok
+  na sin pagkaon ngan mga medisina nga makakagsuporta san mga relief operations.\\nIne
+  in mga preparasyon nga standard contingency procedures san NDCC ngha pirmi ginhihimo
+  sa mga lugar nga possible magkayaun aragway.\\nNagsugad gihapon si Golez nga an
+  local crisis committee (LCC) sa Sulu ngan san NDCC in nagpili na san lima nga mga
+  lugar nga possible mahimo nga evacuation centers.\\nA pangutana kun an Pilipinas
+  in matugot nga an Italian government in mag-asister san pag rescue kan Vagni, nagsugad
+  si Golez nga an angay bumaton siton nga pangutana mao an local crisis management
+  committee (LCMC) pero yaun pahayag an Armed forces of the Philippines nga sira an
+  maghihimo san rescue mission. Matungod sine, dire na kinahanglan nga bumulig an
+  gobyerno san Italya.\\nGintagan bugat ni Golez nga bisan nano an ig rekondar san
+  LCMC parte sine nga situasyon sa Sulu, mao an dapat sundon san ngatanan ngan ine
+  gintugutan ni National Defense ecretary Gilberto Teodoro san dire pala maiha nga
+  mga press conferences kaupod an LCMC.\\nSugad ni Golez nga parte san Sulu hostage
+  crisis, karuyag san Palasyo nga an mga sekretaryo san Department of Interior and
+  Local government (DILG) ngan san DND mao an dapat magin basehan san ngatanan nga
+  impormasyon.\\nSugad pa ni Golez nga an lokal nga pangobyernohan ngan san lokal
+  nga DCC mao an mahatag sin report parte sin mga pag gios sin mga tropa ngan pare
+  sine, wara pa sira report.\\nBase san mga contingency planning, an magkadurudilain
+  nga mga government agencies nga responsible san pag-ataman san mga internally displaced
+  people (IDPs) in naghihimo na sin pagtirok san mga pagkaon ngan medisina nga kinahanglan
+  ada sa ngatanan nga oras.\\nParte san nagtitika paso nga aragway sa Cotabato ngan
+  Maguindanao, nagsugad si Golez nga yaun mga tandard Operting Procedures sin paghatag
+  sin seguridad ngan pagbulig san mga IDPs. (Nene A. Manzanares)\\nNo comments:\\nPost
+  a Comment\"", "\"Isumat.com/Enero 11, 2022\\nNamatay in usa nga pulis han paarakan
+  hiya hin bala hin pira nga mga suspetsado kakulop han udto (Enero 10, 2022) ha Brgy
+  Calinganan, Catubig, Northern Samar.\\nAn biktima in ginkilala nga hi Staff Sgt
+  Joerel Pajac, 39 anyos ngan residente han nasabi nga lugar. Hiya in naka-assign
+  ha Northern Samar Police Intelligence Unit.\\nSubay han inisyal nga imbestigasyon,
+  hi Pajac in tikang han iya umhanan ngan ngan tiuli na unta sakay han iya motorboat.
+  Han tihaw-as na hiya dida han pantalan han barangay, porlomenos upat nga suspetsado
+  an nagpa-arak hin bala ha iya.\\nNakahimo pa an biktima nga makalukso ngadto han
+  salog ha paningkamot nga makasalbar, pero padayon hin pagpusil ha iya an waray panhikilal-i
+  nga mga gintatahapan nga kadagmitan kumalagiw katapos han insidente.\\nAn mga residente
+  han lugar in nanmiling han biktima didto han salog ngan humagos pa in usa ka oras
+  antis ini nira natad-an. Nag-antos hin damo nga igo hin bala an sarhento hinungdan
+  han iya kamatay.\\nAn service firearm ni Pajac in waray katad-i ngan gintotoohan
+  nga nahulog ngadto han salog dida han panhitabo.\\n30 nga mga basiyo hin kalibre
+  45 nga pusil an nakuha han mga imbestigador dida han lugar han krimen. #\"", "\"ANGPahayagan
+  ng Partido Komunista ng PilipinasPinapatnubayan ng Marxismo-Leninismo-Maoismo Waray  nga
+  EdisyonTuig XLIII Num. 18Setyembre 21, 2012www. philippinerevolution . net EditoryalPadayon
+  nga naeksister an paghahadimilitar ha nasudNaeksister pa gihapon an terorismo militar
+  ha bug-os nga nasud.Nagpapadayon an paghahari militar bisan 40 anyos na annakalabay
+  tikang pormal ideklarar ni Ferdinand Marcos anbalaud militar hadton Setyembre 21,
+  1972 ngan 26 anyos na annakalabay tikang ini maibagsak pinaagi han pag-aalsa han
+  katawhanhadton Pebrero 1986.Gin-gamit ni Marcos an balaudmilitar para imentinar
+  ankalugaringon ha poder nganpakusgon an paghahadi hanlangyaw nga dagko nga kapitalista,dagko
+  nga kompradorburgesya, agaron maytuna nganmga burukrata-kapitalista.Ha luyo han
+  iginhihinambognga pagbalik kuno handemokrasya, waray dako ngakaibhan an mga masunod
+  nga rehimenha ginkakangalsan ngaMarcos pasista nga diktadura.Bisan kun waray pormal
+  ngadeklarasyon han balaud militar,nakagpadayon an terorismo hanestado. Nahitatabo
+  pa gihapon anmga paniniyupi nganpananalumpigos nga ginsuportahanhan balaud militar.Nahihimo
+  ini pinaagi hantikapintas nga militarisasyon hanasud tikang ha rehimen ni CorazonAquino
+  tubtub ha presentenga rehimen han anak niya nga hiBenigno Aquino III, kun diinwaray
+  hunong an hiluagan ngamga operasyon militar ngan mayadamadakmol nga presensya anmga
+  tropa han AFP mismo ha mgakomunidad han mga parag-umangan kablas ha syudad ha bug-osnga
+  nasud.Para mamentinar an dunotngan bangkarote ngabagakolonyal ngan bagapyudalnga
+  sistema, ginpadako an ihapngan ginpalandaw tikang hadton1972 an papel han Armed
+  Forcesof thePhilippines(AFP), PhilippineNational Police (PNP)ngan iba pa nga armadonga
+  kaway hanreaksyunaryo nga estado.An ginpadakonga papel han AFP hadamo nga aspeto
+  hankatilingban Pilipinopanigamnan hannagpapadayon ngannagtitikagrabe nga krisis
+  hannaghahadi nga sistema. Kinahanglanpakusgon an mapanmuypoynga pwersa han estado
+  parasupilin an nagtitikakusog nga pagatohan katawhan.Ginpadako ni Marcos ankabug-usan
+  nga pwersa han AFPtikang 60,000 ngada 100,000 ngaHini nga isyu...Mga legasiyahan
+  balaudmilitar 3Romy Capulong,abogadohan katawhan 7Paghinumdomha pag-atoha Balangiga
+  10\\ning teams\u201d han AFP, mga civil-militaryoperations nga naglulupgopbisan
+  ha pagtutdo kuno hintawhanon nga katungod ha mgaeskoylahan, pagsensus, paglansarhin
+  mga misyon nga medikal ngandental, ngan pagtukod ngan pagayadhan mga eskoylahan
+  nga hadayuday himuon nga mga kampohan mga sundalo ha sakob hin pirakabulan tubtub
+  usa katuig.Pirit nga ginpapara ha hunahunahan katawhan an linurongnga papel han
+  reaksyunaryo ngamilitar ha pagsabrag hin teroristanga ngirhat ngan pagpreserbar
+  hamatiyupion ngan matalumpigusonnga naghahadi nga sistema. Ginpapahiaraan katawhan
+  hamadakmol nga presensya nganpangangabuso han militar paramangarol an ira pagtipa
+  ha militarisasyonngan magiginmakarukarawat an panmuypoy. Waray  pulos ini nga ngatanannga
+  paningkamot han AFP, hanrehimen Aquino ngan amo niranga US imperyalismo. Bisan san-odiri
+  poyde magmahamot ngan maginpositibo nga pwersa an usanga institusyon nga unob na
+  haiya esensya an pagigin papet, mapanmuypoy,dunot ngan mersenaryo.Ha makangingirhat
+  ngakasaysayan han diktadura Marcosnakit-an han katawhan anpinakamabangis nga nawong
+  hanbutad nga paghahadi militar. Mapaitnga legasiya han balaud militarni Marcos an
+  natahos nga militarisasyonngan pag-eksister pagihapon han panmilitar nga panmuypoy,nga
+  pirit igintago gamitan mapan-owat nga mga karatulahan \u201ckamurayawan\u201d ngan\u201ckauswagan.\u201d
+  Ini an angay palandawonha kada paghinumdomhan balaud militar. Waray  iba nga kaangayan
+  ngabaton ha waray hunong nga panmilitarnga panmuypoy kundi anwaray kapagal nga pagbuksas
+  hakamatuoran ngan waray hunong liwatnga pag-ato han katawhan.~Mga legasiya han balaud
+  militarHa kadak-an ginrekognisa nga ligal an mga balaud nga ginpaeksisterhadto han
+  pasista nga diktadura Marcos, labotha pira nga iginbasura ni Corazon Aquino ha syahan
+  nga mgaadlaw han pagpwesto niya ha poder ngan adton mga iginbasurahan Korte Suprema.Ginpaeksister
+  ni Corazon Aquino an mapanmuypoy nga mga balaudngan dikreto presidensyal sugad han
+  Batas Pambansa (PB) 880nga nagdidiri ha katawhan nga magtirok ha publiko, an General
+  Order(GO) 66 nga nagtutugot ha militar ngan pulisya nga magtukodhin mga tsekpoynt
+  ha mga kalsada ngan mga eskoylahan. Gintutugutannaman han GO 67 an pag-aresto hin
+  waray mandamyento. AnPresidential Decree (PD) 1866 nagsisirot ha iligal nga pagtag-iya
+  hinmga armas kasumpay han rebelyon. Gintutugutan naman han ExecutiveOrder (EO) 129
+  an mga demolisyon han mga komunidad hankablas ha syudad.Ginligalisa liwat ni Corazon
+  Aquino an pag-eksister han CivilianArmed Forces Geographical Unit (CAFGU) han ipatuman
+  niya an EO264 nga nagpailarum ha kinangangalsan nga paramilitar nga yunitha superbisyon
+  han AFP. Pareho han iya nanay, ginmementinar niBenigno Aquino III an mga paramilitar
+  nga yunit ha luyo han makusognga pagtipa han katawhan. Sering niya, an CAFGU ngan
+  iba panga paramilitar nga yunit ginkikinahanglan komo pandugang ngapwersa ha Oplan
+  Bayanihan han AFP.Ha dikta han gobyerno nga US burubug-os liwat nga ginkarawatni
+  Corazon Aquino ha iya gobyerno an mga opisyal ngan tawuhanhan AFP ha luyo han makusog
+  nga panawagan nga kasuhan ngansirutan an mga opisyal han militar ngan pulisya nga
+  dabi ha dagkonga kaso han korapsyon ngan hiluagan nga pagtalapas ha tawhanonnga
+  katungod ha ilarum han diktadura Marcos. Imbes pabatunon hiraha ira dagko nga kasal-anan
+  ha katawhan, gin-nombrahan niAquino ha higtaas nga posisyon an mga yawe nga tagapagpatumanhan
+  balaud militar sugad kan Juan Ponce Enrile ngan Fidel Ramosnga binaliskad la han
+  ura-ura na nga nahimulag hi Marcos hakatawhan Pilipino. Iginbalik ni Aquino hi Enrile
+  komo Secretary ofNational Defense ngan ginhimo nga hepe han AFP hi Ramos nga anayhepe
+  han Philippine Constabulary-Integrated National Police (PC-INP).Iginpwesto liwat
+  ha ilarum han masunod pa nga rehimen andamo nga opisyal hanmilitar nganpulisya haANG
+  BAYAN Setyembre 21, 20123\\nmga yawe nga pwesto ha gobyernotubtub nga nagin uraurana
+  ka-militarisado ansibilyan nga burukrasya. Hadton2009, iginpwesto ni GloriaArroyo
+  ha mahinungdanonnga sibilyan nga posisyon an25 nga retirado nga heneral.Pira la
+  hini amo hira Gen. EduardoErmita komo ExecutiveSecretary; Gen. AngeloReyes, sekretaryo
+  han Departmentof Energy; Gen. LeandroMendoza, sekretaryohan Department of Transportationand
+  Communication;ngan Gen. HermogenesEbdane, sekretaryo han Departmentof Public Works
+  andHighways.Gin-nombrahan namanhan rehimen Aquino hi Ret.Gen. Voltaire Gazmin komoDefense
+  Secretary; Gen.Danilo Lim ha Bureau of Customs;Gen. Benito Ramos haNDRRMC; anay
+  AFP chief ofstaff Ricardo David komoCommissioner ng Bureau ofImmigration; ngan hi
+  PNPDir, Gen. Nicanor Bartolome,igsaliwan ha ginpatalsik ngaDILG Undersecretary RicoPuno.Nagin
+  kredensyal liwat anrekord militar para maipwestokomo mga magbaralaud bisanwaray
+  hira iba nga treyning.Pananglitan hini hi senadorngan yana Rep. Rodolfo Biazon,anay
+  hepe han AFP;senador ngan yana Meyor AlfredoLim, anay hepe hanManila Police Departmentngan
+  National Bureau of Investigation;Sen. Panfilo Lacson,anay hepe han PNP; Sen.Gregorio
+  Honasan, anay koronelhan AFP ngan lider hanReform the Armed ForcesMovement; ngan
+  Rep. RoiloGolez, anay koronel ngannakapagtapos ha AnnapolisNaval Academy. ~Panhihibang
+  han militarisasyonha kabaryuhanSugad han diktadura US-Marcos, nakapaghadi ha ilarum
+  han rehimenUS-Aquino an poder militar ha dako nga parte han nasud.Kundi diri sugad
+  kan Marcos, naghahadi an balaud militar,labina ha kabaryuhan, hin waray pormal nga
+  proklamasyon niAquino.Legasiya ini han balaud militar.An militarisasyon kapartena
+  han naghahadi nga pampolitikanga sistema ngan usa hamga yawe hini nga instrumentopara
+  ha preserbasyon han dunotnga pankatilingban nga sistema.Pareho hadto, nakatutok
+  anpoder han AFP ha mga lugar ngapinakaaktibo an mga kontrapyudalnga panmasa nga
+  pakigbisogngan armado nga pakigbisog.Prinsipal nga target han brutalnga panmuypoy
+  an kablas ngamga parag-uma ngan nasyunalnga minoriya. Hiluagan ngansustentido an
+  militarisasyon hatuyo nga puypuyon an hiluagannga pag-ato han katawhan nganrumkon
+  an iginpundar nira ngademokratiko ngapoder. Tikang hadton panahonni Arroyo, militarisado
+  liwat anmga komunidad han kablas hasyudad nga ginlulupgop han mgamaka-langyawanon
+  nga proyektoha ilarum han programa ngaPublic-Private Partnership.Partikular liwat
+  nga mapintasyana an militarisasyon ha mga lugarkun diin nabuylo an operasyonhan
+  mga langyaw nga minahan,komersyal nga plantasyon, dagkonga asyenda ngan agribisnes.Mapintas
+  liwat an militarisasyonha mga lugar nga gintutukuran hinmga dagko nga dam ngan iba
+  panga mapanhibang nga proyektonga \u201cpankauswagan\u201d kuno nganakatutok ha
+  mga panginahanglanhan langyaw nga mga kompanya.Tuyo han militarisasyon an taganwadaan
+  pag-entra hanlangyaw ngan komersyalnga mga interes.Landaw yana anmapintas nga kaso
+  hanmilitarisasyon, pangangabusongan iba panga pagtalapas hatawhanon nga katungodha
+  rehiyon han Bicol,labina haAlbay (hasakob nganmga bungtoha palibothan LegazpiCity)
+  nganCamarinesNorte. Masobrawalonga batalyonhanmga pasistanga sundalo4 ANG BAYAN
+  Setyembre 21, 2012\\nan nakadispers yana ha higluag ngaasyenda ha Bondoc Peninsula,
+  masgrabe pa an militarisasyon dinhiitanding hadton panahon han diktaduraUS-Marcos.Mapintas
+  liwat an militarisasyonha mga lugar han pagmiminaha mga rehiyon han Caraga nganCordillera
+  ngan iba-iba nga partehan Southern, Far South nganWestern Mindanao. Mapintas liwatan
+  militarisasyon ha Bukidnon kundiin gintutukod an higante ngadam.Iginlalansar an
+  pinakamadarahugnga porma han panmuypoyngan terorismo.  Waray wantas an mga ekstrahudisyal
+  ngapanmatay, pagsikmit, pagtortyur,pagrekisa, iligal nga pangarestongan detensyon,
+  ngan iba pa ngapagtalapas ha tawhanon ngakatungod.Samwak an panmomba nganwaray wantas
+  nga istraping nganmga panmasaker. Ginruruba hininga mga operasyon an ira panginabuhi,mga
+  balay ngan propyedad.Narunapulo na kayukot ngamulupyo ab napiritan mag-ebakwetpara
+  ha ira katalwasan. Pwersadonga ginrerekrut an katawhanha mga paramilitar nga grupo.Tikang
+  2011, ha ilarum hanOplan Bayanihan, an mga brutalnga operasyon militar iginpapatumanha
+  tahob han \u201ckamurayawanngan kauswagan.\u201d Ilarum han ginbansagannga Community
+  Organizingfor Peace and Development(COPD), naglansar hin panmaihaannga \u201cspecial
+  operation\u201d an mga yunithan mga sundalo para ipailaruman taghimaryo ha ira poder.
+  Gingagamitnira komo base hanoperasyon an mga eskoylahan,barangay hall ngan iba pa
+  ngasibilyan nga istraktura. Gintatalapashan AFP an mga internasyunalnga balaud ha
+  gerra ha pagpwersahan mga sundalo nga umestar hakabablayan han mga parag-uma.Gamit
+  an opisyal nga pundohan AFP, gintatarget han mga sundaloan mga batan-on nganPaghandom
+  han ika-40 anibersaryohan balaud militarGinhandom han hiluagan nga aksyon protesta
+  han mgabatan-on nga aktibista, pagpuasa han mga detenido politikalha mga prisuhan
+  ha bug-os nga nasud ngan paghimo hin eksibitan ika-40 nga anibersaryo han pag-imponer
+  hin balaud militar.Naglansar hin usa ka-semana nga welga ngan mga walkout haira
+  mga klasrum ha bug-os nga nasud an mga batan-on-istudyantehadton Setyembre 17 tubtub
+  21. Ginpamunuan ini nga mga giosprotestahan League of Filipino Students kabakyang
+  an Anakbayan,KARATULA, Student Christian Movement of the Philippines, NationalUnion
+  of Students of the Philippines ngan Kabataan Partylist.Igin-iinsister nira an pagbasura
+  ha Education Act of 1982, ngakalakip ha magraut nga legasiya han anay diktador Ferdinand
+  Marcos.Ginkondenar han mga batan-on nga aktibista hi Benigno AquinoIII diri la tungod
+  ha pagtalapas hiya ha katungod ha edukasyon hanmga batan-on kundi ha iba pa nga
+  mga tawhanon nga katungod. Seringnira, usa nga anomaliya nga an administrasyon nga
+  ginpapamunuanhan usa nga nagtikang ha mga pamilya nga ginbiktima niMarcos asya yana
+  an nagpapatuman hin baga-baga balaud militar.Nagpuasa naman hadton Setyembre 14-21
+  an 300 nga abogadohan tawhanon nga katungod, 200 nga istudyante han abogasiyangan
+  mga paraligal tikang ha 18 nga panrehiyon ngan panprobinsyanga sanga han National
+  Union of People''s Lawyers (NUPL). Igin-iinsisternira ha rehimen Aquino an paghayaw
+  han masobra 350 ngadetenido politikal nga nakadetenir ha iba-iba nga prisuhan ha
+  nasud.Kadungan liwat nga nagpuasa an mga detenido politikal haSouthern Mindanao,
+  Central Visayas, Eastern Visayas, Iloilo, Batangas,Isabela, New Bilibid Prison ha
+  Muntinglupa City ngan CampBagong Diwa ha Taguig City.Nagpresentar hin eksibit ha
+  University of the Philippines-Diliman,Quezon City hadton Setyembre 12-21 an Karapatan
+  kabakyangan SELDA (Samahan ng Ex-detainees Laban sa Detensyon atAresto). Gintituluhan
+  ini nga \u201cPag-alsa ngan Protesta: KwarentaAnyos han Balaud Militar.\u201d Utro
+  hini nga ginhinumduman anmga leksyon han 14 anyos nga paghahadi han terorismo militarhan
+  diktadura Marcos. ~kababayin-an hin pakipagbarkadahayo pan-ngunsuylo. Gin-aaghatngan
+  napupulsan han AFP an iligalnga droga, paghinubog ngan iba panga kontra-sosyal nga
+  binuhatan.Ginrerekrut nira komo mgatawuhan ha paniktik ha baryo ankontrasosyal nga
+  mga elemento.Kadungan hini, hugot nga ginsusubaybyanhan militar an mgaaktibidad
+  ha baryo. Ginkakada niraan kada balay ha ngaran hanpagsensus para tudlukon an mgaindibiduwal
+  ngan organisasyonnga natipa ha mga programangan reaksyunaryo nga estadongan tiktikan
+  an ira mga gios.Nag-imponer hira hin curfewngan iba pa nga mapanmuypoynga palisiya
+  nga waray kaibhanha palisiya han deklarado ngabalaud militar. Malisyoso nira ngaANG
+  BAYAN Setyembre 21, 20125\\ngin-aakusaran nga mga membrohan Bagong HukbongBayan
+  an hin-uman nga dirinaabuyon ha ira mga pagsurundon.Nagpapasamwak an mgasundalo
+  hin dis-impormasyonngan mapan-owat nga mgaprograma para rub-on anpagkaurusa han
+  katawhanngan isimang an ira pag-ato.Direkta nga iginpapatumanhan mga sundalo an
+  mgaprograma nga counterinsurgencyhan reaksyunaryo ngarehimen. Kalakip dinhi an mgapag-organisa
+  han ginbansagannga Agrarian Reform Communitiesha ilarum han ba-layanhan CARPER (kitaon
+  an kasumpaynga artikulo) ngan panhataghin kwarta nga limos habalayan han 4Ps.AN
+  PAMPOLITIKA NGA PO-DER han militar nagtitikang hapoder hini nga manpuypoyngan manrumok.
+  Kun diin hiranakapaghahadi, hira an nagtatalaanhan balaud. Anyawyaw nga \u201cdemokrasya\u201dngan
+  \u201csibilyan nga poder\u201dpuros kamoplahe la nga pantahobha madarahug nga pasistanga
+  paghahadi.Tungod kay an militar anprinsipal nga instrumento parasuportahan an mga
+  langyawnga dagko nga kapitalista,dagko nga komprador burgisngan agaron maylupa,
+  an kontra-militarisas-yonnga pakigbisogkaparte han kontra-imperyalistangan kontrapyudalnga
+  pakigbisog han katawhanPilipino. Kinahanglan pakusgonhan katawhan an pagdepensaha
+  ira mga tawhanonnga katungod kadungan hanpagpasulong nira han irademokratiko nga
+  pakigbisogpara ha agraryo nga repormangan ha nasyunal nga katungodpara ha pagdedesisyonha
+  kalugaringon. ~Militarisasyon han mga eskoylahan,gintitipahanHugot nga gintitipahan
+  han mga organisasyon nga nag-uundongha tawhanon nga katungod an paggamit han militar
+  hamga pampubliko nga eskoylahan. Ini an iginpadangat ni Rep. AntonioTinio han ACT
+  Teachers Partylist ha usa nga dayalogo kan UndersecretaryAlberto Muyot, pinuno han
+  Legal and Legislative Affairshan Department of Education (DepEd).Kaupod ha nakipagdayalogoha
+  DepEd an KatribuPartylist, Dinteg (CordilleraIndigenous Peoples Legal Center)ngan
+  Children''s RehabilitationCenter (CRC).Igin-iinsister nira an pagpalayasha mga sundalo
+  hangobyerno tungod kay gingagamitnira an mga eskoylahanha nasud para ipatuman anOplan
+  Bayanihan han gobyernoAquino. Resulta hini, gintatalapashan militar an katungod
+  haedukasyon han mga bata.Antes matapos an dayalogo,nagsaad hi UndersecretaryMuyot
+  nga magpagawas hinusa nga memorandum ngamaghulkas ha ngatanan nganaeksister nga
+  Memorandum ofAgreement giutan han ArmedForces of the Philippines nganmga DepEd School
+  Division.Ha Mindanao, gintatarhughan militar an mga magturutdoha pira nga eskoylahan
+  hanmga Lumad sugad han gindudumarahan Center forLumad Advocacy and Services(CLANS)
+  ha Sarangani nganRural Missionaries of thePhilippines (RMP) ha AgusanDel Sur, Bukidnon
+  ngan CompostelaValley.Samtang, napiritan magsaraan B''laan Community LiteracySchool
+  ha Malapatan, Saranganingan Alternative Learning Centerfor Agriculture and LivelihoodDevelopment
+  (ALCADEV) haLianga, Surigao del Sur tungodha pwersado nga ebakwasyon resultahan
+  nagpapadayon ngaoperasyon militar ha naseringnga mga lugar.Ini nga mga eskoylahangintukod
+  mismo han mga minoriyanga mulupyo ngan ginsuportahanhan pira nga nongovernmentorganization
+  nganrelihiyoso nga grupo. Tuyo hininga mga eskoylahan nga mataganhin edukasyon an
+  mga komunidadnga biktima han pagpasibayahan gobyerno.Ha Cordillera, nabuksas ankasarabutan
+  giutan han Departmentof Education-Baguio CityDivision ngan 5 th Civil-MilitaryOperations
+  Battalion han 5 th IDhan Philippine Army para magbubligayha paglansar hin counterinsurgencynga
+  kampanya.Naghimo hira hin mga pagtalakayha mga istudyante nga aada haGrade 6 ngan
+  hayskul.Igindidiri han RA 7610 o SpecialProtection of Childrenagainst Abuse, Exploitation,
+  andDiscrimination an paggamit hanmilitar hin mga eskoylahan, hospitalngan mga health
+  center komocommand post, baraks, mgadetatsment ngan istakan hin mgasuplay han armado
+  nga mga pwersa.Gin-ayat naman ni JaquelineRuiz, executive director han CRC,an gobyerno
+  Aquino nga iundongan mga katungod ha edukasyonhan mga bata. Sering niya, kinahanglanpanmatian
+  han gobyernoan mga reklamo han mga batangan ira mga komunidad nganpalayason dayon
+  ha mga sibilyannga komunidad an mga tropamilitar. ~6 ANG BAYAN Setyembre 21, 2012\\nRomeo
+  Capulong, abogadohan katawhan, tinalikod naTinalikod na hi Atty. Romeo (Ka Romy)
+  T. Capulong ha edad nga77 anyos hadton Setyembre 16. Atake ha kasingkasing an hinungdanhan
+  iya kamatayon.Hi Ka Romy, nga asya an agnayha iya han mga kasama ngankasangkayan,
+  an nagtukod ngannagin presidente han Public InterestLaw Center para taganhin ligal
+  nga serbisyo an mgakablas. Ginpamunuan liwat niyaan National Union of People''sLawyers
+  (NUPL). Antes hini,nabotosan hiya komo delegadoha Constitutional Conventionhadton
+  1970.Hul-os nga ginpasalamatanhi Ka Romy han National DemocraticFront of the Philippines(NDFP),
+  han ngatanan hini ngamga alyado nga organisasyon,ngan han NDFP NegotiatingPanel,
+  mga konsultant nganistap hini ha damo nga katuigannga iginhalad niya hin diri matutumbasanngaserbisyo
+  hanegosasyo npankamu -rayawanngan haiba pa nganatad hanpakigbisoghankatawhan.Nagserbehi
+  Ka Romyn g aChiefLegal Counsel ha negosasyonpankamurayawan hadton 1986-1987 tubtub
+  hiya namatay.Sumala ha NDFP, nagkatin hiKa Romy hin yawe nga papel hapormulasyon
+  ngan negosasyonhan The Hague Joint Declaration,han Joint Agreeement onSafety and
+  Immunity Guarantees(JASIG), ComprehensiveAgreement on Respect for HumanRights and
+  InternationalHumanitarian Law (CARHRIHL)ngan iba pa nga baylateral ngakasarabutan.
+  Hul-os niya ngagin-gamit an iya ligal ngan mapan-aghatnga kapas paramakakuha hin
+  konsensus hapinakamakugnot nga isyu.Ngatanan han 12 nga baylateralnga kasarabutan
+  tikang 1992tubtub 2004 nabug-os ha bulighan iya ligal nga kabatirannganmadig-on
+  ngapaninduganpara ha rebolusyunaryongakagiusan. Nahimoniya ini haluyo han iyadamo
+  ngaburuhaton komoabogado hanmga detenido politikal,mga paraguma,trabahadorngan iba
+  pa nga bikti-ma han pan-gigipit ha politika.Ginsuportahan ni Ka Romyan pakigbisog
+  han 10,000 ngaparag-uma ha Hacienda Looc haBatangas. Komo anak liwat hanusa nga
+  parag-uma ha NuevaEcija, nagin masayon para ha iyaan pakipagsuok ha mga taga-Hacienda
+  Looc ngan makiusa haira pakigbisog kontra ha mgakaruyag magpalayas ha ira.Tungod
+  hini, ginbansagan hiyanga \u201cHulog han Langit\u201d hanmulupyo han Hacienda Looc.
+  Waray  liwat hiya mapahunongha mga panarhug hanmilitar ngan padayon niya ngaginbuligan
+  an mga parag-umangan trabahador han HaciendaLuisita. Ginhimo ini niya ha luyohan
+  panmasaker ha ira nganasasinasyon kanda Bishop AlbertoRamento, Konsehal AbelLadera,
+  Fr. Willian Tadena nganiba pa nga lider-trabahador.Ginrekognisa liwat halangyaw
+  nga labnasan an kabatiranni Ka Romy. Ginbotosanhiya han United Nations (UN)General
+  Assembly komo usa ngaUN Judge ad litem ha UN InternationalTribunal ha anay Yugoslavia.Nagserbe
+  liwat hiyakomo usa ha mga abogado niProf. Jose Maria Sison ha EuropeanCourt tikang
+  Abril 2003tubtub ha ira pagdaug hadtonSetyembre 2009. Kaupod ni KaRomy an magkarit
+  nga abogadotikang ha Belgium, Germany,France ngan The Netherlands.Tinalikod man
+  an abogado hannasud ngan bayani han katawhan,an diwa ngan inspirasyon ni KaRomy
+  nagpapabilin nga buhi hakasingkasing han iya mga ginserbihan,sering han NDFP.Ha
+  iya pagkamatay nailo an iyaasawa nga hi Sofia, mga anak ngahira Alex, Eduardo ngan
+  Roma Piangan iba pa nga kaurupdan. Iglulubonghiya ha Everest Hill MemorialPark ha
+  Susana Heights,Muntinlupa City ha Setyembre 22han aga. ~ANG BAYAN Setyembre 21,
+  20127\\nPangangatake ha panginabuhihan mga parag-uma ha AlbayHugot nga ginpanhimuwa
+  han mga parag-uma ha Guinobatan,Albay nga madinaugon an iginhihinambog han 2 nd
+  IB ngapagdistribwer hini hin tuna ha lugar ha balayan han ComprehensiveReform Program
+  Extension With Reforms o CARPER. Antinuod, pagsasabotahe ha pakigbisog han mga parag-uma
+  para hatuna ini nga ginhimo han 2 nd IB.Tikang pa hadton dekada1980 pinakigbisogan
+  na han mgaparag-uma an ira katungod hatuna nga ginhuhulad ha pira ngaasyenda ha
+  Guinobatan. Resultahan ira pakigbisog, pira nakabeses nga nakapaglansar anmga parag-uma
+  hin mga kampanyapara pamenusan an plete,pauswagon an produksyon nganposisyunan an
+  pira nga partehan mga asyenda dinhi. Ini ngakatunaan nga maiha na nga ginhuhuladhan
+  mga parag-uma resultahan ira kadaugan an gintatargetyana nga igdistribwerhan 2 nd
+  IB.Han nagdumiri an mgaparag-uma dinhi nga maghasogha pagsurundon han 2 nd IB, ginakusaranhira
+  han mga sundalonga tagsuporta han BagongHukbong Bayan (BHB). Ha damonga higayon,
+  ini nga malisyosonga pag-akusar una nga pitadha ekstrahudisyal nga panmatay,pagsikmit,
+  iligal nga pagangarestongan detensyonngan iba pa nga pagtalapas hatawhanon nga katungod
+  hankatawhan.Tuyo han 2 nd IB nga rub-onan pagkaurusa han mga paragumaha Guinobatan
+  ngan sabotahionan ira makatadungan ngapagpwesto ha bakante nga katunaan.Desperado
+  an 2 nd IB ngatahuban an kontra-insurhensyanga kampanya hini nga padayonnga kinangangalsan
+  han mgaresidente ha mga barangay ngalupgop han mga operasyon hanmapan-owat nga Community
+  Organizingfor Peace and Developmento COPD tim.Bisan an pagsabotahehini ha panginabuhihan
+  mgaresidente ngan simplenga pag-eksort hapagsurbey han MunicipalAgrarian ReformOffice
+  (MARO) ginpapagawaspa nira nga \u201ckadaugan\u201d.Karuyag liwat han tropa han2
+  nd IB nga ibalewaray annagin paggios han mgaparag-uma dinhi ngan pamingawonan panawagan
+  para palayasonan mga tim han COPD. Masobrausa katuig na nga nariringgalan lugar
+  han mgaoperasyon militar han mgaCOPD tim han 2 nd IB.Madig-on an panindugan hanmga
+  parag-uma nga makataduganan ira pagpwesto ha tuna.Nagdudumiri hira nga kilal-onan
+  pagdistribwerhan 2 nd IB. Maaram anmga parag-uma dinhinga diri an CARP-ER, ngan
+  labaw panga diri pinaagi hanCOPD nga nakabalayanha OplanBayanihan makab-otan tinuod
+  nga reporma hatuna. Makab-ot la ini hapadayon nga nagkakaurusanga paggios. ~Lider
+  han minoriya ha Agusan,gintortyur ngan ginpatayGintortyur ngan ginpatay han mga
+  elemento han CAFGU anusa nga lider-minoriya ha Agusan del Sur hadton Setyembre13
+  han gab-i. Hi Genesis Ambason, 23 anyos ngan kabug-usannga sekretaryo han Tagdumahan,
+  usa nga grupo nga naagoha dagko nga minahan ginpatay ha Km. 39, Barangay Binikalan,bungto
+  han San Luis.Sumala ha mga testigos, nagsisirom na han magdesisyon pagpahowayha
+  pagkalakat hira Ambason ngan iba pa niya nga kaurusatikang ha small-scale mining.
+  Pinahoway hira ha usa nga lugarmga 200 metros an distansya ha Sityo Tambo ngan natatanawtikang
+  ha detatsment han 26 th IB. Pagkatapos hin pira kaminutosnakabati hira hin nagdadagmit
+  nga mga biksal tipaduok haira ginpwestuhan. Han ispatan ini ni Ambason nakabati
+  hira hinsunud-sunod nga mga buto. Nanalagan an mga kaurusa ni Ambasonkundi nahibilin
+  hiya tungod ha nahiaguman nga samad.Kinabuwasan, kinada hi Datu Amay, pinuno han
+  tribo haBarangay Tambo ngan natad-an an patay nga lawas ni Ambasonmga 130 metros
+  tikang ha detatsment han 26 th IB. Nahiagum hiyahin duha nga igo han bala ha tuo
+  nga dughan, duha nga igo ha iyapaa ngan duha nga igo ha iba nga parte han lawas.
+  May-ada liwatmga luon ha iya bayhon ngan dughan.Ginpagawas han 26 th IB nga namatay
+  hi Ambason ha usa ngaengkwentro giutan han Bagong Hukbong Bayan ngan CAFGU. ~8 ANG
+  BAYAN Setyembre 21, 2012\\n5 sundalo, namatayha ambus han BHB-NegrosLima nga sundalo
+  an namatay han ambuson han usa nga yunithan Armado Sumayang, Jr. Command han Bagong
+  HukbongBayan (BHB) an usa nga komposit nga yunit han 47 th IB nganScout Rangers
+  ha Sityo Magboto, Barangay Cabia-an, Candoni, NegrosOccidental hadton Agosto 14.
+  Damoliwat nga sundalo an nasamaran.Gin-atentaran pagreyd hanmilitar an temporaryo
+  ngaginkampuhan han mga Pulanga mangaraway haSouthwest Negros GuerrillaFront dapit
+  alas-3:20han kulop. Kundi nakapagmaniobraan mga gerilya ngan anmilitar an ira naambus.Pinanmurangtan
+  anmulupyo han kangalashan militar resulta hanira kaperdihan hapakig-engkwentro haBHB,
+  sering ni Ka AndreaGuerrero, tagapagyakanhan Armando Sumayang, Jr.Command.Pira nga
+  residente han SityoMagboto an pwersado nira ngaginkuhaan hin impormasyonngan gin-giya
+  ha pagtudlok hakinamumutangan han BHB. Nagimponerliwat hira hin curfewsanglit naapektaran
+  an panginabuhingan kalibrihan hapaggios han taghimaryo. Antesan agway hadton Agosto
+  14,nakapaglansar hin serye hanmga taktikal nga opensiba anBHB ha nasering nga prente
+  gerilya.Hadton gab-i, ginharashan usa nga tim han BHB an detatsmenthan Bactolon
+  haBarangay Camindangan, SipalayCity kun diin nasamaran an usanga elemento han CAFGU.Kinabuwasan,
+  Hunyo 29, ginharashan usa pa nga tim han BHBan Reo trak han 47 th IB nganusa nga
+  elemento han 47 th IB annasamaran. Ha usa nga operasyonpartisano kontra ha47 th
+  IB ha Sityo Cambogui-ot,Barangay Camindangan, SipalayCity hadton Hunyo 19,nakakumpiska
+  an mga Pula ngamangaraway hin usa nga kal. .45nga pistola ngan duha nga magasinnga
+  puno hin bala tikangha usa nga sundalo. Waray  awod nga nagkakampoan 47 th IB ha
+  mga balay hansibilyan ha Sityo Indangawan,Barangay Manlocahoc, SipalayCity. Tungod
+  hini, napiritanpagkaturog ha usa nga day carecenter an tag-iya han usa ha mgabalay
+  nga ginagamit hanmilitar. Gin-okuparan liwathan mga sundalo anmga pwesto ha merkadoha
+  Sityo Cambogui-ot nganapapalibutan hin damo ngatawo. Ginhihimo nira ngataming an
+  mga residentekontra ha atake han mga gerilyanga pwersa nga nagbabaton laha demanda
+  han katawhan ngapalayason an mga tropa. ~NDF-SMR, nagbayad hin danyosGinbaydan hin
+  danyos perwisyos han National DemocraticFront-Southern Mindanao Region (NDF-SMR)
+  an diri mamenos41 nga residente han Barangay Fatima, Paquibato District,Davao City
+  nga nasamaran han labugan hin granada hanusa nga yunit han 1 st Pulang Bagani Company
+  an detatsmenthan militar ha lugar hadton gab-i han Setyembre 1. Nanmamasyadaan mga
+  biktima hadto ha karnabal duok ha detatsment.Dayon nagsuson ha kalugaringon ngan
+  nan-ngaro hin pasayloha publiko an Merardo Arce Command (Bagong Hukbong Bayan-Southern
+  Mindanao). Nagsaad ini nga maghimo hin mga kongkretonga pitad para baydan hin danyos
+  an mga nasamaran ngantagan hin kaangayan nga aksyon pandisiplina an dabi nga yunithan
+  BHB.Subay ha rekomendasyon han Merardo Arce Command, iginmandohan NDF Regional Council
+  han Southern Mindanao anpaghatag hin tag-`5,000 nga danyos ha mga biktima. Iginhatagini
+  hadton Setyembre 19 pinaagi han mga taga-singbahan, tagamidya,abogado ngan mga NGO.An
+  pagbayad hin danyos kaparte ha pag-implementar han NDFha mga komitment hini ha ilarum
+  han pankalibutan nga makatawonga balaud ngan mga rebolusyunaryo nga prinsipyo nga
+  nakaplastarha Comprehensive Agreement on Respect for Human Rightsand International
+  Humanitarian Law (CARHRIHL), mga giya hapagtukod han demokratiko nga gobyerno han
+  katawhan ngan mgabatakan nga pagsurundon han Bagong Hukbong Bayan. ~ANG BAYAN Setyembre
+  21, 20129\\nPag-ato ha Balangiga, Eastern SamarPaghinumdom ha armadonga pag-ato
+  han masanga parag-umaHini nga Setyembre 28, hinunumduman han katawhan Pilipinoan
+  ika-111 anibersaryo han armado nga pag-alsa hankatawhan han Balangiga, Eastern Samar
+  kontra ha okupasyonmilitar han mga tropa Amerikano.  Waray  kapareho nga kamabayanihonan
+  iginpakita han mga taga-Balangiga hini nga pag-ato.Kundi labaw pa hini, iginpakita
+  nira an kapas han armado ngakatawhan nga pirdihon an usa nga mas dako nga hukbo
+  nga armadohin magbakod nga armas.An pag-ato ha Balangiga usaha landaw nga pananglitanhan
+  armado nga pag-ato hanmasa nga Pilipino ha pananakophan mga langyaw nga tropangan
+  pag-eksister han puthawnga kamot. Iginpapakita hininga hadto pa man samwak na anpag-organisa
+  han mga armadonga grupo ha ranggo hankatawhan para depensahan ankalugaringon ngan
+  mga komunidadnira nga diri nabulag hapan-adlaw-adlaw nga panginabuhi.Setyembre 28,
+  1901 hanatakihon han mga parag-umanga taga-Balangiga an mgatropa Amerikano nga nagkampoha
+  ira bungto. Hini nga pangangatake,nakumpiska han mgaparag-uma an 100 riple ngan25,000
+  nga bala han mga tropaAmerikano han Company C han9 th US Infantry Regiment.Inabot
+  44 an namatay nga mgasundalo Amerikano, kaupod anngatanan nga mga opisyal hini.Baynte-dos
+  an nasamaran hakaaway, upat an nawara nganupat an nakaeskapo.An pangangatake han
+  mgataga-Balangiga reaksyon ha pamamasista,paniniyupi nganura-ura nga pagtalapas
+  hatawhanon nga katungod hanmga tropa Amerikano nga nagpaeksisterhin balaud militar
+  haira bungto.Tipatip nga gin-andamanhan mga residente an ira pangangatake.Igin-okasyon
+  niraan petsa ha panahon nga damoan residente nga nagtirirok hasentro han bungto
+  tungod kaytiabot an pira nga mga opisyalmilitarhan US. Gintugbangannira hin superyor
+  nga kadakuonan pwersa Amerikano ngan iramagbakod nga armas. Iginseptiha talwas nga
+  lugar an mgababaye ngan mga bata. Nagbadohin kanan-babaye an traynta-ekwatronga
+  lalaki ngan nagposturanga mga manirimba ha misaha kaagahon. Ini nga mga lalakimay-ada
+  dara nga gudti ngamga lungon ngan dinhi nira igintagoan ira mga sundang nganiba
+  pa nga armas.  Waray  magdudaan nagtsekpoynt nga sundaloAmerikano tungod kaynakita
+  ha usa nga lungon anpatay nga lawas han usa nga batanga namatay ha epidemyanga kolera
+  nga samwak hadto.Gintikangan han mga residentean pag-atake dapit alas-6:30 han aga.
+  An pagtunog hanlingganay an nagsenyales hapagtikang han atake. Sundang,kutsilyo
+  ngan parakol an ira mgaarmas kontra ha mga riple hanmga tropa Amerikano.Namartir
+  hini nga agway an28 nga residente samtang 22naman an nasamaran. Tungodha kagrabihon
+  han nahiagumannga kapirdihan han US, ginmanduanhan presidente han UShadto nga hi
+  Theodore Roosevelt10 ANG BAYAN Setyembre 21, 2012\\nnga puypuyon an pakigbisog han
+  mga taga-Balangiga ngan gintagan hin otoridad hi Gen.Jacob Smith nga ipatuman an
+  ginbansagan ngaBalangiga masaker. \u201cBurn all, kill all, loot all,\u201d(Sunugon,
+  patayon ngan dambungon anngatanan) an mando ni Smith ha iya mgatawuhan. Masobra
+  50,000 nga sibilyan hanBalangiga an ginmasaker han mga sundaloAmerikano ngan haros
+  naagbon an bug-os ngabungto. Ginkawat pa nira an tulo nga lingganayngan igindispley
+  ha anay kampo han11 th Infantry Regiment ngan F.E. Warren AirForce Base ha Cheyenne,
+  Wyoming, USA nganha kampo han 9 th Infantry Regiment ha CampRed Cloud, Uijeongbu,
+  South Korea. An padayonnga pagdumiri han mga opisyal han US ngaibalik an tulo nga
+  lingganay panigamnan la hanira ura-ura nga pagtamak ha soberaniya hanPilipinas.
+  Ngada yana nagdudumiri hira ngabatunon an ira makangi-ngirhat nga krimenkontra ha
+  katawhan Pilipino.An pag-aalsa ha Balangiga usa ha pinakamaungodnga agway ha bug-os
+  nga Pilipino-Amerikano nga gerra nga binuto hadton Pebrero4, 1899. Labot hini, nagkamay-ada
+  liwatmga armado nga pag-ato an katawhan haNorthern Samar ngan iba pa nga parte han
+  nasud,kalakip na an pag-aalsa han katawhan Moroha Mindanao. Usa hini an ginbansagan
+  nga\u201cSiege of Catubig\u201d (o \u201cPag-atake ha Catubig\u201d)kun diin gin-atuhan
+  han armado nga masa ngaparag-uma an mga pwersa Amerikano hanasering nga bungto han
+  Northern Samartikang Abril 15 tubtub Abril 19, 1900.Buhi kaupay an tradisyon han
+  pagtukod hinarmado nga pwersa ha ranggo han katawhanngan pagpakusog han ira armado
+  nga pag-atoha mapintas nga panmuypoy ngan pangangatakeha ira mga komunidad.Ha iba-iba
+  nga parte han nasud, gintutukodyana an mga pandepensa nga grupoilarum han mga sanga
+  han Partido ha lokalidadngan mga yunit milisya han Bagong HukbongBayan (BHB) ha
+  direksyon ngan pamumunohan Partido Komunista han Pilipinas.Ini nga mga armado nga
+  yunit han katawhanan magdudugang, magdudugtong ngan magsusuportaha mga regular nga
+  pan-ato ngapwersa han BHB. Gintatagan hira hinbatakan nga treyning para ha pagpatumanhan
+  ira buruhaton kasumpay ha pansakobnga seguridad para libyano nga makagiosngan magpatuman
+  han mga buruhaton hamas hiluag nga lugar an mga Pula nga mangaraway.~Korapsyon ha
+  PNP, nabuksasha butnga han banggaayNabuksas hini nga Setyembre an anomaliya nganadadabihan
+  ni Rico Puno, undersecretary haDepartment of Interior and Local Government(DILG)
+  ngan usa ha pinakasuok nga kroni ni BenignoAquino III.Gin-akusaran han usa nga kompanya
+  nga pinartisiparha bidding nga gin-apura ni Puno an paghatag hankontrata han pagpalit
+  hin armas han PNP para diri naini mapanginlabutan ni Mar Roxas, an bag-o nga sekretaryohan
+  DILG. Iginhatag an kontrata ha pagpalit hinmasobra 56,904 nga pistola nga 9 mm ha
+  Glock AsiaPacific Ltd ha butnga han mga iregularidad ha prosesohan bidding ngan
+  testing han mga pusil. Nakantidad hinmasobra `1 bilyon an kontrata.Hadton 2011,
+  nadabi na liwat ha anomaliya hi Punohan ginawas ha usa nga imbestigasyon nga nagkamayadasobrado
+  nga pagpresyo ha mga pusil nga nakatalaanpaliton han PNP ha usa nga kompanya nga
+  Israeli.Gin-amin ni Puno nga gin-aro niya nga diri ipailarum hapublic bidding an
+  kontrata ngan makipag-negosasyonnala an PNP ha Espineli Company ngan Israeli MilitaryIndustries
+  (IMI), an ginpaboran niya nga mga kompanya.Samtang nakada ha proseso han bidding,nabuksas
+  nga ginponduhan han duha nga kompanya anpagbisita ni Puno ha Israel hadton Mayo.Pananag-iya
+  an IMI han gobyerno han Israel. Bantuganini nga korap ha pagmonopolisa han mga kontrata.Tungod
+  hini, napiritan an PNP nga kanselaron ankontrata hadton Agosto. Anay suplayer hin
+  armas nganbala hi Puno antes hiya nombrahan ha gobyerno.Gin-akusaran liwat hi Puno
+  nga kinarawat hin suburnotikang ha dagko nga jueteng lord ha nasud ngandabi ha iligal
+  nga paglalaging.Atubangan hini nga mga anomaliya, klaro ankawaray pulos han \u201ctul-id
+  nga dalan\u201d han rehimenAquino. Mas grabe pa, gin-atentaran han Malaca\u00f1angnga
+  tahuban an mga kasal-anan ni Puno bisan walatuona an pagsungaw han mga anomaliya.
+  Nagpatawaghin imbestigasyon an Senado kataposkawatan ni Puno an gin-estaran ni Robredo,
+  usa kaadlawkatapos binagsak an ginsakyan nga edro hansekretaryo.Hadton Setyembre
+  11, nagresayn ha pwesto hiPuno para likyan an imbestigasyon kundi iginpadayonini
+  han Senado.  Waray  na paatendera ni Aquino an ibanga alyado hini nga senador ngan
+  mga ginpatawag ngamembro han kabi net e ha ikaduha nga imbestigasyon haSenado. Ginhimo
+  ini para mahunong na an imbestigasyonngan pagsungaw han dugang pa nga anomaliya
+  hamga kontrata han PNP. ~ANG BAYAN Setyembre 21, 201211\\n4 residente, nasamaran,
+  6 arestadoha mabangis nga demolisyonUPAT nga residente an nasamaran ngan unom an
+  gin-arestohan mabangis nga gindemolis an usa nga komunidad hanmga kablasanon ha
+  Fort Bonifacio, Taguig City hadtonSetyembre 19.Inabot 1,400 nga pulis ngan membro
+  han demolitionteam an inatake ha komunidad ha mando han Bases Conversionand Development
+  Authority (BCDA). Duha nga backhoengan usa nga buldoser an gin-gamit para rub-on
+  an 100 ngakabablayan ha 10.3 ektaryas nga tuna ha Lawton Street,Consular Area Gate
+  2 ha McKinley Hills.Inato an gatus-gatos nga residente pinaagi ha pagbalonghin bato.
+  Kadam-an ha mga apektado nga residentemga pamilya han mga aktibo ngan retirado nga
+  sundalo. Waray  nira karawta an tanyag han BCDA nga relokasyon haRodriguez, Rizal
+  tungod kay ginbabaha an lugar nga pagbabalhinanha ira.Iginbaligya han BCDA an katunaan
+  ha Megaworld Corp.nga may-ada plano magtukod hin `20 bilyones nga marahalonnga residensyal
+  ngan komersyal nga proyekto ha lugar.Kagiusan welga han mga mineroha South Africa,
+  nahiluagHINILUAG na an kagiusan welga han mga minero ha South Africa.Tikang ha welga
+  han mga minero ha Marikana Platinum Mine(MPM) nga mabangis nga gin-atake han mga
+  pulis ngan nagresultaha pagkamatay han 34 nga welgista hadton Agosto 16,sinamwak
+  an mga welga ha iba pa nga minahan.Hadton Setyembre 11, masobra 4,000 nga minero
+  an nagmartsadara an ira mga sundang, pana ngan iba pa nga armaspara komprontahon
+  an manedsment han MPM. Gintapo hira hanmga pulis nga armado hin magbakod nga armas.  Waray  nirakarawta
+  an tanyag han kompanya nga 1,000 rand ($120) ngakadugangan ha ira binulan nga suhol
+  nga suportado han NationalUnion of Miners (NUC), usa nga dulaw nga unyon. Igin-insister
+  niraan umento nga naabot 12,500 rand ($1,500).Antes ini, hadton Agosto 31, duruyog
+  nga ginios an 12,000nga minero kontra ha KDC East Mine komo suporta ha 34 ngaminero
+  nga ginmasaker ngan para ipagawas an ira kangalas haNUC. Hiton nga adlaw, naglansar
+  liwat hin paggios an 15,000minero han KDC West Mine.Dugang nga panmuypoy ngan kabangisan
+  an baton han MPM,kakonsabo an mga armado nga kaway han gobyerno. Hugot ngaigindidiri
+  han kompanya an pag-asembliya han mga trabahador.Gin-aresto an mga nagtirirok nga
+  trabahador ngan mabangis ngagindispers an ira mga piketlayn. Kwarenta-e-singko na
+  an namataynga mga welgista ha kabangisan han mga pulis ha seryehan mga paggios.Samtang,
+  nagpahimatngon nga magwelga an 15,000 ngaminero ha Implats Platinum Mine, usa nga
+  kompanya nga panagiyahan US ngan Britain. Igin-iinsister han mga minero an 10% ngaumento
+  ha ira suhol.Protesta kontra-US,naglarab ha Middle EastNAGLARAB ha iba-iba nga nasud
+  ha MiddleEast an protesta ngan pag-ato ha USimperyalismo hini nga Setyembre katapossinamwak
+  an usa nga kontra-Islamnga pelikula nga himo han usa ngaAmerikano. Iginladawan hini
+  nga pelikula,nga gintituluhan nga \u201cInnocence ofMuslims,\u201d hi Muhammad,
+  an propeta hanIslam, komo diri tinuod nga propeta,parupanmatay hin tawo ngan makibabaye.Ha
+  Libya, gin-atake han mga armadonga grupo an US Embassy ha Benghazihadton Setyembre
+  11. Ginsulod han mgaarmado an embahada ha luyo han istriktonga seguridad hini ngan
+  ginpabuthan hinmga rocket-propelled grenade (RPG) nganmagbakod nga armas an mga
+  panseguridadnga pwersa han embahada. Ginrubangan ginsunog nira an ngatanan ngapropyedad
+  hini. Hini nga panga-ngatakenamatay hi US Ambassador Chris Stevensngan tulo pa nga
+  Amerikano.Mahinunumduman nga gin-atakehan mga pwersa han North AtlanticTreaty Organization
+  ha pamumuno hanUS an Libya hadton 2011. Ha bulig hanmga pwersa nga ginpinansyahan
+  hanUS, namatay hi Muammar Gaddafi,presidente han Libya, ngan iginpwestohan US an
+  usa nga gobyerno nga kontroladohini. Masugad paman, diri hulosnga nakokontrol han
+  US an iba-ibanga armado nga grupo dinhi.Tikang sinamwak an pelikula hadtonSetyembre
+  9, sunud-sunod na nganaglarab an mga gios-protesta ha mgaArabo nga nasud sugad han
+  Egypt,Tunisia, Yemen, Lebanon, Syria, Iraq,Afhanistan ngan Pakistan. Nagpapadayonan
+  mga gios-protesta ngansinamwak na ha mga nasud nga mayadapopulasyon nga Muslim sugad
+  hanPilipinas, India, Indonesia, Malaysia,Britain, US ngan iba pa.Ginkondenar liwat
+  ha mga rali ngandemonstrasyon an gobyerno nga US hainterbensyunista ngan mapanakop
+  ngapalisiya hini ngan an pagpaypay hini habanggaay han mga Muslim nganKristyano
+  para magserbe ha kalugaringonnga interes.12ANG BAYAN Setyembre 21, 2012\\nANGPahayagan
+  ng Partido Komunista ng PilipinasPinapatnubayan ng Marxismo-Leninismo-Maoismo Waray  nga
+  EdisyonTuig XLIII Num. 18Setyembre 21, 2012www. philippinerevolution . net EditoryalPadayon
+  nga naeksister an paghahadimilitar ha nasudNaeksister pa gihapon an terorismo militar
+  ha bug-os nga nasud.Nagpapadayon an paghahari militar bisan 40 anyos na annakalabay
+  tikang pormal ideklarar ni Ferdinand Marcos anbalaud militar hadton Setyembre 21,
+  1971 ngan 26 anyos na annakalabay tikang ini maibagsak pinaagi han pag-aalsa han
+  katawhanhadton Pebrero 1986.Gin-gamit ni Marcos an balaudmilitar para imentinar
+  ankalugaringon ha poder nganpakusgon an paghahadi hanlangyaw nga dagko nga kapitalista,dagko
+  nga kompradorburgesya, agaron maytuna nganmga burukrata-kapitalista.Ha luyo han
+  iginhihinambognga pagbalik kuno handemokrasya, waray dako ngakaibhan an mga masunod
+  nga rehimenha ginkakangalsan ngaMarcos pasista nga diktadura.Bisan kun waray pormal
+  ngadeklarasyon han balaud militar,nakagpadayon an terorismo hanestado. Nahitatabo
+  pa gihapon anmga paniniyupi nganpananalumpigos nga ginsuportahanhan balaud militar.Nahihimo
+  ini pinaagi hantikapintas nga militarisasyon hanasud tikang ha rehimen ni CorazonAquino
+  tubtub ha presentenga rehimen han anak niya nga hiBenigno Aquino III, kun diinwaray
+  hunong an hiluagan ngamga operasyon militar ngan mayadamadakmol nga presensy anmga
+  tropa han AFP mismo ha mgakomunidad han mga parag-umangan kablas ha syudad ha bug-osnga
+  nasud.Para mamentinar an dunotngan bangkarote ngabagakolonyal ngan bagapyudalnga
+  sistema, ginpadako an ihapngan ginpalandaw tikang hadton1972 an papel han Armed
+  Forcesoft h ePhilippines(AFP), PhilippineNational Police(PNP) nganiba pa nga armadongakaway
+  hanreaksyunaryonga estado.An ginpadakongapapel han AFP ha damo nga aspetohan katilingban
+  Pilipinopanigamnan han nagpapadayonngan nagtitikagrabe nga krisishan naghahadi nga
+  sistema. Kinahanglanpakusgon an mapanmuypoynga pwersa han estado parasupilin an
+  nagtitikakusog nga pagatohan katawhan.Ginpadako ni Marcos ankabug-usan nga pwersa
+  han AFPtikang 60,000 ngada 100,000Hini nga isyu...Mga legasiyahan balaudmilitar
+  3Romy Capulong,abogadohan katawhan 7Paghinumdomha pag-atoha Balangiga 10\\nMga instruksyon
+  ha pag-iimprenta1. An ginsundan nga paypay, nga eksakto nga kopya han paypay 1 gawas
+  ha maspus-aw an masthead o logo in para ha mga nagamit hin mimeo machine o nag-iimprentaha
+  pamaagi nga v-type. Gindesenyo ini para diri madali nga mahibang an istensil.2.
+  Pag-print ha istensil:a) Ha print dialog, i-check an Print as imageb) Tanggalon
+  an check ha Shrink oversized pages to paper sizek) I-click an Propertiesd) I-click
+  an Advancede) Seguruhon nga naka-set ha 100% an Scalingd) Ipadayon an pag-print3.
+  Gin-aaghat an mga kasama nga ipaabot ha patnugutan han AB an anuman ngaproblema
+  kasumpay han pag-iimprenta pinaagi han v-type. Magpadara hin email haangbayan@yahoo.com\"",
+  "\"1Kabugtoan ko, kon may hibaroan nga may-ada usa nga nagbubuhat hin bisan ano
+  nga kasaypanan, adton mga makusog in pagtoo amo an magpabalik ha iya; kundi kinahanglan
+  buhaton niyo ini ha malumo nga paagi. Ngan bantayi man niyo an iyo kalugaringon
+  basi diri kamo masulay. 2Magbinuligay kamo hin pagpas-an han iyo mga darad-on, ngan
+  pinaagi hini makakatuman kamo han balaod ni Cristo. 3Kon may maghunahuna nga importante
+  hiya, nga ha kamatuoran diri man ngay-an, ginlilimbongan la niya an iya kalugaringon.
+  4Kinahanglan maghukom an kada usa han iya kalugaringon nga panggawi. Kon maupay
+  ito, makakaparayaw hiya han iya nabuhat hin waray kinahanglan hin pagtanding hito
+  han nabuhat han iba. 5Kay magpapas-an an kada usa han iya kalugaringon nga darad-on.
+  6An tawo nga gintututdoan han Cristiano nga mensahe, kinahanglan magpaangbit han
+  iya magturutdo han ngatanan nga mag-upay nga mga butang niya. 7Ayaw paglimbongi
+  an iyo kalugaringon; waray makakaglimbong han Dyos. Kon ano an igtanom han tawo,
+  amo man an iya pag-aanihon. 8Kon magtanom hiya dida han uma han iya lawasnon nga
+  mga karuyagon, tikang hini nga mga karuyagon mag-aani hiya han kamatayon; kon magtanom
+  hiya dida han uma han Espiritu, tikang han Espiritu mag-aani hiya han dayon nga
+  kinabuhi. 9Sanglit ayaw kita paghinubya hin pagbuhat hin maupay; kay kon magpadayon
+  kita, maabot an panahon nga mag-aani kita. 10Sanglit ha kada panahon nga may higayon
+  kita, magbuhat kita hin maupay ha ngatanan, kundi labi na gud han mga sakop han
+  aton panimalay hin pagtoo. 11Kitaa niyo kon ano kadagko an mga litra nga akon iginsusurat
+  yana ha akon kalugaringon nga kamot! 12Hira nga naparayaw ngan naghihinambog han
+  mga butang nga kinikita ha gawas, amo an nagpipirit hin pagtori ha iyo. Kundi ira
+  ini ginbubuhat basi la diri hira pagpakurian tungod han kros ni Cristo. 13Bisan
+  adton mga napatori diri ngani nagtutuman han Balaod; karuyag nira nga matori kamo
+  basi makaparayaw hira nga nagtuman kamo hini nga lawasnon nga seremonyas. 14Kundi
+  an para ha akon, an kros gud la han aton Ginoo Jesu-Cristo an akon ipaparayaw; kay
+  pinaagi han iya kros patay na an kalibutan para ha akon, ngan patay na ako para
+  han kalibutan. 15Waray sapayan kon tinori o diri tinori an tawo. An kinahanglanon
+  gud amo nga mabag-o hiya. 16Para hadton nagsusunod hini nga lagda ha ira kinabuhi,
+  mag-upod unta ha ira ngan ha ngatanan nga mga tawo han Dyos an kamurayaw ngan kalooy
+  han Dyos! 17Ha kataposan: tikang yana waray na unta magsamok ha akon, kay nagpapakita
+  an mga ulat ha akon lawas nga oripon ako ni Jesus. 18Maada unta ha iyo ngatanan,
+  kabugtoan ko, an grasya han aton Ginoo Jesu-Cristo. Amen.\"", "\"HEALTH NEWS \u2013
+  An pag-inom hin tanglad tea in dako an naibubulig para ha mga tawo sugadman ha panlawas.\\nLabot
+  la hiton pagiging mahamot in damo gihapon an naibubulig han pag-inom ha tanglad
+  tea sugad hiton:\\nPagpaupay ha nervous system, utok, hormonal background, atay,
+  respiratory tract ngan pagpaupay ha panit.\\nAn ginbabawal nga pag-inom han lemongrass
+  in mga mayda heartburn, epilepsy, ulcers, ngan nadugngan an presyon han intracranial.
+  Ha pira nga mga kaso in amo an paghitaas ha presyon han dugo, allergies, migraines
+  ngan deri nangangaturog.\""]'
+src_ngrams: '{"1": [[["han"], 203557], [["an"], 180116], [["ha"], 158031], [["mga"],
+  111818], [["hin"], 61323]], "2": [[["han mga"], 22101], [["an mga"], 18250], [["ha
+  mga"], 9673], [["ha iya"], 8548], [["han iya"], 7979]], "3": [[["igliwat an wikitext"],
+  1466], [["han mga tawo"], 1298], [["an mga tawo"], 1254], [["an iya mga"], 1244],
+  [["ini nga mga"], 1110]], "4": [[["hinigugma ko na mga"], 653], [["salamat han iyo
+  pag"], 507], [["mga saksi ni jehova"], 504], [["mga sumpay ha gawas"], 401], [["bersyon
+  nga angay ighubad"], 401]], "5": [[["hinigugma ko na mga anak"], 652], [["bersyon
+  nga angay ighubad ha"], 401], [["mayda impormasyon hini nga artikulo"], 395], [["hini
+  nga artikulo nga aada"], 395], [["iningles nga bersyon nga angay"], 344]]}'

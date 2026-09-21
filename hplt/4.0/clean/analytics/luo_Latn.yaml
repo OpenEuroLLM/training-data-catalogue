@@ -1,0 +1,1412 @@
+corpus: hplt-v4-luo
+srclang: luo
+timestamp: 1789046853.8857
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-16", 666], ["wide00016", 187], ["CC-MAIN-2022-05",
+  123], ["CC-MAIN-2025-05", 102], ["CC-MAIN-2024-30", 98], ["CC-MAIN-2021-04", 92],
+  ["CC-MAIN-2024-46", 89], ["CC-MAIN-2019-04", 87], ["CC-MAIN-2024-42", 75], ["wide00012",
+  73], ["CC-MAIN-2024-38", 72], ["CC-MAIN-2017-26", 66], ["wide00011", 57], ["CC-MAIN-2021-21",
+  56], ["CC-MAIN-2021-17", 53], ["CC-MAIN-2020-05", 49], ["CC-MAIN-2021-25", 38],
+  ["CC-MAIN-2025-18", 34], ["CC-MAIN-2025-08", 34], ["CC-MAIN-2021-10", 34], ["CC-MAIN-2020-40",
+  32], ["CC-MAIN-2020-50", 30], ["CC-MAIN-2023-50", 26], ["CC-MAIN-2016-44", 26],
+  ["wide00015", 25], ["CC-MAIN-2020-45", 23], ["CC-MAIN-2020-34", 23], ["CC-MAIN-2025-13",
+  21], ["wide00005", 20], ["CC-MAIN-2020-24", 19], ["CC-MAIN-2021-39", 17], ["wide00002",
+  12], ["CC-MAIN-2024-51", 12], ["CC-MAIN-2020-29", 12], ["CC-MAIN-2024-33", 11],
+  ["CC-MAIN-2024-26", 11], ["CC-MAIN-2023-06", 10], ["CC-MAIN-2022-40", 10], ["CC-MAIN-2020-10",
+  10], ["CC-MAIN-2025-33", 9], ["CC-MAIN-2022-21", 8], ["CC-MAIN-2018-05", 8], ["CC-MAIN-2017-51",
+  8], ["CC-MAIN-2025-21", 7], ["CC-MAIN-2021-49", 7], ["CC-MAIN-2025-30", 6], ["CC-MAIN-2022-27",
+  6], ["CC-MAIN-2024-22", 5], ["CC-MAIN-2024-10", 5], ["wide00017", 4], ["CC-MAIN-2021-43",
+  4], ["CC-MAIN-2017-04", 4], ["wide00010", 3], ["CC-MAIN-2023-40", 3], ["CC-MAIN-2021-31",
+  3], ["wide00006", 2], ["archivebot", 2], ["CC-MAIN-2024-18", 2], ["CC-MAIN-2018-39",
+  2], ["CC-MAIN-2018-22", 2], ["CC-MAIN-2025-26", 1], ["CC-MAIN-2023-23", 1], ["CC-MAIN-2023-14",
+  1], ["CC-MAIN-2022-33", 1], ["CC-MAIN-2015-48", 1], ["CC-MAIN-2014-15", 1]]'
+docs_langs: '[[0.2, 6], [0.3, 8], [0.4, 15], [0.5, 69], [0.6, 79], [0.7, 93], [0.8,
+  318], [0.9, 376], [1.0, 1577]]'
+docs_segments: '[[1, 12], [2, 44], [3, 57], [4, 162], [5, 286], [6, 279], [7, 190],
+  [8, 105], [9, 93], [10, 81], [11, 97], [12, 95], [13, 40], [14, 49], [15, 27], [16,
+  38], [17, 36], [18, 40], [19, 38], [20, 48], [21, 34], [22, 27], [23, 38], [24,
+  26], [25, 22], [26, 22], [27, 16], [28, 18], [29, 12], [30, 18], [31, 9], [32, 9],
+  [33, 12], [34, 11], [35, 15], [36, 16], [37, 27], [38, 18], [39, 15], [40, 20],
+  [41, 21], [42, 21], [43, 20], [44, 17], [45, 12], [46, 15], [47, 11], [48, 11],
+  [49, 9], [50, 7], [51, 4], [52, 5], [53, 3], [54, 3], [55, 3], [56, 9], [57, 5],
+  [58, 2], [59, 9], [60, 4], [61, 6], [62, 5], [63, 3], [64, 5], [65, 3], [67, 3],
+  [68, 3], [69, 1], [70, 8], [71, 5], [72, 2], [73, 1], [74, 1], [76, 3], [77, 2],
+  [78, 1], [79, 2], [80, 7], [81, 2], [82, 4], [83, 2], [85, 2], [86, 2], [87, 4],
+  [89, 1], [91, 2], [94, 2], [95, 1], [96, 1], [98, 1], [101, 1], [105, 2], [106,
+  1], [107, 1], [108, 1], [110, 2], [111, 2], [112, 1], [116, 1], [119, 2], [122,
+  1], [124, 1], [126, 1], [141, 1], [142, 1], [145, 1], [147, 2], [150, 1], [151,
+  1], [152, 2], [153, 1], [155, 2], [157, 2], [169, 1], [184, 2], [193, 2], [196,
+  1], [205, 1], [207, 1], [210, 1], [213, 1], [217, 1], [235, 1], [256, 1], [266,
+  1], [284, 1], [344, 1], [357, 1], [358, 1], [430, 1], [450, 1], [474, 1], [475,
+  1], [493, 1], [665, 1], [867, 1], [965, 1], [1490, 1], [1499, 1], [1565, 1], [2005,
+  1], [2408, 1], [4277, 1]]'
+docs_segments_mean: 27
+docs_segments_median: 10
+docs_top100_domains: '[["jw.org", 1065], ["skyfm.co.ke", 517], ["nyimbozakristo.com",
+  156], ["kbc.co.ke", 124], ["ebible.org", 123], ["rmsradio.co.ke", 101], ["zhitov.com",
+  51], ["jaluo.com", 34], ["blogspot.com", 32], ["gotquestions.org", 24], ["blogspot.co.ke",
+  23], ["biblearc.com", 19], ["hitpages.com", 18], ["grindr.com", 17], ["worldwidechristiannetwork.org",
+  12], ["kasahorow.org", 12], ["biblica.com", 12], ["egwwritings.org", 11], ["wikimedia.org",
+  9], ["dalanews.co.ke", 9], ["bjnewlife.org", 9], ["luonation.co.ke", 8], ["kenyalivetv.co.ke",
+  8], ["foundationsforfreedom.net", 8], ["bible.com", 8], ["blogspot.fr", 7], ["watchtower.org",
+  6], ["ramogifm.co.ke", 6], ["aionianbible.org", 6], ["ccog.org", 5], ["ampstudy.org.za",
+  5], ["aljck.org", 4], ["wordpress.com", 3], ["scribd.com", 3], ["cprf.co.uk", 3],
+  ["catapult.co", 3], ["afrikalyrics.com", 3], ["vietnamimmigration.org", 2], ["vallalar.net",
+  2], ["transology.info", 2], ["ptla.org", 2], ["omniglot.com", 2], ["lughayangu.com",
+  2], ["lolwe.tv", 2], ["logon.org", 2], ["jesusforafrica.net", 2], ["gospelgo.com",
+  2], ["gafkosoft.com", 2], ["ccogafrica.org", 2], ["world-hentai.ru", 1], ["womensrefugeecommission.org",
+  1], ["weiliansensors.com", 1], ["vulnerablemission.org", 1], ["videochat-ruletka.ru",
+  1], ["unitedcomunication.eu", 1], ["umash.or.ke", 1], ["tdkristall.ru", 1], ["sleepostic.com",
+  1], ["sleephony.com", 1], ["ressourceschretiennes.com", 1], ["realapkmirror.com",
+  1], ["rafeekee.com", 1], ["radiotaifa.co.ke", 1], ["quizgecko.com", 1], ["pjthe3.com",
+  1], ["photality.net", 1], ["phentermine-effects.com", 1], ["opusdei.org", 1], ["openwho.org",
+  1], ["onana.co.ke", 1], ["namendb.com", 1], ["myanmar-image.com", 1], ["milton.co.ke",
+  1], ["migorinews.co.ke", 1], ["maneneradio.com", 1], ["kiongos.co.ke", 1], ["jaladaafrica.org",
+  1], ["irr.org", 1], ["imslp.org", 1], ["hellopoetry.com", 1], ["gospelsoundersministry.org",
+  1], ["firststepswithgod.com", 1], ["entropik.io", 1], ["egli-online.com", 1], ["docstoc.com",
+  1], ["djvincey.co.ke", 1], ["digitalage.co.ke", 1], ["da-no.ru", 1], ["crownlyric.com",
+  1], ["corebizify.com", 1], ["cooperstownbaseball.org", 1], ["congressomv.org", 1],
+  ["clubetcetera.ca", 1], ["cheatcn.info", 1], ["boomplay.com", 1], ["bimba.co.za",
+  1], ["bibleforchildren.org", 1], ["bbdfr85.info", 1], ["balboapress.com", 1], ["autoinsurancebs.top",
+  1]]'
+docs_top100_tld: '[["org", 1305], ["co.ke", 804], ["com", 385], ["net", 13], ["fr",
+  7], ["org.za", 5], ["ru", 4], ["info", 4], ["co.uk", 3], ["co", 3], ["tv", 2], ["top",
+  1], ["or.ke", 1], ["io", 1], ["eu", 1], ["co.za", 1], ["ca", 1]]'
+docs_total: 2541
+docs_wds: '[[0.5, 8], [0.51, 21], [0.52, 9], [0.53, 19], [0.54, 21], [0.55, 20], [0.56,
+  27], [0.57, 19], [0.58, 18], [0.59, 26], [0.6, 19], [0.61, 23], [0.62, 22], [0.63,
+  33], [0.64, 25], [0.65, 30], [0.66, 34], [0.67, 49], [0.68, 36], [0.69, 44], [0.7,
+  60], [0.71, 66], [0.72, 87], [0.73, 72], [0.74, 80], [0.75, 108], [0.76, 108], [0.77,
+  119], [0.78, 136], [0.79, 135], [0.8, 274], [0.81, 151], [0.82, 81], [0.83, 51],
+  [0.84, 33], [0.85, 33], [0.86, 34], [0.87, 38], [0.88, 33], [0.89, 53], [0.9, 81],
+  [0.91, 56], [0.92, 34], [0.93, 39], [0.94, 24], [0.95, 19], [0.96, 19], [0.97, 9],
+  [0.98, 5]]'
+duplication_ratio: 0.1431
+sentence_pairs: 68263
+src_bytes: 12250819
+src_chars: 12036607
+src_pii: 42
+src_tokens: 2693930
+unique_sents: 58493
+src_sent_tokens: '[[1, 2087], [2, 2555], [3, 2366], [4, 2866], [5, 3115], [6, 2768],
+  [7, 2212], [8, 2124], [9, 1963], [10, 1556], [11, 1520], [12, 1500], [13, 1609],
+  [14, 1940], [15, 2088], [16, 2177], [17, 1835], [18, 1651], [19, 1284], [20, 1089],
+  [21, 965], [22, 823], [23, 759], [24, 723], [25, 662], [26, 621], [27, 609], [28,
+  564], [29, 551], [30, 516], [31, 492], [32, 530], [33, 494], [34, 463], [35, 446],
+  [36, 401], [37, 393], [38, 363], [39, 341], [40, 326], [41, 307], [42, 305], [43,
+  274], [44, 251], [45, 230], [46, 251], [47, 224], [48, 223], [49, 229], [50, 198],
+  [51, 179], [52, 187], [53, 180], [54, 143], [55, 174], [56, 215], [57, 324], [58,
+  378], [59, 386], [60, 295], [61, 342], [62, 258], [63, 249], [64, 179], [65, 208],
+  [66, 160], [67, 135], [68, 139], [69, 169], [70, 143], [71, 122], [72, 140], [73,
+  125], [74, 126], [75, 135], [76, 108], [77, 138], [78, 117], [79, 104], [80, 121],
+  [81, 122], [82, 116], [83, 112], [84, 106], [85, 116], [86, 116], [87, 105], [88,
+  123], [89, 92], [90, 112], [91, 117], [92, 93], [93, 117], [94, 100], [95, 105],
+  [96, 113], [97, 88], [98, 104], [99, 105], [100, 89], [101, 99], [102, 100], [103,
+  105], [104, 87], [105, 82], [106, 93], [107, 93], [108, 90], [109, 90], [110, 106],
+  [111, 96], [112, 108], [113, 88], [114, 88], [115, 101], [116, 79], [117, 81], [118,
+  90], [119, 78], [120, 84], [121, 85], [122, 77], [123, 78], [124, 77], [125, 60],
+  [126, 72], [127, 86], [128, 75], [129, 81], [130, 69], [131, 78], [132, 74], [133,
+  71], [134, 67], [135, 58], [136, 65], [137, 58], [138, 82], [139, 60], [140, 53],
+  [141, 61], [142, 54], [143, 58], [144, 68], [145, 53], [146, 68], [147, 67], [148,
+  45], [149, 38], [150, 41], [151, 43], [152, 47], [153, 41], [154, 54], [155, 47],
+  [156, 42], [157, 56], [158, 43], [159, 35], [160, 52], [161, 30], [162, 46], [163,
+  35], [164, 31], [165, 35], [166, 29], [167, 36], [168, 28], [169, 35], [170, 36],
+  [171, 33], [172, 34], [173, 33], [174, 39], [175, 33], [176, 30], [177, 48], [178,
+  35], [179, 31], [180, 25], [181, 28], [182, 31], [183, 37], [184, 21], [185, 28],
+  [186, 21], [187, 32], [188, 22], [189, 24], [190, 27], [191, 30], [192, 23], [193,
+  25], [194, 30], [195, 24], [196, 19], [197, 17], [198, 27], [199, 22], [200, 25],
+  [201, 24], [202, 14], [203, 22], [204, 21], [205, 25], [206, 16], [207, 20], [208,
+  15], [209, 14], [210, 20], [211, 16], [212, 22], [213, 12], [214, 20], [215, 26],
+  [216, 15], [217, 13], [218, 10], [219, 16], [220, 18], [221, 12], [222, 8], [223,
+  10], [224, 10], [225, 17], [226, 18], [227, 11], [228, 21], [229, 8], [230, 13],
+  [231, 8], [232, 9], [233, 4], [234, 8], [235, 5], [236, 4], [237, 10], [238, 7],
+  [240, 10], [241, 8], [242, 9], [243, 9], [244, 8], [245, 11], [246, 4], [247, 2],
+  [248, 8], [249, 8], [250, 4], [251, 4], [252, 10], [253, 4], [254, 2], [255, 8],
+  [256, 3], [257, 2], [258, 1], [259, 4], [260, 3], [261, 4], [262, 5], [263, 2],
+  [264, 2], [265, 2], [266, 2], [267, 1], [268, 2], [269, 1], [270, 4], [271, 5],
+  [272, 8], [273, 6], [274, 2], [275, 5], [276, 5], [277, 2], [278, 3], [279, 5],
+  [280, 7], [281, 1], [282, 1], [283, 3], [284, 3], [285, 2], [286, 1], [287, 3],
+  [288, 2], [289, 2], [290, 3], [291, 4], [293, 4], [294, 1], [296, 4], [297, 4],
+  [298, 3], [301, 1], [302, 3], [303, 3], [305, 1], [306, 3], [307, 2], [308, 1],
+  [309, 3], [310, 6], [311, 5], [312, 5], [313, 3], [314, 2], [316, 1], [317, 1],
+  [318, 4], [319, 1], [320, 4], [321, 1], [322, 1], [323, 1], [324, 2], [327, 2],
+  [329, 1], [330, 4], [331, 1], [332, 1], [333, 1], [334, 1], [335, 3], [336, 2],
+  [337, 2], [338, 2], [339, 1], [340, 1], [342, 2], [343, 2], [344, 1], [345, 2],
+  [346, 3], [347, 1], [349, 2], [350, 1], [351, 4], [352, 2], [353, 1], [354, 1],
+  [356, 2], [357, 1], [358, 2], [360, 1], [361, 1], [362, 2], [363, 2], [365, 2],
+  [366, 1], [367, 1], [368, 1], [369, 2], [371, 1], [373, 1], [375, 3], [376, 1],
+  [377, 2], [378, 3], [379, 2], [380, 2], [382, 3], [383, 1], [385, 3], [387, 2],
+  [390, 1], [391, 1], [392, 1], [393, 1], [395, 1], [396, 1], [397, 2], [401, 1],
+  [402, 1], [403, 1], [404, 1], [407, 1], [408, 1], [410, 1], [411, 2], [412, 3],
+  [413, 1], [414, 1], [415, 1], [416, 1], [418, 1], [419, 2], [420, 1], [422, 1],
+  [423, 4], [424, 1], [425, 1], [426, 1], [429, 1], [430, 1], [432, 3], [435, 1],
+  [436, 2], [438, 2], [439, 1], [442, 1], [443, 2], [445, 1], [446, 1], [448, 1],
+  [449, 1], [450, 1], [451, 1], [452, 2], [454, 1], [456, 1], [458, 2], [459, 3],
+  [461, 1], [462, 1], [463, 1], [464, 3], [467, 2], [469, 2], [475, 2], [476, 1],
+  [478, 1], [483, 1], [484, 1], [485, 1], [486, 1], [487, 2], [492, 1], [494, 1],
+  [502, 1], [503, 1], [507, 1], [508, 1], [510, 1], [511, 1], [513, 1], [517, 1],
+  [518, 1], [520, 1], [524, 1], [527, 1], [529, 2], [530, 1], [532, 3], [541, 1],
+  [552, 2], [553, 1], [564, 2], [565, 1], [567, 1], [569, 1], [576, 1], [580, 1],
+  [582, 1], [583, 1], [594, 1], [596, 1], [597, 2], [606, 1], [624, 1], [636, 1],
+  [637, 1], [639, 1], [642, 1], [650, 1], [664, 1], [666, 1], [674, 1], [676, 1],
+  [695, 1], [698, 1], [701, 1], [706, 1], [709, 1], [716, 1], [718, 1], [719, 1],
+  [720, 1], [723, 1], [726, 1], [727, 1], [736, 1], [738, 1], [743, 1], [749, 2],
+  [750, 1], [754, 1], [755, 1], [758, 2], [761, 1], [769, 1], [771, 2], [773, 2],
+  [776, 1], [780, 1], [787, 2], [796, 1], [799, 1], [801, 1], [803, 2], [805, 1],
+  [807, 1], [810, 1], [813, 1], [829, 1], [830, 1], [852, 1], [863, 1], [865, 1],
+  [908, 1], [920, 1], [921, 1], [924, 1], [932, 1], [1020, 1], [1035, 1], [1040, 1],
+  [1055, 1], [1058, 1], [1100, 1], [1132, 1], [1137, 1], [1148, 1], [1177, 1], [1186,
+  1], [1212, 1], [1261, 1], [1378, 1], [1387, 1], [1410, 1], [1465, 1], [1527, 1],
+  [12224, 1], [210868, 1]]'
+src_sent_tokens_mean: 39
+src_sent_tokens_median: 16
+src_unique_sents: '[[1, 526], [2, 1207], [3, 1374], [4, 2137], [5, 2569], [6, 2266],
+  [7, 1963], [8, 1896], [9, 1758], [10, 1418], [11, 1290], [12, 1362], [13, 1470],
+  [14, 1764], [15, 1897], [16, 1992], [17, 1708], [18, 1556], [19, 1239], [20, 1044],
+  [21, 920], [22, 758], [23, 736], [24, 696], [25, 641], [26, 597], [27, 594], [28,
+  550], [29, 538], [30, 506], [31, 485], [32, 504], [33, 481], [34, 449], [35, 434],
+  [36, 386], [37, 377], [38, 344], [39, 331], [40, 315], [41, 302], [42, 295], [43,
+  267], [44, 244], [45, 223], [46, 243], [47, 219], [48, 217], [49, 218], [50, 194],
+  [51, 171], [52, 182], [53, 169], [54, 136], [55, 162], [56, 163], [57, 205], [58,
+  240], [59, 240], [60, 193], [61, 231], [62, 197], [63, 184], [64, 151], [65, 162],
+  [66, 147], [67, 116], [68, 122], [69, 149], [70, 134], [71, 118], [72, 131], [73,
+  117], [74, 115], [75, 123], [76, 103], [77, 127], [78, 107], [79, 100], [80, 113],
+  [81, 112], [82, 108], [83, 108], [84, 101], [85, 110], [86, 108], [87, 97], [88,
+  116], [89, 86], [90, 106], [91, 114], [92, 87], [93, 111], [94, 97], [95, 100],
+  [96, 104], [97, 84], [98, 97], [99, 101], [100, 85], [101, 93], [102, 93], [103,
+  101], [104, 84], [105, 78], [106, 88], [107, 91], [108, 90], [109, 88], [110, 102],
+  [111, 91], [112, 102], [113, 83], [114, 84], [115, 99], [116, 77], [117, 78], [118,
+  87], [119, 70], [120, 78], [121, 84], [122, 76], [123, 71], [124, 70], [125, 60],
+  [126, 66], [127, 83], [128, 69], [129, 76], [130, 65], [131, 73], [132, 72], [133,
+  69], [134, 66], [135, 56], [136, 64], [137, 57], [138, 76], [139, 57], [140, 52],
+  [141, 60], [142, 49], [143, 56], [144, 65], [145, 50], [146, 62], [147, 66], [148,
+  45], [149, 36], [150, 41], [151, 42], [152, 45], [153, 38], [154, 53], [155, 46],
+  [156, 38], [157, 54], [158, 42], [159, 34], [160, 48], [161, 30], [162, 44], [163,
+  35], [164, 30], [165, 31], [166, 29], [167, 36], [168, 28], [169, 35], [170, 35],
+  [171, 32], [172, 34], [173, 33], [174, 38], [175, 33], [176, 29], [177, 44], [178,
+  33], [179, 30], [180, 25], [181, 27], [182, 31], [183, 34], [184, 21], [185, 28],
+  [186, 20], [187, 31], [188, 22], [189, 24], [190, 26], [191, 29], [192, 23], [193,
+  25], [194, 30], [195, 23], [196, 19], [197, 17], [198, 24], [199, 21], [200, 24],
+  [201, 24], [202, 14], [203, 21], [204, 20], [205, 25], [206, 16], [207, 20], [208,
+  15], [209, 14], [210, 20], [211, 16], [212, 21], [213, 12], [214, 18], [215, 26],
+  [216, 15], [217, 13], [218, 10], [219, 16], [220, 15], [221, 12], [222, 8], [223,
+  10], [224, 10], [225, 16], [226, 17], [227, 11], [228, 21], [229, 8], [230, 13],
+  [231, 8], [232, 8], [233, 4], [234, 8], [235, 5], [236, 4], [237, 10], [238, 7],
+  [240, 9], [241, 8], [242, 7], [243, 9], [244, 8], [245, 11], [246, 4], [247, 2],
+  [248, 8], [249, 8], [250, 4], [251, 4], [252, 10], [253, 4], [254, 2], [255, 8],
+  [256, 3], [257, 2], [258, 1], [259, 4], [260, 3], [261, 4], [262, 5], [263, 2],
+  [264, 2], [265, 2], [266, 2], [267, 1], [268, 2], [269, 1], [270, 4], [271, 5],
+  [272, 7], [273, 5], [274, 2], [275, 4], [276, 5], [277, 2], [278, 3], [279, 5],
+  [280, 6], [281, 1], [282, 1], [283, 3], [284, 3], [285, 2], [286, 1], [287, 3],
+  [288, 2], [289, 2], [290, 3], [291, 4], [293, 4], [294, 1], [296, 4], [297, 4],
+  [298, 3], [301, 1], [302, 3], [303, 3], [305, 1], [306, 3], [307, 1], [308, 1],
+  [309, 3], [310, 5], [311, 5], [312, 5], [313, 3], [314, 2], [316, 1], [317, 1],
+  [318, 4], [319, 1], [320, 4], [321, 1], [322, 1], [323, 1], [324, 2], [327, 2],
+  [329, 1], [330, 4], [331, 1], [332, 1], [333, 1], [334, 1], [335, 3], [336, 2],
+  [337, 2], [338, 2], [339, 1], [340, 1], [342, 2], [343, 2], [344, 1], [345, 2],
+  [346, 3], [347, 1], [349, 2], [350, 1], [351, 4], [352, 2], [353, 1], [354, 1],
+  [356, 2], [357, 1], [358, 2], [360, 1], [361, 1], [362, 2], [363, 2], [365, 2],
+  [366, 1], [367, 1], [368, 1], [369, 2], [371, 1], [373, 1], [375, 3], [376, 1],
+  [377, 2], [378, 3], [379, 2], [380, 2], [382, 3], [383, 1], [385, 3], [387, 2],
+  [390, 1], [391, 1], [392, 1], [393, 1], [395, 1], [396, 1], [397, 2], [401, 1],
+  [402, 1], [403, 1], [404, 1], [407, 1], [408, 1], [410, 1], [411, 2], [412, 3],
+  [413, 1], [414, 1], [415, 1], [416, 1], [418, 1], [419, 2], [420, 1], [422, 1],
+  [423, 4], [424, 1], [425, 1], [426, 1], [429, 1], [430, 1], [432, 3], [435, 1],
+  [436, 2], [438, 2], [439, 1], [442, 1], [443, 2], [445, 1], [446, 1], [448, 1],
+  [449, 1], [450, 1], [451, 1], [452, 2], [454, 1], [456, 1], [458, 2], [459, 3],
+  [461, 1], [462, 1], [463, 1], [464, 2], [467, 2], [469, 2], [475, 2], [476, 1],
+  [478, 1], [483, 1], [484, 1], [485, 1], [486, 1], [487, 2], [492, 1], [494, 1],
+  [502, 1], [503, 1], [507, 1], [508, 1], [510, 1], [511, 1], [513, 1], [517, 1],
+  [518, 1], [520, 1], [524, 1], [527, 1], [529, 2], [530, 1], [532, 3], [541, 1],
+  [552, 2], [553, 1], [564, 2], [565, 1], [567, 1], [569, 1], [576, 1], [580, 1],
+  [582, 1], [583, 1], [594, 1], [596, 1], [597, 2], [606, 1], [624, 1], [636, 1],
+  [637, 1], [639, 1], [642, 1], [650, 1], [664, 1], [666, 1], [674, 1], [676, 1],
+  [695, 1], [698, 1], [701, 1], [706, 1], [709, 1], [716, 1], [718, 1], [719, 1],
+  [720, 1], [723, 1], [726, 1], [727, 1], [736, 1], [738, 1], [743, 1], [749, 2],
+  [750, 1], [754, 1], [755, 1], [758, 2], [761, 1], [769, 1], [771, 2], [773, 2],
+  [776, 1], [780, 1], [787, 2], [796, 1], [799, 1], [801, 1], [803, 2], [805, 1],
+  [807, 1], [810, 1], [813, 1], [829, 1], [830, 1], [852, 1], [863, 1], [865, 1],
+  [908, 1], [920, 1], [921, 1], [924, 1], [932, 1], [1020, 1], [1035, 1], [1040, 1],
+  [1055, 1], [1058, 1], [1100, 1], [1132, 1], [1137, 1], [1148, 1], [1177, 1], [1186,
+  1], [1212, 1], [1261, 1], [1378, 1], [1387, 1], [1410, 1], [1465, 1], [1527, 1],
+  [12224, 1], [210868, 1]]'
+src_langs: '[["en", 17167], ["eo", 12061], ["pl", 6472], ["fi", 3596], ["es", 3188],
+  ["it", 3111], ["de", 2661], ["hr", 2040], ["tl", 1529], ["id", 1411], ["sw", 1322],
+  ["hu", 1263], ["nl", 1248], ["fr", 1201], ["tr", 1181], ["pt", 787], ["lt", 664],
+  ["io", 609], ["eu", 511], ["cs", 502], ["sl", 498], ["la", 448], ["ms", 320], ["war",
+  316], ["ceb", 276], ["sr", 270], ["su", 268], ["et", 238], ["ru", 231], ["nb", 209],
+  ["sv", 198], ["kw", 147], ["da", 147], ["jv", 143], ["br", 125], ["lv", 110], ["cy",
+  108], ["qu", 106], ["ur", 104], ["sq", 94], ["bs", 82], ["ro", 73], ["ilo", 72],
+  ["uk", 69], ["mt", 69], ["ca", 61], ["uz", 59], ["mg", 55], ["ja", 53], ["az", 52],
+  ["gl", 45], ["ga", 41], ["sk", 40], ["nds", 35], ["hsb", 28], ["kn", 26], ["ie",
+  26], ["vo", 25], ["zh", 23], ["oc", 23], ["ko", 23], ["scn", 19], ["ku", 19], ["jbo",
+  19], ["af", 19], ["so", 15], ["he", 14], ["als", 14], ["min", 13], ["rm", 11], ["lb",
+  11], ["gv", 11], ["el", 11], ["te", 10], ["cbk", 10], ["fy", 9], ["bcl", 9], ["vi",
+  8], ["ml", 8], ["bg", 8], ["ast", 8], ["si", 7], ["hy", 7], ["bar", 7], ["sco",
+  6], ["pam", 6], ["nap", 6], ["gn", 6], ["diq", 6], ["ta", 5], ["pnb", 5], ["my",
+  5], ["km", 5], ["kk", 5], ["is", 5], ["gd", 5], ["fa", 5], ["tk", 4], ["tg", 4],
+  ["nn", 4], ["ia", 4], ["frr", 4], ["ug", 3], ["ps", 3], ["dsb", 3], ["th", 2], ["mn",
+  2], ["mk", 2], ["lmo", 2], ["li", 2], ["ht", 2], ["hi", 2], ["gu", 2], ["gom", 2],
+  ["ckb", 2], ["bn", 2], ["ar", 2], ["yo", 1], ["vls", 1], ["sc", 1], ["pms", 1],
+  ["pa", 1], ["os", 1], ["mr", 1], ["lo", 1], ["eml", 1], ["bo", 1], ["be", 1], ["azb",
+  1], ["an", 1]]'
+hardrules_tags: '{"not_too_long": 621, "not_too_short": 6410, "length_ratio": 0, "no_urls":
+  310, "no_bad_encoding": 2, "pii": 42}'
+sample: '["\"\u201cMad Nyasach kuwe omi ubed moikore gi gik mabeyo duto mondo utim
+  dwache.\u201d\u2014HIB. 13:20, 21.\\nWER: 136, 14\\n1. Yesu nokawo mapek wach lendo
+  e okang\u2019 ma romo nade? Ler ane.\\nYESU nohero wuoyo e wi Pinyruodh Nyasaye.
+  Weche mondik e Muma nyiso ni nojiwo ahinya wach Pinyruoth moloyo gimoro amora. Nowuoyo
+  e wi Pinyruodhno mokalo nyadi 100 kolendo. Wachno e ma nokawo mapek ahinya e ngimane.\u2014Som
+  Mathayo 12:34.\\n2. Gin ji adi ma nyalo bedo ni ne nitie ka Yesu nogolo chik ma
+  yudore e Mathayo 28:19, 20, to ang\u2019o momiyo wanyalo wacho kamano?\\n2 Bang\u2019
+  kinde matin kosechier Yesu, noromo gi ji mokalo 500 ma ne dhi bedo joland wach Pinyruoth.
+  (1 Kor. 15:6) Nyaka bed ni kinde ma noromoe gi jogo, e ma nochikogie ni galand ote
+  Pinyruoth ne ji manie \u201cogendni duto,\u201d ma gie kindeno ne en tich matek
+  ahinya! * Yesu nokoro ni tich maduong\u2019ni ne idhi tim nyaka \u201ce giko mar
+  ndalo,\u201d to mano e gima osebedo ka timore. Nyaka bed ni in bende iriwo lwedo
+  timo tich ma nokorni.\u2014Mat. 28:19, 20.\\n3. Gin gik mage adek ma osekonyowa
+  lando wach maber?\\n3 Ka Yesu nosechiko jolupne odhi olendi, nosingonegi niya: \u201cAn
+  kodu.\u201d (Mat. 28:20) Omiyo, en e ma nodhi tayo tij lendo ma ne idhi tim e piny
+  mangima. Nyasachwa osemiyowa \u201cgik mabeyo duto\u201d ma konyowa timo tijno.
+  (Hib. 13:20, 21) E sulani, wabiro nono adek kuom gik mabeyogi: (1) gige tich mosemiwa,
+  (2) yore ma wasetiyogo, kod (3) tiegruok ma waseyudo. Mokwongo, non ane gige tich
+  ma wasebedo ka watiyogo kuom higni 100 mosekalo.\\nRUOTH MIYO JOTICHNE GIGE TICH\\n4.
+  Ang\u2019o momiyo wasetiyo gi gige tich mopogore opogore e tijwa mar lendo?\\n4
+  Yesu noporo \u201cwach Pinyruoth\u201d gi kodhi ma ikomo e kit lowo mopogore opogore.
+  (Mat. 13:18, 19) Japur nyalo tiyo gi gige tich mopogore opogore mondo oik puodho
+  ne kodhi. E yo ma chalo kamano, Ruodhwa osemiyowa gige tich ma konyowa iko chuny
+  ji tara gi tara ne wach Pinyruoth. Gige tich moko nokonyowa kuom higni pieche, kendo
+  moko osebedo ka konyowa nyaka chil kawuono. Thoth gige tichgi osekonyowa mondo wamed
+  bedo joland-injili molony.\\n5. Kad mar chiwo neno ne en ang\u2019o, to ne itiyo
+  kode nade?\\n5 Achiel kuom gige tich ma ne konyo ji mang\u2019eny ochak lendo ne
+  en kad mar chiwo neno (testimony card) ma joland Pinyruoth nochako tiyogo e higa
+  mar 1933. Ne en kad moro matin ma lachne romo inj adek to borne inj abich, kendo
+  noting\u2019o ote machuok mowuok e Muma. Kinde ka kinde, ne ilosoga kad manyien
+  mondikie ote manyien. Tiyo gi kadgo ne yot! Owadwa miluongo ni C. W. Erlenmeyer
+  ne jahigni apar kama ka nochako lendo gi kad. Owacho kama: \u201cNe wachakoga wuoyo
+  ka wawacho niya, \u2018Be diher somo weche manie kadni?\u2019 Ka wuon ot nosesomo
+  weche manie kad, ne wanyalo miye bugewa kae to watieko atieka koro wadhi.\u201d\\n6.
+  Kad mar chiwo neno ne konyo e yo mane?\\n6 Kad mar chiwo neno ne konyo e yore mang\u2019eny.
+  Kata obedo ni jomoko ne nyalo gombo timo tij lendo, moko kuomgi ne wigi kuot kendo
+  ne gikia gima ne ginyalo wacho. Jomoko to ne nyalo wuoyo mathoth mokalo tong\u2019.
+  Ne ginyalo nyiso wuon ot weche duto ma ne ging\u2019eyo mana kuom dakika manok,
+  mak mana ni ne ok giti gi rieko! Mopogore gi mano, kad noting\u2019o weche machuok,
+  moyier maber, kendo \u201cne wuoyo\u201d e lo jalendo.\\n7. Gin pek mage ma owetewa
+  ne romogo kane gitiyo gi kad?\\n7 Tiyo gi kadno bende ne kelo pek moko. Nyaminwa
+  Grace A. Estep ma osebedo Janeno kuom higni mang\u2019eny, nowacho kama: \u201cSeche
+  moko, ne inyalo penjwa niya, \u2018Kadno wacho ang\u2019o? Ok inyisa anyisa gima
+  owacho?\u2019\u201d E wi mano, weg udi moko ne ok nyal somo weche ma nondik e kadno.
+  Jomoko to ne paro ni omigi kadno chuth, omiyo ne gidonjo gi kadno e ot kae to giloro
+  dhoot. Ka wuon ot ne en ng\u2019at ma kwedowa, nonyalo kawo kadno moyiech ma tindo
+  tindo. Kata obedo ni owetewa ne kalo e pek ma kamago, ne gidhi nyime lendo kendo
+  ne ging\u2019ere kaka joland wach Pinyruoth.\\n8. Ler ane kaka thumb san ne itiyogo.
+  (Ne picha manie chak sulani.)\\n8 Gir tich machielo ma notigo e higni mag 1930 kod
+  chak higni mag 1940 ne en masin ma chalo thumb san (portable phonograph), ma owete
+  moko ne luongo ni Harun nikech masindno ne wuoyo e logi kinde mang\u2019eny. (Som
+  Wuok 4:14-16.) Ka wuon ot noyie, jalendo ne ketone twak moro mar Muma mar dakika
+  machuok, kae to owene buge. Seche moko joot duto ne chokore mondo owinj twag Muma
+  momaki. E higa mar 1934 riwruok mar Watch Tower Society nochako loso thumb san ma
+  ng\u2019ato ne nyalo ting\u2019o kodhigo e tij lendo. Bang\u2019e, owetewa noloso
+  twege 92 ma wuoyo e wi weche mopogore opogore.\\n9. Thumb san ne okonyo e okang\u2019
+  ma romo nade?\\n9 Kane wuon ot moro miluongo ni Hillary Goslin owinjo achiel kuom
+  twege ma nomakgo, nokwayo jalendo mondo okonye gi thumb sanno kuom juma achiel mondo
+  odhi oket ne jirendene bende owinjie ote Pinyruoth. Ka ne jalendono odok, noyudo
+  ji buora ma norwako wach ka rite. Bang\u2019 kinde, thoth jogo nochiwore mar tiyo
+  ne Jehova kendo nyi Hillary ariyo nodhi e Skul mar Gilead mi oorgi e pinje mamoko
+  kaka jomisonari. Mana kaka kad mar chiwo neno, thumb san bende nokonyo ji mang\u2019eny
+  ochak tij lendo. Bang\u2019e, Ruoth ne dhi puonjo joge tij lendo kotiyo gi Skul
+  mar Tij Nyasaye.\\nNE GITIYO GI YO MORO AMORA MA NYALORE MONDO GILEND NE JI\\n10,
+  11. Ere kaka gasede kod redio ne konyo e lando adiera manie Muma, to ang\u2019o
+  momiyo yoregi ne tiyo maber?\\n10 Ruoth osebedo ka tayo jotich Nyasaye sama gitiyo
+  gi yore mopogore opogore e lando wach maber ne ji mathoth kaka nyalore. Mano ne
+  en gima dwarore ahinya ka ne \u2018jotich nok.\u2019 (Som Mathayo 9:37.) E chak
+  higni mag 1900, ne ilendo ka itiyo gi gaset (newspapers) kuonde ma jotich Jehova
+  ne nokie mondo olend ne ji mathoth ma ne chopo irgi tek. Juma ka juma, Owadwa Charles
+  Taze Russell ne oroga twag Muma ne jondik gaset. Kae to jondik gaset ne jandiko
+  twegego e gasede ma ne isomo Amerka, Kanada, kod Ulaya. E higa mar 1913, twege Owadwa
+  Russell ne chopo ne ji 15,000,000 ma ne somogi e gasede 2,000 mopogore opogore!\\n11
+  Bang\u2019 tho Owadwa Russell, ne ochak ti gi yo machielo ma ne nigi nyak e lando
+  wach maber. Tarik 16 April 1922, Joseph F. Rutherford nogolo achiel kuom twegene
+  mokwongo e redio ne ji ma dirom 50,000. Kae to tarik 24 Februar 1924, ne wachako
+  tiyo gi stesen marwa mar redio ma niluongo ni WBBR. Kaluwore gi yo manyienni mar
+  chopo ne ji gi wach maber, The Watch Tower ma Desemba 1, 1924, nowacho kama: \u201cWan
+  gadier ni redio ok bi miyo wati gi pesa mang\u2019eny kendo en yo maber mar lando
+  adiera nyaka chop sani.\u201d Mana kaka gasede, redio bende ne konyo e lendo ne
+  ji mang\u2019eny e gwenge ma joland Pinyruoth ne nokie.\\n12. (a) En yo mane mar
+  lendo e lela ma iheroga? (b) En ang\u2019o ma nyalo konyowa loyo luoro ma wanyalo
+  bedogo kuom wach lendo e lela?\\n12 Sani ijiwowa ahinya ni walend e lela to mano
+  oriwo lendo e stend mag mtokni, stesen mag gach reru, kuonde michungoe mtokni, e
+  ofise, kuonde ma ji mang\u2019eny yudore, kod e chirni. Kapo ni iwinjo kiluor tiyo
+  gi yore mag lendogi, inyalo lemo kae to ipar matut kuom gima ne Angelo Manera, Jr
+  mosebedo jarit-alwora kuom higni mang\u2019eny nowacho. Nowacho kama: \u201cNe wakawoga
+  yo moro amora manyien mar lendo, kaka yo mar tiyo ne Jehova, mar nyiso ni wamakore
+  kode, mar nyiso ka be waluwo tim makare, kendo ne wan gi siso mar nyiso ni waikore
+  tiyone e yo moro amora ma nodwaro.\u201d Lendo ka watiyo gi yo moro manyien, to
+  ahinya ahinya ka en yo ma ok wahero tiyogo, nyalo konyowa geno Jehova, wamed yie
+  kuome kendo miyo winjruokwa kode obed motegno.\u2014Som 2 Jo-Korintho 12:9, 10.\\n13.
+  Websaitwa mar jw.org konyowa nade e tij lendo, kendo en wach mane miseromogo seche
+  ma inyiso ng\u2019ato websaitno?\\n13 Jolendo mang\u2019eny konyoga ji ng\u2019eyo
+  websaitwa mar jw.org., kama ginyalo somoe kendo golo buge ma lero Muma e dhok mokalo
+  700. Pile ka pile, ji mokalo 1,600,000 limoga websaitwa. Mana kaka redio ne timo
+  chon, sani websaitwa miyo ji modak kuonde mosokore yudo wach maber.\\nTIEGO JOLAND
+  WACH MABER\\n14. Ang\u2019o momiyo ne dwarore ni otieg joland Pinyruoth, to en skul
+  mane mosebedo ka konyogi bedo jopuonj molony?\\n14 Waseneno moko kuom gige tich
+  kod yore mosebed kitiyogo e lando wach maber. To nade tiegruok ma waseyudo? Tem
+  ane paro gima ne nyalo timore ne owetewa machon ka gilendo to wuon ot ok yie gi
+  gima owinjo e twak momaki e thumb san, kata kapo ni orwako weche mosomo e kad mar
+  chiwo neno. Ne dwarore ni jolendo ong\u2019e kaka ne ginyalo loyo akwede e yo mariek
+  kod kaka ne ginyalo bedo molony e puonjo joma orwako wach. Onge kiawa ni roho mar
+  Nyasaye notayo Nathan H. Knorr mondo ofweny ni ne dwarore otieg jolendo ong\u2019e
+  kaka ne ginyalo wuoyo gi ji ka gin e tij lendo. Ang\u2019o ma ne otim? E higa mar
+  1943, ne ochak Skul mar Tij Nyasaye e kanyakla duto. Skundno osekonyowa mondo wabed
+  jopuonj molony.\\n15. (a) Jomoko oseromo gi pek mage e seche ma gigolo twege e Skul
+  mar Tij Nyasaye? (b) Ere kaka iseneno adiera mag singo Jehova ma yudore e bug Zaburi
+  32:8?\\n15 Nokawo kinde malach mondo thoth owete gi nyimine obed gi chir mar wuoyo
+  e nyim ji. Julio S. Ramu paro twak ma nokwongo golo e skul e higa mar 1944. Twagno
+  ne wuoyo e wi ng\u2019at moro miluongo ni Doeg, ma nyinge yudore mana kuonde abich
+  kende e Muma! Julio wacho kama: \u201cChongena ne tuomore, lwetena kod lekena ne
+  tetni.\u201d Nomedo wacho ni nogolo twagno kotiyo mana gi ndiko abichka kende. Odhi
+  nyime wacho niya: \u201cNagolo twak gi dakika adek. Kamano e kaka weche nobedona
+  ka nahango wuoyo e nyim ji, to ok najok.\u201d Nyithindo bende ne odonjo e skul
+  kata obedo ni golo twak e kanyakla ne ok gima yot ne moko kuomgi. Angelo Manera
+  mosewuo kuome motelo, paro gima notimore kane nyathi moro matin ma eka nochako dhi
+  e skul nogolo twage mokwongo. Owacho kama: \u201cNyathino ne luoro omako motoyo
+  mana ywak. To nikech noramo ni nyaka ogol twagno, nogole koyuak ma nyaka otieko.\u201d
+  Be dibed ni ok ichiwga dwoko kata timo gik moko e chokruoge nikech iluor kata ineno
+  ni ok inyal? Kwa Jehova mondo okonyi loyo luoro ma in-go. Obiro konyi mana kaka
+  nokonyo jopuonjre ma chon-go golo twege e Skul mar Tij Nyasaye.\u2014Som Zaburi
+  32:8.\\n16. En tich mane maduong\u2019 ma Skul mar Gilead osebedo ka timo (a) kinde
+  machon kod (b) chakre 2011?\\n16 Tiegruok ma jotich Jehova yudo ok en mana ma yudore
+  e Skul mar Tij Nyasaye kende. Jomisonari kod jomamoko oseyudo tiegruok e Skul mar
+  Gilead. Achiel kuom joma puonjo e skundno nowacho ni gima duong\u2019 ma skundno
+  timo en \u201cjiwo jopuonjre mondo obed gi siso mar tiyo tij lando injili.\u201d
+  Gilead nochakore e higa mar 1943, kendo chakre kindego owete gi nyimine mokalo 8,500
+  oseyudo tiegruok e skundno. Jomisonari mosetieg e skund Gilead oseor e pinje ma
+  dirom 170. Chakre higa mar 2011, joma iluongo e skundno gin mana joma osebedo ka
+  tiyo ne Nyasaye gi thuologi duto e yore makende kaka jopainia makende, jorit-alwora,
+  jo Bethel, kata jomisonari modhi lendo kuonde mamoko to pok odhi e skundno.\\n17.
+  Tiegruok ma ji yudo Gilead osekonyo nade?\\n17 Tiegruok ma iyudo e Skul mar Gilead
+  osekonyo nade? Ne ane ranyisini. E dwe mar Agost 1949, ne nitie jolendo matin ne
+  apar ma gin jo Japan. E giko higano, jomisonari 13 moa Gilead ne lendo e pinyno
+  gi kinda. Sani, nitie jolendo ma dirom 216,000 e piny Japan, kendo chiegni ni pasent
+  42 kuomgi gin jopainia!\\n18. Moko kuom skunde mosekonyo Joneno omed bedo gi winjruok
+  maber gi Nyasaye gin mage?\\n18 Skunde moko kaka Skul mar Tij Pinyruoth, Skul mar
+  Jopainia, Skul mar Joland-Injili mar Pinyruoth, Skul mar Jorit-Alwora kod Mondegi,
+  kod Skul mar Jokomiti Matayo Bad Ofis kod Mondegi, osekonyo owete gi nyimine e okang\u2019
+  malach kendo osejiwo winjruokgi gi Jehova. Onge kiawa ni Ruoth dhi nyime tiego joge!\\n19.
+  En wach mane ma Charles Taze Russell nowacho e wi tij lendo, to ere kaka wechenego
+  osebedo adier?\\n19 Higni moloyo 100 osekalo nyaka ne chung Pinyruodh Nyasaye. Ruodhwa
+  Yesu Kristo pod dhi nyime tiegowa. Kinde matin ka pok Charles Taze Russell otho
+  e higa mar 1916, nofwenyo ni tij lendo ne idh tim e okang\u2019 malach miwuoro.
+  Nonyiso osiepne moro niya: \u201cTijni medore mapiyo, to pod obiro dhi nyime medore,
+  nikech tij lando \u2018injili mar pinyruoth\u2019 en gima onego oland e piny ngima.\u201d
+  (Faith on the March, mondik gi A. H. Macmillan, ite mar 69) Nowacho adier! To mano
+  kaka wamor ni Nyasach kuwe miyowa gik ma dwarore mondo watim tich ma jaberni! Kuom
+  adier, omiyowa \u201cgik mabeyo duto\u201d ma wadwaro mondo watim dwache!\\n^ par.
+  2 Nitie gima nyiso ni thoth joma ne nitie ka Yesu chiwo chikno nobedo Jokristo.
+  Paulo luongogi ni \u2018owete 500\u2019 e barua ma nondiko ne Jo-Korintho. Bende
+  nomedo wacho kama: \u201cThothgi pod ni kodwa, kata obedo ni moko kuomgi osenindo
+  e tho.\u201d Omiyo, nenore ni Paulo kaachiel gi Jokristo mamoko mokwongo nong\u2019eyo
+  thoth joma nowinjo achiel kachiel ka Yesu chiwo chikno.\"", "\"Wer 141 kod Lamo\\nWeche
+  Michakogo (Dak. 3 kata matin ne mano)\\nMWANDU MA YUDORE E WACH NYASAYE\\n\u201cBe
+  Ibiro Ketni Ranyisi kata alama mar Tony?\u201d: (Dak. 10)\\nEze 9:1, 2\u2014Nitie
+  gik ma wanyalo puonjore kuom fweny ma Ezekiel noneno (w16.06 16-17)\\nEze 9:3, 4\u2014Joma
+  oyie rwako wach mwalando ibiro ketnegi ranyisi mar tony e kinde masira maduong\u2019\\nEze
+  9:5-7\u2014Jehova ok bi ketho joma beyo sama oketho joma richo\\nNono Puonj Manie
+  Wach Nyasaye: (Dak. 8)\\nEze 7:19\u2014Ndikoni nyalo konyowa nade timo ikruok ne
+  kinde mabiro? (w09 9/1 26 \u00b610)\\nEze 8:12\u2014Ere kaka ndikoni nyiso ni bedo
+  ma onge yie nyalo miyo ng\u2019ato odonj e tim moro marach? (w11 4/15 26 \u00b614)\\nSomo
+  mar Muma ma jumani opuonji wach mane e wi Jehova?\\nGin puonj mage mamoko ma iyudo
+  e somo mar Muma ma jumani?\\nSomo mar Muma: (Dak. 4 kata matin ne mano) Eze 8:1-12\\nTIEGRI
+  NE TIJ LENDO\\nLimbe Mokwongo: (Dak. 2 kata matin ne mano) Fwe 4:11\u2014Puonj Adiera.\\nDok
+  Timo Limbe: (Dak. 4 kata matin ne mano) Za 11:5; 2Ko 7:1\u2014Puonj Adiera.\\nPuonjruok
+  Muma: (Dak. 6 kata matin ne mano) bh 127 \u00b64-5\u2014Nyis kaka inyalo chopo e
+  chuny japuonjre.\\nNGIMAWA KAKA JOKRISTO\\nWer 64\\n\u201cLuw Puonj Makare mag Jehova\u201d:
+  (Dak. 5) Wuoyo. Tug vidio ma wiye wacho ni Uwe Rafiki ya Yehova\u2014Mwanamume Mmoja,
+  Mwanamke Mmoja (vidiono yudore e bwo wich ma wacho ni NYITHINDO).\\nPuonjruok Muma
+  e Kanyakla: (Dak. 30) cl sula 14 \u00b610-15\\nNwo Weche Madongo ma Upuonjoru, Kae
+  to Iwuo Kuom Gik ma Ubiro Nono Juma ma Luwo (Dak. 3)\\nWer 8 kod Lamo\"", "\"7\\nHaman
+  onegi\\n1 Kuom mano, ruoth kod Haman nodhi chiemo gi Esta ma mikache,\\n2 to kane
+  oyudo gimadho divai chieng\u02bc mar ariyono, ruoth nopenjo mikache ma Esta niya,
+  \u201cKwayoni en ang\u02bco? Kwaya akwaya ma kata ka en nus mar pinya to ibiro miyigo?\u201d\\n3
+  Eka Esta ma mikach ruoth nodwoko niya, \u201cKa ayudo ng\u02bcwono e nyimi, yaye
+  ruoth, kendo ka berni jaduong\u02bc, to yie ikony ngimana, ma e kwayona, kendo akwayi
+  ni yie ikech ogandana. Mano e ywakna.\\n4 Nimar an kod ogandana oseng\u02bciew-wa
+  mondo otiekwa kendo onegwa nyaka warum chuth. Ka dabed ni ong\u02bciew-wa mondo
+  wabed wasumbini machwo gi mamon kende, to dine aling\u02bc aling\u02bca, nikech
+  mano ok en gima dine achandogo ruoth.\u201d\\n5 Ruoth Ahasuerus nopenjo Esta ma
+  mikache niya, \u201cEn ng\u02bca? Ng\u02bcatno ni kanye mosehedhore timo gima kamano?\u201d\\n6
+  Esta nowacho niya, \u201cJasadha ma jawasikwa en mana Haman ng\u02bcat marach mobet
+  butino.\u201d\\nEka luoro maduong\u02bc nomako Haman e nyim ruoth gi mikache.\\n7
+  Eka ruoth nochung\u02bc moweyo divai mane omadho ka mirima ohinge modhi oko e puoth
+  joka ruoth. To Haman, kane oneno ni ruoth oseng\u02bcado buche kuom gima onego timne,
+  nodong\u02bc chien kokwayo Esta mikach ruoth mondo ores ngimane.\\n8 E seche mane
+  ruoth odwogo koa e puodho mar dala ruoth kane odonjo e ot mane itimoe nyasi, noyudo
+  ka Haman osenindo e kom maduong\u02bc mane Esta obetie.\\nRuoth nowuoyo matek ka
+  obwok mowacho niya, \u201cOdwaro kata mana mako mikacha e wang\u02bca kaneno?\u201d\\nKane
+  ruoth pok otieko wuoyo, ne giumo wang\u02bc Haman.\\n9 Eka Harbona, achiel kuom
+  jotich ruoth mabwoch nowacho niya, \u201cGir nek ma borne oromo fut piero abiriyo
+  gabich ochung\u02bc e bath od Haman. Noselose mondo oneg-go Modekai, ma wachne ne
+  osekonyo ruoth.\u201d\\nRuoth nowacho niya, \u201cKawuru gima nolosono mondo ulierego!\u201d\\n10
+  Omiyo neginego Haman e gima noseiko mondo oneg-go Modekai. Eka mirimb ruoth norumo.\"",
+  "\"(DISCLAIMER: Dear readers, I know I have all kinds of people from all over the
+  world reading this blog\u2026 People of different races and all. This post will
+  be in Luo. It might come out as tribalistic and rude and all that. Please be advised
+  that that is not my intention. I am just trying out my skills in my mother tongue.
+  To prove my loyalty to you, my next post will be the same story in English\u2026
+  If you don\u2019t understand English too then, I am sorry, you cannot be helped)\\nJaherana
+  Doris,\\nAngeyo ni ji mok on\u2019geyo dho wa ma mit ni \u00ee gi owang\u2019 koda
+  kabisa. Ji nyaka nge\u2019 dho gi baba\u2026Amolo tinga\u2026 Ja Nam!\\nTo idhi
+  nade Jaber. Asegombi agomba ma an otamo wang\u2019a. Chakre na neni igni abirio
+  mokalo asebet ka apari ndi! Adwaro ni ing\u2019e ni aheri mokalo. Onge ng\u2019ma
+  nyalo nyisa otherwise! Nikech in mane ayieri\u2026 Okuche mopong\u2019o nairobi
+  kae gi, ma igi odolore odolore weri go\u2026 In ema heri\u2026 Nya lou\u2026 ma
+  ye wiye yom to ondin\u2019ge dangerous to bende dolore e yore duto\u2026 Nyako jaber
+  to lembe opon\u2019g ka mandas\u2026\\nAinjo ka denda lit ndi! kik ipar mabor\u2026
+  denda onyosore, lakini ok nikech gima iparo no\u2026 We ago ni mbaka:\\nNyoro Owadwa
+  no nyiew piki piki. Be in\u2019geyo piki piki ma iluongo ni scooter cha? eeee mano!
+  Koro ne wawinjore ni nikech en gi yo ma dhi ot godhiambo bang\u2019 tich, obrobiro
+  kawa e ofisa!\\nTabu mane tiere kende en ni okya riembo piki piki maber\u2026 An
+  bende akya riembo piki piki. Koro nodhi tin\u2019ga e tok piki piki nyaka ot Kileleshwa
+  to okya riembo piki piki no! Piny ne tin na malich!!\\nKoro nobiro e ofisa gimoro
+  saa apar gi abich odhiambo. Kaka ne anene ko oriembo piki piki okne orach ahhhiiinyaaaa\u2026
+  Safari no ne nyalre!\\nKoro mochopo e ofis wachak wayudo tabu moro\u2026 Piki piki
+  otamore mor! Watemo ma watemo ma watemo\u2026 Aparo ni wiye no wil gi kaka imoro
+  gini! Adiro piki piki ma denda ojony ndi! Last minute ema piki piki omor! Nikech
+  okonya chung\u2019 nikech kochung\u2019 to odhi sim kendo, nochuna ni nyaka achikra
+  ka piki piki sudo e speed ma malo\u2026 ADWA THO OMERA!!!\\nKoro an e tok piki piki,
+  jal wadhi e speed ma malo omera\u2026 Amako owadwa matek nikecha ka lwar to alwar
+  kode! Ngima wa ne ntie kama risky ndi!\\nKoro ka in\u2019geyo Nairobi maber, to
+  ingeyo ni mondo i a Spring valley (kuma ofisa ntiere) mond idhi Kileleshwa, nyaka
+  ikal ndara maduong\u2019 miluongo ni Waiyaki Way! Ka ema nag\u2019eyo ni watho.
+  Hawi maber piki piki osim ka pok wadonjo Waiyaki way! Ochuno wa ni wadhiri piki
+  piki ni across nyaka choooo mwalo. kalo ndara no gka idhiro piki piki ok yot! Omera
+  piki piki ni pek ma an otamo dhoga! Mtokni to ema kalo gi ng\u2019wech satan! Kata
+  mana msamaria mwema ma de chung\u2019 mond ikal ONGE!!! Zebra crossing ma opng\u2019o
+  ndara no onge ng\u2019ama tiogo\u2026\\nWadiro piki piki ma wakalo Waiyaki way.
+  Koro Owadwa oidho piki piki kendo mond adhire nikech otamore chako! Omera dakika
+  prang\u2019wen okalo ka pod adhira dhiria! Jaal gini otamore chako bwana! Wanyagre
+  gi gini wachal joma okwalo piki piki!\\nBang dhiro gini dakika go te ema waneno
+  ni kare piki piki tielo machien ofuong\u2019ore! Omera to wakya loko tielo! Ochuno
+  ni wa GOOGLE kaka iloko tie scooter! Mano nodhi maber.\\nShida moro ochako makowa
+  kendo! Wheel spanner otamore gonyo bolt achiel! Wadong\u2019 e lwet nono! Watemo
+  kwayo pliers. Onge nga\u2019ma nya konyi Nairobi kae! Ji paro ni wan jokuoge\u2026
+  Piny to lokre mudho to pod wabor gi ot ma an akya akaya!\\nBang\u2019 thagruok ni
+  te wawacho ni wa riemb ariemba gi tielo mofuongre ni wabroloso ka wachopo ot! Nyoro
+  ema na\u2019geyo ni PIKI PIKI OK NYAL SUDO KATA MATIN KA TIELO OFUON\u2019GORE!!!\\nOwadwa
+  otemo gocho ne kazindwa moro mi iluongo ni Gideon ma ntie ga gi mtoka pick up hard
+  body mondo obi oreswa. Wayudo ni en e klass yo Thika road Kocha (USIU) to okonyal
+  konyo wa! Wabet kanyo ka wneno adek adek!\\nBang\u2019 mano ema wagocho ne osiepwa
+  moero miluongo ni Lemi mariembo ga pick up mond obi okaw wa oterwa ot! Wariet chiegni
+  dakika prabich ka pok ochopo!\\nTin\u2019go piki piki mond waket e pier pick up
+  ok yot osiepna! Wanyagre gi gini ma wanyalo!\\nAchopo ot ka suda olil otimo Oil
+  lilo! Suda ma nochama pesa ma ng\u2019eny\u2026 Yawa suda mane otwang\u2019 gi Burton
+  and Webb owada! Ne lit ndi\u2026\\nKoro we adhi amadh strungi ma itedo nwa ga e
+  ofis kae ma kech ka piriton\u2026\\napiela\\nJanuary 26, 2012 at 4:32 pm\\nhahaha\u2026piki
+  piki noh onyalo u!\\nLinda\\nJanuary 26, 2012 at 4:50 pm\\nO! ooooo\u2026.! Kara
+  mano e pikipiki mane mamima wacho!\\nHahahaaa\u2026eiy!! tsk tsk tsk\u2026.mos uru\\nNyithindo
+  ochandore kabisa!!\\nmeanwhile podi nyiero nega!\\nmagi\\nJanuary 26, 2012 at 4:57
+  pm\\nwah< just translate the damn thing\\nproboxsucceed\\nJanuary 27, 2012 at 9:31
+  am\\nNow this is where I say bye\u2026\\nnymou\\nJanuary 27, 2012 at 4:25 pm\\nItemo
+  ndi wuod\u2019wa. K\u2019inyalo ndiko moro ma\u2019chal kod ma, to nyaka a\u2019dwog
+  some. Dholuo ok tek kaka naparo cha.\\nakellove\\nJanuary 30, 2012 at 8:04 am\\nEschuuus!
+  MUST you mention the suit? Lol. Also, dhogwa ni mit ka aluru\u2026\\nBrian Amolo\\nJanuary
+  30, 2012 at 2:36 pm\\nJaluo To Misungu\u2026. Ma dhok ma nyaka iklarifai \u2026.joma
+  okalonegi\\nPrince Bonics Mireri\\nNovember 21, 2013 at 7:36 pm\\nHaa haa haa Very
+  sory\\nauma\\nAugust 11, 2014 at 4:28 pm\\nYour work perfettto!!!! Pole lakini!!!\"",
+  "\"JOSHUA noyudo migawo mapek. Ne dwarore ni ota Jo-Israel nyaka e Piny ma Nosingi
+  kata obedo ne nitie jowasigu kod gik mamoko ma ne nyalo geng\u2019ogi. Kata kamano,
+  Jehova nonyiso Joshua ni ne odhi dhi maber gi migawono, kendo nojiwe niya: \u2018Bed
+  gi teko kod chir. Luw chikena. Somgi odiechieng\u2019 gi otieno, kendo itim duto
+  mondikie. E ka yoreni duto nobed maber, kendo inibed mariek.\u2019\u2014Jos. 1:7,
+  8.\\nNikech wan be wadak e \u201ckinde matek ahinya,\u201d waromo gi pek moko. (2
+  Tim. 3:1) Mana kaka Joshua, wan be wanyalo dhi maber ka waluwo weche ma Jehova nonyisego.
+  Onego wasom Muma pile kendo wati maber gi puonj ma wayudo e iye sama wanyagore gi
+  tembe.\\nKata kamano, thothwa nyalo yie ni ok wapuonjrega Muma kaka dwaher, kendo
+  samoro puonjruok ok yotnwa ahinya. To nikech wang\u2019eyo ni puonjruok Muma nyalo
+  konyowa ahinya, ne sanduk ma wiye wacho ni, \u201cTem Ane Tiyo gi Yoregi\u201d mondo
+  iyud paro moko ma nyalo miyo puonjruok Muma obedni mamit kendo omed konyi.\\nJandik-zaburi
+  moro nowero kama: \u2018Miya awuoth e yor wecheni michiko; nimar amor ahinya kodgi.\u2019
+  (Zab. 119:35) Puonjruok Wach Nyasaye nyalo keloni mor mogundho. Ibiro puonjori gik
+  mathoth kendo mabeyo sama inono mwandu ma yudore e Wach Nyasaye.\\nKata obedo ni
+  onge oganda ma itayo kaka Joshua notimo, in gi pek moko minyagorigo. Omiyo, mana
+  kaka Joshua, puonjri Wach Nyasaye e yo matut mondo okonyi nyagori maber. Kitimo
+  kamano, in be yoreni duto biro dhi maber.\"", "\"\u201cWinjuru jotendu, kendo migiuru
+  duong\u2019; nikech girito chunyu.\u201d\u2014HIB. 13:17.\\n1, 2. Ang\u2019o momiyo
+  kinde duto Jehova wachonwa ni ochalo gi jakwath?\\nJEHOVA wachonwa kinde duto ni
+  ochalo gi jakwath. (Eze. 34:11-14) Mano en wach maduong\u2019 ahinya nikech okonyowa
+  ng\u2019eyo ni Jehova chalo nade. Jakwath mohero rombene, jakawo ting\u2019 mar
+  rito kendo tayo rombe. Otayogi koterogi e lege mang\u2019ich koda kama pi maler
+  yudore (Zab. 23:1, 2); ong\u2019iyo chalgi odiechieng\u2019 gotieno (Luka 2:8);
+  oritogi mondo le marach kata jasigu kik hinygi (1 Sam. 17:34, 35); oting\u2019o
+  nyirombe mayom e bade koda e kore (Isa. 40:11); omanyo rombe molal, kendo okonyo
+  rombe mohinyore.\u2014Eze. 34:16.\\n2 To nikech oganda Jehova machon ne odak e ngima
+  mar pur gi pidho jamni, ne ginyalo winjo mapiyo sama Jehova Nyasaye wacho ni ochalo
+  jakwath mohero rombene. Ne ging\u2019eyo ni rombe dwarore omi rit mowinjore eka
+  mondo gidong maber. Kamano e kaka dhano bende dwarore ni ota gi Jehova. (Mari. 6:34)
+  Ka ok Jehova ema oritogi eyo makare kendo tayogi e yo mowinjore, to chandruok nyalo
+  betie. Nyalo bedo mayot mondo giba yo mana kaka \u201crombe maonge jokwath\u201d
+  timoga. (1 Ruo. 22:17) Kata kamano, kuom jogo mayie mondo Jehova otagi, giyudo gik
+  moko duto ma gidwaro.\\n3. En ang\u2019o ma wabiro puonjore e sulani?\\n3 Wan bende
+  e kindewagi wang\u2019eyo kaka Jehova ritowa kaka jakwath. Waneno kaka orito kendo
+  otayo joge ma gin kaka rombene e ndalogi. We waneane kaka ochiko rombene e kindegi
+  koda kaka ochopo dwaro maggi kaka owinjore. Wabiro neno bende gigo ma rombene onego
+  otim mondo giyud kony koda gweth chuth kuom rit ma Jehova miyogi.\\nJAKWATH MABER
+  CHIWONWA JOKWATH MATINDO\\n4. Yesu dewo kendo rito rombe mag Jehova e yore mage?\\n4
+  Jehova oseketo Yesu obed Wi kanyakla mar Jokristo. (Efe. 1:22, 23) Yesu ma en \u201cjakwath
+  maber,\u201d nyisowa kido, dwaro koda gik ma Wuon mare ohero. Ohero rombe mag Wuon
+  mare kendo odewogi ahinya. Ne oyie chiwo kata mana ngimane nikech rombego. (Joh.
+  10:11, 15) To mano kaka misango mar rawar ma Kristo nochiwo en mich maber ne dhano
+  duto! (Math. 20:28) En mich kendo gweth nikech dwaro mar Jehova en ni \u201cng\u2019a
+  ma oyie kuome [Yesu] kik lal, to obed gi ngima mochwere.\u201d\u2014Joh. 3:16.\\n5,
+  6. (a) Gin jomage ma Yesu oketo mondo ota rombe mage? Rombe onego otim ang\u2019o
+  mondo giyud gweth kuom chenro ma Yesu noketoni? (b) Gimaduong\u2019 moloyo mamiyo
+  wadwaro winjo kendo luwo chenro ma jodong-kanyakla oketo en mane?\\n5 Rombe to nyiso
+  nade ni Yesu Kristo en Jakwadhgi Maber? Yesu nowacho niya: \u201cRomba winjo dwonda,
+  kendo an ang\u2019eyogi, kendo giluwa.\u201d (Joh. 10:27) Winjo dwond Jakwath Maber
+  tiende en luwo kaka ochikowa kinde duto kendo e yore duto. Mani oriwo winjo kendo
+  riwo lwedo jokwath matindo moketo mondo okonye e rito rombe mag Wuon-gi. Yesu nonyiso
+  ni jootene kod jopuonjre mage ne biro dhi nyime tiyo tich ma nochako. Ne gidhi \u2018puonjo\u2019
+  kendo \u2018pidho rombene.\u2019 (Math. 28:20; som Johana 21:15-17.) Kaka wach maber
+  ne medo landore kendo kwan mar jopuonjre bende ne medore, Yesu notimo chenro mondo
+  Jokristo motegno obed jokwath e kanyakla.\u2014Efe. 4:11, 12.\\n6 Kane owuoyo gi
+  jodong-kanyakla e dala mar Efeso, jaote Paulo nowacho ni roho maler ema noketogi
+  \u2018jokwath, mondo gikwa kanyakla mar Nyasaye.\u2019 (Tich 20:28) Kamano e kaka
+  jodong-kanyakla ma kindegi timo. Ang\u2019o momiyo wawacho kamano? En nikech oseketgi
+  kaluwore gi kaka Muma ma en Wach Nyasaye mondik kuom teko mar roho maler, chiko.
+  Kuom mano, winjo gima Jokristo ma gin jodong-kanyakla wachonwa, nyiso ni wachiwo
+  luor ne Jehova kod Yesu, ma gin Jokwath ariyo madongo. (Luka 10:16) Ka kuom adier,
+  mano e gimaduong\u2019 mokwongo mamiyo wadwaro bolore ne jodong-kanyakla. Kata kamano,
+  nitie gik mamoko mamiyo wadwaro winjo kendo luwo kaka gitayowa.\\n7. Ere kaka jodong-kanyakla
+  konyowa rito winjruok ma wan-go gi Jehova?\\n7 Sama gichiwo puonj moro kata jiwo
+  owete gi nyimine gi paro moro, kinde duto jodongo onego oten kata osir weche ma
+  giwachogo gi Ndiko. Timo kamano nyiso ni gin giwegi ok gidwar chiko ngima owete
+  gi nyimine. (2 Kor. 1:24) Kar mano, gimiyo Jokristo wetegi puonj mawuok e Ndiko
+  mondo okonygi ging\u2019ad paro makare, kendo mano miyo riwruok koda kuwe betie
+  e kanyakla. (1 Kor. 14:33, 40) Muma wacho ni jodong-kanyakla \u2018rito chunywa.\u2019
+  Mano tiende ni gidwaro konyo ng\u2019ato ka ng\u2019ato e kanyakla mondo orit winjruok
+  maber ma en-go gi Jehova. Kuom mano gibiro timo mapiyo chiwo kony kapo ni gineno
+  ni owadwa kata nyaminwa moro dwaro kawo kata osekawo okang\u2019 moro maok ni kare.
+  (Gal. 6:1, 2; Juda 22) Donge magi gin gik mowinjore ahinya manyiso gimomiyo onego
+  \u2018wawinj\u2019 jodong-kanyakla ma wan-go e kanyaklawa?\u2014Som Jo Hibrania
+  13:17.\\n8. Jodong-kanyakla rito chal mar rombe mag Jehova e yo mane?\\n8 Jaote
+  Paulo ma ne en jakwath madewo ahinya chal mar owete gi nyimine, nochiwo siem ne
+  owete e kanyakla mar Kolosai niya: \u201cRitreuru mondo kik ng\u2019ato omaku gi
+  riekone kod wuond manono, ma wuok kuom puonj dhano kod tim machon mag piny, to ok
+  kuom Kristo.\u201d (Kol. 2:8) Wechegi miyowa siem machielo ka ginyiso gimachielo
+  maber mamiyo onego wawinj puonj ma jodongo miyowa kowuok e Ndiko. Ginyiso ni jodongo
+  rito owete gi nyimine kik hinyre gi puonj mag joma dwaro ketho yiegi. Jaote Petro
+  nochiwo siem e wi \u201cjonabi mariambo\u201d koda \u201cjopuonj mariambo\u201d
+  ma ne dhi temo yondho Jokristo ma nigi \u201cchuny mayomyom\u201d mondo odonj e
+  richo. (2 Pet. 2:1, 14) Jodong-kanyakla ma kindegi bende nyaka chiw siem machalo
+  kamago kapo ni mano owinjore. Jodong-kanyakla gin Jokristo motegno kendo mosekalo
+  e chal moko mopogore opogore e ngima. E wi mano, kane pok oketgi jodong-kanyakla,
+  ne ginyiso ni ging\u2019eyo Ndiko e yo maler kendo ni gilony e chiwo puonj mangima.
+  (1 Tim. 3:2; Tito 1:9) Nikech gin Jokristo motegno kendo molony, gitemo ng\u2019iyo
+  gik moko kik kal tong\u2019 ahinya, kendo temo tiyo gi rieko sama gitayo rombe Jehova
+  ei kanyakla.\\nJAKWATH MABER PIDHO KENDO RITO ROMBENE\\n9. Yesu pidho kendo tayo
+  nade kanyakla mar Jokristo e kindegi?\\n9 Kokalo kuom riwruok mar oganda mare, Jehova
+  chiwo chiemb chuny mogundho ne owete duto e piny mangima. Thoth puonjgo mowuok kuom
+  Ndiko yudore e buge koda gasedewa. E wi mano seche moko jodong-kanyakla yudo weche
+  matayogi achiel kachiel kokalo kuom barupe mindikonegi kata kokalo kuom jorit alwora.
+  Kokalo kuom yore machalo kaka mago, rombe Jehova ng\u2019eyo gima onego gitim.\\n10.
+  En ting\u2019 mane ma jodong-kanyakla nigo sama owadwa kata nyaminwa oweyo kanyakla?\\n10
+  Jokwath mabeyo nigi ting\u2019 mar rito chal mar owete gi nyimine e kanyakla, to
+  ahinya wuon jogo ma yie margi osedok chien, kata motimo gik maok ni kare. (Som Jakobo
+  5:14, 15.) Moko kuom owete gi nyimine e kanyakla nyalo bedo ni osebayo yo ma giweyo
+  tiyo ne Nyasaye. E chal ma kamago, donge jaduong\u2019 madewo rombe adier biro timo
+  kar nyalone mondo omany rombono kendo ojiwe oduog e kweth ma tiendeni kanyakla?
+  Timo kamano nyalo bedo maber miwuoro. Yesu nowacho niya: \u201cOk en dwaro mar Wuonu
+  me polo ni achiel kuom jo matindogi olal.\u201d\u2014Math. 18:12-14.\\nONEGO WANE
+  NADE NYAWO MA JODONG-KANYAKLA NIGO?\\n11. Ang\u2019o momiyo jomoko nyalo yudo ka
+  teknegi luwo gima jodongo nyisogi?\\n11 Jehova gi Yesu gin jokwath makare chuth.
+  Kata kamano, jokwath matindo ma gimiyo ting\u2019 mar rito kanyakla gin mana dhano
+  morem. Mani en adier manyalo miyo jomoko owinj ka teknegi luwo kaka jodongo tayogi.
+  Joma kamago nyalo bedo gi paro niya: \u2018Jodongogi gin mana dhano morem kaka wan.
+  Ang\u2019o momiyo onego ginyisa gima onego aluw? \u2019 En adier ni jodongo gin
+  dhano morem. Kata kamano dwarore wabed gi paro mowinjore kendo makare kuom nyawo
+  ma waneno kuomgi.\\n12, 13. (a) E ndalo machon, ne gin ketho mage ma jotich Jehova
+  moko ma ne nigi migepe madongo notimo? (b) Ang\u2019o momiyo Jehova ne dwaro ni
+  ondik e Muma nyawo mag chwo ma ne nigi migepe?\\n12 Muma nyiso maler nyawo mag jogo
+  ma Jehova ne tiyogo e tayo joge e kinde machon. Kuom ranyisi, Daudi ne en ruoth
+  mowal gi mo kendo jatend Israel. Kata kamano, tem noloye modonjo e terruok ma kendo
+  oneko. (2 Sam. 12:7-9) Par ane ranyisi mar jaote Petro bende. Kata obedo ni ne omiye
+  migawo maduong\u2019 ahinya e kanyakla Jokristo, ne ojatimo ketho madongo kinde
+  ka kinde. (Math. 16:18, 19; Joh. 13:38; 18:27; Gal. 2:11-14) Mopogore gi Yesu, onge
+  dhano moro amora man kare chakre Adam gi Hawa tim richo.\\n13 Ang\u2019o momiyo
+  Jehova noyie mondo ondik e Muma nyawo mag chwo ma notiyogo e migepe mopogore opogore?
+  Achiel kuom gimomiyo notimo kamano, ne en ni mondo onyis ni onyalo tiyo gi dhano
+  morem mondo ota godo joge. Ka kuom adier, osebedo kotimo kamano chakre chon. Omiyo,
+  ok onego wati gi nyawo mag owete matayowa e kindegi mondo wabed joma ng\u2019ur
+  kata weyo luwo kaka gichikowa. Jehova dwaro ni wachiw luor kendo winjo owete machalo
+  kamago.\u2014Som Wuok 16:2, 8.\\n14, 15. Wanyalo puonjore ang\u2019o kaluwore gi
+  kaka Jehova ne chiko joge e kinde machon?\\n14 Dwarore ahinya mondo wabed joma winjo
+  jogo matayowa e kindegi. Par ane kaka Jehova nowuoyo gi joge e kinde machon mondo
+  okonygi gitony. Kuom ranyisi, kane oganda Jo-Israel owuok Misri, Nyasaye notiyo
+  gi Musa gi Harun e chiwonegi chike ma ne dwarore giluw. To bende, mondo gitony e
+  masira mar apar ma Nyasaye nokelo e piny Misri, e udi duto mag Jo-Israel ne nyaka
+  yang\u2019ie nyarombo makende, kendo wiro moko kuom remb nyarombono e sis dhoot
+  koda e wi dhoudi. Be Nyasaye nowuoyo achiel kachiel gi ogandano? Ooyo, ogandano
+  ne yudo weche kokalo kuom jodongo maggi, to jodongogo ne yudo chikego kuom Musa.
+  (Wuok 12:1-7, 21-23, 29) Kamano e kaka Jehova ne tiyo gi Musa koda jodongo e chiwo
+  chikene ne ogandane. Ndalogi, Jehova tiyo gi Jokristo ma gin jodong-kanyakla e timo
+  kamano.\\n15 En adier ni inyalo paro kinde mamoko machon ma Jehova ne chiko joge
+  kaka onego gitim kotiyo gi dhano kata malaika. E chalgo duto, Nyasaye noneno ni
+  ber mondo omi jomoko migawo mar wuoyo e loye kendo ginyis joge gima nonego gitim
+  mondo gitony e chal moro. Wan gadier chuth ni Jehova biro timo kamano bende e kinde
+  Har\u2013Magedon. Kata kamano, jaduong\u2019-kanyakla moro amora, matiyo e lo Jehova
+  kata e lo riwruok mar ogandane ndalogi, nyaka bed motang\u2019 ahinya mondo kik
+  oti marach gi migawo momiye.\\n\u201cKUETH ACHIEL, GI JAKWATH ACHIEL\u201d\\n16.
+  \u201cWach\u201d madwarore wachikne itwa ahinya en mane?\\n16 Oganda Jehova e kindegi
+  loso \u201ckueth achiel,\u201d e bwo \u201cjakwath achiel\u201d ma en Yesu Kristo.
+  (Joh. 10:16) Yesu nowacho ni ne odhi bedo gi jopuonjrene \u201cndalo duto nyaka
+  giko mar ndalo.\u201d (Math. 28:20) Ka en Ruoth manie polo, en gi teko duto mar
+  chiko gik mabiro timore kapok okawo okang\u2019 mar ketho piny marachni. Wanyalo
+  timo ang\u2019o mondo wasik ka wariwore kendo medo yudo rit ma rombe mag Nyasaye
+  yudo? Dwarore ni wachik itwa ne \u2018wach mawuok bang\u2019wa,\u2019 kanyisowa
+  yo monego waluw. \u2018Wachni\u2019 oriwo gima roho mar Nyasaye wachonwa kaka ondiki
+  e Muma, koda gima Jehova gi Yesu wachonwa ka gitiyo gi chwo ma giketo mondo obednwa
+  jokwath e kanyaklawa.\u2014Som Isaiah 30:21; Fweny 3:22.\\n17, 18. (a) En jasigu
+  mane manyalo hinyo rombe mag Jehova, kata kamano wanyalo bedo gadier kuom wach mane?
+  (b) Sula maluwo mae biro wuoyo e wi ang\u2019o?\\n17 Muma wacho ni Satan \u201cbayo
+  ka sibuor ma goyo asumbi, kodwaro ng\u2019a ma dongam.\u201d (1 Pet. 5:8) Mana kaka
+  le ma jocham jowadgi, Satan luro ne rombe, korito yudo thuolo moro amora mondo ongam
+  jogo maok ong\u2019eyo kata mobayo yo. Mano e achiel kuom gimaduong\u2019ie moloyo
+  mamiyo wadwaro siko machiegni ahinya gi kanyakla, kendo bedo e bwo \u2018Jakwath
+  gi Jarit chunywa.\u2019 (1 Pet. 2:25) Kowuoyo e wi joma biro tony e sand maduong\u2019,
+  Fweny 7:17 wacho ni: \u201cNyarombo [Yesu] . . . nobed jakwadhgi. Kendo notelnigi
+  e sokini mag pi ngima, to Nyasaye noywe pi wang\u2019gi duto.\u201d En singo mane
+  manyalo bedo maber maloyo mano?\\n18 Bang\u2019 nono migawo maduong\u2019 ma jodong-kanyakla
+  chopo ka gin kaka jokwath, ber mondo wapenjre niya: Jodong-kanyakla nyalo timo ang\u2019o
+  mondo gibed gadier ni girito rombe mag Yesu e yo mowinjore? Wabiro nono dwoko mar
+  penjoni e sula maluwo.\"", "\"Acts 27 (BONLT)\\n1 Kane oseng\u02bcad wach ni onego
+  okwang\u02bcwa wadhi Italia, Paulo kod joma otwe mamoko noketi e lwet jatend jolweny
+  moro ma nyinge Julias. Ng\u02bcatno ema ne jatend oganda lweny mane iluongo ni Jorit
+  Dala Ruoth. 2 Ne wadonjo ei yie moro moa Adramutio mane onego ogow e mier mamoko
+  manie dho nam molworo piny Asia. Bang\u02bce ne wasiayo yie mi wawuok. Aristarko
+  ja-Makedonia moa Thesalonika bende ne nikodwa. 3 Kinyne ne wagowo Sidon, kendo kanyo
+  Julias notimo ng\u02bcwono ni Paulo mi nomiye thuolo mar dhi ir osiepene mondo gimiye
+  gik mane ochando. 4 Kane waa kanyo to ne wasiayo yie e nam kendo, to nikech yamo
+  mager ne kudho kochomowa tir, ne waluwo bath chula mar Saipras koma ogeng\u02bcore
+  gi yamo. 5 Kane wasekwang\u02bc wang\u02bcado ataro mar nam, machiegni kod Kilikia
+  gi Pamfilia, ne wagowo e dho wadh Mura, e piny Lukia. 6 Kanyo jatend jolweny nonwang\u02bco
+  yie ja-Aleksandria moro madhi Italia, mi noketowa ei yieno. 7 Ne wakwang\u02bc mos
+  gi thagruok kuom ndalo mang\u02bceny nikech kwang\u02bc ne rach, eka achien ne wachopo
+  machiegni gi dho wadh Sinido. Kaka yamo koro nomedore ma ok wanyal chome tir, ne
+  wakwang\u02bc kwageng\u02bcore e bath Krete, mochomore gi sori mar Salmone. 8 Ne
+  wamedo kwang\u02bc gi thagruok ka waluwo bath nam mine wachopo kamoro miluongo ni
+  Mbita Mokwe, but dala mar Lasea. 9 Kaka koro ne waseketho seche mathoth, to kwang\u02bc
+  bende bedo marach, kendo kinde mag Sap Tweyo Chiemo bende nosekadho, Paulo nong\u02bcado
+  rieko ni jokwang\u02bc kowacho niya, 10 \u201cJowadwa, aneno ni ka wawuok ka, to
+  wuodhwani biro bedo marach kendo yiewani kaachiel gi gik moting\u02bco biro kethore
+  kendo wan bende wanyalo tho.\u201d 11 To jatend jolweny ne ok odewo chik kata winjo
+  gima Paulo ne owacho, makmana nowinjo mana wach wuon yie kod jatend yie. 12 Dho
+  wath kanyo ne ok ber betie ndalo chwiri, omiyo thoth ji mane wan-go nong\u02bcado
+  wach mondo wadhi nyime gi kwang\u02bc, ka giparo ni ne wanyalo chopo Foinike mondo
+  wabedie ndalo chwiri. Foinike ne en dho wadh Krete, momanyore gi milambo ma yo podho
+  chieng\u02bc kod nyandwat ma yo podho chieng\u02bc. 13 Ka yamb milambo makudho mos
+  nochako kudho, negiparo ni ne giseyudo gima negidwaro kendo ni wuodhgi koro ber,
+  omiyo negibolo nanga e pi mine gichako kwang\u02bc ka giluwo tiend dho nam mar Krete.
+  14 To kane pok gikwang\u02bc mabor, yamb ahiti miluongo ni Yurakulo, nochako kudho
+  matek koa e chulano. 15 Ahitino nomako yie motame muomo yamono, omiyo ne waweyo
+  mondo yamo olok yie oterwa atera kuma okudho kochomo. 16 Kane oyudo wakalo e tiend
+  chula moro matin miluongo ni Kauda, ne wabedo gi pek mar keto yie matin mar resruok
+  kama ber, mondo kik okethre. 17 Kane chwo mane wan-go osekete ei yie maduong\u02bc
+  mane wantie, negitweyo yie gi tonde molwore mondo kik obarre. To nikech negiluor
+  ni yie ne nyalo terogi kuonde mathany-thany motimo kuoyo man e dho nam mar Afrika,
+  ne giloro nanga mar yie mi giweye mondo yamo otere atera. 18 Ahiti nomedo goyo yie
+  matek mi kinyne negichako wito gik mane ni ei yie e nam. 19 Odiechieng\u02bc mar
+  adek, ne giwito ei nam gik moko duto michikogo yie. 20 Kuom ndalo mang\u02bceny,
+  ne ok wanyal neno wang\u02bc chieng\u02bc kata sulwe, kendo yamo nomedo kudho matek
+  mi geno duto mane oyudo wan-go ni dipo koreswa norumo chuth. 21 Kane ji koro oseriyo
+  kech kuom ndalo mang\u02bceny, Paulo nochung\u02bc malo e nyimgi mowachonegi niya,
+  \u201cJowadwa ka dine uwinj wachna ma wawe kwang\u02bc ka waa Krete, to dine utony
+  mi ok uneno chandruok gi lal maduong\u02bc ma kama. 22 To koro akwayou ni umed bedo
+  gi chir, nikech kata ng\u02bcat achiel kuomu ok bi tho, makmana yie kende ema biro
+  kethore. 23 Otieno mokalo, malaika mar Nyasaye, ma an ng\u02bcate, kendo ma atiyone,
+  nochung\u02bc batha, 24 mowachona ni, \u2018Kik iluor Paulo, ibiro chopo nyaka nyim
+  Kaisar mi yali kuno, nikech Nyasaye osemiyi kuom ng\u02bcwonone, ngima ji duto makwang\u02bc
+  kodi.\u2019 25 Kuom mano, beduru gi chir, jowadwa, nikech ayie ni Nyasaye biro timo
+  mana kaka nonyisa. 26 To ochunore ni yie nyaka moki e chula moro.\u201d 27 Otieno
+  mar apar gang\u02bcwen ne pod watangni mana e dier Nam mang\u02bcongo mar Mediterania.
+  To kane ochopo odiwuor tir, to jokwang\u02bc ne paro ni gisechopo e lowo motwo.
+  28 Omiyo ne giluto tol motwene kidi e pi, mi giyudo ni tut pigno romo fut mia achiel
+  gi piero ariyo. Bang\u02bc mano negichako gipime mi ginwang\u02bco ni en fut piero
+  ochiko. 29 Luoro nomakowa ni dipo ka watwomo lwanda. Omiyo negibolo nanga ang\u02bcwen
+  yo kachien yie, eka gilemo mondo piny oyawre. 30 Jokwang\u02bc notemo mondo gitony
+  gia e yie, kendo negitemo mondo giket yie matin mar resruok e pi, ka giwuondore
+  ni gidwaro bolo nanga moko yo ka wi yie. 31 Eka Paulo nowachone jatend jolweny kod
+  jolweny duto niya, \u201cKa jogi ok osiko kodwa ei yie ka, to ok ubi tony.\u201d
+  32 Omiyo jolweny nong\u02bcado tonde ma notwego yie matin mar resruok, mi giweyo
+  yieno okwang\u02bc modhi. 33 Kane piny chiegni yawore, Paulo nosayo jokwang\u02bc
+  duto mondo ochiem, kowachonegi niya, \u201cKuom ndalo apar gang\u02bcwen mosekadho,
+  usebedo ka unie chandruok ma ok nunyal chiemo. 34 Koro yieuru koda mondo uchamie
+  gimoro matin mondo ubed mangima. Awachonu ni onge ng\u02bcato kata achiel kuomu
+  mabiro wito kata mana yie wiye achiel.\u201d 35 Kane osewacho mano, nokawo makati
+  mi ogoyo ni Nyasaye erokamano e nyimgi giduto. Eka nong\u02bcingo makatino mochako
+  chiemo. 36 Jogo chunygi noduogo, mi ng\u02bcato ka ng\u02bcato kuomgi nokawo chiemo
+  mondo ocham. 37 Kar romb ji duto mane ni e yie ne gin mia ariyo gi piero abiriyo
+  gauchiel. 38 Kane ji duto osechiemo moyieng\u02bc, ne giwito cham duto modong\u02bc
+  e nam mondo yie odong\u02bc mayot. 39 Kane piny oseyawore, jokwang\u02bc ne ok ong\u02bceyo
+  piny mane gintie, to negineno mbita moro motimo kwoyo; mi giparo mondo gichom yie
+  kuno mondo kanyalore to gimoki bute. 40 Neging\u02bcado tonde motwego nanga mi gibolo
+  e nam bang\u02bce ging\u02bcado tonde mane omakgo ngai. Bang\u02bc mano negichungo
+  tanga yo ka wi yie, bang\u02bce gisiayo yie ka gichomo dho wath. 41 To gikanyo yie
+  notuomo kuoyo mathany-thany momoko ti. Eka yo ka wiye nomako matek ma ok nyal yukni,
+  kendo apaka nogoyo yo kachien yieno mi obarore matindo tindo. 42 Jolweny ne dwaro
+  nego joma otwe mondo ogeng\u02bc gi kik gigo abal mi giring gitony. 43 To nikech
+  jatendgi ne dwaro reso ngima Paulo, notamogi ni kik gineg-gi. Nogol chik mondo ng\u02bcato
+  ang\u02bcata mane nyalo goyo abal nyaka e dho wath okuong ochikre e pi mondo odhiyo.
+  44 Eka joma odong\u02bc ne biro luwo bang\u02bc-gi ka jomoko omako mberni, to moko
+  omako bepe mane owuok e yie mane osebarore. Kamano e kaka ne wachopo e lowo motwo
+  waduto ka wangima.\"", "\"Yesu nomiyo Wuon-gi manie polo duong\u2019 kokalo kuom
+  wechene kod timbene. Yesu ne dwaro ni ji ong\u2019e ni ote ma nolando noa kuom Nyasaye.
+  Omiyo notiyo gi Ndiko kaka mise mar gik ma nopuonjo kendo kinde ka kinde nowacho
+  weche manie ndiko. Kane ji pake, nomiyo Jehova pakgo. Gombone maduong\u2019 ne en
+  timo tich ma Jehova nomiye mondo otim.\u2014Joh 17:4.\\nEre kaka wanyalo luwo ranyisi
+  mar Yesu sama . . .\\nwapuonjo ng\u2019ato Muma kata sama wapuonjo e kanyakla?\\njomoko
+  pakowa?\\nwang\u2019ado paro kaka wabiro tiyo gi thuolo ma wan-go?\"", "\"Auu Lyrics
+  by JAPESA\\nNyiri ohero ga pesa boyna many pesa to ibonyemo\\nRate ma wasupa lara
+  boyna mano to dwaro ga lemo\\nLuo rap ane kingi boyna okadewi kata iyenyo\\nLuora
+  agoyoga tizi boyna emomio ti ajengo\\nBungu ase dominate an iyuda kwonde te ka nyabende\\nKa
+  to anega the best samadonjo rapper sudo ga thenge\\nRate ma jogi ti walo donge ng''ato
+  nyalo chawake orenge\\nA rise malo Kaka iro an high to ok aywayo nyasore\\nAm in
+  charge achalo sitima\\nPile japesa to danger\\nMisitu koni ane simba\\nAtelo kanyo
+  ka mufasa\\nAn ill Monego ga thiedha\\nBedo diel ema tuoya\\nMwandu gi pesa ti lua\\nMakwoso
+  go jomanochaya\\nFlow na oridore [eyy]\\nUhula ma kokalo pwothe ji kethore [eyy]\\nYamo
+  olokore [eyy]\\nAne king obadho jogo ma chwanyore [eyy]\\nHawi ti pukore [eyy]\\nYore
+  manodinore tinde yawore [eyy]\\nNyinga ti landore [eyy]\\nAkelo new wave loke tatamore[
+  eyy]\\nAn Oyuma ok aheroga [Auu! ]\\nJomabana dhogi chwanyaga [Auu! ]\\nNg''amokinya
+  donge nenoga [Auu! ]\\nWuod Dockies an oktemaga [Auu!]\\nNgima tek kila ng''ato
+  nigi remne\\nSamaketho pesa ng''ato kwe noremne\\nTo jama no ma osoto akalo gi demne\\nJapesa
+  pilu ng''ano to onego utang''ne\\nRapper ma tinde gi suck timbe jogo chalo mege
+  okwodo\\nThumbe magolo ga bang, spinje kiyao to gigo thi pwodo\\nE game adonje masegede,
+  bwana we ga leko an ok abworo\\nAtieko ga jogi e pap teko gi onge jogo naseroyo\\nNikech
+  asebedo ga femous\\nKila ng''ato wacho ga ni ong''eya\\nNyinga tagero ga kenda\\nPenj
+  Aolo mano e ng''amo ng''eya\\nBwoya tusike ka nyima\\nAne matelo rapper ni toka\\nAjiny
+  e rap ka ane bingwa\\nChumbi nyiri mano bende nyinga\\nJapesa to nyalo ga dwanyi
+  jadha we ga bet angewa\\nLuora be nyalo ga konyi, kineno adonjo wena kora\\nPesa
+  na long ko omieri, magu to brief kaka mwala\\nNode akwano ga daily chingena rama
+  onego rwaana\\nAn Oyuma ok aheroga [Auu! ]\\nJomabana dhogi chwanyaga [Auu! ]\\nNg''amokinya
+  donge nenoga [Auu! ]\\nWuod Dockies an oktemaga [Auu!]\\nWatch Video\\nMore JAPESA
+  Lyrics\\nComments ( 0 )\\nNo Comment yet\\nSee also\\nYou May also Like\\nGet Afrika
+  Lyrics Mobile App\\nAbout AfrikaLyrics\u00c2\\nFollow Afrika Lyrics\\n\u00a9 2021,
+  New Africa Media Sarl\"", "\"Obila e Sub-County ma Awendo osechako timo nonro mar
+  yango jonjore mane onego chukdar moro ma ja higni 60 otieno mane piny ruu godo kawuono.\\nKane
+  oyangi wachnoero jalup ruoth ma gwengegoero, mikai Beatrice Awuoro Ochier ne okoni
+  ne giyudo lipot mar thoo chukdarnoero ma oyangi kod nying mar Abel Mapesa mane jonjore
+  omonjo kama ne orito ma ochwe onegogo kapok ne giyombo kod mwandu ma opogore opogore.\\nMikai
+  Awuoro ne okoni Jo njorego ne one ka Ringo kendo dhi kod Probox bang Kane gisekwalo
+  kendo nego chukdarnoero.Nek mar chukdarnoero koro oweyo ka Jodak e boma ma Awendo
+  nikod luoro ka otenore kod arita ma gikoni sani osekethore e boma ma Awendo.\\nMoko
+  kuom jodak ma Awendo ka otelnegi kod migosi Martine Ondong ne okoni gidwaro mondo
+  obila onyal chwalo tijegi kaka owinjore kane ne okoni obila nyaka chiw arita ma
+  owinjore ne ji Awendo.Nyaka e thuoloni ochukdar maromo 3 Osenegi e county ma Migori
+  e kuonde motingo kakrao,Rongo kod Awendo.\"", "\"1. En paro mane maok kare ma seche
+  moko chando ji mang\u2019eny moriwo nyaka Jokristo madier?\\nBE JEHOVA NYASAYE oheri?
+  Ji mang\u2019eny oyie ni Nyasaye ohero dhano duto mana kaka Johana 3:16 wacho. Kata
+  kamano, giwacho e chunygi niya: \u2018An to Nyasaye ok nyal hera.\u2019 Kata mana
+  Jokristo madier be nyalo bedo gi paro ma kamano kinde moko. Ng\u2019at moro ma chunye
+  ne onyosore ne owacho niya: \u201cAwinjo ka tekna ahinya yie ni Nyasaye ohera.\u201d
+  Be seche moko ibedoga gi paro ma kamano?\\n2, 3. En ng\u2019ano madwaro ni mondo
+  wapar ni wan joma nono kata ma Jehova ok nyal hero, to ere kaka wanyalo kedo gi
+  paro maok kareno?\\n2 Satan temo ahinya mondo omi wapar ni Jehova Nyasaye ok oherowa
+  kendo ni ok okawowa kaka gimoro. En adier ni Satan kinde mang\u2019eny wuondo ji
+  mondo gibed joma kawore kata gibed gi sunga. (2 Jo Korintho 11:3) To komachielo
+  bende, ohero miyo joma yomyom ochare kata okawre ni gin joma nono. (Johana 7:47-49;
+  8:13, 44) To ahinya ahinya otimo kamano e \u2018ndalo mag gikogi.\u2019 Ji mang\u2019eny
+  pon e udi ma ji \u2018ok ohero jowetegi.\u2019 Jomoko to odak gi joma ger, joma
+  oherore giwegi, kod joma wigi tek. (2 Timotheo 3:1-5) Nikech osetim ne joma kamago
+  marach kuom higni mang\u2019eny kijarogi kendo ka ji bedo ma mon kodgi, gisekawore
+  kaka joma nono maonge joma nyalo herogi.\\n3 Kapo ni in gi paro ma kamago, kik chunyi
+  a. Kinde ka kinde, moko kuomwa nyalo paro ni gin joma nono. Kata kamano, ket e paro
+  ni Wach Nyasaye ondik mondo \u2018orie ji\u2019 kendo Muma nigi \u2018teko mar muko\u2019
+  paro mogurore ahinya. (2 Timotheo 3:16; 2 Jo Korintho 10:4) Muma wacho kama: \u201cWanaho
+  chunywa e nyime, ka chunywa nyiso ni bura oloyowa; nikech Nyasaye duong\u2019 moloyo
+  chunywa, kendo ong\u2019eyo duto.\u201d (1 Johana 3:19, 20) We wane ane yore ang\u2019wen
+  ma Muma \u2018hoyogo chunywa\u2019 ni Jehova oherowa.\\nJehova Oheri\\n4, 5. Ere
+  kaka ranyisi ma ne Yesu otiyogo mar oyundi nyiso kaka wan gi nengo maduong\u2019
+  e wang\u2019 Jehova?\\n4 Mokwongo, Muma nyiso ni Jehova ogeno moro ka moro kuom
+  jotichne. Kuom ranyisi, Yesu nowacho kama: \u201cTo oyundi ariyo ok ing\u2019iewo
+  gi hela achiel koso? Kata kamano achiel kuomgi ok nolwar piny ma ok Wuonu ong\u2019eyo.
+  To kata mana yie wiu osekwan duto. Kuom mano kik uluor; un uloyo winy mang\u2019eny.\u201d
+  (Mathayo 10:29-31) Ne ane kaka wechego ne ojiwo joma ne winjo Yesu.\\n5 Samoro wanyalo
+  wuoro gimomiyo ng\u2019ato ne nyalo ng\u2019iewo oyundi. E kinde ma ne Yesu odak
+  e piny, oyundi e winyo ma ne nengone ni pinyie mogik ma ne ng\u2019ato nyalo nyiewo
+  mondo ocham. Hela achiel ma ne en pesa matin ahinya, ne nyalo ng\u2019iewo oyundi
+  ariyo. To bang\u2019e, Yesu noduogo owacho ni ka ng\u2019ato ne nigi hela ariyo,
+  ne imiye oyundi abich kar ang\u2019wen. Winyo ma ne ingesono ne ikawo ka gima nono
+  maok nyal wang\u2019o jauso. Nyalo bedo ni dhano ne neno winyogo kaka gik ma nono,
+  Nyasaye to ne nenogi nade? Yesu nowacho kama: \u201cOnge achiel kuomgi [kata mana
+  winyo ma ne ingesono] ma ok par e nyim Nyasaye.\u201d (Luka 12:6, 7) Koro wanyalo
+  neno puonj ma Yesu ne chiwo. Ka oyundi achiel ema Jehova ne neno ka gima duong\u2019
+  kamano, to nade dhano? Mana kaka Yesu nowacho, Jehova ong\u2019eyo gimoro amora
+  kuomwa. Ne ni Nyasaye ong\u2019eyo kata mana kwan mag yie wiwa!\\n6. Ang\u2019o
+  momiyo wan gadier ni Yesu ne ok ojimbo wach kane owacho ni Jehova ong\u2019eyo kwan
+  mag yie wiwa?\\n6 Be nyalore ni Jehova ong\u2019eyo kwan mag yie wiwa? Jomoko nyalo
+  paro ni Yesu ne jimbo wach. Kata kamano, tem ane paro geno ma wan-go mar chier.
+  Mondo Jehova ochwe ng\u2019at ma ne osetho kaka ne en ndi, donge nyaka bed ni ong\u2019eyo
+  gimoro amora kuome? Ogenowa ahinya e okang\u2019 ma ong\u2019eyo gik moko duto kuomwa
+  moriwo kitwa, pachwa, kod gik moko te ma wakaloe e ngimawa. * Kwano yie wi dhano,
+  ma kinde mang\u2019eny romo 100,000 kama, en gima tin ahinya ne Jehova kopim gi
+  nyalo ma en go mar ng\u2019eyo gik moko duto kuomwa.\\nAng\u2019o ma Jehova Ng\u2019iyo
+  Kuomwa?\\n7, 8. (a) Sama Jehova nono chuny dhano, gin kido mage ma more? (b) Moko
+  kuom tije mwatimo ma Jehova morgo gin mage?\\n7 Mar ariyo, Muma puonjowa gima Jehova
+  ng\u2019iyo kuom jotichne. Koket e yo mayot, gima Jehova morgo en kido mabeyo ma
+  wan-go kod kinda ma watiyonego. Ruoth Daudi nowacho ne wuode Solomon niya: \u2018Jehova
+  ng\u2019iyo chuny ji duto, kendo ong\u2019eyo paro duto maiye mar chuny.\u2019 (1
+  Weche mag Ndalo 28:9) Sama Jehova nono dhano tara gi tara e piny ma tinde gero opong\u2019oni,
+  donge omor ndi sama oyudo chuny ji achiel achiel mohero kuwe, adiera, kod timbe
+  makare? Iparo ni Nyasaye winjo nade sama oyudo ng\u2019at ma nigi chuny mohere,
+  madwaro ng\u2019eye, kendo madwaro nyiso jomoko gik mosepuonjore kuome? Jehova nyisowa
+  ni omor gi joma wuoyo gi jomoko e wiye. En kata gi \u2018kitabu\u2019 mondikoe nyinge
+  \u2018jogo moluore kendo ma paro nyinge.\u2019 (Malaki 3:16) Kido ma kamago more
+  ahinya.\\n8 Moko kuom tije mabeyo ma Jehova ohero gin mage? Onge kiawa ni ohero
+  kinda ma watimo mondo waluw ranyisi mar Wuode, Yesu Kristo. (1 Petro 2:21) Achiel
+  kuom tije madongo ma Nyasaye okawo kaka gima duong\u2019 en lando wach maber mar
+  Pinyruodhe. Wasomo kama e bug Jo Rumi 10:15: \u201cJogo ma kelo weche mabeyo, tiendgi
+  long\u2019o miwuoro!\u201d Nyalo bedo ni teknwa paro ni tiendewa nyalo bedo gik
+  \u2018malong\u2019o,\u2019 kata malombo wang\u2019. Kata kamano, e ndikoni, tielo
+  ochung\u2019 ne kinda ma jotich Jehova timo e lando wach maber. Kinda ma kamago
+  duto long\u2019o kendo duong\u2019 e wang\u2019 Nyasaye.\u2014Mathayo 24:14; 28:19,
+  20.\\n9, 10. (a) Ang\u2019o momiyo wanyalo bedo gadier ni sama wanano e chandruoge
+  mopogore opogore, Jehova kawo mano kaka gima duong\u2019? (b) Sama Jehova nono jotichne,
+  en ang\u2019o maok otim ngang\u2019?\\n9 Gimachielo ma Jehova morgo en neno kaka
+  wanano. (Mathayo 24:13) Ng\u2019e ni Satan dwaro ni walok ne Jehova ng\u2019ewa.
+  Odiechieng\u2019 kodiechieng\u2019 michung\u2019 motegno kimakori gi Jehova, inyiso
+  ni Satan nohango ne Jehova wach. (Ngeche 27:11) Seche moko, nano ok en gima yot.
+  Tuoche, pek mag yuto, parruok, kod chandruoge mamoko nyalo miyo ngimawa obed matek.
+  Chunywa be nyalo nyosore kapo ni nitie gimoro ma ne wagombo to ok otimore. (Ngeche
+  13:12) Ka wanano e chal ma kamago, Jehova kwano mano kaka gima duong\u2019 ahinya.
+  Mano e momiyo Ruoth Daudi nokwayo Jehova ka en gadier niya: \u201cKan pi wang\u2019a
+  e chupani; ok gin e kitapi koso?\u201d (Zaburi 56:8) Chutho, Jehova neno pi wang\u2019
+  mwachwero kod chandruok mwakaloe sama wanano kwamakore kode, kendo ok one mago kaka
+  gima tin kendo wiye ok nowil kodgi. Kuom adier, pi wang\u2019 kod chandruoge ma
+  kamago nigi nengo maduong\u2019 ahinya e wang\u2019 Jehova.\\nSama wanano e sand,
+  Jehova kawo mano kaka gima duong\u2019\\n10 Nyalo bedo ni kata mana bang\u2019 ng\u2019eyo
+  weche ma kamagi, pod chunywa nyalo tamore yie ni Nyasaye kawowa kaka joma nengogi
+  duong\u2019. Inyalo siko kiwacho e chunyi niya: \u2018Nitie joma ng\u2019eny ma
+  tiyo ne Nyasaye e yo maber moloya. Nyaka bed ni Jehova jok koda sama opima gi joma
+  kamago!\u2019 Kata kamano, ng\u2019e ni Jehova ok pimwa gi jowetewa; ok orid chik
+  kendo ok oger. (Jo Galatia 6:4) Jehova tiyo gi rieko ma malo chutho sama osomo chunywa
+  kokawo kido moro amora maber mayudore e chunywa kaka gima duong\u2019 kata bed ni
+  wan gi kidono e okang\u2019 matin maromo nade.\\nJehova Manyo Gik Mabeyo Kuomwa
+  to Ok Maricho\\n11. Ang\u2019o mwanyalo puonjore e wi Jehova kuom gima ne otimo
+  ne Abija?\\n11 Mar adek, sama Jehova nonowa, omanyo gik mabeyo kuomwa. Kuom ranyisi,
+  kane Jehova ochiko ni otiek koth Ruoth Jeroboam kata dhoode duto nikech ne ging\u2019anjo,
+  ne ochiko ni Abija, ma ne en achiel kuom yawuot ruoth, to oyik e yo mowinjore. Nikech
+  ang\u2019o? Nikech ne \u201coyud gimoro maber kuome e nyim Jehova Nyasach Israel.\u201d
+  (1 Ruodhi 14:1, 10-13) Jehova ne onono chuny rawerano adimba moyudo \u201cgimoro
+  maber kuome.\u201d Kata bed ni gima ber ma ne oyud kuomeno ne tin marom nade, Jehova
+  nokwano mano kaka gima owinjore ondik e Muma. Ne ni gimoro maber ma ne Abija otimo
+  nomiyo Jehova okeche e okang\u2019 moro.\\n12, 13. (a) Ere kaka gima Jehova notimo
+  ne Ruoth Jehoshafat nyiso ni omanyo gik mabeyo kuomwa kata sama watimo richo? (b)
+  Ere kaka Jehova chalo gi janyuol ma jahera kodok korka tijewa kod kido mabeyo ma
+  wan-go?\\n12 Ranyisi moro maber moloyo nenore e wi kaka Jehova notimo ne Ruoth Jehoshafat.
+  Kane ruodhno otimo tim fuwo, Jehova nooro janabine mondo onyise niya: \u201cMirima
+  omako Jehova kodi nikech wachni.\u201d Mano doko wach matek! Kata kamano, weche
+  Jehova ne ok orumo gi kanyo. Ne omedo wacho niya: \u201cKata kamano oyud gik moko
+  mabeyo kuomi.\u201d (2 Weche mag Ndalo 19:1-3) Kuom mano, mirima mar Jehova ne ok
+  oumo wang\u2019e maok oneno gik mabeyo kuom Jehoshafat. To mano kaka Jehova opogore
+  gi dhano ma joricho! Sama jomoko ochwanyowa, wiwa jowil gi kido duto mabeyo ma gin-go.
+  Wan be sama watimo richo, chuny monyosore mwabedogo, wichkuot, kod chuny ma ng\u2019adonwa
+  bura nyalo miyo kik wane gimoro amora maber kuomwa. Kata kamano, ng\u2019e ni ka
+  waloko chunywa chuth kendo temo mondo kik wanwo gik maricho ma ne watimogo, Jehova
+  weyonwa kethowa.\\n13 Sama Jehova nono chunyi, owalo kendo oketo mabor richo ma
+  kamago mana kaka ng\u2019at ma kunyo dhahabu wito kite ma nono moyudo. To Jehova
+  neno nade kido mabeyo ma in-go kod gik mabeyo mitimo? Mago e gik mokano! Be iseneno
+  ka jonyuol moko kano kuom higni mang\u2019eny gimoro ma nyathigi noloso kata obedo
+  ni nyathi to wiye nosewil gi gino chon? Jehova e janyuol mohero nyithinde moloyo.
+  Kinde duto ma wamakore kode, wiye ok wil ngang\u2019 gi gik mabeyo mwasetimo kod
+  kido mabeyo ma wan-go. Timo kamano nyalo bedo tim maok kare, to en ok onyal timo
+  gima ok kare ngang\u2019. (Jo Hibrania 6:10) Jehova nonowa bende e yo moro machielo.\\n14,
+  15. (a) Ang\u2019o momiyo nyawowa ok mon Jehova neno gik mabeyo kuomwa? Chiw ane
+  ranyisi. (b) Jehova biro timo ang\u2019o gi kido mabeyo moyudo kuomwa, to ere kaka
+  oneno jotichne?\\n14 Jehova ok ng\u2019i mana nyawowa kende to ong\u2019iyo nyaka
+  nyalo ma wan-go. Ne ane ranyisini: Kapo ni goro moro okethore, joma ohero gik ma
+  kamago timo kinda ahinya mondo gilose kendo gidwoke e wang\u2019e. Kuom ranyisi,
+  nitie goro moro ma ne Leonardo da Vinci ogoro kendo ne osebedoe kuom higni 500 to
+  ne okane e National Gallery man London e piny England. Nengo gorono ne romo dola
+  milion 30 mag Amerka. Kata kamano, chieng\u2019 moro, ng\u2019ato ne ogoyo gorono
+  gi bunde ma okethe. Gima iwuoro en ni onge kata mana ng\u2019at achiel ma ne owacho
+  ni owit gorono nikech koro nosekethore. Kanyo gi kanyo, nochak los goro ma ne nengone
+  duong\u2019no. Nikech ang\u2019o? Nikech e wang\u2019 joma ohero gik ma kamago,
+  gorono ne en gima duong\u2019 ahinya. Iparo nade, donge in gi nengo maduong\u2019
+  moloyo gima ogor mana gi chok gi makaa? E wang\u2019 Nyasaye, wan gi nengo maduong\u2019
+  kata ka richo ma ne onyuolwago oseketho kama rom nade kuomwa. (Zaburi 72:12-14)
+  Jehova Nyasaye ma e Jachwech mang\u2019ula ma ne ochweyo oganda dhano biro timo
+  duto madwarore mondo oduok ne ji duto mohere ngima makare chuth.\u2014Tich Joote
+  3:21; Jo Rumi 8:20-22.\\n15 Ee, Jehova neno gik mabeyo kuomwa manyalo bedo ni wan
+  wawegi ok wane. Kendo kaka wamedo tiyone, obiro miyo kido mabeyo ma wan-go omedre
+  nyaka gikone wabed joma kare chuth. Kata bed ni piny Satan timonwa marach machalo
+  nade, Jehova ohero jotichne kendo okwanogi kaka joma nigi nengo maduong\u2019.\u2014Haggai
+  2:7.\\nYore ma Jehova Nyisogo ni Ohero Dhano\\n16. Gima duong\u2019ie moloyo ma
+  ne Jehova omiyowa konyisogo ni oherowa en ang\u2019o, to ang\u2019o momiyo wanyalo
+  bedo gadier ni michno ne ochiw ne ng\u2019ato ka ng\u2019ato kuomwa?\\n16 Mar ang\u2019wen,
+  Jehova nyiso e yore mang\u2019eny ni oherowa. Kuom adier, mopogore gi kaka Satan
+  dwaro ni wapar, misango mar rawar ma ne Kristo ochiwo nyiso e yo maber moloyo ni
+  ok wan joma nono kata ma Nyasaye ok nyal hero. Kik wiwa wil ni tho malit ma ne Yesu
+  othogo e yadh sand kod lit malich miwuoro ma ne Jehova owinjo koneno ka Wuode mohero
+  tho, nyisowa ayanga ni giherowa. Gima lit en ni ji mang\u2019eny ok par ni gin bende
+  Yesu ne othonegi. Gineno ni gin joma nono. Kata kamano, ranyisi mar jaote Paulo
+  ma kinde moko nosando jolup Kristo nyalo jiwowa ahinya nimar kata obedo ni nosando
+  Jokristo kamano, bang\u2019 bedo Jakristo nowacho niya: \u2018Wuod Nyasaye nohera,
+  kendo nochiworena.\u2019\u2014Jo Galatia 1:13; 2:20.\\n17. Jehova tiyo gi ang\u2019o
+  e ywayowa ire kaachiel gi Wuode?\\n17 Jehova nyiso ni oherowa kuom konyo ng\u2019ato
+  ka ng\u2019ato kuomwa oyud ber ma misango ma ne Kristo ochiwo kelo. Yesu nowacho
+  niya: \u201cOnge ng\u2019a ma nyalo biro ira, ma ok Wuoro ma noora e moywaye.\u201d
+  (Johana 6:44) Ee, Jehova owuon ema ywayowa ir Wuode kendo miyowa geno mar yudo ngima
+  mochwere. E yo mane? Otimo kamano kokalo kuom tij lendo ma miyo wach maber chopo
+  ne ng\u2019at achiel achiel, kendo otiyo gi roho mare maler ma konyowa winjo adiera
+  mayudore e Muma kendo roho mare konyowa tiyo kod adierago kata obedo ni warem kendo
+  wajoricho. Omiyo, mana kaka Jehova nowacho ne Jo-Israel, onyalo nyiso ng\u2019ato
+  ka ng\u2019ato kuomwa niya: \u201cAseheri gi hera mochwere; e momiyo aseyuayo chunyi
+  kang\u2019wononi.\u201d\u2014Yeremia 31:3.\\n18, 19. (a) Yo maduong\u2019ie moloyo
+  ma Jehova nyisogo ni oherowa en mane, to ang\u2019o manyiso ni okawo ting\u2019no
+  en owuon? (b) Ere kaka Wach Nyasaye miyo wabedo gadier ni Jehova winjo kwayo mag
+  ji kodewogi?\\n18 Nyalo bedo ni yo maberie moloyo mwanenoe hera ma Jehova oherowago
+  en thuolo momiyowa mar lemo. Muma jiwo ng\u2019ato ka ng\u2019ato kuomwa mondo \u2018olem
+  maok owe.\u2019 (1 Jo Thessalonika 5:17) Nyasaye winjowa. Iluongo Jehova ni Jal
+  \u201cma winjo kwayo mar ji.\u201d (Zaburi 65:2) Nyasaye ok omiyo ng\u2019ato ang\u2019ata,
+  kata mana Wuode owuon, migawo mar winjo lemo mag ji. Par ane wachni: Jachwech polo
+  kod piny jiwowa mondo wawuo kode e lemo ka wan thuolo. To owinjowa gi chuny mane?
+  Be owinjowa gi chuny mang\u2019ich ng\u2019ich, maonge hera, kata maok dew? Ooyo
+  ngang\u2019.\\n19 Jehova en ng\u2019ama dewo ji. Dewo ng\u2019ato tiende en ang\u2019o?
+  Jakristo moro ma hike oniang\u2019 nolero ni dewo ng\u2019ato en \u201ckawo litne
+  obed mari.\u201d Be Jehova winjo malit ka wachandore? Muma wacho kama kuom kinde
+  ma ne Jo-Israel chandore: \u201cWeche duto ma nothagogi en bende ne githage.\u201d
+  (Isaiah 63:9) Jehova ne ok oneno anena chandruogegi, to bende nowinjo malit ne joge.
+  Lit ma Jehova winjo nenore ayanga e weche ma Jehova owuon ne owacho ne jotichne
+  niya: Ng\u2019at \u2018mamulou mulo mana tong wang\u2019a.\u2019 * (Zekaria 2:8)
+  To mano dibed malit manade! Ee, Jehova winjo malit sama wachandore. Gima chandowa,
+  chande obende.\\n20. En paro mane maok onego wabedgo ka wadwaro luwo puonj mayudore
+  e bug Jo Rumi 12:3?\\n20 Jakristo ma nigi paro mowinjore ok bi bedo gi sunga kata
+  paro ni en ng\u2019at maduong\u2019 ahinya nikech hera mogundho ma Jehova nyiso
+  dhano. Jaote Paulo nondiko kama: \u2018Kuom ng\u2019wono ma nomiya, awacho ne ng\u2019ato
+  ka ng\u2019ato kuomu ni kik obed gi paro moting\u2019ore moloyo kaka owinjore obedgo,
+  to mondo opar kare kaka Nyasaye osepogo ne ng\u2019ato ka ng\u2019ato pok mar yie.\u2019
+  (Jo Rumi 12:3) Loko machielo to wacho kama: \u201cNg\u2019ato ka ng\u2019ato kuomu
+  kik ketre e duong\u2019 ma oongego, to onere e yo mowinjore.\u201d (A Translation
+  in the Language of the People, molok gi Charles B. Williams) Omiyo, kata obedo ni
+  wamor ni Wuonwa me polo oherowa, we wasik gi paro mowinjore ka wang\u2019eyo ni
+  ok en ni wasetimo maber ahinya e momiyo Nyasaye oherowa, to en mana nikech ng\u2019wono
+  mar Nyasaye.\u2014Luka 17:10.\\n21. Gin miriambo mage mag Satan monego wadhi nyime
+  kwedo kinde duto, to en adiera mane mayudore e Muma mwanyalo hoyogo chunywa?\\n21
+  Mad moro ka moro kuomwa otim duto monyalo mondo otamre chuth miriambo mag Satan
+  moriwo paro ma Satan dwaro ni wabedgo ni wan joma nono kata joma Nyasaye ok nyal
+  hero. Kapo ni weche misekaloe e ngimani miyo ineno ni in ng\u2019at marach ma hera
+  mar Nyasaye mogundho pod ok oromo miyo ibed ng\u2019at mowinjore, kata ni tije mabeyo
+  mitimo gin gik matindo ahinya ma kata Nyasaye ma neno gik moko duto ok nyal neno,
+  kata ni richoni ng\u2019eny ma kata tho mar Wuode makende ok nyal umogi, ng\u2019e
+  ni opuonji miriambo. Kwed miriambo ma kamago gi chunyi duto! Weuru wadhi nyime hoyo
+  chunywa gi adiera mayudore e weche Paulogi: \u201cAng\u2019eyo chuth ni, tho, kata
+  ngima, kata malaika, kata ruodhi, kata gik ma timore ndalogi, kata gik ma biro timore,
+  kata teko, kata gi ma malo, kata gi ma mwalo, kata gimoro manadi mochue, ok nyal
+  pogowa gi hera mar Nyasaye moherowago e Kristo Yesu Ruodhwa.\u201d\u2014Jo Rumi
+  8:38, 39.\\n^ par. 6 Kinde mang\u2019eny, Muma wacho ni geno mar chier otenore kuom
+  gik ma Jehova paro. Jatich Nyasaye miluongo ni Ayub nowacho ne Jehova kama: \u2018Mad
+  ipandae e liel, mad iritae ling\u2019 ling\u2019, mad ichikae ndalo mong\u2019ere,
+  kendo para!\u2019 (Ayub 14:13) Yesu nowuoyo kuom chier mar \u201cji duto manie liete,\u201d
+  tiende ni joma Jehova okano e pache. Wacho kamano ne owinjore nikech Jehova paro
+  gik moko duto e wi jogo mobiro chiero.\u2014Johana 5:28, 29.\\n^ par. 19 Loko moko
+  mag Muma keto wechego ka gima ng\u2019at ma mulo oganda Nyasaye ok mul wang\u2019
+  Nyasaye to omulo wang\u2019e en owuon kata wang\u2019 Jo-Israel. Chochruokno nobedoe
+  nikech moko kuom joma ne loko Muma ne oloko ndikono ka giparo ni ndikono ne ok nyis
+  luor mowinjore ne Nyasaye. Paro mobam ma ne gin-gono nopando okang\u2019 ma Jehova
+  dewogo jotichne.\"", "\"By Alseba Akinyi Migao mar somo okwa Mondo oketie tenge
+  agulu Moro mar omenda mabiro KONYO siro chendro mag skunde Mondo okel fungeuok ne
+  jonyuol mawinjo matek mokalo kaluore kod ridruok Mar uchumi took muoch midhusi Mar
+  Corona e pachoka. Maendi en kaluore kod jaod bura ma Ugunja Migosi James Opiyo Wandayi
+  mawachoni piny owacho [\u2026]\\nJo ohala e kar dak ma obunga mayudore e county
+  ma kisumu tinende ne obedo gi achiedhnade tok ka kambi mar Kenya railways ochako
+  ayanga chenro mar muko kendo ketho utegi mag ohala odiechieng\u2019 ma kawuono.
+  Chenro no mane otelne kod city manager Abala Wanga, igeno ni biro konyo chiwo thuolo
+  ne gedo mar ndara [\u2026]\\nBy Moses Omollo Apisa ma ochung ne chwech mar oganda
+  gender and social services e county ma Migori mikai Agnes Awinja okwayo familia
+  ma opogore opogore e bomano mondo oneni odak kod kue kendo ka nitiere chandruok
+  e familia to ber mondo ginyal manyo yore mamuol ma ginyalo loso godo kwee e kindgi
+  maok mano [\u2026]\\nBy Dave Opiyo Riwruok ma kedo ne ratich jopuonj Kuppet bade
+  ma Kisumu koro okwedo mokalo lipot mane ogol kod jatend migawo mar somo ngire George
+  Magoha mane tamo jo fuambo kod keyo donjie skunde ka owacho ni jofuambo ema osebet
+  ka konyo skunde go koda golo gigo matimore marach eskunde go ka owacho ni [\u2026]\\nBy
+  Moses Omollo County commissioner ma Migori migosi Boaz Cherotich ogolo siem ne jonyuol
+  e county ma Migori mapok ochwalo nyithindegi e skul ni ondik piny ni janyuol ma
+  oyudi ka pod nikod nyathine dala gidhi mako kendo chwalo e doho kuom ketho ratich
+  nyathi mar somo. Kane oloso kod jofwambo bang tieko bura mane [\u2026]\\nBy Moses
+  omollo Jalup County commissioner ma Rongo migosi Andrew Mwiti ogolo chik ne ruodhi
+  kod jolupgi mondo onyal timo apedha mar manyo skunde ne nyithindo mapok odonjo e
+  skunde mane gisomoe nyaka ne sirkal yaw skunde ndalo 2 mokalo. Kane oloso kod jofwambo
+  e apise migosi Mwiti ne okoni ne ogolo chik ne ruothi [\u2026]\\nBy Alseba Akinyi
+  Josir lwedo yore mag somo e sub county ma Bondo osingo nenoni jopuonjre duto manenie
+  skunde duto odok kendo odhi nyime gi somo e gwengego. Kaluore kod jalup county commissioner
+  ma Bondo Migosi Paul Wanyonyi, giikore mar nenoni nyithindo duto manenie skunde
+  nyaka dwe mar adek higa mokalo kinde ma midhusi Mar [\u2026]\\nBy Moses Telloh Ywaruok
+  e laro telo e dwond buch ODM bade ma Rongo ochako muoch e okang mar ariyo bang jaod
+  bura ma Rongo migosi Paul ne luongo delegates mag dwond buch ODM bade ma Rongo e
+  nyasi mar tarik 1/1/2021 dalane. Ethuolo ni ema ne onee ka jaod bura ma Rongo kod
+  jagoro [\u2026]\\nBy Alseba Akinyi Jotend dhowedhe e sub county ma Rarieda okwa
+  mondo gine ni gigolo oko nyithindo duto manie hik dhi skul e dhowedhe go. Kaluore
+  kod jakom Mar West Asembo Beach Management Units Network Migosi Tobias Ong\u2019ar
+  Aiko, mondo okel tich mayot ne jonyuol kaachiel kod piny owacho, jotend dhowedhe
+  nyakato neni onge nyathi [\u2026]\\nBy Moses Omollo Obila e sub-county ma Awendo
+  dhi nyime kod timo nonro mar yango thoo mar miyomoro ma ja higni 26 mane loo oiko
+  e kar kunyo mula ma kanyasrega sub-location odiochieng ma nyoro e thuolo mane odhi
+  mar temo manyo kidi ma iluongoni oyaro kama wachore ni ne okier ma onyumore ei bugo
+  [\u2026]\"", "\"# 315 In Koso An\\n1. Ng`ato nodonj e ranga lulu e chieng`no,E chieng`no
+  mond` one duong`no maritowa.In koso an? In koso an?Ng`at ma nolu yo mar dhahabu,Nenruok
+  malich mobedo kanyo,Donjo e morno mwasewinjo;In koso an? In Koso an?\\n2. Ng`at
+  ma nomor ka oselocho, e chieng`no,E chieng`no, noyud osimbo kod pak kuom Ruoth;In
+  koso an? In koso an?Ng`at manone Ruodhwa man gi duong`,Ka oseloyo kuyo mar piny,Enobed
+  mamor manyaka chieng`;In Koso an? In koso an?\\n3. Ng`at manower wendno mar locho,
+  e chieng`no,E chieng`no, noriwre e wend jomosewar;In koso an? In koso an?Ng`at manochung`
+  e dho nam rang`i,Nomosre kod osiepe mowar,Nobed e duong`no manyaka chieng`;In koso
+  an? In koso an?\"", "\"Ee. Wayie kuom Yesu jal ma nowacho niya: \u201cAn e yo, kendo
+  an e adiera, kendo an e ngima; ng\u2019ato ok bi ka Wuoro ma ok okadho kuoma.\\n\u201d
+  (Johana 14:6) Wayie ni Yesu nowuok e polo mobiro e piny kendo ochiwo ngimane makare
+  obednwa rawar. (Mathayo 20:28) Thone kendo chierne miyo joma keto yie kuome oyud
+  ngima mochwere. (Johana 3:16) Bende wayie ni sani Yesu locho e polo kaka Ruoth mar
+  Pinyruodh Nyasaye, ma en pinyruoth machiegni kelo kuwe e piny mangima. (Fweny 11:15)
+  Kata kamano, waluwo kaka Yesu nowacho ni: \u201cWuora duong\u2019 moloya.\\n\u201d
+  (Johana 14:28) Omiyo ok walam Yesu nikech ok en e Nyasaye Manyalo Duto.\"", "\"Wach
+  sukari pod medo yudo paro buora nyaka sani e pachoka\u2026\\nWritten by Rodgers
+  Ogongo on August 27, 2018\\nMp Gathoni Wamuchomba-Kiambu County/photo courtesy KNA.\\nKata
+  obedo ni weche sukari osewacho e okenge buora,paropod medo mana wuok e wach onogo
+  komakore gi kaka jotelo osebedo ka golo pach gi ewach onogo.\\nKwayo koro ogol ne
+  piny owacho mondo one ni oketo mise ma biro konyo ting\u2019o malo kembe ma pachoka
+  e geng\u2019o weche mwadu ma ikelo pachoka to ok giber kod ngima oganda kaka osegabedo
+  ka wachore ni ginmwandu maok nikare.\\nKane giwuoyo e wachno,jood bura Dr Pamela
+  Odhiambo-Migori county,Faith Gitau-Nyandaru kod Hyrine Kasalu-Makueni ne jolero
+  ni ber ka piny owacho keto mise makare e ting\u2019o malo kembe mapachoka maloso
+  mwandu e yor konyo chenro mag pur kod loso mwandu makare e pachoka.\\nNe ginyiso
+  piny owacho mondo one kaka nyalo keto yore makare mar chiero kembe maloso sukari
+  pachoka mar geng\u2019o midhiero makoro gisani okwako Kenya komakore gi weche sukari
+  masani pod yuod seyo buora e pachoka.\\nBende paro kmakamano ne ogol kod Joad bura
+  Gathoni Wamuchomba-Kiambu kod Dr Patrick Wainaina-Thika Town mane jowacho ni kaber
+  to twak mar sukari dwoki e do bura mondo yangi adieri mar kaka sukari maricho ne
+  odonjo pachoa.\\nJtelo go ne owacho ni nyaka sani mwandu maricho maok ni kare thoth
+  pachoka ma kaber to piny owacho onego ogeng\u2019 gi mar chiwo thuolo makare ne
+  mwandu molosi maber e pachoka ema usi ne Jokenya.\\nNe bende gigolo ranyisi mar
+  Mchele kod modhi mag tedo mabende yande omaki ka owuok e pinje maoko mawachore ni
+  ne ok ber kod ngima oganda.\"", "\"1, 2. Weche ne chalo nade kane Samuel wuoyo gi
+  oganda Jo-Israel, to ang\u2019o momiyo ne dwarore ni okonygi gilok chunygi?\\nSAMUEL
+  ne ng\u2019iyo Jo-Israel ma ne koro ochokore Gilgal kendo piny ne oling\u2019 thi.
+  Samuel, janabi moluoro Nyasaye kendo ma nosebedo jang\u2019ad-bura kuom higni mang\u2019eny,
+  ema noluongo ogandano. Nenore ni mano ne en kinde oro ma kaluwore gi kalendawa,
+  ne en dwe mar abich kata mar auchiel; kendo ngano ne oseikore ne keyo. Ang\u2019o
+  ma Samuel ne nyalo timo mondo ochop e chuny jogi?\\n2 Ogandano ne oramo ni gidwaro
+  ruoth ma dhano mondo oloch e wigi. Kata kamano, ne ok ging\u2019eyo kaka kwayono
+  ne en ketho maduong\u2019 e nyim Nyasaye kendo mano ne dhi nyiso achaye maduong\u2019
+  ne Jehova Nyasachgi koda ne janabine. Kuom timo kamano, ne ginyiso ni ok gidwar
+  Jehova obed Ruodhgi! Ang\u2019o ma Samuel ne nyalo timo mondo omi gilok chunygi?\\nNgima
+  Samuel ka pod otin nyalo puonjowa kaka wanyalo tego yie kuom Jehova kata obedo ni
+  olworwa gi jomaricho\\n3, 4. (a) Ang\u2019o momiyo Samuel ne owuoyo e wi kinde ma
+  ne en rawera? (b) Ranyisi mar Samuel nyalo konyowa nade e kindewagi?\\n3 Samuel
+  nowacho ne ogandano niya. \u201cAn aseti kendo lwar omako wiya.\u201d Nyaka bed
+  ni yie wiye ma koro notimo lwar nomiyo jogo okawo wechego mapek. Kae to nomedo wacho
+  niya: \u201cAsewuotho nyimu nyaka a tinna nyaka tinendeni.\u201d (1 Sam. 11:14,
+  15; 12:2) Kata obedo ni Samuel noseti, wiye ne ok owil gi kinde ma ne en rawera.
+  Pod ne onyalo paro maler gik ma ne otimore e kindego. Yiero ma ne otimo kane pod
+  otin ne okonye nyiso yie e ngimane duto kendo chiwore chuth ne Jehova Nyasache.\\n4
+  Samuel ne nyaka teg yiene kuom Nyasaye kata obedo ni kinde ka kinde joma ne olwore
+  ne gin joma onge yie kendo maok ochung\u2019 motegno gi Nyasaye. Kindegi bende,
+  ok yot bedo gi yie nimar wadak e piny ma ji onge yie kendo mopong\u2019 gi mibadhi.
+  (Som Luka 18:8.) We wane ane gima wanyalo puonjore kuom ranyisi mar Samuel a e tinne.\\nNotiyo
+  e \u201cNyim Jehova ka Pod En Nyathi\u201d\\n5, 6. Ere kaka ngima Samuel kane pod
+  otin nopogore gi mar nyithindo mamoko, to ang\u2019o momiyo jonyuolne ne ni gadier
+  ni ne idhi rite maber?\\n5 Ngima Samuel ka en nyathi ne opogore gi mar nyithindo
+  mamoko. Mana matin bang\u2019 weyo dhoth, ka en jahigni adek kama, ne ochako tiyo
+  e hekalu mar Jehova ma ne ni Shilo, makalo kilomita 30 kowuok dalagi ma ne ni Rama.
+  Jonyuolne, Elkana gi Hanna, ne ochiwe ne Jehova mondo otine e migawo makende kaka
+  Ja-Nazir e ngimane duto. * Be mano nyiso ni jonyuol Samuel ne ojwang\u2019e kendo
+  ne ok ohere?\\n6 Ok en kamano kata matin! Ne ging\u2019eyo ni ibiro rit wuodgi maber
+  ka en Shilo. Jadolo Maduong\u2019, Eli nochung\u2019 ne weche kuno, kendo Samuel
+  ne dhi tiyo machiegni kode. Bende ne nitie mon mogwaro ma ne tiyo tije moko e hekalu,
+  kendo ma ne nyalo konyo e rite.\u2014Wuok 38:8; Bura 11:34-40.\\n7, 8. (a) Jonyuol
+  Samuel ne jiwe nade higa ka higa? (b) Ang\u2019o ma jonyuol e kindewagi nyalo puonjore
+  kuom jonyuol Samuel?\\n7 E wi mano, Hanna gi Elkana wigi ne ok owil ngang\u2019
+  gi wuodgi makayo ma Nyasaye nomiyogi e yo makende. Hanna nokwayo Nyasaye nyathi
+  mawuoyi kosingore ni obiro chiwe mondo oti ne Nyasaye kuom ngimane duto. Higa ka
+  higa kane Hanna dhi limo Samuel, noterone arwaka ma ne odhi tiyogo e hekalu. Onge
+  kiawa ni wuoyi matinno ne mor ahinya gi limbego. Nyaka bed ni chunye ne bedo mamor
+  kowinjo weche ma jonyuolne ne jiwego ka ginyise kaka tiyo ne Jehova e hekalu en
+  gweth maduong\u2019.\\n8 Kindegi bende, jonyuol nyalo puonjore gik mang\u2019eny
+  kuom Hanna gi Elkana. Kinde mang\u2019eny, jonyuol keto pachgi duto e miyo nyithindgi
+  gige ringruok maok gikaw thuolo mar konyogi bedo gi winjruok gi Nyasaye. Jonyuol
+  Samuel to ne oketo winjruokgi gi Nyasaye ema obed gima okwongo e ngima, kendo mano
+  ne okonyo Samuel ahinya mondo obed ng\u2019at moluoro Nyasaye.\u2014Som Ngeche 22:6.\\n9,
+  10. (a) Ler ane kaka hekalu ne chalo koda kaka Samuel ne winjo ka en kuno. (Ne bende
+  weche moler piny.) (b) Nyalo bedo ni migepe mag Samuel noriwo tije mage, to iparo
+  ni rowere me kindegi nyalo luwo ranyisine e yo mane?\\n9 Tem ane neno e pachi kaka
+  wuoyino ne dongo ka en Shilo kendo bayo e gode manie alworano. Ka en e wi godego,
+  nonyalo neno hekalu mar Jehova man Shilo ka ni piny, kendo tabernakel ne more ahinya.
+  Tabernakel ne en kama ler. * Musa ema ne ochiko kaka ne onego oger tabernakel higni
+  400 motelo. Kanyo e kama ne owal ne lamo Jehova e piny mangima.\\n10 Samuel nohero
+  tiyo e hekalu. E weche ma ne ondiko bang\u2019e, wasomo niya: \u201cSamuel notiyo
+  nyim Jehova ka pod en nyathi, moruakore gi efod mar katani.\u201d (1 Sam. 2:18)
+  Nenore ni arwakano ne en ranyisi manyiso ni Samuel ne konyo jodolo e hekalu. Kata
+  obedo ni ne ok en jadolo, Samuel ne nigi migepe moriwo yawo dhoute mag hekalu gokinyi
+  kendo rito jaduong\u2019 Eli. Kata obedo ni nohero migepene, nitie gik ma ne ochako
+  chando chunye. Weche ne ok dhi maber e od Jehova.\\nNosiko Koler Kata Obedo ni ne
+  Olwore gi Jo Mibadhi\\n11, 12. (a) Hofni gi Finehas ne oketho e yo mane maduong\u2019?
+  (b) Gin timbe mage maricho ma ne Hofni gi Finehas timo e hekalu? (Ne bende weche
+  moler piny.)\\n11 Ka pod otin, Samuel noneno timbe maricho kod mibadhi mang\u2019eny.
+  Eli ne nigi yawuoyi ariyo miluongo ni Hofni gi Finehas. Weche ma ne Samuel ondiko
+  wacho niya: \u201cYawuot Eli ne joma acheje, ma ok dew Ruoth Nyasaye.\u201d (1 Sam.
+  2:12, The Bible in Luo, 1976) Weche ariyogi omakore. Hofni gi Finehas \u201cne gin
+  acheje\u201d\u2014tiende ni ne gin \u201cyawuoyi manono\u201d\u2014nikech ne ok
+  giluoro Jehova. Ne ok gidewo kata matin chike makare mag Jehova koda dwache. To
+  kanyo ema richogi duto nochakoree.\\n12 Chik Nyasaye ne nyiso achiel kachiel tije
+  jodolo kod kaka ne onego gichiw misango e hekalu mar Nyasaye. Nitie gimomiyo Chik
+  ne keto weche e yo ma achiel kachiel kamano. Misengnigo ne ochung\u2019 ne chenro
+  mar Nyasaye mar weyo ne ji richogi mondo gibed joma ler ma Nyasaye nyalo gwedho
+  kendo nyalo tayo. Kata kamano, Hofni gi Finehas noketo ne jodolo wetegi ranyisi
+  marach ma gimiyo jodologo obedo joma ok nyis luor kata matin ne misengni ma ne ichiwo.
+  *\\n13, 14. (a) Joma ne dhi e hekalu gi chuny maler ne winjo nade kuom gik maricho
+  ma ne timore kuno? (b) Ere kaka Eli ne ok ochopo ting\u2019ne kaka wuoro kata ting\u2019ne
+  kaka jadolo maduong\u2019?\\n13 Tem ane neno e pachi ka Samuel wuoyi ma rawera dhoge
+  moko sama oneno richo madongogo kadhi nyime to onge ng\u2019ama timo gimoro. Nyaka
+  bed ni ne oneno joma ng\u2019eny moriwo jochan, joma obolore, koda joma piny odiyo
+  kabiro e hekalu mondo gilos winjruokgi gi Nyasaye kendo oteggi, to kar mano, ne
+  gidok ka chunygi onyosore, ka giwinjo malit, kata ka giwinjo ni ochagi. Donge nyaka
+  bed ni Samuel ne winjo marach koneno kaka Hofni gi Finehas nochayo chike Jehova
+  kuom terore gi mon ma ne tiyo e hekalu? (1 Sam. 2:22) Nyalo bedo ni ne ogeno ni
+  Eli ne dhi timo gimoro mondo orie wechego.\\nNyaka bed ni chuny Samuel ne chandore
+  ahinya nikech gik maricho ma yawuot Eli ne timo\\n14 Eli ema ne owinjore olos wechego.
+  Nikech ne en jadolo maduong\u2019, ne en gi ting\u2019 mar neno ni weche dhi maber
+  e hekalu. Kendo kaka wuoro, en ema ne onego orie yawuotego. Timbe yawuoyigo ne hinyogi
+  kendo ne hinyo joma ng\u2019eny mamoko bende. Eli ne ok ochopo ting\u2019ne kaka
+  wuoro kata ting\u2019ne kaka jadolo maduong\u2019. Ne okwero yawuote mana e yo mayom
+  yom. (Som 1 Samuel 2:23-25.) Kata kamano, ne dwarore ni omi yawuoyigo kum mager
+  nimar richo ma ne gitimo ne owinjore mana gi tho!\\n15. Jehova nochiwo siem mane
+  mager ne Eli, to Eli gi joode ne okawo siemno nade?\\n15 Weche nomedo bedo maricho
+  mochopo kama Jehova ne ooro janabi moro moluong mana ni \u201cng\u2019at Nyasaye\u201d
+  mondo omi Eli kum mager. Jehova nonyiso Eli niya: \u201cImiyo yawuoti duong\u2019
+  moloya.\u201d Nikech mano, Nyasaye nokoro ni yawuot Eli ne dhi tho e odiechieng\u2019
+  achiel kendo ni jood Eli ne dhi yudo masira maduong\u2019 ma gilal thuolo makende
+  ma ne gin-go mar bedo jodolo. Be siem magerni nomiyo joodno olokore e yo moro amora?
+  Muma nyisowa ni Eli kod yawuote ne ok olokore.\u20141 Sam. 2:27\u20133:1.\\n16.
+  (a) Gin weche mage mwasomo e wi kaka Samuel ne dongo? (b) Ang\u2019o momiyo wechego
+  moro chunyi? Ler ane.\\n16 Be weche maricho ma ne timoregi ne oloko kit Samuel?
+  Ooyo, kinde ma ne weche richoeno, Samuel to ne dongo koluoro Nyasaye. E bug 1 Samuel
+  2:18, wasomo ni Samuel notiyo e \u201cnyim Jehova ka pod en nyathi.\u201d Kata kane
+  pod otin, gima ne duong\u2019 e ngima Samuel ne en tiyo ne Nyasaye. E kwan matindo
+  21 mar sulano, wasomo ni nyathi ma \u201cSamuel nodongo e nyim Jehova.\u201d Kaka
+  nomedo dongo, e kaka winjruokne gi Wuon mare me polo ne medo bedo motegno. Bedo
+  gi winjruok machiegni kamano gi Jehova ema nyalo geng\u2019owa mondo kik wadonj
+  e timbe maricho.\\n17, 18. (a) Ere kaka rowere ma Jokristo nyalo luwo ranyisi mar
+  Samuel sama giromo gi tem mar donjo e timbe maricho? (b) Ang\u2019o manyiso ni Samuel
+  noyiero yo makare?\\n17 Ne yot mondo Samuel opar ni nikech jadolo maduong\u2019
+  gi yawuote ne timo richo, en be nonyalo timo gimoro amora ma chunye omiye. Kata
+  kamano, gik maricho ma jomoko timo kata ka gin joma nigi migepe madongo, ok miwa
+  thuolo mar timo kaka gin. E kindewagi, rowere mang\u2019eny ma Jokristo luwo ranyisi
+  mar Samuel ka gidongo \u201ce nyim Jehova\u201d kata obedo ni moko kuom joma olworogi
+  ok ketnegi ranyisi maber.\\n18 Nikech Samuel noyiero winjo Jehova, mano ne okonye
+  nade? Wasomo niya: \u201cKendo nyathino Samuel nomedo dongo, nobedo ng\u2019a ma
+  Jehova ohero, kod ji bende.\u201d (1 Sam. 2:26) Omiyo, joma nohero Samuel ne gin
+  joma ne nyalo konye. Jehova owuon nohero wuoyini ahinya nikech chung\u2019ne motegno.
+  Kendo kuom adier, Samuel nong\u2019eyo ni Nyasache ne dhi kawo okang\u2019 mondo
+  orie weche ma ne timore Shilo. Kata kamano, nyalo bedo ni nopenjore ni mano ne dhi
+  timore karang\u2019o. Chieng\u2019 moro gotieno, Samuel noyudo dwoko mag wechego.\\n\u2018Wachi,
+  Jatichni Winjo\u2019\\n19, 20. (a) Ler ane gima notimore ne Samuel otieno moro e
+  hekalu. (b) Ere kaka Samuel nong\u2019eyo ng\u2019ama ne luonge, to nonyiso Eli
+  luor e yo mane?\\n19 Piny ne chiegni ru. Taya maduong\u2019 mar hekalu ne pod liel,
+  kata kamano, pod mudho ne nitie. Ka piny pod oling\u2019 thi, Samuel nowinjo ka
+  ng\u2019ato luonge. Noparo ni Eli, ma ne koro oti ahinya kendo wang\u2019e ne ok
+  nen maber, ema ne oluonge. Samuel nochung\u2019 kendo \u201cnoringo ir\u201d jaduong\u2019no.
+  Par ane ka wuoyino ringo gi tiende nono mondo owinj gima Eli ne dwaro? En gima ber
+  ni Samuel ne onyiso Eli luor koda muolo. Kata obedo ni Eli ne timo gik maricho,
+  pod ne en jadolo maduong\u2019 mar Jehova.\u20141 Sam. 3:2-5.\\n20 Samuel nochiewo
+  Eli kowacho niya: \u201cEra ee; nikech iluonga.\u201d To Eli nokone ni ne ok oluonge
+  kendo ni odog onindi. Samuel nochako owinjo duolno modhi ir Eli, kendo Eli nonyise
+  ni odog onindi nikech ne ok oluonge. Notimore kamano kendo mar adek! Kanyo ema Eli
+  nofwenyoe gima ne timore. Nofwenyo ni Jehova ne koro wuoyo gi joge kotiyo gi wuoyino!
+  Nikech joge ne ong\u2019anjo, kinde mang\u2019eny nosekalo nyaka ne Jehova oornegi
+  wach kokalo kuom jonabi. Eli nonyiso Samuel mondo odog onindi kendo, to wang\u2019ni
+  nonyise dwoko mowinjore omi Jehova ka Jehova oluonge kendo. Samuel notimo kamano.
+  Mapiyo nono, nowinjo kiluonge kendo ni: \u2018Samuel, Samuel!\u2019 Wuoyino nodwoko
+  niya: \u2018Wachi; jatichni winjo.\u2019\u20141 Sam. 3:1, 5-10.\\n21. Ere kaka wanyalo
+  winjo Jehova e kindegi, to ang\u2019o momiyo ber timo kamano?\\n21 Jehova noyudo
+  jatich mawinje e dala mar Shilo. Kendo Samuel ne owinjo Jehova e ngimane duto. In
+  be iwinjo Jehova kinde duto? Ok ochuno ni dwol moro owuo kodwa gotieno e yor hono
+  mondo eka wawinj dwond Jehova. Kindewagi, wanyalo wacho ni dwond Nyasaye winjore
+  kinde duto. Owuoyo kodwa kokalo kuom Wachne, ma en Muma. Kaka wamedo winjo Nyasaye
+  kendo timo kaka odwaro, e kaka yiewa medo bedo motegno. To mano e gima notimore
+  ne Samuel.\\n22, 23. (a) Ere kaka ote ma ne Samuel oluor wacho mokwongo nochopo
+  kare? (b) Ang\u2019o manyiso ni Samuel nodhi nyime ng\u2019ere kaka ng\u2019at makare?\\n22
+  Gima notimore Shilo e otienono nokelo lokruok maduong\u2019 e ngima Samuel. Kanyo
+  ema nochako bedoe gi winjruok makende gi Jehova kobedo janabi mare kendo ng\u2019at
+  mawuoyo e loye. Nyasaye nonyiso Samuel ni weche ma ne osekor e wi jood Eli ne koro
+  chiegni timore. Samuel nokwongo oluor nyiso Eli ote mar Jehova. Kata kamano, nochoko
+  chir monyiso Eli wechego, kendo Eli norwako kumno kobolore. Bang\u2019 kinde matin,
+  weche duto ma Jehova nosekoro nochopo kare: Jo-Israel nokedo gi Jo-Filistia, noneg
+  Hofni gi Finehas e odiechieng\u2019 achiel, kendo Eli owuon notho ka nonyise ni
+  wasigu okawo Ark mar Jehova.\u20141 Sam. 3:10-18; 4:1-18.\\n23 Kata kamano, Samuel
+  nodhi nyime bedo janabi moluoro Nyasaye. Muma wacho ni \u201cJehova ne ni kode,\u201d
+  kendo medo wacho ni weche duto ma ne Samuel okoro notimore.\u2014Som 1 Samuel 3:19.\\n\u201cSamuel
+  Nolamo Jehova\u201d\\n24. Bang\u2019 kinde, Jo-Israel noramo ni gidwaro ang\u2019o,
+  to ang\u2019o momiyo mano ne en richo maduong\u2019?\\n24 Be Jo-Israel noluwo ranyisi
+  mar Samuel ma gibedo joma oluoro Nyasaye kendo mochung\u2019 motegno? Ooyo. Bang\u2019
+  kinde, ne ging\u2019ado ni ok gidwar ni janabi ema obednegi jang\u2019ad-bura. Ne
+  gidwaro bedo kaka ogendni mamoko ma ne nigi ruoth ma dhano malocho e wigi. Jehova
+  nonyiso Samuel ni otimnegi kaka ne gidwaro. Kata kamano, ne dwarore ni Samuel onyis
+  Jo-Israel kaka ketho ma ne gitimo ne duong\u2019 e nyim Nyasaye. Ne giparo ni ne
+  gitamore Samuel, to kare Jehova owuon ema ne gitamore! Omiyo, Samuel noluongogi
+  gichokre Gilgal.\\n25, 26. Ka gin Gilgal, ere kaka Samuel nokonyo Jo-Israel mondo
+  ofweny kaka ne gitimo ketho maduong\u2019 e wang\u2019 Jehova?\\n25 We wadog ane
+  e weche ma nowuo kuomgi e chak sulani sama Samuel ne wuoyo gi Jo-Israel ma ne ochokore
+  Gilgal. Ka gin kanyo, Samuel ma koro noseti noparo ne Jo-Israel kaka noseluoro Nyasaye
+  e ngimane duto. Kae to wasomo kama: \u201cSamuel nolamo Jehova.\u201d Nokwayo Jehova
+  mondo oor koth maduong\u2019 gi mor polo.\u20141 Sam. 12:17, 18.\\n26 Be koth maduong\u2019
+  ne nyalo chwe e kinde mag oro? Gima kamano ne pok otimorega nyaka nene! Kapo ni
+  ne giparo ni mano ne ok nyal timore kata ne ginyiero wachno, ne ok obudho. Matin
+  nono, polo nolil. Yamo mager ne okutho ka polo to mor matek nyowuoyo. Kae to koth
+  maduong\u2019 ne ochwe. Jogo notimo nade? \u201cJi duto noluoro Jehova gi Samuel
+  ahinya.\u201d Koro, ne gifwenyo kaka ne gitimo richo maduong\u2019.\u20141 Sam.
+  12:18, 19.\\n27. Jehova neno nade jogo maluwo ranyisi mar Samuel mar nyiso yie?\\n27
+  Jehova, Nyasach Samuel, ema ne ochopo e chuny jong\u2019anjogo, to ok Samuel owuon.
+  Samuel noketo yie kuom Nyasache a e tinne nyaka obedo moti. Kendo Jehova nogwedhe.
+  Jehova pok olokore. Pod otego jogo maluwo ranyisi mar Samuel mar nyiso yie.\\n^
+  par. 5 Ja-Nazir ne ni e bwo singruok ma ne oriwo kuong\u2019ruok ni ok gibi madho
+  kong\u2019o kata lielo yie wigi. Thoth joma ne singore kamano, ne kuong\u2019ore
+  e wechego mana kuom kinde matin, to joma nok kaka Samson, Samuel, gi Johana Jabatiso,
+  ne obedo Jo-Nazir e ngimagi duto.\\n^ par. 9 Tabernakel kata sang\u2019tuari ne
+  en hema maduong\u2019. Kata kamano, ne olose gi gik ma nengogi tek ahinya\u2014pien
+  mayom, lewni motwang\u2019 maber, koda bepe ma nengogi tek ma oum gi fedha koda
+  dhahabu. Sang\u2019tuarino ne nie laru kendo ne en kod altar moger maber michiwoe
+  misengni. Kaka kinde ne medo kalo, ne omed ger ute mamoko ma jodolo ne nyalo tiyogo
+  e bath hekalu. Nenore ni Samuel ne nindo e achiel kuom utego.\\n^ par. 12 Siganano
+  nyiso yore ariyo ma ne ginyisogo achaye. Mokwongo, Chik ne nyiso achiel kachiel
+  lemo mar misango ma ne onego omi jodolo ocham. (Rapar 18:3) To e hekalu, jodolo
+  marichogo ne osieko gi tim moro marach ahinya. Ne ginyiso jotichgi ni ochwo uma
+  maduong\u2019 e agulu michwakoe ring\u2019o mar misango, kendo gimoro amora ma ne
+  umano ochwoyo ne gikawo! Mar ariyo, kane ji okelo misengnigi mondo owang\u2019 e
+  altar, jodolo marichogo ne oro jatich mondo ochun ng\u2019at machiwo misangono omiye
+  ring\u2019o mapod numu kata kapok owang\u2019 bor ne Jehova.\u2014Lawi 3:3-5; 1
+  Sam. 2:13-17.\"", "\"8\\nYesu opidho ji alufu ang\u02bcwen\\n1 E kindego oganda
+  maduong\u02bc machielo nochokore. To nikech ne gionge gi gima digicham, Yesu noluongo
+  jopuonjrene ire mowachonegi niya,\\n2 \u201cAkecho jogi nikech koro gisebedo koda
+  kae kuom ndalo adek to gionge gima digicham.\\n3 Ka agonyogi gidhi thuchegi ka gidenyo
+  kama to ginyalo podho e yo, nikech moko kuomgi oa mabor.\u201d\\n4 Jopuonjrene nodwoke
+  niya, \u201cEre kuma ng\u02bcato diyudie makati manyalo pidho jogi mayieng\u02bc
+  e dier thim machal kama?\u201d\\n5 Yesu nopenjogi niya, \u201cUn gi makati adi?\u201d\\nNegidwoke
+  niya, \u201cAbiriyo kende.\u201d\\n6 Nowachone ogandago mondo obed piny e lum. Bang\u02bc
+  mano nokawo makati abiriyogo, kendo kane osegoyo erokamano, nong\u02bcingogi bang\u02bce
+  omiyogi jopuonjrene mondo opog ji, mine gitimo kamano.\\n7 To ne gin gi rech moko
+  manok bende. Rechgi bende Yesu nogwedho momiyo jopuonjrene mondo opog ni ji.\\n8
+  Ji nochiemo moyieng\u02bc. Bang\u02bc chiemo jopuonjre nochoko ng\u02bcinjo mag
+  chiemo mane ji ochamo oweyo moromo okepe abiriyo.\\n9 Kar romb joma chwo mane ni
+  kanyo ne dirom alufu ang\u02bcwen. To ka nosegonyogi,\\n10 nodonjo e yie, kaachiel
+  gi jopuonjrene, mi gidhi e gweng\u02bc mar Dalmanutha.\\n11 Jo-Farisai nobiro mochako
+  mino wach gi Yesu. Ne gikone mondo omigi ranyisi moa e polo, ka giteme.\\n12 Yesu
+  noomo chunye aming\u02bca bang\u02bce owacho niya, \u201cTieng\u02bcni dwaro ranyisi
+  mar hono nang\u02bco? Awachonu adier ni onge ranyisi moro amora mibiro migi.\u201d\\n13
+  Yesu noweyogi mi odok odonjo e yie mong\u02bcado nam odok loka machielo.\\nThowi
+  mar jo-Farisai gi mar Herode\\n14 Jopuonjrene wigi nowil ma ok giting\u02bco makati,
+  makmana makati achiel kende ema ne gin-go e yie.\\n15 Yesu nosiemogi kawachonegi
+  niya, \u201cBeduru motang\u02bc kendo ritreuru maber kuom thowi mar jo-Farisai gi
+  mar Herode.\u201d\\n16 Ne giwuoyo kendgi kuom wachni kagiwacho niya, \u201cOwuoyo
+  kamano nikech waonge gi makati.\u201d\\n17 To kaka nong\u02bceyo gima negiwacho,
+  Yesu nopenjogi niya, \u201cAng\u02bco momiyo uwacho ni uonge gi makati? Kare pok
+  uneno kata wach pok odonjonu? Dipo ni chunyu odinore?\\n18 Marang\u02bco un gi wengeu
+  to ok unyal neno, kendo un gi it to ok unyal winjo? Donge uparo gik mane atimo?\\n19
+  Kane ang\u02bcingo makati abich mondo ji alufu abich ocham, ne uchoko ng\u02bcinjo
+  mopong\u02bco okepe adi?\u201d\\nNegidwoke niya, \u201cApar gariyo.\u201d\\n20 \u201cTo
+  kane ang\u02bcingo makati abiriyo ne ji alufu ang\u02bcwen, nuchoko okepe adi mag
+  ng\u02bcinjo?\u201d\\nNegidwoke niya, \u201cAbiriyo.\u201d\\n21 Eka Yesu nowachonegi
+  niya, \u201cPod ok uwinjo tiend wach?\u201d\\nYesu ochango muofu Bethsaida\\n22
+  Negichopo Bethsaida, kendo jomoko nokelo ne Yesu muofu moro mi gikwayo mondo omule.\\n23
+  Yesu nomako lwet ng\u02bcatno mi otere oko mar dalano. Ka noseng\u02bculo olawo
+  e wang\u02bc muofuno noketo lwete kuome, eka nopenje niya, \u201cBende ineno gimoro?\u201d\\n24
+  Ng\u02bcatno noting\u02bco wiye, mong\u02bcicho bang\u02bce owacho ni Yesu niya,
+  \u201cAneno ji, ka gichalo gi yiende mawuotho koni gi koni.\u201d\\n25 Yesu nochako
+  oketo lwetene e wenge ng\u02bcatno kendo, mi wengene noyawore mi koro nonyalo neno
+  gik moko duto maler.\\n26 Bang\u02bc mano Yesu nochike mondo odhi pacho, kowachone
+  niya, \u201cKik iraw e dala mar Bethsaida.\u201d\\nPetro ohulo ni Yesu e Kristo\\n27
+  Bang\u02bce Yesu gi jopuonjrene ne jowuok modhi e gwenge mag Kaisaria Filipi. To
+  kane gin e yo gidhi, nopenjogi niya, \u201cUwinjo ji wacho ni An ng\u02bca?\u201d\\n28
+  Negidwoke niya, \u201cJomoko wacho ni in Johana Ja-batiso, to jomoko wacho ni in
+  Elija, to jomoko bende wacho ni in achiel kuom jonabi machon.\u201d\\n29 Yesu nomedo
+  penjogi niya, \u201cTo un to? Uwacho ni An ng\u02bca?\u201d\\nPetro nodwoke niya,
+  \u201cIn e Kristo.\u201d\\n30 Bang\u02bc mano Yesu nosiemogi ni kik ginyis ng\u02bcato
+  ang\u02bcata ng\u02bcama en.\\nYesu okoro tho mare\\n31 Koa kanyo Yesu nochako puonjogi
+  ni Wuod Dhano nyaka yud sand mang\u02bceny kendo ibiro kwede gi jodong oganda gi
+  jodolo madongo kod jopuonj chik, bende nyaka nonege kendo chieng\u02bc mar adek
+  nochier kendo.\\n32 Wechegi nowacho ayanga, mi Petro nokawe otere tenge mi okwere
+  ni owe wuoyo kamano.\\n33 To Yesu nolokore mong\u02bciyo jopuonjrene, bang\u02bce
+  to okwero Petro kowacho niya, \u201cWuog oko e nyima Satan! Iketo pachi kuom dwaro
+  dhano, to ok kuom dwach Nyasaye.\u201d\\n34 Eka Yesu noluongo oganda ire, kaachiel
+  gi jopuonjrene mi owachonegi niya, \u201cKa ng\u02bcato dwaro luwo bang\u02bca to
+  nyaka okwedre kende owuon kendo oting\u02bc msalape eka oluwa.\\n35 Nimar ng\u02bcama
+  dwaro reso ngimane, ngimane biro lalne, to ng\u02bcatno mowito ngimane nikech an
+  kendo nikech Injili nores ngimane.\\n36 Ere ber ma ng\u02bcato yudo ka piny duto
+  obedo mare to ngimane to olalne?\\n37 Koso en ang\u02bco ma ng\u02bcato dichiw mondo
+  owil gi ngimane?\\n38 Ka ng\u02bcato wiye kuot koda kod wechena e kind tieng\u02bc
+  mobam kendo matimo richoni, to Wuod Dhano bende wiye nokuod kode chieng\u02bc manoduogi
+  gi duong\u02bc mar Wuoro, kaachiel gi Malaike maler.\u201d\"", "\"Mathayo 5:21-42\\nNek\\n\u201cUsewinjo
+  ni ne owach ne joma chon ni, \u2018Kik ineki,5:21 Wuo 20:13 kendo ng\u02bcato ang\u02bcata
+  moneko ibiro ng\u02bcadne bura.\u2019 Anto anyisou ni ng\u02bcato ang\u02bcata ma
+  mirima omako gi nyawadgi ibiro ng\u02bcadne bura. Bende, ng\u02bcato ang\u02bcata
+  mowachone nyawadgi ni, \u2018Raka,\u2019 ma tiende ni ifuwo, nyaka yal e buch jo-Sanhedrin.
+  To ng\u02bcato ang\u02bcata mowacho ni, \u2018Ifuwo nade,\u2019 biro neno chandruok
+  mar mach mar Gehena.\\n\u201cKuom mano, ka ichiwo michni e nyim kendo mar misango
+  to iparo ka in kanyo ni nyawadu ni kodi gi wach, to we michnino piny kanyo e nyim
+  kendo mar misango. Kuong idhi ilos kindi gi nyawadu; eka ibi ichiw michni.\\n\u201cLos
+  weche piyo piyo gi ng\u02bcama odonjoni madwa teri e od bura. Tim kamano kapod un
+  kode e yo, nono to onyalo keti e lwet jang\u02bcad bura to jang\u02bcad bura nyalo
+  keti e lwet askari, kendo inyalo boli e od twech. Awachoni adier ni ok niwuog oko
+  nyaka ichul faini duto monego ichul ma ok orem kata ndururu.\\nTerruok\\n\u201cUsewinjo
+  ni ne owach ni, \u2018Kik iterri.\u20195:27 Wuo 20:14 Anto anyisou ni ng\u02bcato
+  ang\u02bcata morango dhako gi gombo oseterore kode gi ei chunye. Ka wang\u02bci
+  ma korachwich miyo itimo richo to lodhe oko kendo iwite. Ber moloyo ka iwito fuon-ni
+  achiel mar ringri moloyo ka ringri duto owiti e gehena. Kamano bende ka lweti ma
+  korachwich miyo itimo richo, to ng\u02bcade oko iwite. Ber moloyo ka iwito fuon-ni
+  achiel moloyo ka ringri duto odhi e gehena.\\nKetho keny\\n\u201cOsewachi ni, ng\u02bcato
+  ang\u02bcata moketho keny gi chiege nyaka miye barup weruok mar ketho keny.5:31
+  Rap 24:1 An to awachonu ni ng\u02bcato ang\u02bcata moriembo chiege nikech wach
+  moro amora makmana richo mar terruok, miyo chiegeno donjo e richo mar terruok, kendo
+  ng\u02bcato ang\u02bcata mokendo dhako makamano bende donjo e richo mar terruok.\\nKwong\u02bcruok\\n\u201cUsewinjo
+  bende ni nowachi ni, \u2018Kik iketh kwong\u02bcruok, to riti kwong\u02bcruok moro
+  amora misetimone Ruoth Nyasaye.\u2019 Anto anyisou ni kik ukwong\u02bcru kata matin:
+  Kik ukwong\u02bcru gi polo nimar en e kom loch mar Nyasaye; kata gi piny, nimar
+  en e raten tiende; kata gi Jerusalem, nikech en e dala maduong\u02bc mar Ruoth Maduong\u02bc.
+  Kendo kik ukwong\u02bcru gi wiu, nikech ok unyal loko yie wich achiel bedo marachar
+  kata marateng\u02bc. Neuru ni \u2018Ee maru\u2019 obedo \u2018Ee,\u2019 kendo \u2018Ooyo\u2019
+  obedo \u2018Ooyo.\u2019 Gimoro amora mopogore gimaa en gima oa kuom ng\u02bcat marach.\\nWang\u02bc
+  kar wang\u02bc\\n\u201cUsewinjo ni nowachi ni, \u2018Wang\u02bc kar wang\u02bc kendo
+  lak kar lak.\u20195:38 Wuo 21:24; Lawi 24:20; Rap 19:21 Anto anyisou ni kik utam
+  ng\u02bcat marach timo gima odwaro timo. Ka ng\u02bcato othalo lembi ma korachwich
+  to lokne komachielo bende, kendo ka ng\u02bcato dwaro yalo kodi mondo okaw lawi
+  mar akor to wene kotini bende. Ka ng\u02bcato ochuni mondo ikowe kilomita achiel
+  gi nus to dhi kode kilomita adek. Ka ng\u02bcato okwayi gimoro to miyeuru, kendo
+  kik ilok kiti ne ng\u02bcat madwaro ni ihole gimoro.\"", "\"Warwaki ahinya mondo
+  ilim ofisewa kod kuonde ma wagoye buge. Ng\u2019e kuonde minyalo limo kod seche
+  mag limbe.\\nPortugal\\nRua Conde Bar\u00e3o, 511\\nP-2649-513 ALCABIDECHE\\nPORTUGAL\\n+351
+  214-690-600\\nLimo Ofis\\nWuok Tich nyaka Tich Abich\\nSa 2:30 okinyi nyaka 5:30
+  okinyi kod 7:30 odiechieng\u2019 nyaka 10:30 odhiambo\\nOkawo sa 1\\nTije Mitimo\\nKowo
+  buge ne kanyakla mokalo 700 e piny Portugal, Azores, Madeira, Cape Verde, S\u00e3o
+  Tom\u00e9 & Pr\u00edncipe. Loso gik momaki miwinjo kod vidio e dho European Portuguese
+  kod Portuguese Sign Language.\"", "\"Kwano step mag spiral\\nYie inyis pimo ma dwarore\\nH
+  - Bor mar step\\nD1 - O.D.\\nD2 - Diamita ma iye\\nC - Namba mar okang''\\nZ - Kido
+  mar okang''\\nA - angle mar loko step\\nrango\\nOwinjore ni bor mar step ma ni e
+  step ma nigi spiral obed matin moloyo sentimita 80.\\nOkang\u2019 ma ng\u2019ato
+  nyalo ng\u2019adogo step e kar diere onego obed ma ok okalo sentimita 20-25, to
+  e kar lach moloyo - ok onego okalo sentimita 40.\\nOboke mar step mag step ma ng\u2019ato
+  nyalo ng\u2019ado nyalo bedo maduong\u2019 moloyo bor ma idwaro ni otimgo step ma
+  ng\u2019ato nyalo ng\u2019adoe.\\nOboke ma pile pile mar step mag wuotho en sentimita
+  16, to step ma ng\u2019ato nyalo ng\u2019ado en sentimita 18.\\nE kama tiende ng\u2019ato
+  ng\u2019adoe, ng\u2019ado ng\u2019wech mar ng\u2019ado ng\u2019wech ma spiral onego
+  obed ma romo sentimita 25-30, e bath ng\u2019et - ma ok okalo sentimita 30-35.\\nOkang\u2019
+  ma iye biro bedo mayot ahinya.\\nPimo mag step mag step mag spiral.\\nh - bor mar
+  okang''\\nW1 - lach mar step e kar lach\\nW2 - lach mar okang'' ma onge gimoro\\na
+  - angle mar okang'' mar loso\""]'
+src_ngrams: '{"1": [[["e"], 70200], [["ne"], 55766], [["ni"], 47746], [["gi"], 45521],
+  [["mar"], 34528]], "2": [[["kata kamano"], 3717], [["e piny"], 3707], [["e wi"],
+  3477], [["ne ok"], 3129], [["e yo"], 2697]], "3": [[["kata obedo ni"], 1388], [["gik
+  moko duto"], 1096], [["ato ka ng"], 714], [["joneno mag jehova"], 605], [["e higa
+  mar"], 584]], "4": [[["e gima jehova nyasaye"], 181], [["e county ma migori"], 158],
+  [["od bura ma kisumu"], 148], [["kata obedo ni ne"], 146], [["ngima ma nyaka chieng"],
+  132]], "5": [[["e gima jehova nyasaye wacho"], 86], [["written by phenny waga on"],
+  82], [["ne picha manie chak sulani"], 59], [["gi winjruok maber gi nyasaye"], 53],
+  [["nyasaye manyalo gik moko duto"], 52]]}'

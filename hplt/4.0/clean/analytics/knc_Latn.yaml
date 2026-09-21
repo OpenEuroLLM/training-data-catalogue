@@ -1,0 +1,918 @@
+corpus: hplt-v4-knc_Latn
+srclang: knc
+timestamp: 1789050116.6358705
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2025-13", 234], ["CC-MAIN-2025-21", 119], ["CC-MAIN-2020-45",
+  99], ["CC-MAIN-2025-18", 96], ["CC-MAIN-2023-50", 53], ["CC-MAIN-2025-26", 52],
+  ["CC-MAIN-2025-08", 51], ["CC-MAIN-2021-04", 48], ["CC-MAIN-2021-49", 45], ["CC-MAIN-2025-30",
+  43], ["CC-MAIN-2025-33", 32], ["CC-MAIN-2024-51", 29], ["CC-MAIN-2025-05", 24],
+  ["CC-MAIN-2024-22", 21], ["CC-MAIN-2022-27", 18], ["CC-MAIN-2021-17", 14], ["CC-MAIN-2023-40",
+  11], ["CC-MAIN-2022-40", 11], ["CC-MAIN-2024-26", 10], ["CC-MAIN-2021-21", 10],
+  ["CC-MAIN-2020-50", 9], ["CC-MAIN-2024-42", 6], ["CC-MAIN-2021-39", 6], ["CC-MAIN-2021-10",
+  6], ["CC-MAIN-2024-30", 5], ["CC-MAIN-2024-46", 4], ["CC-MAIN-2024-38", 3], ["CC-MAIN-2024-33",
+  3], ["CC-MAIN-2022-33", 3], ["CC-MAIN-2023-23", 2], ["CC-MAIN-2023-06", 2], ["CC-MAIN-2020-10",
+  2], ["CC-MAIN-2024-18", 1], ["CC-MAIN-2020-34", 1], ["CC-MAIN-2020-29", 1], ["CC-MAIN-2020-24",
+  1], ["CC-MAIN-2019-04", 1], ["CC-MAIN-2017-26", 1], ["CC-MAIN-2014-15", 1]]'
+docs_langs: '[[0.2, 3], [0.3, 20], [0.4, 105], [0.5, 76], [0.6, 29], [0.7, 60], [0.8,
+  65], [0.9, 53], [1.0, 667]]'
+docs_segments: '[[1, 50], [2, 312], [3, 121], [4, 79], [5, 72], [6, 53], [7, 39],
+  [8, 21], [9, 9], [10, 14], [11, 17], [12, 7], [13, 17], [14, 15], [15, 20], [16,
+  32], [17, 37], [18, 30], [19, 12], [20, 18], [21, 13], [22, 14], [23, 7], [24, 4],
+  [25, 11], [26, 1], [27, 3], [28, 2], [29, 3], [30, 3], [31, 2], [32, 2], [33, 1],
+  [36, 4], [38, 2], [39, 2], [40, 1], [41, 1], [45, 3], [46, 1], [47, 1], [50, 2],
+  [51, 1], [55, 1], [57, 1], [60, 1], [61, 1], [64, 1], [66, 1], [69, 1], [70, 1],
+  [72, 1], [73, 1], [83, 1], [87, 1], [111, 1], [147, 1], [155, 1], [281, 1], [348,
+  1], [2038, 1], [2509, 1]]'
+docs_segments_mean: 14
+docs_segments_median: 4
+docs_top100_domains: '[["wikipedia.org", 440], ["dandalkura.com", 242], ["wikimedia.org",
+  239], ["fivecowries.online", 45], ["zhitov.com", 44], ["voiceofgaanda.org", 4],
+  ["shadowserver.org", 4], ["ebible.org", 4], ["bible.com", 3], ["vietnamimmigration.org",
+  2], ["odon.edu.uy", 2], ["ziyadem.de", 1], ["xxxmoviesdownload.club", 1], ["world-hentai.ru",
+  1], ["waytozionvinylshop.com", 1], ["videochat-ruletka.ru", 1], ["vedicprakashan.com",
+  1], ["vav.com.my", 1], ["vallalar.net", 1], ["unicode.org", 1], ["unb.br", 1], ["tscosmeticseg.com",
+  1], ["tractor-germanos.gr", 1], ["sarhaan.com", 1], ["primatools.com", 1], ["paradisepostings.com",
+  1], ["neodrafts.com", 1], ["myheritage.com", 1], ["mudanzasenmarcha.com", 1], ["mscestore.eu",
+  1], ["mmmfoto.cz", 1], ["ministeps.org", 1], ["media4news.com", 1], ["maxikids.fr",
+  1], ["linguative.net", 1], ["kochepis.com.br", 1], ["kingbike.co.il", 1], ["jebjerg7870.dk",
+  1], ["interior-innovations.com", 1], ["handmadefever.co.uk", 1], ["gotmenow.com",
+  1], ["gonoforum.org", 1], ["gayhomeland.org", 1], ["fp-e.pl", 1], ["entropik.io",
+  1], ["drunkbuildersimulator.com", 1], ["digital-ar.org", 1], ["daypassasia.com",
+  1], ["da-no.ru", 1], ["congressomv.org", 1], ["colegioaquinta.com", 1], ["coachglenys.com",
+  1], ["blendermcp.online", 1], ["bibleineverylanguage.org", 1], ["bankalarhakkinda.com",
+  1], ["bahritaxation.com.au", 1], ["axemaster.com", 1], ["austinsfence.com", 1],
+  ["allinonelanguage.com", 1], ["academiadeseguridadaessltda.com", 1]]'
+docs_top100_tld: '[["org", 700], ["com", 310], ["online", 46], ["ru", 3], ["net",
+  2], ["edu.uy", 2], ["pl", 1], ["io", 1], ["gr", 1], ["fr", 1], ["eu", 1], ["dk",
+  1], ["de", 1], ["cz", 1], ["com.my", 1], ["com.br", 1], ["com.au", 1], ["co.uk",
+  1], ["co.il", 1], ["club", 1], ["br", 1]]'
+docs_total: 1078
+docs_wds: '[[0.5, 4], [0.51, 3], [0.52, 4], [0.53, 8], [0.54, 4], [0.55, 6], [0.56,
+  9], [0.57, 11], [0.58, 9], [0.59, 12], [0.6, 15], [0.61, 15], [0.62, 29], [0.63,
+  20], [0.64, 19], [0.65, 16], [0.66, 17], [0.67, 18], [0.68, 20], [0.69, 24], [0.7,
+  16], [0.71, 22], [0.72, 24], [0.73, 22], [0.74, 29], [0.75, 30], [0.76, 44], [0.77,
+  55], [0.78, 54], [0.79, 54], [0.8, 80], [0.81, 51], [0.82, 38], [0.83, 31], [0.84,
+  38], [0.85, 37], [0.86, 36], [0.87, 30], [0.88, 23], [0.89, 22], [0.9, 18], [0.91,
+  8], [0.92, 9], [0.93, 2], [0.94, 7], [0.95, 6], [0.96, 11], [0.97, 9], [0.98, 6],
+  [0.99, 3]]'
+duplication_ratio: 0.1455
+sentence_pairs: 14740
+src_bytes: 3482924
+src_chars: 3295646
+src_pii: 19
+src_tokens: 655134
+unique_sents: 12595
+src_sent_tokens: '[[1, 923], [2, 471], [3, 359], [4, 344], [5, 347], [6, 423], [7,
+  246], [8, 338], [9, 324], [10, 192], [11, 300], [12, 173], [13, 180], [14, 239],
+  [15, 246], [16, 437], [17, 241], [18, 343], [19, 284], [20, 322], [21, 290], [22,
+  343], [23, 300], [24, 322], [25, 278], [26, 315], [27, 256], [28, 260], [29, 249],
+  [30, 245], [31, 258], [32, 222], [33, 184], [34, 169], [35, 154], [36, 123], [37,
+  129], [38, 128], [39, 126], [40, 107], [41, 77], [42, 90], [43, 90], [44, 88], [45,
+  57], [46, 62], [47, 58], [48, 74], [49, 48], [50, 47], [51, 49], [52, 38], [53,
+  36], [54, 38], [55, 42], [56, 37], [57, 42], [58, 36], [59, 31], [60, 30], [61,
+  33], [62, 26], [63, 21], [64, 29], [65, 38], [66, 21], [67, 26], [68, 22], [69,
+  26], [70, 25], [71, 29], [72, 23], [73, 30], [74, 27], [75, 22], [76, 19], [77,
+  29], [78, 20], [79, 25], [80, 17], [81, 27], [82, 27], [83, 28], [84, 17], [85,
+  27], [86, 13], [87, 22], [88, 26], [89, 30], [90, 30], [91, 28], [92, 27], [93,
+  23], [94, 18], [95, 21], [96, 30], [97, 15], [98, 15], [99, 29], [100, 25], [101,
+  24], [102, 17], [103, 19], [104, 18], [105, 21], [106, 21], [107, 11], [108, 19],
+  [109, 25], [110, 15], [111, 18], [112, 21], [113, 17], [114, 9], [115, 12], [116,
+  16], [117, 18], [118, 16], [119, 16], [120, 17], [121, 23], [122, 13], [123, 22],
+  [124, 15], [125, 19], [126, 20], [127, 21], [128, 9], [129, 13], [130, 7], [131,
+  9], [132, 16], [133, 10], [134, 15], [135, 17], [136, 16], [137, 23], [138, 15],
+  [139, 11], [140, 9], [141, 17], [142, 13], [143, 12], [144, 16], [145, 13], [146,
+  10], [147, 6], [148, 10], [149, 16], [150, 12], [151, 12], [152, 4], [153, 10],
+  [154, 10], [155, 15], [156, 11], [157, 6], [158, 7], [159, 8], [160, 4], [161, 13],
+  [162, 6], [163, 10], [164, 15], [165, 7], [166, 8], [167, 11], [168, 2], [169, 10],
+  [170, 5], [171, 4], [172, 7], [173, 5], [174, 5], [175, 7], [176, 3], [177, 5],
+  [178, 7], [179, 9], [180, 4], [181, 10], [182, 4], [183, 6], [184, 5], [185, 4],
+  [186, 6], [187, 5], [188, 5], [189, 7], [190, 5], [191, 4], [192, 2], [193, 7],
+  [194, 6], [195, 6], [196, 4], [197, 4], [198, 4], [199, 2], [200, 4], [201, 2],
+  [202, 4], [203, 3], [204, 5], [205, 2], [206, 6], [207, 2], [208, 2], [209, 3],
+  [210, 4], [211, 1], [212, 4], [213, 2], [214, 2], [215, 2], [216, 7], [217, 4],
+  [218, 2], [219, 3], [220, 5], [221, 2], [222, 4], [223, 1], [225, 5], [226, 1],
+  [227, 1], [228, 5], [229, 1], [230, 1], [231, 4], [232, 2], [233, 1], [234, 3],
+  [235, 3], [236, 1], [237, 3], [238, 3], [239, 2], [240, 4], [241, 1], [242, 1],
+  [243, 2], [245, 2], [246, 2], [247, 1], [248, 3], [250, 1], [251, 2], [252, 4],
+  [253, 1], [254, 1], [256, 3], [257, 5], [258, 2], [259, 1], [261, 1], [262, 3],
+  [263, 2], [264, 2], [265, 1], [266, 2], [268, 2], [269, 1], [270, 1], [272, 3],
+  [273, 1], [274, 1], [275, 1], [276, 2], [277, 3], [278, 1], [279, 1], [280, 3],
+  [282, 1], [285, 1], [286, 1], [287, 1], [289, 2], [292, 1], [293, 1], [294, 3],
+  [295, 2], [296, 3], [297, 1], [298, 1], [299, 1], [303, 2], [305, 2], [308, 2],
+  [309, 2], [310, 1], [312, 2], [313, 1], [314, 1], [315, 1], [318, 1], [320, 1],
+  [322, 1], [324, 1], [325, 1], [327, 3], [328, 3], [329, 1], [332, 2], [333, 1],
+  [337, 1], [338, 1], [342, 1], [343, 1], [350, 1], [354, 1], [355, 1], [356, 1],
+  [357, 1], [358, 1], [359, 1], [360, 1], [361, 1], [364, 2], [365, 1], [368, 1],
+  [372, 2], [375, 1], [376, 2], [382, 2], [390, 1], [395, 1], [396, 1], [397, 1],
+  [398, 2], [400, 1], [402, 1], [405, 1], [409, 1], [413, 1], [435, 1], [439, 1],
+  [443, 1], [446, 1], [449, 1], [452, 1], [454, 2], [455, 1], [462, 1], [463, 1],
+  [464, 2], [469, 3], [473, 1], [474, 1], [476, 1], [477, 1], [480, 1], [485, 1],
+  [486, 1], [489, 1], [492, 1], [508, 1], [520, 1], [523, 1], [524, 1], [526, 1],
+  [528, 1], [529, 1], [533, 1], [534, 1], [549, 1], [552, 1], [581, 1], [583, 1],
+  [585, 1], [587, 2], [593, 1], [602, 1], [603, 1], [606, 1], [623, 1], [631, 1],
+  [637, 1], [641, 1], [642, 2], [644, 1], [645, 1], [646, 1], [647, 1], [651, 1],
+  [656, 2], [658, 1], [663, 1], [674, 1], [679, 2], [680, 1], [691, 1], [695, 1],
+  [696, 1], [702, 1], [708, 1], [730, 1], [746, 1], [752, 1], [766, 1], [767, 1],
+  [812, 1], [815, 1], [825, 1], [854, 1], [869, 1], [875, 1], [883, 1], [893, 1],
+  [909, 1], [911, 1], [914, 1], [916, 1], [921, 1], [927, 1], [937, 1], [945, 1],
+  [970, 1], [973, 2], [983, 1], [989, 2], [991, 1], [1024, 1], [1028, 2], [1117, 1],
+  [1119, 1], [1136, 1], [1140, 1], [1181, 1], [1205, 1], [1212, 1], [1221, 1], [1231,
+  1], [1237, 1], [1293, 1], [1356, 1], [1408, 1], [1472, 1], [1571, 1], [1587, 1],
+  [1773, 1], [1776, 1], [1795, 1], [1810, 1], [1860, 1], [2089, 1], [2119, 1], [2480,
+  1], [2511, 1], [2548, 1], [2678, 1], [2988, 1]]'
+src_sent_tokens_mean: 44
+src_sent_tokens_median: 23
+src_unique_sents: '[[1, 120], [2, 247], [3, 266], [4, 265], [5, 299], [6, 278], [7,
+  237], [8, 210], [9, 181], [10, 184], [11, 169], [12, 170], [13, 176], [14, 219],
+  [15, 243], [16, 297], [17, 235], [18, 335], [19, 278], [20, 307], [21, 284], [22,
+  332], [23, 296], [24, 318], [25, 270], [26, 305], [27, 247], [28, 256], [29, 247],
+  [30, 241], [31, 252], [32, 218], [33, 181], [34, 168], [35, 152], [36, 120], [37,
+  125], [38, 127], [39, 123], [40, 104], [41, 77], [42, 88], [43, 87], [44, 87], [45,
+  55], [46, 60], [47, 57], [48, 72], [49, 47], [50, 47], [51, 48], [52, 36], [53,
+  34], [54, 38], [55, 41], [56, 37], [57, 42], [58, 35], [59, 31], [60, 30], [61,
+  33], [62, 26], [63, 21], [64, 29], [65, 37], [66, 21], [67, 26], [68, 22], [69,
+  26], [70, 25], [71, 29], [72, 23], [73, 30], [74, 27], [75, 22], [76, 19], [77,
+  29], [78, 20], [79, 25], [80, 16], [81, 27], [82, 27], [83, 27], [84, 16], [85,
+  27], [86, 13], [87, 22], [88, 26], [89, 29], [90, 30], [91, 27], [92, 27], [93,
+  23], [94, 18], [95, 21], [96, 29], [97, 15], [98, 15], [99, 29], [100, 25], [101,
+  24], [102, 17], [103, 19], [104, 18], [105, 21], [106, 21], [107, 11], [108, 18],
+  [109, 25], [110, 14], [111, 18], [112, 20], [113, 17], [114, 9], [115, 12], [116,
+  16], [117, 18], [118, 16], [119, 16], [120, 17], [121, 23], [122, 13], [123, 22],
+  [124, 15], [125, 19], [126, 18], [127, 21], [128, 9], [129, 13], [130, 7], [131,
+  8], [132, 16], [133, 10], [134, 15], [135, 17], [136, 16], [137, 23], [138, 15],
+  [139, 11], [140, 9], [141, 17], [142, 13], [143, 12], [144, 16], [145, 13], [146,
+  10], [147, 6], [148, 10], [149, 16], [150, 12], [151, 11], [152, 4], [153, 10],
+  [154, 10], [155, 15], [156, 10], [157, 6], [158, 7], [159, 8], [160, 4], [161, 13],
+  [162, 6], [163, 10], [164, 15], [165, 7], [166, 8], [167, 11], [168, 2], [169, 10],
+  [170, 5], [171, 4], [172, 7], [173, 5], [174, 5], [175, 7], [176, 3], [177, 5],
+  [178, 7], [179, 9], [180, 4], [181, 10], [182, 4], [183, 6], [184, 5], [185, 4],
+  [186, 6], [187, 5], [188, 5], [189, 7], [190, 5], [191, 4], [192, 2], [193, 7],
+  [194, 6], [195, 6], [196, 4], [197, 4], [198, 4], [199, 2], [200, 4], [201, 2],
+  [202, 4], [203, 3], [204, 5], [205, 2], [206, 6], [207, 2], [208, 2], [209, 3],
+  [210, 4], [211, 1], [212, 4], [213, 2], [214, 2], [215, 2], [216, 7], [217, 4],
+  [218, 2], [219, 3], [220, 5], [221, 2], [222, 4], [223, 1], [225, 5], [226, 1],
+  [227, 1], [228, 5], [229, 1], [230, 1], [231, 4], [232, 2], [233, 1], [234, 3],
+  [235, 3], [236, 1], [237, 3], [238, 3], [239, 2], [240, 4], [241, 1], [242, 1],
+  [243, 2], [245, 2], [246, 2], [247, 1], [248, 3], [250, 1], [251, 2], [252, 4],
+  [253, 1], [254, 1], [256, 3], [257, 5], [258, 2], [259, 1], [261, 1], [262, 3],
+  [263, 2], [264, 2], [265, 1], [266, 2], [268, 2], [269, 1], [270, 1], [272, 3],
+  [273, 1], [274, 1], [275, 1], [276, 2], [277, 3], [278, 1], [279, 1], [280, 3],
+  [282, 1], [285, 1], [286, 1], [287, 1], [289, 2], [292, 1], [293, 1], [294, 3],
+  [295, 2], [296, 3], [297, 1], [298, 1], [299, 1], [303, 2], [305, 2], [308, 2],
+  [309, 2], [310, 1], [312, 2], [313, 1], [314, 1], [315, 1], [318, 1], [320, 1],
+  [322, 1], [324, 1], [325, 1], [327, 3], [328, 3], [329, 1], [332, 2], [333, 1],
+  [337, 1], [338, 1], [342, 1], [343, 1], [350, 1], [354, 1], [355, 1], [356, 1],
+  [357, 1], [358, 1], [359, 1], [360, 1], [361, 1], [364, 2], [365, 1], [368, 1],
+  [372, 2], [375, 1], [376, 2], [382, 2], [390, 1], [395, 1], [396, 1], [397, 1],
+  [398, 2], [400, 1], [402, 1], [405, 1], [409, 1], [413, 1], [435, 1], [439, 1],
+  [443, 1], [446, 1], [449, 1], [452, 1], [454, 2], [455, 1], [462, 1], [463, 1],
+  [464, 1], [469, 3], [473, 1], [474, 1], [476, 1], [477, 1], [480, 1], [485, 1],
+  [486, 1], [489, 1], [492, 1], [508, 1], [520, 1], [523, 1], [524, 1], [526, 1],
+  [528, 1], [529, 1], [533, 1], [534, 1], [549, 1], [552, 1], [581, 1], [583, 1],
+  [585, 1], [587, 2], [593, 1], [602, 1], [603, 1], [606, 1], [623, 1], [631, 1],
+  [637, 1], [641, 1], [642, 2], [644, 1], [645, 1], [646, 1], [647, 1], [651, 1],
+  [656, 2], [658, 1], [663, 1], [674, 1], [679, 2], [680, 1], [691, 1], [695, 1],
+  [696, 1], [702, 1], [708, 1], [730, 1], [746, 1], [752, 1], [766, 1], [767, 1],
+  [812, 1], [815, 1], [825, 1], [854, 1], [869, 1], [875, 1], [883, 1], [893, 1],
+  [909, 1], [911, 1], [914, 1], [916, 1], [921, 1], [927, 1], [937, 1], [945, 1],
+  [970, 1], [973, 2], [983, 1], [989, 2], [991, 1], [1024, 1], [1028, 2], [1117, 1],
+  [1119, 1], [1136, 1], [1140, 1], [1181, 1], [1205, 1], [1212, 1], [1221, 1], [1231,
+  1], [1237, 1], [1293, 1], [1356, 1], [1408, 1], [1472, 1], [1571, 1], [1587, 1],
+  [1773, 1], [1776, 1], [1795, 1], [1810, 1], [1860, 1], [2089, 1], [2119, 1], [2480,
+  1], [2511, 1], [2548, 1], [2678, 1], [2988, 1]]'
+src_langs: '[["en", 5941], ["az", 5186], ["tl", 393], ["it", 341], ["id", 281], ["tr",
+  270], ["sr", 266], ["de", 232], ["fr", 193], ["es", 172], ["jv", 130], ["war", 126],
+  ["la", 98], ["eo", 89], ["hr", 66], ["pl", 64], ["nl", 57], ["sw", 55], ["et", 54],
+  ["su", 53], ["fi", 49], ["pt", 47], ["sv", 45], ["ms", 44], ["nb", 43], ["so", 42],
+  ["ceb", 38], ["cy", 34], ["hu", 31], ["ur", 30], ["sl", 27], ["ilo", 16], ["ro",
+  15], ["af", 12], ["io", 11], ["eu", 11], ["uz", 10], ["ru", 10], ["kn", 9], ["cs",
+  9], ["vi", 8], ["lt", 8], ["da", 8], ["br", 8], ["ja", 7], ["sq", 6], ["jbo", 6],
+  ["ht", 6], ["gl", 6], ["ca", 6], ["uk", 5], ["bh", 5], ["zh", 4], ["ko", 4], ["fy",
+  4], ["fa", 4], ["kw", 3], ["ku", 3], ["ar", 3], ["yi", 2], ["pnb", 2], ["ne", 2],
+  ["ml", 2], ["lv", 2], ["is", 2], ["gu", 2], ["bn", 2], ["als", 2], ["wuu", 1], ["vo",
+  1], ["vep", 1], ["ug", 1], ["th", 1], ["qu", 1], ["oc", 1], ["my", 1], ["mn", 1],
+  ["mg", 1], ["lmo", 1], ["lb", 1], ["ky", 1], ["km", 1], ["hsb", 1], ["dsb", 1],
+  ["bs", 1], ["be", 1]]'
+hardrules_tags: '{"not_too_long": 359, "not_too_short": 1848, "length_ratio": 0, "no_urls":
+  444, "no_bad_encoding": 0, "pii": 19}'
+sample: '["\"South Korea\\n[1]Korea An\u0259m y\u01dd d\u0259, [c] hukumamen k\u0259rmai
+  Korea y\u01dd (ROK) d\u0259, [d] shima lard\u0259 do g\u0259di Asia y\u01dd. Shid\u0259
+  nasha an\u0259m Korea Peninsula b\u01dd d\u0259 kuru kalangai North Korea b\u01dd
+  nasha Korea b\u01dd Ask\u0259rranza bayen; sonyayi shiye kalangai cidi b\u01dd China-a
+  Russia-a yed\u0259 goz\u0259na. South Korea d\u0259 shima gumnati shara b\u01dd
+  k\u0259riyed\u0259 sammaso-a jazirawa shitinz\u0259ye-aye dayingata. N\u0259m nguwu
+  amyed\u0259 miliyon 51.96, retanzad\u0259 Seoul Capital Area lan napsana, b\u0259rni
+  kura k\u0259n l\u0259garmi n\u0259m nguwu jamaye dunyalan. B\u0259rniwa kura kura
+  gaded\u0259 sandima Busan''a, Daegu''a, kuru Incheon''a.\\nK\u0259rye Korea b\u01dd
+  d\u0259 zaman Paleolithic cidiya b\u01dd d\u0259n nabsana. Mairinz\u0259 buro salak
+  d\u0259 gargamma china be badiyaram karnu k\u0259n 7th BCE lan nowata. Ngawo mairi''a
+  yakk\u0259 korea b\u01dd silla-a balhae-a ro k\u0259ltanayen dare karni k\u0259n
+  7me lan, korea d\u0259 mairi kaduwube goryeo-a (918-1392)-a mairi joseon-a (1392-1897)
+  sandima sunotin. Mairi korea (1897-1910) do k\u0259nasart\u0259na mad\u0259 suro
+  saa 1910 lan mairi japan b\u01dd ro k\u0259llono. K\u0259rmai Japan y\u01ddd\u0259
+  dawono ngawo Japan y\u01dd k\u0259riwu dunyabe k\u0259n indimid\u0259n k\u0259lanz\u0259''a
+  cina y\u01ddn, ngawo ad\u0259yen Koread\u0259 nasha indiro yakkata: nasha yalabed\u0259,
+  shidoni Soviet Union y\u01dd s\u0259mowonad\u0259, kuru nasha an\u0259myed\u0259,
+  shidoni United States y\u01dd s\u0259mowonad\u0259. Ngawo k\u0259la walt\u0259m
+  k\u0259lt\u0259yen shawari t\u0259dinbayen, nasha an\u0259myed\u0259 Republic of
+  Korearo wallono suro k\u0259ntawu August saa 1948 y\u01ddn, kuru nasha yala y\u01dd
+  d\u0259 Republic of Korea ro wallono k\u0259ntawu fuwu y\u01dd d\u0259n.\"", "\"Shararam
+  Kura B\u0259rni Kura Lar\u0259ye Abujan D\u0259ana D\u0259ye Buruwu Dowo Kura Lard\u0259ye
+  Muhammadu Buhari D\u0259a Ministaanz\u0259 43 D\u0259ro Kashi K\u0259njoro Dapt\u0259ye
+  K\u0259la Ngawar B\u0259rni Kura Lard\u0259 Yed\u0259 Bad\u0259yen D\u0259a Saps\u0259
+  Yirz\u0259na.\\nKam Mr. Musa Baba-Panya Kwa Am Dowo Buruwu D\u0259a Sak\u0259na
+  Sod\u0259a Wakiljinma D\u0259ye Buruwunza D\u0259 Shima Kura Lard\u0259 Yed\u0259a
+  Kashi K\u0259njoro Daps\u0259 Sana.\\nBaba-Panya Ngawar Karu B\u0259rni Kura Lard\u0259
+  Yed\u0259ye Bayanjin D\u0259n, Awo Kura Lard\u0259 Yed\u0259ye S\u0259d\u0259na
+  Ad\u0259 Shara Dowo Shararam Buruwu Hapt\u0259ye D\u0259ye Yim Kawu 15, K\u0259ntawu
+  March Saa 2018 Yed\u0259ro Zawal G\u0259roz\u0259na S\u0259 Bayanz\u0259na.\\nAdaima
+  Shiye Gult\u0259nz\u0259n, Ministaa 43 Ad\u0259ro Kashi K\u0259njonza D\u0259 Wada
+  Naz\u0259na Ye Kuru Duksur Lard\u0259 Yed\u0259a Zawal Guroz\u0259na.\\nSon Yaye
+  Shara Taiwo Taiwo D\u0259ye Guljin D\u0259n Buruwunza Ad\u0259 K\u0259la Loktu Yed\u0259n
+  Is\u0259nyi D\u0259ye S\u0259kk\u0259 Kashi K\u0259njo Ad\u0259a Dapsanba S\u0259
+  Bayanz\u0259na.\\nDandal Kura Radio International Kanuri: Kowu\u2019o Fal Kanuri
+  Milion Mew\u2019wu Kla\\nKanuri Miliyan Goma, Murya Daya\\nDandal Radio 98.9FM Voice
+  for Peace\\nDandal Kura FM 98.9 Kowo\u2019u nabtu N3l3fay3\\nDandal Kura FM 98.9
+  Muryan Zaman Lafiya\\n--:--\\n--:--\\n-\\nFM Stream\\n-\\nShortwave\"", "\"Pearl
+  Bailey Sha Chasambo yim m\u01ddyon laarrin be lan k\u01ddntawu chidi b\u01dd lan
+  suro saa duwun yar laarrin m\u01ddyon uskun b\u01dd lan sha katambo (29 May 1918)\\nYim
+  m\u01ddyon tulurin b\u01dd lan k\u01ddntawu shawur b\u01dd lan suro saa duwun yar
+  laarrin filaarin b\u01dd lan bawono (17 Aug 1990). Biske makar b\u01dd diyoma cidi
+  America b\u01dd, kayama, kaya ruwotuma, kakadu ruwotuma. Saa 1946 lan Album nzu
+  \\\"st Louis Woman chido, saa 1968 lan Kayan nzu \\\"Hello Dolly\\\", saa 1986 lan
+  Daytime Emmy Award chiwundo, saa 1952 lan Kayan nzu \\\"Take Two To Tango chido,
+  saa 1976 lan \\\"screen Actor Guild Life Achevement Award chiwundo, saa 1988 lan
+  Presidential Medal of Freedom chiwundo.\"", "\"K\u0259la Kuruma Cidaa Majilas Dinaye
+  Lard\u0259 Najeriya Ye Mr. Edward Kallon D\u0259ye B\u0259t\u0259r\u0259m Dowo Yim
+  Lad\u0259aro B\u0259ladiya Mandarari Huwumana Konduga K\u0259re Borno Yala-G\u0259di
+  Lard\u0259 Najeriya Yed\u0259n Waaz\u0259 Hatta Kam 30 Loruz\u0259na D\u0259a Awats\u0259na
+  Suro Bayan Dowo Yim Talawua Ro Hawar Matuwu Soro Satuluwuna Lad\u0259n.\\nKonduga
+  D\u0259 Let\u0259 Alama Kilomita 38 Ye G\u0259diya B\u0259rni Yerwa Yed\u0259n Kuru
+  Loktu Kadaro Nz\u0259rtaliwua Boko Harambe Sod\u0259ye Nasha D\u0259ro B\u0259t\u0259r\u0259m
+  Sad\u0259na.\\nSuro Bayan D\u0259yen, Taadir Kam 40 Ye B\u0259t\u0259r\u0259m Awo
+  Tartin Yed\u0259n Waz\u0259na Ad\u0259n Taidaza Zau Fanzana, Kuru Sandi Zau Fanzana
+  Sod\u0259 Ba Sandiya Liyitari Soro B\u0259rni Yerwa Yed\u0259n Saud\u0259na Sandiya
+  Raizan.\\nShiye Allo Suttuwu, Jami Dowo Lamar D\u0259 Adwunzan Sod\u0259a Bowoz\u0259na
+  K\u0259la Sandiye Jami Lard\u0259 Yeso D\u0259ro Nz\u0259rifoa Sad\u0259 Kuru Am
+  Dowo Aiwu D\u0259a Sad\u0259na Sod\u0259a Maza Sandiro Howom Kamzaa.\\nShiye Guljin
+  D\u0259n B\u0259t\u0259r\u0259m Nasha Yala-G\u0259di Lard\u0259 Najeriya Ye Ad\u0259
+  Dina Samma Son B\u0259t\u0259r\u0259m Shiro Naz\u0259na Ba, Kuru Shiye Kurunz\u0259
+  D\u0259n, Kawu B\u0259t\u0259r\u0259m Ad\u0259 Saa 2009 Yed\u0259n Badit\u0259na
+  Lad\u0259n Tai Kuro Kude Taadir Kam 27,000 Yeyi Lorutana.\\nBreaking News\\nDandal
+  Kura Radio International Kanuri: Kowu\u2019o Fal Kanuri Milion Mew\u2019wu Kla\\nKanuri
+  Miliyan Goma, Murya Daya\\nDandal Radio 98.9FM Voice for Peace\\nDandal Kura FM
+  98.9 Kowo\u2019u nabtu N3l3fay3\\nDandal Kura FM 98.9 Muryan Zaman Lafiya\\n--:--\\n--:--\\n-\\nFM
+  Stream\\n-\\nShortwave\"", "\"Diwal ad\u0259ye awo g\u0259nat\u0259-a awo got\u0259-a
+  kulast\u0259ro ishin, rajista-a kuru raks\u0259 KYC protocols-a, kuru bana customerbe-a.
+  Andeye nz\u0259liwolan kasatnyena sulhu kalangai fulut\u0259be fuwut\u0259 cryptobe
+  ngalwot\u0259g\u0259ro, ngawarn\u0259m kasuwube yaye.\\nAd\u0259 nankaro, n\u0259m
+  nguwu awo falt\u0259yed\u0259, am zar yikomasoye kataffanza kasuwuye\u2019a karno
+  k\u0259lanzaye\u2019a d\u0259\u2019a kalkalzayin, kuru cidanza falt\u0259ye d\u0259\u2019a
+  ngalwat\u0259yin. Bit GPT Definity unit ye kulashi nz\u0259d\u0259ye duno cina k\u0259la
+  awo do ne cryptocurrency lan faidatin d\u0259ro. Formulawanza fuwuzana faidat\u0259
+  nyiye tawad\u0259ro fashion kasuwube kulasn\u0259m, shawariwa sabt\u0259, kuru karnowa
+  noata k\u0259lanz\u0259laro diwo, Bit GPT Definityd\u0259 awowa k\u0259nasarbe f\u0259lejin.
+  Bit GPT Definity d\u0259 shima farask\u0259ram kasuwu crypto ye do ne nzundu zamanye
+  faidat\u0259 nz\u0259liwo sanyaram ye d\u0259ga fandoram. Dalil kulashi k\u0259z\u0259kk\u0259
+  sabt\u0259be-a kuru nyiye rakn\u0259m cidat\u0259be-a nankaro, sandiye formulawa
+  zamanbe faidata zar yikobe ng\u0259laro diwo nankaro. Fasalnz\u0259 faidat\u0259ye
+  k\u0259sked\u0259 banaz\u0259g\u0259 nyiro zawal man\u0259m kururo, ad\u0259ye s\u0259k\u0259
+  am zar yiwomasoye sulhu jilifi yayi tuwondin.\\nBayan k\u0259la allamt\u0259 zar
+  yikoye\\nTeam d\u0259 kung\u0259na lan bawo, n\u0259m kalkal, kuru nyiye faidawa
+  nzunduye suro GPT Definity Ai yen t\u0259ngat\u0259g\u0259na platform cidaye d\u0259ro
+  nyiyanza crypto diwoye kuru nyiye Bitcoin kasuwu dimin kuru nyiye kulashi k\u0259ske\u2019a
+  kuru nyiye kaziyi baro sammaro. Tawad\u0259, Bitcoin d\u0259 dinar yeyi sau shid\u0259
+  karno am yiwomasoye. Bitcoin ye mowont\u0259 awo\u2019a nguwu cejin ma kuru dareram
+  lan awo faida\u2019a ro waljin ma\u2019ana awo\u2019a ng\u0259laro faidatiya.\\nShi
+  nyiye k\u0259la Bitcoin-a cryptocurrency-a b\u0259linben manat\u0259ro sarag\u0259na,\\nVariation
+  six.1 kar\u0259ng\u0259bed\u0259ro, raks\u0259 kasatt\u0259lan f\u0259lejin k\u0259la
+  Part GPT Definity featuresd\u0259 gaskanzaga koz\u0259na rakt\u0259 indison kuru
+  raks\u0259 memba-friendlinessro waljin. Fasal cidabed\u0259 https://apexmedikorea.com/
+  fuwut\u0259 zauro s\u0259d\u0259na, k\u0259lt\u0259ram CFD-a, noto-a, kuru margin
+  exchange-a, kuru fx-a stock-a kasuwuro farakt\u0259yin. Sabt\u0259 b\u0259lin kar\u0259ng\u0259ye
+  mowont\u0259 AI ye-a API ye fandonz\u0259-a am zar yiwomasoye fuwulan daraja Bit
+  GPT Definity ye d\u0259ga dunowaro s\u0259din dalild\u0259 shima farask\u0259ram
+  falt\u0259ye daraja kurawo. Am not\u0259nyi d\u0259ro platform d\u0259 samma kasuwu
+  t\u0259din, nasha GPT Definity d\u0259 k\u0259rma d\u0259ro awo account demoye cin.
+  Ad\u0259ye faidat\u0259masoye nyiga banazayin k\u0259lanzalan faidawa dawarnod\u0259ye
+  nozayin kuru nyiye kataffa jarabn\u0259m susu kung\u0259naye tart\u0259g\u0259ro.
+  Fasald\u0259ye duluwuwa duwaro yakt\u0259ye kolz\u0259na, warakkad\u0259ga banaz\u0259
+  kung\u0259nanza kalkalro fandoro.\\nShi do ne GPT Definity Bot dos.0''s findin diyau/7
+  rakt\u0259 kasuwu ye mbeji ma, raks\u0259 faltin loktu kuru ndason, awo do ne kasuwu
+  ye lan faidatin ma. GPT Definity Ai ro k\u0259lta kuru faidat\u0259 awo do ne cryptocurrency
+  lan bowotin d\u0259 kashi 100 lan de\u2019a. Gananz\u0259 yayi buro salak lan \u00a3250
+  lan g\u0259nat\u0259 kasuwu baditin, shi do ne kung\u0259na falt\u0259ye ro waljin
+  ma. Dalil shi kuruwu-label jarabt\u0259mad\u0259be s\u0259k\u0259, wuye hakku Piece
+  GPT Definitybe fuwut\u0259z\u0259 kurube s\u0259band\u0259na.\\nNasha GPTbe Ma''ananz\u0259
+  Faidawa-a Ngawowa-a\\nBuro salak lan kasuwu lan, nyiye awo gana laa membership ye
+  g\u0259nat\u0259ye ra\u2019am, zauro tips do website lan tina d\u0259ro njista\u2019a.
+  GPT falt\u0259d\u0259 hayyamaro farask\u0259ram b\u0259lin GPT Definity lan, kuru
+  faida\u2019a kate indid\u0259ga yakt\u0259lan. Futu ratings ndasowoso yeyi, faida''a
+  sammaso shim zauro faida''a kuru rakn\u0259m source kada t\u0259mamin. N\u0259m
+  kalkal tawatt\u0259g\u0259 nankaro, zauro faidaa hangal g\u0259nat\u0259 degree
+  analysis d\u0259ga kart\u0259 kuru nyiye awo b\u0259lin d\u0259ga wut\u0259 n\u0259m
+  raayi k\u0259lanz\u0259ye. Rakt\u0259 ad\u0259ga dimin datasets gade-gade-a kuru
+  membawa-a faidat\u0259lan, futu awo b\u0259lind\u0259ga kulast\u0259lan kufuwa gade-gade
+  amn\u0259mbero sau shiye n\u0259mgade-gade jilifi yayiro s\u0259dinbaro. Korowa
+  n\u0259m ngalwoye buro salak ye fal do GPT Definity AI ye suronz\u0259n mbeji d\u0259
+  rakt\u0259nz\u0259 n\u0259m zalumt\u0259ye jarabs\u0259na kuru n\u0259m ada ba''a
+  s\u0259din.\\nWarak-ad\u0259 raksa awo shiro profile gultind\u0259ro kung\u0259na
+  cedin dalilla futu biyaye gade-gaden, kuru bank/debit card lan karz\u0259yin kuru
+  raks\u0259 bankro transfer t\u0259din. Samt\u0259wad\u0259 loktuyin yayi t\u0259matin,
+  loktu cidabed\u0259 gadejin au g\u0259nyid\u0259 futu kart\u0259nad\u0259n kara.
+  Wande k\u0259la futu nad\u0259 suro wayayen turinro z\u0259kt\u0259nyi, sau shid\u0259
+  ngalwot\u0259g\u0259na cellular attending nankaro, tawatt\u0259g\u0259 nyiye zar
+  crypto investment kamye ng\u0259wuro s\u0259din na ndason yayi. Tawatt\u0259g\u0259
+  shi coded\u0259 suronz\u0259n kalma buroye-a koz\u0259na-a mbejiro, kuru jarabne
+  harawwa kung\u0259naye kada g\u0259nat\u0259, alamawa, kuru nyiye lambawa password
+  dunowaro t\u0259din.\\nAtt\u0259son yayi, hal GPT yed\u0259 decoder stack b\u0259lin
+  bas faidatin, hangal g\u0259naz\u0259yin k\u0259la cida saa bracket watiyaye ro.
+  GPT Definity d\u0259 sha transformer architecture ro t\u0259d\u0259n, awo do ne
+  radical model lan bowotin ma d\u0259 suro saa 2017 yen. Daji gar d\u0259ye kolz\u0259
+  t\u0259lam not\u0259ye lan awowa faidat\u0259lan misallo takt\u0259-k\u0259rawo,
+  ad\u0259ye s\u0259k\u0259 zaye b\u0259lin d\u0259ga banaz\u0259yin faida kalmaye
+  b\u0259lin d\u0259ga asutin. suro jimlaben awo shiro contextual gultind\u0259. Models
+  buroye d\u0259ro wumiya, kuru ad\u0259ye kaziyi awo ruwot\u0259na d\u0259ga g\u0259nat\u0259ro
+  ng\u0259n\u0259wuz\u0259na, GPT Definity d\u0259 suro awo ruwot\u0259na d\u0259ga
+  kalkaljin. Susu sulhu software gadeye d\u0259ro, GPT Definity Bot d\u0259 sha t\u0259tand\u0259na
+  dalil gonyi AI ye do ne ilmu Crypto ye jireye mbeji ma. Shiye farask\u0259ram do
+  ne web site lan faidatin ma d\u0259ga suwudin na\u2019ura fal lan dunya samma son
+  tuwondin ma, amma connection net ye d\u0259ga suwudin ma kuru browser internet ye
+  d\u0259ga faidatin ma.\\nAvapro 360 k\u0259rmayero: Fuwut\u0259 Crypto Exchangebe
+  kura\\nPlatform d\u0259 fuwu kasuwu ye f\u0259lejin bas g\u0259nyi kuru warakka
+  d\u0259ga nz\u0259liwo-a, n\u0259m kalkal-a, kuru bana sambisoro s\u0259din. Suro
+  jama do zar yiwoye GPT Definity\u2019a mb\u0259rsana d\u0259ro gayin kuru nyiye
+  duluwu\u2019a falt\u0259ye d\u0259\u2019a fuwuro gojin n\u0259m kasad\u0259\u2019a
+  n\u0259lefa hangalye\u2019a lan. GPT Definity AI d\u0259 cidajin futu nzundu AI
+  ye lan sau raks\u0259 duluwu kasuwuye b\u0259lin d\u0259ga duwaro s\u0259din.\\nBit
+  GPT d\u0259 ma''ananz\u0259 scam wa?\\nKarewa indisod\u0259 halnza gade-gade mbeji
+  kuru tajirwanza mbeji, kuru zauro faida\u2019a nyiye futu nyiye kururamn\u0259m
+  kuru nyiye raks\u0259 am kung\u0259naro shawari k\u0259njoma majin kawu hal zar
+  yikoye fal diminro. Hawarra kuru raks\u0259 zant\u0259yin k\u0259la web currency
+  fields yen raks\u0259 am yiwomaso d\u0259ga duwaro yiwo nankaro raks\u0259 shawari
+  duwaro gojin, duwaro Bitcoin''s speed d\u0259ga cidiyaro au samiro cin. Fuwut\u0259
+  kura b\u0259lin-a kuru n\u0259m farakt\u0259-a Bitcoin, Ethereum, au awowa gade
+  cryptobe loktu kuruwu koz\u0259nad\u0259n hangal am zar yiwomasoye kada goz\u0259na.
+  Nz\u0259ralan, am nguwu do ne jama mewu ye dinaye lan faidatayin d\u0259, Bitcoin
+  d\u0259, musamman maro, raks\u0259 awo ad\u0259\u2019a samunnam banaz\u0259yin dinar
+  lan.\\nGPT Definity d\u0259 hayyamaro platform falt\u0259ye do ne nz\u0259liwo zauro
+  ng\u0259la mbeji na do ne kulashi wakillaye-a awonza yiwoye-a wuz\u0259na. GPT Definity
+  AI ye bana nguwu cin kuru nyiye kakkadi banaz\u0259yin faidat\u0259ma soro faida
+  nguwu sowondin. Banat\u0259ram platformbed\u0259 24/7 mbeji korowa au korowa jilifi
+  yayi jaapt\u0259ro. GPT Definity AI d\u0259 suronz\u0259n k\u0259ndaram app sanyaramye
+  kada mbeji, kuru daraja cidabe sammaso, ruwo ruwot\u0259-a, kuru luwayamaro njist\u0259g\u0259-a.
+  Suro jaza\u2019a darajat\u0259yen, GPT Definity AI faidat\u0259 am kura\u2019a k\u0259la
+  kufuyen kororo nd\u0259lamz\u0259yin, raayi\u2019a ganaro s\u0259din kuru faida\u2019aro
+  s\u0259din.\"", "\"G\u0259mnati Lard\u0259 Germany Yed\u0259ye Kung\u0259na Euro
+  Miliyon 5.5 Yeyi Nangam Naira Biliyon 2.19 Yeyi D\u0259a G\u0259mnati Lard\u0259
+  Najeriya Yed\u0259ro Banaro Cina Kasuwa Kuli-Kulimi Coronavirus Yed\u0259a Lard\u0259
+  D\u0259n K\u0259riwut\u0259 Nankaro.\\nCidaram K\u0259jifant\u0259 Ye Lard\u0259
+  Najeriyaye Ochanigeria Yed\u0259ye Warakz\u0259 Twitter Yed\u0259n Bayanjin D\u0259n,
+  Bana Dowo G\u0259mnati Lard\u0259 Germany Yed\u0259ye S\u0259d\u0259na Ad\u0259ye
+  Jami Lard\u0259 Najeriya Ye Duno Ganaa Sod\u0259a Banajin Nasha Sandiro Nji K\u0259nza
+  Ye Ngalwo-A, K\u0259mbua Gadenza Soa Suro Mashiwal Ad\u0259yen S\u0259din Sana.\\nHuwuma
+  K\u0259jifant\u0259-A, Mashiwal Kalt\u0259a Kuru Fuwut\u0259a Yed\u0259 Shima Kawuli
+  Bana Ad\u0259ye D\u0259a Yim Lamiss\u0259aro Warakz\u0259 Twitter Yed\u0259n Sutuluwu
+  D\u0259ye Ad\u0259ye Bana Gana G\u0259nyi S\u0259din Ro Jami Yed\u0259a Kasuwa Covid-19
+  Ye Ad\u0259n S\u0259tkayin Sana.\\nBreaking News\\nDandal Kura Radio International
+  Kanuri: Kowu\u2019o Fal Kanuri Milion Mew\u2019wu Kla\\nKanuri Miliyan Goma, Murya
+  Daya\\nDandal Radio 98.9FM Voice for Peace\\nDandal Kura FM 98.9 Kowo\u2019u nabtu
+  N3l3fay3\\nDandal Kura FM 98.9 Muryan Zaman Lafiya\\n--:--\\n--:--\\n-\\nFM Stream\\n-\\nShortwave\"",
+  "\"Kashim Shettima Mustapha GCON (2 k\u0259ntawu Septemberye saa 1966lan katambo)
+  siyasama Nigeria y\u01dd k\u0259n 15me kuru k\u0259rmaaro banama kura lard\u0259
+  Nigeriaye. Shid\u0259 buron senator Borno Centralye saa 2019 lan s\u0259ta 2023
+  ro saad\u0259nan, kuru gomna k\u0259riye Borno ye saa 2011 lan s\u0259ta 2019 ro
+  saad\u0259nan.\\nShettima d\u0259 Maiduguri lan katambo saa 1966 lan, Jamiya Maiduguri
+  ye-a Ibadan ye-a ro k\u0259rawono. Ngawo maaranta s\u0259tanayen, kasuwu-a banki-aro
+  kara, gana-ganan cida kura-kura bankin s\u0259dinro wallono. Dawu saa 2000 yen,
+  Shettima d\u0259 shima manaja Zenith Bank ye dalami Maiduguri ye d\u0259wo kawu
+  nasha d\u0259 kolz\u0259 kabinet k\u0259riye Governor Ali Modu Sheriff ye ro saa
+  2007 lan gayinro. zamanz\u0259 k\u0259rmaiyed\u0259 fit\u0259na Boko Haram y\u01dd
+  zauro ng\u0259wu. Shettima ye k\u0259rmainz\u0259 kolz\u0259na suro saa 2019 yen,
+  kuru sha majalis kura ro karrada. Ngawo karno primary Senate ye 2022 lan k\u0259nasart\u0259nayen,
+  karno d\u0259ga kolz\u0259 Bola Ahmed Tinubu ye kam kura ro wallono. Kaka-Shehu
+  Lawan d\u0259 shiga falz\u0259 kam majaliskuye karz\u0259naro wallono.\\nKashim
+  Shettima d\u0259 sha fato Shettima Mustafa Kuttayi b\u0259 yen katambo k\u0259ntawu
+  Septemberye kawunz\u0259 2 saa 1966 lan Maiduguri lan, nasha yalaye lan. Shiye Nana
+  Shettima nyaz\u0259na, kuru nduli yakk\u0259 satana.\\nShettima d\u0259 mowonti
+  primary Lamisula ye Maiduguri lan saa 1972 lan s\u0259ta 1978 ro saad\u0259nan k\u0259rawono
+  kuru mowonti secondary gomnatiye ro lewono, Biu suro an\u0259m k\u0259riye Borno
+  ye lan saa 1978 lan s\u0259ta 1980 ro saad\u0259nan. 1983. Jamiya Maiduguri lan
+  k\u0259rawono kuru degree (BSc) suro ilmu arziyi bareye lan s\u0259wand\u0259na
+  saa 1989 lan. Shiye wakilnz\u0259 saa falye k\u0259la cidaram n\u0259mzaye lard\u0259ye,
+  au NYSC, na banki k\u0259lak\u0259l bareye Nigeria ye, Calabar, b\u0259rni kura
+  k\u0259riye Cross River y\u01dd suro South-South, Nigeria ye, saa 1989 lan s\u0259ta
+  1990 ro saad\u0259nan. Ibadan, an\u01ddmf\u01ddte Naijiria b\u0259. Ngawo digiriz\u0259
+  tamoz\u0259nayen, Shettima d\u0259 jami\u2019a Maiduguri yen cidaz\u0259na napt\u0259
+  mal\u0259mmayen nasha fasal raz\u0259wu bareye lan kuru suro jami\u2019a d\u0259yen
+  cidaz\u0259na saa 1991 lan s\u0259ta 1993 ro saad\u0259nan.\\nKashim Shettima d\u0259
+  sha fato Shettima Mustafa Kuttayibe yen katambo k\u0259ntawu Septemberye kawunz\u0259
+  2 saa 1966 lan Maiduguri lan, nasha yalaye lan. Shiye Nana Shettima nyaz\u0259na,
+  kuru nduli yakk\u0259 satana.\\nShettima d\u0259 mowonti primary Lamisula ye Maiduguri
+  lan saa 1972 lan s\u0259ta 1978 ro saad\u0259nan k\u0259rawono kuru mowonti secondary
+  gomnatiye ro lewono, Biu suro an\u0259m k\u0259riye Borno ye lan saa 1978 lan s\u0259ta
+  1980 ro saad\u0259nan. 1983. Jamiya Maiduguri lan k\u0259rawono kuru degree (BSc)
+  suro ilmu arziyi bareye lan s\u0259wand\u0259na saa 1989 lan.[8] Shiye wakilnz\u0259
+  saa falye k\u0259la cidaram n\u0259mzaye lard\u0259ye, au NYSC, na banki k\u0259lak\u0259l
+  bareye Nigeriaye, Calabar, b\u0259rni kura k\u0259riye Cross Riverye suro South-South,
+  Nigeria y\u01dd, saa 1989 lan s\u0259ta 1990 ro saad\u0259nan. Ibadan, an\u01ddmf\u01ddte
+  Naijiriabe. Ngawo digiriz\u0259 tamoz\u0259nayen, Shettima d\u0259 jami\u2019a Maiduguri
+  yen cidaz\u0259na napt\u0259 mal\u0259mmayen nasha fasal raz\u0259wu bareye lan
+  kuru suro jami\u2019a d\u0259yen cidaz\u0259na saa 1991 lan s\u0259ta 1993 ro saad\u0259nan.\"",
+  "\"Karapka Fatoa Hawarre Yala Lard\u01dd Najeriya Ye NMF D\u01dda, Am Dowo Lamar
+  D\u01dd Dawunzanna Sod\u01ddye Ciza Tarai Daza Jami Yala Lard\u01dd Yed\u01dd Nankaro
+  Mashiwal Kam Ndalt\u01dd Yeso, Loru So Mashiwalla Sandiya Wuz\u01ddna Sod\u01dda
+  Tamot\u01ddrammo Saudin.\\nBayan Dowo Kazadala Karapka D\u01ddye Dan Agbese D\u01ddye
+  Maila Ro Sutuluwuna Lad\u01ddn, Karapka D\u01dd Kar\u01ddng\u01dd Ad\u01ddmaro Samno
+  Laa K\u01ddla Nz\u01ddrifoba Nasha Roa L\u01ddmanna Yala Lard\u01dd Yed\u01ddro
+  Katablaa Got\u01dd Nankaro Sad\u01ddna Tayenz\u01dd \u201cMashiwal Nz\u01ddrifoye:
+  Yala Liyiyau\u201d S\u01dd Bayanz\u01ddna.\\nKarapka D\u01ddye Karu Kuttanz\u01dda
+  Bayanz\u01ddna K\u01ddla Futu G\u01ddmnatia K\u01ddreye So G\u01ddmnati Kura Lard\u01dd
+  Yeso D\u01ddye Jami Soro Tawad\u01dd N\u01ddlewaye Sambiman Sadinba Ad\u01ddye S\u01ddkk\u01dd
+  Jami Sod\u01dd T\u01ddmmaro G\u01ddmnati Sod\u01dda Mb\u01ddrsazanyi Ro Walz\u01ddna
+  K\u01ddla Jaminz\u01dda Raks\u01dd S\u01ddliwinba Yed\u01ddn.\\nNasha Yala Yed\u01ddn
+  K\u01ddrmaro Mashiwal Nz\u01ddrtaliwu Boko Harambe Sandiya Z\u01ddks\u01ddna Lamar
+  Dowo Siyasa Kambaiya Kuru Rishiwa K\u01ddmbua D\u01ddye Konnunz\u01dd S\u01ddrana
+  Ma Kuru Galiwua Tala-A Samma Nz\u01ddrtaliwu So Kam Ndalt\u01ddma Soye Z\u01ddksana.\\nKarapka
+  D\u01ddye Bayanjin D\u01ddn Kuran Lard\u01ddye Kurisso K\u01ddmbanz\u01dd K\u01ddn
+  Indimi Ad\u01dd Ngawana K\u01ddntaa Nzasara Jami Yala Yea D\u01ddye S\u01ddkk\u01dd
+  Taidaz\u01dd Shiro Kuriya Sad\u01ddna. K\u01ddrmaro B\u01ddlanza Maye Nz\u01ddrtaliwu
+  So Kam Ndalt\u01dd Sod\u01ddye Z\u01ddks\u01ddna.\\nKarapka D\u01ddye Allo Suttuwu
+  Kura Lard\u01ddye Muhammadu Buhari D\u01dda G\u01ddmnaa K\u01ddrea Yea Samma Soa
+  Bowozana K\u01ddla Sandiye Katabba Dowo Jami Sod\u01dda Nz\u01ddtkawoye Goza Yed\u01ddn.\\nDandal
+  Kura Radio International Kanuri: Kowu\u2019o Fal Kanuri Milion Mew\u2019wu Kla\\nKanuri
+  Miliyan Goma, Murya Daya\\nDandal Radio 98.9FM Voice for Peace\\nDandal Kura FM
+  98.9 Kowo\u2019u nabtu N3l3fay3\\nDandal Kura FM 98.9 Muryan Zaman Lafiya\\n--:--\\n--:--\\n-\\nFM
+  Stream\\n-\\nShortwave\\nKarapka Fatoa Hawarre Yala Lard\u01dd Najeriya Ye NMF D\u01dda,
+  Am Dowo Lamar D\u01dd Dawunzanna Sod\u01ddye Ciza Tarai Daza Jami Yala Lard\u01dd
+  Yed\u01dd Nankaro Mashiwal Kam Ndalt\u01dd Yeso, Loru So Mashiwalla Sandiya Wuz\u01ddna
+  Sod\u01dda Tamot\u01ddrammo Saudin\\nShare on facebook\\nShare on google\\nShare
+  on twitter\"", "\"hukuma USAID ye banaa s3din nasha cidawu n3lefa kuruye 323 na
+  allamzen nasha cidaanzayen suro k3re Bauchi yan.\\nDr Alhassan Siaka adaid3a bayan
+  zo suro samno laa hawarwuwa t3d3na yen, samno d3a sha hawarwu doy nasha n3lefa yeya
+  cedo b3la Bauchi.\\nUSAID sandi cidawu n3lefaleye d3a allan tin nasha n3lefa suro
+  yeya, nzombyeya, tada k3liro njist333 yeya, gadenz3a suro k3re Bauchiyed3n.\\nkuru
+  man shiye adai d3a bayanjin d3n tawats33na cidaa shima ad3 suro fuwumaa na s3nana
+  14 nen sadin nen.\\nHakazaa shiye wono cidaa sandiya allam t3ye d3a k3ntau satumban
+  saa2020 badit3ya afrilun 2021 dajin,\\nkataffa doy got3na ad3n ngayet3 kurno nz3a
+  bayan gono k3la lamar n3lefa kuru ye duro hangal nz3a saad3na yen.\\nBreaking News\\nDandal
+  Kura Radio International Kanuri: Kowu\u2019o Fal Kanuri Milion Mew\u2019wu Kla\\nKanuri
+  Miliyan Goma, Murya Daya\\nDandal Radio 98.9FM Voice for Peace\\nDandal Kura FM
+  98.9 Kowo\u2019u nabtu N3l3fay3\\nDandal Kura FM 98.9 Muryan Zaman Lafiya\\n--:--\\n--:--\\n-\\nFM
+  Stream\\n-\\nShortwave\"", "\"Bolgatanga (Frafra: B\u0259legatannga), t\u0259lamma
+  amsoye Bolga lan not\u0259nad\u0259, b\u0259rni kuru b\u0259rni kura b\u0259la Bolgatanga
+  ye''a nasha g\u0259di sami Ghana ye''a. Shid\u0259 kalangai yalabed\u0259 Burkina
+  Faso''a. Bolgatangad\u0259 yala Tamalebero kilomita 161 (mi 100) kara. B\u0259lad\u0259
+  suro Red Volta Valleyyen kara (shidoni diwal k\u0259mowunbe hijrabe kurad\u0259),
+  White Volta-a kuru cidi Gambagabe-ad\u0259 an\u0259m b\u0259lad\u0259ye kalangai
+  an\u0259m Upper East Regionbed\u0259 s\u0259din.[6] Saa 2021 lan, b\u0259lad\u0259
+  n\u0259m nguwu am 142,509 kamuwa (74,659), kashi 52.4 konga''a koz\u0259na (67,850)
+  kashi 47.6.[7][2] Kaduwu laad\u0259 Bolgatangalan n\u0259m kuralan nabsanad\u0259
+  sandima Frafra''a, Daghati''a, Akan''a, Ewe''a, Ga-Adangbe''a.[3] Mayor b\u0259lad\u0259ye
+  k\u0259rmad\u0259 shima Rex Asanga. [8] N\u0259m nguwu b\u0259la Bolgatangaye suro
+  saa 2021 yed\u0259 kamuwa nguwu (74,659), kashi 52.4 konga''a koz\u0259na (67,850)
+  kashi 47.6. Municipald\u0259 cidi n\u0259m kuranz\u0259d\u0259 334 Km2 s\u0259tana
+  kuru n\u0259m nguwu amyed\u0259 kilomita square woson am 418.7.\\nKururam\"", "\"[1][2]Stanley
+  Kubrick d\u01dd sha chasambo yim findin araskin b\u01dd lan kintawu maram b\u01dd
+  lan sa,a duwun yar laarb n findin uskun b\u01dd lan (1928)\\nYim tulur b\u01dd lan
+  kintawu Armalan b\u01dd lan sa,a duwun yar laarrin fillaarin laarrin b\u01dd lan
+  (1999) Stanley Kubricbd\u01dd biske makar b\u01dd izini yowo ma (Director) kery\u01dd
+  Amerika b\u01dd. Karno 20th century b\u01dd lan kam shi yeyi bawo na biske makar
+  b\u01ddn izini yowon. Bula New York b\u01dd lan sha chasambo Amma K\u01ddn\u01ddngan
+  nz\u01dd nguwun zuso kery\u01dd England b\u01ddn chido.Stanley Kubrick d\u01dd kam
+  kasad\u01ddwa rintama loktu nzin Amso b\u01dd zauro bisken sara,ana . Amma bisken
+  nzi burob\u01dd izini china d\u01dd zauro mana girzina. (sex and violence) ngu mb\u01ddji
+  suro biske y\u01dd din att\u01ddma siki amsob\u01dd sandiyi ro biske d\u01dd sorin.
+  Su biske diy\u01dd di shima (Clockwork Orange) sa,a duwun yar laarrin fitulurrin
+  tllon b\u01dd lan (1971) biske shima d\u01dd kwallono\"", "\"Faidawa awowa falt\u0259ye
+  gadeso''a lez\u0259nad\u0259 not\u0259 faida''a loktu karno diwolan. Bayan laa cidiyaz\u0259na
+  ilmu Quick Alrexbe ngalwot\u0259g\u0259ro. Futu b\u0259lin do ne Quick Alrex lan
+  faidat\u0259ye d\u0259 k\u0259nasart\u0259na kuru nyiye affiliate-amicable ro waljin.
+  Katab-katab lan banat\u0259 badit\u0259ram Instant Alrex ye d\u0259ga jarabt\u0259ro
+  gana. Ask\u0259ra k\u0259lt\u0259ramnde Immediate Alrex ye d\u0259ro, nyiye rakn\u0259m
+  awo k\u0259lanz\u0259ye s\u0259raana d\u0259ga Money Insider men bayant\u0259yin
+  futu membership demo ye d\u0259ga fando nankaro.\\n- Cyprus Securities b\u0259lin
+  d\u0259 kuru raks\u0259 biya faljin (CySEC), shi do ne daraja\u2019a k\u0259lak\u0259l
+  Europe ye lan, shi do ne forex\u2019a wuz\u0259na ma kuru raks\u0259 CFD brokers
+  ro faidatin ma.\\n- Awowa banna suwudin d\u0259ga dabt\u0259ro, dropper tip b\u0259lin
+  d\u0259ga wande shimnzaro au awo gadero lejin.\\n- Tafakarne awo gana laa suro zar
+  yikoyen tuluwo sambisoro tajirwa fulut\u0259ro.\\n- Maskuwa kura kura d\u0259 sandima
+  kung\u0259na laisensiye ba, fait\u0259 dunowa do SSL encoding mbeji, duwaro awo
+  got\u0259, kuru bana cryptocurrency kadaye.\\n- Sandiye dayingata karapka fannu
+  kadaye gozana nasha AI so, app technologies so, kung\u0259na so, kuru kasuwu raz\u0259wu
+  ye so.\\nKulashi Zahirye Faidat\u01dd\\nN\u0259m farak farask\u0259ram cidabed\u0259
+  shaida kareyanza hangalye ng\u0259la-a karnowa falt\u0259be immediate byte pro k\u0259z\u0259kk\u0259-a
+  men. Awo\u2019a jili anyiye am zar yiwomaso\u2019a banaz\u0259yin awo\u2019a tuskaata
+  faidatayin kuru nyiye cidanza\u2019a s\u0259rayin. cuatro.9/5 Immediate Alrex ye
+  cida banaye premium ye d\u0259 shima furtu k\u0259nasar ye wo.\\nHyperlink faida''a\\n-
+  Instant Alrex d\u0259 samt\u0259ram duwaro banaz\u0259yin, duwaro fandoram cin sau
+  nyiye kung\u0259na\u2019a kuru kasuwu\u2019a ngalwoz\u0259yin.\\n- Am faidat\u0259maso
+  ro nizam lai fulut\u0259ye-a isawu-a cin hal kasuwuye noataro.\\n- Kulashi b\u0259lin
+  do Bitcoin ye buro salak lan goz\u0259na d\u0259 suro saa 2009 yen minti faida\u2019a,
+  zaman gade do kung\u0259na lantarkiye lan ciz\u0259na d\u0259\u2019a suwud\u0259na.\\n-
+  Dalil k\u0259lak\u0259l Instant Alrex ye d\u0259ro, nyiye hangaln\u0259m k\u0259lanz\u0259ro
+  Coin Insider men yita gatt\u0259yin account jarabt\u0259ye d\u0259ga faidat\u0259ro.\\n-
+  SSL encryption mbeji, Instant Alrex d\u0259 ma\u2019ananz\u0259 kulashi\u2019a kasuwu\u2019a
+  sammaso nz\u0259liwo\u2019a, kuru na falt\u0259ye nz\u0259liwo\u2019a suwudin.\\n-
+  \u20ac250 b\u0259lin do ne gana ma d\u0259 shima kusunyi kasuwu ye wo Immediate
+  Alrex lan, ad\u0259ye nyiro kolz\u0259 dawari cryptocurrency ye d\u0259ro lejin.\\nAmma
+  kar\u0259ng\u0259miro, Ambani ye tawats\u0259g\u0259na Narasimhan ye website d\u0259ro
+  k\u0259llat\u0259 kung\u0259na ng\u0259wu s\u0259wandinro, kuru misallo cida agogoye,
+  hawarwu d\u0259 riwa s\u0259wand\u0259na. Sambisoro liita-a k\u0259la shawariwa
+  warakka anyiben f\u0259lezanad\u0259 kareyanz\u0259ro lez\u0259naro tawatt\u0259g\u0259ro.
+  Sandid\u0259 loktu kuruwuro k\u0259ji fant\u0259be mbeji, kulashi kuru nyiye rakn\u0259m/ad\u0259
+  g\u0259nyima jarabt\u0259 labbe (misallo jarabt\u0259 kurube, nasha hangal g\u0259nat\u0259be)
+  raks\u0259 tamotin loktu kurun ad\u0259ga t\u0259dinlan. Dareram awowa donyi pollen
+  au awowa gade donyi allergy suwudin ma.\\nPhishing d\u0259 hayyamaro jili nzundu
+  napt\u0259ram jamaye, na do shillewuwa batti soye nyiga zalumzayin k\u0259la bayanna
+  zauro hangal gojinma-a zau-a yayakt\u0259yen, ad\u0259 g\u0259nyi malware badizayin.
+  Shim gade suwudin au wart\u0259, au tiyata kurube m\u0259rad\u0259z\u0259naro waljiya,
+  liitad\u0259ro koro laa yiwo nyiye awo k\u0259rmaaro faidatinmad\u0259 loteprednol
+  eye drops lan faidat\u0259 goza koz\u0259naro waljiya au awo gade badijin. Kuruson
+  raks\u0259 nyiro tajirwa kasuwa hangal g\u0259nat\u0259ye suwudin, musammanno loktu
+  kuruwuro k\u0259ji fant\u0259yen. Bayan fald\u0259 shima loktuwa zauro battiwo suronzan
+  kururam suluwin/fut\u0259/kimet\u0259, lamarra kurube, au hangaln\u0259m b\u0259lint\u0259g\u0259
+  ba. Hangaln\u0259m sakro ngaworo kalakk\u0259miya, samiro wune, kuru shim fulut\u0259nad\u0259ga
+  cidiro g\u0259rne wallet diwo nankaro. Mukko shimn\u0259mlan (kar\u0259ng\u0259
+  k\u0259nzaben) g\u0259nan\u0259min kuru kaz\u0259yi gana laa g\u0259nan\u0259min.\\nK\u01ddla-k\u01ddlan
+  Winnings-a Sutuluyin\\nWaneye au nyiye crypto beginner ng\u0259la au gonyi ilmube
+  programsn\u0259m yasabe, shi platformd\u0259 karewad\u0259ga s\u0259bandin kasuwunza
+  online gamebed\u0259ga haft\u0259ro. Loktu do ne core lan, Instantaneous Alrex ye
+  injin AI ye faidat\u0259 kaiyya goz\u0259 kojin kuru fasarjin awo do ne sanyaram
+  cryptocurrency ye lan. Fasal isawube zauro zauro faidat\u0259lan, kulashi kasuwube
+  battid\u0259ga faljin futu kasuwube ngalwot\u0259g\u0259be m\u0259rad\u0259wa affiliatebe
+  kalkalz\u0259naro. Sabis bana k\u01ddlan\u01ddmmabe dalilla na kasuwube gade-gadero
+  g\u01ddnat\u01ddg\u01ddma fand\u01ddm. Kashimo pro lan k\u0259ji fant\u0259 kuru
+  nyiye sulhu korowa d\u0259ro duwaro yiwo kuru nyiye points yiwo, ilmu kasuwuye na
+  sammason ngalwoz\u0259yin.\\nK\u0259lak\u0259lnza do CySEC-controlled brokers nowata
+  d\u0259 tawats\u0259g\u0259na k\u0259la n\u0259m ngalwo maskuye kuru raks\u0259
+  shimoz\u0259yin loktu nasha d\u0259ro let\u0259yen. Ranked cuatro.7/5, Immediate
+  Alrex d\u0259 zauro faida\u2019a kuru raks\u0259 kasuwu\u2019a duwaro dimin, kuru
+  awo\u2019a kasuwuye\u2019a wuz\u0259na d\u0259\u2019a wuz\u0259na. Karewa zauro
+  asutinma kuru algorithms zauro faida\u2019a d\u0259 sandima awowa faida\u2019a Instant
+  Alrex ye wo, faidat\u0259ma\u2019a do ilmu kung\u0259na ye s\u0259rayin ma.\\nInstantaneous
+  Alrex d\u0259ga kulast\u0259ro shawari got\u0259ma, kasuwu ng\u0259laro diwo kuru
+  awo rakn\u0259m tutuluyin d\u0259ga yiwu. Futu shawariwa t\u0259nad\u0259n, Instant
+  Alrex d\u0259 nizam sharaye. Sandiye algorithms AI-driven ye d\u0259ga banazayin,
+  account demo ye cin, kuru nyiye rakn\u0259m nz\u0259liwo kulashiye faidat\u0259
+  shilan faidat\u0259 kashimo k\u0259la k\u0259lt\u0259ye d\u0259ga nz\u0259liwo ro.\\nKaduwu
+  k\u0259skelan tuwondin-a futu kasuwu diwo-a\\nCida b\u0259lin Instantaneous Alrex
+  01 bed\u0259 futu biyabe zahirro lez\u0259na. Sa nyiro kung\u0259na k\u0259lt\u0259ye
+  ba yayi, deals-a kuru nyiye awo\u2019a fuwulan wakajinma so\u2019a tuwondin, jili
+  kare\u2019a d\u0259\u2019a wuz\u0259naro gadejin kuru nyiye zar yiko\u2019a. Kawu
+  falt\u0259 jireye baditinro, wakil demobe faidat\u0259\u2014awo do Instantaneous
+  Alrex +step fal lan mbeji shi do ne awowa yiwoye jaza\u2019a banajin ma. Duno platform
+  d\u0259ye d\u0259man, sambisoro tajirwa asarra got\u0259ye mbeji.\\nNgawo duluwu
+  kitawube-a kuru ilmu faidat\u0259maye nganzat\u0259-a, Instantaneous Alrex +100
+  d\u0259 faida\u2019a suro kasuwu kasuwuye b\u0259lin falt\u0259yen. Platformnded\u0259
+  k\u0259lanz\u0259''a g\u0259naz\u0259na faidawanz\u0259 ngalwot\u0259g\u0259na''a
+  shidoni na''a kada''a zaks\u0259nad\u0259 \u2013 rokko awowa rot\u0259ye''a, tie''a,
+  karewa''a, kuru nyiye fx''a. Rakt\u0259 statistics zamanbe jireye t\u0259mamin,
+  AI-powered predictions, kuru rakn\u0259m kare cidabe duno''a nduso nankaro, kuru
+  ad\u0259ye darajande samma fuwuma suro b\u0259la falt\u0259ben s\u0259din.\\nAm
+  do ne buro salak lan gozana d\u0259, awo b\u0259lin do ne crypto industry lan faidatin
+  d\u0259 asuzana kuru riwanza ngalwozayin kataffa su gana-gana lan faidatayin. Instant
+  Alrex d\u0259 shima farask\u0259ram kasuwu ye do AI lan faidatin ma kuru nasha kasuwu
+  ye lan duwaro t\u0259din ma, fx, stocks, kuru kare kasuwu ye lan. Shiye bayanz\u0259na
+  k\u0259la formulawa fuwuzanayen faidat\u0259 awo sanyiyaram lan t\u0259din d\u0259ga
+  kulast\u0259ro kuru nyiye awowa faidat\u0259masoye dimin, musko-a futu kasuwuye
+  lan cin.\"", "\"Wuye affiliate-amicable, feature-steeped, kuru zahir Forex kasuwu
+  f\u0259let\u0259ye k\u0259rmaaro kasuwud\u0259n mbejid\u0259 asut\u0259ro m\u0259rad\u0259g\u0259na.
+  Shi do ne bana Forex trial account ye mbeji ma, nyiye raks\u0259 kulashi jireye
+  d\u0259ga faidatin, amma, tajirwa kung\u0259naye jireye ba. Ad\u0259lan raks\u0259
+  awo samma nojin Forex Expert ng\u0259la duwaro fandolan. Account f\u0259let\u0259yed\u0259
+  nyiro zawal ng\u0259la falt\u0259ye cin kung\u0259na jireye g\u0259bt\u0259ro.\\nTajirwad\u0259
+  Asut\u0259\\n- Sandid\u0259 kasarrataro falt\u0259 b\u0259lin kung\u0259na lard\u0259
+  falye fuwuyero, shidoni nzunduwa kadaro faidatinma am nad\u0259ro ziyara sadinma
+  soye kung\u0259na zar yikoye lard\u0259 gadero yiko nankaro.\\n- Shi versatility
+  d\u0259 zauro banaz\u0259yin agent do nyiro zauro faida''a d\u0259ga not\u0259ro,
+  awowa falt\u0259ye d\u0259ga wune, kuru asut\u0259 hangal sanyiyaye d\u0259ga fuwuz\u0259yin.\\n-
+  Badiyaramma riwa nz\u0259raye mowonjin ba loktu fuwulan kasuwuro lezayinlan sai
+  shiye hawar ng\u0259la s\u0259dinma kuru na\u2019anz\u0259ro tafakkar s\u0259dinma.\\n-
+  ForexBrokers.com lan, kulashi andeye k\u0259la web agentben t\u0259dinmad\u0259
+  kulashi decimalbe k\u0259lanz\u0259laro sapt\u0259nad\u0259n kara kuru awo t\u0259band\u0259nad\u0259ga
+  kuru nyiye raayi kulashiwunde gonyibed\u0259ga kasatkata.\\n- Fx trial membership
+  ng\u0259lad\u0259 deg\u0259lan kat\u0259 kuru mburo walz\u0259na k\u0259lanz\u0259n
+  f\u0259let\u0259ro.\\n- Shid\u0259 shima awo do ne Fx Demo membership lan falt\u0259ro
+  t\u0259raana wo, ad\u0259ye s\u0259k\u0259 account kasuwuye live ye d\u0259ga t\u0259din.\\nSa
+  rakt\u0259\u2019a faida\u2019a do suro farask\u0259ram zar yiwoye lan tuwondin ma\u2019a,
+  nizam jarabt\u0259ye d\u0259\u2019a https://apexmedikorea.com/ faidat\u0259 awo\u2019a
+  laa jarabtin. Shi nyi kam do ne su\u2019a buroye lan zar yiwo ma\u2019a, shi do
+  ne n\u0259m ngalwo\u2019a s\u0259din ma kuru 10- banaz\u0259 yin 20-pip movements
+  ro? Au nyiye leverage gana faidat\u0259 ra\u2019am kuru nyiye ranking asut\u0259ram
+  kura\u2019a rot\u0259yin shi do ne pips kada suwudin ma? Network laad\u0259 screen
+  pop-upwards acquisitionbed\u0259 kulashin, amma laad\u0259 nyiro banaz\u0259g\u0259
+  kasuwu diwo nasha mapben. Sammason, raks\u0259 na quotationbed\u0259 ratn\u0259m
+  (ask b\u0259linmad\u0259) kung\u0259na ng\u0259la yiwo nankaro. Fasalwa laad\u0259
+  nyiro kolz\u0259 awo kasuwuye karn\u0259min aubiya awo yiwoye dabcin ngawo quote
+  window f\u0259lejiya.\\n- Bayan samma do suro FBS app yen tuwondin d\u0259 TradingView
+  lan tuwandin.\\n- Kulashi k\u0259la futu f\u0259let\u0259ye falt\u0259ye membership
+  ye d\u0259 faidawa kada am zar yiwomaso ro cin amma futu falt\u0259ye asut\u0259
+  d\u0259 suro awo ad\u0259yen bawo.\\n- Wakilt\u0259 jarabt\u0259be cTrader b\u0259lind\u0259ye
+  kuruson farask\u0259ram kam-amicablebe cin, karewa chartingbe fuwuzana, kuru kasuwu
+  kadaye mbeji.\\n- Misallo, lamarra alamanna kasuwu ng\u0259wuro diwo-a, k\u0259lanz\u0259ro
+  kasatt\u0259 ng\u0259wu-a, kuru hangal lan cida diwo ba-ad\u0259ye cijin.\\nAyi
+  shi Fx Habit Accounts d\u0259ga faidaro s\u0259din buro salakkin?\\nFoto b\u0259lin
+  Fx demo nankaro rakt\u0259 faltin, sau am yiwomasoye raksa dunonz\u0259 karzayin
+  loktu account k\u0259ske baditinlan. Loktu nyiye k\u0259n\u0259ngat\u0259yin account
+  kasuwubed\u0259 karno mbeji futu awo b\u0259lin notobed\u0259ga falt\u0259ben futu
+  investorbe awo f\u0259lez\u0259naro, notod\u0259ga falt\u0259 suro membaship f\u0259let\u0259bed\u0259n
+  gana zauro asutin. Account Fx demo ye kura d\u0259 shima awo do wakil d\u0259ye
+  suwudin ma banaz\u0259g\u0259 nyiro nizam falt\u0259ye d\u0259ga not\u0259ro. Sabi
+  yaye account falt\u0259 jarabt\u0259ye lan bikketin ma, kung\u0259na digitalye faidatin,
+  ad\u0259ye s\u0259k\u0259 am b\u0259linro cida s\u0259din futu awo laa casino online
+  ye lan hangal g\u0259najinro. Dat\u0259ram gade do t\u0259raana ngawo account kasuwuye
+  jarabt\u0259yen falt\u0259nayen, shima fant\u0259 do kung\u0259na k\u0259skelan
+  tuwondin ngawo kasuwu ng\u0259la diwoyen dalil kasuwu rifot ye nankaro. Biya, ad\u0259
+  shima k\u0259lanz\u0259ro kasatt\u0259 ng\u0259wuwo, kuru raks\u0259 nyiga tajirwa
+  ng\u0259wu gojin raayi ng\u0259la koz\u0259naro loktu kung\u0259na jireye lan cidajinma.\\nFasal
+  k\u0259rabe nzundube ng\u0259wu fando nankaro, rakn\u0259m Pepperstonebe Karewa
+  Buyerbe Fasal MT4bed\u0259 jarabn\u0259m. Wakil jarabt\u0259yed\u0259 nyiga kolz\u0259
+  kasuwu dimin susu kung\u0259na k\u0259lan\u0259mro tajirwaro yikoyero. Dalil ad\u0259ye
+  s\u0259k\u0259 nyiro brokerage\u2019s exchange software b\u0259lin d\u0259ga not\u0259yin
+  kuru awo do ne suro cidiyen da\u2019ana d\u0259ga not\u0259yin. Suro kulashindeyen,
+  IG Classification d\u0259 nizam falt\u0259ye kada suwudin, falloso accountnz\u0259
+  demoye mbejiro asuwoko.\\nAyi faidawa faida\u2019a do Account Forex Demonstration
+  ye lan faidatin ma?\\nTamatt\u0259na, Pepperstone karz\u0259na tun loktu shiye Forex
+  demo ngalwo falt\u0259 membashi MT4 lan bikkejin d\u0259ro. Haiyaro, Pepperstone
+  d\u0259 shima farask\u0259ram kasuwu forex ye do MetaTrader lan faidatin ma. Kung\u0259na
+  indi (kuru awo gade-gade, gana-a kuru forex kura-a) kuru nyiye awowa demo membershipbe
+  yiwod\u0259 awowa falt\u0259 raamma d\u0259ga kalkaljin. Wakil kadaye nji k\u0259nzaye
+  ng\u0259wuro fx segments loktu fallan sadin sau shares, indices, karewa kuru nyiye
+  cryptocurrencies. Account f\u0259let\u0259yed\u0259 am do k\u0259ndaram falt\u0259ye
+  ng\u0259la''a s\u0259din kuru fuwurawa mowonti kuraye''a kolz\u0259 kasuwu''a awo''a
+  t\u0259dinma''a, kuru broker d\u0259ye awo''a ladoye''a sanyaramn\u0259mro zuz\u0259yin
+  ba.\\nInteractive Agents (IBKR) d\u0259 shawari gade k\u0259la kasuwu nozana soye
+  k\u0259lanzaro walzayin ma. Ratalt\u0259yin awo do ne demo membership lan bowotin
+  d\u0259, dalil d\u0259 kasuwu d\u0259 sambisoro k\u0259nasar s\u0259din account
+  demo ye d\u0259ro. Amma ad\u0259 g\u0259nyi, ad\u0259ye raks\u0259 awo batti suwudin
+  k\u0259la awo b\u0259lin do investor ye d\u0259ro, dalild\u0259 shima raks\u0259
+  investor d\u0259ro kasatt\u0259 jireye g\u0259nyi suwudin. Ad\u0259ye s\u0259kk\u0259,
+  kam do zar yiwo mad\u0259, account nza live exchange ye d\u0259 lan, awo do kasuwu
+  ye d\u0259, suro loktu ganayen, n\u0259m kura\u2019a s\u0259din.\\nSa kasuwu badijiya
+  shi do ne kung\u0259na yar indi\u2019a mbeji ma, cida d\u0259 zahirro waljin. Profile
+  lan allamt\u0259g\u0259 d\u0259 diwal tajirwa baro awo falt\u0259ye m\u0259rad\u0259t\u0259na
+  d\u0259ga yasaye kuru kung\u0259na digitalye lan k\u0259ji fant\u0259ye. Am b\u0259linsod\u0259ro
+  awowa faida''a kuru am ilmu''a asut\u0259d\u0259 zauro ng\u0259la raayiwa b\u0259lin
+  jarabt\u0259ro. Shid\u0259 duluwu zauro ng\u0259la k\u0259la n\u0259m kasad\u0259n\u0259m
+  ngalwot\u0259g\u0259ben kawu napt\u0259ram falt\u0259ro faltinro. Futu bayant\u0259ye-a
+  n\u0259mgade-gade fant\u0259ye ndikate demo-a kasuwu k\u0259n\u0259ngat\u0259-aye
+  asut\u0259-ad\u0259 mburo walz\u0259na.\\nZauro faida\u2019a asut\u0259ram falt\u0259nza
+  do suro demo membership yen d\u0259 samma so zahirro kuru kasuwu ye d\u0259 sambisoro
+  awo gadero waljin loktu kung\u0259na jireyero tajirwa suwudin ma. Tips kasuwube
+  jireyed\u0259 mburo walz\u0259na kung\u0259na ganalan kuru nyiye baro diwo nankaro.
+  HFM ye f\u0259let\u0259ram membership ye d\u0259 farask\u0259ram falt\u0259ye zauro
+  ng\u0259la suwudin warakka mbejiro kuru hal kasuwuye diwo nankaro kung\u0259na digitalye
+  mbejiro, ad\u0259ye sandiro kolz\u0259 awo fanzayin susu kung\u0259na jireyero tajirwaro.\\nXTB
+  ye Forex k\u0259lanz\u0259laro suwudin kuru nyiye CFD k\u0259la web trial account
+  yen \u00a3100,000 (au kung\u0259na gade lan tilo) suro digital fund yen profiles
+  k\u0259lanz\u0259ye ro banaz\u0259 ilmu kasuwu ye d\u0259ga ngalwoz\u0259yin suro
+  cida n\u0259lefayen. Naura ndaso kasuwuwuro zauro faida\u2019a kuru banaz\u0259yin
+  k\u0259lanza\u2019a not\u0259ro IG\u2019s program, cidawa kasuwuye diwo, kuru nyiye
+  t\u0259ngat\u0259yin. Shid\u0259 gaworam n\u0259mkam k\u0259lt\u0259be-a, taman-a,
+  kuru karnowa-a suwudin, ad\u0259ye s\u0259k\u0259 shid\u0259 awo faida''a kawu falt\u0259
+  jireyero jarabt\u0259ro. Demo membership b\u0259lin d\u0259ye nyiro banaz\u0259g\u0259
+  awowa b\u0259lin kasuwu forex ye d\u0259ga asutin kuru nyiye jarabn\u0259m kasuwu
+  d\u0259ga jarabcin kuru futu do ne bayant\u0259nyi ma.\\nNad\u0259ro awowa kada
+  t\u0259kk\u0259nyi kuru loktu indiro biyatin, musammanno USD/CAD (Ande sammaso dollars''a
+  ratalt\u0259yin. kung\u0259na Canadabe) shidoni ngawo yim falt\u0259yen t\u0259dinma.
+  Sa ndu yayi k\u0259la kasuwu Fx ye b\u0259lin yen manajiya, nguwusoro kasuwu kung\u0259na
+  spot money ye lan manajin. Sa membershipn\u0259m kuru margin plansn\u0259m asutiya,
+  nyiye account b\u0259lind\u0259ro kung\u0259na yiwo falt\u0259 badin\u0259min. Bayan
+  k\u0259z\u0259kk\u0259 m\u0259rad\u0259z\u0259na, amma g\u0259nyi, kamfaniwa fxbe
+  kurakurad\u0259ye profilenza cinba am USbe faidat\u0259maso nankaro. Loktu nyi lan
+  awo gade-gade mbeji badit\u0259ram account kasuwu stockbe loktu ba\u2019a d\u0259ga
+  ratalt\u0259g\u0259men. wakil Forex brokerage ye ng\u0259la, duluwuwa samma falro
+  jarabsayin. Sa account b\u0259lind\u0259 kat\u0259na lan, nyiye rakn\u0259m f\u0259let\u0259ram
+  membaship pointbe majin.\\nDalil ad\u0259ye s\u0259k\u0259, n\u0259m ilmun\u0259m
+  allamt\u0259yed\u0259 awo faida''a g\u0259nyi, futu kaziyi do ne kaz\u0259yiya nguwuro
+  s\u0259din d\u0259 asut\u0259nyi ma. Sandi ng\u0259wunzaso badit\u0259maso nankaro
+  ng\u0259la kuru laad\u0259 am ilmuwuro ng\u0259la. Kaz\u0259yiya nyiyed\u0259 shima
+  duluwu do ne kasuwu k\u0259lanz\u0259ye\u2019a kalkaljin ma kuru nyiye banaz\u0259g\u0259
+  awo kasuwuye k\u0259lanz\u0259ye\u2019a kalkaljin ma.\\nBayan ad\u0259ye ilmu account
+  demo ye d\u0259ga ngalwoz\u0259yin, kasuwu so d\u0259ga banaz\u0259yin nasha d\u0259ga
+  asuzayin kuru duluwuwa falt\u0259ye faida\u2019a tuwondin. Rakt\u0259 nyiye k\u0259rayin
+  k\u0259la am yiwomasoye k\u0259nasart\u0259lan kuru nyiye ilmu-a. Account b\u0259lin
+  d\u0259 awo k\u0259ji fant\u0259ye k\u0259ske''a software lan faidat\u0259 awowa
+  sanyiyarambe jireye''a nganzat\u0259ro. Ad\u0259ye kolz\u0259 kamye accounts gade-gade
+  jarabcin, karnowa dunobe, kuru raks\u0259 raayiwa kung\u0259naye yiwo susu kung\u0259na
+  jireyero tajirwaro. Bayanna anyi zauro faida\u2019a kasuwuwu do ne demonstration
+  profile lan faidatayin d\u0259ro, sandiro bayanna cin kuru ilmu do ne futu kasuwu
+  nzaye ngalwozayin ma. Sandiye kamsoro bayan k\u0259rabe-a karewa-a cin, kuru TradingView-a,
+  patio do nzundu chartingbe fuwuz\u0259nama fasari k\u0259ske-a kuru indicators gade-gade-a
+  nankaro.\\nFx demo membership ng\u0259la d\u0259ye banaz\u0259g\u0259 awowa falt\u0259ye
+  not\u0259-a awowa gade-a notin. Misallo, nyiro banaz\u0259g\u0259 bayanna samma
+  asutin k\u0259la platform kasuwube-a kuru zar yikobe-a kuru fasarinz\u0259 kalkald\u0259
+  shawari got\u0259 nankaro. Rakt\u0259 kataffanz\u0259 jarabn\u0259m shi do ne k\u0259lanz\u0259laro
+  Forex demonstration membership lan bowotin mad\u0259, kasuwu badit\u0259 ra\u2019ama.
+  Zauro faida\u2019a futu halla do ne forex programme lan faidatin d\u0259 asut\u0259
+  kasuwu fuwuyero t\u0259din ma. Hawar k\u0259jid\u0259 shima, am yiwomasod\u0259
+  platform ndasowoso bikkezayin d\u0259ga wuzayin, ma''ananz\u0259 kung\u0259na jireye
+  ba.\\nShawariwande sammaso, jazawa, kuru raayiwande sammaso andeye, kuru jaza kulashinde
+  k\u0259z\u0259kk\u0259be sammaso kuru nyiye saa ng\u0259wuro hangal g\u0259nat\u0259g\u0259be
+  dunya forexbed\u0259ga zakcin. Bonds b\u0259lin d\u0259\u2019a kuru nyiye biya falt\u0259\u2019a
+  (SEC) kuru CFTC ye nyiro dabcin. am b\u0259lad\u0259n dasawuna sod\u0259 karewa
+  jili anyi falzayin dalild\u0259 shima transit controlled transfers d\u0259ga falzayin
+  ba. Am miliyon 1 ma koz\u0259na dunyalan FXTM karzana, kuru am 1000 b\u0259lin yiwomaso
+  sambisoro suro k\u0259ntawuyen suro maarad\u0259yen gayin.\\nMembership demo eToro
+  ye b\u0259lin d\u0259 nizam virtual ye cin na do kasuwu so ye kung\u0259na nza k\u0259ji
+  fanzayin ma shi do ne $100,000 suro kung\u0259na digital ye lan mbeji ma. Shiye
+  nyiro banaz\u0259g\u0259 manajin k\u0259la holds, cryptocurrencies, kuru nyiye kareya
+  cidabe, nyiro kolz\u0259 kambiyi falt\u0259ye fando kuru nyiye kasuwud\u0259ga not\u0259.
+  Dalil k\u0259n yakk\u0259med\u0259 shima duwaro cida diwoye jarabt\u0259, shi do
+  ne am yiwomaso banaz\u0259yin zar yiwoye duwaro gart\u0259ro, kuru slippage fulut\u0259
+  na\u2019a do awo faltinma kuru tajirwa nguwu gojin ma.\\nCFDs d\u0259 mbeji amma
+  awo\u2019a kasuwu ye d\u0259 kare\u2019a kasuwu ye nguwu mbeji, ngawo Forex yen,
+  kare\u2019a, su\u2019a tamanna, indices, shares, ETFs, kuru bonds so. CFDs d\u0259,
+  shi do ne kasuwu lan faidatin ma d\u0259, dama nguwu cin kuru raks\u0259 awo\u2019a
+  kasuwu ye\u2019a wuz\u0259na ma, shi do ne am yiwo ma samma soro kalkaljin ba ma.
+  CFD d\u0259 kalma faida\u2019a kasuwu ro faida\u2019a awo kung\u0259naye\u2019a
+  wuz\u0259na ma, shi do ne Agreements To have Differences (CFD) lan bowotin ma. Suro
+  kasuwu sambisoro t\u0259dind\u0259n, stocks kasuwube-a indices-a mbeji, karewa cidiyabed\u0259
+  kasuwumabe k\u0259lanz\u0259n kara.\\nKuruson awo do ne rob-cash section lan bowotin
+  d\u0259 shima awo do ne faltin ma, amma awo b\u0259lin do ne tajirwa\u2019a tuwondin
+  ma d\u0259, nyiye karno do ne ranks k\u0259nasart\u0259na d\u0259ga kolz\u0259 cidajin.
+  Sau awo\u2019a kasuwu ye d\u0259\u2019a isaft\u0259na d\u0259ro, nyiye dawart\u0259na
+  awo\u2019a kasuwu ye d\u0259\u2019a tuwondin loktu wakiln\u0259m ye awo\u2019a falt\u0259yen.
+  Suro Fx demo membership ng\u0259lan, raks\u0259 shawariwa samunnam gojin futu account
+  k\u0259skelan kung\u0259na jireye mbeji kuru loktu jireye quotation speedbe rumin.\\nKarnowa
+  ng\u0259wu mbeji loktu forex f\u0259let\u0259 membershipbe lan. Awo do ne zauro
+  faida\u2019a k\u0259la account jarabt\u0259yen d\u0259 shima nyiro kolz\u0259 awo
+  kada jarabtin kuru nyiye system d\u0259\u2019a kashi 100 lan de\u2019aro s\u0259din.
+  N\u0259m yanci ad\u0259ye nyiro banaz\u0259yin broker do nyiro ng\u0259laro waljinma
+  not\u0259ro, tips kasuwuye wune, kuru hangal kasuwuye not\u0259. CFD trial trade
+  account ng\u0259la d\u0259 shima farask\u0259ram ng\u0259la wo shi do ne am yiwomaso\u2019a
+  banaz\u0259yin nasha gade-gade kung\u0259na b\u0259linro yikoye nozayin susu kung\u0259nanza\u2019a
+  tajirwaro yikoyero. Kamfaniwa kasuwube Fxbe ng\u0259wuso lamarra CFDbe cin banaz\u0259g\u0259
+  nyiro gaworam na kasuwube kura-kuraro cin.\\nTrade therapy lan faidat\u0259 bad\u0259ye
+  futu k\u0259loye d\u0259ga dabcin, dalild\u0259 shima nasha do ne zauro not\u0259yewo.
+  Karno ng\u0259la futu falt\u0259ye not\u0259yed\u0259 shima micro membership do
+  ne gana g\u0259nat\u0259na kuru n\u0259m kura package ye 0.01. Kuwa nyiye karnowande
+  k\u0259lanz\u0259laro ruminna futu fx brokers ng\u0259la-a account jarabt\u0259be
+  nankaro, ForexBrokers.com Total Ratings kulasne.\\nSammason, cidajin suronz\u0259n
+  membaship loktube mbeji att\u0259son yayi, tajirwa-baro caca suwudin. Att\u0259son
+  yayi, nyiye dawart\u0259na kung\u0259na k\u0259njo badit\u0259ro suro awo kalt\u0259g\u0259nayen
+  kuru nyiye rakn\u0259m tajirwa-baro. Rakt\u0259 baditin dalil awo\u2019a sanyaram
+  ye m\u0259rad\u0259nz\u0259\u2019a ruwot\u0259 lan kuru raks\u0259 falt\u0259\u2019a
+  b\u0259lin riwa\u2019a asarra\u2019a (P/L) suro collateral yen wujin. Rakt\u0259
+  karno do ne leverage height nz\u0259\u2019a suro deals yen t\u0259din d\u0259\u2019a
+  rumin, ad\u0259 g\u0259nyi ma\u2019a, awo do ne average swinging ye lan faidatin
+  ma. Kuwa nyiye asut\u0259na awo Forex demonstration account lan bowotin d\u0259,
+  futu cidazayin d\u0259ga, kuru faidanz\u0259 gade-gade. Nyi kam b\u0259linro wallonowa
+  kuru dawart\u0259na kataffanza kulast\u0259 badit\u0259ro Forex demo membership
+  ng\u0259la agent lan, kataffa jili anyi asune fal fando nankaro.\\nBayan ndasowoso
+  suro n\u0259mgadet\u0259 kung\u0259naye k\u0259la FBS applicationben mbeji suro
+  TradingViewben. Robert Kiyosaki, ruwot\u0259ma \u201cRich Dad Terrible Dad\u201d
+  ye d\u0259, taman bitcoin ye d\u0259ga b\u0259linz\u0259na, k\u0259rma d\u0259ro
+  kung\u0259na b\u0259lin d\u0259 $100,100000 ro saadin dalil k\u0259ntawu September
+  ye lan. Shiye bitcoin kada fandoro dawari s\u0259din kawu Aprilro, shawari cina
+  k\u0259la reta k\u0259ji fant\u0259yen. Kiyosaki ye shawari cina k\u0259la am do
+  ne zar yiwo ma so ro k\u0259la bitcoin ye suro profiles nzayen k\u0259lt\u0259ro
+  kuru raks\u0259 bayanjin\u2026 Solead d\u0259 shima Web log kura wo kuru majalla
+  WordPress Motif ye awo kada falt\u0259na kuru bayan do ne lard\u0259 gadero ikko
+  ro dawart\u0259na ma.\\nOverconfidence d\u0259 shima awo do ne trial account lan
+  faidatin ma, dalil do ne awo\u2019a f\u0259let\u0259ye mbaut\u0259 nankaro, musamman
+  maro loktu kasuwu lan faidatin ma. Zauro kasuwu jarabt\u0259ye profile d\u0259 falt\u0259
+  suwudin ba, raks\u0259 nyiro riwa ad\u0259ga t\u0259mzayin, nyiro awo fait\u0259ye
+  bogus ye cin suro management nyiye samma nyiro kalakcin. Wakil jarabt\u0259yed\u0259
+  nizam asut\u0259ye buro salakkin, patio cin awowa not\u0259ye misallo na yiwo-a,
+  map-a kulast\u0259-a, kuru dama noto-a. Faida fal do account f\u0259let\u0259ye
+  lan tuwondin d\u0259 shima kung\u0259na f\u0259let\u0259 bawo. Buyers d\u0259 talt\u0259
+  s\u0259din kuru raks\u0259 shilan k\u0259ratin k\u0259la awo b\u0259lin do asarra
+  arziyibe lan tuwondin d\u0259ro.\\nFutu n\u0259mgade-gade do ne dareram lan gult\u0259na
+  d\u0259 lan, zahirro andeye k\u0259rma d\u0259ro awo do ne Fx demonstration profile
+  lan faidatin ma mbeji shi do ne karno d\u0259ga faljin ma. Misallo, awowa jili kasuwu
+  ng\u0259wu-a, k\u0259lanz\u0259ro kasatt\u0259 ng\u0259wu-a, kuru hangal ng\u0259laro
+  cidat\u0259 ba-ad\u0259 cizayin. Att\u0259son yayi, nyiye takt\u0259 mburo walz\u0259na
+  k\u0259la deck lan faidat\u0259 k\u0259liwod\u0259 loktu gana gojin. Sambisoro b\u0259lawuro
+  k\u0259lanz\u0259ye kasuwu kung\u0259na lard\u0259 diyabe lan, account demobed\u0259
+  dalilla kadaro faidajin.\"", "\"Karaf3ka ngawana k3l Engineer lard3be diye pampam
+  njiye sandi 50 barewu k3re Borno be d3ro sad3na be k3lan hawarra tuwond3na.\\nkazadala
+  karaf3ka diye Mr Babaagana Muhammad shima bana dowo sandiye sad3na ad3a war3maz3
+  b3rni Yerwa be lad3n.\\nShi kazadala ad3be Gomna k3re be Babagana Umara Zulum d3ro
+  ningia r3fcho sau shiro lallet3 nankaro k3la b3tr3m dowo barewu nasha Zabarmari
+  be d3ro t3mt3 adaima kuru kam kadda cen3na be lad3n.\\nAllan shi Muhammad diye bayanna
+  cido k3la sandi barewu ad3a yazo d3 zaumaro awo akruwu kutta be kuru sau ad3bero
+  nasha k3mbu k3z3k3 fando be diyen shuwalla ro walz3na s3na, adaima kuru walt3 kauria
+  s3d3na k3la katap laa dunaa ma got3 muradit3na be k3lan.\\nKuru ad3ma dam man shiye
+  walt3 kasad3 Gomna Babagana Umara Zulum be diye ya zazak3s3na nasha dawarinz3 hijirau
+  sod3a k3nd3aramza sod3ro kalak3t3be d3n.\\nAllan shi Gomna Babagana Umara Zulum
+  diye kauria s3din lad3n shiye sandiro ask3rra nz3a f3lejo k3la bana nz3a kuru z3kt3nz3a
+  f3lezana diye s3k3, adaima kuru shiye walt3 sandioro tawad3a cina k3la sandi pam-pam
+  njiye dowo saut3na mad3a barewu sand3na sod3ro sadin s3 shiye kauri nz3a s3d3na.\"",
+  "\"Ask\u01ddrra Lard\u01dd Najeriya Yed\u01ddye Jami B\u01ddladiya Jakana Huwunama
+  Konduga K\u01ddre Borno Yala-G\u01dddi Lard\u01dd Najeriya Yed\u01dda Ba B\u01ddlanzaro
+  Kalaksana Ngawo Buron Sandiya Napt\u01ddram Am Dowo Majarawaye Zamz\u01ddna So Bakasi
+  B\u01ddrni Yerwa Yed\u01ddro Sater\u01dd Saud\u01dd Kawu Yask\u01dd Sad\u01ddna
+  Yed\u01ddn.\\nTaktinno Wollonoa, Bada Ask\u01ddrra \u201cOperation Lafiya Dole\u201d
+  Yed\u01ddye Am B\u01ddladiya Jakana Yed\u01dda Sater\u01dd Kampu Hijirawuye Bakasi
+  Yed\u01ddro Saud\u01ddna Sandiye Nasha D\u01ddn Kulashi Soa Sadin Nankaro Kuru Jami
+  Sod\u01dda Yerwa D\u01ddro Kudo D\u01ddye Ronza Yitkawo Nankaro Sado.\\nLoktu Am
+  Ad\u01dda Tero Yed\u01ddn, Kazadala Ask\u01ddrra Badar K\u01ddn Tulurmi Ask\u01ddrra
+  Lard\u01dd Najeriyaye Brid.-Gen. Sunday Ikinom Wanhia D\u01ddye Jami Sod\u01dda
+  Bowoz\u01ddna K\u01ddla Sandiye Ngawana K\u01ddntanzaa Ask\u01ddrra Sod\u01ddro
+  Sad\u01dd Bayanna Faidaa Sandiro K\u01ddnjo Lad\u01ddn S\u01ddna.\\nKuru Ask\u01ddrra
+  Sod\u01dd T\u01ddmmaro Dazanba Suro Kasad\u01ddnza Nz\u01ddrtaliwu Sod\u01dda Nasha-A
+  Samma Son G\u01ddrn\u01ddm Baro Diwo Yed\u01ddn S\u01dd Bayanz\u01ddna.\\nShiye
+  Allo Suttuwu Jami Jakana Yed\u01dda Zazaks\u01ddna K\u01ddla Futu Sandiye Isa Kampu
+  Hijirawuye Bakasi Yed\u01ddn Napsa Kuru Ngawana K\u01ddntanzaa Ask\u01ddrra D\u01ddro
+  Sad\u01dd Nz\u01ddrtaliwu Sod\u01dda K\u01ddriwuzana Yed\u01ddn.\"", "\"Kura lard\u01ddbe
+  Muhammadu Buhari diye yim ye kau 25 saa 2020 lad\u01ddn s\u01ddta yim ye kau fal
+  k\u01ddntau b\u01ddrin be saa 2021 bero sat\u01ddna d\u01dda wokltua k\u01ddlele
+  k\u01ddrismilis bea kuru adaima saa b\u01ddrin bea s\u01dd shiye kauria sutuluna.\\nMinister
+  nasha lamarra suro fato be au lard\u01ddbe kwa Ogbeni Rauf Adesoji Aregbesola shima
+  ad\u01dda bayanz\u01dd susu kura lard\u01ddbe d\u01ddro, adaima kuru shiye k\u01ddrisshan
+  na lard\u01ddbe d\u01dda kuru adaima lard\u01dda diyaye sod\u01ddn kuntenro baraaz\u01ddna
+  sau k\u01ddlele k\u01ddrismilis be d\u01dda adaima saa b\u01ddrin be d\u01dda ro.\\nAdaima
+  kuru shi Aregbesola diye walt\u01dd sandi k\u01ddrisshanna amanz\u01dd sod\u01ddro
+  bot\u01dda s\u01ddd\u01ddna k\u01ddla sandiye futu sand\u01ddna ro k\u01ddlele ad\u01dda
+  sad\u01dd koz\u01dd ben.\\nShiye walt\u01dd bayanna s\u01ddd\u01ddna k\u01ddla nz\u01ddrwoa
+  nabt\u01dd n\u01ddlewai yad\u01dd awo sandi yeyi ba s\u01ddna kuru ngai d\u01dda
+  sandiye k\u01ddndowada ro wallonowa Gomati d\u01dda banaz\u01dd muradiyanz\u01dd
+  fuwuro s\u01ddk\u01ddna sod\u01dda k\u01ddla kambaiyan k\u01ddndojin s\u01ddna taganas
+  maro nasha arzanyi lard\u01ddbe d\u01dda dunaat\u01dd ben, kuru adaima shiye fur\u01ddsa
+  dowo nduli cit\u01dd b\u01ddrimmi aalama kam million Million yeyi d\u01ddro suro
+  saa 10 be lad\u01ddn cida barat\u01ddbe diye suwondin s\u01ddna.\\nAllan daji kuru
+  shiye jami lard\u01dd Nigeria be taganas maro sandi k\u01ddrisshan na sod\u01ddro
+  bot\u01dda s\u01ddd\u01ddna k\u01ddla sandiye mar\u01ddtaa houmma dowo k\u01ddla
+  kwasa Covid19 be lad\u01ddn kok\u01ddt\u01ddna d\u01dda k\u01ddnga masoro wal\u01ddza
+  be k\u01ddlan futu done hukuma k\u01ddla kwasa diye kuruma sod\u01ddbe bayanzana
+  yeyi s\u01ddna, affima gade nankaro g\u01ddnyi sau shi kwasa kuri-kuri miye Covid19
+  be diye chai baro walt\u01dd is\u01ddna diye s\u01ddk\u01dd wono.\\nDaji kuru daren
+  dajiro jami lard\u01ddbe d\u01dda baraaz\u01ddna k\u01ddla saa b\u01ddrin be lad\u01ddn
+  adaima kuru sandi k\u01ddrisshan sodiye ya baraaz\u01ddna sau k\u01ddlele k\u01ddrismilis
+  be d\u01dd nankaro.\"", "\"Suleja shima b\u0259rni k\u0259riye Niger Nigeria, yala
+  Abuja b\u0259, b\u0259rni kura Nigeria b\u0259. Yim laan sha b\u0259rni Abuja ye
+  d\u0259''a tuskatin, dalil n\u0259m kar\u0259ng\u0259nz\u0259 nankaro, kuru buron
+  sha Abuja lan bowotin d\u0259ro kawu gomnati Nigeria ye su d\u0259''a Emir Sulayman
+  Bal lan goz\u0259 b\u0259rni kura lard\u0259ye b\u0259linro saa 1976 lan.\\nSuleja
+  d\u0259 badiyaram karnu k\u0259n 19th ye lan Mohammed Makau, emir Hausa Zaria ye
+  dareye d\u0259, kuru jaminz\u0259 do jihadists Fulani ye sowosayin d\u0259 yala
+  Nigeria ye k\u0259riwut\u0259ro cidazana d\u0259''a kokkono. Zaria, au Zazzau, b\u0259rni/k\u0259riye
+  Hausa ye yala Nigeriaye fal shidoni jihadists Fulani ye cidiya kazadalanza Usman
+  bin Fodioyen k\u0259riwuzana d\u01dd.\\nShima nadonyi dawudi kuluwu b\u0259 Ladi
+  Kwali b\u01ddwo, shido Michael Cardewbe suro saa 1950 ben kokkono. Fuwuma mowonti
+  kuluwube ad\u0259bed\u0259 shima Dr. Ladi Kwali, shidoni cidanz\u0259 dunya sammason
+  f\u0259let\u0259nad\u0259.\"", "\"Lard\u0259 Najeriya Yed\u0259n Kasuwa Kuli-Kulimi
+  Covid-19 Yed\u0259ye Taadir Kam 553 Yeyi B\u0259lin Sarro Zamz\u0259na S\u0259 Dawudi
+  Kasuwa Kalt\u0259ye Lard\u0259ye Ncdc D\u0259ye Bayangono.\\nBayan Ad\u0259 Suro
+  Kawuli Laa Dawudi Ncdc D\u0259ye Yim S\u0259bd\u0259a B\u0259nero Sutuluwuna Lad\u0259n
+  Sulowo D\u0259ye Kasuwa D\u0259ye K\u0259rma D\u0259roa Lard\u0259 Samma Son Taadir
+  Kam 9,855 Yeyi K\u0259rea 14 Kuru B\u0259rni Kura Lard\u0259 Ye Abuja Lad\u0259n
+  S\u0259ta S\u0259 Bayanz\u0259na.\\nKuru Dawudi D\u0259ye Gult\u0259n K\u0259rea
+  Dowo Kasuwa D\u0259ye Amso D\u0259a Zamz\u0259na D\u0259 Sandima K\u0259re Lagos
+  Yen Kam 378, B\u0259rni Abuja Yen Kam 52, K\u0259re Delta Yen Kam 23, Edo Lan Kam
+  22, K\u0259re Rivers Yen Kam 14, K\u0259re Ogun Yen Kam 13, K\u0259re Kaduna Yen
+  Kam 12, Kano Lan Kam 9, K\u0259re Borno Yen Kam 7, Katsina Lan Am 6, Jigawa Kam
+  5, Oyo Kam 5, K\u0259rea Yobe-A Kuru Plateau Yea Lan Kam 3-3 Daji K\u0259re Osun
+  Yen Kam 1 S\u0259ta Sana.\\nBayanna Dowo Fato Dandal Kura Radio Ye S\u0259wand\u0259na
+  Lad\u0259n, Lard\u0259 Samma Son Kasuwa D\u0259ye Am Zamz\u0259na Sod\u0259ye Adudunza
+  9,855 Daji Suro N\u0259m Ng\u0259wu Ad\u0259yen Taadir Kam 2,856 Yeyi Salamzana
+  Kuru Taadir Kam 273 Yeyi D\u0259 Anoskunzaa Firtana.\\nBreaking News\\nDandal Kura
+  Radio International Kanuri: Kowu\u2019o Fal Kanuri Milion Mew\u2019wu Kla\\nKanuri
+  Miliyan Goma, Murya Daya\\nDandal Radio 98.9FM Voice for Peace\\nDandal Kura FM
+  98.9 Kowo\u2019u nabtu N3l3fay3\\nDandal Kura FM 98.9 Muryan Zaman Lafiya\\n--:--\\n--:--\\n-\\nFM
+  Stream\\n-\\nShortwave\"", "\"Karapka Yalaa Lard\u0259 Yed\u0259ye Lamar Hangal
+  Sangi Kuro T\u0259dinro Dawart\u0259na Ad\u0259n K\u0259lanz\u0259a Cint\u0259z\u0259na.\\nKarapka
+  D\u0259ye Guljin D\u0259n, Am Dowo Lamar Ad\u0259a Dawarzana Sod\u0259 Galjima Lard\u0259a
+  Diya Yeso d\u0259ro Takkal Yikoma So Kuru Fuwut\u0259 Yalaa Lard\u0259 Yed\u0259n
+  Tamtamza Baso S\u0259 Bayanz\u0259na.\\nKarapka D\u0259ye Allo Suttuwu Jami Yalaa
+  Lard\u0259 Yed\u0259a Bowoz\u0259na K\u0259la Sandiye Mana Ad\u0259ma D\u0259a Sapsa
+  Yirza.\\nSamno Hawar Matuwu Soye Dowo Fato \u2018Arewa House\u2019 K\u0259re Kaduna
+  Yed\u0259n Sad\u0259na Lad\u0259n, Cima Karapka D\u0259ye Abdulazeez Sulaiman D\u0259ye
+  Guljin D\u0259n Jami Yalaa Lard\u0259 Yed\u0259 Hangal Sangi D\u0259a Sadinba Ye
+  Adaima Ngawana K\u0259ntanzaa Sadinaye Lamar Dowo Lard\u0259 D\u0259a Yakcin Lad\u0259n
+  Sadinba S\u0259na.\\nAbdulazeez D\u0259ye Allo Suttuwu Jami Yalaa Lard\u0259 Yed\u0259a
+  Bowoz3na K\u0259la Sandiye Mana Nji Janan Kurn\u0259m Yeyi Yalaa D\u0259a Ngaworo
+  Kalakcin Ad\u0259a Sapsa Yirza Yed\u0259n.\\nBreaking News\\nDandal Kura Radio International
+  Kanuri: Kowu\u2019o Fal Kanuri Milion Mew\u2019wu Kla\\nKanuri Miliyan Goma, Murya
+  Daya\\nDandal Radio 98.9FM Voice for Peace\\nDandal Kura FM 98.9 Kowo\u2019u nabtu
+  N3l3fay3\\nDandal Kura FM 98.9 Muryan Zaman Lafiya\\n--:--\\n--:--\\n-\\nFM Stream\\n-\\nShortwave\"",
+  "\"G\u0259mnati K\u0259re Benue Yed\u0259ye Hijirawu Lard\u0259 Kemerunne Taadirre
+  6,000 Yeyi K\u0259rmaro Ikyogen Huwumana Kwande Yed\u0259n Mbeji S\u0259 Bayanz\u0259na.\\nTamshi
+  Huwuma Bana Duwasasheye K\u0259njoma SEMA Ye K\u0259re D\u0259ye Mr. Emmanuel Shior
+  Kwa Bayan Ad\u0259a Cina D\u0259ye, Sandi Hijirawu Ad\u0259 Buron B\u0259laa Abande
+  Yea Kuru Agbatse Yea Huwumana Kwande Yed\u0259n Saa 2017 Lad\u0259n Kasharu Dowo
+  Sandiya B\u0259ladiya Anyake Ye D\u0259ro Cidaram Suro Fato Yed\u0259ye Kalakkono.\\nAdaima
+  Sandi Jami Nasha D\u0259ye Soye Mashiwallanza Soa F\u0259lezana K\u0259la Hijirawu
+  D\u0259ye Sandiro Nanza Bareye So Kuru Lamarranza Gade Kun-Balin Yeso D\u0259a Kolt\u0259ye
+  M\u0259rad\u0259 F\u0259lezana Lad\u0259n, G\u0259mnati Ye Sandiya Nasha Anyake
+  Yed\u0259ro Kalakciwo.\\nAdaima Sandiye Nasha D\u0259a Taidaza Banazana Dowo Bana
+  Ad\u0259ma D\u0259 Sandiya S\u0259tinba K\u0259la Hijirawu Sod\u0259 Watakas Wajiya
+  N\u0259m-Ng\u0259wunza T\u0259ran Yed\u0259n.\\nCida Huwuma NEMA Yed\u0259 Shima
+  Am Dowo Majarawaye Zamz\u0259 Napt\u0259ramza Kolzana Sod\u0259ro Bana Duwasasheye
+  K\u0259njo, Ad\u0259 Nankaro Sandiye Wad\u0259a Gozana K\u0259la Sandiye Bananza
+  Sod\u0259a Hijirawu K\u0259re D\u0259ye Soro Sasaran Sana.\\nOne comment\\nallah
+  dandal kura haps3u\""]'
+src_ngrams: '{"1": [[["lan"], 8695], [["kuru"], 8673], [["ye"], 8019], [["suro"],
+  5193], [["d\u0259"], 5006]], "2": [[["suro saa"], 1362], [["do ne"], 1069], [["latin
+  script"], 998], [["central kanuri"], 998], [["d\u0259 shima"], 801]], "3": [[["shi
+  do ne"], 334], [["awo do ne"], 253], [["dandal kura fm"], 252], [["yim kawu k\u0259ntawube"],
+  192], [["duwun yar laarrin"], 140]], "4": [[["dandal kura radio international"],
+  128], [["o fal kanuri milion"], 126], [["fal kanuri milion mew"], 126], [["9fm voice
+  for peace"], 126], [["saa duwun yar laarrin"], 88]], "5": [[["o fal kanuri milion
+  mew"], 126], [["dandal kura radio international kanuri"], 126], [["d\u0259 shima
+  awo do ne"], 49], [["suro saa duwun yar laarrin"], 48], [["lan suro saa duwun yar"],
+  38]]}'

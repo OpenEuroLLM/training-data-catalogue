@@ -1,0 +1,1345 @@
+corpus: hplt-v4-ln
+srclang: ln
+timestamp: 1789049614.1611984
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["wide00002", 1292], ["CC-MAIN-2017-51", 847], ["CC-MAIN-2018-05",
+  806], ["CC-MAIN-2024-30", 488], ["CC-MAIN-2020-40", 385], ["CC-MAIN-2020-45", 362],
+  ["CC-MAIN-2024-51", 312], ["CC-MAIN-2021-31", 307], ["CC-MAIN-2020-24", 302], ["CC-MAIN-2024-38",
+  300], ["wide00016", 299], ["wide00011", 286], ["CC-MAIN-2020-05", 275], ["CC-MAIN-2020-50",
+  266], ["CC-MAIN-2021-04", 249], ["CC-MAIN-2025-30", 238], ["wide00012", 235], ["CC-MAIN-2023-14",
+  235], ["CC-MAIN-2025-26", 234], ["CC-MAIN-2024-42", 226], ["CC-MAIN-2024-33", 223],
+  ["CC-MAIN-2023-06", 217], ["archivebot", 207], ["CC-MAIN-2021-43", 190], ["CC-MAIN-2025-05",
+  183], ["CC-MAIN-2024-46", 181], ["CC-MAIN-2020-29", 176], ["CC-MAIN-2021-17", 172],
+  ["CC-MAIN-2014-15", 172], ["CC-MAIN-2021-39", 171], ["CC-MAIN-2023-23", 163], ["CC-MAIN-2025-08",
+  160], ["CC-MAIN-2025-18", 155], ["CC-MAIN-2020-34", 148], ["CC-MAIN-2025-13", 147],
+  ["CC-MAIN-2021-21", 146], ["CC-MAIN-2021-10", 145], ["CC-MAIN-2022-21", 136], ["CC-MAIN-2024-18",
+  135], ["wide00010", 132], ["CC-MAIN-2020-10", 124], ["CC-MAIN-2023-40", 123], ["CC-MAIN-2021-49",
+  121], ["CC-MAIN-2024-26", 118], ["CC-MAIN-2017-04", 118], ["CC-MAIN-2017-26", 112],
+  ["CC-MAIN-2024-10", 109], ["CC-MAIN-2020-16", 109], ["CC-MAIN-2022-27", 107], ["CC-MAIN-2022-49",
+  104], ["CC-MAIN-2025-33", 101], ["CC-MAIN-2018-39", 94], ["CC-MAIN-2025-21", 92],
+  ["CC-MAIN-2021-25", 86], ["CC-MAIN-2022-05", 82], ["CC-MAIN-2024-22", 79], ["CC-MAIN-2018-22",
+  77], ["CC-MAIN-2023-50", 73], ["CC-MAIN-2022-40", 64], ["CC-MAIN-2018-34", 52],
+  ["CC-MAIN-2022-33", 51], ["CC-MAIN-2019-04", 50], ["wide00015", 49], ["CC-MAIN-2018-43",
+  39], ["CC-MAIN-2015-11", 23], ["wide00017", 22], ["wide00006", 21], ["CC-MAIN-2015-18",
+  21], ["wide00005", 14], ["CC-MAIN-2015-48", 9], ["CC-MAIN-2016-44", 7], ["CC-MAIN-2014-35",
+  5], ["CC-MAIN-2016-40", 3], ["CC-MAIN-2014-42", 3], ["CC-MAIN-2016-30", 1]]'
+docs_langs: '[[0.2, 112], [0.3, 415], [0.4, 639], [0.5, 1250], [0.6, 1330], [0.7,
+  1227], [0.8, 1473], [0.9, 1283], [1.0, 5837]]'
+docs_segments: '[[1, 54], [2, 297], [3, 735], [4, 624], [5, 706], [6, 747], [7, 668],
+  [8, 608], [9, 556], [10, 590], [11, 494], [12, 405], [13, 357], [14, 320], [15,
+  299], [16, 294], [17, 292], [18, 228], [19, 246], [20, 216], [21, 181], [22, 188],
+  [23, 165], [24, 154], [25, 144], [26, 179], [27, 111], [28, 100], [29, 109], [30,
+  97], [31, 76], [32, 87], [33, 76], [34, 78], [35, 63], [36, 91], [37, 78], [38,
+  67], [39, 75], [40, 89], [41, 71], [42, 76], [43, 73], [44, 53], [45, 67], [46,
+  36], [47, 54], [48, 41], [49, 41], [50, 34], [51, 33], [52, 39], [53, 32], [54,
+  34], [55, 20], [56, 38], [57, 31], [58, 31], [59, 31], [60, 31], [61, 33], [62,
+  30], [63, 27], [64, 32], [65, 26], [66, 26], [67, 35], [68, 29], [69, 23], [70,
+  26], [71, 36], [72, 31], [73, 23], [74, 34], [75, 33], [76, 29], [77, 25], [78,
+  36], [79, 29], [80, 27], [81, 34], [82, 23], [83, 27], [84, 31], [85, 24], [86,
+  28], [87, 31], [88, 27], [89, 27], [90, 20], [91, 34], [92, 27], [93, 21], [94,
+  20], [95, 24], [96, 24], [97, 25], [98, 28], [99, 19], [100, 31], [101, 19], [102,
+  24], [103, 12], [104, 21], [105, 23], [106, 14], [107, 17], [108, 15], [109, 15],
+  [110, 12], [111, 14], [112, 17], [113, 8], [114, 17], [115, 17], [116, 13], [117,
+  15], [118, 15], [119, 5], [120, 10], [121, 8], [122, 10], [123, 7], [124, 6], [125,
+  7], [126, 4], [127, 13], [128, 10], [129, 2], [130, 8], [131, 4], [132, 6], [133,
+  3], [134, 4], [135, 7], [136, 5], [137, 5], [138, 6], [139, 8], [140, 3], [141,
+  2], [142, 3], [143, 4], [144, 3], [145, 4], [146, 4], [147, 3], [148, 3], [149,
+  5], [150, 11], [151, 5], [152, 3], [153, 4], [154, 1], [155, 4], [156, 3], [159,
+  2], [160, 1], [161, 4], [162, 3], [163, 6], [164, 4], [165, 1], [166, 1], [167,
+  5], [169, 2], [170, 1], [172, 5], [173, 2], [174, 1], [175, 2], [176, 2], [177,
+  1], [178, 1], [180, 1], [181, 1], [182, 3], [183, 1], [185, 2], [186, 2], [188,
+  1], [189, 1], [191, 1], [192, 3], [194, 1], [198, 1], [200, 1], [203, 3], [206,
+  1], [212, 1], [214, 1], [215, 2], [216, 1], [217, 1], [219, 1], [221, 2], [222,
+  1], [225, 1], [226, 1], [227, 1], [229, 1], [232, 2], [233, 1], [234, 1], [235,
+  1], [239, 1], [241, 1], [243, 1], [244, 1], [247, 1], [250, 1], [255, 1], [257,
+  1], [268, 1], [269, 1], [272, 1], [274, 1], [280, 1], [281, 2], [286, 1], [288,
+  1], [303, 1], [306, 1], [313, 1], [319, 2], [323, 1], [328, 1], [329, 1], [345,
+  1], [352, 1], [353, 1], [355, 1], [375, 1], [387, 2], [407, 1], [422, 1], [432,
+  1], [438, 1], [443, 1], [464, 1], [494, 1], [497, 2], [512, 1], [521, 1], [534,
+  1], [553, 1], [568, 1], [569, 1], [572, 1], [686, 1], [703, 1], [931, 1], [961,
+  1], [1027, 1], [1039, 1], [1057, 1], [1060, 1], [1130, 1], [1202, 1], [1615, 1],
+  [1708, 1], [2038, 1], [2634, 1], [3999, 1], [5845, 1]]'
+docs_segments_mean: 29
+docs_segments_median: 13
+docs_top100_domains: '[["jw.org", 2779], ["voalingala.com", 2210], ["congomikili.com",
+  1505], ["ebible.org", 701], ["zolaview.com", 534], ["wikipedia.org", 492], ["radiookapi.net",
+  450], ["voiceofcongo.net", 387], ["mbokamosika.com", 298], ["kabalisolo.org", 184],
+  ["skyrock.com", 181], ["rdcongoinfos.com", 177], ["lds.org", 141], ["senemongaba.com",
+  122], ["lyrics.cat", 113], ["tubulire.info", 104], ["hackernoon.com", 104], ["congobilili.com",
+  100], ["ana-kids.net", 97], ["migraweb.ch", 84], ["cleboa.com", 80], ["editorial7.net",
+  75], ["actualingala.info", 61], ["blogspot.com", 56], ["svfellowship.info", 55],
+  ["zhitov.ru", 51], ["biblafrique.net", 51], ["viametanoia.com", 41], ["vaticannews.va",
+  40], ["voa.gov", 39], ["mapamboli.com", 38], ["mabiki.net", 38], ["voorlichtingvertaald.nl",
+  35], ["biblearc.com", 33], ["videoixir.net", 31], ["afrikalyrics.com", 29], ["forumactif.org",
+  26], ["discoverapp.org", 25], ["myworksourcemaine.gov", 23], ["kla.tv", 23], ["congonumber1.com",
+  23], ["opexflow.com", 21], ["divmagic.com", 21], ["realsuntime.com", 19], ["kimbanguist.net",
+  19], ["churchofjesuschrist.org", 19], ["virunganews.com", 17], ["primestan.com.ng",
+  17], ["orientalinfo.net", 17], ["sejoygroup.com", 16], ["icc-cpi.int", 16], ["paroles.net",
+  15], ["imcongo.com", 15], ["biblafrique.org", 15], ["diaspordc.com", 14], ["bethereforme.org",
+  14], ["afrikblog.com", 14], ["kabalisolo.com", 13], ["e-monsite.com", 13], ["efvm.world",
+  12], ["cccrdc.net", 12], ["canalblog.com", 12], ["bible.com", 12], ["ibdi.it", 11],
+  ["stepsamep.com.au", 10], ["kasahorow.org", 10], ["gtbs.org", 10], ["forumdediscussions.com",
+  10], ["exonumia.africa", 10], ["echocommunity.org", 10], ["wikimedia.org", 9], ["surecheckup.com",
+  9], ["reveil-fm.com", 9], ["mcreveil.com", 9], ["kinshasainformer.com", 9], ["gotquestions.org",
+  9], ["somaaktuel.com", 8], ["oyang-group.com", 8], ["oratlas.com", 8], ["jinpeng-global.com",
+  8], ["congoindependant.com", 8], ["chinasprayer.com", 8], ["berthe-cabinetkanza.fr",
+  8], ["zikforum.com", 7], ["yabiso.com", 7], ["mayostreetarts.org", 7], ["masanjoli.co",
+  7], ["hsqy-plasticgroup.com", 7], ["dworaczek-bendome.org", 7], ["accessagriculture.org",
+  7], ["zhitov.com", 6], ["web.app", 6], ["sebastiensasa.org", 6], ["portlandlibrary.com",
+  6], ["muteba.com", 6], ["musixmatch.com", 6], ["lingalainstitute.com", 6], ["jucelinoluz.news",
+  6], ["islammessage.org", 6], ["hangaotech.com", 6]]'
+docs_top100_tld: '[["com", 6446], ["org", 4588], ["net", 1291], ["info", 374], ["cat",
+  113], ["ch", 94], ["ru", 68], ["gov", 63], ["me", 43], ["eu", 41], ["va", 40], ["nl",
+  37], ["tv", 27], ["fr", 25], ["com.ng", 21], ["mobi", 18], ["it", 18], ["int", 16],
+  ["be", 16], ["africa", 15], ["world", 13], ["app", 13], ["online", 11], ["live",
+  11], ["com.au", 11], ["us", 9], ["co", 9], ["club", 8], ["io", 7], ["cd", 7], ["top",
+  6], ["site", 6], ["news", 6], ["de", 6], ["xyz", 5], ["pro", 5], ["com.br", 5],
+  ["click", 5], ["space", 4], ["fm", 4], ["cf", 4], ["biz", 4], ["tech", 3], ["org.uy",
+  3], ["nrw", 3], ["win", 2], ["shop", 2], ["no", 2], ["co.ke", 2], ["az", 2], ["xn--p1ai",
+  1], ["ws", 1], ["website", 1], ["video", 1], ["tl", 1], ["se", 1], ["run", 1], ["rest",
+  1], ["report", 1], ["re", 1], ["press", 1], ["pl", 1], ["org.uk", 1], ["ml", 1],
+  ["land", 1], ["ir", 1], ["in", 1], ["gq", 1], ["gov.uk", 1], ["gov.gr", 1], ["global",
+  1], ["gc.ca", 1], ["fun", 1], ["fi", 1], ["edu", 1], ["com.tr", 1], ["co.uk", 1],
+  ["cc", 1], ["ca", 1], ["br", 1], ["best", 1], ["asia", 1], ["art", 1], ["ao", 1]]'
+docs_total: 13566
+docs_wds: '[[0.5, 210], [0.51, 205], [0.52, 207], [0.53, 211], [0.54, 204], [0.55,
+  226], [0.56, 242], [0.57, 212], [0.58, 226], [0.59, 178], [0.6, 187], [0.61, 194],
+  [0.62, 206], [0.63, 196], [0.64, 215], [0.65, 202], [0.66, 201], [0.67, 216], [0.68,
+  241], [0.69, 233], [0.7, 279], [0.71, 246], [0.72, 283], [0.73, 283], [0.74, 263],
+  [0.75, 281], [0.76, 327], [0.77, 376], [0.78, 538], [0.79, 791], [0.8, 1455], [0.81,
+  902], [0.82, 488], [0.83, 311], [0.84, 270], [0.85, 196], [0.86, 176], [0.87, 174],
+  [0.88, 207], [0.89, 197], [0.9, 198], [0.91, 135], [0.92, 114], [0.93, 129], [0.94,
+  150], [0.95, 180], [0.96, 156], [0.97, 134], [0.98, 73], [0.99, 26], [1.0, 16]]'
+duplication_ratio: 0.097
+sentence_pairs: 394670
+src_bytes: 72818207
+src_chars: 71666103
+src_pii: 263
+src_tokens: 14417767
+unique_sents: 356401
+src_sent_tokens: '[[1, 8359], [2, 10036], [3, 11419], [4, 11785], [5, 12871], [6,
+  12803], [7, 13836], [8, 12512], [9, 13949], [10, 11702], [11, 10887], [12, 9378],
+  [13, 8704], [14, 8099], [15, 7454], [16, 7092], [17, 6554], [18, 6522], [19, 5975],
+  [20, 5999], [21, 5878], [22, 5623], [23, 5868], [24, 5322], [25, 5198], [26, 5107],
+  [27, 4829], [28, 4773], [29, 4646], [30, 4587], [31, 4543], [32, 4295], [33, 4251],
+  [34, 4162], [35, 3899], [36, 3871], [37, 3743], [38, 3460], [39, 3403], [40, 3150],
+  [41, 2935], [42, 2829], [43, 2789], [44, 2651], [45, 2508], [46, 2337], [47, 2317],
+  [48, 2213], [49, 2159], [50, 2042], [51, 2026], [52, 1835], [53, 1801], [54, 1776],
+  [55, 1749], [56, 1736], [57, 1681], [58, 1593], [59, 1498], [60, 1396], [61, 1451],
+  [62, 1379], [63, 1286], [64, 1308], [65, 1252], [66, 1271], [67, 1217], [68, 1241],
+  [69, 1088], [70, 1119], [71, 1069], [72, 1096], [73, 1000], [74, 1059], [75, 960],
+  [76, 959], [77, 998], [78, 990], [79, 882], [80, 924], [81, 869], [82, 871], [83,
+  851], [84, 854], [85, 790], [86, 783], [87, 770], [88, 747], [89, 698], [90, 677],
+  [91, 662], [92, 681], [93, 647], [94, 687], [95, 618], [96, 605], [97, 609], [98,
+  602], [99, 585], [100, 560], [101, 509], [102, 544], [103, 582], [104, 495], [105,
+  543], [106, 495], [107, 490], [108, 501], [109, 487], [110, 494], [111, 388], [112,
+  484], [113, 415], [114, 407], [115, 360], [116, 419], [117, 439], [118, 366], [119,
+  372], [120, 376], [121, 375], [122, 341], [123, 331], [124, 359], [125, 331], [126,
+  332], [127, 335], [128, 320], [129, 312], [130, 288], [131, 301], [132, 282], [133,
+  306], [134, 247], [135, 251], [136, 267], [137, 255], [138, 235], [139, 250], [140,
+  233], [141, 191], [142, 241], [143, 216], [144, 217], [145, 229], [146, 191], [147,
+  196], [148, 202], [149, 184], [150, 200], [151, 201], [152, 186], [153, 190], [154,
+  193], [155, 167], [156, 180], [157, 183], [158, 196], [159, 148], [160, 187], [161,
+  145], [162, 139], [163, 139], [164, 423], [165, 132], [166, 288], [167, 156], [168,
+  154], [169, 155], [170, 139], [171, 121], [172, 153], [173, 125], [174, 125], [175,
+  138], [176, 121], [177, 128], [178, 119], [179, 124], [180, 113], [181, 102], [182,
+  115], [183, 126], [184, 98], [185, 104], [186, 119], [187, 99], [188, 96], [189,
+  84], [190, 97], [191, 100], [192, 105], [193, 80], [194, 69], [195, 66], [196, 86],
+  [197, 88], [198, 67], [199, 94], [200, 70], [201, 73], [202, 56], [203, 71], [204,
+  76], [205, 58], [206, 66], [207, 67], [208, 66], [209, 68], [210, 63], [211, 55],
+  [212, 58], [213, 72], [214, 77], [215, 53], [216, 53], [217, 52], [218, 55], [219,
+  57], [220, 53], [221, 48], [222, 57], [223, 53], [224, 52], [225, 52], [226, 55],
+  [227, 49], [228, 32], [229, 42], [230, 49], [231, 51], [232, 39], [233, 42], [234,
+  33], [235, 41], [236, 41], [237, 35], [238, 37], [239, 33], [240, 36], [241, 39],
+  [242, 44], [243, 29], [244, 20], [245, 39], [246, 30], [247, 25], [248, 28], [249,
+  33], [250, 27], [251, 40], [252, 32], [253, 24], [254, 27], [255, 28], [256, 21],
+  [257, 34], [258, 30], [259, 27], [260, 31], [261, 41], [262, 27], [263, 35], [264,
+  36], [265, 37], [266, 33], [267, 25], [268, 75], [269, 26], [270, 29], [271, 21],
+  [272, 29], [273, 29], [274, 19], [275, 24], [276, 29], [277, 25], [278, 21], [279,
+  23], [280, 16], [281, 20], [282, 17], [283, 25], [284, 15], [285, 14], [286, 30],
+  [287, 18], [288, 24], [289, 13], [290, 14], [291, 19], [292, 20], [293, 17], [294,
+  20], [295, 13], [296, 16], [297, 19], [298, 25], [299, 15], [300, 12], [301, 17],
+  [302, 20], [303, 8], [304, 18], [305, 16], [306, 8], [307, 20], [308, 13], [309,
+  15], [310, 14], [311, 13], [312, 20], [313, 11], [314, 11], [315, 14], [316, 9],
+  [317, 12], [318, 11], [319, 13], [320, 14], [321, 18], [322, 14], [323, 10], [324,
+  17], [325, 18], [326, 17], [327, 11], [328, 11], [329, 13], [330, 5], [331, 11],
+  [332, 14], [333, 7], [334, 6], [335, 14], [336, 11], [337, 5], [338, 7], [339, 10],
+  [340, 8], [341, 1], [342, 9], [343, 6], [344, 14], [345, 9], [346, 10], [347, 9],
+  [348, 13], [349, 11], [350, 9], [351, 8], [352, 12], [353, 7], [354, 9], [355, 9],
+  [356, 7], [357, 10], [358, 4], [359, 8], [360, 10], [361, 6], [362, 4], [363, 8],
+  [364, 4], [365, 11], [366, 5], [367, 6], [368, 9], [369, 7], [370, 5], [371, 6],
+  [372, 8], [373, 13], [374, 10], [375, 7], [376, 6], [377, 9], [378, 4], [379, 8],
+  [380, 8], [381, 4], [382, 10], [383, 8], [384, 7], [385, 7], [386, 13], [387, 4],
+  [388, 1], [389, 9], [390, 6], [391, 10], [392, 7], [393, 7], [394, 8], [395, 7],
+  [396, 10], [397, 3], [398, 2], [399, 6], [400, 9], [401, 5], [402, 6], [403, 8],
+  [404, 6], [405, 8], [406, 5], [407, 4], [408, 4], [409, 7], [410, 6], [411, 2],
+  [412, 6], [413, 5], [414, 5], [415, 6], [416, 5], [417, 5], [418, 3], [419, 2],
+  [420, 13], [421, 3], [422, 7], [423, 8], [424, 4], [425, 4], [426, 3], [427, 4],
+  [428, 7], [429, 4], [430, 8], [431, 7], [432, 3], [433, 5], [434, 2], [435, 6],
+  [436, 4], [437, 4], [438, 5], [439, 3], [440, 16], [441, 8], [442, 7], [443, 4],
+  [444, 3], [445, 8], [447, 4], [448, 9], [449, 5], [450, 6], [451, 2], [452, 4],
+  [453, 2], [454, 5], [455, 1], [456, 4], [457, 2], [458, 3], [459, 6], [460, 2],
+  [461, 3], [462, 2], [463, 2], [464, 6], [465, 5], [467, 2], [468, 3], [469, 2],
+  [470, 2], [471, 7], [472, 3], [473, 4], [474, 2], [475, 6], [476, 3], [477, 4],
+  [478, 4], [479, 4], [480, 3], [481, 3], [482, 4], [483, 3], [484, 4], [485, 3],
+  [486, 5], [487, 5], [488, 1], [489, 2], [490, 4], [491, 3], [492, 3], [493, 2],
+  [494, 5], [495, 1], [497, 1], [498, 4], [499, 4], [500, 5], [501, 2], [502, 1],
+  [503, 2], [504, 2], [505, 2], [507, 2], [508, 1], [509, 1], [510, 1], [511, 6],
+  [512, 5], [513, 2], [514, 1], [515, 1], [516, 2], [517, 2], [518, 5], [519, 1],
+  [520, 1], [521, 3], [522, 2], [523, 2], [524, 1], [525, 1], [527, 1], [528, 3],
+  [530, 2], [531, 2], [533, 1], [534, 2], [535, 2], [536, 3], [538, 6], [539, 2],
+  [541, 1], [542, 1], [543, 2], [545, 2], [546, 1], [547, 3], [548, 2], [549, 1],
+  [550, 2], [551, 1], [552, 4], [553, 3], [554, 4], [555, 3], [556, 1], [557, 4],
+  [558, 2], [560, 1], [563, 3], [564, 1], [566, 1], [567, 1], [568, 3], [569, 2],
+  [570, 1], [571, 2], [572, 3], [573, 1], [574, 2], [575, 2], [576, 4], [578, 2],
+  [580, 2], [581, 1], [582, 4], [584, 3], [585, 2], [586, 2], [587, 2], [588, 1],
+  [589, 1], [591, 2], [593, 3], [594, 1], [596, 1], [598, 1], [599, 3], [600, 1],
+  [601, 2], [603, 1], [604, 2], [605, 1], [606, 1], [608, 1], [609, 4], [610, 1],
+  [612, 2], [613, 1], [614, 1], [615, 2], [616, 2], [617, 2], [619, 1], [620, 1],
+  [622, 2], [623, 1], [625, 1], [627, 1], [629, 1], [633, 1], [635, 2], [636, 1],
+  [637, 1], [640, 1], [641, 1], [642, 1], [643, 1], [644, 2], [645, 1], [646, 1],
+  [649, 1], [652, 1], [653, 1], [654, 2], [656, 2], [657, 1], [660, 1], [662, 1],
+  [665, 1], [667, 1], [668, 1], [669, 2], [671, 2], [674, 1], [675, 1], [680, 1],
+  [681, 1], [683, 1], [688, 1], [691, 2], [693, 1], [697, 1], [700, 1], [705, 1],
+  [708, 2], [710, 1], [713, 1], [717, 1], [721, 1], [723, 2], [726, 1], [728, 1],
+  [734, 1], [735, 1], [738, 2], [741, 1], [742, 1], [748, 1], [750, 2], [752, 1],
+  [755, 1], [756, 1], [764, 1], [766, 1], [768, 2], [777, 1], [780, 2], [786, 1],
+  [790, 1], [791, 1], [802, 2], [806, 2], [808, 1], [811, 1], [814, 1], [817, 2],
+  [820, 1], [822, 1], [824, 1], [826, 1], [829, 1], [832, 1], [833, 1], [838, 2],
+  [840, 1], [843, 1], [846, 1], [847, 1], [851, 1], [854, 2], [858, 1], [860, 2],
+  [862, 1], [863, 1], [864, 1], [871, 1], [872, 2], [874, 1], [876, 2], [882, 1],
+  [883, 1], [884, 1], [887, 1], [889, 1], [891, 1], [894, 1], [899, 1], [902, 1],
+  [904, 1], [907, 1], [909, 1], [912, 1], [917, 1], [919, 1], [928, 1], [931, 1],
+  [935, 1], [936, 1], [938, 1], [941, 1], [943, 1], [945, 1], [947, 1], [949, 1],
+  [950, 1], [956, 1], [964, 2], [972, 1], [978, 1], [980, 1], [984, 1], [987, 1],
+  [997, 1], [999, 1], [1001, 1], [1009, 1], [1011, 1], [1013, 1], [1018, 3], [1020,
+  1], [1023, 1], [1024, 1], [1029, 1], [1031, 2], [1033, 1], [1035, 1], [1040, 1],
+  [1042, 1], [1047, 1], [1051, 1], [1056, 2], [1060, 1], [1068, 1], [1069, 1], [1076,
+  1], [1084, 1], [1097, 1], [1100, 1], [1118, 1], [1120, 1], [1126, 1], [1127, 2],
+  [1131, 1], [1145, 1], [1150, 1], [1159, 1], [1161, 1], [1164, 1], [1169, 1], [1177,
+  1], [1181, 1], [1198, 1], [1202, 1], [1207, 1], [1217, 1], [1223, 1], [1224, 1],
+  [1236, 1], [1303, 1], [1317, 2], [1336, 1], [1338, 1], [1342, 1], [1350, 1], [1351,
+  1], [1352, 1], [1357, 1], [1379, 1], [1393, 1], [1397, 1], [1398, 1], [1456, 1],
+  [1465, 1], [1556, 1], [1575, 1], [1596, 1], [1597, 1], [1599, 1], [1628, 1], [1651,
+  1], [1658, 1], [1767, 1], [1774, 1], [1803, 1], [2020, 1], [2187, 1], [2488, 1],
+  [2756, 1], [2995, 1], [3780, 1], [10130, 1]]'
+src_sent_tokens_mean: 37
+src_sent_tokens_median: 21
+src_unique_sents: '[[1, 3425], [2, 6098], [3, 7777], [4, 9215], [5, 10901], [6, 11506],
+  [7, 12031], [8, 11582], [9, 11237], [10, 10365], [11, 9765], [12, 8807], [13, 8224],
+  [14, 7580], [15, 7023], [16, 6727], [17, 6269], [18, 6190], [19, 5702], [20, 5760],
+  [21, 5582], [22, 5347], [23, 5141], [24, 5115], [25, 4984], [26, 4905], [27, 4665],
+  [28, 4611], [29, 4485], [30, 4375], [31, 4319], [32, 4151], [33, 4097], [34, 4016],
+  [35, 3750], [36, 3726], [37, 3608], [38, 3347], [39, 3276], [40, 3032], [41, 2846],
+  [42, 2726], [43, 2686], [44, 2574], [45, 2403], [46, 2271], [47, 2249], [48, 2145],
+  [49, 2074], [50, 1968], [51, 1958], [52, 1753], [53, 1718], [54, 1724], [55, 1700],
+  [56, 1670], [57, 1624], [58, 1533], [59, 1425], [60, 1348], [61, 1398], [62, 1340],
+  [63, 1237], [64, 1261], [65, 1208], [66, 1207], [67, 1149], [68, 1193], [69, 1055],
+  [70, 1088], [71, 1038], [72, 1064], [73, 965], [74, 1025], [75, 933], [76, 937],
+  [77, 941], [78, 947], [79, 850], [80, 881], [81, 835], [82, 840], [83, 818], [84,
+  827], [85, 759], [86, 759], [87, 729], [88, 727], [89, 681], [90, 658], [91, 644],
+  [92, 646], [93, 632], [94, 668], [95, 594], [96, 582], [97, 586], [98, 581], [99,
+  564], [100, 534], [101, 491], [102, 529], [103, 515], [104, 477], [105, 536], [106,
+  471], [107, 463], [108, 482], [109, 468], [110, 475], [111, 373], [112, 469], [113,
+  398], [114, 391], [115, 353], [116, 396], [117, 417], [118, 356], [119, 362], [120,
+  364], [121, 363], [122, 327], [123, 318], [124, 342], [125, 320], [126, 325], [127,
+  323], [128, 305], [129, 299], [130, 276], [131, 289], [132, 275], [133, 298], [134,
+  236], [135, 238], [136, 260], [137, 249], [138, 230], [139, 241], [140, 225], [141,
+  185], [142, 232], [143, 201], [144, 210], [145, 221], [146, 186], [147, 190], [148,
+  194], [149, 182], [150, 193], [151, 173], [152, 181], [153, 184], [154, 179], [155,
+  161], [156, 171], [157, 174], [158, 191], [159, 143], [160, 175], [161, 134], [162,
+  136], [163, 134], [164, 143], [165, 131], [166, 121], [167, 145], [168, 145], [169,
+  139], [170, 138], [171, 116], [172, 132], [173, 118], [174, 117], [175, 134], [176,
+  109], [177, 123], [178, 113], [179, 119], [180, 110], [181, 95], [182, 112], [183,
+  119], [184, 95], [185, 98], [186, 114], [187, 99], [188, 91], [189, 83], [190, 92],
+  [191, 97], [192, 102], [193, 76], [194, 64], [195, 64], [196, 82], [197, 80], [198,
+  64], [199, 90], [200, 68], [201, 70], [202, 55], [203, 68], [204, 75], [205, 58],
+  [206, 60], [207, 67], [208, 65], [209, 67], [210, 63], [211, 54], [212, 57], [213,
+  68], [214, 76], [215, 43], [216, 53], [217, 51], [218, 54], [219, 52], [220, 46],
+  [221, 46], [222, 50], [223, 51], [224, 51], [225, 50], [226, 51], [227, 46], [228,
+  32], [229, 41], [230, 47], [231, 49], [232, 39], [233, 41], [234, 32], [235, 41],
+  [236, 39], [237, 34], [238, 37], [239, 33], [240, 35], [241, 37], [242, 42], [243,
+  29], [244, 20], [245, 39], [246, 29], [247, 25], [248, 28], [249, 32], [250, 27],
+  [251, 40], [252, 32], [253, 23], [254, 24], [255, 28], [256, 21], [257, 31], [258,
+  29], [259, 26], [260, 30], [261, 40], [262, 27], [263, 35], [264, 30], [265, 35],
+  [266, 33], [267, 25], [268, 29], [269, 25], [270, 29], [271, 21], [272, 23], [273,
+  29], [274, 18], [275, 24], [276, 25], [277, 24], [278, 21], [279, 23], [280, 15],
+  [281, 20], [282, 16], [283, 25], [284, 15], [285, 14], [286, 30], [287, 17], [288,
+  24], [289, 13], [290, 14], [291, 18], [292, 20], [293, 16], [294, 20], [295, 13],
+  [296, 16], [297, 19], [298, 25], [299, 14], [300, 11], [301, 16], [302, 20], [303,
+  8], [304, 16], [305, 16], [306, 8], [307, 20], [308, 13], [309, 15], [310, 14],
+  [311, 13], [312, 20], [313, 11], [314, 11], [315, 14], [316, 9], [317, 12], [318,
+  11], [319, 13], [320, 14], [321, 13], [322, 14], [323, 10], [324, 16], [325, 18],
+  [326, 17], [327, 11], [328, 11], [329, 13], [330, 5], [331, 11], [332, 14], [333,
+  7], [334, 6], [335, 14], [336, 10], [337, 5], [338, 7], [339, 9], [340, 8], [341,
+  1], [342, 7], [343, 6], [344, 14], [345, 9], [346, 10], [347, 7], [348, 13], [349,
+  9], [350, 9], [351, 8], [352, 12], [353, 6], [354, 8], [355, 8], [356, 7], [357,
+  10], [358, 4], [359, 8], [360, 10], [361, 6], [362, 4], [363, 8], [364, 4], [365,
+  10], [366, 5], [367, 6], [368, 9], [369, 7], [370, 5], [371, 6], [372, 8], [373,
+  13], [374, 10], [375, 7], [376, 6], [377, 9], [378, 4], [379, 8], [380, 8], [381,
+  4], [382, 10], [383, 7], [384, 7], [385, 7], [386, 13], [387, 4], [388, 1], [389,
+  9], [390, 6], [391, 10], [392, 7], [393, 7], [394, 8], [395, 7], [396, 10], [397,
+  3], [398, 2], [399, 6], [400, 9], [401, 5], [402, 6], [403, 8], [404, 6], [405,
+  8], [406, 5], [407, 4], [408, 4], [409, 7], [410, 6], [411, 2], [412, 6], [413,
+  5], [414, 5], [415, 6], [416, 5], [417, 5], [418, 3], [419, 2], [420, 12], [421,
+  3], [422, 7], [423, 8], [424, 4], [425, 4], [426, 3], [427, 4], [428, 7], [429,
+  4], [430, 8], [431, 7], [432, 3], [433, 5], [434, 2], [435, 6], [436, 4], [437,
+  4], [438, 5], [439, 3], [440, 9], [441, 8], [442, 6], [443, 4], [444, 3], [445,
+  7], [447, 4], [448, 9], [449, 5], [450, 6], [451, 2], [452, 4], [453, 2], [454,
+  5], [455, 1], [456, 4], [457, 2], [458, 3], [459, 6], [460, 2], [461, 3], [462,
+  2], [463, 2], [464, 5], [465, 5], [467, 2], [468, 3], [469, 2], [470, 2], [471,
+  7], [472, 3], [473, 4], [474, 2], [475, 6], [476, 3], [477, 4], [478, 4], [479,
+  4], [480, 3], [481, 3], [482, 3], [483, 3], [484, 4], [485, 3], [486, 5], [487,
+  5], [488, 1], [489, 2], [490, 4], [491, 3], [492, 3], [493, 2], [494, 5], [495,
+  1], [497, 1], [498, 4], [499, 4], [500, 5], [501, 2], [502, 1], [503, 2], [504,
+  2], [505, 2], [507, 2], [508, 1], [509, 1], [510, 1], [511, 6], [512, 5], [513,
+  2], [514, 1], [515, 1], [516, 2], [517, 2], [518, 5], [519, 1], [520, 1], [521,
+  3], [522, 2], [523, 2], [524, 1], [525, 1], [527, 1], [528, 3], [530, 2], [531,
+  2], [533, 1], [534, 2], [535, 2], [536, 3], [538, 6], [539, 2], [541, 1], [542,
+  1], [543, 2], [545, 2], [546, 1], [547, 3], [548, 2], [549, 1], [550, 2], [551,
+  1], [552, 4], [553, 3], [554, 4], [555, 3], [556, 1], [557, 4], [558, 2], [560,
+  1], [563, 3], [564, 1], [566, 1], [567, 1], [568, 3], [569, 2], [570, 1], [571,
+  2], [572, 2], [573, 1], [574, 2], [575, 2], [576, 4], [578, 2], [580, 2], [581,
+  1], [582, 3], [584, 3], [585, 2], [586, 2], [587, 2], [588, 1], [589, 1], [591,
+  2], [593, 3], [594, 1], [596, 1], [598, 1], [599, 3], [600, 1], [601, 2], [603,
+  1], [604, 2], [605, 1], [606, 1], [608, 1], [609, 4], [610, 1], [612, 2], [613,
+  1], [614, 1], [615, 2], [616, 2], [617, 2], [619, 1], [620, 1], [622, 2], [623,
+  1], [625, 1], [627, 1], [629, 1], [633, 1], [635, 2], [636, 1], [637, 1], [640,
+  1], [641, 1], [642, 1], [643, 1], [644, 2], [645, 1], [646, 1], [649, 1], [652,
+  1], [653, 1], [654, 2], [656, 2], [657, 1], [660, 1], [662, 1], [665, 1], [667,
+  1], [668, 1], [669, 2], [671, 2], [674, 1], [675, 1], [680, 1], [681, 1], [683,
+  1], [688, 1], [691, 2], [693, 1], [697, 1], [700, 1], [705, 1], [708, 2], [710,
+  1], [713, 1], [717, 1], [721, 1], [723, 2], [726, 1], [728, 1], [734, 1], [735,
+  1], [738, 2], [741, 1], [742, 1], [748, 1], [750, 2], [752, 1], [755, 1], [756,
+  1], [764, 1], [766, 1], [768, 2], [777, 1], [780, 2], [786, 1], [790, 1], [791,
+  1], [802, 2], [806, 2], [808, 1], [811, 1], [814, 1], [817, 2], [820, 1], [822,
+  1], [824, 1], [826, 1], [829, 1], [832, 1], [833, 1], [838, 2], [840, 1], [843,
+  1], [846, 1], [847, 1], [851, 1], [854, 2], [858, 1], [860, 2], [862, 1], [863,
+  1], [864, 1], [871, 1], [872, 2], [874, 1], [876, 2], [882, 1], [883, 1], [884,
+  1], [887, 1], [889, 1], [891, 1], [894, 1], [899, 1], [902, 1], [904, 1], [907,
+  1], [909, 1], [912, 1], [917, 1], [919, 1], [928, 1], [931, 1], [935, 1], [936,
+  1], [938, 1], [941, 1], [943, 1], [945, 1], [947, 1], [949, 1], [950, 1], [956,
+  1], [964, 2], [972, 1], [978, 1], [980, 1], [984, 1], [987, 1], [997, 1], [999,
+  1], [1001, 1], [1009, 1], [1011, 1], [1013, 1], [1018, 2], [1020, 1], [1023, 1],
+  [1024, 1], [1029, 1], [1031, 2], [1033, 1], [1035, 1], [1040, 1], [1042, 1], [1047,
+  1], [1051, 1], [1056, 2], [1060, 1], [1068, 1], [1069, 1], [1076, 1], [1084, 1],
+  [1097, 1], [1100, 1], [1118, 1], [1120, 1], [1126, 1], [1127, 2], [1131, 1], [1145,
+  1], [1150, 1], [1159, 1], [1161, 1], [1164, 1], [1169, 1], [1177, 1], [1181, 1],
+  [1198, 1], [1202, 1], [1207, 1], [1217, 1], [1223, 1], [1224, 1], [1236, 1], [1303,
+  1], [1317, 2], [1336, 1], [1338, 1], [1342, 1], [1350, 1], [1351, 1], [1352, 1],
+  [1357, 1], [1379, 1], [1393, 1], [1397, 1], [1398, 1], [1456, 1], [1465, 1], [1556,
+  1], [1575, 1], [1596, 1], [1597, 1], [1599, 1], [1628, 1], [1651, 1], [1658, 1],
+  [1767, 1], [1774, 1], [1803, 1], [2020, 1], [2187, 1], [2488, 1], [2756, 1], [2995,
+  1], [3780, 1], [10130, 1]]'
+src_langs: '[["fr", 98210], ["sw", 72686], ["en", 45872], ["tl", 37035], ["eo", 19010],
+  ["es", 11164], ["id", 9577], ["su", 9310], ["war", 8885], ["hr", 8367], ["pl", 7736],
+  ["it", 6396], ["ms", 5183], ["mt", 3551], ["eu", 3227], ["de", 3011], ["qu", 2804],
+  ["ceb", 2597], ["sl", 2254], ["hu", 2214], ["pt", 2105], ["kw", 1997], ["fi", 1867],
+  ["tr", 1828], ["sr", 1787], ["nl", 1689], ["lt", 1621], ["io", 1530], ["uz", 1305],
+  ["cy", 1300], ["bs", 1294], ["ur", 1249], ["br", 1062], ["ro", 912], ["cs", 863],
+  ["sq", 633], ["jv", 633], ["rm", 625], ["ar", 572], ["cbk", 562], ["la", 557], ["sv",
+  546], ["ilo", 539], ["ca", 522], ["so", 446], ["diq", 425], ["mg", 424], ["lv",
+  391], ["gd", 376], ["ru", 368], ["jbo", 274], ["sk", 268], ["pam", 256], ["ga",
+  253], ["gn", 229], ["kn", 227], ["vo", 204], ["bcl", 186], ["ia", 183], ["ie", 180],
+  ["et", 176], ["zh", 168], ["gl", 157], ["is", 154], ["uk", 151], ["nb", 126], ["min",
+  122], ["ast", 119], ["gom", 116], ["ku", 111], ["oc", 107], ["ht", 90], ["bn", 89],
+  ["ja", 83], ["yo", 81], ["tk", 79], ["ml", 76], ["vi", 66], ["bh", 64], ["nds",
+  61], ["dsb", 54], ["da", 52], ["tg", 51], ["az", 48], ["el", 46], ["vec", 44], ["km",
+  42], ["vep", 40], ["fy", 40], ["frr", 38], ["nap", 35], ["scn", 34], ["gv", 31],
+  ["pms", 27], ["te", 25], ["fa", 24], ["ne", 22], ["hif", 21], ["sco", 20], ["he",
+  19], ["lmo", 17], ["eml", 17], ["bar", 17], ["wa", 16], ["ko", 16], ["af", 16],
+  ["an", 15], ["hy", 14], ["co", 14], ["pfl", 13], ["lb", 13], ["ta", 12], ["sc",
+  12], ["ky", 12], ["th", 11], ["mzn", 11], ["ug", 10], ["mwl", 10], ["gu", 10], ["hsb",
+  9], ["mrj", 8], ["or", 7], ["nn", 7], ["hi", 7], ["yi", 6], ["mk", 6], ["li", 6],
+  ["bg", 6], ["my", 5], ["bo", 5], ["xal", 4], ["si", 4], ["nah", 4], ["mn", 4], ["ckb",
+  4], ["ps", 3], ["pnb", 3], ["mr", 3], ["als", 3], ["vls", 2], ["kk", 2], ["dv",
+  2], ["cv", 2], ["ce", 2], ["ba", 2], ["arz", 2], ["am", 2], ["wuu", 1], ["tt", 1],
+  ["rue", 1], ["pa", 1], ["new", 1], ["lo", 1], ["kv", 1], ["as", 1]]'
+hardrules_tags: '{"not_too_long": 5101, "not_too_short": 25041, "length_ratio": 0,
+  "no_urls": 8104, "no_bad_encoding": 113, "pii": 263}'
+sample: '["\"Po pasi oyo nazo koka lisusu te. En j\u00e9sus nous avons le pouvoir
+  sur toute la force de l\u2019ennemis, pas de n\u00e9gociation avec le Zala Papa,
+  na zala mwana. Toi le coeur que tous les saints recherchent. Papa malamu oyebi olata
+  pasi ya bana. Ensemble nous t\u2019apportons ce sacrifice Ces mets que tu aimes
+  Nous voulons t\u2019\u00e9lever au plus\\nEh Yesu eh, pinzoli na ngai etangi. Na
+  leli, bawusa ngai mayi ya miso oh Yesu Yesu mwana Nzambe Motema na ngai eleli mingi
+  eh Na yebi ozali Nkolo Elikia ya basantu nionso Motema lamentaiton seyo Yo Nkolo
+  ya bomoyi na ngai Na yebi ozali Nkolo Elikia ya basantu nionso Motema epona s\u00e9yo
+  Yo Nkolo ya bomoyi na ngai Oy\u2019esalaka ngai Pasi na motema Na ekulusu Omemaki
+  yango Yesu mwana azale Likola na mosisa Oyo nionso elelisaka ngai Zala Papa, na
+  zala mwana Ngolu na yo ebomba ngai Eh, eh\u2026 Pinzoli moke ngai Papa etangi mingi
+  etangi mingi eh Na Bible pona ngai bilaka esili to nini eh? Boni ya ngai likambo.
+  Je vois l\u2019amour que tu me donnes Cette amour tant cherch\u00e9 Par plusieurs,
+  mais pas trouv\u00e9 A Ata na yebisi moto oko kokomate. Fans de musique latine?
+  Na leli, lokola Yoan na Patmos Nania a lingi ngai, a longola ngai pasi kalamvay\\nPo
+  pasi oyo nazo koka lisusu te. Na Bible pona ngai bilaka esili to nini eh?\\nMike
+  Kalambay \u2013 Lamentations Lyrics & Traduction\\nLamentations mike kalambay lyrics
+  Get lyrics of Lamentations mike kalambay song you love. Motema na ngai eleli mingi
+  eh.\\nYo Nkolo ya bomoyi na ngai. Nania a lingi ngai, a longola ngai pasi oyo?\\nMike
+  Kalambay \u2013 Lamentations\\nYo moyi\u2026losambo yoka kolela ya motema ezo ke
+  mingi Nkolo Yesu yo mwana na Nzambe Yo nde mitema ya ba santu etalelaka Ba yaki
+  na yo bazongaki pambat\u00e9 Papa malamu oyebi olata pasi ya bana Ozali moko oy\u2019aza
+  namakoki Yako kalamby biyano na ba yike imke mbala moko Oh Yesu eh, oh Yesu yo,
+  papa malumu Yesu eh, Nzambe ya solo, Ouh Yaya, ekimelo na ngai, Eh Yesu eh, pinzoli
+  na ngai etangi Oh Yesu na komi na suka Ah Yesu \u00d4 Yesu pinzoli etangi Pasi na
+  motema naka ba isolongo na mona nani?\\nMike Kalambay Lamentations traduction.\\nJe
+  vois l\u2019amour que tu me donnes Cette amour tant cherch\u00e9 Par plusieurs,
+  mais pas trouv\u00e9 A Na yebi ozali Nkolo. Telema moto ya suka. Banza y\u2019ekulusu,
+  makila osopaki pona ngai. Top song lyrics at Lyrics.\\nKallambay etangi mingi etangi
+  mingi eh. Comment cette douleur et ces larmes sont elles apparues? Mokonzi na ngai
+  na yebi. Yo nde mitema ya ba santu etalelaka. Toi le coeur que tous les saints recherchent.
+  Papa to nkende lisusu epayi na nani?\\nMike Kalambay \u2013 Lamentations \u2013
+  Vid\u00e9o dailymotion\\nVous \u00eates passionn\u00e9 e de musique? Ozali moko
+  oy\u2019aza namakoki. Soki p\u00e9 ababoti kupe bakoko na ngai Yesu.\\nBa yaki na
+  yo bazongaki pambat\u00e9. Some photos are in Creative kalambaay license from wikimedia.
+  Zala Papa, na zala mwana.\\nGet known every word of your favorite song or start
+  your own karaoke party tonight: Epona s\u00e9yo mosusu te Yesu. Mike Kalambay Je
+  suis une \u00e9toile parole. Get lyrics of Lamentations mike kalambay kxlambay you
+  love.\\nKalash criminel Double K. S\u00e9lection des chansons du moment. Nkolo Yesu
+  yo mwana na Nzambe. Na leli, lokola Yoan na Patmos Nania a lingi ngai, a longola
+  ngai pasi oyo?\\nPapa tu es bon, tu peux prendre la douleur de tes enfants. Check
+  more lamentations mike kalambay lyrics at Lyrics.\\nMike Kalambay \u2013 Ton Amour
+  Lyrics 29 sept. En j\u00e9sus nous avons le pouvoir sur toute la force de l\u2019ennemis,
+  pas de n\u00e9gociation avec le\"", "\"Bol\u00f3ko ya Makala\\nBol\u00f3ko ya Makala
+  na falans\u00e9 Centre p\u00e9nitencier de r\u00e9\u00e9ducation de Kinshasa (CPRK)
+  ezal\u00ed bol\u00f3ko ya monene na engumba ya Kins\u00e1s\u00e1.\\nEk\u00e9lami[kokoma
+  | kob\u0254ngisa mos\u00f3lo]\\nBol\u00f3ko ya Makala ek\u00e9lami o mobu 1958[1].
+  Boloko ya makala esalamaka pona koyamba bato 1500 kasi o mikolo mitang\u00e9mi ezali
+  na bato 6580.\\nEzal\u00ed katama na bit\u00e9ni zomi ya ba ndako pona mibal\u00e9
+  s\u00e9 moko pona basi.\\nBisika[kokoma | kob\u0254ngisa mos\u00f3lo]\\nBoloko ya
+  makala ezali na Avenue du 17 Mai Quartier Lubudi na engumba ik\u00e9 ya Selembao
+  na Kins\u00e1s\u00e1[2].\\nMazita o libanda[kokoma | kob\u0254ngisa mos\u00f3lo]\\n-
+  Maloba ya Jb ewanga na may\u00e9 etali makala\\n- mikakatano ya boloko ya makala\\n-
+  kasa ya lemonde.fr ya Makala\"", "\"Mokambi ya IGF asakolaki mrcredi bilembo bya
+  bolukiluki bosalami na misala mingi, kati na yango mabongi ma milona ya Parc ya
+  Bukanga Lonzo.\\n\\\"Mibale kati na bango bazali bakeli mibeko, moko azali mopaya,
+  moko azali na Congolais na RDC mpe mosusu mpe Congolais akima,\\\" elobi M. Alingete
+  Keyi.\\nMpo na mokambi ya IFG, mbulamatari ya Ekolo Congo democratique ebimisaki
+  285 millions, 80 millions etikala mpe 205 millions nde\\nAlingete Keyi alombi ete
+  CECPE ya EPST (Enseignement primaire secondaite na technique).\\nVoir les commentaires\\nAvez
+  vous d\u00e9j\u00e0 un compte? Connectez-vous\\n\u00cates-vous un utilisateur enregistr\u00e9?
+  Inscrivez-vous\\nVoir plus de commentaires\"", "\"Toyebisaki bango, ici nous travaillons
+  \u00e0 la seconde, Congomikili.com le leader incontournable du net congolais, et
+  tr\u00e8s bient\u00f4t du net Africain, vous pr\u00e9sente ces images exclusives
+  du concert de Fally Ipupa \u00e0 Owando, au Congo Brazzaville. No comment, suivez
+  ces images du leader international de la 5eme g\u00e9n\u00e9ration Fally Ipupa !\\nPas
+  de Commentaires\\nmawa yango oyebaka kolobat\u00e9 ou nini,okoma na likukuma?\\nYO
+  oloba par ex papa bona asali eloko ya bien asika akoli po na bandeko yonso ya kuna
+  oyebi te okomi kozanga maloba boni ba zoba ya ba musicien ya boye il faut kozala
+  claire na maloba na yo soki olembi ezali normaal kende conger opema moke.\\nTala
+  oyo mitu ya ndenge nini?ozali kokanga ba nzembo kasi makambu ozali komona\\nna miso
+  okoki koloba yango te? OKAMWISI NGA FALLY oza mayele te.\\nL\u2019artist Fally Ipupa
+  tshinlingi bako finga yo na eloko musousou mais na Art rien a dire bako zanga liloba.
+  tozo zelayo awa na California avec impact 100 party pris soki tozo beta masolo ya
+  ba artiste awa ozali na gaz parmis. en plus awa na California na ba boite music
+  na yo e betamaka fort. yo na vieux na yo JB Mpiana boza ba Artist ya ko force te.
+  courage et dont give up!!!!\\nFALLY \u2026MAWAYA TROP\u2026.OKOMA NA LIKUKUMA TO
+  NINI?\\nOYEBI KOLOBA TE.MAKAMBU OZALI KOLOBA EZALI ATA NA CONCORDANCE TE.\\nYANGO
+  WANA FERRE GOLA ALEKI YO SOKI BALOBELAKA YO TE.\\nplease fally tika ba masolo ya
+  buzoba yo il faut oyekola music encort meme celeo aleki yo na mosika okoki jamais
+  kose comparer na ferre ,yo batu okoki ko se comparer eza ba baby ndombe ba bill
+  cliton ba depitsou po oza comedien kote ndule me toujours courage muana mama\\nho
+  ho ho Nzambe oyo nini lokola na buende bana mike na bana mike ndeko yekola ,batu
+  balingi yo me oyebi eloko te cote music ba oyo ba kumisaka yo baza ba avegle ya
+  music mawa\\nba oyo bokumisaka ndeko fally botala music me oyo eza buzoba na buzoba
+  tozala seriez\\nBANA KONGO NYOSO BAKOTA NA SITE YA .CONGOVIDEOS.COM BALANDA PAPA
+  NABISO OYO Commandant Evariste Mpwo nous parle sur le RD CONGO .TOUT LE KONGOLAIS
+  BOLANDA YANGO PE BOKOMONA QUE SOKI KONGO EZOKENDA NA MISO NA BISO MAIS BATO OYO
+  BATELEMI BAZALI BALINGA BALINGA TE BARWANDAIS BAKOKENDA KAKA MERCI\\nMAIS FINALEMENT
+  BOLINGI NINI FALLY BOLOBI PEDE FERRE INGRAT KOFFI VIOLEUR WAZEKWA ESCROC JB ASILA
+  BOKUL VIEU ZOBA SIKOYO TOLINGA NANI ROI VUVUZELA TE TE TE WANA TOTIKA PE MUSIC PO
+  CA SERT A RIEN CE QUE NDULE EKUFA\\n@ BOYE\\nKEBA KO TOUCHER VIEUX BOKUL NA PAPA
+  CHERI TE\\nBANDE DES PETITS GAMINS. Na site oyo, D\u00e9s que batie image moko botala.
+  Il faut kaka ba ZOBA ya ba congolais bofinga batu oyo baza nakati. Na lobi eh communaut\u00e9
+  na biso ekoma kaka ya ba ZOBA to nini. Na bino nionso bofingi FALLY, nani aza CHANTEUR?
+  NOUS DEVONS NOUS SOUTENIR. PLUS ENCORE EVITER BA MOTEMA MABE YA SACHET SELON LE
+  DIRE DE L\u2019AUTRE L\u00e0.\\nponangayi bravot azobunda bien conseil kaka keba
+  napunda ezoya mabe boyebake JB nawera balingi bazongela place nabango donc fally
+  ferre oyo akozala kidiba atikali\\nTH NA FINGI MUTU TE NAZO KAMWA NDE BA CONGOLAIS
+  BA LINGAKA MUTU TE ELOBI MWANA NZAMBE\\nba lobi bo \u201cCOMMENTEZ iCI\u201d mais
+  biso tozuaka yango lokola to \u201cfinga awa\u201d eza pasi\u2026..to teyanaka heure
+  moko et non ko finga naka SVP\u2026.\\nnul \u00e0 chi\u00e8r\\nbazoba nde bayaka
+  kaka ko finga muninga ezo simba ya bino ezo monana te kaka ko finga na munoko ko
+  kamua\\nTANGU NALOBAKA NA BINO QUE FERRE GOLA ALEKI FALLY NA MUSIQUE\u2026KAKA TEMBE!!!!!!\\nLELO
+  BOKOMI KOPESA NGAI RAISON.\\nDOUBLE OLYMPIA NA DECEMBRE\u2026.BOKOVIVRE.\\nna sepelaka
+  na ba toilette ya mikili mpo tozuaka ba temp na biso ya ko vuanda pona ko reosonez
+  ctd na esprit ya bien fally aforcer ndule mpo aza aime me azo ropoin bisika moko.\\nMABELE
+  EZOMELA MAYI.COURAGE DICAP \u201cEL FANTASTICO\u201d\\nBINO BA CONGOLAIS BOZA BA
+  VRAI ZOBA SI BOKOKI KO FINGA FALLY OYO BISO PE MONDE ENTIER TO NDIMI QUE AZA THE
+  BEST MUSICIEN AFRICAIN YANGO WANA BAZO BETA BINO NA VILLAGE OYO BO KUFELAKA QUE
+  O POTO POTO FRANCE , TIKA SARKOZY A SARKOZEE BASI NA BINO BONGO PO BOYEBI VALEUR
+  YA BILOKO BOZALAKA NANGO TE EZALA MBOKA BOYEBI KO MIPESA TE PONA KO RECUPERER YANGO
+  KAKA KO TONGA YANGO WANA GRAND BRAVO NA \u201d PAUL KAGAME\u201d LE PRESIDENT LEADER
+  INCOTESTABLE DE L\u2019AFRIQUE CENTRALE , YE ATONGAKA TE MAIS ACTION NDE DIRECTE
+  KO ZWA PE KO DOMINER OSAKANI A BETI YO, BINO BO TONGA KAKA NA BA KIKUKU YA FRANCE
+  KUNA BO BOULER QUE YANGO NDE VIE HA AH HA HA HA MAWAAAA!\\nHA HA HA WANA PENZA O
+  BWAKELI BA CLANDESTIN YA FRANCE HA HA HA , SOKI BAZO NDIMA FALLY TE C\u2019EST NORMALE
+  BAZA KUTU TRAITER COMME ANIMAL SIKOYO MOYEN YAKO APPRECIER MUTU YA BIEN EZA TE,
+  O MONA WAPI NYAMA APRECIER MUTU OYO BA HUMAIN NYOSO BA YEKI QUE AZA BIEN ! HA HA
+  HA MAWA ALLEZ SARKOZY CHICOTELEE MOI BANGO ILS NE PEUVENT RIEN MEME CHEZ EUX EN
+  RDC\\nBINO BA CONGOLAIS BOZA BA VRAI ZOBA SI BOKOKI KO FINGA FALLY OYO BISO PE MONDE
+  ENTIER TO NDIMI QUE AZA THE BEST MUSICIEN AFRICAIN YANGO WANA BAZO BETA BINO NA
+  VILLAGE OYO BO KUFELAKA QUE O POTO POTO FRANCE , TIKA SARKOZY A SARKOZEE BASI NA
+  BINO BONGO PO BOYEBI VALEUR YA BILOKO BOZALAKA NANGO TE EZALA MBOKA BOYEBI KO MIPESA
+  TE PONA KO RECUPERER YANGO KAKA KO TONGA YANGO WANA GRAND BRAVO NA \u201d PAUL KAGAME\u201d
+  LE PRESIDENT LEADER INCOTESTABLE DE L\u2019AFRIQUE CENTRALE , YE ATONGAKA TE MAIS
+  ACTION NDE DIRECTE KO ZWA PE KO DOMINER OSAKANI A BETI YO, BINO BO TONGA KAKA NA
+  BA KIKUKU YA FRANCE KUNA BO BOULER QUE YANGO NDE VIE HA AH HA HA HA MAWAAAA!\\nna
+  comprendre batu na site oyo batu bafingaka eza oyo batanga te ba depressif ba aigrie
+  oyo baya poto na chance ba ndimaka te pcq soki ozalaki musenzi na congo oko zala
+  pe musenzi na poto surtout na paris ki musenzi na bango ba komi kobota na bana ya
+  kuluna education mobulu bana bakendaka vacance te au lieu ba tala ba dessin anim\u00e9
+  kaka ba theatre na ba concert ba noko ou miyibi na ba sapeur sikoyo diaspora ya
+  boy\u00e9 eza nango na tina te.\\nOOOOOOH NDEKO CONGOLAIS BONI MOTEMA LIKUNDU BOYE
+  FALLY ASALI BINO NINI,MINGI BOZOTIKA BA COMS AWA BOZA MIKOLO YA FALLY NA MUSIKA
+  TALA BA MANDEFU PE KUNZA ETONDA MBANGA,BOZO COMPRENDRE TE KE BOZA NA NIVEAU MOKO
+  TE NA FALLY,MASTA AKOMI NA BA NIVEAU YA BA JET PRIVEE BA ROVER MAIS YO OYO OZOFINGA
+  YE DEPUIS OYA POTO NA RALLY,OKATISA DESERT NA MAKOLO KUTU BOTEKA LUPANGU NA MALUEKA
+  TOUT CA,APART BELGIQUE AWA OSI OMATA AVION,MAIS VRAIMENT BINO BA FASEUR,BANA MAYI,BATEKI
+  POMME DEPUIS BOYA POTO,POTO EKOMA NETI FUMBUA BA SANGISA NA YAOURT VEUT DIRE NKELE\u2026\\nFALLY
+  TOZO TRAVAILLER NETI BA AMATEURS ET NON COMME LES PRO. PO AWA NA POTO IMAGE ALANDALA
+  CD NBANGU NBANGU. D\u2019AILLEUR YO OVIVAKA PA COTE OYO NAZO APPRENDRE YO RIEN.\\nMBINGAZORE\\nOzui
+  kombo oyo wapi ????!!!!!!!!!!!\\nNazali kosenga na Gouvernement ya RDC bameka nanu
+  kotala Age yaba Danseuses,na remarque il y a trop des mineurs naba Danseuses congolaises
+  par rapport d\u2019autres pays africains.\\n@ TH 2ieme NA SEKI PE NA KAMWE YANGO
+  BAKOMBO ESILI NA MBOKA\\nSaNDRALINA@ ma cherie ovandi na mboka nini??\\nFERE GOLA
+  ALEKI FALLY NA MUSIQUE NA MOSIKAAAAAAAA.\\nBATU BAKOMI OCOMPRENDRE YANGO.\\nMUSIQUE
+  YA FALLY EZALI SALITEEEE\u2026..AYEBI ATA KOYEMBA TEEEEE.\\nDOUBLE OLYMPIA NA DECEMBRE
+  AVEC JESUS DE NUANCES.\\nEKOYINDA!!!!!\\nFERRE GOLA = DOUK SAGA (POUR LES IVOIRIENS).\\nDEJANEIRO,nazali
+  muana ya PARIS.\\n@ VRAIE CHERIE LA SPECIALISTE EN CAUSERIE, S\u2019IL TE PLAIT
+  PEUT-ETRE OBOSANI KOLOBA, NDENGE O COMPARER FERRE NA DOUK SAGA, EST-CE QUE OYEBAKI
+  YE VRAIMENT ?PO AZALAKI UN FAUX CHANTEUR YAKO SAKANA TE, COMME PRESQUE BA MUSICIENS
+  EBELE YA COTE-D\u2019IVOIRE, ELOKO ESALA SUCCES YA DOUK EZALI KOLOBA , BA CRIS NA
+  YE( on va gater le coin) NA MUSIQUE YA NGWASUMA, NA DANSE COUPE DECALE, NA SAPOLOGIE.DONC
+  STRATEGIE PO ASALA SUCCES ALORS QUE COTE MUSIQUE AZALAKI NUL.\\nTI AYAKI KOKUFA
+  NA SIDA, BON PEUT-ETRE OYEBAKI TE QUE OKUFA.\\nalors soki oza vraie fan o ko comparer
+  ferr\u00e9 na douk te, po ferr\u00e9 pe a soulevaka population te ndenge douk azalaki
+  kosala.FERRE AZALI NA MUSALA NA NZOTO MAIS IL LUI FAUT QUELQUE CHOSE DE PLUS PO
+  A SOULEVER MASSE.ce quelque chose il doit l\u2019INVENTER, LA CREER. ETRE UN BON
+  CHANTEUR NE SUFFIT PAS POUR PERCER DANS CE MONDE DES REQUINS MUSICAUX.A BON ENTENDEUR
+  SALUT.\\n@ VRAIE CHERIE, CELA NE SIGNIFIE PAS QUE J\u2019AIME LA MUSIQUE DE FALLY.LUI
+  JE PREFERE ENCORE L\u2019ECOUTER SUR CD, QUE DE LE VOIR EN CONCERT, monotonie eleki
+  mingi pe rythme elalisaka pongi, ATA NA KIBINDA NKOY PLACE AWUTAKI AVANT AKOTA EPAYI
+  YA KOFFI, ba concert na bango ezalaki ya kolala boye te.ba dvd pe na sombaka te
+  po tala kaka na yoka kaka synth\u00e9 ya suede suede?MAIS BON AZA NA CHANCE YA KOZALA
+  NA MANAGER YA BIEN OYO ASALAKA PROMOTION NA YE, dont DAVID MONSOH L\u2019IVOIRIEN.\\n@
+  SANDRALINA daccord ma cherie\\nTH ET BONI BOYE\\nBONI BOYE KOLANDA TH TE AZA PEDE
+  TALA KAKA MUTU AZO KUMISA BOKOUL NA JB TOUT LE DEUX WANA BA GRAND FUMU TAKU YE TH
+  AZOKUMISA BANGO IL FOUT YE PE AZALA PEDE,YO IL FOUT O CHANGE KOMBO OU OTIKA CONGOMIKILI,YEBISA
+  BISO NANU OZALAKA NA MBOKA NINI YO TH?\\nfally t\u2019est une stars reconnu c\u2019est
+  bon fais un effort de bien parle aux gents et de s\u2019occupper bien de tes danseuse
+  des meme acoutrement qu\u2019il porte a chaque fois mon frere change merci\\nTH
+  YANGO Y\u2019OYEBI LINGALA TE AU CMT?BA KOMAKA MBANGU MBANGU NON NBANGU NBANGU OZALAKA
+  RWANDE?OZOKUMISA WEMBA GAYARD ZERO WANA?\\nFALLY BINO BOBANDAKA KAKA BOYE TOKA TE
+  QUE OKEI KOBETA NA RWANDA WANA OKOYA LISUSU PARIS TE\\nEncore un musicien qui chante
+  \u00e0 la gloire d\u2019un g\u00e9nocidaire tel Bonaventure Engobo. Les 353 r\u00e9fugi\u00e9s
+  disparus du beach de Brazzaville, la guerre de 5 juin 97 au Congo, connaissiez?
+  Engobo est l\u2019un des acteurs principaux. Ce dernier ne peut pas venir en occident,
+  car il sera toute suite arr\u00eat\u00e9. La seule motivation de ce concert pour
+  Fally est de se servir aupr\u00e8s d\u2019un criminel qui a acquis sa richesse par
+  le vol, la ran\u00e7on de ces crimes. Les pauvres jeunes r\u00e9fugi\u00e9s congolais
+  \u00e9cras\u00e9s par ce brute ne comptent guerre. Ma question, pour les deux Congo,
+  aurons nous des artistes \u00e9pris du bien \u00eatre du peuple?\\nBon app\u00e9tit
+  Fally pour avoir mang\u00e9 \u00e0 la table du criminel recherch\u00e9.\\nON A VU
+  COMMENT FALLY A \u00c9T\u00c9 HU\u00c9 \u00c0 SON ARRIV\u00c9E AU BEACH DE BRAZZAVILLE.
+  JE SUIS CONGOLAIS DE BRAZZA, C\u2019EST POURQUOI JE ME PERMETS DE FAIRE UNE MISE
+  AU POINT, COMPTE TENU DES ALLUSIONS D\u2019APR\u00c8S LESQUELLES LES CONGOLAIS DE
+  BRAZZA SERAIENT JALOUX DES CONGOLAIS R.D.C.\\nCOMME NOUS L\u2019AVIONS TOUS CONSTAT\u00c9,
+  FALLY A \u00c9T\u00c9 HU(VOIR *******). CEPENDANT, VOUS DEVEZ SAVOIR, VOUS FR\u00c8RES
+  DE LA R.D.C. QUE CES HISTOIRES DE POL\u00c9MIQUES SONT DE VOUS, ET NON DES CONGOLAIS
+  DE BRAZZA; LES POL\u00c9MIQUES, LES INIMITI\u00c9S, LES JALOUSIES, BREF, TOUS LES
+  TRAVERS QUE NOUS CONSTATONS CHEZ VOS ARTISTES, FONT PARTIS DE VOTRE \u201cID\u00c9OLOGIES\u201d.\\nSACHEZ
+  QUE FALLY A \u00c9T\u00c9 HU\u00c9, NON PAS PAR LES CONGOLAIS DE BRAZZA QUI AIMENT
+  BIEN TOUS LES ARTISTES RD CONGOLAIS, MAIS PAR VOS PROPRES FR\u00c8RES RDCONGOLAIS
+  QUI R\u00c9SIDENT \u00c0 BRAZZA.\\nVOUS VOULEZ EXPORTER VOS QUERELLES \u00c0 BRAZZA,
+  CERTES, MAIS FAITES CE QUE VOUS VOULEZ, MAIS N\u2019ACCUSEZ PAS LES AUTRES.\\nAU
+  CONGO-BRAZZA, LES ARTISTES DE LA R.D.C. SONT AIM\u00c9S ET ADUL\u00c9S PAR TOUS,
+  M\u00caME PAR NOS DIRIGEANTS; C\u2019EST AINSI QUE DES ARTISTES COMME WERRASON OU
+  OLOMID\u00c9 ONT M\u00caME LEURS ENTR\u00c9ES CHEZ SASSOU.\\nDE GR\u00c2CE, NE NOUS
+  ACCUS\u00c9 PAS POUR5 VOS PROPRES FAUTES.\\nFALLY, WERRASON, FERR\u00c9, JB, PAPA
+  WEMBA, TSALA MWANA, MBILIA BELL\u2026 ONT L\u2019HABITUDE DE CHANTER DEVANT DES
+  FOULES NOMBREUSES \u00c0 BRAZZA OU \u00c0 POINTE-NOIRE, ET PERSONNE NE LES A JAMAIS
+  INVIT\u00c9. \u00c0 BRAZZA, NOUS AIMONS BEAUCOUP LES ARTISTES DE LA R.D.C., PARCE-QUE
+  NOUS AIMONS DE LA BONNE MUSIQUE TOUT SIMPLEMENT. IL N\u2019Y A PAS D\u2019ANIMOSIT\u00c9
+  ENVERS LES GENS DE LA R.D.C., PARCE-QU\u2019IL Y\u2019EN A DES MILLIERS QUI Y VIVENT
+  EN HARMONIE AVEC LEURS FR\u00c8RES DE BRAZZA DEPUIS DES LUSTRES.\\nSACHES ENFIN
+  QUE CES HISTOIRES DE POL\u00c9MIQUE EST VOTRE PROPRE CR\u00c9ATION, NON PAS DE BRAZZA.\\nLE
+  NOMBRE DES D\u00c9DICACES QUE FONT LES ARTISTES DE LA R.D.C. SUR LES CONGOLAIS DE
+  BRAZZA, TRADUIT ASSEZ CLAIREMENT L\u2019AMOUR QUE LES BRAZZAVILLOIS ONT ENVERS LES
+  ARTISTES DE LA R.D.C. QUI SONT TOUT AUSSI BIEN AIM\u00c9S \u00c0 BRAZZA, COMME \u00c0
+  KIN.\\nLIRE : EMB\u00caT\u00c9, \u00c0 LA PLACE DE INVIT\u00c9.\\ncongomikili bozala
+  un peu serieux cmt bozozongisa image ya depuis le 02/08/2010 comme si eza ya sika.
+  mawa trop\\nYango ba congolais to zali bazoba to batu????? Toujours musique \u2014
+  Mboka ezali kokende. Remedes pour liberer le congo : \u2013 Tuez les ennemis et
+  les collabos \u00e0 commencer par : \u2013 Zacharie bababaswe- Kamehre-Rubwera-
+  Kengo si ses 4 personnes tombent, J kanambe a une courte vie \u2014- et apr\u00e8s
+  musique- il faut etablir l\u2019equilibre de la terreur sans ca les bla bla serront
+  sans suite et on restera les esclaves des rwandais et de la dans et les femmes\u2026\u2026\u2026
+  A bon entendeur salut!!!!!!!\\nfally c du bon\\nAPPUYEZ SUR ANCIENS COMMENTAIRES
+  POUR LIRE TOUS LES COMMENTAIRES\"", "\"Mibeko ya likolo ya botongi tempelo oyo bazali
+  kosalela na Eklezia oyo ezali emekoleli kutu elilingi ya lolenge boni tosengeli
+  kotambwisa bomoi na biso moko.\\nKala mingi te wana ezalaki ngai kotalaka misala
+  ya tempelo kitoko ya Brigham City Utah, namikundolaki likambo nakutanaki na yango
+  ntango nazalaki kosala lokola coordinateur ya bofungoli mpo na bato banso, ya bozongi
+  kobulisa, mpe ya milulu nyonso ya bosepeli ya oyo ekenda sango Tempelo ya Laie Hawaii.\\nMwa
+  basanza liboso basilisa misala ya bobongisi mpo na kokomisa yango monene mpe sika,
+  nabiangamaki kotala elongo na Mokambi ya Misala ya Tempelo, Mpaka William R. Walker,
+  mpe Baninga na ye Basali ya misala ya Tempelo. Mpo na kobakisa, bato mingi ya bakompani
+  oyo bapesamaki misala bayaki. Ntina ya botamboli wana ezalaki na ndambu mpo na kotala
+  bokei liboso mpe motuya ya mosala oyo esalemaki. Na ntango tazalaki kotal, mosala
+  esalemaki na motuya ya 85 na monkama.\\nWana ezalaki biso kokota na tempelo, nazalaki
+  kotala mpe koyoka Mpaka Walker mpe baninga na ye ya mosala ntango bazalaki kotala
+  mosala mpe kosolola elongo na mokambi ya bato ya misala. Ntango na ntango nazalaki
+  komona moto moko kotambwisaka loboko na ye na efelo wana ezalaki biso kokende uta
+  eteni ya ndako moko na mosusu. Mwa ntango nsima ya kosala eye, akomipakola misapo
+  yango na yango mpe koya penepene ya mokambi ya basali mpe koloba, \u201cNazali koyoka
+  mwa makwanza na efelo oyo. Makwanza ezali mobeko ya tempelo te. Bosengeli kopalisa
+  lisusu mpe sembisa efelo oyo.\u201d Mokambi ya basali na botosi nyonso azalaki kokoma
+  eloko moko moko bamonaki.\\nEkomaki biso penepene ya esika moko na tempelo wapi
+  bobele bato moke bakokaki komona, moto se moko wana atelemisaki biso mpe abendaki
+  bokebi na biso na lininisa moko ya tala tala ya kitoko oyo batiaki kala mingi te.
+  Lininisa oyo ezalaki mapeka mibale (0.6 m) na monene na mapeka motoba (1.8 m) na
+  molai mpe ezalaki na emekoleli moko ya tala-tala ya bakale ya matono matono. Alakisaki
+  mosapi na tala-tala moko ya moke ya kale ya basentimetele (5 cm) mpe ya langi-langi
+  oyo ezalaki na emekoleli ya mpamba mpe alobaki, \u201cKale wana ezali ya kobeba.\u201d
+  Natalaki kale yango mpe na miso na ngai emonanaki ete batii yango malamu. Nzokande,
+  soki motali mpembeni na emekolelo na maboko, nakokaki komona ete mbeba ezalaki mpe
+  ete mwa kale wana ezalaki solo mpenza na molai likolo ya (3 mm) ya kobeba. Malakisi
+  mapesamaki boye na mokambi ya basali ete lininisa mosusu etiama na esika wana mpo
+  ezalaki te mobeko ya tempelo.\\nNandimi yango ete nakamwaki ete lininisa mobimba
+  etiama na esika ya oyo wana kaka mpo na mwa mbeba wana ya moke oyo ezalaki kutu
+  komonana te. Solo mpenza, ezalaki mpenza mpasi ete moto ayeba to nkutu amona lininisa
+  oyo na kotalaka mosika kuna ezalaki na tempelo.\\nLokola nazalaki kozonga ndako
+  kotambwisaka motuka uta na tempelo mokolo wana, nabanzaki nini nayekolaki uta na
+  likambo oyo\u2014to, nzokande, oyo nakanisi nayekolaki. Bososoli na ngai ya oyo
+  nayekolaki ekomaki polele te kino mposo mingi nsima ntango babiangaki ngai kotambola
+  mpo nakotala nzinga nzinga na tempelo oyo esilaki sikawa.\\nWana ezalaki ngai kokota
+  na tempelo ebongisami mobimba ya Laie Hawaii Temple, nakamwaki mingi na kitoko na
+  yango mpe motuya ya misala ya nsuka. Bokoki kososola ete litomba na ngai ezalaki
+  monene ya komona lisusu bifelo wana ya \u201cmakwanza\u201d mpe lininisa wana \u201cebeba\u201d.
+  Mokambi ya basali apalisaki lisusu mpe asembisaki bifelo? Batiaki solo lininisi
+  ya esika na esika ya liboso. Lokola napusanaki penepene na bifelo wana ya makwanza,
+  nakamwaki na komonaka ete batiaki nkasa ya kozipa kodiembela na bifelo yango. Likanisi
+  na ngai ya liboso ezalaki, \u201cBoye oyo ezali nde lolenge mokambi ya misala abongisaki
+  makwanza\u2014azipaka yango.\u201d Kasi te, nayekolaki ete moango ezalaka ntango
+  nyonso ya kuzipa bifelo na nkasa. Namitunaki mpo na nini mwa makwanza ya mike oyo
+  ekoki mpenza komonana te ezali kosala mpasi soki esengelaki nkasa ya bifelo mpo
+  na kozipa yango? Nsima napusanaki malembe na esika wapi lininisa ya kobeba ezwamaki
+  mpe nasutukaki na komona Mbeki moko ya kitoko balona nzete ya molai kino na palafo
+  efanda semba liboso ya lininisa yango. Lisusu, nabanzakio, \u201cBoye oyo ezali
+  nde lolenge mokambi ya misala abongisaki mwa kale ebeba\u2014azipaka yango.\u201d
+  Lokola napusanaki pembeni, napusaki nkasa ya milona wana na mupanzi mpe napwepwaki
+  ntango namonaki ete solo mpenza batiaki lininisa mosusu na esika na yango. Mwa kale
+  yak ala ebeba etelemaki ya kobongisama kitoko mpenza na emekoleli yango. Nayekolaki
+  ete ezalaka eteni ya eyembeli ya kati ya kotia milona na liboso ya lininisa.\\nMpo
+  na nini bifelo na mwa makwanza mpe lininisa na kale ebongi te ezalaki kosenga misala
+  ya kobakisa kutu batia mosusu na esika na yango ntango maboko to miso moke kaka
+  ekoyeba yango mpe na mpasi? Mpo na nini moto bapesi misala asengeli kokangama na
+  mibeko mina ya likolo?\\nWana ebimaki na tempelo komelamaka na makanisi, nazwaki
+  eyano na ngai ntango natalaki likolo na libanda oyo babongisaki kitoko mpe namonaki
+  maloba maye: \u201cBosantu na Nkolo, Ndako ya Nkolo.\u201d\\nBatempelo ya Eklezia
+  oyo ezali sikisiki mpenza lokola esakolamaki. Bandako oyo ya bule etongami mpo tosalela
+  yango, mpe kati na bifelo na yango makuli ya bule mpe ya lobiko ezali kosalema.
+  Kasi ntembe esengeli te kozala mpo na eye etali nani azali nkolo ya ndako yango.
+  Na kosengaka ete batonga yango sikisiki mpe balanda mibeko ya botongi eteni na eteni,
+  tozali bobele kolakisa bolingo na biso na Nkolo Yesu Klisto te, kasi tozali lisusu
+  kolakisa na baye batalaka biso ete tozali kokumisa mpe kokumbamela Ye oyo azali
+  nkolo ndako.\\nNa bobimisi bopesama na Profeta Joseph Smith mpo na kotonga tempelo
+  na Nauvoo, Nkolo atindaki ete:\\n\u201c\u201cBoya, na wolo na bino nyonso, mpe palata
+  na bino, mpe mabanga ma bino ma ntalo, mpe biloko na bino ya kala ya motuya binso;
+  mpe elongo na banso oyo bazali na boyebi ya biloko ya kala ya motuya\u2026mpe bomema\u2026
+  banzete nyonso ya motuya ya mabele;\\n\u201c\u2026botonga ndako mpo na nkombo na
+  ngai, ete Oyo Aleki Likolo afanda na kati.\u201d1\\nOyo elandi ndakisa etiami na
+  Mokonzi Salomo na Boyokani ya Kala ntango atongaki tempelo moko mpo na Nkolo kosalelaka
+  bobele biloko ya kitoko makasi bisalelami na mayele ya ntoki ya bato.2 Lelo tozali
+  kokoba kolanda emekoli se moko oyo, na kozangaka kolekisa ndelo, ntango tozali kotonga
+  batempelo ya Eklezia.\\nNayekolaki ete atako miso mpe maboko ya bokufi ekoki te
+  komona to koyoka mbeba, Nkolo ayebi motuya ya makasi tosali mpe soki tosalaki makasi
+  nyonso ekoki na biso. Ezali se ndenge moko na makasi tozali kosala mpo na kotambwisa
+  bomoi oyo elongobani mpo na kozwa mapamboli ma tempelo. Nkolo apesaki toli ete:\\n\u201cMpe
+  mbala nzike lokola bato ba ngai batongeli ngai ndako na nkombo ya Nkolo, mpe batiki
+  nzela te ete eloko moko te ya mbindo ekota na kati, ete esantolama, nkembo na ngai
+  ekozala likolo na yango;\\n\u201cIyo, mpe nakozala kuna, mpo nakoya kati na yango,
+  mpe bato ya peto na mitema oyo bakoya na kati bakomona Nzambe.\\n\u201cKasi soki
+  esantolami nakoya na kati te, mpe nkembo na ngai ekozala kun ate; mpo na koya na
+  batempelo ezanga bosantu te.\u201d3\\nLokola mokambi ya basali misala, ntango toyebi
+  makambo maye kati na bomoi na biso ezali koyokana te na malongi ya Nkolo, ntango
+  makasi tosali ekokaki mpenza na maye nyonso tokokaki kosala te, tosengeli noki kokende
+  kosembola eloko nyonso ezali mabe, koyebaka ete tokoki kobombela Nkolo masumu na
+  biso te. Tosengeli komikundola ete \u201ckasi ntango tozali koluka kobomba masumu
+  ma biso, \u2026 tala, lola ibendami yangomei; Molimo mwa Nkolo [mpe] eyokisami mawa.\u201d4\\nNayekolaki
+  lisusu ete mibeko ya likolo ya kotonga tempelo miye Eklezia azali kosalela ezali
+  ndakisa nkutu elilingi ya boniboni tosengeli kotambwisa bomoi na biso moko. Tokoki
+  moto na moto kosalela mateya ya Apostolo Paulo maye mapesamaki na Eklezia ya kala
+  ntango alobaki:\\n\u201cBoyebi te ete bino bozali tempelo ya Nzambe, mpe ete Molimo
+  ya Nzambe avandaka kati na bino?\\n\u201c\u201cSoki moto abomi temepelo ya Nzambe,
+  Nzambe akoboma ye; mpamba te tempelo ya Nzambe ezali ya santu, mpe bino bozali ndako
+  yango.\u201d5\\nTotongami moko na moko na biloko ya motuya ya ntoki, mpe tozali
+  mbano ya kokamwa biloko bisalemi na maboko ya Nzambe. Nzokande, soki toleki kaka
+  mibu ya boyanoli mpo na kokota na libanda ya etumba na masumu mpe mimekano, tempelo
+  na biso moko ekoki kozala na mposa ete babongisa yango ezonga sika. Mbele ezali
+  na bifelo kati na biso oyo ezali makwanza makwanza mpe esengeli kopalisama to maninisi
+  ya milimo na biso oyo esengeli batia mosusu na esika na yango mpo ete totelema na
+  bisika ya bosantu. Ngolu na biso nde mobeko ya tempelo oyo tosengeli kokokisa ezali
+  moye ya bobongi nie te, atako tozali kobunda mpo na yango, kasi nde tozali kobomba
+  mitindo mpe kosala manso tokoki mpo na kotambwisa bomoi na biso lokola bayekoli
+  ya Yesu Klisto. Ezali losambo na ngai ete tokosala makasi mpo na kotambwisa bomoi
+  oyo elongobani mpo na kozwa mapamboli ya tempelo nakosalaka manso tokoki, na kobongisa
+  nyonso esengeli mpe kolongolaka mbeba mpe mabe ete Molimo ya Nzambe akoka ntango
+  nyonso kozala elongo na biso. Na nkombo ya Yesu Klisto, amene.\"", "\"NSANGO: 65-0219
+  Lelo Oyo Likomi Oyo Ekokisami\\n- 24-0609 Lelo Oyo Likomi Oyo Ekokisami\\n- 22-1113
+  Lelo Oyo Likomi Oyo Ekokisami\\n- 19-0616 Lelo Oyo Likomi Oyo Ekokisami\\nMolingami
+  Mwasi ya libala Momb\u00f3to ya Bokonzi ya Molimo ya Likol\u00f3 koleka,\\nKozila
+  lisusu te, komituna lisusu te, TOSILI TOK\u00d3MI! ToZALI Mwasi ya libala Momb\u00f3to
+  ya Bokonzi ya Molimo ya Likol\u00f3 koleka.\\nMomboto ya Molimo epai ya Mwana ya
+  Bokonzi alakamaki. Lib\u00f3k\u00e9 moko boye te na mikolo mikoya; libota likoy\u00e1
+  te; tozali kobika na mokolo ya nsuka, tozali libota likom\u00f3na Yesu Klisto koz\u00f3nga
+  na mabel\u00e9.\\nLelo oyo, Lik\u00f3m\u00ed Liye Likok\u00eds\u00e1m\u00ed!\\nNsango
+  Malamu yango moko, Nguya yango moko, MWANA ya moto yango moko oyo azalaki lobi,
+  azali lelo, mpe akozala libela.\\nLelo oyo, Lik\u00f3m\u00ed Liye Likok\u00eds\u00e1m\u00ed!\\nBaninga
+  balingami na Arizona, California, Texas, kati na Amerika mpe NA MOKILI MOBIMBA baoyo
+  bazali koyoka bande oyo na nzela ya ekanganeli; M-w-a-n-a ya Nzambe yango moko oyo
+  ayaki na ebimelo ya ntango mpe amindimisaki lokola Nzambe amonisami kati na mosuni,
+  azali M-w-a-n-a ya Nzambe yango moko na ndambo ya mokili na elimwelo ya ntango awa,
+  oyo azali komit\u00e1lisa kati na lingomba na mpokwa oyo, lolenge moko lobi, lelo,
+  mpe libela. Pole ya mpokwa ya Mwana eyei.\\nLelo oyo, Lik\u00f3m\u00ed Liye Likok\u00eds\u00e1m\u00ed!\\nMong\u00f3ng\u00f3
+  ya Masiya, oyo azalaki kotelema mpe koloba na et\u00e9yelo na mokolo na Ye, komiy\u00e9bisa
+  elongo na Liloba ya elaka mpo na eleko wana, azali Mong\u00f3ng\u00f3 yango moko
+  ya Masiya, koloba na Mwasi na Ye ya libala lelo na mokili mobimba likol\u00f3 ya
+  ba bande, koyebisa biso: Nazali lolenge moko lobi, lelo mpe libela. NAZALI Mong\u00f3ng\u00f3
+  ya Nzambe epayi na BINO. BOZALI MWASI NA NGAI YA LIBALA MOMB\u00d3TO YA BOKONZI
+  YA MOLIMO oyo atikali elongo na Liloba na Ngai.\\nLelo oyo, Lik\u00f3m\u00ed Liye
+  Likok\u00eds\u00e1m\u00ed!\\nMob\u00falungano molek\u00ed koleka kati ya bato lelo
+  na lolenge ete bazangi komona Solo ya Nzambe. Ezali mpo ete ndimbol\u00e1-ndimbola
+  ya bato ileki na Liloba ya Nzambe. Nzambe asengeli na moto moko te \u00e1limbola
+  Liloba na Ye. Azali molimboli na Ye moko. Atindelaki Mwasi na Ye ya libala mwanje
+  mosakoli Emoniseli 10:7 ya Ye mikolo ya Mong\u00f3ng\u00f3 kolimbola Liloba na Ye.
+  Ezali YANGO ELOBI NKOLO.\\nLelo oyo , Lik\u00f3m\u00ed Liye Likok\u00eds\u00e1m\u00ed!\\nOlobi,
+  \u201csoko N\u00e1zalaka kuna ntango Yesu azalaki awa na mabel\u00e9, nalingaki
+  kosala boye na boye.\u201d Malamu, wana ezalaki eleko na yo te. Kasi, oyo nde eleko
+  na yo, oyo nde ntango na yo. Mong\u00f3ng\u00f3 nini nde ozali koloba ezali Mong\u00f3ng\u00f3
+  ya Nzambe? Mong\u00f3ng\u00f3 nini nde ezali Mong\u00f3ng\u00f3 ya litomb\u00e1
+  mingi mpo na yo?\\nLelo oyo, Lik\u00f3m\u00ed Liye Likok\u00eds\u00e1m\u00ed!\\nZ\u00e1bolo
+  azali kotambola-tambola lokola liboso naino te kobundisa Mwasi na Ye ya Libala.
+  Akoki kosala ete \u00f3kanisa ozali na malali to bokono ya lolenge moko boye, to
+  kobundisa libota na yo. Ntango mosusu Nzambe atikaka makambo m\u00e1k\u00f3ma molili
+  makasi na motindo ete okoki komona likol\u00f3 te, zingazinga, to esika mosusu te.
+  Na nsima Ayei mpe afungol\u00ed nzela kati na yango mpo na yo, ete okoka koloba,
+  \u201cNazali momb\u00f3to ya Ag\u00e1la te, nazali momb\u00f3to ya Sala te, nazali
+  ata momb\u00f3to ya Malia te, nazali Momb\u00f3to ya Bokonzi ya Likol\u00f3 koleka
+  ya Abalayama na Molimo ya Nzambe. Nazui Liloba ya Nzambe lilak\u00e1m\u00ed mpo
+  na ngai, Ezali Yango Elobi Nkolo. Nakoningana te. Ata \u00e9m\u00f3nana motindo
+  nini, zabolo \u00e1loba nini. Nyoso nazali na yango bosenga, Nakozua Nzambe na Liloba
+  na Ye.\\nLelo oyo, Lik\u00f3m\u00ed Liye Likok\u00eds\u00e1m\u00ed!\\nMong\u00f3ng\u00f3
+  ya Nzambe mosili koloba. Nabombi Bilei nyonso ya Molimo bosengeli na yango. B\u00f3loba
+  KAKA oyo ezali likol\u00f3 ya ba bande. Nazali Mong\u00f3ng\u00f3 ya Nzambe epai
+  na bino. Liloba na ngai ezali na bosenga ya ndimbola moko te. Boswana to b\u00f3bunda
+  te, b\u00f3lingana, KASI b\u00f3tikala na LILOBA NA NGAI.\\nLelo oyo, Lik\u00f3m\u00ed
+  Liye Likok\u00eds\u00e1m\u00ed!\\nZal\u00e1 na ns\u00e9 te. Zind\u00e1 na mawa te.
+  Tika te ete Satana \u00e1yiba ESENGO na yo. Kanisa oyo EZALI yo, wapi ozali kokende,
+  ndenge makambo makozala na Elambo monene wana ya Libala. Kobika na Mboka kitoko
+  wana Atong\u00e1ki kaka mpo na yo. Epai wapi okozala kati na Seko na Seko elongo
+  na Ye mpe baoyo nyonso bakendeki liboso.\\nBokono lisusu te. Mpasi lisusu te. Kufa
+  lisusu te. Bitumba lisusu te. Kaka Bomoi ya Seko elongo na Ye. Na nsima, tokoloba:\\nLelo
+  oyo, Lik\u00f3m\u00ed Liye Likok\u00eds\u00e1m\u00ed!\\nT\u00f3zala na molili te
+  mpe toloba, \u201cNalemb\u00ed mpenza esika oyo, nalingi kobima awa. T\u00edka ete
+  t\u00f3loba yango boye: Azali koya mon\u00fati s\u00e9 mon\u00fati sasaipi, MPONA
+  NGAI\u2026NKEMBO! Nakoki kozila te. Nakomona balingami na ngai nyoso. Bakom\u00f3nana
+  mpenza liboso na ngai, nsima nakoyeba, ESILI, TOKOMI.\\nNsima, na ns\u00e9 ya mwa
+  ntango ya kobw\u00e9ta liso, tokozala biso banso elongo na ngambo mosusu.\\nTosepela
+  mpe t\u00f3zala na esengo, mpo ete Libala ya Mwana-Mpate ek\u00f3mi pene, mpe Mwasi
+  na Ye ya Libala\u2026Mwasi na Ye ya Libala amibongisi.\\nSoko olingi kozala na esengo,
+  mpe kozala na Libala ya Mwana-Mpate elongo na biso, yaka komilengela Lomingo loye
+  elongo na biso na 12:00 nsima ya nz\u00e1ng\u00e1, ntango ya Jeffersonville, lokola
+  tozali koyoka:\\nLelo oyo, Likom\u00ed Liye Likokis\u00e1m\u00ed 65-0219\\nNdeko.
+  Joseph Branham\\nMakomi ya kot\u00e1nga:\\nSt. Yoane Mokapo ya 16\\nYisaya 61:1-2\\nSt.
+  Luka 4:16\"", "\"GOLVANI MBALA : Nooooooooooon Mr. FILA, il faut pas etre hipocritique
+  d''une maniere mechante. Batu bayebi na bango que FERRE aleki FALLY na koyemba,
+  tika kosala semblant. FALLY ayembaka bien, acomposa''ka pe bien, mais batu bayebi
+  na bango que na koyemba FERRE aleki ye, il savoir dialoguer mon frere. Soki olobi
+  que FALLY aleki FERRE na koyemba, ce que pe aleki yo? Bongo y''okanisi oleki FERRE
+  na koyemba? omikosi. Il faut oyeba yango bien que ba kinois baza bazoba te. Batu
+  oyo nioso y''otangi soit disant ba idol na yo: Papa Wemba, Evoloko, Pepe kale, Madilu,
+  Kester,Wendo, bayebi que FERRE GOLA grand chanteur. Meme Pepe kale ti ndenge akenda
+  bongo amemela LUAMBO sango, que petit moko abimi kuna FERRE GOLA, azoyemba danger,
+  ba voix tout. Tika na yebisa yo: koyeba koyemba yaliboso ezali, il faut ozala na
+  oreil musical, ya mibale il faut ozala na belle voix, trois il faut ozala chanteur
+  de charmes. omoni ndenge okoki ko repondre te? Lokola ba calite pour etre un vrai
+  chanteur oyebi te, donc yo FALLY aleki yo, po FERRE aleki FALLY na koyemba. Ndima
+  moninga po yo pe bandima yo, monde etambolaka bongo. soki oza na matoyi ya koyoka
+  yoka. - 07/02/2014 05:19\\nDede : Tu est bon chanteur me pourquoi oza tres tres
+  tres conplexer opesi ngai mawa pe na comprandre que oza faux visionaire pe jaloux
+  ya Ferre me domage azali patron nayo aleki yo na fally na koyemba - 07/02/2014 13:50\\nelomb\u00e9
+  mobali : salut toi chanteur complex\u00e9 vraiment domage que tu ne sais pas ce
+  que tu raconte concernant ton jugement a travers ferr\u00e9 gola je pense que tu
+  as beaucoup a apprendre d!ailleurs ton album ce nulle ce enfantin et ce rater tu
+  joie avec popolipo mais tu devais a apprendre a te taire au lieu de critiquer ferr\u00e9
+  qui est patron de son groupe toi qu''est ce que tu as faux chanteur apprend a bien
+  chant\u00e9 a te faire remarquer que le gens apprecie ce que tu fait la tu pourra
+  ouvrir ta grde guelle juste 1er album et ce toi qui commence a critiquer tu es complex\u00e9
+  et je pense que fally t''encule ce pourquoi tu veut denigrer ferr\u00e9 tu es tres
+  tres loin alors tres loin derriere ferr\u00e9 personne te connais je te conseil
+  a faire ton travail prouve au autres que tu peut etre un bon chanteur pcq aujourd''hui
+  tu ne le pas zoba moko boye imbecile - 08/02/2014 15:25\\nmc : faux chanteur,yo
+  na fally mpo bokoma pembeni ya ferre,na koyemba eza lelo te.na voix nayo ya likelele.
+  inconue spece de ped\u00e9 munoko solo yango ferre alingaka yo pembeni naye lisusu
+  te.jalousie mpo ferre atiki yo musika na boluwu - 09/02/2014 18:27\"", "\"31\\nMaloba
+  ya mokonzi Lemweli\\n1 Maloba ya mokonzi Lemweli, mateya oyo mama na ye ateyaki
+  ye :\\n2 Eh mwana na ngai ya mobali,\\nmwana oyo abimi na libumu na ngai,\\nmwana
+  mobali oyo nalapelaka ndayi :\\n3 Kosilisa makasi na yo na basi te,\\nkomitika te
+  na basi oyo bapengwisaka bakonzi !\\n4 Eh Lemweli, ebongi te mpo na bakonzi ;\\nte,
+  ebongi te mpo na bato minene kotuna :\\n\u00ab Wapi masanga ya makasi ? \u00bb\\n5
+  Noki te soki bameli yango, bakobosana mibeko\\nmpe bakokata na bosembo te makambo
+  ya banyokolami.\\n6 Pesa masanga ya makasi epai ya bato oyo balingi kokufa,\\nmpe
+  vino epai ya bato oyo bazali kotungisama na motema.\\n7 Tika bango bamela mpo ete
+  babosana pasi na bango\\nmpe batika kokanisa lisusu minyoko na bango.\\n8 Fungola
+  monoko na yo\\nmpo na kolobela bato oyo bazali na makoki ya koloba te,\\nmpe mpo
+  na kolongisa bato oyo bazanga basungi.\\n9 Fungola monoko na yo mpe sambisa na bosembo,\\nbundela
+  babola mpe bato oyo bakelela.\\nMasese mpo na mwasi ya lokumu\\n10 Nani akoki komona
+  mwasi ya lokumu ?\\nAzali na motuya koleka babiju ya talo.\\n11 Mobali na ye atielaka
+  ye motema\\nmpe azangaka te biloko ya motuya.\\n12 Tango nyonso ya bomoi na ye,\\napesaka
+  mobali na ye esengo, kasi mawa te ;\\n13 alukaka bapwale ya meme mpe basinga ya
+  lino,\\nbongo maboko na ye etongaka yango na esengo.\\n14 Azali lokola masuwa ya
+  bato ya mombongo,\\nakendaka koluka bilei na ye mosika ;\\n15 alamukaka wana butu
+  ezali nanu,\\nabongisaka bilei mpo na ndako na ye\\nmpe akabolelaka basali na ye
+  ya basi misala.\\n16 Soki asepeli na elanga, asombaka yango ;\\nmpe na mbuma ya
+  misala na ye, alonaka elanga ya vino.\\n17 Akangaka loketo na ye makasi\\nmpe akembisaka
+  maboko na ye na mosala.\\n18 Amonaka ete mombongo na ye etambolaka malamu ;\\nmpe
+  kino na butu, mwinda na ye ekokufa te.\\n19 Maboko na ye esimbaka mitonga oyo batongelaka,\\nmpe
+  misapi na ye etongaka bilamba.\\n20 Afungolaka loboko na ye mpo na kokabela babola,\\nmpe
+  asembolaka yango mpo na kosunga bato bakelela.\\n21 Tango mvula ya pembe ekitaka,\\nabangaka
+  eloko moko te mpo na ndako na ye,\\npamba te bato nyonso kati na ndako na ye balataka
+  bilamba ya malili.\\n22 Asalaka babulangeti mpo na mbeto na ye\\nmpe alataka bilamba
+  na ye ya lino ya kitoko mpe ya motane.\\n23 Bapesaka mobali na ye lokumu, na ekuke
+  ya engumba,\\ntango avandaka elongo na bakambi ya mokili.\\n24 Asalaka bilamba ya
+  lino mpe atekaka yango,\\nasalaka mombongo ya mikaba.\\n25 Alataka lokola elamba
+  : molende na mosala mpe lokumu ;\\nmikolo ya lobi ebangisaka ye te, asekaka nde
+  yango.\\n26 Alobaka na bwanya,\\nmpe lolemo na ye epesaka malakisi na bolingo.\\n27
+  Azalaka na bokebi na makambo nyonso oyo elekaka na ndako na ye,\\nmpe aliaka lipa
+  na bogoyigoyi te.\\n28 Bana na ye bakotelema mpo na kokumisa ye,\\nmpe tala ndenge
+  mobali na ye mpe akumisaka ye :\\n29 \u00ab Basi ebele basalaka makambo ya lokumu
+  ;\\nkasi yo, oleki bango nyonso ! \u00bb\\n30 Bonzenga ya elongi ekosaka,\\nmpe
+  kitoko ya nzoto ezalaka pamba ;\\nkasi mwasi oyo atosaka Yawe,\\nye nde abongi na
+  lokumu.\\n31 Bopesa ye bambuma ya misala na ye !\\nTika ete bapesa ye lokumu, na
+  bikuke ya engumba,\\nmpo na misala nyonso oyo asalaka !\"", "\"\u201cElimo na ye
+  ekobima, akozonga na mabele; kaka na mokolo yango makanisi na ye ekufi.\u201d\\n\u201cBato
+  ya bomoi bayebi ete bakokufa, kasi bakufi bayebi ata eloko moko te . . . Nyonso
+  oyo lob\u0254k\u0254 na yo ezwi mpo na kosala, sal\u00e1 yango na makasi na yo nyonso,
+  mpo mosala ezali te, mikano te, boyebi te, bwanya mpe te na Nkunda, esika ozali
+  kokende.\u201d\\n\u201c[Yesu] abakisaki: \u2018Moninga na biso Lazare alali mp\u0254ngi,
+  kasi nazali kokende kuna mpo na kolamwisa ye.\u2019 Nzokande, Yesu alobelaki liwa
+  na ye. Kasi bango bakanisaki ete azalaki koloba ete Lazare alali mp\u0254ngi, azali
+  kopema. Na yango Yesu alobaki na bango polele ete: \u2018Lazare akufi.\u2019\u201d\"",
+  "\"LA PRI\u00c9RE ( ENSEIGNEMENT SUR LA PRI\u00c9RE ) AVEC LE PASTEUR YVON STABILI\\n25
+  d\u00e9cembre 2014 2 h 33 min\\nLa sagesse Africaine nous dit ceci:\u2026soki o
+  silisi ko liya na ndaku nayo, ko kende ko beta lokole na balabala te que, na wuti
+  koliya pe na tondi makasi parceque, eza naba oyo ba liaka pe ba tondaka mikolo nioso
+  ko leka , sans que ba vova.\\nNani a yebi lisolo ya Muyaka azuwi le 15 te hein?
+  ko zuwa ya mobola e zalaka na makelele mingi ko leka mbongo ya bibende.\\nKozanga
+  vie sociale ezali pasieeee, No\u00ebl batu baleki yango en toute gaiet\u00e9 en
+  famille, le vieux jaloux idiot brazzavillageois aleki yango na ba sites internet
+  ya bana RDC, Kieeee mawa na pasiiieeee encore une preuve que vieux jaloux asalaka
+  rien na vie, musala te, muasi te, bana te\u2026 Kaka kozalaka na ba sites internet
+  ya ba idoles na ye. Ata na NO\u00cbL :confused: kiekiekieeeeeee\\nBiso Bazombo to
+  lobaka \u00ab sala sambila, sambila \u2026sala \u00bb. Donc, losambo \u00e9 balana
+  na misala.\"", "\"Na mokolo ya 6/05/2017, Batatoli ya Yehova soki 130, basi n\u00e1
+  mibali bapesaki mab\u0254k\u0254 na mosala ya kotya bop\u025bto na zamba ya mboka
+  Bryukhovychi, pene ya engumba Lviv, na Ukraine. Bavolont\u025br\u025b yango ya mbula
+  kobanda 22 tii 80, bafandaka mpe basalaka na Biro ya Batatoli ya Yehova na Ukraine,
+  oyo ezali pene ya zamba yango. Bap\u025btolaki ektare koleka 50 ya esika yango mpe
+  bal\u0254k\u0254taki basalite ya kilo soki 600 na boumeli ya ngonga misato mpamba.\\nMykhailo,
+  ing\u00e9nieur oyo akambaka centre moko ya kob\u0254k\u0254la bibwele mpe kotimola
+  mabulu, alobaki ete \u201cBatatoli ya Yehova bazalaki bato ya liboso ya kopesa mab\u0254k\u0254
+  na mosala yango oyo esalemaka mbula nyonso mpe basalaka yango mbula nyonso banda
+  2014.\u201d\\nMpo na nini es\u025bngaka kotya bop\u025bto na zamba yango?\\nSplavinskyi
+  alobi ete \u201czamba yango ek\u00f3maka salite na balolenge mibale: ya liboso,
+  bato mosusu oyo balekaka wana batikaka basalite na bango mpe ya mibale mituka minene
+  eyaka kobwaka basalite oyo etikalaka ntango batongaka bandako, mpe basalite mosusu.\u201d\\nBosoto
+  ezali likambo moke te mpo na zamba. Splavinskyi, alobi boye: \u201cEzwaka ntango
+  molai mpo bosoto ep\u0254la mpe na nsima ebebisaka mai ya nse ya mabele, mpe yango
+  esalaka ete mabele ebeba.\u201d Milangi oyo babwakaka ekoki kongalisa kong\u025bnga
+  ya moi, mpe kopelisa m\u0254t\u0254 na zamba. Longola yango, milangi ebukan\u00e1
+  mpe bantonga ezali likama, mingimingi mpo na bana mike. Abakisi ete \u201ctokoki
+  kokima makama wana soki tozali kolongola basalite yango.\u201d\\nKop\u025btola ektare
+  3300 ya zamba ezali mosala monene mpenza. Splavinskyi alobi boye: \u201cBaoyo babatelaka
+  zamba yango bazali kaka mitano, yango wana tokoki te kop\u025btola esika monene
+  boye. Na yango, mbala moko na mbula tos\u025bngaka moto nyonso aya kopesa biso mab\u0254k\u0254
+  na mosala ya kop\u025btola zamba.\u201d\\nKosangisa, kokabola, mpe kotya na esika
+  na yango\\nBatatoli ya Yehova oyo bayaki kotya bop\u025bto na esika yango bamemaki
+  ba-gants, basaki ya plastiki, mpe barato mpo na kol\u0254k\u0254ta bapin\u025b ya
+  mituka, milangi, bibende, bapapye, baplastiki mpe bantonga oyo basalel\u00e1. Ihor
+  Fedak, moto moko oyo asalaka na zamba yango alobi ete mpo na yango \u201cesika oyo
+  Batatoli ya Yehova basalaki mosala ek\u00f3mi mpenza p\u025bto.\u201d\\nAtako mibeko
+  es\u025bngi yango te, bavolont\u025br\u025b yango batyaki bos\u0254t\u0254 na bos\u0254t\u0254
+  na esika na yango; na ndakisa milangi, bapapye mpe baplastiki, yango ekopesa nzela
+  ete b\u00e1salela yango mpo na kosala biloko mosusu. Boye, kompanyi moko ekoki kozwa
+  bos\u0254t\u0254 yango mpo na kosala biloko mosusu. Kobanda 2016, Batatoli ya Yehova
+  bafutaka mbongo mpo na basalite oyo balongolaka. Fedak alobi: \u201cNapesi Batatoli
+  ya Yehova mersi ndenge basalisi biso. Basalisaka biso mingi mpenza.\u201d\\n\u201cKotya
+  bop\u025bto elongolaka lokumu na ngai te\u201d\\nBatatoli ya Yehova basepelaka kopesa
+  mab\u0254k\u0254 na kotya bop\u025bto na zamba yango mbula nyonso. Basepelaka kosalisa
+  bato na bisika oyo bafandi mpo zamba ezala kitoko. Volker alobeli makanisi oyo mingi
+  na bango bazalaka na yango: \u201cKotya bop\u025bto elongolaka lokumu na ngai te.
+  Kosala likambo moko mpo na basusu ezali lokumu mpe epesaka esengo.\u201d\\nAnzhelika
+  alobi boye: \u201cMpo na ngai, likambo ya ntina ezali te moto oyo atyaki bos\u0254t\u0254
+  yango, kasi nde oyo nakoki kosala mpo na kolongola bos\u0254t\u0254 yango.\u201d
+  Lois, oyo azali na mbula 78 mpe apesaki mab\u0254k\u0254 na mosala yango; alobi
+  boye: \u201cNa esika osilika mpo na basalite yango ntango okei kotambola, eleki
+  malamu kolongola nde yango.\u201d\\nWieslaw alobi boye: \u201cMbala mingi bato bamonaka
+  ndenge tolataka kitoko n\u00e1 bakravati ntango tobimaka mpo na koteya nsango malamu.
+  Kasi tondimaka mpe kolalisa bakazaka na biso mpo na kotya bop\u025bto na zamba to
+  kosala mosala mosusu oyo ekopesa bato litomba.\u201d\"", "\"Nzambe alakaki Abrahama
+  ete mokitani na ye moko akomemela \u201cbik\u00f3lo nyonso ya mabele\u201d mapamboli.
+  (Ebandeli 22:18) Mokitani yango nde nani?\\nEsali sikoyo mbula soki 2 000, Nzambe
+  apesaki Yesu, oyo azali mokitani ya Abrahama, nguya ya kosala makamwisi. Makamwisi
+  yango emonisaki ete elaka oyo Nzambe apesaki Abrahama ete akopambola bik\u00f3lo,
+  ekokokisama na nzela ya Yesu.\u2014Bagalatia 3:14.\\nMakamwisi oyo Yesu asalaki,
+  esalisaki bato b\u00e1mona ete Nzambe aponi Yesu mpo na kopambola bato mpe ete na
+  nzela na ye Nzambe akopesa bato mapamboli ya seko. Makamwisi oyo Yesu asalaki emonisaki
+  bizaleli na ye mosusu ya malamu, na ndakisa:\\nBoboto: Yesu abikisaki bato ya maladi.\\nMokolo
+  moko, moto ya maba abondelaki Yesu abikisa ye. Yesu asimbaki ye mpe alobaki na ye:
+  \u201cNalingi.\u201d Na mbala moko, maba esilaki.\u2014Marko 1:40-42.\\nEzaleli
+  ya kokaba: Yesu aleisaki bato oyo bazalaki na nzala.\\nYesu azalaki kolinga te ete
+  bato b\u00e1kufa nzala. Mbala mibale, asalaki likamwisi na ndenge akomisaki ebele
+  mwa mampa mpe mwa mbisi mpo na koleisa bankot\u00f3 ya bato. (Matai 14:17-21; 15:32-38)
+  Nsima ya kolya, bato nyonso batondaki mpe biloko ya kolya etikalaki ebele.\\nMotema
+  mawa: Yesu asekwisaki bakufi.\\n\u201cMawa\u201d etindaki Yesu asekwisa mwana mobali
+  se moko ya mwasi oyo mobali akuf\u00e1, oyo azalaki na moto mosusu te ya kosalisa
+  ye.\u2014Luka 7:12-15.\"", "\"1. Nini ekoki kosalisa biso t\u00f3yeba makambo oyo
+  ekosalema na mikolo ezali koya?\\nNSIMA ya kolanda bansango, ek\u00f3mel\u00e1 yo
+  omituna: \u2018Mokili oyo ezali kokende wapi?\u2019 Lokola makambo ya ns\u0254m\u0254
+  mpe mabe ek\u00f3mi mingi, bato mosusu bak\u00f3mi kondima ete nsuka ya mokili ek\u00f3mi
+  pene. Ezali solo? Tokoki koyeba makambo oyo ekosalema na mikolo ezali koya? \u0190\u025b.
+  Bato bakokoka te koyebisa makambo oyo ekoya, kasi Yehova Nzambe akoki kosala yango.
+  Na Biblia, ayebisi biso ndenge bomoi mpe mabele ekozala na mikolo ezali koya.\\n2,
+  3. Bayekoli ya Yesu balingaki koyeba nini, mpe Yesu ayebisaki bango nini?\\n2 Ntango
+  Biblia elobeli nsuka ya mokili, elingi koloba te ete mabele ekobebisama; yango elimboli
+  nde ete mabe ekosila. Yesu ateyaki bato ete Bokonzi ya Nzambe ekoyangela mabele.
+  (Luka 4:43) Bayekoli ya Yesu balingaki koyeba ntango oyo Bokonzi ya Nzambe ekoya,
+  yango wana batunaki ye: \u201cMakambo yango ekosalema ntango nini, mpe elembo nini
+  ekomonisa kozala na yo mpe bosukisi ya makambo ya ntango oyo?\u201d (Matai 24:3)
+  Yesu ayebisaki bango mokolo mpe ngonga te; kasi ayebisaki bango makambo oyo ekosalema
+  liboso ete nsuka ya mokili eya. Makambo oyo Yesu alobaki ete ekosalema ezali kosalema
+  lelo oyo.\\n3 Na mokapo oyo, tokolobela makambo oyo emonisi ete tozali na eleko
+  oyo esengelaki kozala liboso ya nsuka ya mokili. Kasi, tosengeli liboso kolobela
+  etumba moko oyo ebimaki na likol\u00f3 mpo t\u00f3yeba ntina oyo makambo ebebi boye
+  awa na mabele.\\nETUMBA MOKO NA LIKOL\u00d3\\n4, 5. (a) Nini esalemaki na likol\u00f3
+  ntango Yesu ak\u00f3maki Mokonzi? (b) Ndenge Emoniseli 12:12 elobi, nini esengelaki
+  kosalema awa na mabele ntango babwaki Satana?\\n4 Na Mokapo 8, toyekolaki ete Yesu
+  ak\u00f3maki Mokonzi na likol\u00f3 na 1914. (Danyele 7:13, 14) Mokanda ya Emoniseli
+  eyebisi biso makambo oyo esalemaki: \u201cEtumba ebimaki na likol\u00f3: Mikaele
+  [elingi koloba Yesu] n\u00e1 baanzelu na ye babundaki na drag\u0254 [Satana], mpe
+  drag\u0254 n\u00e1 baanzelu na yango babundaki.\u201d * Satana n\u00e1 bademo na
+  ye balongaki etumba te mpe babwakamaki na mabele. Kanis\u00e1 esengo oyo baanzelu
+  bayokaki! Bongo bato awa na mabele? Biblia elobaki ete ekozala eleko moko ya yikiyiki
+  mpo na bato. Mpo na nini? Mpo Zabolo azali na nkanda makasi, \u201cmpo ayebi ete
+  azali na ntango mokuse.\u201d\\n5 Zabolo azali kosala nyonso atya mobulu na mabele
+  ndenge alingi. Azali na nkanda makasi mpo atikali na ntango mokuse liboso Nzambe
+  aboma ye. T\u00f3talela sikoyo makambo oyo Yesu alobaki ete ekosalema na mikolo
+  ya nsuka.\\nMIKOLO YA NSUKA\\n6, 7. Tokoki koloba nini mpo na bitumba mpe nzala
+  lelo oyo?\\n6 Bitumba. Yesu alobaki: \u201cEk\u00f3lo ekobunda na ek\u00f3lo mpe
+  bokonzi ekobunda na bokonzi.\u201d (Matai 24:7) Bitumba ya mikolo na biso ebomi
+  bato mingi koleka bitumba nyonso ya ntango ya kala. Lapolo ya ebongiseli moko oyo
+  elandelaka makambo ya mokili emonisi ete kobanda mobu 1914, bitumba ebomi bato koleka
+  milio 100. Bato oyo babomami na bitumba na boumeli ya mbula 100, kobanda mobu 1900
+  tii mobu 2000, baleki mbala misato bato oyo babomamaki na boumeli ya mbula 1900,
+  elingi koloba banda na si\u025bkl\u025b ya liboso tii na mobu 1899. Kanis\u00e1
+  naino mawa mpe mpasi oyo bamilio ya bato bayok\u00e1 mpo na bitumba!\\n7 Nzala.
+  Yesu alobaki: \u201cNzala ekozala.\u201d (Matai 24:7) Lelo oyo, biloko ya kolya
+  ek\u00f3mi mingi mpenza, kasi bato mingi balyaka kaka malamu te. Mpo na nini? Mpo
+  bazangi mbongo ya kosomba bilei to mabele ya kosala bilanga. Mbongo oyo bato koleka
+  miliare moko bazalaka na yango mpo na kobikela mokolo mobimba ekoki ata dolare moko
+  te. Ebongiseli ya ONU oyo etalaka bokol\u0254ng\u0254n\u0254 ya nzoto (OMS) elobi
+  ete bamilio ya bana bakufaka mbula na mbula, mingimingi mpo balyaka malamu te.\\n8,
+  9. Nini emonisi ete bisakweli ya Yesu oyo elobeli koningana ya mabele mpe maladi
+  ekokisami?\\n8 Koningana ya mabele. Yesu asakolaki ete: \u201cMabele ekoningana
+  makasi na bisika ndenge na ndenge.\u201d (Luka 21:11) Lelo oyo, mbula nyonso mabele
+  eninganaka makasi mpenza. Kobanda mobu 1900, koningana ya mabele esili koboma bato
+  koleka milio mibale. Mpe atako ezali lelo na bamasini, oyo kala ezalaki te, oyo
+  ezali kosalisa bato b\u00e1yeba ete mabele ekoningana liboso kutu esalema, bato
+  mingi bazali kaka kokufa.\\n9 Maladi. Yesu asakolaki ete \u201cbamaladi mabe\u201d
+  ekozala. Bamaladi ya mabe esengelaki kopalangana nokinoki mpe koboma bato mingi.
+  (Luka 21:11) Atako minganga bayekoli ndenge ya kosalisa bamaladi ebele, bamaladi
+  mingi ezwi naino nkisi te. Kutu, lapolo moko emonisi ete mbula na mbula, maladi
+  ya ntolo, malaria, kolera ezali koboma ebele mpenza ya bato. Esuki kaka wana te;
+  minganga bamoni bamaladi ya sika 30, mpe mosusu kati na yango ezali na nkisi te.\\nBIZALELI
+  YA BATO NA MIKOLO YA NSUKA\\n10. Ndenge nini 2 Timote 3:1-5 ezali kokokisama lelo?\\n10
+  Na 2 Timote 3:1-5, Biblia elobi: \u201cMikolo ya nsuka ekozala ntango moko ya mpasi
+  mpenza mpe ya mikakatano.\u201d Ntoma Paulo amonisaki bizaleli oyo bato mingi bakozala
+  na yango na mikolo ya nsuka. Alobaki ete bakozala\\nbato oyo bamilingaka\\nbato
+  baling\u00e1 mbongo\\nbato oyo batosaka baboti te\\nbato oyo bazangi bosembo\\nbato
+  oyo balinganaka te na kati ya libota\\nbato oyo bazangi komipekisa\\nbato ya nkanda
+  mpe ya mobulu\\nbato oyo baling\u00e1 bisengo na esika ya kolinga Nzambe\\nbato
+  oyo balobaka ete balingaka Nzambe kasi baboyaka kotosa ye\\n11. Ndenge Nzembo 92:7
+  elobi, nini ekok\u00f3mela bato mabe?\\n11 Omonaka bato na bizaleli ya ndenge wana
+  na esika ofandi? Bato mingi na mokili mobimba bamonaka yango. Kasi etikali moke
+  Nzambe asilisa likambo yango. Alaki ete: \u201cNtango bato mabe bazali kobima lokola
+  matiti mpe bato nyonso oyo basalaka makambo oyo eyokisaka mpasi bazali kokola, ezali
+  mpo b\u00e1sila ny\u025b\u025b [to b\u00e1bomama] libela.\u201d\\nNSANGO MALAMU
+  NA MIKOLO YA NSUKA\\n12, 13. Makambo nini Yehova ateyi biso na mikolo oyo ya nsuka?\\n12
+  Biblia esakolaki ete na mikolo ya nsuka, mokili ekotonda na bampasi mpe minyoko.
+  Kasi, Biblia elobi lisusu ete makambo ya malamu mpe ekosalema.\\n13 Koyeba Biblia.
+  Mosakoli Danyele mpe alobelaki mikolo ya nsuka. Akomaki boye: \u201cBoyebi ya sikisiki
+  ekok\u00f3ma mingi.\u201d (Danyele 12:4) Nzambe asengelaki kopesa basaleli na ye
+  mayele ya koyeba Biblia malamu koleka liboso. Yehova azali kosala bongo, mingimingi
+  banda 1914. Na ndakisa, ateyi biso ntina ya nkombo na ye mpe mokano na ye mpo na
+  mabele, solo na oyo etali lisiko, bakufi mpe lisekwa. Toyekoli ete kaka Bokonzi
+  ya Nzambe nde ekoki kosilisa mikakatano nyonso ya bato. Toyekoli mpe ndenge ya kozala
+  na esengo mpe ya kozala na bomoi oyo esepelisaka Nzambe. Kasi, basaleli ya Nzambe
+  basalaka nini na makambo oyo bayekoli? Esakweli mosusu epesi eyano.\\n14. Nsango
+  malamu ya Bokonzi ezali kosakolama wapi, mpe banani bazali kosakola yango?\\n14
+  Mosala ya kosakola na mokili mobimba. Ntango Yesu azalaki kolobela mikolo ya nsuka,
+  alobaki ete: \u201cNsango malamu oyo ya bokonzi ekosakolama na mabele mobimba esika
+  bato bafandi.\u201d (Matai 24:3, 14) Nsango malamu ya Bokonzi ezali kosakolama na
+  mikili koleka 230 mpe na min\u0254k\u0254 koleka 700. Ya solo, na mabele mobimba,
+  Batatoli ya Yehova ya \u2018bik\u00f3lo nyonso mpe ya mabota nyonso\u2019 bazali
+  kosalisa bato b\u00e1yeba Bokonzi ya Nzambe mpe makambo oyo Bokonzi yango ekosalela
+  bato. (Emoniseli 7:9) Mpe basalaka yango ofele. Ata soki bato mingi bayinaka bango
+  mpe banyokolaka bango ndenge Yesu asakolaki, eloko moko te ekoki kopekisa mosala
+  ya kosakola.\\nOKOSALA NINI?\\n15. (a) Ondimi ete tozali na mikolo ya nsuka? Mpo
+  na nini? (b) Nini ekok\u00f3mela bato oyo batosaka Yehova mpe baoyo batosaka ye
+  te?\\n15 Ondimi ete tozali na mikolo ya nsuka? Bisakweli mingi ya Biblia oyo elobeli
+  mikolo ya nsuka ezali kokokisama. Etikali moke Yehova asukisa mosala ya kosakola
+  nsango malamu, mpe \u201cnsuka\u201d eya. (Matai 24:14) Nsuka ezali nini? Ezali
+  Armagedone, ntango Nzambe akolongola mabe nyonso. Yehova akosalela Yesu mpe baanzelu
+  na ye ya nguya mpo na koboma moto nyonso oyo aboyi kotosa Ye mpe Mwana na ye. (2
+  Batesaloniki 1:6-9) Nsima na yango, Satana n\u00e1 bademo na ye bakokosa lisusu
+  bato te. Mpe baoyo nyonso balingi kotosa Nzambe mpe kondima Bokonzi na ye bakomona
+  ndenge bilaka nyonso ya Nzambe ekokokisama.\\n16. Lokola nsuka ek\u00f3mi pene,
+  osengeli kosala nini?\\n16 Etikali moke mokili oyo ya Satana esuka. Yango wana,
+  ezali na ntina mingi t\u00f3mituna: \u2018Nasengeli kosala nini?\u2019 Yehova alingi
+  osala nyonso mpo oyeba makambo mingi ya Biblia. Osengeli kozwa boyekoli na yo na
+  lis\u025bki te. (Yoane 17:3) Batatoli ya Yehova basalaka makita p\u0254s\u0254 na
+  p\u0254s\u0254 mpo na kosalisa bato b\u00e1yeba Biblia. Sal\u00e1 makasi okendaka
+  na makita yango p\u0254s\u0254 nyonso. (T\u00e1ng\u00e1 Baebre 10:24, 25.) Soki
+  omoni ete osengeli kobongisa makambo na bomoi na yo, sal\u00e1 yango. Soki osali
+  bongo, yo n\u00e1 Yehova bokok\u00f3ma baninga makasi mpenza.\\n17. Mpo na nini
+  bato mingi bakosutuka ntango nsuka ekoya?\\n17 Ntoma Paulo alobaki ete bato mabe
+  bakobomama na ntango oyo bato mingi bazali kokanisa te, kobomama yango ekoya \u201clokola
+  moyibi na butu.\u201d (1 Batesaloniki 5:2) Yesu asakolaki ete bato mingi bakoboya
+  kondima ete tozali na mikolo ya nsuka. Alobaki: \u201cNdenge ezalaki na mikolo ya
+  Noa, kozala ya Mwana ya moto [to mikolo ya nsuka] ekozala mpe bongo. Mpo ndenge
+  bazalaki na mikolo oyo ezalaki liboso ya mpela: bazalaki kolya mpe kom\u025bla,
+  mibali bazalaki kobala mpe basi bazalaki kobalisama, tii mokolo oyo Noa ak\u0254taki
+  na masuwa; mpe batyaki likebi te tii mpela eyaki mpe ek\u0254mb\u0254laki bango
+  nyonso, kozala ya Mwana ya moto ekozala mpe bongo.\u201d\\n18. Likebisi nini Yesu
+  apesaki biso?\\n18 Yesu akebisaki biso ete t\u00f3lekisa ndelo te \u201cna kolya
+  mpe na kom\u025bla mingi mpe na mitungisi ya bomoi.\u201d Alobaki ete nsuka ekoya
+  mbalakaka, \u201clokola motambo.\u201d Alobaki mpe ete \u201cekoyela bato nyonso
+  oyo bafandi na mabele mobimba.\u201d Na nsima abakisaki: \u201cYango wana, b\u00f3lala
+  mp\u0254ngi te, b\u00f3pesa mal\u0254mb\u0254 [to b\u00f3bondela na motema mobimba]
+  ntango nyonso mpo b\u00f3koka kokima makambo nyonso wana oyo esengeli kosalema,
+  mpe kot\u025bl\u025bma liboso ya Mwana ya moto.\u201d (Luka 21:34-36) Mpo na nini
+  ezali na ntina mingi kotosa likebisi ya Yesu? Mpo etikali moke mokili mabe ya Satana
+  ebomama. Kaka bato oyo Yehova n\u00e1 Yesu bandimi nde bakobika mpe bakozala na
+  bomoi libela na libela na mokili ya sika.\"", "\"Paroles de la chanson Prince de
+  Southfork par Fally Ipupa\\nProposer une correction des paroles de \\\"Prince de
+  Southfork\\\"\\nParoles de la chanson Prince de Southfork par Fally Ipupa\\nKomona
+  ngai kinzengi na yo t\u00e9 Temuni\\nZwa ngai moto.Oy''ako kanisa liboso ya kosala
+  likambo\\nMonoko na ngai ezali b\u00e9b\u00e9\\nMonoko na ngai muana moke ya pamba\\nEza
+  na makasi t\u00e9, ya boteyi yo bolingo na mokolo moko\\nTo tika tango eleka\\nLe
+  temps est rem\u00e8de a tout Luc ewing.X2\\nNakufeli bolingo, nakufi Luc Ewing Temuni\\nNakufeli
+  bolingo, nakufi Luc Ewing Temuni\\nButu ya lelo na tongo na lamuki\\nNa sali inventaires
+  ya vie d''amour na ngai\\nBa affection ya makasi boye ngai kidiba\\nSomation ya
+  ba chagrin na ba douleur\\nReponse nango ebimi \u00e9gale tombo\\nNakamwe mama,
+  na \u00e2ge oyo nazzali\\nNano adolescente na signer\\nNasi nakomi na makanisi yakotikela
+  maman testament\\nEt poutant bolingo y''opesaki ngai ezzalaki lokola mpongi\\nAta
+  nasengi t\u00e9, fin de fin nazzali na droit nango\\nNakufeli bolingo, nakufi Luc
+  Ewing Temuni\\nNakufeli bolingo, Nakufi Luc Ewing Temuni\\nLiwa na ngai, si d\u00e9j\u00e0
+  ekoma officialis\u00e9 nayabaki t\u00e9\\nKutu ya trois mois\\nCroix blanche na
+  medecin bakomi kombo\\nKutu ekomi konzuluka\\nMais avant corbillard eya kobetele
+  nga alarma ya suka\\nYak''okata ba annulaires na ngai\\nMpo ete kuna na mboka bawa\\nNazzala
+  na likanisi ya kobala t\u00e9\\nMpo moto nalingaki aniokoli ngai\\nBa bais\u00e9s
+  ya sukali opesaki ngai\\nSoki ezzali na marqueur rouge nde\\nNakoma na race indienne\\nLelo
+  pourquoi y''oniokoli mon pauvre coeur saigant\\nNgai ch\u00e9ri, motema na ngai
+  etonda bolingo\\nHors ya yo Luc Ewing eza lokola bande cassette\\nBolingo na ngai
+  ekoti na place ya pembe\"", "\"Apr\u00e8s 16 ans \u00e0 Londres sans pouvoir \u00eatre
+  r\u00e9gularis\u00e9, le congolais Jimmy Mubenga a \u00e9t\u00e9 tu\u00e9 la semaine
+  pass\u00e9e par des policiers anglais qui essayaient de le d\u00e9porter vers l\u2019
+  Angola. Jimmy Mubenga avait une femme et des enfants, dont un fils de 16 ans. Sa
+  famille ne peut cesser de pleurer. C\u2019 est dommage, depuis la crise \u00e9conomique
+  le racisme devient de plus en plus grand en Europe. Dans tout les pays Europ\u00e9ens
+  les partis d\u2019 extr\u00eame droite deviennent de plus en plus populaires, en
+  France, en Allemagne, en Hollande, en UK et m\u00eame en Belgique. L\u2019 Europe
+  est entrain de perdre du terrain sur le plan mondial \u00e0 cause de la mont\u00e9e
+  de la Chine, mais malheureusement les europ\u00e9ens mettent les effets de la crise
+  \u00e9conomique sur le dos des immigrants africains et autres. Mes condol\u00e9ances
+  \u00e0 la famille de Jimmy Mubenga. Suivez ces images!\\n115 Commentaires\\nOYO
+  NIOSO AZALI MUTU YA MOBUTU ATA BASALA MABE MAIS TOKOLIBISA BANGO PO BABOMAKA BATULOKOLA
+  KANAMBE TE BINO BOBOMI PEUPLE CONGOLAIS 6.000m de congolis mais batuya MOBUTU BABOMA
+  BA CONGOPLAIS TE ATA 1.000 MAIS BINO BA RUANDE BOZALI KOBOMA PONA BILOKO NA BISO.BINO
+  BATUYA KANAMBE BOYEBAKA TOKOLIBISA BINOTEEEE PO BOTEKI MBOKA EPAI YABA RUANDE OYO
+  NIOSO ATEKI CONGO NA BISO EPAI YABA RUANDE TANGO NA BINO EZALI KOKOKA KALA MINGITE
+  TOKOLIBISA BATU YA MOBUTU BINOTE PO BOZALI BAZOBA BOTEKI MBOKA NABA ZOBA YABA RUANDE
+  MAWA MAWA MAWA\\nEZALI PASI NA PEUPLE CONGOLAIS MAWA MAWA RUANDA SUANAYO CONGO\\nMy
+  condellences to my school mate Jimmy Kelenda\u2019s family back in the days we used
+  to be close in grade 6 elementary school. We lost contact since 1986 since then
+  I never hear from him. May God receive his soul so that He may rest in peace.\\nBA
+  CON-MBATTANTS BA ZOBA . WAPI ATA MARCHE YA PAMBA PO NA MEMOIRE YA NDEKO NA BISO.
+  BOPEKISA BA BRITANIQUES BABETA LISUSU MIZIKI TE. REINE D\u2019ANGLETERRE AZONGA
+  EPA NA BANGO NA ALLEMAGNE. BOZA BA BOLOLE. BANGALA YA BA ZOBA. BOLIA MIKOMBOSO BOZUA
+  SIDA. BA NGWANDI YA SALITE.\\nezali mawa mingi!!the fock white people whant,our
+  countrys to help ther igos,,to longola bango na mboka na bisso po sino te toko kufa\\nbisso
+  nionso mundele azali muninga na yo te\\nsikoyo bomoni pona nini na ndimaka bible
+  te na koran te,nako limbola bino yango(biloko bayaka nayango kaka pona ba zua bino\\nToute
+  l\u2019europe se mobilise comme un seul homme pour mener la vie dure a tous les
+  NEGRES.C\u2019EST LE MOMENT DE PENSEZ A VOTRE RETRAITE DANS VOTRE PAYS\\nme condoleance
+  na famille jimmy mais na lingi natuna jimmy azali angolais ubien congolais? pona
+  ba angolais bazali kolandela makambu yango balobi k ekolonaye ya solo ezalikoyebanate
+  azali na passeport angolais famille na kin balobi azali congolais sikoyo azali ekolo
+  nini?\\nah ezali pasi bongo ba combattants soit disant bozo sala nini ki combattants
+  kaka pona musique ata marche te boza bato ya lokuta bovanda moninga ati muasi na
+  bana\\nGrande est ma peine, mes condol\u00e9ances les plus attrist\u00e9es \u00e0
+  la famille du d\u00e9funt.\\nLa presse belge vient donner raison au ministre de
+  la Communication et M\u00e9dias, et porte-parole du gouvernement sur l\u2019Affaire
+  Armand Tungulu qui d\u00e9fraye la chronique depuis 15 jours apr\u00e8s son d\u00e9c\u00e8s.
+  C\u2019est ce qui ressort des propos de Marie France Cios dans ses colonnes.\\nEn
+  effet, dans sa livraison de mardi 19 octobre 2010, elle a \u00e9crit : \u00ab Le
+  ministre de l\u2019information et porte-parole du gouvernement congolais, Lambert
+  Mende- friand de diatribes anti-belge- a toutefois pris une position offensive,
+  jugeant l\u2019ordonnance bruxelloise \u00ab totalement inopportune car, elle compromet
+  l\u2019enqu\u00eate en cours \u00bb au Congo. \u00ab Cela nous sugg\u00e8re une
+  nouvelle piste d\u2019enqu\u00eate \u00bb, n\u2019h\u00e9site pas \u00e0 poursuivre
+  M. Mende, \u00ab car il y a manifestation tentative d\u2019obstruer l\u2019enqu\u00eate
+  avec une pression tout \u00e0 fait inhabituelle pour amener les autorit\u00e9s judiciaires
+  congolaises \u00e0 lever le pied. Que craignent donc les belges (\u2026) Voudrait-on
+  cacher certaines choses ? \u00bb\\nM. Mende ajoute de mani\u00e8re plus cr\u00e9dible,
+  que l\u2019injonction de juge bruxellois \u00ab cr\u00e9e un litige de plus entre
+  nos deux Etats et insulte la souverainet\u00e9 congolaise \u00bb. La Libre Belgique
+  a pris, sur ce point, l\u2019avis d\u2019un avocat belge habitu\u00e9 \u00e0 ce
+  genre d\u2019affaires, qui confirme qu\u2019un juge d\u2019un pays donn\u00e9 ne
+  peut donner d\u2019injonction \u00e0 un autre Etat; la seule mani\u00e8re de proc\u00e9dure,
+  nous dit-on, aurait \u00e9t\u00e9 de citer l\u2019Etat congolais au Congo, devant
+  une juridiction congolaise.\\nEnfin, Lambert Mende, au nom de gouvernement de Kinshasa,
+  menace \u00ab d\u2019initier une action contre les dirigeants et l\u2019Etat belges
+  (\u2026) devant les juridictions congolaises \u00bb pour l\u2019assassinat de l\u2019ex-Premier
+  ministre Patrice Lumumba en 1961. A l\u2019appeler qu\u2019il y a une semaine, un
+  juge du tribunal de Premi\u00e8re instance de Bruxelles avait donn\u00e9 \u00ab
+  injonction \u00bb \u00e0 l\u2019Etat congolais sur demande de la famille du disparu
+  dont une des filles est belge, de \u00ab restituer le corps de M. Tungulu \u00ab
+  pour les obs\u00e8ques, d\u00e8s que les m\u00e9decin l\u00e9giste aurait pratiqu\u00e9
+  l\u2019autopsie \u00bb.\\nEyenga Sana/Le Potentiel\\nbandeko nyonso ya congo tolinga
+  na, totika bifingana ya pamba pamba mboka ezo kende na ba paya en complicit\u00e9
+  ya mundele, tozo sala nini?\\nmerci Ndjoli na l argent. po nga na vandaka na Londre
+  pe na moni march te kokamua. R.I.P Jimmy Bubenga. vieux akufu deux semaine passe
+  sans reaction ya Comminaute Congolais Uk. soki ezalaki pona music, premiere jour
+  yako mona affiche, premiere jour ya March. mais ba police ya mindele ba sali ki
+  raciste moko grave, to moni March te, likambo ya boye sans March. to boule.\\nAh,
+  America. tika nayo BIBLE eya nde kokanga biso peupel noir misu. faux masolo. to
+  boule\\ntala! nazali na kanda makasi pona ba mindele oyo bazali koboma ba peuple
+  noire, afrique pona ebonga totika nanu kosambelaka ba nzambe na bango STOP na makambu
+  yaba eglise tozonga na bukoko nabisso, bamindele bako comprendre ke tozali lisusu
+  bazoba te. JESUS ayaka namokili pona bisso nionso te ba chinoi bazali na buda ba
+  ndibu mohammed,ba indiens Indu ebongo bisso ba noire nani? anne 1475 soki bayaka
+  na afrique te mais ti lelo tobetaka masolo ya jesus te. donc ba koko nabiso bayebaka
+  nzambe. bango bayela bisso kk bible wana pona kokosa bisso bayndu, totelema bandeko
+  afrique ezali kokende, totika bango naba religion na bango tozonga na bukoko nabisso,bakoko
+  nakala avant mundele aya bayebaka nzambe ezali bango te bayekolisi biso ke nzambe
+  azalaka na mokili. tozala mayele\\nAPPUYEZ SUR ANCIENS COMMENTAIRES POUR LIRE TOUS
+  LES COMMENTAIRES\"", "\"HERMAN: * \u201cMwasi na ngai ya liboso akufaki na kans\u025br
+  nsima ya mbula 34 ya libala na biso. Ntango nabalaki Linda, azalaki komona ete nazalaki
+  ntango nyonso kokokanisa ye na mwasi na ngai ya liboso. Likambo ya mabe koleka,
+  baninga na ngai ya kala bazalaki mbala mingi kolobela bizaleli malamu ya mwasi na
+  ngai ya liboso, mpe yango ezalaki kotungisa Linda.\u201d\\nLINDA: \u201cNsima ya
+  kobalana n\u00e1 Herman, nazalaki komona ete ye mpe bato mosusu bakozwa ngai na
+  val\u025br\u025b te lokola mwasi na ye ya liboso. Bazalaki kolinga mwasi yango mingi,
+  azalaki koloba na boboto mpe azalaki na bizaleli malamu. Na bantango mosusu nazalaki
+  komituna soki Herman akolinga ngai mpenza lokola mwasi yango.\u201d\\nLibala ya
+  Linda n\u00e1 mobali na ye ya liboso ekufaki. Ye n\u00e1 Herman basepelaka ndenge
+  bakutan\u00e1. Ata bongo, ndenge bamonisi yango, kobala lisusu ekoki komema mikakatano
+  oyo ezalaki te na libala ya liboso. *\\nSoki obal\u00e1 lisusu, ndenge nini omonaka
+  libala yango? Mwasi moko na nkombo Tamara, oyo abalaki lisusu mbula misato nsima
+  ya koboma libala, alobi boye: \u201cNtango moto abali mpo na mbala ya liboso, amonaka
+  ete libala yango ekoumela libela. Kasi, ezalaka lisusu bongo te mpo na libala ya
+  mibale, mpo abosanaka te ete oyo ya liboso ekufaki.\u201d\\nAta bongo, bato mingi
+  bak\u00f3m\u00e1 na esengo mpenza nsima ya kobala lisusu. Basal\u00e1 ete mabala
+  yango *\\nelonga; oyo ya yo mpe ekoki kolonga! Ndenge nini? T\u00f3talela mikakatano
+  misato oyo bato mingi bakutanaka na yango mpe ndenge oyo Biblia ekoki kosalisa yo
+  olonga yango.MOKAKATANO 1: OZALI KOSALA NYONSO MPO LIBALA NA YO YA KALA EBEBISA
+  TE OYO YA SIKA.\\nEllen, oyo afandaka na Afrika ya Sudi alobi boye: \u201cEzali
+  mpasi nabosana basuvenire nyonso ya libala na ngai ya liboso, mingimingi soki tozali
+  kosala mibembo na bisika oyo ngai n\u00e1 mobali na ngai ya kala tozalaki kokende
+  konje. Na bantango mosusu, nak\u00f3maka kokokanisa mobali na ngai ya sika n\u00e1
+  oyo ya kala.\u201d Na ngambo mosusu, soki molongani na yo abalak\u00e1 liboso, ekoki
+  kopesa yo nkanda soki azali kolobela libala yango mbala na mbala.\\nLIKANISI: Ndim\u00e1
+  ete yo to molongani na yo bokoki te kobosana basuvenire ya libala ya liboso, mingimingi
+  soki libala yango eumelaki bambula mingi. Kutu, basusu balobi ete kozanga koyeba,
+  babengaki balongani na bango ya sika na nkombo ya balongani na bango ya kala! Okoki
+  kosala nini na likambo ya ndenge wana? Biblia epesi toli oyo: \u201cB\u00f3mityaka
+  na esika ya bamosusu.\u201d\u20141 Petro 3:8.\\nKotika te zuwa etinda yo opekisa
+  molongani na yo alobela likambo nyonso oyo etali libala na ye ya liboso. Soki molongani
+  na yo ayoki mposa ya kolobela bomoi oyo alekis\u00e1 n\u00e1 molongani na ye ya
+  liboso, yok\u00e1 ye na likebi mpenza. Lisusu, kowela koloba te ete azali kokokanisa
+  yo na molongani yango. Yan, oyo abalaki lisusu eleki sikoyo mbula 10 alobi boye:
+  \u201cMwasi na ngai Mimi amonaka te ete kob\u025bta lisolo ya mwasi na ngai ya kala
+  ezali ekila. Kutu, amonaka yango nde libaku ya koyeba makambo oyo esalaki ete nak\u00f3ma
+  ndenge nazali lelo.\u201d Okoki kutu komona ete masolo ya ndenge wana ekosalisa
+  yo ok\u00f3ma mpenza moninga ya molongani na yo ya sika.\\nTy\u00e1 miso na bizaleli
+  malamu oyo molongani na yo ya sika azali na yango. Toboyi te, akoki kozanga bizaleli
+  to makoki mosusu oyo molongani na yo ya liboso azalaki na yango. Kasi, ekoki kozala
+  ete aleki oyo ya liboso na makambo mosusu. Na yango, sal\u00e1 ete boyokani na yo
+  n\u00e1 molongani na yo ya sika ek\u00f3ma makasi, \u2018kokokanisa ye na moto mosusu
+  te,\u2019 kasi ty\u00e1 nde miso na makambo oyo olingaka mpe osepelaka na yango
+  epai ya na ye. (Bagalatia 6:4) Mobali moko na nkombo Edmond oyo abal\u00e1 mbala
+  mibale, alobi boye: \u201cNdenge kaka boninga ya bato mibale ezalaka ndenge moko
+  te, mabala mibale mpe ezalaka ndenge moko te.\u201d\\nNdenge nini okoki kozala na
+  bokatikati na oyo etali basuvenire ya malamu ya libala na yo ya kala mpe bomoi oyo
+  obandi n\u00e1 molongani na yo ya sika? Jared alobi boye: \u201cNayebisaki mwasi
+  na ngai ete libala na ngai ya liboso ezali lokola buku moko kitoko oyo ngai n\u00e1
+  mwasi yango tokomaki. Na bantango mosusu, nakoki kofungola mpe kot\u00e1nga buku
+  yango mpo na kokanisa makambo ya malamu oyo tosal\u00e1. Kasi, nazalaka na kati
+  ya buku yango te. Kutu, ngai n\u00e1 ye tozali kokoma buku na biso moko, mpe yango
+  nde esika nazali sikoyo.\u201d\\nMEK\u00c1 KOSALA BOYE: Tun\u00e1 molongani na yo
+  soki esalaka ye mabe te ntango ob\u025btaka masolo ya molongani na yo ya kala. Luk\u00e1
+  koyeba ntango oyo ekozala malamu te kolobela libala na yo ya liboso.\\nMOKAKATANO
+  2: OZALI KOSALA NYONSO MPO OSOLOLAKA MALAMU NA BANINGA YA KALA OYO BAYEBI MOLONGANI
+  NA YO YA SIKA MALAMU TE.\\nJavier oyo abalaki lisusu mbula 6 nsima ya koboma libala,
+  alobi boye: \u201cMwa bambula nsima ya libala na biso, mwasi na ngai ya sika azalaki
+  komona ete baninga na ngai mosusu bazalaki koluka koyeba makambo nyonso ya bomoi
+  na ye.\u201d Mobali moko na nkombo L\u00e9on akutanaki na likambo oyo ekeseni na
+  oyo ya Javier. Alobi boye: \u201cNa miso na ngai, bato mosusu bazalaki koloba na
+  mwasi na ngai ete balingaka mobali na ye ya liboso mingi mpe bazali na mposa ya
+  komona ye!\u201d\\nLIKANISI: Mek\u00e1 komitya na esika ya baninga na yo. Yan oyo
+  tolobelaki liboso, alobi boye: \u201cNakanisi ete na bantango mosusu, baninga ya
+  kala bamonaka ete bakokoka te kolekisa ntango n\u00e1 moto oyo azali kaka molongani
+  ya sika ya moninga na bango.\u201d Na yango, \u2018kozala makambo makasimakasi te,
+  monisel\u00e1 bato nyonso boboto mpenza.\u2019 (Tito 3:2) Tikel\u00e1 baninga mpe
+  bandeko na yo ntango ya kobongola makanisi na bango. Ndenge kaka libala na yo ebongwani,
+  baninga na yo bakoki mpe kobongwana. Javier, oyo tolobelaki alobi ete nsima ya mikolo,
+  ye n\u00e1 mwasi na ye bazongelaki baninga na bango ya kala. Abakisi boye: \u201cKasi,
+  tosalaka mpe makasi t\u00f3k\u00f3ma na baninga ya sika, yango mpe esalisaka biso.\u201d\\nTalel\u00e1
+  mpe ndenge oyo molongani na yo ayokaka ntango bolekisaka ntango n\u00e1 baninga
+  ya kala. Na ndakisa, soki likambo ya libala na yo ya liboso ek\u0254ti na masolo
+  na bino, salel\u00e1 mayele mpe bososoli mpo molongani na yo amiyoka te ete botye
+  ye pembeni. Biblia elobi ete \u201csoki moto azali koloba kozanga kokanisa, maloba
+  yango ekoki kozokisa lokola mopanga. Kasi moto ya mayele atyaka likebi na makambo
+  oyo alobaka. Maloba na ye ekoki kobikisa bampota yango.\u201d\u2014Masese 12:18,
+  Biblia Holy Bible\u2014Easy-to-Read Version.\\nMEK\u00c1 KOSALA BOYE: Kanis\u00e1
+  liboso mwa baf\u025bti oyo ekoki kobimisela yo to molongani na yo mikakatano. B\u00f3solola
+  liboso ndenge ya malamu oyo bokoyanola na mituna ya baninga na bino mpe bakomant\u025br\u025b
+  oyo bakosala mpo na libala ya liboso.\\nMOKAKATANO 3: OZALI KOSALA NYONSO OTYELAKA
+  MOLONGANI NA YO YA SIKA MOTEMA MPO OYO YA LIBOSO AZALAKI SEMBO TE.\\nAndr\u00e9,
+  oyo mwasi na ye ya liboso asundolaki ye, alobi boye: \u201cNazalaki kobanga kokutana
+  lisusu na likambo ya ndenge wana.\u201d Na nsima, abalaki Riley, mwasi oyo azali
+  na ye sikoyo. Alobi lisusu boye: \u201cMbala mingi, nazalaki komituna soki nakozala
+  mobali malamu lokola mobali ya Riley ya liboso. Kutu, nazalaki kobanga ete Riley
+  amona ngai mabe mpe azwa ekateli ya kotika ngai mpe abala moto mosusu.\u201d\\nLIKANISI:
+  Yebis\u00e1 molongani na yo likambo oyo ezali kotungisa yo. Biblia elobi ete: \u201cMyango
+  elongaka te esika lisolo ya nkuku ezali te.\u201d (Masese 15:22) Masolo ya nkuku
+  esalisaki Andr\u00e9 n\u00e1 Riley b\u00e1tyelanaka motema. Andr\u00e9 alobi boye:
+  \u201cNayebisaki Riley ete nakoluka soki moke te koboma libala mpo na kosilisa mikakatano,
+  Riley ayebisaki ngai mpe bongo. Mokemoke, nak\u00f3maki mpenza kotyela ye motema.\u201d\\nSoki
+  basalel\u00e1 molongani na yo likambo ya sembo te na libala na ye ya liboso, sal\u00e1
+  nyonso oyo okoki mpo atyelaka yo motema. Na ndakisa, Michel n\u00e1 Sabine, oyo
+  mabala na bango ya liboso ekufaki, bayokanaki ete b\u00e1yebisanaka makambo oyo
+  basololi na balongani na bango ya kala. Sabine alobi ete \u201cyango esal\u00e1
+  ete moto na moto azala na likambo ya kobanga te epai ya moninga.\u201d\u2014Baefese
+  4:25.\\nMEK\u00c1 KOSALA BOYE: Kolekisa ndelo te na masolo ya nkuku oyo okoki kosolola
+  na mwasi to mobali oyo azali molongani na yo te, ezala na telefone to na Internet.\\nBato
+  mingi oyo babal\u00e1 mpo na mbala ya mibale balong\u00e1 na mabala na bango, yo
+  mpe okoki kolonga. Kutu, ekoki kozala ete sikoyo omiyebi malamu koleka mbala ya
+  liboso oyo obalaki. Andr\u00e9 oyo tolobelaki liboso alobi boye: \u201cNazw\u00e1
+  lib\u0254ndisi moko ya koloba te na libala na ngai n\u00e1 Riley. Nsima ya kolekisa
+  mbula 13 na libala na biso, boninga na biso ek\u00f3m\u00e1 makasi mpenza mpe tolingaka
+  kobebisa yango te.\u201d\\n^ par. 5 Ya solo, moto oyo libala na ye esuki mpo molongani
+  na ye akufi, ayokaka ndenge moko te na moto oyo abomi libala. Lisolo oyo ebongisami
+  mpo na kosalisa baoyo bakutan\u00e1 na makambo ya ndenge wana, b\u00e1longa na libala
+  na bango ya sika.\\nOMITUNA BOYE . . .\\n-\\nWapi bizaleli oyo nasepelaka na yango
+  mingi epai ya molongani na ngai?\\n-\\nSoki lisolo ya libala na ngai ya liboso ek\u0254ti
+  na masolo na biso, ndenge nini nakoki kosala mpo epesa molongani na ngai mpasi te
+  to kokitisa lokumu na ye?\"", "\"Awa okokuta koponama monene ya bisaleli ya internet
+  oyo ekosalisa yo osala calcul ya ba param\u00e8tres oyo esengeli ya ba structures
+  ya kotonga mpe oyeba volume ya mosala ya botongi.\\nBa calculateurs ya botongi ezali
+  basalisi oyo esengeli mpenza mpo na batongi oyo bayebi mosala malamu mpe bato oyo
+  basalaka misala ya mab\u0254k\u0254 na bandako. Bazali kopesa yo nzela ya kosala
+  ba calculs noki mpe na bosikisiki, koyeba motango ya biloko ya kotonga oyo esengeli
+  mpe kosala calcul ya budget ya botongi.\\nBa calculateurs na biso nionso ezali ofele
+  mobimba mpe ezali pete mpo na kosalela. Okoki kosalela yango na ordinat\u025br\u025b
+  to na smartphone na yo ntango nyonso, esika nyonso. Tozali ntango nyonso kosala
+  mpo na kobongisa mosala mpe kosala ete ba calculs ezala na bosikisiki mingi.\\nTozali
+  ntango nyonso kosala mikolo oyo ba calculateurs en ligne mpe kobakisa makambo ya
+  sika ya ntina.\\nKolekisa ntango mpamba te mpe banda kosalela ba calculateurs na
+  biso ya botongi sikoyo. Tozali na elikya ete bakok\u00f3ma basalisi oyo bazali na
+  ntina mingi na misala na bino ya botongi.\\nBa calculateurs ya toit\\nba calculateurs
+  ya escalier ya mabaya\\nba calculateurs ya escalier ya m\u00e9tal\\nBa calculateurs
+  pona ba fondations na ba produits ya b\u00e9ton\\nBa calculateurs ya biloko ya kotonga\\nBa
+  calculateurs ya lopango, ya mur mpe ya mabele\\nBa calculateurs ya misala ya mabele\\nBa
+  calculateurs ya volume na capacit\u00e9\\nBa calculateurs mosusu\"", "\"Bana e sengili
+  ba batelama malamu na baboti, kasi awa na engumba Kisangani bana basusu ba komi
+  ko tambola mpe ko lokota biteni ya mabende mpe milangi na ekunde ko kende ko teka
+  mpo na ko Luka mwa kwanga.\\nMbula matari na nzela ya mobeko eye e tali bana, e
+  pekisi bana ko sala mosala ya mombongo, kasi likambo ena e zali ko tosama te na
+  baboti basusu.\\nKo bota elengi kasi ya motuya ko kolisa bana. Pasi mpe mawa ko
+  mona baboti basusu baye ba zali ko bota, kasi ko kokisa lotomo na bango ya baboti
+  ba zali ko sala te, mpe bana ba komi ko telengana mpo na nzala.\\nMituna mpe biyano\\nBana
+  oyo lobi na bango eko zala boni ? Na banzi ete mbula matari e sengeli e tala likambo
+  oyo, pamba te mboka ya lobi eko kambama na bana ya lelo, nzoka nde soki ba teyami
+  te, eko zala pasi mpo na mboka.\"", "\"biloko ya malamu mpo na baoyo bazali na mombongo
+  ya ot\u025bl\u025b Chambre ya mokolo na mokolo eza na question esika nini okoki
+  kosomba savon ya h\u00f4tel. Tellement que okoki ko contr\u00f4ler qualit\u00e9,
+  odeur na ingr\u00e9dients ya savon? Ya liboso, t\u00f3talela makambo ya moboko ya
+  sabuni ya ot\u025bl\u025b. Savon ya h\u00f4tel ezali amenities produit oyo ep\u025btolaka
+  nzoto. Ezwamaka na bashambre ya ot\u025bl\u025b mpe na bisika ya kolala, to milangi
+  mikemike ya sabuni ya mai oyo mbala mingi ezalaka na shampoing mpe conditionneur,
+  mokomoko na yango ezali na nsolo mpe bizaleli ekeseni. Kasi, okosala nini soki olingi
+  kokamwisa bapaya na yo? Savon ekangamaka na po\u00eale te. Ezali mpasi te mpo na
+  kosukola\"", "\"33\\nYawe atindi Moyize\\n1 Yawe alobaki na Moyize :\\n\u2014 Kende,
+  longwa na esika oyo elongo na bato oyo obimisaki na Ejipito ; kende na mokili oyo
+  nalakaki na ndayi epai ya Abrayami, Izaki mpe Jakobi ete nakopesa yango epai na
+  bana na yo.\\n2 Nakotinda anjelu liboso na yo, nakobengana bato ya Kanana ya Amori,
+  ya Iti, ya Perizi, ya Evi mpe ya Yebusi.\\n3 Bokende na mokili oyo ezali kobimisa
+  miliki mpe mafuta ya nzoyi. Mpo na Ngai, nakotambola elongo na bino te, pamba te
+  bozali batomboki, noki te nakosilisa koboma bino na nzela.\\n4 Tango bato bayokaki
+  maloba oyo ya somo, balataki pili, mpe ata moto moko te alataki lisusu biloko ya
+  monzele.\\n5 Bongo Yawe alobaki na Moyize :\\n\u2014 Loba na bana ya Isalaele :
+  \u00ab Bozali batomboki ; soki natamboli elongo na bino ata mpo na tango moke, nakosilisa
+  koboma bino. Bolongola biloko na bino ya monzele, mpe nakoyebisa bino makambo oyo
+  nakosala bino. \u00bb\\n6 Bana ya Isalaele balongolaki biloko na bango ya monzele
+  na ngomba Orebi.\\nNdako ya kapo ya Bokutani\\n7 Moyize azwaki ndako ya kapo mpe
+  atelemisaki yango mwa mosika, na libanda ya molako, mpo na bolamu na bango ; mpe
+  abengaki yango Ndako ya kapo ya Bokutani. Moto nyonso oyo alingaki kokutana na Yawe,
+  asengelaki kokende na Ndako ya kapo ya Bokutani, na libanda ya molako.\\n8 Mbala
+  nyonso oyo Moyize azalaki kokende na Ndako ya kapo ya Bokutani, bato nyonso bazalaki
+  kotelema : moko na moko azalaki kotelema na ekuke ya ndako na ye ya kapo mpo na
+  kotala Moyize kino akokota na Ndako ya kapo ya Bokutani.\\n9 Soki Moyize akoti na
+  kati, likonzi ya lipata ezalaki kokita mpe kotelema na ekotelo ya Ndako ya kapo
+  ya Bokutani ; bongo Yawe azalaki kosolola na Moyize.\\n10 Bato nyonso bazalaki komona
+  likonzi ya lipata kotelema na ekotelo ya Ndako ya kapo ya Bokutani. Boye bazalaki
+  kotelema mpe kofukamela Yawe, moko na moko na ekuke ya ndako na ye ya kapo.\\n11
+  Yawe azalaki kosolola na Moyize ndenge moto asololaka na moninga na ye. Wana Moyize
+  azalaki kozonga na molako ; Jozue, mwana mobali ya Nuni, elenge oyo azalaki kosunga
+  ye, azalaki kotikala kati na ndako ya kapo.\\nMoyize mpe nkembo ya Yawe\\n12 Moyize
+  alobaki na Yawe :\\n\u2014 Tala, ozali koloba na ngai ete nakamba bato oyo, kasi
+  ozali koyebisa ngai te nani okotinda elongo na ngai. Nzokande Yo nde olobaki na
+  ngai : \u00ab Nayebi yo na kombo na yo, \u00bb mpe lisusu : \u00ab Ozwi ngolu na
+  miso na Ngai. \u00bb\\n13 Sik\u2019oyo, soki penza nazwi ngolu na miso na Yo, teya
+  ngai banzela na Yo mpo ete nayeba Yo mpe nazwa ngolu na miso na Yo. Mpe kanisa lisusu
+  ete libota wana bazali bato na Yo.\\n14 Yawe azongisaki :\\n\u2014 Ngai moko nakotambola
+  elongo na yo mpe nakopesa yo bopemi.\\n15 Moyize azongisaki :\\n\u2014 Soki Yo moko
+  okotambola elongo na biso te, kolongola biso te na esika oyo.\\n16 Soki otamboli
+  elongo na biso te, ndenge nini bato bakoyeba ete ngai mpe bato na Yo tozwi ngolu
+  na miso na Yo ? Ezali nde tango okotambola elongo na biso nde ngai mpe bato na yo
+  tokokesana na bikolo nyonso oyo ezali kati na mokili.\\n17 Yawe alobaki na Moyize
+  :\\n\u2014 Nakosala makambo nyonso oyo osengi Ngai, pamba te ozwi ngolu na miso
+  na Ngai mpe nayebi yo na kombo na yo.\\n18 Moyize azongisaki :\\n\u2014 Monisa ngai
+  nkembo na Yo.\\n19 Yawe azongisaki :\\n\u2014 Nakolekisa bolamu na Ngai nyonso liboso
+  na yo mpe nakotatola nani oyo nazali liboso na yo ; natalisaka ngolu epai ya moto
+  oyo Ngai nasepeli kosalela ngolu, mpe nayokelaka mawa moto oyo Ngai nasepeli koyokela
+  mawa.\\n20 Kasi okokoka komona elongi na Ngai te, pamba te moto moko te akoki komona
+  Ngai mpe azala na bomoi.\\n21 Yawe alobaki lisusu :\\n\u2014 Ezali na esika moko
+  awa, pembeni na Ngai, epai wapi okoki kotelema na likolo ya libanga.\\n22 Tango
+  nkembo na Ngai ekoleka, nakotia yo kati na lidusu ya libanga mpe nakozipa yo na
+  loboko na Ngai kino nakoleka.\\n23 Bongo tango nakolongola loboko na Ngai, okomona
+  Ngai kaka na mokongo ; kasi okokoka komona elongi na Ngai te.\""]'
+src_ngrams: '{"1": [[["oyo"], 207430], [["ba"], 200985], [["ye"], 130316], [["yo"],
+  96669], [["de"], 91129]], "2": [[["oyo ezali"], 14513], [["de la"], 10816], [["il
+  faut"], 8030], [["makambo oyo"], 7633], [["de l"], 6725]], "3": [[["ndenge na ndenge"],
+  2002], [["kie kie kie"], 1761], [["batatoli ya yehova"], 1737], [["est ce que"],
+  1718], [["moko na moko"], 1606]], "4": [[["lire tous les commentaires"], 1184],
+  [["pour lire tous les"], 1182], [["sur anciens commentaires pour"], 1181], [["commentaires
+  pour lire tous"], 1181], [["appuyez sur anciens commentaires"], 1181]], "5": [[["pour
+  lire tous les commentaires"], 1182], [["sur anciens commentaires pour lire"], 1181],
+  [["commentaires pour lire tous les"], 1181], [["appuyez sur anciens commentaires
+  pour"], 1181], [["anciens commentaires pour lire tous"], 1181]]}'

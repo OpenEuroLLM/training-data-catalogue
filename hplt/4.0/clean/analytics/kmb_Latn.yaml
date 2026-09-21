@@ -1,0 +1,999 @@
+corpus: hplt-v4-kmb
+srclang: kmb
+timestamp: 1789049981.278645
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-34", 309], ["CC-MAIN-2020-10", 279], ["CC-MAIN-2020-29",
+  243], ["CC-MAIN-2020-24", 133], ["CC-MAIN-2020-40", 37], ["wide00016", 26], ["CC-MAIN-2018-39",
+  21], ["CC-MAIN-2018-43", 18], ["wide00011", 17], ["wide00012", 14], ["CC-MAIN-2020-45",
+  14], ["wide00015", 7], ["CC-MAIN-2019-04", 7], ["CC-MAIN-2020-05", 4], ["CC-MAIN-2018-34",
+  4], ["CC-MAIN-2018-05", 4], ["CC-MAIN-2021-21", 3], ["CC-MAIN-2018-22", 3], ["wide00002",
+  2], ["CC-MAIN-2020-50", 2], ["CC-MAIN-2014-15", 2], ["wide00017", 1], ["wide00010",
+  1], ["wide00005", 1], ["archivebot", 1], ["CC-MAIN-2024-42", 1], ["CC-MAIN-2024-26",
+  1], ["CC-MAIN-2023-50", 1], ["CC-MAIN-2023-06", 1], ["CC-MAIN-2022-49", 1], ["CC-MAIN-2021-49",
+  1], ["CC-MAIN-2021-43", 1], ["CC-MAIN-2021-17", 1], ["CC-MAIN-2021-10", 1], ["CC-MAIN-2021-04",
+  1], ["CC-MAIN-2020-16", 1], ["CC-MAIN-2017-26", 1]]'
+docs_langs: '[[0.2, 1], [0.4, 2], [0.5, 5], [0.6, 5], [0.7, 21], [0.8, 55], [0.9,
+  78], [1.0, 998]]'
+docs_segments: '[[1, 9], [2, 17], [3, 21], [4, 33], [5, 81], [6, 142], [7, 78], [8,
+  50], [9, 47], [10, 27], [11, 16], [12, 35], [13, 31], [14, 28], [15, 15], [16, 11],
+  [17, 26], [18, 32], [19, 29], [20, 48], [21, 35], [22, 27], [23, 54], [24, 38],
+  [25, 12], [26, 17], [27, 7], [28, 3], [29, 5], [30, 6], [31, 4], [32, 2], [33, 3],
+  [34, 2], [35, 6], [36, 6], [37, 5], [38, 9], [39, 9], [40, 16], [41, 17], [42, 11],
+  [43, 13], [44, 7], [45, 8], [46, 8], [47, 12], [48, 4], [49, 2], [50, 2], [51, 5],
+  [52, 3], [53, 4], [54, 6], [55, 2], [56, 3], [57, 2], [59, 2], [61, 1], [63, 1],
+  [64, 1], [66, 1], [71, 1], [72, 1], [81, 1], [82, 1], [89, 1], [99, 1], [107, 1],
+  [120, 1]]'
+docs_segments_mean: 18
+docs_segments_median: 13
+docs_top100_domains: '[["jw.org", 1140], ["watchtower.org", 3], ["sapo.ao", 3], ["mweloweto.com",
+  3], ["contafrica.org", 2], ["unicode.org", 1], ["seghea.com", 1], ["scribd.com",
+  1], ["ohchr.org", 1], ["namendb.com", 1], ["livrariaatlantico.com.br", 1], ["letras.com",
+  1], ["gayhomeland.org", 1], ["buala.org", 1], ["bibleforchildren.org", 1], ["bible.com",
+  1], ["autores.club", 1], ["atlanticbookshop.pt", 1], ["3deko.info", 1]]'
+docs_top100_tld: '[["org", 1150], ["com", 8], ["ao", 3], ["pt", 1], ["info", 1], ["com.br",
+  1], ["club", 1]]'
+docs_total: 1165
+docs_wds: '[[0.5, 7], [0.51, 5], [0.52, 8], [0.53, 4], [0.54, 3], [0.55, 8], [0.56,
+  6], [0.57, 14], [0.58, 15], [0.59, 6], [0.6, 11], [0.61, 13], [0.62, 14], [0.63,
+  13], [0.64, 10], [0.65, 10], [0.66, 11], [0.67, 16], [0.68, 11], [0.69, 11], [0.7,
+  7], [0.71, 18], [0.72, 28], [0.73, 33], [0.74, 27], [0.75, 40], [0.76, 32], [0.77,
+  37], [0.78, 57], [0.79, 54], [0.8, 78], [0.81, 60], [0.82, 32], [0.83, 34], [0.84,
+  28], [0.85, 17], [0.86, 31], [0.87, 23], [0.88, 33], [0.89, 44], [0.9, 43], [0.91,
+  27], [0.92, 37], [0.93, 35], [0.94, 43], [0.95, 30], [0.96, 17], [0.97, 18], [0.98,
+  4], [1.0, 2]]'
+duplication_ratio: 0.0793
+sentence_pairs: 20717
+src_bytes: 4954872
+src_chars: 4843676
+src_pii: 1
+src_tokens: 1123446
+unique_sents: 19075
+src_sent_tokens: '[[1, 211], [2, 152], [3, 549], [4, 285], [5, 628], [6, 455], [7,
+  637], [8, 481], [9, 496], [10, 550], [11, 399], [12, 445], [13, 464], [14, 431],
+  [15, 362], [16, 398], [17, 432], [18, 351], [19, 281], [20, 276], [21, 232], [22,
+  236], [23, 259], [24, 245], [25, 204], [26, 198], [27, 185], [28, 196], [29, 146],
+  [30, 164], [31, 147], [32, 165], [33, 153], [34, 155], [35, 136], [36, 148], [37,
+  118], [38, 130], [39, 126], [40, 129], [41, 121], [42, 120], [43, 109], [44, 118],
+  [45, 117], [46, 123], [47, 89], [48, 95], [49, 123], [50, 83], [51, 83], [52, 82],
+  [53, 81], [54, 99], [55, 78], [56, 99], [57, 100], [58, 103], [59, 92], [60, 93],
+  [61, 77], [62, 107], [63, 81], [64, 76], [65, 106], [66, 68], [67, 64], [68, 81],
+  [69, 68], [70, 88], [71, 79], [72, 79], [73, 92], [74, 73], [75, 81], [76, 69],
+  [77, 62], [78, 80], [79, 67], [80, 88], [81, 82], [82, 61], [83, 74], [84, 73],
+  [85, 84], [86, 64], [87, 85], [88, 76], [89, 62], [90, 61], [91, 80], [92, 73],
+  [93, 65], [94, 63], [95, 47], [96, 54], [97, 62], [98, 64], [99, 56], [100, 73],
+  [101, 64], [102, 61], [103, 69], [104, 67], [105, 71], [106, 47], [107, 52], [108,
+  66], [109, 57], [110, 55], [111, 51], [112, 52], [113, 69], [114, 63], [115, 54],
+  [116, 43], [117, 65], [118, 44], [119, 62], [120, 47], [121, 54], [122, 43], [123,
+  43], [124, 46], [125, 45], [126, 48], [127, 33], [128, 41], [129, 44], [130, 35],
+  [131, 52], [132, 46], [133, 44], [134, 53], [135, 42], [136, 38], [137, 41], [138,
+  41], [139, 42], [140, 39], [141, 42], [142, 49], [143, 43], [144, 41], [145, 27],
+  [146, 41], [147, 44], [148, 26], [149, 31], [150, 46], [151, 37], [152, 31], [153,
+  33], [154, 28], [155, 26], [156, 25], [157, 35], [158, 29], [159, 32], [160, 37],
+  [161, 28], [162, 24], [163, 29], [164, 27], [165, 29], [166, 24], [167, 34], [168,
+  23], [169, 22], [170, 28], [171, 29], [172, 21], [173, 20], [174, 25], [175, 28],
+  [176, 17], [177, 19], [178, 21], [179, 16], [180, 18], [181, 16], [182, 30], [183,
+  25], [184, 28], [185, 20], [186, 23], [187, 19], [188, 16], [189, 19], [190, 15],
+  [191, 15], [192, 13], [193, 17], [194, 17], [195, 8], [196, 9], [197, 12], [198,
+  12], [199, 7], [200, 11], [201, 13], [202, 10], [203, 14], [204, 12], [205, 10],
+  [206, 16], [207, 10], [208, 8], [209, 8], [210, 8], [211, 15], [212, 14], [213,
+  7], [214, 13], [215, 10], [216, 3], [217, 11], [218, 9], [219, 4], [220, 7], [221,
+  14], [222, 9], [223, 8], [224, 4], [225, 12], [226, 7], [227, 9], [228, 3], [229,
+  6], [230, 8], [231, 6], [232, 13], [233, 9], [234, 3], [235, 2], [236, 3], [237,
+  2], [238, 3], [239, 5], [240, 5], [241, 5], [242, 2], [243, 3], [244, 3], [245,
+  9], [246, 1], [247, 1], [248, 2], [249, 4], [250, 8], [251, 1], [252, 6], [253,
+  1], [254, 1], [255, 4], [256, 3], [257, 1], [258, 1], [259, 3], [260, 1], [261,
+  1], [262, 3], [263, 3], [264, 3], [265, 1], [266, 1], [267, 1], [268, 2], [269,
+  3], [270, 2], [271, 3], [272, 1], [273, 2], [274, 2], [275, 3], [276, 1], [277,
+  1], [278, 2], [279, 3], [283, 3], [287, 1], [291, 1], [294, 2], [296, 1], [297,
+  1], [299, 1], [300, 1], [301, 1], [311, 1], [315, 2], [317, 3], [319, 1], [328,
+  1], [329, 1], [330, 1], [331, 1], [333, 1], [337, 1], [343, 1], [381, 1], [387,
+  1], [437, 1], [1391, 1], [1607, 1], [1749, 1]]'
+src_sent_tokens_mean: 54
+src_sent_tokens_median: 31
+src_unique_sents: '[[1, 56], [2, 94], [3, 266], [4, 256], [5, 480], [6, 415], [7,
+  404], [8, 393], [9, 477], [10, 378], [11, 382], [12, 424], [13, 411], [14, 389],
+  [15, 353], [16, 322], [17, 384], [18, 315], [19, 279], [20, 267], [21, 230], [22,
+  225], [23, 256], [24, 234], [25, 201], [26, 196], [27, 177], [28, 192], [29, 146],
+  [30, 163], [31, 139], [32, 160], [33, 150], [34, 154], [35, 132], [36, 147], [37,
+  116], [38, 127], [39, 123], [40, 126], [41, 120], [42, 119], [43, 108], [44, 115],
+  [45, 115], [46, 123], [47, 87], [48, 95], [49, 123], [50, 82], [51, 81], [52, 80],
+  [53, 80], [54, 99], [55, 78], [56, 99], [57, 99], [58, 103], [59, 92], [60, 90],
+  [61, 77], [62, 106], [63, 80], [64, 75], [65, 106], [66, 68], [67, 64], [68, 81],
+  [69, 67], [70, 88], [71, 79], [72, 79], [73, 92], [74, 73], [75, 81], [76, 69],
+  [77, 62], [78, 80], [79, 67], [80, 88], [81, 82], [82, 61], [83, 74], [84, 73],
+  [85, 84], [86, 64], [87, 85], [88, 76], [89, 62], [90, 61], [91, 80], [92, 73],
+  [93, 65], [94, 63], [95, 47], [96, 54], [97, 62], [98, 64], [99, 55], [100, 73],
+  [101, 64], [102, 61], [103, 69], [104, 67], [105, 71], [106, 47], [107, 52], [108,
+  66], [109, 57], [110, 55], [111, 51], [112, 52], [113, 69], [114, 63], [115, 54],
+  [116, 43], [117, 65], [118, 44], [119, 62], [120, 47], [121, 54], [122, 43], [123,
+  43], [124, 46], [125, 45], [126, 48], [127, 33], [128, 41], [129, 44], [130, 35],
+  [131, 52], [132, 46], [133, 44], [134, 53], [135, 42], [136, 38], [137, 41], [138,
+  41], [139, 42], [140, 39], [141, 42], [142, 49], [143, 43], [144, 41], [145, 27],
+  [146, 41], [147, 44], [148, 26], [149, 31], [150, 46], [151, 37], [152, 31], [153,
+  33], [154, 28], [155, 26], [156, 25], [157, 35], [158, 29], [159, 32], [160, 37],
+  [161, 28], [162, 24], [163, 29], [164, 27], [165, 29], [166, 24], [167, 34], [168,
+  23], [169, 22], [170, 28], [171, 29], [172, 21], [173, 20], [174, 25], [175, 28],
+  [176, 17], [177, 19], [178, 21], [179, 16], [180, 18], [181, 16], [182, 30], [183,
+  25], [184, 28], [185, 20], [186, 23], [187, 19], [188, 16], [189, 19], [190, 15],
+  [191, 15], [192, 13], [193, 17], [194, 17], [195, 8], [196, 9], [197, 12], [198,
+  12], [199, 7], [200, 11], [201, 13], [202, 10], [203, 14], [204, 12], [205, 10],
+  [206, 16], [207, 10], [208, 8], [209, 8], [210, 8], [211, 15], [212, 14], [213,
+  7], [214, 13], [215, 10], [216, 3], [217, 11], [218, 9], [219, 4], [220, 7], [221,
+  14], [222, 9], [223, 8], [224, 4], [225, 11], [226, 7], [227, 9], [228, 3], [229,
+  6], [230, 8], [231, 6], [232, 13], [233, 9], [234, 3], [235, 2], [236, 3], [237,
+  2], [238, 3], [239, 5], [240, 5], [241, 5], [242, 2], [243, 3], [244, 3], [245,
+  9], [246, 1], [247, 1], [248, 2], [249, 4], [250, 8], [251, 1], [252, 6], [253,
+  1], [254, 1], [255, 4], [256, 3], [257, 1], [258, 1], [259, 3], [260, 1], [261,
+  1], [262, 3], [263, 3], [264, 3], [265, 1], [266, 1], [267, 1], [268, 2], [269,
+  3], [270, 2], [271, 3], [272, 1], [273, 2], [274, 2], [275, 3], [276, 1], [277,
+  1], [278, 2], [279, 3], [283, 3], [287, 1], [291, 1], [294, 2], [296, 1], [297,
+  1], [299, 1], [300, 1], [301, 1], [311, 1], [315, 2], [317, 3], [319, 1], [328,
+  1], [329, 1], [330, 1], [331, 1], [333, 1], [337, 1], [343, 1], [381, 1], [387,
+  1], [437, 1], [1391, 1], [1607, 1], [1749, 1]]'
+src_langs: '[["es", 5555], ["en", 3515], ["sw", 1613], ["tl", 941], ["id", 862], ["eo",
+  841], ["su", 769], ["sl", 674], ["fi", 604], ["pl", 528], ["pt", 520], ["war", 457],
+  ["nl", 336], ["it", 328], ["hu", 305], ["de", 268], ["la", 216], ["kw", 202], ["hr",
+  164], ["cs", 131], ["et", 128], ["ms", 115], ["eu", 109], ["ilo", 102], ["jv", 92],
+  ["qu", 87], ["mt", 85], ["lt", 78], ["tr", 74], ["sk", 71], ["cy", 67], ["fr", 66],
+  ["ca", 63], ["gl", 56], ["sr", 51], ["kn", 40], ["ru", 39], ["sv", 38], ["ur", 37],
+  ["ast", 27], ["ro", 25], ["mg", 24], ["ga", 24], ["br", 24], ["uk", 22], ["gn",
+  22], ["ceb", 22], ["uz", 21], ["lmo", 21], ["pam", 18], ["is", 15], ["ht", 14],
+  ["rm", 13], ["lv", 13], ["gom", 13], ["io", 11], ["gd", 11], ["vi", 9], ["sq", 9],
+  ["diq", 9], ["bs", 9], ["bcl", 9], ["ku", 8], ["gv", 7], ["yo", 6], ["vec", 5],
+  ["pms", 5], ["az", 5], ["jbo", 4], ["bn", 4], ["zh", 3], ["te", 3], ["scn", 3],
+  ["nb", 3], ["nap", 3], ["ml", 3], ["co", 3], ["an", 3], ["vo", 2], ["oc", 2], ["nn",
+  2], ["lb", 2], ["hy", 2], ["da", 2], ["cbk", 2], ["als", 2], ["tk", 1], ["ta", 1],
+  ["so", 1], ["si", 1], ["pfl", 1], ["or", 1], ["my", 1], ["mr", 1], ["ko", 1], ["ja",
+  1], ["hsb", 1], ["hif", 1], ["hi", 1], ["gu", 1], ["fy", 1], ["fa", 1], ["el", 1],
+  ["dsb", 1], ["ckb", 1], ["bar", 1], ["as", 1]]'
+hardrules_tags: '{"not_too_long": 160, "not_too_short": 651, "length_ratio": 0, "no_urls":
+  94, "no_bad_encoding": 135, "pii": 1}'
+sample: '["\"IBHUIDISU IENE MU BHANGA DINGI O ATHU\\nKuene ibanzelu iavulu ia makutu
+  ia lungu ni Jimbangi ja Jihova ni ku ta manbhinga mu mukutu. Ijiia o kidi kia lungu
+  ni ilongesu ietu.\\nIBHUIDISU IENE MU BHANGA DINGI O ATHU\\nAthu avulu a mona o
+  fesa ia Phasu k\u00e1la fesa ia Jikidist\u00e1. Mukonda diahi o Jimbangi ja Jihova
+  kene mu bhanga fesa ia Phasu?\\nIBHUIDISU IENE MU BHANGA DINGI O ATHU\\nS\u00e9
+  ku bhinga kitadi mba dijimu, ijiia kiebhi o kikalakalu kia kuboka kia mu kula ku
+  mundu uoso.\\nIxi\u2014Jixi Joso\\n239\\n\u2014Jixi muene o Jimbangi ja Jihova 8.201.545\u2014Jimbangi
+  ja Jihova\\n9.499.933\u2014Athu a di longa o Bibidia\\n19.950.019\u2014Athu akexile
+  mu Lembalasa ia kufua kua Kristu\\n115.416\u2014Ilunga\"", "\"O VALOLO YA MAK\u2019\u00c2
+  NZAMBI\\n\u201cDi Langyenu-phe En\u2019wenu, ni Kilunga Kyoso\u201d: (10 ithan.)\\nIk
+  20:28\u2014O tufunga a langa o kilunga (Mulangidi 01/06/11 difwe 24 kaxi 5)\\nIk
+  20:31\u2014O tufunga a langa o kilunga \u201cmu mwanya ni mu usuku\u201d (Mulangidi
+  15/01/13 difwe 31 kaxi 15)\\nIk 20:35\u2014O tufunga a tokala kukala polondo phala
+  kukwatekesa akw\u00e1 (Testemunho Cabal Cap. 21 p\u00e1g. 172 par\u00e1g. 20)\\nTokwesa
+  o Milongi ya Nzambi: (8 ithan.)\\nIk 19:9\u2014Kyebhi poxolo Phawulu kya bhana phangu
+  ya mukalakadi wa swina, ni kwila ka bhonzele? (Testemunho Cabal Cap. 20 p\u00e1g.
+  161 par\u00e1g. 11)\\nIk 19:19\u2014Kyebhi akwa Efezo a bhana phangu yambote phala
+  ku i kayela? (Testemunho Cabal Cap. 20 p\u00e1g. 162-163 par\u00e1g. 15)\\nIhi i
+  wa dilongo ya lungu ni Jihova, mu kitangelu kya Bibidya kya semana yiyi?\\nIhi dingi
+  i wa dilongo mu kitangelu kya Bibidya kya semana yiyi?\\nKitangelu Kya Bibidya:
+  (Ithan. 4 mba 3)Ik 19:1-20\\nKUMBIDILA O MILONGI YIYI MU UKUNJI W\u00c9\\nKukunda
+  o Muthu mu Veji ya Kayadi: (Ithan. 3 mba 2) Mateka ni ndunge phala kubhana umbangi.
+  Mu kusuluka, mu bhane Kalat\u00e1 phala kukunda o JW.ORG.\\nKukunda o Muthu mu Veji
+  ya Katatu: (Ithan. 3 mba 2) Sola o kibatulu ki wa-nda tanga, ni kibhwidisu phala
+  ku mu kunda dingi.\\nKulonga o Bibidya: (Ithan. 6 mba 5) Vondadi ya Jihova Dis\u00e1
+  15\\nWENDELU WA UKIDIST\u00c1\\nLonga o Minzangala Phala Kubhanga Dingi mu Kikalakalu
+  Kya Jihova: (15 ithan.) Mbandu ni jingivwidi. Xika o vidyu. Mu kusuluka, bhanga
+  o ibhwidisu ya kayela: Kikalakalu kyahi kyala na-kyu o tufunga mu kilunga? (Ik 20:28)
+  Mukonda dyahi o tufunga a tokala kusuluka ni kulonga akw\u00e1? Kyebhi o tufunga
+  kya tena o kukayela o phangu ya Jez\u00fa, kyoso kya longa o jipoxolo j\u00ea? Ukexilu
+  webhi wa tokala kulondekesa o jiphange, kyoso kya a longa? (Ik 20:35; 1Ti 3:1) Ima
+  yahi i tena kulonga o tufunga ku jiphange? Kyebhi o tufunga kya tokala kumona o
+  jiphange a mwa longa?\\nMilongi ya Bibidya mu Kilunga: (30 ithan.) Longa o Twana
+  Tw\u00ea Dis\u00e1 2\\nKubhitulula ni Kuzwela o Milongi ya Semana Ya-nda Kayela
+  (Ithan. 3)\\nMwimbu wa 127 ni Musambu\"", "\"Kala mu ithangana ia mukua, tua mesena
+  kulondekesa henda kua Nzambi ni ku athu mu kithangana kia ki\u00f4nge kia dikota.
+  (Mat 22:37-39) O divulu dia 1 Kolindo 13:4-8, di zuela ia lungu ni henda ia kidi:
+  \u2018O henda i kolokota mu jihadi, i lenduka. . . . Ki iene kubhanga ufusa, ki
+  iene kusota ng\u00f3 o ki\u00ea. O henda ki iene mu kala ni njinda. . . . O henda
+  ki ia ka bhua.\u2019 Kioso ki u tala o vidiu, ia Itendelesu Phala o Ki\u00f4nge
+  Kia Dikota, xinganeka kiebhi ki u tena kulondekesa henda ku athu mu ki\u00f4nge.\\nKIEBHI
+  KI TU TENA KULONDEKESA O HENDA . . .\\nkioso ki tu bhaka ididi?\\nkioso o mukumbi
+  ki u mateka?\\nmu inzo ia kubhanga o kudia?\\nmu kukalakala mu vondadi i\u00ea?\"",
+  "\"Mu musambu ua tu longo Jez\u00fa, muene ua londekesa kuila, o ima ia lungu ni
+  vondadi ia Jihova, ni Utuminu, iene ia tokala kukala ku pholo.\\n6:9-13\\nDijina
+  dia Nzambi\\nUtuminu ua Nzambi\\nO vondadi ia Nzambi\\nO kudia kuetu kua kizuua
+  ni kizuua\\nKuloloka o ituxi\\nKudilanga ku ji tendas\u00e1\\nIma ia lungu ni Utuminu
+  i ngi tena kubhinga mu musambu:\\nO kukula kua ikalakalu ia kuboka\\nO nzumbi ikola
+  ia Nzambi i kuatekesa oso a mu a zukutisa\\nKubhinga o dibes\u00e1 dia Nzambi mu
+  ikalakalu ia kutunga o ididi ia ubhezelu ni ikalakalu ia kuboka\\nKubhinga o unjimu
+  ua Nzambi ni nguzu, phala kuendesa i\u00f3 ala ku pholo mu ilunga\\nIma iengi\"",
+  "\"O Bibidia ia kanene ki\u00e1 kuila kioso kieji fua o jipoxolo ja Kristu, kueji
+  moneka jimesene ja makutu bhu kaxi ka Jikidist\u00e1 ja dianga, ni kulungulula o
+  kidi kia Bibidia. (Ikalakalu 20:29, 30) Kiki kia bhiti muene k\u00e1la kia ki kanene.
+  Ene a fungu o milongi ia Kristu ni milongi ia akua Jiphag\u00e3o ni kua moneka u\u00e9
+  Jikidist\u00e1 ja makutu. (Timote 4:3, 4) Kiebhi ki tu tena kuijiia se mu kidi ihi
+  i longa Bibidia?\\nO kithangana kia Jihova kutukulula o kidi, kia bhixila. Mu\u00e9ne
+  ua kanene kuila \u2018mu izuua isukidila-ku o kuijiia kueji dibandekesa.\u2019 (Daniiele
+  12:4) Ku muvu ua 1870 o kibuka kiofele kia akua kutokuesa o kidi, a mono kuila o
+  milongi ia jingeleja ki iexile ia Bibidia. Ene a mesenene kuijiia kiambote o milongi
+  ia Bibidia, Jihova ua a besoala ni kuijiia kua kidi.\\nAthu a unjimu a tokuesa kiambote
+  o Bibidia. O Adilongi a Bibidia, a tu diangele, akexile ni ndunge ia kudilonga o
+  Bibidia, i tuene mu kaiela lelu. Ene akexile mu di longa o jipondo ja Bibidia. Se
+  a sangele-mu maka a bhonzo ku a tendela, a sota velusu ia muku\u00e1 phala ku a
+  kuatekesa kuijiia kiambote o maka a mesena. Se a monene kuila o velusu \u00edii
+  ijimbulula o velusu ia muku\u00e1, ene a i soneka. Mukonda dia kuehela o Bibidia
+  kubhana o dijimbuluilu, ene a sange o kidi kia lungu ni dijina dia Nzambi, o Utuminu,
+  o vondadi ia Nzambi ia lungu ni ixi, o ukexilu ua madifundu, ni difukunukinu. O
+  kutokuesa kuku, kua a bhulula ku milongi ia makutu, ni ku ima ia iibha.\\nTund\u00e9
+  ku muvu ua 1879, o Adilongi a Bibidia a mono kuila o kithangana kia bhixila kia
+  kulondekesa o kidi ku mundu uoso. Ku muvu uenh\u00f3, ene a mateka kubhanga o kadivulu
+  ku tuene mu di longa lelu, O Mulangidi Ubhana Ngolokela ia Utuminu ua Jihova. Lelu,
+  O Mulangidi a mu di longa-u ku 240 a ixi ndenge, mu 750 ja madimi ndenge. O kidi
+  kia Bibidia nuka kia dibandekesele k\u00e1la mu izuua ietu!\\nIhi ia bhiti ni kidi
+  kia Bibidia kioso kiafu Kristu?\\nIhi iene mu tu kuatekesa kuijiia o kidi kia Mak\u2019\u00e2
+  Nzambi?\"", "\"Kioso poxolo Nzu\u00e1 kia kexile mu kaleia mu kikolo kia P\u00e1tamo,
+  Jez\u00fa ua mu londekesa 16 ia isuma mba jifikula ja lungu ni ima ia-nda bhita
+  ku h\u00e1dia. O isuma \u00edii ia londekesa kiebhi o dijina dia Jihova a-nda di
+  zelesa, kiebhi kia-nda kuiza o Utuminu u\u00ea ni kiebhi o vondadi i\u00ea kia-nda
+  i bhanga bhoxi kala kiala ku i bhanga ku diulu.\\nMu kisuma kimoxi, Nzu\u00e1 ua
+  mono Jihova ua xikama bhu kiandu ki\u00ea kia ungana ku diulu, a ki kondoloka kuala
+  24 a ikulakaji a te izuatu ia zele, o ku mitu\u00e9 i\u00e2 kuala itundu ia ulu.
+  Bhu kiandu anga bhu tunda imuikinu ni jinzaji. O 24 ia ikulakaji a fukamena Jihova
+  ni ku mu bheza. Mu kisuma kia muku\u00e1, Nzu\u00e1 ua mono mundu uavulu a mu bheza
+  Jihova ene a tundu mu ifuxi ioso, miji ni madimi moso. O Kambudi Jez\u00fa, u kala
+  mu a inga ni kua ambata kat\u00e9 bhuala o menha a muenhu. Mu kubhita thembu, mu
+  kisuma kia muku\u00e1, Nzu\u00e1 ua mono Jez\u00fa ua mateka o kutumina kala Sobha
+  ku diulu kumoxi ni 24 a ikulakaji. Mu kisuma kia muku\u00e1, Nzu\u00e1 ua mono Jez\u00fa
+  ua mu bh\u00e2nga ni kimudikixi mba Satanaji ni madimonho m\u00ea. Jez\u00fa ua
+  a kaie ku diulu iu ua lundumuina mu ngongo.\\nNzu\u00e1 anga u mona o Kambudi ni
+  144.000 emana ku Mulundu ua Ziione. U mona ue anju ia mu bhita bhulu, ua mu tangela
+  o athu phala kuxila Nzambi ni ku Mu bhana fuma.\\nMu kisuma kia kaiela-ku, o ita
+  ia Alumajedone i mateka. Mu ita ienioi\u00f3, Jez\u00fa ni kifuxi ki\u00ea, a tolola
+  o mundu uaiibha ua Satanaji. Mu kisuma kia sukina, Nzu\u00e1 u mona kutululuka mu
+  diulu ni mu ngongo. Satanaji ni madimonho m\u00ea anda ku a buikisa. Athu oso mu
+  diulu ni mu ngongo a xila o dijina dia Jihova kuma dijina dik\u00f4la anga a mu
+  bheza ng\u00f3 muene.\\n\u201cNga-nda kuta unguma bhu kaxi k\u00e9 eie ni muhatu,
+  ni bhu kaxi ka mbutu i\u00e9-eie ni mbutu i\u00ea-mu\u00e8ne; mu\u00e8ne ua k\u00e0
+  ku bula o mutue, eie ua k\u00e0 mu numata o kasende.\u201d\u2014Dimatekenu 3:15\"",
+  "\"MILONGI IA KIBATULU\\nO mundu ua Nzambi u bhana valolo iavulu ku dijina dia Nzambi\\nMU
+  KIZUUA 2 kia mbeji ia Kaiiadi ua muvu 1947, kia Tersa mu kamene, o kibuka kiofele
+  kia jiphange a a undu akexile ku Betele ia Brooklyn, Nova York, a mateka o ku bhanga
+  kikalakalu. Kiexile kikalakalu kia dikota, maji o jiphange a suluka ni kikalakalu
+  kieni\u00f3kio ku 12 dia mivu.Mu Lumingu mu kizuua kia 13 kia mbeji ia Katanu ua
+  muvu 1960, ene a zubha o ku lungulula o kibatulu kia sukina kia Bibidia.Mu ku bhita
+  mbeji jitatu, mu kizuua kia 18 kia mbeji ia Kanake ua muvu 1960, o Phange Nathan
+  Knorr ua londekesa o mbandu ia sukina ia Bibidia, Tradu\u00e7\u00e3o do Novo Mundo
+  das Escrituras Sagradas mu ki\u00f4nge kia dikota kia bhitile mu mbanza ia Manchester,
+  Inglaterra. O mulongexi ua zuela o ima ia mesenene o kuzuela athu oso akexile mu
+  ki\u00f4nge muenhomo, mu\u00e9ne uambe: \u2018Lelu kizuua kia ku sanguluka phala
+  o Jimbangi ja Jihova ku mundu uoso!\u2019Sa\u00ed kima kia bhangesa kuila, o Bibidia
+  ioio ia ubhe i bheka ku sanguluka kua dikota\u2014iene i tumbula kiavulu o dijina
+  dia Nzambi.\\n1, 2. Kiebhi o Bibidia, Tradu\u00e7\u00e3o do Novo Mundo, i zangeleka
+  o dijina dia Nzambi?\\n2 Bibidia javulu ki jene mu tumbula o dijina dia Nzambi.
+  Maji o selevende ja a undu kua Jihova, a ditunu o ndunge ia Satanaji ia ku jimuna
+  o dijina dia Nzambi ku muxima ua athu. Mu dimatekenu dia Bibidia, Tradu\u00e7\u00e3o
+  do Novo Mundo, a ilondekesa mu kizuua kieni\u00f3kio, a soneka-mu kiki: \u201cO
+  kima kia beta kota mu Bibidia \u00edii, o ku vutula o dijina dia Nzambi mu ididi
+  i\u00ea ia tokala.\u201d Mu kidi, o Bibidia, Tradu\u00e7\u00e3o do Novo Mundo, i
+  tumbula o dijina dia Nzambi, Jihova 7.000 a ji veji ndenge. O Bibidia \u00edii iene
+  mu zangeleka kiavulu o dijina dia Nzambi\u2014Jihova!\\n3. (a) Ihi ia tendela o
+  jiphange jetu ia lungu ni dilomboluelu dia dijina dia Nzambi? (b) Kiebhi ki tua
+  tokala o ku tendela o divulu dia Makatukilu 3:13, 14? (Tanga o kitutu: \u201cO Dilomboluelu
+  Dia Dijina Dia Nzambi.\u201d)\\n3 M\u2019ukulu o Adilongi a Bibidia a tendela kuila
+  o dijina dia Nzambi dilombolola: \u201cEme kala-dia-kala.\u201d (Mak. 3:14) Kienhiki,
+  O Mulangidi ua 1 ua mbeji ia Katatu ua muvu 1926, uambe: O dijina dia Nzambi dilombolola
+  kuila Nzambi, . . . Kale ni dimatekenu n\u00e9 disukilu.\u201d Maji kioso o alunguludi
+  kia mateka ni kikalakalu kia ku lungulula o Bibidia, Tradu\u00e7\u00e3o do Novo
+  Mundo, Jihova ua kuatekesa o mundu u\u00ea ku tendela kuila o dijina di\u00ea ki
+  dilombolola ng\u00f3 kuila se-ku muthu ua mu bhange, maji dilombolola u\u00e9 kuila
+  mu\u00e9ne u kumbidila ioso ia kanena. Ene a di longo kuila o dijina dia Nzambi
+  mu kidi dilombolola: \u201cMu\u00e9ne u Bheka ioso ia Mesena o ku Bheka.\u201d Mu\u00e9ne
+  ua bhange o ngongo ioso ni ioso iala-mu iu ua bhange hanji ima phala o vondadi i\u00ea
+  ia lungu ni ixi i di kumbidile. Maji mukonda diahi kima kiambote ku zangeleka o
+  dijina dia Nzambi ni kiebhi ki tu tena o ku di bhanga kiki?\\nO ku Zela Kua Dijina
+  Dia Nzambi\\n4, 5. (a) Ihi i tu bhinga kioso ki tu samba: \u2018Dijina di\u00ea
+  a dixile?\u2019 (b) Kiebhi ni thembu kuxi Nzambi kia-nda zelesa o dijina di\u00ea?\\n4
+  Jihova ua mesena kuila o dijina dia Nzambi a di zangeleke. Mu kidi, o kima kia dianga
+  kia mesena mu\u00e9ne o ku zelesa o dijina di\u00ea kala kia londekesa Jez\u00fa
+  mu ibhingilu ia dianga ia bhange mu\u00e9ne mu musambu u\u00ea, mu\u00e9ne uambe:
+  \u2018dijina di\u00ea a dixile.\u2019 (Mat. 6:9) Mu ku samba kiki, ihi i tua mu
+  bhinga?\\n5 Kala ki tua di longo mukibatulu kia divulu didi, o kibhingilu \u2018dijina
+  di\u00ea a dixile,\u2019 kima kimoxi ku ima itatu ia bhingi Jez\u00fa mu musambu
+  u\u00ea ua lungu ni vondadi ia Jihova. O ibhingilu iiadi ia muku\u00e1, ienii: \u2018Utuminu
+  u\u00ea u\u00edze. Vondadi i\u00ea a i bhange.\u2019 (Mat. 6:10) Kienhiki, kala
+  ki tuene mu bhinga kua Jihova phala ku bhangesa o Utuminu u\u00ea ku kumbidila o
+  vondadi i\u00ea, tua tokala u\u00e9 ku bhinga kua Jihova phala ku zelesa o dijina
+  di\u00ea. Kiki kilombolola kuila, tua mu bhinga Jihova phala ku bhanga kima phala
+  ku zelesa o dijina di\u00ea ku makutu oso ene ku mu tatela tund\u00e9 ku Edene.
+  Kiebhi kia-nda divua Jihova se tu samba kiki? Mu\u00e9ne u zuela: \u2018Eme-phe
+  nga-nda zelesa o dijina diami dionene dio sebhulule ku akua ifuxi.\u2019 (Ize. 36:23;
+  38:23) Ku Alumajedone, kioso mu\u00e9ne kia-nda zubha ni kuiibha kuoso, Jihova ua-nda
+  zelesa o dijina di\u00ea bhu pholo ia athu oso.\\n6. Kiebhi ki tu tena ku zelesa
+  o dijina dia Nzambi?\\n6 Tund\u00e9 ukulu, Jihova uene mu kuehela o jiselevende
+  j\u00ea ku zelesa o dijina di\u00ea. Mu kidi, etu ki tu tena ku bhangesa kuila o
+  dijina dia Nzambi di beta dingi mu ku zela. Mukonda diene dia zele ki\u00e1 kinene
+  mba dijina dikola mu maukexilu oso. Kienhiki-phe kiebhi ki tu tena o ku di zelesa?
+  Izaia u zuela: \u2018Jihova dia Il\u00f4mbo ieta\u2014mu\u00e9ne mua tokala ku mu
+  mona kala muthu uk\u00f4la.\u2019 Jihova ua zuela ia lungu ni mundu u\u00ea: \u201cDijina
+  diami a ka di k\u00f4lesa, . . . Nzambi dia Izalaiele a k\u00e0 mu kala ni u\u00f4ma.\u201d
+  (Iza. 8:13; 29:23) Kienhiki, tu zelesa o dijina dia Nzambi mu ku di zangeleka mu\u2019axaxi
+  ka majina a mukua ni mu ku xila o dilomboluelu di\u00ea ni ku kuatekesa o athu ku
+  mona o dijina didi kala dijina dikola. Tu londekesa kuila tuala ni u\u00f4ma ua
+  kidi ua dijina dia Nzambi kioso ki tu londekesa ku muenhu uetu kuila tua xikina
+  Jihova kala Mutumini uetu ni ku mu belesela ni muxima uetu uoso.\u2014Jisa. 3:1;
+  Dij. 4:11.\\nKu Kala Polondo Phala Kuambata o Dijina Dia Nzambi ni ku di Zangeleka\\n7,
+  8. (a) Mukonda diahi kua bhiti thembu iavulu phala o mundu ua Nzambi kua exana mu
+  dijina di\u00ea? (b) Ihi i tua-nda di longa kindala?\\n7 Lelu o jiselevende ja Nzambi
+  ene mu tumbula o dijina dia Nzambi mu madivulu m\u00e2 tund\u00e9 ku muvu ua 1870.
+  Mu kifika, O Mulangidi ua Zione ua mbeji ia Kakuinhi ua muvu 1879 ni divulu dia
+  kuimba, a di bhange ku muvu uenh\u00f3, dia tumbula o dijina dia Nzambi. Maji Jihova
+  ande dia kuehela o mundu u\u00ea ku a exana ku mundu uoso mu dijina di\u00ea dikola,
+  mu\u00e9ne ua mono kuila ene exile mu belesela o itumu i\u00ea. Kiebhi Jihova kia
+  pelepalala o Adilongi a Bibidia phala kuambata o dijina di\u00ea?\\n8 Se tu vutuka
+  ku disukilu dia muvu 1800 ni ku dimatekenu dia muvu 1900, tua-nda tena ku mona kiebhi
+  Jihova kia kuatekesa o mundu u\u00ea ku tendela kiambote o kidi kia lungu ni dijina
+  di\u00ea. Tua-nda di longa ima itatu ia lungu ni kidi kiki.\\n9, 10. (a) M\u2019ukulu
+  mukonda diahi o Mulangidi ua kexile mu bhana valolo iavulu kua Jez\u00fa? (b) Ihi
+  ia bhiti tund\u00e9 ku muvu 1919 ndu ku pholo ni disukilu diahi? (Tanga u\u00e9
+  o kitutu \u201cKiebhi o Mulangidi Kiene mu Zangeleka o dijina dia Nzambi.\u201d)\\n9
+  Kia dianga, o jiselevende ja Jihova a tendela kiambote o valolo ia dijina dia Nzambi.
+  Mu dimatekenu o Adilongi a Bibidia a mono o kukula kua Jez\u00fa kala o ulongelu
+  ua beta dingi kota mu Bibidia. Kiki kia kuatekesa o athu ku tendela se mukonda diahi
+  o Mulangidi ua zuelele kiavulu maka alungu ni Jez\u00fa. Mu kifika, mu muvu ua dianga
+  kia bhange o kadivulu, o Mulangidi ua tumbula o dijina dia Jez\u00fa kuinhi dia
+  ji veji, o dijina dia Jihova ndenge. Mu kuzuela ia lungu ni Adilongi a Bibidia m\u2019ukulu,
+  O Mulangidi ua 15 ua mbeji ia Katanu ua muvu 1976, uambe kuila, ene \u201ca bhanene
+  valolo iavulu\u201d kua Jez\u00fa. Maji mu ku bhita thembu, Jihova ua a kuatekesa
+  ku mona o valolo i bhana o Bibidia mu dijina dia Nzambi. Kiebhi kia divu o Adilongi
+  a Bibidia? Bhenge-bhenge tund\u00e9 ku muvu 1919, o Mulangidi u tua tumbula ki\u00e1,
+  uambe dingi, \u201cEne a mateka ku bhana dingi kijingu kua Tata ia diulu ia Mexiia,
+  Jihova.\u201d Tund\u00e9 ku muvu 1919 ndu ku muvu 1929, O Mulangidi ua tumbula o
+  dijina dia Nzambi, 6.500 a ji veji ndenge!\\n10 Mu ku bhana o kijingu kia tokala
+  ku dijina dia Jihova, o jiphange jetu alondekesa o henda i\u00e2 ku dijina dia Nzambi.
+  Kala Moz\u00e9 m\u2019ukulu, ene a mateka o \u2018ku fumanesa o dijina dia Jihova.\u2019
+  (Mate. 32:3; Jis\u00e1. 34:3) Kala kia ki kanene mu Mikanda Ikola, Jihova ua mono
+  o henda i\u00e2 ku dijina di\u00ea iu ua a besoala.\u2014Jis\u00e1. 119:132; Jihe.
+  6:10.\\n11, 12. (a) Kiebhi o madivulu metu kia lungulula kioso kia bhiti o muvu
+  1919? (b) Ihi ia kexile mu londekesa Jihova ku jiselevende j\u00ea ni mukonda diahi?\\n11
+  Kia kaiiadi, o Jikidist\u00e1 ja kidi a tendela kiambote o kikalakalu kia a bhana
+  Nzambi. Kia bhiti o muvu 1919, o jiphange a a undu akexile ku pholo a tokuesa kiambote
+  o divulu dia Izaia. Mu ku bhita kithangana, o milongi mu madivulu metu a i lungulula.
+  Mukonda diahi o milongi ioio ia di bhangele \u2018k\u00fadia mu ola ia tokala?\u2019\u2014Mat.
+  24:45.\\n12 Ande dia muvu 1919, O Mulangidi ka jimbuluile luua o izuelu ia Izaia,
+  iambe: \u201c\u2018Enu mu jimbangi jami,\u2019 kiene o kizuelu kia Jihova, \u2018selevende
+  iami, nga mu solo.\u2019\u201d (Tanga Izaia 43:10-12.) Maji kioso kia bhiti o muvu
+  1919, o madivulu metu a mateka o ku jimbulula o izuelu ioio mu ku su\u00ednisa o
+  jiphange a a undu ku bhanga o kikalakalu kia a bhanene Jihova\u2014O ku bhana umbangi
+  ua lungu ni mu\u00e9ne. Tund\u00e9 ku muvu 1925 ndu ku muvu 1931, o divulu dia Izaia
+  kibatulu 43 a di jimbulula mu 57 a ji veji mu kadivulu, Mulangidi ni kulondekesa
+  kuila o izuelu ia Izaia ia lungu ni Jikidist\u00e1 ja kidi. Ku mivu ienioi\u00f3,
+  Jihova ua kexile mu londekesa ku jiselevende j\u00ea o kikalakalu kia tokalele o
+  ku bhanga. Mukonda diahi? Phala kua a \u2018mona se kala ni kikuma.\u2019 (1 Tim.
+  3:10) Ande dia kuambata o dijina dia Nzambi, o Adilongi a Bibidia a tokalele kulondekesa
+  kua Jihova mu ibhangelu i\u00e2 kuila ene exile muene Jimbangi j\u00ea.\u2014Luka
+  24:47, 48.\\n13. Kiebhi o Mak\u2019\u00e2 Nzambi kia londekesa o kima kia beta dingi
+  o kota?\\n13 Kia katatu, o mundu ua Jihova ua tendela o valolo ia ku zelesa o dijina
+  dia Nzambi. Ku muvu 1920, ene a tendela kuila o ku zelesa o dijina dia Nzambi, o
+  kima kia beta dingi o kota. Kiebhi o Mak\u2019\u00e2 Nzambi kia londekesa o kidi
+  kiki? Tu mone phangu jiiadi. Kima kiahi kia bhangesa Nzambi ku bhulula akua Izalaiele
+  mu Ijitu? Jihova uambe: \u2018Phala o dijina diami di fumane mu ngongo.\u2019 (Mak.
+  9:16) Ni mukonda diahi Jihova ua loloka akua Izalaiele kioso ene kia mu bhukumukine?
+  Jihova uambe dingi: \u201cNga ki bhangela ngoho o henda i nga kuatela o dijina diami.\u201d
+  (Ize. 20:8-10) Ihi ia di longo o Adilongi a Bibidia ku misoso \u00edii ia Bibidia
+  ni ia mukua dingi?\\n14. (a) Ku disukilu dia muvu 1920, ihi ia tendela o mundu ua
+  Nzambi? (b) Kiebhi o milongi ia ubhe ia tambula o Adilongi a Bibidia kia a su\u00ednisa
+  mu kikalakalu kia kuboka? (Tanga u\u00e9 o kitutu: \u201cO Kima ki tu Bhangesa o
+  ku Boka.\u201d)\\n14 Ku disukilu dia muvu 1920, o mundu ua Nzambi ua tendela o dilomboluelu
+  dia izuelu ia tangele Izaia 2.700 ja mivu ku dima. Kia lungu ni Jihova, Izaia uambe:
+  \u2018Kiene ki uendesa o mundu u\u00ea phala ku jingisa o dijina di\u00ea.\u2019
+  (Iza. 63:14) O Adilongi a Bibidia a tendela kuila o kima kia dianga, ki kiexile
+  o ubhulukilu u\u00e2, maji o ku zelesa o dijina dia Nzambi. (Iza. 37:20; Ize. 38:23)
+  Ku muvu 1929, o divulu, Profecia dia jimbulula o kidi kieni\u00f3kio, mu kuzuela:
+  \u201cO dijina dia Jihova, o kima kia beta dingi o kota mu ngongo.\u201d O ku tendela
+  kiambote o milongi \u00edii ia ubhe, ia su\u00ednisa dingi o jiselevende ja Nzambi
+  mu ku bhana umbangi ua lungu ni Jihova ni ku zelesa o dijina di\u00ea ku makutu
+  oso.\\n15. (a) Ku muvu 1930, ihi ia tambula o jiphange jetu? (b) Thembu iebhi ia
+  bhixile?\\n15 Ku muvu 1930, o jiphange jetu a tendela kiambote o valolo ia dijina
+  dia Nzambi ni kikalakalu kia a bhanene Nzambi, a tendela u\u00e1 o maka alungu ni
+  ungana ua Nzambi. O kithangana kia Nzambi ku bhana ku jiselevende j\u00ea o ujitu
+  ua kuambata o dijina di\u00ea, kia bhixile ki\u00e1. Phala ku tendela kiebhi kiki
+  kia bhiti, tu di longe ima ia bhitile m\u2019ukulu.\\nJihova ua Solo Athu \u2018Phala
+  Kuambata o Dijina Di\u00ea\u2019\\n16. (a) Kiebhi Jihova kiene mu zangeleka o dijina
+  di\u00ea? (b) M\u2019ukulu, a nanhi ambatele o dijina dia Nzambi?\\n16 Jihova u
+  zangeleka o dijina di\u00ea mu ku kala ni mundu uambata o dijina di\u00ea mu ixi.
+  Tund\u00e9 ku muvu 1513 A.K.K. o akua Izalaiele exile o Jimbangi ja Jihova. (Iza.
+  43:12) Maji ene a lueza mu ku kumbidila o kikutu ki\u00e2 ni Nzambi, ku muvu 33
+  K.K., a zange o ukamba u\u00e2 ni Nzambi. Mu ku bhita ithangana, Jihova \u2018ua
+  mono athu a ifuxi ioso, iu ua katula-mu mundu phala kuambata o dijina di\u00ea.\u2019
+  (Ika. 15:14) O mundu uenh\u00f3 ua ubhe ua kituka \u2018Izalaiele ia Nzambi,\u2019
+  akaiedi a Kristu a a undu a tundu mu ifuxi ioso.\u2014Nga. 6:16.\\n17. Ndunge iebhi
+  Satanaji ua ditundu na-iu kiambote?\\n17 Ku muvu 44 K.K., o maxibulu a Kristu \u2018a
+  exanene mu dijina dia Jikidist\u00e1.\u2019 (Ika. 11:26) Mu dimatekenu, ki kuexile
+  athu a exanene mu dijina dienh\u00f3dio, mukonda dia tokalele ng\u00f3 ku Jikidist\u00e1
+  ja kidi. (1 Phe. 4:16) Maji kala kia londekesa Jez\u00fa mu kifika kia jimbutu jambote
+  ni jimbundu ja iangu, Satanaji ua di tundu kiambote mu ndunge i\u00ea ia ku bhangesa
+  kuila kat\u00e9 muene ni i\u00f3 akexile mu zuela kuila a mu kaiela Jez\u00fa, a
+  exana u\u00e1 Jikidist\u00e1. Kienhiki, ku mivu iavulu, o Jikidist\u00e1 ja kidi
+  ka di tungula mu kaxi ka Jikidist\u00e1 ja makutu. Maji kiki kia mateka o ku lunguluka
+  mu \u201ckithangana kia ku bhongolola,\u201d kia mateka ku muvu 1914. Mukonda diahi?
+  Mukonda o ji-anju a mateka o ku tungula o Jikidist\u00e1 ja makutu mu kaxi ka Jikidist\u00e1
+  ja kidi.\u2014Mat. 13:30, 39-41.\\n18. Ihi ia kuatekesa phange jetu ku mona kuila
+  a bhingile dijina di\u00e9ngi?\\n18 Kioso kia solo o kimbadi kia fiiele ku muvu
+  1919, Jihova ua kuatekesa o mundu u\u00ea ku tendela o kikalakalu kia a bhanene.
+  Ene a mono kuila o kikalakalu kia ku boka nzo ni inzo ki a tungula mu kaxi ka Jikidist\u00e1
+  joso ja makutu. Kioso kia tendela o maka enh\u00e1, a mono kuila o dijina, \u201cAdilongi
+  a Bibidia\u201d ki di kexile mu a tungula kiambote mu kaxi ka jikidist\u00e1 ja
+  makutu.O kima kia dianga kia tokalele o ku bhanga ku muenhu u\u00e2, ki kiexile
+  ng\u00f3 o ku di longa o Bibidia, maji ku bhana umbangi ua lungu ni Nzambi, ku jingisa
+  ni ku zangeleka o dijina di\u00ea. Kienhiki, a tokalele ku a exana mu dijina diebhi
+  phala kulondekesa o kikalakalu kia kexile mu bhanga? O kibhuidisu kiki a ki tambuijila
+  ku muvu 1931.\\n19 Ku mbeji ia Kavua ia muvu 1931, 15.000 dia Adilongi a Bibidia
+  a bhixila mu ki\u00f4nge kia dikota mu Columbus, Ohio, E.U.A. Mu ku mona o minangu
+  ia ki\u00f4nge kia dikota, ene a diuanene isunji mu ku mona o ijimbuete iiadi J
+  ni W\u2014ia kexile ku thandu dia papela ia minangu.Ene akexile mu dibhuidisa: \u2018O
+  ijimbuete \u00edii ilombolola ihi?\u2019 Sa\u00ed athu akexile mu zuela kuila, ilombolola,
+  \u2018Tala ng\u00f3\u2019; a mukua, \u2018Kinga ng\u00f3.\u2019 Kienhiki, mu kizuua
+  kia 26 kia mbeji ia Kavua, o Phange Joseph Rutherford uambe: \u201ctua mesena kuila
+  athu a tuijiia ni ku tuixana mu dijina dia Jimbangi ja Jihova.\u201d Mu kithangana
+  kieni\u00f3kio, athu oso mu ki\u00f4nge a tendela o dilomboluelu dia ijimbuete iiadi\u2014ia
+  lombololuele Jimbangi ja Jihova, dijina dia tundu mu divulu dia Izaia 43:10.\\n19,
+  20. (a) Ngolokela iebhi ia ku sanguluka a i bhana ku muvu 1931? (b) Kiebhi kia divu
+  phange jetu mu maka alungu ni dijina dia ubhe dia tambuile?\\n20 Athu oso a xikamene
+  mu ki\u00f4nge kieni\u00f3kio a di kola ni d\u00edzui dia su\u00edna ia a sakidila.
+  Mu kaxi ka mutelembe ua ifofo, athu oso ku mundu evu o ku sanguluka kua athu akexile
+  mu ki\u00f4nge mu mbanza ia Columbus! Ernest ni Naomi Barber mu ixi ia Austr\u00e1lia
+  ua di lembalala: \u201cKioso o jiphange ku Am\u00e9rica kia sanguluka, o jiphange
+  mu mbanza ia Melbourne emana, ia a suluka ni ku sakidila. Nuka tua-nda jimba o kizuua
+  kieni\u00f3kio\u201d *\\nO Dijina Dia Nzambi a mu di Zangeleka ku Mundu Uoso\\n21.
+  Kiebhi o dijina dia ubhe dia su\u00ednisa o kikalakalu kia kuboka?\\n21 O ku kala
+  ni dijina dia tundu mu Mikanda Ikola, ia bhana nguzu ku Jiselevende ja Nzambi phala
+  ku bhanga o kikalakalu kia kuboka. Edward ni Jessie Grimes, makaza exile aboki a
+  katunda mu ixi ia Estados Unidos akexile mu ki\u00f4nge kia dikota kia bhiti ku
+  muvu 1931 mu mbanza ia Columbus, ambe: \u201cTua tundu kubhata kala tu Adilongi
+  a Bibidia, maji tua vutuka kala tu Jimbangi ja Jihova. Tua sangulukile kiavulu mu
+  ku kala ni dijina dieji tu kuatekesa ku zangeleka o dijina dia Nzambi ietu.\u201d
+  Kioso kia bhiti o ki\u00f4nge kieni\u00f3kio, sa\u00ed Jimbangi a sange ndunge ia
+  ubhe ia ku zangeleka o dijina dia Nzambi. Kioso kia kexile mu bhixila ku mabhata
+  a athu, akexile mu bhana kalat\u00e1 ni njimbu: \u201cNgi Mbangi ia JIHOVA, nga
+  mu boka o Utuminu ua JIHOVA Nzambi ietu.\u201dMu kidi, o mundu ua Nzambi ua sangulukile
+  kiavulu mu ku kala ni dijina dia Jihova, ni kuila ene akexile polondo phala ku boka
+  o dilomboluelu dia dijina didi ku ididi ioso kat\u00e9 ku maxokololo.\u2014Iza.
+  12:4.\\n\u201cTua tundu kubhata kala tu Adilongi a Bibidia, maji tua vutuka kala
+  tu Jimbangi ja Jihova\u201d\\n22. Ihi ilondekesa kuila o mundu ua Nzambi uala ni
+  dijina diala ku thandu dia majina oso?\\n22 Kua bhiti mivu iavulu phala Jihova ku
+  bhangesa o phange jetu a a undu kuambata o dijina di\u00ea. Tund\u00e9 ku muvu 1931,
+  o kuila Satanaji uene mu tena ku katula o dijina dia mundu ua Nzambi? O kuila uene
+  mu fidisa o athu ku tu tungula mu kaxi ka jingeleja ja makutu? Kana! Mu veji dia
+  kiki, o dijina dietu, Jimbangi ja Jihova, dia di tungula mu kaxi ka majina oso.
+  (Tanga Mikeia 4:5; Malakiia 3:18.) Athu lelu a tuijiia kiambote mu dijina dia Nzambi
+  ni kuila muthu uoso-uoso u tumbula o dijina didi, a mu ixana Mbangi ia Jihova. O
+  jingeleja ja makutu ka mu tena ku ta mua vundu o Ubhezelu ua kidi ua Jihova, \u2018ua
+  dizangeleka ku thandu dia milundu ioso, u beta-kota mu ku leka, o tu milundu tuoso
+  ndenge.\u2019 (Iza. 2:2) Lelu, o ubhezelu ua Jihova ni dijina di\u00ea dikola a
+  mu di zangeleka ni kidi kioso.\\n23. Kala kilondekesa o divulu dia Jis\u00e1lamu
+  121:5, kidi kiahi kia lungu ni Jihova ki tu su\u00ednisa kiavulu?\\n23 Kisangusangu
+  kia dikota kuijiia kuila Jihova ua-nda tu kudila ku izukutisu ia Satanaji! (Jis\u00e1.
+  121:5) Ni muxima uoso tuimba kala o mukua Jis\u00e1lamu: \u201cIxi ioso i zediua,
+  avu Jihova kuma Nzambi i\u00e2, ni mundu uoso ua solo muene, kuma undundu u\u00ea.\u201d\u2014Jis\u00e1.
+  33:12.\"", "\"KIOSO o mukua ngeleja ngana William Bedell mukua Inglaterra kiai ku
+  ixi ia Irlanda ku muvu ua 1627, mu\u00e9ne ua sange-mu maka a dikota. Mu ixi ia
+  Irlandala mua betele kukala ngeleja ia Katolika maji o ixi akexile mu i tumina kuala
+  akua Inglaterra a tokalele mu ngeleja ia Prostante. O athu akua Prostante a lunguluile
+  ki\u00e1 o Bibidia mu madimi avulu mu kibatu kioso kia Europa. Maji ki bhuexile
+  muthu ua mesenene kulungulula o Bibidia mu dimi dia Irland\u00eas.\\nBedell ua divu
+  kia iibha mukonda dia kuila o athu akua Irlanda, \u201cka kexile mua bhana valolo
+  mukonda dia kukamba kuijiia o dimi dia Kingileji.\u201d Kienhiki, mu\u00e9ne ua
+  banze kulungulula o Bibidia mu dimi dia Irland\u00eas. Maji a mu zukutisa kiavulu
+  benge-benge kuala akua Prostante. Mukonda diahi?\\nA MESENENE KUFIDISA O ATHU KUZUELA
+  O DIMI DIA IRLAND\u00caS\\nBedell ua mateka kudilonga o dimi dia Irland\u00eas.
+  Kioso mu\u00e9ne kia kituka o mutuameni ua xikola ia katunda Trinity College, mu
+  mbanza ia Dublin, mu\u00e9ne ua su\u00ednisa o maxibulu kuzuela o dimi dia Irland\u00eas,
+  ua bhange u\u00e9 kiki kioso kia mu solo kukala bispu mu mbanza ia Kilmore. Kioso
+  o sobha ia muhatu ia Inglaterra, Elizabeth I ua bhange o xikola ia katunda Trinity
+  College, mu\u00e9ne ua bhange o xikola \u00edii phala kukala ni akunji a tena kulonga
+  o mundu u\u00ea o njimbu ia Bibidia mu madimi m\u00e2 a uvualukilu. Bedell ua kuatekesa
+  phala kiki kubhita.\\nMu ngeleja mu mbanza ia Kilmore, athu avulu akexile mu zuela
+  o dimi dia Irland\u00eas. Kienhiki, Bedell ua mesenene kiavulu kukala ni akunji
+  a zuela o dimi dia Irland\u00eas. Mu\u00e9ne ua zuela ku jingana ja makota k\u00e1la
+  kia zuelele Poxolo Phaulu mu divulu dia 1 Kolindo 14:19, kuila: \u2018Mu kilunga,
+  nginda ngi zuela ng\u00f3 izuelu itanu athu oso i evua ni kilunji, ni ngi longe
+  akuetu, nguami kuzuela kuinhi dia midi dia izuelu mu mbimbi jengi,\u2019 mba kuzuela
+  mu dimi di\u00e9ngi dia kambe kuijiia kiambote o athu.\\nMaji o jingana ja makota
+  a bhange ioso phala ku mu fidisa kulungulula o Bibidia. O akua misoso ambe kuila,
+  sa\u00ed jingana ja makota ambele kuila o dimi dia Irland\u00eas diexile \u201ckiluezu
+  phala o ixi,\u201d a muku\u00e1 ambe kuila o dimi dia Irland\u00eas \u201cki dieji
+  kuatekesa kubheka mbote ku Nguvulu ia ixi.\u201d Sa\u00ed athu a monene kuila, o
+  nguvulu ia Inglaterra ka mesenene kuila o athu a dilonga o dimi dia Irland\u00eas.
+  Mu kiki, akexile mu tuma o athu akua Irlanda kujimba o dimi di\u00e2 ni ifua i\u00e2,
+  phala kudilonga o Kingileji ni kukaiela o ifua ni maukexilu a akua Inglaterra.\\nO
+  KIKALAKALU KIA BEDELL KIA KULUNGULULA O BIBIDIA\\nO itumu \u00edii ia iibha, ki
+  i fidisa Bedell kusuluka ni kikalakalu ki\u00ea. Ku dimatekenu dia 1630, mu\u00e9ne
+  ua mateka o kulungulula o Bibidia ia Kingileji (Bibidia ia Rei James ia 1611) mu
+  dimi dia Irland\u00eas. Mu\u00e9ne ua mesenene kusoneka Bibidia i tena kukuatekesa
+  athu avulu ku i tendela. Mu\u00e9ne ua divu kia iibha mukonda athu keji tena kutanga
+  o Mikanda Ikola ni kusanga o njila ia muenhu mukonda o Bibidia ia kexile mu dimi
+  dia kambele kuijiia ene.\\nKi Bedell ng\u00f3 ua kexile mu divua kiki. 30 a mivu
+  ku dima, bispu ia mukua, William Daniel, uambele kuila kubhonza kiavulu muthu kudilonga
+  o kidi kia Bibidia, \u201cmu dimi dia kambe kuijiia kiambote.\u201d Daniel ua lunguluile
+  o Mikanda ia Ngeleku mu dimi dia Irland\u00eas. Kienhiki, Bedell ua mateka ni kikalakalu
+  kia dikota kia kulungulula o Mikanda ia Hebalaiku. O mbandu ia lungulula Bedell
+  ni mbandu ia lungulula William Daniel, a i bundu kumoxi, lelu a ijiia kuila Bibidia
+  ia Bedell. Kioso Bedell kia zubha o kulungulula o Bibidia, mu 300 ja mivu ia kaiela-ku,
+  o athu akexile ng\u00f3 ni Bibidia ienioi\u00f3 mu dimi dia Irland\u00eas.\\nBedell
+  kuma uejidile kiambote o dimi dia Hebalaiku, ua bhingi mala aiadi a zuela kiambote
+  o dimi dia Irland\u00eas, phala ku mu kuatekesa kulungulula o Bibidia mu dimi dia
+  Irland\u00eas. Kioso kia kexile mu bhanga o kikalakalu, Bedell ni kikuatekesu kia
+  mala aiadi, mu\u00e9ne ua tonginina o Bibidia velusu mu velusu phala ku mona se
+  a i lunguluile muene kiambote. Phala ku a kuatekesa kubhanga o kikalakalu kiki,
+  ene a kaiela o Bibidia a i lunguluile kuala o diiala mukua Su\u00ed\u00e7a, ngana
+  Giovanni Diodati, a kaiela u\u00e9 o Septuaginta mu dimi dia Ngeleku, ni mikanda
+  ia muku\u00e1 ia Bibidia mu dimi dia Hebalaiku.\\nO alunguludi a kaiela o milongi
+  ia athu a lungulula o Bibidia Rei James, (athu i\u00e1 Bedell ua ejidile kiambote)
+  o alunguludi a soneka o dijina dia Nzambi mu Bibidia mu ididi ia tokala. Mu kifika,
+  mu divulu dia Makatukilu 6:3, ene a te-mu o dijina dia Nzambi \u201cIehovah.\u201d
+  O Bibidia ia Bedell a i bhake mu Marsh\u2019s Library, kididi kia kubhakela madivulu
+  mu mbanza ia Dublin, ku ixi ia Irlanda.\\nATHU A TAMBULA O BIBIDIA\\nBedell ua zubha
+  o kikalakalu ki\u00ea ku muvu ua 1640. Maji ka tenene kulondekesa o kikalakalu ki\u00ea
+  ku athu mu kithangana kieni\u00f3kio. Mukonda diahi? Kia dianga, mukonda akexile
+  hanji ku mu zukutisa kiavulu. O jinguma a tangele makutu alungu ni muthu ua betele
+  ku kuatekesa Bedell mu kulungulula o Bibidia, ene a bhangele kiki phala o athu ka
+  xikine o kikalakalu ki\u00ea. O jinguma jiji, a tumu ku mu kuata ni ku mu ta mu
+  kaleia. Kima kia muku\u00e1, Bedell ua kexile mu kithangana kia bhonzo, akua Irlanda
+  akexile mu luua ita ni unguvulu ua Inglaterra phala kua katula mu ixi i\u00e2, kiki
+  kia matekene ku muvu ua 1641. O akua Irlanda a langele Bedell mu kithangana kiofele
+  n\u00e9 muene ni kuijiia kuila mu\u00e9ne uexile u\u00e9 mukua Inglaterra. Ene a
+  bhangele kiki mukonda Bedell ua a zolele kiavulu. Maji mu kubhita thembu, o masoladi
+  abhukumuka, a kuata Bedell ia a mu te mu kaleia ka bolo. Kioso kia tundu mu kaleia,
+  Bedell ua kuata uhaxi iu uafu ku muvu ua 1642. Mu\u00e9ne ka mono o Bibidia i\u00ea
+  ku i bhana ku athu.\\nO jinguma ja Bedell ja buika o dibhata di\u00ea dioso. Maji
+  dikamba di\u00ea dia kazola, ua tenene kubhulula o mikanda ioso ia lunguluile ki\u00e1.
+  Mu kubhita thembu, Narcissus Marsh, ua kituka u\u00e9 arcebispu ia Armagh ni muthu
+  ua beta-o-kota mu ngeleja ia Irlanda, ua tambula o mikanda. Ua tambula kikuatekesu
+  kia ngijiie Robert Boyle, ku muvu ua 1685 mu\u00e9ne ua londekesa ku athu o Bibidia
+  ia Bedell.\\nKIMA KIOFELE MAJI KIALA NI VALOLO\\nO Bibidia ia Bedell ka i ximana
+  ku mundu uoso. Maji n\u00e9 kiki, iene ia kuatekesa o athu kutendela kiambote o
+  Bibidia, benge-benge o athu a zuela o dimi dia Irland\u00eas ni athu akua Esc\u00f3cia
+  ni ibatu ia muku\u00e1. Ene eji tena ki\u00e1 kuijiia kiambote Nzambi mu ku tanga
+  o Bibidia \u00edii.\\n\u201cKioso ki tua tange o Bibidia ia Bedell, etu tuevu o
+  izuelu ia Nzambi mu dimi dietu dia uvualukilu. Kiki kia kuatekesa kiavulu eme ni
+  muiji uami kuijiia o kidi ki sangulukisa kia Mikanda Ikola\u201d\\nO Bibidia ia
+  Bedell ia mu kuatekesa kiavulu o athu a mesena kuijiia o kidi mu izuua \u00edii.
+  Sa\u00ed diiala u zuela o dimi dia Irland\u00eas, ua di longo o kidi kia lungu ni
+  Bibidia, uambe: \u201cKioso ki tua tange o Bibidia ia Bedell, etu tuevu o izuelu
+  ia Nzambi mu dimi dietu dia uvualukilu. Kiki kia kuatekesa kiavulu eme ni muiji
+  uami kuijiia o kidi ki sangulukisa kia Mikanda Ikola.\u201d\"", "\"O VALOLO YA MAK\u2019\u00c2
+  NZAMBI\\n\u201cO Kwila Eye wa mu Bhanga Nguzu Phala Kutambula o Mabes\u00e1?\u201d:
+  (10 ithan.)\\nDi 32:24\u2014Jakobo wa bh\u00e2nge ni anju (w03 15/8 25 \u00a73)\\nDi
+  32:25, 26\u2014Jakobo ka bhwila kat\u00e9 kya tambula o dibes\u00e1 (it-1 578 \u00a75)\\nDi
+  32:27, 28\u2014Jakobo a mu besowala mukonda dya kukolokota kw\u00ea (it-2 450 \u00a79)\\nTokwesa
+  o Milongi ya Nzambi: (10 ithan.)\\nDi 32:11, 13-15\u2014Kyebhi ki tu tena kukayela
+  o phangu ya nguzu ya Jakobo mu kubhanga o paze? (w10 15/6 22 \u00a710-11)\\nDi 33:20\u2014Mukonda
+  dyahi Jakobo wexana o kalat\u00f3dyo \u201cNzambi, Nzambi ya Izalayele\u201d? (it-1
+  699 \u00a73)\\nIhi i wa dilongo mu kitangelu kya Bibidya kya semana yiyi ya lungu
+  ni Jihova Nzambi, mba kima kyengi ki wa dilongo ki u tena kutangela akwenu mu ukunji?\\nKitangelu
+  Kya Bibidya: (Ithan. 4 mba 3) Di 32:1-21 (th milongi ya 5)\\nKUMBIDILA O MILONGI
+  YIYI MU UKUNJI W\u00c9\\nVidyu Phala Kubhana Umbangi wa Dyanga: (Ithan. 5) Mbandu
+  ni jingivwidi. Xika o vidyu, mu kusuluka bhanga o ibhwidisu yiyi ku jingivwidi:
+  Kyebhi Iliza kya zwela ni kidi kyoso mu kubhana umbangi? Kyebhi Iliza ni Madiya
+  kya di kwatekesa mu kubhana o umbangi?\\nKukunda o Muthu mu Veji ya Dyanga: (Ithan.
+  3 mba 2) Kayela o ndunge phala kubhana umbangi. (th milongi ya 12)\\nKukunda o Muthu
+  mu Veji ya Dyanga: (Ithan. 5 mba 4) Mateka ni ndunge phala kubhana umbangi. Zwela
+  ya lungu ni vidyu, Kyebhi Kya Longa o Bibidya? (maji kana ku i xika.) (th milongi
+  ya 16)\\nWENDELU WA UKIDIST\u00c1\\n\u201cKyebhi o Kima Kya Beta Dingi Kota Phala
+  Eme?\u201d: (15 ithan.) Mbandu ni jingivwidi. Xika o vidyu Ta Kupholo o Jimbambe
+  j\u00e9 mu Nzumbi.\\nMilongi ya Bibidya mu Kilunga: (30 ithan.) w18.06 3-6 \u00a71-10\\nIzwelu
+  ya sukina (Ithan. 3 mba 2)\\nMwimbu wa 15 ni Musambu\"", "\"Mweny\u00fa Mon\u2019ami
+  a kazola, wa ngi wabhela kyambote.\u2014Mat. 3:17.\\nJihova wa zwela tund\u00e9
+  ku diwlu, phala kwehela Mon\u2019\u00ea kwijiya kwila wa mu zolele. O kiximanu kiki
+  kya swinisa kyavulu Jez\u00fa! Kyoso Jez\u00fa kya mu batizala mu Ngiji ya Njolod\u00e1,
+  Jihova wa tumbula o izwelu ya milongi ya lelu.Nange Nzw\u00e1 dya Batizu mwene ng\u00f3
+  o muthu wengi wevu o izwelu yoyo. Muvu ande dya ufwilu wa Jez\u00fa, maxibulu m\u00ea
+  atatu evu Jihova kuzwela ya lungu ni Jez\u00fa: \u2018Mweny\u00fa Mon\u2019ami nga
+  mu zolo, wene mu ngi sangulukisa. Yoso ya zwela, mu ivwenu mwene!\u2019 (Mat. 17:5)
+  Jihova wa zwela dingi ni Mon\u2019\u00ea tund\u00e9 ku diwlu, kyoso ki kwa kambele
+  ng\u00f3 izuwa yofele ande dya Jez\u00fa kufwa. (Nzw\u00e1 12:28) Jez\u00fa wejidile
+  kwila o athu eji mwixana muxongwedi, wejidile we kwila eji mu kwatesa jisonyi ande
+  dya kufwa. N\u00e9 kiki, mwene wa sambe phala o vondadi ya Nzambi, a i bhange mu
+  veji ya vondadi y\u00ea. (Mat. 26:39, 42) \u2018Wa kolokota mu th\u00e1ka, wa tende
+  o sonyi,\u2019 mukonda mwene wa mesenene kutambula kijingu kwa Tat\u2019\u00ea mu
+  veji dya kijingu ki bhana o mundu. Kyebhi Jihova kya bhana kijingu kwa Jez\u00fa?\u2014Jihe.
+  12:2. w18.07 10-11 \u00b615-16\\nKitangelu Kya Bibidya Kya Lembalasa: (Izulukutu
+  ya kizuwa: 9 Dya Nis\u00e1) M\u00e1luku 14:3-9\\nTata, se ki bhana, o dik\u00e1wu
+  didi ngi katule-dyu.\u2014Luka 22:42.\\nKyoso kya zubha kubhanga o Lembalasa, Jez\u00fa
+  wa londekesa kuswina kwonene. Kyebhi kyene? Jez\u00fa wa xikina o vondadi ya Tat\u2019\u00ea
+  sumbala wejidile kwila o ukexilu wa ku mu jibha ki wa mu tokalele maji mwene wa
+  xikina phala kubhana kijingu kwa Jihova. (Mat. 26:65, 66;) Jez\u00fa wa kolokota
+  mu ufiyele phala kuximana o dijina dya Jihova, kuzokela o utuminu wa Nzambi ni kujikula
+  o njila phala o athu a dyela o ituxi a tene kukala ni mwenyu wa kalelaku. Mu kithangana
+  kimoxi kyenyiki, wa pelepalala akayedi\u2019\u00ea phala o ima yeji bhita kupholo.
+  Jez\u00fa wa londekesa o kuswina mukonda mwene kya lungu o muxima mu ima ya mesenene
+  kana, maji wa te kupholo o ibhindamu ya jipoxolo j\u00ea ja fiyele. O fesa ya bhange
+  mwene kyoso kya kaye Juda, yeji lembalesa ku maxibulu a undu o valolo ya manyinga
+  a bhubhu Jez\u00fa ni mbote ya kubhanga mbandu ku kikutu kyobhe.\u20141 Kol. 10:16,
+  17. w19.01 22 \u00b67-8\\nKitangelu Kya Bibidya Kya Lembalasa: (Izulukutu ya Kizuwa:
+  9 Dya Nis\u00e1) M\u00e1luku 11:1-11\\nTata, fumanesa o dijina dy\u00e9!\u2014Nzw\u00e1
+  12:28.\\nTat\u2019\u00ea wa tambwijila Jez\u00fa tund\u00e9 ku dyulu ni izwelu:
+  \u2018Nga di fumanesa ky\u00e1, nga-nda di fumanesa dingi. Jez\u00fa muxima wa mu
+  kenanene mukonda dya kikalakalu kya dikota kyexile na-kyu, kya kukolokota mu ufiyele
+  kwa Jihova. Jez\u00fa wejidile kwila, weji tala hadi yavulu, eji mu kwama, eji mu
+  jibha. (Mat. 26:38) O kima kya betele kota phala Jez\u00fa kyexile kiki: kufumanesa
+  o dijina dya Tat\u2019\u00ea! Jez\u00fa a mu tatela umbangi wa makutu kwila, wa
+  xingi Nzambi. Mwene wa thandanganyele ni kixinganeku kya kwila, o ufwilu w\u00ea
+  weji xingisa Nzambi. Kala kya bhange Jez\u00fa, etu we tu tandanganya phala o dijina
+  dya Jihova ka dilebhule. Nange etu a tu talatala kya yibha, kala kya bhitile ni
+  Jez\u00fa. Mba tu tandanganya kyoso ki tw\u00edvwa misoso ya makutu ya lungu n\u2019etu
+  i mwanga o jinguma. Tu xinganeka we mu dilebhu di bhekela o misoso yiyi ku dijina
+  dya Jihova. Jihova wa-nda fumanesa jinga o dijina dy\u00ea mu ithangana yoso.\u2014Jis\u00e1.
+  94:22, 23; Iza. 65:17. w19.03 11-12 \u00b614-16\\nKitangelu Kya Bibidya Kya Lembalasa:
+  (Izulukutu ya Kizuwa: 10 Dya Nis\u00e1) M\u00e1luku 11:12-19\"", "\"Sai kizuua,
+  kioso Eva kia kexile ubheka u\u00ea, kua moneka nhoka ia mateka kuzuela-n\u00ea.
+  O nhoka iexi: \u2018O kuila kidi muene Nzambi ua mi tangela kuila ki mu tokala kudia
+  o ibundu ia mixi ioso?\u2019 Eva ua tambuijila: \u2018Tu tena kudia ku ibundu ia
+  mixi ioso, muxi umoxi ng\u00f3 ki tu tokala kudia-ku. Se tu dia-ku, tua-nda fua.\u2019
+  O nhoka ia vutuila: \u2018Makutu, ki mua-nda fua. Mu kidi, se mu dia-ku, mua-nda
+  sokela ni Nzambi.\u2019 O kuila kiki kidi? Kana, makutu. Maji Eva ua xikina kuila
+  kidi. Mu kutala kiavulu ku kibundu, o vondadi ia ku ki di\u00e1, ia dibandekesa.
+  Muene ua di ku kibundu iu ua ki bhana ue Ad\u00e1. Ad\u00e1 uejiidile kuila eji
+  fua se ka belesele Nzambi. Maji n\u00e9 muene kiki, Ad\u00e1 ua di o kibundu.\\nMu
+  ngoloxi, Jihova ua zuela ni Ad\u00e1 ni Eva. Ua ebhuidisa se mukonda diahi ene ka
+  belesela. Eva ua tatela o nhoka, o Ad\u00e1 ua tatela Eva. Mukonda dia ku mu bhukumukina,
+  Jihova ua kaie Ad\u00e1 ni Eva mu jaludim. Phala ene ka vutuke dingi mu jaludim,
+  muene ua te jianju bhu muelu ni xibhata ia mulengu ua t\u00fabhia.\\nJihova ua zuela
+  kuila o ua nganala Eva ueji mu kaxtikala ue. Mu kidi, o ua zuela ni Eva ki nhoka
+  kana. Mukonda Jihova ka bhange o jinhoka ni uhete ua kuzuela. Anju iaiibha iene
+  ia bhangesa o nhoka kuzuela. Muene ua bhange kiki phala ng\u00f3 kunganala Eva.
+  O anju ioio a ixana Satanaji o Diabhu. Ku h\u00e1dia, Jihova ua-nda buikisa Satanaji
+  phala ka nganale dingi o athu mu kubhanga ima iaiibha.\\n\u201cDiabhu . . . kijibhanganga
+  tunde ku dimatekenu dia mundu, o mu kidi ka nangi\u00ea-mu, mukonda moxi di\u00ea
+  ki mu moneka kidi.\u201d\u2014Nzu\u00e1 8:44\"", "\"O MULANGIDI N.\u00b0 6 2017
+  | Uebhi o Ujitu ua Beta Dingi Kota?\\nIHI I U BANZA?\\nSe Nzambi ua ku bhele ujitu,
+  ujitu uebhi u ueji mesena?\\n\u201cKuma o ujitu uambote u tu tambula, ni uhete uauabha,
+  u tunda ku duilu. Ima ioso \u00edii i tuluka kua Nzambi, Tata ua bhanga o mikengeji
+  ia diulu.\u201d\u2014Tiiaku 1:17.\\nO Mulangidi i\u00fa ua-nda tu kuatekesa kubhana
+  valolo ku ujitu ua beta dingi o kota ua tu bhana Nzambi.\\nJez\u00fa ene mu mu londekesa
+  kuala ndumba ni ndumba dia jihete mu jifikula jene mu bhanga tund\u00e9 ukulu. Ihi
+  ilondekesa o Bibidia ia lungu ni pholo ni mukutu ua Jez\u00fa?\\nIma ia muku\u00e1
+  io londekese mu internete\\nAthu avulu ene mu bhanga o fesa ia Natale sumbala ejiia
+  kuoso kua tundu. Ijiia se mukonda diahi o Jimbangi ja Jihova kene mu bhanga o fesa
+  ia Natale.\"", "\"XINGANEKA: Eie uai mu nhunga mu muzeu, uezala ni iteka ni iselekete
+  iokulu. Sai ima ia kubujuka ki\u00e1, ki iale dingi kiambote. Sai iteka iala ng\u00f3
+  ni mbandu imoxi. Maji u sanga-mu hanji kiteka kimoxi kiambote; eie u tena kumona
+  kuila o kiteka kiki kia tenena hanji. Eie uibhuidisa o muthu ua mu kulondekesa o
+  ima; \u201cO kuila kiki kia ubhe?\u201d Muene u tambuijila; \u201cKana, kiene kiokulu
+  ki\u00e1, o ia mukua ndenge, nuka tua ki iudikile dingi.\u201d Eie uibhuidisa dingi;
+  \u201cO kuila muene mu ki langa?\u201d O muthu ua mu kulondekesa u tambuijila, \u201ckana,
+  mu kidi kien\u00e9 kia nangenena n\u00e9 muene ni mvula ni kitembu kia nguzu, ni
+  isu\u00e9ia iavulu a mesenene kuzanga o kiteka kiki.\u201d Nange ni kudiuana ueji
+  kuibhuidisa, \u2018Kiki a ki bhange ni ima iahi?\u2019\\nKiene kimoxi ue, o Bibidia
+  ia difu ni kiteka kiki. Diene divulu dio-kulu o madivulu a muku\u00e1 ndenge. Mu
+  kidi, kuene madivulu a muku\u00e1 okulu. Maji kala kia bhiti ni iteka iokulu, mikanda
+  iavulu iokulu ia zanganha mukonda dia kubhita thembu iavulu. Mu kifika, o ima iene
+  mu zuela o jingijiie, ni lusolo luoso i lunguluka kioso ki ku moneka milongi ia
+  ubhe. O itendelesu i\u00e2 ia lungu ni mauhaxi, mu veji dia kukuatekesa sai bhabha
+  i bhekela dingi hadi. Mikanda iavulu iokulu ki iala ni valolo lelu; jimbandu javulu
+  ja texika ki\u00e1, ja mukua ja zanganha.\\nMaji-phe o Bibidia ki i difu ni mikanda
+  \u00edii. O isoneku ia Bibidia ia mateka 35 a jihama kudima, maji n\u00e9 kiki iene
+  ia nangenena. Athu avulu ka kexile mu xila o Bibidia, mesenene ku i buikisa mu t\u00fabhia,
+  ka mesenene kuila athu a i tanga. Maji o izuelu ia Bibidia ia nangenena. Mu veji
+  dia kukala iokulu mukonda dia milongi ia ubhe mu izuua ietu, o ima i zuela o Bibidia
+  i bhangesa kudiuana. Tala o kaxa \u201cO Kuila o Milongi ia Bibidia ki Ial\u00e9
+  Dingi ni Valolo?\u201d\\nIJILA I TUA BHINDAMENA LELU\\nNange u dibhuidisa, \u2018o
+  kuila o milongi ia Bibidia iala hanji ni valolo mu izuua ietu?\u2019 Phala ku tambuijila
+  dibhuidise: \u2018Ibhidi iebhi ia bhonzo iene mu dibhana na-iu o athu mu izuua ietu?
+  Iebhi ia bhonzo dingi?\u2019 Nange eie u banza mu ita, mu ima iene mu bhanga o athu
+  i zanga o ixi, ujibhang\u00e2nga mba ku kamba kuiuka. Mu kiki dilonge o ijila i
+  longa o Bibidia. Kioso ki uia ni kutanga, dibhuidise, \u2018o kuila o ixi ieji kala
+  kididi kiambote se o athu a kaiele o itendelesu \u00edii ia Bibidia?\u2019\\nKUZOLA
+  O KUTULULUKA\\n\u2018A zediua akua kutululuka, a buisa jimvunda, ene a exana an\u2019a
+  Nzambi.\u2019 (Matesu 5:9) \u201cSe mua ki tena, kalenu ku paze ni athu oso; mvunda
+  ki i tunde ko kuenu.\u201d\u2014Loma 12:18.\\nHENDA NI KULOLOKA\\n\u201cA zediua
+  akua henda, ene ue Nzambi u a kuatela henda.\u201d (Matesu 5:7) \u201cMu di lendukile
+  ni kudikuatekesa mudienu, mu di loloka, se bhuala muthu ua di kuata ni muku\u00e1.
+  Kala muthu a loloke muku\u00e1 kala kioso Nzambi * kia mi loloka enu, kiene ue ki
+  mu bhanga jinga.\u201d\u2014Kolose 3:13.\\nKUKALA KUMOXI S\u00c9 KATOMBO\\nNzambi
+  \u201cakua jixi joso mu ngongo ua a bhange ku mbutu ia muthu umoxi, phala kutunga
+  k\u2019ulu dia mundu.\u201d (Ikalakalu 17:26) \u201cNzambi kene ni kathombo ka athu,
+  maji ku akua jixi joso, uoso u mu xila mu\u00e8ne, h\u00e9 u bhanga ioso iaiuka,
+  Mu\u00e8ne u mu tambulula.\u201d\u2014Ikalakalu 10:34, 35.\\nKULANGA KIAMBOTE O
+  IXI\\n\u201cJihova Nzambi anga u kuata o muthu, u mu ta mu d\u00edbhia dia Edene
+  phala ku di dima ni ku di tambula konda.\u201d (Dimatekenu 2:15) Nzambi ua-nda \u2018kubuikisa
+  i\u00f3 a zanga oxi.\u2019\u2014Dijingunuinu 11:18.\\nKUZEMBA O LUIMBI NI MAUFUSA\\n\u201cAlukenu,
+  mu di lange ku lu\u00edmbi, mukonda o muenhu ua muthu ki u tundu mu umvuama u\u00ea
+  ua kuvula o jimbongo.\u201d (Luka 12:15) \u201cO undumbu-phe, ni ufusa uoso, ni
+  hanji jaiibha, ka j\u2019ivue n\u00e9 ku ji ta ng\u00f3 maka mu\u2019axaxe kenu,
+  kala kia fuama akua Ngana.\u201d\u2014Efezo 5:3.\\nKUKALA MUTHU UA KIDI NI MUKALAKADI
+  UA SU\u00cdNA\\n\u201cTua mesena kubhanga mu kidi o ima ioso.\u201d (Jihebeleu 13:18)
+  \u201cUoso ua nhan\u00e9ne, ka nhane dingi; inda a mateke kukalakala.\u201d\u2014Efezo
+  4:28.\\nO VALOLO IA KUKUATEKESA OSO A BHINDAMA\\n\u201cSuinisenu oso a toloka mixima,
+  kuatekesenu oso a bhuila mu kuxikana, athu a lendukidienu ene oso.\u201d (1 Tesalonika
+  5:14) \u2018Bindumunenu jihukunhu ni atudi a ahatu mu ibhidi i\u00e2.\u2019\u2014Tiiaku
+  1:27.\\nO Bibidia ki izuela ng\u00f3 ihi i tua tokala o kubhanga, maji iene i tu
+  londekesa ue kiebhi ki tua tokala o kubhanga. Se athu avulu a xikinine o milongi
+  \u00edii o kuila ki ieji sosolola o ibhidi ia bhonzo mu ngongo? Mu kidi, o milongi
+  ia Bibidia iala dingi ni valolo iavulu! kiebhi-phe o milongi ia Bibidia i tena ku
+  ku kuatekesa kindala?\\nKIEBHI O ILONGESU IA BIBIDIA I TENA KU KU KUATEKESA LELU\\nO
+  diiala ua beta kota mu unjimu uambe: \u2018O unjimu-phe a u tongolola mu ibhangelu.\u2019
+  (Matesu 11:19) Ku xikina mu izuelu \u00edii? O unjimu ua kidi a u mona mu mbote
+  ijila mu kukaiela o unjimu i\u00fa. Nange eie u banza, se mu kidi o Bibidia i tu
+  kuatekesa, ki ieji ngi bhekela mbote ku muenhu uami? Kiebhi iene i tena ku ngi kuatekesa
+  mu ibhidi iami kindala?\u2019 Tala o kifika kiki.\\nFina, * uexile ni ikalakalu
+  iavulu ku muenhu u\u00ea ua sangulukile. Maji mu kithangana kimoxi, muene ua bhiti
+  mu ibhidi iavulu. O mon\u2019\u00ea ua kilumba uafu. Ua disenge ni muadi u\u00ea.
+  Kitadi kia kexile na-kiu kiabhu. Muene u lembalala: \u201cEme ki ngi dijidile dingi
+  se me nanhi, mukonda ki ngexile dingi ni mona, diiala, n\u00e9 inzo. Nga divuile
+  s\u00e9 valolo, s\u00e9 nguzu, n\u00e9 kidielelu kia lungu ni h\u00e1dia.\u201d\\nFina
+  nuka ua monene o kidi kia izuelu \u00edii : \u201cIzuua ia mivu ietu makuinhi sambuadi,
+  amoxi kia kala ni nguzu, a bhixilu bhu makuinhi nake; hanji-phe kujiza ku\u00e2
+  kua hadi ng\u00f3 ni muk\u00f4ndo; ki i nange kubhita, kindala tu tuka.\u201d\u2014Jis\u00e1lamu
+  90:10.\\nMu ithangana ia bhonzo Fina ua soto o kikuatekesu mu Bibidia. O kikuatekesu
+  kia tambula mu Bibidia kikuatekesu kia dikota. Kala ki tua-nda mona mu milongi ia-nda
+  kaiela, athu avulu, a mono kuila o Bibidia ia a kuatekesa kioso kia kaiela o itendelesu
+  ia sange mu Bibidia, mu ku dibhana ni ibhidi ku muenhu u\u00e2. Ene a divu kuila
+  o Bibidia iedi kala o kiteka kiambote kia kexile ku muzeu ki tua tange ku dimatekenu
+  dia milongi. Iene ki i difu ni milongi ia madivulu a mukua, kioso ki bhita thembu
+  ki i kala dingi ni valolo. O kuila kiki ki bhita mukonda o Bibidia a isoneka mu
+  ukexilu uengi? O kuila iene iala ni ibanzelu ia Nzambi mba o ibanzelu ia athu?\u20141
+  Tesalonika 2:13.\\nNange eie uene mu mona kuila o muenhu ki u nange kubhita, uezala
+  ue ni ibhidi. Kioso ki u dibhana ni ibhidi, kuebhi ku u tena kusanga o ku kondama,
+  kikuatekesu ni itendelesu i ku su\u00ednisa?\\nTua-nda dilonga mbandu jitatu ji
+  londekesa kuila o Bibidia i tena ku ku kuatekesa. O Bibidia i tena ku ku kuatekesa
+  mu:\\nkubhanga ioso phala kulenga o ibhidi.\\nkubatula o maka kioso kia moneka.\\nkudibhana
+  kiambote ni maka ki u tena kua batula.\\nO milongi ia-nda kaiela-ku ia-nda zuela
+  o maka enh\u00e1.\"", "\"Dijina Di\u00ea ni Ima ia ku Tokala\\nO dijina di\u00ea
+  ni ima ia ku tokala iu ua tumikisa mu kijimbuete kiki, ia-nda kala ng\u00f3 bhu
+  maku a Watchtower Bible and Tract Society of New York, Inc., mba ku filiiale j\u00ea
+  joso ni disukilu dia ku bhanga ioso ia ku tangela kioso ki ua di soneka. Watchtower
+  Bible and Tract Society of New York, Inc. ki i bhana o dijina di\u00ea ni ima ia
+  ku tokala ku muthu u\u00e9ngi, a bhanga ng\u00f3 kiki se eie u bhinga kikuatekesu
+  mba ku bhinga ku bhanga ngolokela phala ku kumbidila ijila mba itumu mba phala ku
+  tungula makutu mba ku u langa ku mii mba maka engi. O dijina di\u00ea ni ima ia
+  ku tokala, ka-nda i sumbisa mba ku i lukalesa.\\nKijimbuete ki\u00ea\\nO kijimbuete
+  ki\u00ea, ki u bhana kioso ki u jikula konda mu kijimbuete kiki, kiene kia-nda kuatekesa
+  phala ku di zuelesa n\u2019eie mu kijimbuete ki\u00ea. Mu kifika, se u jimba o dijina
+  di\u00ea dia ku bokona mu kijimbuete ki\u00ea mba o senha i\u00ea mba u bhinga kikuatekesu
+  phala ku jikula o mutelembe. A-nda bhana kikuatekesu mu kaxi ka njimbu a-nda i tumikisa
+  mu dijina di\u00ea.\\nCookies\\nO cookies, phala ku lembalala o ima ia solo o muthu
+  kioso kia bokona mu kijimbuete, jw.org. Mu kifika, o dimi dia uabhela, diala mu
+  kijimbuete, jw.org a i bhaka mu cookie, phala o dimi didi a di sole kioso o muthu
+  kia-nda vutuka mu kijimbuete. O maka a ku tokala ka-nda kala mu cookies, kana.\\nEncripta\u00e7\u00e3o
+  ativa mba JavaScript\\nO Encripta\u00e7\u00e3o ativa, i kuatekesa o jw.org phala
+  o kijimbuete ki kalakale kiambote. Mu ku katula mbote mu scripting, kikuatekesa
+  o jw.org ku bhana itendelesu ni lusolo ku muthu u bokona-mu. O jw.org ki i ta software
+  mu Komputadolo i\u00ea mu kaxi ka scripting mba ku bhaka maka a ku tokala s\u00e9
+  eie ku tumina.\\nEncripta\u00e7\u00e3o ativa mba JavaScript, ja tokala ku kala ku
+  navegador phala o jw.org i kalakale kiambote. Sa\u00ed ji navegadores ji kuatekesa
+  ku jikula ni ku jika kijimbuete kia tokala. Tanga o mukanda ua navegador phala kuijiia
+  kiebhi ki u jikula o Encripta\u00e7\u00e3o ativa.\\nSe sa\u00ed kizuua ku bhinga
+  ku lungulula o kikutu kietu, tua-nda ta o ima \u00edii io lungulule mu mbandu ienii
+  phala ni uijiie o maka u tua katula ni ihi i tu bhanga nau.\"", "\"ANDE dia Davidi
+  kufu\u00e1, mu\u00e9ne ua bhanene o ilongesu ia Nzambi kua Solom\u00e1 phala ku
+  tunga o tembulu ia Jihova. Mu mivu ia kauana ia utuminu u\u00ea, Solom\u00e1 ua
+  mateka ku tunga o tembulu, iambatele sambuadi dia mivu ni kaxaxi phala ku i zubha.
+  Makuinhi a hama ia midi ia maiala a kalakala mu ku tunga o tembulu, o ku i tunga
+  kua bhingile kitadi kiavulu. Mukonda ai iukisa ni ulu iavulu ni phalata.\\nMu tembulu
+  mua kexile sala jiiadi jonene, k\u00e1la kia kexile mu balaka. Maji o sala jiji,
+  ja betele kota, o ja kexile mu balaka ndenge. Solom\u00e1 ua tumina ku tula o \u00e1laka
+  ia kikutu mu sala iala ku hota, o ima ia kam\u00fakua ia balaka ai tudile mu sala
+  ia kam\u00fakua.\\nKia zubha ku tunga o tembulu, a bhange fesa ionene. Solom\u00e1
+  ua fukamene ku pholo ia tembulu iu ua sambe, k\u00e1la ki ua mu mona mu fikula.
+  Solom\u00e1 uambela Jihova, \u2018Sumbala o diulu dioso ki di soko phala eie,\u2019
+  \u2018kiebhi ki tena ku ku soka o tembulu \u00edii. Maji Nzambi iami, nga ku di\u00f3ndo
+  ivua o mundu u\u00ea kioso kia samba bhu kididi kiki.\u2019\\nKioso Solom\u00e1
+  kia zubha o musambu, ku diulu kua tundu t\u00fabhia. O t\u00fabhia tua jokotesa
+  o iama ia kexile mu sata. O tembulu iezalele ni mukengeji ua Jihova. Kiki kiedikisa
+  kuma Jihova u\u00e9vu, iu ua sanguluka ni tembulu ni musambu ua Solom\u00e1. Kienhiki,
+  athu ka kexile dingi m\u00faia mu kalat\u00f3dio, mukonda o tembulu kiene ki\u00e1
+  o kididi kia ubhezelu.\\nMu thembu iavulu Solom\u00e1 ua tumine ni unjimu uoso,
+  o mundu ua sangulukile. Maji Solom\u00e1 uakexile ni ahatu avulu a jixi jengi ka
+  kexile mu bheza Jihova. Ua mu mona o muhatu ua mu bheza o kiteka? Mu kusuk\u00e1ko,
+  ene a bhangesa Solom\u00e1 kubheza u\u00e9 o jinzambi ja makutu. Uejiia ihi ia bhiti
+  kioso Solom\u00e1 kia bhange kiki? Mu\u00e9ne ka kexile dingi mu talatala kiambote
+  o mundu. Mu\u00e9ne uexile ki\u00e1 muthu uaiibha, o mundu ka sangulukile dingi.\\nKiki
+  kia bhangesa Jihova ku dizangala ni Solom\u00e1, iu ua mu ambela: \u2018Nga-nda
+  ku katula o utuminu, nga-nda ku u bhana ku muthu u\u00e9ngi. Ki nga-nda ki bhanga
+  kindala ku muenhu u\u00ea, maji ku utuminu ua mon\u2019\u00ea. Maji ki nga-nda katula
+  o mundu uoso ku utuminu ua mon\u2019\u00ea.\u2019 Ndoko tu tale kiebhi ki kia bhiti.\\n1
+  Malunda 28:9-21; 29:1-9; 1 Jisobha 5:1-18; 2 Malunda 6:12-42; 7:1-5; 1 Jisobha 11:9-13.\\nIbhuidisu\\n-
+  Thembu ikuxi ia bhange Solom\u00e1 phala ku tunga o tembulu ia Jihova? Mukonda diahi
+  ia bhingile kitadi kiavulu?\\n- Sala jikuxi jonene ja kexile mu tembulu? Ihi io
+  tule koxi dia sala?\\n- Ihi ia zuela Solom\u00e1 mu musambu, kioso kia zubha o tembulu?\\n-
+  Kiebhi kiedikisa Jihova kuma o musambu ua Solom\u00e1 ua mu uabhele?\\n- Ahatu a
+  Solom\u00e1 a mu bhangesa ku bhanga ihi? Ni ihi ia bhitile ni Solom\u00e1?\\n- Mukonda
+  diahi Jihova ua dizangele ni Solom\u00e1? Ni ihi ia mu zuelela Jihova?\\nIbhuidisu
+  ia mukua\\n- Tanga 1 Malunda 28:9, 10.\\nMu ku xinganeka mu izuelelu ia Davidi io
+  soneke mu divulu dia 1 Malunda 28:9, 10, ihi i tua tokala ku kolokota ku bhanga
+  ku muenhu uetu izuua ioso? (Jis\u00e1. 19:14; Fil. 4:8, 9)\\n- Tanga 2 Malunda 6:12-21,
+  32-42.\\nKiebhi Solom\u00e1 kiedikisa kuma ki bhuala inzo ia tunga athu i soka phala
+  o Nzambi Muteni-a-Ioso? (2 Mal. 6:18; Ikalakalu 17:24, 25)\\nIhi idikisa o izuelu
+  ia Solom\u00e1 io soneke mu divulu dia 2 Malunda 6:32, 33, ia lungu ni Jihova? (Ikalakalu
+  10:34, 35; Nga. 2:6)\\n- Tanga 2 Malunda 7:1-5.\\nK\u00e1la an\u2019a Izalaiele
+  kia ximana Jihova mu ku mona o fuma i\u00ea, kiebhi ki tua tokala ku bhanga lelu,
+  kioso ki tu mona o mabes\u00e1 a Jihova ku mundu u\u00ea? (2 Mala 7:3; Jis\u00e1.
+  22:22; 34:1; 96:2)\\n- Tanga 1 Jisobha 11:9-13.\\nKiebhi ukexilu ua Solom\u00e1
+  ku muenhu, uidikisa o valolo ia ku kolokota kat\u00e9 ku disukilu? (1 Jis. 11:4,
+  9; Mat. 10:22; Dij. 2:10)\"", "\"UKEXILU WA UKIDIST\u00c1 NI UKUNJI WETU\u2013MILONGI
+  PHALA O Y\u00d4NGE Kasambuadi 2018\\nWENDELU WA UKIDIST\u00c1\\nO makaza Jikidist\u00e1
+  a mona o kikutu kya ukaza kala kima kyala ni valolo ya dikota, mu kiki a bhanga
+  yoso phala ku dibhana kyambote ni ibhidi i moneka mu ukaza, mu ku kumbidila o itumu
+  ya Bibidya.\\nO VALOLO YA MAK\u2019\u00c2 NZAMBI\\nMukonda dyahi o jipoxolo ehela
+  kwila o w\u00f4ma wa athu u a funyisa? Kyoso Jez\u00fa kya mu fukununa, ihi ya kwatekesa
+  o jipoxolo ku kamba o w\u00f4ma wa athu ni kuboka n\u00e9 mwene ni izukutisu?\\nWENDELU
+  WA UKIDIST\u00c1\\nO kwila wene mu kala ni w\u00f4ma wa ku dilondekesa kala u Mbangi
+  ya Jihova mba wa kubhana umbangi? Se kyene, kyebhi ki u tena kukala ni kuswina phala
+  kubhana umbangi?\"", "\"Uejiia se Unguvulu uebhi u tua mu zuela?\u2014 Kiene muene,
+  o Utuminu ua Nzambi, o Utuminu ua-nda bhangesa dingi o ixi ku kala pala\u00edzu.
+  Ua mesena kuijiia dingi ia lungu ni Utuminu i\u00fa?\u2014\\nO utuminu uoso ua tokala
+  u kala ni sobha. O sobha u tumina o athu mu ixi i\u00ea. Eie uejiia se nanhi o Sobha
+  ia Utuminu ua Nzambi?\u2014 Jez\u00fa Kristu. Mu\u00e9ne uene ku diulu. Kua kambe
+  ng\u00f3, mu\u00e9ne ua-nda kala Sobha ia athu oso mu ixi! O kuila tua-nda sanguluka
+  kioso Jez\u00fa kia-nda kala Sobha ia ixi ioso?\u2014\\nIhi i ua kingila mu Pala\u00edzu?\\nTua-nda
+  zediua kiavulu! Mu Pala\u00edzu, o athu ka-nda bh\u00e2nga dingi, ka-nda lua dingi
+  ita. O athu oso a-nda di zola. Se-ku muthu ua-nda kata, mba kufu\u00e1. O ifofo
+  ia-nda mona, o axilu a-nda ku\u00edvua, oso ka mu tena kuenda lelu, a-nda tuka-tuka.
+  Kua-nda kala kudia kuavulu phala o athu enioso. O iama ia-nda di bhana kiambote
+  mudi\u00e2, a-nda kala u\u00e9 makamba metu. O athu af\u00fa ki\u00e1, a-nda vutuka
+  ku muenhu. Athu avulu u ua di longo mu kadivulu kaka, k\u00e1la Bebeka, Lahaba,
+  Davidi, ni Elija, a-nda vutuka u\u00e9 ku muenhu! Ua mesena ku a ejiia kioso kia-nda
+  vutuka ku muenhu?\u2014\\nJihova ua ku zolo, ua mesena kuila eie u zediua. Se u
+  suluka mu ku di longa ia lungu ni Jihova ni ku mu belesela, ua-nda kala ni muenhu
+  ua kalelaku mu pala\u00edzu ia iuka! Kiki kiene ki ua mesena?\u2014\\nTANGA MU BIBIDIA
+  I\u00ca\\nIzaia 2:4; 11:6-9; 25:8; 33:24; 35:5, 6\\nNzu\u00e1 5:28, 29; 17:3\"",
+  "\"Sa\u00ed athu ene mu dibhuidisa se o musoso ua Davidi ni Ngoliia, musoso ua kidi
+  muene mba ua makutu. O kuila ua kexile u\u00e9 ni phata kioso ki ua tange o mbandu
+  ia bhiti? Se kiene, dilonge o ibhuidisu itatu \u00edii.\\n1 | O kuila kuexile muene
+  muthu ua kexile ni kitala kia metulu 2 ni 9?\\nO Bibidia i zuela kuila Ngoliia,
+  \u201co kitala ki\u00ea k\u00f3vado jisamanu ni phalumu imoxi.\u201d (1 Samuuele
+  17:4) O k\u00f3vado bhabha ia mu lombolola kifua 44 a jisentimetru ni 5 ia kulebha;
+  o phalumu ilombolola 22 a jisentimetru ni 2. Se tu kondala tua-nda kala ni metulu
+  2 ni 9. Sa\u00ed athu ka xikina kuila Ngoliia ua kexile ni kitala kiokio, maji xinganeka:
+  Mu izuua ietu, sa\u00ed divulu dia tange kuila, o muthu ua tundu oso mu kitala ua
+  kexile ni metulu 2 ni 7. O kuila kubhonza kuxikina kuila Ngoliia ua mu tundile mu
+  kitala? Mu\u00e9ne ua tokalele ku muiji ua Jilefa\u00edme, o mala a tokalele ku
+  muiji i\u00fa a lebhele kiavulu. Sa\u00ed mukanda ua Ijitu ua muvu ua 13 kia hama
+  A.K.K. uambe kuila kuexile mazonda mu ixi ia Kanana akexile ni metulu 2 ni 4 kia
+  kitala. Mu kiki, sumbala kubhonza kuxikina, maji kidi muene Ngoliia ua kexile ni
+  kitala kia dikota.\\n2 | O kuila Davidi uexile muthu ua kidi?\\nM\u2019ukulu muexile
+  athu akexile mu sota ndunge ia kutanga kuila o Sobha Davidi kexile muthu ua kidi,
+  kifua sabhu ng\u00f3 maji ka tena kulombolola o kidi. O jingijiie akua kukanda o
+  ima k\u2019oxi a mavu a sange isoneku iokulu iambe kiki: \u201co inzo ia Davidi.\u201d
+  Jez\u00fa Kristu ua tumbula u\u00e9 Davidi kuila muthu ua kidi. (Matesu 12:3; 22:43-45)
+  Jez\u00fa mu\u00e9ne o Mexiia. O Bibidia ilondekesa mu veji jiiadi kuila, Jez\u00fa
+  ua tundu ku muiji ua Sobha Davidi. (Matesu 1:6-16; Luka 3:23-31) S\u00e9 phata,
+  Davidi ua kexile muene ku muenhu.\\n3 | O kuila o kididi kua bhiti o musoso i\u00fa,
+  kia kidi muene?\\nO Bibidia iamba kuila, o ita ia bhiti bhu honga ia Ela. Maji ilombolola
+  kiambote o kididi. Iamba kuila aku\u00e2 Fid\u00edxia a tele o kib\u00e2ngu ki\u00e2
+  ku mulundu mu kaxi ka mbanza jiiadi, o mbanza ia Soko ni mbanza ia Azeka. Aku\u00e2
+  Izalaiele akexile bhu honga, ni mu sambu\u00e1 dia mulundu mua kexile aku\u00e2
+  Fid\u00edxia. O kuila ididi \u00edii ia kexile-ku muene?\\nTalesa ia tange o diiala
+  uendele mu ididi \u00edii, mu\u00e9ne uixi: \u201cO muendexi uetu, kexile muku\u00e1
+  ngeleja, ua tuendesa kat\u00e9 bhu honga ia Ela. Tua bokuena mu njila ia tuendesa
+  kat\u00e9 ku thandu\u2019a mulundu. Kioso ki tua kexile mu tala o honga, mu\u00e9ne
+  ua tu bhingi kutanga o divulu dia 1 Samuuele 17:1-3. Mu suluka ua londekesa o honga
+  iu uambe: \u2018Kunh\u00e1, ku mbandu ienu ia kiasu, mu sanga-ku o ibh\u00e9la ia
+  mbanza ia Soko.\u2019 Ua bhiluka iu uambe, \u2018O koko, ku mbandu ienu ia kadilu,
+  mu sanga-ku o ibh\u00e9la ia mbanza ia Azeka. Aku\u00e2 Fid\u00edxia, a tele o kibangu
+  ki\u00e2 mu kaxi ka mbanza jiiadi jiji, mu milundu i mua mu tala. Mu kiki, etu tuemana
+  bhua kexile aku\u00e2 Izalaiele.\u2019 Bhenhobho nga xinganeka Saulu ni Davidi emana
+  bhu ng\u2019emanene eme. Bhenhobho tua kulumuka etu tua za\u00faka o ngiji iezalele
+  ni matadi, ki muexile menha avulu. Nga xinganeka Davidi ua mu bhetama phala kubonga
+  matadi a tanu, bhua tundu o ditadi dia jibhile na-diu Ngoliia.\u201d O mujitu i\u00fa
+  k\u00e1la o ajitu a muku\u00e1, a diuanene kiavulu mu kumona kuila ioso i tanga
+  o Bibidia kidi muene.\\nS\u00e9-ku kima kilondekesa kuila o musoso i\u00fa ua makutu.
+  O athu ni ididi iexile muene ia kidi. O kia beta-o-kota, o musoso i\u00fa uala mu
+  Mak\u2019\u00e2 Nzambi, o Nzambi ia kidi, I\u00f3 \u2018ka tena kutanga makutu.\u2019\u2014Tito
+  1:2; 2 Timote 3:16.\"", "\"KIOSO o mundu ua Nzambi kia xisa Babilonha ku muvu ua
+  537 A.K.K., Jihova ua solo o njila ia kuia mu Jeluzaleme. Mu\u00e9ne uambe: \u201cIudikenu
+  njila phala o mundu. Sokelesenu, sokelesenu o kikoka, nonenu-mu o matadi.\u201d
+  (Iza. 62:10) Xinganeka kiebhi o Jijud\u00e9 kieji bhanga kiki. Sumbala o a diangele,
+  a iudika o njila, mu ku xita o makungu. Kiki kieji kuatekesa o jiphange j\u00e2
+  a xalele ku dima, a kexile mu kaiela phala ku vutuka ku ixi i\u00e2.\\nTu tena ku
+  bhangesa o kifika kiki, k\u00e1la njila iambata o muthu phala ku kula mu nzumbi.
+  Jihova ua-ndala kuma o ji selevende j\u00ea joso ende mu njila \u00edii, s\u00e9
+  kima kioso-kioso kua fidisa. O Maka m\u00ea a tu tendelesa: \u2018Xinganeka o kima
+  ki ua mesena o ku bhanga, o jinjila j\u00e9 joso ji ku kale ja uhete.\u2019 (Jisa.
+  4:26) Ki kale u munzangala mba kana, eie u tena ku katula mbote ku mulongi i\u00fa
+  ua Nzambi.\\nIUDIKA O NJILA I\u00ca MU KU SOLA KIAMBOTE\\nSumbala uevu kia athu
+  kuzuela ima kala \u00edii ku minzangala ala mu kitala kia kikumbi: \u2018Muene uala
+  ni ima iavulu phala ku bhanga ku pholo,\u2019 mba \u2018muene ua mu kunda ididi
+  iavulu.\u2019 O minzangala ioso iala ni sauidi iambote, a banza ni lusolo, ala u\u00e2
+  ni hanji ia ku kala ni ima iambote ku muenhu. O Bibidia izuela: \u201cMakembu a
+  minzangala, o kuvula nguzu.\u201d (Jisa. 20:29) O munzangala u bhakula o uhete u\u00e9
+  ni nguzu i\u00ea mu sidivisu ia Jihova, u tena ku suua jimbambe javulu, ni ku sanguluka
+  ku muenhu.\\nK\u00e1la ki ua kijiia ki\u00e1, lelu, o mundu u bhana valolo iavulu
+  ku uhete ua minzangala ietu. Se munzangala Mbangi ia Jihova u di tunda kiambote
+  bhu xikola, o mesene i\u00ea, mba koleka i\u00ea u mu su\u00ednisa ku di longa mu
+  xikola ia katunda, phala ku di tunda kiambote ku mundu i\u00fa. Mba phang\u2019etu
+  ia kilumba, mba munzangala, ala ni uhete ua ku bhanga malunda a fiti, nange a mu
+  sola phala ku kaiela o ufunu i\u00fa. O kuila ua mu di bhana ni maka enh\u00e1,
+  mba uejiia muthu ua mu di bhana ni maka enh\u00e1? Ihi ia-nda kuatekesa o Kidist\u00e1
+  o ku sola ni unjimu?\\nO milongi ia Bibidia, i tena ku kuatekesa o muthu ku di pelepalala
+  kiambote phala kuenda mu njila ia muenhu. O divulu dia Ndongixi 12:1 diambe: \u2018Mu
+  izuua ia unzangala u\u00e9, lembalala I\u00f3 uoso ua ku bhange.\u2019 Kiebhi eie
+  u munzangala ki u tena o ku \u2018lembalala I\u00f3 uoso ua ku bhange?\u2019\\nXinganeka
+  ia bhitile ni Eric * ku Africa ia Oeste. Mu\u00e9ne ua uabhele o ku di t\u00e1 mu
+  malunda a fiti. Kioso mu\u00e9ne kia tenesa 15 dia mivu, a mu solo phala ku jokala
+  mu kibuka kia ixi. Kiki ki londekesa kuila, muene ueji tambula milongi ia ku jokala
+  mu jixi ja Europa, sumbala phala mu\u00e9ne ku kala mujokadi ua katunda. Kiebhi
+  o milongi ia ku \u2018lembalala I\u00f3 uoso ua ku Bhange,\u2019 ieji mu kuatekesa?
+  Dis\u00e1 diahi eie u munzangala mba kamba di\u00ea, di mu tena o ku di longa?\\nKioso
+  kia kexile mu xikola, Eric ua mateka o ku di longa o Bibidia ni Jimbangi ja Jihova.
+  Mu\u00e9ne ua kijidile kuila o mubhangi u\u00e9 ua-nda zubha o maka oso a athu ku
+  h\u00e1dia. Eric ua mono kuila kima kiambote o ku bhana o kithangana ni nguzu i\u00ea
+  mu ku bhanga o vondadi ia Nzambi. Mukonda dia kiki, Eric ka solo dingi o malunda
+  a fiti kala kikalakalu kia katunda phala mu\u00e9ne. Mu kiki, mu\u00e9ne a mu batizala,
+  iu ua kuata mu ku suua jimbambe mu nzumbi. Kioso kia bhiti ithangana, mu\u00e9ne
+  ua kituka m\u00fakuatekexi ua tufunga, ia a mu ixana mu ku bhanga o Xikola ia Bibidia
+  phala o Makudi.\\nSe mu\u00e9ne ua solele o malunda a fiti, sumbala Eric ueji nganhala
+  fuma ni kitadi kiavulu. Maji mu\u00e9ne uejidile o kidi kia milongi \u00edii ia
+  Bibidia: \u201cMukua itadi, jimbongo j\u00ea u ji kita mbonge ia ku mu fikidila;
+  phala muene, kifua kimbaka kia lebha kitala.\u201d (Jisa. 18:11) Mu kidi, o muthu
+  u dielela mu ku kondama kua unvuama, izala ng\u00f3. O athu a bhindamena kukala
+  jimvuama, \u201ca di toma mu mavuua mavulu muku\u00e2 ni jisongo.\u201d\\nMaji minzangala
+  iavulu, a sange o ku sanguluka ni ku kondama kuavulu mu sidivisu ia thembu ioso.
+  Eric uambe: \u201cEme nga di bundu mu \u2018kibuka\u2019 kia dikota kia jiselevende
+  ja Jihova ala mu sidivisu ia thembu ioso.\u201d Kiki, kiene o kibuka kiambote mu
+  ngala mu bhanga mbandu, mu kiki eme ngi sakidila Jihova mu ku ngi londekesa o njila
+  ia kidi, i bhekela o ku sanguluka ni muenhu ua kidi.\u201d\\nEie u\u00e9? Mu veji
+  dia ku bhindamena o ima ia mundu i\u00fa, mukonda diahi ku sole \u201cnjila\u201d
+  ia Jihova, ia ku kala muboki ua thembu ioso?\\nKATULA O IBHIDI MU NJILA I\u00ca\\nSa\u00ed
+  dikaza, mu ku kunda o filiiale ia Estados Unidos, a mono o ku sanguluka kua Jibetelita
+  a mu sidivila Jihova mu kididi kieni\u00f3kio. O phange ia muhatu ua soneka: \u201cEtu
+  tua divuile kiambote mu uendelu uetu ku muenhu.\u201d O dikaza dia solo ku sota
+  kithangana ni nguzu phala ku suua jimbambe mu sidivisu ia Ngana.\\nSa\u00ed kithangana,
+  o ima ia mesenene o ku lungulula, ia londekesele kala ima ia bhonzele. Maji sa\u00ed
+  kizuua ene a xinganeka mu kibatulu kia kizuua kia Mikanda Ik\u00f4la. Kiexile o
+  divulu dia Nzu\u00e1 8:31, mu tu sanga o izuelu ia Jez\u00fa iambe: \u2018Se mu
+  xalela mu milongi iami, mu kala mu kidi mu jixibulu jami.\u2019 Ni milongi \u00edii
+  mu kilunji ki\u00e2 ene a xinganeka: \u201cKima kioso kioso ki tu bhanga phala ku
+  sosolola o ima ku muenhu uetu, ki bhekela mabes\u00e1.\u201d Ene a sumbisa o inzo
+  i\u00e2 ia dikota, ia a katula o ibhindamu ia mukua ku thandu di\u00e2, i\u00e2
+  ai mu tunga kididi ki\u00e9ngi kuala o kilunga kia bhingile kikuatekesu. Lelu, ene
+  aboki a thembu ioso, maji ene mu kuatekesa u\u00e9 mu ku tunga o Ididi ia Ubhezelu,
+  ni ku di bhakula mu ku kalakala mu i\u00f4nge ia makota. Kiebhi kiene mu divua?
+  Ene ambe: \u201cTua sanguluka, mukonda ki tu bhindamena ima iavulu ku muenhu uetu,
+  maji tu bhanga ng\u00f3 i tu su\u00ednisa o Kilunga kia Jihova.\u201d\\nKOLOKOTA
+  MU NJILA PHALA UIE KU PHOLO\\nSalom\u00e1 ua soneka: \u201cMesu-m\u00e9 a tale muene
+  ku pholo, o ibhebhetelu i\u00e9 lungisa-iu muene kiambote mu njila.\u201d (Jisa.
+  4:25) K\u00e1la xofelu, u t\u00e1 o mesu-m\u00ea ku pholo mu kikoka, etu ki tu tokala
+  u\u00e9 ku landuka mu kuehela kima ki tu fidisa o ku suua jimbambe.\\nMbambe jahi
+  ji u tena o ku suua, ni ku ji bhanga? O ku kala mu sidivisu ia thembu ioso, mbambe
+  iambote. O mbambe ia muku\u00e1, o ku sidivila mu kilunga kia dikota mua bhingi
+  aboki ala ni uhete, phala ku kuatekesa o ku boka mbambe ia dikota ia kilunga. Mba
+  kilunga muala aboki avulu, maji ki muala tufunga, mba akuatekexi a tu funga a soko.
+  O kuila eie u tena ku kuatekesa mu maukexilu i\u00e1? Mukonda diahi ku zuela ni
+  kafunga ka ilunga phala ku ku kuatekesa? Se ua mesena kuia dikanga ku ixi i\u00e9ngi,
+  u tena kuibhula kuebhi kuala o ilunga ia bhingi kikuatekesu. *\\nTu vutuke ku ima
+  ia zuela Izaia 62:10. Sa\u00ed Jijud\u00e9, sumbala a kalakalele kiavulu, phala
+  ku iudika ni ku xita o makungu a njila iia ku ixi i\u00e1, phala o mundu ua Nzambi
+  u bhixile kiambote ku ixi i\u00e2. Se eie ua mu di su\u00ednisa phala ku suua jimbambe
+  mu nzumbi, kana ku bhuila. Ni kikuatekesu kia Nzambi, eie u tena u\u00e9 ku bhixila
+  ku jimbambe jiji. Kolokota mu ku bhinga unjimu kua Jihova, kioso ki uia ni ku su\u00edna
+  mu ku katula o ibhidi mu njila i\u00ea. Mu kithangana kia tokala, eie ua-nda mona
+  kiebhi mu\u00e9ne kia-nda ku kuatekesa o ku \u2018xinganeka o kima ki ua mesena
+  o ku bhanga.\u2019\"", "\"Mu Kididi kia Ubhezelu, tu di longa o milongi ia Bibidia
+  ia lungu ni Utuminu ua Nzambi\\nIdidi mua bhanga o ubhezelu ua kidi mu madiembu.
+  Mu ididi \u00edii, a bhanga-mu u\u00e9 o i\u00f4nge phala kuia mu sidivisu ia kuboka
+  o njimbu iambote. (Matesu 24:14) O Ididi ia Ubhezelu ki i difu, kala kididi kiala
+  ni k\u00eddifua ki\u00ea, maji ioso ididi iambote, mu kididi kimoxi, a tena ku diongeka-mu
+  ilunga iavulu. Ku mivu ia bhiti tua tungu ididi iavulu ia ubhe (kala kizuua ididi
+  itanu) phala o ilunga ietu ia mu dibandekesa, i kale ni ididi ia fuama. Kiebhi kia
+  tena kutunga o ididi \u00edii?\\nO ididi \u00edii, a i tunga ni kitadi kia sangela.
+  Mu ididi ioso ia ubhezelu, sa\u00ed-mu kaxa ia ku sangela, phala ku Tunga o Ididi
+  ia Ubhezelu ku Mundu Uoso. O kitadi kiki, kia sangela a ki tumikisa ku filiiale
+  phala ku ki bhaka kioso, o ilunga kia ki bhindamena kutunga Ididi ia Ubhezelu, o
+  filiiale u bhana o kitadi kiki.\\nO athu a tunga o ididi \u00edii, athu a ukexilu
+  uoso a di bhakula mu vondadi i\u00e2 s\u00e9 ku a futa. Mu jixi javulu muala Ibuka
+  i Tunga o Ididi ia Ubhezelu. O ibuka \u00edii, aia ilunga ni ilunga mu tunga o ididi
+  \u00edii, n\u00e9 muene kioso ki ku bhinga ku kuatekesa o jiphange ja mukua ku maxokololo
+  a ixi ienioi\u00f3. Mu jixi jengi muala ibuka ia kutunga mu madiembu (Comiss\u00f5es
+  Regionais de Constru\u00e7\u00e3o) a o solo phala kubhana o kikalakalu kia kukala
+  kupholo mu ku tunga o Ididi ia Ubhezelu. O tufunga ala ni ufunu ua kutunga, a kala
+  kupholo kioso kia mu tunga o kididi kia Ubhezelu kat\u00e9 kia ki zubha ni jiphange
+  ja di bhakula a kuatekesa u\u00e1. Kioso kia tunga, o jiphange a tokala ku kilunga
+  kieni\u00f3kio ene a tokala ku beta-kota mu ku kuatekesa. O nzumbi ia Jihova, ni
+  nguzu i bhanga o jiselevende j\u00ea, i bhangesa kuila a tena kutunga o ididi \u00edii.\\nMukonda
+  diahi o ididi ietu ia kubheza, a ixana Ididi ia Ubhezelu?\\nKiebhi kia tena kutunga
+  o Ididi ia Ubhezelu ku mundu uoso?\""]'
+src_ngrams: '{"1": [[["o"], 55385], [["mu"], 41199], [["ni"], 27406], [["ua"], 21211],
+  [["ia"], 18698]], "2": [[["lungu ni"], 2598], [["o athu"], 2132], [["kexile mu"],
+  2129], [["o bibidia"], 1995], [["mu\u00e9ne ua"], 1789]], "3": [[["ia lungu ni"],
+  1577], [["bhu kaxi ka"], 611], [["jimbangi ja jihova"], 578], [["ua kexile mu"],
+  532], [["utuminu ua nzambi"], 498]], "4": [[["kiebhi ki tu tena"], 329], [["o utuminu
+  ua nzambi"], 278], [["o jimbangi ja jihova"], 253], [["o bibidia i tu"], 158], [["jikidist\u00e1
+  a a undu"], 145]], "5": [[["ihi i longa o bibidia"], 105], [["o jikidist\u00e1 a
+  a undu"], 97], [["mu kitangelu kya bibidya kya"], 87], [["kya bibidya kya semana
+  yiyi"], 87], [["kitangelu kya bibidya kya semana"], 87]]}'

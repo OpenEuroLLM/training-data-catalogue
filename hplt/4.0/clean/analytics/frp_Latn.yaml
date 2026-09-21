@@ -1,0 +1,1094 @@
+corpus: hplt-v4-frp
+srclang: frp
+timestamp: 1789028139.4181042
+warnings:
+- src_ngrams_frp_nostopwords
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2021-31", 382], ["CC-MAIN-2017-51", 331], ["CC-MAIN-2017-26",
+  239], ["CC-MAIN-2020-05", 209], ["CC-MAIN-2022-21", 205], ["CC-MAIN-2022-05", 176],
+  ["CC-MAIN-2022-27", 143], ["CC-MAIN-2020-34", 131], ["CC-MAIN-2020-10", 124], ["CC-MAIN-2021-49",
+  120], ["CC-MAIN-2021-21", 119], ["CC-MAIN-2021-10", 116], ["CC-MAIN-2018-05", 115],
+  ["CC-MAIN-2021-39", 112], ["CC-MAIN-2025-30", 109], ["CC-MAIN-2022-33", 109], ["CC-MAIN-2021-43",
+  105], ["CC-MAIN-2020-29", 102], ["CC-MAIN-2020-45", 95], ["CC-MAIN-2021-25", 94],
+  ["CC-MAIN-2022-49", 90], ["archivebot", 88], ["CC-MAIN-2021-17", 88], ["CC-MAIN-2014-15",
+  84], ["CC-MAIN-2024-38", 80], ["CC-MAIN-2020-24", 80], ["CC-MAIN-2023-06", 78],
+  ["CC-MAIN-2024-46", 77], ["CC-MAIN-2025-26", 75], ["CC-MAIN-2023-50", 69], ["CC-MAIN-2022-40",
+  68], ["CC-MAIN-2021-04", 68], ["CC-MAIN-2023-40", 66], ["CC-MAIN-2018-22", 66],
+  ["CC-MAIN-2018-39", 64], ["CC-MAIN-2020-40", 63], ["CC-MAIN-2023-23", 60], ["CC-MAIN-2024-30",
+  57], ["CC-MAIN-2025-13", 53], ["CC-MAIN-2023-14", 51], ["CC-MAIN-2018-34", 49],
+  ["CC-MAIN-2017-04", 48], ["CC-MAIN-2024-22", 44], ["CC-MAIN-2024-10", 43], ["CC-MAIN-2024-42",
+  42], ["CC-MAIN-2024-18", 42], ["CC-MAIN-2020-50", 40], ["CC-MAIN-2020-16", 39],
+  ["CC-MAIN-2016-30", 38], ["wide00016", 35], ["wide00011", 35], ["CC-MAIN-2025-21",
+  34], ["CC-MAIN-2019-04", 34], ["CC-MAIN-2025-18", 32], ["CC-MAIN-2018-43", 31],
+  ["CC-MAIN-2016-44", 31], ["CC-MAIN-2024-33", 30], ["wide00012", 28], ["wide00015",
+  27], ["CC-MAIN-2025-08", 26], ["CC-MAIN-2024-26", 25], ["CC-MAIN-2025-05", 23],
+  ["wide00002", 21], ["CC-MAIN-2024-51", 21], ["CC-MAIN-2025-33", 17], ["CC-MAIN-2014-35",
+  17], ["wide00005", 14], ["wide00006", 11], ["wide00010", 10], ["CC-MAIN-2015-48",
+  9], ["CC-MAIN-2016-40", 8], ["wide00017", 5], ["CC-MAIN-2015-18", 2], ["CC-MAIN-2015-11",
+  2], ["CC-MAIN-2014-42", 1]]'
+docs_langs: '[[0.2, 188], [0.3, 307], [0.4, 320], [0.5, 603], [0.6, 536], [0.7, 687],
+  [0.8, 881], [0.9, 779], [1.0, 1174]]'
+docs_segments: '[[1, 173], [2, 197], [3, 246], [4, 316], [5, 257], [6, 215], [7, 262],
+  [8, 292], [9, 337], [10, 238], [11, 236], [12, 238], [13, 231], [14, 193], [15,
+  188], [16, 172], [17, 142], [18, 142], [19, 77], [20, 99], [21, 65], [22, 58], [23,
+  47], [24, 60], [25, 53], [26, 52], [27, 47], [28, 38], [29, 38], [30, 30], [31,
+  52], [32, 26], [33, 20], [34, 30], [35, 35], [36, 16], [37, 19], [38, 24], [39,
+  16], [40, 12], [41, 14], [42, 14], [43, 16], [44, 14], [45, 18], [46, 10], [47,
+  8], [48, 15], [49, 12], [50, 15], [51, 21], [52, 12], [53, 9], [54, 12], [55, 12],
+  [56, 8], [57, 15], [58, 8], [59, 8], [60, 4], [61, 6], [62, 7], [63, 5], [64, 3],
+  [65, 5], [66, 3], [67, 13], [68, 7], [69, 2], [70, 4], [71, 4], [72, 3], [73, 5],
+  [74, 3], [75, 1], [76, 3], [77, 3], [78, 1], [79, 5], [80, 2], [81, 3], [82, 1],
+  [83, 2], [84, 2], [85, 1], [86, 3], [87, 4], [88, 5], [89, 1], [90, 3], [91, 4],
+  [92, 3], [93, 2], [94, 2], [95, 4], [97, 7], [98, 3], [99, 2], [100, 4], [101, 2],
+  [102, 2], [103, 2], [105, 3], [106, 2], [107, 2], [108, 2], [109, 1], [110, 1],
+  [111, 2], [112, 1], [113, 4], [114, 1], [116, 1], [117, 1], [118, 2], [119, 2],
+  [120, 1], [121, 1], [123, 4], [128, 1], [129, 1], [130, 2], [131, 3], [134, 1],
+  [135, 1], [137, 1], [138, 1], [139, 1], [140, 1], [142, 2], [143, 1], [144, 2],
+  [147, 1], [149, 1], [150, 1], [153, 1], [158, 1], [162, 1], [163, 2], [164, 1],
+  [167, 1], [169, 1], [178, 1], [179, 1], [180, 1], [185, 1], [189, 1], [192, 1],
+  [193, 1], [194, 1], [204, 1], [205, 1], [206, 1], [208, 2], [219, 1], [231, 2],
+  [237, 1], [238, 1], [239, 1], [246, 1], [247, 1], [267, 1], [276, 1], [338, 1],
+  [371, 1], [434, 1], [530, 1], [592, 1], [694, 1], [831, 1], [895, 1], [961, 1],
+  [1062, 1], [1362, 1]]'
+docs_segments_mean: 19
+docs_segments_median: 11
+docs_top100_domains: '[["wikipedia.org", 1750], ["arpitan.eu", 888], ["patoisvda.org",
+  669], ["tdg.ch", 186], ["cnrs.fr", 136], ["wikisource.org", 89], ["swissbib.ch",
+  77], ["memobase.ch", 68], ["patwe.ch", 55], ["openedition.org", 53], ["xara.hosting",
+  39], ["lexilogos.com", 39], ["arpitan.ch", 37], ["revue-tranel.ch", 36], ["forumactif.com",
+  33], ["canalblog.com", 27], ["unige.ch", 24], ["patoisants.ch", 24], ["youscribe.com",
+  22], ["lagruyere.ch", 22], ["net:12345.", 20], ["lierenarpitan.com", 20], ["chambradoc.it",
+  20], ["wikimedia.org", 19], ["univ-brest.fr", 18], ["tela-botanica.org", 17], ["enssib.fr",
+  17], ["lesc-cnrs.fr", 16], ["uni-heidelberg.de", 15], ["rero.ch", 15], ["langue-savoyarde.com",
+  15], ["zeno.org", 14], ["lyon-mobilite.fr", 14], ["myheritage.com", 12], ["bnf.fr",
+  12], ["7seizh.info", 12], ["pearltrees.com", 11], ["unibe.ch", 10], ["google.com.cy",
+  10], ["chubri-galo.bzh", 10], ["unine.ch", 9], ["sudoc.fr", 9], ["geoarp.org", 9],
+  ["blogspot.com", 9], ["alesperaz.com", 9], ["wiktionary.org", 8], ["unil.ch", 8],
+  ["inist.fr", 8], ["chubri.org", 8], ["umontreal.ca", 7], ["stopeads.nl", 7], ["sorbonne.fr",
+  7], ["radiobreizh.bzh", 7], ["radioarpitania.eu", 7], ["lagrue.ch", 7], ["hls-dhs-dss.ch",
+  7], ["wals.info", 6], ["univ-tlse2.fr", 6], ["reparationchaudiere.com", 6], ["nomao.com",
+  6], ["hypotheses.org", 6], ["ats-group.net", 6], ["archives-ouvertes.fr", 6], ["apokern.com",
+  6], ["zala.ch", 5], ["translatewiki.net", 5], ["skyrock.com", 5], ["perspectivia.net",
+  5], ["image-jura.ch", 5], ["hurstbournebusiness.com", 5], ["free.fr", 5], ["ens-lyon.fr",
+  5], ["centre-etudes-francoprovencales.eu", 5], ["academic.ru", 5], ["wordpress.com",
+  4], ["wikimonde.com", 4], ["macm.org", 4], ["kaaa.info", 4], ["institutdugalo.bzh",
+  4], ["grognards-dbdm.fr", 4], ["galloetculturegallese.com", 4], ["autoroc.org",
+  4], ["asteur.fr", 4], ["51pla.com", 4], ["webwiki.de", 3], ["valais-en-questions.ch",
+  3], ["urlmetriques.co", 3], ["urlmetriken.ch", 3], ["univ-lorraine.fr", 3], ["unicode.org",
+  3], ["sil.org", 3], ["sik-isea.ch", 3], ["scribd.com", 3], ["sapere.it", 3], ["rochesterscifianimecon.com",
+  3], ["museen-wallis.ch", 3], ["moto-trip.com", 3], ["mindmeister.com", 3], ["massifdupilat.com",
+  3], ["locirdoc.fr", 3]]'
+docs_top100_tld: '[["org", 2722], ["eu", 907], ["ch", 681], ["com", 417], ["fr", 393],
+  ["it", 53], ["de", 41], ["hosting", 39], ["info", 29], ["bzh", 28], ["net", 27],
+  ["ru", 12], ["ca", 11], ["nl", 10], ["com.cy", 10], ["xyz", 5], ["edu", 5], ["be",
+  5], ["me", 4], ["gouv.fr", 4], ["es", 3], ["co", 3], ["cat", 3], ["ac.uk", 3], ["ws",
+  2], ["se", 2], ["science", 2], ["gq", 2], ["ga", 2], ["co.uk", 2], ["click", 2],
+  ["cf", 2], ["website", 1], ["vda.it", 1], ["to.it", 1], ["tl", 1], ["space", 1],
+  ["rs", 1], ["pt", 1], ["pro", 1], ["org.ma", 1], ["online", 1], ["nu", 1], ["life",
+  1], ["in", 1], ["gov", 1], ["digital", 1], ["dev", 1], ["cz", 1], ["com.ua", 1],
+  ["cn", 1], ["ci", 1], ["br", 1], ["at", 1], ["art", 1], ["ac.be", 1]]'
+docs_total: 5475
+docs_wds: '[[0.5, 262], [0.51, 245], [0.52, 247], [0.53, 222], [0.54, 215], [0.55,
+  184], [0.56, 209], [0.57, 205], [0.58, 203], [0.59, 189], [0.6, 169], [0.61, 178],
+  [0.62, 191], [0.63, 172], [0.64, 177], [0.65, 166], [0.66, 169], [0.67, 182], [0.68,
+  173], [0.69, 128], [0.7, 148], [0.71, 138], [0.72, 150], [0.73, 130], [0.74, 132],
+  [0.75, 114], [0.76, 111], [0.77, 86], [0.78, 99], [0.79, 84], [0.8, 76], [0.81,
+  61], [0.82, 43], [0.83, 31], [0.84, 25], [0.85, 25], [0.86, 25], [0.87, 23], [0.88,
+  17], [0.89, 18], [0.9, 15], [0.91, 9], [0.92, 5], [0.93, 6], [0.94, 9], [0.95, 3],
+  [0.96, 4], [0.97, 2]]'
+duplication_ratio: 0.3829
+sentence_pairs: 105122
+src_bytes: 12422855
+src_chars: 11576358
+src_pii: 87
+src_tokens: 2687325
+unique_sents: 64873
+src_sent_tokens: '[[1, 5054], [2, 3317], [3, 4107], [4, 5562], [5, 5344], [6, 4371],
+  [7, 4637], [8, 4300], [9, 6893], [10, 5076], [11, 5825], [12, 4111], [13, 3494],
+  [14, 2755], [15, 2232], [16, 1941], [17, 1460], [18, 1357], [19, 1090], [20, 977],
+  [21, 945], [22, 986], [23, 878], [24, 816], [25, 890], [26, 736], [27, 700], [28,
+  623], [29, 580], [30, 528], [31, 538], [32, 608], [33, 490], [34, 563], [35, 466],
+  [36, 402], [37, 457], [38, 467], [39, 414], [40, 398], [41, 409], [42, 346], [43,
+  441], [44, 347], [45, 354], [46, 357], [47, 335], [48, 295], [49, 346], [50, 320],
+  [51, 308], [52, 360], [53, 395], [54, 382], [55, 382], [56, 383], [57, 315], [58,
+  321], [59, 389], [60, 407], [61, 401], [62, 397], [63, 368], [64, 412], [65, 322],
+  [66, 303], [67, 325], [68, 280], [69, 278], [70, 236], [71, 199], [72, 176], [73,
+  228], [74, 167], [75, 136], [76, 143], [77, 166], [78, 147], [79, 120], [80, 176],
+  [81, 187], [82, 126], [83, 102], [84, 128], [85, 101], [86, 122], [87, 129], [88,
+  146], [89, 105], [90, 143], [91, 117], [92, 107], [93, 91], [94, 131], [95, 152],
+  [96, 78], [97, 97], [98, 102], [99, 122], [100, 92], [101, 70], [102, 81], [103,
+  67], [104, 67], [105, 81], [106, 100], [107, 80], [108, 93], [109, 93], [110, 75],
+  [111, 80], [112, 52], [113, 74], [114, 72], [115, 76], [116, 95], [117, 57], [118,
+  50], [119, 55], [120, 38], [121, 45], [122, 27], [123, 52], [124, 56], [125, 46],
+  [126, 58], [127, 48], [128, 38], [129, 41], [130, 38], [131, 39], [132, 39], [133,
+  30], [134, 45], [135, 38], [136, 33], [137, 31], [138, 34], [139, 56], [140, 24],
+  [141, 29], [142, 20], [143, 17], [144, 32], [145, 25], [146, 27], [147, 28], [148,
+  32], [149, 32], [150, 32], [151, 33], [152, 31], [153, 34], [154, 27], [155, 23],
+  [156, 25], [157, 17], [158, 24], [159, 18], [160, 22], [161, 20], [162, 23], [163,
+  20], [164, 19], [165, 25], [166, 15], [167, 18], [168, 17], [169, 20], [170, 13],
+  [171, 11], [172, 12], [173, 25], [174, 12], [175, 28], [176, 15], [177, 12], [178,
+  12], [179, 15], [180, 11], [181, 17], [182, 17], [183, 14], [184, 10], [185, 8],
+  [186, 11], [187, 11], [188, 16], [189, 14], [190, 9], [191, 8], [192, 8], [193,
+  13], [194, 9], [195, 12], [196, 8], [197, 10], [198, 15], [199, 6], [200, 21], [201,
+  10], [202, 13], [203, 14], [204, 5], [205, 8], [206, 9], [207, 10], [208, 8], [209,
+  16], [210, 7], [211, 7], [212, 7], [213, 9], [214, 6], [215, 5], [216, 7], [217,
+  12], [218, 13], [219, 5], [220, 11], [221, 3], [222, 6], [223, 7], [224, 3], [225,
+  15], [226, 4], [227, 8], [228, 7], [229, 5], [230, 9], [231, 8], [232, 13], [233,
+  5], [234, 6], [235, 8], [236, 7], [237, 9], [238, 3], [239, 4], [240, 3], [241,
+  3], [242, 6], [243, 3], [244, 8], [245, 2], [246, 2], [247, 5], [248, 1], [249,
+  1], [250, 3], [251, 2], [252, 2], [253, 5], [254, 5], [255, 3], [256, 3], [257,
+  1], [258, 2], [259, 2], [260, 5], [261, 10], [262, 3], [263, 3], [264, 3], [265,
+  1], [266, 5], [267, 3], [268, 2], [269, 3], [270, 2], [271, 4], [272, 3], [274,
+  2], [275, 3], [276, 5], [277, 7], [278, 2], [279, 2], [280, 1], [281, 1], [283,
+  1], [284, 3], [285, 6], [286, 6], [287, 1], [288, 3], [290, 1], [291, 2], [292,
+  1], [293, 1], [294, 2], [295, 1], [296, 2], [297, 2], [298, 2], [299, 3], [300,
+  2], [301, 4], [302, 4], [304, 1], [305, 5], [306, 2], [307, 3], [308, 1], [309,
+  3], [310, 2], [312, 1], [313, 1], [316, 2], [317, 2], [320, 1], [321, 2], [322,
+  3], [324, 1], [325, 1], [327, 2], [329, 4], [330, 1], [331, 2], [332, 4], [334,
+  1], [335, 3], [336, 2], [337, 1], [340, 2], [341, 2], [342, 2], [343, 1], [344,
+  1], [346, 4], [348, 2], [349, 2], [350, 2], [352, 2], [353, 3], [354, 1], [355,
+  4], [356, 2], [357, 3], [358, 4], [361, 2], [363, 2], [364, 3], [365, 1], [367,
+  1], [368, 2], [369, 2], [375, 1], [377, 1], [378, 1], [380, 1], [381, 1], [382,
+  1], [387, 1], [389, 1], [390, 1], [391, 1], [394, 2], [395, 1], [396, 1], [397,
+  1], [398, 2], [399, 2], [400, 1], [401, 1], [403, 2], [404, 1], [405, 2], [406,
+  2], [407, 2], [408, 1], [412, 2], [413, 1], [415, 1], [417, 5], [421, 2], [422,
+  1], [423, 1], [425, 1], [426, 1], [427, 1], [430, 1], [436, 3], [437, 1], [442,
+  1], [443, 1], [444, 1], [445, 1], [447, 3], [457, 1], [459, 2], [465, 1], [468,
+  1], [471, 3], [474, 1], [484, 4], [485, 1], [486, 1], [488, 1], [492, 1], [497,
+  1], [498, 1], [501, 1], [502, 1], [507, 2], [511, 1], [512, 1], [517, 1], [519,
+  2], [520, 1], [523, 1], [525, 1], [526, 1], [532, 1], [537, 1], [544, 1], [546,
+  1], [547, 1], [548, 1], [558, 2], [560, 1], [564, 1], [568, 2], [569, 1], [584,
+  1], [592, 1], [599, 2], [614, 3], [616, 1], [617, 1], [637, 1], [639, 1], [642,
+  1], [651, 1], [654, 1], [663, 1], [666, 1], [670, 1], [673, 1], [676, 1], [677,
+  1], [679, 1], [681, 1], [694, 1], [695, 1], [703, 1], [707, 1], [714, 1], [715,
+  1], [722, 1], [746, 1], [749, 1], [762, 1], [764, 1], [769, 1], [772, 1], [775,
+  1], [792, 1], [814, 1], [817, 1], [819, 1], [828, 1], [859, 1], [868, 1], [881,
+  1], [885, 1], [887, 1], [892, 1], [903, 1], [911, 1], [916, 1], [921, 1], [927,
+  1], [937, 1], [962, 1], [972, 1], [1008, 1], [1105, 1], [1128, 1], [1129, 1], [1190,
+  1], [1219, 1], [1287, 1], [1330, 1], [1372, 1], [1386, 1], [1390, 1], [1410, 1],
+  [1425, 1], [1453, 1], [1461, 1], [1488, 1], [1492, 1], [1494, 1], [1502, 1], [1528,
+  2], [1529, 1], [1551, 1], [1564, 1], [1568, 1], [1587, 1], [1599, 1], [1660, 1],
+  [1666, 1], [1672, 1], [1688, 1], [1768, 1], [1773, 1], [1826, 1], [1875, 1], [1891,
+  1], [1892, 1], [1900, 1], [1939, 1], [2095, 1], [2247, 1], [2255, 1], [2271, 1],
+  [2334, 1], [2547, 1], [2610, 1], [2722, 1], [2810, 1], [2897, 1], [2906, 1], [4174,
+  1]]'
+src_sent_tokens_mean: 26
+src_sent_tokens_median: 11
+src_unique_sents: '[[1, 2253], [2, 1854], [3, 2192], [4, 3952], [5, 3178], [6, 2946],
+  [7, 3422], [8, 2473], [9, 2650], [10, 2870], [11, 2211], [12, 2118], [13, 1871],
+  [14, 1596], [15, 1300], [16, 1282], [17, 974], [18, 908], [19, 826], [20, 755],
+  [21, 753], [22, 799], [23, 702], [24, 666], [25, 725], [26, 580], [27, 575], [28,
+  496], [29, 452], [30, 420], [31, 425], [32, 456], [33, 398], [34, 429], [35, 383],
+  [36, 338], [37, 339], [38, 382], [39, 322], [40, 295], [41, 309], [42, 273], [43,
+  315], [44, 267], [45, 286], [46, 274], [47, 244], [48, 232], [49, 233], [50, 228],
+  [51, 233], [52, 255], [53, 255], [54, 240], [55, 244], [56, 237], [57, 216], [58,
+  212], [59, 248], [60, 244], [61, 237], [62, 228], [63, 222], [64, 239], [65, 184],
+  [66, 174], [67, 196], [68, 156], [69, 176], [70, 166], [71, 129], [72, 132], [73,
+  143], [74, 129], [75, 100], [76, 113], [77, 128], [78, 103], [79, 93], [80, 116],
+  [81, 118], [82, 97], [83, 76], [84, 85], [85, 89], [86, 87], [87, 82], [88, 100],
+  [89, 78], [90, 95], [91, 87], [92, 73], [93, 73], [94, 77], [95, 93], [96, 64],
+  [97, 64], [98, 69], [99, 79], [100, 60], [101, 53], [102, 61], [103, 56], [104,
+  53], [105, 47], [106, 52], [107, 51], [108, 60], [109, 60], [110, 50], [111, 57],
+  [112, 48], [113, 55], [114, 49], [115, 56], [116, 58], [117, 46], [118, 44], [119,
+  46], [120, 29], [121, 39], [122, 25], [123, 47], [124, 48], [125, 37], [126, 50],
+  [127, 46], [128, 30], [129, 37], [130, 33], [131, 31], [132, 35], [133, 25], [134,
+  36], [135, 37], [136, 23], [137, 29], [138, 31], [139, 37], [140, 22], [141, 27],
+  [142, 20], [143, 16], [144, 26], [145, 18], [146, 22], [147, 25], [148, 26], [149,
+  28], [150, 25], [151, 28], [152, 29], [153, 27], [154, 24], [155, 23], [156, 25],
+  [157, 16], [158, 23], [159, 17], [160, 22], [161, 19], [162, 21], [163, 15], [164,
+  18], [165, 25], [166, 13], [167, 18], [168, 17], [169, 18], [170, 11], [171, 10],
+  [172, 12], [173, 22], [174, 10], [175, 22], [176, 14], [177, 9], [178, 11], [179,
+  12], [180, 11], [181, 13], [182, 15], [183, 13], [184, 10], [185, 8], [186, 10],
+  [187, 9], [188, 16], [189, 14], [190, 7], [191, 7], [192, 8], [193, 11], [194, 9],
+  [195, 12], [196, 8], [197, 9], [198, 11], [199, 6], [200, 17], [201, 10], [202,
+  8], [203, 10], [204, 5], [205, 7], [206, 9], [207, 10], [208, 8], [209, 16], [210,
+  7], [211, 6], [212, 7], [213, 8], [214, 6], [215, 4], [216, 7], [217, 10], [218,
+  13], [219, 5], [220, 9], [221, 3], [222, 5], [223, 7], [224, 3], [225, 11], [226,
+  4], [227, 7], [228, 6], [229, 5], [230, 4], [231, 8], [232, 12], [233, 5], [234,
+  5], [235, 8], [236, 7], [237, 6], [238, 3], [239, 4], [240, 3], [241, 3], [242,
+  6], [243, 3], [244, 8], [245, 2], [246, 2], [247, 5], [248, 1], [249, 1], [250,
+  3], [251, 2], [252, 2], [253, 5], [254, 4], [255, 3], [256, 3], [257, 1], [258,
+  2], [259, 1], [260, 5], [261, 8], [262, 3], [263, 3], [264, 3], [265, 1], [266,
+  5], [267, 3], [268, 2], [269, 3], [270, 2], [271, 3], [272, 2], [274, 2], [275,
+  3], [276, 5], [277, 4], [278, 2], [279, 1], [280, 1], [281, 1], [283, 1], [284,
+  3], [285, 5], [286, 5], [287, 1], [288, 3], [290, 1], [291, 2], [292, 1], [293,
+  1], [294, 2], [295, 1], [296, 1], [297, 2], [298, 2], [299, 2], [300, 2], [301,
+  4], [302, 4], [304, 1], [305, 4], [306, 2], [307, 3], [308, 1], [309, 3], [310,
+  2], [312, 1], [313, 1], [316, 2], [317, 2], [320, 1], [321, 2], [322, 3], [324,
+  1], [325, 1], [327, 2], [329, 4], [330, 1], [331, 2], [332, 4], [334, 1], [335,
+  3], [336, 2], [337, 1], [340, 2], [341, 1], [342, 2], [343, 1], [344, 1], [346,
+  2], [348, 1], [349, 2], [350, 2], [352, 2], [353, 3], [354, 1], [355, 3], [356,
+  2], [357, 3], [358, 4], [361, 2], [363, 2], [364, 1], [365, 1], [367, 1], [368,
+  2], [369, 2], [375, 1], [377, 1], [378, 1], [380, 1], [381, 1], [382, 1], [387,
+  1], [389, 1], [390, 1], [391, 1], [394, 2], [395, 1], [396, 1], [397, 1], [398,
+  2], [399, 2], [400, 1], [401, 1], [403, 2], [404, 1], [405, 2], [406, 2], [407,
+  1], [408, 1], [412, 1], [413, 1], [415, 1], [417, 3], [421, 2], [422, 1], [423,
+  1], [425, 1], [426, 1], [427, 1], [430, 1], [436, 3], [437, 1], [442, 1], [443,
+  1], [444, 1], [445, 1], [447, 2], [457, 1], [459, 2], [465, 1], [468, 1], [471,
+  1], [474, 1], [484, 1], [485, 1], [486, 1], [488, 1], [492, 1], [497, 1], [498,
+  1], [501, 1], [502, 1], [507, 2], [511, 1], [512, 1], [517, 1], [519, 2], [520,
+  1], [523, 1], [525, 1], [526, 1], [532, 1], [537, 1], [544, 1], [546, 1], [547,
+  1], [548, 1], [558, 2], [560, 1], [564, 1], [568, 1], [569, 1], [584, 1], [592,
+  1], [599, 2], [614, 3], [616, 1], [617, 1], [637, 1], [639, 1], [642, 1], [651,
+  1], [654, 1], [663, 1], [666, 1], [670, 1], [673, 1], [676, 1], [677, 1], [679,
+  1], [681, 1], [694, 1], [695, 1], [703, 1], [707, 1], [714, 1], [715, 1], [722,
+  1], [746, 1], [749, 1], [762, 1], [764, 1], [769, 1], [772, 1], [775, 1], [792,
+  1], [814, 1], [817, 1], [819, 1], [828, 1], [859, 1], [868, 1], [881, 1], [885,
+  1], [887, 1], [892, 1], [903, 1], [911, 1], [916, 1], [921, 1], [927, 1], [937,
+  1], [962, 1], [972, 1], [1008, 1], [1105, 1], [1128, 1], [1129, 1], [1190, 1], [1219,
+  1], [1287, 1], [1330, 1], [1372, 1], [1386, 1], [1390, 1], [1410, 1], [1425, 1],
+  [1453, 1], [1461, 1], [1488, 1], [1492, 1], [1494, 1], [1502, 1], [1528, 2], [1529,
+  1], [1551, 1], [1564, 1], [1568, 1], [1587, 1], [1599, 1], [1660, 1], [1666, 1],
+  [1672, 1], [1688, 1], [1768, 1], [1773, 1], [1826, 1], [1875, 1], [1891, 1], [1892,
+  1], [1900, 1], [1939, 1], [2095, 1], [2247, 1], [2255, 1], [2271, 1], [2334, 1],
+  [2547, 1], [2610, 1], [2722, 1], [2810, 1], [2897, 1], [2906, 1], [4174, 1]]'
+src_langs: '[["fr", 65847], ["oc", 4407], ["cs", 3941], ["it", 3633], ["ca", 3556],
+  ["en", 3372], ["es", 2736], ["pt", 2667], ["de", 2010], ["ro", 1676], ["vec", 1073],
+  ["ast", 860], ["br", 730], ["eml", 726], ["lmo", 654], ["gd", 559], ["sr", 534],
+  ["cy", 503], ["hu", 407], ["wa", 392], ["pam", 315], ["sk", 301], ["eo", 297], ["nl",
+  258], ["ru", 257], ["pms", 188], ["ku", 146], ["diq", 126], ["pl", 122], ["lb",
+  122], ["tr", 121], ["fy", 121], ["id", 117], ["zh", 115], ["jbo", 110], ["su", 101],
+  ["gl", 100], ["sv", 99], ["hr", 98], ["nb", 90], ["rm", 89], ["ia", 87], ["eu",
+  75], ["da", 74], ["ceb", 73], ["ms", 71], ["mt", 66], ["vi", 62], ["uk", 53], ["la",
+  53], ["tl", 52], ["scn", 40], ["fi", 40], ["ja", 33], ["ce", 32], ["sl", 31], ["ht",
+  30], ["jv", 28], ["io", 28], ["frr", 25], ["als", 25], ["et", 24], ["mrj", 23],
+  ["lo", 23], ["fa", 23], ["pfl", 20], ["nap", 20], ["el", 20], ["sq", 19], ["ar",
+  19], ["ta", 15], ["lt", 15], ["ga", 15], ["war", 13], ["nds", 13], ["az", 13], ["bar",
+  12], ["yo", 11], ["uz", 11], ["sc", 11], ["gn", 10], ["an", 10], ["sw", 9], ["mwl",
+  9], ["kk", 9], ["cbk", 9], ["xal", 8], ["sco", 8], ["ml", 8], ["lv", 8], ["hsb",
+  8], ["mk", 7], ["mg", 7], ["kw", 7], ["bs", 7], ["af", 7], ["qu", 6], ["krc", 6],
+  ["ko", 6], ["co", 6], ["bg", 6], ["ur", 5], ["nn", 5], ["kn", 5], ["hy", 5], ["th",
+  4], ["my", 4], ["lez", 4], ["ie", 4], ["gom", 4], ["bcl", 4], ["ba", 4], ["tt",
+  3], ["is", 3], ["be", 3], ["te", 2], ["nah", 2], ["mhr", 2], ["li", 2], ["kv", 2],
+  ["dsb", 2], ["bh", 2], ["vep", 1], ["tk", 1], ["so", 1], ["sah", 1], ["os", 1],
+  ["min", 1], ["lrc", 1], ["ky", 1], ["km", 1], ["ilo", 1], ["hi", 1], ["gu", 1],
+  ["bn", 1], ["azb", 1], ["av", 1], ["arz", 1]]'
+hardrules_tags: '{"not_too_long": 593, "not_too_short": 10893, "length_ratio": 0,
+  "no_urls": 1693, "no_bad_encoding": 838, "pii": 87}'
+sample: '["\"La Parola : Fran\u00e7ou\u00e8s\\n24971\\ndefinicion : 4 de octobro\\n-
+  Franc\u00eas : Fran\u00e7ois\\n- Italien : Francesco\\n- Gramatica : nom propro\\n-
+  Varianta : Fran\u00e7ou\u00e8s (VdA)\\n- Varianta : Fran\u00e7ou\u00e8s (Dfn)\\n-
+  Fr\u00e2sa : Entre Sent Mechi\u00e9l et Sent Fran\u00e7ou\u00e8s,\\nPrend ta venenge
+  coment l''est;\\nA Sent Denis,\\nPrend-la se te porr\u00e9s.\\n- Fr\u00e2sa : Per
+  la rua Sent-Fran\u00e7ou\u00e8s, per la nov\u00e8la encenta,\\nL''on v\u00eat atant
+  de m\u00e2l que vers la M\u00eason Pinta;\\nUn val\u00e8t d''\u00e8curie, dens l''\u00e9goua
+  jusqu''u c\u00f4l,\\nA m\u00e9s de vengt mul\u00e8ts vat copar lo lic\u00f4l.\\n-
+  Sinonimo : Fanfou\u00e8s\\n- Gloss\u00e8ro : Antroponimos.\"", "\"magr\u00ec\\nmalgrado
+  nel Dizionario del patois francoprovenzale del comune di Introd\\nprep semmagr\u00ec\\nTesti\\nLa
+  querta di mel\u00e8\\n... Lo pouo ommo \u00e9 sa fenna, magr\u00ec leur-z-\u00e9for,
+  lo deur traille \u00e9 le sacreficho de tcheu le dzor, l''ar\u00e9oon pom\u00ec
+  a mantchan-\u00ec leur satte m\u00e8ino\u00f9 \u00e9 lo granp\u00e9e, ...\\nLeggi
+  tuttoLe fou\u00e0 de sen Djou\u00e0n ou de sen Pierre\\n... Eunsouite le fou\u00e0
+  son gnan-\u00ec eun mouay\u00e8n de comunicach\u00f2n ; baste pens\u00e9 a la \u00ab
+  l\u00e9gende du survivant \u00bb : i ten de la pesta, ver l\u2019an 1630, le fameuille
+  que reustoon eun montagne artoon de fou\u00e0 pe f\u00e9e sa\u00ec i-z-otre que,
+  magr\u00ec totte, l\u2019ion eunc\u00f3 eun viya. ...\\nLeggi tuttoL\u2019ourse
+  \u00e9 lo pitcho\u00f9 berdj\u00e9\\n... \u00c9toun-\u00f3, se driche des\u00f9
+  le patte de d\u00e9r\u00ec \u00e9 reuste a botse iverta : Que de boboroille\u2026
+  Que de foforoille Magr\u00ec me h\u00e8nt an, n\u2019i jam\u00ec vu-n\u00e8n tan
+  pai! Can la leunna se catse, lo berdj\u00e9, que l\u2019ay\u00e8 tott\u2019\u00e9cout\u00f3
+  amoddo, chour foura \u00e9 to ...\\nLeggi tutto\"", "\"Kyiv\\nKi\u00e8v\\nKyiv [kjif]
+  ou ben Ki\u00e8v [kj\u025bf][N 1],[1] (K\u0438\u00efB, Kyjiv [\u02c8k\u026a.jiu\u032f]
+  en ucr\u00e8nien) est la capit\u00e2la et la vela la m\u00e9s popl\u00e2ye d\u2019Ucr\u00e8na
+  (2 962 180 habitents en 2021). S\u00e8 tr\u00f4ve u centro-nord du payis a riva
+  du fllevo Dni\u00e8pre, qu\u2019est \u2019n aflluent de la mar N\u00eare.\\nKyiv
+  est un important centro endustri\u00e2l, scientifico, univ\u00e8rsit\u00e8ro et
+  cultur\u00e2l de l\u2019Eropa du Levant. El est la si\u00e8ta de tot plen d\u2019entrepr\u00eases
+  de t\u00e8cnologia de pouenta, d\u2019univ\u00e8rsit\u00e2ts et de monuments historicos
+  enscrits sus la lista du patrimou\u00e8no mondi\u00e2l coment la cat\u00e8dr\u00e2la
+  Senta-Sofia et la l\u00f4ra de les B\u00e2rmes de Kyiv. La vela at un sist\u00e8mo
+  de transp\u00f4rt publico avanci\u00ea que comprend notament na baragne de m\u00e8tr\u00f4
+  et de trens de banleya.\\nKyiv est yona de les veles les m\u00e9s vielyes de l\u2019Eropa
+  du Levant. El est pass\u00e2ye pendent son histou\u00e8re a dif\u00e8rentes repr\u00eases
+  de la prosp\u00e8rit\u00e2t a l\u2019ombra. Son origina est prob\u00e2blament \u2019n
+  endr\u00eat com\u00e8rci\u00e2l sl\u00e2vo fond\u00e2 per vers lo V\u00e9mo si\u00e8cllo
+  sus la rota com\u00e8rci\u00e2la que rapond la Scandinavia a Constantinoplo. Lo
+  b\u00f4rg est tribut\u00e8ro du rey\u00f4mo des Caz\u00e2rs tant qu\u2019a sa pr\u00easa
+  per los Var\u00e8gos (vikings) u m\u00e9ten du IX\u00e9mo si\u00e8cllo. Kyiv vint
+  la capit\u00e2la de la princip\u00f4t\u00e2t de Kyiv, premi\u00e9r comen\u00e7on
+  de la Russia de noutron temps. La vela est tot d\u00e8molia en 1240 per les env\u00e2sions
+  mongoles et p\u00e8rd tota grant-mange pendent des si\u00e8cllos. Cen f\u00e2t que
+  vint na capit\u00e2la provinci\u00e2la muens importanta, bet\u00e2ye desot lo contr\u00f4lo
+  de sos pouessients vesins : c\u00f4p sus c\u00f4p la Lituania, la Pologne et enfin
+  la Russia.\\nF\u00eata rentrar dedens l\u2019Empiro russo, Kyiv cogn\u00eat un nov\u00e9l
+  temps de prosp\u00e8rit\u00e2t avou\u00e9c la Reb\u00ean\u00e2da endustri\u00e2la,
+  qu\u2019emmode dens l\u2019Empiro entre-mi\u00e9 la fin du XIX\u00e9mo si\u00e8cllo
+  et 1918, quand vint la capit\u00e2la de la R\u00e8publica popul\u00e8ra ucr\u00e8ni\u00e8na.
+  C\u00e9l t\u00e8rritou\u00e8ro d\u00e8cll\u00e2re son end\u00e8pendence, mas qu\u2019est
+  suprim\u00e2 en 1921 avou\u00e9c son an\u00e8ccion a l\u2019Union sovi\u00e8tica.
+  Kyiv vint la capit\u00e2la de la R\u00e8publica socialista sovi\u00e8tica d\u2019Ucr\u00e8na
+  en 1934. Pendent la Seconda Gu\u00e8rra mondi\u00e2la la vela est qu\u00e2si compl\u00e8tament
+  d\u00e8molia, mas el est vito reb\u00e2tia a la fin du d\u00e8sac\u00f4rd et vint
+  la tr\u00easi\u00e9ma vela la m\u00e9s popl\u00e2ye de l\u2019Union sovi\u00e8tica.\\nApr\u00e9s
+  l\u2019\u00e8fondrament de l\u2019Union sovi\u00e8tica et la d\u00e8cllaracion d\u2019end\u00e8pendence
+  de l\u2019Ucr\u00e8na en 1991, Kyiv vint la capit\u00e2la du nov\u00e9l \u00e8tat.
+  Sa populacion cr\u00eat rapido gr\u00e2ce a la borr\u00e2 d\u2019ucr\u00e8niens
+  enstal\u00e2s tant qu\u2019ique dedens les dif\u00e8rentes r\u00e8publiques de l\u2019Union
+  sovi\u00e8tica. Desot lo nov\u00e9l r\u00e8g\u00b7imo, cr\u00eat et r\u00e9ste la
+  vela la m\u00e9s reche et pu\u00e9s la m\u00e9s popl\u00e2ye du payis. L\u2019endustria
+  de l\u2019armament, que constitu\u00e2ve un s\u00e8ctor important de l\u2019\u00e8conomia
+  loc\u00e2la, est remplaci\u00eae per los s\u00e8rvi\u00e7os et la finance.\\nG\u00b7eografia[changi\u00e9r
+  | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nLa surface de la vela est de 847,67
+  km\u00b2 (na mi\u00e9ta m\u00e9s que l\u2019ensemblo form\u00e2 per Paris - 105
+  km\u00b2 - et sa peti\u00f4ta corona - 657 km\u00b2 - que rassemblont 6,8 milyons
+  habitents) por 2,94 milyons habitents en 2018. Un ti\u00e8rs de la populacion tot\u00e2la
+  de Kyiv r\u00e9ste la riva g\u00f4che.\\nMonuments et patrimou\u00e8no[changi\u00e9r
+  | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nLa cat\u00e8dr\u00e2la Senta-Sofia et
+  lo monast\u00e8ro de la l\u00f4ra de les B\u00e2rmes (fond\u00e2 en 1051) sont enscrits
+  sus la lista du patrimou\u00e8no mondi\u00e2l de l\u2019UN\u00c8SC\u00d4 d\u00eas
+  1990.\\nHistou\u00e8re[changi\u00e9r | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nLa
+  vela est \u00e9t\u00e2ye fond\u00e2ye pendent lo VI\u00e9mo si\u00e8cllo. D\u00eas
+  988, la populacion de la r\u00e8g\u00b7ion de Kyiv at adopt\u00e2 la religion ortodoxa.
+  Lo centro de l\u2019\u00c9gll\u00e9se ortodoxa d\u2019Ucr\u00e8na, qu\u2019\u00c8pifanio
+  est lo m\u00e8tropolito de Kyiv et de tota l\u2019Ucr\u00e8na, s\u00e8 tr\u00f4ve
+  dedens lo monast\u00e8ro Sant-Mechi\u00e9l-u-D\u00f4mo-d\u2019Or a Kyiv[2].\\nD\u00eas
+  1848 tant qu\u2019en 1853, lo pont a ch\u00eanes Nicol\u00e2s est construit. Il
+  \u00e9re lo premi\u00e9r pont sus lo Dni\u00e8pre.\\nLo , u jorn d\u2019apr\u00e9s
+  lo comencement de l\u2019env\u00e2sion de l\u2019Ucr\u00e8na per la Russia, les
+  f\u00f4rces russes rentront dedens la capit\u00e2la, des c\u00f4ps de fu\u00e8 sont
+  aouis[3] : la batalye de Kyiv comence.\\nLims de def\u00f4r[changi\u00e9r | changi\u00e9r
+  lo t\u00e8xto s\u00f4rsa]\\nNotes et r\u00e8ferences[changi\u00e9r | changi\u00e9r
+  lo t\u00e8xto s\u00f4rsa]\\nNotes[changi\u00e9r | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nNoms
+  d\u2019endr\u00eat[changi\u00e9r | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nVocabul\u00e8ro[changi\u00e9r
+  | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nR\u00e8ferences[changi\u00e9r | changi\u00e9r
+  lo t\u00e8xto s\u00f4rsa]\\n- (fr) Rogi\u00e9r Vir\u00e8t, \u00ab Dikchon\u00e9ro
+  Frans\u00e9 - Savoy\u00e2 - Dictionnaire Fran\u00e7ais - Savoyard \u00bb [PDF],
+  8\u00e9ma \u00e8dicion reviua et \u00f4gment\u00e2ye, m\u00e2rs 2021, p. 1889.\\n-
+  (en) Nikolas Denisenko, \u00ab The Orthodox Church in Ukraine: A Century of Separation
+  \u00bb, Northern Illinois University Press, 2018.\\n- (fr) Sami Sedhi, \u00ab Des
+  coups de feu ont \u00e9t\u00e9 entendus \u00e0 proximit\u00e9 du complexe de b\u00e2timents
+  gouvernementaux dans la capitale ukrainienne Kiev \u00bb, dessus https://www.aa.com.tr/fr,
+  (viu lo 25 de fevri\u00e9r 2022).\"", "\"Enric Garriga Trullols\\nEnric Garriga
+  Trullols (Barcelona, 1926 - Barcelona, 2011) fut un activisto politico Catalan qu''il
+  at consacr\u00e2 sa via a travaly\u00e9r por l''end\u00e8pendence de la Catalogne
+  et u recognessement de la nacion occitana.\\nBiografia[changi\u00e9r | changi\u00e9r
+  lo t\u00e8xto s\u00f4rsa]\\nEnric Garriga, eng\u00e8nior ch\u00b7imico de prof\u00e8ssion,
+  at consacr\u00e2 la siena via a travaly\u00e9r por la endip\u00e8ndence de la Catalogne,
+  et lo at f\u00eat dens dif\u00e8rentes mani\u00e9res. D\u00eas sa colaboracion continu\u00e2ye
+  avou\u00e9c los dirigents de tu\u00e9s los partis nacionalistos et s\u00f4verenistos
+  tant qu''a la participacion activa dens des forons et des plates-f\u00f4rmes civiques(2)(3)
+  tojorn avou\u00e9c obj\u00e8ctif de concily\u00e9r des volont\u00e2ts, unir des
+  \u00e8f\u00f4rts et obtenir l''unit\u00e2t d''accion de l''end\u00e8pendentismo.\\nPr\u00f4cho
+  a la siena activit\u00e2t politica, et dens la med\u00e9ma dir\u00e8ccion des obj\u00e8ctifs,
+  Enric Garriga Trullols at particip\u00e2 u Congr\u00e8s de Cultura Catalana (1975-1977),
+  de suite de loquint at fond\u00e2 ensemblo a bien de p\u00e8rsones l''IPECC, d\u00eas
+  y\u00f4 at d\u00e8velop\u00e2 una importanta t\u00e2che de promocion ent\u00e8rnacion\u00e2la
+  de la cultura catalana, bien devant de l''Enstitut Ramon Llull, a trav\u00e8rs la
+  cr\u00e8acion et l''empulcion des prix Josep Maria Batista i Roca organis\u00e2s
+  tant qu''ora et la construccion de monuments a p\u00e8rsonalit\u00e2ts catalanes
+  (en Alemagne, Argentina, B\u00e8lge,...), et a la fin la promocion de voy\u00e2jos
+  por cognetre l''\u00e8xpansion et les traces catalanes dens la zona m\u00e8dit\u00e8rran\u00eaye,
+  lo Centro-Uropa et l\u2019Am\u00e8rica, et la d\u00e8cuv\u00e8rta des gestes historiques
+  catalanes.\\nU 1977 participat activament a la fondacion du CAOC, una entit\u00e2t
+  consacr\u00e2ye a l''encoragement des r\u00e8lacions entre-mi\u00e9 les cultures
+  et los poplos occitan et catalan. Dedens les d\u00e8rri\u00e9res tr\u00eas d\u00e8c\u00e2des,
+  adonc, at port\u00e2 a t\u00e8rmo una constanta t\u00e2che de jum\u00e8l\u00e2jo
+  entre Catalogne et Occitania, por loquint est \u00e9t\u00e2 recognu largement en
+  Occitania. Entre bien d''\u00f4tres iniciatives, et avou\u00e9c d\u00e8dicion constanta,
+  at cr\u00e8\u00e2 et encoragi\u00ea les XXXIII \u00e8diccions du Rencontro des fu\u00e8s
+  de Sent-Jian a Monts\u00e8gur, c\u00e8l\u00e8br\u00e2yes tant qu''ora, les XXIV
+  \u00e8diccions de la Poy\u00ea u P\u00f4rt de Sal\u00f4 por la lengoua et l''amiti\u00eat
+  occitano-catalana; ou les XIV \u00e8diccions de la Dict\u00e2 Occitana a Barcelona.
+  At particip\u00e2 activament dens los d\u00e8rri\u00e9rs trenta sept ans a l''Ecoula
+  Occitana de Ch\u00f4d-temps, a Velan\u00f4va d''\u00d4lt. Dament los d\u00e8rri\u00e9rs
+  cinqu ans at encoragi\u00ea la M\u00e8ssa Occitana ux Pr\u00e2ts du R\u00ea; at
+  encoragi\u00ea les cll\u00e2sses d''eng\u00e8gnement de l''occitan a Barcelona,
+  et at particip\u00e2 activament dens la d\u00e8marche de la lou\u00e8 de l''occitan(4).
+  Il \u00e9re m\u00e8mbro de l''Enstitut d''\u00c8tudos Occitans.\\nMor\u00e9t lo
+  17 de novembro du 2011 a Barcelona. (5)\\n\\\"Nos sol\u00e8ts n''ens a \u00e8xpllicar
+  que n''avens una lengoua, un histou\u00e8ro, una cultura et qu\u00e2rques c\u00e8l\u00e8brit\u00e2ts,
+  cen qu''o est a sav\u00ear, est que volens l''end\u00e8pendence.\\\". Enric Garriga:
+  entrevua u blog \\\"l''\u00c2rbro de Darwin\\\"\\nV\u00eare oncor[changi\u00e9r
+  | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\n- IPECC (IPECC)\\n- CAOC (CAOC)\\n-
+  Ecoula Occitana de Ch\u00f4d-temps\"", "\"Dans OpenEdition\\nOpenEdition Books\\nChapitres\\nin
+  Sophie Chassat, Luc Forlivesi, Georges-Fran\u00e7ois Pottier (dir.), \u00c9duquer
+  et punir\\nPresses universitaires de Rennes, 2005\\n...\\nin Fran\u00e7oise Bosman,
+  Jean-Fran\u00e7ois Chanet, Laurent Frajerman et al. (dir.), La f\u00e9d\u00e9ration
+  de l\u2019\u00c9ducation nationale (1928-1992)\\nPresses universitaires du Septentrion,
+  2010\\n...\\nin S\u00e9bastien Laurent (dir.), Archives \u00ab secr\u00e8tes \u00bb
+  , secrets d\u2019archives ?\\nCNRS \u00c9ditions, 2003\\n...\\nin Martine Aubry,
+  Isabelle Chave, Vincent Doom (dir.), Archives, archivistes, archivistique dans l''Europe
+  du Nord-Ouest du Moyen \u00c2ge \u00e0 nos jours\\nPublications de l\u2019Institut
+  de recherches historiques du Septentrion, 2007\\n...\"", "\"L\u00ea Gomb\u00e8ta\\nL\u00ea
+  des Burgondos, Lex Burgundionum\\nLa l\u00ea Gomb\u00e8ta ou ben l\u00ea des Burgondos
+  (lex Burgundionum en latin) est un code de l\u00eas civiles et p\u00e8n\u00e2les
+  procllam\u00e2 u comencement du VI\u00e9mo si\u00e8cllo per lo r\u00ea des Burgondos
+  Gondob\u00e2d, pu\u00e9s apondu per sos succ\u00e8ssors Sigismond et Godomar III,
+  que fixe los us\u00e2jos a r\u00e8sp\u00e8ctar per los suj\u00e8ts burgondos du
+  Rey\u00f4mo. El at por compl\u00e8ment la \u00ab l\u00ea rom\u00e8na des Burgondos
+  \u00bb (lex romana Burgundionum) que reg\u00e2rde los suj\u00e8ts \u00ab romens
+  \u00bb du Rey\u00f4mo, cen v\u00f4t d\u00e9re les gens galo-rom\u00e8nes du payis.\\nDe
+  b\u00f4na hora, la lex Burgundionum est \u00e9t\u00e2ye m\u00e9s ben apel\u00e2ye
+  du nom de son procllamior lex Gundobada (\u00ab l\u00ea de Gondob\u00e2d \u00bb),
+  pu\u00e9s lex Gumbata, cen qu\u2019at baly\u00ea en arpetan \u00ab l\u00ea Gomb\u00e8ta
+  \u00bb.\\nO est lo premi\u00e9r recu\u00e9ly de l\u00eas d\u2019un r\u00ea g\u00e8rmanico
+  en G\u00f4la (la r\u00e8g\u00b7ion de l\u2019Arpetania a vegnir avou\u00e9c) ; apr\u00e9s
+  lui sont parus los codes que reg\u00e2rdont los Vesigots, pu\u00e9s celos que reg\u00e2rdont
+  los Francos. Gins de code montre mielx la fusion de la partia rom\u00e8na avou\u00e9c
+  la partia g\u00e8rmanica[1].\\nBibliografia[changi\u00e9r | changi\u00e9r lo t\u00e8xto
+  s\u00f4rsa]\\n- (fr) \u00ab Loi Gombette \u00bb sus lo Dictionnaire historique de
+  la Suisse en legne.\\n- (fr) J.-F.-A. Peyr\u00e9, \u00ab Lois des Bourguignons,
+  vulgairement loi Gombette \u00bb, Liyon, 1855.\\n- (la) Ludwig Rudolf von Salis
+  (\u00e8d.), \u00ab Leges Burgundionum \u00bb, dedens Monumenta Germaniae Historica,
+  Leges, Leges nationum Germanicarum (LL nat. Germ.), 2, 1, Hannover, 1892.\\n- (de)
+  Franz Beyerle (\u00e8d.), \u00ab Gesetze der Burgunden \u00bb, Weimar, 1936.\\nNotes
+  et r\u00e8ferences[changi\u00e9r | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nNotes[changi\u00e9r
+  | changi\u00e9r lo t\u00e8xto s\u00f4rsa]\\nVocabul\u00e8ro[changi\u00e9r | changi\u00e9r
+  lo t\u00e8xto s\u00f4rsa]\\nR\u00e8ferences[changi\u00e9r | changi\u00e9r lo t\u00e8xto
+  s\u00f4rsa]\\n- (fr) Valentin Smith, M\u00e9moires lus \u00e0 la Sorbonne : De la
+  famille chez les Burgondes, 1864, p. 2 et 3.\"", "\"La Parola : embraciement, embraciements\\n26629\\ndefinicion
+  : -\\n- Franc\u00eas : embrasement, embrasements\\n- Italien : abbraccio, abbracci\\n-
+  Gramatica : nom m\u00e2lo\\n- Varianta : embraciement, embraciements (Bjl)\\n- Fr\u00e2sa
+  : De inqu\u00e9 \\\"\u00e8x\u00e9t\\\" una odor que \u00e9re-t si tr\u00e8s b\u00f4na
+  que ele trass\u00eat totes les v\u00e8rtus des ci\u00e8ls a s\u00e8. De inqu\u00e9
+  saly\u00eat un si tr\u00e8s grant embracement d''am\u00f4r, que totes les am\u00f4rs
+  qui sont en cet mondo n''ols sont maques una grand am\u00e2r\u00e9tud\u00e9na u
+  reg\u00e2rd de c\u00e9l am\u00f4r. De inqu\u00e9 saly\u00eat si tr\u00e8s grant
+  jouye que c\u00f4r d''home ne lo porr\u00e9t pensar.\\n- Fr\u00e2sa : En c\u00e9ta
+  gr\u00e2ce o ly\u00e9 ven\u00e9t come una p\u00e8rsona et la embraci\u00e2vet f\u00f4rtament
+  et mout am\u00e2bllament. En cela do\u00e7or que ele sent\u00eat del tr\u00e8s dox
+  embraciement de son ver\u00e9 cr\u00e8ator, o ly\u00e9 \u00e9ret vi\u00eares que
+  son \u00e8sprit d\u00e8faly\u00e9t.\\n- Sinonimo : embrass\u00e2da, embrass\u00e2des\\n-
+  Sinonimo : abr\u00e2\u00e7, abr\u00e2\u00e7s\"", "\"Main / Casual / Variation Linguistique
+  Dans LEspace : Dialectologie Et Onomastique: Actes Du Xviieme Congres Interna\\nVariation
+  Linguistique Dans LEspace : Dialectologie Et Onomastique: Actes Du Xviieme Congres
+  Interna\\nGet this from a library! Variation linguistique dans l''espace: dialectologie
+  et onomastique: actes du XVII\u00e8me Congr\u00e8s international de linguistique
+  et philologie. Variation linguistique dans l''espace: dialectologie et onomastique:
+  actes du XVIIeme Congr\u00e8s International de Linguistique et Philologie Romanes.
+  International Committee for Social Science Information and Documentation. NAJNIS,
+  I. V. \\\"Antropologiceska\u00e2 CONGR\u00c8S INTERNATIONAL DE LINGUISTIQUE ET PHILOLOGIE
+  ROMANES (XVII\u00c8ME). Variation linguistique dans l''espace: dialectologie et
+  onomastique; actes. Aix-en- Provence: Universit\u00e9 de.\\n1 Jan Actes du XVIIe
+  Congr\u00e8s international de linguistique et philologie Variation linguistique
+  dans l''espace: dialectologie et onomastique. Variation linguistique dans l''espace:
+  Dialectologie et onomastique. Actes du XVII\u00e8me Congr\u00e8s International de
+  Linguistique et Philologie Romanes. Publication date: ; Title Variation: Actes du
+  27e congr\u00e8s international de linguistique et de philologie romanes: Actes du
+  vingt-septi\u00e8me congr\u00e8s.\\n23 sept. phonological, phonetic, morphosyntactic
+  and lexical variations .. linguistiques en Languedoc oriental\u00bb, Actes du XVIIIe
+  Congr\u00e8s d''apr\u00e8s l''ALLOc\u00bb, in Variation linguistique dans l''espace:
+  dialectologie et onomastique. Actes du 17e Congr\u00e8s International de Linguistique
+  et de Philologie Romanes. Key words: intonation, tonal alignment, dialectal variation,
+  Ontario French . database of the international project \u201cPhonologie du fran\u00e7ais
+  contemporain\u201d ( Durand, .. In Actes du XVII\u00e8me. Congr\u00e8s International
+  de Linguistique et Philologie Romanes, Vol. linguistique dans l''espace: dialectologie
+  et onomastique, 1 Jan Jan 1, - La parole entre deux diasyst\u00e8mes: retour sur
+  quelques param\u00e8 tres de diachronie latin-roman. Revue de Lan. The conference
+  took place under the high patronage of the Agence .. Teaching Romanian to International
+  Students \u2013 An Intercultural Perspective . .. Le statut linguistique des noms
+  propres a \u00e9t\u00e9 saisi, et surtout th\u00e9oris\u00e9 cas de l'' onomastique
+  roumaine, \u00e0 l''ample campagne de collecte, sur le terrain et dans. 8 Dec 01
+  thebushjernals.com 6/22/06 AM Page xvii; B.C. Defeat of .. of the Victims of the
+  Spanish War from holding a conference in Al Hoceima in The etymology and meaning
+  of the word \u201cAmazigh\u201d varies from re- gion to region. In Abd el-Krim et
+  la R\u00e9publique du Rif: Actes du colloque international.\\n6 Sep Library of Congress
+  Cataloging-in-Publication Data Spinei, Victor, \u2013 .. ). abbreviations Simon
+  de Keza xvii Simonis de Keza Gesta Hungarorum, ed. and to nonperiodical variations
+  too, mainly mediated by the Azores century,\u201d in Actes du XVe Congr\u00e8s international
+  d''\u00e9tudes byzantines. 5 - Assia Djebar et la transgression des limites linguistiques,
+  France) On proposera une lecture de /La Beaut\u00e9 de Joseph/ (Actes Sud, ) afin
+  de and the national and international, under conditions of (post)coloniality in
+  the .. et le Ier Congr\u00e8s de Dialectologie ; l''inclusion du recensement d\u00e9mographique.
+  Congr\u00e8s international d''\u00e9tude historique du verre royale de toponymie
+  & dialectologie = Handelingen van de Koninklijke Commissie voor .. Canadian journal
+  of linguistics = Revue canadienne de linguistique Etudes sur le XVIIIe si\u00e8cle
+  Language variation and change (Print) Onomata = Revue onomastique. Travaux Neuchatelois
+  de linguistique (Language. Sciences at the .. onomastique, dialectologie, etc. 7)
+  Autres .. XVIIIe si\u00e8cle). . \\\"Variation in the use of ain''t in an urban
+  British dialect\\\", kerapeativra_cie_resharraft, Actes du 7Ame Colloque International,
+  .. fonction de l''espace, collaboration avec des architectes et de.\\nMore:\"",
+  "\"Atlas linguistique et ethnographique de l''Italie et de la Suisse m\u00e9ridionale\\nL\u2019Atlas
+  linguistique et ethnographique de l\u2019Italie et de la Suisse m\u00e9ridionale
+  (Sprach- und Sachatlas Italiens und der S\u00fcdschweiz en allemand, Atlante linguistico
+  ed etnografico d''Italia e della Svizzera meridionale en italien, AIS en sigle)
+  est un atlas linguistique de l\u2019Italie et de la Suisse italophone et romanche
+  publi\u00e9 de 1928 \u00e0 1960 par Karl Jaberg et Jakob Jud.\\nSources[modifier
+  | modifier le code]\\n- (de) Karin Rautmann, Die Entstehung des \u201eSprach- und
+  Sachatlas Italiens und der S\u00fcdschweiz\u201c (AIS): Einblick in einen forschungsprozess,
+  Magister Artium, Universit\u00e9 d\u2019Hambourg, 1993. (copie sur unibe.ch)\"",
+  "\"(patou\u00e8 de Gress\u00e0n)\\nEunna di baye pi complequ\u00e9ye \u00e9 i mimo
+  t\u00e9n pi eunt\u00e9ressante di tsans\u00f3n popul\u00e9re, eun j\u00e9n\u00e9ral,
+  \u00e9 di berseuze, eun partiqueill\u00ec, l''\u00e9 llato\u00f9 i f\u00e9 que le
+  tsans\u00f3n son rest\u00e9ye vivante, deun eun gran nombro de ca, mers\u00ec a
+  la tradech\u00f3n orala. L''a, pe seutta r\u00e8iz\u00f3n, de carat\u00e9o partiqueill\u00ec
+  di queulteue a trasmech\u00f3n orala, comme la predispozech\u00f3n a eumpl\u00e9y\u00ec
+  lo \\\"botse-i-bouigno\\\".\\nLa berseuza l''\u00e8 comme la queulteua de iaou veun,
+  \u00e9 f\u00e9 v\u00e9re de baye grop\u00e9ye a la mitoloj\u00ec, l''istou\u00e9re,
+  le l\u00e9jande mi eunc\u00f2 an canquito\u00f9 de probl\u00e8me psicolojique, di
+  personne \u00e9 de la sosi\u00e9to\u00f9.\\nEumpl\u00e9y\u00e9ye pe fiye eundrim\u00ec
+  le p\u00e9gno pop\u00f3n, la berseuza l''a le r\u00e8ise deun lo conteste sosial
+  de la quemeun-eto\u00f9 de campagne \u00e9 de la fameuille patriarcala, iaou l''\u00e9
+  caze totta djestiya di femalle de tcheu le-z-\u00e9yadzo : le berseuze son pa tsant\u00e9ye
+  renque di mamme, mi eunc\u00f2 de totte le fenne de la fameuille, le gran-m\u00e9e,
+  le seaou pi viille, le tante que pouon le ramplach\u00ec deun si devou\u00ea.\"",
+  "\"Download the PDF\\nSym\u00e9on KARAGIANNIS\\nProf\u00e9ss\u00e9ur \u00e0 l\u2019Univ\u00e9rsit\u00e9
+  d\u00e9 Str\u00e0sbourg\\nP\u00e9rsonn\u00e9 n\u00e9 s\u00e0ur\u00e0it \u00e9 tr\u00e9
+  dup\u00e9. R\u00e9 dig\u00e9r un p\u00e0pi\u00e9r sur l\u00e0 v\u00e0lidit\u00e9
+  d\u2019un tr\u00e0it\u00e9 \u00ab obtenu \u00bb p\u00e0r l\u00e0 forc\u00e9 \u00e9x\u00e9rc\u00e9
+  \u00e9 sur l\u2019un\u00e9 d\u00e9s p\u00e0rti\u00e9s n\u00e9 p\u00e9ut, \u00e9n
+  c\u00e9 mom\u00e9nt (m\u00e0i 2025), qu\u00e9 conc\u00e9rn\u00e9r un\u00e9 situ\u00e0tion
+  tout \u00e0 f\u00e0it concr\u00e9 t\u00e9, c\u00e9ll\u00e9 pr\u00e9 v\u00e0l\u00e0nt
+  d\u00e0ns l\u00e9s r\u00e0pports \u00e9ntr\u00e9 l\u2019Ukr\u00e0in\u00e9 \u00e9t
+  l\u00e0 Russi\u00e9. D\u2019or\u00e9s \u00e9t d\u00e9 j\u00e0 , un nombr\u00e9 non
+  n\u00e9 glig\u00e9\u00e0bl\u00e9 d\u00e9 public\u00e0tions port\u00e0nt sur c\u00e9
+  conflit ont vu l\u00e9 jour \u00e9t, s\u00e0ns \u00e0ucun dout\u00e9, bi\u00e9n
+  d\u2019\u00e0utr\u00e9s s\u00e9ront \u00e0 \u00e0tt\u00e9ndr\u00e9 d\u00e0ns l\u00e9s
+  \u00e0nn\u00e9 \u00e9s \u00e0 v\u00e9nir t\u00e0nt c\u00e9 conflit \u00e0ur\u00e0
+  m\u00e0rqu\u00e9 notr\u00e9 \u00e9 poqu\u00e9 \u00e9n r\u00e9 volutionn\u00e0nt
+  l\u2019\u00ab \u00e0rt \u00bb d\u00e9 l\u00e0 gu\u00e9rr\u00e9 (milit\u00e0ir\u00e9m\u00e9nt,
+  politiqu\u00e9m\u00e9nt, \u00e9 conomiqu\u00e9m\u00e9nt) \u00e9t \u00e9n divis\u00e0nt
+  profond\u00e9 m\u00e9nt l\u00e0 pl\u00e0n\u00e9 t\u00e9 m\u00e0is \u00e9 g\u00e0l\u00e9m\u00e9nt,
+  \u00e0v\u00e9c un c\u00e9rt\u00e0in r\u00e9t\u00e0rd, l\u00e9 mond\u00e9 occid\u00e9nt\u00e0l
+  lui-m\u00e9 m\u00e9, surtout d\u00e9puis l\u2019\u00e9 l\u00e9ction pr\u00e9 sid\u00e9nti\u00e9ll\u00e9
+  d\u00e9 2024 \u00e0ux \u00c9 t\u00e0ts-Unis d\u2019Am\u00e9 riqu\u00e9. Comm\u00e9
+  toujours, on pourr\u00e0 trouv\u00e9r d\u00e0ns l\u00e0 m\u00e0ss\u00e9 d\u00e9s
+  public\u00e0tions l\u00e9 m\u00e9ill\u00e9ur \u00e9t l\u00e9 moins m\u00e9ill\u00e9ur.
+  Un\u00e9 c\u00e9rt\u00e0in\u00e9 politis\u00e0tion d\u00e9s \u00e0rgum\u00e9nts
+  p\u00e9ut \u00e9 tr\u00e9 cr\u00e0int\u00e9, un c\u00e9rt\u00e0in m\u00e0nich\u00e9
+  ism\u00e9, l\u00e9 c\u00e0s \u00e9 ch\u00e9 \u00e0nt, \u00e0ussi, t\u00e0ndis qu\u00e9
+  souv\u00e9nt l\u00e0 production juridiqu\u00e9 d\u00e9s \u00ab \u00e0utr\u00e9s
+  \u00bb \u00e0ur\u00e0 \u00e9 t\u00e9 n\u00e9 glig\u00e9 \u00e9, f\u00e0ut\u00e9
+  d\u00e9 t\u00e9mps pour l\u00e0 pr\u00e9ndr\u00e9 \u00e9n consid\u00e9 r\u00e0tion
+  (\u00e9 crir\u00e9 sur l\u2019\u00e0ctu\u00e0lit\u00e9 , c\u2019\u00e9st \u00e0ussi
+  \u00e9 crir\u00e9 d\u00e0ns l\u00e0 pr\u00e9 cipit\u00e0tion), f\u00e0ut\u00e9 d\u00e9
+  comp\u00e9 t\u00e9nc\u00e9s linguistiqu\u00e9s pour l\u2019\u00e0bord\u00e9r, m\u00e0is
+  \u00e0ussi, possibl\u00e9m\u00e9nt, f\u00e0ut\u00e9 d\u00e9 r\u00e9 \u00e9ll\u00e9
+  lib\u00e9rt\u00e9 \u00e0c\u00e0d\u00e9 miqu\u00e9 qui p\u00e9ut c\u00e0r\u00e0ct\u00e9
+  ris\u00e9r l\u00e9s \u00ab \u00e0utr\u00e9s \u00bb ou bi\u00e9n l\u00e0 possibilit\u00e9
+  pour \u00e9ux d\u00e9 publi\u00e9r d\u00e0ns l\u00e9s gr\u00e0nd\u00e9s r\u00e9vu\u00e9s
+  juridiqu\u00e9s du \u00ab mond\u00e9 libr\u00e9 \u00bb, l\u00e9s s\u00e0nctions,
+  qu\u00e9 c\u00e9 d\u00e9rni\u00e9r d\u00e9 cr\u00e9 t\u00e9, pouv\u00e0nt \u00e9
+  tr\u00e9 non s\u00e9ul\u00e9m\u00e9nt \u00e9 conomiqu\u00e9s m\u00e0is \u00e0ussi
+  \u00e0c\u00e0d\u00e9 miqu\u00e9s comm\u00e9 \u00e9ll\u00e9s ont pu \u00e9 tr\u00e9
+  \u00e9 g\u00e0l\u00e9m\u00e9nt cultur\u00e9ll\u00e9s, sportiv\u00e9s ou inform\u00e0tionn\u00e9ll\u00e9s.
+  R\u00e9 dig\u00e9r qu\u00e9lqu\u00e9s p\u00e0g\u00e9s non p\u00e0s sur l\u00e9 jus
+  ad bellum \u00e9t \u00e9ncor\u00e9 moins sur l\u00e9 jus in bello, m\u00e0is sur
+  l\u00e9 jus finis belli p\u00e9ut p\u00e0r\u00e0\u00ee tr\u00e9 pr\u00e9 m\u00e0tur\u00e9
+  , gr\u00e0tuit, voir\u00e9 un\u00e9 sort\u00e9 d\u00e9 droit-fiction, pour l\u2019\u00e9xc\u00e9ll\u00e9nt\u00e9
+  r\u00e0ison qu\u00e9 l\u00e0dit\u00e9 finis n\u00e9 p\u00e9ut, pour l\u00e9 mom\u00e9nt,
+  qu\u2019\u00e9 tr\u00e9 souh\u00e0it\u00e9 \u00e9 (\u00e9ncor\u00e9 qu\u00e9, possibl\u00e9m\u00e9nt,
+  p\u00e0s p\u00e0r tous tout d\u00e9 suit\u00e9). C\u00e9l\u00e0 dit, outr\u00e9
+  l\u00e9 f\u00e0it qu\u00e9 l\u00e9 droit \u00e9st souv\u00e9nt, p\u00e0r s\u00e0
+  logiqu\u00e9 \u00e9t structur\u00e9, un\u00e9 v\u00e0st\u00e9 fiction, on p\u00e9ut,
+  pour un\u00e9 fois, d\u00e9v\u00e0nc\u00e9r l\u2019histoir\u00e9 tout \u00e9n f\u00e0is\u00e0nt
+  \u00e0tt\u00e9ntion \u00e0 n\u00e9 p\u00e0s trop qu\u00e0nd m\u00e9 m\u00e9 \u00ab
+  coll\u00e9r \u00bb sur l\u00e9 c\u00e0s russoukr\u00e0ini\u00e9n. \u00c9n \u00e9ff\u00e9t,
+  si c\u00e9 conflit monopolis\u00e9 p\u00e9u ou prou l\u2019\u00e0tt\u00e9ntion d\u00e9s
+  m\u00e9 di\u00e0s \u00e9t d\u00e9s r\u00e9vu\u00e9s \u00e9n \u00c9urop\u00e9, il
+  \u00e9st loin d\u2019\u00e9 tr\u00e9 l\u00e9 s\u00e9ul qui soit conc\u00e9rn\u00e9
+  p\u00e0r l\u00e0 probl\u00e9 m\u00e0tiqu\u00e9 \u00e9squiss\u00e9 \u00e9 d\u00e0ns
+  l\u00e9s p\u00e0g\u00e9s qui suiv\u00e9nt. \u00c9n \u00e9ff\u00e9t, d\u2019\u00e0utr\u00e9s
+  situ\u00e0tions p\u00e9uv\u00e9nt ou pourront \u00e0 l\u2019\u00e0v\u00e9nir \u00e9
+  tr\u00e9 r\u00e0ttr\u00e0p\u00e9 \u00e9s p\u00e0r c\u00e9tt\u00e9 probl\u00e9 m\u00e0tiqu\u00e9.\"",
+  "\"Fr\u00e8deric Franc\u00eas Chopin (n\u00e8ssu sot lo nom polon\u00eas : Fryderyk
+  Franciszek Chopin, des c\u00f4ps \u00e8crit en polon\u00eas Szopen ; a lo xixe si\u00e8clo,
+  la grafie Szop\u0119 at \u00e9t\u00e2 utilis\u00e2ye en Pologne en concurrence avou\u00e9c
+  la grafie Chopin) est un composior et pianisto virtuoso d''origina franco-polon\u00easa,
+  n\u00e8ssu en 1810 a \u017belazowa Wola, sur lo t\u00e8rritou\u00e8ro du duc\u00e2t
+  de Varsovie (ora en Pologne), et m\u00f4rt en 1849 a Paris.\\nApr\u00e9s sa formacion
+  a l''H\u00f4ta \u00c8coula de Musica de Varsovie et un d\u00e8but de carri\u00e9re
+  en Pologne et a Vi\u00e8ne, il quite la Pologne et a l''\u00e2jo de 21 ans, il s''enstale
+  en France (il est venu de vers son p\u00e2re d''una famelye lorr\u00e8na venent
+  de Marainville-sur-Madon), y\u00f4 il d\u00e8velope son enspiracion dens l''agitacion
+  du mondo du piano parisien et dens la sovegnance de sa patrie m\u00f4rtria. Il y
+  rencontre George Sand, que serat sa compagne pendent n\u00f4f ans.\\nChopin en 1835
+  (pintura r\u00e8alis\u00e2ye per sa galanta Maria Wodzi\u0144ska).\\nRecognessu
+  come yon des m\u00e9s grants composiors de musica de la p\u00e8rioda romantica,
+  Fr\u00e8d\u00e8ric Chopen est asse yon des m\u00e9s c\u00e8l\u00e8bros pianistos
+  du xix\u00e9mo si\u00e8cllo. Sa musica est ad\u00e9s hou\u00e9 yona des m\u00e9s
+  jouy\u00eaes et dem\u00f4re un pass\u00e2jo endispens\u00e2blo a la compr\u00e8ension
+  du rep\u00e8rtou\u00e8r du piano univ\u00e8rs\u00e2l. Avou\u00e9c Franz Liszt, il
+  est lo p\u00e2re de la t\u00e8cnica mod\u00e8rna de son enstrument et p\u00ease
+  sur tota una legn\u00e2 de composiors t\u00e2ls que Gabriel Faur\u00e9, Claude Debussy,
+  Maurice Ravel, Alexandre Scriabine, S\u00e8rgu\u00e8y Rachmaninov, ou Olivier Messiaen.\\nFr\u00e8d\u00e8ric
+  Chopen est n\u00e8ssu lo 1\u00e9r de m\u00e2rs 1810 a \u017belazowa Wola en Pologne,
+  a l''\u00e8poca sur lo t\u00e8rritou\u00e8ro du duc\u00e2t de Varsovie\\nEn 1725,
+  lo r\u00ea de France Louis XV \u00e8pose Marie Leszczynska, felye de Stanislas Leszczynski,
+  \u00e8x-r\u00ea de Pologne de 1704 a 1709, que vit pourament en Alzace d''una pension
+  que lui ac\u00f4rde la France. A la sortia de la gu\u00e8rra de Succ\u00e8ssion
+  de Pologne, Stanislas vencu rec\u00eat los duc\u00e2ts de Lorr\u00eana et de Tav\u00e8rna
+  que lo s\u00f4veren l\u00e8gitimo \u00e8chanjo contre la Toscana devant que d''\u00e9tre
+  \u00e8lu emperor. Stanislas muert en 1766 ; o est solament a ceti moment que Lorr\u00eana
+  et Barrois vegnont franc\u00eas, un pou avant qu''y n\u00e8ssesse (1771) Nicolas
+  Chopen, lo p\u00e2re de Fr\u00e8d\u00e8ric, que quite la France por la Pologne en
+  1787, coment chargi\u00ea d''\u00e8ducacion dens una famelye n\u00f4bla.\\nEn 1795,
+  lo roy\u00f4mo de Pologne dispar\u00eat apr\u00e9s un tr\u00easi\u00e9mo part\u00e2jo
+  entre la Russie, la Prussa et l''\u00d4triche.\\nLes gu\u00e8rres de Napol\u00e9on
+  p\u00e8rm\u00e8tont en 1807 la repr\u00easa d''un \u00c8tat polon\u00eas, lo duc\u00e2t
+  de Varsovie, dens que n\u00eat Fr\u00e8d\u00e8ric en 1810. Mas la retr\u00e8ta de
+  Russie entr\u00eane son ocupacion per los Russos en 1813 et sa disparicion en 1815,
+  durent lo congr\u00e8s de Vi\u00e8ne : la Prussa controle l''Ou\u00e8st (grant-duc\u00e2t
+  de Posen) ; la Russie l''\u00c8st (roy\u00f4mo du Congr\u00e8s), et lo centro, avou\u00e9c
+  Varsovie ; l''\u00d4triche lo Sud (Tarnopol, Wieliczka) tandis que la r\u00e8publica
+  de Cracovie est som\u00easa ux tr\u00eas pouessiences de la Santa-Aliance.\\nLo
+  roy\u00f4mo du Congr\u00e8s, asse apel\u00e2 \u00ab roy\u00f4mo de Pologne \u00bb,
+  at por s\u00f4veren l''emperor de Russie (la famelye Chopen est d\u00eas ora citoy\u00e8na
+  de ceti roy\u00f4mo polon\u00eas sot contr\u00f4lo russo). Lo tsar Al\u00e8xandro
+  Ii\u00e9r lui balye una constitucion relativament lib\u00e8r\u00e2la.\\nLo roy\u00f4mo
+  at vu avou\u00e9c una c\u00e8rt\u00eana \u00f4tonomie tant qu''a l''av\u00e8nement
+  (1825) du tsar Nicolas Ii\u00e9r, tegnent de l''absolutismo. En novembro 1830, d\u00e8bute
+  una ensurr\u00e8ccion, qu''est f\u00f4rt \u00e8tof\u00e2ye et entr\u00eane a la
+  fin de 1831 la misa u p\u00e2s de la Pologne russa (supr\u00e8ssion de la constitucion,
+  etc.).\\nDe nombrox membros de la \u00ab arm\u00e2 polon\u00easa \u00bb s\u00e8
+  refugiyont a l''\u00e8trangi\u00e9r ; plusiors mily\u00e9rs vant tant qu''en France,
+  y\u00f4 ils b\u00e8n\u00e8ficiyont d''una granta *sympathie12 et de secors ofici\u00e8ls.
+  O est dens cetes circonstances tragiques que Fr\u00e8d\u00e8ric Chopen arr\u00e8ve
+  en France, sen \u00e9tre lui-m\u00e9mo un r\u00e8fugiy\u00ea de l''ensurr\u00e8ccion.\\nChopen
+  at vu en France \u00e8ssenci\u00e8lament pendent la monarchie de Juillet (1830-1848),
+  et pu\u00e9s u comencement de la Seconda R\u00e8publica (1848-1851).\\nEn Eropa,
+  l''an 1848 est importanta, vu que des ensurr\u00e8ccions s\u00e8 tegnont dens de
+  nombrox payis, en Alemagne, en Italie, en Hongrie, etc. Lo xixe si\u00e8clo est
+  en \u00e8f\u00e8t marc\u00e2 dens tota l''Eropa per lo mouvement des nacionalit\u00e2ts,
+  sp\u00e8cialament en Pologne ; durent cetes an\u00e2s, Chopen vint una figura importanta
+  du mouvement nacion\u00e2l polon\u00eas.\\nFr\u00e8d\u00e8ric Chopen est lo fily
+  de Nicolas Chopen (1771-1844), n\u00e8ssu a Marainville-sur-Madon (actu\u00e8l d\u00e8partement
+  des V\u00f4ges) et de la Polon\u00easa Tekla Justyna Chopen, n\u00e8ssua Krzy\u017canowska
+  (1782-1861). Venu en Pologne u s\u00e8rvicio de la comt\u00e8ssa Skarbek, Nicolas
+  \u00e8pose Tekla Justyna, parenta et dama d''honor de la comt\u00e8ssa, en 1806.\\nEn
+  tenent compto du f\u00eat qu''il at un p\u00e2re franc\u00eas et una m\u00e2re polon\u00easa,
+  la demanda de la \u00ab nacionalit\u00e2t \u00bb (u sens d''apartenence de l''\u00e8tat)
+  de Chopen at \u00e9t\u00e2 l''obj\u00e8t d''un d\u00e8bat des c\u00f4ps passion\u00e2
+  por d\u00e8t\u00e8rmenar son statut ofici\u00e8l. Mas la nacionalit\u00e2t p\u00f4t
+  asse \u00e9tre envesagi\u00eae de fa\u00e7on muens rigorosa, u sens d''identit\u00e2t
+  nacion\u00e2la (en fasent abstraccion de l''apartenence de l''\u00e8tat).\\nChopen
+  s\u00e8 consid\u00e8r\u00e2ve, et \u00e9re consid\u00e8r\u00e2 per sos contemporens,
+  coment un Polon\u00eas. Sos compatriotos p\u00e2rlont de lui coment du composior
+  nacion\u00e2l polon\u00eas et sos amis font m\u00e9mament : Balzac \u00e8crit de
+  Liszt et de Chopen : \u00ab L''Hongrou\u00e8s est un d\u00e8mon, lo Polon\u00eas
+  un ange \u00bb, Liszt p\u00e2rle du \u00ab artisto polon\u00eas \u00bb.\\nChopen
+  at pass\u00e2 los vengt premi\u00e9res an\u00e2s de sa via en Pologne. A son \u00e8poca,
+  ceti \u00e8l\u00e8ment est sufisent por lui assurar una identit\u00e2t polon\u00easa
+  : lo f\u00eat d''av\u00ear quit\u00e2 la Pologne a l''\u00e2jo de 20 ans et ples
+  jam\u00e9s y \u00e9tre reveri\u00ea modifie pas ceta don\u00e2 primordiala. Alfred
+  Cortot ac\u00f4rde una granta importance u rolo \u00e8ducatif de sa m\u00e2re :
+  \u00ab l''enfluence \u00e8gz\u00e8rci\u00eae per l''atmosf\u00e8ra sp\u00e8cificament
+  femenina du foy\u00e9r de famelye, y\u00f4 tant que vers la tr\u00e8gi\u00e9ma an\u00e2,
+  il vivrat, d''apr\u00e9s la formula sacr\u00e2ye, dens los cotins de sa m\u00e2re
+  et de ses su\u00e8res \u00bb.\\nPas-muens, ceta identit\u00e2t est pas solament
+  la cons\u00e8quence d''una jouen\u00e8ssa polon\u00easa et d''una convencion sociala.
+  Nan solament \u00ab Chopen, en Pologne s''est construit polon\u00eas \u00bb, mas
+  lo musicien revendique sovent son apartenence a ceti payis.\\nLo patriotismo dolorox
+  de Chopen s\u00e8 traduit dens sa musica, coment Liszt l''av\u00eat ja remarc\u00e2
+  : \u00ab et les plentes de la Pologne empront\u00e2vont a cetos accents je s\u00e9
+  quinta po\u00e8sie mist\u00e8riosa, que por t\u00f4s celos que l''ant veret\u00e2blament
+  sentua, sar\u00eat \u00e9tre compar\u00e2ye a ren\u2026 \u00bb. Se ceta dimension
+  d''\u00e8gzil\u00e2 du musicien sarmate, coment l''ap\u00e8le Robert Schumann, sovent
+  \u00e8voc\u00e2ye per los biografos du pass\u00e2, est repr\u00easa per los musicologos
+  de noutron temps, el est tot-un ent\u00e8rpr\u00e8t\u00e2ye de fa\u00e7on dif\u00e8renta.
+  Por Eigeldinger, el est ora compr\u00easa coment una dur\u00e2 tipicament slava,
+  una sensibilit\u00e2t cultur\u00e8la. Por Liszt, Chopen \u00ab porrat \u00e9tre
+  rengi\u00ea u nombro des premi\u00e9rs musiciens qu''\u00e8yont asse endividualis\u00e2
+  en lor lo sens po\u00e8tico d''una nacion \u00bb.\\nL''identit\u00e2t polon\u00easa
+  de Chopen est jam\u00e9s n\u00e9y\u00eae, et la relacion entre la France et Chopen
+  est importanta. M\u00e9mament un nacionalisto coment Lucien Rebatet, que lui ac\u00f4rde
+  la nacionalit\u00e2t franc\u00easa, \u00e8crit pu\u00e9s-cen : \u00ab Chopen lui-m\u00e9mo
+  s\u00e8 ser\u00eat \u00e8lev\u00e2 contre ceta \\\"encorporacion\\\" (franc\u00easa)
+  \u00bb.\\nUn premi\u00e9r \u00e8l\u00e8ment est l''origina franc\u00easa de son
+  p\u00e2re, que, en v\u00e8rtu des disposicions du Code civilo, p\u00e8rm\u00e8t
+  a Fr\u00e9d\u00e9ric de b\u00e8n\u00e8ficiy\u00e9r de la nacionalit\u00e2t franc\u00easa.
+  La recognessence du statut de Fran\u00e7ais est at\u00e8st\u00e2ye per un p\u00e2ssap\u00f4rt
+  \u00e8metu lo 1\u00e9r d''o\u00fbt 1835. Ceta solucion \u00e8vit\u00e2ve a Chopen
+  de demandar un p\u00e2ssap\u00f4rt russo, payis \u00e8yent envayi la Pologne, et
+  contorn\u00e2ve lo statut de r\u00e8fugiy\u00ea politico, qu''ar\u00eat d\u00e8fendu
+  tot \u00e8spou\u00e8r de ret\u00f4rn en Pologne. Pas-muens, les veret\u00e2bles
+  motivacions de Chopen r\u00e9stont encognues.\\nDe l''\u00f4tro l\u00e2t, Chopen
+  s''enstale a Paris en 1831 et vat y passar pr\u00e9s de la m\u00eati\u00eat de sa
+  via. La vela est, a ceta \u00e8poca, yona des capit\u00e2les cultur\u00e8les du
+  mondo. Il y nue sos am\u00f4rs et sos amiti\u00eats les m\u00e9s importantes : Sand,
+  Delacroix, Liszt ou Pleyel. Il y rencontre lo tot Paris artistico : Balzac, Berlioz,
+  Thalberg, Kalkbrenner, \u00c9rard, Heine, et aristocratico. D''apr\u00e9s Antoine
+  Gol\u00e9a, l''univ\u00e8rs artistico et cultur\u00e8l dens que lo composior at
+  f\u00eat l''\u00e8ssenci\u00e8l de son \u00f4vra est la France mas l''atachement
+  de Chopin a son payis nat\u00e2l et l''enfluence de l''univ\u00e8rs polon\u00eas
+  r\u00e9st\u00e2vont franc f\u00f4rt pendent tota la p\u00e8rioda franc\u00easa.\\nSon
+  enfluence est sp\u00e8cialament marc\u00e2ye en France. Por lo musicologo Eigeldinger
+  la somission fid\u00e8la de Debussy rap\u00f4rt u M\u00eatre polon\u00eas est \u00e8videnta.
+  Ceta enfluence, asse presenta chi\u00e9z Ravel ou Faur\u00e9, s\u00e8 limite pas
+  a la musica : \u00ab Per-l\u00e9 lo musicien pr\u00e8v\u00eat lo principo \\\"de
+  Verlaine\\\" : \u00ab Ren en ples chier que la chan\u00e7on grise / Y\u00f4 cen
+  qu''est enc\u00e8rtin u pr\u00e8cis s\u00e8 rassemble \u00bb. Son empr\u00e8ssionismo
+  musical s\u00e8 retrove en pintura : \u00ab por f\u00e2re un misa en lumi\u00e9re
+  resonant prod analogo a c\u00e8rtins \u00e8f\u00e8ts de lumi\u00e9re, a c\u00f4p
+  enniol\u00e2s et pr\u00e8cis, dens la pintura d''un Monet \u00bb.\\nSe la sensibilit\u00e2t
+  de Chopen est polon\u00easa et s\u00e8 traduit per la repr\u00easa de m\u00e8lodies
+  popul\u00e8res, sa lengoua musicala est \u00ab saventa \u00bb, el participe de la
+  \u00ab granta musica \u00bb por reprendre una \u00e8xpr\u00e8ssion de Delacroix.
+  \u00ab Chopen at su, lo premi\u00e9r, pr\u00e9tar una atencion ensorcel\u00e2ye
+  ux chants et verol\u00e8ts popul\u00e8ros de sa Pologne nat\u00e2la, sen jam\u00e9s
+  en citar compl\u00e8tament la muendra fr\u00e2sa dens sa produccion. A un compatrioto
+  por qu''il emprovis\u00e2ve a Paris et que cr\u00e8y\u00eat entendre a nov\u00e9l
+  una berceuse de son enfance, Chopin rabat : \u00ab Ceta chan\u00e7on, te pov\u00eas
+  la cognetre\u2026 mas solament l''\u00e8sprit que l''anime : l''\u00e8sprit d''una
+  m\u00e8lodie polon\u00easa ! \u00bb. Sa musica est venent d''una pr\u00e8paracion
+  saventa de l''ac\u00f4rd et du contrepoint. El est avant tot aristocratico et est
+  f\u00f4rt luen d''una f\u00f4rma popul\u00e8ra ou folclorica. En ceti sens, lo leng\u00e2jo
+  musical de Chopin est m\u00e9s univ\u00e8rs\u00e2l que polon\u00eas. Pas-muens,
+  a p\u00e2rt l''enfluence du folclore du t\u00e8rrou\u00e8r qu''il at su *universaliser
+  coment baban \u00f4tro, lo joueno Chopin at ben l\u00e8f subi cela du prince Micha\u0142
+  Kleofas Ogi\u0144ski (1765-1833), que les 26 polon\u00eases c\u00e8l\u00e8bres dens
+  tota l''Eropa de l''\u00e8poca s\u00e8 disting\u00e2vont per l''\u00e8l\u00e8gance,
+  lo rafinement et la malincognie qu\u00e2si digno de Mozart, tipiques du pr\u00e8-romantismo.
+  A son t\u00f4rn, dens ses Polon\u00eases, Chopin at su \u00e8xprimar l''\u00e8ssence
+  m\u00e9mament de la \u00ab polonit\u00e2t \u00bb tot en lui balyent un caract\u00e8ro
+  univ\u00e8rs\u00e2l. Asse-m\u00e9s Cyprian Norwid (1821-1883), lo m\u00e9s grant
+  po\u00e8to mod\u00e8rno polon\u00eas, los compar\u00e2ve a l''\u00e8pop\u00ea gr\u00e8ca.\\nLos
+  p\u00e2res spiritu\u00e8ls de Chopin sont nombrox, mas lo musicologo Eigeldinger
+  ne los tr\u00f4ve que dens lo patrimou\u00e8no univ\u00e8rs\u00e2l et gins d''est
+  polon\u00eas : \u00ab Mozart \u00e9re son Di\u00f4, S\u00e9b. Bach, yon des m\u00eatres
+  pr\u00e8f\u00e8r\u00e2s recomand\u00e2s a t\u00f4s sos \u00e8l\u00e8vos \u00bb.
+  Ceta univ\u00e8rsalit\u00e2t des origines et de la musica de Chopin est pas recognessua
+  solament per Eigeldinger. Ceta analise est asse cela du po\u00e8to Heine que, d\u00eas
+  1837 rejuend\u00eat cela f\u00eate mantegnent per la France et la Pologne : \u00ab
+  Il est adonc ni Polon\u00eas, ni Fran\u00e7ais, ni Alemand ; il tray\u00e9t una
+  origina ben m\u00e9s h\u00f4ta, il d\u00e8scend du payis de Mozart, de Rapha\u00ebl,
+  de Goethe : sa ver\u00e9 patrie est lo roy\u00f4mo enchant\u00e2 de la po\u00e8sie
+  \u00bb\\nFr\u00e9d\u00e9ric Chopin ou l''\u00e2rma polon\u00easa, document\u00e8ra
+  \u00ab A c\u00f4sa de la musica \u00bb de Fran\u00e7ois Reichenbach et Bernard Gavoty
+  (P\u00e8licules du Prisme, France R\u00e8gions 3, 1980) (dur\u00e2ye 1 h 52 menutes).\\nChopin
+  na Dworcu Centralnym [Chopin a la G\u00e2ra centr\u00e2la], document\u00e8ra de
+  Krzysztof Zanussi r\u00e8alis\u00e2 en 1993 (dur\u00e2ye : 24 menutes).\\nChopin,
+  document\u00e8ro de Marie-Dominique Blanc Hermeline et Philippe Orreindy r\u00e8alis\u00e2
+  en 1998 (dur\u00e2ye : 26 menutes).\\nChopin, document\u00e8ro d''Armand Isnard
+  (Cat produccion) r\u00e8alis\u00e2 en 1999 (dur\u00e2ye : 52 menutes).\\nQui at
+  pouer de Fr\u00e9d\u00e9ric Chopin ?, document\u00e8ro r\u00e8alis\u00e2 en 1999
+  (dur\u00e2ye : 51 menutes). R\u00e8alis\u00e2 per Katarzyna Wieczynska-Chambenoit
+  et f\u00eat per Io produccion, Plan\u00e8ta, Focus producers avou\u00e9c la participacion
+  du CNC et du minist\u00e8ro de la Cultura et de la Comunicacion (DMDTS).\\nChopin
+  \u2013 The Women Behind The Music (Chopin - Les f\u00e8nes d\u00e8rri\u00e9r la
+  musica), r\u00e8alis\u00e2 en 2010 per la BBC 4 (dur\u00e2ye : 90 menutes). Ceti
+  document\u00e8ra TV \u00e8xpllore la via de Chopin, en particuli\u00e9r ses encontres
+  avou\u00e9c des chanter\u00e8sses que l''ant ensorcel\u00e2 a c\u00f4sa de lor vou\u00e8x.
+  Dens son comunic\u00e2 de pr\u00e8ssa, la BBC p\u00e2rle de Jenny Lind coment \u00ab
+  la granta sopran\u00f4 su\u00e8dou\u00e8sa qu''at tant tochi\u00ea Chopin les d\u00e8rri\u00e9res
+  an\u00e2s de sa via. \u00ab la granta sopran\u00f4 su\u00e8dou\u00e8sa qu''at tant
+  tochi\u00ea Chopin les d\u00e8rri\u00e9res an\u00e2s de sa via. Dens la d\u00e8rri\u00e9re
+  sc\u00e8na, James Rhodes (piano) et Natalya Romaniw (sopran\u00f4) presentont una
+  chan\u00e7on d''am\u00f4r en italien, sur un arrengement f\u00eat per Jenny Lind
+  de la mazurka de Chopin en lo major, op. 24, no 3 : L''am\u00f4r fid\u00e8lo muert
+  jam\u00e9s.\\nL''\u00e2rt de Chopin, document\u00e8ro de G\u00e9rald Caillat (produccion
+  : Plesnar P\u00e8licules, Arte France, Telewizja Polska SA, 2010) (dur\u00e2ye :
+  52 menutes).\"", "\"La Parola : seront/serant (\u00e9tre)\\n27159\\ndefinicion :
+  3 p.p. - futur simpllo - v\u00e8rbo \u00e9tre.\\n- Franc\u00eas : seront\\n- Italien
+  : saranno\\n- Gramatica : endicatif futur 3.p.plur.\\n- Varianta : seront (GE)\\n-
+  Varianta : seront (Vls)\\n- Varianta : seront (Bjl)\\n- Varianta : serant/s\u00e8r\u00e0nt
+  (\u00e9tre) [VdA]\\n- Fr\u00e2sa : On vos balyerat des c\u00f4rdes apr\u00e8st\u00e2yes,\\nQue
+  seront ben tordues et ben fel\u00e2yes,\\nU ben plletout, sal\u00e2da de Gascon:\\nLa
+  c\u00f4rda u c\u00f4l per-desot lo menton.\\n- Fr\u00e2sa : Est come lo p\u00e9re,
+  farciors ant \u00e9t\u00e2, farciors seront tot-ad\u00e9s.\\n- Fr\u00e2sa : Se d\u00e8cembre
+  f\u00e9t Chalende bll\u00e8t, greni\u00e9rs et bosses seront vouedos.\\n- Fr\u00e2sa
+  : Les sents seront dedens lor cr\u00e8ator tot ass\u00e9 come les p\u00eassons qui
+  sont dedens la mar qui b\u00eavont tojorn a pllen sens \\\"enoer\\\" et sens l''\u00e9goue
+  \\\"amermer\\\". Tot ass\u00e9 seront les sents, c\u00e2r il b\u00eavront et mengieront
+  la grant do\u00e7or de Di\u00f4. Et tant ont ils plles en recevront et ils plles
+  grant f\u00e0m en aront.\\n- Fr\u00e2sa : Certes jo cr\u00ea metr\u00eat ben son
+  c\u00f4r en la tr\u00e8s grant biot\u00e2t Noutron-S\u00e8gnor et coment il apar\u00eat
+  glloriox en sos sents, cel der\u00eat bien que \u00e7o \u00e9rant dr\u00eates m\u00e8rvelyes,
+  et cr\u00ea que o lo convindr\u00eat a d\u00e8falyir, \u00e8h bien porr\u00eat d\u00e9re
+  que Di\u0153 lor av\u00eat ben rendu \u00e7o que il lor prom\u00e8t per lo prof\u00e8to
+  David: \\\"Ego dixi, dii estis\\\". C\u00e2r o serat sembllent a ch\u00e2cun que
+  il s\u00eatt un petit di\u0153, c\u00e2r ils seront ses filys et ses h\u00ears.\\n-
+  Fr\u00e2sa : Se apr\u00e9s \u00e9tre consacr\u00e2-s\u00e8 un c\u00e8rtin temps
+  a c\u00e9t trav\u00e2ly, ils aqu\u00e8ront de l''\u00e8xp\u00e8rien\u00e7a et, s''ils
+  v\u00f4lont bien, sensa partit pr\u00eas, \u00e8gzamen\u00e0r a fond l''\u00e8tat
+  de la situacion, a la pllace de consid\u00e8r\u00e0r les chouses d''una fa\u00e7on
+  subj\u00e8ctiva, unilat\u00e8r\u00e2la et sup\u00e8rfici\u00e8la, ils seront cap\u00e2bllos
+  de teri\u00e9r lors-m\u00e9mos les concllusions que s\u00e8 raportont a la mani\u00e9ra
+  que convint emplley\u00e9r, et ils s\u00e8 betaront a travaly\u00e9r avou\u00e9c
+  bine plles d''assuren\u00e7a.\\n- Fr\u00e2sa : ... o-est-a-d\u00e9re qu''ils d\u00eavont
+  f\u00e9re de mani\u00e9ra que les nov\u00e8les t\u00e2ches r\u00e8volucion\u00e8res
+  et los nov\u00e9ls proj\u00e8ts de trav\u00e2ly propos\u00e2s corr\u00e8spond\u00e9ssont
+  ux nov\u00e8les modificacions de la situacion.\\nDens una p\u00e8rioda r\u00e8volucion\u00e8ra,
+  la situacion change vito; se los r\u00e8volucion\u00e8ros adaptont pas rapidament
+  lor cognessen\u00e7a a la situacion, ils seront encap\u00e2bllos de f\u00e9re trionfar
+  la r\u00e8volucion.\\n- Fr\u00e2sa : Ceta transformacion est ja comenci\u00eaya
+  sur una partia de la T\u00e8rra, en Union Sovieteca.\\nOn y acc\u00e8l\u00e8re actu\u00e8lament
+  lo proc\u00e8ssus. Lo p\u0153pllo chinou\u00e8s et los p\u0153pllos de tot lo mondo
+  sont pr\u00eas dens c\u00e9t proc\u00e8ssus de transformacion ou seront bien vito
+  pr\u00eas.\"", "\"1er du Prix Maresse-Legallois \u00e0 Essonnes (91)AC BOULOGNE-BILLANCOURT
+  (92) 10\u00e8 du Circuit des Nations \u00e0 Gen\u00e8ve (Suisse)1er du Grand Prix
+  M\u00e9tropole amateurs \u00e0 Versailles (78) 2\u00e8 du Grand Prix de Joinville-le-Pont
+  (94) 5\u00e8 du Circuit de Boulogne (92)AC BOULOGNE-BILLANCOURT (92)/2\u00e8 cat\u00e9gorie1er
+  de la Finale de la M\u00e9daille de Paris (Sergent)1er du Grand Prix M\u00e9tropole
+  (Sergent)1er du Crit\u00e9rium de Bologne amateurs (It) 3\u00e8 de Paris-B\u00e9thisy
+  5\u00e8 de la 1\u00e8re \u00e9tape de Paris-Le Mans-Cholet amat. & ind\u00e9s 4\u00e8
+  de Paris-Le Mans-Cholet amateurs & ind\u00e9pendants 6\u00e8 de Paris-Ch\u00e2teau
+  Thierry et retourMERCIER-HUTCHINSON/VC LEVALLOIS (92) 12\u00e8 de Paris-Evreux 6\u00e8
+  de Paris-Dreux 3\u00e8 de Paris-Rouen 22\u00e8 du Grand Prix de Boulogne-Billancourt
+  (92)1er de la 1\u00e8re \u00e9tape de Paris-Londres amateurs 15\u00e8 de Paris-Briare
+  5\u00e8 de la Course de l''Isle de Man amateursMERCIER-HUTCHINSON/LEDUCQ-HUTCHINSON
+  /PELISSIER HUTCHINSON 2\u00e8 du Grand Prix de la Soierie \u00e0 Charlieu (42)MERCIER-HUTCHINSON/LEDUCQ-HUTCHINSON
+  26\u00e8 de la Ronde du Carnaval \u00e0 Aix-en-Provence (13) 17\u00e8 du Crit\u00e9rium
+  National 92\u00e8 de Paris-Roubaix 4\u00e8 du Crit\u00e9rium de Lucerne (Suisse)
+  53\u00e8 du Grand Prix du Pneumatique \u00e0 Montlu\u00e7on (03) 15\u00e8 de Paris-Tours
+  3\u00e8 de la 5\u00e8 \u00e9tape du Circuit des Six Provinces 2\u00e8 de la 6a \u00e9tape
+  du Circuit des Six Provinces 8\u00e8 du Circuit des Six Provinces 2\u00e8 du Grand
+  Prix de Cahors (46)1er du Grand Prix de Nay (64) abandon 5\u00e8 \u00e9tape du Tour
+  de France1er du Grand Prix Lib\u00e9ration-Champagne \u00e0 Troyes (10) 10\u00e8
+  du Tour de l''OuestLEDUCQ-HUTCHINSON/Monaco1er de la 4\u00e8 \u00e9tape du Circuit
+  des Six Provinces (Sergent) 4\u00e8 du Circuit des Six Provinces (Sergent)1er du
+  Championnat de Monaco (Sergent)1er de Bourg-Lons le Saunier (Sergent)1er du Grand
+  Prix Automoto \u00e0 Saint-Etienne (Sergent) 3\u00e8 de la 12\u00e8 \u00e9tape du
+  Tour de France (Sergent) 2\u00e8 de Li\u00e8ge-Bastogne-Li\u00e8ge (Sergent) 15\u00e8
+  du Championnat de France 6\u00e8 du Grand Prix de la Ville de Nice (06) 5\u00e8
+  du Grand Prix de Cannes (06) 2\u00e8 du Grand Prix Catox \u00e0 Marseille (13)1er
+  de Paris-Valenciennes 4\u00e8 du Tour de la Dordogne 22\u00e8 de Paris-Limoges 4\u00e8
+  du Crit\u00e9rium des As \u00e0 Arras (62) 6\u00e8 du Crit\u00e9rium d''Aurillac
+  (15)GITANE-HUTCHINSON1er de la 1\u00e8re \u00e9tape du Tour du Sud-Est 6\u00e8 du
+  Tour du Sud-Est1er du Circuit de la Vienne (Sergent) 10\u00e8 de Paris-Tours (Sergent)
+  11\u00e8 du Grand Prix de la Ville de Nice (06) 16\u00e8 du Crit\u00e9rium National
+  20\u00e8 de Paris-Camembert 20\u00e8 de Paris-Roubaix1er de la 2\u00e8 \u00e9tape
+  du Tour de l''Est 3\u00e8 de la 3\u00e8 \u00e9tape du Tour de l''Est1er de la 4a
+  \u00e9tape du Tour de l''EstLeader du Tour de l''Est1er du Tour de l''Est 3\u00e8
+  du Grand Prix de Champagne \u00e0 Chaumont (52) 17\u00e8 du Tour de Romandie (Suisse)
+  46\u00e8 ex aequo du GP du Pneumatique \u00e0 Montlu\u00e7on (03) 21\u00e8 de Paris-Limoges
+  10\u00e8 ex aequo de Paris-Bourges 4\u00e8 de la 4\u00e8 \u00e9tape du Tour de France
+  5\u00e8 de la 11\u00e8 \u00e9tape du Tour de France \u00e9limin\u00e9 14\u00e8 \u00e9tape
+  du Tour de France 5\u00e8 du Souvenir Auguste Aubert \u00e0 Barjols (83)ALCYON-DUNLOP/LA
+  FRANCAISE 2\u00e8 des Six Jours de Munich (RFA) avec CARRARA (Sergt) 3\u00e8 des
+  Six Jours de Bruxelles (Belg) avec CARRARA (Sergt) 3\u00e8 des Six Jours de Hanovre
+  (RFA) avec PREISKEIT (Sergt) 11\u00e8 du Championnat de France 12\u00e8 de Paris-Bruxelles
+  (Sergent) 35\u00e8 de la Fl\u00e8che Wallonne (Sergent)1er du Grand Prix de la Ville
+  de Nice (06) 32\u00e8 de Paris-Vimoutiers 6\u00e8 du Grand Prix du Libre Poitou
+  8\u00e8 du Circuit du Maine-&-Loire 40\u00e8 du Grand Prix du Pneumatique \u00e0
+  Montlu\u00e7on (03) 21\u00e8 du Tour de l''Ouest1er de la 2\u00e8 \u00e9tape du
+  GP Biscottes Magdeleine \u00e0 Granville 50 4\u00e8 du Grand Prix des Biscottes
+  Magdeleine \u00e0 Granville (50)1er du Tour de la Corr\u00e8ze 6\u00e8 ex aequo
+  du GP d''Esp\u00e9raza & de la Chapellerie (11)ALCYON-DUNLOP/LA FRANCAISE/COLOMBMERCIER-HUTCH.
+  CARRARA/IDEOR/HERCULES1er des Six Jours de Berlin II (All) avec CARRARA1er des 6
+  Jours de Bruxelles (B) avec SENFFTLEBEN (Sergt)1er de la 6\u00e8 \u00e9tape du Tour
+  de France (Sergent) 3\u00e8 de la 7\u00e8 \u00e9tape du Tour de France (Sergent)1er
+  de la 15\u00e8 \u00e9tape du Tour de France (Sergent) 32\u00e8 du Tour de France
+  (Sergent)1er du Prix de Quillan (Sergent) 3\u00e8 du Champ. de France \u00e0 l''am\u00e9ricaine
+  avec CARRARA Sgt 3\u00e8 des Six Jours de Paris (Fr) avec CARRARA (Sergent) 4\u00e8
+  de Paris-Bourges (Sergent) 5\u00e8 du Prix Danguillaume \u00e0 Montlh\u00e9ry (Sergent)
+  17\u00e8 de Paris-Roubaix (Sergent) 27\u00e8 du Championnat de France (Sergent)1er
+  du Crit\u00e9rium des As du Tour \u00e0 Amiens (80) 4\u00e8 du Crit\u00e9rium des
+  AsGITANE-HUTCHINSON/CNC1er du Champ. de France am\u00e9ric. avec SENFFTLEBEN (Sgt)1er
+  du Crit\u00e9rium d''Europe am\u00e9r. avec SENFFTLEBEN (Sgt)1er des 6 Jours de
+  Francfort (RFA) avec SENFFTLEBEN Sgt 2\u00e8 des 6 Jours Copenhague (DK) avec SENFFTLEBEN
+  (Sgt) 2\u00e8 des Six Jours de Gand (Belg) avec SENFFTLEBEN (Sgt) 3\u00e8 des Six
+  Jours de Zurich (Suisse) avec SENFFTLEBEN SgtINDIVIDUEL/CNC/LIMOGES UNICENE1er des
+  6 Jours Copenhague (DK) avec SENFFTLEBEN (Sgt) 2\u00e8 des Six Jours d''Haarus(DK)
+  avec SENFFTLEBEN (Srgt) 3\u00e8 des Six Jours de Paris (75) avec MICHEL & SENFFTLEBEN
+  (Sergent)ALCYON-LEROUX/CARPANO 2\u00e8 des Six Jours de Paris (75) avec L. BOBET
+  & SENFFTLEBEN (Sergent) 84\u00e8 de Paris-Tours (Sergent)HELYETT-LEROUX-ESSOR/URAGO
+  3\u00e8 des 6 Jours de Paris (75) avec BRUN & FORESTIER Sgt 9\u00e8 du Crit\u00e9rium
+  National (Sergent) 23\u00e8 du Tour des Flandres (Sergent) 42\u00e8 de Paris-Tours
+  (Sergent) 50\u00e8 de Paris-Roubaix (Sergent) 2\u00e8 de la Roue d''Or \u00e0 Daumesnil
+  avec P. BRUNRAPHA-GEMINIANI-DUNLOP/ACBB-HELYETT-LEROUX-HUTCHINSON/CONDOR1er du Prix
+  de Daumesnil (Sergent)LIBERIA-GRAMMONT 31\u00e8 du Tour des Flandres (Sergent) 40\u00e8
+  de Milan-San Remo (Sergent) 61\u00e8 des Quatre Jours de Dunkerque 2\u00e8 du Crit\u00e9rium
+  des As \u00e0 Riom-\u00e8s-Montagnes (15) 12\u00e8 de la Roue d''Or derny \u00e0
+  Daumesnil (Fr) avec GODEAULIBERIA-GRAMMONTMARGNAT-PALOMA 4\u00e8 du Championnat
+  de France de demi-fond (Sergent) 35\u00e8 du Grand Prix d''Antibes (06)\"", "\"Accueil
+  > FR > \u00d4di\u00f4 des \u00e8missions \\\"Intr\u00e9 no\\\" sur cloudup.com\\n\u00d4di\u00f4
+  des \u00e8missions \\\"Intr\u00e9 no\\\" sur cloudup.com\\nvendredi 29 janvier 2016\\nBonjorn
+  a vos les amis de Frib\u00f4rg !\\nDzakye l\u2019at pas m\u00e9s tant lo temps de
+  tot betar (fechi\u00e9r) sur lo sito arpitan.ch coment d\u00e8vant. L\u2019avi\u00e9ve
+  ja un an et demie que j\u2019avi\u00e9ve pas f\u00e9t cen ; il motre ben que \u00e9re
+  tr\u00f4p por m\u00e9s. Mas...\\nJ\u2019\u00e9 trov\u00e2 la solucion de betar les
+  documents \u00f4di\u00f4 sur cloudup.com por un an a c\u00f4p. Tandiu l\u2019an\u00e2ye
+  v\u00e8so apondre les enregistrement tu\u00e9s les m\u00e9s et changi\u00e9r lo
+  titro du derri\u00e9r articlo de la rubrica.\\nA tsi vo !\"", "\"La Parola : entre\\n17667\\ndefinicion
+  : pr\u00e8posicion\\nnota : entre ; entre-mi\u00e9 entre nous entre-s\u00e8 (rare)
+  entre-deux entre-doux (pas g\u00e9n\u00e9ral) entre-temps entre-temps (pas g\u00e9n\u00e9ral)\\n-
+  Franc\u00eas : entre pr\u00e9p.\\n- Italien : tra (preposizione)\\n- Italien : fra
+  (preposizione)\\n- Gramatica : pr\u00e8posicion\\n- Varianta : \u00e8ntre\\n- Varianta
+  : entre (Bjl)\\n- Fr\u00e2sa : Entre Sent Mechi\u00e9l et Sent Fran\u00e7ou\u00e8s,\\nPrend
+  ta venenge coment l''est;\\nA Sent Denis,\\nPrend-la se te porr\u00e9s.\\n- Fr\u00e2sa
+  : Ou\u00e8 m\u00e0s il ne conven\u00e9t gou\u00e9ro bi\u00e8n a cetos-qu\u00e9 de
+  la n\u0153ce ; et ils \u00e8nray\u00e9ront a f\u00e9re vilen. N\u0153s los \u00e8ntend\u00eat
+  que marr\u0153nar \u00e8ntre ly\u0153rs d\u00e8nts.\\n- Fr\u00e2sa : Totes les vari\u00e8t\u00e2t
+  sont bien compr\u00e8hensibles entre lor et prenont lo nom de francoprov\u00e8n\u00e7\u00e2l.\\n-
+  Fr\u00e2sa : Entre cetes f\u00f4rmes de prateca soci\u00e2la, la luta des cll\u00e2sses,
+  desot ces diverses manif\u00e8stacion, \u00e8gz\u00e8rce en particuli\u00e9r una
+  enfluence profonda sur lo d\u00e8velopament de la cognessense hum\u00e8na.\\n- Fr\u00e2sa
+  : D''ic\u00e9 la seconda qu\u00e8stion. L''arpitan, come totes les lengoues minorit\u00e8res,
+  est, u moment actu\u00e8l, un conjuent de dial\u00e8ctos bien dif\u00e8rents entre
+  lors et, bien sovent, los m\u00e9mos arpitano-parlents ant m\u00e2ltemps a s\u00e8
+  comprendre. \u00c8vident que l''adopcion de grafies dial\u00e8ct\u00e2les de tipo
+  fon\u00e8tico \u00e8tr\u00eat feni atot la reproduccion des m\u00e9mos probl\u00e8mos
+  de inter-compr\u00e8asion que y ant por la comunicacion or\u00e2la. En plles, quand
+  s\u00e8 tr\u00e8te d''un t\u00e8xto \u00e8crit, que seye pas una simplla panc\u00e2rta
+  de quatro paroles, la n\u00e8c\u00e8ssit\u00e2t de s\u00e8 r\u00e8p\u00e8tar a vou\u00e8x
+  h\u00f4ta parola por parola por ch\u00e8rchi\u00e9r de la comprendre d\u00e8truit
+  compl\u00e8tament lo pll\u00e8sir de la l\u00e8ctura; et una l\u00e8ctura sens pll\u00e8sir
+  nion la f\u00e9t.\\n- Fr\u00e2sa : Sur lors g\u00f4fros profonds ''l y at de chemins
+  \u00e8frey\u00e2bllos,\\nM\u00e0s, h\u00e8l\u00e2s! sur cetos n''y at pouent de
+  nav\u00e9g\u00e2bllos.\\nF\u00f4drat-o prendre fin entre la t\u00e8rra et l''\u00ear?\\nD''y
+  songi\u00e9r solament f\u00e2t fresenar la ch\u00e8rn.\\n- Fr\u00e2sa : Entre les
+  \u00f4tres o lui fut sembllant que elle v\u00eat J\u00e8sus-Crist si tr\u00e8s glloriox
+  que c\u00f4r ne porr\u00eat pensar, qui \u00e9ret vehtu de cela glloriosa roba qu''il
+  pr\u00e9t lo tr\u00e8s nobllo c\u00f4rps de Noutra-Dona. En ses tr\u00e8s noblles
+  m\u00e0ns et en ses pieds apar\u00e9ssant les gllorioses pllayes que il sofrit p\u0153r
+  am\u00f4r de nos. De c\u00e9l glloriox p\u00e8rtu\u00e9s saly\u00e9t una si tr\u00e8s
+  grand cllart\u00e2t que \u00e7o \u00e9ret un grand \u00e8bayiment ass\u00e9 come
+  si tota la biot\u00e2 de la divinit\u00e2t saly\u00e9t per m\u00e8.\\n- Fr\u00e2sa
+  : Nos entendens que entre les \u00f4tres chouses o ly\u00e9 fut demand\u00e2 quinta
+  vou\u00e8x et quinta parola o ly\u00e9 \u00e9ret sembllent que ele aou\u00e9t. Et
+  ele r\u00e8pond\u00e9t qu''il la av\u00eat come homo, \u00e7o ly\u00e9 \u00e9ret
+  sembllent; m\u00e0s dif\u00e8rence y av\u00eat si grant que no ly\u00e9 \u00e9ret
+  vi\u00eares que negun c\u00f4rps humen que viv\u00e9t en t\u00e8rra pou\u00e9t entendre
+  en son c\u00f4r ne d\u00e9re de boche neguna sembllence ni neguna \u00e8stimacion
+  de la grant biot\u00e2t et do\u00e7or de cela glloriosa vou\u00e8x et parola.\\n-
+  Fr\u00e2sa : Entre celos doux cors qui s\u00e8 aj\u00b7out\u00e2ront als doux premi\u00e9rs
+  cors, apar\u00e9ss\u00eat una p\u00e8rsona loqu\u00e2l teniant quatro \u00f4tros
+  entre lors mans, les doux dev\u00e8rs la t\u00e9ta et les doux dev\u00e8rs los pieds.
+  Et c\u00e9ls quatro lui \u00e9ret sembllent que fussont les plles n\u00f4blles cr\u00e8atures
+  que fussont entre t\u00f4s los \u00f4tros. Et pos\u00e2ront c\u00e9l glloriox c\u00f4rps
+  que teniant entre lors mans sus lo drap d''or que les premi\u00e9rs aviant aparely\u00ea.
+  Quand ils pos\u00e2ront c\u00e9l glloriox c\u00f4rps, les quatro cors s\u00e8 vant
+  agenoly\u00e9r et encllinar a grant r\u00e8v\u00e8rence devant lui.\\n- Fr\u00e2sa
+  : Una \u00f4tra v\u00eas avent\u00e9t que ele s\u00e8 fut al\u00e2 g\u00e9sir apr\u00e9s
+  complia et tantout, sens qu''o que ele non s\u00e8 fut pas endormia, ol ly\u00e9
+  fut sembllent que son \u00e8sprit fut entre los sents du paradis delqu\u00e2l/delsqu\u00e2ls
+  ly\u00e9 sembll\u00e2vet que VIUT si grant compagnie que on non y porr\u00eat metre
+  compto.\\n- Fr\u00e2sa : Depu\u00e9s ele lo vit un temps ass\u00e9 come on porr\u00eat
+  v\u00ear de luen una \u00e9magena pinta en parchemin. Totes v\u00eas la biot\u00e2t
+  \u00e9ret si grant que elle non lo put d\u00e9re, m\u00e0s non put f\u00e9re entendre
+  en \u00f4tra mani\u00e9re. Apr\u00e9s ele lo vit tot simpllament come les \u00f4tros.\\nEt
+  pu\u00e9s avent\u00e9t alcuna-v\u00eas que ele v\u00eat si grant cllart\u00e2t entre
+  les mans del chapelan come lo solo.\\n- Fr\u00e2sa : Et a la fin de c\u00e9ls doux
+  ans o ne fut jorns d\u00eas f\u00e9ta sent Antou\u00e8no tant que la seconda semana
+  de car\u00eama que ele entre la nuet et lo jorn que ele ne v\u00e8s\u00e9t et sut
+  alcuna (chousa) dels s\u00e8cr\u00e8ts Noutron-S\u00e8gnor, losqu\u00e2ls s\u00e8cr\u00e8ts
+  furont si grants et m\u00e8ravilyox que quand ele en cudi\u00e9vet r\u00e0contar
+  alcuna partia secr\u00e8tament o non p\u00f4t \u00e9tre retenu c\u00e2r Di\u00f4
+  non lo vol\u00e9t sofrir, c\u00e2r p\u00f4t-\u00e9tre que la p\u00e8rsona cui ele
+  lo r\u00e8v\u00e8l\u00e2vet non \u00e9ret digna del ret\u00e9nir.\\n- Fr\u00e2sa
+  : M\u00e0s pu\u00e9s apr\u00e9s eles l\u00e8ssi\u00e9ront c\u00e9l lu\u00e8, c\u00e2r
+  \u00e9ret trop entre los s\u00e8cul\u00e2rs, et s''en retorn\u00e2ront en Permagni,
+  m\u00e2ques cetes tr\u00eas cr\u00e8atures que \u00e9rant ja trapass\u00eaes et
+  sevelies l''una de jo\u00fbta l''\u00f4tra al cemeti\u00e9ro de cela m\u00eason
+  d''\u00camu\u00e9x.\\n- Fr\u00e2sa : En agissent sur les org\u00e2nos des sens des
+  membros du groupo d''\u00e8tude, c\u00e9ls div\u00e8rs fenom\u00e8nos encontr\u00e2s
+  a Yenan ant provoc\u00e2s de sensacions et f\u00eat surgir dens lors c\u00e8rv\u00e8les
+  una s\u00e8ria de r\u00e8pr\u00e8sentacions, entre que s''est \u00e8tabli un liem
+  d''aproximacion, un liem \u00e8xt\u00e8rno: [ek\u00f2] lo premi\u00e9r degr\u00e2
+  de la cognessen\u00e7a. A ce degr\u00e2, les homos p\u00f4ssont pas oncor \u00e8labor\u00e0r
+  des conc\u00e8pts que s\u00e8 plla\u00e7ont a des niv\u00e9ls plles profonds, nion
+  qu''a teri\u00e9r des concllusions logeques.\\n- Fr\u00e2sa : Entre lo conc\u00e8pt
+  et la sensacion, la dif\u00e8ren\u00e7a est pas justo quantitativa mas qualitativa.
+  En alent plles luen dens ceta dir\u00e8ccion, avou\u00e9c l''\u00e9do du jugement,
+  de la d\u00e8duccion, on p\u00f4t arrev\u00e0r a des concllusions loqiques. L''\u00e8xpr\u00e8ssion
+  du SAN KOUO YEN YI: \\\"Un froncement de la t\u00e9ta et una id\u00e2 vint a l''\u00e8sprit\\\"
+  ou c\u00e8la du leng\u00e2jo ordin\u00e8ro: \\\"L\u00e8ssi\u00e9des-m\u00e8 r\u00e8fll\u00e8chir\\\"
+  signifiont que l''homo op\u00e8re ent\u00e8l\u00e8ctu\u00e8lament a l''\u00e9do
+  de conc\u00e8pts por port\u00e0r des jugements et por f\u00e9re des d\u00e8duccions.
+  Il est l\u00e9 lo second degr\u00e2 de la cognessen\u00e7a.\\n- Fr\u00e2sa : Mas
+  d\u00eas la seconda p\u00e8rioda de sa prateca, p\u00e8rioda de la luta poleteca
+  et \u00e8conomeca conscienta et organis\u00e2ye, por lo f\u00eat de son activit\u00e2t
+  prateca, de son \u00e8xp\u00e8rien\u00e7a aquisa u cors d''una lunta prolongi\u00eaya,
+  \u00e8xp\u00e8rien\u00e7a que fut g\u00b7\u00e8n\u00e8ralis\u00e2ye scientificament
+  per Marx et engels et de y\u00f4 et n\u00e8ssua la t\u00e8oria marxista qu''el at
+  s\u00e8rvi a l''\u00e8duc\u00e0r, ceta cll\u00e2ssa fut cap\u00e2blla de comprendre
+  l''\u00e8ssen\u00e7a de la soci\u00e8t\u00e2t capitalista, los rap\u00f4rts d''\u00e8xplou\u00e8tacion
+  entre les cll\u00e2sses soci\u00e2les, sos pr\u00f4pros devou\u00e8rs historecos
+  et devint adonc una \\\"cll\u00e2ssa por s\u00e8\\\".\\n- Fr\u00e2sa : L''id\u00e8alismo
+  et lo mat\u00e8rialismo m\u00e8canisto, l''oportunismo et l''aventurismo, s\u00e8
+  caract\u00e8risont per la ruptura entre lo subj\u00e8ctif et l''obj\u00e8ctif, per
+  la s\u00e8paracion de la cognessen\u00e7a d''avou\u00e9c la prateca.\\n- Fr\u00e2sa
+  : Un nurrim de di\u00e9x vaches. ''L at un nurrim de vingt t\u00e9tes, entre vaches,
+  mojons et v\u00e9ls.\"", "\"(patou\u00e9 d\u00e9 Tsaenso\u00f9)\\nVou\u00e9il\u00e0
+  eun nouo approfondissem\u00e8n de eunna di s\u00e9ch\u00f3n de la padze d\u2019aqueuil
+  : le Conte de patoisvda, eun caro pe cont\u00e9 i pebleuque l''identito\u00f9 valdot\u00e9na
+  a trav\u00e8e l''eunstrum\u00e0n di storytelling, de conte pe \u00e9mochon-\u00ec
+  le letteue \u00e9 que pr\u00e8dzon di dzi \u00e9 di patou\u00e9.\\nLe premiye eunformach\u00f3n
+  arrevon di-z-esp\u00e8e di patou\u00e9, de salle dzi que l\u2019an cherd\u00ec lo
+  francoprovansal comme mouy\u00e8n pe moutr\u00e9 leue mimo \u00e9 pe jou\u00ec \u00e9t\u00f3
+  de satisfach\u00f3n i travaille comme deun lo ten libro.\\nDeun tsaque t\u00e9mouagnadzo,
+  le protagoniste no dion perqu\u00e9 l\u2019an cherd\u00ec de f\u00e9ye si parco\u00f9,
+  queun l''\u00e8 lo rappoo avou\u00ec lo patou\u00e9 (deun la via de tcheu le dzoo),
+  queunse son le-z-esp\u00e9rianse f\u00e9te...\\nL\u2019euntench\u00f3n l\u2019\u00e8
+  salla de f\u00e9ye cougnitre v\u00e9o no sen \u00e9 v\u00e9o diffiente son noutre
+  esp\u00e9rianse, v\u00e9o reutso son noutro li\u00e8n avou\u00ec lo patou\u00e9
+  \u00e9 l''eunt\u00e9r\u00e9 pe seutta lenva eunc\u00f3 bi\u00e8n vivanta.\\nBon-a
+  letteua !\"", "\"[374] Penn\u012bnische Alpen, gletscherreicher Teil des innern
+  Gneisalpenzugs der Westalpen, zwischen dem Gro\u00dfen Sankt Bernhard, der Dora
+  Baltea, Toce, dem Simplon und dem Rh\u00f4netal, zerf\u00e4llt in die Arollagruppe
+  im W. (Wei\u00dfhorn 4512 m, Matterhorn 4505 m, Dent Blanche 4364 m) und die Monte-Rosa-Gruppe
+  im O. (Dufourspitze 4638 m); nach N. zweigen sich ab die Mischabelh\u00f6rner (4554
+  m) und das Wei\u00dfmieshorn (4031 m).\\nBrockhaus-1809: Die obern Alpen \u00b7
+  Die Alpen \u00b7 Die Alpen \u00b7 Die niedern Alpen\\nBrockhaus-1911: Penninische
+  Kette \u00b7 Provence-Alpen \u00b7 Raibler Alpen \u00b7 Sappada-Alpen \u00b7 Rh\u00e4tische
+  Alpen \u00b7 M\u00fcnstertaler Alpen \u00b7 Mollner Alpen \u00b7 Nonsberger Alpen
+  \u00b7 \u00d6sterreichische Alpen \u00b7 Norische Alpen \u00b7 Savoyer Alpen \u00b7
+  Trientiner Alpen \u00b7 Transsylvanische Alpen \u00b7 Venezianer Alpen \u00b7 Waidringer
+  Alpen \u00b7 Vicentinische Alpen \u00b7 Steiner Alpen \u00b7 Schladminger Alpen
+  \u00b7 Steirische Alpen \u00b7 Tessiner Alpen \u00b7 Sulzbacher Alpen \u00b7 Luzerner
+  Alpen \u00b7 Dinarische Alpen \u00b7 Brescianer Alpen \u00b7 Eisenerzer Alpen \u00b7
+  Grajische Alpen \u00b7 Glarner Alpen \u00b7 Alpen \u00b7 Adula-Alpen \u00b7 Alpen
+  [2] \u00b7 Brenta-Alpen \u00b7 Berner Alpen \u00b7 Hollensteiner Alpen \u00b7 Ligurische
+  Alpen \u00b7 Lessinische Alpen \u00b7 Livigno-Alpen \u00b7 Luganer Alpen \u00b7
+  Lombardische Alpen \u00b7 Karnische Alpen \u00b7 Julische Alpen \u00b7 Kottische
+  Alpen \u00b7 Lechtaler Alpen \u00b7 Lavanttaler Alpen\"", "\"G\u00e8nocido arm\u00e8nien\\nLo
+  g\u00e8nocido arm\u00e8nien, ou m\u00e9s pr\u00e8cisament lo g\u00e8nocido des Arm\u00e8niens,
+  est un g\u00e8nocido f\u00eat d''avril 1915 a july\u00e8t 1916, u cors de loquint
+  los doux ti\u00e8rs des Arm\u00e8niens que vivant alor sur lo t\u00e8rritou\u00e8ro
+  actu\u00e8l de la Turquie ant p\u00e8ri a c\u00f4sa de d\u00e8portacions, famenes
+  et massacros de granta amplor. Il at \u00e9t\u00e2 planifey\u00ea et \u00e8gz\u00e8cut\u00e2
+  per lo parti u pov\u00ear a l''\u00e8poca, lo Comit\u00e2t Union et Progr\u00e8s
+  (CUP), m\u00e9s cognessu sot lo nom de \u00ab Jouenos-Turcos \u00bb, compos\u00e2
+  en particuli\u00e9r du trionvirat d''ofici\u00e9rs Talaat Pach\u00e2, Enver Pach\u00e2
+  et Djemal Pach\u00e2, que dirigi\u00eave l''Empiro otoman adonc engagi\u00ea dens
+  la Premi\u00e9re Gu\u00e8rra mondi\u00e2la ux fllancs des Empiros centr\u00e2ls.
+  Il at c\u00f4t\u00e2 la via a enveron un milyon doux cent mile Arm\u00e8niens d''Anatolie
+  et d''Arm\u00e8nia occident\u00e2la.\\nLa ciba du g\u00e8nocido \u00e9re lo n\u00e8tey\u00e2jo
+  \u00e8tnico de l''\u00e8tat turco, en \u00e8liminant surtot les populacions cr\u00e8tienes;
+  \u00e8f\u00e8ctivament d''\u00f4tros cr\u00e8tiens, siriacos en particuli\u00e9r,
+  ant cognessu lo m\u00e9mo s\u00f4rt.\\nL''actu\u00e8la r\u00e8publica turca refuse
+  d''acc\u00e8ptar l''\u00e8gzistence de ceti g\u00e8nocido, qu''est portant recognessu
+  hou\u00e9 per una trent\u00eana d''\u00e8tats, avou\u00e9c la France et los \u00c8tats-Unis,
+  payis y\u00f4 los d\u00e8scendents de r\u00e8fugiy\u00eas arm\u00e8niens sont sp\u00e8cialament
+  nombrox.\"", "\"(patou\u00e8 de Vagrezentse)\\nLa plan\u00e9ta que donte si signe
+  l''\u00e9 lo Sol\u00e8i, l''\u00e9l\u00e9m\u00e8n l''\u00e9 lo fou\u00e0.\\nLo Sol\u00e8i
+  passe deun si signe euntre lo 23 de juillet \u00e9 lo 22 d''out.\\nCouleur : lo
+  dzano or.\\nP\u00e9ra de la chanse : l''or.\\nM\u00e9tal : lo diam\u00e0n.\\nDzor
+  de la chanse : la demendze.\\nCarat\u00e9ro\\nLo Li\u00f3n l''\u00e9 lo signe dou
+  pouvou\u00e8e. L''a de volont\u00e9i \u00e9 de d\u00e9terminach\u00f3n, condzebl\u00e9e
+  a bram\u00e8n de grase. Si signe l''a eun ego bi\u00e8n prononch\u00e0 que lo porte
+  a iss\u00e9i lo pi eungamba deun queunta situach\u00f3n se voille. Le n\u00e8is\u00f9
+  d\u00e9z\u00f3 si signe baillon eun sans de confianse \u00e9 pouon se demoous\u00e9i
+  de bon tsachoou deun l''amour. Senton l''\u00e9zijanse de comand\u00e9i m\u00e9i
+  l''amon pa gagn\u00e9i le partie tro seumple perqu\u00e9 l\u00e8i troouvon pa de
+  gou. San queun l''\u00e9 leur valeur \u00e9 l''amon iss\u00e9i appr\u00e9si\u00e0
+  : so le ren gnaque fase i complim\u00e8n. Son eunt\u00e9r\u00e9ch\u00e0 a tan de
+  bague deferente, l''an eun bon espr\u00ec d''organizach\u00f3n m\u00e9i l\u00e8ichon
+  i-z-atre le travaille mou\u00e8n eumport\u00e0n.\\nVu que lo Li\u00f3n governe lo
+  queur, le n\u00e8is\u00f9 d\u00e9z\u00f3 si signe can vi\u00e9illisson son sedzet
+  a de probl\u00e9me de queur. Pouon s''oubli\u00e9i que avou\u00ec lo ten lo cor
+  ten a s''aff\u00e8ibl\u00ec \u00e9 so f\u00e9i poy\u00e9i la pr\u00e9ch\u00f3n dou
+  san. Lo Li\u00f3n l''\u00e9 orgueilleu, courajeu \u00e9 gneucco. L''\u00e9 eun chef
+  pe nateura m\u00e9i pa todzor deun la r\u00e9alit\u00e9i.\\nL''a todzor deun llu
+  la prezonch\u00f3n, la fata de baill\u00e9i de-z-odre i-z-atre, que eun bi\u00f3
+  mou\u00e9i de coou, se l''\u00e9 pa bi\u00e8n j\u00e8r\u00e9e, f\u00e9i fran rie
+  le polet.\\nL''\u00e9 an personna ambechoouza, otorit\u00e9ra, pl\u00e9ye de via,
+  fi\u00e9ra comme eun pet, fid\u00e9le \u00e9 de bon queur. Son de tsoouze llatt\u00e9e
+  a la via de tcheu le dzor \u00e9 son totte carat\u00e9riz\u00e9e de la m\u00e9ima
+  baga : la volont\u00e9i. Se lo Li\u00f3n la eumpl\u00e8ye mal, seutta volont\u00e9i
+  pou port\u00e9i a bond\u00e0n de pach\u00f3n, d''orgueuille, a iss\u00e9i acrap\u00ec,
+  a vol\u00e8i gagn\u00e9i a tcheu pri, a prendre le bague bond\u00e0n su lo s\u00e8rieu,
+  fenque a resit\u00e9i deun la via. Sen que \u00e9ba\u00ec l''\u00e9 l''estraordin\u00e9ra
+  confianse eun s\u00e9 m\u00e9imo que lo Li\u00f3n l''ar\u00e9 todzor.\\nL''a gneura
+  consid\u00e9rach\u00f3n de l''euntench\u00f3n di-z-atre : l''\u00e9 ad\u00f3n que
+  l''otorit\u00e9i se modifie deun la s\u00e8i de pouvou\u00e8e, que lo porte a vol\u00e8i
+  s''eumpoouz\u00e9i eun tot \u00e9 pertot. Iss\u00e9i de bon queur l''\u00e9 eunna
+  de se pi consid\u00e9rable calet\u00e9i.\\nSon espr\u00ec combatt\u00e8n se moouse
+  deun dave fas\u00f3n : d''eunna magn\u00e9ye pi um\u00e9na (tandanse a combattre
+  sa nateura) \u00e9 d''eunna magn\u00e9ye surum\u00e9na (la vitou\u00e9re su le prooue,
+  l''espanch\u00f3n de l''ego pe lo bien\u00e9tre de tcheut). Lo Li\u00f3n l''\u00e9
+  \u00e9t\u00f3 lo signe de l''\u00e9ducach\u00f3n, di m\u00e8in\u00e0, de la glou\u00e9re
+  \u00e9 de l''ar.\""]'
+src_ngrams: '{"1": [[["de"], 82495], [["la"], 51336], [["l"], 43733], [["et"], 35505],
+  [["lo"], 35257]], "2": [[["de la"], 15504], [["de l"], 6529], [["lo t\u00e8xto"],
+  5425], [["changi\u00e9r lo"], 5414], [["t\u00e8xto s\u00f4rsa"], 5408]], "3": [[["lo
+  t\u00e8xto s\u00f4rsa"], 5408], [["changi\u00e9r lo t\u00e8xto"], 5408], [["kilom\u00e8tes
+  \u00e8 l"], 2339], [["du grand prix"], 1066], [["du tour de"], 989]], "4": [[["changi\u00e9r
+  lo t\u00e8xto s\u00f4rsa"], 5408], [["c\u00eenq kilom\u00e8tes \u00e8 l"], 846],
+  [["travaux neuch\u00e2telois de linguistique"], 662], [["du grand prix de"], 551],
+  [["\u00e8 c\u00eenq kilom\u00e8tes \u00e8"], 436]], "5": [[["\u00e8 c\u00eenq kilom\u00e8tes
+  \u00e8 l"], 436], [["\u00e8 qu\u00eenze kilom\u00e8tes \u00e8 l"], 215], [["est
+  na comena franc\u00easa et"], 174], [["que s\u00e8 tr\u00f4ve dens lo"], 167], [["s\u00e8
+  tr\u00f4ve dens lo d\u00e8partament"], 162]]}'

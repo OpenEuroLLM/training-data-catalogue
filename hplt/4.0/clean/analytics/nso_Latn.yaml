@@ -1,0 +1,1315 @@
+corpus: hplt-v4-nso
+srclang: nso
+timestamp: 1789046195.409242
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2017-04", 2370], ["CC-MAIN-2017-26", 756], ["CC-MAIN-2024-51",
+  537], ["CC-MAIN-2020-45", 521], ["CC-MAIN-2021-43", 367], ["CC-MAIN-2021-39", 312],
+  ["CC-MAIN-2022-27", 294], ["CC-MAIN-2017-51", 277], ["CC-MAIN-2025-08", 272], ["CC-MAIN-2020-05",
+  261], ["CC-MAIN-2025-05", 250], ["CC-MAIN-2018-05", 218], ["CC-MAIN-2021-25", 162],
+  ["CC-MAIN-2020-29", 154], ["CC-MAIN-2020-24", 147], ["wide00016", 95], ["CC-MAIN-2020-10",
+  86], ["CC-MAIN-2025-13", 85], ["CC-MAIN-2018-39", 84], ["CC-MAIN-2021-49", 76],
+  ["CC-MAIN-2020-34", 76], ["wide00011", 69], ["CC-MAIN-2025-21", 67], ["CC-MAIN-2023-40",
+  65], ["CC-MAIN-2021-17", 65], ["CC-MAIN-2021-04", 59], ["CC-MAIN-2025-26", 58],
+  ["CC-MAIN-2021-10", 56], ["CC-MAIN-2024-33", 53], ["CC-MAIN-2024-18", 53], ["CC-MAIN-2025-18",
+  50], ["CC-MAIN-2018-34", 48], ["CC-MAIN-2024-46", 46], ["CC-MAIN-2025-30", 45],
+  ["CC-MAIN-2023-50", 44], ["CC-MAIN-2022-05", 44], ["CC-MAIN-2021-21", 44], ["CC-MAIN-2025-33",
+  41], ["CC-MAIN-2022-21", 40], ["CC-MAIN-2020-40", 39], ["CC-MAIN-2024-22", 37],
+  ["CC-MAIN-2024-10", 35], ["CC-MAIN-2020-50", 34], ["CC-MAIN-2024-30", 32], ["CC-MAIN-2023-23",
+  32], ["CC-MAIN-2022-33", 31], ["CC-MAIN-2014-15", 30], ["wide00012", 29], ["CC-MAIN-2024-38",
+  28], ["CC-MAIN-2019-04", 25], ["CC-MAIN-2024-42", 24], ["CC-MAIN-2023-14", 23],
+  ["CC-MAIN-2018-43", 23], ["CC-MAIN-2024-26", 21], ["CC-MAIN-2018-22", 19], ["CC-MAIN-2020-16",
+  18], ["wide00015", 16], ["CC-MAIN-2022-49", 16], ["CC-MAIN-2021-31", 15], ["CC-MAIN-2022-40",
+  14], ["CC-MAIN-2015-48", 11], ["CC-MAIN-2023-06", 10], ["CC-MAIN-2016-30", 10],
+  ["CC-MAIN-2015-18", 9], ["wide00010", 8], ["CC-MAIN-2016-44", 8], ["wide00006",
+  5], ["wide00005", 5], ["archivebot", 5], ["CC-MAIN-2014-42", 2], ["CC-MAIN-2014-35",
+  2], ["wide00017", 1], ["wide00002", 1]]'
+docs_langs: '[[0.2, 50], [0.3, 81], [0.4, 88], [0.5, 283], [0.6, 285], [0.7, 496],
+  [0.8, 1145], [0.9, 1983], [1.0, 4554]]'
+docs_segments: '[[1, 81], [2, 140], [3, 184], [4, 273], [5, 266], [6, 359], [7, 353],
+  [8, 415], [9, 402], [10, 400], [11, 317], [12, 331], [13, 316], [14, 272], [15,
+  228], [16, 220], [17, 206], [18, 229], [19, 194], [20, 209], [21, 183], [22, 168],
+  [23, 168], [24, 152], [25, 157], [26, 136], [27, 132], [28, 104], [29, 106], [30,
+  91], [31, 90], [32, 103], [33, 71], [34, 84], [35, 91], [36, 74], [37, 87], [38,
+  61], [39, 87], [40, 88], [41, 68], [42, 76], [43, 54], [44, 59], [45, 60], [46,
+  55], [47, 50], [48, 41], [49, 28], [50, 31], [51, 30], [52, 32], [53, 24], [54,
+  13], [55, 23], [56, 23], [57, 14], [58, 20], [59, 12], [60, 21], [61, 15], [62,
+  15], [63, 14], [64, 10], [65, 8], [66, 12], [67, 16], [68, 15], [69, 8], [70, 10],
+  [71, 9], [72, 9], [73, 14], [74, 8], [75, 6], [76, 14], [77, 4], [78, 8], [79, 3],
+  [80, 8], [81, 7], [82, 9], [83, 9], [84, 7], [85, 11], [86, 2], [87, 5], [88, 6],
+  [89, 4], [90, 10], [91, 6], [92, 5], [93, 5], [94, 2], [95, 2], [96, 6], [97, 3],
+  [98, 4], [99, 6], [100, 2], [101, 6], [102, 4], [103, 2], [104, 3], [105, 2], [106,
+  4], [107, 6], [108, 1], [109, 3], [110, 3], [111, 4], [112, 6], [113, 3], [115,
+  3], [116, 3], [117, 4], [118, 4], [119, 3], [120, 7], [121, 1], [122, 2], [123,
+  3], [124, 4], [125, 3], [126, 2], [127, 2], [128, 4], [129, 3], [130, 2], [131,
+  3], [132, 2], [133, 4], [134, 2], [135, 2], [136, 3], [137, 1], [138, 2], [140,
+  3], [141, 5], [146, 2], [147, 1], [148, 1], [150, 2], [151, 3], [152, 1], [153,
+  1], [154, 1], [155, 3], [156, 2], [157, 1], [158, 2], [160, 3], [162, 2], [164,
+  6], [165, 1], [167, 1], [169, 2], [170, 2], [172, 2], [173, 1], [174, 2], [176,
+  2], [177, 5], [178, 1], [179, 1], [182, 2], [184, 4], [185, 2], [186, 4], [187,
+  1], [188, 1], [189, 3], [190, 1], [191, 4], [193, 1], [194, 2], [195, 1], [196,
+  1], [198, 1], [199, 1], [200, 2], [201, 2], [203, 1], [204, 3], [205, 2], [206,
+  2], [208, 1], [212, 2], [213, 2], [216, 1], [219, 2], [221, 1], [223, 1], [224,
+  1], [225, 2], [231, 1], [237, 2], [244, 1], [247, 1], [249, 1], [251, 1], [252,
+  2], [253, 1], [255, 1], [256, 1], [265, 1], [268, 1], [271, 1], [273, 1], [276,
+  1], [280, 1], [281, 1], [282, 1], [283, 1], [284, 1], [285, 1], [297, 1], [310,
+  2], [323, 2], [331, 1], [332, 1], [339, 1], [342, 1], [343, 1], [348, 1], [351,
+  1], [361, 1], [364, 1], [376, 1], [379, 1], [384, 1], [393, 1], [397, 1], [405,
+  1], [440, 2], [507, 1], [531, 1], [534, 1], [591, 1], [592, 1], [985, 1], [1012,
+  1], [2038, 1], [2266, 1], [2684, 1], [5342, 1], [6305, 1]]'
+docs_segments_mean: 28
+docs_segments_median: 16
+docs_top100_domains: '[["jw.org", 3706], ["biblesa.co.za", 2278], ["southafrica.co.za",
+  887], ["seiponemadireng.co.za", 221], ["fundza.mobi", 177], ["nalibali.org", 135],
+  ["wikipedia.org", 127], ["hackernoon.com", 89], ["oxforddictionaries.com", 82],
+  ["sars.gov.za", 54], ["pubpub.org", 47], ["sekhukhunetimes.co.za", 45], ["zhitov.ru",
+  43], ["thobelafm.co.za", 43], ["messagesformothers.co.za", 42], ["www.gov.za", 35],
+  ["wakahina.com", 32], ["iono.fm", 26], ["myconstitution.co.za", 23], ["realsuntime.com",
+  17], ["lebalelo.co.za", 17], ["uj.ac.za", 16], ["slideflix.net", 16], ["classace.io",
+  16], ["qualibooks.co.za", 12], ["balakudu.com", 12], ["sejoygroup.com", 11], ["biblesociety.co.za",
+  11], ["townshipnews.co.za", 10], ["sadilar.org", 10], ["mukurukurumedia.co", 10],
+  ["indabukoyakho.com", 10], ["gotquestions.org", 10], ["brilliancechemical.com",
+  10], ["bible.com", 10], ["pa.org.za", 9], ["oyang-group.com", 9], ["oratlas.com",
+  9], ["microsoft.com", 9], ["journals.co.za", 9], ["wordpress.com", 8], ["izithakazelo.blog",
+  8], ["hsqy-plasticgroup.com", 8], ["globalrecordings.net", 8], ["wakahina.co.za",
+  7], ["thepresidency.gov.za", 7], ["paperlesschool.co.za", 7], ["lllsa.org", 7],
+  ["libguides.com", 7], ["jinpeng-global.com", 7], ["flipflippieandfriends.co.za",
+  7], ["bacum.co.za", 7], ["adowa.co.za", 7], ["wimpy.co.za", 6], ["verbumetecclesia.org.za",
+  6], ["theinternet.io", 6], ["sabc-plus.com", 6], ["nisc.co.za", 6], ["mukurukurumedia.co.za",
+  6], ["earlylearningresourcenetwork.org", 6], ["digitallibrary.io", 6], ["communitymonitors.net",
+  6], ["chinasprayer.com", 6], ["zhitov.com", 5], ["thereporternews.co.za", 5], ["standardbank.com",
+  5], ["sorumatik.co", 5], ["exonumia.africa", 5], ["dfuntech.com", 5], ["vut.ac.za",
+  4], ["vallalar.net", 4], ["ubuntunet.net", 4], ["triphun.com", 4], ["tektime.it",
+  4], ["saqa.org.za", 4], ["rhhardware.com", 4], ["presidency.gov.za", 4], ["pearson.co.za",
+  4], ["pansalb.org", 4], ["metaverse-academy.tech", 4], ["jungyulkim.com", 4], ["jucelinoluz.news",
+  4], ["info.gov.za", 4], ["imbokodo.org.za", 4], ["hangaotech.com", 4], ["gonnle.com",
+  4], ["feilongelectric.com", 4], ["elexacademicbookstore.co.za", 4], ["difelatsasione.co.za",
+  4], ["churchages.net", 4], ["caps123.co.za", 4], ["bookboundonline.co.za", 4], ["watchtower.org",
+  3], ["vernacnews.co.za", 3], ["uzone-group.com", 3], ["studylib.net", 3], ["smashwords.com",
+  3], ["slideplayer.com", 3], ["sci4ubuntu.co.za", 3], ["poetrypotion.com", 3]]'
+docs_top100_tld: '[["org", 4086], ["co.za", 3745], ["com", 506], ["mobi", 178], ["gov.za",
+  108], ["ru", 51], ["net", 51], ["org.za", 50], ["io", 35], ["fm", 26], ["ac.za",
+  26], ["co", 16], ["it", 13], ["de", 12], ["info", 8], ["blog", 8], ["africa", 7],
+  ["tech", 5], ["news", 4], ["pl", 3], ["eu", 3], ["win", 2], ["pro", 2], ["net.za",
+  2], ["co.uk", 2], ["xn--p1ai", 1], ["ws", 1], ["run", 1], ["online", 1], ["nl",
+  1], ["in", 1], ["fun", 1], ["fr", 1], ["es", 1], ["cz", 1], ["com.tr", 1], ["com.au",
+  1], ["com.ar", 1], ["club", 1], ["click", 1], ["app", 1]]'
+docs_total: 8965
+docs_wds: '[[0.5, 32], [0.51, 27], [0.52, 48], [0.53, 54], [0.54, 74], [0.55, 75],
+  [0.56, 99], [0.57, 73], [0.58, 66], [0.59, 70], [0.6, 66], [0.61, 60], [0.62, 68],
+  [0.63, 63], [0.64, 74], [0.65, 86], [0.66, 85], [0.67, 101], [0.68, 107], [0.69,
+  104], [0.7, 108], [0.71, 134], [0.72, 160], [0.73, 176], [0.74, 208], [0.75, 252],
+  [0.76, 244], [0.77, 245], [0.78, 278], [0.79, 311], [0.8, 479], [0.81, 406], [0.82,
+  368], [0.83, 373], [0.84, 325], [0.85, 250], [0.86, 230], [0.87, 204], [0.88, 231],
+  [0.89, 227], [0.9, 264], [0.91, 230], [0.92, 244], [0.93, 198], [0.94, 276], [0.95,
+  273], [0.96, 295], [0.97, 262], [0.98, 179], [0.99, 82], [1.0, 21]]'
+duplication_ratio: 0.2624
+sentence_pairs: 251351
+src_bytes: 46624214
+src_chars: 45309822
+src_pii: 72
+src_tokens: 10053211
+unique_sents: 185401
+src_sent_tokens: '[[1, 11137], [2, 5776], [3, 6368], [4, 6955], [5, 9025], [6, 11168],
+  [7, 11310], [8, 11267], [9, 10879], [10, 8394], [11, 6458], [12, 5747], [13, 4740],
+  [14, 4027], [15, 3627], [16, 3587], [17, 3431], [18, 3253], [19, 3139], [20, 2934],
+  [21, 2823], [22, 2612], [23, 2361], [24, 2381], [25, 2467], [26, 2326], [27, 2132],
+  [28, 2273], [29, 2187], [30, 2106], [31, 2186], [32, 2059], [33, 1915], [34, 1973],
+  [35, 1887], [36, 1924], [37, 1774], [38, 1814], [39, 1745], [40, 1603], [41, 1697],
+  [42, 1644], [43, 1503], [44, 1451], [45, 1447], [46, 1452], [47, 1287], [48, 1245],
+  [49, 1274], [50, 1260], [51, 1221], [52, 1183], [53, 1174], [54, 1084], [55, 991],
+  [56, 1003], [57, 951], [58, 1007], [59, 990], [60, 913], [61, 904], [62, 904], [63,
+  883], [64, 834], [65, 833], [66, 836], [67, 795], [68, 779], [69, 695], [70, 766],
+  [71, 692], [72, 752], [73, 681], [74, 661], [75, 649], [76, 566], [77, 660], [78,
+  611], [79, 628], [80, 608], [81, 611], [82, 556], [83, 555], [84, 554], [85, 605],
+  [86, 589], [87, 497], [88, 528], [89, 492], [90, 490], [91, 511], [92, 443], [93,
+  511], [94, 508], [95, 514], [96, 491], [97, 476], [98, 488], [99, 445], [100, 406],
+  [101, 440], [102, 403], [103, 455], [104, 445], [105, 435], [106, 425], [107, 369],
+  [108, 385], [109, 376], [110, 351], [111, 379], [112, 368], [113, 384], [114, 313],
+  [115, 350], [116, 350], [117, 314], [118, 378], [119, 340], [120, 321], [121, 315],
+  [122, 334], [123, 330], [124, 296], [125, 297], [126, 310], [127, 326], [128, 262],
+  [129, 280], [130, 292], [131, 282], [132, 285], [133, 271], [134, 270], [135, 228],
+  [136, 260], [137, 268], [138, 250], [139, 274], [140, 237], [141, 253], [142, 245],
+  [143, 222], [144, 235], [145, 189], [146, 242], [147, 182], [148, 211], [149, 203],
+  [150, 224], [151, 215], [152, 202], [153, 204], [154, 198], [155, 169], [156, 192],
+  [157, 192], [158, 139], [159, 182], [160, 174], [161, 166], [162, 146], [163, 151],
+  [164, 183], [165, 158], [166, 146], [167, 162], [168, 142], [169, 157], [170, 132],
+  [171, 133], [172, 143], [173, 153], [174, 105], [175, 145], [176, 116], [177, 127],
+  [178, 120], [179, 146], [180, 118], [181, 106], [182, 121], [183, 121], [184, 105],
+  [185, 114], [186, 108], [187, 118], [188, 85], [189, 83], [190, 107], [191, 105],
+  [192, 116], [193, 83], [194, 94], [195, 94], [196, 78], [197, 63], [198, 78], [199,
+  98], [200, 63], [201, 58], [202, 55], [203, 86], [204, 71], [205, 62], [206, 79],
+  [207, 70], [208, 60], [209, 69], [210, 84], [211, 53], [212, 59], [213, 53], [214,
+  76], [215, 49], [216, 48], [217, 73], [218, 48], [219, 62], [220, 53], [221, 71],
+  [222, 53], [223, 54], [224, 52], [225, 52], [226, 31], [227, 51], [228, 44], [229,
+  55], [230, 32], [231, 39], [232, 43], [233, 42], [234, 38], [235, 48], [236, 32],
+  [237, 44], [238, 34], [239, 38], [240, 38], [241, 42], [242, 37], [243, 30], [244,
+  26], [245, 28], [246, 26], [247, 23], [248, 36], [249, 30], [250, 23], [251, 38],
+  [252, 25], [253, 12], [254, 30], [255, 21], [256, 34], [257, 15], [258, 18], [259,
+  21], [260, 25], [261, 16], [262, 26], [263, 25], [264, 18], [265, 22], [266, 19],
+  [267, 21], [268, 20], [269, 19], [270, 10], [271, 18], [272, 12], [273, 21], [274,
+  15], [275, 15], [276, 11], [277, 18], [278, 6], [279, 12], [280, 20], [281, 15],
+  [282, 11], [283, 12], [284, 13], [285, 13], [286, 20], [287, 8], [288, 6], [289,
+  2], [290, 4], [291, 9], [292, 6], [293, 13], [294, 5], [295, 5], [296, 4], [297,
+  16], [298, 6], [299, 9], [300, 3], [301, 3], [302, 11], [303, 5], [304, 7], [305,
+  5], [306, 10], [307, 8], [308, 8], [309, 5], [310, 4], [311, 13], [312, 9], [313,
+  8], [314, 7], [315, 1], [316, 6], [317, 3], [318, 7], [319, 5], [320, 8], [321,
+  3], [322, 4], [323, 2], [324, 2], [325, 1], [326, 2], [328, 4], [329, 5], [330,
+  3], [331, 2], [332, 4], [334, 1], [335, 4], [336, 5], [337, 6], [338, 3], [339,
+  5], [341, 7], [342, 9], [343, 4], [344, 6], [345, 2], [350, 4], [351, 2], [352,
+  2], [353, 2], [354, 1], [355, 1], [356, 3], [359, 1], [360, 2], [361, 1], [362,
+  2], [364, 2], [365, 4], [367, 1], [370, 5], [371, 5], [372, 2], [373, 1], [374,
+  1], [375, 1], [376, 2], [377, 3], [378, 2], [381, 3], [382, 5], [383, 1], [385,
+  4], [386, 1], [387, 1], [392, 3], [393, 3], [395, 2], [397, 5], [399, 3], [401,
+  1], [402, 4], [404, 5], [409, 1], [411, 1], [412, 6], [413, 10], [414, 1], [415,
+  3], [416, 1], [417, 1], [420, 1], [421, 1], [425, 4], [426, 1], [431, 1], [433,
+  2], [435, 1], [439, 3], [440, 1], [442, 2], [445, 1], [453, 1], [454, 2], [457,
+  1], [460, 1], [462, 2], [463, 1], [464, 6], [492, 1], [499, 1], [504, 1], [506,
+  1], [507, 1], [518, 4], [521, 6], [527, 1], [531, 2], [532, 1], [535, 2], [539,
+  3], [545, 1], [555, 1], [587, 1], [591, 1], [608, 1], [626, 1], [670, 1], [694,
+  1], [707, 1], [713, 1], [722, 1], [736, 1], [763, 1], [787, 1], [797, 1], [815,
+  1], [819, 1], [820, 2], [854, 1], [861, 1], [903, 1], [959, 1], [981, 1], [987,
+  1], [994, 1], [1004, 1], [1048, 1], [1053, 1], [1108, 1], [1109, 1], [1249, 1],
+  [1254, 1], [1365, 1], [1515, 1], [1518, 1], [1692, 1], [2080, 1], [2557, 1], [2979,
+  1], [3134, 1], [3274, 1], [3520, 1], [3777, 1], [3934, 1], [4324, 1], [4696, 1],
+  [6200, 1], [6292, 1], [6393, 1], [6586, 1], [8647, 1], [9309, 1], [10038, 1], [10504,
+  1], [10821, 1], [11066, 1], [11313, 1], [11529, 1], [11782, 1], [11837, 1], [11956,
+  1], [12790, 1], [12871, 1], [14188, 1], [14271, 1], [15995, 1], [17363, 1], [19618,
+  1], [20055, 1], [24735, 1], [24992, 1], [29832, 1], [30367, 1], [37210, 1], [62447,
+  1]]'
+src_sent_tokens_mean: 40
+src_sent_tokens_median: 18
+src_unique_sents: '[[1, 2918], [2, 3205], [3, 4096], [4, 4292], [5, 5375], [6, 6427],
+  [7, 6754], [8, 6746], [9, 6401], [10, 5445], [11, 4451], [12, 3901], [13, 3646],
+  [14, 3173], [15, 3032], [16, 3039], [17, 2980], [18, 2874], [19, 2816], [20, 2615],
+  [21, 2456], [22, 2293], [23, 2117], [24, 2108], [25, 2154], [26, 2068], [27, 1863],
+  [28, 1998], [29, 1914], [30, 1840], [31, 1913], [32, 1813], [33, 1689], [34, 1688],
+  [35, 1663], [36, 1697], [37, 1561], [38, 1565], [39, 1520], [40, 1437], [41, 1470],
+  [42, 1407], [43, 1339], [44, 1265], [45, 1268], [46, 1269], [47, 1146], [48, 1089],
+  [49, 1129], [50, 1093], [51, 1064], [52, 1037], [53, 1022], [54, 939], [55, 848],
+  [56, 871], [57, 835], [58, 844], [59, 855], [60, 753], [61, 779], [62, 773], [63,
+  756], [64, 718], [65, 708], [66, 684], [67, 661], [68, 646], [69, 583], [70, 641],
+  [71, 570], [72, 638], [73, 582], [74, 572], [75, 555], [76, 478], [77, 552], [78,
+  514], [79, 516], [80, 508], [81, 516], [82, 464], [83, 464], [84, 462], [85, 484],
+  [86, 483], [87, 437], [88, 434], [89, 417], [90, 419], [91, 430], [92, 377], [93,
+  421], [94, 432], [95, 422], [96, 403], [97, 390], [98, 408], [99, 367], [100, 351],
+  [101, 377], [102, 346], [103, 354], [104, 358], [105, 383], [106, 346], [107, 312],
+  [108, 322], [109, 326], [110, 297], [111, 301], [112, 311], [113, 315], [114, 271],
+  [115, 295], [116, 289], [117, 275], [118, 311], [119, 294], [120, 271], [121, 257],
+  [122, 272], [123, 267], [124, 248], [125, 253], [126, 256], [127, 251], [128, 217],
+  [129, 229], [130, 231], [131, 243], [132, 236], [133, 239], [134, 232], [135, 194],
+  [136, 212], [137, 207], [138, 205], [139, 228], [140, 192], [141, 201], [142, 199],
+  [143, 175], [144, 201], [145, 161], [146, 203], [147, 158], [148, 170], [149, 173],
+  [150, 182], [151, 168], [152, 168], [153, 165], [154, 165], [155, 141], [156, 167],
+  [157, 151], [158, 125], [159, 147], [160, 147], [161, 129], [162, 119], [163, 121],
+  [164, 146], [165, 121], [166, 119], [167, 136], [168, 123], [169, 124], [170, 109],
+  [171, 109], [172, 109], [173, 125], [174, 90], [175, 121], [176, 97], [177, 105],
+  [178, 98], [179, 118], [180, 97], [181, 89], [182, 107], [183, 99], [184, 94], [185,
+  97], [186, 95], [187, 100], [188, 76], [189, 62], [190, 83], [191, 78], [192, 90],
+  [193, 70], [194, 79], [195, 73], [196, 64], [197, 61], [198, 61], [199, 77], [200,
+  51], [201, 52], [202, 49], [203, 75], [204, 56], [205, 45], [206, 69], [207, 58],
+  [208, 43], [209, 55], [210, 68], [211, 45], [212, 47], [213, 48], [214, 59], [215,
+  43], [216, 38], [217, 55], [218, 40], [219, 51], [220, 46], [221, 57], [222, 47],
+  [223, 41], [224, 42], [225, 43], [226, 29], [227, 43], [228, 37], [229, 40], [230,
+  30], [231, 36], [232, 34], [233, 33], [234, 29], [235, 45], [236, 28], [237, 34],
+  [238, 24], [239, 37], [240, 32], [241, 34], [242, 25], [243, 21], [244, 23], [245,
+  25], [246, 20], [247, 21], [248, 27], [249, 23], [250, 17], [251, 34], [252, 19],
+  [253, 12], [254, 24], [255, 21], [256, 23], [257, 12], [258, 16], [259, 18], [260,
+  16], [261, 15], [262, 18], [263, 24], [264, 17], [265, 18], [266, 17], [267, 16],
+  [268, 14], [269, 15], [270, 6], [271, 12], [272, 12], [273, 14], [274, 11], [275,
+  14], [276, 11], [277, 13], [278, 6], [279, 10], [280, 11], [281, 12], [282, 11],
+  [283, 9], [284, 10], [285, 11], [286, 11], [287, 7], [288, 4], [289, 2], [290, 3],
+  [291, 9], [292, 4], [293, 8], [294, 5], [295, 5], [296, 4], [297, 13], [298, 6],
+  [299, 7], [300, 3], [301, 3], [302, 6], [303, 5], [304, 4], [305, 4], [306, 10],
+  [307, 6], [308, 7], [309, 5], [310, 2], [311, 7], [312, 5], [313, 6], [314, 5],
+  [315, 1], [316, 4], [317, 3], [318, 5], [319, 5], [320, 7], [321, 3], [322, 1],
+  [323, 2], [324, 2], [325, 1], [326, 2], [328, 4], [329, 4], [330, 3], [331, 2],
+  [332, 1], [334, 1], [335, 3], [336, 4], [337, 6], [338, 1], [339, 3], [341, 3],
+  [342, 4], [343, 2], [344, 4], [345, 2], [350, 2], [351, 2], [352, 2], [353, 2],
+  [354, 1], [355, 1], [356, 3], [359, 1], [360, 2], [361, 1], [362, 2], [364, 2],
+  [365, 2], [367, 1], [370, 4], [371, 3], [372, 1], [373, 1], [374, 1], [375, 1],
+  [376, 1], [377, 2], [378, 2], [381, 2], [382, 3], [383, 1], [385, 2], [386, 1],
+  [387, 1], [392, 2], [393, 1], [395, 2], [397, 3], [399, 3], [401, 1], [402, 3],
+  [404, 4], [409, 1], [411, 1], [412, 2], [413, 3], [414, 1], [415, 1], [416, 1],
+  [417, 1], [420, 1], [421, 1], [425, 1], [426, 1], [431, 1], [433, 2], [435, 1],
+  [439, 2], [440, 1], [442, 2], [445, 1], [453, 1], [454, 2], [457, 1], [460, 1],
+  [462, 2], [463, 1], [464, 2], [492, 1], [499, 1], [504, 1], [506, 1], [507, 1],
+  [518, 2], [521, 5], [527, 1], [531, 2], [532, 1], [535, 1], [539, 2], [545, 1],
+  [555, 1], [587, 1], [591, 1], [608, 1], [626, 1], [670, 1], [694, 1], [707, 1],
+  [713, 1], [722, 1], [736, 1], [763, 1], [787, 1], [797, 1], [815, 1], [819, 1],
+  [820, 1], [854, 1], [861, 1], [903, 1], [959, 1], [981, 1], [987, 1], [994, 1],
+  [1004, 1], [1048, 1], [1053, 1], [1108, 1], [1109, 1], [1249, 1], [1254, 1], [1365,
+  1], [1515, 1], [1518, 1], [1692, 1], [2080, 1], [2557, 1], [2979, 1], [3134, 1],
+  [3274, 1], [3520, 1], [3777, 1], [3934, 1], [4324, 1], [4696, 1], [6200, 1], [6292,
+  1], [6393, 1], [6586, 1], [8647, 1], [9309, 1], [10038, 1], [10504, 1], [10821,
+  1], [11066, 1], [11313, 1], [11529, 1], [11782, 1], [11837, 1], [11956, 1], [12790,
+  1], [12871, 1], [14188, 1], [14271, 1], [15995, 1], [17363, 1], [19618, 1], [20055,
+  1], [24735, 1], [24992, 1], [29832, 1], [30367, 1], [37210, 1], [62447, 1]]'
+src_langs: '[["en", 36455], ["tl", 31337], ["sw", 23710], ["sl", 21162], ["fi", 18356],
+  ["es", 11368], ["kw", 10414], ["it", 9622], ["hr", 9252], ["fr", 9122], ["eo", 8930],
+  ["cy", 7005], ["su", 5623], ["de", 4719], ["id", 3766], ["et", 3500], ["sr", 3338],
+  ["ms", 2968], ["pl", 2690], ["ceb", 1972], ["scn", 1954], ["pt", 1504], ["mt", 1448],
+  ["tr", 1318], ["war", 1259], ["kn", 1190], ["sq", 1066], ["cs", 910], ["qu", 841],
+  ["az", 819], ["ia", 779], ["hu", 777], ["jbo", 763], ["so", 639], ["sv", 632], ["nl",
+  624], ["lt", 585], ["ro", 545], ["bs", 525], ["eu", 506], ["la", 473], ["io", 449],
+  ["mg", 407], ["ca", 393], ["rm", 355], ["ur", 299], ["uz", 295], ["ilo", 283], ["sc",
+  243], ["br", 240], ["ja", 210], ["lv", 203], ["nb", 194], ["ml", 191], ["da", 190],
+  ["ru", 174], ["jv", 164], ["oc", 156], ["sk", 146], ["lmo", 121], ["vi", 119], ["gl",
+  113], ["pms", 108], ["fa", 94], ["zh", 83], ["ie", 83], ["hsb", 83], ["cbk", 83],
+  ["als", 79], ["uk", 66], ["wa", 65], ["pam", 65], ["vo", 56], ["af", 53], ["el",
+  49], ["sco", 46], ["bcl", 44], ["bn", 42], ["ta", 40], ["tk", 36], ["gn", 35], ["gom",
+  34], ["pnb", 30], ["ko", 29], ["lb", 28], ["fy", 28], ["nah", 27], ["mk", 27], ["ku",
+  27], ["ast", 25], ["yo", 23], ["nds", 23], ["eml", 23], ["th", 21], ["is", 21],
+  ["gv", 20], ["gd", 20], ["nap", 19], ["hif", 19], ["bh", 19], ["te", 16], ["min",
+  16], ["ga", 16], ["he", 15], ["yi", 14], ["ug", 14], ["ht", 14], ["nn", 12], ["co",
+  11], ["bar", 11], ["si", 10], ["diq", 10], ["vec", 9], ["ne", 8], ["ar", 8], ["tg",
+  7], ["kk", 7], ["hi", 7], ["gu", 6], ["vep", 5], ["bg", 5], ["mr", 4], ["lo", 4],
+  ["my", 3], ["km", 3], ["dv", 3], ["ckb", 3], ["wuu", 2], ["tt", 2], ["sd", 2], ["os",
+  2], ["li", 2], ["hy", 2], ["azb", 2], ["pa", 1], ["or", 1], ["mzn", 1], ["mwl",
+  1], ["mrj", 1], ["lrc", 1], ["ky", 1], ["ka", 1], ["frr", 1], ["dsb", 1], ["ce",
+  1], ["an", 1]]'
+hardrules_tags: '{"not_too_long": 1945, "not_too_short": 20445, "length_ratio": 0,
+  "no_urls": 926, "no_bad_encoding": 14, "pii": 72}'
+sample: '["\"ME\u0160OMO YA GO ITHUTA YA BANA\\nME\u0160OMO YA GO ITHUTA\\nRe Matlafat\u0161wa
+  ke Bana Babo Rena le Dikgaet\u0161edi\\nIthute kamoo ba lapa la geno le ba phuthego
+  ya geno ba ka go matlafat\u0161ago ka gona.\\nT\u0161e di Oket\u0161egilego go t\u0161wa
+  Dihlogong t\u0161e\\nMo\u0161omo wo o thu\u0161a bana ba mengwaga ya magareng ga
+  e 8 le e 12 go bont\u0161ha dika t\u0161a go ba mogwera yo botse.\\nBona gore o
+  ka gopola dilo t\u0161e kae ka go bapala papadi ye ya go lebanya dikarata yeo e
+  theilwego go dikgaolo 2 go ya go 7 t\u0161a puku ya Joshua.\\nSega gomme o kopanye
+  puzzle ye gore le kgone go bapala kanegelo ye ya Beibele ya Kora.\"", "\"Beibele
+  Inthaneteng\\nPHETOLELO YA LEFASE LE LEFSA YA MANGWALO A MAKGETHWA\\n33 Go madimabe
+  wena o senyago, fela wena o sa senyet\u0161we, le wena yo a radiago, fela go se
+  na bao ba go radiago!+ Ge o fet\u0161a go senya o le mosenyi, le wena o tlo senyet\u0161wa.+
+  Ge o fet\u0161a go radia, ba tlo go radia.+\\n2 Jehofa, re gaugele.+ Re go holofet\u0161e.+
+  Eba letsogo+ la rena mesong+ e mengwe le e mengwe, ee, eba pholo\u0161o ya rena
+  nakong ya tlalelo.+\\n3 Merafo e ile ya t\u0161haba ge e ekwa modumo wa khuduego.+
+  Ge o tsoga dit\u0161haba di ile t\u0161a ga\u0161ana.+\\n4 Dithebola+ t\u0161a lena
+  di tla kgoboket\u0161wa go et\u0161a ge maphene a kgoboket\u0161a dilo, di tla kgeregelwa
+  go et\u0161a ge segongwane se kgeregela motho.+\\n5 Jehofa o tla phagami\u0161wa+
+  gobane o dula moo go phagamego.+ O tla tlat\u0161a Tsione ka toka le toko.+\\n6
+  Go botega ga mehla ya gago e tla ba ditiro t\u0161a go pholo\u0161a+\u2014bohlale,
+  tsebo+ le poifo ya go boifa Jehofa+ ke letlotlo la mong wa lona.\\n7 Bonang! Bagale
+  ba bona ba goelet\u0161a ba le mokgotheng; baromiwa ba khut\u0161o+ ba tla lla gabohloko.\\n8
+  Ditsela t\u0161e dikgolo di sent\u0161we;+ ga go sa feta motho tseleng.+ Mosenyi
+  o sent\u0161e kgwerano;+ o nyadit\u0161e metse;+ ga a na taba le motho wa nama le
+  madi.+\\n9 Naga e a lla, e omile.+ Libanoni e hlabja ke dihlong;+ e bodile. Sharona+
+  e et\u0161a leganata; Bashani le Karamele di hlohlorega matlakala a t\u0161ona.+\\n10
+  \u201cBjale ke tla ema,\u201d+ go bolela Jehofa, \u201cbjale ke tla iphagami\u0161a;+
+  bjale ke tla ikukela godimo.+\\n11 Le imile bjang bjo bo omilego;+ le tla belega
+  mahlaka. Moya wa lena o tla le ja+ wa le fet\u0161a go et\u0161a mollo.+\\n12 Merafo
+  e tla et\u0161a motaga o swelego. E tla fi\u0161wa ka mollo go et\u0161a meetlwa
+  yeo e remilwego.+\\n13 Lena bao le lego kgole, ekwang seo ke tlago go se dira!+
+  Tsebang matla a ka, lena bao le lego kgauswi.+\\n14 Badiradibe kua Tsione ba t\u0161hogile;+
+  bahlanogi+ ba a thothomela, ba re: \u2018Ke mang mo go rena yo a ka dulago go ya
+  go ile mollong+ o t\u0161humago? Ke mang mo go rena yo a ka dulago go ya go ile
+  malakabeng a mollo?\u2019+\\n15 \u201cGo na le motho yo a sepelago ka toko+ a sa
+  kgaot\u0161e le yo a bolelago t\u0161e di lokilego,+ yo a ganago go boelwa ka boradia,+
+  yo a ganet\u0161ago seatla sa gagwe go t\u0161ea letsogo-le-kobong,+ yo a thibago
+  ditsebe t\u0161a gagwe gore a se theet\u0161e t\u0161a t\u0161hollo ya madi le yo
+  a tswalelago mahlo gore a se bone t\u0161e mpe.+\\n16 Ke yo a tlago go dula godimo
+  dithabeng;+ sebo sa gagwe e tla ba mafelo a magaga ao go lego thata go a fihlelela.+
+  O tla newa senkgwa sa gagwe;+ meetse a gagwe a ka se fele.\u201d+\\n17 Mahlo a gago
+  a tla bona botse bja kgo\u0161i;+ a tla bona naga ya kgole.+\\n18 Pelo ya gago e
+  tla bolelela fase+ ka selo se t\u0161ho\u0161ago, e re: \u201cMongwadi o kae? O
+  kae yo a lefago?+ Yo a balago dibo o kae?\u201d+\\n19 Ga go na batho ba mereba bao
+  o tlago go ba bona, ba leleme le le sa kwe\u0161i\u0161egego le ba leleme le\u0161ele
+  leo o sa le kwe\u0161i\u0161ego.+\\n20 Bona Tsione,+ motse wa menyanya ya rena!+
+  Mahlo a gago a tlo bona Jerusalema, lefelo la bodulo la khut\u0161o, e lego tente
+  yeo go sego yo a ka e phuthago.+ Dimapolo t\u0161a tente ya yona di ka se ke t\u0161a
+  tumolwa le ka mohla, le gona dithapo t\u0161a yona di ka se kgaolwe diripa t\u0161e
+  pedi.+\\n21 Eup\u0161a gona lefelong leo Yena yo Mogolo,+ Jehofa, o tla re \u0161irelet\u0161a
+  bjalo ka dinoka+ le mekero e ahlamego. Dikepe t\u0161a manaba di ka se ye go t\u0161ona,
+  gomme ga go na dikepe t\u0161e dikgolo t\u0161eo di tla fetago moo.\\n22 Gobane
+  Jehofa ke Moahlodi+ wa rena, Jehofa ke Moneimolao+ wa rena, Jehofa ke Kgo\u0161i+
+  ya rena; o tla re pholo\u0161a.+\\n23 Dithapo di tla lepelela; dikokwane ga se t\u0161a
+  tsengwa ka go tia; seila ga se ya alwa.Mohlang woo le dithebola t\u0161e dint\u0161i
+  di tla arolwa; dihlot\u0161a le t\u0161ona di tla it\u0161eela dilo t\u0161e dint\u0161i
+  t\u0161e di hut\u0161wego.+\\n24 Ga go na modudi yo a tla rego: \u201cKe a babja.\u201d+
+  Batho bao ba dulago nageng e tla ba bao ba swaret\u0161wego molato wa bona.+\"",
+  "\"Mathomong a 1942, madira a matla a Japane a ile a thoma go laola Indonesia ka
+  tsela e sehlogo kudu. Bana babo rena ba bant\u0161i ba be ba gapelet\u0161wa go
+  dira modiro o thata wa matsogo\u2014ba aga ditsela goba ba epa diforo. Ba bangwe
+  ba be ba tswalelet\u0161we dikampeng t\u0161a kgolego t\u0161eo di nago le dit\u0161hila
+  gomme ba tlai\u0161et\u0161wa gore ba gana go thekga ntwa. Go ile gwa hwa bonyenyane
+  bana babo rena ba bararo kgolegong.\\nKgaet\u0161edi yo mongwe wa Modutch, e lego
+  Johanna Harp, yo a bego a dula motseng wa dithabeng wo o lego ka thoko ka Bohlabela
+  bja Java, o ile a kgona go phema go i\u0161wa dikampeng mengwageng e mebedi ya mathomo
+  ya ntwa. Yena le bana ba gagwe ba bararo bao e bego e le bafsa ka nako yeo ba ile
+  ba diri\u0161a tokologo yeo ba bego ba na le yona go fetolela puku ya Salvation
+  le ditokollo t\u0161e dingwe t\u0161a Morokami go tloga go Seisemane go ya go Sedutch.
+  * Ke moka go be go dirwa dikopi t\u0161a dikgati\u0161o t\u0161e di fetolet\u0161wego
+  gomme di romelwa ka sephiring go Dihlatse ka moka t\u0161a Java.\\nDihlatse t\u0161e
+  sego kae t\u0161eo di bego di se t\u0161a golegwa di be di swara diboka ka dihlopha
+  t\u0161e dinyenyane gomme di bolela ditaba t\u0161e dibotse ka \u0161edi. Josephine
+  Elias (yo e bego e le wa ga Tan) o it\u0161e: \u201cKe be ke phela ke but\u0161e
+  mahlo gore ke nee bohlatse bjo bo sa rulaganyet\u0161wago. Ke be ke swara lepolanka
+  la papadi ya chess ge ke etela batho bao ba thabelago magaeng a bona e le gore ba
+  bangwe ba nagane gore ke be ke ipapalela chess.\u201d Felix Tan le mosadi wa gagwe,
+  e lego Bola, ba be ba bolela ditaba t\u0161e dibotse ka ntlo le ntlo, ba dira eka
+  ba reki\u0161a sesepa. Felix o it\u0161e: \u201cGant\u0161i re be re \u0161alwa
+  morago ke batho bao ba nyakago go tseba ditaba t\u0161e it\u0161ego ka rena bao
+  ba bego ba \u0161omela maphodisa a Kempeitai, e lego maphodisa a se\u0161ole a Japane
+  ao batho ba bego ba a t\u0161haba kudu. E le gore go se be le batho bao ba re gononelago,
+  re be re fetofeto\u0161a dinako t\u0161a rena t\u0161a go etela barutwana ba rena
+  ba Beibele. Ba tshelelago ba barutwana ba rena ba ile ba t\u0161wela pele gabotse
+  gomme ba kolobet\u0161wa yona nakong yeo ya ntwa.\u201d\\nGo Tsoga Diphapano Gare
+  ga Bana Babo Rena Kua Jakarta\\nGe bana babo rena ba dut\u0161e ba tlwaelana le
+  mathata a nakong ya ntwa, go se go ye kae ba ile ba lebelet\u0161ana le teko e nngwe
+  e kgolo. Balaodi ba mmu\u0161o ba Majapane ba ile ba laela batho ka moka bao ba
+  sa t\u0161wego nageng ye (go akaret\u0161a le ma-China ao a dulago Indonesia) go
+  ingwadi\u0161a le go swara karata ya boitsebi\u0161o yeo e nago le mant\u0161u a
+  gore ba tla botegela Mmu\u0161o wa Majapane. Bana babo rena ba bant\u0161i ba ile
+  ba ipot\u0161i\u0161a gore: \u2018Na re swanet\u0161e go ingwadi\u0161a gomme re
+  saene karata yeo ya boitsebi\u0161o, goba re swanet\u0161e go gana go ingwadi\u0161a?\u2019\\nFelix
+  Tan o hlalosit\u0161e gore: \u201cBana babo rena ba Jakarta ba ile ba kgothalet\u0161a
+  rena re bego re dula Sukabumi gore re gane go saena karata yeo ya boitsebi\u0161o.
+  Eup\u0161a re ile ra kgopela balaodi ba mmu\u0161o ge e ba re ka feto\u0161a mant\u0161u
+  a karateng yeo gore a se balege ka gore \u2018motho yo a saennego mo o ikanne gore
+  o tla botegela\u2019 ma\u0161ole a Japane, eup\u0161a a balege ka gore \u2018motho
+  yo a saennego mo a ka se \u0161iti\u0161e\u2019 ma\u0161ole a Japane. Se se makat\u0161ago
+  ke gore ba ile ba dumela, ka gona ka moka ga rena re ile ra hwet\u0161a dikarata
+  t\u0161eo. Ge bana babo rena ba Jakarta ba ekwa ka phetho ya rena, ba ile ba re
+  bit\u0161a bahlanogi gomme ba se sa diri\u0161ana le rena.\u201d\\nKa manyami, ba
+  bant\u0161i ba bana babo rena bao ba bego ba fi\u0161egela thoko kua Jakarta ba
+  ile ba golegwa gomme ba tlogela there\u0161o. Ngwanabo rena yo mongwe yo a ilego
+  a dula a tiile tumelong o ile a felelet\u0161a a le kgolegong le Andr\u00e9 Elias.
+  Andr\u00e9 o it\u0161e: \u201cKe ile ka boledi\u0161ana le yena ka taba ya go ingwadi\u0161a
+  gomme ka mo thu\u0161a gore a be le pono e lekalekanego. Ka boikokobet\u0161o o
+  ile a kgopela tshwarelo ka ge ba ile ba se sa diri\u0161ana le rena. Ke moka re
+  ile ra thabela go agana, eup\u0161a ka manyami, o ile a hwa ka baka la go phela
+  maemong a sa kgahli\u0161ego moo kgolegong.\u201d\\nMerdeka!\\nKa morago ga gore
+  ntwa e fele ka 1945, bana babo rena le dikgaet\u0161edi ba be ba fagahlet\u0161e
+  go t\u0161wela pele ka modiro wa go bolela ditaba t\u0161e dibotse. Ngwanabo rena
+  yo mongwe yo a ilego a golegwa le go tlai\u0161wa o ile a ngwalela ofisi ya lekala
+  kua Australia gore: \u201cKe nna yo ke sa le gona ka morago ga nywaga e mene e thata
+  kudu, ke sa botega gomme ga se ka feto\u0161a monagano wa ka. Mathateng a ka ka
+  moka, ga sa nka ka lebala bana babo rena. Na le ka nthomela dipuku?\u201d\\nDipuku
+  t\u0161eo ngwanabo rena yo a bego a di letile di ile t\u0161a fihla, mathomong e
+  be e le t\u0161e sego kae feela eup\u0161a ka morago gwa tla t\u0161e dingwe t\u0161e
+  dint\u0161i. Sehlopha sa bagoeledi ba lesome kua Jakarta se ile sa tso\u0161olo\u0161a
+  modiro wa go fetolela dikgati\u0161o ka Seindonesia.\\nKa August 17, 1945, baetapele
+  ba mokgatlo wa tokologo wa Indonesia ba ile ba tsebi\u0161a gore Indonesia ke repabliki
+  e ikemet\u0161ego, gomme seo sa thoma ntwa yeo e t\u0161erego mengwaga e mene ya
+  go lwa le mmu\u0161o wa Madutch. Batho ba diketekete ba ile ba hwa tlhakatlhakanong
+  yeo e ilego ya latela, gomme ba ka godimo ga dimilione t\u0161e \u0161upago ba gapelet\u0161ega
+  go tlogela magae a bona.\\nNakong yeo ka moka ya ntwa bana babo rena ba ile ba t\u0161wela
+  pele ba bolela ditaba t\u0161e dibotse ka ntlo le ntlo. Josephine Elias o it\u0161e:
+  \u201cBatho bao ba ratago naga ba ile ba leka go re gapelet\u0161a gore re goelet\u0161e
+  ka gore \u2018Merdeka,\u2019 e lego lent\u0161u leo le bolelago gore \u2018Tokologo.\u2019
+  Eup\u0161a re ile ra ba bot\u0161a gore ga re t\u0161ee karolo ditabeng t\u0161e
+  bjalo t\u0161a dipolotiki.\u201d Ka 1949, Madutch a ile a kgaot\u0161a go bu\u0161a
+  koloni ya ona gomme a feti\u0161et\u0161a pu\u0161o Repabliking ya United States
+  ya Indonesia (gona bjale ke Repabliki ya Indonesia). *\\nKa 1950, bana babo rena
+  kua Indonesia ba ile ba kgotlelela ntwa yeo e t\u0161erego mengwaga e ka bago e
+  lesome. Eup\u0161a ba be ba sa na le modiro o mogolo kudu woo ba bego ba swanet\u0161e
+  go o dira. Ba be ba ka dira eng gore ba bolele ditaba t\u0161e dibotse go badudi
+  ba Indonesia ba dimilione? Go ya ka pono ya motho, go be go bonagala ba ka se kgone
+  go dira modiro woo! Lega go le bjalo, bana babo rena ba ile ba t\u0161wela pele
+  ba na le tumelo e tiilego, ba kgodi\u0161egile gore Jehofa o tla \u2018romela ba\u0161omi
+  punong ya gagwe.\u2019 (Mat. 9:38) Jehofa o ile a dira sona seo.\"", "\"Phela ka
+  Lethabo \u2026 Lehono\\nPhela ka lethabo \u2026 lehono Phela ka lethabo \u2026 ka
+  gare ga mathata Phela ka lethabo lehono \u2026 ka ntle le dit\u0161hiti\u0161o Phela
+  ka lethabo \u2026 dinakong t\u0161e thata Phela ka lethabo \u2026 o tseba gore mehlolo
+  e sa direga Phela ka lethabo \u2026 t\u0161hirelet\u0161ong ya Modimo Phela ka lethabo
+  \u2026 ka ntle le poifo Phela ka lethabo \u2026 le go ikokobet\u0161a go Modimo
+  Phela ka lethabo \u2026 le go letela se Modimo a ka se dirago Phela ka lethabo \u2026
+  ka tsebo ya gore Modimo o sa dira mehlolo Phela ka lethabo \u2026 go mogau wa Modimo
+  Phela ka lethabo \u2026 o tshepha Modimo Phela ka lethabo \u2026 o thu\u0161a ba
+  bangwe Phela ka lethabo \u2026 ka ntle le pelaelo Phela ka lethabo \u2026 o tshepha
+  Modimo go go nea katlego Go phela ka lethabo \u2026 le ge o le modumedi o nno\u0161i
+  tikologong ya gago Go phela ka lethabo \u2026 go sa \u0161et\u0161we manyami Go
+  phela o thabile \u2026 le ge o robegile pelo Go phela o thabile \u2026 ka gare ga
+  go dira diphetho t\u0161e kgolo Phela ka lethabo \u2026 o tshepha Modimo go go nea
+  katlego Phela ka lethabo \u2026 o le modirakhut\u0161o Go phela o thabile \u2026
+  lehono (bofelo)\\nKe eng sephiri sa bophelo bja lethabo, go ya ka Bibele? Latela
+  thulaganyo ye ya go bala ya mat\u0161at\u0161i a 22 gomme o hwet\u0161e gore o ka
+  phela bjang ka lethabo let\u0161at\u0161i le lengwe le le lengwe. Ipshine ka leeto
+  la gago la go bala Bibele!\"", "\"Beibele Inthaneteng\\nPHETOLELO YA LEFASE LE LEFSA
+  YA MANGWALO A MAKGETHWA\\n6 \u201cWena yo botsebotse gare ga basadi, moratiwa wa
+  gago o ile kae?+ Moratiwa wa gago o ile kae e le gore re tle re go nyaki\u0161e
+  yena?\u201d\\n2 \u201cMoratiwa wa ka o theoget\u0161e serapeng+ sa gagwe, dirapaneng
+  t\u0161a dihla\u0161ana t\u0161a dinoko.+ O ile go di\u0161et\u0161a+ dirapeng le
+  go kga mat\u0161oba a lili.\\n3 Lesogana la ka ke la ka, le nna ke wa lona.+ Le
+  di\u0161a+ gare ga mat\u0161oba a lili.\u201d\\n4 \u201cO yo mobotsana wena kgarebe
+  ya ka,+ o bjalo ka Motse o Kgahli\u0161ago,+ o yo botse go et\u0161a Jerusalema,+
+  o kgahli\u0161a go et\u0161a madira+ ao a dikanedit\u0161ego difoka.+\\n5 Tlo\u0161a
+  mahlo+ a gago pele ga ka, ka gobane a nt\u0161ho\u0161it\u0161e. Moriri wa gago
+  o et\u0161a mohlape wa dipudi woo o tshelatshelago o et\u0161wa Gileada.+\\n6 Meno
+  a gago a et\u0161a mohlape wa dinku t\u0161a ditshadi t\u0161e di sa t\u0161wago
+  go hlapi\u0161wa, t\u0161eo ka moka di tswalago mafahla, go se le e tee ya t\u0161ona
+  yeo e lobilego dikwana.+\\n7 Bokagodimo bja marama a gago bjo bo \u0161irilwego
+  ke le\u0161ira bo et\u0161a seripa sa garenate.+\\n8 Go ka ba go na le bahumagadi
+  ba masometshela, basadi ba direthe ba masomeseswai le basetsana ba bant\u0161int\u0161i.+\\n9
+  Eup\u0161a ke o tee yo e lego leebana+ la ka, motho wa ka yo a hlokago bosodi.+
+  Ke yena morwedi wa mmamoratwa go mmagwe. Ke yena mosekegi wa yo a mmelegego. Dikgarebe
+  di mmone gomme t\u0161a bolela gore o thabile; bahumagadi le basadi ba direthe le
+  bona ba mmone gomme ba mo tumi\u0161a+ ba re:\\n10 \u2018Ke mang mosadi+ yo yo a
+  lebelet\u0161ego fase go et\u0161a masa,+ yo mobotsana go et\u0161a kgwedi e tlet\u0161ego,+
+  yo a sekilego go et\u0161a let\u0161at\u0161i+ leo le phadimago le yo a kgahli\u0161ago
+  go et\u0161a madira ao a dikanedit\u0161ego difoka?\u2019\u201d+\\n11 \u201cKe theoget\u0161e
+  serapeng+ sa sehlare sa dikoko gore ke yo bona mahlogedi moeding wa mafula,+ ke
+  yo bona ge e ba morara o hlogile, ge e ba megarenate e thunt\u0161e.+\\n12 Ge ke
+  re phaphara, ke ile ka ipona ke le dikoloing t\u0161a batho ba ge\u0161o ba baithaopi.\u201d\\n13
+  \u201cBoa, boa wena Moshulami! Boa, boa re tle re go bone!\u201d+\u201cLe bona\u2019ng
+  go Moshulami yo?\u201d+\u201cRe bona selo se se swanago le dihlopha t\u0161e pedi
+  t\u0161a babini!\u201d\"", "\"Episode 3945\\n#Mahlakung \u2013Alfios o t\u0161hogile
+  kudu ge Malehu a mmot\u0161a gore sebatana seo Matsobane a nago le sona se nyaka
+  sehlabelo sa madi a bana ba bona.Malehu o mo elet\u0161a gore yena a se fe Rethabile
+  gomme Matsobane a se fe Mochichi. Alfios o mmot\u0161a gore yena ga a sa sepela
+  o ya go dula le yena ka ge a t\u0161haba noga kudu.Naa Alfios le Matsobane ba bothateng
+  ?\\nEpisode 3944\\n#Mahlakung \u2013Bra Bizza o bot\u0161a Konstabel Mpedi gore
+  Maguda, Robert o a bolaya.Naa nkane go kwagala e ke Bra Bizza o \u0161irelet\u0161a
+  Robert.Naa Bizza go nale ka fao a tswlanago le Robert goba lebaka ke lefe la gore
+  a mo \u0161irelet\u0161e?\\nEpisode 3943\\n#Mahlakung \u2013Saki o bot\u0161a Moruti
+  Kgole gore Phetola o tsenwe ke letimone la go bolaya batho.Naa taba ye ke nnete
+  goba Saki o fetwa ke molomo?\\nEpisode 3942\\n#Mahlakung-Titi o ngalet\u0161a Rethabile
+  ge a sa nyaka go kgaogana le Robert,e bile re kwa a mmot\u0161a gore o nagana go
+  reki\u0161a dithoto t\u0161a gagwe kamoka a huduge Mahlakung go efoga go segwa ke
+  batho ka lebaka la Rethabile.Naa re ka bona Rethabile a kgaogana le Robbie ka lebaka
+  la se?\\nEpisode 3941\\n#Mahlakung \u2013Phetola Lethebe o kgeit\u0161e dinyakwa
+  t\u0161eo Saki a di ngwadilego.Naa Phetola goreng a dira bjalo a sa phethagat\u0161e
+  dikgopelo t\u0161a Saki gore e be mo\u0161omi yo a kgotsofalago?\\nEpisode 3940\\n#Mahlakung
+  \u2013Selosecha o kwagala let\u0161hogo la go ya go rapela le Matsobane, naa o hlatha
+  eng ge a bot\u0161i\u0161a Alfios gore ,\u2019ke tla be ke rapela eng \u2018?\\nEpisode
+  3939\\n#Mahlakung \u2013Malehu o bot\u0161a Monica gore morago ga go thekga motse
+  wa ga Mabona, Alfios le Matsobane ba ya go it\u0161hat\u0161harela. Naa Malehu o
+  hlatha eng?\\nEpisode 3938\\n#Mahlakung \u2013Sebjalebjale o bot\u0161a Mamabona
+  gore sephiri sa go uta gore Mochichi o kae, se tla dira gore Mochichi a jewe ke
+  moloto ka lebaka la diphiri t\u0161a Matsobane. Naa ke nnete re ka bona Mochichi
+  a llwe ke koma goba ke mabarebare ao a fo\u0161aget\u0161ego?\\nEpisode 3937\\n#Mahlakung-Matsobane
+  o bot\u0161a Petronella gore ke yena noka ya Jordane yeo batho ba rego ge ba feta
+  go yona, ba ipolela melato. Naa Matsobane o hlatha go reng ka mant\u0161u a a gagwe,
+  gona o ra bjang ge a re Mabatho o idibadit\u0161we ke dibe t\u0161a gagwe?\\nEpisode
+  3936\\n#Mahlakung \u2013Mabatho o ka bookelong morago ga go idibala ge ba be ba
+  phuruphut\u0161a ga Mabona.Naa go diraget\u0161e eng?\\nEpisode 3935\\n#Mahlakung
+  \u2013Badgirl, le badudi ba Mahlakung ba ile ga Mabona go gwanta kgahlanong le tlai\u0161o
+  ya Petronella le Mochichi, ba rile ge ba putuka ka ntlong ba nyakana le selo seo
+  se ba tshwenyago, ba bula lepokisitsoko ra kwa ba goelela ba t\u0161haba.Naa ba
+  t\u0161haba eng?\\nEpisode 3934\\n#Mahlakung \u2013Phetola o seki\u0161a Saki ka
+  go ya go \u0161omela Matsobane. Saki o fologa koloi ya Lethebe o a t\u0161haba.
+  Naa ke gona ge Saki a hlanoget\u0161e ba ga Lethebe , gona ke pho\u0161o ge a eya
+  go nyaka mafulo a matala?\\nEpisode 3933\\n#Mahlakung \u2013Phetola o bot\u0161a
+  Moruti Kgole gore a kgopele Hlapyadi a emi\u0161e go ya go gwantela Matsobane.Naa
+  Phetola o amega bjang tabeng ya tlai\u0161o ya Mochichi le Petronella, ge re ekwa
+  ebile a bot\u0161a Moruti Kgole go bot\u0161a Badgirl go emi\u0161a ka mogwanto?\\nEpisode
+  3932\\n#Mahlakung-Matsobane o bot\u0161a Titi gore gosasa Rethabile o tla ba a boile
+  ka gae.O mmot\u0161a gore go nale seo a yago go se dira.Naa Matsobane ke moporofeta
+  goba o hlatha eng?\\nEpisode 3931\\nMonday \u2013Episode 3931\u201326th MAY 2025
+  @19h55 #Mahlakung \u2013Titi o lla gabohloko ka ge a gopola gore Robert o bolaile
+  Rethabile morago ga gore Mamabona a mmot\u0161e gore mongaka Malehu o re ditaola
+  t\u0161a gagwe di mmont\u0161ha phoofolo , noga le lepokisi. Naa ka nnete Robert
+  o bolaile Rethabile goba go diragala eng?\\nEpisode 3930\\n#Mahlakung \u2013Petronella
+  o hweleledit\u0161e Matsobane a bolela ka mogala le mothotsoko ka selo seo a bolelago
+  gore ga se ba mmot\u0161a ge ba mo fa sona gore se nale magato a go fapana, le gore
+  se nyaka madi le gore Alfios o bolela gore selo seo se gare se a gola.Naa bophelo
+  bja Matsobane le Afios bo kotsing?\\nEpisode 3929\\n#Mahlakung \u2013Konstabel Mpedi
+  o thomile dinyaki\u0161i\u0161o ka David Potsotso Mampane e bile re kwa a kgopela
+  \u201cSelosecha\u201dgo mo i\u0161a lebitleng la gagwe.Naa Konstabel Mpedi o ya
+  go dira eng lebitleng la David Mampane?\\nEpisode 3928\\n#Mahlakung \u2013Rethabile
+  le Titi ba lwa ntwa ya mahlo a mahwibidu ge Rethabile a ganelela go ba le Robert
+  a gana go ya gae?Naa Titi o tla kgona go ba kgaogant\u0161ha goba Rethabile ke gona
+  ge a nyamelet\u0161e?\\nEpisode 3927\\n#Mahlakung-Phetola o ganne go amogela R100
+  000 ya Matsobane yeo a bego a mo tshepisa yona gore a boe kerekeng ya gagwe. Alfios
+  o bit\u0161a phetola setlaela go gana t\u0161helete.Naa Phetola o bone eng ga Mabona
+  ya go dira gore a tlogele kereke ya gagwe?\\nEpisode 3926\\n#Mahlakung \u2013Moruti
+  Kgole le Mmamoruti Sister Millicent ,ba thekga lesolo la go ya go gwanta kgahlanong
+  le tlai\u0161o ya Petronella.Re kwa Bra Bizza le Jonjon ba bont\u0161ha let\u0161hogo
+  la bona ka Matsobane, moo re kwago Bizza a bot\u0161i\u0161ago Moruti gore o nyaka
+  go roula naa le Jonjon a bolela ka go ba kotsi ga Matsobane?Naa Moruti, Mmamoruti
+  le set\u0161haba sa Mahlakung ba raloka ka mollo?\"", "\"101Barwa ba Arone, Nadaba
+  le Abihu, ba t\u0161ea dibjana t\u0161a bona t\u0161a magala ba nokela magala, ba
+  t\u0161hela seorelo godimo ga ona, gomme ba a tli\u0161a go Morena. Fela mollo wo
+  o be o se wa dumelelwa, ka gobane Morena o be a se a ba laela go o tli\u0161a. 2Ka
+  bjako Morena a romela mollo, gomme wa ba t\u0161huma ba hwa gona moo pele ga gagwe.
+  3Moshe a re go Arone: \u201cSe ke se Morena a bego a bolela ka sona ge a re: \u2018Ka
+  moka bao ba ntirelago ba swanet\u0161e go hlompha bokgethwa bja ka; ke tla utollela
+  set\u0161haba sa ka letago la ka.\u2019 \u201d10:3 \u201cke tla utollela set\u0161haba
+  sa ka letago la ka\u201d goba \u201cset\u0161haba sa ka se swanet\u0161e go ntlhompha\u201d
+  Eup\u0161a Arone a ikhomolela.\\n4Moshe a bit\u0161a Mishaele le Elitsafane, barwa
+  ba Usiele, rangwane wa Arone, a re go bona: \u201cTlang mo, le tlo\u0161eng ditopo
+  t\u0161a bomorwarragolena Tenteng ye kgethwa, le di bee ka ntle ga me\u0161a\u0161a.\u201d
+  5Ba tla ba di kuka di sa le ka diaparong t\u0161a boprista ba di i\u0161a ka ntle
+  ga me\u0161a\u0161a, ka moo Moshe a laet\u0161ego ka gona.\\n6Ke moo Moshe a it\u0161ego
+  go Arone le barwa ba gagwe, Eleasara le Ithamara: \u201cLe se ke la tlogela meriri
+  ya ba mahlafarara, goba la gagola diaparo t\u0161a lena. Ge le ka dira bjalo le
+  tla hwa, gomme Morena o tla befelelwa set\u0161haba ka moka. Fela Baisraele ba gabolena
+  ka moka bona ba dumelet\u0161we go ilela bahu ba ba bolailwego ka mollo woo Morena
+  a o romet\u0161ego. 7Le se ke la tloga mojakong wa Tente gore le se hwe, ka gobane
+  le beilwe baprista ka makhura a Morena a tlot\u0161o.\u201d Ba dira bjalo ka ge
+  Moshe a be a ba laet\u0161e.\\n8Morena a re go Arone: 9\u201cWena le barwa ba gago
+  le se ke la tsena ka Tenteng ya bodulo bja ka le nwele beine goba bjala, gore le
+  se hwe. Wo ke molao woo o swanet\u0161ego go phethwa ke ditlogolo t\u0161a gago
+  ka moka. 10Le kgetholle t\u0161e dikgethwa go t\u0161e e sego t\u0161e dikgethwa,
+  le t\u0161e di hlwekilego go t\u0161e di sego t\u0161a hlweka. 11Le ruteng set\u0161haba
+  sa Israele melao ka moka ye ke le filego yona ka Moshe.\u201d\\n12\\nMoshe a re
+  go Arone le go barwa ba gagwe ba babedi ba ba \u0161et\u0161ego, Eleasara le Ithamara:
+  \u201cT\u0161eang kabelo ya bupi ye e \u0161et\u0161ego mola dijong t\u0161e di
+  abet\u0161wego Morena, mme ka yona le direng senkgwa se se se nago komelo, gomme
+  le se je ka lehlakoreng la aletare, ka gobane kabelo ye ke ye kgethwakgethwa. 13Le
+  se jeng felong mo gokgethwa; ke seripa se e lego sa gago le barwa ba gago sa dijo
+  t\u0161e di abet\u0161wego Morena. Seo ke se Morena a ntaet\u0161ego sona. 14\\nGomme
+  lena le ba malapa a lena le ka jela leumo le serope t\u0161ela di abelwago Morena
+  e le mpho ye e fiwago yena, le kabelo ye e abelwago yena ka tsela ye e it\u0161eng.
+  Le ka di ja lefelong lefe le lefe le le hlweket\u0161ego tirelo. Diaba t\u0161e
+  di filwe lena le bana ba lena e le seripa se e lego sa lena sa dihlabelo t\u0161a
+  kagi\u0161ano t\u0161a Baisraele. 15Ba tli\u0161e serope seo le leumo leo ka nako
+  ya ge makhura a tli\u0161wa e le sehlabelo go Morena. Diaba t\u0161e ke t\u0161a
+  lena le bana ba lena go ya go ile, ka moo Morena a laet\u0161ego ka gona.\u201d\\n16Moshe
+  a bot\u0161i\u0161a ka pudi ya sehlabelo sa tshwarelo ya dibe, gomme a kwa gore
+  e \u0161et\u0161e e t\u0161humilwe. Ka gona a befelelwa Eleasara le Ithamara mme
+  a ba bot\u0161i\u0161a a re: 17\\n\u201cKe ka lebaka lang le se la ja sehlabelo
+  sa tshwarelo ya dibe felong mo go kgethwa? Ke se sekgethwakgethwa, gomme Morena
+  o le file sona gore le tlo\u0161e sebe sa set\u0161haba go se boelanya le Morena.
+  18Ka ge madi a yona a se a tli\u0161wa ka tenteng ye kgethwa, le be le swanet\u0161e
+  go ja sehlabelo seo ka ntshe, ka moo ke laet\u0161ego ka gona.\u201d\\n19Arone a
+  mo fetola a re: \u201cGe nkabe ke lle sehlabelo seo lehono, a seo se be se tla kgahla
+  Morena? Set\u0161haba se diret\u0161e Morena sehlabelo sa sona sa tshwarelo ya dibe
+  le sehlabelo sa go t\u0161hungwa ka moka lehono, le ge go le bjalo ke hlaget\u0161we
+  ke t\u0161e \u0161oro t\u0161e.\u201d 20Ge Moshe a ekwa taba yeo, a kgotsofala.\\n111Morena
+  o file Moshe le Arone melawana ye 2ya Baisraele. Le ka ja phoofolo efe goba efe
+  ya nageng 3ye e nago le ditlhako t\u0161a mapharo gape ye e otlago. 4-6Eup\u0161a
+  le se ke la ja dikamela le dipela le mebutla. T\u0161e di swanet\u0161e go t\u0161ewa
+  gore di t\u0161hilafet\u0161e; di a otla, eup\u0161a ga di ne ditlhako t\u0161a
+  mapharo. 7Le se ke la ja dikolobe. Di swanet\u0161e go t\u0161ewa gore di t\u0161hilafet\u0161e;
+  di na le ditlhako t\u0161a mapharo, fela ga di otle. 8Le se ke la ja diphoofolo
+  t\u0161e le ge e le go kgwatha ditoto t\u0161a t\u0161ona; di t\u0161hilafet\u0161e.\\n9Le
+  ka ja dihlapi t\u0161a mohuta ofe le ofe t\u0161e di nago le diphegwana le magapi,
+  10eup\u0161a se sengwe le se sengwe se se phelago ka meetseng se se ne diphegwana
+  le magapi se t\u0161hilafet\u0161e. 11Dibopiwa t\u0161a mohuta woo di swanet\u0161e
+  go t\u0161ewa gore ke dit\u0161hila go lena. Ga le a swanela go di ja le ge e le
+  go kgwatha ditoto t\u0161a t\u0161ona. 12Se sengwe le se sengwe se se phelago ka
+  meetseng mme se se ne diphegwana le magapi ke dit\u0161hila go lena.\\n13-19Dinonyana
+  t\u0161e di latelago le se ke la di ja; ke dit\u0161hila go lena: manong, le dint\u0161hu,
+  le maaka ka mehuta ya ona, le dipekwa ka mehuta ya t\u0161ona, le magokobu ka mehuta
+  ya ona, le dimp\u0161he, le maribi\u0161i ka mehuta ya ona, le digot\u0161ane ka
+  mehuta ya t\u0161ona, le dikokolohute, le megole, le boma\u0161ianoke ka mehuta
+  ya bona, le dikukuku, le bomankgaganyane ka mehuta ya bona.\\n20Dikhunkhwane ka
+  moka t\u0161e di nago le diphego di t\u0161hilafet\u0161e, 21ntle le t\u0161eo di
+  nago le maotwana a di tabogatabogago ka ona. 22Le ka ja t\u0161ie ya segongwane
+  ka mehuta ya yona, le ditatakgope ka mehuta ya t\u0161ona, le mehloro ka mehuta
+  ya yona, le ditlhakwanapitsi ka mehuta ya t\u0161ona. 23Eup\u0161a dilo t\u0161e
+  dingwe t\u0161e nnyane t\u0161e di nago le diphego gape di nago le maotwana a mane
+  di swanet\u0161e go t\u0161ewa gore ke dit\u0161hila go lena.\\n24-28Yo a ka kgwathago
+  ditoto t\u0161a diphoofolo t\u0161e di latelago o tla t\u0161hilafala go fihlela
+  mant\u0161iboa: diphoofolo ka moka t\u0161a ditlhako, ge e se ge ditlhako t\u0161a
+  t\u0161ona e le mapharo gomme di otla, le diphoofolo ka moka t\u0161a maoto a mane
+  t\u0161a borofa. Yo a ka rwalago ditoto t\u0161a t\u0161ona o swanet\u0161e go hlatswa
+  diaparo t\u0161a gagwe, eup\u0161a o tla fela a sa t\u0161hilafet\u0161e go fihlela
+  mant\u0161iboa.\\n29-30Dirunya le magotlo le mahohomedi le mekgaritswane ye mengwe
+  le maobu di swanet\u0161e go t\u0161ewa gore di t\u0161hilafet\u0161e. 31Yo a ka
+  di kgwathago di hwile o tla t\u0161hilafala go fihlela mant\u0161iboa. 32Gomme ge
+  di ka wela godimo ga selo se sengwe di hwile, se tla t\u0161hilafala, e ka ba se
+  se dirilwego ka kota goba le\u0161ela goba mokgopa goba lesaka, go sa kgathalege
+  gore se \u0161omi\u0161wa go dira eng. Selo seo se inwe meetseng, eup\u0161a se
+  tla no ba se t\u0161hilafet\u0161e go fihlela mant\u0161iboa. 33Gomme ge ditoto
+  t\u0161a t\u0161ona di ka wela ka pit\u0161eng ya letsopa, se sengwe le se sengwe
+  se se lego ka go yona se tla t\u0161hilafala, gomme pit\u0161a yeo le e p\u0161hatle.
+  34Dijo t\u0161e di loket\u0161ego go lewa, ge di ka t\u0161helwa ka meetse a a t\u0161wago
+  ka pit\u0161eng yeo, di tla t\u0161hilafala, le seno sefe le sefe se se lego ka
+  pit\u0161eng yeo se t\u0161hilafet\u0161e. 35Selo sefe le sefe se se ka welwago
+  ke ditoto t\u0161a dilo t\u0161eo se t\u0161hilafet\u0161e; ge e ka ba onto goba
+  setofo sa letsopa se p\u0161hatlwe; 36ge e le mothopo goba molete wa meetse wona
+  ga o t\u0161hilafale, go t\u0161hilafala se se ka kgwathago ditoto t\u0161a t\u0161ona
+  t\u0161e di wet\u0161ego ka go wona. 37Ge setoto sa t\u0161ona se ka wela godimo
+  ga peu ye e yago go bjalwa, peu yeo e ka se t\u0161hilafale. 38Eup\u0161a ge peu
+  yeo e ka welwa ke setoto sa t\u0161ona e \u0161et\u0161e e innwe ka meetseng, gona
+  peu yeo e t\u0161hilafet\u0161e.\\n39Ge phoofolo ye e lewago e ka hwa, yo a ka e
+  kgwathago o tla t\u0161hilafala go fihlela mant\u0161iboa. 40Gomme yo a ka jago
+  nama ya yona, a hlatswe diaparo t\u0161a gagwe, fela o tla fela a sa t\u0161hilafet\u0161e
+  go fihlela mant\u0161iboa; yo a ka rwalago setoto seo o swanet\u0161e go hlatswa
+  diaparo t\u0161a gagwe, fela o tla fela a sa t\u0161hilafet\u0161e go fihlela mant\u0161iboa.\\n41Le
+  se ke la ja segagabi sefe le sefe, 42e ka ba se se sepelago ka mpa, goba ka maoto
+  a mane, goba ka maoto a mant\u0161i \u2013 t\u0161ohle di t\u0161hilafet\u0161e.
+  43Le se ke la it\u0161hilafat\u0161a ka go ja se sengwe sa t\u0161ona. 44\\nKe nna
+  Morena Modimo wa lena, gomme ineeleng go nna, mme le beng ba bakgethwa, ka gore
+  nna ke yo mokgethwa. 45Ke nna Morena yo ke le nt\u0161hit\u0161ego Egepeta gore
+  ke tle ke be Modimo wa lena. Le beng ba bakgethwa, ka gobane nna ke yo mokgethwa.\\n46Woo
+  ke wona molao mabapi le diphoofolo, le dinonyana, le diphedi t\u0161ohle t\u0161a
+  ka meetseng, le digagabi t\u0161ohle. 47Molao wo ke wa gore le kgethologanye se
+  se hlwekilego le se se sego sa hlweka, diphedi t\u0161e di ka lewago le t\u0161eo
+  di sego t\u0161a swanela go lewa.\\n121Morena o file Moshe melawana ye 2ya Baisraele.
+  Ge mosadi a ka belega ngwana wa mo\u0161emane, o t\u0161hilafala mat\u0161at\u0161i
+  a a \u0161upago, go no swana le ge a t\u0161hilafala ge a bone kgwedi. 3\\nKa let\u0161at\u0161i
+  la seswai ngwana yoo a bolot\u0161we. 4Go tla feta mat\u0161at\u0161i a mangwe a
+  masome a mararo le met\u0161o ye meraro gore mmagwe a hlweke ka ge a t\u0161wele
+  madi; a se ke a kgwatha selo se sekgethwa goba a tsena ka Tenteng ye kgethwa go
+  fihlela ge nako ya gagwe ya go hlweki\u0161wa e fetile.\\n5Ge mosadi a ka belega
+  ngwana wa mosetsana, o t\u0161hilafala mat\u0161at\u0161i a lesome le a mane, go
+  no swana le ge a t\u0161hilafala ge a bone kgwedi. Go tla feta mat\u0161at\u0161i
+  a mangwe a masome a a selelago le met\u0161o ye e selelago gore a hlweke ka ge a
+  t\u0161wele madi.\\n6Ge mosadi a belege ngwana wa mo\u0161emane goba wa mosetsana
+  mme nako ya go hlweki\u0161wa ga gagwe e fetile, a tli\u0161e kwanyana ya ngwaga
+  o tee go moprista mojakong wa Tente ya bodulo bja Morena e le sehlabelo sa go t\u0161hungwa
+  ka moka; a tli\u0161e le leeba goba mokuru e le sehlabelo sa tshwarelo ya dibe.
+  7Moprista a direle Morena sehlabelo seo sa mosadi yoo mme a mmoelanye le yena; ke
+  moo a tlago ba a hlweki\u0161it\u0161we ka ge a be a t\u0161wele madi. 8Seo ke se
+  mosadi a swanet\u0161ego go se dira ge a seno belega.\\n9\\nGe mosadi a se ne kwanyana,
+  a tli\u0161e mekuru ye mebedi goba maeba a mabedi, le lengwe e be la sehlabelo sa
+  go t\u0161hungwa ka moka, mme le lengwe e be la sehlabelo sa tshwarelo ya dibe,
+  gomme moprista a mmoelanye le Morena, mme o tla hlweka.\"", "\"Beibele Inthaneteng\\nPHETOLELO
+  YA LEFASE LE LEFSA YA MANGWALO A MAKGETHWA\\n6 Re \u0161oma gotee le yena,+ gape
+  re le lopa gore le se ke la amogela botho bjo bogolo bja Modimo gomme la lahlegelwa
+  ke morero wa bjona.+\\n2 Gobane o re: \u201cKe go kwele ka nako e amogelegago gomme
+  ke go thu\u0161it\u0161e let\u0161at\u0161ing la pholo\u0161o.\u201d+ Bonang! Bjale
+  ke nako e amogelegago ka mo go kgethegilego.+ Bonang! Bjale ke let\u0161at\u0161i
+  la pholo\u0161o.+\\n3 Ka tsela le ge e le efe ga re nee lebaka la go kgop\u0161a,+
+  gore bodiredi bja rena bo se ke bja solwa;+\\n4 eup\u0161a re ipolelela ka ditsela
+  t\u0161ohle+ re le badiredi ba Modimo, ka go kgotlelela dilo t\u0161e dint\u0161i,
+  ka ditlai\u0161ego, ka mabaka a go hloka dilo, ka mathata,+\\n5 ka go itiwa, ka
+  go golegwa,+ ka meferefere, ka go \u0161oma ka thata, ka ma\u0161ego a go hlorega
+  boroko, ka dinako t\u0161a go se be le dijo,+\\n6 ka tshekego, ka tsebo, ka go kgotlelela
+  ka go se fele pelo,+ ka botho,+ ka moya o mokgethwa, ka lerato le le se nago boikaket\u0161i,+\\n7
+  ka polelo ya go rere\u0161a, ka matla a Modimo;+ ka dibet\u0161a+ t\u0161a toko
+  ka letsogong la le letona le ka letsogong la le letshadi,\\n8 ka letago le lenyat\u0161o,
+  ka pego e mpe le pego e botse; ka go swarwa bjalo ka bafori+ fela re le ba go rere\u0161a,\\n9
+  re t\u0161ewa bjalo ka ba ba sa tsebjego fela re tsebja,+ re t\u0161ewa re le ba
+  swanet\u0161wego ke lehu eup\u0161a re a phela,+ re itiwa + fela re sa gafelwe lehu,+\\n10
+  bjalo ka ba nyamilego eup\u0161a re dula re thabile, bjalo ka badiidi fela re humi\u0161a
+  ba bant\u0161i, le bjalo ka ba se nago selo fela re na le dilo t\u0161ohle.+\\n11
+  Bakorinthe, re bolet\u0161e le lena ka go se pepetlet\u0161e, lerato leo le lego
+  dipelong+ t\u0161a rena le katologet\u0161e go lena.\\n12 Ga re dikadike go le bont\u0161heng
+  lerato,+ eup\u0161a lena le a dikadika go re bont\u0161heng lona.+\\n13 Ka gona
+  ke bolela bjalo ka ge go bolelwa le bana,+ ke re le dire se se swanago le go rena
+  ka gore le lena le katolo\u0161eng lerato leo le lego dipelong t\u0161a lena.\\n14
+  Le se ke la rwala joko le ba ba sa dumelego.+ Gobane toko le go hloka molao di na
+  le segwera sefe?+ Goba seet\u0161a se abelana eng le leswiswi?+\\n15 Go feta moo,
+  go na le kwano efe magareng ga Kriste le Sathane?+ Goba modumedi o swana+ ka eng
+  le yo a sa dumelego?\\n16 Tempele ya Modimo e na le tumelelano efe le medingwana?+
+  Gobane re tempele+ ya Modimo yo a phelago; go et\u0161a ge Modimo a it\u0161e: \u201cKe
+  tla dula gare ga bona+ ka sepela gare ga bona gomme ke tla ba Modimo wa bona, bona
+  e tla ba batho ba ka.\u201d+\\n17 Jehofa o re: \u201c\u2018Ka gona t\u0161wang gare
+  ga bona, le itlhaole le lese go kgwatha selo se se sa hlwekago\u2019\u201d;+ \u201c\u2018gomme
+  ke tla le amogela.\u2019\u201d+\\n18 \u201c\u2018Ke tla ba tatago lena,+ lena le
+  tla ba barwa le barwedi ba ka,\u2019+ go bolela Jehofa Ramatlaohle.\u201d+\"", "\"Selo
+  sa botse kudu ka kgogo ke gore e nyaka e ba nonyana ka moka yeo e ka \u0161omi\u0161wago,
+  o ka ja nama ya phepo ye go godimo kudu gomme wa diri\u0161a marapo a ma\u0161aledi
+  go dira dithoto. Nama gape key a go fapana gomme e ka be\u0161wa sebe\u0161ong,
+  ya dirwa set\u0161uu, go dirwa kheri goba go be\u0161wa. Butcher SA e le dit\u0161hi\u0161inyo
+  t\u0161e di latelago t\u0161a go apea:\\nKgogo ka Moka\\nDinonyana t\u0161a ka moka
+  di a hwet\u0161agala ka bareki\u0161eng di na le goba ka ntle le dikiblete (dikiblete
+  ke lereo leo le \u0161omi\u0161wago ka go kopant\u0161hwe ka kilana, pshio, pelo,
+  sebete le molale). ge o reka kgogo ka moka dikiblete gant\u0161hi di phuthet\u0161we
+  ka polastiki ka gare ga kgogo. Mokotla wa go ba le dikiblete o swanet\u0161e go
+  tlo\u0161wa pele ga ge o apea nonyana.\\nKgogo e ka apewa ka moka goba e kgaogant\u0161hwe
+  ka dikaroganyo t\u0161a go bapa le mokokotlo (e but\u0161we). Dinonyana ka moka
+  di ka t\u0161ent\u0161hwa marineite le go hlohlwa t\u0161e dingwe pele ga ge e ka
+  be\u0161wa goba go pakwa. Kgogo yeo e but\u0161wego e tsent\u0161hwa marineite,
+  ya be\u0161wa ka obeneng goba e be\u0161we sebe\u0161ong.\\nMapheko\\nMaphego a
+  nonyana a dira mabosabosana wa maleba goba mathomo, kudukudu ka souso ya go kgomarela
+  goba marineite. Di ka be\u0161wa ka obeneng goba di t\u0161ent\u0161hwe dinoko t\u0161a
+  apewa.\\nDikgara le Thendaloin\\nDikgara le dithendaloin di na le nama ye t\u0161hweu
+  le makhura a go ba ma nnyane kudu. Dithendaloin di bolete go feta kgara ka moka.
+  Dikgara le dithendaloin di ka pakwa, di apewe ka ntle le meetse, be be\u0161we,
+  di be\u0161we go feta tekano, di gadikwe ka go \u0161omi\u0161wa pane ka boyona,
+  ka diselae, disopo goba st\u0161uu. E ka rekwa ka ntle le go ba la letlalo goba
+  le mapheko (mapheko a go ripiwa \u0161adi\u0161a ka mohlakanelweng) a kgomaredit\u0161we
+  letlalong.\\nMaoto\\nMaoto, a bopilwe ka serope sa tlase le kopanyo ya serope, di
+  t\u0161ewa bjalo dikarolo t\u0161a go monwa le go ba le tatso kudu dikgogong. Di
+  ka t\u0161ent\u0161hwa marineite goome t\u0161a be\u0161wa ka obeneng goba t\u0161a
+  be\u0161wa sebe\u0161ong, go \u0161omi\u0161wa ka dikhaseroleng, dikhering le st\u0161uung.\\nMateng\\nSebete
+  ke mothopo wo mobotse wa tshipi le proteine gomme se ka gadikwa le konofele le me\u0161unkwane
+  ye mengwe go t\u0161welet\u0161a pheite ya sebete. Go feta fao e loket\u0161we go
+  gadikwa ka botebeong. Nose to Tail go hlohlelet\u0161wa go inela sebete ka maswing
+  a botoro meetseng a esete pele ga ge se apewa go dira tatso e ne seet\u0161a.\\nDikiblete
+  t\u0161e dingwe ka moka, kilana, pelo le diph\u0161io, di ka bedi\u0161wa go t\u0161welet\u0161a
+  setoko goba moro, goba e ka gadikwa ka botebo. O seke wa tsent\u0161ha sebete ge
+  o dira setoko, ka ge se tla fa setoko tatso ye bo\u0161ula.\\nKilana e na tshipi
+  ya godimo, dibithamini A le C, kalasiamo, sodiamo le potassiamo, mola pelo e le
+  go mothopo wo mobotse wa proteine, bithamini b12, folate le zinki. Dipshio, Go ya
+  ka Nose to Tail, e na melatonin receptors t\u0161eo di bego di tsebjwa ka go lwant\u0161ha
+  bot\u0161ofe gammogo le kankere. E ya \u0161omi\u0161wa ka dikotlelong t\u0161e
+  go khethega t\u0161a Sefora le SeChina.\\nCockscomb ke ya go ba le gelatin, e nago
+  le palo ye nnyane ya diproteine le diaminoesiti. Ke ditswaki t\u0161e di tumilego
+  ka dim sum ya maChina le Cibreo ya Mantariana. Mapele a na le proteine, sodiamo,
+  potassiamo, tshipi, zinki, fosforo le maknisiamo gomme a \u0161omi\u0161wa ka merong
+  le dist\u0161uu. Dikefa t\u0161a dikgogo le mapele di swanet\u0161e go hlweki\u0161wa
+  gomme t\u0161a bidi\u0161wa go tlo\u0161a letlalo pele ga ge di a apewa.\\nMaotwana
+  a dikgogo a tladi\u0161we ka proteine, kalasiamo, kholajene le le\u0161etla. Di
+  ka gadikwa ka botebo goba di bedi\u0161we go t\u0161welet\u0161a moro goba stoko.
+  Letlalo le swanet\u0161e go tomolwa go tloga maotong pele ga go apea.\\nTranslated
+  by Lawrence Ndou\"", "\"Beibele Inthaneteng | PHETOLELO YA LEFASE LE LEFSA YA MANGWALO
+  A MAKGETHWA\\nGo moopedi\u0161i. Ko\u0161a ya Dafida.\\n19 Magodimo a bolela ka
+  letago la Modimo;+\\nGomme mediro ya diatla t\u0161a gagwe e tsebat\u0161wa ke sebakabaka.+\\n2
+  Let\u0161at\u0161i le lengwe le le lengwe le bakela gore go be le seo se bolelwago,+\\nBo\u0161ego
+  bjo bongwe le bjo bongwe bo bonagat\u0161a tsebo.+\\n3 Ga go kwale polelo, ga di
+  nt\u0161he mant\u0161u;\\nGa go na modumo wa lent\u0161u wo o kwalago go t\u0161ona.+\\n4
+  Eup\u0161a molaet\u0161a wa t\u0161ona o ile lefaseng ka moka,+\\nGomme dipolelo
+  t\u0161a t\u0161ona di ile phelet\u0161ong ya lefase.+\\nGo t\u0161ona Modimo o
+  beile tente ya let\u0161at\u0161i,+\\n5 Let\u0161at\u0161i le swana le monyadi ge
+  a et\u0161wa ka phapo\u0161ing ya gagwe;+\\nLe hlalala go et\u0161a mogale ge a
+  kitima tseleng ya gagwe.+\\n6 Le tloga phelet\u0161ong e nngwe ya magodimo go ya
+  go e nngwe,\\nLe dikologa go tloga phelet\u0161ong e nngwe go ya go e nngwe ya ona;+\\nGa
+  go seo se ka ikutelago phi\u0161o ya lona.+\\n7 Molao+ wa Jehofa o phethaget\u0161e,+
+  o tso\u0161olo\u0161a moya.+\\nKgopot\u0161o+ ya Jehofa e a botega,+ e dira gore
+  yo a se nago temogo a be bohlale.+\\n8 Ditayo+ t\u0161e di t\u0161wago go Jehofa
+  di lokile,+ di thabi\u0161a pelo;+\\nTaelo+ ya Jehofa e hlwekile,+ e phadimi\u0161a
+  mahlo.+\\n9 Go boifa+ Jehofa go sekile, go ema ka mo go sa felego.\\nDikahlolo+
+  t\u0161a Jehofa di a rere\u0161a;+ di lokile ka mo go felet\u0161ego.+\\n10 Di kganyogega
+  go feta gauta, ee, go feta gauta e nt\u0161i yeo e seki\u0161it\u0161wego;+\\nDi
+  bose go feta dinose+ le todi yeo e elelago ya mamapo.+\\n11 Le gona mohlanka wa
+  gago di mo lemo\u0161it\u0161e;+\\nGo di lota go na le moputso o mogolo.+\\n12 Ke
+  mang yo a ka lemogago dipho\u0161o t\u0161a gagwe?+\\nO se mpalele dibe t\u0161eo
+  ke sa lemogego gore ke di dirile.+\\n13 Le gona thibela mohlanka wa gago go dira
+  ditiro t\u0161a go ikgodi\u0161a;+\\nO se di dumelele gore di mpu\u0161e.+\\nGe
+  go le bjalo ke tla be ke felet\u0161e,+\\nGomme ke tla be ke dut\u0161e ke se na
+  molato dikarogong t\u0161e dint\u0161i.\\n14 Anke dipolelo t\u0161a molomo wa ka
+  le t\u0161eo pelo ya ka e di nagani\u0161i\u0161ago+\\nE be t\u0161e di kgahli\u0161ago
+  pele ga gago, wena Jehofa Leswika la ka+ le Molopolodi wa ka.+\"", "\"141Ka t\u0161at\u0161i
+  le lengwe la Sabatha Jesu a ya go ja ka ga yo mongwe wa bagolo ba Bafarisei. Batho
+  ba be ba tloga ba mmeile leihlo. 2A bona a lebane le monna yo mongwe wa go ruruga
+  maoto le matsogo. 3A bot\u0161i\u0161a boramangwalo le Bafarisei a re: \u201cNa
+  go fodi\u0161a motho ka t\u0161at\u0161i la Sabatha go dumelet\u0161we?\u201d\\n4Bona
+  ba homola. Ke ge Jesu a t\u0161ea molwet\u0161i yola a mo fodi\u0161a, mme a mo
+  lesa a itshepelela. 5\\nKe moka a re go bona: \u201cKe mang mo go lena yo e ka rego
+  morwagwe a wet\u0161e ka sedibeng goba go wet\u0161e kgomo ya gagwe, a se e nt\u0161he
+  le semeetseng le ge e le ka lona t\u0161at\u0161i la Sabatha?\u201d\\n6Bona ba se
+  kgone go mo fetola mo tabeng yeo.\\n7Jesu ge a bona balalet\u0161wa ba bangwe ba
+  ipea madulong a ka pele a ba bot\u0161a ka go swant\u0161ha a re: 8\\n\u201cGe motho
+  a go laledit\u0161e monyanyeng wa lenyalo, o se ke wa fihla wa ipea madulong a bohlomphegi,
+  ka gore e ka no ba e le gore go laledit\u0161we le yo mongwe yo a hlomphegago kudu
+  go feta wena, 9gomme yo a le laledit\u0161ego ka babedi a tla a re go wena: \u2018\u0160utelela
+  yo.\u2019 Gomme ya ba gona o yago go dula madulong a ka moragorago ka dihlong. 10Wena
+  ge o laledit\u0161we o fihle o ipee madulong a ka moragorago, gore ge molalet\u0161i
+  wa gago a etla a re go wena: \u2018Mogwera, fetela kua madulong a makaone!\u2019
+  Gomme o tla godi\u0161wa ke ba ba laledit\u0161wego le wena. 11\\nGobane mang le
+  mang yo a ikgodi\u0161ago o tla kokobet\u0161wa, gwa re yo a ikokobet\u0161ago a
+  godi\u0161wa.\u201d\\n12A bot\u0161a le yola molalet\u0161i wa gagwe a re: \u201cGe
+  o lalet\u0161a batho go tlo ja le wena dijo t\u0161a mosegare le ge e le t\u0161a
+  mant\u0161iboa, o se ke wa lalet\u0161a ba e lego bagwera ba gago, goba banabeno,
+  goba meloko yeno, goba baagi\u0161ani ba gago ba bahumi, gobane le bona ba ka tla
+  ba go lalet\u0161a, gomme ya ba ge o boelwa ke t\u0161e o kilego wa ba direla t\u0161ona.
+  13Wena ge o dira monyanya, o lalet\u0161e badiidi le dihlot\u0161a le digole le
+  difofu, 14gomme o tla ba le mahlogonolo, gobane bao ga ba na se ba ka go bu\u0161et\u0161ago
+  ka sona. O tla bu\u0161et\u0161wa ke Modimo mohla a tso\u0161a baloki bahung.\u201d\\n15Yo
+  mongwe wa balalet\u0161wa ba ba bego ba le dijong, ge a ekwa Jesu a realo, a re
+  go yena: \u201cGo lehlogonolo bao ba tlago tla dijong mmu\u0161ong wa Modimo!\u201d\\n16Jesu
+  a re go yena: \u201cMotho yo mongwe o kile a dira monyanya wo mogolo, mme a lalet\u0161a
+  batho ba bant\u0161i. 17Ge nako ya go keteka e fihla a roma mohlanka wa gagwe gore
+  a yo bot\u0161a balalet\u0161wa a re: \u2018Etlang, t\u0161ohle di loki\u0161it\u0161we!\u2019
+  18Eup\u0161a bona ka moka ba itatola ka o tee ka o tee. Wa mathomo a re go mohlanka
+  yoo: \u2018Ke rekile t\u0161hemo, gomme ke swanet\u0161e go yo e bona. Hle, o mpolelele
+  gore ke swaregile.\u2019 19Yo mongwe a re: \u2018Ke rekile dipholo t\u0161e lesome,
+  gomme ke a ya go bona ge eba di tla goga gabotse. Hle, o mpolelele gore nka se kgone
+  go tla.\u2019 20Yo mongwe a re: \u2018Ke sa t\u0161o nyala mosadi, gomme ke sona
+  se se nt\u0161hiti\u0161ago go tla.\u2019\\n21\u201cMohlanka yola a boela morago
+  a yo di bot\u0161a mong wa gagwe. Yena a galefa, a bot\u0161a mohlanka yoo a re:
+  \u2018Itlhaganele o ye mekgotheng le mekgothaneng ya motse, o boe le badiidi le
+  dihlot\u0161a le digole le difofu.\u2019 22Ka morago mohlanka yoo a boa, a re: \u2018Ke
+  phethile se o rilego ke se dire, morena, fela go sa na le madulo.\u2019 23Monglapa
+  a re go yena: \u2018Eya ditseleng le mebileng o yo gapelet\u0161a batho go tlo tsena,
+  gore ntlo ya ka e tle e tlale. 24Gomme ke le bot\u0161a gore le o tee wa banna ba
+  ba bego ba laledit\u0161we a ka se latswe dijo t\u0161a ka.\u2019 \u201d\\n25Ya
+  re ge batho ba bant\u0161int\u0161i ba nt\u0161e ba sepela le yena, a retologa,
+  a re go bona: 26\\n\u201cYo a tlago go nna a sa nthate go feta ka mo a ratago tatagwe,
+  le mmagwe, le mosadiagwe, le bana ba gagwe, le bomorwarragwe, le dikgaet\u0161edi
+  t\u0161a gagwe, e\u0161ita le yena mong, a ka se kgone go ba morutiwa wa ka. 27\\nYo
+  a sego a ikemiset\u0161a go tlai\u0161wa bjalo ka nna mme a ntatela, a ka se kgone
+  go ba morutiwa wa ka.\\n28\u201cGa ke re ge o nyaka go aga tora o thoma ka go dula
+  fase wa akanya tshenyegelo ya gona, gore o bone ge eba o na le t\u0161helete ye
+  e lekanego go phetha modiro woo? 29Gape ge o ka se dire bjalo, o tla re o beile
+  motheo wa tla palelwa ke go phetha tora yeo, gomme wa kwerwa ke bohle ba ba di bonago.
+  30Ba re: \u2018Moisa yo o kgonne go thoma go aga, fela go phetha go mo palet\u0161e.\u2019\\n31\u201cKgo\u0161i
+  yona ke efe ye e ka rego e eya go lwa le ye nngwe ya se dule fase ya lebeledi\u0161i\u0161a
+  ge eba e tla kgona ka bahlabani ba dikete t\u0161e lesome go lwa le yo a t\u0161wilego
+  ka bahlabani ba dikete t\u0161e masome a mabedi? 32Ge a bona gore a ka se kgone,
+  o tla roma batseta ba yo loba yola a sa le kgole.\u201d 33Jesu a fet\u0161a ka go
+  re: \u201cKa wona mokgwa woo, yo a sa tlogelego t\u0161ohle t\u0161e a nago le t\u0161ona
+  a ka se kgone go ba morutiwa wa ka.\u201d\\n34\u201cLetswai ke selo se sebotse,
+  fela ge le ka tapa, le ka hlwa le sa tswailo\u0161wa ka eng? 35Ga le sa hola mobu
+  ka selo e\u0161ita le wona mmutedi; sa lona ke go dio t\u0161hollwa. Yo a nago le
+  tsebe a a kwe!\u201d\"", "\"Beibele Inthaneteng\\nPHETOLELO YA LEFASE LE LEFSA YA
+  MANGWALO A MAKGETHWA\\n17 \u201cKe nolegile moko,+ mat\u0161at\u0161i a ka a fedile;\\nLebitla
+  le nkemet\u0161e.+\\n2 Ke a kwerwa,+\\nLe mahlo a ka a dulela go bona boitshwaro
+  bja bona bja borabele.\\n3 Hle anke o be kgonthi\u0161et\u0161o ya ka.+\\nKe mang
+  yo mongwe yo a lego gona yo a tlago go fana diatla+ le nna e le go dira tlamo?\\n4
+  O tswalelet\u0161e dipelo t\u0161a bona temogo.+\\nKe ka baka leo o sa ba phagami\u0161ego.\\n5
+  Yo mongwe a ka bot\u0161a bagwera ba gagwe gore ba t\u0161ee dikabelo t\u0161a bona,\\nMola
+  mahlo a barwa ba gagwe a tla palelwa.+\\n6 O dirile gore batho ba hlabe seema+ ka
+  nna,\\nMoo ke bago wa go tshwelwa ka mare sefahlegong.+\\n7 Mahlo a ka a swifat\u0161wa
+  ke go selekega,+\\nGe e le ditho t\u0161a ka ka moka di otile.\\n8 Baloki ba tsepelela
+  se ka go makala,\\nLe yo a sego molato o tenwa ke mohlanogi.\\n9 Moloki o swarelela
+  ka go tia tseleng ya gagwe,+\\nLe wa diatla t\u0161e di hlwekilego+ matla a gagwe
+  a a oket\u0161ega.+\\n10 Lega go le bjalo, ka moka le ka no thomolo\u0161a. Ka gona
+  hle,\\nDirang seo ka ge ke sa hwet\u0161e yo bohlale gare ga lena.+\\n11 Mat\u0161at\u0161i
+  a ka a fetile,+ maano a ka a padile,+\\nT\u0161ona dikganyogo t\u0161a pelo ya ka.\\n12
+  Bo\u0161ego ba re ke mosegare,+ ba re:\\n\u2018Ka ge go le leswiswi, gona seet\u0161a
+  se batamet\u0161e.\u2019\\n13 Ge ke dula ke letile, gona Bodulabahu ke ntlo ya ka;+\\nKe
+  tla ala bolao bja ka leswiswing.+\\n14 Ke tla goelet\u0161a molete+ ka re: \u2018O
+  tate!\u2019\\nGo seboko+ ka re: \u2018O mma e bile o kgaet\u0161ediaka!\u2019\\n15
+  Ka gona, kholofelo ya ka e kae?+\\nA go na le yo a naganago gore go na le kholofelo
+  ka nna?\\n16 Kholofelo yeo e tla theogela dikgorong t\u0161a Bodulabahu,\\nGe ka
+  moka ga rena re theogela gotee gona leroleng.\u201d+\"", "\"111Morena o file Moshe
+  le Arone melawana ye 2ya Baisraele. Le ka ja phoofolo efe goba efe ya nageng 3ye
+  e nago le ditlhako t\u0161a mapharo gape ye e otlago. 4-6Eup\u0161a le se ke la
+  ja dikamela le dipela le mebutla. T\u0161e di swanet\u0161e go t\u0161ewa gore di
+  t\u0161hilafet\u0161e; di a otla, eup\u0161a ga di ne ditlhako t\u0161a mapharo.
+  7Le se ke la ja dikolobe. Di swanet\u0161e go t\u0161ewa gore di t\u0161hilafet\u0161e;
+  di na le ditlhako t\u0161a mapharo, fela ga di otle. 8Le se ke la ja diphoofolo
+  t\u0161e le ge e le go kgwatha ditoto t\u0161a t\u0161ona; di t\u0161hilafet\u0161e.\\n9Le
+  ka ja dihlapi t\u0161a mohuta ofe le ofe t\u0161e di nago le diphegwana le magapi,
+  10eup\u0161a se sengwe le se sengwe se se phelago ka meetseng se se ne diphegwana
+  le magapi se t\u0161hilafet\u0161e. 11Dibopiwa t\u0161a mohuta woo di swanet\u0161e
+  go t\u0161ewa gore ke dit\u0161hila go lena. Ga le a swanela go di ja le ge e le
+  go kgwatha ditoto t\u0161a t\u0161ona. 12Se sengwe le se sengwe se se phelago ka
+  meetseng mme se se ne diphegwana le magapi ke dit\u0161hila go lena.\\n13-19Dinonyana
+  t\u0161e di latelago le se ke la di ja; ke dit\u0161hila go lena: manong, le dint\u0161hu,
+  le maaka ka mehuta ya ona, le dipekwa ka mehuta ya t\u0161ona, le magokobu ka mehuta
+  ya ona, le dimp\u0161he, le maribi\u0161i ka mehuta ya ona, le digot\u0161ane ka
+  mehuta ya t\u0161ona, le dikokolohute, le megole, le boma\u0161ianoke ka mehuta
+  ya bona, le dikukuku, le bomankgaganyane ka mehuta ya bona.\\n20Dikhunkhwane ka
+  moka t\u0161e di nago le diphego di t\u0161hilafet\u0161e, 21ntle le t\u0161eo di
+  nago le maotwana a di tabogatabogago ka ona. 22Le ka ja t\u0161ie ya segongwane
+  ka mehuta ya yona, le ditatakgope ka mehuta ya t\u0161ona, le mehloro ka mehuta
+  ya yona, le ditlhakwanapitsi ka mehuta ya t\u0161ona. 23Eup\u0161a dilo t\u0161e
+  dingwe t\u0161e nnyane t\u0161e di nago le diphego gape di nago le maotwana a mane
+  di swanet\u0161e go t\u0161ewa gore ke dit\u0161hila go lena.\\n24-28Yo a ka kgwathago
+  ditoto t\u0161a diphoofolo t\u0161e di latelago o tla t\u0161hilafala go fihlela
+  mant\u0161iboa: diphoofolo ka moka t\u0161a ditlhako, ge e se ge ditlhako t\u0161a
+  t\u0161ona e le mapharo gomme di otla, le diphoofolo ka moka t\u0161a maoto a mane
+  t\u0161a borofa. Yo a ka rwalago ditoto t\u0161a t\u0161ona o swanet\u0161e go hlatswa
+  diaparo t\u0161a gagwe, eup\u0161a o tla fela a sa t\u0161hilafet\u0161e go fihlela
+  mant\u0161iboa.\\n29-30Dirunya le magotlo le mahohomedi le mekgaritswane ye mengwe
+  le maobu di swanet\u0161e go t\u0161ewa gore di t\u0161hilafet\u0161e. 31Yo a ka
+  di kgwathago di hwile o tla t\u0161hilafala go fihlela mant\u0161iboa. 32Gomme ge
+  di ka wela godimo ga selo se sengwe di hwile, se tla t\u0161hilafala, e ka ba se
+  se dirilwego ka kota goba le\u0161ela goba mokgopa goba lesaka, go sa kgathalege
+  gore se \u0161omi\u0161wa go dira eng. Selo seo se inwe meetseng, eup\u0161a se
+  tla no ba se t\u0161hilafet\u0161e go fihlela mant\u0161iboa. 33Gomme ge ditoto
+  t\u0161a t\u0161ona di ka wela ka pit\u0161eng ya letsopa, se sengwe le se sengwe
+  se se lego ka go yona se tla t\u0161hilafala, gomme pit\u0161a yeo le e p\u0161hatle.
+  34Dijo t\u0161e di loket\u0161ego go lewa, ge di ka t\u0161helwa ka meetse a a t\u0161wago
+  ka pit\u0161eng yeo, di tla t\u0161hilafala, le seno sefe le sefe se se lego ka
+  pit\u0161eng yeo se t\u0161hilafet\u0161e. 35Selo sefe le sefe se se ka welwago
+  ke ditoto t\u0161a dilo t\u0161eo se t\u0161hilafet\u0161e; ge e ka ba onto goba
+  setofo sa letsopa se p\u0161hatlwe; 36ge e le mothopo goba molete wa meetse wona
+  ga o t\u0161hilafale, go t\u0161hilafala se se ka kgwathago ditoto t\u0161a t\u0161ona
+  t\u0161e di wet\u0161ego ka go wona. 37Ge setoto sa t\u0161ona se ka wela godimo
+  ga peu ye e yago go bjalwa, peu yeo e ka se t\u0161hilafale. 38Eup\u0161a ge peu
+  yeo e ka welwa ke setoto sa t\u0161ona e \u0161et\u0161e e innwe ka meetseng, gona
+  peu yeo e t\u0161hilafet\u0161e.\\n39Ge phoofolo ye e lewago e ka hwa, yo a ka e
+  kgwathago o tla t\u0161hilafala go fihlela mant\u0161iboa. 40Gomme yo a ka jago
+  nama ya yona, a hlatswe diaparo t\u0161a gagwe, fela o tla fela a sa t\u0161hilafet\u0161e
+  go fihlela mant\u0161iboa; yo a ka rwalago setoto seo o swanet\u0161e go hlatswa
+  diaparo t\u0161a gagwe, fela o tla fela a sa t\u0161hilafet\u0161e go fihlela mant\u0161iboa.\\n41Le
+  se ke la ja segagabi sefe le sefe, 42e ka ba se se sepelago ka mpa, goba ka maoto
+  a mane, goba ka maoto a mant\u0161i \u2013 t\u0161ohle di t\u0161hilafet\u0161e.
+  43Le se ke la it\u0161hilafat\u0161a ka go ja se sengwe sa t\u0161ona. 44\\nKe nna
+  Morena Modimo wa lena, gomme ineeleng go nna, mme le beng ba bakgethwa, ka gore
+  nna ke yo mokgethwa. 45Ke nna Morena yo ke le nt\u0161hit\u0161ego Egepeta gore
+  ke tle ke be Modimo wa lena. Le beng ba bakgethwa, ka gobane nna ke yo mokgethwa.\\n46Woo
+  ke wona molao mabapi le diphoofolo, le dinonyana, le diphedi t\u0161ohle t\u0161a
+  ka meetseng, le digagabi t\u0161ohle. 47Molao wo ke wa gore le kgethologanye se
+  se hlwekilego le se se sego sa hlweka, diphedi t\u0161e di ka lewago le t\u0161eo
+  di sego t\u0161a swanela go lewa.\\n121Morena o file Moshe melawana ye 2ya Baisraele.
+  Ge mosadi a ka belega ngwana wa mo\u0161emane, o t\u0161hilafala mat\u0161at\u0161i
+  a a \u0161upago, go no swana le ge a t\u0161hilafala ge a bone kgwedi. 3\\nKa let\u0161at\u0161i
+  la seswai ngwana yoo a bolot\u0161we. 4Go tla feta mat\u0161at\u0161i a mangwe a
+  masome a mararo le met\u0161o ye meraro gore mmagwe a hlweke ka ge a t\u0161wele
+  madi; a se ke a kgwatha selo se sekgethwa goba a tsena ka Tenteng ye kgethwa go
+  fihlela ge nako ya gagwe ya go hlweki\u0161wa e fetile.\\n5Ge mosadi a ka belega
+  ngwana wa mosetsana, o t\u0161hilafala mat\u0161at\u0161i a lesome le a mane, go
+  no swana le ge a t\u0161hilafala ge a bone kgwedi. Go tla feta mat\u0161at\u0161i
+  a mangwe a masome a a selelago le met\u0161o ye e selelago gore a hlweke ka ge a
+  t\u0161wele madi.\\n6Ge mosadi a belege ngwana wa mo\u0161emane goba wa mosetsana
+  mme nako ya go hlweki\u0161wa ga gagwe e fetile, a tli\u0161e kwanyana ya ngwaga
+  o tee go moprista mojakong wa Tente ya bodulo bja Morena e le sehlabelo sa go t\u0161hungwa
+  ka moka; a tli\u0161e le leeba goba mokuru e le sehlabelo sa tshwarelo ya dibe.
+  7Moprista a direle Morena sehlabelo seo sa mosadi yoo mme a mmoelanye le yena; ke
+  moo a tlago ba a hlweki\u0161it\u0161we ka ge a be a t\u0161wele madi. 8Seo ke se
+  mosadi a swanet\u0161ego go se dira ge a seno belega.\\n9\\nGe mosadi a se ne kwanyana,
+  a tli\u0161e mekuru ye mebedi goba maeba a mabedi, le lengwe e be la sehlabelo sa
+  go t\u0161hungwa ka moka, mme le lengwe e be la sehlabelo sa tshwarelo ya dibe,
+  gomme moprista a mmoelanye le Morena, mme o tla hlweka.\\n131Morena o file Moshe
+  le Arone melawana ye e latelago. 2Ge motho a na le serurugi letlalong goba mogarogo
+  goba setswata, gomme selo seo sa keka ya ba bolwet\u0161i bja letlalo bja go mo
+  t\u0161hilafat\u0161a, a tli\u0161we go moprista Arone, goba go yo mongwe wa baprista
+  ba Baarone. 3Moprista a lekodi\u0161i\u0161e se\u0161o seo, gomme ge mehlahla ye
+  e lego go sona e fetogile ye me\u0161weu mme se\u0161o nke se sobelet\u0161e letlalong,
+  ke bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a. Moprista a bege gore
+  o t\u0161hilafet\u0161e. 4Eup\u0161a ge se\u0161o e le se se\u0161weu gomme nke
+  ga se sa sobelela letlalong mme mehlahla le yona e se ya fetoga ye me\u0161weu,
+  moprista a beele motho yoo thoko mat\u0161at\u0161i a a \u0161upago. 5A mo hlahlobe
+  gape ka let\u0161at\u0161i la bo\u0161upa, gomme ge ka moo a bonago ka gona se\u0161o
+  seo se sa swana le pele mme se se sa keka, a beele motho yoo thoko mat\u0161at\u0161i
+  a mangwe a a \u0161upago. 6A mo hlahlobe gape ka let\u0161at\u0161i la bo\u0161upa,
+  mme ge se\u0161o seo se timelela gomme se sa keke, a bege gore o hlwekile; e be
+  e le se\u0161o fela. Motho yoo a hlatswe diaparo t\u0161a gagwe, mme e tla ba yo
+  a hlwekilego. 7Eup\u0161a ge se\u0161o se ka keka ka morago ga ge moprista a mo
+  hlahlobile mme a it\u0161e o hlwekile, o swanet\u0161e go tla go moprista gape.
+  8Moprista a mo hlahlobe gape, gomme ge se\u0161o se kekile, moprista a bege gore
+  o t\u0161hilafet\u0161e; ke bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a.\\n9Ge
+  motho a na le bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a, a tli\u0161we
+  go moprista, 10mme yena a mo hlahlobe. Ge go na le serurugi se se\u0161weu letlalong
+  la gagwe seo se feto\u0161ago mehlahla gore e be ye me\u0161weu mme se bulegile,
+  11ke bolwet\u0161i bja go se fole bja letlalo bja go mo t\u0161hilafat\u0161a. Moprista
+  a re o t\u0161hilafet\u0161e, mme a se hlwe a re o mmeela thoko, ka gobane go a
+  bonagala gore o t\u0161hilafet\u0161e. 12Ge bolwet\u0161i bjoo bja letlalo bo ka
+  phatlalala bja aparela motho yoo go tloga hlogong go fihla leotong, 13moprista a
+  mo hlahlobe gape. Ge a ka hwet\u0161a gore gabotsebotse bo aparet\u0161e mmele ka
+  moka, a bege gore motho yoo o hlwekile. Ge letlalo la gagwe ka moka le fetogile
+  le le\u0161weu, o hlwekile.13:13 \u201cbo aparet\u0161e mmele ... o hlwekile.\u201d
+  Ge di\u0161o di ikadile le letlalo ke go re molwet\u0161i o a fola. 14Fela go tloga
+  ka nako ye se\u0161o se se phulegilego se bonala, o t\u0161hilafet\u0161e. 15Moprista
+  a mo hlahlobe gape, gomme ge a ka hwet\u0161a se\u0161o se se phulegilego, a re
+  motho yoo o t\u0161hilafet\u0161e. Se\u0161o seo se phulegilego se \u0161upa bolwet\u0161i
+  bja letlalo bja go mo t\u0161hilafat\u0161a, gomme motho yoo o t\u0161hilafet\u0161e.
+  16Eup\u0161a ge se\u0161o seo se fola mme se eba se se\u0161weu gape, motho yoo
+  a ye go moprista, 17mme yena a mo hlahlobe gape. Ge se\u0161o seo se fetogile se
+  se\u0161weu, o hlwekile, gomme moprista a re o hlwekile.\\n18Ge motho a be a t\u0161wile
+  sekaku mme sa fola, 19gomme ka morago gwa bonala serurugi se se\u0161weu goba setswata
+  sa bo\u0161weu bja bohubedu moo go bego go le sekaku, a ye go moprista. 20Moprista
+  a mo hlahlobe, gomme ge felo fao go bonala go sobelet\u0161e letlalong mme mehlahla
+  ya moo e fetogile ye me\u0161weu, moprista a re motho yoo o t\u0161hilafet\u0161e.
+  Ke bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a bjo bo thomilego ka
+  sekakung. 21Eup\u0161a ge moprista a ka hlahloba felo fao, gomme a hwet\u0161a gore
+  mehlahla ya moo ga se ya fetoga ye me\u0161weu, le gore felo fao ga se gwa sobelela
+  letlalong, fela go galogile, moprista a beele motho yoo thoko mat\u0161at\u0161i
+  a a \u0161upago. 22Ge go ka keka, moprista a re motho yoo o t\u0161hilafet\u0161e;
+  o swerwe ke bolwet\u0161i. 23Eup\u0161a ge sekaku se ka ema felo gotee mme sa se
+  ke sa keka, ke fela lebadi la sekaku sela, gomme moprista a re motho yoo o hlwekile.\\n24Mabapi
+  le motho yo a swelego, ge ntho yeo e eba ye t\u0161hweu goba ya bo\u0161weu bja
+  bohubedu, 25moprista a mo hlahlobe. Ge mehlahla ya setswata e fetogile ye me\u0161weu
+  mme se sobelet\u0161e letlalong, ke bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a
+  bjo bo thomilego nthong ya mollo, gomme moprista a re motho yoo o t\u0161hilafet\u0161e.
+  26Eup\u0161a ge mehlahla ya setswata e se ya fetoga ye me\u0161weu mme felo fao
+  go se gwa sobelela letlalong, fela go galogile, moprista a mmeele thoko mat\u0161at\u0161i
+  a a \u0161upago. 27Moprista a mo hlahlobe gape ka let\u0161at\u0161i la bo\u0161upa,
+  gomme ge go keka, ke bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a,
+  mme moprista a re motho yoo o t\u0161hilafet\u0161e. 28Eup\u0161a ge setswata se
+  ka ema felo gotee mme sa se keke, sa galoga, ke go t\u0161wa ga mollo fela. Moprista
+  a re motho yoo o hlwekile, ka gobane ke fela leswao la go swa mola.\\n29Ge monna
+  goba mosadi a t\u0161wile se\u0161o hlogong goba seledung, 30moprista a se hlahlobe.
+  Ge e ka ba se sobelet\u0161e letlalong mme meriri ya moo go sona ke ye mesehla ye
+  mesesenyane, ke bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a, gomme
+  moprista a re motho yoo o t\u0161hilafet\u0161e. 31Ge eba ge moprista a mo hlahloba,
+  se\u0161o seo ga se bonale se sobelet\u0161e letlalong, le ge go le bjalo go se
+  na meriri ye meso go sona, moprista a mmeele thoko mat\u0161at\u0161i a a \u0161upago.
+  32Moprista a se hlahlobe gape ka let\u0161at\u0161i la bo\u0161upa, gomme ge se
+  sa ka sa keka, go se na meriri ye mesehla go sona mme se sa bonale se sobelet\u0161e
+  letlalong, 33motho yoo a kote tikologo ya se\u0161o seo. Moprista a mmeele thoko
+  mat\u0161at\u0161i a mangwe a a \u0161upago. 34Ka let\u0161at\u0161i la bo\u0161upa
+  moprista a se hlahlobe gape, gomme ge se se sa keka mme se sa bonale se sobelet\u0161e
+  letlalong, a re motho yoo o hlwekile. Motho yoo a hlatswe diaparo t\u0161a gagwe,
+  mme o tla be a hlwekile. 35Eup\u0161a ge se\u0161o seo se ka keka ka morago ga ge
+  moprista a it\u0161e o hlwekile, 36a mo hlahlobe gape. Ge se kekile, moprista a
+  se hlwe a re o nyaka meriri ye mesehla; go molaleng gore motho yoo o t\u0161hilafet\u0161e.
+  37Eup\u0161a ge go ya ka mo moprista a bonago ka gona se\u0161o se sa ka sa keka
+  gomme go sona go met\u0161e meriri ye meso, se\u0161o seo se a timelela, gomme moprista
+  a re motho yoo o hlwekile.\\n38Ge monna goba mosadi a ka t\u0161wa ditswata t\u0161e
+  t\u0161hweu letlalong, 39moprista a hlahlobe motho yoo. Ge ditswata t\u0161eo e
+  le t\u0161e tshehla, e no ba fela dibabo t\u0161e di t\u0161welego letlalong; motho
+  yoo o hlwekile.\\n40-41Ge motho a hlobega meriri hlogong ka sephothong goba ka thoko
+  ya phatla, e no ba lefatla fela; seo ga se mo t\u0161hilafat\u0161e. 42Eup\u0161a
+  ge se\u0161o sa bo\u0161weu bja bohubedu se ka t\u0161wa moo lefatleng, ke bolwet\u0161i
+  bja letlalo bja go mo t\u0161hilafat\u0161a. 43Moprista a mo hlahlobe, gomme ge
+  go na le serurugi sa bo\u0161weu bja bohubedu sa go swana le sa bolwet\u0161i bja
+  letlalo bja go mo t\u0161hilafat\u0161a, 44moprista a re o t\u0161hilafet\u0161e,
+  ka lebaka la bolwet\u0161i bjoo bo lego hlogong ya gagwe.\\n45Motho yo a nago le
+  bolwet\u0161i bja letlalo bja go mo t\u0161hilafat\u0161a, a apare diaparo t\u0161a
+  mankgeretla, a tlogele moriri e le mahlafarara, a ipipe go tloga molomong go ya
+  seledung, gomme a goelele a re: \u201cKe t\u0161hilafet\u0161e! Ke t\u0161hilafet\u0161e!\u201d
+  46Ge a sa swerwe ke bolwet\u0161i bjoo e tla no ba yo a t\u0161hilafat\u0161ego,
+  gomme o swanet\u0161e go dula ka ntle ga me\u0161a\u0161a, kgole le batho.\\n47Ge
+  go na le mouta13:47 \u201cmouta\u201d Lent\u0161u la Seheberu la \u201cbolwet\u0161i
+  bja letlalo bja go t\u0161hilafat\u0161a\u201d le \u201cmouta\u201d ke le tee. seaparong,
+  e ka ba sa wulu goba sa leokodi, 48goba le\u0161eleng la go logwa ka leokodi goba
+  ka wulu, goba mokgopeng goba selong se se dirilwego ka mokgopa, 49e le se se talanyana
+  goba se se hubet\u0161wana, ke mouta wa go t\u0161hilafat\u0161a gomme o swanet\u0161e
+  go laet\u0161wa moprista. 50Moprista a hlahlobe selo seo, gomme a se beele thoko
+  mat\u0161at\u0161i a a \u0161upago. 51A se hlahlobe gape ka let\u0161at\u0161i la
+  bo\u0161upa, mme ge mouta woo o kekile, selo seo se t\u0161hilafet\u0161e. 52Moprista
+  a se t\u0161hume, ka gobane ke mouta wa go t\u0161hilafat\u0161a wo o swanet\u0161ego
+  go fedi\u0161wa ka mollo.\\n53Eup\u0161a ge moprista a ka re a se hlahloba a hwet\u0161a
+  mouta wola o se wa keka moo seaparong goba selong seo, 54a laele gore se hlatswiwe
+  gomme se beelwe thoko mat\u0161at\u0161i a mangwe a a \u0161upago. 55Ka morago ga
+  moo a se hlahlobe gape, gomme ge mouta o se wa fetoga mmala, le ge o se wa keka,
+  se sa t\u0161hilafet\u0161e; a se t\u0161hume, le ge se llwe ka ntle goba ka gare.
+  56Eup\u0161a ge e ka re ge moprista a se hlahloba gape a hwet\u0161a mouta o tlogile,
+  a gagole seripana sa seaparo goba sa selo mo go nago le mouta. 57Ka morago, ge mouta
+  wola o ka bonala la bobedi mme wa keka gape, mong wa selo seo a se t\u0161hume.
+  58Ge a ka hlatswa selo seo mme mouta wa timelela, a se hlatswe gape, gomme e tla
+  ba se se hlwekilego.\\n59Wo ke wona molao mabapi le mouta seaparong, e ka ba sa
+  wulu goba sa leokodi, goba sa le\u0161ela la go logwa ka leokodi goba ka wulu, goba
+  selong se se dirilwego ka mokgopa.\"", "\"11-2\\nKgo\u0161i Zerksese o be a bu\u0161a
+  dilete t\u0161e 127, go tloga India go ba go yo fihla Etopia, a le setulong sa gagwe
+  sa bogo\u0161i kua Susa, motsemo\u0161ate.\\n3Ka ngwaga wa boraro wa pu\u0161o ya
+  gagwe a direla babu\u0161i\u0161i ba gagwe ka moka le bahlanka monyanya. Madira
+  a Persia le a Media a be a le gona, gotee le bakgomana le bahlankedi ba dilete t\u0161a
+  gagwe. 4A ba bont\u0161ha mahumo a kgoro ya mo\u0161ate gotee le botse bja yona
+  le bogolo bja bogo\u0161i bja gagwe mat\u0161at\u0161i a mant\u0161i, e lego a lekgolo
+  le masome a seswai.\\n5Ka morago ga moo a direla banna ka moka, bahumi le badiidi,
+  ba motsemo\u0161ate Susa monyanya. Wona wa t\u0161ea mat\u0161at\u0161i a a \u0161upago
+  o swaret\u0161we lebaleng le le lego ka serapeng sa mo\u0161ate. 6Kgoro ya gona
+  e be e kgabi\u0161it\u0161we ka digaretene t\u0161a le\u0161ela la mmala wo mo\u0161weu
+  le wo serolane t\u0161e di kgokelet\u0161wego mefsiring ya silibera mo dikokwaneng
+  t\u0161a magakabje ka dithapo t\u0161a le\u0161ela le boletiana la bohwibidu bja
+  moretele. Ditulo t\u0161a gauta le silibera di be di beilwe lebaleng leo lebato
+  la lona le bego le batet\u0161we ka magakabje, maswikana a mahwibidu, perela le
+  thekoise. 7Dino di be di tli\u0161wa ka dinwelo t\u0161e di sa swanego t\u0161a
+  gauta, gomme beine ya mo\u0161ate e le ye nt\u0161i. 8Motho o be a sa lekanyet\u0161we
+  dino; kgo\u0161i o be a laet\u0161e bahlanka ba mo\u0161ate gore yo mongwe le yo
+  mongwe a nwe ka mo a ratago ka gona.1:8 \u201cMotho o be a sa lekanyet\u0161we ...
+  ratago ka gona.\u201d goba \u201cEup\u0161a go be go se motho yo a gapelet\u0161wago
+  go nwa; kgo\u0161i o be a laet\u0161e bahlanka ba mo\u0161ate gore yo mongwe le
+  yo mongwe a nwe kudu goba gannyana ka moo a ratago ka gona.\u201d\\n9Ka kua lapeng
+  la mo\u0161ate Mohumagadi Bashti le yena o be a diret\u0161e basadi monyanya.\\n10Ka
+  let\u0161at\u0161i la bo\u0161upa la monyanya, ge kgo\u0161i a ikhoret\u0161e dino,
+  a bit\u0161a banna ba ba \u0161upago ba ba amogilwego bonna ba e bego e le bahlanka
+  ba gagwe ba bagolo, Mehumane, Biseta, Harbona, Bigta, Abagtha, Setare le Karkase.
+  11A ba laela gore ba tli\u0161e Mohumagadi Bashti a rwele mphapahlogo wa gagwe wa
+  bogo\u0161i. Gape mohumagadi yoo e be e le mosadi yo mobotse, gomme kgo\u0161i a
+  nyaka go kgant\u0161het\u0161a bakgomana le baeng ba gagwe ka moka botse bja gagwe.
+  12Eup\u0161a ya re ge bahlanka bao ba bot\u0161a Mohumagadi Bashti se kgo\u0161i
+  a se laet\u0161ego, yena a gana go tla. Gomme seo sa befedi\u0161a kgo\u0161i kudu.\\n13Kgo\u0161i
+  o be a tlwaet\u0161e go kgopela kelet\u0161o ye e nepaget\u0161ego mabapi le ditaba
+  t\u0161a molao le toka; ka gona a bit\u0161a baelet\u0161i ba gagwe bao ba bego
+  ba tseba ditaba. 14Ba a bego a ati\u0161a go kgopela kelet\u0161o go bona e be e
+  le Karshena, Shetare, Admatha, Tarshishe, Merese, Marsena le Memugane, bona bakgomana
+  ba ba \u0161upago ba Persia le Media ba e bego e le ba maemo a godimo mmu\u0161ong.
+  15A re go banna bao: \u201cNna, Kgo\u0161i Zerksese, ke romile bahlanka ba ka go
+  Mohumagadi Bashti gore ba yo mmot\u0161a taelo ya ka, fela yena o ganne go e phetha!
+  Ka molao re dira eng ka yena?\u201d\\n16Ke moo Memugane a beget\u0161ego kgo\u0161i
+  le bakgomana ba gagwe a re: \u201cMohumagadi Bashti ga se a pho\u0161et\u0161a kgo\u0161i
+  fela, o pho\u0161edit\u0161e le bakgomana ba gagwe \u2013 gabotsebotse o pho\u0161edit\u0161e
+  banna bohle mmu\u0161ong wohle wa kgo\u0161i. 17Mosadi yo mongwe le yo mongwe o
+  tla thoma go nyat\u0161a monna wa gagwe ge a ekwa se mohumagadi a se dirilego. Ba
+  tla re: \u2018Kgo\u0161i Zerksese o laet\u0161e Mohumagadi Bashti gore a tle go
+  yena, gomme yena a gana.\u2019 18Ge basadi ba bakgomana ba mo\u0161ate wa Persia
+  le Media ba ekwa se mohumagadi a se dirilego, ba tla bot\u0161a banna ba bona taba
+  ye pele ga ge le t\u0161at\u0161i le dikela. Basadi mo gohle ba ka se sa hlompha
+  banna ba bona, mme banna ba tla ba galefela. 19Ge kgo\u0161i a dumela, a a bee molao
+  wo o rego Bashti a se sa tsoga a tlile pele ga kgo\u0161i. A a laele gore molawana
+  woo o ngwalwe melaong ya Persia le Media gore o se ke wa tsoga o feto\u0161it\u0161we.
+  Gomme madulo a gagwe a bogo\u0161i a a fe mosadi yo mongwe yo a mo phalago. 20Ge
+  molao wo wa kgo\u0161i o begwa gohle mmu\u0161ong wo mogolo wo, mosadi yo mongwe
+  le yo mongwe o tla hlompha monna wa gagwe ka tshwanelo, le ge monna yoo e le mohumi
+  goba modiidi.\u201d\\n21Kgo\u0161i le bakgomana ba gagwe ba ile ba kgahlwa ke kelet\u0161o
+  yeo, gomme kgo\u0161i a dira se Memugane a se bolet\u0161ego. 22A romela mangwalo
+  seleteng se sengwe le se sengwe sa kgo\u0161i ka mmolelo le mongwalelo wa sona,
+  a a rego1:22 \u201ca a rego\u201d goba \u201cgore\u201d monna yo mongwe le yo mongwe
+  a laole lapa la gagwe, gomme se a se bolelago se phethwe.\\n21Ka morago, le mola
+  kgalefo ya kgo\u0161i e \u0161et\u0161e e okobet\u0161e, yena o ile a no fela a
+  gopola se Bashti a kilego a se dira le se a ilego a se bega ka ga yena. 2Ka gona
+  bahlanka ba bangwe ba kgo\u0161i ba bagolo ba re: \u201cKe eng o sa nt\u0161he lesolo
+  wa tsoma dikgarebe t\u0161e botsana? 3O ka bea batseta seleteng se sengwe le se
+  sengwe sa mmu\u0161o wa gago gore ba tli\u0161e dikgarebjana t\u0161e botsana ngwakong
+  wa basadi mo Susa, motsemo\u0161ate. O ba fe Hegai, moamogwabonna yo a hlokomet\u0161ego
+  basadi ba gago, gore a ba \u0161et\u0161e, gomme ba fiwe ditlolo t\u0161a go ithakga.
+  4O t\u0161ee ngwanenyana yo o mo ratago kudu o mo dire mohumagadi legatong la Bashti.\u201d\\nKgo\u0161i
+  a bona kelet\u0161o yeo e lokile, gomme a e amogela.\\n5Gona moo Susa go be go dula
+  Mojuda yo mongwe yo a bego a bit\u0161wa Mordekai, morwa wa Jaire; yena e be e le
+  wa kgoro ya Benjamene, gomme borakgolokhukhu ba gagwe ba bangwe e le Kishe le Shimi.
+  6\\nMola Kgo\u0161i Nebukadnesare wa Babilone a thopa Joyakine wa Juda, kgo\u0161i
+  ya Jerusalema, gotee le sehlopha sa mathop\u0161a, Mordekai le yena o be a le gare
+  ga mathop\u0161a ao. 7O ile a t\u0161ea Estere, morwedi wa rangwaneagwe, a mo godi\u0161a
+  bjalo ka ngwana wa gagwe ge batswadi ba gagwe ba hlokafet\u0161e. Leina la gagwe
+  la Seheberu e be e le Hadasa. E be e le mosetsana yo mobotse wa go bopega.\\n8Ge
+  kgo\u0161i a seno bea molao wo mofsa banenyana ba bant\u0161i ba tli\u0161wa Susa,
+  Estere o be a le gare ga bona. Le yena a tli\u0161wa mo\u0161ate gomme a hlokomelwa
+  ke Hegai yo a bego a hlokomet\u0161e ngwako wa basadi. 9Hegai a rata Estere ka gore
+  o be a mo kgahla. Ka ntle le go senya sebaka, a mo fa ditlolo t\u0161a go thakga
+  letlalo, gotee le dijo t\u0161e di swanet\u0161ego. A mo nea madulo a mabotsebotse
+  moo ngwakong wa basadi, gomme a kgetha dikgarebe t\u0161e di \u0161upago moo mo\u0161ate
+  gore di mo hlankele.\\n10Go ya ka kelet\u0161o ya Mordekai, Estere o be a utile
+  gore ke yena Mojuda. 11T\u0161at\u0161i le lengwe le le lengwe Mordekai o be a fela
+  a itshepet\u0161atshepet\u0161a pele ga kgoro ngwakong wa basadi, gore a bone gore
+  Estere o phela bjang, le gore go tla direga eng ka yena.\\n12Basadi ba ile ba t\u0161ea
+  ngwaga ba ithakga ka ditlolo \u2013 dikgwedi t\u0161e di selelago t\u0161a mathomo
+  ba be ba tlola ka makhura a mira, gomme t\u0161e dingwe t\u0161e selelago ba tlola
+  ka balsamo le ditlolo t\u0161e dingwe. Ka morago ga moo banenyana ba i\u0161wa go
+  Kgo\u0161i Zerksese ka o tee ka o tee. 13Ge ngwanenyana a et\u0161wa ka ngwakong
+  wa basadi a eya go kgo\u0161i, o be a dumelet\u0161we go apara se a se ratago. 14O
+  be a eya mant\u0161iboa, gomme mosong a i\u0161we ngwakong wo mongwe wa basadi,
+  a hlokomet\u0161we ke Shaashegase, moamogwabonna yo a bego a hlokomela metlabo ya
+  kgo\u0161i. O be a sa boelele go kgo\u0161i, ge e se ge a kgahlile kgo\u0161i moo
+  e kago mmit\u0161a ka leina.\\n15Nako ya gore Estere a ye go kgo\u0161i ya fihla.
+  Estere yo e be e le morwedi wa Abihaile, rangwane wa Mordekai yo a mo godi\u0161it\u0161ego
+  bjalo ka morwedi wa gagwe. Yena o be a kgahla batho ka moka ba ba mmonago. Ge nako
+  ya gore a ye e fihla, o ile a apara t\u0161ona t\u0161ela Hegai, moamogwabonna yo
+  a bego a hlokomet\u0161e ngwako wa basadi, a mmodit\u0161ego gore a di apare. 16E
+  be e le ka ngwaga wa bo\u0161upa ge Zerksese e le kgo\u0161i, ka kgwedi ya lesome
+  ya Tebete, ge Estere a tli\u0161wa go kgo\u0161i mo\u0161ate. 17Kgo\u0161i a mo
+  rata go feta basadi ba gagwe ka moka; gomme a mo kganyoga, a ba a kgahlwa ke yena
+  go feta banenyana bale ba bangwe bohle. A mo rwe\u0161a mphapahlogo wa bogo\u0161i
+  gomme a mmea mohumagadi legatong la Bashti. 18Ka morago kgo\u0161i a direla Estere
+  monyanya wo mogolo, gomme a lalet\u0161a bakgomana le bahlanka ba gagwe. A bega
+  gore let\u0161at\u0161i leo ke let\u0161at\u0161i la boikhut\u0161o2:18 \u201cke
+  let\u0161at\u0161i la boikhut\u0161o\u201d goba \u201cga go t\u0161helwe\u201d mmu\u0161ong
+  wa gagwe ka moka, gomme a abela batho dimpho t\u0161a sego\u0161i.\\n19Ka nako yeo
+  kgo\u0161i o be a \u0161et\u0161e a beile Mordekai molaodi wa mo\u0161ate. 20Estere
+  yena o be a se\u0161o a utolla gore ke yena Mojuda. Mordekai o be a mo laile gore
+  a se bot\u0161e motho, gomme yena a mo theelet\u0161a bjalo ka ge a be a mo theelet\u0161a
+  go tloga bjaneng mola a sa mo godi\u0161a.\\n21Nakong ya ge Mordekai e le molaodi
+  wa mo\u0161ate, Bigtana le Tereshe, baamogwabonna ba babedi ba mo\u0161ate ba ba
+  bego ba hlapet\u0161a mejako ya go tsena ka diphapo\u0161ing t\u0161a kgo\u0161i,
+  ba thoma go hloya Kgo\u0161i Zerksese gomme ba loga maano a go mmolaya. 22Mordekai
+  a kwa taba ye gomme yena a e bot\u0161a Mohumagadi Estere, yo a ilego a bot\u0161a
+  kgo\u0161i se Mordekai a se kwelego. 23Go ile gwa nyaki\u0161i\u0161wa gomme gwa
+  hwet\u0161wa gore taba yeo ke there\u0161o, ka gona banna bao ba babedi ba fegwa
+  koteng. Kgo\u0161i a laela gore taba yeo e ngwalwe ka pukung ya ditaba t\u0161a
+  mmu\u0161o wa gagwe.\"", "\"Beibele Inthaneteng\\nPHETOLELO YA LEFASE LE LEFSA YA
+  MANGWALO A MAKGETHWA\\n23 Molaet\u0161a o matla malebana le Tiro \u0161o:+ Gololang,
+  lena dikepe t\u0161a Tarashishi,+ ka gobane e sent\u0161we gomme ga e sa le boemakepe,
+  ga e sa le lefelo leo go ka tsenwago go lona.+ Seo ba se utollet\u0161we ba le nageng
+  ya Khithima.+\\n2 Homolang, lena badudi ba naga e bapilego le lebopo. Bareki\u0161i
+  bao ba t\u0161wago Sidone,+ bao ba tshelago lewatle, ba le humi\u0161it\u0161e.\\n3
+  Peu ya Shihoro+ le puno ya Nile ke mot\u0161helo wa Tiro gomme di be di sepedi\u0161wa
+  ka dikepe; e ile ya ba kgwebo ya dit\u0161haba.+\\n4 Wena Sidone,+ sebo sa lewatle,
+  hlabja ke dihlong; ka gobane lewatle le it\u0161e: \u201cGa se ka ka ka \u0161okwa,
+  e bile ga se ka belega goba go godi\u0161a masogana le ge e le dikgarebe.\u201d+\\n5
+  Go et\u0161a ge batho ba ile ba kwa bohloko ka pego yeo e bego e le mabapi le Egipita,+
+  ka mo go swanago ba tla kwa bohloko kudu ge ba ekwa pego mabapi le Tiro.+\\n6 Tshelelang
+  Tarashishi; gololang lena badudi ba naga e bapilego le lebopo.\\n7 Na wo ke motse
+  wa lena wo kgale o bego o hlalala, go tloga mehleng ya wona ya bogologolo? Maoto
+  a wona a be a o rwala a o i\u0161a kgole go yo dula e le modiiledi.\\n8 Ke mang
+  yo a rerilego+ se ka Tiro, yena morwe\u0161i wa mefapahlogo, yoo bareki\u0161i ba
+  gagwe e bego e le dikgo\u0161ana gomme bagwebi ba gagwe e le bahlomphegi ba lefase?+\\n9
+  Jehofa wa madira ke yena a rerilego+ se, gore a gobo\u0161e boikgant\u0161ho bja
+  gagwe le botse+ bja gagwe ka moka le go nyat\u0161a bahlomphegi bohle ba lefase.+\\n10
+  Ikale nageng ya geno go et\u0161a Noka ya Nile, wena morwedi wa Tarashishi.+ Ga
+  go sa na boemakepe.+\\n11 O otlollet\u0161e seatla sa gagwe godimo ga lewatle; o
+  ferekant\u0161e mebu\u0161o.+ Jehofa o nt\u0161hit\u0161e taelo malebana le Fenikia
+  gore dibo t\u0161a yona di fedi\u0161we.+\\n12 A re: \u201cWena mogatelelwa, kgarebe
+  yeo e lego morwedi wa Sidone,+ o ka se sa hlwa o hlalala.+ Ema, o tshelele Khithima.+
+  Le gona moo o ka se khut\u0161e.\u201d\\n13 Bonang! Ye ke naga ya Bakaladea.+ Ke
+  bona set\u0161haba se se dirilego gore Tiro e be bodulo bja diphoofolo,+ ga se Baasiria+
+  ba e dirilego seo. Ba agile dibo t\u0161a bona;+ ba phu\u0161ot\u0161e dintlo t\u0161a
+  bona t\u0161a dibo;+ ba e fetot\u0161e ma\u0161ope a kgeregago.+\\n14 Gololang,
+  lena dikepe t\u0161a Tarashishi, gobane sebo sa lena se sent\u0161we.+\\n15 Mohlang
+  woo Tiro e tla lebalwa ka nywaga e masome\u0161upa,+ nakong ya mat\u0161at\u0161i
+  a go phela a kgo\u0161i e tee. Bofelong bja nywaga e masome\u0161upa, Tiro e tla
+  et\u0161a mogweba-ka-mmele yo go opelwago ka yena go thwe:\\n16 \u201cWena mogweba-ka-mmele+
+  yo a lebet\u0161wego, t\u0161ea harepa o dikologe motse. Bont\u0161ha bothakga bja
+  gago ge o let\u0161a kwadi; opela diko\u0161a t\u0161e dint\u0161i e le gore o ka
+  gopolwa.\u201d\\n17 Bofelong bja nywaga e masome\u0161upa, Jehofa o tla \u0161et\u0161a
+  Tiro, yona e tla boela ya amogela meputso ya yona+ gomme ya gweba ka mmele le mebu\u0161o
+  ka moka ya lefase.+\\n18 Poelo le moputso t\u0161a yona+ e tla ba dilo t\u0161e
+  kgethwa go Jehofa. Di ka se bolokwe goba t\u0161a kgobelwa, ka gobane moputso wa
+  yona o tla newa bao ba dulago pele ga Jehofa+ gore ba je ba kgotsofale le go apara
+  gabotse.+\"", "\"Leina\\nNarrow-leaved Turpentine Grass\\nLeina la seLatini\\nCymbopogon
+  plurinodis\\nT\u0161homi\u0161o\\nKe bjang bjo fokolago ge go tliwa go t\u0161a
+  phulo ka lebaka la Dioli t\u0161a maleba t\u0161e di fago tatso ye bo\u0161ula.
+  E akaret\u0161a oli ya maleba ka ga di metswako ye 17, ka piperitol le delta-nerolidol
+  t\u0161a go ba t\u0161e tharo t\u0161a bohlokwa kudu.\\nTlhalo\u0161o\\nT\u0161hutla
+  ya dingwagangwaga le letlakalapepetla la dimilemetara t\u0161e 2 - 5. Hlogo ya mat\u0161oba
+  ke sehlopha sa mat\u0161oba sa maaka ya go fihla go meetlwa ya seswai ya go pariwa.
+  Bjang bjo bo Sesane bja Thapenthaene ke bjang bjo bo sa lewego ge ntle le ge bo
+  sa bo nnyane.\\nMafelo a bodulo\\nE a gola ka mafelong a bjang a go bulega goba
+  ka dipat\u0161ong t\u0161a naga ya go bulega ka ma\u0161okeng a dilete. Bo gola
+  ka mehuteng ka moka ya mabu, eup\u0161a bo rata mabung a moo e ka dirang gore go
+  bu\u0161e bona. Bo phatlaladit\u0161we ka Aforika ka bophara.\\nGo thunya\\nDiphalane
+  - Mopitlo\"", "\"Ge nako e dut\u0161e e eya, Baisiraele ba ile ba lahla Modimo gape
+  gomme ba rapela medimo ya maaka. Bamidiane ba ile ba fet\u0161a mengwaga e \u0161upago
+  ba utswet\u0161a Baisiraele diruiwa e bile ba senya ma\u0161emo a bona. E le gore
+  ba t\u0161habele Bamidiane, Baisiraele ba be ba utama ka maweng le dithabeng. Ba
+  ile ba kgopela Jehofa gore a ba thu\u0161e. Ka gona Jehofa a romela morongwa go
+  monna yo a bit\u0161wago Gideone. Morongwa yoo o ile a fihla go Gideone a re: \u2018Jehofa
+  o go kgethile gore o be le\u0161ole leo le nago le matla.\u2019 Gideone a re: \u2018Ke
+  tla pholo\u0161a Baisiraele bjang? Ga ke na mohola.\u2019\\nGideone o be a tla tseba
+  bjang gore Jehofa o mo kgethile go pholo\u0161a Baisiraele? O ile a bea boya mobung
+  gomme a re go Jehofa: \u2018Ge boya bjo bo ka tsoga bo kolobile ka phoka gomme mobu
+  o omile, gona ke tla tseba gore o nkgethile gore ke pholo\u0161e Baisiraele.\u2019
+  Mesong e latelago, boya bjoo bo be bo kolobile eup\u0161a mobu o omile! Lega go
+  le bjalo, Gideone o ile a kgopela Jehofa gore mesong e latelago go kolobe mobu gomme
+  boya bjola bo se ke bja koloba. Ge seo se diregile, Gideone o ile a kgolwa gore
+  Jehofa o mo kgethile gore a pholo\u0161e Baisiraele. O ile a kgoboket\u0161a ma\u0161ole
+  a gagwe gore a yo lwa le Bamidiane.\\nJehofa o ile a re go Gideone: \u2018Ke tlo
+  le thu\u0161a go fenya Bamidiane. Eup\u0161a ka ge o na le ma\u0161ole a mant\u0161i,
+  le ka tla la nagana gore le fent\u0161e Bamidiane ka matla a lena. Bot\u0161a bao
+  ba t\u0161habago go ya ntweng gore ba ye gae.\u2019 Ka gona ma\u0161ole a 22 000
+  a ile a boela gae, gomme gwa \u0161ala a 10 000. Ke moka Jehofa a re go Gideone:
+  \u2018O sa na le ma\u0161ole a mant\u0161i kudu. Etla le wona nokeng gomme o a bot\u0161e
+  gore a nwe meetse nokeng yeo. Ke moka o ye ntweng feela le bao ba tlago go nwa meetse
+  ba emi\u0161it\u0161e dihlogo gore ba bone manaba a bona.\u2019 Ke banna ba 300
+  feela bao ba ilego ba nwa meetse ba emi\u0161it\u0161e dihlogo t\u0161a bona. Jehofa
+  o ile a tshepi\u0161a gore banna bao ba 300 ba be ba tla fenya ma\u0161ole a Bamidiane
+  a 135 000.\\nBo\u0161egong bjoo, Jehofa o ile a bolela le Gideone a re: \u2018Ye
+  ke nako ya gore o hlasele Bamidiane!\u2019 Gideone o ile a nea banna ba gagwe manaka
+  le dibjana t\u0161e dikgolo t\u0161eo ba bego ba utile dirumula ka gare ga t\u0161ona.
+  Ke moka a re go bona: \u2018Le lebeleleng nna, gomme le dire seo ke se dirago.\u2019
+  Gideone o ile a let\u0161a lenaka la gagwe, a p\u0161hatla sebjana sa gagwe, a emi\u0161et\u0161a
+  serumula godimo gomme a goelet\u0161a a re: \u201cT\u0161ho\u0161a ya Jehofa le
+  ya Gideone!\u201d Ma\u0161ole a gagwe ka moka a 300 le wona a dira bjalo. Bamidiane
+  ba ile ba t\u0161hoga kudu gomme ba t\u0161haba. Ka yona nako yeo, ba thoma go bolayana.
+  Le mo nakong ye, Jehofa o ile a thu\u0161a Baisiraele go fenya manaba a bona.\"",
+  "\"Kopelo 93 le Thapelo\\nMant\u0161u a go Bula (3 mets. goba ka tlase ga moo)\\nMAHUMO
+  AO A LEGO KA LENT\u0160UNG LA MODIMO\\n\u201cSeo re Ithutago Sona Thutong ya Jesu
+  ya Thabeng\u201d: (10 mets.)\\nMat 5:3\u2014Re a thaba ge re lemoga gore re nyaka
+  dilo t\u0161a moya (\u201cGo thaba,\u201d \u201cbao ba lemogago gore ba nyaka dilo
+  t\u0161a moya\u201d dintlha t\u0161a go ithuta t\u0161a Mat 5:3, nwtsty-E)\\nMat
+  5:7\u2014Re a thaba ge re gaugela ba bangwe le go ba kwela bohloko (\u201cbagaugedi\u201d
+  ntlha ya go ithuta ya Mat 5:7, nwtsty-E)\\nMat 5:9\u2014Re a thaba ge re dira khut\u0161o
+  le ba bangwe (\u201cbadirakhut\u0161o\u201d ntlha ya go ithuta ya Mat 5:9, nwtsty-E;
+  w07 12/1 17)\\nGo Epa Matlotlo a Moya: (8 mets.)\\nMat 4:9\u2014Sathane o ile a
+  leka Jesu ka go mo kgopela gore a dire\u2019ng? (\u201cnthapela\u201d ntlha ya go
+  ithuta ya Mat 4:9, nwtsty-E)\\nMat 4:23\u2014Ke dilo dife t\u0161e pedi t\u0161a
+  bohlokwa t\u0161eo Jesu a bego a swaregile ka t\u0161ona? (\u201cruta . . . bolela\u201d
+  ntlha ya go ithuta ya Mat 4:23, nwtsty-E)\\nMmalo wa Beibele wa beke ye o go rutile\u2019ng
+  ka Jehofa?\\nKe matlotlo afe a mangwe a moya ao o a hwedit\u0161ego mmalong wa Beibele
+  wa beke ye?\\nMmalo wa Beibele: (4 mets. goba ka tlase ga moo) Mat 5:31-48\\nDIRA
+  SOHLE BODIREDING\\nLeeto la Pele: (2 mets. goba ka tlase ga moo) Bona Dipoledi\u0161ano
+  t\u0161a Mohlala.\\nBidio ya Leeto la Pele la go Boela: (5 mets.) Bapala bidio yeo
+  gomme le boledi\u0161aneng ka yona.\\nPolelo: (6 mets. goba ka tlase ga moo) w16.03
+  31-32\u2014Sehlogo: Ge Sathane a be a Leka Jesu, na o Ile a mo I\u0161a Tempeleng
+  e le ka Kgonthe?\\nBOPHELO BJA BOKRISTE\\nKopelo 77\\nGo Thaba Bao ba Tlai\u0161edit\u0161wego
+  Toko: (9 mets.) Bapala bidio yeo e rego Ba Lapa la ga Namgung: Ba Goleget\u0161we
+  Tumelo ya Bona, gomme ka morago le boledi\u0161aneng ka seo le ithutilego sona.\\n\u201cO
+  ka Dira\u2019ng Gore o Thome Pele ka go Dira Khut\u0161o le Ngwaneno?\u201d: (6
+  mets.) Poledi\u0161ano. Boledi\u0161anang ka taba ya gore ke ka baka la\u2019ng
+  ka mapokisaneng ka bobedi kgetho ya mafelelo e le yona feela e nepaget\u0161ego.\\nThuto
+  ya Beibele ya Phuthego: (30 mets.) jy kgao. 3\\nKa Morago ga Kakaret\u0161o ya Seboka,
+  Bolela Seo re Tlago go Ithuta Sona Bekeng e Latelago (3 mets.)\\nKopelo 130 le Thapelo\"",
+  "\"Kopelo 50 le Thapelo\\nMant\u0161u a go Bula (3 mets. goba ka tlase ga moo)\\nMAHUMO
+  AO A LEGO KA LENT\u0160UNG LA MODIMO\\n\u201cMogwera wa Kgonthe o Nea Kelet\u0161o
+  e Agago\u201d: (10 mets.)\\nJob 33:1-5\\n\u2014Elihu o bont\u0161hit\u0161e gore
+  o hlompha Jobo (w95 2/15 29 \u00b63-5) Job 33:6, 7\\n\u2014Elihu o be a ikokobedit\u0161e
+  e bile a le botho (w95 2/15 29 \u00b63-5) Job 33:24, 25\\n\u2014Elihu o ile a kgothat\u0161a
+  Jobo ge a le gare a mo elet\u0161a (w11 4/1 23 \u00b63; w09 4/15 4 \u00b68)\\nGo
+  Epa Matlotlo a Moya: (8 mets.)\\nJob 33:24, 25\\n\u2014\u201cTopollo\u201d yeo Elihu
+  a bego a bolela ka yona e ka ba e be e le eng? (w11 4/1 23 \u00b63-5) Job 34:36\\n\u2014Jobo
+  o be a tlo lekwa go fihla bokgoleng bofe, gona seo se re ruta\u2019ng? (w94 11/15
+  17 \u00b610) Mmalo wa Beibele wa beke ye o nthuta\u2019ng ka Jehofa?\\nKe dintlha
+  dife go t\u0161wa mmalong wa Beibele wa beke ye t\u0161eo nka di diri\u0161ago bodireding?\\nMmalo
+  wa Beibele: Job 33:1-25 (4 mets. goba ka tlase ga moo)\\nDIRA SOHLE BODIREDING\\nLeeto
+  la Pele: Sepedi\u0161a talet\u0161o ya kopano ya selete ya 2016 o diri\u0161a thero
+  ya mohlala. (2 mets. goba ka tlase ga moo)\\nLeeto la go Boela: fg thuto 12 \u00b64-5\\n\u2014Dira
+  pont\u0161ho ya kamoo re ka dirago leeto la go boela mothong yo a amoget\u0161ego
+  talet\u0161o ya kopano. Thea motheo bakeng sa ketelo e latelago. (4 mets. goba ka
+  tlase ga moo) Thuto ya Beibele: jl thuto 11\\n\u2014Kgothalet\u0161a morutwana gore
+  a be gona kopanong ya selete yeo e tlago. (6 mets. goba ka tlase ga moo)\\nBOPHELO
+  BJA BOKRISTE\\nKopelo 124\\n\u201cDikgopot\u0161o t\u0161a Kopano\u201d: (8 mets.)
+  Polelo. Bapala bidio ya Dikgopot\u0161o t\u0161a Kopano. Kgothalet\u0161a bohle
+  go dira ditoki\u0161et\u0161o t\u0161a gore ba be gona mat\u0161at\u0161i ka moka
+  a mararo. Hlalosa dithulaganyo t\u0161a lesolo la go lalet\u0161a batho kopanong
+  t\u0161a lefelong la gabo lena.\\nT\u0161e di nyakegago t\u0161a phuthego: (7 mets.)\\nThuto
+  ya Beibele ya Phuthego: ia kgao. 14 \u00b61-13 (30 mets.)\\nKa Morago ga Kakaret\u0161o
+  ya Seboka, Bolela Seo re Tlago go Ithuta Sona Bekeng e Latelago (3 mets.)\\nKopelo
+  21 le Thapelo\"", "\"O MYEMYELA ka lethabo ge seboledi seo se lego sethaleng se
+  dut\u0161e se nea polelo. Ke ngwanabo rena yo mofsa go t\u0161wa phuthegong ya geno,
+  gomme o nea polelo ya gagwe ya mathomo kopanong. Ge o dut\u0161e o theedit\u0161e
+  polelo ya gagwe, o ikwa o thaba le go makat\u0161wa ke tlwaet\u0161o yeo batho ba
+  Modimo ba e hwet\u0161ago. O gopola polelo ya gagwe ya mathomo phuthegong ya geno
+  gomme o lemoga t\u0161welopele e kgolo yeo a e dirilego! O ile a dira t\u0161welopele
+  e kgolo kudu ka morago ga go tlwaet\u0161wa Sekolong sa Tirelo ya Bobulamadibogo.
+  Morago bjale, yena le mosadi wa gagwe ba thabet\u0161e go ba gona Sekolong sa Baebangedi
+  ba Mmu\u0161o. Ge o dut\u0161e o opa magofsi ka morago ga polelo e matla ya ngwanabo
+  rena yo, o lebelela batheet\u0161i go go dikologa gomme wa nagana ka thuto yeo batho
+  ba Modimo ka moka ba e hwet\u0161ago.\\nBeibele e bolet\u0161e e sa le pele ka nako
+  yeo ka yona batho ba Modimo ka moka ba tlago go \u2018rutwa ke Jehofa.\u2019 (Jes.
+  54:13) Re phela nakong yeo. Ga re hwet\u0161e thuto ka dikgati\u0161o t\u0161a rena
+  feela eup\u0161a re e hwet\u0161a le ka diboka t\u0161a rena, dikopano t\u0161e
+  dikgolo le t\u0161e dinyenyane gotee le ka dikolo t\u0161e di fapafapanego t\u0161eo
+  di hlamet\u0161wego go re thu\u0161a go phetha dikabelo t\u0161e it\u0161ego ka
+  mokgatlong wa Jehofa. Karolong ye, re tlo ahlaahla kamoo thuto yeo e neago bohlatse
+  bjo matla bja gore Mmu\u0161o wa Modimo o a bu\u0161a lehono.\""]'
+src_ngrams: '{"1": [[["ya"], 220588], [["wa"], 115325], [["re"], 113296], [["t\u0161a"],
+  98139], [["ge"], 85273]], "2": [[["yo mongwe"], 10991], [["wa gagwe"], 8674], [["ya
+  gagwe"], 7754], [["t\u0161e dingwe"], 7667], [["morwa wa"], 6684]], "3": [[["dihlatse
+  t\u0161a jehofa"], 2760], [["yo mongwe wa"], 2716], [["mongwe le yo"], 2661], [["bjalo
+  ka ge"], 2628], [["bao ba bego"], 2385]], "4": [[["lega go le bjalo"], 3538], [["mongwe
+  le yo mongwe"], 2656], [["yo mongwe le yo"], 2601], [["ge e le gabotse"], 1460],
+  [["sengwe le se sengwe"], 1348]], "5": [[["yo mongwe le yo mongwe"], 2596], [["phetolelo
+  ya lefase le lefsa"], 1176], [["ya lefase le lefsa ya"], 1040], [["lefase le lefsa
+  ya mangwalo"], 1027], [["lefsa ya mangwalo a makgethwa"], 1014]]}'

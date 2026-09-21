@@ -1,0 +1,2190 @@
+corpus: hplt-v4-tw
+srclang: tw
+timestamp: 1788802711.0218606
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2024-42", 723], ["CC-MAIN-2017-51", 532], ["CC-MAIN-2018-05",
+  447], ["CC-MAIN-2017-04", 438], ["CC-MAIN-2020-45", 375], ["CC-MAIN-2025-08", 369],
+  ["CC-MAIN-2025-30", 362], ["CC-MAIN-2021-31", 337], ["CC-MAIN-2024-38", 267], ["CC-MAIN-2025-18",
+  258], ["CC-MAIN-2021-43", 204], ["CC-MAIN-2024-22", 202], ["CC-MAIN-2025-05", 180],
+  ["CC-MAIN-2025-33", 178], ["CC-MAIN-2025-13", 170], ["CC-MAIN-2023-50", 170], ["CC-MAIN-2022-33",
+  166], ["CC-MAIN-2024-33", 149], ["CC-MAIN-2025-26", 142], ["CC-MAIN-2025-21", 140],
+  ["wide00016", 137], ["CC-MAIN-2021-25", 128], ["CC-MAIN-2024-10", 121], ["CC-MAIN-2020-50",
+  117], ["CC-MAIN-2022-05", 106], ["CC-MAIN-2020-29", 105], ["CC-MAIN-2020-40", 97],
+  ["CC-MAIN-2023-40", 94], ["CC-MAIN-2024-51", 90], ["CC-MAIN-2020-05", 88], ["CC-MAIN-2024-30",
+  86], ["CC-MAIN-2021-49", 84], ["CC-MAIN-2022-21", 82], ["CC-MAIN-2021-04", 81],
+  ["wide00011", 77], ["CC-MAIN-2021-21", 77], ["CC-MAIN-2024-18", 76], ["CC-MAIN-2023-23",
+  75], ["CC-MAIN-2024-26", 73], ["CC-MAIN-2020-34", 69], ["CC-MAIN-2021-39", 65],
+  ["wide00012", 64], ["CC-MAIN-2022-27", 64], ["CC-MAIN-2021-10", 63], ["CC-MAIN-2023-14",
+  61], ["CC-MAIN-2022-49", 60], ["CC-MAIN-2024-46", 59], ["CC-MAIN-2020-24", 53],
+  ["CC-MAIN-2019-04", 52], ["CC-MAIN-2023-06", 49], ["CC-MAIN-2018-43", 47], ["CC-MAIN-2022-40",
+  40], ["CC-MAIN-2021-17", 37], ["CC-MAIN-2020-16", 37], ["CC-MAIN-2020-10", 33],
+  ["CC-MAIN-2018-39", 31], ["CC-MAIN-2014-15", 26], ["CC-MAIN-2017-26", 19], ["wide00015",
+  18], ["CC-MAIN-2018-22", 18], ["CC-MAIN-2018-34", 17], ["archivebot", 13], ["CC-MAIN-2015-18",
+  10], ["wide00010", 6], ["wide00005", 6], ["wide00017", 5], ["wide00006", 3], ["CC-MAIN-2015-11",
+  2], ["CC-MAIN-2014-42", 2], ["CC-MAIN-2014-35", 2], ["wide00002", 1], ["CC-MAIN-2016-44",
+  1], ["CC-MAIN-2016-40", 1], ["CC-MAIN-2016-30", 1]]'
+docs_langs: '[[0.2, 39], [0.3, 162], [0.4, 246], [0.5, 842], [0.6, 477], [0.7, 547],
+  [0.8, 864], [0.9, 1081], [1.0, 4380]]'
+docs_segments: '[[1, 55], [2, 172], [3, 234], [4, 228], [5, 299], [6, 400], [7, 363],
+  [8, 338], [9, 317], [10, 317], [11, 238], [12, 266], [13, 228], [14, 262], [15,
+  213], [16, 194], [17, 170], [18, 212], [19, 183], [20, 188], [21, 153], [22, 182],
+  [23, 148], [24, 176], [25, 127], [26, 128], [27, 96], [28, 94], [29, 96], [30, 101],
+  [31, 84], [32, 86], [33, 81], [34, 57], [35, 70], [36, 74], [37, 86], [38, 74],
+  [39, 61], [40, 74], [41, 67], [42, 81], [43, 74], [44, 73], [45, 59], [46, 40],
+  [47, 57], [48, 44], [49, 41], [50, 38], [51, 38], [52, 36], [53, 40], [54, 33],
+  [55, 30], [56, 29], [57, 35], [58, 33], [59, 32], [60, 22], [61, 30], [62, 28],
+  [63, 28], [64, 22], [65, 11], [66, 20], [67, 16], [68, 20], [69, 16], [70, 15],
+  [71, 17], [72, 19], [73, 19], [74, 18], [75, 8], [76, 11], [77, 14], [78, 20], [79,
+  7], [80, 18], [81, 16], [82, 10], [83, 18], [84, 13], [85, 10], [86, 15], [87, 13],
+  [88, 12], [89, 14], [90, 8], [91, 4], [92, 7], [93, 6], [94, 8], [95, 5], [96, 9],
+  [97, 5], [98, 9], [99, 5], [100, 6], [101, 7], [102, 4], [103, 4], [104, 1], [105,
+  1], [106, 6], [107, 2], [108, 10], [109, 5], [110, 5], [111, 2], [112, 8], [113,
+  4], [114, 5], [115, 8], [116, 11], [117, 5], [118, 2], [119, 4], [120, 4], [121,
+  3], [122, 5], [123, 4], [124, 9], [125, 4], [127, 2], [128, 2], [129, 3], [130,
+  5], [131, 2], [132, 10], [133, 4], [134, 4], [135, 1], [136, 1], [138, 4], [139,
+  3], [140, 4], [141, 2], [142, 2], [143, 5], [144, 2], [145, 1], [146, 1], [147,
+  1], [148, 1], [151, 3], [153, 2], [154, 1], [155, 2], [156, 1], [157, 2], [158,
+  1], [159, 2], [161, 1], [162, 2], [164, 1], [166, 2], [168, 1], [169, 2], [170,
+  3], [172, 2], [173, 1], [177, 2], [178, 2], [184, 1], [185, 3], [189, 2], [190,
+  1], [194, 1], [199, 2], [200, 2], [203, 1], [204, 2], [207, 1], [208, 1], [209,
+  1], [228, 1], [233, 1], [236, 2], [248, 1], [250, 1], [254, 1], [257, 1], [305,
+  1], [341, 1], [344, 1], [361, 1], [376, 1], [378, 1], [384, 1], [392, 1], [417,
+  1], [508, 1], [517, 1], [532, 1], [534, 1], [535, 2], [580, 1], [685, 1], [706,
+  1], [954, 1]]'
+docs_segments_mean: 27
+docs_segments_median: 18
+docs_top100_domains: '[["jw.org", 2197], ["biblica.com", 1518], ["wikipedia.org",
+  1485], ["ebible.org", 553], ["biblegateway.com", 407], ["barbersupplyandco.com",
+  276], ["waters-of-life.net", 162], ["inksoulsupply.com", 148], ["4jehovah.org",
+  105], ["amoafowaa.com", 102], ["islamhouse.com", 90], ["cupkin.com", 88], ["kasahorow.org",
+  73], ["vanipedia.org", 71], ["flightscanner.com", 69], ["zhitov.ru", 57], ["opalauctions.com",
+  55], ["coins-auctioned.com", 45], ["hwdoi.com", 43], ["4mormon.org", 38], ["tranquillityy.store",
+  28], ["carkeys-4-less.com", 28], ["thenightowl.ai", 27], ["wikimedia.org", 24],
+  ["opexflow.com", 23], ["biblearc.com", 21], ["wekeza.com", 20], ["amakambon.com",
+  20], ["treasuresauctions.com.au", 19], ["realsuntime.com", 16], ["lyrics.cat", 16],
+  ["4witness.org", 16], ["egwwritings.org", 15], ["fatheroflove-ghana.com", 13], ["codegym.cc",
+  13], ["sejoygroup.com", 12], ["mawthuq.net", 12], ["oyang-group.com", 11], ["giveamenu.com",
+  11], ["apksim.com", 11], ["watvmedia.org", 10], ["gotquestions.org", 10], ["ghanaweb.com",
+  10], ["chinasprayer.com", 10], ["retrovintagestock.net", 9], ["oratlas.com", 9],
+  ["modishkidsboutique.com", 9], ["islamenc.com", 9], ["guide-immigration.fr", 9],
+  ["ghlyrics.com", 9], ["bjnewlife.org", 9], ["zenstarstore.com", 8], ["twerekronkron.com",
+  8], ["shadowserver.org", 8], ["hotstoriesghana.com", 8], ["ghanasong.com", 8], ["downtownworcester.org",
+  8], ["asilyn.com", 8], ["soltecaz.com", 7], ["jinpeng-global.com", 7], ["instaphotodownloader.com",
+  7], ["hadeethenc.com", 7], ["worldstories.org.uk", 6], ["thecleartruth.com", 6],
+  ["plagiarism-detector.com", 6], ["one-plastic.com", 6], ["jucelinoluz.news", 6],
+  ["hangaotech.com", 6], ["ghanaculturepolitics.com", 6], ["blaqzebravillage.com",
+  6], ["bible.com", 6], ["zhitov.com", 5], ["vexxels.com", 5], ["medic-help.ch", 5],
+  ["hsqy-plasticgroup.com", 5], ["gonnle.com", 5], ["gemrockauctions.com", 5], ["blogspot.com",
+  5], ["anti-el7ad.com", 5], ["aionianbible.org", 5], ["watchtower.org", 4], ["ub-plus.com",
+  4], ["tikcd.com", 4], ["rhhardware.com", 4], ["musixmatch.com", 4], ["mediawiki.org",
+  4], ["kambang-f.com", 4], ["jungyulkim.com", 4], ["itsxclusive.com", 4], ["dfuntech.com",
+  4], ["christiansborgarchaeologicalheritageproject.org", 4], ["blogspot.fr", 4],
+  ["beyondbeautifulbyama.com", 4], ["adinkraalphabet.com", 4], ["accessagriculture.org",
+  4], ["abibitumikasa.com", 4], ["abibitumi.com", 4], ["uzone-group.com", 3], ["triphun.com",
+  3], ["travelingwiki.com", 3]]'
+docs_top100_tld: '[["org", 4692], ["com", 3468], ["net", 201], ["ru", 63], ["store",
+  31], ["ai", 27], ["com.au", 19], ["cat", 16], ["fr", 13], ["cc", 13], ["org.uk",
+  7], ["news", 6], ["it", 5], ["de", 5], ["ch", 5], ["io", 4], ["co", 4], ["bible",
+  4], ["edu", 3], ["com.ng", 3], ["click", 3], ["win", 2], ["org.au", 2], ["me", 2],
+  ["info", 2], ["gov", 2], ["co.uk", 2], ["club", 2], ["africa", 2], ["xyz", 1], ["ws",
+  1], ["world", 1], ["wiki", 1], ["web.id", 1], ["vn", 1], ["us", 1], ["tk", 1], ["tech",
+  1], ["su", 1], ["sk", 1], ["site", 1], ["reviews", 1], ["promo", 1], ["pl", 1],
+  ["nl", 1], ["net.ar", 1], ["lol", 1], ["is", 1], ["hk", 1], ["fun", 1], ["fm", 1],
+  ["eu", 1], ["dk", 1], ["com.tr", 1], ["com.br", 1], ["cf", 1], ["biz", 1], ["be",
+  1], ["at", 1]]'
+docs_total: 8638
+docs_wds: '[[0.5, 256], [0.51, 232], [0.52, 225], [0.53, 188], [0.54, 170], [0.55,
+  169], [0.56, 159], [0.57, 106], [0.58, 122], [0.59, 112], [0.6, 95], [0.61, 114],
+  [0.62, 109], [0.63, 113], [0.64, 113], [0.65, 117], [0.66, 129], [0.67, 120], [0.68,
+  130], [0.69, 144], [0.7, 173], [0.71, 192], [0.72, 189], [0.73, 197], [0.74, 203],
+  [0.75, 275], [0.76, 378], [0.77, 407], [0.78, 416], [0.79, 405], [0.8, 370], [0.81,
+  349], [0.82, 237], [0.83, 199], [0.84, 189], [0.85, 178], [0.86, 140], [0.87, 163],
+  [0.88, 123], [0.89, 138], [0.9, 151], [0.91, 120], [0.92, 128], [0.93, 113], [0.94,
+  100], [0.95, 55], [0.96, 52], [0.97, 42], [0.98, 19], [0.99, 11], [1.0, 3]]'
+duplication_ratio: 0.1825
+sentence_pairs: 236695
+src_bytes: 41678148
+src_chars: 37014671
+src_pii: 74
+src_tokens: 8775383
+unique_sents: 193489
+src_sent_tokens: '[[1, 4791], [2, 5867], [3, 7333], [4, 10159], [5, 12279], [6, 13687],
+  [7, 12736], [8, 12822], [9, 9532], [10, 7745], [11, 5593], [12, 4680], [13, 4083],
+  [14, 3773], [15, 3227], [16, 3212], [17, 2980], [18, 2932], [19, 2662], [20, 2747],
+  [21, 2580], [22, 2519], [23, 2420], [24, 2267], [25, 2196], [26, 2152], [27, 2030],
+  [28, 2105], [29, 1895], [30, 1938], [31, 1776], [32, 1718], [33, 1628], [34, 1683],
+  [35, 1519], [36, 1433], [37, 1486], [38, 1441], [39, 1362], [40, 1256], [41, 1434],
+  [42, 1413], [43, 1246], [44, 1132], [45, 1138], [46, 1181], [47, 1009], [48, 997],
+  [49, 1093], [50, 990], [51, 907], [52, 853], [53, 896], [54, 882], [55, 830], [56,
+  885], [57, 803], [58, 811], [59, 808], [60, 818], [61, 830], [62, 706], [63, 797],
+  [64, 711], [65, 671], [66, 741], [67, 703], [68, 711], [69, 726], [70, 670], [71,
+  637], [72, 673], [73, 662], [74, 685], [75, 618], [76, 596], [77, 666], [78, 605],
+  [79, 619], [80, 570], [81, 634], [82, 569], [83, 604], [84, 520], [85, 497], [86,
+  467], [87, 527], [88, 477], [89, 510], [90, 514], [91, 476], [92, 474], [93, 417],
+  [94, 472], [95, 445], [96, 443], [97, 405], [98, 463], [99, 459], [100, 442], [101,
+  386], [102, 409], [103, 411], [104, 414], [105, 393], [106, 385], [107, 348], [108,
+  364], [109, 350], [110, 386], [111, 308], [112, 307], [113, 366], [114, 313], [115,
+  365], [116, 321], [117, 325], [118, 317], [119, 303], [120, 304], [121, 245], [122,
+  281], [123, 261], [124, 251], [125, 290], [126, 258], [127, 301], [128, 258], [129,
+  234], [130, 225], [131, 250], [132, 249], [133, 253], [134, 222], [135, 234], [136,
+  221], [137, 235], [138, 218], [139, 231], [140, 221], [141, 205], [142, 221], [143,
+  209], [144, 262], [145, 197], [146, 162], [147, 189], [148, 195], [149, 187], [150,
+  212], [151, 153], [152, 164], [153, 213], [154, 140], [155, 175], [156, 175], [157,
+  145], [158, 136], [159, 146], [160, 166], [161, 150], [162, 115], [163, 152], [164,
+  158], [165, 138], [166, 141], [167, 125], [168, 160], [169, 107], [170, 120], [171,
+  145], [172, 110], [173, 100], [174, 92], [175, 115], [176, 99], [177, 106], [178,
+  101], [179, 111], [180, 87], [181, 96], [182, 116], [183, 92], [184, 93], [185,
+  85], [186, 103], [187, 69], [188, 90], [189, 78], [190, 104], [191, 64], [192, 96],
+  [193, 74], [194, 66], [195, 78], [196, 82], [197, 74], [198, 59], [199, 78], [200,
+  48], [201, 71], [202, 54], [203, 49], [204, 43], [205, 69], [206, 54], [207, 48],
+  [208, 44], [209, 46], [210, 50], [211, 62], [212, 65], [213, 46], [214, 47], [215,
+  36], [216, 55], [217, 33], [218, 45], [219, 25], [220, 39], [221, 50], [222, 36],
+  [223, 41], [224, 28], [225, 34], [226, 35], [227, 35], [228, 31], [229, 34], [230,
+  28], [231, 32], [232, 35], [233, 34], [234, 30], [235, 43], [236, 27], [237, 44],
+  [238, 20], [239, 17], [240, 16], [241, 23], [242, 23], [243, 22], [244, 15], [245,
+  19], [246, 11], [247, 36], [248, 19], [249, 30], [250, 32], [251, 34], [252, 15],
+  [253, 20], [254, 17], [255, 9], [256, 22], [257, 20], [258, 13], [259, 12], [260,
+  13], [261, 17], [262, 11], [263, 15], [264, 8], [265, 10], [266, 15], [267, 10],
+  [268, 14], [269, 10], [270, 15], [271, 18], [272, 13], [273, 8], [274, 8], [275,
+  17], [276, 9], [277, 11], [278, 9], [279, 12], [280, 8], [281, 5], [282, 7], [283,
+  9], [284, 5], [285, 13], [286, 12], [287, 10], [288, 5], [289, 7], [290, 8], [291,
+  23], [292, 9], [293, 16], [294, 15], [295, 8], [296, 4], [297, 8], [298, 5], [299,
+  4], [300, 6], [301, 6], [302, 9], [303, 7], [304, 4], [305, 4], [306, 7], [307,
+  4], [308, 12], [309, 5], [310, 4], [311, 5], [312, 5], [313, 8], [314, 3], [315,
+  7], [316, 3], [317, 7], [318, 2], [319, 5], [320, 6], [321, 7], [322, 6], [323,
+  8], [324, 7], [325, 1], [326, 1], [327, 10], [328, 9], [329, 3], [330, 2], [331,
+  5], [332, 2], [333, 2], [334, 6], [335, 1], [336, 4], [337, 8], [338, 6], [339,
+  2], [340, 5], [341, 1], [342, 4], [343, 4], [344, 2], [345, 6], [346, 4], [347,
+  5], [348, 4], [349, 2], [350, 7], [351, 5], [352, 3], [353, 5], [354, 4], [355,
+  3], [357, 1], [358, 1], [359, 9], [360, 1], [361, 2], [363, 3], [364, 9], [365,
+  2], [367, 4], [368, 1], [369, 6], [370, 2], [371, 1], [372, 1], [373, 5], [374,
+  5], [375, 3], [376, 3], [377, 3], [378, 1], [379, 2], [381, 3], [382, 3], [383,
+  7], [384, 3], [385, 1], [386, 5], [387, 2], [389, 3], [390, 2], [391, 2], [392,
+  1], [393, 1], [394, 1], [395, 2], [396, 2], [399, 4], [400, 6], [401, 1], [402,
+  3], [403, 4], [404, 5], [405, 1], [406, 4], [408, 2], [411, 1], [412, 2], [413,
+  1], [414, 4], [415, 3], [416, 1], [417, 7], [419, 1], [420, 3], [422, 3], [423,
+  1], [424, 1], [426, 2], [427, 4], [428, 1], [429, 2], [431, 2], [432, 3], [433,
+  1], [435, 3], [436, 1], [437, 2], [438, 1], [439, 1], [441, 1], [442, 1], [444,
+  3], [447, 2], [453, 3], [454, 1], [455, 1], [456, 2], [457, 4], [458, 2], [459,
+  2], [461, 1], [462, 3], [464, 4], [466, 1], [467, 1], [471, 1], [473, 4], [474,
+  1], [475, 3], [480, 2], [481, 3], [482, 1], [483, 1], [485, 1], [486, 4], [488,
+  1], [492, 3], [493, 1], [494, 1], [496, 1], [498, 2], [500, 1], [503, 1], [505,
+  1], [506, 1], [507, 1], [509, 1], [511, 1], [514, 1], [515, 1], [518, 1], [522,
+  3], [523, 2], [525, 2], [526, 4], [527, 1], [530, 1], [531, 2], [533, 1], [537,
+  1], [539, 1], [545, 2], [547, 1], [548, 2], [553, 1], [554, 1], [555, 1], [558,
+  2], [560, 1], [562, 1], [570, 1], [571, 4], [580, 2], [585, 1], [599, 1], [601,
+  2], [605, 1], [611, 1], [612, 1], [613, 1], [614, 1], [615, 1], [618, 2], [622,
+  2], [628, 1], [629, 1], [631, 1], [632, 1], [635, 1], [637, 1], [638, 1], [642,
+  1], [646, 1], [651, 1], [654, 1], [659, 1], [662, 1], [665, 1], [667, 1], [678,
+  2], [696, 1], [697, 1], [716, 1], [720, 1], [727, 1], [744, 1], [750, 2], [753,
+  1], [755, 1], [759, 1], [760, 1], [770, 1], [778, 1], [782, 1], [793, 1], [798,
+  1], [800, 1], [809, 2], [817, 2], [818, 1], [820, 1], [834, 1], [850, 2], [851,
+  1], [860, 1], [864, 1], [874, 1], [877, 2], [878, 1], [884, 1], [885, 1], [898,
+  1], [903, 1], [914, 1], [922, 1], [927, 1], [933, 1], [944, 1], [945, 1], [953,
+  1], [959, 1], [961, 1], [965, 1], [967, 2], [969, 1], [979, 1], [990, 1], [992,
+  2], [995, 1], [1000, 1], [1022, 2], [1040, 1], [1041, 2], [1045, 1], [1061, 1],
+  [1074, 1], [1082, 1], [1083, 1], [1089, 1], [1112, 1], [1151, 1], [1185, 1], [1187,
+  1], [1192, 1], [1197, 3], [1202, 1], [1206, 1], [1207, 1], [1219, 1], [1222, 1],
+  [1226, 1], [1234, 1], [1237, 1], [1238, 1], [1243, 1], [1252, 1], [1278, 2], [1299,
+  1], [1338, 1], [1342, 1], [1358, 1], [1373, 1], [1431, 1], [1507, 1], [1542, 1],
+  [1568, 1], [1620, 1], [1685, 1], [1702, 1], [1717, 1], [1752, 1], [1765, 1], [1856,
+  1], [2033, 1], [2055, 1], [2058, 1], [2254, 1], [2282, 1], [2337, 1], [2373, 1],
+  [2442, 1], [2445, 1], [2581, 1], [2744, 1], [3045, 1], [3645, 1], [4650, 1], [8450,
+  1], [9454, 1], [10910, 1], [11560, 1], [12231, 1], [12546, 1], [13544, 1], [13586,
+  1]]'
+src_sent_tokens_mean: 37
+src_sent_tokens_median: 16
+src_unique_sents: '[[1, 1320], [2, 3194], [3, 4304], [4, 6871], [5, 9072], [6, 10566],
+  [7, 10246], [8, 9480], [9, 7825], [10, 6329], [11, 4792], [12, 4085], [13, 3516],
+  [14, 3292], [15, 2927], [16, 2812], [17, 2718], [18, 2686], [19, 2452], [20, 2541],
+  [21, 2375], [22, 2294], [23, 2134], [24, 2084], [25, 2017], [26, 2018], [27, 1892],
+  [28, 1961], [29, 1781], [30, 1771], [31, 1680], [32, 1586], [33, 1517], [34, 1568],
+  [35, 1425], [36, 1346], [37, 1351], [38, 1298], [39, 1242], [40, 1120], [41, 1171],
+  [42, 1178], [43, 1065], [44, 1011], [45, 996], [46, 1001], [47, 900], [48, 903],
+  [49, 979], [50, 883], [51, 823], [52, 784], [53, 794], [54, 788], [55, 740], [56,
+  769], [57, 717], [58, 725], [59, 680], [60, 704], [61, 724], [62, 622], [63, 685],
+  [64, 594], [65, 598], [66, 640], [67, 614], [68, 631], [69, 638], [70, 567], [71,
+  585], [72, 575], [73, 566], [74, 539], [75, 549], [76, 512], [77, 557], [78, 499],
+  [79, 549], [80, 454], [81, 493], [82, 485], [83, 503], [84, 458], [85, 443], [86,
+  424], [87, 459], [88, 429], [89, 426], [90, 451], [91, 424], [92, 411], [93, 368],
+  [94, 418], [95, 377], [96, 393], [97, 378], [98, 407], [99, 409], [100, 388], [101,
+  340], [102, 356], [103, 367], [104, 377], [105, 325], [106, 338], [107, 316], [108,
+  337], [109, 318], [110, 345], [111, 292], [112, 284], [113, 324], [114, 275], [115,
+  317], [116, 277], [117, 297], [118, 284], [119, 266], [120, 268], [121, 231], [122,
+  247], [123, 241], [124, 239], [125, 239], [126, 238], [127, 257], [128, 225], [129,
+  223], [130, 208], [131, 224], [132, 203], [133, 208], [134, 195], [135, 195], [136,
+  191], [137, 208], [138, 206], [139, 199], [140, 191], [141, 177], [142, 208], [143,
+  175], [144, 195], [145, 172], [146, 158], [147, 182], [148, 170], [149, 158], [150,
+  194], [151, 142], [152, 144], [153, 172], [154, 128], [155, 143], [156, 137], [157,
+  128], [158, 127], [159, 142], [160, 142], [161, 118], [162, 94], [163, 132], [164,
+  133], [165, 116], [166, 125], [167, 108], [168, 122], [169, 104], [170, 104], [171,
+  121], [172, 101], [173, 95], [174, 84], [175, 100], [176, 98], [177, 97], [178,
+  91], [179, 89], [180, 75], [181, 86], [182, 89], [183, 83], [184, 82], [185, 69],
+  [186, 81], [187, 67], [188, 77], [189, 56], [190, 82], [191, 61], [192, 66], [193,
+  64], [194, 61], [195, 63], [196, 63], [197, 66], [198, 56], [199, 73], [200, 44],
+  [201, 58], [202, 51], [203, 46], [204, 41], [205, 57], [206, 38], [207, 44], [208,
+  42], [209, 45], [210, 46], [211, 45], [212, 50], [213, 42], [214, 45], [215, 33],
+  [216, 47], [217, 33], [218, 42], [219, 23], [220, 37], [221, 38], [222, 31], [223,
+  37], [224, 27], [225, 30], [226, 35], [227, 30], [228, 29], [229, 34], [230, 27],
+  [231, 30], [232, 28], [233, 32], [234, 30], [235, 36], [236, 26], [237, 34], [238,
+  19], [239, 16], [240, 16], [241, 23], [242, 22], [243, 20], [244, 15], [245, 18],
+  [246, 11], [247, 22], [248, 19], [249, 19], [250, 22], [251, 17], [252, 14], [253,
+  16], [254, 12], [255, 9], [256, 15], [257, 18], [258, 12], [259, 11], [260, 12],
+  [261, 15], [262, 11], [263, 14], [264, 8], [265, 9], [266, 15], [267, 10], [268,
+  13], [269, 10], [270, 14], [271, 17], [272, 13], [273, 8], [274, 8], [275, 17],
+  [276, 9], [277, 11], [278, 9], [279, 10], [280, 8], [281, 4], [282, 4], [283, 8],
+  [284, 5], [285, 13], [286, 11], [287, 8], [288, 5], [289, 7], [290, 7], [291, 12],
+  [292, 8], [293, 13], [294, 9], [295, 7], [296, 4], [297, 7], [298, 4], [299, 4],
+  [300, 5], [301, 5], [302, 7], [303, 6], [304, 4], [305, 4], [306, 6], [307, 4],
+  [308, 11], [309, 5], [310, 4], [311, 5], [312, 5], [313, 6], [314, 3], [315, 7],
+  [316, 2], [317, 6], [318, 2], [319, 5], [320, 6], [321, 6], [322, 6], [323, 7],
+  [324, 7], [325, 1], [326, 1], [327, 8], [328, 8], [329, 3], [330, 2], [331, 4],
+  [332, 2], [333, 2], [334, 5], [335, 1], [336, 4], [337, 8], [338, 6], [339, 2],
+  [340, 4], [341, 1], [342, 4], [343, 2], [344, 2], [345, 5], [346, 3], [347, 2],
+  [348, 3], [349, 2], [350, 5], [351, 4], [352, 3], [353, 5], [354, 4], [355, 3],
+  [357, 1], [358, 1], [359, 8], [360, 1], [361, 2], [363, 3], [364, 7], [365, 2],
+  [367, 3], [368, 1], [369, 5], [370, 2], [371, 1], [372, 1], [373, 5], [374, 5],
+  [375, 2], [376, 2], [377, 3], [378, 1], [379, 2], [381, 3], [382, 2], [383, 6],
+  [384, 3], [385, 1], [386, 5], [387, 2], [389, 2], [390, 1], [391, 1], [392, 1],
+  [393, 1], [394, 1], [395, 2], [396, 2], [399, 3], [400, 4], [401, 1], [402, 2],
+  [403, 3], [404, 3], [405, 1], [406, 4], [408, 2], [411, 1], [412, 2], [413, 1],
+  [414, 3], [415, 3], [416, 1], [417, 6], [419, 1], [420, 3], [422, 2], [423, 1],
+  [424, 1], [426, 2], [427, 4], [428, 1], [429, 2], [431, 2], [432, 2], [433, 1],
+  [435, 2], [436, 1], [437, 2], [438, 1], [439, 1], [441, 1], [442, 1], [444, 2],
+  [447, 2], [453, 3], [454, 1], [455, 1], [456, 2], [457, 3], [458, 1], [459, 2],
+  [461, 1], [462, 2], [464, 2], [466, 1], [467, 1], [471, 1], [473, 2], [474, 1],
+  [475, 2], [480, 2], [481, 2], [482, 1], [483, 1], [485, 1], [486, 2], [488, 1],
+  [492, 3], [493, 1], [494, 1], [496, 1], [498, 2], [500, 1], [503, 1], [505, 1],
+  [506, 1], [507, 1], [509, 1], [511, 1], [514, 1], [515, 1], [518, 1], [522, 2],
+  [523, 1], [525, 2], [526, 3], [527, 1], [530, 1], [531, 2], [533, 1], [537, 1],
+  [539, 1], [545, 2], [547, 1], [548, 1], [553, 1], [554, 1], [555, 1], [558, 1],
+  [560, 1], [562, 1], [570, 1], [571, 3], [580, 2], [585, 1], [599, 1], [601, 1],
+  [605, 1], [611, 1], [612, 1], [613, 1], [614, 1], [615, 1], [618, 2], [622, 1],
+  [628, 1], [629, 1], [631, 1], [632, 1], [635, 1], [637, 1], [638, 1], [642, 1],
+  [646, 1], [651, 1], [654, 1], [659, 1], [662, 1], [665, 1], [667, 1], [678, 1],
+  [696, 1], [697, 1], [716, 1], [720, 1], [727, 1], [744, 1], [750, 2], [753, 1],
+  [755, 1], [759, 1], [760, 1], [770, 1], [778, 1], [782, 1], [793, 1], [798, 1],
+  [800, 1], [809, 1], [817, 1], [818, 1], [820, 1], [834, 1], [850, 1], [851, 1],
+  [860, 1], [864, 1], [874, 1], [877, 2], [878, 1], [884, 1], [885, 1], [898, 1],
+  [903, 1], [914, 1], [922, 1], [927, 1], [933, 1], [944, 1], [945, 1], [953, 1],
+  [959, 1], [961, 1], [965, 1], [967, 1], [969, 1], [979, 1], [990, 1], [992, 1],
+  [995, 1], [1000, 1], [1022, 1], [1040, 1], [1041, 2], [1045, 1], [1061, 1], [1074,
+  1], [1082, 1], [1083, 1], [1089, 1], [1112, 1], [1151, 1], [1185, 1], [1187, 1],
+  [1192, 1], [1197, 2], [1202, 1], [1206, 1], [1207, 1], [1219, 1], [1222, 1], [1226,
+  1], [1234, 1], [1237, 1], [1238, 1], [1243, 1], [1252, 1], [1278, 1], [1299, 1],
+  [1338, 1], [1342, 1], [1358, 1], [1373, 1], [1431, 1], [1507, 1], [1542, 1], [1568,
+  1], [1620, 1], [1685, 1], [1702, 1], [1717, 1], [1752, 1], [1765, 1], [1856, 1],
+  [2033, 1], [2055, 1], [2058, 1], [2254, 1], [2282, 1], [2337, 1], [2373, 1], [2442,
+  1], [2445, 1], [2581, 1], [2744, 1], [3045, 1], [3645, 1], [4650, 1], [8450, 1],
+  [9454, 1], [10910, 1], [11560, 1], [12231, 1], [12546, 1], [13544, 1], [13586, 1]]'
+src_langs: '[["en", 80810], ["es", 40011], ["eo", 10613], ["pl", 10357], ["it", 6669],
+  ["fi", 5826], ["am", 5783], ["sl", 3774], ["pt", 3626], ["de", 3482], ["hu", 3370],
+  ["tl", 3162], ["fr", 3131], ["id", 3095], ["zh", 3054], ["sw", 3026], ["tr", 2279],
+  ["eu", 2271], ["nl", 2268], ["sr", 2239], ["ko", 2056], ["cs", 1984], ["hr", 1913],
+  ["lt", 1634], ["ms", 1525], ["ru", 1440], ["ro", 1390], ["et", 1338], ["su", 1220],
+  ["war", 1090], ["uz", 879], ["la", 850], ["io", 810], ["mt", 782], ["sv", 733],
+  ["cy", 703], ["uk", 694], ["hi", 671], ["ca", 643], ["ur", 639], ["gl", 624], ["kw",
+  620], ["he", 598], ["bn", 595], ["mg", 544], ["da", 533], ["bs", 532], ["nb", 522],
+  ["ceb", 512], ["lv", 496], ["ja", 490], ["fa", 425], ["vi", 415], ["sq", 387], ["kn",
+  385], ["th", 363], ["ilo", 325], ["sk", 314], ["ar", 293], ["ta", 280], ["ml", 268],
+  ["jbo", 264], ["az", 256], ["rm", 250], ["nds", 228], ["jv", 223], ["af", 182],
+  ["br", 170], ["el", 154], ["ast", 151], ["is", 135], ["qu", 127], ["als", 125],
+  ["oc", 121], ["hsb", 120], ["tg", 114], ["ht", 114], ["hy", 106], ["gn", 106], ["yo",
+  102], ["pam", 102], ["fy", 101], ["scn", 97], ["ku", 93], ["so", 89], ["gv", 87],
+  ["lmo", 81], ["an", 79], ["gom", 78], ["cbk", 73], ["nap", 72], ["diq", 72], ["nn",
+  71], ["vo", 70], ["ie", 65], ["ga", 65], ["vep", 57], ["min", 55], ["lb", 54], ["bar",
+  54], ["te", 51], ["tk", 47], ["gd", 44], ["my", 29], ["os", 27], ["pnb", 26], ["xal",
+  22], ["tt", 22], ["mr", 21], ["ug", 19], ["si", 19], ["mk", 19], ["eml", 18], ["bg",
+  18], ["as", 18], ["vec", 17], ["mwl", 17], ["lo", 17], ["be", 16], ["sco", 15],
+  ["kv", 15], ["ia", 15], ["dsb", 14], ["gu", 13], ["pms", 12], ["ckb", 12], ["pfl",
+  11], ["mrj", 11], ["ba", 11], ["or", 10], ["mn", 10], ["ky", 10], ["kk", 10], ["pa",
+  9], ["km", 9], ["co", 9], ["sd", 7], ["sa", 7], ["ne", 7], ["li", 7], ["bh", 7],
+  ["wa", 6], ["cv", 6], ["ce", 6], ["ps", 5], ["new", 5], ["ka", 5], ["bcl", 5], ["sc",
+  4], ["vls", 3], ["mzn", 3], ["lrc", 3], ["lez", 3], ["sah", 2], ["frr", 2], ["arz",
+  2], ["yi", 1], ["xmf", 1], ["wuu", 1], ["tyv", 1], ["rue", 1], ["nah", 1], ["myv",
+  1], ["mhr", 1], ["krc", 1], ["dv", 1], ["bo", 1], ["azb", 1], ["av", 1]]'
+hardrules_tags: '{"not_too_long": 1407, "not_too_short": 16634, "length_ratio": 0,
+  "no_urls": 1772, "no_bad_encoding": 17, "pii": 74}'
+sample: '["\"R\u00edo Pl\u00e1tano Bisophere Korabea\\nR\u00edo Pl\u00e1tano Bisophere
+  Korabea y\u025b 5,250 kasaase a w\u0254dze esie w\u0254 La Mosquitmantew a \u0254w\u0254
+  he Caribbempoano a \u0254w\u0254 Hondura Asaase obebree na twa mu w\u0254 he R\u00edo
+  Pl\u00e1tan\u0190p\u0254w na w\u0254 mboa dodow bia suro h\u0254n nna bi nso y\u025b
+  Hondura \u0254y\u025b \u0190p\u0254w no kese. Woay\u025b wiase amanbra bea na hen
+  p\u0254w fir ce 198 W\u0254 2011, UNESCO dze s\u0254w no tow wiase amanbra a \u0254w\u0254
+  fonamu krataa do.\\nAbak\u0254s\u025bm[sesa mu | sesa ekyirs\u025bm]\\nW\u0254 1960
+  mu no, w\u0254dze asase no too nky\u025bn s\u025b \\\"Ciudad Blanca Fam Atutuw Akorae,\\\"
+  a w\u0254dze tete atrae a w\u0254ka ho as\u025bm s\u025b w\u0254fr\u025b no la Ciudad
+  Blanca no din too so. W\u0254sesaa akorae\u025b no din \\\"R\u00edo Pl\u00e1tano
+  Biosphere Reserve\\\" w\u0254 afe 1980 mu na w\u0254dze kaa Wiase Agyapadze ho w\u0254
+  afe 1982 mu.\\nW\u0254y\u025b\u025b nhyehy\u025be ne nk\u0254so\u0254 w\u0254 afe
+  1980 mu na Department of Natural Renewable Resources dzi dii dwuma w\u0254 afe 1987
+  mu. W\u0254 afe 1997 mu no, w\u0254kyer\u025b\u025b 3250 km2 fofor\u0254 s\u025b
+  beae\u025b a w\u0254dze b\u025bb\u0254 akorae\u025b no. W\u0254 1997 mu no, Germany
+  Nk\u0254so Sikakorabea no fii nhyehy\u025be bi ase a \u025bb\u025btr\u025bw akorae
+  no mu k\u025bse ak\u0254 Patuca Asub\u0254nten no ne Bosawas Ab\u0254de a Nkwa Wom
+  Akorae a \u025bw\u0254 Nicaragua no mu. Mprempren, Germany nhyehy\u025be no ne\u025bma
+  mu.\\nMmeae a wotutu fam hwehw\u025b tetefo n\u025bn[sesa mu | sesa ekyirs\u025bm]\\nNne\u025bma
+  a w\u0254akora so no da so ara w\u0254 mmeae b\u025bboro 200 a wotutu fam hwehw\u025b
+  tetefo nne\u025bma mu,a beae a Christopher Columbus dii kan baa Amerika asasep\u0254n
+  no so ka ho. Afei nso, atrae a as\u025be a abo a efi adan ne akwan so, abotan a
+  w\u0254asen, ne nne\u025bma afoforo a aka ka ho w\u0254 beae\u025b a w\u0254akora
+  so no.\\nSaa mmeae yi mu kakraa bi na w\u0254ab\u0254 ho ban, nokwarem no w\u0254afow
+  ebinom na pii y\u025b ade titiriw a \u025bma nsrahw\u025bfo k\u0254 h\u0254. \u0190wom
+  s\u025b mfiriase no, \u0254mantam no bo a \u025bsom w\u0254 fam tutu mu no dii dwuma
+  k\u025bsew w\u0254 beae\u025b a w\u0254akora so no a w\u0254hyehy\u025b\u025bw no
+  mu de, nanso mprempren beae\u025b a w\u0254akora so no twe adwene si kwae ahorow
+  no ho banb\u0254 so k\u025bsew.\\nS\u025bnea atetes\u025bm kyer\u025b no, La Ciudad
+  Blanca w\u0254 \u0254mantam no mu. Mfe pii a atwam no, fam tutufo a w\u0254y\u025b
+  adwumaden ne w\u0254n a w\u0254ny\u025b adwumaden pii aka s\u025b w\u0254ahu, nanso
+  emu biara mmaa adanse a wotumi gye di na adwumay\u025bfo dodow no ara da so ara
+  gye akyinnyew s\u025b na \u025bw\u0254 h\u0254 p\u025bn.\\nMp\u0254tam h\u0254 nnipa
+  dodow[sesa mu | sesa ekyirs\u025bm]\\nNnipa b\u025bborow 2,000 a w\u0254y\u025b
+  abor\u0254fo ne nnipa a wotu k\u0254tra mmeae foforo a w\u0254d\u0254\u0254so w\u0254
+  beae a w\u0254akora so no.Nnipa dodow naa y\u025b amammer\u025b akuw anan a \u025bsono
+  w\u0254n koraa na w\u0254y\u025b soronko koraa: Miskitofo, Pechfo, Garifunafo, ne
+  ladinofo. Akuw nketewa no, Pechfo, Garifunafo, ne Miskitofo a w\u0254te h\u0254
+  no mu dodow no ara te atifi fam, w\u0254 asub\u0254nten no do. Saa nnipa yi w\u0254
+  hokwan ahorow w\u0254 asase no ho na w\u0254n mu dodow no ara de asase no y\u025b
+  kua. \u0190ny\u025b den s\u025b w\u0254b\u025bma Pechfo kuay\u025b nketewa no ay\u025b
+  nea \u025bb\u025bk\u0254 do\\no atra h\u0254 daa. Kuw a \u025bs\u00f5 sen biara
+  no mu pii, ladino, fi anwafo fam hy\u025bn mmoa a w\u0254kora w\u0254n so no mu.[3]
+  Asase hokwan ahorow ho ntawntawdi y\u025b ade titiriw a \u025bde ntawntawdi ba mmusuakuw
+  ahorow ntam. Mprempren ntawntawdi a \u025bfa asase hokwan ahorow ho no fa nnipa
+  a w\u0254ny\u025b kurom h\u0254fo a w\u0254tow hy\u025b abor\u0254fo asase wuranom
+  so na wohunahuna w\u0254n\u2014a w\u0254hy\u025b w\u0254n ma wofi w\u0254n abak\u0254s\u025bm
+  mu nsase so.\\nSenea w\u0254 kora no[sesa mu | sesa ekyirs\u025bm]\\nW\u0254 1996
+  mu no, beae a w\u0254akora so no nyaa Wiase Agyapadze a \u0190w\u0254 Asiane mu
+  din. Nhyehy\u025bew bi a w\u0254de hw\u025b nne\u025bma a w\u0254kora so so, a w\u0254dze
+  dzii dwuma w\u0254 afe 2000 mu no, na \u025bka ho ne macrozoning, subzoning, ne
+  nhyehy\u025bw p\u0254t\u025bw a \u025bfa ns\u025bm a \u025bfa nne\u025bma a w\u0254kora
+  so ho.[8] Macrozoning nhyehy\u025be no de buffer zones, amammer\u025b zones, ne
+  nucleus zones zii h\u0254. Na ahunahuna no nyinaa, titiriw w\u0254 nuklea mmeae\u025b
+  no, so ate w\u0254 afe 2006 mu a \u025bhunu nk\u0254so\u0254 k\u025bse\u025b w\u0254
+  mm\u0254dzen a w\u0254b\u0254 s\u025b w\u0254b\u025bkora nne\u025bma so no mu, na
+  \u025bdze Wiase Agyapadze a \u025bw\u0254 Asiane mu din a w\u0254dze too h\u0254
+  no fii h\u0254 w\u0254 afe 2007 mu. Nanso, firi nhwehw\u025bmu a w\u0254y\u025be\u025b
+  nnansa yi w\u0254 afe 2010 ne 2011 mu no, \u025bte s\u025b nea mfaso\u0254 biara
+  a w\u0254anya no, mfiriase\u025b no, \u025bnte saa mprempren. UNESCO nnansa yi ara
+  (2011) y\u025b\u025b as\u025bmpatr\u025bw adwuma bi k\u0254\u0254 Rio Pl\u00e1tano
+  na wohui s\u025b dwumadi a mmara mma ho kwan w\u0254 beae titiriw no mu. Nnub\u0254ne
+  a w\u0254dze fa sum ase, asase a wotutu so ma anantwi didi, ne mpataayi ne ab\u0254mm\u0254
+  a mmara mma ho kwan w\u0254 asub\u0254nten no ho rek\u0254 so mprempren. W\u0254
+  afe 2011 mu no, UNESCO de saa akorae\u025b no too Wiase Agyapadze a \u0254w\u0254
+  Asiane mu no din mu.\\nW\u0254nam nhyehy\u025bw a \u0254fi Department of Protected
+  Areas & Wildlife, State Forestry Administration a \u025bw\u0254 Honduras no h\u0254
+  so na \u025bb\u0254 beae no ho ban, na wonya sika bi fi Wiase Nyinaa Wildlife Fund
+  ne ankorankoro ahyehy\u025bde afoforo h\u0254. Aban ne ahyehy\u025bde ahorow ne
+  boayikuw ahorow dodow bi a \u025bny\u025b aban de ay\u025b nhyehy\u025be ahorow
+  a w\u0254de b\u025bkora nne\u025bma so na w\u0254de adi dwuma w\u0254 \u0254mantam
+  no mu. Botae titiriw a \u025bw\u0254 beae a w\u0254akora so no ne s\u025b \u025bb\u025bb\u0254
+  asase no ho ban afi kwae a wobetutu ne nk\u0254so ho.\\nNhyehy\u025be a w\u0254de
+  hw\u025b mmoa so no botae ne s\u025b w\u0254de mp\u0254tam h\u0254fo b\u025bka w\u0254n
+  nne\u025bma a atwa w\u0254n ho ahyia ho denam kuay\u025b nney\u025be a \u025bb\u025bk\u0254
+  so atra h\u0254 daa so (hw\u025b La Ruta Moskitia Ecotourism Alliance). Abibifo
+  a w\u0254y\u025b abor\u0254fo no di dwuma k\u025bse w\u0254 nne\u025bma a w\u0254kora
+  so ho nhyehy\u025bw no mu, w\u0254 beae a w\u0254akora so no mu ne nea w\u0254akora
+  so no akyi w\u0254 mmeae a w\u0254hw\u025b mmoa so no nyinaa. Abodzin ahorow a w\u0254de
+  b\u025bma ne agyapadze hokwan ahorow a wogye tom de facto dzii dwuma titiriw w\u0254
+  nhyehy\u025bw a w\u0254dze b\u025bkora nne\u025bma so w\u0254 beae a w\u0254akora
+  so no mfiriase no mu. Mprempren \u025bho hia s\u025b w\u0254y\u025b nhyehy\u025be
+  biara a w\u0254dze b\u025bkora nne\u025bma so ama beae a w\u0254akora so no foforo.\\nNhyehy\u025be
+  a \u025bfa nne\u025bma a w\u0254kora so no bisa s\u025b w\u0254nk\u0254 so mfa w\u0254n
+  ho nhy\u025b mu s\u025b w\u0254b\u025bma asase a w\u0254w\u0254 w\u0254 beae a w\u0254akora
+  so no ne ne mp\u0254tam no mu ada h\u0254. \u0190s\u025b s\u025b w\u0254y\u025b
+  nhwehw\u025bmu pii na ama w\u0254ate bo a adekorabea no som ne ahunahuna a ebetumi
+  aba no ase. Mprempren wonni mm\u0254nten so aw\u025bmfo anaa aban adwumakuw biara
+  a w\u0254de nsiy\u025b rehw\u025b mmeae ahorow anaas\u025b w\u0254rew\u025bn\\nte
+  to h\u0254.\"", "\"Previous Lesson -- Next Lesson\\n4. Agya no annuoyamhy\u025b
+  no de basabasay\u025b baae\u025b (Yohanne 12:27-36)\\nYOHANNE 12:27-28\\n27 \\\"Afei
+  me kra ho yera no; na \u025bde\u025bn na menka? Agya, gye me firi d\u0254n yi mu!
+  Nanso yei nti na mebaa d\u0254n yi mu. 28 Agya, hy\u025b wo din animuonyam! \u025bnna
+  \u025bnne bi firi soro bae\u025b: Mahy\u025b no animuonyam dada, na m\u025bhy\u025b
+  no bio.\\\"\\nYesu hunuu amane\u025b frii ne kra mu. Na \u0254no ne nkwa nyinaa
+  wura, nanso \u0254br\u025b\u025b ne ho ase ma owuo tumi menee no. Na \u0254y\u025b
+  Awura mu Awurade, nanso \u0254maa \u0254bonsam, a odi owuo so tumi no, ne no dii
+  \u025bsie w\u0254 nahoden nyinaa mu. Na Yesu firii \u0254p\u025bpa mu soaa y\u025bn
+  b\u0254ne nyinaa, de yii Onyankop\u0254n abufuohye\u025b gya a na \u025bredere tia
+  y\u025bn no. \u0186y\u025b \u0186ba, a na \u0254ne Agya no w\u0254 h\u0254 daa a
+  \u025bnni \u025bwie\u025b. Nanso y\u025bn nkwagye\u025b nti Agya no yii nani hintaa
+  no, na ama y\u025bafa nadom no so ne no anya nkabom. Obiara nntumi nhunu \u0254yaw
+  soronko a \u0186ba no faa mu w\u0254 Agya no anim maa y\u025bn. Onyankop\u0254n
+  Baasa Koro no faa \u0254yaw mu maa y\u025bn nkwagye\u025b.\\nKristo nipadua faa
+  ateetee mu ne \u0254yaw k\u025bse\u025b mu. Na \u0254teamu s\u025b, \\\"Agya, gye
+  me fri saa d\u0254n yi mu.\\\" Na \u0254tee Honhom no nne s\u025b \u0254geeso w\u0254
+  nakoma mu s\u025b, \\\"Saa d\u0254n yi mu nti na w\u0254woo wo\u0254. Na saa d\u0254n
+  yi ne botae\u025b a \u025by\u025b daa nkwa a \u025bnni \u025bwie\u025b. Ab\u0254de\u025b
+  nyinaa ne Agya no retwen saa d\u0254n yi, na ama nnipa nyinaa atumi abata Onyankop\u0254n
+  ho, na ab\u0254de\u025b nyinaa ak\u0254 \u0254b\u0254ade\u025b no nkyen. Na \u025byi
+  mu na nkwagye\u025b ho nhyehy\u025be\u025b nyinaa b\u025btumi ahy\u025bma.\\\"\\nNa
+  \u025bno mu no, Yesu teamu s\u025b, \\\"Agya, hy\u025b wo din annuoyam!\\\" Na \u0186ba
+  no rentie honam nne. Na \u0254b\u0254\u0254 mpae\u025b w\u0254 Honhom Kronkron no
+  mu s\u025b, \\\"Wodin ho ntew. S\u025bde\u025b \u025bb\u025by\u025b na wiase nyinaa
+  b\u025bhunu s\u025b wonny\u025b Onyankop\u0254n a wommb\u0254 hu, na wommmi akyirikyiri
+  na \u025bfei nso wonny\u025b \u0254boafo\u0254, na mmom wob\u025bhunu s\u025b woy\u025b
+  Agya a \u0254d\u0254 ahy\u025b wo ma, a w\u0254de wo ho maae\u025b w\u0254 \u0186ba
+  no mu de gyee wiase amumuy\u025b ne ayera mma nkwa.\\nNa Onyankop\u0254n y\u025b\u025b
+  nt\u025bm gyee ne Ba no so. Na obuaa no frii soro. \\\"Mahy\u025b me din annuoyam
+  w\u0254 wo mu. Woy\u025b me Ba setie ne ahobr\u025b\u025baase\u025bni. \u0190no
+  nti obiara ohunu wo\u0254 no, ohunu me. Na wone me d\u0254 Ba, na wona wos\u0254
+  mani. Na minnni anigyie biara w\u0254 baabiara agyes\u025b wo mu ne as\u025bndua
+  no so. W\u0254 wo nkunimdie wuo no mu, na meyi mannuoyam tumi no \u025bdi w\u0254
+  abrab\u0254 haw ahorro\u0254 mu akyer\u025be\u025b. W\u0254 as\u025bndua no na woyii
+  ntease\u025b a \u025bw\u0254 mannuoyam ne me kronkrony\u025b mu \u025bdi kyer\u025b\u025be\u025b.
+  Na \u025by\u025b \u0254d\u0254 na \u025bmaa w\u0254b\u0254\u0254 af\u0254re\u025b
+  soronko na w\u0254de wo ho maae\u025b maa won a anka wonns\u025b mmfata na won akoma
+  nso apirim.\\\"\\nNa \u0254soro nne no toaaso kasae\u025b p\u025bfee s\u025b, \\\"Mehy\u025b
+  me din annuoyam bio, s\u025b wos\u0254re firi awufo\u0254 mu na woforo ba me nkyen
+  w\u0254 soro ha, na wob\u025btena me nsa nifa w\u0254 annuoyam mu a, mehwie me Honhom
+  no agu woad\u0254fo\u0254 nyinaa so. Na mema m''Agyay\u025b din no ada \u025bdi
+  w\u0254 dodo\u0254 a wonya awo\u0254 foforo no nyinaa mu w\u0254 Honhom Kronkron
+  no tumi mu. Na won nyinaa b\u025bhy\u025b me annuoyam; na \u025bfei won atew me
+  din ho. Wo wuo w\u0254 as\u025bndua no so na ama Onyankop\u0254n mma anya awo\u0254
+  foforo. Na wodima mu annuoyam na ama as\u0254re no \u025bdi nkunim. Na wo nko wo
+  mu na ama Agya no annuoyam to nntwa dabiarada.\\\"\\nYOHANNE 12:29-33\\n29 \u025bnna
+  nkur\u0254fokuo a w\u0254gyina h\u0254 na w\u0254tee\u025b no kaa s\u025b, \\\"Aprannaa
+  abom! Ebinom se, \u0254b\u0254fo\u0254 ne no kasae.\\\" 30 Yesu bua kaa s\u025b:
+  \u025bny\u025b me nti na \u025bnne yi bae\u025b, na mo ntira. 31 Afei ne wiase atemmuo;
+  afei na w\u0254b\u025byi wiase sodifo\u0254 no h\u0254. 32 Na me de\u025b, s\u025b
+  w\u0254ma me so firi asase so a, m\u025btwe nnipa nyinaa maba me nky\u025bn. 33
+  Yei de\u025b, \u0254ka de kyer\u025b\u025b owu ko a \u0254reb\u025bwuo.\\nNa nkur\u0254fokuo
+  no nnim s\u025b Yesu ne Onyankop\u0254n \u025bkasa nya nkutahodie, na nne no a bae\u025b
+  te s\u025b apranaa. Won anntumi annhunu s\u025b Onyankop\u0254n y\u025b \u0254d\u0254,
+  na won anntumi annte ne nne no nso, na \u025bfei nso won annhunu s\u025b Onyankop\u0254n
+  adiyis\u025bm no a \u025by\u025b wiase at\u025bnbuo no ada \u025bdi w\u0254 ne Ba
+  no mu.\\n\u0186bonsam hweree nnipa a woafa won domum no, \u025bfiris\u025b Yesu
+  wui w\u0254 as\u025bndua no so de gyee y\u025bn nkwa. Na \u0254b\u0254nefo\u0254
+  no tumi nyinaa hwee fam na \u0254br\u025b\u025b ne ho ase maa \u0186ba no w\u0254
+  Agya no p\u025b mu. Na Yesu fr\u025b\u025b \u0254bonsam s\u025b wiase yi sodifo\u0254,
+  a \u025bkyer\u025b s\u025b wiase nyinaa da nabamu. W\u0254 \u0254yaw ne ateetee
+  nyinaa mu no Yesu, de ne trenee nkrante\u025b b\u0254\u0254 \u0254bonsam twaa no
+  hwee fam, na \u0254s\u025be ne ndwuma nyinaa. Na \u025bfei de\u025b y\u025by\u025b
+  mma a y\u025bade y\u025bn ho w\u0254 Yesu din mu.\\nNa woatwe y\u025bn aba nas\u025bndua
+  no ho. \u0186bonsam ko tiaa no kosii s\u025b anka onim a anka woammma Yesu annwu
+  w\u0254 as\u025bndua no so anaas\u025b ne fie mpo, nanso \u0254maa no so b\u0254\u0254
+  no as\u025bndua mu ma no wuui\u025b w\u0254 animguase\u025b mu. Na s\u025bde\u025b
+  Moses maa \u0254w\u0254 no so w\u0254 dua no so w\u0254 ser\u025b no so na \u025bmaa
+  Onyankop\u0254n abufuo br\u025b\u025b ase maa agyidifo\u0254 no, saa ara nso na
+  as\u025bndua no nso faa at\u025bnbuo nyinaa too ne ho so. Na Onyankop\u0254n mmbu
+  won a w\u0254ma won aniso hw\u025b as\u025bndua no so no at\u025bnbuo. \u0190firis\u025b
+  y\u025bn gyidie a \u025bw\u0254 Yesu mu no b\u0254 y\u025bne no as\u025bndua mu
+  na \u025btwe y\u025bn bata ne ho w\u0254 ne wuo mu. Na y\u025bawu ama b\u0254ne
+  na y\u025batena ase ama trenee.\\nNa y\u025bn nkabom a y\u025bw\u0254 w\u0254 Kristo
+  mu no ma y\u025bn akwanya w\u0254 Ne tumi ne nannuoyam mu. S\u025bde\u025b odii
+  b\u0254ne so ne owuo tumi so w\u0254 kronkrony\u025b mu no, saa ara nso na \u0254b\u025btwe
+  y\u025bn aba ne nkyen na \u0254de y\u025bn ak\u0254 nannuoyam mu. Na obiara a \u0254gye
+  no \u025bdie no rennyera, na mmom ob\u025bnya daa nkwa.\\nYOHANNE 12:34\\n34 Nkur\u0254fokuono
+  buaa no s\u025b: Y\u025bn de\u025b, y\u025bate no mmara no mu s\u025b, Kristo no
+  te h\u0254 daa; na ad\u025bn na wose: \u025btwa s\u025b w\u0254ma Onipa Ba no so\u0254?
+  Hwan ne Onipa Ba yi?\\nJewfo\u0254 no ne Yesu dii apreapre\u025b, na wobisaa no
+  s\u025b \u0254nkyer\u025b won de\u025b \u025bdi adanse\u025b p\u025bfee fa ne ho,
+  na ama won atumi agye no \u025bdi s\u025b \u0254y\u025b papa. Na wonim ns\u025bm
+  a \u025bw\u0254 Daniel nnwoma no mu w\u0254 nkyeky\u025bmu 7 no mu, \u025bh\u0254
+  na \u025bka s\u025b Mesaia no y\u025b Onipa Ba ne wiase nyinaa at\u025bnbuafo\u0254
+  no. Nanso na w\u0254p\u025bs\u025b w\u0254te fri nanom s\u025b \u0254no ne Onyankop\u0254n
+  Ba no. Na won anngye saa as\u025bm yinom anndi, na w\u0254kaa ns\u025bm a \u025bnim
+  mmom, na y\u025bnnhw\u025b s\u025b \u0254y\u025b de\u025b \u0254se \u0254y\u025b
+  no anaa. Na \u025bbinom y\u025b atanfo\u0254 a na w\u0254w\u0254 adwene b\u0254ne
+  nso, na w\u0254p\u025b\u025bs\u025b w\u0254b\u0254 no sombo\u0254 s\u025b woaka
+  abusus\u025bm, \u025bfiris\u025b woaka s\u025b \u0254y\u025b Onyame Ba a na \u0254y\u025b
+  onipa ba. Na Yesu annyi ne \u025bdi p\u025bfee annkyer\u025b won a na w\u0254rey\u025b
+  ne ho nhwehw\u025bmu no, na mmom oyii ne ho \u025bdi kyer\u025b\u025b agyidifo\u0254
+  no, a w\u0254maa kwan ma Honhom Kronkron no b\u025bhw\u025b\u025b won ma no, won
+  a w\u0254paemu kaa s\u025b Onipa Ba no y\u025b Onyankop\u0254n Ba no, w\u0254 won
+  nney\u025b\u025b nyinaa mu.\\nYOHANNE 12:35\\n35 \u025bnna Yesu ka kyer\u025b\u025b
+  w\u0254n s\u025b, \\\"Aka hann no ber\u025b tiaa bi w\u0254 mo mu. Mow\u0254 hann
+  no yi, monnante, na esum amm\u025bto mo; na de\u025b \u0254nam sum mu no nnim faako
+  a \u0254rekor\u0254.\\\"\\nYesu ne wiase kanea no, s\u025b obi p\u025bs\u025b ohunu
+  kanea no a nkyer\u025bkyer\u025bmu tenten biara nni mu bebree. \u0190da \u025bdi
+  p\u025bfee ma obiara tumi hunu kanea no, \u025bfiris\u025b nsonsonoe\u025b da \u025bne
+  \u025bsum n9 ntam. Na \u025bhyan w\u0254 h\u0254 yi obiara b\u025btumi atu kwan,
+  na ob\u025btumi anante anaas\u025b ob\u025btu mirika. Na anadwo de\u025b, obiara
+  nntumi nny\u025b adwuma. Na \u025bmber\u025b a \u025bwia guso reb\u0254 no, \u025by\u025b
+  adwuma mber\u025b. Yesu ka kyer\u025b\u025b Jewfo\u0254 no s\u025b w\u0254w\u0254
+  mber\u025b kakraabi s\u025b w\u0254b\u025bnante \u025bhyan no mu, s\u025b w\u0254p\u025b
+  a. Saa mber\u025b no y\u025b gyinae\u025b si mber\u025b, s\u025b w\u0254de won ho
+  nyinaa b\u025bma no ama won \u025bsipi.\\nNanso obiara a \u0254b\u025bpo kanea no,
+  \u0254b\u025btena \u025bsum kabii mu, na \u0254rennhunu nakwan mu yiye. Na Yesu
+  ka kyer\u025b\u025b Jewfo\u0254 no s\u025b, wob\u025bsinti w\u0254 \u025bsum kabii
+  mu, a anidaso\u0254 biara nni h\u0254 ma won. Na saa \u025bsum no nny\u025b wiase
+  sum a y\u025bde y\u025bniwa hunu yi. Na mmom \u025by\u025b \u025bsum kabii a \u025bw\u0254
+  \u0254kra no mu, a \u025by\u025b ahonhomfi na \u025bde ba onipa honhom mu. Na \u025bma
+  saa nipa no abrab\u0254 nyinaa b\u025by\u025b \u025bsum kabii. \u0190no nti obiara
+  a \u0254nngye Kristo no nndie no, saa \u025bsum kabii yi b\u025bdi no so. Wob\u025btumi
+  ahunu, de\u025bn nti a \\\"Kristofo\u0254\\\" aman binom ab\u025by\u025b \u025bsum
+  kabii w\u0254 wiase yi mu? \u0190ny\u025b obiara a w\u0254woo no \\\"Kristoni\\\"
+  na \u025bde ne ho ama Kristo. Nnipa kakraabi na \u025bw\u0254 won mu a won ab\u025by\u025b
+  Kristofo\u0254. \u0190sum di obiara \u0254mmfaa ne ho nnhy\u025b\u025b kanea no
+  ase. Na \u025bba no saa a worenntumi nnya nhyira a \u025bfiri As\u025bmpa no mu
+  ba no bi. Agyes\u025b woagye atomu, na woay\u025b osetie de wo ho ama Kristo ansana
+  wob\u025bhunu kanea no.\\nYOHANNE 12:36\\n36 \\\"Mow\u0254 hann no yi, monnye hann
+  no nni, na moay\u025b hann no mma.\\\" Yesu kaa yeinom, na \u0254firi w\u0254n anim
+  h\u0254 k\u0254huntae\u025b.\\nApam a wone Kristo anya w\u0254 gyidie mu no b\u025bma
+  woay\u025b soronko koraa. Na As\u025bmpa no yi Onyankop\u0254n anuuoyam \u025bdi
+  kyer\u025b, na \u025by\u025b tumi k\u025bse\u025b sene ade\u025b biara. Na s\u025bde\u025b
+  akode\u025b s\u025be nno\u0254ma no, saa ara nso na Kristo kanea no de daa nkwa
+  ba y\u025bn mu ne no, na ama ogyidifo\u0254 no ab\u025by\u025b kanea mma ne abusuakuo
+  bebree. So wode wo ho ama Kristo no anaa, a nokor\u025bdie ahy\u025b wo ma, ne ahote\u025b
+  ne \u0254d\u0254? Yesu refr\u025b wo afri wo sum kabii no mu aba Ne hyan wawaso\u0254
+  no mu na ama woab\u025by\u025b kronkron koraa.\\nNa \u0254kaa saa ns\u025bm yinom
+  w\u0254 ber\u025b a \u0254rek\u0254 Yerusalem no, na woamfa tumi so ne Romanfo\u0254
+  no anndi ako anaa Herodi. Na mmom na onim s\u025b ne ko no aba awie\u025b na wiase
+  at\u025bnbuo nso ab\u025bn. Kanea no hyeren \u025bsum mu; na agyidifo\u0254 b\u025bnya
+  nkwa, na won a wonngye nndie no b\u025byera. Na \u0186soro ne asaase apreapre\u025b
+  no aba nawie\u025b. Na Onyankop\u0254n nnhy\u025b onipa biara s\u025b \u0254ngye
+  nni. So woab\u025by\u025b kanea no ba anaas\u025b wodaso te \u025bsum kabii nkoasom
+  mu?\\nMPAEB\u0186: Y\u025bda wo ase Awurade Yesu, s\u025b woyii wo ho \u025bdi s\u025b
+  wiase kanea. Y\u025bsr\u025b wo s\u025b twe y\u025bn bra wo mm\u0254borohunu hyan
+  no mu, na ma y\u025bny\u025b mm\u0254borohunufo\u0254 nso. Yi y\u025bn fri sika
+  aniber\u025b ho, ne wiase tumidie ho, na ama y\u025batumi \u025bdi wakyi w\u0254
+  nokor\u025b mu, na y\u025batena wo mu s\u025b hyann mma\\nNS\u0190MBISA:\\n- S\u025bn
+  na asekyer\u025b s\u025b y\u025by\u025b hyan mma?\"", "\"NKY\u0190M A EDI KAN\\nNNWOM
+  1-41\\n\u0186treneeni ne \u0254deb\u0254ney\u025bfo\\n1Nhyira nka onipa a ontie
+  nneb\u0254ney\u025bfo afotu, na onni nneb\u0254ney\u025bfo nney\u025be akyi, na
+  onni w\u0254n a wodi f\u025bw nso akyi. 2 Na mmom, \u0254de anigye di Awurade mmara
+  so, na odwen ho awia ne anadwo nyinaa. 3 \u0186te s\u025b nnua a enyin w\u0254 asuten
+  ho, na \u025bsow aba bere a \u025bs\u025b mu a ne nhaban no nguan. Odi nkonim w\u0254
+  biribiara a \u0254y\u025b mu.\\n4 Nanso nneb\u0254ney\u025bfo nte saa; w\u0254te
+  s\u025b nt\u025bt\u025b a mframa b\u0254 gu. 5 Onyankop\u0254n bebu nneb\u0254ney\u025bfo
+  f\u0254, na w\u0254atew w\u0254n afi ne nkur\u0254fo ho. 6 Awurade kyer\u025b atreneefo
+  kwan, na \u0254b\u0254 w\u0254n ho ban. Na nneb\u0254ney\u025bfo de, w\u0254rek\u0254
+  w\u0254n s\u025be mu.\\n1How well God must like you\u2014\\nyou don\u2019t hang
+  out at Sin Saloon,\\nyou don\u2019t slink along Dead-End Road,\\nyou don\u2019t
+  go to Smart-Mouth College.\\n2-3 Instead you thrill to God\u2019s Word,\\nyou chew
+  on Scripture day and night.\\nYou\u2019re a tree replanted in Eden,\\nbearing fresh
+  fruit every month,\\nNever dropping a leaf,\\nalways in blossom.\\n4-5 You\u2019re
+  not at all like the wicked,\\nwho are mere windblown dust\u2014\\nWithout defense
+  in court,\\nunfit company for innocent people.\\n6 God charts the road you take.\\nThe
+  road they take is Skid Row.\"", "\"Visit Joe\u2019s Website: www.joebhewitt.net\\nW\u0254tetee
+  no s\u025b Yehowa danseni fii bere a woadi mfe awotwe (8) na ne mf\u025bfo k\u0254\u0254so
+  taa no, efis\u025b ne gyidi no mfata Amerikani. \u201cD\u025bn nti na wuntumi ny\u025b
+  Amerika \u0254man ahop\u025b ne \u0254man no ho d\u0254 a bere koro no ara obetumi
+  ay\u025b nokwaredifo ama Onyankop\u0254n? Eyi y\u025b nea \u025bmfata, \u0254dwenee.
+  \u201cM\u2019adwene atim w\u0254 \u0186w\u025bn Aban no nkyer\u025bkyer\u025b mu.
+  Seesei de m\u2019ade meho. Minim nnipa b\u025by\u025b \u0254ha a w\u0254nny\u025b
+  Yehowa Adansefo bio a seesei w\u0254y\u025b Kristofo. W\u0254y\u025b Kristofo a
+  wow\u0254 anigye a minim. Obi a woab\u0254 no dua mu no ani gye ahofadi ho ankasa.\"",
+  "\"Ambros Dery (W\u0254 woo no afe 1956) y\u025b Ghanani amany\u0254ni, \u0254y\u025b
+  Soafoa a \u0254hw\u025b Afis\u025bm ne mmarahy\u025b baguani a ogyina h\u0254 ma
+  Nandom abato\u0254 mp\u025bsoa so. Odii nkunim w\u0254 afe 2016 abato\u0254 a \u025bk\u0254\u0254
+  so no mu w\u0254 New Patriotic Party din mu.\\nNe ho ns\u025bm[sesa]\\nDery y\u025b
+  mmarinimfo a \u0254k\u0254\u0254 suap\u025bn a \u025bde University of Ghana w\u0254
+  afe 1977 bre a owie ntoaso sukuu a \u025bde Navrongo Secondary School, na onyaa
+  ab\u0254din krataa w\u0254 mmaranim mu a \u025bde (LL. B) na wofr\u025b\u025b no
+  kaa Ghana mmaranimfo kuo a \u025bde Ghana Bar no ho wo afe 1982.Ansa na \u0254beko
+  mmarhye bagua mu w\u0254 afe 2008 mu no, W\u0254paw Dery se Aban mmaranimfo abediakyire
+  wo afe 2003 mu. \u0254san nSo soom s\u025b Soafo mprenu; s\u025b Soafo a \u0254hw\u025b
+  Atifi At\u0254e Mantam mu firi afe 2004 kosi 2006 ne Soafoa a \u0254hw\u025b At\u025bntrene
+  so firi afe 2006 kosii 2007. Dery soom s\u025b \u0254kandifo ma d\u0254m kumaa w\u0254
+  mmarahy\u025b bagua a \u025bt\u0254 no nnum no mu w\u0254 Ghana. Dey dii nkunim
+  w\u0254 Nandom mmarahy\u025b bagua abato\u0254 no mu, na afei Lara-Nandom abato\u0254
+  mp\u025bsoa so w\u0254 2008 mu nanso, \u0254hweree agua no maa Benjanmin Kumbour
+  w\u0254 afe 2012 abatoo no mu. Soom s\u025b \u0254kwnakyer\u025bfo maa kuo a ne
+  din de Water Aid Partner Round Table (1993 - 2003 )\\nNe ho ns\u025bm[sesa]\\nAmbrose
+  y\u025b Romani na \u0254y\u025b \u0254warefo a \u0254w\u0254 ba baako\\nNkekaho[sesa]\\nNa
+  \u0254ka Constitutional, Legal ne Parliamentary ho ns\u025bm na \u0254sane ka Selection
+  kuo.\"", "\"D\u025bn Ne Nhwehw\u025bmu Adwumay\u025b ho Ns\u025bnkyer\u025bnne?
+  What Are Analytical Performance Indicators in Akan\\nNhwehw\u025bmu adwumay\u025b
+  ho ns\u025bnkyer\u025bnne y\u025b nnwinnade a \u025bho hia a w\u0254de susuw adwuma
+  biara nkonimdi. W\u0254de adwumakuw bi adwumay\u025b ho ns\u025bm a \u025bk\u0254
+  akyiri ma, na \u025bma wotumi te ahyehy\u025bde no aho\u0254den ne mmer\u025bwy\u025b
+  ahorow ase yiye. \u0190denam saa ns\u025bnkyer\u025bnnede ahorow yi mu nhwehw\u025bmu
+  so no, nnwumakuw betumi ahu mmeae a wobetumi anya nk\u0254so na w\u0254ay\u025b
+  akwan horow a w\u0254b\u025bfa so ama w\u0254n tumi ay\u025b k\u025bse. Saa as\u025bm
+  yi b\u025bhwehw\u025b hia a \u025bho hia w\u0254 nhwehw\u025bmu adwumay\u025b ho
+  ns\u025bnkyer\u025bnne ne s\u025bnea wobetumi de adi dwuma de ama adwuma bi adwumay\u025b
+  atu mp\u0254n.\\nAnalytical performance indicators y\u025b metrics a w\u0254de susuw
+  adwuma anaa ahyehy\u025bde bi adwumay\u025b. W\u0254de nhumu ma w\u0254 s\u025bnea
+  adwumay\u025b, akwan horow, ne akwan horow a w\u0254fa so y\u025b adwuma no tu mp\u0254n
+  ho, na wobetumi de akyer\u025b mmeae a \u025bs\u025b s\u025b wotu mp\u0254n. Wobetumi
+  de nhwehw\u025bmu adwumay\u025b ho ns\u025bnkyer\u025bnne adi dwuma de ahw\u025b
+  nk\u0254so a aba w\u0254 bere mu, de adwumay\u025b atoto akansifo ho, na w\u0254asusuw
+  nsakrae no nk\u025bnt\u025bnso. \u0190denam saa ns\u025bnkyer\u025bnnede ahorow
+  yi mu nhwehw\u025bmu so no, nnwumakuw betumi asi gyinae ahorow a \u025bfata a \u025bb\u025bboa
+  w\u0254n ma w\u0254adu w\u0254n botae ahorow ho.\\nD\u025bn Nti na Analytical Performance
+  Indicators Ho Hia? (Why Are Analytical Performance Indicators Important in Akan?)\\nNhwehw\u025bmu
+  adwumay\u025b ho ns\u025bnkyer\u025bnne ho hia efis\u025b \u025bma wonya s\u025bnea
+  adwuma bi rey\u025b yiye no ho ns\u025bm a \u025bk\u0254 akyiri. W\u0254de sikas\u025bm
+  mu mm\u0254denb\u0254, adet\u0254fo akomat\u0254yam, adwumay\u025b mu mm\u0254denb\u0254,
+  ne nsusuwii atitiriw afoforo susuw adwuma bi nkonimdi ho. \u0190denam saa ns\u025bnkyer\u025bnnede
+  ahorow yi a wodi akyi so no, nnwumakuw betumi ahu mmeae a \u025bs\u025b s\u025b
+  wonya nk\u0254so na w\u0254asi gyinae a \u025bfata w\u0254 s\u025bnea w\u0254b\u025bkyeky\u025b
+  nne\u025bma yiye ho.\\nNhwehw\u025bmu Adwumay\u025b Ns\u025bnkyer\u025bnne Ahodo\u0254
+  B\u025bn Ne? (What Are the Types of Analytical Performance Indicators in Akan?)\\nAnalytical
+  performance indicators y\u025b metrics a w\u0254de susuw adwuma anaa ahyehy\u025bde
+  bi nkonimdi. Yebetumi akyeky\u025b saa ns\u025bnkyer\u025bnnede yi mu akuw atitiriw
+  abien: sikas\u025bm ne nea \u025bny\u025b sikas\u025bm. Sikas\u025bm ho ns\u025bnkyer\u025bnne
+  kyer\u025b s\u025bnea adwuma bi sikas\u025bm y\u025b yiye, te s\u025b mfaso a wonya,
+  mfaso a wonya fi sika a w\u0254de asie mu, ne sika a wonya. Nne\u025bma a \u025bny\u025b
+  sikas\u025bm ho ns\u025bnkyer\u025bnne susuw s\u025bnea adwuma bi di yiye w\u0254
+  mmeae te s\u025b adet\u0254fo akomat\u0254yam, adwumay\u025bfo a w\u0254de w\u0254n
+  ho hy\u025b mu, ne gua so ky\u025bfa. \u0190denam saa ns\u025bnkyer\u025bnnede ahorow
+  yi a wodi akyi so no, nnwumakuw betumi anya w\u0254n adwumay\u025b ho nhumu na w\u0254asisi
+  w\u0254n daakye ho gyinae a \u025bfata.\\n\u0186kwan B\u025bn so na W\u0254de Analytical
+  Performance Indicators Di Dwuma w\u0254 Laboratory Testing mu? (How Are Analytical
+  Performance Indicators Used in Laboratory Testing in Akan?)\\nW\u0254de nhwehw\u025bmu
+  adwumay\u025b ho ns\u025bnkyer\u025bnne (API) di dwuma w\u0254 aduruy\u025bdan mu
+  s\u0254hw\u025b mu de susuw nea efi mu ba no mu p\u025bp\u025b\u025bp\u025b na \u025by\u025b
+  p\u025bp\u025b\u025bp\u025b. W\u0254de di dwuma de hw\u025b s\u025bnea s\u0254hw\u025b
+  no mu aba no te na w\u0254hw\u025b hu s\u025b aduruy\u025bdan no redu gyinap\u025bn
+  ahorow a \u025bfa p\u025bp\u025b\u025bp\u025by\u025b ne p\u025bp\u025b\u025bp\u025by\u025b
+  a aduruy\u025bdan no de asi h\u0254 no ho. W\u0254taa de API ahorow di dwuma de
+  toto nea efi s\u0254hw\u025b ahorow mu ba ho na w\u0254de hu nsonsonoe biara a \u025bw\u0254
+  w\u0254n ntam. Wobetumi nso de adi dwuma de ahu nne\u025bma biara a ebetumi ama
+  mfomso aba w\u0254 s\u0254hw\u025b nhyehy\u025be no mu. \u0190denam API ahorow a
+  w\u0254de di dwuma so no, aduruy\u025bdan ahorow betumi ahw\u025b ahu s\u025b nea
+  efi mu ba no y\u025b nea wotumi de ho to so na \u025by\u025b nokware.\\nDwuma b\u025bn
+  na Analytical Performance Indicators Di w\u0254 Quality Control mu? (What Is the
+  Role of Analytical Performance Indicators in Quality Control in Akan?)\\nAnalytical
+  performance indicators ho hia ma quality control, \u025bfiri s\u025b \u025bma susudua
+  a \u025bkyer\u025b s\u025bde\u025b akwan ne akwan a \u025bw\u0254 h\u0254 no tu
+  mp\u0254n. \u0190denam saa ns\u025bnkyer\u025bnnede ahorow yi akyi a wobedi so no,
+  wobetumi ahu mmeae a \u025bs\u025b s\u025b wonya nk\u0254so na w\u0254ahw\u025b
+  ahu s\u025b w\u0254redi gyinap\u025bn ahorow a \u025bfa nne\u025bma pa ho no so.
+  Wobetumi ay\u025b eyi denam s\u025bnea w\u0254b\u025bhw\u025b s\u025bnea data no
+  y\u025b p\u025bp\u025b\u025bp\u025b, s\u025bnea w\u0254y\u025b no nt\u025bmnt\u025bm,
+  s\u025bnea nea efi mu ba no hyia, ne s\u025bnea adey\u025b no nyinaa y\u025b adwuma
+  yiye no so.\\nNsonsonoe b\u025bn na \u025bda P\u025bp\u025b\u025bp\u025b ne P\u025bp\u025b\u025bp\u025b
+  ntam? (What Is the Difference between Accuracy and Precision in Akan?)\\nP\u025bp\u025b\u025bp\u025b
+  ne p\u025bp\u025b\u025bp\u025by\u025b y\u025b nsusuwii abien a \u025bho hia w\u0254
+  susuw mu. P\u025bp\u025b\u025bp\u025b kyer\u025b s\u025bnea susudua bi b\u025bn
+  nokware bo no, bere a p\u025bp\u025b\u025bp\u025by\u025b kyer\u025b s\u025bnea susuw
+  b\u025bn w\u0254n ho w\u0254n ho. S\u025b nhw\u025bso no, s\u025b susudua bi y\u025b
+  p\u025bp\u025b\u025bp\u025b nanso \u025bny\u025b p\u025bp\u025b\u025bp\u025b a,
+  \u025bkyer\u025b s\u025b susudua no b\u025bn bo ankasa nanso susudua a w\u0254afa
+  no nhyia. \u0186kwan foforo so no, s\u025b susudua bi y\u025b p\u025bp\u025b\u025bp\u025b
+  nanso \u025bny\u025b p\u025bp\u025b\u025bp\u025b a, \u025bkyer\u025b s\u025b susudua
+  a w\u0254afa no y\u025b p\u025bp\u025b\u025bp\u025b nanso \u025bnb\u025bn bo a \u025bsom
+  ankasa. S\u025bnea \u025bb\u025by\u025b a wobenya nea efi mu ba a \u025by\u025b
+  p\u025bp\u025b\u025bp\u025b na \u025by\u025b p\u025bp\u025b\u025bp\u025b no, \u025bho
+  hia s\u025b w\u0254hw\u025b hu s\u025b susuw a w\u0254asusuw no y\u025b p\u025bp\u025b\u025bp\u025b
+  na \u025by\u025b p\u025bp\u025b\u025bp\u025b.\\nP\u025bp\u025b\u025bp\u025b ne p\u025bp\u025b\u025bp\u025by\u025b
+  y\u025b nsusuwii abien a \u025bho hia w\u0254 susuw mu. P\u025bp\u025b\u025bp\u025by\u025b
+  ne s\u025bnea bo a w\u0254asusuw no b\u025bn gyinap\u025bn anaa bo a wonim. P\u025bp\u025b\u025bp\u025by\u025b
+  ne baabi a susuw a w\u0254susuw mp\u025bn pii w\u0254 tebea horow a \u025bnsakra
+  mu no da nea efi mu ba koro no ara adi. Wobetumi asusuw p\u025bp\u025b\u025bp\u025by\u025b
+  ne p\u025bp\u025b\u025bp\u025by\u025b nyinaa denam nsonsonoe a \u025bda bo a w\u0254asusuw
+  ne bo a wogye tom ntam a wobebu ho akontaa no so. Dodow a nsonsonoe no sua no, dodow
+  no ara na susuw no y\u025b p\u025bp\u025b\u025bp\u025b na \u025by\u025b p\u025bp\u025b\u025bp\u025b.\\nD\u025bn
+  ne Mfomso Fibea a \u0190ka P\u025bp\u025b\u025bp\u025b ne P\u025bp\u025b\u025bp\u025b?
+  (What Are the Sources of Errors Affecting Accuracy and Precision in Akan?)\\nNne\u025bma
+  ahorow betumi anya p\u025bp\u025b\u025bp\u025by\u025b ne p\u025bp\u025b\u025bp\u025by\u025b
+  so nk\u025bnt\u025bnso. Eyinom bi ne nnipa mfomso, adwinnade mu mfomso, nne\u025bma
+  a atwa y\u025bn ho ahyia, ne s\u025bnea susuw no ankasa y\u025b p\u025bp\u025b\u025bp\u025b.
+  Nnipa mfomso betumi afi data a w\u0254ankyer\u025bw a \u025bnte\u025b, akontaabu
+  a \u025bnte\u025b, anaa nea efi mu ba no nkyer\u025base a \u025bnte\u025b mu aba.
+  Adwinnade no mfomso betumi afi calibration a \u025bnte\u025b, adwinnade no a w\u0254mfa
+  nni dwuma yiye, anaas\u025b adwinnade no a w\u0254ansiesie no yiye. Nne\u025bma
+  a atwa y\u025bn ho ahyia betumi aka p\u025bp\u025b\u025bp\u025by\u025b ne p\u025bp\u025b\u025bp\u025by\u025b
+  denam nne\u025bma a \u025bsakra te s\u025b \u0254hyew, \u0254hyew, ne mframa nhy\u025bso
+  a w\u0254de b\u025bba so.\\n\u0186kwan B\u025bn so na Wobetumi Ama P\u025bp\u025b\u025bp\u025b
+  ne P\u025bp\u025b\u025bp\u025b Atu mp\u0254n? (How Can Accuracy and Precision Be
+  Improved in Akan?)\\nWobetumi ama p\u025bp\u025b\u025bp\u025by\u025b ne p\u025bp\u025b\u025bp\u025by\u025b
+  atu mp\u0254n denam susuw ahorow pii a w\u0254b\u025bfa na w\u0254ay\u025b no s\u025b
+  w\u0254kyekyem p\u025bp\u025b\u025bp\u025b no so. Eyi boa ma nne\u025bma a \u025bboro
+  so anaa mfomso biara a \u025bw\u0254 data no mu no nk\u025bnt\u025bnso so tew.\\nD\u025bn
+  Ne Akontaabu Akwan a \u0190fata a W\u0254de Hw\u025b P\u025bp\u025b\u025bp\u025b
+  ne P\u025bp\u025b\u025bp\u025b? (What Are the Appropriate Statistical Methods for
+  Evaluating Accuracy and Precision in Akan?)\\nP\u025bp\u025b\u025bp\u025b ne p\u025bp\u025b\u025bp\u025by\u025b
+  y\u025b metrics mmienu a \u025bho hia a w\u0254de hw\u025b s\u025bnea akontabuo
+  nhw\u025bso\u0254 bi y\u025b adwuma. S\u025b obi b\u025bsusu p\u025bp\u025b\u025bp\u025b
+  a, \u0254b\u025btumi de metrics te s\u025b mean absolute error (MAE), mean squared
+  error (MSE), ne root mean squared error (RMSE) adi dwuma. S\u025b obi b\u025bsusu
+  p\u025bp\u025b\u025bp\u025b a, \u0254b\u025btumi de metrics te s\u025b mean absolute
+  percentage error (MAPE), mean absolute deviation (MAD), ne coefficient of determination
+  (R-squared) adi dwuma. Wobetumi de saa metrics yi atoto nhw\u025bso ahorow ho na
+  w\u0254ahu nea \u025by\u025b p\u025bp\u025b\u025bp\u025b na \u025by\u025b p\u025bp\u025b\u025bp\u025b
+  sen biara.\\nNkate ne p\u0254teey\u025b y\u025b nne\u025bma abien a \u025bho hia
+  a \u025bkyer\u025b s\u025bnea w\u0254y\u025b no p\u025bp\u025b\u025bp\u025b w\u0254
+  aduruy\u025b mu s\u0254hw\u025b ahorow mu. Nkate y\u025b tumi a s\u0254hw\u025b
+  bi tumi hu w\u0254n a w\u0254w\u0254 yare no yiye, bere a specificity y\u025b tumi
+  a s\u0254hw\u025b bi tumi hu w\u0254n a wonni yare no yiye. \u0186kwan foforo so
+  no, nkate susuw nne\u025bma pa a w\u0254ahu no yiye no f\u00e3, bere a specificity
+  susuw nne\u025bma a enye ankasa a w\u0254ahu no yiye no f\u00e3. Nne\u025bma abien
+  no nyinaa ho hia na ama w\u0254ahu s\u025b aduruy\u025b mu nhwehw\u025bmu bi y\u025b
+  p\u025bp\u025b\u025bp\u025b.\\n\u0186kwan B\u025bn so na W\u0254susu Nkate ne Nne\u025bma
+  p\u0254tee? (How Are Sensitivity and Specificity Measured in Akan?)\\nNkate ne p\u0254teey\u025b
+  y\u025b nne\u025bma abien a \u025bho hia a \u025bkyer\u025b s\u025bnea w\u0254y\u025b
+  no p\u025bp\u025b\u025bp\u025b w\u0254 aduruy\u025b mu s\u0254hw\u025b ahorow mu.
+  Nkate susuw nne\u025bma pa a w\u0254ahu no yiye no f\u00e3, bere a specificity susuw
+  nne\u025bma a enye ankasa a w\u0254ahu no yiye no f\u00e3. \u0186kwan foforo so
+  no, nkate kyer\u025b tumi a s\u0254hw\u025b bi tumi hu w\u0254n a w\u0254w\u0254
+  yare no yiye, bere a specificity kyer\u025b tumi a s\u0254hw\u025b bi tumi hu w\u0254n
+  a wonni yare no yiye. Nne\u025bma abien no nyinaa ho hia na ama w\u0254ahu s\u025b
+  aduruy\u025b mu nhwehw\u025bmu bi y\u025b p\u025bp\u025b\u025bp\u025b.\\nD\u025bn
+  ne Mfomso Fibea a \u0190ka Nkate ne P\u025bp\u025b\u025bp\u025b\u025bp\u025b? (What
+  Are the Sources of Errors Affecting Sensitivity and Specificity in Akan?)\\nMfomso
+  ahorow a \u025bka nkate ne p\u0254teey\u025b betumi afi mmeae ahorow aba. Eyinom
+  bi ne ns\u025bm a w\u0254akyeky\u025b mu w\u0254 \u0254kwan a \u025bnte\u025b so,
+  nsusuwii a \u025bnte\u025b a \u025bfa nnipa dodow ho, ne akwan a \u025bnte\u025b
+  a w\u0254fa so de nhw\u025bsode di dwuma.\\n\u0186kwan B\u025bn so na Wobetumi Ama
+  Nkate ne Nne\u025bma p\u0254tee a W\u0254y\u025b no Atu mp\u0254n? (How Can Sensitivity
+  and Specificity Be Improved in Akan?)\\nWobetumi anya nkate ne p\u0254teey\u025b
+  a \u025bb\u025bma atu mp\u0254n denam nhw\u025bsode no parameters a w\u0254b\u025bma
+  ay\u025b papa no so. Wobetumi ay\u025b eyi denam nsakrae a w\u0254b\u025by\u025b
+  w\u0254 model no threshold no mu, a \u025bkyer\u025b s\u025bnea model no kyeky\u025b
+  input bi mu.\\nD\u025bn Ne Akontaabu Akwan a \u0190fata a W\u0254fa so Hw\u025b
+  Nkate ne P\u025bp\u025b\u025bp\u025b\u025bp\u025b? (What Are the Appropriate Statistical
+  Methods for Evaluating Sensitivity and Specificity in Akan?)\\nS\u025b w\u0254resusuw
+  nkate ne p\u0254teey\u025b ho a, \u025bho hia s\u025b w\u0254de akontaabu akwan
+  a \u025bfata di dwuma. Akwan a w\u0254taa fa so y\u025b adwuma ne Receiver Operating
+  Characteristic (ROC) curves ne Area Under the Curve (AUC). W\u0254de ROC curves
+  di dwuma de hw\u025b s\u025bnea binary classifier bi y\u025b adwuma, bere a w\u0254de
+  AUC di dwuma de susuw s\u025bnea classifier bi y\u025b adwuma nyinaa. Saa akwan
+  abien yi nyinaa ho w\u0254 mfaso ma nhwehw\u025bmu a w\u0254de hw\u025b s\u025bnea
+  nhw\u025bsode bi y\u025b p\u025bp\u025b\u025bp\u025b w\u0254 nea ebefi s\u0254hw\u025b
+  bi a w\u0254de ama mu aba no ho nk\u0254mhy\u025b mu.\\nAnohyeto a w\u0254de hu
+  no ne ade bi dodow a \u025bba fam sen biara a wobetumi de ho ato so denam nhwehw\u025bmu
+  kwan bi a w\u0254de ama so. \u0190y\u025b ade a \u025bho hia a \u025bs\u025b s\u025b
+  wosusuw ho bere a w\u0254rey\u025b nhwehw\u025bmu biara no, efis\u025b ebetumi aka
+  s\u025bnea nea efi mu ba no y\u025b p\u025bp\u025b\u025bp\u025b na \u025by\u025b
+  p\u025bp\u025b\u025bp\u025b. S\u025bnea \u025bb\u025by\u025b a w\u0254b\u025bhw\u025b
+  s\u025b nea ebefi mu aba no y\u025b nea wotumi de ho to so no, \u025bho hia s\u025b
+  w\u0254te anohyeto a \u025bw\u0254 detection mu ne s\u025bnea ebetumi anya nk\u025bnt\u025bnso
+  w\u0254 nnwinnade ko a w\u0254de di dwuma, nhw\u025bsode ahosiesie, ne nhwehw\u025bmu
+  ko a w\u0254rey\u025b no ase.\\nDodowy\u025b y\u025b \u0254kwan a w\u0254fa so kyer\u025b
+  biribi dodow anaa dodow. Anohyeto a \u025bw\u0254 dodow mu ne biribi dodow a \u025bsen
+  biara a wobetumi asusuw anaa w\u0254akyer\u025b no p\u025bp\u025b\u025bp\u025b.
+  \u0190ho hia s\u025b y\u025bte dodow a w\u0254de kyer\u025b anohyeto no ase bere
+  a w\u0254rey\u025b nhwehw\u025bmu anaas\u025b w\u0254rey\u025b akontaabu no, efis\u025b
+  ebetumi aka nea efi mu ba no p\u025bp\u025b\u025bp\u025b. S\u025b nhw\u025bso no,
+  s\u025b anohyeto a w\u0254de kyer\u025b dodow no sua dodo a, ebia nea ebefi mu aba
+  no reny\u025b nokware. \u0186kwan foforo so no, s\u025b anohyeto a w\u0254de kyer\u025b
+  dodow no d\u0254\u0254so dodo a, ebia nea ebefi mu aba no b\u025by\u025b p\u025bp\u025b\u025bp\u025b
+  dodo na ebia mfaso nni so. Enti, \u025bho hia s\u025b wote dodow a w\u0254de kyer\u025b
+  anohyeto no ase ansa na woay\u025b nhwehw\u025bmu anaa akontaabu biara.\\n\u0186kwan
+  B\u025bn so na W\u0254kyer\u025b Anohyeto a W\u0254de Hu ne Anohyeto a W\u0254de
+  Kyer\u025b Dodow? (How Are the Limit of Detection and Limit of Quantification Determined
+  in Akan?)\\nAnohyeto a \u025bw\u0254 detection ne quantification mu no, \u025bnam
+  s\u025bnea nhwehw\u025bmu kwan a w\u0254de di dwuma no te nka so na \u025bkyer\u025b.
+  Saa nkate yi gyina tumi a \u0254kwan no tumi hu na \u025bkyer\u025b dodow a analyte
+  a n\u2019ani gye ho w\u0254 nhw\u025bsode matrix no mu no so. Anohyeto a w\u0254de
+  hu no ne analyte a \u025bba fam koraa a wobetumi ahu nanso \u025bny\u025b nea \u025bkyer\u025b
+  ne dodow. Anohyeto a \u025bw\u0254 dodow a w\u0254de kyer\u025b no mu ne ade a w\u0254de
+  y\u025b nhwehw\u025bmu a wobetumi akyer\u025b dodow a \u025bba fam koraa. W\u0254nam
+  nhwehw\u025bmu kwan no so p\u025bp\u025b\u025bp\u025b na \u025by\u025b p\u025bp\u025b\u025bp\u025b
+  so na \u025bkyer\u025b anohyeto abien no.\\nD\u025bn ne Mfomso Fibea a \u0190ka
+  Anohyeto a W\u0254de Hu ne Anohyeto a W\u0254de Kyer\u025b Dodow? (What Are the
+  Sources of Errors Affecting the Limit of Detection and Limit of Quantification in
+  Akan?)\\nWobetumi akyeky\u025b mfomso\u0254 fibea a \u025bka anohyeto\u0254 a w\u0254de
+  hu ne anohyeto\u0254 a w\u0254de kyer\u025b dodo\u0254 no mu mmienu: nhyehy\u025be\u025b
+  mu mfomso\u0254 ne mfomso\u0254 a \u025bba kwa. Nne\u025bma te s\u025b adwinnade
+  a w\u0254de susuw nne\u025bma ho, nhw\u025bsode a wosiesie, ne nne\u025bma a atwa
+  y\u025bn ho ahyia na \u025bde mfomso a \u025bba w\u0254 nhyehy\u025be mu ba. Mfomso
+  a \u025bba kwa no fi nne\u025bma te s\u025b nhw\u025bsode a \u025bsakra, nnwinnade
+  dede, ne susuw mu mfomso. Mfomso ahorow abien no nyinaa betumi ama nea efi mu ba
+  no ny\u025b nokware na ebetumi aka anohyeto a w\u0254de hu ne anohyeto a w\u0254de
+  kyer\u025b dodow. S\u025bnea \u025bb\u025by\u025b a mfomso b\u025btew no, \u025bho
+  hia s\u025b w\u0254hw\u025b hu s\u025b w\u0254asusuw adwinnade no ho yiye, w\u0254asiesie
+  nhw\u025bsode no yiye, na w\u0254ahw\u025b nne\u025bma a atwa y\u025bn ho ahyia
+  no so.\\n\u0186kwan B\u025bn so na Wobetumi Ama Anohyeto a W\u0254de Hu ne Anohyeto
+  a W\u0254de Kyer\u025b Dodow no Atu mp\u0254n? (How Can the Limit of Detection and
+  Limit of Quantification Be Improved in Akan?)\\nWobetumi ama anohyeto a \u025bw\u0254
+  detection ne anohyeto a \u025bw\u0254 quantification mu no atu mp\u0254n denam nhwehw\u025bmu
+  akwan a \u025by\u025b mmer\u025bw k\u025bse a w\u0254de bedi dwuma so. S\u025b nhw\u025bso
+  no, s\u025b w\u0254de mass spectrometer a \u025bw\u0254 nsusuwii a \u025bkor\u0254n
+  anaas\u025b detector a \u025by\u025b mmer\u025bw k\u025bse di dwuma a, ebetumi aboa
+  ma anohyeto a w\u0254de hu ne anohyeto a w\u0254de kyer\u025b dodow no atu mp\u0254n.\\nLinearity
+  y\u025b adwene a \u025bkyer\u025b adwene a \u025bne s\u025b \u025bs\u025b s\u025b
+  as\u025bm bi nya nk\u0254so w\u0254 linear kwan so, a adey\u025b biara de ntease
+  k\u0254 nea edi h\u0254 no so. Eyi kyer\u025b s\u025b \u025bns\u025b s\u025b as\u025bm
+  no huruw di ak\u0254neaba w\u0254 bere mu anaas\u025b ns\u025bm a esisi a \u025bne
+  w\u0254n ho w\u0254n ho nni abusuab\u0254. Brandon Sanderson, nsusuwii hunu kyer\u025bwfo
+  a wagye din no taa de linearity di dwuma w\u0254 n\u2019as\u025bm ahorow mu, na
+  \u0254y\u025b as\u025bm a \u025bka bom a \u025bny\u025b den s\u025b wobedi akyi
+  na w\u0254ate ase.\\nRange y\u025b nsonsonoe\u025b a \u025bda botae\u025b a \u025bkor\u0254n
+  ne nea \u025bba fam ntam w\u0254 data ahodo\u0254 bi mu. \u0190y\u025b ade a w\u0254de
+  susuw s\u025bnea ns\u025bm no tr\u025bw na wobetumi de atoto ns\u025bm ahorow a
+  w\u0254ahyehy\u025b ho. S\u025b nhw\u025bso no, s\u025b data kuw biako w\u0254 10
+  na data foforo nso w\u0254 20 a, \u025bnde data a \u025bto so abien no tr\u025bw
+  k\u025bse sen nea edi kan no. Wobetumi nso de Range adi dwuma de ahunu outliers
+  w\u0254 data set bi mu, \u025bfiri s\u025b value biara a \u025bkor\u0254n anaa \u025bba
+  fam k\u025bse\u025b sene data nkae\u025b no b\u025bma range no ak\u0254 soro.\\nLinearity
+  ne range no nam abusuab\u0254 a \u025bda nhyehy\u025be bi a w\u0254de ba ne nea
+  w\u0254de fi mu ntam so na \u025bkyer\u025b. Linearity y\u025b dodo\u0254 a nhyehy\u025be\u025b
+  bi mu nsunsuanso\u0254 ne nea w\u0254de ba no hyia, ber\u025b a range y\u025b dodo\u0254
+  a nsusui\u025b a \u025bfiri mu ba no tumi fa. S\u025b nhw\u025bso no, s\u025b input
+  no y\u025b voltage a, output no betumi ay\u025b current, na linearity ne range a
+  \u025bw\u0254 system no mu no, anka abusuab\u0254 a \u025bda abien no ntam no b\u025bkyer\u025b.\\nD\u025bn
+  ne Mfomso Fibea a \u0190ka Linearity ne Range? (What Are the Sources of Errors Affecting
+  Linearity and Range in Akan?)\\nMfomso a \u025bka linearity ne range no betumi afi
+  nne\u025bma ahorow mu aba. Eyinom bi ne calibration a \u025bnte\u025b, temperature
+  compensation a \u025bnte\u025b, zero adjustment a \u025bnte\u025b, span adjustment
+  a \u025bnte\u025b, signal conditioning a \u025bnte\u025b, ne signal amplification
+  a \u025bnte\u025b.\\n\u0186kwan B\u025bn so na Wobetumi Ama Linearity ne Range Atu
+  mp\u0254n? (How Can Linearity and Range Be Improved in Akan?)\\nWobetumi anya linearity
+  ne range a \u025bb\u025bma atu mp\u0254n denam hw\u025b a w\u0254b\u025bhw\u025b
+  s\u025b s\u025bnkyer\u025bnne no mu y\u025b den na emu da h\u0254 no so. Wobetumi
+  ay\u025b eyi denam nne\u025bma a \u025bkor\u0254n te s\u025b afiri a \u025bma nne\u025bma
+  y\u025b k\u025bse ne antenna a w\u0254de bedi dwuma so, na w\u0254ahw\u025b ahu
+  s\u025b ns\u025bnkyer\u025bnne afoforo nsiw s\u025bnkyer\u025bnne no kwan anaas\u025b
+  \u025brensiw kwan no so.\\nAho\u0254den y\u025b tumi a nhyehy\u025be bi tumi gyina
+  basabasay\u025b ano na \u025bsan nya aho\u0254den na \u025bda so ara kura ne dwumadi
+  ahorow a \u025bho hia no mu. \u0190y\u025b tumi a nhyehy\u025be bi tumi k\u0254
+  so a nne\u025bma a efi akyi te s\u025b nsakrae a \u025bba nne\u025bma a atwa y\u025bn
+  ho ahyia mu anaas\u025b nea \u0254de di dwuma no nnya so nk\u025bnt\u025bnso. Aho\u0254den
+  y\u025b ade titiriw w\u0254 nhyehy\u025be biara a w\u0254y\u025b mu, efis\u025b
+  \u025bhw\u025b hu s\u025b nhyehy\u025be no betumi ak\u0254 so ay\u025b adwuma w\u0254
+  ns\u025bm a w\u0254nhw\u025b kwan mu. Aho\u0254den nso y\u025b ade titiriw a \u025bma
+  wotumi de ho to nhyehy\u025be bi so, efis\u025b \u025bhw\u025b hu s\u025b nhyehy\u025be
+  no betumi ak\u0254 so ay\u025b nea \u0254p\u025b s\u025b \u0254y\u025b bere mpo
+  a wohyia tebea horow a w\u0254nhw\u025b kwan no.\\nRuggedness y\u025b as\u025bmfua
+  a w\u0254de kyer\u025b s\u025bnea ade anaa ade bi ky\u025b na \u025by\u025b den.
+  W\u0254taa de kyer\u025b tumi a ade anaa ade bi tumi gyina tebea horow a emu y\u025b
+  den te s\u025b \u0254hyew a ano y\u025b den, s\u025bnea w\u0254de di dwuma denneennen,
+  ne s\u025bnea w\u0254de w\u0254n ho hy\u025b wim tebea mu ano. Nne\u025bma a \u025by\u025b
+  den y\u025b ade a \u025bho hia a \u025bs\u025b s\u025b wususuw ho bere a worepaw
+  nne\u025bma anaa nne\u025bma a w\u0254de bedi dwuma w\u0254 mmeae a emu y\u025b
+  den no.\\n\u0186kwan B\u025bn so na W\u0254susu Robustness ne Ruggedness? (How Are
+  Robustness and Ruggedness Measured in Akan?)\\nW\u0254taa de s\u025bnea ade no tumi
+  gyina nne\u025bma a atwa y\u025bn ho ahyia te s\u025b \u0254hyew, \u0254hyew, ne
+  wosow ano na \u025bkyer\u025b s\u025bnea \u025by\u025b den na \u025by\u025b den.
+  W\u0254y\u025b eyi denam s\u0254hw\u025b ahorow a w\u0254de y\u025b ade no toatoa
+  so a \u025by\u025b tebea horow a ebia ebehyia w\u0254 nea w\u0254p\u025b s\u025b
+  w\u0254de bedi dwuma no ho mfonini so. Afei w\u0254de nea efi s\u0254hw\u025b ahorow
+  yi mu ba no di dwuma de hu s\u025bnea aduru no y\u025b den na \u025by\u025b den.\\nD\u025bn
+  ne Mfomso Fibea a \u0190ka Robustness ne Ruggedness? (What Are the Sources of Errors
+  Affecting Robustness and Ruggedness in Akan?)\\nAho\u0254den ne nea \u025by\u025b
+  den y\u025b su abien a \u025bho hia w\u0254 nhyehy\u025be biara mu, na mfomso betumi
+  aka w\u0254n w\u0254 akwan horow so. Mfomso fibea betumi ay\u025b hardware a entumi
+  ny\u025b adwuma yiye, software b\u0254ne, nea \u0254de di dwuma no ns\u025bm a \u025bnte\u025b,
+  nne\u025bma a atwa y\u025bn ho ahyia, ne nea \u025bkeka ho. Bio nso, mfomso betumi
+  afi nsusuwii a \u025bnte\u025b anaas\u025b gyinaesi a \u025bnte\u025b a wosisi w\u0254
+  adwini ho. Saa nne\u025bma a \u025bde mfomso ba yi nyinaa betumi ama aho\u0254den
+  ne nea \u025by\u025b den no so atew, na ebetumi ama nhyehy\u025be no ay\u025b nea
+  wontumi mfa ho nto so anaas\u025b entumi nnyina. \u0190ho hia s\u025b w\u0254hunu
+  na w\u0254di saa mfomso\u0254 fibea yi ho dwuma s\u025bde\u025b \u025bb\u025by\u025b
+  a w\u0254b\u025bhw\u025b s\u025b nhyehy\u025be\u025b no b\u025bk\u0254 so ay\u025b
+  nea wotumi de ho to so na \u025by\u025b den.\\n\u0186kwan B\u025bn so na Wobetumi
+  Ama Aho\u0254den ne Nne\u025bma a \u0190y\u025b Den no Atu mp\u0254n? (How Can Robustness
+  and Ruggedness Be Improved in Akan?)\\nWobetumi ama s\u025bnea \u025by\u025b den
+  na \u025by\u025b den no atu mp\u0254n denam hw\u025b a w\u0254b\u025bhw\u025b s\u025b
+  w\u0254ay\u025b ade no s\u025bnea \u025bb\u025by\u025b a ebetumi agyina tebea a
+  w\u0254ahy\u025b da ay\u025b no mu kateey\u025b ano no so. Nea \u025bka eyi ho ne
+  nne\u025bma a \u025brentumi ns\u025be, ne nne\u025bma a w\u0254de y\u025b nne\u025bma
+  a etumi gyina \u0254hyew a ano y\u025b den, \u0254hyew, ne nne\u025bma afoforo a
+  atwa y\u025bn ho ahyia ano.\\n- Assessing hospital performance indicators. What
+  dimensions? Evidence from an umbrella review (opens in a new tab) by E Carini &
+  E Carini I Gabutti & E Carini I Gabutti EM Frisicale\u2026\\n- Conceptualizing and
+  specifying key performance indicators in business strategy models (opens in a new
+  tab) by A Mat & A Mat J Trujillo & A Mat J Trujillo J Mylopoulos\\n- A taxonomy
+  for key performance indicators management (opens in a new tab) by E Domnguez & E
+  Domnguez B Prez & E Domnguez B Prez L Rubio & E Domnguez B Prez L Rubio MA Zapata\\n-
+  Augmented reality tools for industrial applications: What are potential key performance
+  indicators and who benefits? (opens in a new tab) by J Jetter & J Jetter J Eimecke
+  & J Jetter J Eimecke A Rese\"", "\"\u201cMommma obi nny\u025b mmma nkonimbo no mmm\u0254
+  mo.\u201d\u2014KOL. 2:18.\\n1, 2. (a) Nkonimbo b\u025bn na Onyankop\u0254n asomfo
+  hw\u025b kwan? (b) D\u025bn na \u025bboa y\u025bn ma y\u025bde y\u025bn ani si nkonimbo
+  no so? (Hw\u025b mfonini a \u025bw\u0254 adesua yi mfiase no.)\\nKRISTOFO a w\u0254asra
+  w\u0254n no w\u0254 anidaso papa bi. W\u0254hw\u025b kwan s\u025b w\u0254b\u025bk\u0254
+  ak\u0254tena soro. \u0186somafo Paulo kae s\u025b saa anidaso no y\u025b \u201cnkonimbo
+  a \u025bne \u0254soro fr\u025b a efi Onyankop\u0254n h\u0254.\u201d (Filip. 3:14)
+  W\u0254n a w\u0254asra w\u0254n no hw\u025b kwan s\u025b w\u0254ne Yesu Kristo bedi
+  ade w\u0254 \u0254soro Ahenni no mu, na w\u0254ne no aboa adesamma ama w\u0254ay\u025b
+  p\u025b. (Adi. 20:6) Wei y\u025b hokwan a \u025bso bi nni; Onyankop\u0254n na \u0254de
+  ama w\u0254n! Nguan foforo no de\u025b, \u025bsono w\u0254n anidaso. W\u0254hw\u025b
+  kwan s\u025b wobenya nkonimbo a \u025bne daa nkwa w\u0254 asase so. Saa anidaso
+  no ma w\u0254n ani gye paa!\u20142 Pet. 3:13.\\n2 N\u00e1 Paulo p\u025b s\u025b
+  \u0254boa ne mf\u025bfo Kristofo a w\u0254asra w\u0254n no ma w\u0254k\u0254 so
+  di nokware na w\u0254n nsa ka nkonimbo no. Enti \u0254ka kyer\u025b\u025b w\u0254n
+  s\u025b: \u201cMomfa mo adwene nsi nne\u025bma a \u025bw\u0254 soro so.\u201d (Kol.
+  3:2) N\u00e1 ehia s\u025b w\u0254k\u0254 so de w\u0254n adwene si w\u0254n anidaso
+  papa bi a wobenya w\u0254 soro no so. (Kol. 1:4, 5) Nokwas\u025bm ne s\u025b, Yehowa
+  ahy\u025b ne nkur\u0254fo b\u0254 s\u025b obehyira w\u0254n. Onyankop\u0254n asomfo
+  binom w\u0254 anidaso s\u025b w\u0254b\u025bk\u0254 soro, afoforo nso de\u025b,
+  w\u0254n anidaso ne s\u025b w\u0254b\u025btena asase so. S\u025b wodwinnwen saa
+  nhyira no ho a, \u025bboa w\u0254n ma w\u0254de w\u0254n ani si nkonimbo no so.\u20141
+  Kor. 9:24.\\n3. Asiane ahorow b\u025bn na Paulo b\u0254\u0254 ne mf\u025bfo Kristofo
+  k\u0254k\u0254 w\u0254 ho?\\n3 Asiane ahorow bi a ebetumi ama nkonimbo no ab\u0254
+  Kristofo no, Paulo b\u0254\u0254 w\u0254n k\u0254k\u0254 w\u0254 \u025bno nso ho.
+  Ebi ne s\u025b, \u0254kyer\u025bw asafo a \u025bw\u0254 Kolose no kaa atoro Kristofo
+  bi ho as\u025bm kyer\u025b\u025b w\u0254n. N\u00e1 saa atorofo no mp\u025b s\u025b
+  wobegye Kristo adi, na mmom na wosusuw s\u025b, s\u025b wodi Mose Mmara no so a
+  \u025bnna wobenya Onyankop\u0254n anim dom. (Kol. 2:16-18) Paulo kaa asiane ahorow
+  bi a \u025bda so w\u0254 h\u0254 de besi nn\u025b nso ho as\u025bm. \u0190no nso
+  betumi ama nkonimbo no ab\u0254 y\u025bn. Nhw\u025bso bi ni. \u0186kyer\u025b\u025b
+  s\u025bnea yebetumi ako atia ak\u0254nn\u0254 b\u0254ne, s\u025bnea yebesiesie ns\u025bmns\u025bm
+  a \u025bs\u0254re w\u0254 y\u025bne y\u025bn nuanom Kristofo ntam, ne y\u025bn abusua
+  mu ns\u025bnnennen. Afotu a Paulo de mae no so w\u0254 mfaso ma y\u025bn nn\u025b.
+  \u0186d\u0254 a Paulo w\u0254 ma Kolosefo no nti na \u0254b\u0254\u0254 w\u0254n
+  k\u0254k\u0254. Enti momma y\u025bnhw\u025b k\u0254k\u0254b\u0254 no bi w\u0254
+  krataa a \u0254de k\u0254maa w\u0254n no mu.\\nMUNKUM AK\u0186NN\u0186 B\u0186NE\\n4.
+  Ad\u025bn nti na ak\u0254nn\u0254 b\u0254ne betumi ama nkonimbo no ab\u0254 y\u025bn?\\n4
+  Paulo kaee ne nuanom s\u025b w\u0254w\u0254 anidaso papa bi. Afei \u0254ka kyer\u025b\u025b
+  w\u0254n s\u025b: \u201cMunkum mo nipadua akwaa a \u025bw\u0254 asase so no w\u0254
+  aguamamm\u0254, afide, nna ho ak\u0254nn\u0254, nkate b\u0254ne, ne anibere a \u025by\u025b
+  abosonsom ho.\u201d (Kol. 3:5) Ak\u0254nn\u0254 b\u0254ne mu betumi ay\u025b den
+  paa, na ebetumi as\u025be y\u025bne Yehowa ntam na ama nne\u025bma pa a y\u025brehw\u025b
+  kwan no nso ab\u0254 y\u025bn. Ak\u0254nn\u0254 b\u0254ne maa onua bi fii asafo
+  no mu; akyiri yi \u0254san bae. \u0186kae s\u025b: \u201cAk\u0254nn\u0254 b\u0254ne
+  no mu y\u025b\u025b den araa ma m\u2019ani baa me ho so no, na aka akyi dodo.\u201d\\n5.
+  S\u025b y\u025bk\u0254 tebea bi a ebetumi ama y\u025bat\u0254 asiane mu a, y\u025bb\u025by\u025b
+  d\u025bn ab\u0254 y\u025bn ho ban?\\n5 S\u025b y\u025bk\u0254 tebea bi mu, na ebetumi
+  ama y\u025babu Yehowa mmara so a, \u025bs\u025b s\u025b y\u025bhw\u025b yiye paa.
+  \u0190ho nhw\u025bso bi ni. S\u025b \u0254barima ne \u0254bea bi p\u025b s\u025b
+  w\u0254ware a, \u025by\u025b papa s\u025b mfiase no ara w\u0254kyer\u025b baabi
+  a \u025bs\u025b s\u025b w\u0254y\u025b nne\u025bma kodu. S\u025b wosi gyinae s\u025b
+  obi beso ne y\u0254nko mu, w\u0254b\u025bfew w\u0254n ano, anaa w\u0254n nkutoo
+  b\u025btew w\u0254n ho ak\u0254hy\u025b baabi a, ehia s\u025b w\u0254hw\u025b yiye.
+  (Mmeb. 22:3) S\u025b Kristoni bi tu kwan s\u025b \u0254rek\u0254y\u025b adwuma a,
+  \u025bno nso betumi ama wahyia \u0254bras\u025be ho s\u0254hw\u025b. Saa ara na
+  s\u025b Kristoni barima ne \u0254bea bi y\u025b adwuma anaa Kristoni bea bi ne \u0254barima
+  bi y\u025b adwuma a, \u025bno nso betumi ama wahyia \u0254bras\u025be ho s\u0254hw\u025b.
+  (Mmeb. 2:10-12, 16) S\u025b wok\u0254 tebea bi a \u025bte saa mu a, da wo ho adi
+  s\u025b woy\u025b Yehowa Dansefo, y\u025b nea \u025bfata, na kae s\u025b, s\u025b
+  wode wo ho hyehy\u025b \u0254barima anaa \u0254bea bi a, ebetumi de \u0254haw k\u025bse
+  aba. S\u025b nne\u025bma haw y\u025bn na y\u025bn abam bu nso a, ebetumi ay\u025b
+  asiane k\u025bse ama y\u025bn. \u0190ba saa a, na y\u025bn ani agyina s\u025b yebenya
+  obi a \u0254b\u025bma y\u025bahu s\u025b odwen y\u025bn ho. Y\u025bn ho betumi ayeraw
+  y\u025bn araa ma obiara a \u0254b\u025bba ab\u025bkyekye y\u025bn wer\u025b no,
+  yebegye no atom. S\u025b \u025bba s\u025b wok\u0254 tebea a \u025bte saa mu a, ny\u025b
+  biribiara a \u025bb\u025bma nkonimbo no ab\u0254 wo. Mmom, k\u0254 Yehowa nky\u025bn
+  na hwehw\u025b mmoa fi wo nuanom Kristofo h\u0254.\u2014Kenkan Dwom 34:18; Mmebus\u025bm
+  13:20.\\n6. D\u025bn na \u025bs\u025b s\u025b y\u025bma \u025btena y\u025bn adwenem
+  w\u0254 nne\u025bma a y\u025bde gyigye y\u025bn ani ho?\\n6 S\u025b yebetumi akum
+  ak\u0254nn\u0254 b\u0254ne a \u025bw\u0254 y\u025bn mu a, gye s\u025b y\u025btwe
+  y\u025bn ho fi anigyede a \u0254bras\u025be wom ho. \u0190nn\u025b, nnwumakuw a
+  w\u0254y\u025b anigyede dodow no ara y\u025b w\u0254n ade te s\u025b tete Sodomfo
+  ne Gomorafo no. (Yuda 7) Adwene a saa nnwumakuw no akannifo kura w\u0254 abrab\u0254
+  ho no, \u025bno ara na w\u0254de y\u025b anigyede. W\u0254ma \u025by\u025b te s\u025b,
+  s\u025b obi b\u0254 aguaman a, as\u025bm biara nni ho, na \u0254rentwa so aba b\u0254ne
+  biara. \u0190ns\u025b s\u025b yegyaagyaa y\u025bn ho na yegye anigyede biara a w\u0254b\u025by\u025b
+  tom. Ehia s\u025b y\u025bpaw anigyede a \u025bremma nkwa nkonimbo no mm\u0254 y\u025bn.\u2014Mmeb.
+  4:23.\\n\u201cMONHY\u0190\u201d \u0186D\u0186 NE AYAMYE\\n7. \u0186haw b\u025bn
+  na yebetumi ahyia w\u0254 Kristofo asafo no mu?\\n7 Y\u025bn nyinaa gye tom s\u025b
+  \u025by\u025b nhyira s\u025b y\u025bw\u0254 Kristofo asafo no mu. Yesua Onyankop\u0254n
+  As\u025bm no w\u0254 asafo nhyiam ase, y\u025bda \u0254d\u0254 adi kyer\u025b y\u025bn
+  ho y\u025bn ho, na yeyi y\u025bn yam boa y\u025bn ho y\u025bn ho. Wei boa y\u025bn
+  ma y\u025bde y\u025bn ani si nkonimbo no so. Nanso \u025bt\u0254 da a, mente me
+  ho ase tumi de akasakasa ba asafo no mufo ntam. S\u025b y\u025banhw\u025b ansiesie
+  \u0254haw a \u025bte saa a, \u025bny\u025b den koraa s\u025b y\u025bde afoforo ho
+  ns\u025bm b\u025bhy\u025b y\u025bn mu.\u2014Kenkan 1 Petro 3:8, 9.\\n8, 9. (a) Suban
+  b\u025bn na yenya a, \u025bb\u025bboa y\u025bn ama y\u025bn nsa aka nkonimbo no?
+  (b) S\u025b y\u025bn nua Kristoni bi y\u025b biribi ma \u025bhaw y\u025bn a, d\u025bn
+  na \u025bb\u025bboa ama asomdwoe ak\u0254 so atena y\u025bn ntam?\\n8 D\u025bn na
+  y\u025bb\u025by\u025b na y\u025bamfa afoforo ho ns\u025bm anhy\u025b y\u025bn mu
+  na nkonimbo no amm\u0254 y\u025bn? Paulo ka kyer\u025b\u025b Kolosefo no s\u025b:
+  \u201cS\u025b\u0301 nnipa a Onyankop\u0254n apaw mo, akronkronfo ne ad\u0254fo no,
+  monhy\u025b ayamhyehye, ayamye, ahobr\u025base adwene, odwo, ne abodwoky\u025bre.
+  S\u025b obi w\u0254 as\u025bm tia ne y\u0254nko a, monk\u0254 so nnya mo ho abotare
+  na momfa mfirifiri mo ho korakora. S\u025bnea Yehowa de afiri mo no, mo nso mony\u025b
+  saa ara. Na eyinom nyinaa akyi no, monhy\u025b \u0254d\u0254 efis\u025b \u025by\u025b
+  koroy\u025b hama a \u025by\u025b p\u025b.\u201d\u2014Kol. 3:12-14.\\n9 S\u025b y\u025bw\u0254
+  \u0254d\u0254 ne ayamye a, ebetumi aboa y\u025bn ama y\u025bde afoforo b\u0254ne
+  aky\u025b w\u0254n. \u0190ho nhw\u025bso ni. S\u025b y\u025bn nua Kristoni bi ka
+  as\u025bm anaa \u0254y\u025b biribi ma \u025by\u025b y\u025bn yaw a, y\u025bn nso
+  y\u025bnkaakae y\u025bn tirim na yebehu s\u025b bere bi y\u025bkaa as\u025bm anaa
+  y\u025by\u025b\u025b biribi ma \u025bhaw obi. Bere a y\u025bn nuanom mmarima ne
+  mmea yii w\u0254n yam de y\u025bn mfomso ky\u025b\u025b y\u025bn saa no, y\u025bn
+  ani annye anaa? (Kenkan \u0186s\u025bnkafo 7:21, 22.) \u0190y\u025b y\u025bn d\u025b
+  paa s\u025b Kristo ayi ne yam aka nokware asomfo abom ama baakoy\u025b w\u0254n
+  y\u025bn mu. (Kol. 3:15) Onyankop\u0254n baako na y\u025bn nyinaa d\u0254 no, as\u025bmpa
+  koro na y\u025bn nyinaa ka, na \u0254haw a yehyia no pii y\u025b ade koro. S\u025b
+  yeyi y\u025bn yam da \u0254d\u0254 adi de b\u0254ne kyeky\u025b y\u025bn ho a, y\u025bboa
+  ma baakoy\u025b tena Kristofo asafo no mu, na \u025bma y\u025bk\u0254 so de y\u025bn
+  ani si nkwa nkonimbo no so.\\n10, 11. (a) Ad\u025bn nti na anibere anaa aho\u0254yaw
+  y\u025b hu? (b) D\u025bn na y\u025bb\u025by\u025b na anibere anaa aho\u0254yaw amma
+  nkonimbo no amm\u0254 y\u025bn?\\n10 Bible b\u0254 y\u025bn k\u0254k\u0254 s\u025b
+  anibere anaa aho\u0254yaw y\u025b hu, na ebetumi ama nkonimbo no ab\u0254 y\u025bn.
+  Nhw\u025bso bi ni. Kain ani beree ne nua Habel ma okum no. Kora, Datan, ne Abiram
+  ani beree Mose ma w\u0254s\u0254re tiaa no. Afei nso, bere a na nne\u025bma rek\u0254
+  yiye ma Dawid no, \u0186hene Saul ani beree no; anka \u0254rep\u025b no akum no.
+  Enti \u025bny\u025b nwonwa s\u025b Onyankop\u0254n As\u025bm ka s\u025b: \u201cBaabi
+  a aho\u0254yaw ne mansotwe w\u0254 no, \u025bh\u0254 na sakasaka ne akyide biara
+  w\u0254.\u201d\u2014Yak. 3:16.\\n11 S\u025b yeyi y\u025bn yam d\u0254 afoforo a,
+  \u025bb\u025by\u025b den s\u025b y\u025bn ani b\u025bbere w\u0254n. Onyankop\u0254n
+  As\u025bm ka s\u025b: \u201c\u0186d\u0254 w\u0254 abodwoky\u025bre na ne yam ye.
+  \u0186d\u0254 ny\u025b aho\u0254yaw.\u201d (1 Kor. 13:4) \u0190s\u025b s\u025b y\u025byere
+  y\u025bn ho nya Onyankop\u0254n adwene na yebu y\u025bn nuanom mmarima ne mmea s\u025b
+  nipa baako a y\u025bw\u0254 Kristofo asafo no mu. Y\u025by\u025b saa a, anibere
+  rennye ntini w\u0254 y\u025bn koma mu. Wei b\u025bboa y\u025bn ama y\u025banya tema
+  ama w\u0254n. Saa na Onyankop\u0254n As\u025bm tu y\u025bn fo s\u025b y\u025bny\u025b.
+  Bible ka s\u025b: \u201cS\u025b w\u0254hy\u025b kwaa bi anuonyam a, akwaa a aka
+  no nyinaa ne no di ahurusi.\u201d (1 Kor. 12:16-18, 26) Enti s\u025b obi nya hokwan
+  bi a, y\u025bn ani remmere no, na mmom y\u025bn ani begye. Y\u025bnhw\u025b \u0186hene
+  Saul ba Yonatan. Bere a Yehowa paw Dawid s\u025b \u0254no na obedi hene no, Yonatan
+  ani ammere no. \u0186hy\u025b\u025b Dawid nkuran mmom. (1 Sam. 23:16-18) Yebetumi
+  asuasua Yonatan na y\u025bayi y\u025bn yam ad\u0254 afoforo anaa?\\nNEA Y\u0190B\u0190Y\u0190
+  AMA Y\u0190N ABUSUA ANYA NKONIMBO NO\\n12. Bible mu afotu b\u025bn na y\u025bn abusua
+  de y\u025b adwuma a, \u025bb\u025bboa y\u025bn ama y\u025bn nsa aka nkonimbo no?\\n12
+  S\u025b abusua bi de Bible nnyinasos\u025bm y\u025b adwuma a, wobenya asomdwoe na
+  w\u0254n ani begye. Afei nso, \u025bb\u025bboa w\u0254n ama w\u0254anya nkonimbo
+  no. Bible mu afotu b\u025bn na Paulo de maa mmusua bere a \u0254kyer\u025bw Kristofo
+  a w\u0254w\u0254 Kolose no? \u0186kae s\u025b: \u201c\u0186yerenom, mommr\u025b
+  mo ho ase mma mo kununom, s\u025bnea \u025bfata Awurade mu. Okununom, monk\u0254
+  so nn\u0254 mo yerenom na mommma mo bo mmfuw w\u0254n denneennen. Mma, muntie mo
+  awofo as\u025bm ade nyinaa mu, na eyi na \u025bs\u0254 ani Awurade mu. Agyanom,
+  monnhy\u025b mo mma abufuw na w\u0254n abam ammu.\u201d (Kol. 3:18-21) Akyinnye
+  biara nni ho s\u025b, wugye tom s\u025b \u025bnn\u025b mpo okununom, \u0254yerenom,
+  ne mma de Paulo afotu a Onyankop\u0254n ma \u0254kyer\u025bwee no y\u025b adwuma
+  a, \u025bb\u025bboa w\u0254n.\\n13. Kristoni bea b\u025by\u025b d\u025bn aboa ne
+  kunu a \u0254ny\u025b Yehowa Dansefo ama wab\u025bsom Yehowa?\\n13 S\u025b woy\u025b
+  \u0254bea warefo na wote nka s\u025b wo kunu a \u0254ny\u025b Yehowa Dansefo ne
+  wo nni no yiye a, d\u025bn na wob\u025by\u025b? S\u025b wo ne no ham w\u0254 nea
+  \u0254rey\u025b no ho a, \u025bb\u025bma nne\u025bma ak\u0254 yiye anaa? S\u025b
+  mpo wutumi ma \u0254y\u025b nea wop\u025b ma wo a, \u025bb\u025bboa no ama waba
+  nokware no mu? Ebia \u0254remma. Nanso s\u025b wubu wo kunu s\u025b \u0254no ne
+  wo ti a, wubetumi aboa ama asomdwoe atena abusua no mu, wob\u025bhy\u025b Yehowa
+  anuonyam, na ebi mpo a wubetumi aboa no ama waba nokware som mu. Wei betumi ama
+  mo baanu nyinaa anya nkonimbo no.\u2014Kenkan 1 Petro 3:1, 2.\\n14. S\u025b Kristoni
+  barima yere a \u0254ny\u025b Yehowa Dansefo mmu no a, d\u025bn na \u025bs\u025b
+  s\u025b \u0254y\u025b?\\n14 S\u025b woy\u025b \u0254barima warefo na wote nka s\u025b
+  wo yere a \u0254ny\u025b Yehowa Dansefo mmu wo a, d\u025bn na wob\u025by\u025b?
+  S\u025b wop\u025b s\u025b wokyer\u025b no s\u025b wo na woy\u025b ne wura na wokekaw
+  mu gu ne so a, \u025bno b\u025bma wabu wo anaa? Dabida! Wo na woy\u025b abusua ti,
+  enti Onyankop\u0254n p\u025b s\u025b wod\u0254 wo yere; woy\u025b saa a, na woresuasua
+  Yesu. (Efe. 5:23) Yesu y\u025b asafo no ti, na \u0254de \u0254d\u0254 ne abotare
+  na edi asafo no so. (Luka 9:46-48) S\u025b okunu suasua Yesu a, obetumi anya ne
+  yere ama waba nokware som mu.\\n15. D\u025bn na Kristoni barima b\u025by\u025b de
+  akyer\u025b s\u025b \u0254d\u0254 ne yere?\\n15 Yehowa aka akyer\u025b okununom
+  s\u025b: \u201cMonk\u0254 so nn\u0254 mo yerenom na mommma mo bo mmfuw w\u0254n
+  denneennen.\u201d (Kol. 3:19) Okunu a \u0254d\u0254 ne yere di no ni; otie ne yere
+  adwenkyer\u025b, na \u0254ma ne yere hu s\u025b, s\u025b \u0254kyer\u025b n\u2019adwene
+  w\u0254 nne\u025bma ho a, \u025bboa no paa. (1 Pet. 3:7) S\u025b \u025bny\u025b
+  nea ne yere b\u025bka biara na \u0254b\u025by\u025b bere nyinaa mpo a, s\u025b \u0254taa
+  bisa n\u2019adwene w\u0254 nne\u025bma ho a, ebetumi aboa no ama wasisi gyinae a
+  \u025bfata. (Mmeb. 15:22) Okunu a \u0254d\u0254 ne yere nhy\u025b no s\u025b ommu
+  no, na mmom \u0254b\u0254 mm\u0254den s\u025b \u0254b\u025by\u025b nne\u025bma a
+  \u025bb\u025bma ne yere abu no. S\u025b okunu d\u0254 ne yere ne ne mma a, \u025breny\u025b
+  den s\u025b abusua no nyinaa de anigye b\u025bsom Yehowa na w\u0254anya nkwa nkonimbo
+  no.\\nMMABUN\u2014MOMMMA BIRIBIARA MMMA NKONIMBO NO MMM\u0186 MO!\\n16, 17. Woy\u025b
+  aberante anaa ababaa a, d\u025bn na wob\u025by\u025b na wo bo amfuw w\u2019awofo
+  denneennen?\\n16 Woy\u025b aberante anaa ababaa? Wote nka s\u025b w\u2019awofo a
+  w\u0254y\u025b Kristofo nte wo ase na w\u0254hy\u025b wo so dodo? Anhw\u025b a wo
+  bo betumi afuw araa ma woanya adwene mpo s\u025b gyama wugyae Yehowa som a wo ho
+  b\u025bt\u0254 wo. Nanso s\u025b abufuw nti wugyae Yehowa som a, \u025brenky\u025b
+  wubehu s\u025b obiara nni h\u0254 a odwen wo ho paa sen w\u2019awofo a wosuro Onyankop\u0254n
+  ne w\u2019asafo mufo.\\n17 Fa no s\u025b w\u2019awofo nte\u025b\u025b wo so da;
+  wob\u025by\u025b d\u025bn ahu s\u025b wodwen wo ho ankasa? (Heb. 12:8) Ebia \u0254kwan
+  a w\u2019awofo fa so te\u025b wo so no na \u025bhaw wo. Nanso mfa w\u2019adwene
+  nsi \u025bno so, na mmom b\u0254 mm\u0254den s\u025b wubehu nea enti a w\u0254te\u025b
+  wo so no. Enti nya abotare, mma wo bo mfuw denneennen s\u025b w\u0254aka w\u2019anim.
+  Onyankop\u0254n As\u025bm ka s\u025b: \u201cNea \u0254kora n\u2019ano no w\u0254
+  nimde\u025b, na nhumufo honhom dwo.\u201d (Mmeb. 17:27) Fa y\u025b wo botae s\u025b
+  wo ho b\u025bkokwaw na woay\u025b komm atie afotu. \u0190ns\u025b s\u025b woma \u0254kwan
+  a w\u2019awofo fa so tu wo fo no haw wo pii, na mmom sua biribi fi mu. (Mmeb. 1:8)
+  S\u025b wow\u0254 awofo a w\u0254d\u0254 Yehowa paa a, \u025bnde na woanya nhyira.
+  \u0190da w\u0254n koma so s\u025b w\u0254b\u025bboa wo ama woanya nkwa nkonimbo
+  no.\\n18. Ad\u025bn nti na woasi wo bo s\u025b wode w\u2019ani besi nkonimbo no
+  so?\\n18 S\u025b nkwa a owu nnim na yebenya w\u0254 soro oo, s\u025b daa nkwa na
+  yebenya w\u0254 asase so paradise oo, nkonimbo a \u025bda y\u025bn anim no, \u025bsom
+  bo paa, enti \u025bs\u025b s\u025b yegye bere dwinnwen ho. Y\u025bn anidaso no b\u025bbam
+  \u0254kwan biara so, efis\u025b \u0186b\u0254ade\u025b no ankasa na wahy\u025b y\u025bn
+  b\u0254. Onyankop\u0254n aka asase so Paradise no ho as\u025bm s\u025b: \u201cYehowa
+  ho nimde\u025b b\u025bhy\u025b asase so m\u00e3.\u201d (Yes. 11:9) Saa bere no,
+  Onyankop\u0254n b\u025bkyer\u025bkyer\u025b obiara a \u0254w\u0254 asase so. \u0190fata
+  paa s\u025b y\u025byere y\u025bn ho ma y\u025bn nsa ka saa nkonimbo no. Enti fa
+  w\u2019adwene si \u025bb\u0254 a Yehowa ahy\u025b no so, na mma biribiara mmma nkonimbo
+  no mmm\u0254 wo!\"", "\"Nnipa dodow no ara kasa tia awares\u025be, nanso awares\u025be
+  da so ara di mmusua pii nya.\\nD\u025bn ne awares\u025be?\\nNEA NKUR\u0186FO KA\\nAman
+  bi so no, s\u025b obi fi ne hokafo akyi a, w\u0254mfa no as\u025bm biara. Na mmarima
+  mpo de\u025b, w\u0254kyer\u025b s\u025b w\u0254w\u0254 hokwan s\u025b w\u0254y\u025b
+  saa. Ebinom nso afa aware\u025b s\u025b kuw bi a w\u0254b\u025btumi ad\u0254m nn\u025b,
+  \u0254kyena na w\u0254afi mu.\\nNEA BIBLE KA\\nBible ka awares\u025be a, nea \u025bkyer\u025b
+  ne s\u025b \u0254barima anaa \u0254baa b\u025bfi ne hokafo akyi ne obi foforo ada.
+  (Hiob 24:15; Mmebus\u025bm 30:20) Onyankop\u0254n kyi awares\u025be k\u0254k\u0254\u0254k\u0254.
+  Tete Israel no, s\u025b obi s\u025be aware\u025b a, na \u0254de ne nkwa twa so.
+  (Leviticus 18:20, 22, 29) Yesu kyer\u025bkyer\u025b\u025b n\u2019akyidifo s\u025b
+  w\u0254ntwe w\u0254n ho mfi awares\u025be ho.\u2014Mateo 5:27, 28; Luka 18:18-20.\\nNEA
+  ENTI A \u0190HO HIA\\nObi s\u025be aware\u025b a, na was\u025be apam a \u0254ne
+  ne hokafo ay\u025b. \u0190y\u025b \u2018b\u0254ne a \u025btia Onyankop\u0254n\u2019
+  nso. (Genesis 39:7-9) Awares\u025be tumi tete awofo ne w\u0254n mma ntam yayaaya.
+  Aniberes\u025bm a \u025bwom koraa ne s\u025b, Bible ka s\u025b \u2018Onyankop\u0254n
+  b\u025bbu awares\u025befo\u0254 at\u025bn.\u2019\u2014Hebrifo\u0254 13:4.\\n\u201cMomma
+  aware\u025b ho mmra nyam, na monngu aware\u025b mpa ho f\u0129.\u201d\u2014Hebrifo\u0254
+  13:4.\\nAwares\u025be b\u025btumi agu aware\u025b koraa?\\nNEA BIBLE KA\\nS\u025b
+  \u0254barima anaa \u0254baa fi ne hokafo akyi a, Bible ma kwan s\u025b nea as\u025bm
+  nni ne ho no b\u025btumi agyae aware\u025b. (Mateo 19:9) \u0186p\u025b nso a \u0254b\u025bk\u0254
+  so ne no atena; \u025by\u025b \u0254no ara gyinaesi.\u2014Galatifo\u0254 6:5.\\nNanso
+  \u025bs\u025b s\u025b y\u025bkae s\u025b Onyankop\u0254n bu aware\u025b s\u025b
+  ade kronkron a \u025bs\u025b s\u025b \u025btena h\u0254 afeb\u0254\u0254. (1 Korintofo\u0254
+  7:39) Enti obi rentumi nnyina as\u025bm a \u025bny\u025b as\u025bm biara so nnyaa
+  aware\u025b. S\u025b n\u2019ani nnye ne hokafo ho mpo a, \u0254rentumi nka s\u025b
+  \u0254regyaa no. Onyankop\u0254n kyi biribi a \u025bte saa koraa. Enti worentumi
+  ns\u0254re k\u025bk\u025b nka s\u025b woregyae aware\u025b.\u2014Malaki 2:16; Mateo
+  19:3-6.\\n\u201cMese mo s\u025b, s\u025b \u025bny\u025b adwamamm\u0254 nti na obi
+  gyaa ne yere a, \u025bb\u025btumi ama \u0254baa no as\u025be aware\u025b.\u201d\u2014Mateo
+  5:32.\\nS\u025b obi s\u025be aware\u025b a Onyankop\u0254n remfa nky\u025b no koraa
+  anaa?\\nNEA BIBLE KA\\nDabi. Bible ka s\u025b, s\u025b obi y\u025b b\u0254ne na
+  \u0254nnu ne ho a Onyankop\u0254n de b\u025bky\u025b no. Saa ara na s\u025b awares\u025befo\u0254
+  nu w\u0254n ho a, \u0254de b\u025bky\u025b w\u0254n. (Asomafo\u0254 Nnwuma 3:19;
+  Galatifo\u0254 5:19-21) Nokwas\u025bm ni, Bible ma y\u025bhu s\u025b mmarima ne
+  mmaa bi w\u0254 h\u0254 a kan no na w\u0254y\u025b awares\u025befo\u0254, nanso
+  w\u0254gyaee na w\u0254b\u025by\u025b\u025b Onyankop\u0254n nnamfo mpo.\u20141 Korintofo\u0254
+  6:9-11.\\nTete Israel hene Dawid faa ne sraani bi yere, nanso Onyankop\u0254n huu
+  no mm\u0254b\u0254. (2 Samuel 11:2-4) Bible kaa pefee s\u025b \u2018ade\u025b a
+  Dawid y\u025be\u025b no ans\u0254 Onyankop\u0254n ani.\u2019 (2 Samuel 11:27) Onyankop\u0254n
+  kaa Dawid anim na \u0254no nso gyee ne mfomso toom, enti \u0254de ky\u025b\u025b
+  no. Nanso Dawid amfa ne ho anni korakora; \u0254twaa ne b\u0254ne no so aba. (2
+  Samuel 12:13, 14) Akyiri yi, \u0186hene Solomon kaa s\u025b \u2018obiara a \u0254s\u025be
+  aware\u025b no nni ti.\u2019\u2014Mmebus\u025bm 6:32.\\nNEA WOB\u0190TUMI AY\u0190\\nS\u025b
+  woas\u025be aware\u025b a, \u025bs\u025b s\u025b wosr\u025b Onyankop\u0254n h\u0254
+  b\u0254ne fafiri na wopa wo hokafo ky\u025bw. (Dwom 51:1-5) Onyankop\u0254n kyi
+  awares\u025be, enti \u025bns\u025b s\u025b wode di agor\u0254 koraa. (Dwom 97:10)
+  \u0190nne\u025b, si wo bo s\u025b worenhw\u025b ponografi na worennwennwene aguamans\u025bm
+  ho. Afei mfi wo kunu anaa wo yere akyi mfa wo ho nhyehy\u025b \u0254barima anaa
+  \u0254baa foforo. B\u0254 mm\u0254den s\u025b wob\u025bkwati biribiara a \u025bb\u025bma
+  woakyer\u025b obi a \u0254ny\u025b wo hokafo ho anigye.\u2014Mateo 5:27, 28; Yakobo
+  1:14, 15.\\nS\u025b wo kunu anaa wo yere as\u025be aware\u025b a, ka wo koma to
+  wo yam, efis\u025b Onyankop\u0254n nim nea worefam. (Malaki 2:13, 14) Dan w\u2019adesoa
+  to ne so; \u0254b\u025bkyekye wo wer\u025b, na \u201c\u0254b\u025bs\u0254 wo mu.\u201d
+  (Dwom 55:22) S\u025b wop\u025b s\u025b wode wo kunu anaa wo yere b\u0254ne ky\u025b
+  no na mok\u0254 so ware a, \u025bs\u025b s\u025b moy\u025b nea mob\u025btumi nyinaa
+  ma aware\u025b no gyina.\u2014Efesofo\u0254 4:32.\\nBere a Dawid y\u025b\u025b b\u0254ne
+  na \u0254nuu ne ho no, odiyifo Natan ka kyer\u025b\u025b no s\u025b, \u201cYehowa
+  nso de wo b\u0254ne aky\u025b wo.\u201d\u20142 Samuel 12:13.\"", "\"1Proto\u017e
+  nem\u016f\u017ee\u0161 se vymluviti, \u00f3 \u010dlov\u011b\u010de ka\u017ed\u00fd,
+  potupuje jin\u00e9ho. Nebo t\u00edm, \u017ee jin\u00e9ho potupuje\u0161, s\u00e1m
+  sebe odsuzuje\u0161, pon\u011bvad\u017e tot\u00e9\u017e \u010din\u00ed\u0161, co\u017e
+  na jin\u00e9m tup\u00ed\u0161. 2V\u00edmet'' zajist\u00e9, \u017ee soud Bo\u017e\u00ed
+  jest podle pravdy proti t\u011bm, kte\u0159\u00ed\u017e takov\u00e9 v\u011bci \u010din\u00ed.
+  3Zdali se domn\u00edv\u00e1\u0161, \u00f3 \u010dlov\u011b\u010de, jen\u017e soud\u00ed\u0161
+  ty, kdo\u017e takov\u00e9 v\u011bci \u010din\u00ed, a s\u00e1m tot\u00e9\u017e \u010din\u011b,
+  \u017ee ty ujde\u0161 soudu Bo\u017e\u00edho? 4\u00c8ili bohatstv\u00edm dobrotivosti
+  jeho a sn\u00e1\u0161elivosti i dlouho\u010dek\u00e1n\u00ed pohrd\u00e1\u0161, nev\u011bda,
+  \u017ee dobrotivost Bo\u017e\u00ed ku pok\u00e1n\u00ed tebe vede? 5Ale podle tvrdosti
+  sv\u00e9 a srdce nekaj\u00edc\u00edho shroma\u017e\u010fuje\u0161 sob\u011b hn\u011bv
+  ke dni hn\u011bvu a zjeven\u00ed spravedliv\u00e9ho soudu Bo\u017e\u00edho, 6Kter\u00fd\u017e
+  odplat\u00ed jednomu ka\u017ed\u00e9mu podle skutk\u016f jeho, 7T\u011bm zajist\u00e9,
+  kte\u0159\u00ed\u017e trvaj\u00edce v dobr\u00e9m skutku, sl\u00e1vy a cti a nesmrtelnosti
+  hledaj\u00ed, \u017eivotem v\u011b\u010dn\u00fdm, 8T\u011bm pak, kte\u0159\u00ed\u017e
+  jsou sv\u00e1rliv\u00ed a pravd\u011b nepovoluj\u00ed, ale povoluj\u00ed nepravosti,
+  prchlivost\u00ed a hn\u011bvem, 9Tr\u00e1pen\u00edm a \u00fazkost\u00ed, a to ka\u017ed\u00e9
+  du\u0161i \u010dlov\u011bka \u010din\u00edc\u00edho zl\u00e9, i \u017dida p\u0159edn\u011b,
+  a t\u00e9\u017e i \u0158eka. 10Ale sl\u00e1vu a \u010dest a pokoj d\u00e1 ka\u017ed\u00e9mu,
+  kdo\u017e \u010din\u00ed dobr\u00e9, i \u017didu p\u0159edn\u011b, a t\u00e9\u017e
+  i \u0158eku. 11Nebot'' nen\u00ed p\u0159ij\u00edm\u00e1n\u00ed osob u Boha. 12Kte\u0159\u00ed\u017ekoli
+  zajist\u00e9 bez Z\u00e1kona h\u0159e\u0161ili, bez Z\u00e1kona i zahynou; a kte\u0159\u00ed\u017ekoli
+  pod Z\u00e1konem byv\u0161e h\u0159e\u0161ili, skrze Z\u00e1kon odsouzeni budou,
+  13(Nebo ne ti, jen\u017e sly\u0161\u00ed Z\u00e1kon, spravedlivi jsou p\u0159ed
+  Bohem, ale \u010dinitel\u00e9 Z\u00e1kona spravedlivi budou. 14Nebo kdy\u017e pohan\u00e9
+  Z\u00e1kona nemaj\u00edce, od p\u0159irozen\u00ed \u010din\u00ed to, co\u017e p\u0159ikazuje
+  Z\u00e1kon, takov\u00ed Z\u00e1kona nemaj\u00edce, sami sob\u011b z\u00e1konem jsou,
+  15Kte\u0159\u00ed\u017eto ukazuj\u00ed d\u00edlo Z\u00e1kona napsan\u00e9 na srdc\u00edch
+  sv\u00fdch, kdy\u017e jim to osv\u011bd\u010duje sv\u011bdom\u00ed jejich i my\u0161len\u00ed,
+  kter\u00e1\u017e se vespolek obvi\u0148uj\u00ed, anebo tak\u00e9 vymlouvaj\u00ed.)
+  16V ten den, kdy\u017eto souditi bude B\u016fh tajn\u00e9 v\u011bci lidsk\u00e9,
+  podle evangelium m\u00e9ho skrze Jezukrista. 17Aj, ty slove\u0161 \u017did, a spol\u00e9h\u00e1\u0161
+  na Z\u00e1kon, a chlub\u00ed\u0161 se Bohem, 18A zn\u00e1\u0161 v\u016fli jeho,
+  a rozezn\u00e1v\u00e1\u0161, co slu\u0161\u00ed neb neslu\u0161\u00ed, nau\u010den
+  jsa z Z\u00e1kona, 19A za to m\u00e1\u0161, \u017ee jsi ty v\u016fdc\u00edm slep\u00fdch,
+  sv\u011btlem t\u011bch, kte\u0159\u00ed\u017e jsou ve tm\u011b, 20\u0158editelem
+  nemoudr\u00fdch, u\u010ditelem nemluv\u0148at, maj\u00edc\u00edm formu um\u011bn\u00ed
+  a pravdy v Z\u00e1kon\u011b. 21Kterak\u017e tedy jin\u00e9ho u\u010de, s\u00e1m
+  sebe neu\u010d\u00ed\u0161? Vyhla\u0161uje, \u017ee nem\u00e1 kradeno b\u00fdti,
+  s\u00e1m krade\u0161? 22Prav\u011b: Nezcizolo\u017e\u00ed\u0161, a cizolo\u017estv\u00ed
+  p\u00e1ch\u00e1\u0161? V ohavnosti maje modly, svatokr\u00e1de\u017ee se dopou\u0161t\u00ed\u0161?
+  23Z\u00e1konem se chlub\u011b, p\u0159estupov\u00e1n\u00edm Z\u00e1kona Bohu ne\u00factu
+  \u010din\u00ed\u0161? 24Nebo jm\u00e9no Bo\u017e\u00ed pro v\u00e1s v porouh\u00e1n\u00ed
+  jest mezi pohany, jako\u017e ps\u00e1no jest. 25Ob\u0159ez\u00e1n\u00edt'' zajist\u00e9
+  prosp\u011bje, bude\u0161-li Z\u00e1kon plniti; pakli bude\u0161 p\u0159estupitelem
+  Z\u00e1kona, ob\u0159ez\u00e1n\u00ed tv\u00e9 u\u010din\u011bno jest neob\u0159ez\u00e1n\u00edm.
+  26A proto\u017e jestli\u017eet'' by neob\u0159\u00edzka ost\u0159\u00edhala pr\u00e1v
+  Z\u00e1kona, zdali\u017e nebude po\u010dtena neob\u0159\u00edzka jejich za ob\u0159\u00edzku?
+  27A odsoud\u00ed ti, kte\u0159\u00ed\u017e jsou z p\u0159irozen\u00ed neob\u0159\u00edzka,
+  zachov\u00e1vaj\u00edce Z\u00e1kon, tebe, kter\u00fd\u017e pod literou a ob\u0159\u00edzkou
+  p\u0159estupn\u00edk jsi Z\u00e1kona? 28Nebo ne ten jest prav\u00fd \u017did, kter\u00fd\u017e
+  jest zjevn\u011b \u017didem; ani\u017e to jest prav\u00e9 ob\u0159ez\u00e1n\u00ed,
+  kter\u00e9\u017e b\u00fdv\u00e1 zjevn\u011b na t\u011ble; 29Ale ten jest prav\u00fd
+  \u017did, kter\u00fd\u017eto vnit\u0159 jest \u017didem, a to jest prav\u00e9 ob\u0159ez\u00e1n\u00ed,
+  kter\u00e9\u017e jest srde\u010dn\u00e9 v duchu, a ne podle litery; jeho\u017eto
+  chv\u00e1la ne z lid\u00ed jest, ale z Boha.\\n1Mo a mobu afofor\u0254 at\u025bn
+  no, monni anoyie biara. \u0190kwan biara a mob\u025bfa so abu afofor\u0254 at\u025bn
+  no, \u025bnam saa \u025bkwan no ara so ma mode atemmuo ba mo ho so. \u0190firi s\u025b,
+  b\u0254ne a \u025bma mobu afofor\u0254 at\u025bn no, mo nso moy\u025b saa b\u0254ne
+  kor\u0254 no ara bi. 2Y\u025bnim s\u025b, s\u025b Onyankop\u0254n bu w\u0254n a
+  w\u0254te saa ara no at\u025bn a, na ne kwan so ara ne no. 3Na wo, onipa, wobu afofor\u0254
+  at\u025bn w\u0254 nne\u025bma kor\u0254 no ara a woy\u025b bi no ho a, wosusu s\u025b
+  Onyankop\u0254n remmu wo at\u025bn anaa? 4Anaas\u025b, ebia, wommu n\u02bcayamy\u025b,
+  n\u02bcabodwokyer\u025b ne ne boaset\u0254? Wonnim s\u025b Onyankop\u0254n y\u025b
+  mm\u0254bor\u0254hunufo\u0254 a \u0254p\u025b s\u025b \u0254kyer\u025b wo kwan a
+  wob\u025bfa so anu wo ho?\\n5Nanso, \u025bsiane w\u02bcakoma den ne akoma pirim
+  enti, woboaboa abufuhye\u025b ano ma wo ho w\u0254 Onyankop\u0254n abufuhye\u025b
+  da no, \u025bda no a \u0254b\u025bda n\u02bcat\u025bntenenee adi no. 6De\u025b obiara
+  ay\u025b no, \u025bso akatua na Onyankop\u0254n b\u025bma no anya. 7W\u0254n a w\u0254de
+  boaset\u0254 y\u025b papa de hwehw\u025b animuonyam, anidie ne de\u025b \u025bmpor\u0254
+  no, \u0254b\u025bma w\u0254n nkwa a \u025bnni awiee\u025b. 8Nanso w\u0254n a w\u0254y\u025b
+  p\u025bs\u025bmenkomenya, ne w\u0254n a w\u0254po nokor\u025b no k\u0254di b\u0254ne
+  akyi no, abufuhye\u025b ne amanehunu b\u025bba w\u0254n so. 9Yudafo\u0254 ne amanamanmufo\u0254
+  a w\u0254k\u0254 so y\u025b b\u0254ne no nyinaa b\u025bhunu amane na w\u0254n wer\u025b
+  nso b\u025bho. 10Nanso, w\u0254n a w\u0254tie no no, s\u025b w\u0254y\u025b Yudafo\u0254
+  anaa amanamanmufo\u0254 no, w\u0254b\u025bnya animuonyam, anidie ne asomdwoe\u025b
+  afiri Onyankop\u0254n nky\u025bn. 11Onyankop\u0254n ny\u025b nyiyimu na \u0254ny\u025b
+  animhw\u025b nso w\u0254 n\u02bcatemmuo mu.\\n12W\u0254n a w\u0254nnim mmara no
+  na w\u0254y\u025b b\u0254ne no, w\u0254b\u025bkwati mmara no abu w\u0254n at\u025bn
+  ara, na w\u0254n a w\u0254nim mmara no na w\u0254y\u025b b\u0254ne no, w\u0254nam
+  mmara no so b\u025bbu w\u0254n at\u025bn. 13\u0190ny\u025b mmaratiefo\u0254 na w\u0254tene
+  w\u0254 Onyankop\u0254n anim, na mmom, \u025by\u025b w\u0254n a woy\u025b \u0254setie
+  ma mmara no na w\u0254b\u025bbu w\u0254n bem. 14Amanamanmufo\u0254 no nni mmara,
+  nanso w\u0254firi w\u0254n awosu mu y\u025b de\u025b mmara no hwehw\u025b s\u025b
+  w\u0254y\u025b a, \u025bwom s\u025b w\u0254nni mmara de\u025b, nanso yeinom b\u025by\u025b
+  mmara ama w\u0254n. 15Esiane s\u025b w\u0254n abrab\u0254 kyer\u025b s\u025b, de\u025b
+  mmara no hwehw\u025b no, w\u0254atwer\u025b w\u0254 w\u0254n akoma mu no enti, w\u0254n
+  ahonim di adanse\u025b s\u025b w\u0254di bem anaas\u025b w\u0254abu w\u0254n f\u0254.
+  16Enti, as\u025bmpa a meka no kyer\u025b s\u025b, s\u025b \u025bda no duru a, saa
+  na Onyankop\u0254n nam Yesu Kristo so b\u025bbu nnipa k\u0254koams\u025bm at\u025bn.\\n17Mo
+  Yudafo\u0254 de\u025b, mosusu s\u025b mo ne Onyankop\u0254n te no yie so, \u025bfiri
+  s\u025b, \u0254de ne Mmara a monam so b\u025bnya nkwagye\u025b no maa mo. Na moka
+  no mo anofafa so nso s\u025b, moy\u025b ne nnamfonom sononko bi. 18Monim de\u025b
+  Onyankop\u0254n hwehw\u025b s\u025b moy\u025b. Moasua afiri Mmara no mu ahunu de\u025b
+  \u025by\u025b. 19Mofa mo ho s\u025b moy\u025b akwankyer\u025bfo\u0254 ma anifirafo\u0254,
+  na moy\u025b hann nso ma w\u0254n a w\u0254te esum mu. 20Mogye di s\u025b mob\u025btumi
+  akyer\u025b adwenemher\u025bfo\u0254 ne mm\u0254fra Onyankop\u0254n akwan, \u025bfiri
+  s\u025b, nokor\u025bm, monim ne Mmara a osuahunu ne nokor\u025b ahy\u025b no ma
+  no. 21Mokyer\u025bkyer\u025b afofor\u0254, na ad\u025bn enti na montumi nkyer\u025bkyer\u025b
+  mo ho mo ho? Moka kyer\u025b afofor\u0254 s\u025b w\u0254mmm\u0254 kor\u0254no.
+  Mo nso mob\u0254 kor\u0254no anaa? 22Mo a moka s\u025b adwamamm\u0254 ny\u025b.
+  Mo nso mob\u0254 adwaman anaa? Mo a moka s\u025b mokyiri ahoni no, mo nso mob\u0254
+  kor\u0254no w\u0254 as\u0254refie mu anaa? 23Mode mmara no hoahoa mo ho, nanso mobu
+  mmara no so de bu Onyankop\u0254n animtia. 24\u0190ny\u025b nwanwa s\u025b Atwer\u025bs\u025bm
+  no ka s\u025b mo enti, ewiasefo\u0254 kasa tia Onyankop\u0254n.\\n25S\u025b woy\u025b
+  Yudani na wodi Onyankop\u0254n mmara no so a, \u025by\u025b ade\u025b a \u025bsom
+  bo. Na s\u025b moanni so a, nsonsonoe\u025b biara nni mo ne momonotofo\u0254 ntam.
+  26S\u025b momonotofo\u0254 di Onyankop\u0254n mmara so a, w\u0254remmu w\u0254n
+  s\u025b Onyankop\u0254n nkur\u0254fo\u0254 anaa? 27Enti momonotoni a \u0254di mmara
+  no so no b\u025bkasa atia mo, Yudafo\u0254 a monim Onyankop\u0254n mmara a w\u0254atwer\u025b
+  no, nanso monni so no.\\n28Wo a w\u0254woo mo s\u025b Yudafo\u0254 anaas\u025b twa
+  a w\u0254atwa mo twetia no nkyer\u025b s\u025b moy\u025b Yudafo\u0254 kann. 29Yudani
+  kann no ne de\u025b \u0254y\u025b no w\u0254 n\u02bcakoma mu. Saa ara nso na twetiatwa
+  y\u025b akoma mu nsakrae\u025b a \u025bfiri Onyankop\u0254n Honhom mu ba. Nsakrae\u025b
+  yi mmfiri di a obi di mmara bi so. Na de\u025b w\u0254asakra no ay\u025byie mmfiri
+  nnipa h\u0254, na mmom, \u025bfiri Onyankop\u0254n h\u0254.\"", "\"6 Yehowa ka kyer\u025b\u025b
+  Mose s\u025b: \u201cAfei wubehu nea m\u025by\u025b Farao,+ efis\u025b nsa a \u025by\u025b
+  den b\u025bhy\u025b no ma wama w\u0254n kwan ak\u0254, na nsa a \u025by\u025b den
+  b\u025bma wapam w\u0254n mpo afi n\u2019asase so.\u201d+\\n2 Na Onyankop\u0254n
+  toaa so ka kyer\u025b\u025b Mose s\u025b: \u201cMene Yehowa.+\\n3 Miyii me ho adi
+  kyer\u025b\u025b Abraham,+ Isak,+ ne Yakob+ s\u025b ade nyinaa so Tumfo\u0254 Nyankop\u0254n,+
+  nanso me din Yehowa+ no de, mamma w\u0254amfa anhu me.+\\n4 Na me ne w\u0254n y\u025b\u025b
+  apam s\u025b mede Kanaan asase a w\u0254k\u0254so\u025b\u025b so s\u025b ah\u0254ho
+  no b\u025bma w\u0254n.+\\n5 Afei mate Israelfo no apinisi,+ nkoasom a Egyptfo de
+  w\u0254n aba mu no, na m\u2019apam+ no, mekae.\\n6 \u201cEnti ka kyer\u025b Israelfo
+  no s\u025b, \u2018Mene Yehowa, na meyi mo afi Egyptfo nnesoa ase na magye mo afi
+  w\u0254n nkoasom mu;+ mede basa a emu ate\u025b ne atemmu k\u025bse na ebegye mo.+\\n7
+  Na mede mo b\u025by\u025b me man,+ na may\u025b mo Nyankop\u0254n;+ na mubehu s\u025b
+  mene Yehowa mo Nyankop\u0254n a oyii mo fii Egypt nkoasom mu+ no.\\n8 Mede mo b\u025bba
+  asase a memaa me nsa so kaa ntam+ s\u025b mede b\u025bma Abraham, Isak, ne Yakob
+  no so; na mede b\u025bma mo s\u025b agyapade.+ Mene Yehowa.\u2019\u201d+\\n9 Afei
+  Mose de ns\u025bm yi nyinaa too Israelfo no anim, nanso abasamtu ne nkoasom dennen
+  no nti, w\u0254antie Mose.+\\n10 \u0190nna Yehowa ka kyer\u025b\u025b Mose s\u025b:\\n11
+  \u201cK\u0254ka kyer\u025b Egypt hene Farao+ s\u025b \u0254mma Israelfo no kwan
+  mma womfi n\u2019asase so nk\u0254.\u201d+\\n12 Nanso Mose ka kyer\u025b\u025b Yehowa
+  s\u025b: \u201cHw\u025b, Israelfo no mpo antie me,+ na \u025bb\u025by\u025b d\u025bn
+  na Farao atie me+ a wontwaa m\u2019ano twetia+ yi?\u201d\\n13 Na Yehowa ka kyer\u025b\u025b
+  Mose ne Aaron s\u025b w\u0254mfa n\u2019ahy\u025bde nk\u0254to Israelfo no ne Egypt
+  hene Farao anim, na wonyi Israelfo no mfi Egypt asase so.+\\n14 Eyinom ne atitiriw
+  a w\u0254w\u0254 w\u0254n agyanom fie: Israel ba panyin+ Ruben mma ne Hanok, Palu,
+  Hesron, ne Karmi.+ Eyinom ne Ruben asefo.+\\n15 Na Simeon mma ne Yemuel, Yamin,
+  Ohad, Yakin, Sohar, ne Saul a \u0254ne Kanaanni bea woo no+ no. Eyinom ne Simeon
+  asefo.+\\n16 Lewi+ mma din s\u025bnea w\u0254n mmusua te+ ni: Gerson, Kohat, ne
+  Merari.+ Na mfe a Lewi dii nyinaa y\u025b \u0254ha aduasa ason.\\n17 Gerson mma
+  ne Libni ne Simei,+ s\u025bnea w\u0254n mmusua+ te.\\n18 Kohat mma ne Amram, Yisar,
+  Hebron, ne Usiel.+ Na mfe a Kohat dii nyinaa y\u025b \u0254ha aduasa abi\u025bsa.\\n19
+  Na Merari mma ne Mahli ne Musi.+Eyinom ne Lewi asefo no mmusua.+\\n20 Afei Amram
+  waree ne papa nuabea Yokebed.+ Akyiri yi \u0254woo Aaron ne Mose+ maa no. Mfe a
+  Amram dii nyinaa y\u025b \u0254ha aduasa ason.\\n21 Yisar mma ne Kora+ ne Nefeg
+  ne Sikri.\\n22 Na Usiel mma ne Misael ne Elisafan ne Sitri.+\\n23 Afei Aaron waree
+  Aminadab babea Eliseba a \u0254y\u025b Naason+ nuabea. Akyiri yi \u0254woo Nadab,
+  Abihu, Eleasar, ne Itamar+ maa no.\\n24 Na Kora mma ne Asir ne Elkana ne Abiasaf.+
+  Eyinom ne Kora asefo.+\\n25 Afei Aaron ba Eleasar+ waree Putiel babea. Akyiri yi
+  \u0254woo Finehas+ maa no.Eyinom ne Lewifo agyanom atitiriw, s\u025bnea w\u0254n
+  mmusua te.+\\n26 Aaron ne Mose yi na Yehowa ka kyer\u025b\u025b w\u0254n s\u025b:+
+  \u201cMonhyehy\u025b Israelfo s\u025b asraafokuw na munyi w\u0254n mfi Egypt asase
+  so\u201d no.+\\n27 W\u0254n na w\u0254ne Egypt hene Farao k\u0254kasae s\u025b \u0254mma
+  w\u0254n kwan mma wonyi Israelfo no mfi Egypt no.+ Mose ne Aaron no ni.\\n28 Afei
+  da a Yehowa ne Mose kasae w\u0254 Egypt asase so+ no,\\n29 Yehowa ka kyer\u025b\u025b
+  Mose s\u025b: \u201cMene Yehowa.+ Nea m\u025bka akyer\u025b wo biara, ka kyer\u025b
+  Egypt hene Farao.\u201d\\n30 \u0190nna Mose ka kyer\u025b\u025b Yehowa s\u025b:
+  \u201cHw\u025b, wontwaa m\u2019ano twetia, \u025bb\u025by\u025b d\u025bn na Farao
+  atie me?\u201d+\"", "\"Kae y\u025bn Mmofra Kuruwa no\\nEfi bere a y\u025bde sii
+  h\u0254 no, Cupkin anya kwan bere nyinaa denam botae a emu y\u025b den a \u025bne
+  s\u025b w\u0254b\u025by\u025b nne\u025bma a ahobamm\u0254 wom na \u025by\u025b papa
+  so. United States CPSC (Consumer Product Safety Commission)-agye atom no s\u0254
+  y\u025bn nne\u025bma hw\u025b denneennen de hw\u025b hu s\u025b y\u025bde nne\u025bma
+  a ahobamm\u0254 wom ma y\u025bn adet\u0254fo na ama w\u0254n adwuma s\u025b awofo
+  ay\u025b yiye denam y\u025bn nne\u025bma a y\u025bde bedi dwuma no so.\\nBere a
+  nnansa yi ara yenyaa ns\u025bm fii adet\u0254fo akyigyinafo h\u0254 ne s\u0254hw\u025b
+  foforo a w\u0254de dii akyi akyi no, yehui s\u025b nkuruwa a w\u0254de afasu abien
+  ay\u025b a \u025by\u025b vacuum 8oz ne 12oz no betumi ama k\u0254bere a ennye ntom
+  s\u025b w\u0254y\u025b nkuruwa no ase ayayade a. Nsu a \u025bw\u0254 kuruwa no mu
+  no ntumi nk\u0254 k\u0254bere esiane s\u025bnea w\u0254de afasu abien ay\u025b y\u025bn
+  nkuruwa no nti.\\nY\u025bne CPSC y\u025b adwuma yie no, y\u025bde y\u025bn p\u025b
+  mu de nne\u025bma a w\u0254de b\u025bkae Cupkin 8oz ne 12oz nkuruwa no ama.\\nY\u025brehy\u025b
+  adet\u0254fo\u0254 a w\u0254t\u0254\u0254 saa nne\u025bma yi w\u0254 afe 2020 ne
+  \u0186p\u025bp\u0254n 19th, 2023 ntam no nkuran s\u025b w\u0254nnyae nkuruwa no
+  a w\u0254de di dwuma nt\u025bm ara.\\nAdet\u0254fo\u0254 b\u025btumi akliki \u201cSubmission
+  Form\u201d link a \u025bw\u0254 ase\u025b ha no so na w\u0254adi akwankyer\u025b
+  no akyi na w\u0254anya sika a w\u0254b\u025bsan de ama w\u0254n anaas\u025b w\u0254b\u025bsesa.
+  W\u0254sr\u025b adet\u0254fo s\u025b w\u0254nhyehy\u025b w\u0254n din ne w\u0254n
+  address. Esiane s\u025b sika a w\u0254de b\u025bsan ama wo no d\u0254\u0254so nti,
+  y\u025bsr\u025b wo boaset\u0254 bere a y\u025brey\u025b biribiara a y\u025bde b\u025bk\u0254
+  no ho adwuma no.\\nW\u0254rentumi nsan mfa nne\u025bma a \u025bka no mma Amazon.\\nS\u025b
+  wode wo ho ns\u025bm a \u025bw\u0254 atifi h\u0254 no amena dedaw na wo nsa nkaa
+  sika a w\u0254de b\u025bsan ama wo no a, y\u025bsr\u025b wo gye simma biako hw\u025b
+  hu s\u025b wode Order ID a \u025bfata no amena . Order ID verification y\u025b ahwehw\u025bde\u025b
+  a \u025bb\u025bma woanya wo refund / replacement.\\nNea \u0190sii Ni\\nBere a y\u025by\u025b\u025b
+  saa nkuruwa yi mfiase no, y\u025bn y\u0254nko a y\u025by\u025b no sii so dua mp\u025bn
+  pii s\u025b w\u0254amfa k\u0254bere biara nni dwuma koraa w\u0254 y\u025bn nne\u025bma
+  a y\u025by\u025b no f\u00e3 biara mu. S\u025b\u0301 awofo ma mmofra nkumaa no, na
+  y\u025bn nhyehy\u025be ne s\u025b yebenya kuruwa a k\u0254bere nnim 100%. Y\u025bfaa
+  no anamm\u0254n k\u0254\u0254 akyiri na y\u025bmaa 2 a \u025bsono 3rd party US CPSC-accredited
+  labs s\u0254\u0254 y\u025bn nkuruwa no hw\u025be. CPSC gyina h\u0254 ma Consumer
+  Product Safety Commission. Wubetumi ahu s\u0254hw\u025b amanne\u025bb\u0254 ahorow
+  no w\u0254 kratafa yi ase.\\nY\u025bn nkuruwa no w\u0254 CPC (Mmofra Nne\u025bma
+  Ho Adansedi) pii a CPSC-agye atom labs abien no nyinaa de ma. Wei kyer\u025b s\u025b
+  saa labs yi s\u0254\u0254 y\u025bn nne\u025bma hw\u025be\u025b yie s\u025b \u025bw\u0254
+  lead, sharp edges, phthalates ne heavy metals / toxins fofor\u0254 nanso w\u0254san
+  bae\u025b a negative w\u0254 biribiara ho.\\nCupkin y\u025b side project k\u025bk\u025b
+  a me ne Soo Jin y\u025be mfiase no s\u025b y\u025bde b\u025bkyer\u025b y\u025bn
+  mmabea s\u025bnea \\\"grit\\\" te w\u0254 wiase ankasa mu. Ab\u025by\u025b k\u025bse
+  asen s\u025bnea y\u025bn mu biara betumi asusuw, nanso eyi y\u025b hokwan a \u025by\u025b
+  nwonwa a y\u025bde b\u025bma y\u025bn mmeawa no nhw\u025bso foforo a \u025bkyer\u025b
+  s\u025bnea ade a \u025bte\u025b a w\u0254y\u025b no te. S\u025b yesua s\u025b y\u025bn
+  hokafo a y\u025by\u025b nne\u025bma na \u025bny\u025b 1, na mmom 2 CPSC-accredited
+  labs ma y\u025bn abam bu no y\u025b akyigyina k\u025bse w\u0254 sikas\u025bm ne
+  nkate fam nyinaa.\\nNanso, \u025bmfa ho s\u025bnea \u025bho ka te...y\u025brek\u0254y\u025b
+  nea \u025bda adi na y\u025bay\u025b nnam s\u025bnea yebetumi de asiesie eyi ASAP.
+  Y\u025bde hokwan yi b\u025by\u025b y\u025bn nkuruwa no foforo koraa ma ay\u025b
+  papa mpo.\\nY\u025bgye di pintinn w\u0254 radical transparency mu na, s\u025bnea
+  \u025bte no, y\u025bb\u025bma as\u025bm yi ay\u025b foforo bere a ns\u025bm pii
+  aba ara p\u025b.\\nS\u025b w\u2019ani gye ho s\u025b wob\u025bsan de sika no ama
+  wo a, y\u025bsr\u025b wo hyehy\u025b kratasin yi , na y\u025bb\u025bka wo ho afa
+  anamm\u0254n a edi h\u0254 no ho.\\nMax, Soo Jin, ne Cupkin kuw no\\nBere nhyehy\u025be\\n-
+  \u0186ber\u025bf\u025bw da 9, afe 2023\\n- Y\u025bhunuu s\u025b w\u0254de nne\u025bma
+  bi b\u025bto intan\u025bt so na y\u025bne w\u0254n rey\u025b adwuma denneennen de
+  ate s\u025bde\u025b w\u0254duruu w\u0254n a w\u0254hunuu no ho no ase.\\n- Y\u025bde
+  email ak\u0254ma adet\u0254fo\u0254 a \u025bka w\u0254n nyinaa.\\n- Y\u025bayi \\\"lead-free\\\"
+  nhw\u025bso\u0254 nyinaa afiri y\u025bn mfonini ne aguadi mu mprempren ber\u025b
+  a y\u025brey\u025b nhwehw\u025bmu na y\u025brey\u025b y\u025bn mprempren nne\u025bma
+  nyinaa ahw\u025b.\\n- \u0186ber\u025bf\u025bw da 10, afe 2023\\n- Cupkin.com na
+  \u025bw\u0254 h\u0254\\n- Y\u025bayi \\\"lead-free\\\" nhw\u025bso\u0254 nyinaa
+  afiri y\u025bn mfonini ne aguadi mu mprempren ber\u025b a y\u025brey\u025b nhwehw\u025bmu
+  na y\u025brey\u025b y\u025bn mprempren nne\u025bma nyinaa ahw\u025b.\\n- Amazon.com
+  na \u025bw\u0254 h\u0254\\n- Y\u025bayi \\\"lead-free\\\" nhw\u025bso\u0254 nyinaa
+  afiri y\u025bn mfonini ne aguadi mu mprempren ber\u025b a y\u025brey\u025b nhwehw\u025bmu
+  na y\u025brey\u025b y\u025bn mprempren nne\u025bma nyinaa ahw\u025b.\\n- \u0186ber\u025bf\u025bw
+  da 11, afe 2023\\n- Max fii ase ne adwumay\u025bfo foforo a w\u0254y\u025b nne\u025bma
+  no b\u0254\u0254 nk\u0254mm\u0254 s\u025bnea \u025bb\u025by\u025b a wobenya ano
+  aduru bi bere a y\u025bn adwumakuw titiriw no w\u0254 akwamma mprempren kosi \u0254sram
+  a edi h\u0254 no.\\n- \u0186ber\u025bf\u025bw da 12, afe 2023\\n- Engaged suppliers
+  for quotes s\u025b wobenya Handheld/Mobile/Portable XRF Spectrometers na ama w\u0254anya
+  bi w\u0254 w\u0254n nsam a w\u0254de b\u025bs\u0254 nne\u025bma foforo ahw\u025b
+  daa. Y\u025brehw\u025b kwan s\u025b y\u025bde $43,000 + b\u025bto saa afiri yi mu
+  a ntetee/adansedi a y\u025bde bedi dwuma de scanner no adi dwuma.\\n- \u0186ber\u025bf\u025bw
+  da 14, afe 2023\\n- Max, Soo Jin ne mmeawa no foroo kar na w\u0254de kar b\u025bboro
+  nn\u0254nhwerew 3 k\u0254\u0254 anafo fam s\u025b w\u0254ne Lead Safe Mama rek\u0254hyia
+  s\u025bnea \u025bb\u025by\u025b a w\u0254b\u025bs\u0254 awo ntoatoaso a atwam no
+  ahw\u025b ka akansifo nne\u025bma akuwakuw bi ho.\\n- \u0186ber\u025bf\u025bw da
+  17, afe 2023\\n- Wonyaa adansedi krataa fii y\u025bn s\u0254hw\u025b dan mu s\u025b
+  w\u0254ans\u0254 kuruwa no ase anhw\u025b. Nt\u025bm ara na y\u025bde nne\u025bma
+  k\u0254maa lab s\u025bnea \u025bb\u025by\u025b a wobetumi ay\u025b s\u0254hw\u025b
+  foforo. W\u0254b\u025by\u025b s\u0254hw\u025b ahorow 3.\\n- \u0186ber\u025bf\u025bw
+  da 18, afe 2023\\n- Tested s\u0254\u0254 ofie mmofra nkuruwa a w\u0254t\u0254n sen
+  biara no hw\u025be na wohuu k\u0254bere w\u0254 dade a \u025bny\u025b den discs
+  ase ma mmofra kuruwa brand biara a \u025by\u025b biako.\\n- \u0186ber\u025bf\u025bw
+  da 19, afe 2023\\n- Y\u025bb\u0254\u0254 CPSC amanne\u025b s\u025b y\u025bnim as\u025bm
+  no na y\u025bretw\u025bn aban s\u0254hw\u025b aba a \u025bfiri y\u025bn lab.\\n-
+  Y\u025bkyer\u025b\u025b nhyehy\u025be a edi m\u0169 a egyina ns\u025bm a \u025bw\u0254
+  h\u0254 so na y\u025bkyeky\u025b\u025b ns\u025bm a ebetumi asi a egyina lab s\u0254hw\u025b
+  aba so.\\n- \u0186ber\u025bf\u025bw da 20, afe 2023\\n- W\u0254hy\u025b\u025b no
+  den s\u025b \u0254ne \u0254y\u025bfo foforo b\u025btoa so ay\u025b 304 grade stainless
+  steel plates a 3M adhesive backing de ahy\u025b nne\u025bma a \u025bw\u0254 h\u0254
+  dedaw nyinaa so.\\n- \u0186ber\u025bf\u025bw da 23, afe 2023\\n- Followed up ne
+  y\u025bn lab bio s\u025b wobenya update ama s\u0254hw\u025b. W\u0254ka kyer\u025b\u025b
+  y\u025bn s\u025b w\u0254b\u025by\u025b s\u0254hw\u025b no anky\u025b koraa na Fida
+  1/27.\\n- \u0186ber\u025bf\u025bw da 27, afe 2023\\n- Met with the lab na w\u0254y\u025b\u025b
+  couple tests.\\n- Surface detection test - W\u0254s\u0254\u0254 paint ne seal dot
+  no hw\u025be ne powder coating no w\u0254 anifere kwan so. N\u00e1 k\u0254bere biara
+  nni h\u0254 a wohuu.\\n- Sub-surface detection test - W\u0254de acetone ne scalpel
+  dii dwuma de yii powder coating a \u025bw\u0254 seal dot no so na scuff up seal
+  no. Wohuu k\u0254bere.\\n- NKYER\u0190KYER\u0190MU A \u0190FI LAB: Powder coating
+  ma akwanside a edi m\u0169 a esiw biribiara a ebetumi ak\u0254 seal ball no ano.\\n-
+  \u0186ber\u025bf\u025bw da 29, afe 2023\\n- Y\u025bn ay\u025bfo san baa adwumay\u025bbea
+  h\u0254 fi Chinafo Afe Foforo na y\u025bay\u025b nhyehy\u025be w\u0254 dade a \u025bny\u025b
+  den mpr\u025bte no a w\u0254b\u025by\u025b no nt\u025bmnt\u025bm no ho.\\n- \u0186p\u025bp\u0254n
+  da a \u025bt\u0254 so aduasa, afe 2023\\n- \u0186y\u025bfo\u0254 no kaa s\u025b
+  y\u025bb\u025bma y\u025bn ka a y\u025bb\u0254 s\u025b y\u025bb\u025by\u025b nkuruwa
+  a ns\u0254ano b\u0254\u0254l a k\u0254bere nnim 100% wom no b\u025bk\u0254 soro
+  17%. \u0190da adi s\u025b y\u025bpenee bo a \u025bk\u0254 soro no so efis\u025b
+  na eyi ne mfitiase nhyehy\u025be bere nyinaa s\u025b w\u0254de ns\u0254ano b\u0254\u0254l
+  a k\u0254bere nnim 100% bedi dwuma.\\n- \u0186ber\u025bf\u025bw da 31, afe 2023\\n-
+  W\u0254resiesie w\u0254n ho s\u025b w\u0254de nte\u025bso\u0254 nhyehy\u025be\u025b
+  a w\u0254ay\u025b mu nsakrae\u025b b\u025bmena CPSC denam EOD so.\\n- \u0186p\u025bp\u0254n
+  da a \u025bt\u0254 so mmi\u025bnsa, afe 2023\\n- W\u0254de aban nte\u025bso\u0254
+  nhyehy\u025be\u025b a w\u0254de b\u025by\u025b adwuma no k\u0254maa CPSC na mprempren
+  w\u0254retw\u025bn w\u0254n mmuae\u025b\\n- \u0186ber\u025bf\u025bw da 16, afe 2023\\n-
+  Y\u025bnyaa y\u025bn mmuae\u025b a \u025bdi kan firii CPSC h\u0254 na mprempren
+  y\u025bne w\u0254n rey\u025b adwuma de nkrataa a y\u025baboaboa ano no nyinaa ama.
+  Anam\u0254n a edi h\u0254 ne s\u025b wo ne CPSC b\u025bkyer\u025b \u0254kwan a eye
+  sen biara a wob\u025bfa so ay\u025b ade.\\n- \u0186ber\u025bf\u025bw da 19, afe
+  2023\\n- Y\u025bsii gyinae s\u025b y\u025bde proactively b\u025bto y\u025bn Amazon
+  listings mu ama y\u025bn 8oz ne 12oz nkuruwa bere a y\u025bretw\u025bn gyinaesi
+  a efi CPSC h\u0254. Mprempren y\u025bretw\u025bn w\u0254 Amazon s\u025b \u025bb\u025bboa
+  y\u025bn ma y\u025bayi listings 4 a aka a yentumi nto mu w\u0254 y\u025bn awiei
+  no afi h\u0254.\\n- \u0186ber\u025bf\u025bw da 7, afe 2023\\n- \u0186manfo\u0254
+  nkae\u025b no y\u025b live.\\nNne\u025bma a W\u0254y\u025b no Din\\n8oz ne 12oz
+  mmofra nkuruwa.\\n\u0186haw\\nS\u025b ase powder coating no nya compromised a \u025bkata
+  seal dot a k\u0254bere wom no so.\\nAno aduro\\n\u0190s\u025b s\u025b adet\u0254fo
+  gyae nkuruwa no a w\u0254de di dwuma nt\u025bm ara na w\u0254de sika a w\u0254de
+  b\u025bsan ama w\u0254n no ho adesr\u025b a \u025bw\u0254 atifi h\u0254 no k\u0254ma.\\nAdet\u0254fo
+  Nkitahodi\\nS\u025b wop\u025b ns\u025bm foforo a, di Cupkin nkitaho w\u0254 cpsc@cupkin.com.\\nNs\u025bm
+  a esisii/Apirakuru\\n\u0190ny\u025b ebiara.\\nW\u0254t\u0254n no w\u0254\\nCupkin.com
+  ne Amazon\\nNhwehw\u025bmu / Nwoma a W\u0254kyer\u025bw\\n- S\u0254hw\u025b Amanne\u025bb\u0254
+  a efi Modern Testing Services, LLC\\n- Amanne\u025bb\u0254 n\u0254ma: 67121-020106A\\nCPSC
+  Nkae Kratafa\"", "\"Ejura y\u025b ahenkuro w\u0254 Ejura/Sekyedumase , mansin bi
+  a \u025bw\u0254 Ashanti Mantam mu w\u0254 Ghana . Ejura w\u0254 nnipa 70,807 a w\u0254te
+  mu . Ejura y\u025b \u0254mantam a wodua aburo pii w\u0254 Ashanti Mantam mu w\u0254
+  Ghana . \u0190w\u0254 \u0254mantam no atifi fam akyirikyiri, \u025bb\u025bn Afram
+  Asub\u0254nten no . Ejura ne nkurow Mampong, Yeji ne Techiman di nkitaho w\u0254
+  akwan ak\u025bse\u025b na Ejura y\u025b Digya \u0186man Mmoa Y\u025bmmea / Kujani
+  Mmoa Y\u025bmmea.\\nW\u0254 June 28, 2021 no, banb\u0254fo\u0254 too tuo kum nnipa
+  mienu w\u0254 Ejura na afoforo nnan pirapirae\u025b w\u0254 \u0254y\u025bkyer\u025b
+  bi a \u025bdanee basabasay\u025b mu. Ejurafo nso y\u025b asantefo\u0254. w\u0254n
+  adwuma ne kuay\u025b. Afahy\u025b a wodi ne Sikiyerene a \u025by\u025b bayer\u025b
+  afahy\u025b\"", "\"Isus \u0161alje dvanaestoricu apostola\\n(Mk 3:13-19; 6:7-11;
+  Lk 6:13-16; 9:1-6; 10:3-12; Djela 1:13)\\n1Isus pozvao je sebi dvanaestoricu u\u010denika
+  te ih ovlasti da izgone zle duhove i da iscjeljuju svakovrsne bolesti i slabosti.
+  2Evo imena dvanaestorice apostola:\\n\u0160imun (zvan i Petar),\\nAndrija (Petrov
+  brat),\\nJakov (Zebedejev sin),\\nIvan (Jakovljev brat),\\n3Filip,\\nBartolomej,\\nToma,\\nMatej
+  (ubira\u010d poreza),\\nJakov (Alfejev sin),\\nTadej,\\n4\u0160imun Kananaj10:4
+  Ili zelot, \u010dlan prevratni\u010dke politi\u010dke stranke.\\ni Juda I\u0161kariotski
+  (koji je izdao Isusa).\\n5Isus ih je poslao i uputio ih: \u201cNe idite poganima
+  ni Samarijancima, 6ve\u0107 samo izraelskom narodu\u2014Bo\u017ejim izgubljenim
+  ovcama. 7Idite i propovijedajte im da je blizu nebesko kraljevstvo. 8Iscjeljujte
+  bolesnike i gubavce, uskrisujte mrtve i istjerujte zloduhe. Besplatno ste primili,
+  besplatno i dajte. 9Ne uzimajte sa sobom zlata, ni srebra, ni mjedi u pojase, 10ni
+  torbu s odje\u0107om i obu\u0107om za put, ni \u0161tap, jer radnik zaslu\u017euje
+  svoje uzdr\u017eavanje. 11Kad god u\u0111ete u grad ili selo, potra\u017eite dostojna
+  \u010dovjeka pa ostanite kod njega sve dok ne po\u0111ete u drugi grad. 12Kad u\u0111ete
+  u neku ku\u0107u, blagoslovite ju. 13Bude li ku\u0107a toga dostojna, neka se na
+  nju spusti va\u0161 mir. Ne poka\u017ee li se dostojnom, neka se va\u0161 mir vrati
+  vama. 14Gdje vas ne prihvate i ne poslu\u0161aju \u0161to im govorite, otresite
+  s nogu i pra\u0161inu iz toga mjesta kad budete odlazili. 15Zaista vam ka\u017eem,
+  na Sudnji \u0107e dan Sodomi i Gomori biti lak\u0161e nego tomu mjestu!\\n\u010cekaju
+  vas progonstva!\\n(Mk 13:9-13; Lk 12:11-12; 21:12-19)\\n16\u0160aljem vas, evo,
+  kao ovce me\u0111u vukove. Stoga budite mudri kao zmije, a bezazleni kao golubovi.
+  17\u010cuvajte se jer \u0107e vas predavati sudu i bi\u010devati po sinagogama.
+  18Zbog mene \u0107e vas izvoditi pred vladare i kraljeve, da biste njima i poganima
+  mogli posvjedo\u010diti o meni. 19Ne brinite se \u0161to \u0107ete govoriti kad
+  vas predaju sudu jer \u0107e vam tada biti dano \u0161to da ka\u017eete. 20Ne\u0107ete
+  govoriti vi\u2014kroz vas \u0107e govoriti Duh va\u0161ega nebeskog Oca.\\n21Brat
+  \u0107e brata i otac dijete predavati na smrt. Djeca \u0107e se dizati protiv roditelja
+  i predavati ih da ih ubiju. 22Svi \u0107e vas zamrziti zbog mene, ali tko ustraje
+  do kraja, spasit \u0107e se. 23Kad vas po\u010dnu progoniti u jednom gradu, bje\u017eite
+  u drugi! Ja, Sin \u010covje\u010dji, vratit \u0107u se prije nego \u0161to obi\u0111ete
+  sve izraelske gradove.\\n24U\u010denik nije ve\u0107i od svojega u\u010ditelja,
+  niti je sluga iznad svojega gospodara. 25Dosta je da u\u010denik dijeli u\u010diteljevu,
+  a sluga gospodarovu sudbinu. Ako su dakle mene, doma\u0107ina, nazvali \u2018Beelzebulom\u2019,10:25
+  Sotonom. koliko li \u0107e onda vi\u0161e vas, moje uku\u0107ane?\\nNe treba se
+  pla\u0161iti\\n(Lk 12:2-9; Mk 8:38)\\n26Ali ne bojte se onih koji vam prijete. Jer
+  dolazi vrijeme kad \u0107e sve \u0161to je skriveno biti otkriveno; sve \u0161to
+  je tajno \u010dut \u0107e se pred svima. 27\u0160to vam sad govorim u tami, vi\u010dite
+  po ulicama kad svane dan. \u0160to vam \u0161ap\u0107em na uho, vi\u010dite s krovova
+  da svi \u010duju!\\n28Ne bojte se onih koji mogu ubiti samo tijelo, ali du\u0161u
+  ne mogu! Bojte se Boga koji i du\u0161u i tijelo mo\u017ee uni\u0161titi u paklu.
+  29Ne prodaju li se dva vrapca za nov\u010di\u0107, a ipak nijedan od njih ne padne
+  na zemlju bez dopu\u0161tenja va\u0161ega Oca. 30A vama su izbrojene i vlasi na
+  glavi. 31Stoga se ne bojte! Vi ste mu mnogo vredniji od mno\u0161tva vrabaca.\\n32Tko
+  ovdje na zemlji pred ljudima prizna da pripada meni, za njega \u0107u ja, pred svojim
+  Ocem na nebu, priznati da mu pripadam. 33Ali onoga koji mene zanije\u010de na zemlji
+  odre\u0107i \u0107u se pred svojim Ocem na nebu.\\nKako bi ljudi trebali slu\u017eiti
+  Isusu\\n(Lk 12:51-53; 14:26-27; 17:33; Mk 8:34-35; Iv 12:25)\\n34Nemojte misliti
+  da sam na zemlju do\u0161ao donijeti mir! Nisam do\u0161ao donijeti mir, nego ma\u010d.
+  35Do\u0161ao sam rastaviti:\\n\u2018sina od oca,\\nk\u0107erku od majke\\ni snahu
+  od svekrve.\\n36\u010covjeku \u0107e neprijatelji biti vlastiti uku\u0107ani.\u201910:36
+  Mihej 7:6\\n37Tko voli svojega oca ili svoju majku vi\u0161e nego mene, nije me
+  dostojan. Tko voli sina ili k\u0107erku vi\u0161e nego mene, nije me dostojan. 38Tko
+  ne uzme svoj kri\u017e i ne po\u0111e za mnom, nije me dostojan. 39Tko za sebe \u010duva
+  svoj \u017eivot, izgubit \u0107e ga; a tko dade svoj \u017eivot za mene, na\u0107i
+  \u0107e ga.\\nNagrade\\n(Mk 9:41; Lk 10:16; Iv 13:20)\\n40Tko prihvati vas, mene
+  prihva\u0107a. A tko mene prihvati, prihva\u0107a Boga koji me je poslao. 41Tko
+  prihvati proroka zato \u0161to je prorok, dobit \u0107e proro\u010dku pla\u0107u;
+  tko prihvati pravednika zato \u0161to je pravednik, dobit \u0107e pravedni\u010dku
+  pla\u0107u. 42Tko napoji jednoga od ovih najmanjih \u010da\u0161om hladne vode,
+  zato \u0161to je moj u\u010denik, sigurno ne\u0107e mu propasti nagrada.\u201d\\nYesu
+  Soma Asuafo Dumien No\\n1Yesu fr\u025b\u025b n\u02bcasuafo dumien no baa ne nky\u025bn,
+  na \u0254maa w\u0254n tumi s\u025b wontu ahonhomm\u0254ne na w\u0254nsa nyarewa
+  ne aho\u0254mmer\u025bw nyinaa.\\n2Yesu asuafo dumien no din ni:\\nSimon a ne din
+  baako ne Petro ne ne nua Andrea;\\nYakobo ne ne nua Yohane a w\u0254y\u025b Sebedeo
+  mma no,\\n3Filipo ne Bartolomeo,\\nToma ne towgyefo Mateo,\\nYakobo, Alfeo ba ne
+  Tadeo,\\n4Simon a ofi Kana ne Yuda Iskariot a akyiri no, oyii Yesu mae no.\\n5Yesu
+  somaa asuafo dumien no hy\u025b\u025b w\u0254n se, \u201cMonnk\u0254 nea amanamanmufo
+  w\u0254 anaa Samariafo kurow biara mu, 6na mmom monk\u0254 Onyankop\u0254n nguan
+  a w\u0254w\u0254 Israel a w\u0254ayera no nky\u025bn. 7Monk\u0254ka nkyer\u025b
+  w\u0254n se, \u2018Onyankop\u0254n Ahenni no ab\u025bn!\u2019 8Monsa ayarefo yare,
+  munnyan awufo, momma akwatafo ho mfi, na muntu ahonhomm\u0254ne. S\u025bnea munyaa
+  no kwa no, saa ara na mo nso na momfa mma kwa.\\n9\u201cMommmfa sikak\u0254k\u0254\u0254,
+  dwet\u025b anaa k\u0254bere biara mm\u0254 mo ho. 10Mommmfa akwantukotoku anaa ntade
+  anaa mpaboa anaa pema. \u0190s\u025b s\u025b odwumay\u025bni didi. 11Kurow biara
+  a mob\u025bk\u0254 mu anaa akuraa biara a mob\u025bk\u0254 ase no, monhwehw\u025b
+  onipa a onyamesuro w\u0254 ne mu akyi kwan na montena ne nky\u025bn kosi da a mubefi
+  h\u0254 ak\u0254 baabi foforo. 12S\u025b mok\u0254 ofi bi mu a, munkyia w\u0254n
+  se, \u2018Asomdwoe nka mo!\u2019 13S\u025b saa ofi no mufo gye mo f\u025bw so a,
+  munhyira w\u0254n, na s\u025b w\u0254annye mo de a, momfa mo asomdwoe. 14S\u025b
+  morefi ofi anaa kurow biara a w\u0254annye mo w\u0254 mu no mu ak\u0254 a, momporoporow
+  ofi no anaa kurow no mu mfutuma a \u025bw\u0254 mo nan ase no ngu h\u0254.10.14
+  Eyi y\u025b nea Farisifo y\u025b bere a wofi baabiara a wobu s\u025b amanamanmufo
+  atena h\u0254 nti \u025bh\u0254 agu fi no. \u0190y\u025b k\u0254k\u0254b\u0254 a
+  emu y\u025b den ma w\u0254n a w\u0254po Awurade as\u025bm no. 15Nokware ni, atemmuda
+  no, Sodom ne Gomora mpo benya baabi agyina w\u0254 Onyankop\u0254n anim sen saa
+  kurow no.\\n16\u201cMonkae s\u025b meresoma mo s\u025b nguan ak\u0254 mpataku mu.
+  Mony\u025b anifere s\u025b aw\u0254 na munnwo s\u025b mmor\u0254noma. 17Nanso monhw\u025b
+  yiye w\u0254 nnipa ho! W\u0254b\u025bkyere mo adi mo as\u025bm, ab\u0254 mo mmaa
+  w\u0254 w\u0254n as\u0254redan mu. 18Me nti, w\u0254de mo b\u025bk\u0254 atumfo
+  ne ahene anim. Eyi b\u025bma moanya kwan aka as\u025bmpa no akyer\u025b w\u0254n
+  ne amanamanmufo no. 19S\u025b w\u0254kyere mo a, munnnwinwen as\u025bm a mob\u025bka
+  de ayi mo ho ano ho. W\u0254de as\u025bm a mob\u025bka no b\u025bma mo bere a \u025bs\u025b
+  mu. 20As\u025bm a mob\u025bka no remfi mo, na mmom, mo \u0254soro Agya no honhom
+  na \u0254nam mo so b\u025bkasa.\\n21\u201cOnua beyi onua ama na w\u0254akum no.
+  Saa ara na agyanom nso beyi w\u0254n mma ama. Mma b\u025bs\u0254re atia w\u0254n
+  awofo ama w\u0254akum w\u0254n. 22Me nti, nnipa nyinaa b\u025btan mo. Nanso nea
+  obetumi agyina pintinn akosi awiei no na wobegye no nkwa. 23S\u025b w\u0254taa mo
+  kurow baako mu a, munguan nk\u0254 kurow foforo mu. Mereka nokware akyer\u025b mo
+  se morenwie Israel nkurow nyinaa mu adwumay\u025b ansa na Onipa Ba no aba.\\n24\u201cOsuani
+  nsen ne kyer\u025bkyer\u025bfo, na akoa nso nsen ne wura. 25Osuani sua ne kyer\u025bkyer\u025bfo,
+  na akoa nso sua ne wura. Enti s\u025b me a mey\u025b ofi no ti no w\u0254fr\u025b
+  me \u2018\u0186bonsam\u2019 a, d\u025bn din na w\u0254remfa mfr\u025b mo!\\n26\u201cMunnsuro
+  w\u0254n. Mmere bi b\u025bba a nokware no b\u025bda adi. Nea w\u0254y\u025b no kokoa
+  mu no nyinaa b\u025bda adi. 27Nea mereka akyer\u025b mo w\u0254 sum mu yi, monka
+  w\u0254 hann mu. Nea mereka agu mo asom yi, mompae mu nka w\u0254 adan atifi. 28Munnsuro
+  w\u0254n a wobetumi akum mo nipadua nanso w\u0254rentumi nkum mo kra no. Onyankop\u0254n
+  a obetumi akum onipadua no ne \u0254kra w\u0254 amanehunu kurom no nko ara na munsuro
+  no. 29W\u0254t\u0254n akasanoma gye ahe? Nkasanoma abien bo ny\u025b sika kakraa
+  bi p\u025b? Nanso akasanoma biara nni h\u0254 a obewu a mo Agya no nnim ho biribi.
+  30Mo tinwi mpo, w\u0254akan ne nyinaa. 31Enti munnsuro! Mosom bo ma Onyankop\u0254n
+  sen nkasanoma.\\n32\u201cObiara a \u0254b\u025bka se onim me w\u0254 nnipa anim
+  no, me nso m\u025bka se minim no m\u02bcagya a \u0254w\u0254 \u0254soro no anim.
+  33Na obiara a \u0254b\u025bka se onnim me w\u0254 nnipa anim no, me nso m\u025bka
+  se minnim no w\u0254 m\u02bcagya a \u0254w\u0254 \u0254soro no anim.\\n\u0190ny\u025b
+  Asomdwoe, \u0190y\u025b \u0186ko\\n34\u201cMunnsusuw s\u025b mede asomdwoe na \u025bbaa
+  asase yi so! \u0190ny\u025b asomdwoe na mmom afoa na mede bae. 35Maba s\u025b m\u025bma,\\n\u201c
+  \u2018\u0254babarima as\u0254re atia n\u02bcagya,\\nna \u0254babea as\u0254re atia
+  ne na,\\nna \u0254bea warefo nso as\u0254re atia n\u02bcasebea.\\n36Obiara tamfo
+  a ne ho y\u025b hu no befi n\u02bcankasa ne fi.\u2019\\n37\u201cNea \u0254d\u0254
+  n\u02bcagya anaa ne na ky\u025bn me no rentumi ny\u025b me de. Saa ara na nea \u0254d\u0254
+  ne babarima anaa ne babea ky\u025bn me no rentumi ny\u025b me de ara ne no. 38S\u025b
+  obi amfa n\u02bcasennua na wammedi m\u02bcakyi a, \u0254rentumi ny\u025b me de.
+  39S\u025b woma wo kra som wo bo a, wob\u025bhwere wo kra no, nanso s\u025b me nti
+  wohwere wo kra a, wo nsa b\u025bka.\\n40\u201cObiara a ogye mo no gye me, na nea
+  ogye me no nso gye Onyankop\u0254n a \u0254somaa me no. 41S\u025b wugye odiyifo
+  bi s\u025b \u0254y\u025b Onyankop\u0254n nipa nti a, wobetua wo so ka s\u025b odiyifo
+  no ara p\u025b. Na s\u025b wugye nnipa trenee a, wubenya akatua s\u025b onipa trenee.
+  42Na obiara a \u0254b\u025bma m\u02bcakyidifo yi mu akumaa bi nsu anom no, onii
+  no akatua remm\u0254 no da.\u201d\"", "\"NEA ENTI A EHIA\\nAfe biara w\u0254to nnipa
+  mpempem mmonnaa anaa w\u0254y\u025b w\u0254n basabasa. Mmofra ne mmabun na w\u0254taa
+  y\u025b w\u0254n saa.\\n\u0190D\u0190N NA WOB\u0190Y\u0190?\\nN\u00e1 Annette ani
+  nna ne ho so. Ohui ara ne s\u025b obi ato ahy\u025b ne so aka no atim fam. \u0186kae
+  s\u025b, \u201cMey\u025b\u025b s\u025b m\u025bte\u025bm, nanso mete\u025bm koraa
+  a, \u025bmma. Merepia no no, na mereb\u0254 no, na meretiti no. Nso ne nyinaa ankosi
+  hwee. Nea metee ara ne s\u025b \u0254de sekan aw\u0254 me. Afei na meda h\u0254
+  kagyaa.\u201d\\nWo na biribi saa too wo a, anka wob\u025by\u025b d\u025bn?\\nSUSUW
+  HO HW\u0190!\\nEbia wohw\u025b wo ho yiye paa. S\u025b worepue anadwo a, woy\u025b
+  nea wubetumi biara de b\u0254 wo ho ban. Nanso b\u0254ne betumi ato wo bere biara.
+  Bible ka s\u025b, \u2018\u0190ny\u025b aho\u0254harefo na wodi nkonim mmirikatu
+  mu, na \u025bny\u025b animdefo na wonya nnipa anim dom; efis\u025b asiane to w\u0254n
+  nyinaa bere a w\u0254nhw\u025b kwan.\u2019\u2014\u0186s\u025bnkafo 9:11.\\nNea \u025btoo
+  Annette no to mmabun pii; nkur\u0254fo a wonnim w\u0254n na \u025bto w\u0254n mmonnaa.
+  Nanso ebinom de\u025b, amannifo anaa abusuafo mpo na \u025bto w\u0254n mmonnaa.
+  Y\u025bhw\u025b Natalie sei a, odii mfe du na aberante bi too no mmonnaa. N\u00e1
+  aberante no te w\u0254n mp\u0254tam h\u0254 ara. Natalie kae s\u025b, \u201cN\u00e1
+  may\u025b basaa. Aniwu ne ehu kyekyeree me. Enti mfiase no, mamm\u0254 obiara amanne\u025b.\u201d\\nAS\u0190M
+  NO MFI WO\\nDa biara a Annette b\u025bkae nea esii no, na wabubu. \u0190y\u025b
+  no s\u025b nea \u025bbae nyinaa fi no. \u0186kae s\u025b: \u201c\u0190w\u0254 h\u0254
+  ara na abesi me tirim. Midwen ho a, \u025by\u025b me s\u025b migogow me ho dodow.
+  As\u025bm no ara ne s\u025b, onya de sekan no w\u0254\u0254 me ara na ehu t\u0254\u0254
+  me so. Mantumi any\u025b hwee bio, nanso ebia anka \u025bs\u025b s\u025b mekentene
+  me ho kakra.\u201d\\nNatalie nso susuw s\u025b nea esii nyinaa fi no. \u0186kae
+  s\u025b: \u201cMigyee aberante no dii dodo. Na m\u2019awofo aka no denneennen s\u025b
+  mek\u0254 ab\u0254nten kodi agor\u0254 a, menhw\u025b s\u025b me nuabea nso w\u0254
+  h\u0254 bi. Nanso mantie. Enti \u025by\u025b me s\u025b me ara m\u2019aso\u0254den
+  na \u025bk\u0254faa ne nyinaa bae. As\u025bm no haw m\u2019abusuafo paa, na wei
+  besi me tirim a na merey\u025b awu. \u0190ny\u025b me a anka wei nyinaa amma.\u201d\\nAnnette
+  ne Natalie as\u025bm yi ne wo de\u025b hyia a, \u025bnde kae s\u025b obi to wo mmonnaa
+  a, \u025bnkyer\u025b s\u025b wo na womaa kwan. Mmonnaato y\u025b aniberes\u025bm
+  paa, nanso ns\u025bm a ebinom ka ma no y\u025b s\u025b gyama \u025bny\u025b biribiara.
+  W\u0254ka s\u025b: \u201cMmarimaa de\u025b saa ara; wugyaagyae wo ho a, w\u0254remfa
+  nky\u025b wo.\u201d Nanso hena na \u0254b\u025bka s\u025b \u0254no de\u025b \u0254p\u025b
+  s\u025b obi to no mmonnaa? Enti s\u025b obi ato wo mmonnaa p\u025bn a, mmu wo ho
+  f\u0254, efis\u025b as\u025bm no mfi wo.\\nY\u025bka s\u025b \u201cas\u025bm no
+  mfi wo\u201d a, ebia \u025bny\u025b den s\u025b wob\u025bte ase, nanso wubegye atom
+  anaa? Ebinom mp\u025b s\u025b w\u0254b\u0254 as\u025bm no so koraa. Ade\u025b yi
+  wosusuw s\u025b w\u0254n ara na ak\u0254fa aba. Enti daa na wosu gu w\u0254n yam.
+  Nanso, wo de\u025b hw\u025b oo: Wumua w\u2019ano a, hena paa na worey\u025b no?
+  Nea \u0254too wo mmonnaa no, anaa wo a y\u025bato wo mmonnaa no? Wo ara wo yiye
+  mu nti ehia s\u025b wudwen as\u025bm no ho bio.\\nMFA NHY\u0190 WO MU\\nBible ka
+  s\u025b \u0254treneeni Hiob rehu amane no, \u0254kae s\u025b: \u201cM\u025bkasa
+  me kra awer\u025bhow mu!\u201d (Hiob 10:1) Wo nso \u025b? Wunnye nni s\u025b woka
+  ho as\u025bm a \u025bb\u025bboa? Woka kyer\u025b obi a wop\u025b n\u2019as\u025bm
+  a, wubehu nne\u025bma ani so yiye na woahu nea wob\u025by\u025b w\u0254 ho. Wei
+  betumi ayi adesoa ne adwennwen afi wo so.\\nAnnette hui s\u025b as\u025bm yi y\u025b
+  nokware. Wo de\u025b tie n\u2019anom as\u025bm: \u201cMeka kyer\u025b\u025b m\u2019adamfo
+  bi, na \u0254hy\u025b\u025b me nkuran s\u025b menka nkyer\u025b m\u2019asafo mu
+  mpanyimfo no bi. \u0190y\u025b me d\u025b paa s\u025b mey\u025b\u025b saa. W\u0254ne
+  me b\u0254\u0254 nk\u0254mm\u0254 mp\u025bn pii hy\u025b\u025b me den. W\u0254kasa
+  maa no t\u0254\u0254 me koma so paa. W\u0254maa mihui s\u025b nea esii no mfi me.
+  Emu biara nni h\u0254 a efi me.\u201d\\nNatalie kaa nea esii no kyer\u025b\u025b
+  n\u2019awofo. Tie n\u2019anom as\u025bm: \u201cM\u2019awofo twaa me koma too me
+  yam, na \u025bmaa mitumi kasae. Nea m\u2019awofo y\u025be yi boaa me paa; amma m\u2019anni
+  yaw k\u025bse.\u201d\\nAde\u025b baako a \u025bboaa Natalie nso ne mpaeb\u0254.
+  \u0186kae s\u025b: \u201cEdu baabi na \u025by\u025b den s\u025b me ne obi besusuw
+  ho a, na aka me ne me Nyankop\u0254n. Meb\u0254 mpae a, mitumi hwie me komam ns\u025bm
+  nyinaa gu n\u2019anim. Wei ma me ho dwo me sei f\u0254mm.\u201d\\nWo nso \u025b?
+  Biribi saa ato wo p\u025bn a, kae s\u025b \u2018ayaresa w\u0254 ne bere.\u2019 (\u0186s\u025bnkafo
+  3:3) Enti hw\u025b wo ho so yiye. \u0190y\u025b a nya bere home. Afei kae s\u025b
+  Yehowa ne awer\u025bkyekye nyinaa Nyankop\u0254n, enti fa wo ho to no so.\u20142
+  Korintofo 1:3, 4.\\nS\u0190 W\u2019ASO AWARE A\\nS\u025b woy\u025b abaayewa na obi
+  p\u025b s\u025b \u0254hy\u025b wo ma wubu bra b\u0254ne a, nsuro s\u025b wob\u025bka
+  no pen s\u025b, \u201cGyae nea worey\u025b no!\u201d anaa \u201cYi wo nsa, gyae
+  me mu!\u201d Nka s\u025b mo adamfofa no b\u025bs\u025be nti wubemua w\u2019ano.
+  S\u025b wei nti \u0254ne wo twa mu a, mma no nhaw wo. \u0186ny\u025b \u0254barima
+  a \u0254fata wo! Wuhia \u0254barima a obu ne ho, \u0254barima a obedi wo ni.\\nY\u0190
+  S\u0186HW\u0190 YI\\n\u201cBere a y\u025bw\u0254 sukuu no, \u025bw\u0254 h\u0254
+  a na mmarimaa bi abegyina m\u2019akyi atwe me brassiere (b\u0254des) akeka abofonos\u025bm
+  akyer\u025b me. Wotumi ka s\u025b me ne w\u0254n da a, m\u2019ani begye paa.\u201d\\n\u2014Coretta.\\nWohw\u025b
+  nea mmarimaa no y\u025be yi a, wob\u025bka s\u025b:\\nW\u0254ne Coretta redi agor\u0254?\\nW\u0254de
+  w\u0254n ho rehyehy\u025b no?\\nW\u0254retwetwe n\u2019adwene aba nna so?\\n\u201cBere
+  bi a y\u025bte b\u0254s mu no, abarimaa bi fii ase keka ns\u025bnhunu kyer\u025b\u025b
+  me. Mihui ara na was\u0254 me mu. Enti meb\u0254\u0254 ne nsa twenee baabi ka kyer\u025b\u025b
+  no s\u025b omfi me nky\u025bn. Afei na \u0254hw\u025b me h\u00e3\u00e3, kyer\u025b
+  s\u025b onhu nipa ko a mey\u025b.\u201d\\n\u2014Candice.\\nWohw\u025b nea abarimaa
+  no y\u025be yi a, wob\u025bka s\u025b:\\n\u0186ne Candice redi agor\u0254?\\n\u0186de
+  ne ho rehyehy\u025b no?\\n\u0186retwetwe n\u2019adwene aba nna so?\\n\u201cAfe a
+  etwaam no, abarimaa bi tuu n\u2019ani sii me so s\u025b \u0254p\u025b me na \u0254p\u025b
+  s\u025b yepue. Nanso mampene. \u0190t\u0254 da a, \u0254de ne nsa fefa me ho. Meka
+  s\u025b onnyae a, ontie. Da bi na merehy\u025b me mpaboa, nea metee ara ne s\u025b
+  wab\u0254 me to.\u201d\\n\u2014Bethany.\\nWuhu nea abarimaa yi y\u025be no s\u025bn?\\n\u0186ne
+  Bethany redi agor\u0254?\\n\u0186de ne ho rehyehy\u025b no?\\n\u0186retwetwe n\u2019adwene
+  aba nna so?\\nY\u025bhw\u025b ns\u025bm yi nyinaa a, nea \u025bt\u0254 so 3 no na
+  \u025by\u025b nokware.\\nS\u025b obi retwetwe w\u2019adwene aba nna so anaa \u0254de
+  nna ho ns\u025bm rehaw wo a, y\u025brentumi nka s\u025b \u0254ne wo redi agor\u0254
+  anaa \u0254de ne ho hyehy\u025b wo k\u025bk\u025b. Ad\u025bn ntia?\\nObi retwetwe
+  w\u2019adwene aba nna so na woka kyer\u025b no s\u025b onnyae koraa ontie.\\nWei
+  y\u025b aniberes\u025bm paa, efis\u025b ebetumi akowie mmonnaato.\"", "\"Nkyia\\n1Saa
+  nhoma yi fi Onyankop\u0254n somfo ne Yesu Kristo somafo Paulo nky\u025bn. W\u0254paw
+  me na w\u0254somaa me se memm\u025btr\u025bw nnipa a Onyankop\u0254n ayi w\u0254n
+  no gyidi mu no, na menkyer\u025bkyer\u025b w\u0254n nokwas\u025bm a \u025bde onyamesuro
+  ba 2w\u0254 nkwa a enni awiei ho anidaso a Onyankop\u0254n a onni atoro no hy\u025b\u025b
+  y\u025bn ho b\u0254 ansa na \u0254refi wiase ase; 3na afei ne bere a \u025bs\u025b
+  mu no, \u0254faa as\u025bnka a \u0254no Nyankop\u0254n a \u0254y\u025b y\u025bn
+  Agyenkwa no hy\u025b me s\u025b menka no so daa no adi.\\n4Mekyer\u025bw me ba Tito
+  w\u0254 gyidi baako a y\u025bn nyinaa kura mu no mu:\\nAdom ne asomdwoe a efi Agya
+  Nyankop\u0254n ne Kristo Yesu, y\u025bn Agyenkwa no nka wo!\\nAs\u025bmpakafo Yiyedi\\n5Migyaw
+  wo Kreta s\u025bnea \u025bb\u025by\u025b a wob\u025btoto nne\u025bma a aka no p\u025bp\u025b\u025bp\u025b
+  na woayi mpanyimfo atuatua asafo a \u025bw\u0254 kurow biara mu no ano. 6Kae mmara
+  a mehy\u025b maa wo no. \u0186panyin y\u025b obi a ne ho nni as\u025bm na \u0254w\u0254
+  yere baako na ne mma y\u025b agyidifo a w\u0254mm\u0254 ahohwi bra, na w\u0254ny\u025b
+  aso\u0254den nso. 7\u0190ns\u025b s\u025b mfomso biara ba \u0254panyin no ho, efis\u025b
+  Onyame adwuma hy\u025b ne nsa. \u0190ns\u025b s\u025b \u0254y\u025b ahomaso, anaa
+  obi a ne bo nky\u025b fuw anaa \u0254k\u0254wensani anaa basabasay\u025bfo anaa
+  sikaniberefo. 8\u0190s\u025b s\u025b \u0254y\u025b obi a \u0254p\u025b ah\u0254hoy\u025b
+  na n\u02bcani gye nea eye ho na n\u02bcadwene mu da h\u0254 na \u0254te\u025b na
+  \u0254y\u025b kronkron na \u0254w\u0254 ahohy\u025bso. 9\u0190s\u025b s\u025b oso
+  as\u025bm no mu dennen s\u025bnea w\u0254kyer\u025b\u025b no no. S\u025b \u025bba
+  saa a, obetumi ahy\u025b afoforo den w\u0254 saa nkyer\u025bkyer\u025b pa no mu,
+  na wada w\u0254n a w\u0254s\u0254re tia as\u025bm no mu no nso mfomso adi.\\n10Nnipa
+  pii w\u0254 h\u0254 a w\u0254s\u0254re tia na w\u0254nam w\u0254n nkwaseas\u025bm
+  so daadaa afoforo; ne titiriw no, w\u0254n a wofi twetiatwasom no mu. 11\u0190s\u025b
+  s\u025b wusiw w\u0254n nkyer\u025bkyer\u025b no ano, efis\u025b w\u0254nam w\u0254n
+  nkyer\u025bkyer\u025b b\u0254ne no so ma ntoto ba mmusua mu, nam so de p\u025b sika.
+  12Mpo Kreta adiyifo no mu baako kae se, \u201cKretafo no y\u025b atorofo, mmoa atirim\u0254denfo
+  ne akwadwofo adidifo.\u201d 13Na as\u025bm a \u0254kae no y\u025b nokware. Esiane
+  saa nti, \u025bs\u025b s\u025b moka w\u0254n anim yiye s\u025bnea \u025bb\u025by\u025b
+  a wobenya gyidi pa, 14na w\u0254antena ase amma twetiatwa atos\u025bm ne \u0254hy\u025b
+  a efi nnipa a w\u0254apo nokware no. 15Biribiara y\u025b kronkron ma w\u0254n a
+  w\u0254y\u025b kronkron no, nanso biribiara ny\u025b kronkron mma w\u0254n a w\u0254n
+  ho agu fi na wonni gyidi no, efis\u025b w\u0254n adwene ne w\u0254n tiboa ho agu
+  fi. 16W\u0254ka se wonim Onyankop\u0254n, nanso w\u0254n nney\u025be nkyer\u025b
+  saa. W\u0254y\u025b nnipa a obiara tan w\u0254n, na w\u0254y\u025b aso\u0254denfo
+  a wontumi ny\u025b ade pa biara.\\n1Paul, a servant of God, and an apostle of Jesus
+  Christ, according to the faith of God\u2019s elect, and the acknowledging of the
+  truth which is after godliness; 2In hope of eternal life, which God, that cannot
+  lie, promised before the world began; 3But hath in due times manifested his word
+  through preaching, which is committed unto me according to the commandment of God
+  our Saviour; 4To Titus, mine own son after the common faith: Grace, mercy, and peace,
+  from God the Father and the Lord Jesus Christ our Saviour.\\n5For this cause left
+  I thee in Crete, that thou shouldest set in order the things that are wanting, and
+  ordain elders in every city, as I had appointed thee: 6If any be blameless, the
+  husband of one wife, having faithful children not accused of riot or unruly. 7For
+  a bishop must be blameless, as the steward of God; not selfwilled, not soon angry,
+  not given to wine, no striker, not given to filthy lucre; 8But a lover of hospitality,
+  a lover of good men, sober, just, holy, temperate; 9Holding fast the faithful word
+  as he hath been taught, that he may be able by sound doctrine both to exhort and
+  to convince the gainsayers. 10For there are many unruly and vain talkers and deceivers,
+  specially they of the circumcision: 11Whose mouths must be stopped, who subvert
+  whole houses, teaching things which they ought not, for filthy lucre\u2019s sake.
+  12One of themselves, even a prophet of their own, said, The Cretians are alway liars,
+  evil beasts, slow bellies. 13This witness is true. Wherefore rebuke them sharply,
+  that they may be sound in the faith; 14Not giving heed to Jewish fables, and commandments
+  of men, that turn from the truth. 15Unto the pure all things are pure: but unto
+  them that are defiled and unbelieving is nothing pure; but even their mind and conscience
+  is defiled. 16They profess that they know God; but in works they deny him, being
+  abominable, and disobedient, and unto every good work reprobate.\"", "\"Nne\u025bma
+  a edidi so yi mu nea \u025bw\u0254 he na wubetumi de w\u2019ahonim atoto ho?\\nk\u0254mpase
+  anaa akyer\u025bkyer\u025bkwan\\nahwehw\u025b\\nadamfo\\n\u0254temmufo\\nYebetumi
+  de y\u025bn ahonim atoto nne\u025bma nnan no nyinaa ho. Nea y\u025brebesusuw ho
+  yi b\u025bma y\u025bahu nea enti a \u025bte saa.\\nD\u025bn ne ahonim?\\nW\u2019ahonim
+  y\u025b biribi a \u025bma wuhu s\u025b ade bi y\u025b papa anaa \u025bny\u025b papa.
+  Bible ka s\u025b, y\u025bn tiboa no te s\u025b \u2018mmara w\u0254 y\u025bn komam.\u2019
+  (Romafo 2:15, Akuapem Twi Bible) S\u025b obi ahonim y\u025b papa a, \u025bboa ma
+  ohu s\u025b, biribi a \u0254p\u025b s\u025b \u0254y\u025b no ye anaa enye. Afei
+  nso, s\u025b \u0254y\u025b ade bi wie a, ahonim no ma ohu s\u025b eye anaa enye.\\nW\u2019ahonim
+  te s\u025b k\u0254mpase anaa akyer\u025bkyer\u025bkwan. \u0190kyer\u025b wo \u0254kwan
+  a \u025bs\u025b s\u025b wofa so s\u025bnea \u025bb\u025by\u025b a worenhyia \u0254haw
+  biara.\\nW\u2019ahonim te s\u025b ahwehw\u025b. \u0190ma wuhu s\u025bnea wote ankasa.
+  \u0190ma wuhu s\u025b w\u2019abrab\u0254 ye anaa enye.\\nW\u2019ahonim te s\u025b
+  wo y\u0254nko ber\u025bbo. S\u025b otu wo fo na wutie a, ebesi wo yiye.\\nW\u2019ahonim
+  te s\u025b \u0254temmufo. S\u025b woy\u025b biribi a enye a, \u025bma wuhu s\u025b
+  woany\u025b no yiye.\\nNea y\u025breka akosi: W\u2019ahonim y\u025b biribi a \u025bb\u025bboa
+  wo ama (1) woasisi gyinae pa na (2) woasiesie mfomso a woadi.\\nAd\u025bn nti na
+  \u025bs\u025b s\u025b wotete w\u2019ahonim?\\nBible tu y\u025bn fo s\u025b \u201cyenkura
+  ahonim pa mu.\u201d (1 Petro 3:16) Nanso s\u025b wontetee w\u2019ahonim a, \u025bb\u025by\u025b
+  den s\u025b wubekura ahonim pa mu.\\n\u201cS\u025b mipue na m\u2019awofo bisa me
+  baabi a mew\u0254 a, \u025by\u025b a menka nokware nkyer\u025b w\u0254n. Kan no,
+  s\u025b mey\u025b saa a, na m\u2019ahonim bu me f\u0254. Nanso mey\u025be araa ma
+  na \u025bnhaw me bio.\u201d\u2014Jennifer.\\nAkyiri yi, Jennifer ahonim buu no f\u0254
+  araa ma na \u0254de hy\u025b ne ho a, \u025bny\u025b yiye. Enti \u0254kaa nea na
+  \u0254y\u025b no nyinaa mu nokware kyer\u025b\u025b n\u2019awofo. Efi saa bere no,
+  wannaadaa n\u2019awofo bio.\\nSusuw wei ho hw\u025b: Wohw\u025b a, bere b\u025bn
+  na na \u025bs\u025b s\u025b Jennifer tie nea na n\u2019ahonim reka akyer\u025b no
+  no?\\n\u201cS\u025b woy\u025b b\u0254ne sie, nanso nnipa ani so no woy\u025b wo
+  ho s\u025b woy\u025b nipa papa a, w\u2019ani rennye da. S\u025b woreb\u025by\u025b
+  biribi a enye na w\u2019ahonim b\u0254 wo k\u0254k\u0254 na woantie na woy\u025b
+  a, bere foforo \u025breny\u025b den koraa s\u025b wob\u025bsan ay\u025b biribi b\u0254ne
+  bio.\u201d\u2014Matthew.\\nEbinom w\u0254 h\u0254 a, w\u0254mfa w\u0254n ahonim
+  no ny\u025b hwee. \u0190kasa kyer\u025b w\u0254n a, wontie. Bible ka s\u025b, nnipa
+  a w\u0254te saa no \u201catoto w\u0254n ani awe.\u201d (Efesofo 4:19) Akuapem Twi
+  Bible no ka s\u025b: \u201cW\u0254n ani nwu ade bio.\u201d\\nSusuw wei ho hw\u025b:
+  S\u025b obi y\u025b nne\u025bma b\u0254ne na n\u2019ahonim ammu no f\u0254 a, \u025bno
+  kyer\u025b s\u025b wafa ne ho adi anaa? \u0186haw ahorow b\u025bn na w\u0254twe
+  w\u0254n mu tann a wobehyia?\\nNea y\u025breka akosi: S\u025b wubetumi akura ahonim
+  pa mu a, \u025bs\u025b s\u025b wotete ahonim no \u201cma etumi hu papa ne b\u0254ne
+  mu nsonsonoe.\u201d\u2014Hebrifo 5:14.\\nWob\u025by\u025b d\u025bn atete w\u2019ahonim?\\nS\u025b
+  yebetumi atete y\u025bn ahonim a, \u025bs\u025b s\u025b yenya biribi a y\u025bb\u025bhw\u025b
+  so de atoto y\u025bn abrab\u0254 ho ahw\u025b s\u025b nea y\u025brey\u025b no ye
+  anaa enye. Nea ebinom hw\u025b so de tete w\u0254n ahonim no bi ne:\\nw\u0254n abusua
+  anaa w\u0254n amammer\u025b\\nw\u0254n atip\u025bnfo\\nw\u0254n a w\u0254agye din
+  w\u0254 wiase no mu\\nNanso, ns\u025bm a \u025bw\u0254 Bible mu a yebetumi de ab\u0254
+  y\u025bn bra no ho hia sen ne nyinaa. Wei ny\u025b nwonwa, efis\u025b Bible no fi
+  \u201cOnyankop\u0254n honhom mu\u201d, kyer\u025b s\u025b \u0254no na \u0254kyer\u025bwee.
+  Esiane s\u025b \u0254no na \u0254b\u0254\u0254 y\u025bn nti, onim nea eye ma y\u025bn.\u20142
+  Timoteo 3:16.\\nBible mu ns\u025bm a yebetumi de ab\u0254 y\u025bn bra no mu bi
+  na edidi so yi.\\nBIBLE MU AS\u0190M: \u201cY\u025bp\u025b s\u025b y\u025bde nokwaredi
+  b\u0254 y\u025bn bra w\u0254 biribiara mu.\u201d\u2014Hebrifo 13:18.\\nS\u025b \u025by\u025b
+  wo s\u025b wia s\u0254hw\u025b mu, di atoro kyer\u025b w\u2019awofo anaa wia obi
+  ade a, s\u025bn na Bible mu as\u025bm yi betumi aboa w\u2019ahonim?\\nS\u025b w\u2019ahonim
+  boa wo ma wudi nokware w\u0254 biribiara mu a, s\u025bn na \u025bb\u025bboa wo nn\u025b
+  ne daakye?\\nBIBLE MU AS\u0190M: \u201cMunguan aguamamm\u0254.\u201d\u20141 Korintofo
+  6:18.\\nS\u025b \u025by\u025b wo s\u025b hw\u025b ponografi anaa k\u0254b\u0254
+  aguaman a, s\u025bn na Bible mu as\u025bm yi betumi aboa w\u2019ahonim?\\nS\u025b
+  w\u2019ahonim boa wo ma wotwe wo ho fi aguamamm\u0254 ho a, s\u025bn na \u025bb\u025bboa
+  wo nn\u025b ne daakye?\\nBIBLE MU AS\u0190M: \u201cMo ne mo ho nni w\u0254 ayamye
+  ne ayamhyehye so, na mumfi mo p\u025b mu mfa b\u0254ne mfirifiri mo ho.\u201d\u2014Efesofo
+  4:32.\\nS\u025b wo ne wo nua anaa w\u2019adamfo nya as\u025bm a, s\u025bn na Bible
+  mu as\u025bm yi betumi aboa w\u2019ahonim?\\nS\u025b w\u2019ahonim boa wo ma wuhu
+  nkur\u0254fo mm\u0254b\u0254 na wote nka ma w\u0254n a, s\u025bn na \u025bb\u025bboa
+  wo nn\u025b ne daakye?\\nBIBLE MU AS\u0190M: \u201cObiara a n\u2019ani gye awudis\u025bm
+  ho no, Yehowa kra kyi no koraa.\u201d\u2014Dwom 11:5.\\nS\u025b wop\u025b s\u025b
+  wuhu sini ne TV so dwumadi a \u025bs\u025b s\u025b wohw\u025b anaa video game a
+  \u025bs\u025b s\u025b wob\u0254 a, s\u025bn na Bible mu as\u025bm yi betumi aboa
+  w\u2019ahonim?\\nS\u025b w\u2019ahonim boa wo ma wotwe wo ho fi anigyede a basabasay\u025b
+  wom ho a, s\u025bn na \u025bb\u025bboa wo nn\u025b ne daakye?\\nAS\u0190M BI A ESII:
+  \u201cN\u00e1 mew\u0254 nnamfo bi a w\u0254n ani gye video game a basabasay\u025b
+  wom ho, na na me nso m\u2019ani gye ho. Me papa ka kyer\u025b\u025b me s\u025b,
+  \u025bns\u025b s\u025b meb\u0254 video game a \u025btete saa bio. Nanso s\u025b
+  mek\u0254sra me nnamfo no a, na miwia me ho b\u0254. \u0190ba saa na meba fie a,
+  na may\u025b dinn. S\u025b me papa bisa me nea enti a may\u025b dinn a, mise \u025bny\u025b
+  hwee. Da koro bi mekenkan Dwom 11:5. Mekenkan wiei no, m\u2019ahonim fii ase buu
+  me f\u0254. Mihui s\u025b, \u025bs\u025b s\u025b migyae video game no b\u0254, enti
+  migyae. Nea mey\u025be no boaa me nnamfo no mu baako ma \u0254no nso gyaee game
+  no b\u0254.\u2014Jeremy.\\nSusuw wei ho hw\u025b: Bere b\u025bn na Jeremy ahonim
+  fii ase kasa kyer\u025b\u025b no, na bere b\u025bn na ofii ase tiei? D\u025bn na
+  wusua fi Jeremy as\u025bm no mu?\\nNea y\u025breka akosi: W\u2019ahonim ma yehu
+  nipa ko a woy\u025b ne nne\u025bma a w\u2019ani gye ho. Enti bisa wo ho s\u025b,
+  \u2018D\u025bn na m\u2019ahonim ka fa me ho?\u2019\"", "\"1-3. (a) D\u025bn nti
+  na y\u025bde Yehowa aseda ka? (b) D\u025bn na y\u025bn Gyefo a \u0254w\u0254 d\u0254
+  no hwehw\u025b fi y\u025bn h\u0254?\\nFA NO s\u025b woaka po so hy\u025bn bi a \u025bremem
+  mu. Bere a wunya adwene s\u025b anidaso biara nni h\u0254 p\u025b no, ogyefo ba
+  beyi wo k\u0254 baabi a ahobamm\u0254 w\u0254. Hw\u025b abot\u0254yam a wubenya
+  bere a ogyefo no de wo fi asiane no mu rek\u0254 na \u0254ka s\u025b: \u201cAfei
+  de woafi asiane no mu\u201d no! So worente nka s\u025b wode saa onipa no ka? Wo
+  nkwa gyina ne so ankasa.\\n2 \u0186kwan bi so no, eyi kyer\u025bkyer\u025b nea Yehowa
+  ay\u025b ama y\u025bn no mu. Akyinnye biara nni ho s\u025b y\u025bde no aseda ka.
+  Any\u025b yiye koraa no, \u0254de agyede ama, na wama ay\u025b yiye s\u025b wobegye
+  y\u025bn afi b\u0254ne ne owu nnommumfa mu. Y\u025bte nka s\u025b y\u025bw\u0254
+  ahobamm\u0254, a yenim s\u025b bere tenten a y\u025bkyer\u025b saa af\u0254re a
+  \u025bsom bo no mu gyidi no, w\u0254de y\u025bn b\u0254ne afiri y\u025bn, na y\u025bn
+  daakye a enni awiei tim h\u0254 pintinn. (1 Yohane 1:7; 4:9) S\u025bnea yehui w\u0254
+  Ti 14 no, agyede no ne Yehowa d\u0254 ne at\u025bntrenee a \u025bsen biara a wada
+  no adi. \u0186kwan b\u025bn so na \u025bs\u025b s\u025b y\u025by\u025b y\u025bn
+  ade w\u0254 ho?\\n3 \u0190fata s\u025b yesusuw nea y\u025bn Gyefo a \u0254w\u0254
+  d\u0254 no ankasa hwehw\u025b fi y\u025bn h\u0254 ho. Yehowa nam ne diyifo Mika
+  so kae s\u025b: \u201cW\u0254aka nea eye akyer\u025b wo, onipa, ne nea [Yehowa,
+  NW] hwehw\u025b wo h\u0254: \u025bny\u025b biribiara s\u025b [at\u025bntrenee, NW]
+  ne ad\u0254ep\u025b ne ahobr\u025base a wode ne wo Nyankop\u0254n nantew.\u201d
+  (Mika 6:8) Hy\u025b no nsow s\u025b nne\u025bma a Yehowa hwehw\u025b fi y\u025bn
+  h\u0254 no mu biako ne s\u025b \u2018y\u025bb\u025bda at\u025bntrenee adi.\u2019
+  Y\u025bb\u025by\u025b d\u025bn atumi ay\u025b saa?\\n\u201cNokware Trenee\u201d
+  Akyi a Yebedi\\n4. Y\u025by\u025b d\u025bn hu s\u025b Yehowa hw\u025b kwan s\u025b
+  y\u025bde ne trenee gyinap\u025bn ahorow b\u025bb\u0254 y\u025bn bra?\\n4 Yehowa
+  p\u025b s\u025b y\u025bde ne gyinap\u025bn ahorow a \u025bfa papa ne b\u0254ne ho
+  b\u0254 y\u025bn bra. Esiane s\u025b ne gyinap\u025bn ahorow y\u025b nea \u025bte\u025b
+  nti, s\u025b y\u025bde b\u0254 y\u025bn bra a na y\u025bredi at\u025bntrenee ne
+  trenee akyi. Yesaia 1:\\n5, 6. (a) D\u025bn nti na \u025bny\u025b den s\u025b yebedi
+  Yehowa gyinap\u025bn ahorow so? (b) \u0186kwan b\u025bn so na Bible da no adi s\u025b
+  trenee akyi a yebedi no y\u025b adey\u025b a \u025bk\u0254 so ara?\\n5 So \u025by\u025b
+  den s\u025b yebedi Yehowa trenee gyinap\u025bn ahorow akyi? Dabi. Yehowa ahwehw\u025bde
+  so di ny\u025b den mma koma a \u025bb\u025bn no. Esiane s\u025b y\u025bd\u0254 y\u025bn
+  Nyankop\u0254n ne s\u025bnea \u0254te biara nti, y\u025bp\u025b s\u025b y\u025bb\u0254
+  y\u025bn bra w\u0254 \u0254kwan a \u025bs\u0254 n\u2019ani so. (1 Yohane 5:3) Kae
+  s\u025b Yehowa \u2018p\u025b as\u025bntrenee.\u2019 (Dwom 11:7) S\u025b yebetumi
+  asuasua Onyankop\u0254n at\u025bntrenee, anaa trenee a, \u025bs\u025b s\u025b y\u025bn
+  ani gye nea Yehowa ani gye ho ho na yekyi nea okyi.\\n6 \u0190ny\u025b mmer\u025bw
+  s\u025b nnipa a y\u025bny\u025b p\u025b bedi trenee akyi. \u0190s\u025b s\u025b
+  yeyi nipasu dedaw ne ne nney\u025be b\u0254ne no gu, na y\u025bhy\u025b nipasu foforo.
+  Bible ka s\u025b w\u0254nam nokware nimde\u025b so na \u2018\u025by\u025b\u2019
+  nipasu foforo no \u201cfoforo.\u201d (Kolosefo 3:\\n7. \u0186kwan b\u025bn so na
+  \u025bs\u025b s\u025b yebu huamm\u0254 a yedi w\u0254 mm\u0254den a y\u025bb\u0254
+  s\u025b yebedi trenee akyi no mu?\\n7 \u0186kwan b\u025bn so na \u025bs\u025b s\u025b
+  yebu huamm\u0254di a yehyia w\u0254 mm\u0254den a y\u025bb\u0254 s\u025b yebedi
+  trenee akyi no mu? Nokwarem no, \u025bns\u025b s\u025b yebu aniberes\u025bm a b\u0254ne
+  y\u025b no adewa. Bere koro no ara no, \u025bns\u025b s\u025b y\u025bpa abaw, a
+  y\u025bte nka s\u025b y\u025bn sint\u0254 ahorow no ma y\u025by\u025b nnipa a y\u025bmfata
+  s\u025b y\u025bsom Yehowa. Y\u025bn Nyankop\u0254n a \u0254y\u025b \u0254domfo no
+  ay\u025b nsiesiei a \u0254nam so ma w\u0254n a wonu w\u0254n ho komam no nya n\u2019anim
+  dom bio. Susuw \u0254somafo Yohane ns\u025bm a awer\u025bkyekye wom yi ho hw\u025b:
+  \u201cMerekyer\u025bw eyinom mabr\u025b mo, na moany\u025b b\u0254ne.\u201d Afei
+  \u0254de kaa ho pefee s\u025b: \u201cNa s\u025b obi y\u025b b\u0254ne [esiane sint\u0254
+  a yenya fii awo mu nti] a, y\u025bw\u0254 okyigyinafo bi, agya no nky\u025bn, \u0254ne
+  \u0254treneeni Yesu Kristo.\u201d (1 Yohane 2:1) Yiw, Yehowa de Yesu agyede af\u0254re
+  no ama na ama y\u025batumi asom no w\u0254 \u0254kwan a \u025bs\u0254 ani so \u025bmfa
+  ho s\u025b y\u025by\u025b ab\u0254nefo. So \u025bno nka y\u025bn mma yennya \u0254p\u025b
+  s\u025b y\u025bb\u025by\u025b nea yebetumi biara s\u025b y\u025bb\u025bs\u0254 Yehowa
+  ani?\\nAs\u025bmpa no ne Onyankop\u0254n At\u025bntrenee\\n8, 9. \u0186kwan b\u025bn
+  so na as\u025bmpa no a y\u025bka no da Yehowa at\u025bntrenee adi?\\n8 Yebetumi
+  ada at\u025bntrenee adi\\n9 Yehowa remfa nhyehy\u025be b\u0254ne yi mma awiei bere
+  a yennii kan mm\u0254\u0254 ho k\u0254k\u0254. Yesu kae w\u0254 nk\u0254mhy\u025b
+  a \u025bfa nea \u025bb\u025bk\u0254 so w\u0254 awiei bere mu ho mu no s\u025b: \u201cEtwa
+  s\u025b w\u0254ka as\u025bmpa no kyer\u025b amanaman nyinaa kan.\u201d (Marko 13:\\n10,
+  11. \u0186kwan b\u025bn so na ky\u025bfa a yenya w\u0254 as\u025bmpa no ka mu no
+  da Onyankop\u0254n at\u025bntrenee adi?\\n10 \u0186kwan b\u025bn so na as\u025bmpa
+  no a y\u025bka no da Onyankop\u0254n at\u025bntrenee adi? Nea edi kan koraa no,
+  \u025bte\u025b s\u025b y\u025by\u025b nea yebetumi biara s\u025b y\u025bb\u025bboa
+  afoforo ma w\u0254anya nkwagye. Susuw mfatoho a \u025bfa gye a wogye wo fi po so
+  hy\u025bn a \u025bremem mu ho no ho bio. Bere a wote ahy\u025bmma a w\u0254de gye
+  nkwa mu dwoodwoo no, akyinnye biara nni ho s\u025b wob\u025bp\u025b s\u025b woboa
+  afoforo a w\u0254da so w\u0254 nsu no mu no. Saa ara na y\u025bw\u0254 as\u025by\u025bde
+  w\u0254 w\u0254n a w\u0254da so repere wiase b\u0254ne yi \u201cnsu\u201d mu no
+  ho. \u0190wom, bebree po y\u025bn as\u025bm no. Nanso, bere tenten a Yehowa k\u0254
+  so da boaset\u0254 adi kyer\u025b w\u0254n no, y\u025bw\u0254 as\u025by\u025bde
+  s\u025b y\u025bma wonya hokwan \u201cba adwensakra mu,\u201d na w\u0254nam so fata
+  ma nkwagye.\\n11 S\u025b y\u025bka as\u025bmpa no kyer\u025b w\u0254n a yehyia w\u0254n
+  nyinaa a, y\u025bda at\u025bntrenee adi w\u0254 \u0254kwan foforo a \u025bho hia
+  so: Y\u025bny\u025b nyiyim. Kae s\u025b \u201cOnyankop\u0254n nhw\u025b onipa anim,
+  na mmom \u0254man biara mu, nea osuro no na \u0254y\u025b ade trenee no, \u0254p\u025b
+  no agye no.\u201d (Asomafo no Nnwuma 10:\\nS\u025bnea Y\u025bne Afoforo Di\\n12,
+  13. (a) D\u025bn nti na \u025bns\u025b s\u025b y\u025bp\u025b nt\u025bm bu afoforo
+  at\u025bn? (b) Yesu afotu a ese \u201cmummmu nt\u025bn\u201d ne \u201cmummmu f\u0254\u201d
+  no kyer\u025b d\u025bn? (Hw\u025b ase h\u0254 as\u025bm no nso.)\\n12 Y\u025bnam
+  s\u025bnea y\u025bne afoforo di s\u025bnea Yehowa ne y\u025bn di no so nso tumi
+  da at\u025bntrenee adi. \u0190ny\u025b den koraa s\u025b yebebu afoforo at\u025bn,
+  aka w\u0254n mfomso ahorow ho as\u025bm, na y\u025bakasa atia adwene a wokura anya
+  ho adwemm\u0254ne. Nanso, y\u025bn mu hena na \u0254b\u025bp\u025b s\u025b Yehowa
+  feefee ne nsusuwii ne ne sint\u0254 ahorow mu atirim\u0254den so? \u0190ny\u025b
+  saa na Yehowa ne y\u025bn di. Odwontofo no kae s\u025b: \u201cYah, s\u025b wudi
+  amum\u0254y\u025bde akyi a, [Yehowa, NW], hena na anka obegyina?\u201d (Dwom 130:3)
+  So \u025bny\u025b y\u025bn anigye s\u025b y\u025bn Nyankop\u0254n a obu at\u025bntrenee
+  na \u0254y\u025b mm\u0254borohunufo no mfa n\u2019adwene nsi y\u025bn mfomso ahorow
+  so? (Dwom 103:\\n13 S\u025b y\u025bn ani s\u0254 mm\u0254borohunu a \u025bw\u0254
+  Onyankop\u0254n at\u025bntrenee mu no a, y\u025bremp\u025b nt\u025bm mmu afoforo
+  at\u025bn w\u0254 nne\u025bma a \u025bmfa y\u025bn ho ankasa anaas\u025b \u025bho
+  nhia pii mu. W\u0254 Yesu Bep\u0254w so As\u025bnka no mu no, \u0254b\u0254\u0254
+  k\u0254k\u0254 s\u025b: \u201cMummmu nt\u025bn, na w\u0254ammu mo nt\u025bn.\u201d
+  (Mateo 7:1) S\u025bnea Luka kyer\u025bwtoh\u0254 no kyer\u025b no, Yesu de kaa ho
+  s\u025b: \u201cMummmu f\u0254, na w\u0254ammu mo f\u0254.\u201d * (Luka 6:\\n14.
+  D\u025bn nti na \u025bs\u025b s\u025b \u2018yegyae nt\u025bn a yegu so rebu afoforo
+  no\u2019?\\n14 D\u025bn nti na \u025bs\u025b s\u025b \u2018yegyae nt\u025bn a yebu\u2019
+  afoforo? Ade biako ne s\u025b, y\u025bn tumi sua. Osuani Yakobo kae y\u025bn s\u025b:
+  \u201cObiako ne mmarahy\u025bfo ne temmufo\u201d\\n15. Ns\u025bm ne nney\u025be
+  b\u025bn na enni af\u00e3 biara w\u0254 Onyankop\u0254n asomfo mu, na d\u025bn ntia?\\n15
+  Na y\u025bn abusuafo nso \u025b? Awer\u025bhos\u025bm ne s\u025b, w\u0254 nn\u025b
+  wiase no, nt\u025bn a enye koraa a wobu no biako y\u025b nea wobu w\u0254 beae a
+  anka \u025bs\u025b s\u025b asomdwoe tra\\nMpanyimfo a \u2018W\u0254som At\u025bntrenee
+  Mu\u2019\\n16, 17. (a) D\u025bn na Yehowa hwehw\u025b fi mpanyimfo no h\u0254? (b)
+  S\u025b \u0254b\u0254nefo bi anna nokware ahonu adi a, d\u025bn na \u025bs\u025b
+  s\u025b w\u0254y\u025b, na d\u025bn ntia?\\n16 Y\u025bn nyinaa w\u0254 as\u025by\u025bde
+  s\u025b y\u025bda at\u025bntrenee adi, nanso mpanyimfo a w\u0254w\u0254 Kristofo
+  asafo no mu w\u0254 as\u025by\u025bde titiriw w\u0254 eyi mu. Hy\u025b s\u025bnea
+  w\u0254aka \u201casafohene,\u201d anaa mpanyimfo ho as\u025bm w\u0254 nk\u0254mhy\u025b
+  kwan so w\u0254 Yesaia kyer\u025bwtoh\u0254 no mu no nsow: \u201cHw\u025b, trenee
+  so na \u0254hene bi bedi hene, na asafohene nso, atemmu so na wobedi asafohene.\u201d
+  (Yesaia 32:1) Yiw, Yehowa hw\u025b kwan s\u025b mpanyimfo b\u025bsom at\u025bntrenee
+  so. \u0186kwan b\u025bn so na wobetumi ay\u025b eyi?\\n17 Saa honhom fam mmarima
+  a w\u0254fata yi nim yiye s\u025b at\u025bntrenee, anaa trenee hwehw\u025b s\u025b
+  w\u0254ma asafo no ho tew. \u0190t\u0254 mmere bi a w\u0254hwehw\u025b s\u025b mpanyimfo
+  bu nt\u025bn w\u0254 b\u0254ne a anibere wom ho. Bere a w\u0254rey\u025b saa no,
+  w\u0254kae s\u025b Onyankop\u0254n at\u025bntrenee hwehw\u025b s\u025b s\u025b \u025bb\u025by\u025b
+  yiye a, w\u0254da mm\u0254borohunu adi. W\u0254nam saay\u025b so b\u0254 mm\u0254den
+  s\u025b w\u0254b\u025bboa \u0254deb\u0254ney\u025bfo no ma wanya adwensakra. Nanso,
+  mm\u0254den a \u025bte saa a w\u0254b\u0254 s\u025b w\u0254b\u025bboa nyinaa akyi
+  no, s\u025b \u0254deb\u0254ney\u025bfo no ankyer\u025b nokware ahonu a, d\u025bn
+  na w\u0254b\u025by\u025b? W\u0254 at\u025bntrenee a \u025by\u025b p\u025b mu no,
+  Yehowa As\u025bm kyer\u025b s\u025b wonsi gyinae pintinn: \u201cMunyi \u0254b\u0254nefo
+  no mfi mo mu!\u201d \u0190no kyer\u025b yi a wobeyi no afi asafo no mu. (1 Korintofo
+  5:\\n18. S\u025b mpanyimfo de Bible mu afotu rema afoforo a, d\u025bn na \u025bs\u025b
+  s\u025b w\u0254ma \u025btra w\u0254n adwenem?\\n18 At\u025bntrenee mu a w\u0254som
+  nso kyer\u025b Bible mu afotu a w\u0254de ma w\u0254 bere a \u025bho hia mu. Nokwarem
+  no, mpanyimfo nhwehw\u025b afoforo ho mfomso. Na saa ara nso na \u025bny\u025b biribiara
+  ho na w\u0254de afotu ma bere nyinaa. Nanso, y\u0254nko gyidini betumi \u2018adi
+  mfomso bi ansa na n\u2019ani aba ne ho so.\u2019 Bere a mpanyimfo kae s\u025b Onyankop\u0254n
+  at\u025bntrenee ny\u025b atirim\u0254den anaa nea enni tema no, \u025bb\u025bka
+  w\u0254n ma \u2018w\u0254ate\u025b nea \u0254te saa no so w\u0254 odwo honhom mu.\u2019
+  (Galatifo 6:1) Enti, mpanyimfo ntwiw obi a wadi mfomso anim anaas\u025b w\u0254renka
+  ns\u025bm a \u025by\u025b yaw nkyer\u025b no. Mmom no, afotu a wofi \u0254d\u0254
+  mu de ma no hy\u025b nea w\u0254de rema no no nkuran. Mpo s\u025b mpanyimfo de animka
+  p\u0254tee rema\\n19. Gyinae b\u025bn na w\u0254ma mpanyimfo sisi, na d\u025bn so
+  na \u025bs\u025b s\u025b w\u0254de w\u0254n gyinaesi ahorow gyina?\\n19 W\u0254taa
+  ma mpanyimfo sisi gyinae a \u025bka w\u0254n mf\u025bfo gyidifo. S\u025b nhw\u025bso
+  no, mpanyimfo hyiam bere ne bere mu susuw ho s\u025b ebia anuanom foforo a w\u0254w\u0254
+  asafo no mu fata s\u025b w\u0254kamfo w\u0254n kyer\u025b s\u025b mpanyimfo anaa
+  asafo mu asomfo anaa. Mpanyimfo no nim hia a \u025bho hia s\u025b w\u0254nhw\u025b
+  nnipa anim. W\u0254ma Onyankop\u0254n ahwehw\u025bde a \u025bfa paw a w\u0254paw
+  afoforo saa ho no kyer\u025b w\u0254n kwan w\u0254 w\u0254n gyinaesi mu, w\u0254mma
+  w\u0254n nkate nni w\u0254n so. Enti wosisi gyinae a \u2018w\u0254mpere ho mmu at\u025bn,
+  na w\u0254ny\u025b biribiara nyiyim so.\u2019\\n20, 21. (a) Mpanyimfo b\u0254 mm\u0254den
+  s\u025b w\u0254b\u025by\u025b s\u025b d\u025bn, na d\u025bn ntia? (b) D\u025bn na
+  mpanyimfo betumi ay\u025b de aboa \u201cw\u0254n a w\u0254n koma atu\u201d no?\\n20
+  Mpanyimfo de Onyankop\u0254n at\u025bntrenee di dwuma w\u0254 akwan foforo so nso.
+  Bere a Yesaia ka siei s\u025b mpanyimfo b\u025bsom w\u0254 \u2018at\u025bntrenee
+  mu\u2019 wiei no, \u0254toaa so s\u025b: \u201cW\u0254n mu biara b\u025by\u025b
+  s\u025b mframa ano hintabea ne osu ano guank\u0254bea, s\u025b nkyerekyerewa so
+  nsuwansuwa, s\u025b asase a akyen so botan k\u025bse onwini.\u201d (Yesaia 32:2)
+  \u0190nde, mpanyimfo, momm\u0254 mm\u0254den mma mo mf\u025bfo asomfo nnya awer\u025bkyekye
+  ne abot\u0254yam.\\n21 \u0190nn\u025b a \u0254haw pii a \u025bma abasamtu w\u0254
+  h\u0254 no, nnipa pii na wohia nkuranhy\u025b. Mpanyimfo, d\u025bn na mubetumi ay\u025b
+  de aboa \u201cw\u0254n a w\u0254n koma atu\u201d no. (1 Tesalonikafo 5:\\nS\u025b
+  mpanyimfo hy\u025b w\u0254n a w\u0254n abam abu nkuran a, na w\u0254reda Yehowa
+  at\u025bntrenee adi\\n22. Akwan b\u025bn so na yebetumi asuasua Yehowa at\u025bntrenee,
+  na d\u025bn na ebefi mu aba?\\n22 Nokwarem no, y\u025bnam Yehowa at\u025bntrenee
+  a yesuasua no so b\u025bn no bere nyinaa! S\u025b yekura ne trenee gyinap\u025bn
+  ahorow mu, ka as\u025bmpa a egye nkwa no kyer\u025b afoforo, na y\u025bhwehw\u025b
+  nne\u025bma pa a \u025bw\u0254 afoforo ho sen s\u025b y\u025bde y\u025bn adwene
+  besi w\u0254n mfomso ahorow so a, na y\u025breda Onyankop\u0254n at\u025bntrenee
+  adi. Mpanyimfo, s\u025b mob\u0254 asafo no ahotew ho ban, mode Kyer\u025bwns\u025bm
+  mu afotu a \u025bhy\u025b den ma, na musisi gyinae a animhw\u025b nnim, na mohy\u025b
+  w\u0254n a w\u0254n abam abu nkuran a, na moreda Onyankop\u0254n at\u025bntrenee
+  adi. Hw\u025b s\u025bnea \u025bb\u025by\u025b s\u025b Yehowa koma ani gye bere a
+  ofi soro hw\u025b fam na ohu s\u025b ne nkur\u0254fo rey\u025b nea wobetumi biara
+  de \u2018ada at\u025bntrenee adi\u2019 w\u0254 w\u0254ne Onyankop\u0254n nantew
+  mu no!\\n^ nky. 13 Nkyer\u025base bi ka s\u025b \u201cmummmu nt\u025bn\u201d na
+  \u201cmummmu f\u0254.\u201d Nea \u025bkyer\u025b ne s\u025b \u2018mummfi ase mmmu
+  nt\u025bn\u2019 na \u2018mummfi ase mmmu f\u0254.\u2019 Nanso w\u0254 mfitiase kasa
+  mu no, Bible akyer\u025bwfo no de \u0254hy\u025b kabea (a \u025bkyer\u025b adey\u025b
+  a \u025brek\u0254 so mprempren) a \u025bw\u0254 dabi kabea mu na edii dwuma w\u0254
+  ha. Enti nney\u025be a w\u0254kaa ho as\u025bm no y\u025b nea na \u025brek\u0254
+  so a na \u025bs\u025b s\u025b wogyae.\\n^ nky. 18 Bible ka w\u0254 2 Timoteo 4:2
+  s\u025b, \u025bt\u0254 mmere bi a \u025bs\u025b s\u025b mpanyimfo \u201cyi nt\u025bn,
+  ka anim, tu fo.\u201d Hela as\u025bmfua a w\u0254kyer\u025b\u025b ase \u201ctu fo\u201d
+  (pa\u00b7ra\u00b7ka\u00b7le\u02b9o) no betumi akyer\u025b \u201chy\u025b nkuran.\u201d
+  Hela as\u025bmfua bi a \u025bte s\u025b \u025bno, pa\u00b7ra\u02b9kle\u00b7tos,
+  betumi akyer\u025b as\u025bnni mu okyigyinafo. Enti, s\u025b mpanyimfo de animka
+  a emu y\u025b den mpo rema a, \u025bs\u025b s\u025b w\u0254y\u025b w\u0254n a wohia
+  honhom fam mmoa no aboafo.\"", "\"1Eu, Paulo, escolhido por Deus como ap\u00f3stolo
+  de Jesus Cristo, e o irm\u00e3o Tim\u00f3teo. 2Dirigimo-nos aos santos em Colossos,
+  irm\u00e3os fi\u00e9is em Cristo, desejando-lhes a gra\u00e7a e a paz de Deus nosso
+  Pai.\\nA\u00e7\u00e3o de gra\u00e7as e ora\u00e7\u00e3o\\n3Sempre que oramos por
+  voc\u00eas, exprimimos a Deus, Pai de nosso Senhor Jesus Cristo, a nossa gratid\u00e3o.
+  4Pois temos sabido da vossa f\u00e9 em Cristo Jesus e do vosso amor crist\u00e3o
+  para com todos os irm\u00e3os crentes, 5por causa da esperan\u00e7a que vos est\u00e1
+  reservado no c\u00e9u. Essa esperan\u00e7a brotou depois que ouviram a mensagem
+  de verdade do evangelho. 6A qual tem sido espalhada por todo o mundo, dando frutos,
+  tal como aconteceu no vosso meio, desde que ouviram e conheceram o verdadeiro significado
+  da gra\u00e7a de Deus. 7\u00c9 o que vos pregou Epafras, nosso querido colaborador
+  e um fiel di\u00e1cono de Cristo. 8Ele contou-nos todo o amor que o Esp\u00edrito
+  vos tem inspirado.\\n9E por isso mesmo, n\u00f3s tamb\u00e9m, desde o dia em que
+  ouvimos falar a vosso respeito, pela primeira vez, n\u00e3o temos cessado de orar
+  por voc\u00eas e de pedir que tenham um conhecimento cada vez mais completo da vontade
+  de Deus, atrav\u00e9s de uma clara compreens\u00e3o e sabedoria das coisas espirituais.
+  10A fim de que a vossa conduta seja digna do Senhor, agradando-lhe em tudo, dando
+  frutos, praticando toda a esp\u00e9cie de bons atos e crescendo no conhecimento
+  de Deus. 11E sejam fortalecidos pelo seu poder glorioso, para poderem suportar tudo
+  com paci\u00eancia e alegria. 12E saibam agradecer ao Pai, que nos fez dignos de
+  participar da heran\u00e7a que reserva aos crentes que vivem na sua luz. 13Porque
+  foi Deus quem nos livrou do imp\u00e9rio das trevas e nos transferiu para o reino
+  do seu Filho amado; 14o qual pagou para n\u00f3s a reden\u00e7\u00e3o e o perd\u00e3o
+  dos pecados.\\nA gl\u00f3ria de Cristo\\n15Cristo \u00e9 a imagem do Deus invis\u00edvel.
+  Ele existe antes de Deus ter criado todas as coisas e \u00e9 a fonte de toda a cria\u00e7\u00e3o.
+  16Na verdade, foi atrav\u00e9s dele que Deus criou tudo o que h\u00e1 nos c\u00e9us
+  e sobre a Terra; tudo o que se v\u00ea e o que n\u00e3o se v\u00ea; at\u00e9 os
+  governantes, as autoridades, os que t\u00eam o poder e a for\u00e7a. Tudo foi estabelecido
+  por Cristo e para Cristo. 17Antes que tudo tivesse sido criado, j\u00e1 ele tinha
+  exist\u00eancia e todo o universo se mant\u00e9m gra\u00e7as a ele. 18Cristo \u00e9
+  a cabe\u00e7a da igreja que \u00e9 o seu corpo, e \u00e9 o princ\u00edpio, a fonte
+  entre os mortos e, consequentemente, o primeiro em tudo e sobre todas as coisas!
+  19Porque Deus em toda a sua plenitude decidiu estar presente em Cristo. 20E por
+  ele Deus reconciliou todas as coisas consigo mesmo. Cristo estabeleceu a paz com
+  tudo que existe na Terra e no c\u00e9u, por meio do seu sangue na cruz.\\n21Portanto,
+  tamb\u00e9m est\u00e3o inclu\u00eddos nesta obra de reconcilia\u00e7\u00e3o, voc\u00eas
+  que antes eram estranhos, que at\u00e9 eram seus inimigos nos vossos pensamentos
+  e nas vossas obras m\u00e1s. 22Contudo, agora Deus tornou-vos seus amigos, atrav\u00e9s
+  da morte de Cristo. E agora podem apresentar-se santos perante Deus, sem culpa,
+  irrepreens\u00edveis, 23na condi\u00e7\u00e3o de permanecerem firmemente estabelecidos
+  nos fundamentos da f\u00e9, sem se afastarem da esperan\u00e7a que o evangelho fez
+  nascer em voc\u00eas, o qual vos tem sido pregado, assim como a toda a gente em
+  todo o mundo, e do qual eu, Paulo, me tornei di\u00e1cono.\\nO trabalho de Paulo
+  pela igreja\\n24E esta \u00e9 a minha alegria: que esteja a sofrer por vossa causa.
+  Estou assim a cumprir os sofrimentos que Cristo me disse para assumir pela causa
+  do seu corpo, que \u00e9 a igreja. 25\u00c9 esta igreja que sirvo, segundo o encargo
+  que Deus colocou sobre mim, para proclamar a sua mensagem plena aos gentios. 26Essa
+  mensagem era o plano que esteve oculto desde sempre, atrav\u00e9s dos s\u00e9culos,
+  e que foi agora revelado aos crentes. 27Aos quais quis dar a conhecer toda a riqueza
+  e a gl\u00f3ria deste mist\u00e9rio entre os gentios, que \u00e9 Cristo ocupando
+  todo o vosso ser, o que \u00e9 j\u00e1 garantia total da vida eterna passada na
+  gl\u00f3ria de Deus, que \u00e9 agora a nossa esperan\u00e7a.\\n28\u00c9 pois Cristo
+  que anunciamos, ensinando e aconselhando toda a gente, com toda a sabedoria, para
+  que possamos trazer \u00e0 presen\u00e7a de Deus todo o ser humano, tornado maduro
+  em Cristo.\\n29Este \u00e9 o meu trabalho e \u00e9 tamb\u00e9m um combate que travo
+  com a energia de Deus que atua em mim poderosamente.\\nNkyea\\n1Krataa yi firi Paulo
+  a \u025bnam Onyankop\u0254n p\u025b so enti, \u0254y\u025b Kristo somafo\u0254 no
+  ne y\u025bn nua Timoteo nky\u025bn,\\n2Y\u025bde k\u0254ma ahotefo\u0254 a w\u0254w\u0254
+  Kolose a w\u0254y\u025b Kristo mu agyidifo\u0254 no:\\nAdom ne asomdwoe\u025b a
+  \u025bfiri y\u025bn Agya Onyankop\u0254n nka mo.\\nAseda Ne Mpae\u025bb\u0254\\n3\u0190ber\u025b
+  biara a y\u025bb\u0254 mpae\u025b ma mo no, y\u025bda Onyankop\u0254n a \u0254y\u025b
+  Awurade Yesu Kristo Agya no ase. 4\u0190firi s\u025b, y\u025bate mo gyidie a mow\u0254
+  w\u0254 Kristo Yesu mu ne d\u0254 a mod\u0254 ahotefo\u0254 no. 5\u0190da a \u025bdi
+  \u025bkan a motee As\u025bmpa no, monyaa mu anidaso\u0254 a \u025bw\u0254 h\u0254
+  ma mo. Enti, mo gyidie ne mo d\u0254 a mow\u0254 no gyina mo anidaso\u0254 a mow\u0254
+  a w\u0254akora no w\u0254 \u0254soro ama mo no so. 6\u0190firi da a \u025bdi \u025bkan
+  a motee Onyankop\u0254n adom na mohunuu s\u025bde\u025b \u025bte\u025b no, As\u025bmpa
+  no de nhyira abr\u025b ewiase afanan nyinaa, na tr\u025b ara na \u025bretr\u025b
+  s\u025bde\u025b mohunu no w\u0254 mo mu no. 7\u0190nam Epafra a \u0254y\u025b y\u025bn
+  nua \u0254somfo\u0254 a \u0254de gyidie y\u025b Kristo adwuma ma y\u025bn no so
+  na mohunuu yei. 8\u0186kaa \u0254d\u0254 a Honhom no de ama mo no kyer\u025b\u025b
+  y\u025bn.\\n9Esiane saa enti, \u025bfiri \u025bber\u025b a y\u025btee mo nka no,
+  y\u025bb\u0254 mpae\u025b ma mo daa. Y\u025bbisa Onyankop\u0254n s\u025b \u0254mfiri
+  ne p\u025b mu mma mo nyansa ne ntease\u025b a ne Honhom de ma no. 10\u0190ba saa
+  a na mob\u025btumi atena ase s\u025bde\u025b Awurade hwehw\u025b na \u025bber\u025b
+  biara nso, mob\u025by\u025b de\u025b \u025bs\u0254 n\u02bcani. Dwuma biara a mob\u025bdi
+  no, \u025bb\u025bso aba pa na mob\u025bnyini w\u0254 Onyankop\u0254n ho nimde\u025b
+  mu. 11Y\u025breb\u0254 mpae\u025b nso s\u025b ne tumi ne n\u02bcaho\u0254den b\u025bhy\u025b
+  mo ma s\u025bde\u025b \u025bb\u025by\u025b a \u025bkwan biara so, mode Awurade mu
+  ahos\u025bp\u025b ne boaset\u0254 b\u025bgyina biribiara ano. 12Momfa ahos\u025bp\u025b
+  nna Agya no a \u025bnam ne so enti, moanya de\u025b Onyankop\u0254n akora so ama
+  n\u02bcahotefo\u0254 a w\u0254w\u0254 ne hann no mu no bi no ase. 13\u0186gyee y\u025bn
+  firii esum tumi ase de y\u025bn baa ne D\u0254 Ba no Ahennie mu dwoodwoo. 14Ne mu
+  na y\u025bnya \u0254gye\u025b. Ne mu nso na y\u025bnya b\u0254nefaky\u025b.\\n15Kristo
+  y\u025b Onyankop\u0254n a w\u0254nhunu no no s\u025bso. \u0186no ne ab\u0254de\u025b
+  nyinaa farebae. 16\u0190firi s\u025b, \u025bnam ne so na Onyankop\u0254n b\u0254\u0254
+  biribiara a \u025bw\u0254 \u0254soro ne asase so, de\u025b w\u0254hunu ne de\u025b
+  w\u0254nhunu, honhom mu atumfo\u0254, awuranom ne ahemfo. Onyankop\u0254n nam ne
+  so na \u0254b\u0254\u0254 ewiase nyinaa na \u0254b\u0254 maa no nso. 17Na \u0254w\u0254
+  h\u0254 ansa na w\u0254reb\u0254 biribiara, na ne mu na biribiara nya n\u02bcafa
+  p\u025bp\u025b\u025bp\u025b. 18Asafo no y\u025b ne onipadua; na \u0254no na \u0254y\u025b
+  asafo no ti. \u0186no na onipadua no nkwa firi no. \u0186no ne Abakan a w\u0254nyanee
+  no firii awufo\u0254 mu s\u025bde\u025b \u025bb\u025by\u025b a \u0254no nko ara
+  b\u025bdi ade\u025b nyinaa mu \u025bkan. 19\u0190firi Onyankop\u0254n no ankasa
+  p\u025b mu na \u0186ba no w\u0254 Onyankop\u0254n su nyinaa w\u0254 ne mu. 20\u0190nam
+  ne Ba no so na Onyankop\u0254n firi ne p\u025b mu de ewiase nyinaa sane b\u025bhy\u025b\u025b
+  \u0254no ankasa ase. Onyankop\u0254n nam ne Ba no wu a \u0254wuu as\u025bnnua so
+  no de asomdwoe\u025b bae\u025b, enti \u0254de nne\u025bma a \u025bw\u0254 asase
+  so ne \u0254soro nyinaa ahy\u025b n\u02bcase.\\n21\u0190ber\u025b bi a atwam no,
+  \u025bsiane s\u025b na moy\u025b b\u0254ne na modwene b\u0254ne ho enti, na mo ne
+  Onyankop\u0254n ntam kwan ware a na moy\u025b n\u02bcatamfo\u0254 nso. 22Nanso,
+  \u025bnam ne Ba no wuo so enti Onyankop\u0254n afa mo nnamfo s\u025bde\u025b \u025bb\u025by\u025b
+  a mob\u025by\u025b kronkron a b\u0254ne biara nni mo ho w\u0254 n\u02bcanim. 23\u0190s\u025b
+  s\u025b mok\u0254 so ma mo gyidie mu y\u025b den. Mommma ho kwan mma mo anidaso\u0254
+  a monyaa no da a \u025bdi \u025bkan a motee As\u025bmpa no nhinhim. Saa As\u025bmpa
+  a w\u0254ka kyer\u025b nnipa nyinaa yi enti na me, Paulo, meb\u025by\u025b\u025b
+  \u0254somfo\u0254 no.\\nPaulo Br\u025b Asafo No Ho\\n24\u0190y\u025b me anigye s\u025b
+  merebr\u025b mo ho. Menam me honam mu amane\u025b a merehunu no so retoa Kristo
+  amanehunu a \u0254hunuu w\u0254 ne honam mu maa n\u02bcasafo no so. 25Onyankop\u0254n
+  a mo yiedie enti, \u0254de saa dwuma yi hy\u025b\u025b me nsa no ay\u025b me asafo
+  no \u0254somfo\u0254. Dwumadie no y\u025b n\u02bcas\u025bm no ka, 26a \u025by\u025b
+  ahintas\u025bm a mfe\u025b bebree a atwam no, \u0254de hintaa adasamma, nanso afei
+  de\u025b, wada no adi akyer\u025b n\u02bcahotefo\u0254. 27Onyankop\u0254n nhyehy\u025be\u025b
+  ne s\u025b, \u0254b\u025bda n\u02bcahintas\u025bm a nnepa ne animuonyam w\u0254
+  mu no adi akyer\u025b Amanamanmufo\u0254 nso. Ahintas\u025bm no ne s\u025b: Kristo
+  te mo mu, a n\u02bcasekyer\u025b ne s\u025b, y\u025bw\u0254 anidaso\u0254 s\u025b
+  y\u025bn nsa b\u025bka Onyankop\u0254n animuonyam no bi.\\n28\u0190no enti, y\u025bka
+  Kristo ho as\u025bm kyer\u025b nnipa nyinaa. Y\u025bnam adwene pa so b\u0254 obiara
+  k\u0254k\u0254, kyer\u025bkyer\u025b no s\u025bde\u025b \u025bb\u025by\u025b a obiara
+  a y\u025bde no b\u025bhy\u025b Onyankop\u0254n nsa no b\u025by\u025b p\u025b w\u0254
+  Kristo mu. 29\u0190no enti na menam Kristo tumi sononko a \u0254de ma me no so y\u025b
+  adwumaden.\"", "\"2\\n1 Eyi ne \u0254kwan a Onyankop\u0254n faa so b\u0254\u0254
+  \u0254soro ne asase ne nea \u025bw\u0254 mu nyinaa.\\n2 Eduu da a \u025bto so ason
+  no, na Onyankop\u0254n awie nnwuma a ofii ase y\u025be no nyinaa. Enti da a \u025bto
+  so ason no, ogyee n\u02bcahome.\\n3 Enti Onyankop\u0254n hyiraa da a \u025bto so
+  ason no, na \u0254tew ho, efis\u025b saa da no na Onyankop\u0254n gyee n\u02bcahome
+  fii adeb\u0254 nnwuma no nyinaa mu.\\n4 Eyi ne \u0254soro ne asaseb\u0254 ho as\u025bm.
+  Bere a Awurade Nyankop\u0254n b\u0254\u0254 \u0254soro ne asase no.\\n5 Na afifide
+  biara nni asase so, na wuram nnua biara nso nni h\u0254. Efis\u025b, na Awurade
+  Nyankop\u0254n mmaa osu nt\u0254\u0254 w\u0254 asase so, na onipa nso nni asase
+  so a \u0254b\u025by\u025b so adwuma.\\n6 Nanso nsuti puepue fifii asase mu b\u025bf\u0254w
+  asase ani nyinaa.\\n7 Awurade Nyankop\u0254n de asase no so d\u0254te nwen onipa,
+  na \u0254homee nkwa home guu ne hwenem, maa onipa no b\u025by\u025b\u025b \u0254teasefo.\\n8
+  Afei Awurade Nyankop\u0254n y\u025b\u025b turo w\u0254 Eden apuei fam, na \u025bh\u0254
+  na \u0254de onipa a \u0254nwen no no tenae.\\n9 Awurade Nyankop\u0254n maa nnua
+  ahorow nyinaa fifi fii asase no mu; nnua a \u025by\u025b f\u025b na wodi. Na nkwa
+  dua ne papa ne b\u0254nehu dua sisi turo no mfimfini.\\n10 Na asu sen fii Eden b\u025bf\u0254w
+  turo no mu afifide no; efi h\u0254 a, na saa asu no mu apaapae ay\u025b nsub\u0254nten
+  anan.\\n11 W\u0254too asu a apaapae no mu nea edi kan no din Pison. Na \u025bk\u0254nt\u0254n
+  fa Hawila asase a sikak\u0254k\u0254\u0254 w\u0254 so no so nyinaa.\\n12 Na saa
+  asase no so sikak\u0254k\u0254\u0254 ye. Na \u025bhy\u025b a \u025by\u025b huam
+  ne apopobibiribo nso w\u0254 h\u0254.\\n13 Asub\u0254nten a \u025bto so abien no
+  din de Gihon. Na \u025bno ara na \u025bk\u0254nt\u0254nk\u0254nt\u0254n fa Kus asase
+  ho nyinaa.\\n14 Asu a \u025bto so abi\u025bsa no, na w\u0254fr\u025b no Tigris a
+  \u025bsen k\u0254 asase k\u025bse Asiria apuei fam no. Asu a \u025bto so anan no
+  nso, na w\u0254fr\u025b no Eufrate.\\n15 Awurade Nyankop\u0254n faa onipa no de
+  no k\u0254tenaa Eden turo mu h\u0254 s\u025b \u0254ny\u025b mu adwuma, na \u0254nhw\u025b
+  so.\\n16 Na Awurade Nyankop\u0254n b\u0254\u0254 onipa no k\u0254k\u0254 se, \u201cWow\u0254
+  ho kwan s\u025b wudi dua biara so aba w\u0254 turo yi mu ha;\\n17 nanso wunni ho
+  kwan s\u025b wudi papa ne b\u0254nehu dua no so aba. Da a wubedi no, nea \u025bb\u025by\u025b
+  biara no, wubewu.\u201d\\nOnyankop\u0254n B\u0254 Hawa\\n18 Afei Awurade Nyankop\u0254n
+  kae se, \u201cEnye s\u025b onipa nko tena; m\u025bb\u0254 \u0254boafo a \u0254fata
+  no ama no.\u201d\\n19 Saa bere no na Awurade Nyankop\u0254n de mfutuma ab\u0254
+  wuram mmoa ne wim nnomaa nyinaa. Enti, \u0254de w\u0254n br\u025b\u025b onipa s\u025b
+  \u0254nhwehw\u025b din ko a \u0254de b\u025btoto w\u0254n; na din a onipa de too
+  ab\u0254de a nkwa w\u0254 mu biara no, \u025bno ara na \u025by\u025b\u025b din a
+  w\u0254de fr\u025b\u025b no.\\n20 Enti onipa totoo ny\u025bmmoa, wim nnomaa ne wuram
+  mmoa no nyinaa din.\\nNanso onipa de, wannya \u0254boafo a \u0254fata.\\n21 Enti
+  Awurade Nyankop\u0254n maa onipa daa nnah\u0254\u0254. Bere a onipa daa saa no,
+  oyii ne mfe mu mparow baako, na \u0254de honam taree baabi a oyii mparow h\u0254
+  no.\\n22 Afei Awurade Nyankop\u0254n de mfe mu mparow baako a oyi fii onipa mu no
+  b\u0254\u0254 \u0254bea, de no maa onipa no.\\n23 Na Adam kae se,\\n\u201cM\u02bcankasa
+  me dompe\\nne me honam bi ni.\\nW\u0254b\u025bfr\u025b oyi \u0254bea efis\u025b\\n\u0254barima
+  mu na woyii no fii.\u201d\\n24 Eyi nti na \u0254barima gyaw n\u02bcagya ne ne na
+  de ne ho k\u0254b\u0254 ne yere ho s\u025bnea w\u0254n baanu no b\u025by\u025b nnipa
+  koro.\\n25 Saa bere no, na \u0254barima ne ne yere nyinaa ho da h\u0254, nanso na
+  w\u0254mf\u025bre.\"", "\"\u0186som a \u025bw\u0254 baabi biako .\\nPorosity y\u025b
+  sint\u0254 a \u025btaa ba w\u0254 dade a \u025bny\u025b den a w\u0254de fa nsu mu
+  no welding mu, a \u025bda adi s\u025b ntokuru nketenkete w\u0254 weld no mu, na
+  \u025bka nsu paipu no mu den ne aho\u0254den. Nea edidi so yi y\u025b \u0254kwan
+  a \u025bny\u025b den s\u025b w\u0254b\u025bte ase a w\u0254fa so kyer\u025bkyer\u025b
+  nea \u025bde stomata ba ne s\u025bnea wodi ho dwuma:1. \u0190he na pores fi ba?ga
+  .\\nHw\u025b piiTitle: Ntease\u025b ne siw intergranular corrosion w\u0254 stainless
+  steel weldsmeta nkyer\u025bkyer\u025bmu: Sua intergranular corrosion w\u0254 stainless
+  steel welds, nea \u025bde ba, akwan a w\u0254fa so siw ano, ne hia a \u025bho hia
+  s\u025b w\u0254y\u025b ano aduru a \u025bhyer\u025bn. Optimize weld su ne nkwa tenten.Nnianim
+  as\u025bm:Weldin .\\nHw\u025b piiTIG (Tungsten inert gas) welding agye din w\u0254
+  s\u025bnea \u025by\u025b p\u025bp\u025b\u025bp\u025b, \u025by\u025b nea wotumi de
+  di dwuma w\u0254 mmeae pii, ne welds a \u025bho tew na \u025by\u025b papa a \u025bde
+  ba no ho. S\u025b\u0301 ebia woy\u025b obi a w\u2019ani gye ho a worehwehw\u025b
+  s\u025b wubesua ahokokwaw foforo anaas\u025b obi a onim adwuma a wow\u0254 anidaso
+  s\u025b wob\u025bma wo welding nsaanodwuma atu mp\u0254n no, Tig welding a wubetumi
+  ay\u025b no yiye no betumi ama w\u2019adwuma ak\u0254 soro w\u0254 mmeae ahorow.\\nHw\u025b
+  piiTIG welding, a w\u0254san fr\u025b no tungsten inert gas welding, y\u025b precision
+  welding kwan a \u025bde tungsten electrode a \u025bny\u025b nea wotumi di di dwuma
+  de y\u025b weld a \u025by\u025b papa na \u025by\u025b den.\\nHw\u025b piiWelding
+  y\u025b \u0254kwan titiriw a w\u0254fa so ka dade af\u00e3 horow ho w\u0254 nnwuma
+  ahorow mu, a nea \u025bka ho ne adansi, kar, ahunmu, ne nne\u025bma a w\u0254y\u025b.
+  Welding akwan a w\u0254de di dwuma k\u025bse no mu abien ne TIG (Tungsten inert
+  gas) welding ne mig (metal inert gas) welding.\\nHw\u025b pii\""]'
+src_ngrams: '{"1": [[["mu"], 139304], [["w\u0254"], 109557], [["w\u0254n"], 81592],
+  [["wo"], 47844], [["ma"], 45172]], "2": [[["di dwuma"], 5680], [["w\u0254 afe"],
+  4762], [["mu w\u0254"], 4470], [["yi mu"], 3945], [["nyinaa mu"], 3201]], "3": [[["w\u0254de
+  di dwuma"], 2464], [["nne\u025bma a w\u0254de"], 1794], [["dodow no ara"], 1223],
+  [["eye sen biara"], 1019], [["saa as\u025bm yi"], 985]], "4": [[["archived from
+  the original"], 616], [["from the original on"], 576], [["atwa y\u025bn ho ahyia"],
+  564], [["wotumi de ho to"], 548], [["wei \u025bw\u0254 asante kasa"], 488]], "5":
+  [[["archived from the original on"], 573], [["w\u0254atwer\u025b ns\u025bm wei \u025bw\u0254
+  asante"], 489], [["wei \u025bw\u0254 asante kasa mu"], 488], [["yi w\u0254 akuapem
+  kasa mu"], 439], [["w\u0254akyer\u025bw ns\u025bm yi w\u0254 akuapem"], 439]]}'

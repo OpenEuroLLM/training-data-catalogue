@@ -1,0 +1,834 @@
+corpus: hplt-v4-kea
+srclang: kea
+timestamp: 1789050365.3080928
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["wide00016", 341], ["CC-MAIN-2020-10", 295], ["CC-MAIN-2024-38",
+  154], ["CC-MAIN-2018-05", 141], ["wide00015", 140], ["CC-MAIN-2020-24", 137], ["CC-MAIN-2017-51",
+  125], ["CC-MAIN-2017-26", 111], ["CC-MAIN-2019-04", 81], ["CC-MAIN-2018-39", 80],
+  ["CC-MAIN-2018-34", 72], ["CC-MAIN-2024-33", 66], ["CC-MAIN-2020-05", 66], ["CC-MAIN-2017-04",
+  63], ["CC-MAIN-2020-34", 59], ["CC-MAIN-2020-29", 53], ["CC-MAIN-2020-45", 51],
+  ["CC-MAIN-2018-43", 47], ["CC-MAIN-2024-46", 46], ["CC-MAIN-2020-40", 42], ["CC-MAIN-2018-22",
+  39], ["CC-MAIN-2024-51", 37], ["CC-MAIN-2021-39", 33], ["wide00006", 32], ["CC-MAIN-2021-49",
+  32], ["CC-MAIN-2022-05", 31], ["CC-MAIN-2021-43", 31], ["CC-MAIN-2020-16", 31],
+  ["CC-MAIN-2023-40", 26], ["CC-MAIN-2024-10", 25], ["CC-MAIN-2022-27", 25], ["CC-MAIN-2022-21",
+  24], ["CC-MAIN-2021-25", 24], ["CC-MAIN-2021-17", 24], ["CC-MAIN-2020-50", 24],
+  ["CC-MAIN-2024-26", 23], ["wide00002", 22], ["CC-MAIN-2022-33", 22], ["CC-MAIN-2021-21",
+  22], ["CC-MAIN-2021-10", 22], ["CC-MAIN-2024-30", 21], ["CC-MAIN-2024-18", 18],
+  ["CC-MAIN-2025-13", 17], ["CC-MAIN-2025-05", 16], ["CC-MAIN-2023-50", 16], ["CC-MAIN-2023-14",
+  16], ["CC-MAIN-2023-06", 16], ["CC-MAIN-2022-49", 15], ["CC-MAIN-2022-40", 15],
+  ["wide00011", 14], ["CC-MAIN-2025-08", 13], ["CC-MAIN-2021-31", 13], ["CC-MAIN-2021-04",
+  12], ["wide00012", 11], ["CC-MAIN-2024-42", 11], ["wide00005", 10], ["archivebot",
+  9], ["CC-MAIN-2023-23", 9], ["CC-MAIN-2025-33", 8], ["CC-MAIN-2024-22", 8], ["CC-MAIN-2025-21",
+  7], ["CC-MAIN-2014-15", 7], ["CC-MAIN-2025-30", 5], ["CC-MAIN-2025-26", 5], ["CC-MAIN-2025-18",
+  4], ["CC-MAIN-2016-44", 2], ["wide00017", 1], ["CC-MAIN-2015-11", 1], ["CC-MAIN-2014-42",
+  1]]'
+docs_langs: '[[0.2, 27], [0.3, 68], [0.4, 127], [0.5, 270], [0.6, 447], [0.7, 497],
+  [0.8, 635], [0.9, 368], [1.0, 581]]'
+docs_segments: '[[1, 18], [2, 60], [3, 125], [4, 185], [5, 284], [6, 313], [7, 257],
+  [8, 214], [9, 172], [10, 129], [11, 144], [12, 93], [13, 86], [14, 80], [15, 68],
+  [16, 55], [17, 40], [18, 43], [19, 41], [20, 47], [21, 34], [22, 26], [23, 52],
+  [24, 30], [25, 27], [26, 19], [27, 21], [28, 16], [29, 14], [30, 21], [31, 16],
+  [32, 14], [33, 8], [34, 12], [35, 11], [36, 11], [37, 13], [38, 5], [39, 9], [40,
+  9], [41, 9], [42, 6], [43, 9], [44, 3], [45, 12], [46, 6], [47, 6], [48, 3], [49,
+  8], [50, 6], [51, 5], [52, 5], [53, 4], [54, 3], [55, 5], [56, 2], [57, 3], [58,
+  3], [59, 1], [60, 2], [61, 1], [62, 2], [63, 2], [64, 6], [65, 2], [66, 1], [68,
+  1], [71, 1], [74, 1], [75, 1], [76, 1], [77, 1], [78, 2], [81, 1], [82, 1], [86,
+  1], [87, 2], [89, 2], [90, 2], [92, 3], [94, 1], [97, 2], [98, 2], [102, 2], [104,
+  1], [105, 1], [106, 2], [107, 1], [108, 2], [110, 2], [112, 1], [115, 2], [116,
+  1], [118, 1], [125, 1], [129, 2], [132, 1], [133, 1], [134, 1], [135, 1], [141,
+  1], [153, 2], [155, 1], [163, 1], [167, 1], [169, 1], [172, 1], [174, 1], [180,
+  1], [181, 1], [184, 1], [187, 2], [196, 1], [199, 1], [201, 1], [222, 1], [224,
+  1], [232, 1], [243, 1], [247, 2], [280, 1], [308, 1], [318, 1], [327, 1], [332,
+  1], [348, 1], [421, 1], [452, 1], [464, 1], [465, 1], [495, 1], [760, 1]]'
+docs_segments_mean: 17
+docs_segments_median: 9
+docs_top100_domains: '[["dexamsabi.com", 1207], ["jw.org", 371], ["dypk-portal.com",
+  358], ["deltacultura.org", 238], ["blogspot.com", 235], ["santiagomagazine.cv",
+  108], ["anacao.cv", 76], ["blogspot.pt", 50], ["sapo.cv", 18], ["sullivaninjurylaw.com",
+  17], ["kriolita.com", 16], ["abadiarural.pt", 13], ["wordpress.com", 12], ["uncommonschools.org",
+  11], ["tenrelasonkibukre.com", 11], ["learnkabuverdianu.com", 11], ["olharcaboverde.info",
+  10], ["mass.gov", 9], ["boston.gov", 9], ["turismosab.cv", 8], ["sapo.pt", 8], ["uol.com.br",
+  6], ["tvdasilvapartidjamentu.cv", 6], ["letras.com", 6], ["auditec.cv", 6], ["pressreader.com",
+  5], ["letras.mus.br", 5], ["humbertoramos.net", 5], ["contec.cv", 5], ["sonichits.com",
+  4], ["nobidadetv.com", 4], ["lyricsfreak.com", 4], ["governo.cv", 4], ["bravanews.com",
+  4], ["asemana.publ.cv", 4], ["amensagem.pt", 4], ["wikimedia.org", 3], ["projectbread.org",
+  3], ["mulleresafronte.gal", 3], ["justsomelyrics.com", 3], ["ilhacast.com", 3],
+  ["hourglass-app.com", 3], ["herokuapp.com", 3], ["genius.com", 3], ["cvtappros.com",
+  3], ["contafrica.org", 3], ["brava.news", 3], ["wn.com", 2], ["reverbnation.com",
+  2], ["renewboston.org", 2], ["muzikum.eu", 2], ["masssave.com", 2], ["massgeneralbrigham.org",
+  2], ["lyricskeeper.com.br", 2], ["letrasmz.com", 2], ["exotrik.net", 2], ["bostonpublicschools.org",
+  2], ["blogspot.in", 2], ["blogspot.co.uk", 2], ["baystatebanner.com", 2], ["aktb.org",
+  2], ["yt2fb.com", 1], ["wunwa.com", 1], ["wikia.com", 1], ["wellesleyps.org", 1],
+  ["votenickcollins.com", 1], ["visaonews.com", 1], ["videomasi.com", 1], ["vidajusta.org",
+  1], ["versuri.ro", 1], ["versuri-traduse.com", 1], ["varzeadarainha.pt", 1], ["vagalume.com.br",
+  1], ["umassd.edu", 1], ["twnews.co.uk", 1], ["the-music.org", 1], ["tamakai-books.de",
+  1], ["tablyrics.com", 1], ["sweetslyrics.com", 1], ["surveymonkey.com", 1], ["submittable.com",
+  1], ["smore.com", 1], ["scribd.com", 1], ["readbag.com", 1], ["raileurop3.com",
+  1], ["principitoenidiomas.com", 1], ["presidencia.cv", 1], ["praiafm.biz", 1], ["portugueseindependentnews.com",
+  1], ["polskoangielski.pl", 1], ["open-circle.org", 1], ["nickcollinsma.us", 1],
+  ["mydorchester.org", 1], ["molst-ma.org", 1], ["mindelo.info", 1], ["mcbrideforboston.com",
+  1], ["lyricstranslate.com", 1], ["lyricsmode.com", 1], ["luso-poemas.net", 1], ["lumu.gw",
+  1]]'
+docs_top100_tld: '[["com", 1962], ["org", 655], ["cv", 235], ["pt", 76], ["gov", 20],
+  ["info", 12], ["com.br", 12], ["net", 10], ["mus.br", 5], ["publ.cv", 4], ["news",
+  3], ["gal", 3], ["co.uk", 3], ["in", 2], ["eu", 2], ["us", 1], ["tv", 1], ["travel",
+  1], ["top", 1], ["ru", 1], ["ro", 1], ["pub", 1], ["pl", 1], ["jp", 1], ["gw", 1],
+  ["fr", 1], ["fm", 1], ["edu", 1], ["de", 1], ["com.es", 1], ["biz", 1]]'
+docs_total: 3020
+docs_wds: '[[0.5, 37], [0.51, 39], [0.52, 41], [0.53, 28], [0.54, 45], [0.55, 43],
+  [0.56, 40], [0.57, 43], [0.58, 49], [0.59, 52], [0.6, 50], [0.61, 49], [0.62, 59],
+  [0.63, 58], [0.64, 43], [0.65, 58], [0.66, 57], [0.67, 56], [0.68, 77], [0.69, 62],
+  [0.7, 51], [0.71, 81], [0.72, 89], [0.73, 79], [0.74, 93], [0.75, 111], [0.76, 100],
+  [0.77, 111], [0.78, 112], [0.79, 137], [0.8, 201], [0.81, 186], [0.82, 122], [0.83,
+  106], [0.84, 58], [0.85, 46], [0.86, 42], [0.87, 41], [0.88, 55], [0.89, 49], [0.9,
+  46], [0.91, 36], [0.92, 26], [0.93, 16], [0.94, 13], [0.95, 11], [0.96, 6], [0.97,
+  7], [0.98, 2], [1.0, 1]]'
+duplication_ratio: 0.1121
+sentence_pairs: 51023
+src_bytes: 7108939
+src_chars: 6930875
+src_pii: 68
+src_tokens: 1559484
+unique_sents: 45302
+src_sent_tokens: '[[1, 2035], [2, 1018], [3, 1821], [4, 1986], [5, 2520], [6, 2642],
+  [7, 2690], [8, 2384], [9, 2195], [10, 1770], [11, 1551], [12, 1306], [13, 1085],
+  [14, 963], [15, 943], [16, 836], [17, 806], [18, 695], [19, 644], [20, 584], [21,
+  536], [22, 525], [23, 451], [24, 505], [25, 460], [26, 429], [27, 392], [28, 419],
+  [29, 373], [30, 365], [31, 345], [32, 376], [33, 362], [34, 317], [35, 324], [36,
+  334], [37, 317], [38, 301], [39, 297], [40, 269], [41, 288], [42, 288], [43, 271],
+  [44, 247], [45, 253], [46, 242], [47, 246], [48, 230], [49, 229], [50, 221], [51,
+  235], [52, 186], [53, 200], [54, 203], [55, 211], [56, 195], [57, 180], [58, 232],
+  [59, 237], [60, 222], [61, 277], [62, 223], [63, 239], [64, 202], [65, 180], [66,
+  214], [67, 174], [68, 155], [69, 133], [70, 123], [71, 142], [72, 156], [73, 146],
+  [74, 152], [75, 164], [76, 170], [77, 167], [78, 159], [79, 159], [80, 164], [81,
+  129], [82, 153], [83, 127], [84, 142], [85, 91], [86, 111], [87, 108], [88, 104],
+  [89, 106], [90, 85], [91, 70], [92, 79], [93, 76], [94, 72], [95, 72], [96, 66],
+  [97, 71], [98, 54], [99, 66], [100, 60], [101, 65], [102, 62], [103, 53], [104,
+  64], [105, 70], [106, 55], [107, 53], [108, 54], [109, 49], [110, 46], [111, 43],
+  [112, 31], [113, 60], [114, 54], [115, 47], [116, 51], [117, 38], [118, 37], [119,
+  41], [120, 32], [121, 44], [122, 48], [123, 35], [124, 36], [125, 33], [126, 42],
+  [127, 33], [128, 45], [129, 36], [130, 29], [131, 27], [132, 30], [133, 24], [134,
+  33], [135, 23], [136, 34], [137, 32], [138, 42], [139, 26], [140, 32], [141, 27],
+  [142, 30], [143, 27], [144, 22], [145, 24], [146, 23], [147, 28], [148, 23], [149,
+  16], [150, 26], [151, 31], [152, 23], [153, 15], [154, 16], [155, 20], [156, 16],
+  [157, 32], [158, 12], [159, 12], [160, 21], [161, 16], [162, 13], [163, 21], [164,
+  13], [165, 15], [166, 14], [167, 13], [168, 15], [169, 12], [170, 13], [171, 10],
+  [172, 16], [173, 14], [174, 7], [175, 11], [176, 6], [177, 8], [178, 9], [179, 12],
+  [180, 6], [181, 8], [182, 7], [183, 10], [184, 15], [185, 10], [186, 13], [187,
+  7], [188, 7], [189, 9], [190, 12], [191, 12], [192, 6], [193, 9], [194, 6], [195,
+  9], [196, 12], [197, 7], [198, 9], [199, 8], [200, 8], [201, 6], [202, 8], [203,
+  5], [204, 7], [205, 9], [206, 8], [207, 6], [208, 9], [209, 3], [210, 4], [211,
+  4], [212, 5], [213, 1], [214, 1], [215, 10], [216, 5], [217, 3], [218, 3], [219,
+  7], [220, 6], [221, 10], [222, 2], [223, 5], [224, 7], [225, 1], [226, 1], [227,
+  1], [228, 1], [229, 2], [230, 1], [231, 4], [232, 4], [233, 1], [234, 2], [235,
+  2], [237, 1], [238, 4], [239, 1], [241, 2], [242, 4], [243, 5], [244, 2], [245,
+  5], [247, 3], [248, 6], [249, 2], [250, 2], [251, 1], [253, 2], [254, 2], [255,
+  4], [256, 3], [257, 3], [258, 4], [259, 3], [261, 3], [262, 2], [263, 4], [264,
+  1], [266, 1], [268, 1], [269, 1], [270, 5], [271, 2], [272, 2], [274, 4], [275,
+  4], [280, 1], [282, 1], [285, 1], [286, 1], [290, 2], [291, 1], [292, 1], [293,
+  2], [294, 1], [296, 1], [297, 1], [299, 1], [300, 1], [301, 1], [302, 2], [305,
+  3], [309, 2], [310, 3], [312, 1], [314, 1], [315, 1], [316, 1], [317, 1], [318,
+  1], [322, 1], [324, 2], [325, 1], [330, 1], [332, 1], [337, 1], [338, 1], [341,
+  1], [344, 1], [352, 2], [353, 1], [356, 1], [369, 1], [370, 1], [372, 1], [373,
+  1], [377, 1], [383, 1], [385, 1], [396, 1], [403, 1], [404, 1], [408, 1], [412,
+  2], [417, 2], [426, 1], [436, 1], [437, 1], [438, 1], [444, 1], [445, 1], [450,
+  2], [456, 1], [459, 1], [467, 1], [477, 1], [505, 1], [513, 1], [527, 2], [553,
+  1], [583, 1], [599, 1], [666, 1], [698, 1], [703, 1], [718, 2], [762, 1], [845,
+  1], [849, 1], [860, 1], [956, 1], [982, 1]]'
+src_sent_tokens_mean: 31
+src_sent_tokens_median: 14
+src_unique_sents: '[[1, 414], [2, 752], [3, 1185], [4, 1703], [5, 2208], [6, 2398],
+  [7, 2496], [8, 2263], [9, 2041], [10, 1666], [11, 1398], [12, 1255], [13, 1058],
+  [14, 900], [15, 814], [16, 789], [17, 784], [18, 674], [19, 620], [20, 571], [21,
+  519], [22, 491], [23, 428], [24, 476], [25, 438], [26, 402], [27, 387], [28, 401],
+  [29, 356], [30, 357], [31, 342], [32, 356], [33, 352], [34, 315], [35, 319], [36,
+  318], [37, 312], [38, 290], [39, 288], [40, 266], [41, 277], [42, 279], [43, 265],
+  [44, 243], [45, 251], [46, 235], [47, 240], [48, 225], [49, 215], [50, 212], [51,
+  221], [52, 183], [53, 191], [54, 197], [55, 202], [56, 183], [57, 171], [58, 197],
+  [59, 189], [60, 177], [61, 206], [62, 166], [63, 172], [64, 162], [65, 144], [66,
+  182], [67, 154], [68, 140], [69, 130], [70, 118], [71, 130], [72, 140], [73, 135],
+  [74, 136], [75, 146], [76, 154], [77, 148], [78, 139], [79, 142], [80, 146], [81,
+  112], [82, 133], [83, 117], [84, 132], [85, 85], [86, 103], [87, 97], [88, 97],
+  [89, 97], [90, 84], [91, 69], [92, 76], [93, 76], [94, 71], [95, 72], [96, 60],
+  [97, 71], [98, 54], [99, 65], [100, 59], [101, 65], [102, 59], [103, 50], [104,
+  63], [105, 67], [106, 55], [107, 53], [108, 54], [109, 47], [110, 46], [111, 41],
+  [112, 31], [113, 56], [114, 54], [115, 47], [116, 49], [117, 37], [118, 36], [119,
+  40], [120, 32], [121, 44], [122, 47], [123, 33], [124, 36], [125, 33], [126, 42],
+  [127, 32], [128, 44], [129, 35], [130, 29], [131, 26], [132, 30], [133, 24], [134,
+  33], [135, 23], [136, 34], [137, 32], [138, 42], [139, 25], [140, 32], [141, 26],
+  [142, 30], [143, 27], [144, 22], [145, 24], [146, 20], [147, 26], [148, 22], [149,
+  15], [150, 26], [151, 28], [152, 23], [153, 13], [154, 16], [155, 19], [156, 16],
+  [157, 31], [158, 12], [159, 12], [160, 19], [161, 16], [162, 13], [163, 20], [164,
+  13], [165, 15], [166, 14], [167, 12], [168, 15], [169, 12], [170, 12], [171, 10],
+  [172, 16], [173, 13], [174, 7], [175, 11], [176, 6], [177, 8], [178, 9], [179, 12],
+  [180, 6], [181, 8], [182, 7], [183, 10], [184, 14], [185, 9], [186, 13], [187, 7],
+  [188, 7], [189, 8], [190, 11], [191, 12], [192, 6], [193, 9], [194, 6], [195, 7],
+  [196, 12], [197, 7], [198, 9], [199, 8], [200, 8], [201, 6], [202, 8], [203, 5],
+  [204, 7], [205, 9], [206, 7], [207, 6], [208, 9], [209, 3], [210, 4], [211, 4],
+  [212, 5], [213, 1], [214, 1], [215, 8], [216, 5], [217, 3], [218, 3], [219, 5],
+  [220, 6], [221, 10], [222, 2], [223, 5], [224, 7], [225, 1], [226, 1], [227, 1],
+  [228, 1], [229, 2], [230, 1], [231, 4], [232, 4], [233, 1], [234, 2], [235, 2],
+  [237, 1], [238, 4], [239, 1], [241, 2], [242, 4], [243, 5], [244, 2], [245, 5],
+  [247, 3], [248, 6], [249, 2], [250, 2], [251, 1], [253, 2], [254, 2], [255, 3],
+  [256, 3], [257, 3], [258, 4], [259, 3], [261, 2], [262, 2], [263, 4], [264, 1],
+  [266, 1], [268, 1], [269, 1], [270, 5], [271, 2], [272, 2], [274, 4], [275, 3],
+  [280, 1], [282, 1], [285, 1], [286, 1], [290, 2], [291, 1], [292, 1], [293, 2],
+  [294, 1], [296, 1], [297, 1], [299, 1], [300, 1], [301, 1], [302, 2], [305, 2],
+  [309, 2], [310, 3], [312, 1], [314, 1], [315, 1], [316, 1], [317, 1], [318, 1],
+  [322, 1], [324, 2], [325, 1], [330, 1], [332, 1], [337, 1], [338, 1], [341, 1],
+  [344, 1], [352, 2], [353, 1], [356, 1], [369, 1], [370, 1], [372, 1], [373, 1],
+  [377, 1], [383, 1], [385, 1], [396, 1], [403, 1], [404, 1], [408, 1], [412, 2],
+  [417, 2], [426, 1], [436, 1], [437, 1], [438, 1], [444, 1], [445, 1], [450, 2],
+  [456, 1], [459, 1], [467, 1], [477, 1], [505, 1], [513, 1], [527, 2], [553, 1],
+  [583, 1], [599, 1], [666, 1], [698, 1], [703, 1], [718, 1], [762, 1], [845, 1],
+  [849, 1], [860, 1], [956, 1], [982, 1]]'
+src_langs: '[["pt", 16336], ["es", 6700], ["it", 4787], ["en", 2664], ["io", 1617],
+  ["eo", 1196], ["ro", 1077], ["tr", 960], ["mt", 944], ["hu", 905], ["qu", 900],
+  ["cs", 843], ["bs", 825], ["uz", 735], ["ca", 712], ["fr", 655], ["br", 471], ["gl",
+  468], ["tl", 460], ["ast", 459], ["id", 386], ["de", 382], ["sq", 308], ["eu", 307],
+  ["et", 294], ["jbo", 262], ["su", 235], ["sr", 231], ["sl", 218], ["is", 218], ["gn",
+  214], ["nap", 213], ["pl", 207], ["ms", 205], ["lt", 202], ["hr", 200], ["gom",
+  200], ["fi", 190], ["ku", 182], ["cy", 170], ["kw", 153], ["ia", 146], ["ceb", 125],
+  ["eml", 109], ["vec", 101], ["cbk", 99], ["ilo", 98], ["la", 97], ["rm", 95], ["sc",
+  92], ["uk", 88], ["sk", 83], ["war", 82], ["oc", 72], ["az", 58], ["vi", 57], ["pms",
+  53], ["nb", 51], ["sv", 45], ["wa", 43], ["nl", 43], ["ga", 43], ["sw", 39], ["ht",
+  39], ["diq", 31], ["ie", 30], ["ur", 29], ["jv", 29], ["ru", 25], ["nah", 24], ["mwl",
+  24], ["gd", 22], ["sco", 21], ["scn", 21], ["vo", 20], ["tk", 18], ["pam", 18],
+  ["fy", 16], ["da", 15], ["zh", 13], ["nds", 12], ["mg", 12], ["so", 10], ["lv",
+  10], ["an", 10], ["lb", 9], ["kn", 9], ["ja", 9], ["lmo", 8], ["gv", 8], ["vep",
+  6], ["fa", 6], ["el", 6], ["ml", 5], ["hy", 5], ["bn", 5], ["bcl", 5], ["af", 5],
+  ["yo", 4], ["te", 4], ["ta", 4], ["nn", 4], ["mk", 4], ["ko", 4], ["ka", 4], ["ug",
+  3], ["tg", 3], ["ky", 3], ["kv", 3], ["hsb", 3], ["als", 3], ["th", 2], ["my", 2],
+  ["lo", 2], ["kk", 2], ["gu", 2], ["dsb", 2], ["co", 2], ["ba", 2], ["ar", 2], ["xal",
+  1], ["si", 1], ["sd", 1], ["pnb", 1], ["pfl", 1], ["pa", 1], ["mrj", 1], ["mr",
+  1], ["mn", 1], ["min", 1], ["li", 1], ["km", 1], ["bg", 1], ["bar", 1]]'
+hardrules_tags: '{"not_too_long": 200, "not_too_short": 4266, "length_ratio": 0, "no_urls":
+  505, "no_bad_encoding": 163, "pii": 68}'
+sample: '["\"Paradu mi e som\\nN''ata pensa na nha vida\\nN''ata xinti cada vez maz
+  pertu di partida\\nForca ka sta na mi\\nN''perdi na bu dispidida\\nKa tem costura
+  ou penso\\nLigadura pa nhas frida\\nMama querida\\nN''sabi mo ka kria\\nPa staba
+  na kel merda di rotina\\nMa si n''oia pa traz nada nu ka tem nez vida\\nE tudo kel
+  ki n''fazi foi pa adjuda noz familia\\nPara pensa analisa\\nMa vida li e foda\\nMa
+  tem muitos ki ata brinca\\nDipos di um x di fadja\\nBu conversa e lixo nigga\\nKuze
+  ku fazi di bu vida\\nCartas foi bo ki baradja\\nBanca stau dentu barriga\\nKo eskeci
+  na kel festa kem ki dau bebiba\\nE na kel otu dia kem ki dau prato comida\\nKem
+  ki da bu ganza ti bu cabe\u00e7a rebira\\nTudo cenas ki nu pasa nem nka sta acredita\\nE
+  ami na correria ma nka sa ta avanca\\nE nha pensamento tipo ki dja cansa\\nDentu
+  nha zona cada um ta fazi pa si pan\u00e7a\\nPor isso ki nha firma ta bulli sem tolerancia\\nSi
+  bu sta dentu dele ka bu perdi bu esperanca\\nNu ta fazi shit ku cabeca e poku confian\u00e7a\\nA
+  pala di kel merda la n''podi flabu ma nha cabeca\\nMuda ku rapa di infancia\\nEz
+  tenta siparanu ka resulta nigga\\nEz tenta imitanu kuza sai fadjadu nigga\\nKa tem
+  comparacon si bu kre fala di nhas nigga\\nN''ta lembra na inicio\\nModi ki nu comeca\\nSi
+  hoje ami sta si\\nNhoz ki muda nha cabeca\\nSi na rap era so mi\\nDja n''cagaba
+  pa esa merda\\nMa nu sta pa li\\nJogo limpo barri mesa\\nE ami\\nAmi e di kez ki
+  ta espera pa poera baxa\\nDentu di bairro cuidado ku kenha e ku ta bafa\\nDjobi
+  ku kenha e ku ta lida e ku kenha ku desabafa\\nPamodi bu ka ta mora sozinho dentu
+  bu casa\\nTrocado nu ta fazi ma nu kre papel\\nE nos maneira pensa e pouku argem
+  ki ta entendel\\nE facil bu critica un vida ki bu ka vivel\\nMa antes bu apontanu
+  o dedo\\nOiia kuze ku sta nel...\\nKa bu rebaixa kel otu\\nBu podi bem mestel\\nBaixada
+  nha firmaaa\\nFiel\\nTropa n''teni mangadel\\nBXD sa ta cria ti dentu di IPL\\nNu
+  sta tudo na campo ma so 11 e ki ta juga\\nAmi e kel avancado ti baliza um gajo fura\\nKantu
+  golo ki dja n''marca ma depois rapa kre luta\\nBarrera BXD sta fudido pa dirrubaaaaa\\nFIRMA\"",
+  "\"\\\"Nha fidju sa precisa di ajuda\\\"\\n\\\"Boa tarde e ku txeu tristeza quin
+  sa ben fala d es minino li, minino de txeu alegria, de txeu vontadi d vivi de anda
+  d brinca e sa passa pa poblema d saud e que si mae sata sufri djuntu ku el ... e
+  ten poblema de paralizia selebral e sa nes moment internadu, und si mae sa ta pidi
+  tudu alguen pa djudal pmd e ca ten ninguen pa djudal e sa passa pa txeu difikuldad.
+  Minis nu djudal ku pouku que nu podi e que nu teni e in ta pid tudu mundu pa partilha
+  es publicasao li pa quenha que podi djudal pa djudal si nome e Djina Mett e ta mora
+  na txada santo antonio si contato e 9951495. nu djudal nu partilha es publicasao
+  e obrigado a todos\\\"\\nCOMMENTS\"", "\"quarta-feira, 6 de outubro de 2010\\nTENTATIVA
+  2\\nL\u00edngua Materno: ki scrita ki papiar\\nTentativa 2\\nSempre falado na nesesidadi
+  di no avansa ku studo di nos l\u00edngua i tudo otus kuza m\u00e1s capaz di medjora-l
+  at\u00e9 ser encontrado um forma aseit\u00e1vel pa nos tudo. Uns i otus sta pustado
+  na kel ideia li, \u00e9 serto, mas inda kuza sta npatado sem pode atxado um rezultado
+  concreto. Ten fidjus di terra ki m\u00f3re ta difendi um determinado ponto de vista,
+  mas tambe tem otos ki inda sta bibo ki ta difendi pontos di vista diferenti, i keli
+  tambe \u00e9 normal. Ideia ma no debe toma alfabeto portug\u00eas como referensia
+  \u00e9 um sa\u00edda ki nunca foi posto di lado. Tudo muto certo. M\u00e1 tem otos
+  sa\u00edda. V\u00e1rios. Ezemplo \u00e9 txeu nes mundo fora. Povo \u00f3 populass\u00e3o
+  criolo ka \u00e9 s\u00f3 n\u00f3s na mundo.\\nEuj\u00e9nio Tavares i Prdro Cardozo
+  \u00e9 di k\u00eas ki foi primeiro a pensa na escrebe i a kestiona utilizass\u00e3o
+  di nos l\u00edngua escrito na papel i na midida di s\u00eas pensar \u00eas da um
+  grandi contributo. Pa nos fica claro modi ki es ta pensaba. Otos letradus b\u00e1
+  m\u00e1s lonji moda Nho Baltazar, moda Nho Armando Napole\u00e3o, moda Sejio Fruz\u00f3ni
+  i Luis Romano i otos. \u00cas es d\u00e2 grandi contributo, dexando s\u00eas tistimunho.
+  M\u00e1 tem otos ki papia mariado i mariadon pr\u00f3pi. Se calhar Cabo Verdi pa
+  \u00eas era s\u00eas ilha di naturalidadi, ignorando indemeno Santiago, talves conchedo
+  s\u00f3 pa fla ki flado, em tomado Praia como tudo ilha. \u00c9 bom ki no sabe um
+  kuza. Tem stranjero ki prende nos l\u00edgua fora di li, studal i difendi teze na
+  altos universidadi dundi ki es studa, moda Merca. \u00cas \u00e9 primero a fla ma
+  nos l\u00edngua studado e prendedo como debe ser \u00e9 um l\u00edngua igual a tudo
+  l\u00edngua di mundo.\\nMas, se calhar, como nos Santu-l Casa ka ta faze milagre
+  porisso tem kuzas ki ta rola-no na ponta nariz no ka ta consigi odja-l pam\u00f3di
+  odjo no ta tene na caza genti.\\nAmi dja-m flado dja, ma criolo bale s\u00f3 pa
+  sta na cantiga i ki fora de-l \u00e9 pa cada um fica na di sel, pam\u00f3di criolo
+  \u00e9 conberssu di rubera, conberssu di sukupira, ku pilorinho, pa andansa sient\u00edfico
+  nau. Sobri kel ideia li, mi m\u00e9 n \u00e1txa ma ka val\u2019a pena kestiona nem
+  gasta argumento ku el, pabia \u00e1txa riba d\u2019atx\u00e1du, \u00e9 sima p\u00e9
+  di L\u00e9pu ta t\u00e9pu-t\u00e9pu. Poi p\u00e9 tra p\u00e9 fica la m\u00e9. Dja-m
+  flado dj\u00e2 ma poesia a s\u00e9rio na criolo ma \u00e9 kuza dif\u00edsil di consige
+  pam\u00f3di ma se recurso \u00e9 limitado. Claro ki \u00d3 \u00e9 \u00fanico letra
+  ki p\u00e9 di burro ta dexa marcado na txon, m\u00e1 como transporte el \u00e9 nhako
+  sirbidor. Limiti \u00e9 conformi no dezafia nos cabessa. Tem algem ki el \u00e9
+  limiti di si propi crescimento.\\nNton nes cazo nhas livro ninhum ca tem poesia,
+  \u00fa ki ta significa ma \u00e9 impossivel tem literatura na criolo. Pam\u00f3di
+  ? Literarura \u00e9 construido atrav\u00e9s di um l\u00edngua screbedo na se midjor
+  forma. Assi, des manera kuza ta bira conplicado m\u00e9, at\u00e9 pa ntende. Mi
+  na kel poco ki mim ta odja, n ta \u00e1txa ma \u00e9 ka di oji ki n\u00f3s \u00e9
+  \u00fanico cazo di tem \u201c profetas sem p\u00e9 na si poial\u201d sima ki ar,
+  terra, mar, sol, s\u00e9u, \u00e1gua, leti, alma, vida, \u00e9 ka t\u00e1nto di
+  mesmo kont\u00e1nto, sima ki trabadja, furta, m\u00f3ri, conta mintira, fala di
+  vida di alg\u00e9m, mata ka \u00e9 um processo rasiossinado e feto na criolo.\\nNha
+  catxorinho na caza ta ntenden muto ki bem. Si n da-l ordi na frans\u00eas \u00e9
+  capaz di \u00e9 ladra-m mostrando ma mim sta xuxa ku el. Portanto, conf\u00f3rmi
+  nu julga nos cabessa assi nu ta julgado tambe. \u00c9 di dreto ku mariado ki nos
+  tudo dja nu txiga ti pundi ki nu sta. \u00c9 ka deturpa portug\u00eas ki \u00e9
+  papia criolo i nen \u00e9 ka uza palavra b\u00f3ss dento di criolo, ki ta da pa
+  fla ma nu ta rikisse nos l\u00edngua. Palavra ta ncaxa. Sim! M\u00e1 el \u00e9 purbado
+  sima purba sal na comida. Palavra tomado pa di nos \u00e9 tem ki significa ku naturalidadi,
+  pa \u00e9 podi tem un star pac\u00edfico na matriz di l\u00edngua.\\n\u00c9 ku screbedoris
+  di criolo ki nu ta caba pa afina escrita e si regras pamodi \u00e9 el ki ta caba
+  pa aponta poss\u00edvel caminho i \u00e9 el ki tem responsabilidadi di sprumenta
+  validadi di proposta t\u00e9cnico ki ta fazedo pam\u00f3di escrebe \u00e9 u mesmo
+  ki ezerssita um l\u00edngua moda trovadores ta faze screbendo versos de ses melodia
+  i canta-l.\\nN atxa oportuno i interesanti traze Dotora Dulce Duarte na undi ki
+  \u00e9 ta mostra se viz\u00e3o t\u00e9cnico sobre alguns kuza ki debe ta ser encontrado
+  um resposta dreto. El \u00e9 ta poi seginte kest\u00e3o: Tem \u00f3 ka tem oto manera
+  di fla klel fraze li\u2026\u2026 \u201c\u00e9 un sforsu imensu ki ta envolve un
+  verba avultadu\\\" \\\"\u00fa ki sta fundamentalmenti en kauza \u00e9 nos sobrevivensia
+  komu povu\\\". Claro ma tem ki tem. \\\"\u00e9 um kuza puxado ki ta pidi txeu dinhero\\\"
+  ou \\\"\u00e9 um trabadjo ki takusta txeu dinhero\\\" o inda: \\\"u ki ta da ki
+  pensa \u00e9 modi ki nu ta sobrevive como povo... \\\" ki sta en djogu \u00e9 modi
+  ki nu ta sobrevive como povo\\\". Es \u00e9 um assunto ki nu tem ki djobe-l dreto
+  pamodi um kuza \u00e9 tra di portug\u00eas i otu kuza \u00e9 fla \u00fa ki meste
+  ser flado di nos manera.\\nAlguns ezenplo abssurdo di tenta criola palavras: Indipendensa,
+  ispis\u00edfiku, pesua, filiz\u00f3fiku, karaktiristika, posivimenti, dizanvolve,
+  induvidu, konsakuensa etc. Kes tipo di criatividadi li ki ta caba pa ser rid\u00edculo
+  i \u00e9l ta caba pa cria inimigos di scrita di criolo ki pa mi el tem si ronco
+  e si rosto certo.\\nNo sprumenta l\u00e9 kes linha li ki poetas screbe pa cada um
+  tra si concluz\u00e3o:\\n\\\"Alma ku xintidu na txuba e mininu nobu sen batismu
+  e padja na bentu ta badja\\\" Dani Spinola.\\n\\\"La pundi ki odju ka ta fila odja
+  \u00e9 la ki tenpra sta \u00e9 la ki ser bira serteza\\\" Ariki Tuga Badiu Branku.\\n\\\"Tardi
+  kai sukuru fitxa pretu finu noti \u00e9 dobra na garganta prumeru galu\\\" B.K.\\n\\\"Nunka
+  n kontob margura d''nha vida nes mar de kriste nes s\u00e9u d''munde nha kretxeu\\\"Kanabrava.\\n\\\"Rotxa
+  skreve na seu y trovon ma relonpeg skreve na boka de pove\\\" Corsino Fortes .\\\"\\n\u201cSopra
+  bu f\u00faria kenta petu toma un pinginhu pa dabu spritu\\\" David Hopffer.\\nSem
+  coment\u00e1rios:\\nEnviar um coment\u00e1rio\"", "\"Am n ben d t\u00e9ra lonji
+  F C G d t\u00e9ra lonji di li Am dja n ten and\u00e1du mundu F C G m\u00e1 n k\u00e1txa
+  un lug\u00e1r s\u00e1bi si Am F a-mi \u00e9 fidju di r\u00f3txa C G ki b\u00e9ntu-l\u00e9sti
+  fulia na m\u00e1r Am F d\u00e9ntu mi ten d\u00e9s ilia C G k\u00e1bu-verdi, k\u00e1bu-verdi
+  Am la na nha t\u00e9ra lonji F C G lam\u00e9ntu di povu foi txeu Am konsi\u00e9nsia
+  grita \u00f3ra Fm C G i un di ses v\u00f3s foi kabral Am F n\u00f3s \u00e9 fidjus
+  di r\u00f3txa C G ki b\u00e9ntu-l\u00e9sti fulia na m\u00e1r Am F d\u00e9ntu n\u00f3s
+  tudu \u00e9 ilia C G k\u00e1bu-verdi, k\u00e1bu-verdi Dm E7 palan s\u00f3 ta sp\u00e9ra
+  txuba Dm E7 txiku, nh\u00e9la ku ses uril Dm E7 tufuka dja bendi si pexi Dm E7 oji
+  b\u00e9nta txiga lisboua Dm E7 filisi\u00e1nu txora sod\u00e1di Dm E7 beny g\u00e1nha
+  totob\u00f3la Dm E7 (Am/A5) es vida \u00e9 sima mar\u00e9 ku kada \u00e1nu ta nasi
+  sper\u00e1nsa di odja az\u00e1gua ben tr\u00e1s di simentera pa vida bai m\u00e1s
+  su\u00e1vi si, m\u00e1s d\u00f3xi si pa kada un ki kr\u00e9 es txon\\nIf you can
+  not find the chords or tabs you want, look at our partner E-chords. If you are a
+  premium member, you have total access to our video lessons.\\nIf you find a wrong
+  Bad To Me from Mayra Andrade, click the correct button above.\"", "\"D.Arlindo Gomes
+  Furtado foi hoji consagradu cardeal, num cerim\u00f3nia na Bas\u00edlica di S\u00e3o
+  Pedro, na Vaticano, na presen\u00e7a di papa Francisco.\\nD.Arlindo ki \u00ea bispo
+  di Santiago, bira hoji primeru cardeal cabo-verdiano na Vaticano.\\nEl \u00e9 um
+  di kes 20 novu cardeal,ki consagra hoji, 15 d\u00eas ten poder di vota pa skodji
+  proximu Papa.\\nNa cerim\u00f3nia staba presente Primeiro-ministru, Jos\u00e9 Maria
+  Neves na representa Estado di Cabo Verde.\\nTambe cerca di 500 caboverdianos bai
+  sisti es momento hist\u00f3rico, ki staba la, era kriolus ki sta emigrado na Italia,e
+  alguns \u00e9 caboverdiano ki viaja di otrus pa\u00edses di Europa e otrus bai di
+  Cabo Verde pa ba sisti es cerimonia.\\nNa sa\u00edda di bas\u00edlica, novu Cardeal
+  caboverdiano fika mas di meia hora na Pra\u00e7a di S\u00e3o Pedro na kumprimenta
+  si conterr\u00e2neos caboverdianos.\\nD.Arlindo fla \u201cnu sta tudu emocionado,
+  gra\u00e7as a Deus pa nu kontinua assi, ku motivu pa nu vive ku alegria.\u201d\\nAlguns
+  caboverdianos ki staba presente komesa na grita ta ponta pa D.Arlindo \u2018Papa,
+  Papa\u2019.\\nCardeal D.Arlindo ri, \u00ea responde \u201c ka \u00ea proibido sunha\u201d.\\nE
+  \u00ea fla na jornalistas: \u201cNa Igreja nu ka ta busca estatuto, nu ka ta busca
+  poder, nu ka ta busca t\u00edtulo, nos tudu nu sta li pa nu sirbi, pa testemunha
+  Jesus Cristo, pa nu kria fraternidade.\u201d\\nCardeal caboverdiano finda, ta pidi
+  pa Nhord\u00eas kontinua na aben\u00e7oa Cabo Verde,e \u00ea deseja pa caboverdianos
+  bira cada vez mas unidu ku kumpanheru.\\nD. Ildo Fortes, bispo di Mindelo tambe
+  kompanha cerim\u00f3nia na Bas\u00edlica di S\u00e3o Pedro e \u00ea mostra si \u201cgrande
+  gratidon e alegria\u201d pamodi D. Arlindo Furtado bira cardeal, \u00ea fla \u201cnos
+  \u00ea um pa\u00eds pikinote, nu sta espadjadu na mundu, mas sta li centenas e centenas
+  di caboverdianos ki ben pa sisti es acontecimento, ki pa n\u00f4s \u00e9 hist\u00f3rico\u2026\u00c9
+  mutu bonito di odja\u201d.\\nD. Arlindo Furtado \u00e9 gosi cardeal-presb\u00edtero,
+  ku t\u00edtulo di igreja de S\u00e3o Tim\u00f3teo, na Roma.\"", "\"Por: Marciano
+  Moreira*\\nTCV ta transmiti prugrama notisiozu \u201cCABO VERDE magazine\u201d tudu
+  dia util di 17H00-18H00 ku ripitison 07H00 di palmanhan. Es prugrama e na nos lingua
+  maternu (lkv). Desdi abril di 2017 na rubrika \u201cLINGUA MATERNU\u201d di es prugrama
+  i tudu kuarta-fera, N ta papia sobri lkv duranti serka di 5 minutu.\\nNa sekson
+  di \u201cNotas\u201d di nha perfil na facebook, dja N kria post \u201cTCV \u2013
+  CABO VERDE magazine \u2013 LINGUA MATERNU\u201d (https://tinyurl.com/y9kjuajk),
+  undi N ten stadu ta inseri link di vidiu ku kada partisipason dimeu. Pa kada vidiu,
+  N ta indika se rispetivu data, tema i minutu undi N ta komesa ta papia. Pa txiga
+  nes post, ba na google i skrebe: cabo verde magazine lingua maternu Si leitor abri
+  un di es vidius a partir di un iphone, ti ki vidiu komesa ta roda, leitor ta toka
+  2 bes riba di vidiu, ta parse boton ki ta mostra kantu tenpu dja el roda i, ku dedu,
+  leitor ta leba es boton pa minutu ki N ta komesa papia. Si leitor abri vidiu a partir
+  di un konputador, logu ki vidiu komesa ta roda, ta parse boton ki ta mostra kantu
+  tenpu dja el roda i, ku kursor, leitor ta leba es boton pa minutu ki N ta komesa
+  papia. Asin, leitor ka meste spera ti txiga minutu ki N ta komesa papia.\\nDja N
+  faze 60 i tal aprizentason. Nes aprizentasons, objetivu foi da telespetador fundamentus
+  sientifiku pa el fika ta xinti mas grandesa ku lkv i ta difende se liberdadi linguistiku
+  midjor.\\nNa kes aprizentason inisial, N papia sobri orijen di lkv. Spesifikamenti,
+  N aborda es temas li: orijen di lkv; provas ma kriansas ta kria lingua; prova ma
+  kriansa purtuges asves ta inpididu di uza lojika linguistiku inatu; etimolojia di
+  dialetu; kauzas di surjimentu di dialetus; surjimentu di dialetus na lkv; kontributu
+  di skravus libertu pa nu ten so 1 lingua li na Kabu Verdi; kauzas ki obriga skravus
+  libertu ba di Santiagu pa otus ilha; otus grupu dialetal i linguistiku eurupeu ki
+  partisipa na povuamentu di nos tera; provas ma vinda di skravus ka provoka surjimentu
+  di diferensas dialetal na lkv; reperkuson linguistiku di ivoluson rasial i sosial
+  li na Kabu Verdi atraves di sekulus; nos falar e o ka e dialetu di purtuges?; alguns
+  prekonseitu ma nos falar e dialetu di purtuges; manba nos falar e purtuges mal papiadu?;
+  manba nos falar ka ten gramatika?; manba faktu di kuazi tudu palavra di nos falar
+  ben di purtuges ta bira nos falar dialetu di purtuges?; manba kada Kabuverdianu
+  ta papia di se manera?; i manba so falar ki ten padron e ki e lingua?\\nNa 2\u00ba
+  fazi di nhas aprizentason, N mostra lugar di lkv na seiu di se familia linguistiku.
+  Spesifikamenti, N aborda es temas li: kuze ki linguas kriolu ten di kumun?; pamodi
+  ki linguas sima di-nos ta txomadu kriolus?; kas lingua kriolu ta izisti na mundu?;
+  kriolus di bazi leksikal purtuges; kriolus afro-purtuges; kriolus afro-purtuges
+  di Golfu di Gine; nhos djobe si nhos ta ntende kriolu santumensi?; manba kriolu
+  santumensi e dialetu di purtuges?; foru e mas un prova ma nu ten so 1 lingua; relason
+  entri lkv ku kriolu di Gine-Bisau; relason entri lkv ku papiamentu; mas un prova
+  di interkonprienson entri papiamentu i lkv; orijen di papiamentu; frakezas di alguns
+  tioria sobri orijen di papiamentu; statutu di papiamentu; alfabetu di papiamentu
+  (Kurasau); Seselwa (kriolu di Seixelis); lkv versus seselwa; orijen di kriolus \u2013
+  tioria monojenetiku / di releksifikason; lkv versus tioria monojenetiku.\\nPur fin,
+  N aborda es temas li: kuze ki Cabral fla sobri lkv? (2 aprizentason); lkv na Konstituison
+  (15 aprizentason); i lkv na lei di bazis di sistema idukativu.\\n*Marciano nha Ida
+  padri Nikulau Ferera\\n(Publicado no ANA\u00c7\u00c3O impresso, n\u00ba 581, de
+  18 de Outubro de 2018)\"", "\"Si bu poder da bu ajuda\\n\\\"Oi pessoal\\nEs bebe
+  li \u00e9 nha visinho di Monte Vermelho Palmarejo praia.\\nEl txoma Isa\u00edas
+  el nace prematuro\\nGossim el teni 1 mes e 15 dia.\\nEl sa morado cu se tia fatima
+  de contacto (9120496 play)\\nDjel tem 15 dia cu se tia li.\\nE se mai staba internado
+  mas eh caba pa morri es sabado li, unton inda e ta bebe so kel leite nutriben (qui
+  e muito caro).\\nUnton se tia sa pidi ajuda ku qualquer cuza, Unton quenha qui podi
+  ajuda podi liga pa nha numero tmb (5821839 swag)\\nObgd desde j\u00e1\\\"\\nFonte:KK\\nCOMMENTS\"",
+  "\"Gil partilha video ku es discri\u00e7on: \\\"Li sta mensagem di nha m\u00e3e
+  ki sta temi pa nha vida. Dja tchiga hora di nhos obi kuze sta passa. Nta pidi Deus
+  pa continua ta dan vida y saudi.\\\"\\nNa video senhora Armandinha sta mostra preocupado
+  ku vida de Gil. \u00c9 sta avisa ma Maria Julia ku si marido teni um plano e armadilha
+  contra Gil, ki ta poi vida di es si fidju em prigu.\\nSegundo \u00e9 xplika, es
+  situason ki sta kontisi \u00e9 pamodi es ta bai tribunal devido pr\u00e9dio de Gil
+  Semedo ki si filha Maria Julia kr\u00e9 toma e por isso Maria Julia sta tenta trapadja
+  Gil.\\nOdja Video\\nPOL\u00c8MIKA SOBRE PR\u00c8DIO DI QUEBRA CANELA\\nAssuntu ki
+  teni es dos irmons Semedo Moreira ku problema entre \u00e9s, sta relacionado ku
+  um pr\u00e9dio ki foi construido dja ten alguns anus na Quebra Canela na cidade
+  de Praia.\\nAlguns meses atr\u00e1s dja nu tinha publicado sobre es assuntu, dipos
+  ki nu recebe um mensagem ku titulo \u201dGIL SEMEDO burlado pela propria irma Maria
+  Julia\u201d.\\ntexto:dypk\\nCOMMENTS\"", "\"Nunka nka pensaba sta nes vida,\\nNu
+  tevi um conversa ku um jovem ki sta na vida di prostituison, na conversa \u00e9
+  ta mostra me ka tem txeu orgulho disso mas ma por agora \u00e9 sta leba si vida
+  si y ma um dia \u00e9 ta kre sai. Nu ta bem relata u ke fla na primera pessoa, claro
+  sem revela si nome, pamodi \u00e9 ka danu es direito\\nNunka nka pensaba sta nes
+  vida, mas situason di vida lebam pa es kaminho, mi nta trabadjaba komu domestica
+  ou diarista, nta limpaba na casa di pessoas, alves ta kuzinha. Sempre ndedica nisso,
+  embora nka ta recebeba dreto y \u00e9 ka tudu dia kin ta konseguiba trabadju ntinha
+  fika fazi pa poi kumida na casa, teve um dia ki txiga di trabadja na casa di um
+  homi ki muda nha rumu, des di primeru dia n odja ma \u00e9 kria algu ku mi. Tevi
+  um dia ke fla ma npodi ganha mutu mais ki kel ke sta dam pa dia, nfazi nka intendi,
+  \u00e9 kontinua ta insiste, ta kre pegan, nta rejeita. Tevi um dia ki nha fidju
+  fika doente, y nstaba sem dinhero, pai di nha fidju nunka ka liga cuida di menino,
+  tudu mi ki tem ki resolve, vida di m\u00e3e solteira k facil, perante tantos dificuldade,
+  nkaba pa bai na proposta di nha patron, kaba pa envolve kol, y ke dia nsai di la
+  ku dinhero ki nta ganhaba na 1 semana di trabadju, ku consencia um poku pesado,
+  mas pa otu lado aliviado pamodi nta resolveba problema di paga consulta y exame
+  pa cuida di nha fidju. Foi si kin kumesa ta envolve ku homes pa dinheru, es ta fla
+  vida facil, mas pami nunka ka ta ser facil. \u00e9 ka vida kin pensaba pa mi, mas
+  situason tenem ainda nisso, ku speransa di um dia inviste na negocio y sai disso,
+  pamodi nha fidju sa ta kria, y ntem ki dam orgulho di fla na kuze ki si m\u00e3e
+  ta trabadja, y kel kin ta fazi hoje ka ta dal orgulho, nka ta kre nem pe sabi, Nka
+  kre pa ninguem julgam erado.\\nCOMMENTS\"", "\"Marley Dias nasce na Philadelphia,
+  \u00e8 fidju de pai caboverdiano e mae jamaicana. \u00c8 lan\u00e7a um novu campanha
+  ki txoma #1000BlackGirlBooks\\nAnu passadu Marley faze um proposta ki acetadu na
+  compania merkanu Disney, undi ki idea des minininha era sirbi kumida na crian\u00e7as
+  orfao de Ghana. Gosi tambe \u00e8 lan\u00e7a um novu campanha ki txoma #1000BlackGirlBooks.
+  Keli ten komu objetivu colecta 1000 livrus undi ki personagens principal de historias
+  \u00e8 meninas negras. Es campanha (#1000BlackGirlBooks) kre recolhe livrus pa faze
+  um ason social.\\n\u201cN ta spera ma otrus meninas tambe ta faze keli.\\nN ta da
+  kes livrus ki n ta recebe, e n kre pa pessoas tambe, uza kel ki es ten, pa es da
+  pa otrus alguen e asi pa kria mas projetus de ason social e tambe pa es fazel de
+  um manera divertido, sem xinti ki \u00e8 um obrigason.\u201d\\nsi ki Marley fla.\\nMarley
+  Dias tevi idea de komesa es campanha #1000BlackGirlBooks, dipos ki \u00e8 keixa
+  na si mae, ma dje cansa de l\u00e8 livrus ki \u00e8 ta bai busca na blibioteca de
+  si scola, undi ki ta parce ma historias \u00e8 sempre igual.\\n\u201cN fla nha mae
+  ma djan cansa de l\u00e8 so sobre rapazinhus branco e sobre katxor\u201d. Marley
+  fla keli, pamodi na Merca, livrus mas popular pa crian\u00e7as, \u00e8 uns tipos
+  de livru, undi ki personagens \u00e8 kuase sempre sima kes ki \u00e8 fla.\\nMarley
+  xplika ma dipos di keixa na si mae, si mae perguntal \u201cKus\u00e8 ki bu kr\u00e8
+  faze pa muda kela?\u201d Marley fla ma \u00e8 responde, ma \u00e8 sta ben faze um
+  colecta de livrus, e ma na es livrus ki \u00e8 ta recolhe, meninas negras \u00e8
+  personagem principal de historia.\\nTi gosi Marley Dias dja konsigui colecta 400
+  livru, si objetivu \u00e8 antis de dia 1 de Fevereru djunta mil livru.\\nEs projetu
+  de Marley sta faze parte de um fundason comunit\u00e0rio de Philadelphia, ki ta
+  empodera e ta midjora saude de jovens meninas pobre, de kel cidade.\\nMae de Marley
+  ki txoma Janice ki kria es fundason dja ten 7 anu djuntu ku um grupu de alguen.\\nJanice
+  ki nasce na Jamaica, sta orgulhosa de odja si fidja na faze algum kusa pa sociedade
+  e \u00e8 fla ma es campanha \u201c#1000BlackGirlBooks ki si filha komesa, \u00e8
+  um \u201dabertura de odju e revelason\u201d ti pa el Janice.\\n\u201d N ka tinha
+  necessidade de identifikason, pamodi n kria na Jamaica, um pa\u00ecs de pessoas
+  negros, mas nha filha sta kria na um pa\u00ecs ki maioria \u00e8 branco e ki ten
+  so 12.6 porcento de negros. Por isso pa ela, identifikason \u00e8 um kusa txeu importante
+  \u2026 Pa menininhas negras de Merca, \u00e8 mesmu importante de l\u00e8 historias
+  ki es ta identifika ku el, ki ta refleti kel ki es ku ses amigus ta kustuma faze\u201d,
+  si ki Janice xplika.\\nNa fevereru, ora ki es colecta termina, Marley ku Janice,
+  kre kria um guia de referencia, undi ki es ta poi nomes de autores, titulu e pa
+  ki idade ki \u00e8, tudu es livrus ki es djunta. E dipos es ta faze doason de tudu
+  livrus na um biblioteca ki ka ten txeu recursos na Jamaica, na terra undi ki Janice
+  nasce, asi pa kria spr\u00ectu de da algum kusa de volta pa ses ra\u00ecz.\\nMarley
+  Dias fla ma ora ki \u00e8 bira grande \u00e8 kre, ser editora e kria si propi revista,
+  e tambe \u00e8 kre kontinua na faze ason social pa restu de si vida.\\nSi bu sta
+  na Merca, bu pode manda ou bai faze doason de livrus na 59 Main St., West Orange,
+  N.J., 07052, Office 322.\"", "\"Na dia 12 de Fevereiro foi f\u00eatu na plat\u00f4,
+  na rua 5 de Julho, um filmagem - rodadu pa um grupo di cinema espanhol \u2013 ki
+  ta fasi parti di um filme sobre kultura di Cabo Verde. Djuntadu alguns m\u00fasiku,
+  Dansarinos di Raiz di Polon, alguns elemento di Tabanka Tchada Grandi, e conjunto
+  Ferro Gaita num camion (tipo Trio il\u00e9triku), pa simboliza v\u00e1rios vertenti
+  di n\u00f4s musika. Rua 5 de Julho foi fitxadu a tr\u00e2nsito di autum\u00f3vel,
+  e filmagi , ki foi um verdad\u00earu festa, kontisi ao longo di rua, ti porta di
+  merkadu di Plat\u00f4, undi guentis djunto ku rabidantis di merkadu, leba \u00eas
+  festa a si auje, na son di Ferro Gaita.\\nK\u00eal dia la,lembram tempo ki na dias
+  di festa nacional e municipal, Tabanka ta subiba Praia sedu pal manh\u00e3, na sis
+  alvorada, e tudo minis ta saiba ta korr\u00eaba tr\u00e1s di Tabanka, pa tudu bairro
+  di cidadi. Na fim di tardi, sempri ta tinha um conjunto ta toka na koretu di Pra\u00e7a
+  Grandi: si ka era Bulimundo, era Abel Djassi. Alguns b\u00eas, propi Tubar\u00f5es,
+  daba s\u00eas toki na na gurita di n\u00f4s Pra\u00e7a.\\nPamodi k\u00eal dia la
+  foi um dia diferenti na cidadi, ki devia ser repetidu, e ki ta lebanu ta pensa ma
+  rua 5 de Julho \u00e9 um rua cheio di putencialidadi pa bira um rua s\u00f3 pa tranzitu
+  di algu\u00e9m, undi podia ser aproveitadu kasas ki tem na k\u00eal rua pa desenvolvi
+  neg\u00f3ciu ligadu a temas kultural, m sta bem partilha ku nh\u00f4s alguns foto
+  di k\u00eal dia di festa na cidadi.\\nSima Kiz\u00f3 ta gostaba di flaba: nh\u00f4s
+  fika dr\u00eatu.\"", "\"pessoas kumesa ta djobem ku rosto estranho\\nNu recebi es
+  mensagem di um seguidora di DS...\\n\\\" Ola Dexam Sabi, mi \u00e9 um seguidora
+  di nhos pagina, hoje sta li pan konta nha storia, kin ta kre pa otus pessoas ka
+  kai nisso.\\nNta relacionaba ku um mos, nu teve varios momentos djunto, mi nta gostaba
+  txeu del, y ntinha txeu confiansa nel, tantu ki alves nta dexaba el fazem video
+  sen ropa, nka ta pensaba nunka me ta bem uzaba isso pa kaba ku mi.\\n\u00c9 ki nos
+  relason kume\u00e7a ta fika mariado y mi nka kria mais sta na kel relacionamento
+  pamodi ndiscubre me ta traiba mi, mas el \u00e9 ka aceita pa nu termina y \u00e9
+  ame\u00e7an me ta partilha nhas videos na internet, u ki fazem fika preza na el
+  pa uns tempos, mas dja ka sta daba, ntom ndicide na terminal kol.\\nPa nha espanto
+  kes videos ke fazem fika ta circula na internet, pessoas kumesa ta djobem ku rosto
+  estranho, fika sem mural di sai na rua, nfika ka ta sabi modi nta lida ku isso,
+  ntevi ki muda di nha zona pamodi nsa xintiba txeu vergonha.\\nNkre aproveita pa
+  fla tudu mudjer, pa toma kuidado ku pessoas kes ta relaciona kol, pa ka dexa isso
+  kontice, pamodi tem pessoa di mal carater.\\\"\\nCOMMENTS\"", "\"Devido a kel pol\u00eamico
+  video ki foi divulgadu na internet, undi ki atriz portuguesa Ana Ferreira sta fla
+  durante um entrevista ma povu di Boavista ta txera, pamodi es ten poku oportunidade
+  di toma banho, onti 18 di Maio es atriz Ana Ferreira reage e \u00ea publika na si
+  pagina di Facebook seguinte textu: \u201d Tomei conhecimento de que foram colocadas
+  no canal Q, no programa Altos & Baixos, no\\nComportamento\\nDisp\u00f4s di ba passa
+  f\u00e9ria na Cabo Verde, actriz portuguesa Ana Ferreira d\u00e2 um entrevista na
+  um programa di telivison di Portugal, \u00e9 fla ma caboverdianos tem poku oportunidade
+  pa toma banho, pamodi kantu \u00e9 bai Cabo Verde \u00e9 bai um discoteca undi ki
+  \u00ea paga 1 euro pa entra e n\u00eas descoteca staba pessoas ta txera (catinga),
+  \u00e9 justifica \u00e9 fla ma pessoas di Boavista ka ten oportunidade nem\\n\u201cUm
+  \u00f3rg\u00e3o ki foi fetu s\u00f4 pa da mudjer prazer\u201d Tudu mudjer ku tudu
+  homi deveria sisti es document\u00e1rio, pamodi txeu di n\u00f4s nu ka konxi n\u00f4s
+  korpu dretu e \u00eas filme di mas ou menus 40 minutu, \u00e9 educativo. Ku depoimentos
+  di m\u00e9dicos, educadores sexual, estudiosos di comportamento e mudjeres em geral,
+  \u201cClit\u00f3ris, Prazer Proibido\u201d ta contesta concepson religioso ma sexo
+  ta existe s\u00f4 pa reproduson. Document\u00e1rio \u00ea sobre edukason sexual\\nQuinto
+  edison di Cabo Verde Music Awards (CVMA) gera pol\u00e9mica na rede social Facebook.
+  Devido a v\u00eddeo ki foi publikadu pa artistas Nissah Barbosa e El-ji undi es
+  respondi kr\u00edticas ki es fazedu por causa di ses bestimenta na gala di CVMA
+  ki kontici s\u00e1bado passadu. Nissa Barbosa faze gosi um novu video na pidi fans
+  e publiku desculpa pa si atitude ki \u00ea tevi di faze v\u00eddeo na respondi\\nCultura,
+  sa\u00fade, fam\u00edlia na feminino, moda, desporto \u00ea rubricas des novu revista
+  caboverdiano. \u00ca um novu revista derisionado pa mudjeres, mas ki ka kr\u00ea
+  ser um revista \u201cc\u00f4r di rosa\u201d Es revista feminino \u201cSempre Viva\u201dfoi
+  lan\u00e7adu oficialmente na passadu dia 24 di Janeru na Praia, e gosi tambe sta
+  ben ser lan\u00e7adu a n\u00edvel di sub-region africanu na dia 08 di Mar\u00e7o,na
+  Dia Internacional di Mudjer. Maria da Gra\u00e7a, administradora\\nFotos provocantes
+  di Amber Rose ku fato di banho, ki \u00e9 publika na redes sociais. Fotos \u00e9
+  tra kantu \u00e9 ba passa f\u00e9ria es dias na Miami. Kantu \u00e9 publika foto
+  na FACE ku na Instagram , \u00e9 foi txeu kritikada\u2026\u00c9s flal ma k\u00e9s
+  foto sta mutu sexy pa publika na redes sociais, pamodi el \u00e9 mae di fidju!,!
+  Pa desaforo \u2026La g\u00f4 ki Amber publika mas fotos kuase nunpriti. Komenta\u2026\\n@s)..Ninfomania
+  :Duen\u00e7a ou Promiscuidade?\u2026.Poi bu OPINION Ninfomania ta fladu ma \u00e9
+  um transtorno sexual kompulsivo , ki ta faze mudjer xinti vontade di kr\u00e8 faze
+  sexo tuduhora (V\u00cdCIO na SEXO) .Mudjer ki ten es transtorno \u00e9 konxedu komu
+  ninfoman\u00edaca.Ora ki es komportamento sexual exageradu ta kontici ku HOMIS es
+  transtorno ta txomadu satir\u00edase. Na verdade mesti inda fazedu txeu pesquisas
+  pa podi konsideradu ninfomania komu um disfunson ou um transtorno\\n@s)..Alicia
+  Keys Publika fotu Nunpriti pa txoma atenson pa PAZ na MUNDU. Kantora di R&B Alicia
+  Keys di 33 anu, ki sta gravida, sta ben ten brevemente si segundu fidju, \u00e9
+  partilha es foto na internet (Instagram), undi ki \u00e9 sta nu , ta kubri petu
+  ku m\u00f4, ku simbolo di PAZ pintadu na barriga. Ku es foto Alicia Keys kr\u00e8
+  komesa si movimento di solidariedade ku nome \u201cWe Are\\nEs ata bebi Ku um nivel
+  pa riba di m\u00e9dia africanu, si ki um um relat\u00f3rio divulgadu onti revela..
+  L\u00ca Mas li> https://www.inforpress.publ.cv/sociedade-mlt/96930-angolanos-cabo-verdianos-e-sao-tomenses-sao-lusofonos-que-mais-alcool-consomem
+  partilha ku bus guentis\u2026\"", "\"Bira si parse milisianus dijital / Ku perfil
+  falsu ta sunsuria i ta ataka / Tudu k'' es ki ta dinunsia injustisa sosial\\nDimokrasia
+  ben kaba ku ditadura\\nMas ku tenpu es kaba pa mustura\\nDimokrasia bira dimokratura\\nBuru
+  toma liberdadi di sura\\nSosiadadi straga ki bira sen kura\\nGentis ki nu mandaba
+  bai\\nVolta ku nomi di invistidor\\nNos inprezarius fika so ku dor\\nSes inpreza
+  fali, ses ikonomia kai\\nBira si parse milisianus dijital\\nKu perfil falsu ta sunsuria
+  i ta ataka\\nTudu k'' es ki ta dinunsia injustisa sosial\\nPoder bira so pa fidjus
+  di eliti\\nPa pobris ben fanatismu p'' es divididu, pa renadu\\nEnkuantu es ta pididu
+  amor segu a partidu\\nSta algen ta parti, ta raparti i ta tra midjor parti\\nPa
+  es resta anda txada ku ladera\\nDa viva i karega bandera\\nVivi iternamenti na pobreza\"",
+  "\"Ivan \u00ea un di kes centenas ou milhares di fidju di cabo-verdianos nascidos
+  na \u201cTuga\u201d ki ta vivi sen \u201cidentidade\u201d.\\nIvan ten 8 anu, \u00ea
+  fidju + pikinoti di Ana Cardoso imigranti cabo-verdiana di 43 anu ki dja ten 33
+  ta vivi na Portugal.\\nIvan \u00ea un di kes centenas ou milhares di fidju di cabo-verdianos
+  nascidos na \u201cTuga\u201d ki ta vivi sen \u201cidentidade\u201d. Postu di ladu.
+  Excluidos di sociedade. Pa si mai kel li \u00ea un situason kruel, dezumanu. Injusto.
+  Pa Ana Cardoso tudu crian\u00e7as ki naci na Portugal debia ten nacionalidade portuguez.
+  Autom\u00e1ticamente.\\nAP\u00c1TRIDAS\\nTen cazu di crian\u00e7as ki nen ka ten
+  registo di nascimento. \u00ca sima ki es ka existe. Es ka ten Patria. Txeu centros
+  di saude ou estabelecimento di ensino ka ta kre recebez pamodi es ka ten documentason.
+  Ou numero di Seguran\u00e7a Social.\\nAna Cardoso ten 4 fidju tudu nascidos na Portugal
+  ( era 5 mas un f\u00e9mia morri na un acidente di carro). \u00ca fla ma si fidjus
+  kria revoltadus , \u201cun sentimento di revolta ki al vez pessoas ka ta entendi\u201d.
+  Sima Ruben por exemplo. Ruben \u00ea si fidju matxu di 20 anu. Si sonho era ser
+  jugador di futebol mas na tudo clubes ki \u00ea bati na porta es pidil carton di
+  cidadon portuguez. Ruben so tinha c\u00e9dula di nascimento. Hoje Ruben e \u201ccidadon\u201d
+  mas ti inda e sta revoltadu. Sen trabadju y sen un profison, \u00ea ta kr\u00e9
+  kulpa si mai ku pai pa es situason. Mas nau. Ana ta fla ma entri papel y sobreviv\u00e9ncia
+  di si fidjus sempri \u00ea opta pa sobrevivencia. Entre nacionalidade y dexa si
+  fidjus passa fomi \u00ea fla ma \u00ea opta pa da fidjus kumida. \u00ca si ki \u00ea
+  kria Nicole, ki hoje teni 17 anu. Desejo di Nicole era entra na un curso di restaurason
+  na Lisboa, mas \u00ea ka aceitadu pamodi \u00ea ten so passaporte cabo-verdiano.
+  Si fidju-f\u00e9mia + grandi ten 26 anu, \u00ea mai di 2 fidju. Tambe nunca \u00ea
+  ka konsigui nacionalidade.\\n200 EUROS\\n\u00ca ki pa \u201crequizita\u201d di nacionalidade
+  ta kusta 200 euros, pa alen di gastus ku papelada . Ana nen sempri ka tevi es dinhero
+  disponivel, el ki ta ganha 600 euros como empregada di limp\u00e9za nun Hotel di
+  Lisboa. Si marido ta trabadja na obra. Dia sin dia nau. Di forma ki so poku a poku
+  \u00e9 ki Ana podi considji \u201cnacionaliza \u201d tudu si fidjus. Primero foi
+  Ruben, la pa fin d\u2019ano \u00ea fla ma \u00ea ta pruveita dinhero di subsidio
+  di Natal pa \u00ea legaliza Ivan. Mesmo si es alimenta so di spagheti ku ketchup.\\nPRUCESSO
+  VICIADU\\nSta en kurso na Portugal um campanha pa legaliza crian\u00e7as indocumentadus
+  di origen cabo-verdiano . Es \u00ea milhares segundo Alto Comissariado para as Migra\u00e7\u00f5es
+  (ACM) mas ti es mumento so da entrada uns 10 pedidos di nacionalizason.\\nPamodi?
+  Pamodi familias ka teni dinhero pa paga. Maioria di es crian\u00e7as e fidju di
+  imigrantis indocumentados ki teni prublema na ranja trabadju na es \u201cmumento
+  di crizi\u201d. \u00ca um circulo viciozu : Sen documentos es ka podi trabadja,
+  sen trabadju es ka podi ranja dinhero pa documentos ou pa da entrada a prucesu di
+  ses fidju. fonte:ondakriolu\\nCOMMENTS\"", "\"Por: Marciano Moreira*\\nUn amiga
+  dimeu odja Ant\u00f3nio Sim\u00f5es na txon ta spera anbulansia. N ta dexa leitoris
+  ku alguns informason adisional ki es amiga da-m, vistu pertinentis dizinformason.\\nIfetivamenti,
+  alguns meiu di kumunikason sosial ten stadu ta spadja alguns informason ki ka ta
+  koresponde a verdadi a rispeitu di es kasubodi, dizignadamenti sobri lokal undi
+  kontese es kasubodi. Pabia N ta akredita na nha fonti i nha fonti tistimunha ku
+  ses 2 odju alguns faktu pertinenti, N ta ben partilha es faktus ku nhas leitor.\\nAnt\u00f3nio
+  Sim\u00f5es da Costa dadu kasubodi frenti di Beramar Grill / Beramar Hotel. Beramar
+  Grill- / Beramar Hotel ta fika na extremu sul di Txan d\u2019Areia, djuntu di rotunda
+  ki ta dividi tranzitu ki ta ba di Plateau entri kel tranzitu ki ta subi prinsipal
+  ranpa di Txada Santantoni i kel tranzitu ki ta ba Prainha. Via ki ta ba Prainha,
+  ta kontinua ti Palmareju i, di Palmareju, ti Sidadela. N sa ta papia di ranpa di
+  Txada Santantoni ki ba tirmina na Restaurante O Poeta, ranpa ki e, rialmenti, prinsipal
+  asesu pa Txada Santantoni. Es rotunda ta fika frenti di entrada prinsipal di staleirus
+  di obras di konpleksu turistiku di Djeu di Santa Maria.\\nKonven sklarese kes ki
+  ka konxe sidadi di Praia dretu, ma Txada Santantoni ku Palmareju e kes 2 prinsipal
+  bairu di Sidadi di Praia di pontu di vista populasional. Plateau e sentru di Sidadi
+  di Praia, undi sta grandi parti di lojas i ripartisons di Stadu.\\nSim\u00f5es dadu
+  kasubodi banda 13H00, istu e, di dia ku 7 ora sol. El dadu kasubodi na ultimu sabadu
+  antis di fin anu, istu e, na dia 29 di dizenbru di 2018. Na mumentu ki Praiensis
+  sa ta ultimaba konpras di fin di anu. Purtantu, di pontu di vista di muvimentu di
+  karus, ex-jugador di Benfica dadu kasubodi na un di kes zona i mumentu mas muvimentadu
+  di sidadi di Praia \u2013 na enkruzilhada di kes 3 prinsipal bairu di sidadi di
+  Praia (Txada Santantoni, Palmareju i Plateau).\\nAnt\u00f3nio Sim\u00f5es nase na
+  dia 14 di dizenbru di 1943, istu e, el dadu kasubodi na mes ki el konpleta 75 anu
+  di idadi. Na kel mumentu di kasubodi, el staba djuntu ku se mudjer. Pabia ka sabeda
+  kas ferimentu ki el panha, tranziuntis ka mexe nel na txon, mas dilijensia pa anbulansia
+  ben sokore-l. Istu e, el fika na txon duranti algun tenpu. I tranziuntis faze dretu,
+  pois ben diskubridu mas tardi ma Ant\u00f3nio Sim\u00f5es tevi un fratura na anka\u2026\\nNa
+  kel rotunda undi Sim\u00f5es dadu kasubodi, ten un kamara di vijilansia. Purtantu,
+  Sim\u00f5es dadu kasubodi serka di 50 metru di un di kes serka di 600 kamara di
+  vijilansia resentimenti instaladu na nos sidadi na anbitu di prujetu sidadi suguru.\\nI
+  Pulisia Nasional konsigi kasa kes 2 kasubodista na pokus ora i konsigi, outrusin,
+  rekupera kes kuza ki es 2 kasubodista roba.\\nNu sta peranti un verdadi makabru:
+  es 2 kasubodista ka kustuma inda ku es sistema di vidiu vijilansia instaladu li
+  na Praia di Santa Maria di Vitoria; i, nes kazubodi, es dexa Kabuverdianus tristi
+  i envergonhadu pa sisi.\\nDeus grasa Sim\u00f5es sa ta rekupera dretu, dipos di
+  operason ki el fazedu na anka na dia 31 di dizenbru di 2018 la Purtugal!\\nSim\u00f5es,
+  un strela di futibol, ki kontribui, djuntu ku lendariu Eus\u00e9bio, pa Purtugal
+  alkansa 3\u00ba lugar na Mundial di Futibol di Inglatera na 1966! Na kel Kopa undi
+  Sim\u00f5es mete Brazil golu ku rei di bola \u2013 Pel\u00e9 \u2013 na seleson!
+  Enfin, Sim\u00f5es, algen ki dja da amantis di disportu-rei txeu alegria! Kasubodistas
+  debeba ama-l!\\nSim\u00f5es, nu ta pidi-bu diskulpa! Nos solidariedadi! Forsa!\\n*Marsianu
+  nha Ida padri Nikulau Ferera\"", "\"A Abadia Rural\\nAbadia Rural ta dedikason pa
+  importason i distribuison di produtos di vidro, espesialmenti botis i fraskus, djuntu
+  ku se tapa, kapsula i materi\u00e1l pa apikultura.\\nA empriza ten un portf\u00f3lio
+  diversifikadu di altu qualidade i kreatividade, se prinsipal klientis \u00ea produtoris
+  i komersiantis di binhu, likor, azeti di azeti, d\u00f4s i mel, apikulturoris, lojas
+  di lembransas i organizadoris di iventus.\\nAbadia Rural \u00ea repres\u00e9ntanti
+  ekskluzivu di Swienty, i tanb\u00ea \u00ea repres\u00e9ntanti di Bruni i Kefla,
+  ku \u00ea renomadu fabrikantis europeus di materi\u00e1l pa apikultura i botis i
+  fraskus di vidro.\\nPa sirbi se klientis di un forma midjor, a empriza oferese d\u00f4s
+  forma di vendas: un di artikulus di stock, pa entrega imediatu i otu atrav\u00e9s
+  di katalogus ku artikulus pa entrega m\u00e1s tardu, sujeitu a kantidadi m\u00ednimu
+  di vendas i pedidu di or\u00e7amentu.\\nAbadia Rural ta faze spedison di kualker
+  kantidadi di merkadoria pa kualker parti di pa\u00eds (inklindu ilhas) i pa Europa.
+  Nu entantu, el tanb\u00ea ta bendi materi\u00e1l pa otus lugaris di mundu, komu
+  Angola, Kabu Verdi i Muzambiki, mandandu materi\u00e1l pa transit\u00e0riu skodidu
+  pa klienti.\\nNa loja sentral, klientis pode atxa varyadus amostras di produtos
+  i senpri dispunibilidade pa da m\u00e1s informasons.\\nVizita-nu o kontakta-nu!\"",
+  "\"1, 2. Kuz\u00ea ki txeu algen ta pergunta?\\nUN TENPORAL ta distrui un sidadi,
+  un \u00f3mi ta entra na un igreja ku un pist\u00f3la i el ta mata un monti algen.
+  Un mai ta m\u00f3re di un du\u00e9nsa ki ka ten kura i el ta dexa sinku fidju.\\n2
+  \u00d3ras ki ta kontise disgrasas sima kes li, monti algen ta pergunta: \u201cPamodi?\u201d
+  Txeu algen ta pergunta pamodi ki mundu sta xeiu di \u00f3diu i sufrimentu. I bo?
+  Dja bu kustuma faze es pergunta?\\n3, 4. (a) Kuz\u00ea ki Habacuque pergunta Jeov\u00e1?
+  (b) Modi ki Jeov\u00e1 responde-l?\\n3 B\u00edblia ta p\u00e2pia di pesoas ki tinha
+  f\u00e9 na Deus i ki tanb\u00ea fazeba es pergunta. Pur iz\u00e9nplu, prof\u00e9ta
+  Habacuque pergunta Jeov\u00e1: \u2018Pamodi ki bu sta dexa-m odja maldadi? I pamodi
+  ki bu sta seta abuzu di puder? Pamodi ki N sta odja distruison i viol\u00e9nsia?
+  I pamodi ki ten txeu g\u00e9ra i konfuzon?\u2019 \u2014 Habacuque 1:3.\\n4 Modi
+  ki Jeov\u00e1 responde-l? Na Habacuque 2:2, 3, Jeov\u00e1 promete ma el ta rezolveba
+  kes prubl\u00e9ma. Jeov\u00e1 ten txeu amor pa pesoas. B\u00edblia ta fla ma el
+  ta preokupa ku nos. (1 Pedro 5:7) Nu pode ten sert\u00e9za ma \u00f3diu ki Deus
+  ten pa sufrimentu \u00e9 m\u00e1s txeu ki di nos. (Isa\u00edas 55:8, 9) Nton, pamodi
+  ki ten txeu sufrimentu na mundu? Nu ben odja kuz\u00ea ki B\u00edblia ta fla.\\nPAMODI
+  KI TEN TXEU SUFRIMENTU?\\n5. (a) Kuz\u00ea ki txeu relijion ta fla sobri sufrimentu?
+  (b) Kuz\u00ea ki B\u00edblia ta fla sobri kel-li?\\n5 Txeu b\u00eas pastoris di
+  igrejas, padris i x\u00e9fis di relijion ta fla ma tudu kuza ki ta kontise \u00e9
+  di vontadi di Deus. Alguns ta fla ma tudu kuza ki ta kontise ku un algen, ti m\u00e9smu
+  disgrasa, dja staba skrebedu pa Deus i ma nunka nu ka ta pode ntende pamodi. Otus
+  ta fla ma \u00f3ras ki un kriansa m\u00f3re \u00e9 Deus ki toma-l, pamodi el sta
+  ta mesteba m\u00e1s un anjinhu na S\u00e9u. M\u00e1 ninhun di kes kuza li \u00e9
+  ka verdadi. Deus nunka ka ta faze kuzas mariadu kontise. B\u00edblia ta fla: \u2018Deus
+  verdaderu nunka ka ta faze kel ki \u00e9 mau, Tudu-Poderozu nunka ka ta faze kel
+  ki \u00e9 mariadu!\u2019 \u2014 J\u00f3 34:10.\\n6. Pamodi ki monti algen ta kulpa
+  Deus pa tudu sufrimentu ki ten na mundu?\\n6 Monti algen ta kulpa Deus pa tudu sufrimentu
+  ki ten na mundu, pamodi es ta atxa ma \u00e9 Deus ki sta ta governa mundu. M\u00e1
+  nu prende na kap\u00edtlu 3, ma \u00e9 Satan\u00e1s ki sta ta manda na mundu.\\n7,
+  8. Kal ki \u00e9 alguns di kes motivu di ten txeu sufrimentu?\\n7 Un di kes motivu
+  di ten txeu sufrimentu \u00e9 pamodi sima B\u00edblia ta fla-nu, \u2018mundu interu
+  sta na puder di Malvadu.\u2019 (1 Jo\u00e3o 5:19) Satan\u00e1s \u00e9 un governanti
+  viol\u00e9ntu i mau. El \u2018sta ta ngana mundu interu\u2019. (Apocalipse 12:9)
+  Monti algen sta ta faze sima el. Pur isu, es mundu sta xeiu di mintira, \u00f3diu
+  i maldadi.\\n8 Otu motivu di ten txeu sufrimentu na mundu \u00e9 pamodi pekadu.
+  Adon ku Eva pasa pekadu pa tudu ses fidjus. Pamodi pekadu, pesoas ta poi otus algen
+  ta sufri. Es ta atxa ma es \u00e9 m\u00e1s inportanti ki otus algen. Kel-li ta p\u00f4-s
+  ta briga, ta ba pa g\u00e9ra i ta maltrata otus. (Eclesiastes 4:1; 8:9) Inda un
+  otu motivu di ten txeu sufrimentu \u00e9 pamodi \u2018t\u00e9npu i inprevistu\u2019
+  \u00f4 kuzas ki nu ka ta pode kontrola. (Eclesiastes 9:11) Asidentis i otus kuza
+  mariadu ta kontise ku un algen pamodi el ta sta na mau lugar i na mau \u00f3ra.\\n9.
+  Pamodi ki nu pode ten sert\u00e9za ma Deus ten un bon motivu pa dexa sufrimentu
+  kontise?\\n9 Sufrimentu nunka ka ta ben di Jeov\u00e1. El \u00e9 ka kulpadu, \u00f3ras
+  ki algen ta maltrata otus, ta g\u00e9ra i ta faze krimi. \u00c9 ka Deus ki ta poi
+  disgrasas kontise, sima tremor di t\u00e9ra, tenporal i txuba ki ta faze txeu stragu.
+  M\u00e1 talv\u00eas bu ta pergunta: \u2018Si Jeov\u00e1 \u00e9 Tudu-Poderozu pamodi
+  ki el ta dexa kes kuza li kontise?\u2019 Nu sabe ma Deus ta preokupa txeu ku nos.
+  Nton, el debe ten un bon motivu pa dexa sufrimentu kontise. \u2014 1 Jo\u00e3o 4:8.\\nPAMODI
+  KI DEUS TA DEXA SUFRIMENTU KONTISE?\\n10. Kuz\u00ea ki Satan\u00e1s fla k\u00f3ntra
+  Jeov\u00e1 na jardin di \u00c9den?\\n10 Na jardin di \u00c9den, Diabu ngana Adon
+  ku Eva. Satan\u00e1s fla-s ma Deus ka sta governaba dretu i ma el staba ta sukundi
+  algun kuza ki \u00e9ra bon pa Adon ku Eva. Satan\u00e1s kr\u00ea pa es kriditaba
+  ma es ka mesteba di Deus pa governa-s i ma el ta governaba midj\u00f3r ki Jeov\u00e1.
+  \u2014 G\u00e9nesis 3:2-5; djobe p\u00e1rti PRENDE M\u00c1S nu 27.\\n11. Ki pergunta
+  nu meste responde?\\n11 Adon ku Eva ka obi ku Deus, es bira k\u00f3ntra el. Es atxa
+  ma es tinha direitu di disidi pa ses kab\u00e9sa kuz\u00ea ki \u00e9ra dretu i kuz\u00ea
+  ki \u00e9ra mariadu, pa es fazeba kel ki es kr\u00ea. Modi ki Deus ta provaba ma
+  Adon ku Eva ka tinha razon?\\n12, 13. (a) Pamodi ki Jeov\u00e1 ka distrui Adon ku
+  Eva l\u00f3gu ki es peka? (b) Pamodi ki Jeov\u00e1 dexa Satan\u00e1s i umanus governa?\\n12
+  Jeov\u00e1 ka distrui Adon ku Eva l\u00f3gu ki es peka. Pamodi? Pamodi Jeov\u00e1
+  dja flaba es pa es tinha fidju i pa es intxiba T\u00e9ra. Nton, Jeov\u00e1 dexa
+  Adon ku Eva ten fidju i dip\u00f4s ses fidjus ta ben skodjeba si es ta obiba ku
+  Deus \u00f4 ku Satan\u00e1s. Jeov\u00e1 s\u00e9npri ta kunpri se vontadi, ka ta
+  nporta kuz\u00ea ki Diabu tenta faze pa trapadja. \u2014 G\u00e9nesis 1:28; Isa\u00edas
+  55:10, 11.\\n13 Satan\u00e1s diz\u00e2fia Jeov\u00e1 na fr\u00e9nti di milhons di
+  anju. (J\u00f3 38:7; Daniel 7:10) Nton, Jeov\u00e1 da Satan\u00e1s un t\u00e9npu
+  pa el mostra modi ki el ta governaba pesoas. I el dexa umanus faze ses pr\u00f3pi
+  gov\u00e9rnu ku ajuda di Satan\u00e1s. Jeov\u00e1 dexa kel-li kontise pa tudu algen
+  fika ta sabe si \u00f3mis i Satan\u00e1s ta governa midj\u00f3r ki el \u00f4 nau.\\n14.
+  Kuz\u00ea ki fika provadu na tudu es t\u00e9npu ki \u00f3mis ku Satan\u00e1s sta
+  governa?\\n14 Ninhun manera di governa ki \u00f3mis dja sprimenta tudu es t\u00e9npu
+  ka da s\u00e9rtu. Kel-li ta prova ma Satan\u00e1s \u00e9 mintirozu. Umanus meste
+  di ajuda di Jeov\u00e1. Prof\u00e9ta Jeremias tinha razon kantu el fla: \u2018Jeov\u00e1,
+  N sabe dretu ma \u00f3mi \u00e9 ka donu di se kaminhu. Nen el \u00e9 ka kap\u00e1s
+  di gia se kab\u00e9sa.\u2019 \u2014 Jeremias 10:23.\\nPAMODI KI TI INDA JEOV\u00c1
+  STA TA SP\u00c9RA?\\n15, 16. (a) Pamodi ki Jeov\u00e1 sta ta dexa sufrimentu kontise
+  pa txeu t\u00e9npu? (b) Pamodi ki Jeov\u00e1 inda ka konpo kes kuza mariadu ki sta
+  kontise?\\n15 Pamodi ki Jeov\u00e1 sta ta dexa sufrimentu kontise pa txeu t\u00e9npu?
+  Pamodi ta leba t\u00e9npu pa sabe si un gov\u00e9rnu \u00e9 bon \u00f4 nau. I t\u00e9npu
+  sta ta mostra ma gov\u00e9rnu di Satan\u00e1s ka ta pode rezolve prubl\u00e9mas.
+  \u00d3mis dja sprimenta tudu tipu di gov\u00e9rnu, m\u00e1 ninhun di es ka da s\u00e9rtu.
+  Nb\u00f3ra si\u00eansia i tekinolojia dja dizenvolve, m\u00e1 sim\u00e9 injustisa,
+  pobr\u00e9za, krimi i g\u00e9ra sta ta bira kada b\u00eas m\u00e1s txeu. Kel-li
+  ta mostra klaru ma \u00f3mis ka ta konsigi governa ses kab\u00e9sa sen ajuda di
+  Deus. M\u00e1 pamodi ki Deus ka ta kaba pelom\u00e9nus ku disgrasas?\\n16 Deus ka
+  ta faze kel-li. Pamodi si el konpo kes kuza mariadu el sta ta djuda Satan\u00e1s
+  governa. I asi, \u00f3mis pode pensa ma es sta ta governa dretu sen ajuda di Deus.
+  M\u00e1 kel-li \u00e9 mintira. Jeov\u00e1 nunka ka ta djuda Diabu nen el ka ta poi
+  pesoas ta kridita na mintira. \u2014 Hebreus 6:18.\\n17, 18. Modi ki Jeov\u00e1
+  ta ben konpo tudu kes kuza mariadu ki Satan\u00e1s faze?\\n17 Jeov\u00e1 pode konpo
+  tudu kes kuza mariadu ki Satan\u00e1s i algen dja faze? Sin. Deus ta pode faze tudu
+  kuza. Jeov\u00e1 sabe na ki t\u00e9npu ki ta fika provadu ma Satan\u00e1s \u00e9
+  mintirozu. Dip\u00f4s Jeov\u00e1 ta ben faze T\u00e9ra bira un para\u00edzu, sima
+  el kreba d\u00e9sdi kom\u00e9su. Kes algen ki m\u00f3re ta ben vive otu b\u00eas.
+  (Jo\u00e3o 5:28, 29) Du\u00e9nsa ku m\u00f3rti ka ta ben ten m\u00e1s. Jeov\u00e1
+  ta ben uza Jizus pa konpo tudu kes kuza mariadu ki Satan\u00e1s faze. (1 Jo\u00e3o
+  3:8) Nu ta fika kontenti pamodi pax\u00e9nxa di Jeov\u00e1 dexa kuzas txiga ti nos
+  t\u00e9npu i g\u00f3si nu ten xansi di konxe-l i disidi si nu ta obi ku el. (L\u00e9
+  2 Pedro 3:9, 10.) \u00c9 klaru ki ti inda nu sta sufri. M\u00e1 Jeov\u00e1 ta da-nu
+  forsa pa nu aguenta prubl\u00e9mas. \u2014 Jo\u00e3o 4:23; l\u00e9 1 Cor\u00edntios
+  10:13.\\n18 Jeov\u00e1 ka ta obriga ningen pa obi ku el. El faze-nu di manera ki
+  nu ta pode skodje kuz\u00ea ki nu kr\u00ea faze. Nu ben odja modi ki kel-li \u00e9
+  un grandi prezenti ki Jeov\u00e1 da-nu.\\nKUZ\u00ca KI BU TA DISIDI?\\n19. (a) Ki
+  prezenti Jeov\u00e1 da-nu? (b) Pamodi ki es prezenti ta p\u00f4-nu fika kontenti?\\n19
+  Nos \u00e9 ka sima animal ki ka ten kapasidadi di pensa. (Prov\u00e9rbios 30:24)
+  Tanb\u00ea nos \u00e9 ka sima m\u00e1kina, ki meste di un algen pa kontrola-l. Jeov\u00e1
+  da-nu liberdadi pa nu skodje kuz\u00ea ki nu kr\u00ea, pamodi el kr\u00ea pa nu
+  ser fil\u00eds. Asi, nu ta konsigi skodje ki tipu di algen ki nu ta ser, ken ki
+  ta ser nos amigu i kuz\u00ea ki nu ta faze na nos vida. Jeov\u00e1 sabe ma es liberdadi
+  ta dexa-nu fil\u00eds.\\n20, 21. Kal ki \u00e9 midj\u00f3r disizon ki bu pode toma
+  na bu vida?\\n20 Jeov\u00e1 kr\u00ea pa nu ama-l. (Mateus 22:37, 38) El ka kr\u00ea
+  pa nu sirbi-l k\u00f3ntra nos vontadi. El da-nu liberdadi pa nu disidi kuz\u00ea
+  ki nu kr\u00ea. Tudu pai ta fika kontenti \u00f3ras ki se fidju ta fla-l di korason:
+  \u201cPap\u00e1 N ta ama-u\u201d. Jeov\u00e1 tanb\u00ea ta fika kontenti \u00f3ras
+  ki nu ta skodje ama-l i sirbi-l. Satan\u00e1s i Adon ku Eva disidi na ka obi ku
+  Jeov\u00e1. I bo? Kuz\u00ea ki bu ta disidi faze?\\n21 Midj\u00f3r disizon ki bu
+  pode toma \u00e9 sirbi Jeov\u00e1. Milhons di algen dja disidi faze vontadi di Deus
+  i es nega sigi Satan\u00e1s. (Prov\u00e9rbios 27:11) Sima dja nu prende, Deus sta
+  ben kaba ku tudu sufrimentu i el sta ben bira T\u00e9ra un para\u00edzu. Kuz\u00ea
+  ki nu meste faze pa nu sta la? Na kap\u00edtlu 12 nu ta ben sabe resp\u00f3sta di
+  kel pergunta li.\"", "\"ter\u00e7a-feira, 18 de dezembro de 2012\\nSUNHO DI \\\"BOLTIA
+  QUINTAL\\\"...\\nNHU BRINGELA ENTRA FULU NA UM TABERNA I PIDI TRIS COPO DI CANA
+  I CALCAL TUDU DI UM BIAS, UM TIO KU SINTA BA NA BALCOM FALAL: N\u00b4SIBI M\u00c9
+  KUMA KAU KA STA DIRITU, M\u00c1 I KA TCHIGA KILA!!!\\nNHU BRINGELA: F*D*S P\u00c1,
+  BU KA SIBI KUMA AMI CASADO A MAS DI 14 ANO, TUDU ORA N\u00b4TA MISTI \u201cBOLTIA
+  NHA MINDJER QUINTAL\u201d MA I TA NEGA KUMA I TA D\u00c9, A\u00d3S N\u00b4TA VOLTA
+  MA CEDU DI TARBADJU N\u00b4TA BAI ODJA NHA MINDJOR AMIGO NA NHA QUARTO NA REALIZA
+  NHA SUNHU DI MAS DI 14 ANOS, M*RD*A PAAAAAAAAAA!!\\nKI UTRU TIO FALAL: CALMA, BODJA
+  AMI UM BIAS N\u00b4PANHA CARRO PA GABU, OTCHA NO PERTO BAFATA N\u00b4SINTI UM VONTADI
+  DI ALTA, TOK N\u00b4MANDA PARA CARRO N\u00b4ENTRA NA MATO MA NADA B\u00d3 SO PIDI
+  KU BIM SAI, N\u00b4RIBA N\u00d3 CONTINUA BIAS, M\u00c1 OTCHA NA RIBA PA BISSAU I
+  DAM UM VONTADI DI TIRA PIDI, MA C\u00d3C\u00d3 KU SAI, N\u00b4BIDA BURGUNHU N\u00b4TEVE
+  KU RIA NA CARRO PABIA DI FEDURA\u2026\\nNHU BRINGELA: M\u00c1 NHU PARVU NAM OU NHU
+  NA TRENA NAM PA CEDU??? N\u00b4TA AMI TA EXPLICAU NHA DESGRA\u00c7A, NHU TA BIM
+  NA CONTAM ISTORIA DI PIDI KU C\u00d3C\u00d3, U NA LEBSIM NAM????\\nKI UTRU TIO:
+  MISTI NAM P\u00d3 ODJA KUMA SI NIM NA NO RABADA NO KA PUDI CONFIA, KUMA KU NA BAI
+  KONFIA NA RABADA DI UTRU!!!!!!!!!!!!!!!!!!!\\nSem coment\u00e1rios:\\nEnviar um
+  coment\u00e1rio\"", "\"Ses mai matas duranti ritual di magia negra...\\nKa foi posivel
+  konfirma pamodi ses pai Edson Brito sta na kadeia ta kumpri pena pur venda y distribuison
+  di kokaina \u2026. Edson Brito (36 anu) ten mesmu nomi ki si fidju di 8 anu ki atxadu
+  mortu es segunda-fera dentu kaza djuntu ku si irmon di 5 anu ( Larson Brito). Ses
+  mai ( Latarsha Sanders, 43 anu, tamb\u00e9 konxedu pa Latarsha Sanders Brito) ses
+  mai sta prezu akuzada di duplo omisidi-u.\\nRITUAL VUD\u00da\u2026\\nInda ka sta
+  mutu klaru kuandu y modi ki es mai mata es 2 kriansas mas di akordu ku investigason
+  foi provavelmenti sabadu pasadu duranti un ritual vudu\u2026 Pa afasta \u201cspritu
+  malignu\u201d Latarsha primeru golpia si fidju matxu di 8 anu (Edson) ku + di 50
+  fakadas y komu na si opinion ritual ka rezulta \u00ea ataka enton kel otu fidju
+  + pikinoti ( Lason di 5 anu).\\nDipos di kompleta \u201csakrifisi-u \u201c Latarsha
+  bai poi korpu di mininus na kama antis di \u00ea limpa sangui na txon di kuzinha.
+  Korpus so ben diskubridu segunda-fera dipos di Latarsha vizivelmenti diprimida sai
+  ta pidi un vizinhu pa txomal ambulansia pa lebal (ela) pa ospital.\\nVIGILIA EN
+  MEM\u00d3RIA DI 2 INOSENTI\\nVigilia sta markadu pa es kinta fera di 6 pa 7 ora
+  di tardi frenti di kaza undi es 2 kriansas foi asasinadus ( 247 Prospect Street,
+  Brockton ) por:ok\\nCOMMENTS\""]'
+src_ngrams: '{"1": [[["ki"], 39730], [["pa"], 28545], [["ku"], 18870], [["un"], 17078],
+  [["ka"], 16212]], "2": [[["ki nu"], 2333], [["fla ma"], 1904], [["ki sta"], 1898],
+  [["cabo verde"], 1536], [["kuz\u00ea ki"], 1365]], "3": [[["un di kes"], 394], [["kes
+  algen ki"], 324], [["\u00f3ras ki nu"], 292], [["modi ki nu"], 260], [["kuz\u00ea
+  ki nu"], 257]], "4": [[["skodjedu ku spritu santu"], 103], [["nha ida padri nikulau"],
+  97], [["ida padri nikulau ferera"], 97], [["marsianu nha ida padri"], 96], [["b\u00edblia
+  di kel simana"], 93]], "5": [[["nha ida padri nikulau ferera"], 97], [["marsianu
+  nha ida padri nikulau"], 96], [["leitura di b\u00edblia di kel"], 93], [["b\u00edblia
+  di kel simana li"], 93], [["faze bu midj\u00f3r na pregason"], 63]]}'

@@ -1,0 +1,1338 @@
+corpus: hplt-v4-sg
+srclang: sg
+timestamp: 1789042682.235199
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2017-04", 927], ["CC-MAIN-2017-51", 419], ["CC-MAIN-2018-05",
+  312], ["CC-MAIN-2017-26", 219], ["CC-MAIN-2014-15", 134], ["CC-MAIN-2020-45", 93],
+  ["CC-MAIN-2014-35", 90], ["wide00016", 78], ["CC-MAIN-2025-08", 27], ["CC-MAIN-2025-13",
+  24], ["CC-MAIN-2025-18", 22], ["CC-MAIN-2014-42", 19], ["CC-MAIN-2024-46", 13],
+  ["CC-MAIN-2015-18", 13], ["CC-MAIN-2021-43", 11], ["CC-MAIN-2020-40", 10], ["CC-MAIN-2020-24",
+  10], ["wide00012", 9], ["wide00011", 9], ["CC-MAIN-2021-21", 9], ["CC-MAIN-2025-21",
+  8], ["CC-MAIN-2024-51", 8], ["CC-MAIN-2018-43", 8], ["CC-MAIN-2024-18", 6], ["CC-MAIN-2023-40",
+  6], ["CC-MAIN-2021-39", 6], ["CC-MAIN-2024-42", 5], ["CC-MAIN-2021-25", 5], ["CC-MAIN-2021-10",
+  5], ["CC-MAIN-2021-04", 5], ["CC-MAIN-2019-04", 5], ["CC-MAIN-2018-39", 5], ["CC-MAIN-2015-48",
+  5], ["CC-MAIN-2015-11", 5], ["wide00015", 4], ["CC-MAIN-2025-05", 4], ["CC-MAIN-2023-50",
+  4], ["CC-MAIN-2023-06", 4], ["CC-MAIN-2022-40", 4], ["CC-MAIN-2022-33", 4], ["CC-MAIN-2020-29",
+  4], ["CC-MAIN-2020-05", 4], ["CC-MAIN-2018-34", 4], ["CC-MAIN-2025-33", 3], ["CC-MAIN-2024-33",
+  3], ["CC-MAIN-2024-30", 3], ["CC-MAIN-2022-21", 3], ["CC-MAIN-2016-44", 3], ["wide00002",
+  2], ["CC-MAIN-2025-30", 2], ["CC-MAIN-2025-26", 2], ["CC-MAIN-2023-23", 2], ["CC-MAIN-2021-31",
+  2], ["CC-MAIN-2020-50", 2], ["CC-MAIN-2018-22", 2], ["CC-MAIN-2016-30", 2], ["wide00017",
+  1], ["wide00010", 1], ["wide00005", 1], ["archivebot", 1], ["CC-MAIN-2024-38", 1],
+  ["CC-MAIN-2024-26", 1], ["CC-MAIN-2024-10", 1], ["CC-MAIN-2022-27", 1], ["CC-MAIN-2021-49",
+  1], ["CC-MAIN-2021-17", 1], ["CC-MAIN-2020-34", 1], ["CC-MAIN-2020-10", 1]]'
+docs_langs: '[[0.2, 4], [0.3, 13], [0.4, 7], [0.5, 51], [0.6, 26], [0.7, 40], [0.8,
+  81], [0.9, 276], [1.0, 2111]]'
+docs_segments: '[[1, 262], [2, 27], [3, 39], [4, 48], [5, 83], [6, 117], [7, 93],
+  [8, 96], [9, 85], [10, 58], [11, 56], [12, 64], [13, 58], [14, 57], [15, 39], [16,
+  49], [17, 48], [18, 63], [19, 56], [20, 65], [21, 59], [22, 59], [23, 74], [24,
+  64], [25, 47], [26, 38], [27, 33], [28, 25], [29, 30], [30, 28], [31, 23], [32,
+  33], [33, 25], [34, 21], [35, 32], [36, 32], [37, 40], [38, 40], [39, 39], [40,
+  47], [41, 39], [42, 24], [43, 28], [44, 23], [45, 19], [46, 19], [47, 15], [48,
+  15], [49, 10], [50, 10], [51, 8], [52, 15], [53, 13], [54, 7], [55, 8], [56, 10],
+  [57, 7], [58, 6], [59, 8], [60, 4], [61, 3], [62, 6], [63, 2], [64, 7], [65, 2],
+  [66, 2], [67, 4], [68, 4], [69, 1], [71, 1], [72, 2], [73, 1], [74, 1], [75, 3],
+  [77, 2], [78, 2], [80, 2], [81, 1], [82, 2], [84, 1], [87, 1], [91, 1], [95, 1],
+  [98, 1], [103, 1], [106, 1], [111, 1], [119, 1], [120, 1], [121, 1], [132, 1], [143,
+  1], [149, 2], [222, 1], [352, 1], [408, 1], [434, 1], [666, 1], [1013, 1]]'
+docs_segments_mean: 22
+docs_segments_median: 18
+docs_top100_domains: '[["jw.org", 2106], ["bible.is", 261], ["wiktionary.org", 54],
+  ["zhitov.com", 52], ["islamhouse.com", 41], ["wikipedia.org", 15], ["icc-cpi.int",
+  12], ["flightscanner.com", 7], ["vallalar.net", 5], ["bible.com", 5], ["free.fr",
+  4], ["ysbsango.com", 3], ["watchtower.org", 3], ["over-blog.com", 3], ["vietnamimmigration.org",
+  2], ["tonircahelp.blog", 2], ["paripedagogique.org", 2], ["omniglot.com", 2], ["kasahorow.org",
+  2], ["gotquestions.org", 2], ["you-onlyfans-agency.com", 1], ["world-hentai.ru",
+  1], ["wordpress.com", 1], ["videochat-ruletka.ru", 1], ["solio.com.cn", 1], ["sleepostic.com",
+  1], ["sleephony.com", 1], ["siriri.org", 1], ["sciencegraph.net", 1], ["sangonet.com",
+  1], ["photality.net", 1], ["islamkingdom.com", 1], ["internationalbillofhumanrights.com",
+  1], ["gospelgo.com", 1], ["ezreadbible.com", 1], ["eslam.info", 1], ["entropik.io",
+  1], ["elisabeth-dijon.org", 1], ["diocesebouar.org", 1], ["da-no.ru", 1], ["corebizify.com",
+  1], ["congressomv.org", 1], ["blogspot.com", 1], ["bigmeaning.com", 1], ["bibleforchildren.org",
+  1], ["archive.org", 1]]'
+docs_top100_tld: '[["org", 2192], ["is", 261], ["com", 125], ["int", 12], ["net",
+  7], ["fr", 4], ["ru", 3], ["blog", 2], ["io", 1], ["info", 1], ["com.cn", 1]]'
+docs_total: 2609
+docs_wds: '[[0.5, 4], [0.51, 9], [0.52, 12], [0.53, 10], [0.54, 16], [0.55, 19], [0.56,
+  15], [0.57, 13], [0.58, 14], [0.59, 18], [0.6, 15], [0.61, 20], [0.62, 16], [0.63,
+  7], [0.64, 16], [0.65, 12], [0.66, 19], [0.67, 14], [0.68, 23], [0.69, 19], [0.7,
+  29], [0.71, 32], [0.72, 41], [0.73, 69], [0.74, 59], [0.75, 85], [0.76, 114], [0.77,
+  101], [0.78, 152], [0.79, 175], [0.8, 213], [0.81, 127], [0.82, 79], [0.83, 62],
+  [0.84, 45], [0.85, 44], [0.86, 49], [0.87, 63], [0.88, 91], [0.89, 107], [0.9, 109],
+  [0.91, 74], [0.92, 53], [0.93, 76], [0.94, 84], [0.95, 73], [0.96, 70], [0.97, 27],
+  [0.98, 11], [0.99, 4]]'
+duplication_ratio: 0.0832
+sentence_pairs: 58131
+src_bytes: 14363562
+src_chars: 13876858
+src_pii: 20
+src_tokens: 3560495
+unique_sents: 53296
+src_sent_tokens: '[[1, 1146], [2, 694], [3, 410], [4, 987], [5, 1051], [6, 1002],
+  [7, 1010], [8, 963], [9, 1003], [10, 783], [11, 911], [12, 1198], [13, 837], [14,
+  749], [15, 882], [16, 823], [17, 719], [18, 753], [19, 814], [20, 822], [21, 791],
+  [22, 743], [23, 728], [24, 729], [25, 877], [26, 759], [27, 764], [28, 779], [29,
+  708], [30, 756], [31, 695], [32, 725], [33, 712], [34, 677], [35, 673], [36, 649],
+  [37, 688], [38, 622], [39, 598], [40, 583], [41, 533], [42, 547], [43, 521], [44,
+  549], [45, 499], [46, 533], [47, 475], [48, 470], [49, 445], [50, 456], [51, 439],
+  [52, 439], [53, 394], [54, 411], [55, 357], [56, 362], [57, 376], [58, 345], [59,
+  329], [60, 311], [61, 332], [62, 328], [63, 299], [64, 262], [65, 242], [66, 258],
+  [67, 235], [68, 267], [69, 236], [70, 227], [71, 209], [72, 223], [73, 235], [74,
+  210], [75, 184], [76, 181], [77, 196], [78, 188], [79, 176], [80, 165], [81, 149],
+  [82, 186], [83, 165], [84, 165], [85, 145], [86, 141], [87, 145], [88, 156], [89,
+  130], [90, 137], [91, 130], [92, 151], [93, 142], [94, 141], [95, 130], [96, 142],
+  [97, 139], [98, 124], [99, 125], [100, 142], [101, 104], [102, 110], [103, 116],
+  [104, 111], [105, 119], [106, 117], [107, 118], [108, 100], [109, 114], [110, 104],
+  [111, 107], [112, 95], [113, 97], [114, 93], [115, 103], [116, 91], [117, 102],
+  [118, 93], [119, 129], [120, 115], [121, 103], [122, 102], [123, 97], [124, 88],
+  [125, 91], [126, 96], [127, 97], [128, 78], [129, 99], [130, 100], [131, 75], [132,
+  91], [133, 106], [134, 89], [135, 85], [136, 95], [137, 87], [138, 84], [139, 81],
+  [140, 77], [141, 91], [142, 74], [143, 105], [144, 63], [145, 79], [146, 88], [147,
+  81], [148, 85], [149, 91], [150, 67], [151, 65], [152, 79], [153, 78], [154, 85],
+  [155, 74], [156, 76], [157, 84], [158, 68], [159, 65], [160, 71], [161, 73], [162,
+  62], [163, 63], [164, 75], [165, 66], [166, 58], [167, 66], [168, 70], [169, 65],
+  [170, 65], [171, 63], [172, 65], [173, 50], [174, 65], [175, 63], [176, 56], [177,
+  52], [178, 54], [179, 41], [180, 57], [181, 42], [182, 47], [183, 59], [184, 59],
+  [185, 57], [186, 49], [187, 44], [188, 49], [189, 37], [190, 51], [191, 54], [192,
+  36], [193, 47], [194, 40], [195, 41], [196, 38], [197, 48], [198, 52], [199, 38],
+  [200, 43], [201, 49], [202, 32], [203, 39], [204, 45], [205, 40], [206, 34], [207,
+  44], [208, 32], [209, 44], [210, 37], [211, 49], [212, 38], [213, 38], [214, 34],
+  [215, 34], [216, 31], [217, 41], [218, 21], [219, 37], [220, 18], [221, 29], [222,
+  37], [223, 31], [224, 26], [225, 33], [226, 23], [227, 18], [228, 30], [229, 18],
+  [230, 17], [231, 24], [232, 18], [233, 22], [234, 24], [235, 18], [236, 23], [237,
+  18], [238, 25], [239, 16], [240, 18], [241, 20], [242, 19], [243, 28], [244, 21],
+  [245, 17], [246, 21], [247, 15], [248, 14], [249, 19], [250, 9], [251, 8], [252,
+  20], [253, 13], [254, 14], [255, 21], [256, 11], [257, 7], [258, 17], [259, 13],
+  [260, 12], [261, 16], [262, 15], [263, 13], [264, 9], [265, 14], [266, 11], [267,
+  12], [268, 12], [269, 9], [270, 9], [271, 11], [272, 10], [273, 4], [274, 7], [275,
+  8], [276, 15], [277, 10], [278, 7], [279, 4], [280, 7], [281, 4], [282, 9], [283,
+  5], [284, 5], [285, 6], [286, 12], [287, 7], [288, 3], [289, 9], [290, 12], [291,
+  6], [292, 4], [293, 2], [294, 6], [295, 5], [296, 6], [297, 5], [298, 4], [299,
+  4], [300, 3], [301, 5], [302, 5], [303, 3], [304, 7], [305, 2], [306, 5], [307,
+  3], [308, 1], [309, 5], [310, 1], [311, 2], [312, 5], [313, 1], [314, 2], [315,
+  2], [316, 4], [317, 1], [318, 3], [319, 1], [320, 3], [321, 1], [322, 5], [323,
+  2], [324, 1], [325, 2], [326, 1], [327, 2], [328, 1], [329, 6], [330, 2], [332,
+  2], [333, 1], [334, 2], [335, 2], [336, 3], [338, 3], [339, 1], [340, 2], [342,
+  1], [343, 1], [344, 2], [346, 1], [349, 1], [350, 2], [351, 1], [352, 1], [355,
+  1], [356, 1], [360, 2], [361, 1], [362, 2], [363, 1], [364, 2], [365, 1], [367,
+  1], [368, 2], [372, 1], [373, 1], [374, 1], [376, 1], [378, 1], [380, 1], [382,
+  1], [386, 1], [392, 1], [402, 1], [408, 1], [418, 1], [424, 1], [425, 1], [427,
+  1], [428, 2], [431, 1], [434, 1], [441, 1], [456, 1], [464, 2], [468, 1], [469,
+  1], [475, 1], [482, 1], [483, 1], [485, 1], [486, 1], [487, 1], [491, 1], [501,
+  1], [504, 2], [506, 1], [513, 1], [524, 1], [537, 1], [539, 1], [547, 1], [560,
+  1], [562, 1], [564, 3], [569, 1], [571, 1], [572, 2], [578, 1], [581, 1], [607,
+  1], [609, 1], [610, 1], [616, 2], [617, 1], [622, 1], [624, 1], [634, 1], [636,
+  1], [639, 1], [642, 1], [644, 1], [655, 1], [675, 1], [676, 2], [677, 1], [682,
+  1], [688, 1], [690, 1], [696, 1], [702, 1], [704, 1], [712, 1], [713, 1], [714,
+  2], [720, 1], [722, 1], [723, 1], [730, 1], [732, 1], [733, 1], [734, 1], [741,
+  1], [745, 1], [749, 1], [752, 1], [757, 1], [762, 2], [770, 1], [780, 1], [786,
+  1], [787, 1], [788, 1], [789, 1], [794, 1], [800, 1], [801, 1], [809, 1], [811,
+  1], [813, 1], [815, 1], [817, 1], [828, 1], [837, 1], [839, 1], [843, 1], [848,
+  1], [850, 1], [860, 1], [863, 2], [866, 1], [869, 1], [874, 1], [877, 1], [879,
+  1], [881, 1], [882, 1], [889, 1], [892, 1], [897, 1], [906, 1], [907, 1], [908,
+  1], [909, 1], [918, 1], [919, 1], [924, 1], [928, 1], [931, 2], [936, 1], [938,
+  1], [944, 3], [948, 1], [950, 1], [951, 2], [954, 1], [955, 1], [957, 1], [960,
+  1], [962, 1], [963, 1], [969, 1], [970, 1], [976, 1], [978, 1], [988, 1], [992,
+  1], [993, 2], [995, 1], [996, 1], [1009, 1], [1011, 2], [1018, 1], [1024, 1], [1032,
+  1], [1046, 2], [1048, 1], [1057, 1], [1063, 1], [1065, 1], [1066, 1], [1068, 1],
+  [1069, 1], [1072, 1], [1078, 1], [1093, 1], [1094, 1], [1101, 1], [1106, 1], [1109,
+  1], [1113, 1], [1117, 1], [1128, 2], [1129, 1], [1130, 1], [1133, 1], [1137, 1],
+  [1147, 2], [1163, 1], [1164, 1], [1168, 1], [1169, 2], [1176, 1], [1177, 1], [1179,
+  1], [1180, 1], [1181, 1], [1200, 1], [1216, 1], [1217, 1], [1218, 1], [1221, 1],
+  [1227, 2], [1230, 1], [1234, 1], [1236, 1], [1242, 1], [1256, 1], [1257, 1], [1263,
+  1], [1267, 1], [1269, 1], [1270, 1], [1278, 1], [1279, 2], [1283, 1], [1296, 1],
+  [1297, 2], [1311, 1], [1315, 1], [1317, 1], [1318, 1], [1319, 1], [1322, 1], [1325,
+  1], [1326, 1], [1332, 2], [1333, 1], [1340, 1], [1343, 1], [1353, 1], [1358, 2],
+  [1363, 1], [1367, 1], [1371, 1], [1373, 1], [1376, 1], [1377, 1], [1388, 1], [1389,
+  1], [1390, 1], [1405, 1], [1408, 1], [1411, 1], [1419, 1], [1448, 1], [1449, 1],
+  [1455, 1], [1463, 1], [1466, 1], [1474, 1], [1480, 1], [1484, 1], [1495, 2], [1502,
+  1], [1508, 1], [1509, 1], [1528, 1], [1553, 1], [1575, 2], [1592, 1], [1609, 1],
+  [1610, 1], [1626, 1], [1637, 1], [1651, 1], [1652, 2], [1659, 1], [1660, 1], [1661,
+  1], [1663, 1], [1664, 1], [1672, 1], [1675, 1], [1682, 1], [1684, 1], [1689, 1],
+  [1697, 1], [1701, 1], [1710, 1], [1717, 1], [1727, 1], [1731, 1], [1743, 1], [1746,
+  1], [1757, 1], [1770, 1], [1775, 1], [1799, 1], [1816, 1], [1839, 1], [1861, 1],
+  [1871, 1], [1877, 1], [1884, 1], [1889, 1], [1891, 1], [1922, 1], [1941, 1], [1994,
+  1], [2032, 1], [2036, 1], [2115, 1], [2143, 1], [2153, 1], [2155, 1], [2174, 1],
+  [2176, 1], [2180, 1], [2193, 1], [2210, 1], [2214, 1], [2283, 1], [2338, 1], [2383,
+  1], [2555, 1], [2645, 1], [3044, 1]]'
+src_sent_tokens_mean: 61
+src_sent_tokens_median: 36
+src_unique_sents: '[[1, 109], [2, 459], [3, 232], [4, 588], [5, 664], [6, 754], [7,
+  839], [8, 756], [9, 944], [10, 758], [11, 846], [12, 705], [13, 807], [14, 730],
+  [15, 745], [16, 776], [17, 704], [18, 747], [19, 808], [20, 811], [21, 751], [22,
+  737], [23, 723], [24, 718], [25, 757], [26, 745], [27, 762], [28, 777], [29, 700],
+  [30, 742], [31, 686], [32, 719], [33, 705], [34, 664], [35, 668], [36, 637], [37,
+  683], [38, 616], [39, 588], [40, 581], [41, 531], [42, 538], [43, 511], [44, 543],
+  [45, 476], [46, 524], [47, 463], [48, 460], [49, 437], [50, 447], [51, 432], [52,
+  423], [53, 380], [54, 396], [55, 348], [56, 344], [57, 359], [58, 330], [59, 314],
+  [60, 295], [61, 320], [62, 308], [63, 287], [64, 253], [65, 234], [66, 243], [67,
+  223], [68, 248], [69, 218], [70, 215], [71, 202], [72, 209], [73, 217], [74, 190],
+  [75, 173], [76, 173], [77, 180], [78, 177], [79, 169], [80, 158], [81, 138], [82,
+  178], [83, 155], [84, 155], [85, 137], [86, 129], [87, 134], [88, 142], [89, 124],
+  [90, 124], [91, 121], [92, 143], [93, 132], [94, 135], [95, 125], [96, 141], [97,
+  129], [98, 124], [99, 121], [100, 132], [101, 98], [102, 103], [103, 109], [104,
+  107], [105, 115], [106, 116], [107, 115], [108, 96], [109, 111], [110, 101], [111,
+  104], [112, 94], [113, 91], [114, 93], [115, 103], [116, 89], [117, 100], [118,
+  92], [119, 125], [120, 115], [121, 99], [122, 102], [123, 93], [124, 86], [125,
+  90], [126, 96], [127, 97], [128, 78], [129, 98], [130, 97], [131, 75], [132, 91],
+  [133, 105], [134, 88], [135, 82], [136, 95], [137, 85], [138, 83], [139, 81], [140,
+  76], [141, 91], [142, 74], [143, 104], [144, 63], [145, 79], [146, 88], [147, 81],
+  [148, 83], [149, 91], [150, 67], [151, 65], [152, 79], [153, 78], [154, 85], [155,
+  74], [156, 75], [157, 83], [158, 68], [159, 65], [160, 71], [161, 73], [162, 62],
+  [163, 63], [164, 74], [165, 66], [166, 58], [167, 66], [168, 70], [169, 65], [170,
+  65], [171, 63], [172, 65], [173, 50], [174, 65], [175, 63], [176, 55], [177, 52],
+  [178, 54], [179, 41], [180, 57], [181, 42], [182, 47], [183, 59], [184, 59], [185,
+  56], [186, 49], [187, 44], [188, 49], [189, 37], [190, 51], [191, 54], [192, 36],
+  [193, 47], [194, 40], [195, 41], [196, 38], [197, 48], [198, 52], [199, 38], [200,
+  42], [201, 49], [202, 32], [203, 39], [204, 45], [205, 39], [206, 34], [207, 44],
+  [208, 32], [209, 44], [210, 37], [211, 47], [212, 38], [213, 37], [214, 34], [215,
+  34], [216, 31], [217, 40], [218, 21], [219, 37], [220, 17], [221, 29], [222, 37],
+  [223, 31], [224, 26], [225, 33], [226, 23], [227, 18], [228, 30], [229, 18], [230,
+  17], [231, 24], [232, 18], [233, 22], [234, 24], [235, 18], [236, 23], [237, 18],
+  [238, 25], [239, 16], [240, 18], [241, 20], [242, 19], [243, 28], [244, 21], [245,
+  17], [246, 21], [247, 15], [248, 14], [249, 19], [250, 9], [251, 8], [252, 20],
+  [253, 13], [254, 14], [255, 21], [256, 11], [257, 7], [258, 17], [259, 13], [260,
+  12], [261, 16], [262, 15], [263, 13], [264, 9], [265, 14], [266, 11], [267, 12],
+  [268, 12], [269, 9], [270, 9], [271, 11], [272, 10], [273, 4], [274, 7], [275, 8],
+  [276, 15], [277, 10], [278, 7], [279, 4], [280, 7], [281, 4], [282, 9], [283, 5],
+  [284, 5], [285, 6], [286, 12], [287, 7], [288, 3], [289, 9], [290, 12], [291, 6],
+  [292, 4], [293, 2], [294, 6], [295, 5], [296, 6], [297, 5], [298, 4], [299, 4],
+  [300, 3], [301, 5], [302, 5], [303, 3], [304, 7], [305, 2], [306, 5], [307, 3],
+  [308, 1], [309, 5], [310, 1], [311, 2], [312, 5], [313, 1], [314, 2], [315, 2],
+  [316, 4], [317, 1], [318, 3], [319, 1], [320, 3], [321, 1], [322, 5], [323, 2],
+  [324, 1], [325, 2], [326, 1], [327, 2], [328, 1], [329, 6], [330, 2], [332, 2],
+  [333, 1], [334, 2], [335, 2], [336, 3], [338, 3], [339, 1], [340, 2], [342, 1],
+  [343, 1], [344, 2], [346, 1], [349, 1], [350, 2], [351, 1], [352, 1], [355, 1],
+  [356, 1], [360, 2], [361, 1], [362, 2], [363, 1], [364, 2], [365, 1], [367, 1],
+  [368, 2], [372, 1], [373, 1], [374, 1], [376, 1], [378, 1], [380, 1], [382, 1],
+  [386, 1], [392, 1], [402, 1], [408, 1], [418, 1], [424, 1], [425, 1], [427, 1],
+  [428, 2], [431, 1], [434, 1], [441, 1], [456, 1], [464, 1], [468, 1], [469, 1],
+  [475, 1], [482, 1], [483, 1], [485, 1], [486, 1], [487, 1], [491, 1], [501, 1],
+  [504, 2], [506, 1], [513, 1], [524, 1], [537, 1], [539, 1], [547, 1], [560, 1],
+  [562, 1], [564, 3], [569, 1], [571, 1], [572, 2], [578, 1], [581, 1], [607, 1],
+  [609, 1], [610, 1], [616, 2], [617, 1], [622, 1], [624, 1], [634, 1], [636, 1],
+  [639, 1], [642, 1], [644, 1], [655, 1], [675, 1], [676, 2], [677, 1], [682, 1],
+  [688, 1], [690, 1], [696, 1], [702, 1], [704, 1], [712, 1], [713, 1], [714, 2],
+  [720, 1], [722, 1], [723, 1], [730, 1], [732, 1], [733, 1], [734, 1], [741, 1],
+  [745, 1], [749, 1], [752, 1], [757, 1], [762, 2], [770, 1], [780, 1], [786, 1],
+  [787, 1], [788, 1], [789, 1], [794, 1], [800, 1], [801, 1], [809, 1], [811, 1],
+  [813, 1], [815, 1], [817, 1], [828, 1], [837, 1], [839, 1], [843, 1], [848, 1],
+  [850, 1], [860, 1], [863, 2], [866, 1], [869, 1], [874, 1], [877, 1], [879, 1],
+  [881, 1], [882, 1], [889, 1], [892, 1], [897, 1], [906, 1], [907, 1], [908, 1],
+  [909, 1], [918, 1], [919, 1], [924, 1], [928, 1], [931, 2], [936, 1], [938, 1],
+  [944, 3], [948, 1], [950, 1], [951, 2], [954, 1], [955, 1], [957, 1], [960, 1],
+  [962, 1], [963, 1], [969, 1], [970, 1], [976, 1], [978, 1], [988, 1], [992, 1],
+  [993, 2], [995, 1], [996, 1], [1009, 1], [1011, 2], [1018, 1], [1024, 1], [1032,
+  1], [1046, 2], [1048, 1], [1057, 1], [1063, 1], [1065, 1], [1066, 1], [1068, 1],
+  [1069, 1], [1072, 1], [1078, 1], [1093, 1], [1094, 1], [1101, 1], [1106, 1], [1109,
+  1], [1113, 1], [1117, 1], [1128, 2], [1129, 1], [1130, 1], [1133, 1], [1137, 1],
+  [1147, 2], [1163, 1], [1164, 1], [1168, 1], [1169, 2], [1176, 1], [1177, 1], [1179,
+  1], [1180, 1], [1181, 1], [1200, 1], [1216, 1], [1217, 1], [1218, 1], [1221, 1],
+  [1227, 2], [1230, 1], [1234, 1], [1236, 1], [1242, 1], [1256, 1], [1257, 1], [1263,
+  1], [1267, 1], [1269, 1], [1270, 1], [1278, 1], [1279, 2], [1283, 1], [1296, 1],
+  [1297, 2], [1311, 1], [1315, 1], [1317, 1], [1318, 1], [1319, 1], [1322, 1], [1325,
+  1], [1326, 1], [1332, 2], [1333, 1], [1340, 1], [1343, 1], [1353, 1], [1358, 2],
+  [1363, 1], [1367, 1], [1371, 1], [1373, 1], [1376, 1], [1377, 1], [1388, 1], [1389,
+  1], [1390, 1], [1405, 1], [1408, 1], [1411, 1], [1419, 1], [1448, 1], [1449, 1],
+  [1455, 1], [1463, 1], [1466, 1], [1474, 1], [1480, 1], [1484, 1], [1495, 2], [1502,
+  1], [1508, 1], [1509, 1], [1528, 1], [1553, 1], [1575, 2], [1592, 1], [1609, 1],
+  [1610, 1], [1626, 1], [1637, 1], [1651, 1], [1652, 2], [1659, 1], [1660, 1], [1661,
+  1], [1663, 1], [1664, 1], [1672, 1], [1675, 1], [1682, 1], [1684, 1], [1689, 1],
+  [1697, 1], [1701, 1], [1710, 1], [1717, 1], [1727, 1], [1731, 1], [1743, 1], [1746,
+  1], [1757, 1], [1770, 1], [1775, 1], [1799, 1], [1816, 1], [1839, 1], [1861, 1],
+  [1871, 1], [1877, 1], [1884, 1], [1889, 1], [1891, 1], [1922, 1], [1941, 1], [1994,
+  1], [2032, 1], [2036, 1], [2115, 1], [2143, 1], [2153, 1], [2155, 1], [2174, 1],
+  [2176, 1], [2180, 1], [2193, 1], [2210, 1], [2214, 1], [2283, 1], [2338, 1], [2383,
+  1], [2555, 1], [2645, 1], [3044, 1]]'
+src_langs: '[["ilo", 11656], ["tl", 10967], ["cy", 4987], ["sq", 3286], ["su", 2504],
+  ["jbo", 2443], ["es", 2306], ["gn", 2069], ["nah", 1692], ["sc", 1581], ["fr", 1541],
+  ["it", 1512], ["en", 1076], ["sl", 962], ["ht", 869], ["kw", 818], ["war", 589],
+  ["ast", 487], ["mt", 396], ["hu", 392], ["vec", 376], ["wa", 357], ["ku", 329],
+  ["qu", 326], ["cs", 313], ["cbk", 313], ["hr", 246], ["ro", 234], ["bs", 188], ["eo",
+  186], ["pt", 173], ["de", 167], ["la", 161], ["br", 159], ["pam", 137], ["id", 131],
+  ["kn", 125], ["pl", 112], ["pms", 109], ["ms", 103], ["sw", 100], ["sr", 96], ["gom",
+  91], ["tr", 82], ["bh", 81], ["fi", 80], ["el", 80], ["sk", 64], ["ur", 55], ["ia",
+  54], ["et", 54], ["gd", 50], ["nl", 47], ["nap", 47], ["ru", 41], ["diq", 41], ["ca",
+  40], ["sco", 36], ["scn", 36], ["uz", 33], ["sv", 32], ["lmo", 30], ["io", 24],
+  ["so", 23], ["jv", 23], ["he", 22], ["lt", 21], ["lo", 21], ["eu", 21], ["rm", 18],
+  ["vi", 16], ["ga", 16], ["ceb", 16], ["uk", 14], ["te", 14], ["yi", 13], ["tg",
+  12], ["is", 12], ["gv", 12], ["eml", 12], ["bcl", 11], ["zh", 10], ["nb", 10], ["hsb",
+  10], ["gl", 10], ["ta", 8], ["lb", 8], ["ie", 8], ["fy", 8], ["dv", 8], ["da", 8],
+  ["ug", 6], ["oc", 6], ["az", 6], ["ml", 5], ["dsb", 5], ["nds", 4], ["ja", 4], ["als",
+  4], ["xal", 3], ["tt", 3], ["lv", 3], ["gu", 3], ["af", 3], ["yo", 2], ["tk", 2],
+  ["vo", 1], ["th", 1], ["ps", 1], ["or", 1], ["min", 1], ["lez", 1], ["kv", 1], ["krc",
+  1], ["hy", 1], ["frr", 1], ["ckb", 1], ["be", 1], ["as", 1], ["arz", 1], ["ar",
+  1]]'
+hardrules_tags: '{"not_too_long": 804, "not_too_short": 2303, "length_ratio": 0, "no_urls":
+  202, "no_bad_encoding": 1135, "pii": 20}'
+sample: '["\"Esk\u00ea e peut ti hinga t\u00e2 t\u00ebn\u00eb na ndo ti Nzapa?\\nNzapa
+  asara t\u00ebn\u00eb \u00e2nd\u00f6 na azo. Lo sara kua na yingo vulu ti lo, so
+  ti tene ngangu ti lo, ti zia apens\u00e9 ti lo na y\u00e2 ti li ti azo so as\u00fb
+  lani Bible (2 Pierre 1:20, 21). E peut ti hinga t\u00e2 t\u00ebn\u00eb na ndo ti
+  Nzapa, tongana e diko Bible.\\nNa y\u00e2 ti Bible, Nzapa afa aye mingi na ndo ti
+  lo. Lo fa ndani so lo leke azo, nyen la lo yeke sara ande ndali ti azo nga ye so
+  lo yeke ku na mbage ti e (Kusala 17:24-27). J\u00e9hovah aye ti tene e hinga t\u00e2
+  t\u00ebn\u00eb na ndo ti lo..\\nNgbanga ti nyen la Nzapa andoye azo so aye ti hinga
+  t\u00e2 t\u00ebn\u00eb na ndo ti lo?\\nJ\u00e9hovah ayeke Nzapa ti t\u00e2 t\u00ebn\u00eb,
+  na lo tokua lani J\u00e9sus, so ayeke Molenge ti lo, ti ga ti fa t\u00e2 t\u00ebn\u00eb
+  na azo. Ni la, azo so aye t\u00e2 t\u00ebn\u00eb aga lani na mbage ti J\u00e9sus
+  (Jean 18:37). Nzapa aye ti tene mara ti azo tongaso avoro lo.\\nSatan Zabolo akanga
+  lege na azo mingi ti hinga Nzapa, na fango na ala amvene na ndo ti Nzapa (2 aCorinthien
+  4:3, 4). Azo so aye nzoni ye ape ayeda na afango ye ti mvene ni so (aRomain 1:25).
+  Me, gb\u00e2 ti azo so aye nzoni ye awara lege ti hinga t\u00e2 t\u00ebn\u00eb na
+  ndo ti Nzapa, na lege ti mandango Bible.\\nTI HINGA AMBENI T\u00cbN\u00cb\\nKAPA
+  TI MANDANGO BIBLE\\nBible ayeke m\u00fb maboko laso na azo kutu na kutu na y\u00e2
+  ti dunia kue ti wara akiringo t\u00ebn\u00eb na angangu t\u00ebn\u00eb so ala yeke
+  hunda na y\u00e2 ti gigi ti ala. Mo nga kue mo ye ti duti na popo ti ala?\"", "\"1,
+  2. (a) Aye wa la afa so Gbia ti e akomanse ti komande na ngu 1914? (b) E yeke b\u00e2
+  ande nyen na y\u00e2 ti chapitre so?\\nSO E kiri e b\u00e2 ye so Royaume ti Nzapa
+  asara na popo ti awato ti lo so, a kiri akpengba mabe ti e (Ps. 110:2). Gbia ti
+  e abungbi gb\u00e2 ti azo so ayeke fa t\u00ebn\u00eb na b\u00ea ti ala kue. Lo sukula
+  adisciple ti lo, lo sara si ala voro Nzapa nga asarango ye ti ala aga nzoni. At\u00e2a
+  ngangu so awato ti Royaume ni asara ti kangbi y\u00e2 ti e, laso e kue, e yeke yanga
+  oko. Aye ni so nga na ambeni ye ni nde so Royaume ni asara awe, so e londo ti b\u00e2
+  ni, afa polele so ngbene ye na ngu 1914, Gbia ti e ayeke komande na popo ti awato
+  ti Royaume ni.\\n2 Na y\u00e2 ti ngoi kete, Royaume ni ayeke sara ambeni kpengba
+  mbeni ye ahon aye ni so. Royaume ni ayeke \u2018ga\u2019 ti neka awato ti lo (Mat.
+  6:10; Dan. 2:44). Kozo ti tene ye ni so asi, ambeni kpengba ye ayeke si. A yeke
+  nyen? Gb\u00e2 ti aproph\u00e9tie ti Bible akiri t\u00ebn\u00eb na hundango ndo
+  so. Zia e b\u00e2 ambeni aproph\u00e9tie ni ti b\u00e2 aye wa la angb\u00e2 ti ku
+  e.\\nAye so ayeke si kozo ti tene \u2018futingo aga gi hio tongaso\u2019\\n3. Kozo
+  ye wa, so ayeke si ande, e yeke ku ni?\\n3 Tenengo t\u00ebn\u00eb ti siriri. Na
+  y\u00e2 ti mbeti so bazengele Paul atokua na aita ti Thessalonique, lo fa kozo ye
+  so ayeke si, so e yeke ku ni. (Diko 1 aThessalonicien 5:2, 3.) Na y\u00e2 ti mbeti
+  so, Paul asara t\u00ebn\u00eb ti \u201cl\u00e2 ti J\u00e9hovah\u201d, so ayeke to
+  nda ni na bira so a yeke ga na ni na tere ti \u201cBabylone, Ngangu gbata\u201d.
+  (Apoc. 17:5) Ye oko, kozoni si l\u00e2 ti J\u00e9hovah ato nda ni, amara ayeke tene
+  ande, \u201cSiriri na nzoni duti ayeke d\u00e4!\u201d T\u00ebn\u00eb so alingbi
+  ti ndu gi t\u00ebn\u00eb oko so azo ni atene wala ambeni ngangu t\u00ebn\u00eb so
+  ala yeke tene na peko ti tere. Akota zo ti abungbi ti nzapa ayeke duti na y\u00e2
+  ni? Teti so ala yeke ti mbage ti dunia so, peut-\u00eatre ala yeke bungbi yanga
+  ti ala oko ti tene \u201cSiriri, siriri\u201d. (J\u00e9r. 6:14; 23:16, 17; Apoc.
+  17:1, 2). Sarango t\u00ebn\u00eb ti siriri na nzoni duti so ayeke duti ande mbeni
+  kota ye so afa so l\u00e2 ti J\u00e9hovah aga nduru ti komanse awe. Awato ti Royaume
+  ti Nzapa ayeke \u201ckpe ande oko p\u00ebpe.\u201d\\n4. So e gbu nda ti proph\u00e9tie
+  ti Paul na ndo ti t\u00ebn\u00eb ti tenengo siriri na nzoni duti, a sara nzoni na
+  e tongana nyen?\\n4 So e m\u00e4 y\u00e2 ti proph\u00e9tie so nzoni, ye ti nzoni
+  wa e wara na pekoni? Paul atene: \u201cAla yeke na y\u00e2 ti bingo p\u00ebpe, si
+  lango ni so anzi ala nzingo tongana ti so kota l\u00e2 ayeke nzi azo ti nzi\u201d.
+  (1 aThes. 5:3, 4). Nde na tanga ti azo, e hinga ndo so aye so ayeke si laso ayeke
+  gue ti hunzi d\u00e4. Proph\u00e9tie na ndo ti siriri nga na nzoni duti so ayeke
+  si t\u00e2 mbilimbili tongana nyen? A lingbi e ku na e b\u00e2 tongana nyen la aye
+  ni ayeke si. Ni la, \u201czia l\u00ea ti e angb\u00e2 na zingo ni na e zia li ti
+  e kp\u00f4.\u201d\\nKota ye ti vundu ato nda ni\\n5. \u201cKota ye ti vundu\u201d
+  ayeke to nda ni ande tongana nyen?\\n5 Bira na ndo ti abungbi ti nzapa. Dabe ti
+  mo so Paul atene: \u201cNa ngoi so azo ni ayeke tene: \u2018Siriri na nzoni duti
+  ayeke d\u00e4!\u2019 mo ye ti b\u00e2, futingo ayeke ga gi hio tongaso na ndo ti
+  ala\u201d. Legeoko tongana ti so sungbango ti bekpa ayeke ga gi hio na peko ti w\u00e2
+  ti bekpa, na peko ti so a yeke tene \u201cSiriri na nzoni duti ayeke d\u00e4!\u201d,
+  \u201cfutingo ayeke ga gi hio tongaso\u201d. A yeke futi ande nyen? Kozoni, a yeke
+  \u201cBabylone, Ngangu gbata\u201d, groupe ti abungbi ti vorongo nzapa ti wataka
+  kue, so a hinga lo tongana \u201cwali-ndumba\u201d. (Apoc. 17:5, 6, 15) Futingo
+  a-eglize nga na ambeni bungbi ti nzapa ayeke zi lege na \u201ckota ye ti vundu\u201d.
+  (Mat. 24:21; 2 aThes. 2:8). Ti azo mingi, aye so ayeke nzi ala ande nzingo. Ngbanga
+  ti nyen? Ngbanga ti so, ti si na ngoi ni so, wali-ndumba ni so ab\u00e2 tere ti
+  lo tongana \u201cgbia-wali\u201d so ayeke \u201cduti na y\u00e2 ti mua l\u00e2 oko
+  p\u00ebpe.\u201d Me, lo yeke b\u00e2 ande hio so confiance ti lo ni so ayeke na
+  lege ni ape. A yeke futi lo hio, \u201cgi na y\u00e2 ti lango oko\u201d.\\n6. Zo
+  wa la ayeke ga na bira na ndo ti \u201cBabylone, Ngangu gbata\u201d?\\n6 Zo wa la
+  ayeke ga na bira so na ndo ti \u201cBabylone, Ngangu gbata\u201d? A yeke mbeni \u201cnyama
+  ti ngonda\u201d so ayeke na \u201cadidi bale-oko.\u201d Buku ti Apocalypse afa so
+  nyama ti ngonda so aye ti sara t\u00ebn\u00eb ti ONU. Adidi bale-oko ni aduti f\u00e4
+  ti azo ti poroso ti laso so ayeke m\u00fb mbage ti \u201cbengba nyama ti ngonda\u201d.
+  (Apoc. 17:3, 5, 11, 12). Futingo ni so ayeke duti ande tongana nyen? Amara so ayeke
+  na y\u00e2 ti ONU ayeke m\u00fb ande amosoro ti wali-ndumba so kue, ala yeke futi
+  lo nga \u201cala yeke gbi lo kue na w\u00e2.\u201d\\n7. Tongana nyen la at\u00ebn\u00eb
+  ti J\u00e9sus na Matthieu 24:21, 22 aga t\u00e2 t\u00ebn\u00eb lani na ngoi ti akozo
+  Chr\u00e9tien? A yeke ga ande t\u00e2 t\u00ebn\u00eb tongana nyen?\\n7 A kiri na
+  alango ni nduru. Gbia ti e afa ye so ayeke si ande na y\u00e2 ti mbage ti kota ye
+  ti vundu so. J\u00e9sus atene: \u201cNdali ti azo so a soro ala, fade a yeke kiri
+  na alango ni so nduru.\u201d (Diko Matthieu 24:21, 22.) At\u00ebn\u00eb ti J\u00e9sus
+  so aga lani t\u00e2 t\u00ebn\u00eb kete na ngu 66 na ngoi so J\u00e9hovah \u2018akiri
+  na alango\u2019 ti bira ti aturugu ti Rome nduru (Marc 13:20). Ye so asara lani
+  si aChr\u00e9tien na J\u00e9rusalem nga na Jud\u00e9e as\u00f6 ku\u00e2. Nyen la
+  ayeke si ande na ndo ti sese kue na ngoi ti kota ye ti vundu? J\u00e9hovah, na lege
+  ti Gbia ti e, ayeke \u2018kiri na alango\u2019 ti bira ti ONU, na tere ti abungbi
+  ti Nzapa, si a futi p\u00ebpe t\u00e2 bungbi ti Nzapa legeoko na ati wataka. Tongaso,
+  a yeke futi biani abungbi ti vorongo nzapa ti wataka me t\u00e2 bungbi ti Nzapa
+  ayeke s\u00f6 ku\u00e2. (Ps. 96:5) Zia e b\u00e2 aye so ayeke si ande tongana mbage
+  ti kota ye ti vundu so ahon awe.\\nAye so ayeke gue ngbii ti si na Harmagu\u00e9don\\n8,
+  9. Aye ti ndima wa J\u00e9sus asara t\u00ebn\u00eb ni, nga tongana nyen la azo ayeke
+  sara ye ande na bango ni?\\n8 Proph\u00e9tie ti J\u00e9sus na ndo ti l\u00e2 ti
+  nda ni afa so ambeni kpengba ye mingi ayeke si na y\u00e2 ti ngoi so ayeke gue ti
+  si na Harmagu\u00e9don. E yeke b\u00e2 ande akozo ye use. A sara t\u00ebn\u00eb
+  ni use kue na y\u00e2 ti a\u00c9vangile ti Matthieu, Marc na Luc.\\n9 Af\u00e4 na
+  l\u00ea ti nduzu. J\u00e9sus atene: \u201cFade l\u00e2 ayeke vuko, na nze ayeke
+  su p\u00ebpe, na atongoro ayeke londo ande na nduzu ti t\u00ef.\u201d Ti t\u00e2
+  t\u00ebn\u00eb ni, azo ayeke b\u00e2 ande ndo p\u00ebpe na mbage ti akota zo ti
+  abungbi ti nzapa ti wara lumi\u00e8re teti so a yeke hinga ande ala tongaso ape.
+  J\u00e9sus aye ti sara t\u00ebn\u00eb ti af\u00e4 so ahon gbungo li ti zo? Peut-\u00eatre
+  lo ye ti tene tongaso (\u00c9s. 13:9-11; Jo\u00ebl 2:1, 30, 31). Tongana azo ab\u00e2
+  aye so, ala yeke sara ye tongana nyen? Ala yeke duti ande na \u201ckota vundu\u201d
+  ndali ti so \u201cala hinga p\u00ebpe mbeni ye ti sara\u201d. (Luc 21:25; Soph.
+  1:17). Biani, awato ti Royaume, ti londo na \u2018agbia ti si na angb\u00e2a,\u2019
+  \u201cayeke woko na mbeto nga na kungo aye so ayeke ga na ndo ti sese so azo ayeke
+  d\u00e4\u201d, na ala yeke kpe ti honde tere ti ala. Me, ala yeke wara ande ape
+  mbeni nzoni place ti honde tere ti ala si ala kpe ngonzo ti Gbia ti e.\\n10. J\u00e9sus
+  ayeke d\u00eb ande ngbanga wa? Azo so ayeke na mbage ti lo nga na awato ti lo ayeke
+  sara ande ye tongana nyen?\\n10 Fango ngbanga. Awato ti Royaume ti Nzapa kue ayeke
+  b\u00e2 ande mbeni ye so ayeke si, so ayeke kiri ti kono mbeto ti ala ni. J\u00e9sus
+  atene: \u201cala yeke b\u00e2 ande Molenge ti zo so ayeke ga na y\u00e2 ti ambinda,
+  na kota ngangu nga na gloire.\u201d (Marc 13:26). Mbeni ye so ayeke si ande, so
+  alondo na azo p\u00ebpe, ayeke fa ande so J\u00e9sus aga nduru awe ti f\u00e2 ngbanga.
+  Na y\u00e2 ti mbeni oko mara ti proph\u00e9tie ni so na ndo ti l\u00e2 ti nda ni,
+  J\u00e9sus afa ambeni nzene nzene ye na ndo ti fango ngbanga so ayeke si ande na
+  ngoi ni so. E wara ni na y\u00e2 ti parabole ti angasangbaga na angasa. (Diko Matthieu
+  25:31-33, 46.) A yeke tene ande so azo so am\u00fb gi mbage ti Royaume ti Nzapa
+  ayeke \u201cangasangbaga\u201d nga ala yeke \u201cy\u00f4 li ti ala na nduzu\u201d,
+  ndali ti so ala hinga so \u201cngoi ti zingo ala aga nduru awe.\u201d (Luc 21:28).
+  Ye oko, a yeke tene so awato ti Royaume ni ayeke \u201cangasa\u201d na ala yeke
+  \u201cpika tere ti ala ti fa so ala yeke na vundu\u201d, teti so ala hinga so ala
+  yeke \u201cwara ku\u00e2 teti lakue lakue\u201d.\\n11. A lingbi e bata nyen na li
+  ti e na ngoi so e yeke b\u00e2 t\u00ebn\u00eb ti aye so ayeke si ande?\\n11 Na peko
+  ti so J\u00e9sus ayeke f\u00e2 ngbanga na ndo ti \u201camara kue\u201d, ambeni kpengba
+  ye ayeke si kozo si Harmagu\u00e9don asi (Mat. 25:32). E yeke b\u00e2 use na popo
+  ni: bira ti Gog nga bungbingo azo so a soro ala ti gue na yayu. Na ngoi so e yeke
+  b\u00e2 aye so, a yeke nzoni e dabe ti e so Mbeti ti Nzapa afa p\u00ebpe mbilimbili
+  ngoi so aye ni ayeke si ande na ni. Ti t\u00e2 t\u00ebn\u00eb ni, a manke mbeni
+  oko ayeke si na ngoi so mbeni angb\u00e2 ti si.\\n12. Kota bira so Satan ayeke sara
+  ande na tere ti Royaume ni ayeke so wa?\\n12 Kota bira. Gog ti Magog ayeke ga ande
+  na bira na tere ti azo so a soro ala ti gue na yayu nga na amba ti ala ambeni ngasangbaga.
+  (Diko \u00c9z\u00e9chiel 38:2, 11.) Bira so Satan ayeke ga na ni na tere ti Royaume
+  ni, so akomanse kua awe, ayeke duti ande ndangba bira ti lo na y\u00e2 ti bira so
+  lo yeke sara ni, ngbene ye so a tomba lo na yayu, na tere ti azo so a soro ala ti
+  gue na yayu (Apoc. 12:7-9, 17). Mbilimbili, ngbene ye so a bungbi aChr\u00e9tien
+  so a soro ala ti gue na yayu na y\u00e2 ti congr\u00e9gation ti aChr\u00e9tien so
+  a sukula ala, Satan agi lakue ti futi guengo na li ni ti ala na lege ti yingo, me
+  kue gb\u00e4 (Mat. 13:30). Ye oko, na ngoi so abungbi ti nzapa ti wataka kue ayeke
+  d\u00e4 encore ape, awakua ti J\u00e9hovah ayeke ngb\u00e2 gi ala oko, mo b\u00e2
+  mo tene \u2018akodoro so ayeke na gbagba ti bira p\u00ebpe.\u2019 Satan ayeke b\u00e2
+  ande so mbeni pendere lege la azi na lo so. Lo yeke pusu asioni zo ti l\u00ef na
+  y\u00e2 ti mbeni kota bira na ndo ti azo so am\u00fb mbage ti Royaume ni.\\n13.
+  J\u00e9hovah ayeke sara ande nyen ndali ti awakua ti lo?\\n13 \u00c9z\u00e9chiel
+  afa ye so ayeke si ande. Na ndo ti Gog, proph\u00e9tie ni atene: \u201cFade mo londo
+  na ndo ti mo so ayo mingi na mbage ti nord ti ga, mo, na azo nde nde so ayeke na
+  mo mingi, ala kue atambela na ndo ambarata, azo mingi mingi, aturugu ti ngangu;
+  fade mo ga ti sara bira na azo ti Mbi.\u201d (\u00c9z\u00e9ch. 38:15, 16). J\u00e9hovah
+  ayeke sara ande nyen na gbele bira so akpa mbeni ye so zo alingbi ti kanga lege
+  na ni p\u00ebpe so? J\u00e9hovah atene: \u201cFade ngonzo ti Mbi ama asi na duhon
+  ti Mbi. Fade Mbi iri \u00e9p\u00e9e.\u201d (\u00c9z\u00e9ch. 38:18, 21; diko Zacharie
+  2:8.) J\u00e9hovah ayeke sara ye ande ndali ti awakua ti lo na ndo ti sese ge. Ge
+  la bira ti Harmagu\u00e9don ayeke londo.\\n14, 15. Mbeni ye nde wa ayeke si ande
+  kete na peko ti tongo nda ti kota bira ti Satan?\\n14 Kozo ti tene e b\u00e2 tongana
+  nyen la J\u00e9hovah ayeke m\u00fb mbage ti awakua ti lo na ngoi ti bira ti Harmagu\u00e9don,
+  zia e luti kete na e b\u00e2 mbeni kpengba ye nde so ayeke si. Ye ni so ayeke si
+  ande na mbeni ngoi so ayeke na popo ti tongo nda ti kota bira ti Satan na tongo
+  nda ti bira ti Harmagu\u00e9don. Tongana ti so e tene na paragraphe 11, use ye ni
+  so ayeke bungbingo tanga ti aChr\u00e9tien so a soro ala, so angb\u00e2 na sese
+  ge, ti gue na ala na yayu.\\n15 Bungbingo azo so a soro ala ti gue na yayu. Matthieu
+  na Marc, ala use kue, asara t\u00ebn\u00eb ti ye so J\u00e9sus atene na ndo ti \u2018azo
+  so a soro ala\u2019, aChr\u00e9tien so a soro ala ti gue na yayu. A zia ye so na
+  popo ti aye so ayeke si kozo si Harmagu\u00e9don akomanse (B\u00e2 paragraphe 7.)
+  Na sarango t\u00ebn\u00eb ti lo wani tongana Gbia, J\u00e9sus atene: \u201cFade
+  lo yeke tokua a-ange, si ti londo na apupu osio, nga ti londo na nda ti sese ti
+  si na nda ti yayu, ala yeke bungbi na ndo oko azo ti lo so a soro ala.\u201d (Marc
+  13:27; Mat. 24:31). Bungbingo ye wa la J\u00e9sus ayeke sara t\u00ebn\u00eb ni so?
+  Lo yeke sara p\u00ebpe t\u00ebn\u00eb ti ziango nzoroko, ti ndangba ni, na li ti
+  aChr\u00e9tien so a soro ala ti gue na yayu, so ayeke si ngoi kete kozo si kota
+  ye ti vundu akomanse (Apoc. 7:1-3). Nde na so, J\u00e9sus ayeke sara t\u00ebn\u00eb
+  ti mbeni ye so ayeke si na ngoi so kota ye ti vundu ayeke si. Tongaso, \u00e2manke
+  na mbeni ngoi na peko ti tongo nda ti kota bira ti Satan na ndo ti awakua ti J\u00e9hovah,
+  a yeke bungbi ande na yayu tanga ti aChr\u00e9tien so a soro ala na lege ti yingo,
+  so angb\u00e2 na ndo ti sese.\\n16. A-Chr\u00e9tien so a soro ala na lege ti yingo,
+  so a zingo ala awe, a yeke sara ande nyen na ngoi ti bira ti Harmagu\u00e9don?\\n16
+  Tongana nyen la bungbingo tanga ti aChr\u00e9tien so a soro ala ti gue na yayu andu
+  ye so e yeke gue ti sara t\u00ebn\u00eb na ndo ni, so ayeke Harmagu\u00e9don? Ngoi
+  so si a yeke bungbi na ala d\u00e4 afa so aChr\u00e9tien kue so a soro ala na lege
+  ti yingo ayeke duti ande na yayu kozo si bira ti Nzapa, so ayeke Harmagu\u00e9don,
+  ato nda ni. Na yayu, azo 144 000 so ayeke komande na tere ti Christ ayeke wara ande
+  komandema ti y\u00f4 legeoko na J\u00e9sus \u201ckeke ti wen\u201d na tere ti awato
+  ti Royaume ti Nzapa kue (Apoc. 2:26, 27). Na pekoni, na tere ti angangu ange, aChr\u00e9tien
+  so a soro ala na lege ti yingo, so a zingo ala na ku\u00e2, ayeke m\u00fb peko ti
+  Christ, Gbia so ayeke turugu, na ngoi so lo yeke tiri na gb\u00e2 ti aturugu, so
+  alingbi ti diko wungo ti ala p\u00ebpe, so ayeke tuku na ndo ti awakua ti J\u00e9hovah
+  (\u00c9z\u00e9ch. 38:15). Na ngoi so kota ngangu bira so ayeke si, and\u00e2 Harmagu\u00e9don
+  alondo awe!\\nNdangba mbage ti kota ye ti vundu\\n17. Nyen la ayeke si ande na azo
+  so ayeke tongana \u201cangasa\u201d na Harmagu\u00e9don?\\n17 Sarango ye alingbi
+  na fango ngbanga. Bira ti Harmagu\u00e9don ayeke duti ande ndangba mbage ti kota
+  ye ti vundu. Na ngoi ni k\u00e2, J\u00e9sus ayeke sara ande mbeni kua nde so a m\u00fb
+  na lo. Na ndo ti kua ti lo ti Juge ti \u201camara kue\u201d, lo yeke ga nga ande
+  Zo so ayeke sara ye alingbi na ngbanga so lo f\u00e2 lani na ndo ti azo, so ti tene
+  azo kue so lo b\u00e2 ala lani tongana \u201cangasa.\u201d (Mat. 25:32, 33). Na
+  \u201cyongoro \u00e9p\u00e9e so yanga ni aza\u201d, Gbia ti e ayeke \u201cd\u00eb
+  amara na ni\u201d. T\u00e2 t\u00ebn\u00eb, azo kue so ayeke tongana angasa, a londo
+  na \u201cagbia\u201d ti si na \u201cangb\u00e2a\u201d, \u201cayeke wara ku\u00e2
+  teti lakue lakue\u201d.\\n18. (a) Ye ni ayeke duti ande tongana nyen ndali ti \u201cangasangbaga\u201d?
+  (b) J\u00e9sus ayeke hunzi ande bira ni tongana nyen?\\n18 Ye ni ayeke duti ande
+  tongana nyen ndali ti azo so J\u00e9sus ab\u00e2 ala tongana \u201cangasangbaga\u201d?
+  Gb\u00e2 ti aturugu ti Satan ayeke d\u00f6 ande na gere ti ala p\u00ebpe \u201cazo
+  mingi mingi\u201d so akpa \u201cangasangbaga\u201d so zo ti batango ala ayeke d\u00e4
+  p\u00ebpe. Nde na so, ala yeke hon na y\u00e2 ti bira so awato aga na ni na ndo
+  ti ala nga ala yeke \u2018sigigi na y\u00e2 ti kota ye ti vundu\u2019. (Apoc. 7:9,
+  14) Na peko ti so J\u00e9sus as\u00f6 benda na lo futi awato ti Royaume ti Nzapa
+  kue awe, lo yeke bi Satan na ad\u00e9mon ti lo na y\u00e2 ti kota d\u00fb. Ala yeke
+  ngb\u00e2 ande na y\u00e2 ni teti ngu saki oko, mo b\u00e2 mo tene ala kui awe.\\nE
+  yeke leke tere ti e tongana nyen?\\n19, 20. E lingbi ti manda nyen na lege ti at\u00ebn\u00eb
+  so ayeke na \u00c9sa\u00efe 26:20 nga 30:21?\\n19 E yeke leke tere ti e tongana
+  nyen ti ku na aye so ayeke si ande, so ayeke yengi ndo so? A ninga awe, mbeni Tour
+  ti Ba Ndo asara t\u00ebn\u00eb so: \u201cMango yanga ayeke duti ye so a hunda ti
+  wara salut.\u201d Ngbanga ti nyen? Kiringo t\u00ebn\u00eb ni ayeke na y\u00e2 ti
+  t\u00ebn\u00eb ti gbotongo m\u00ea so J\u00e9hovah atene na aJuif so ayeke lani
+  angb\u00e2a na Babylone. J\u00e9hovah atene so a yeke hon ande Babylone na ngangu.
+  Me nyen la a lingbi awakua ti Nzapa asara ti leke tere ti ala ndali ti ye so ayeke
+  si ande so? J\u00e9hovah atene: \u201cI ga, i azo ti mbi, i l\u00ef na da ti i,
+  i kanga yanga ti da ti i na peko ti i; i honde tere ti i kete, juska ngonzo ahon.\u201d
+  (\u00c9s. 26:20). B\u00e2 at\u00ebn\u00eb so J\u00e9hovah asara na kua: \u201cga,\u201d
+  \u201cl\u00ef,\u201d \u201ckanga,\u201d \u201chonde.\u201d At\u00ebn\u00eb so kue
+  afa so a yeke commandement la a m\u00fb so. A-Juif so abata acommandement so ayeke
+  ngb\u00e2 na y\u00e2 ti da ti ala, yongoro na aturugu so as\u00f6 benda, so ayeke
+  na gigi. Ni la, mango yanga la ayeke sara si ala s\u00f6 ku\u00e2. *\\n20 Nyen la
+  e manda d\u00e4 nyen? Tongana ti awakua ti Nzapa ti giriri, tongana e bata acommandement
+  ti J\u00e9hovah si e yeke s\u00f6 ande ku\u00e2 na y\u00e2 ti aye so ayeke si ande
+  so (\u00c9s. 30:21). E yeke wara acommandement ni so na lege ti congr\u00e9gation.
+  Ni la, e yeke sara kue ti m\u00e4 na ti yeda na b\u00ea ti e kue na fango lege so
+  e yeke wara (1 Jean 5:3). Tongana e sara ni laso, e yeke duti ande nduru ti m\u00e4
+  yanga hio si Bab\u00e2 ti e, J\u00e9hovah, nga na Gbia ti e, J\u00e9sus, abata e
+  (Soph. 2:3). Batango ndo so ayeke m\u00fb lege ande na e ti b\u00e2 t\u00e2 na l\u00ea
+  ti e tongana nyen la Royaume ti Nzapa ayeke futi biaku awato ti lo. A yeke duti
+  ande mbeni ye so e yeke girisa ni l\u00e2 oko ape!\\n^ par. 6 E lingbi ti tene so
+  a yeke na lege ni ti tene so futingo \u201cBabylone, Ngangu gbata\u201d andu mbilimbili
+  futingo abungbi ti nzapa, me p\u00ebpe fango azo ti vorongo nzapa kue. Ni la, mingi
+  ti azo so ayeke kozo na y\u00e2 ti Babylone ayeke hon na y\u00e2 ti futingo so nga,
+  peut-\u00eatre dandara, ala yeke zi tere ti ala yongoro na abungbi ti nzapa, tongana
+  ti so Zacharie 13:4-6 afa.\"", "\"A sara fadeso ngu oko na ndambo tongaso awe la
+  si Jean Baptiste afa J\u00e9sus na azo tongana Kete taba ti Nzapa. Tongana J\u00e9sus
+  akomanse lani kua ti fango t\u00ebn\u00eb, ambeni koli ayeda na b\u00ea ti ala kue
+  ti ga adisciple ti lo. A yeke azo tongana Andr\u00e9, Simon Pierre, Jean, peut-\u00eatre
+  Jacques (ita ti Jean), Philippe nga na Barth\u00e9lemy (so a iri nga lo Nathana\u00ebl).
+  Tongana ngoi ayeke hon, ambeni zo nga nde am\u00fb peko ti J\u00e9sus.\u2014Jean
+  1:45-47.\\nFadeso, J\u00e9sus aye ti soro abazengele ti lo. A yeke azo so ayeke
+  duti ande nduru na lo mingi, nga so ayeke wara ande mbeni fango ye so ayeke nde
+  mingi. Me kozo ti tene lo soro ala, J\u00e9sus ague na ndo ti mbeni hoto, peut-\u00eatre
+  so ayo mingi ape na Kota ngu ti Galil\u00e9e, nduru na Caperna\u00fcm. K\u00e2,
+  lo sambela na b\u00ef ni kue, ti hunda ndara ti Nzapa nga na tufa ti lo. Na ndade
+  ni, lo iri adisciple ti lo na lo soro bale-oko na use na popo ti ala ti ga abazengele
+  ti lo.\\nJ\u00e9sus asoro ala omene so a fa fade iri ti ala na nduzu ge so, nga
+  lo soro Matthieu, koli so lo iri lani lo na place ti rongo nginza ti imp\u00f4t.
+  Tanga ti ala oku so lo soro ala ayeke: Judas (so a iri nga lo Thadd\u00e9e nga so
+  ayeke \u201cmolenge ti Jacques\u201d), Simon so ayeke zo ti Canaan, Thomas, Jacques
+  molenge ti Alph\u00e9e nga na Judas Iscariote.\u2014Matthieu 10:2-4; Luc 6:16.\\nFadeso,
+  ala bale-oko na use so ayeke gue na ando kue so J\u00e9sus ague d\u00e4, na J\u00e9sus
+  ahinga ala kue nzoni mingi. Mingi na popo ti ala ayeke afami ti lo. Jacques na ita
+  ti lo Jean ayeke at\u00e2 fami ti J\u00e9sus. Nga tongana ti so ambeni zo apens\u00e9,
+  si tongana Alph\u00e9e ayeke ita ti Joseph, bab\u00e2 so abata lani J\u00e9sus,
+  tongaso Jacques, so ayeke molenge ti Alph\u00e9e, ayeke nga mbeni fami ti J\u00e9sus.\\nMe
+  J\u00e9sus abata iri ti abazengele ti lo so kue. Ka mo, mo lingbi bata iri ti ala
+  na li? Mbeni ye so apeut ti aid\u00e9 mo, a yeke ti hinga so aSimon ayeke use, aJacques
+  ayeke use nga aJudas ayeke use. Simon (wala Pierre) ayeke ita ti Andr\u00e9, nga
+  Jacques (molenge ti Z\u00e9b\u00e9d\u00e9e) ayeke ita ti Jean. B\u00e2 ye so apeut
+  ti aid\u00e9 mo ti bata iri ti abazengele miombe la. Atanga ni osio ayeke Matthieu,
+  so ayeke zo ti rongo nginza ti imp\u00f4t, Thomas zo so mbeni l\u00e2 lo yeke d\u00eb
+  kite ande na ndo ti J\u00e9sus, Nathana\u00ebl, lo so J\u00e9sus awara lani lo na
+  gbe ti mbeni keke, nga Philippe so ayeke kamarade ti Nathana\u00ebl.\\nBale-oko
+  na oko na popo ti abazengele ni alondo na Galil\u00e9e, kodro so J\u00e9sus akono
+  d\u00e4. Nathana\u00ebl ayeke zo ti Cana. Philippe, Pierre na Andr\u00e9 ayeke azo
+  ti Bethsa\u00efda. J\u00e9sus awara lani Pierre na Andr\u00e9 na ngoi so ala sara
+  kodro na Caperna\u00fcm, ndo so amanke Matthieu alango d\u00e4. Jacques na Jean
+  kue adoit ti lango na kodro ni so wala nduru na Caperna\u00fcm ni, na ala yeke sara
+  kua ti gingo susu na ndo ni so. Judas Iscariote, so na pekoni a yeke k\u00e4 ande
+  J\u00e9sus, adoit ti duti oko bazengele so ayeke zo ti Jud\u00e9e.\"", "\"Bible
+  na ndo ti Internet | MBETI TI NZAPA TI FINI DUNIA\\n61 Yingo ti J\u00e9hovah, Seigneur
+  ti dunia kue, ayeke na nd\u00f6 ti mbi,+ndali ti so J\u00e9hovah asoro mbi ti fa
+  nzoni t\u00ebn\u00eb na azo so ab\u00e2 ter\u00ea ti ala kete.+\\nLo tokua mbi na
+  azo so ayeke na k\u00e4 na b\u00ea ti ala ti sara si k\u00e4 ni am\u00fc,lo tokua
+  mbi ti fa t\u00ebn\u00eb ti libert\u00e9 na angb\u00e2anga lo tokua mbi na azo ti
+  kanga ti sara si l\u00ea ti ala azi.+\\n2 Lo tokua mbi ti fa t\u00ebn\u00eb ti ngu
+  so na y\u00e2 ni J\u00e9hovah ayeke sara nzoni na azo,nga ti fa t\u00ebn\u00eb ti
+  lango so Nzapa ti e ayeke kiri na azo peko ti sioni so ala sara.+\\nLo tokua mbi
+  ti d\u00eb b\u00ea ti azo kue so ayeke sara vundu,+\\n3 ti m\u00fb na azo so ayeke
+  sara vundu ndali ti Sionye ti pendere ti ziango na nd\u00f6 ti li ti ala na place
+  ti mburu ti w\u00e2,ti tuku mafuta na li ti ala si ala duti na ngia ahon ti sara
+  vunduna ti m\u00fb na ala bongo ti tene ala sepela na Nzapa ahon ti duti na b\u00ea
+  so ayeke na vundu.\\nA yeke iri ande ala akota keke ti mbilimbili,akeke so J\u00e9hovah
+  alu si am\u00fb gloire na lo.+\\n4 Ala yeke kiri ti leke angbene ndo so abuba.Ala
+  yeke kiri ti leke ando so \u00e2nd\u00f6 azo aleke ni si ala d\u00f6 ni azia,+ala
+  yeke kiri ti leke agbata so a futi ni kue,+ando so a ninga mingi awe si azo asara
+  kodro d\u00e4 encore ape.+\\n5 \u201cAwande ayeke ga ti fa lege na ataba na angasa
+  ti ala,na awande+ la ayeke f\u00e2 yaka na ala nga ayeke sara kua na y\u00e2 ti
+  yaka ti vigne ti ala.+\\n6 \u00c2du ti ala, a yeke iri ala apr\u00eatre ti J\u00e9hovah;+azo
+  ayeke iri ala awakua ti Nzapa ti e.\\nAla yeke te anzoni ye ti amara,+nga ala yeke
+  pika kate ti ala na nd\u00f6 ti gloire ti amara ni.\\n7 Ahon ti tene kamene asara
+  azo ti mbi, ala yeke wara aye ti nzoni fani use.Ahon ti tene kamene ahon nd\u00f6
+  ti ala, ala yeke dekongo na ngia ndali ti part ti ala.A yeke kangbi y\u00e2 ti sese
+  ni, na ala yeke wara ti ala part ni use.+Ala yeke duti na ngia lakue lakue.+\\n8
+  Mbi J\u00e9hovah, mbi ye fango ngbanga ti mbilimbili.+Mbi ke nzi nga na sarango
+  ye ti kirikiri.+Lakue mbi yeke m\u00fb na ala futa ti ala,nga mbi yeke te mbeni
+  mbele na ala so ayeke ngb\u00e2 lakue lakue.+\\n9 Azo ti amara nde nde ayeke hinga
+  amolenge ti ala,+nga azo nde nde ayeke hinga ahale ti ala.\\nAzo kue so ab\u00e2
+  ala ayeke hinga soala yeke amolenge so J\u00e9hovah asara tufa na nd\u00f6 ti ala.\u201d+\\n10
+  Mbi yeke duti na kota ngia ndali ti J\u00e9hovah.Mbi yeke duti na ngia ndali ti
+  Nzapa ti mbi.+Salut aga tongana bongo so lo m\u00fb lo y\u00fc na mbi;+mbilimbili
+  aga tongana kota bongo so lo bi na nd\u00f6 ti mbi.\\nMbi y\u00fc aye ni so tongana
+  koli so aye ti sara mariage so ay\u00fc mara ti turban so pr\u00eatre ayeke y\u00fc,+nga
+  tongana wali so aye ti sara mariage so ay\u00fc aye ti baba.\\n11 Legeoko tongana
+  ti so akete keke ayeke sigi na y\u00e2 ti sese,nga al\u00ea ti kobe so a lu na y\u00e2
+  ti yaka ayeke sigi,na l\u00ea ti amara kue, J\u00e9hovah, Seigneur ti dunia kue,ayeke
+  sara si sarango ye na lege ni+ nga na sepela asigi.+\"", "\"Bia 48 na sambela\\nAt\u00ebn\u00eb
+  ti tongo nda ni (ahon pn. 3 p\u00ebpe)\\nANZONI YE SO AYEKE NA Y\u00c2 TI BIBLE\\n\u201cTambela
+  na lege ti Ndia ti J\u00e9hovah\u201d: (pn. 10)\\nPs 119:1-8\u2014Ti tambela na
+  lege ti ndia ti Nzapa ayeke ga na t\u00e2 ngia (w05 15/4 l. 10 par. 3-4)\\nPs 119:33-40\u2014Bible
+  am\u00fb na e ngangu so e yeke na bezoin ni ti luti na l\u00ea ti atara so ayeke
+  si na y\u00e2 ti fini ti e (w05 15/4 l. 13 par. 12)\\nPs 119:41-48\u2014T\u00e2
+  hingango ye na ndo ti Bible ayeke sara si e wara ngangu ti fa t\u00ebn\u00eb (w05
+  15/4 l. 13 par. 13-14)\\nGi anzoni ye so ayeke na y\u00e2 ti Bible: (pn. 8)\\nPs
+  119:71\u2014Aye ti nzoni wa la alingbi ti ga na peko ti bango pasi? (w06 1/9 l.
+  14 par. 4)\\nPs 119:96\u2014T\u00ebn\u00eb \u201cMbi b\u00e2, nda ti ye kue ti nzoni\u201d
+  aye ti tene nyen? (w06 1/9 l. 14 par. 5)\\nNyen la dikongo Bible ti yenga so afa
+  na mbi na ndo ti J\u00e9hovah?\\nAye wa la ayeke na y\u00e2 ti dikongo Bible ti
+  yenga so, so mbi lingbi ti sara kua na ni na fango t\u00ebn\u00eb?\\nDikongo Bible:
+  (ahon pn. 4 p\u00ebpe) Ps 119:73-93\\nMA\u00cf AKODE TI FANGO T\u00cbN\u00cb TI
+  MO\\nLeke akode ti fango na t\u00ebn\u00eb ti nze so: (pn. 15) Lisoro. Zia vid\u00e9o
+  ti kode ti fango na t\u00ebn\u00eb oko oko, na pekoni sara lisoro na ndo ti akota
+  t\u00ebn\u00eb ni. Wa aita ti leke akode ti fango na t\u00ebn\u00eb ti ala wani.\\nGIGI
+  TI E TI CHR\u00c9TIEN\\nBia 69\\n\u201cTongana e wara gi mbeni molenge na yanga-da
+  ni\u201d: (pn. 5) Diskur.\\nBezoin ti congr\u00e9gation: (pn. 10) Mo lingbi ti soro
+  ti sara lisoro na ndo ti ye ti manda so ayeke na y\u00e2 ti Annuaire. (yb16 59-62)\\nMandango
+  Bible ti Congr\u00e9gation: (pn. 30) ia chap. 23 par. 15-29, dango b\u00ea ti l.
+  204\\nKiri kete na ndo ti ye so ala manda nga fa ye so ala yeke b\u00e2 na yenga
+  ti peko (pn. 3)\\nBia 13 na sambela\"", "\"Kusala\\nAchapitre\\nLi ti at\u00ebn\u00eb
+  ni\\n-\\nVision so Corneille ab\u00e2 (1-8)\\nVision so Pierre ab\u00e2 na nd\u00f6
+  ti anyama so a sara si aga nzoni awe (9-16)\\nPierre ague na ndo ti Corneille (17-33)\\nPierre
+  afa nzoni t\u00ebn\u00eb so ab\u00e2 azo ti amara (34-43)\\n\u201cNzapa ayeke sara
+  kangbi na popo ti azo p\u00ebpe\u201d (34, 35)\\nAzo ti amara awara yingo vulu na
+  ala wara bat\u00eame (44-48)\\n-\\nKota dengo gaba na nd\u00f6 ti t\u00ebn\u00eb
+  ti fango ganza na Antioche (1, 2)\\nA gue na t\u00ebn\u00eb ni na J\u00e9rusalem
+  (3-5)\\nA-ancien na abazengele asara mbeni bungbi (6-21)\\nLettre so alondo na bebungbi
+  (22-29)\\nAla gbanzi ter\u00ea ti ala na m\u00ean\u00eb (28, 29)\\nLettre so a tokua
+  akpengba acongr\u00e9gation (30-35)\\nPaul na Barnabas am\u00fb lege nde nde ahon
+  (36-41)\"", "\"1Zo so ama na be si ade ti kpengba pepe, ala yamba lo, ala kasa at\u00ebn\u00eb
+  ti be ti lo pepe. 2Mbeni zo so ama na be abaa ti lo atene, ni lingbi ti te ye kue,
+  me mbeni zo so ade ti kpengba pepe ayeke te ti lo gi akugbe ti kasa. 3Zo so ayeke
+  te ye kue, alingbi lo baa tongana zo ti buba pepe zo so ayeke te gi ambeni ye; na
+  mbage, zo so ayeke te ye kue, alingbi zo so ayeke te gi ambeni ye akasa lo pepe.
+  Biani, Nzapa ayamba nga zo so ayeke te ye kue tongana zo ti lo. 4Mo yeke ti mo zo
+  wa ti kasa zo ti kua ti mbeni zo nde? Ataa lo ngba na nduzu wala lo ti, so abaa
+  gi wa ti lo. Fade lo yeke ngba na nduzu, ndali ti so Kota Gbia ayeke na ngangu ti
+  sara si lo ngba na nduzu. 5Mbeni zo abaa mbeni lango tongana kota lango ahon atanga
+  ni; mbeni zo abaa ti lo alango ni kue gi legeoko. Alingbi zo oko oko ahinga biani
+  so t\u00ebn\u00eb ti be ti lo ayeke na legeni. 6Zo so abaa mbeni lango tongana kota
+  lango ahon atanga ni, lo yeke sara tongaso ndali ti Kota Gbia; zo so ayeke te ye
+  kue, lo yeke te ni ndali ti Kota Gbia, ngbanga ti so lo yeke mu singila na Nzapa.
+  Zo so ayeke te ye kue pepe, lo yeke sara tongaso ndali ti Kota Gbia, ngbanga ti
+  so lo nga, lo yeke mu singila na Nzapa. 7Biani, zo oko na popo ti e ayeke duti na
+  fini gi ndali ti lo wani pepe, zo oko na popo ti e ayeke kui gi ndali ti lo wani
+  pepe. 8Tongana e ngba na fini, e ngba ndali ti Kota Gbia; tongana e kui, e kui nga
+  ndali ti Kota Gbia. Tongaso, ataa e ngba na fini wala e kui, e yeke azo ti Kota
+  Gbia. 9Christ akui si na pekoni, lo kiri na fini titene lo duti Kota Gbia ti aku\u00e2
+  na ti azo so angba na fini. 10Me mo, mo yeke kasa mba ti mo ngbanga ti nyen? Mo
+  yeke baa amba ti mo tongana azo ti buba ngbanga ti nyen? Fade e oko oko kue, e yeke
+  luti na le ti Nzapa titene lo f\u00e2 ngbanga ti e. 11Mbeti ti Nzapa atene: \u201cMbi,
+  Kota Gbia so mbi yeke na fini, mbi deba, mbi tene: fade azo kue ayeke kuku na gbe
+  ti mbi si azo kue ayeke gonda mbi Nzapa.\u201d 12Tongaso fade e oko oko kue, e yeke
+  kiri t\u00ebn\u00eb na Nzapa na nd\u00f6 ti aye so kue e sara. 13Tongaso, alingbi
+  e zia ti kasa amba ti e. Me ye so ala lingbi ti leke na be ti ala ayeke so: ala
+  zia na dawa ti ita ti ala pepe mbeni ye so lo lingbi ti pika gere ti lo daa ti ti
+  na ya ti siokpari wala mbeni ye so alingbi ti pusu lo ti sara sioni ye. 14Ti mbi,
+  na lege ti gango so mbi ga oko na Kota Gbia J\u00e9sus, mbi hinga biani so mbeni
+  ye oko so ayeke sioni ayeke daa pepe. Me tongana mbeni zo abaa mbeni ye tongana
+  sioni, ye ni ayeke sioni gi na le ti zo ni. 15Tongana mba ti mo awara vundu ndali
+  ti mbeni kobe so mo yeke te, so afa atene, mo sara ye na lege ti ndoye pepe. Zo
+  so Christ akui ndali ti lo, alingbi mo buba lege ti lo ndali ti t\u00ebn\u00eb ti
+  kobe pepe! 16Ye so ala baa tongana nzoni ye ndali ti ala, alingbi aga sioni ye na
+  le ti amba ti ala pepe. 17Biani, Kodro-gbia ti Nzapa abaa t\u00ebn\u00eb ti tengo
+  kobe wala t\u00ebn\u00eb ti nyongo ye pepe, me abaa t\u00ebn\u00eb ti sarango ye
+  ti mbirimbiri, ti siriri na ti ngia so Yingo-Vuru ayeke mu na zo. 18Zo so ayeke
+  sara kua na Christ tongaso, lo yeke nzoni na le ti Nzapa si azo ayeda na t\u00ebn\u00eb
+  ti lo. 19Tongaso, alingbi e gi ye so ayeke ga na siriri si e oko oko kue, e kpengba
+  na lege ti mabe. 20Ndali ti t\u00ebn\u00eb ti kobe, mo buba lege ti kua ti Nzapa
+  pepe! Biani, kobe kue ayeke nzoni, me tongana aga mbeni ye so zo ayeke pika gere
+  ti lo daa ti ti na ya ti siokpari, andaa tengo kobe ti mo ni aga ye ti sioni awe.
+  21Ye so ayeke nzoni ayeke titene mo te nyama pepe, mo nyon samba pepe, so ti tene
+  mo ke ti sara ye so kue ita ti mo alingbi ti pika gere ti lo daa ti ti na ya ti
+  siokpari. 22Ye so mo hinga biani na be ti mo na nd\u00f6 ti ye so, t\u00ebn\u00eb
+  ni angba na popo ti mo na Nzapa. Ti lo nzoni, zo so aye ti sara mbeni ye si lo bi
+  t\u00ebn\u00eb na li ti wani pepe! 23Me zo so ayeke dekite na be ti lo ndali ti
+  kobe so lo yeke te, Nzapa af\u00e2 ngbanga na li ti lo awe, ndali ti so sarango
+  ye ti lo ayeke na lege ti mabe pepe. Biani, ye so kue zo asara na lege ti mabe pepe
+  ayeke siokpari.\"", "\"Bible na ndo ti Internet | MBETI TI NZAPA TI FINI DUNIA\\n-\\nJacob
+  na azo ti da ti lo kue ague na \u00c9gypte (1-7)\\n-\\nIri ti azo so ague na \u00c9gypte
+  (8-27)\\n-\\nJoseph awara ter\u00ea na Jacob na Goshen (28-34)\\n46 Tongaso, Isra\u00ebl
+  am\u00fb aye ti lo kue, lo t\u00ef na lege. Na ngoi so lo si na B\u00e9er-Sh\u00e9ba,+
+  lo m\u00fb asandaga na Nzapa ti bab\u00e2 ti lo Isaac.+\\n2 Nzapa asara t\u00ebn\u00eb
+  na Isra\u00ebl na b\u00ef na y\u00e2 ti vision, lo tene: \u201cJacob, Jacob!\u201d
+  na lo yeda, lo tene: \u201cMbi la!\u201d\\n3 Lo tene: \u201cMbi yeke t\u00e2 Nzapa,
+  Nzapa ti bab\u00e2 ti mo.+ Sara mbeto ti gue na \u00c9gypte p\u00ebpe, ndali ti
+  so mbi yeke sara si mo ga kota mara k\u00e2.+\\n4 Mbi la mbi yeke gue legeoko na
+  mo na \u00c9gypte, na mbi la mbi yeke m\u00fb mo ande ti kiri na mo.+ Joseph la
+  ayeke leke ande l\u00ea ti mo.\u201d+\\n5 Na pekoni, Jacob alondo na B\u00e9er-Sh\u00e9ba
+  lo hon; amolenge ti Isra\u00ebl ti koli ay\u00f4 bab\u00e2 ti ala Jacob, amolenge
+  ti ala nga na awali ti ala na y\u00e2 ti apuse so Pharaon atokua ti y\u00f4 na lo.\\n6
+  Ala m\u00fb anyama ti ala nga na aye ti ala so ala wara na sese ti Canaan. Ala gue
+  ala si na \u00c9gypte, Jacob na ahale ti lo kue.\\n7 Lo ga na \u00c9gypte, lo na
+  amolenge ti lo ti koli na ti wali kue nga na a-\u00e2ta ti lo kue, so ti tene lo
+  na ahale ti lo kue.\\n8 Iri ti amolenge ti Isra\u00ebl ti koli, so ti tene Jacob
+  na amolenge ti lo, so aga na \u00c9gypte+ ayeke so: Ruben, kozo molenge ni.+\\n9
+  Amolenge ti Ruben ayeke Hanok, Pallu, Hesron na Carmi.+\\n10 Amolenge ti Sim\u00e9on+
+  ayeke J\u00e9muel, Jamin, Ohad, Jakin, Zohar na Sha\u00fcl+ so mama ti lo ayeke
+  mbeni wali ti sese ti Canaan.\\n11 Amolenge ti L\u00e9vi+ ayeke Guershon, Kohath
+  na M\u00e9rari.+\\n12 Amolenge ti Juda+ ayeke Er, Onan, Sh\u00e9lah,+ P\u00e9r\u00e8s+
+  na Z\u00e9rah.+ Me Er na Onan akui na sese ti Canaan.+Amolenge ti P\u00e9r\u00e8s
+  ayeke Hesron na Hamul.+\\n13 Amolenge ti Issacar ayeke Tola, Puvah, Iob na Shimron.+\\n14
+  Amolenge ti Zabulon+ ayeke S\u00e9r\u00e8d, \u00c9lon na Jahl\u00e9el.+\\n15 Amolenge
+  ti L\u00e9a so lo d\u00fc na Jacob na Paddan-Aram la, nga na Dinah,+ molenge ti
+  Jacob ti wali. Amolenge ti lo ti koli na ti wali kue ayeke 33.\\n16 Amolenge ti
+  Gad+ ayeke Ziphion, Haggui, Shuni, Ezbon, \u00c9ri, Arodi na Ar\u00e9li.+\\n17 Amolenge
+  ti Aser+ ayeke Imnah, Ishvah, Ishvi na B\u00e9riah; ita ti ala ti wali ayeke S\u00e9rah.Amolenge
+  ti B\u00e9riah ayeke H\u00e9ber na Malkiel.+\\n18 Amolenge ti Zilpah+ la, so Laban
+  am\u00fb lo na molenge ti lo L\u00e9a. Lo d\u00fc ala na Jacob: ala kue ayeke 16.\\n19
+  Amolenge ti Rachel, wali ti Jacob, ayeke Joseph+ na Benjamin.+\\n20 As\u00e9nath,+
+  molenge ti Potiph\u00e9ra pr\u00eatre ti On, ad\u00fc na Joseph Manass\u00e9+ na
+  \u00c9phra\u00efm+ na kodro ti \u00c9gypte.\\n21 Amolenge ti Benjamin+ ayeke B\u00e9la,
+  B\u00e9ker, Ashbel, Gu\u00e9ra,+ Naaman, \u00c9hi, Rosh, Muppim, Huppim+ na Ard.+\\n22
+  Amolenge ti Rachel ti koli so lo d\u00fc ala na Jacob la: ala kue ayeke 14.\\n23
+  Molenge ti Dan+ ayeke Hushim.+\\n24 Amolenge ti Nephtali+ ayeke Jahz\u00e9el, Guni,
+  J\u00e9zer na Shillem.+\\n25 Amolenge ti Bilhah la, so Laban am\u00fb lo na molenge
+  ti lo Rachel. Lo d\u00fc ala na Jacob: ala kue ayeke mbasambala.\\n26 Azo kue so
+  asigi na y\u00e2 ti Jacob si ague na lo na \u00c9gypte ayeke 66; a diko awali ti
+  amolenge ti Jacob na y\u00e2 ni p\u00ebpe.+\\n27 Amolenge ti Joseph so a d\u00fc
+  ala na lo na \u00c9gypte ayeke use. Azo kue ti da ti Jacob so aga na \u00c9gypte
+  ayeke 70.+\\n28 Jacob atokua Juda+ ti hon kozo ti lo ti tene na Joseph so lo yeke
+  na lege ti guengo na Goshen. Tongana ala si na sese ti Goshen,+\\n29 Joseph ahunda
+  ti tene a leke puse ti mbarata ti lo, na lo gue ti wara bab\u00e2 ti lo Isra\u00ebl
+  na Goshen. Na ngoi so lo fa ter\u00ea ti lo na bab\u00e2 ti lo, hio lo t\u00ef na
+  nd\u00f6 ti go ti lo na lo toto aninga.\\n30 Isra\u00ebl atene na Joseph: \u201cTi
+  so ni so, mbi lingbi ti kui senge; mbi b\u00e2 l\u00ea ti mo awe, na mbi hinga so
+  mo ngb\u00e2 na fini.\u201d\\n31 Joseph atene na aita ti lo ti koli nga na azo ti
+  da ti bab\u00e2 ti lo, lo tene: \u201cMbi yeke gue ti fa peko ti ye ni na Pharaon,+
+  mbi tene: \u2018Aita ti mbi ti koli na azo ti da ti bab\u00e2 ti mbi so ayeke lani
+  na sese ti Canaan aga na mbi ge awe.+\\n32 Akoli ni ayeke aberger,+ ala yeke bata
+  anyama,+ na ala ga na ataba na abagara ti ala nga na aye ti ala kue.\u2019+\\n33
+  Tongana Pharaon airi ala na lo hunda ala, lo tene: \u2018Ala yeke sara kua ti nyen?\u2019\\n34
+  Ala tene: \u2018E azo ti kua ti mo e yeke azo ti batango anyama ngbene ye so e yeke
+  maseka juska fadeso, e na akotara ti e,\u2019+ tongaso si ala lingbi ti sara kodro
+  na sese ti Goshen,+ ndali ti so zo kue so ayeke bata ataba ayeke sioni mingi na
+  l\u00ea ti azo ti \u00c9gypte.\u201d+\"", "\"1So J\u00e9sus atene t\u00ebn\u00eb
+  so kue awe, lo tene na adisiple ti lo: 2\u201cAla hinga kue, na ya ti lango use,
+  fade matanga ti Pake ayeke duti daa. Fade a yeke mu Molenge ti Zo titene a f\u00e2
+  lo na nd\u00f6 ti keke ti kroa.\u201d 3Tongaso akota wayango-sandaga na akangba
+  ti azuife abongbi tere na ya ti gbagba ti kota wayango-sandaga so iri ti lo Kaife.
+  4Ala leke t\u00ebn\u00eb ti gbu J\u00e9sus na lege ti mbeni mayere titene ala f\u00e2
+  lo. 5Me ala tene: \u201cAlingbi e gbu lo na lango ti matanga pepe, ngbanga ti azo
+  atomboka.\u201d 6So J\u00e9sus ayeke na Betanii, na ya ti da ti Simon, zo ti buruma,
+  7mbeni wali aga nduru na tere ti lo na mbeni ngbenda ti yombo so ngere ni ayeke
+  ngangu mingi; a sara ngbenda ni na mbeni t\u00eane so iri ni albatre. Lo tuku yombo
+  ni na li ti J\u00e9sus, na ndembe so J\u00e9sus ayeke te kobe. 8So adisiple abaa
+  ye ni tongaso, be ti ala aso si ala tene: \u201cNgbanga ti nyen si lo yeke buba
+  yombo so tongaso? 9A lingbi fade ti ka ni na ngangu ngere si amu nginza ni na azo
+  ti mawa pepe?\u201d 10J\u00e9sus ahinga t\u00ebn\u00eb so adisiple ni ayeke tene
+  si lo tene: \u201cNgbanga ti nyen si ala yeke so li ti wali so tongaso? Ye so lo
+  sara na mbi so ayeke ye ti nzoni. 11Biani, azo ti mawa ayeke duti lakue na popo
+  ti ala, me ti mbi, mbi yeke duti lakue na popo ti ala pepe. 12Lo tuku yombo so na
+  tere ti mbi ti leke mbi ti ku na ndembe so a yeke lu ande ku\u00e2 ti mbi. 13Mbi
+  tene na ala taa-t\u00ebn\u00eb: na ndo so kue a yeke fa ande Nzoni T\u00ebn\u00eb
+  so daa, na nd\u00f6 ti dunia kue, azo ayeke fa t\u00ebn\u00eb ti ye so wali so asara
+  si azo ayeke dabe ti ala na lo.\u201d 14Tongaso, mbeni disiple oko na popo ti adisiple
+  baleoko na use, so iri ti lo Judas Iskariote ague na ndo ti akota wayango-sandaga;
+  15lo tene na ala: \u201cTongana mbi ka J\u00e9sus na ala, fade ala yeke mu na mbi
+  nyen?\u201d Akota wayango-sandaga ni adiko ale ti nginza baleota si ala mu na lo.
+  16Ti londo na ndembe ni so, Judas ato nda ti gi nzoni lege ti ka J\u00e9sus na ala.
+  17Na kozo lango ti matanga ti Mapa so a sara na mama ni pepe, adisiple aga na tere
+  ti J\u00e9sus si ala hunda lo, atene: \u201cMo ye e leke na mo kobe ti Pake na ndo
+  wa?\u201d 18J\u00e9sus atene na ala: \u201cAla gue na ya ti gbata ni na ndo ti pakara
+  tongaso; ala tene na lo: \u2018Wafango-ye atene: Ngbonga ti mbi aga nduru awe; mbi
+  na adisiple ti mbi, e yeke sara ande matanga ti Pake na ndo ti mo.\u2019 \u201d
+  19Adisiple asara ye ni gi tongana ti so J\u00e9sus amu yanga na ala si ala leke
+  kobe ti Pake ni. 20Na lakui ni, J\u00e9sus na adisiple baleoko na use aduti ti te
+  kobe. 21So ala yeke te kobe ni, J\u00e9sus atene na ala: \u201cMbi tene na ala taa-t\u00ebn\u00eb:
+  mbeni oko na popo ti ala ayeke ka mbi.\u201d 22Vundu agbu be ti adisiple mingi si
+  ala oko oko ato nda ti hunda lo, atene: \u201cKota Gbia, ayeke mbi?\u201d 23J\u00e9sus
+  akiri t\u00ebn\u00eb na ala: \u201cZo so mbi na lo e yeke yoro maboko oko na ya
+  ti sembe, lo laa lo yeke ka mbi. 24Fade Molenge ti Zo ayeke kui gi tongana ti so
+  Mbeti ti Nzapa atene t\u00ebn\u00eb ni na nd\u00f6 ti lo; me mawa na zo so ayeke
+  ka ande Molenge ti Zo ni so! Ti zo ni so, tongana a du lo fade pepe, ka ayeke nzoni
+  mingi!\u201d 25Judas, zo ti kango J\u00e9sus amu t\u00ebn\u00eb si lo tene: \u201cWafango-ye,
+  ayeke mbi?\u201d J\u00e9sus akiri t\u00ebn\u00eb na lo, atene: \u201cT\u00ebn\u00eb
+  ni laa mo tene awe so.\u201d 26So ala yeke te kobe, J\u00e9sus amu mapa, lo mu singila
+  na Nzapa; na pekoni lo f\u00e2 ya ni, lo mu na adisiple si lo tene: \u201cAla mu
+  ni ate, so ayeke tere ti mbi.\u201d 27Na pekoni, lo mu kopo ti vin, lo mu singila
+  na Nzapa si lo mu ni na ala, lo tene: \u201cAla kue anyon ni, 28ngbanga ti so ayeke
+  mene ti mbi, mene so abongbi azo na Nzapa na ya ti mbuki; mene so atuku ndali ti
+  gba ti azo titene azi siokpari ti ala. 29Mbi tene na ala: fade mbi yeke kiri ti
+  nyon ngu ti le ti vinye pepe, ngbii asi na lango so fade mbi na ala, e yeke nyon
+  fini vin na ya ti Kodro-gbia ti Nzapa, Bab\u00e2 ti mbi.\u201d 30Na peko ti so ala
+  he bia ti gondango Nzapa awe, ala mu lege ti gue na hoto ti a-olive. 31Tongaso,
+  J\u00e9sus atene na adisiple ti lo: \u201cGi na bi so, fade ala kue ayeke zia mbi
+  ti hon, ngbanga ti so Mbeti ti Nzapa atene: \u2018Fade mbi yeke f\u00e2 wabatango-taba
+  si ataba ni ayeke kangbi kirikiri.\u2019 32Me tongana mbi zingo ande na ku\u00e2,
+  mbi yeke hon kozo ti ala na Galile.\u201d 33Pierre atene na lo: \u201cTongana azo
+  kue azia mo ahon, fade mbi yeke zia mo oko pepe.\u201d 34J\u00e9sus akiri t\u00ebn\u00eb
+  na lo: \u201cMbi tene na mo taa-t\u00ebn\u00eb: gi na bi so, kozo titene koli-kondo
+  atoto, fade mo yeke bere t\u00ebn\u00eb ti mbi fani ota.\u201d 35Pierre atene na
+  lo: \u201cTongana ayeke titene mbi na mo e kui, mbi yeke bere t\u00ebn\u00eb ti
+  mo oko pepe!\u201d Adisiple ni kue atene gi oko t\u00ebn\u00eb so. 36J\u00e9sus
+  na adisiple ti lo asi na mbeni ndo so iri ni Getsemane si lo tene na ala: \u201cAla
+  duti na ndo so, mbi yeke gue k\u00e2 ti sambela.\u201d 37Lo mu Pierre na amolenge
+  ti Zebede use na tere ti lo si lo na ala ague. Vundu ato nda ti gbu lo si mbeto
+  asara lo ahon ndoni. 38Tongaso lo tene na ala: \u201cBe ti mbi ayeke na vundu mingi,
+  mo baa mo tene, mbi ye ti kui kuingo; ala ngba na ndo so, mbi na ala, e lango pepe!\u201d
+  39Lo hon yongoro kete, lo ti, lo kpo li ti lo na sese, lo sambela, lo tene: \u201cBab\u00e2
+  ti mbi, tongana lege ayeke daa, ayeke nzoni kopo ti pasi so ahon yongoro na tere
+  ti mbi. Me mbi ye pepe titene mo sara ye so be ti mbi aye, me mo sara gi ye so be
+  ti mo aye.\u201d 40Na pekoni, lo kiri lo ga na mbage ti adisiple si lo wara ala
+  na lango. Lo tene na Pierre: \u201cAla lingbi ti ngba na le ti ala tongaso ndali
+  ti mbi na ya ti ngbonga oko pepe? 41Ala lango pepe! Ala sambela si ala ti na ya
+  ti ye ti tarango be pepe. Yingo ti zo ayeke na nzara ti sarango nzoni ye, me zo
+  ni ayeke na ngangu pepe.\u201d 42Lo kiri lo gue yongoro ti fani use ni si lo sambela,
+  lo tene: \u201cBab\u00e2 ti mbi, tongana kopo so alingbi ti hon yongoro na tere
+  ti mbi pepe si mo ye mbi nyon ni, ayeke nzoni mo sara gi ye so be ti mo aye!\u201d
+  43Lo kiri lo ga na mbage ti adisiple ni si lo wara ala na lango, ngbanga ti so lango
+  ahon nd\u00f6 ti ala. 44J\u00e9sus azia ala, lo kiri lo gue yongoro si lo sambela
+  ti fani ota ni, lo tene gi oko t\u00ebn\u00eb so lo tene kozoni so. 45Lo kiri lo
+  ga na mbage ti adisiple si lo tene na ala: \u201cAla ngba ti lango? Ala ngba ti
+  wu tere ti ala? Ngbonga ni aga nduru awe; a yeke mu Molenge ti Zo ti zia lo na maboko
+  ti azo ti siokpari. 46Ala londo e gue! Baa, zo ti kango mbi asi awe!\u201d 47So
+  J\u00e9sus angba ti tene t\u00ebn\u00eb, Judas, mbeni oko ti adisiple baleoko na
+  use asi; lo ga na azo gbani gbani na tere ti lo. Azo ni kue amu ayongoro zeme na
+  akeke na maboko ti ala. Akota wayango-sandaga na akangba ti azuife laa atokua ala.
+  48Judas, zo ti kango J\u00e9sus, afa na azo ni ye so fade lo yeke sara; lo tene:
+  \u201cZo so mbi yeke su ande ngbangba ti lo, andaa lo laa. Ala gbu lo.\u201d 49Gi
+  hio tongaso, Judas aga nduru na tere ti J\u00e9sus si lo tene na lo: \u201cWafango-ye,
+  mbi bara mo!\u201d Na pekoni, lo su ngbangba ti lo. 50J\u00e9sus atene na lo: \u201cIta,
+  mo sara ye so mo ga ngbanga ni so!\u201d Azo so amu peko ti Judas aga, ala zia maboko
+  na nd\u00f6 ti J\u00e9sus si ala gbu lo. 51Mbeni disiple oko ti J\u00e9sus agboto
+  yongoro zeme ti lo, lo de mbeni zo ti kua ti kota wayango-sandaga si lo f\u00e2
+  m\u00ea ti lo. 52J\u00e9sus atene na lo: \u201cKiri yongoro zeme ti mo na plase
+  ni, ngbanga ti so azo so kue af\u00e2 zo na yongoro zeme, fade ala yeke kui ku\u00e2
+  ti yongoro zeme. 53Mo baa mo tene, mbi lingbi ti hunda na Bab\u00e2 ti mbi ti mu
+  na mbi maboko pepe? Lo lingbi ti tokua na mbi fafadeso a-ange so wungo ti ala ahon
+  wungo ti aturugu na ya ti akota bongbi baleoko na use. 54Tongana mbi iri a-ange
+  ni, fade t\u00ebn\u00eb ti Mbeti ti Nzapa ayeke ga taa-t\u00ebn\u00eb tongana nyen?
+  Mbeti ti Nzapa atene, fade ye ni ayeke duti tongaso.\u201d 55Na pekoni, J\u00e9sus
+  atene na gba ti azo ni, atene: \u201cAla ga na ayongoro zeme na akeke ti gbu mbi,
+  mo baa mo tene, mbi yeke zo ti nzi! Lakue mbi yeke duti na ya ti kota da ti Nzapa
+  ti fa ye, me ala gbu mbi pepe! 56Me ye so kue asi tongaso si t\u00ebn\u00eb ti yanga
+  ti awayanga-Nzapa so a su na mbeti ando so aga taa-t\u00ebn\u00eb.\u201d Tongaso
+  adisiple kue azia lo si ala kpe ahon. 57Azo so agbu J\u00e9sus so ague na lo na
+  Kaife, kota wayango-sandaga. Andaa awafango-ndia na akangba abongbi tere ti ala
+  k\u00e2 awe. 58Pierre ague na peko ti J\u00e9sus, me lo yeke gue nduru nduru pepe;
+  lo gue ngbii lo si na ya ti gbagba ti kota wayango-sandaga. Lo li si lo na azo ti
+  kua ayeke duti na sese na ndo oko, lo yeke ku ti baa wala ye ni ayeke hunzi ande
+  tongana nyen. 59Akota wayango-sandaga na azo kue ti Kota Bongbi ti Fango Ngbanga
+  ayeke gi lege ti wara mbeni t\u00ebn\u00eb ti mvene ti bi na li ti J\u00e9sus, ti
+  f\u00e2 ngbanga ti ku\u00e2 na li ti lo; 60me ala wara ni pepe, ataa so azo mingi
+  aga na at\u00ebn\u00eb ti mvene ti bi na li ti lo. Ti hunzi na ni, ambeni koli use
+  aga aluti 61si ala tene: \u201cKoli so atene lani, atene: \u2018Mbi lingbi ti kungbi
+  kota da ti Nzapa si mbi yeke kiri ti leke ni na ya ti lango ota.\u2019 \u201d 62Kota
+  wayango-sandaga alondo si lo tene na J\u00e9sus: \u201cMo yeke na t\u00ebn\u00eb
+  ti kiri na ni pepe? T\u00ebn\u00eb ti nyen laa azo so ayeke tene na iri ti mo so?\u201d
+  63Me J\u00e9sus azi yanga oko pepe. Kota wayango-sandaga atene na lo: \u201cMbi
+  hunda na mo ti deba yanga ti mo, na iri ti Nzapa so ayeke na fini, mo tene na e:
+  Mo yeke Mesii, Molenge ti Nzapa?\u201d 64J\u00e9sus akiri t\u00ebn\u00eb na lo:
+  \u201cGi t\u00ebn\u00eb ni laa mo tene awe so. Me mbi tene na ala so fade ala yeke
+  baa Molenge ti Zo aduti na tere ti Nzapa so ngangu ti lo ahon angangu kue; lo yeke
+  duti na mbage ti maboko ti lo ti koli. Lo yeke londo na yayu, lo duti na nd\u00f6
+  ti ambinda ti ga.\u201d 65Tongaso kota wayango-sandaga ni asuru ya ti bongo ti lo
+  si lo tene: \u201cLo zonga Nzapa awe! E ye ti kiri ti hunda mbeni zo na t\u00ebn\u00eb
+  ngbanga ti nyen? Ala ma zonga so lo zonga na Nzapa so awe! 66Ti be ti ala, ala tene
+  nyen?\u201d Azo ni akiri t\u00ebn\u00eb na lo: \u201cLo lingbi na ku\u00e2!\u201d
+  67Na pekoni, ala tuku ngu ti yanga ti ala na le ti lo si ala kpo lo na gobo, ambeni
+  apika ngbangba ti lo, 68ala tene: \u201cMo so mo yeke Mesii so, sara tongana wayanga-Nzapa:
+  fa na e, zo wa laa apika mo?\u201d 69Pierre ayeke duti na gigi na ya ti gbagba ni.
+  Mbeni wali so ayeke sara kua k\u00e2 aga nduru na tere ti lo si atene na lo: \u201cMo
+  nga, mo yeke mu peko ti J\u00e9sus, zo ti Galile so!\u201d 70Me Pierre abere na
+  le ti azo kue, lo tene: \u201cMbi hinga t\u00ebn\u00eb so mo ye ti tene so pepe!\u201d
+  71So Pierre amu lege ti gue na yanga ti gbagba, mbeni wali nde so ayeke sara kua
+  k\u00e2 abaa lo si atene na azo so ayeke k\u00e2, atene: \u201cKoli so ayeke mu
+  nga peko ti J\u00e9sus, zo ti Nazaret!\u201d 72Pierre akiri abere; lo deba yanga
+  ti lo, lo tene: \u201cMbi hinga koli so oko pepe!\u201d 73Kete na pekoni, azo so
+  ayeke k\u00e2 aga nduru na Pierre si ala tene na lo: \u201cTaa-t\u00ebn\u00eb, mo
+  nga, mo yeke mbeni zo ti J\u00e9sus! Sarango t\u00ebn\u00eb ti mo aka mo awe.\u201d
+  74Pierre ato nda ti deba yanga ti lo, atene: \u201cAyeke nzoni Nzapa af\u00e2 ngbanga
+  na li ti mbi tongana mbi tene mvene! Mbi hinga koli so oko pepe!\u201d Gi na pekoni,
+  koli-kondo atoto. 75Pierre adabe ti lo na t\u00ebn\u00eb so J\u00e9sus atene lani
+  na lo, atene: \u201cKozo titene koli-kondo atoto, fade mo yeke bere t\u00ebn\u00eb
+  ti mbi fani ota.\u201d Lo sigigi si lo toto ngangu mingi.\"", "\"- The Noble Quran\\n-
+  Sunnah of Prophet Muhammad\\n- Islamic Creed\\n- Islamic Jurisprudence\\n- Virtues/Noble
+  Characteristics\\n- Arabic Language\\n- Yanga ti Sango Wa fango tene ti nzapa :
+  Mohamed Zakaria Wa fango tene ti nzapa : Mahamat Abdoulbassit Ibrahim B\u00e4ngb\u00efng\u00f6-peko
+  ni (contr\u00f4le) : Mohamed Zakaria\\nFango tene na ndoti islam, a kota gere tene
+  so si lotissa ani: 1-Guigui ti a arabo kojo ni si islam aga ( Avant Islam). 2-Tokwa
+  ti a watoukwa ti nzapa kwe na azo ti ala 3- A gure okou (5) ti islam\\n- Yanga ti
+  Sango\"", "\"4 Awa ti angb\u00e2a, ALA sara lakue na angb\u00e2a ti ALA ye so ayeke
+  mbilimbili nga na lege ni, na hingango so ALA yeke nga na mbeni Wa ti ALA na yayu.\\n2
+  ALA ngb\u00e2 lakue ti sambela. Na ndo ti t\u00ebn\u00eb ti sambela ni, zia l\u00ea
+  ti ALA angb\u00e2 na zingo ni na ALA kiri singila;\\n3 na oko ngoi ni ALA sambela
+  nga ndali ti e si Nzapa azi mbeni yanga-da na e ti fa t\u00ebn\u00eb ni nga ti fa
+  na azo t\u00ebn\u00eb ti Nzapa so lo honde nda ni, t\u00ebn\u00eb so andu Christ,
+  so ndali ni si mbi yeke na y\u00e2 ti zingiri,\\n4 tongaso si mbi fa t\u00ebn\u00eb
+  ni na gigi tongana ti so a lingbi mbi fa ni na azo.\\n5 ALA ngb\u00e2 lakue ti sara
+  ye na ndara na mbage ti azo so ayeke na gigi, na sarango kusala nzoni na ngoi ti
+  ALA.\\n6 Zia lakue t\u00ebn\u00eb ti yanga ti ALA aduti nzoni, ALA zia ingo d\u00e4,
+  si ALA hinga tongana nyen a lingbi ALA kiri t\u00ebn\u00eb na zo oko oko.\\n7 Tychique,
+  ita ti mbi so mbi ndoye lo mingi, wakua be-ta-zo nga mba ti mbi ngb\u00e2a na y\u00e2
+  ti Seigneur, ayeke fa ande na ALA t\u00ebn\u00eb ti aye kue so asi na mbi.\\n8 A
+  yeke ti tene ALA hinga ye so asi na e na ti tene b\u00ea ti ALA ad\u00eb si mbi
+  yeke tokua lo na ALA so,\\n9 lo na On\u00e9sime, ita ti mbi so ayeke be-ta-zo nga
+  so mbi ndoye lo mingi, lo so lo yeke ti ALA k\u00e2. Fade aita so ayeke fa na ALA
+  aye kue so asi ge.\\n10 Aristarque, mba ti mbi so a bi mbi na lo na kanga, atokua
+  bara na ALA; Marc, fami ti Barnabas, abara ALA nga (lo la si a m\u00fb lani yanga
+  na ALA ndali ti lo a tene: tongana lo si na ALA k\u00e2, ALA yamba lo nzoni),\\n11
+  na J\u00e9sus, so a iri lo Justus; ala so ayeke ti azo so af\u00e2 ganza. Gi ala
+  so si ayeke amba ti mbi wakua teti royaume ti Nzapa, na a yeke ala si aga awamungo
+  maboko so akpengba mbi.\\n12 \u00c9paphras, lo so lo yeke ti ALA k\u00e2, mbeni
+  ngb\u00e2a ti Christ J\u00e9sus, atokua bara na ALA. Lakue lo yeke tiri ngangu ndali
+  ti ALA na y\u00e2 ti asambela ti lo ti tene na nda ni ALA ga azo so akpengba kue
+  awe nga so am\u00e4 na b\u00ea ngangu na ye kue so b\u00ea ti Nzapa aye.\\n13 Mbi
+  yeke tene nzoni t\u00ebn\u00eb ti lo, so lo yeke sara kua ngangu ndali ti ALA, ndali
+  ti azo so ayeke na Laodic\u00e9e nga na ala so ayeke na Hi\u00e9rapolis.\\n14 Luc,
+  wanganga so e ndoye lo mingi, atokua bara na ALA, D\u00e9mas kue abara ALA.\\n15
+  ALA tene bara ti mbi na aita ti Laodic\u00e9e, ALA tene ni nga na ita-wali Nymphas
+  nga na congr\u00e9gation so ayeke na y\u00e2 ti da ti lo.\\n16 Na tongana ALA diko
+  mbeti so na popo ti ALA awe, ALA leke si a diko ni nga na y\u00e2 ti congr\u00e9gation
+  ti aita ti Laodic\u00e9e na ALA diko nga mbeni mbeti ni so ayeke ti Laodic\u00e9e.\\n17
+  Nga, ALA tene t\u00ebn\u00eb so na Archippe, ALA tene: \u201cMo zia l\u00ea ti mo
+  lakue na ndo ti kusala so mo yeda ti wara ni na y\u00e2 ti Seigneur, si mo sara
+  ni a hunzi.\u201d\\n18 So bara ti mbi Paul la, so mbi wani mbi s\u00fb na maboko
+  ti mbi. ALA bi b\u00ea ti ALA lakue na zingiri so mbi yeke na y\u00e2 ni. Zia kota
+  nzobe ti Nzapa aduti na ALA.\"", "\"\u201cNdo ti lingo\u201d ti J\u00e9hovah am\u00fb
+  na e nzoni duti na lege ti yingo\\n91:1, 2, 9-14\\nLaso, a hunda na e ti m\u00fb
+  tere ti e na Nzapa nga ti wara bat\u00eame tongana e ye ti duti na ndo ti lingo
+  ti J\u00e9hovah\\nAzo so azia b\u00ea ti ala na Nzapa p\u00ebpe ahinga ndo ni so
+  ape\\nAzo so ayeke na ndo ti lingo ti J\u00e9hovah azia p\u00ebpe si mbeni zo wala
+  mbeni ye ayengi mabe ti ala nga na ndoye so ala yeke na ni na Nzapa\\nZo ti gbungo
+  ndeke ayeke gi ti gbu e\\n91:3\\nAndeke ayeke sara ka ye na hange mingi na ayeke
+  ngangu ti tene a gbu ala\\nAzo ti gbungo ndeke ayeke gi ti hinga asarango ye ti
+  andeke nzoni si ala leke akode ti gbu na ala\\nSatan, so ayeke tongana zo ti gbungo
+  ndeke, ayeke gi ti hinga awakua ti J\u00e9hovah nzoni si lo zia agbanda ti buba
+  dutingo ti ala na lege ti yingo\\nAsioni gbanda osio so Satan ayeke sara na kua:\\nMbeto
+  ti zo\\nSarango b\u00ea ti aye ti sese\\nAsioni ngia\\nMango tere p\u00ebpe so ayeke
+  na popo ti azo\"", "\"1Mbi Paul, mbi yeke watokua ti J\u00e9sus Christ na peko ti
+  yanga ti Nzapa, Wasongo e, lo na J\u00e9sus Christ so e zia be ti e kue na nd\u00f6
+  ti lo. 2Mbi tokua mbeti so na mo Timoth\u00e9e so mo yeke taa molenge ti mbi na
+  lege ti mabe. Ayeke nzoni Nzapa Bab\u00e2 na Kota Gbia ti e J\u00e9sus Christ asara
+  nzoni be na mo, abaa mawa ti mo si amu na mo siriri! 3Tongana ti so mbi mu lani
+  yanga na mo na guengo ti mbi na sese ti Masedoane, ayeke nzoni mo ngba na gbata
+  ti Efeze. K\u00e2, ambeni zo ayeke fa ye so alingbi na t\u00ebn\u00eb ti Nzapa pepe.
+  Alingbi mo ke na ala na kuru go ti fa aye ni so. 4Mo ke nga na ala titene ala zia
+  be ti ala na nd\u00f6 ti ambai ti mvene wala na dikongo a-iri ti akotara gbani gbani.
+  Aye so ayeke ga na bingbingo t\u00ebn\u00eb na popo ti azo, me nzoni lege so Nzapa
+  aleke ndali ti zo, ala lingbi ti hinga ni na lege ti aye so pepe. Zo ayeke hinga
+  nzoni lege ni gi na lege ti mabe. 5Nda ti yanga so mbi mu ayeke titene mo sara si
+  ndoye akono, ndoye so aga na lege ti vurungo be, be so sioni ye oko ayeke daa pepe
+  nga na taa mabe. 6Ambeni zo azia nzoni lege so awe, ala girisa lege na dikongo abuba
+  t\u00ebn\u00eb. 7Ala tene, ala yeke awafango-ndia, me at\u00ebn\u00eb so ala yeke
+  tene wala aye so ala yeke fa si yanga ti ala akpengba na nd\u00f6 ni so, ala ma
+  nga ya ni oko pepe. 8E hinga e tene, ndia ayeke nzoni ye tongana e sara ye na ni
+  na legeni. 9Alingbi e hinga ye so: azo so ayeke sara ye mbirimbiri, ndia ayeke ndali
+  ti ala pepe; me ndia ayeke ndali ti azo so ake ti ma yanga, azo ti ngangu li, azo
+  so ake t\u00ebn\u00eb ti Nzapa, azo ti sarango siokpari, azo so akpe ye ti Nzapa
+  wala ye ti yingo pepe, azo so ayeke f\u00e2 abab\u00e2 na amama ti ala, azo ti fango
+  zo, 10azo ti gingo wali wala gingo koli kirikiri, akoli so ayeke lango na amba ti
+  ala akoli, azo so ayeke ka amba ti ala na ngbaa, azo ti mvene, azo so ayeke deba
+  na t\u00ebn\u00eb ti mvene, ala na azo so ayeke sara ye so ayeke nde na fango ye
+  so ayeke mbirimbiri. 11T\u00ebn\u00eb so alingbi na Nzoni T\u00ebn\u00eb so Nzapa
+  azia na maboko ti mbi; t\u00ebn\u00eb ni ayeke t\u00ebn\u00eb ti Nzapa, lo so alingbi
+  na gonda si azo ayeke tene nzoni t\u00ebn\u00eb ti lo. 12Mbi mu singila mingi na
+  J\u00e9sus Christ, Kota Gbia ti e, ndali ti so lo mu na mbi ngangu, lo baa mbi tongana
+  zo so lo lingbi ti zia be ti lo na nd\u00f6 ti lo, nilaa lo mu mbi na kua ti lo.
+  13Mbi yeke kozoni zo ti zongango lo, zo ti sarango ngangu na lo, zo ti tiringo na
+  lo. Me Nzapa abaa mawa ti mbi, ngbanga ti so ye so mbi yeke sara lani so, mbi hinga
+  ni pepe si mbi de nga ti ma na be pepe. 14Kota Gbia ti e Christ J\u00e9sus asara
+  nzoni be na mbi ahon ndoni: lo mu na mbi mabe na ndoye so aga na lege so mbi ga
+  oko na J\u00e9sus Christ. 15T\u00ebn\u00eb so ayeke taa-t\u00ebn\u00eb, ayeke nzoni
+  azo kue ayeda na ni na be ti ala kue: J\u00e9sus Christ aga na dunia so ti soo azo
+  ti siokpari na ku\u00e2. Na popo ti azo ti siokpari ni, mbi laa mbi yeke kozo zo
+  ni, 16me Nzapa abaa mawa ti mbi. Tongaso, J\u00e9sus Christ akanga be ti lo mingi
+  ti ku mbi, mbi so mbi yeke kozo zo ti sarango siokpari. Mbi ga tapande ndali ti
+  azo so ayeke ma na be ande na lo ti wara fini so angba lakue lakue. 17Ayeke nzoni
+  azo ane Kota Gbia, ala gonda lo lakue lakue, lo yeke oko Nzapa, zo abaa lo pepe,
+  lo yeke na fini lakue lakue, lo yeke Kota Gbia kpu na kpu! Amen. 18Timoth\u00e9e,
+  molenge ti mbi, aye so mbi fa, mbi zia na maboko ti mo, alingbi na at\u00ebn\u00eb
+  ti peko ti yanga ti Nzapa so azo atene na nd\u00f6 ti mo. Ayeke nzoni mo luti na
+  nd\u00f6 ti at\u00ebn\u00eb ni ti tiri nzoni bira na legeni; 19mo bata mabe nzoni,
+  mo duti na be so sioni ye oko ayeke daa pepe. Ambeni zo ake ti bata be ti ala nzoni,
+  nilaa mabe ti ala ati. 20Himene na Alexandre ayeke na popo ti azo ni so. Mbi zia
+  ala na maboko ti Satan titene ala manda ti kiri ti zonga Nzapa pepe.\"", "\"Bible
+  na ndo ti Internet\\nMBETI TI NZAPA TI FINI DUNIA\\n14 ALA yamba zo so mabe ti lo
+  akpengba kue p\u00ebpe, me ALA f\u00e2 ngbanga p\u00ebpe na ndo ti at\u00ebn\u00eb
+  so lo yeke hunda na tere ti lo.\\n2 Mbeni zo ayeke na mabe ti te ye kue, me zo so
+  awoko ate akugbe-kasa.\\n3 Zia zo so ayeke te ye ni ab\u00e2 zo so ayeke te ye ni
+  p\u00ebpe tongana mbumbuse zo p\u00ebpe, nga zo so ayeke te ye ni p\u00ebpe af\u00e2
+  ngbanga p\u00ebpe na li ti zo so ayeke te ye ni, teti Nzapa ayamba zo so awe.\\n4
+  Mo yeke zo wa si mo f\u00e2 ngbanga na li ti zo ti kua ti mba ti mo? A yeke na gbele
+  wa ti lo si lo yeke luti wala lo yeke t\u00ef. Biani, a yeke sara ande si lo luti,
+  teti J\u00e9hovah alingbi ti sara si lo luti.\\n5 Mbeni zo ab\u00e2 ti lo mbeni
+  lango tongana kota lango ahon mbeni. Mbeni nde ab\u00e2 ti lo mbeni lango ni tongana
+  atanga ni kue. Zia zo oko oko ahinga na y\u00e2 ti li ti lo so ye ni ayeke biani
+  tongaso.\\n6 Zo so ayeke bata mbeni lango, lo bata ni ndali ti J\u00e9hovah. Nga
+  zo so ate ye, ate ye ndali ti J\u00e9hovah, ngbanga ti so lo m\u00fb singila na
+  Nzapa. Na zo so ate ye p\u00ebpe, ate ye p\u00ebpe ndali ti J\u00e9hovah, me lo
+  m\u00fb singila na Nzapa.\\n7 Biani, mbeni zo na popo ti e ayeke duti na fini gi
+  ndali ti lo wani p\u00ebpe, nga mbeni zo na popo ti e ayeke kui gi ndali ti lo wani
+  p\u00ebpe.\\n8 At\u00e2a tongana e duti na fini, e duti na fini ndali ti J\u00e9hovah,
+  nga at\u00e2a e kui, e kui ndali ti J\u00e9hovah. Tongaso, at\u00e2a tongana e duti
+  na fini wala e kui, e yeke ti J\u00e9hovah.\\n9 Teti a yeke ndali ti ye so si Christ
+  akui na lo kiri na fini: ti tene lo duti Seigneur na ndo ti aku\u00e2 nga na ndo
+  ti azo so ayeke na fini.\\n10 Me mo yeke f\u00e2 ngbanga na li ti ita ti mo ndali
+  ti nyen? Wala mo yeke b\u00e2 nga ita ti mo tongana mbumbuse zo ndali ti nyen? Teti
+  fade e kue a yeke iri e ti luti na gbele ngbanga ti Nzapa.\\n11 Teti a s\u00fb na
+  Mbeti ti Nzapa, a tene: \u201cJ\u00e9hovah atene: \u2018Ti t\u00e2 t\u00ebn\u00eb
+  ni, likuni oko oko kue ayeke kuku ande na gbele mbi, na yanga oko oko kue ayeke
+  sepela ande Nzapa polele.\u2019 \u201d\\n12 Tongaso, fade zo oko oko na popo ti
+  e ayeke kiri t\u00ebn\u00eb na Nzapa ndali ti lo wani.\\n13 Ni la, zia e f\u00e2
+  ngbanga na li ti mba mbeni p\u00ebpe, me zia ALA m\u00fb desizion so: ti zia p\u00ebpe
+  na gbele mbeni ita mbeni ye so lo yeke pika gere ti lo d\u00e4 wala mbeni ye so
+  ayeke sara si lo t\u00ef.\\n14 Na y\u00e2 ti Seigneur J\u00e9sus, mbi hinga na mbi
+  hinga biani mbi tene so mbeni ye ti salet\u00e9 tongaso ayeke d\u00e4 p\u00ebpe.
+  Gi tongana mbeni zo ab\u00e2 so mbeni ye ayeke ye ti salet\u00e9, si na l\u00ea
+  ti lo ye ni ayeke ye ti salet\u00e9.\\n15 Teti tongana ndali ti kobe ita ti mo awara
+  vundu, mo yeke tambela mbeni p\u00ebpe alingbi na ndoye. Zia p\u00ebpe si na lege
+  ti kobe ti mo, mo futi lege ti lo so Christ akui ndali ti lo.\\n16 Tongaso, nzoni
+  ye so ALA yeke sara, ALA m\u00fb lege na azo ti tene sioni t\u00ebn\u00eb ni p\u00ebpe.\\n17
+  Teti royaume ti Nzapa ayeke p\u00ebpe t\u00ebn\u00eb ti tengo ye na nyongo ye, me
+  a yeke mbilimbili na siriri na ngia na lege ti yingo vulu.\\n18 Teti na ndo ti t\u00ebn\u00eb
+  so, zo so ayeke sara kua na Christ tongana ngb\u00e2a, lo nzere na l\u00ea ti Nzapa,
+  na azo ayeke b\u00e2 lo na nzoni l\u00ea.\\n19 Tongaso, zia e tomba peko ti aye
+  so ayeke ga na siriri na aye so ayeke kpengba mba na popo ti e.\\n20 Mo zia ti futi
+  kusala ti Nzapa gi ndali ti kobe. T\u00e2 t\u00ebn\u00eb, aye kue ayeke nzoni biani,
+  me a yeke sioni na mbeni zo ti te ye na a sara si mba ti lo apika gere ti lo.\\n21
+  A yeke nzoni mo te nyama p\u00ebpe wala mo nyon vin p\u00ebpe wala mo sara p\u00ebpe
+  mbeni ye so ndali ni ita ti mo at\u00ef.\\n22 Mabe so mo yeke na ni, bata ni ndali
+  ti mo na l\u00ea ti Nzapa. Ngia ayeke na zo so azia tere ti lo na gbe ti ngbanga
+  p\u00ebpe ndali ti ye so lo yeda ti sara ni.\\n23 Me tongana lo yeke na kite, a
+  f\u00e2 ngbanga na li ti lo awe tongana lo te ni ngbanga ti so lo te ni na mabe
+  p\u00ebpe. Biani, ye kue so a sara ni na lege ti mabe p\u00ebpe ayeke siokpari.\"",
+  "\"Bia 49 na sambela\\nAt\u00ebn\u00eb ti tongo nda ni (ahon pn. 3 p\u00ebpe)\\nANZONI
+  YE SO AYEKE NA Y\u00c2 TI BIBLE\\n\u201cNgb\u00e2 na ndo ti lingo ti Lo Ti Nduzu
+  Ahon Kue\u201d: (pn. 10)\\nPs 91:1, 2\u2014\u201cNdo ti lingo\u201d ti J\u00e9hovah
+  am\u00fb na e nzoni duti na lege ti yingo (w10 1/2 l. 30 par. 10-11)\\nPs 91:3\u2014Tongana
+  ti mbeni zo ti gbungo ndeke, Satan ayeke gi ti gbu e (w07 1/10 l. 28-32 par. 1-18)\\nPs
+  91:9-14\u2014J\u00e9hovah ayeke ndo ti bata tere ti e (w10 1/1 l. 16-17 par. 13-14;
+  w01 15/11 l. 19-20 par. 13-19)\\nGi anzoni ye so ayeke na y\u00e2 ti Bible: (pn.
+  8)\\nPs 89:35-38\u2014Mbele wa la a sara t\u00ebn\u00eb ni na y\u00e2 ti avers\u00ea
+  so, nga tongana nyen la J\u00e9hovah am\u00fb tapande ti fa so azo alingbi ti zia
+  b\u00ea ti ala na ndo ni? (w14 15/10 l. 10 par. 14; w07-F 15/7 32 par. 3-4)\\nPs
+  90:10, 12\u2014Tongana nyen la e lingbi ti \u201cdiko l\u00e2 ti e, si e lingbi
+  wara b\u00ea so ayeke na ndara\u201d? (w06 15/7 l. 13 par. 4; w01 15/11 l. 13 par.
+  19)\\nNyen la dikongo Bible ti yenga so afa na mbi na ndo ti J\u00e9hovah?\\nAye
+  wa la ayeke na y\u00e2 ti dikongo Bible ti yenga so, so mbi lingbi ti sara kua na
+  ni na fango t\u00ebn\u00eb?\\nDikongo Bible: (ahon pn. 4 p\u00ebpe) Ps 90:1-17\\nMA\u00cf
+  AKODE TI FANGO T\u00cbN\u00cb TI MO\\nLeke akode ti fango na t\u00ebn\u00eb ti nze
+  so: (pn. 15) Lisoro. Zia vid\u00e9o ti kode ti fango na t\u00ebn\u00eb oko oko,
+  na pekoni sara lisoro na ndo ti akota t\u00ebn\u00eb ni. Wa aita ti leke akode ti
+  fango na t\u00ebn\u00eb ti ala wani.\\nGIGI TI E TI CHR\u00c9TIEN\\nBezoin ti congr\u00e9gation:
+  (pn. 5)\\n\u201cMa\u00ef akode ti fango t\u00ebn\u00eb ti mo: M\u00fb maboko na
+  azo so ayeke manda Bible ti gue na li ni ti m\u00fb tere ti ala na Nzapa na ti wara
+  bat\u00eame\u201d: (pn. 10) Lisoro. Hunda at\u00ebn\u00eb so na mbeni wafango t\u00ebn\u00eb
+  so am\u00fb maboko lani na mbeni zo ti gue na li ni ti m\u00fb tere ti lo na Nzapa
+  na ti wara bat\u00eame. Tongana nyen la mo tara lani ti ma\u00ef ndoye ti J\u00e9hovah
+  na y\u00e2 ti b\u00ea ti zo so mo yeke manda Bible na lo? Tongana nyen la mo m\u00fb
+  lani maboko na lo ti zia ambeni ye ti si d\u00e4 na lege ti yingo?\\nMandango Bible
+  ti Congr\u00e9gation: (pn. 30) ia chap. 21 par. 1-12\\nKiri kete na ndo ti ye so
+  ala manda nga fa ye so ala yeke b\u00e2 na yenga ti peko (pn. 3)\\nBia 137 na sambela\"",
+  "\"16 Paul asi na Derb\u00e9 nga na Lystres. Na b\u00e2, mbeni disciple ayeke k\u00e2
+  so iri ti lo ayeke Timoth\u00e9e. Lo yeke molenge ti mbeni wali Juif so am\u00e4
+  na b\u00ea, me bab\u00e2 ti lo ayeke mbeni Grec.\\n2 Aita na Lystres nga na Iconium
+  ayeke sara nzoni t\u00ebn\u00eb ti lo mingi.\\n3 Paul atene so lo yeke na nzara
+  ti m\u00fb koli so na tere ti lo si ala gue. Tongaso lo m\u00fb Timoth\u00e9e na
+  lo f\u00e2 lo na ganza ndali ti aJuif so ayeke na ando ni so, teti ala kue ahinga
+  so bab\u00e2 ti lo ayeke Grec.\\n4 Tongana ala yeke hon na y\u00e2 ti agbata ni,
+  ala yeke m\u00fb na ala so ayeke na ando ni ambela so abazengele nga na a-ancien
+  so ayeke na J\u00e9rusalem am\u00fb ti tene ala sara ye alingbi na ni.\\n5 Tongaso
+  acongr\u00e9gation angb\u00e2 ti kpengba na y\u00e2 ti mabe na wungo ti aita ni
+  ayeke gue na li ni l\u00e2 na l\u00e2.\\n6 Na ndo ni, ala hon na y\u00e2 ti Phrygie
+  nga na y\u00e2 ti kodoro ti Galatie, teti yingo vulu ake na ala ti sara t\u00ebn\u00eb
+  so na y\u00e2 ti kodoro-komanda ti Asie.\\n7 Nga, tongana ala zu na Mysie, ala sara
+  ngangu ti l\u00ef na Bithynie, me yingo ti J\u00e9sus am\u00fb lege na ala p\u00ebpe.\\n8
+  Tongaso ala hon na tere ti Mysie na ala zu na Troas.\\n9 Na b\u00ef ni, mbeni ye
+  asi na Paul tongana suma: mbeni koli ti Mac\u00e9doine ayeke luti na ayeke voro
+  yanga na lo atene: \u201cGa na Mac\u00e9doine mo m\u00fb maboko na e.\u201d\\n10
+  Gi so lo b\u00e2 suma ni awe, e gi lege ti l\u00ef na Mac\u00e9doine, teti e b\u00e2
+  so Nzapa si airi e ti fa nzoni t\u00ebn\u00eb na ala.\\n11 Tongaso e londo na Troas,
+  e m\u00fb l\u00ea ti ngu-ingo ni na e kpe gi kpengo juska e si na Samothrace, me
+  na ndade ni e si na N\u00e9apolis.\\n12 E londo na ndo so e gue na Philippes, mbeni
+  gbata so ayeke na gbe ti Rome na so ayeke kota gbata ti sese ti Mac\u00e9doine.
+  E ngb\u00e2 na y\u00e2 ti gbata ni, na e sara ambeni lango kete na ndo so.\\n13
+  Na l\u00e2 ti sabbat, e sigigi na yanga ti gbagba ti gbata ni so ayeke na tere ti
+  mbeni kota ngu, ndo so e b\u00e2 e tene mbeni ndo ti sambela ayeke d\u00e4. E duti
+  na e to nda ti sara t\u00ebn\u00eb na awali so abungbi fade na ndo ni so.\\n14 Na
+  mbeni wali ayeke d\u00e4 so iri ti lo ayeke Lydie, lo yeke zo ti kango abengba bongo
+  so avuko kete, lo yeke zo ti gbata ti Thyatire nga mbeni wavorongo Nzapa. Lo yeke
+  m\u00e4 e nga J\u00e9hovah azi b\u00ea ti lo kota ti dengi m\u00ea na aye so Paul
+  ayeke tene.\\n15 Tongana a batize lo, nga na azo ti da ti lo awe, lo voro yanga
+  ti lo na e, lo tene: \u201cTongana ALA b\u00e2 so mbi yeke be-ta-zo na J\u00e9hovah,
+  ALA ga na da ti mbi na ALA ngb\u00e2.\u201d Na lo sara kue si e gue na da ti lo.\\n16
+  Na tongana e yeke gue na ndo ti sambela, mbeni maseka-wali so ayeke zo ti kua nga
+  so ayeke na mbeni yingo na y\u00e2 ti lo, mbeni sioni yingo ti bango mbadi, atingbi
+  na e. Lakue lo yeke ga na gb\u00e2 ti aye na awa ti lo na lege ti kua ti lo ti fango
+  gigi ti kekereke na azo.\\n17 Maseka-wali ni angb\u00e2 lakue ti m\u00fb peko ti
+  e na Paul na lo yeke dekongo, lo tene: \u201cAkoli so ayeke angb\u00e2a ti Nzapa
+  so ayeke na nduzu na ndo ti aye kue, akoli so ayeke fa na ALA lege ti warango salut.\u201d\\n18
+  Lo ngb\u00e2 gi ti sara tongaso teti alango mingi. Na nda ni, Paul awoko na t\u00ebn\u00eb
+  ni awe si lo turn\u00ea, lo tene na yingo ni: \u201cMbi m\u00fb yanga na mo na iri
+  ti J\u00e9sus Christ ti sigigi na y\u00e2 ti wali so.\u201d Na yingo ni asigigi
+  na y\u00e2 ti lo t\u00e2 gi na ngbonga ni so.\\n19 Tongana awa ti lo ab\u00e2 so
+  lege ti warango aye ti ala ni akanga awe, ala zia maboko na ndo ti Paul na Silas
+  na ala gue na ala na ngangu na gara na ndo ti amokonzi,\\n20 na tongana ala gue
+  na ala na gbele azo ti komande ti gbata ni, ala tene: \u201cAkoli so ayeke bi wusuwusu
+  mingi na y\u00e2 ti gbata ti e, ala yeke aJuif,\\n21 na ala yeke fa ambeni ngobo
+  so ndia am\u00fb lege na e p\u00ebpe ti yeda na ni na ti sara ye alingbi na ni,
+  teti so e yeke aRomain.\u201d\\n22 Na gb\u00e2 ti azo ni alondo na tere ti ala.
+  Na peko ti so azo ti komande ti gbata ni azi na ngangu abongo ti ala ti ndo ni na
+  tere ti ala awe, ala m\u00fb yanga ti tene a pika ala na keke.\\n23 Tongana a pika
+  ala mingi awe, ala bi ala na da ti kanga, na ala m\u00fb yanga na zo ti batango
+  da ti kanga ni ti b\u00e2 ndo na ndo ti ala nzoni.\\n24 Teti so a m\u00fb yanga
+  na lo tongaso, lo bi ala na da ti kanga ti y\u00e2 ni k\u00e2 na lo kanga gere ti
+  ala ngangu na y\u00e2 ti akeke so a koro d\u00fb d\u00e4.\\n25 Me a si na b\u00ea
+  ti b\u00ef tongaso, Paul na Silas ayeke sambela na ala yeke he bia ti sepela Nzapa.
+  Biani, ambeni zo ti kanga ni ayeke m\u00e4 go ti ala.\\n26 Mo ye ti b\u00e2, sese
+  ayengi ngangu, tongaso agere ti da ti kanga ni ayengi. Nga, ayanga-da ni kue azi
+  gi hio tongaso, na azingiri so a kanga na ala kue azi at\u00ef.\\n27 Zo ti batango
+  da ti kanga ni, tongana lo zingo na lango na lo b\u00e2 so ayanga ti da ti kanga
+  ni azi, lo gboto \u00e9p\u00e9e ti lo na lo ye ti f\u00e2 tere ti lo, teti lo b\u00e2
+  lo tene azo ti kanga ni akpe awe.\\n28 Me Paul adekongo na kota go, lo tene: \u201cSara
+  sioni na tere ti mo p\u00ebpe, e kue la ge so!\u201d\\n29 Tongaso zo ti batango
+  da ti kanga ni ahunda ti tene a ga na lo w\u00e2, lo l\u00ef na y\u00e2 ti da ni
+  na loro, na so tere ti lo ayeke d\u00f6 dongo, lo t\u00ef na sese na gbele Paul
+  na Silas.\\n30 Lo m\u00fb ala lo sigigi na ni na lo tene: \u201cAkota zo, a lingbi
+  mbi sara nyen si a s\u00f6 mbi?\u201d\\n31 Ala tene: \u201cM\u00e4 na b\u00ea na
+  Seigneur J\u00e9sus na fade a s\u00f6 mo, mo na azo ti da ti mo.\u201d\\n32 Na Paul
+  na Silas atene t\u00ebn\u00eb ti J\u00e9hovah na lo nga na azo kue so ayeke na y\u00e2
+  ti da ti lo.\\n33 Lo m\u00fb ala na ngbonga ni so na b\u00ef ni, lo sukula ak\u00e4
+  ti ala; t\u00e2 gi na pekoni a batize lo na azo ti da ti lo kue.\\n34 Lo ga na ala
+  na y\u00e2 ti da ti lo, lo leke table na gbele ala, na tere ti lo anzere mingi,
+  lo na azo ti da ti lo kue, teti fadeso lo m\u00e4 na b\u00ea na Nzapa awe.\\n35
+  Tongana ndo ahan awe, azo ti komande ti gbata ni atokua aturugu ti polisi ti tene
+  na lo: \u201cMo zi akoli so.\u201d\\n36 Tongaso zo ti batango da ti kanga ni afa
+  peko ti at\u00ebn\u00eb ti ala ni na Paul, lo tene: \u201cAzo ti komande ti gbata
+  ni atokua azo ti tene a zi ALA. Tongaso, ALA sigigi ALA gue na siriri.\u201d\\n37
+  Me Paul atene na ala: \u201cAla pika e na l\u00ea ti azo, e so a d\u00eb ngbanga
+  fade na li ti e p\u00ebpe, e so e yeke aRomain, na ala bi e na da ti kanga. Na fadeso
+  ala ye ti zia e na gigi na hondengo ni? E ke awe! Me zia ala wani aga asigigi na
+  e.\u201d\\n38 Tongaso aturugu ti polisi ni afa peko ti at\u00ebn\u00eb so na azo
+  ti komande ni. Tongana azo ti komande ni am\u00e4 so Paul na Silas ayeke aRomain,
+  mbeto agbu ala mingi.\\n39 Ni la, ala ga ala voro yanga na Paul na Silas, na tongana
+  ala sigigi na ala awe, ala hunda na ala ti zia gbata ni ti hon.\\n40 Ala sigigi
+  na da ti kanga ni na ala gue na da ti Lydie, na tongana ala b\u00e2 aita, ala kpengba
+  aita ni, na pekoni ala hon.\"", "\"Bassil Abdourahman Alrawy\\nKugbeffunda\\nLi
+  ni: Bassil Abdourahman Alrawy\\nNduru t\u00ebn\u00eb: Lo yeke wandara Bassil ben
+  Abdourahman Alrawy, adou lo na Bagdad kodoro sesse ti Iraq /Al ouzayma ngou 1953
+  lo ounzi mandango mbeti ti lo na dassendagui ti Bagdad na ndokwa ti nzya nga na
+  porosso na ngou 1975 lo yeke na molongo oko na popo ti amba ti lo , ndokwa ti gbene
+  gbya ti agueni atisa lo ti ga diplomat na ngou 1977, lo za koussala ni na ngou 1990
+  , si lo tonda ti mandango Koran ,lo wara kota mbeti ti awadikongo Koran na legue
+  ti Hafs ti Assim na maboko ti Wandara docter Mohammed Sadati El chinguiti so lo
+  ye ke fa mbeti na dassendagui ti Imam Mohammed ben Saour na kodoro sesse ti Riyad
+  na ngou 1997. Lo ye ke lango na Riyad li kodoro sesse ti Arabie saoudite\\nLango
+  ti zango mbeni ye na ndoni: 2015-03-19\\nNduru t\u00f4mb\u00f4 t\u00ee simb\u00e4:
+  http://IslamHouse.com/824923\\nMbeti so agb\u00eeangbini na yanga ti kodro tonga
+  na :: y\u00e2ng\u00e2 t\u00ee arabo - Y\u00e2ng\u00e2 t\u00ee Angl\u00ebe - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6
+  ti Tajikistan - Y\u00e2ng\u00e2 t\u00ee kodoro ti kanada - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6
+  ti bangalagesh - y\u00e2ng\u00e2 ti Teluga - Y\u00e2ng\u00e2 t\u00ee kodoro ti Nepal
+  - Y\u00e2ng\u00e2 t\u00ee k\u00f6d\u00f6r\u00f6 ti Mandeng - Y\u00e2ng\u00e2 t\u00ee
+  chinois - Y\u00e2ng\u00e2 ti Akane - y\u00e2ng\u00e2 t\u00ee franzi - Y\u00e2ng\u00e2
+  t\u00ee Urdu - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6 ti Tayland - Y\u00e2ng\u00e2
+  t\u00ee kodoro ti Albaniya - Y\u00e2ng\u00e2 ti Sonenki - y\u00e2ng\u00e2 t\u00ee
+  kodoro ti Hollonde - y\u00e2ng\u00e2 t\u00ee persian - Y\u00e2ng\u00e2 ti Bambara
+  - Y\u00e2ng\u00e2 t\u00ee k\u00f6d\u00f6r\u00f6 t\u00ee Malayalam - Yanga ti Kodoro
+  ti Roumanie - Y\u00e2ng\u00e2 t\u00ee Uyghur - Y\u00e2ng\u00e2 t\u00ee kodoro ti
+  Grece - y\u00e2ng\u00e2 t\u00ee kodoro ti Vietnam - Y\u00e2ng\u00e2 t\u00ee ti kodoro
+  ti armeni - Y\u00e2ng\u00e2 t\u00ee osbek - Y\u00e2ng\u00e2 ti Afar - Y\u00e2ng\u00e2
+  t\u00ee amhari - Y\u00e2ng\u00e2 ti kodoro ti Itali - Y\u00e2ng\u00e2 t\u00ee kurde
+  - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6 ti Tegrenie - Y\u00e2ng\u00e2 t\u00ee kodoro
+  ti spaniya - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6 ti Somalie - Y\u00e2ng\u00e2 ti
+  Wolof - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6 ti Sinhales - Y\u00e2ng\u00e2 t\u00ee
+  kodoro ti Hainde - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6 ti Tamili - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6
+  ti Turkmani - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6 ti portugale - Y\u00e2ng\u00e2
+  t\u00ee Swahili - Y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6 ti bosnie - y\u00e2ng\u00e2k\u00f6d\u00f6r\u00f6
+  ti turki - Assami - y\u00e2ng\u00e2 t\u00ee kodoro ti Kazakistan - Yanga ti ti Russe\\nA
+  mar\u00e4 s\u00f4 akpa t\u00ebr\u00eb ( 0 )\"", "\"Bible na ndo ti Internet | MBETI
+  TI NZAPA TI FINI DUNIA\\n-\\nJ\u00e9sus asava mbeni zo so mbage ti ter\u00ea ti
+  lo akui (1-8)\\n-\\nJ\u00e9sus airi Matthieu (9-13)\\n-\\nT\u00ebn\u00eb na nd\u00f6
+  ti mungo je\u00fbne (14-17)\\n-\\nMolenge ti Ja\u00efrus; mbeni wali andu yanga
+  ti bongo ti J\u00e9sus (18-26)\\n-\\nJ\u00e9sus asava mbeni waziba nga mbeni koli
+  so yanga ti lo akanga (27-34)\\n-\\nAl\u00ea ti kobe ni ayeke mingi, me azo ti kua
+  ni ayeke mingi ape (35-38)\\n9 Tongaso, lo mont\u00e9 na y\u00e2 ti ng\u00f6, lo
+  f\u00e2 ngu na lo gue na gbata ti lo.+\\n2 Na b\u00e2, ala yeke ga na lo mbeni zo
+  so mbage ti ter\u00ea ti lo akui na so alango na nd\u00f6 ti kete gbogbo. Tongana
+  J\u00e9sus ab\u00e2 mabe ti ala, lo tene na koli so mbage ti ter\u00ea ti lo akui
+  so: \u201cGbu ngangu, molenge ti mbi. A pardonn\u00e9 siokpari ti mo awe.\u201d+\\n3
+  Me ambeni scribe atene na b\u00ea ti ala: \u201cKoli so ayeke zonga Nzapa la.\u201d\\n4
+  So J\u00e9sus ahinga apens\u00e9 ti ala, lo tene: \u201cNgbanga ti nyen ala yeke
+  tene asioni t\u00ebn\u00eb na y\u00e2 ti b\u00ea ti ala?+\\n5 Na tapande, ti tene:
+  \u2018A pardonn\u00e9 asiokpari ti mo awe,\u2019 wala ti tene: \u2018Londo, mo tambela,\u2019
+  so wa si ayeke ngangu ape?+\\n6 Ye oko, ti tene ala hinga so a m\u00fb komandema
+  na Molenge ti zo na nd\u00f6 ti sese ti pardonn\u00e9 siokpari. . .\u201d, lo tene
+  na zo so mbage ti ter\u00ea ti lo akui so: \u201cLondo, mo m\u00fb kete gbogbo ti
+  mo, mo gue na da ti mo.\u201d+\\n7 Lo londo, lo gue na da ti lo.\\n8 Tongana gb\u00e2
+  ti azo ni ab\u00e2 ye so, mbeto asara ala, na ala m\u00fb gloire na Nzapa, lo so
+  am\u00fb mara ti komandema tongaso na azo.\\n9 Tongana J\u00e9sus azia ndo ni si
+  lo yeke hon, l\u00ea ti lo at\u00ef na nd\u00f6 ti mbeni koli so iri ti lo ayeke
+  Matthieu, so ayeke duti na da ti rongo nginza ti imp\u00f4t. Lo tene na lo: \u201cM\u00fb
+  peko ti mbi.\u201d Na mango t\u00ebn\u00eb so, lo londo, lo m\u00fb peko ti lo.+\\n10
+  Na pekoni, na ngoi so lo yeke te kobe na y\u00e2 ti da ni, b\u00e2, gb\u00e2 ti
+  azo ti rongo nginza ti imp\u00f4t nga na awasiokpari aga, na ala yeke te kobe na
+  J\u00e9sus na adisciple ti lo.+\\n11 Me tongana aFarizien ab\u00e2 ye so, ala tene
+  na adisciple ti lo: \u201cNgbanga ti nyen ma\u00eetre ti ala ayeke te kobe na azo
+  ti rongo nginza ti imp\u00f4t nga na awasiokpari?\u201d+\\n12 Na mango ala, J\u00e9sus
+  atene: \u201cAzo so ayeke na nzoni ter\u00ea ayeke na bezoin ti wanganga p\u00ebpe,
+  me g\u00ef azo ti kobela.+\\n13 Ala gue agi ti hinga nda ti t\u00ebn\u00eb so atene:
+  \u2018Mbi ye sarango nzoni b\u00ea na zo, me mbi ye sandaga p\u00ebpe.\u2019+ Ndali
+  ti so mbi ga ti iri azo ti mbilimbili p\u00ebpe, me awasiokpari.\u201d\\n14 Na pekoni,
+  adisciple ti Jean aga ahunda lo, atene: \u201cNgbanga ti nyen la si e na aFarizien
+  e yeke m\u00fb je\u00fbne, me adisciple ti mo ayeke m\u00fb je\u00fbne ape?\u201d+\\n15
+  Na nd\u00f6 ti t\u00ebn\u00eb so, J\u00e9sus atene na ala: \u201cNa ngoi kue so
+  koli so am\u00fb wali fini fini+ angb\u00e2 na ter\u00ea ti akamarade ti lo, ala
+  yeke na raison oko p\u00ebpe ti sara vundu. Me ambeni lango ayeke ga ande so a yeke
+  zi lo na ter\u00ea ti ala;+ na ngoi ni so la si ala yeke m\u00fb je\u00fbne.\\n16
+  Zo ayeke m\u00fb fini yanga ti bongo ti f\u00fc na l\u00ea ti k\u00e4 ti ngbene
+  bongo p\u00ebpe. Me tongana lo sara ni, fini yanga ti bongo ni ayeke gboto y\u00e2
+  ti ngbene bongo ni, na l\u00ea ti k\u00e4 ni ayeke kiri ti kono.+\\n17 Nga, azo
+  ayeke tuku fini vin na y\u00e2 ti angbene bozo ti vin p\u00ebpe. Me tongana ala
+  tuku ni d\u00e4, abozo ni ayeke sungba na vin ni ayuru kirikiri na bozo ni abuba.
+  Ye oko, azo ayeke tuku fini vin na y\u00e2 ti afini bozo ti vin, na abozo ni na
+  vin ni kue angb\u00e2 nzoni.\u201d\\n18 Tongana lo ngb\u00e2 ti sara t\u00ebn\u00eb
+  na ala, b\u00e2, mbeni mokonzi apusu nduru, lo ba li ti lo na gbe ti lo, lo tene:
+  \u201cTi si na ngoi so, \u00e2manke molenge ti mbi ti wali akui awe. Me mo ga mo
+  zia maboko ti mo na nd\u00f6 ti lo na lo yeke kiri na fini.\u201d+\\n19 J\u00e9sus
+  alondo, na lo na adisciple ti lo ague na peko ti mokonzi so.\\n20 Me mbeni wali
+  ayeke d\u00e4 so ayeke na kobela so asara si m\u00ean\u00eb ayeke ga na ter\u00ea
+  ti lo mingi,+ a sara ngu 12 awe. Lo ga na mbage ti peko ti J\u00e9sus na lo ndu
+  yanga ti bongo ti lo ti nd\u00f6 ni.+\\n21 Wali ni ayeke tene na y\u00e2 ti b\u00ea
+  ti lo, atene: \u201cTongana mbi ndu g\u00ef bongo ti lo ti nd\u00f6 ni, mbi yeke
+  sava.\u201d\\n22 J\u00e9sus atourn\u00e9, na tongana lo b\u00e2 wali ni, lo tene:
+  \u201cMolenge ti mbi ti wali, mo gbu ngangu; mabe ti mo asava mo awe.\u201d+ G\u00ef
+  na l\u2019heure ni so, ter\u00ea ti wali ni asava.+\\n23 Na ngoi so J\u00e9sus al\u00ef
+  na da ti mokonzi ni, l\u00ea ti lo at\u00ef na nd\u00f6 ti azo ti hurungo fl\u00fbte
+  nga na gb\u00e2 ti azo so ayeke sara wuluwulu.+\\n24 J\u00e9sus atene: \u201cAla
+  sigi, ndali ti so kete molenge-wali ni akui p\u00ebpe, me lo yeke lango.\u201d+
+  Na nd\u00f6 ti t\u00ebn\u00eb so, ala komanse ti he lo na ti zere lo.\\n25 G\u00ef
+  so a tomba gb\u00e2 ti azo ni na gigi awe, J\u00e9sus al\u00ef na da ni, lo gbu
+  maboko+ ti kete molenge-wali ni na molenge ni alondo.+\\n26 T\u00ebn\u00eb ti ye
+  so am\u00fb y\u00e2 ti ndo ni kue.\\n27 Tongana J\u00e9sus azia ndo ni si lo yeke
+  hon, awaziba use+ am\u00fb peko ti lo, ala yeke dekongo, ala tene: \u201cSara nzoni
+  b\u00ea na e, Molenge ti David.\u201d\\n28 Na peko ti so J\u00e9sus al\u00ef na
+  y\u00e2 ti da, awaziba ni aga na ter\u00ea ti lo, na lo hunda ala, lo tene: \u201cAla
+  yeke na mabe so mbi lingbi ti sara ye so?\u201d+ Ala kiri t\u00ebn\u00eb na lo:
+  \u201cEn, Seigneur.\u201d\\n29 Lo ndu l\u00ea ti ala,+ lo tene: \u201cZia ye ni
+  asi na ala alingbi na mabe ti ala.\u201d\\n30 Na l\u00ea ti ala azi. Nga, J\u00e9sus
+  agboto m\u00ea ti ala ngangu, lo tene: \u201cZia si mbeni zo am\u00e4 t\u00ebn\u00eb
+  ni p\u00ebpe.\u201d+\\n31 Me na peko ti so ala sigi na y\u00e2 ti da ni awe, ala
+  sara si sango ti lo am\u00fb y\u00e2 ti ndo ni kue.\\n32 Tongana ala zia ndo ni
+  si ala yeke hon, b\u00e2, azo aga na lo mbeni koli so yanga ti lo akanga nga so
+  sioni yingo ayeke na y\u00e2 ti lo.+\\n33 Na peko ti so lo tomba sioni yingo ni
+  awe, koli ni asara t\u00ebn\u00eb.+ B\u00ea ti gb\u00e2 ti azo ni ad\u00f6, ala
+  tene: \u201cL\u00e2 oko ade a b\u00e2 mara ti ye tongaso na Isra\u00ebl p\u00ebpe.\u201d+\\n34
+  Me aFarizien atene: \u201cLo yeke tomba asioni yingo na ngangu ti mokonzi ti asioni
+  yingo.\u201d+\\n35 J\u00e9sus atambela na y\u00e2 ti agbata nga na akete kodro oko
+  oko kue. Lo fa ye na y\u00e2 ti asynagogue ti ala nga lo fa nzoni t\u00ebn\u00eb
+  ti Royaume. Lo sava mara ti akobela nde nde kue nga na ambage ti ter\u00ea nde nde
+  kue so abuba.+\\n36 Tongana lo b\u00e2 gb\u00e2 ti azo so, mawa ti ala asara lo+
+  ngbanga ti so a sara pasi na ala nga y\u00e2 ti ala akangbi kirikiri tongana ataba
+  so ayeke na berger p\u00ebpe.+\\n37 Lo tene na adisciple ti lo: \u201cBiani, akobe
+  ti fango ni ayeke mingi, me azo ti kua ni ayeke mingi p\u00ebpe.+\\n38 Tongaso,
+  ala voro yanga na Wa ti kua ni ti tokua azo ti kua ti f\u00e2 akobe ti yaka ti lo.\u201d+\"",
+  "\"aya \\\\a\u02e9.ja\u02e9\\\\\\n- L\u00eapa t\u00ee ot\u00e2 zo t\u00ee pal\u00ee
+  ya\\n- Rispa, molenge-wali ti aya, amu bongo ti mua so lo yu so, lo gbara na nd\u00f6
+  ti kota t\u00eane si lo yeke lango na nd\u00f6 ni, ti londo na ngoi so azo ato nda
+  ti fa ale ti kobe ngbii asi na ngoi so ngu-Nzapa ato nda ti pika na nd\u00f6 ti
+  ku\u00e2 ti azo ni. Na kota l\u00e2, Rispa ayeke tumba andeke ti nduzu titene ala
+  ga aduti na nd\u00f6 ti aku\u00e2 ni pepe; na bi, lo yeke tumba anyama ti ngonda
+  yongoro na tere ti aku\u00e2 ni. \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de
+  Centrafrique, 2010, 2Sa.21.10 \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- \u201cTongana
+  lege titene wali ni awara kete taba ayeke daa pepe, fade lo yeke ga na akolokoto
+  use wala ambipa use. Mbeni ndeke ni oko, lo yeke mu na sandaga so a yeke gbi ni
+  kue na w\u00e2; mbeni ndeke ni, lo yeke mu ndali siokpari ti lo. Na peko ti so wayango-sandaga
+  aya asandaga ni titene Nzapa azi siokpari na li ti lo awe, a sukula lo awe.\u201d
+  \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de Centrafrique, 2010, Lev.12.8 \u2192
+  d\u00eeko mb\u00ebt\u00ef)\\n- Wayango-sandaga ayeke ya sandaga ni na KOTA GBIA.
+  Tongana wayango-sandaga aya sandaga ni titene KOTA GBIA azi siokpari na li ti wali
+  ni awe, andaa a sukula lo na peko ti mene so atuku na tere ti lo na ndembe ti dungo
+  ni so awe.\u201d So ayeke ndia ndali ti wali so adu molenge-koli wala molenge-wali
+  laa. \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de Centrafrique, 2010, Lev.12.7
+  \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- Me gbia amu Armoni na Mefiboshet, amolenge
+  use so lani Rispa adu na Saul; Rispa ayeke molenge ti aya. Gbia akiri amu amolenge-koli
+  oku so lani Mikal, molenge ti Saul adu na Adriel, molenge ti Barzilai, zo ti kodro
+  ti Abel-Mehola. \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de Centrafrique, 2010,
+  2Sa.21.8 \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- Faraon airi Mo\u00efse na Aaron si
+  lo tene na ala: \u201cAla sambela KOTA GBIA titene lo zi akongba so na tere ti mbi
+  nga na tere ti azo ti kodro ti mbi. Fade mbi yeke zia lege na azo ti Israel titene
+  ala gue, aya *sandaga na KOTA GBIA.\u201d \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique
+  de Centrafrique, 2010, Exo.8.4 \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- Ndia ndali
+  ti sandaga ti zingo siokpari na li ti zo ayeke legeoko na ndia ndali ti sandaga
+  ti lekengo t\u00ebn\u00eb. Kasa ti nyama ni ayeke ga ti wayango-sandaga so aya sandaga
+  titene Nzapa azi siokpari na li ti azo so.\u201d \u2014 (Bible , La Soci\u00e9t\u00e9
+  Biblique de Centrafrique, 2010, Lev.7.7 \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- Nzapa
+  adabe ti lo na Noe, na anyama kue ti ngonda, na ala ti kodro so kue ayeke na tere
+  ti lo na ya ti mangboko ni. Nzapa asara si mbeni pupu alondo, aya na nd\u00f6 ti
+  sese si ngu ni ato nda ti kiri. \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de
+  Centrafrique, 2010, Gen.8.1 \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- Na ndembe so mbinda
+  aya ahon na nd\u00f6 ti da ti bongo ni, buruma amu tere ti Miriam kue; tere ti lo
+  avuru tuuu. Aaron abaa ndo na mbage ti Miriam, lo baa so buruma amu tere ti lo kue
+  awe. \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de Centrafrique, 2010, Num.12.10
+  \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- Balak asara ye so Balaam ahunda na lo. Balak
+  na Balaam aya koli-bagara oko na koli-taba oko na *sandaga so a yeke gbi ni kue
+  na w\u00e2 na nd\u00f6 ti gbalaka oko oko. \u2014 (Bible , La Soci\u00e9t\u00e9
+  Biblique de Centrafrique, 2010, Num.23.2 \u2192 d\u00eeko mb\u00ebt\u00ef)\\n- Saul
+  ayeke na mbeni wali ti lo so iri ti lo ayeke Rispa, molenge ti aya. Mbeni l\u00e2,
+  Ishebaal atene na Abner: \u201cMo gi wali ti bab\u00e2 ti mbi ngbanga ti nyen?\u201d
+  \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de Centrafrique, 2010, 2Sa.3.7 \u2192
+  d\u00eeko mb\u00ebt\u00ef)\\n- Zo so angba ti ku pupu aya ahon si, lo yeke lu le
+  ti kobe pepe; zo so angba ti ku mbinda ahon si, lo yeke f\u00e2 le ti kobe pepe.
+  \u2014 (Bible , La Soci\u00e9t\u00e9 Biblique de Centrafrique, 2010, Ecc.11.4 \u2192
+  d\u00eeko mb\u00ebt\u00ef)\\n- Ye so Rispa, molenge-wali ti aya, mbeni wali ti Saul,
+  asara so, azo ague, atene t\u00ebn\u00eb ni na David. \u2014 (Bible , La Soci\u00e9t\u00e9
+  Biblique de Centrafrique, 2010, 2Sa.21.11 \u2192 d\u00eeko mb\u00ebt\u00ef)\\n-
+  Shobal adu Alian, Manahat, Ebal, Shefi na Onam. Sibeon adu aya na Ana. \u2014 (Bible
+  , La Soci\u00e9t\u00e9 Biblique de Centrafrique, 2010, 1Ch.1.40 \u2192 d\u00eeko
+  mb\u00ebt\u00ef)\\naya \\\\ \\\\\\naya \\\\ \\\\\"", "\"-\\n- \u201cI Yeke A-T\u00e9moin
+  ti Mbi\u201d! - Proph\u00e9tie ti Isa\u00efe II (ip-2)\\n-\\n11. Kusala wa J\u00e9hovah
+  amu na wakua ti lo, na J\u00e9hovah afa nyen na gigi na ndo dutingo ti lo ti Nzapa?\\n11
+  Teti ala yeke na ngangu oko pepe, anzapa ti wataka alingbi pepe ti mu at\u00e9moin.
+  Tongaso, ndo ti at\u00e9moin na y\u00e2 da-ngbanga ni amu kamela teti a duti senge.
+  Me fadeso ngoi ti J\u00e9hovah aga awe ti fa so lo yeke Nzapa. Na bango ndo na mbage
+  ti azo ti lo, lo tene: \u201cI yeke at\u00e9moin ti Mbi, boi ti Mbi so Mbi hiri
+  lo, si i lingbi hinga na i m\u00e4 na b\u00ea na Mbi, na i lingbi hinga biani Mbi
+  yeke Lo; a sala mbeni Nzapa kozoni na Mbi pepe, na fade a sala mbeni Nzapa na peko
+  ti Mbi pepe. Mbi, Mbi yeke L\u2019Eternel; mbeni sauveur ayeke pepe, gi Mbi oko.
+  Mbi fa tene na gigi, Mbi s\u00f6 azo, na Mbi sala si azo am\u00e4; na mbeni nzapa
+  nde ayeke na popo ti i pepe; tongaso . . . I yeke at\u00e9moin ti Mbi, Mbi yeke
+  Nzapa. Biani, lakue lakue Mbi yeke Lo; na zo oko alingbi zi zo na t\u00eft\u00ee
+  Mbi pepe; fade Mbi sala kusala, na zo nyen alingbi gbanzi kusala [ti mbi]?\u201d\\n\u2014Esa\u00efe
+  43:10-13.\\n-\\n- \u201cI Yeke A-T\u00e9moin ti Mbi\u201d! - Proph\u00e9tie ti Isa\u00efe
+  II (ip-2)\\n-\\n12, 13. (a) Gb\u00e2 ti atene ti t\u00e9moin wa azo ti J\u00e9hovah
+  ayeke na ni ti fa? (b) Tongana nyen iri ti J\u00e9hovah aga aduti na kota ndo laso?\\n12
+  Na kiringo tene na atene ti J\u00e9hovah, fade fade ndo ti t\u00e9moin ni asi ahon
+  ndo ni na gb\u00e2 ti at\u00e9moin so ayeke na ngia. Tene ti t\u00e9moin ti ala
+  ayeke polele na zo alingbi ti ke ni pepe. Legeoko tongana Josu\u00e9, ala tene so
+  \u2018ye kue so J\u00e9hovah atene aga t\u00e2 tene awe. Mbeni tene oko at\u00ef
+  na sese senge pepe.\u2019 (Josu\u00e9 23:14) Atene ti Isa\u00efe, J\u00e9r\u00e9mie,
+  \u00c9z\u00e9kiel, na ambeni proph\u00e8te nde angb\u00e2 ti toto na m\u00ea ti
+  azo ti J\u00e9hovah, aproph\u00e8te so, tongana lego oko, asala kozoni tene ti guengo
+  ti Juda na ngba na kodoro wande nga ti zingo ala na lege ti ye ti kpene na gbe ti
+  ngba. (J\u00e9r\u00e9mie 25:11, 12) A fa iri ti wazingo Juda, Cyrus, m\u00eame ngu
+  mingi kozoni si a d\u00fc lo!\\n\u2014Esa\u00efe 44:26\u201345:1. 13 Na gbele gb\u00e2
+  ti af\u00e4 so, zo wa alingbi ti ke so J\u00e9hovah ayeke oko t\u00e2 Nzapa? Nde
+  na anzapa ti apa\u00efen, gi J\u00e9hovah oko si zo aleke lo pepe; gi lo oko ayeke
+  t\u00e2 Nzapa.* Tongaso, azo so ay\u00f6 iri ti J\u00e9hovah ayeke na kpengba matabisi
+  so ayeke gi oko ti fa apendere kusala ti lo na awagame so ayeke ga nga na ambeni
+  zo so ahunda ye na ndo lo. (Psaume 78:5-7) Legeoko nga, aT\u00e9moin ti J\u00e9hovah
+  ti laso ayeke na matabisi ti fa iri ti J\u00e9hovah na ndo sese kue. Na y\u00e2
+  angu so ato nda ni na ngu 1920, yeke yeke aWamandango Bible aga ti hinga kota nene
+  ti nda ti iri ti Nzapa, J\u00e9hovah. Na pekoni, na lango 26 aT\u00e9moin ti J\u00e9hovah,\u201d
+  amu kota ngia na b\u00ea ti azo so aga, so ayeda na mungo yanga ni na tenengo \u201cI
+  Yeda!\u201d Ngbele ye na ngoi ni k\u00e2, a ga ti hinga iri ti J\u00e9hovah na ndo
+  sese kue.\\n\u2014Psaume 83:19 (83:18, NW).\\n-\\n- \u201cI Yeke A-T\u00e9moin ti
+  Mbi\u201d! - Proph\u00e9tie ti Isa\u00efe II (ip-2)\\n-\\nNa y\u00e2 apande ti amara,
+  \u201ca d\u00fc\u201d mingi ti anzapa dungo na ala yeke na \u201camolenge.\u201d\""]'
+src_ngrams: '{"1": [[["ala"], 75903], [["ayeke"], 63807], [["yeke"], 49216], [["ye"],
+  40653], [["mbi"], 35838]], "2": [[["ala yeke"], 8622], [["mbi yeke"], 5857], [["tongana
+  nyen"], 5137], [["yeke sara"], 4948], [["sara ye"], 4291]], "3": [[["ngbanga ti
+  nyen"], 2710], [["soci\u00e9t\u00e9 biblique de"], 2652], [["biblique de centrafrique"],
+  2652], [["ye so ayeke"], 2060], [["azo so ayeke"], 2057]], "4": [[["soci\u00e9t\u00e9
+  biblique de centrafrique"], 2652], [["nzapa ti fini dunia"], 689], [["alingbi ti
+  m\u00fb maboko"], 525], [["nyen la e lingbi"], 491], [["ndali ti so ala"], 463]],
+  "5": [[["mbeti ti nzapa ti fini"], 689], [["bible na ndo ti internet"], 590], [["ayeke
+  na y\u00e2 ti bible"], 352], [["tongana nyen la e lingbi"], 351], [["ala ti gue
+  na yayu"], 312]]}'

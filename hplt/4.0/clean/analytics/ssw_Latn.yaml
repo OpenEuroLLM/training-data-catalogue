@@ -1,0 +1,974 @@
+corpus: hplt-v4-ss
+srclang: ss
+timestamp: 1789047366.1345205
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-45", 348], ["CC-MAIN-2021-43", 300], ["CC-MAIN-2022-27",
+  233], ["CC-MAIN-2020-05", 174], ["wide00016", 164], ["CC-MAIN-2020-24", 118], ["CC-MAIN-2021-25",
+  115], ["CC-MAIN-2020-29", 107], ["wide00011", 105], ["wide00012", 78], ["CC-MAIN-2020-10",
+  64], ["CC-MAIN-2025-21", 57], ["CC-MAIN-2023-50", 53], ["CC-MAIN-2025-08", 52],
+  ["CC-MAIN-2020-34", 52], ["CC-MAIN-2021-49", 51], ["CC-MAIN-2018-05", 51], ["CC-MAIN-2025-18",
+  48], ["CC-MAIN-2025-30", 45], ["CC-MAIN-2024-10", 43], ["CC-MAIN-2025-26", 42],
+  ["CC-MAIN-2021-17", 41], ["CC-MAIN-2025-13", 38], ["CC-MAIN-2024-30", 33], ["CC-MAIN-2024-26",
+  32], ["CC-MAIN-2025-33", 31], ["CC-MAIN-2014-15", 31], ["CC-MAIN-2024-46", 30],
+  ["wide00015", 29], ["CC-MAIN-2024-51", 29], ["CC-MAIN-2025-05", 28], ["CC-MAIN-2021-10",
+  28], ["CC-MAIN-2024-38", 27], ["CC-MAIN-2024-18", 27], ["CC-MAIN-2018-39", 27],
+  ["CC-MAIN-2024-42", 24], ["CC-MAIN-2022-21", 24], ["CC-MAIN-2024-22", 23], ["CC-MAIN-2022-33",
+  22], ["CC-MAIN-2021-21", 22], ["CC-MAIN-2023-40", 21], ["CC-MAIN-2021-39", 17],
+  ["CC-MAIN-2021-04", 16], ["CC-MAIN-2017-51", 16], ["CC-MAIN-2022-05", 15], ["CC-MAIN-2024-33",
+  14], ["CC-MAIN-2020-16", 13], ["CC-MAIN-2023-14", 12], ["CC-MAIN-2020-40", 12],
+  ["CC-MAIN-2019-04", 12], ["wide00017", 11], ["CC-MAIN-2018-43", 11], ["CC-MAIN-2018-34",
+  11], ["CC-MAIN-2023-06", 10], ["CC-MAIN-2015-18", 10], ["CC-MAIN-2020-50", 9], ["wide00006",
+  8], ["CC-MAIN-2023-23", 8], ["CC-MAIN-2017-26", 8], ["CC-MAIN-2014-35", 8], ["CC-MAIN-2022-49",
+  7], ["CC-MAIN-2021-31", 7], ["wide00002", 5], ["archivebot", 4], ["CC-MAIN-2022-40",
+  4], ["CC-MAIN-2018-22", 4], ["wide00010", 3], ["wide00005", 3], ["CC-MAIN-2017-04",
+  3], ["CC-MAIN-2016-30", 2], ["CC-MAIN-2015-48", 1], ["CC-MAIN-2015-11", 1], ["CC-MAIN-2014-42",
+  1]]'
+docs_langs: '[[0.2, 33], [0.3, 50], [0.4, 57], [0.5, 121], [0.6, 136], [0.7, 320],
+  [0.8, 823], [0.9, 778], [1.0, 815]]'
+docs_segments: '[[1, 50], [2, 123], [3, 105], [4, 97], [5, 89], [6, 92], [7, 66],
+  [8, 82], [9, 105], [10, 78], [11, 89], [12, 103], [13, 87], [14, 97], [15, 85],
+  [16, 86], [17, 88], [18, 107], [19, 76], [20, 98], [21, 88], [22, 61], [23, 53],
+  [24, 49], [25, 37], [26, 41], [27, 40], [28, 37], [29, 25], [30, 33], [31, 27],
+  [32, 27], [33, 25], [34, 10], [35, 18], [36, 19], [37, 25], [38, 15], [39, 27],
+  [40, 25], [41, 35], [42, 23], [43, 14], [44, 15], [45, 13], [46, 18], [47, 17],
+  [48, 10], [49, 16], [50, 11], [51, 23], [52, 15], [53, 11], [54, 3], [55, 7], [56,
+  5], [57, 10], [58, 12], [59, 7], [60, 9], [61, 8], [62, 7], [63, 10], [64, 7], [65,
+  5], [66, 1], [67, 10], [68, 3], [69, 5], [70, 6], [71, 5], [72, 6], [73, 6], [74,
+  2], [75, 6], [76, 5], [77, 7], [78, 3], [79, 4], [80, 7], [81, 6], [82, 3], [83,
+  4], [84, 2], [85, 5], [86, 3], [87, 5], [88, 7], [89, 9], [90, 3], [91, 3], [92,
+  5], [93, 2], [94, 2], [95, 6], [96, 1], [97, 2], [98, 2], [99, 5], [100, 4], [101,
+  2], [102, 1], [103, 3], [104, 4], [105, 1], [106, 4], [107, 1], [108, 3], [109,
+  2], [110, 3], [111, 1], [112, 3], [113, 5], [114, 6], [115, 2], [116, 7], [117,
+  2], [118, 1], [119, 3], [120, 3], [121, 2], [122, 3], [123, 1], [124, 2], [125,
+  3], [126, 2], [127, 2], [128, 2], [130, 1], [131, 4], [132, 1], [133, 2], [134,
+  3], [135, 3], [137, 1], [138, 2], [139, 1], [140, 1], [141, 2], [142, 2], [143,
+  1], [144, 1], [145, 3], [147, 2], [148, 1], [151, 2], [152, 2], [153, 3], [154,
+  3], [155, 3], [156, 1], [157, 1], [158, 1], [159, 1], [160, 3], [161, 1], [163,
+  1], [166, 1], [168, 2], [169, 1], [170, 1], [173, 2], [178, 2], [179, 1], [181,
+  1], [185, 1], [187, 1], [190, 1], [194, 1], [195, 2], [197, 1], [213, 1], [220,
+  1], [221, 1], [223, 1], [228, 2], [230, 1], [233, 1], [236, 2], [241, 1], [255,
+  1], [258, 1], [273, 1], [275, 1], [282, 1], [285, 1], [291, 1], [294, 1], [297,
+  1], [298, 1], [301, 1], [305, 1], [311, 1], [318, 1], [348, 1], [352, 1], [355,
+  1], [364, 1], [383, 1], [389, 1], [399, 1], [435, 1], [550, 1], [764, 1], [1017,
+  1], [2823, 1]]'
+docs_segments_mean: 32
+docs_segments_median: 18
+docs_top100_domains: '[["biblesa.co.za", 888], ["southafrica.co.za", 862], ["wikipedia.org",
+  421], ["jw.org", 373], ["churchofjesuschrist.org", 82], ["zhitov.com", 47], ["www.gov.za",
+  41], ["nalibali.org", 37], ["myconstitution.co.za", 23], ["pansalb.org", 14], ["shuters.co.za",
+  13], ["izithakazelo.blog", 12], ["inhlava.co.za", 10], ["bible.com", 10], ["thepresidency.gov.za",
+  9], ["gotquestions.org", 9], ["storypoweredschools.mobi", 8], ["sciencegraph.net",
+  8], ["lllsa.org", 8], ["fundza.mobi", 8], ["elexacademicbookstore.co.za", 8], ["forestersarms.co.za",
+  7], ["wikisource.org", 6], ["iono.fm", 6], ["wakahina.com", 5], ["newvoices.co.za",
+  5], ["mycourses.co.za", 5], ["lectio.co.za", 5], ["khumbulekhaya.net.za", 5], ["info.gov.za",
+  5], ["imisebepublishing.com", 5], ["earlylearningresourcenetwork.org", 5], ["biblesociety.co.za",
+  5], ["balakudu.com", 5], ["watchtower.org", 4], ["presidency.gov.za", 4], ["ligwalagwalafm.co.za",
+  4], ["kasahorow.org", 4], ["iafrika.org", 4], ["domanovic.org", 4], ["bridgebooks.co.za",
+  4], ["wimpy.co.za", 3], ["wakahina.co.za", 3], ["swazilandnews.co.za", 3], ["snapplify.com",
+  3], ["saqa.org.za", 3], ["sadilar.org", 3], ["oxford.co.za", 3], ["letsstopaids.org",
+  3], ["iitranslation.com", 3], ["heycovid19.com", 3], ["viaafrika.com", 2], ["vallalar.net",
+  2], ["selectafrica.net", 2], ["qualibooks.co.za", 2], ["poemhunter.com", 2], ["pa.org.za",
+  2], ["jacana.co.za", 2], ["dffe.gov.za", 2], ["creationism.org", 2], ["cloudlibrary.org",
+  2], ["booksie.com", 2], ["blogspot.co.za", 2], ["bimba.co.za", 2], ["ancparliament.org.za",
+  2], ["africanstorybook.org", 2], ["worldpublicholiday.com", 1], ["world-hentai.ru",
+  1], ["wordpress.com", 1], ["wikiplanet.click", 1], ["wikimedia.org", 1], ["vidzone.in",
+  1], ["videochat-ruletka.ru", 1], ["victordlamini.com", 1], ["uwc.ac.za", 1], ["unisa.ac.za",
+  1], ["unicode.org", 1], ["un.org.za", 1], ["ukzn.ac.za", 1], ["tymebank.co.za",
+  1], ["tshiamisotrust.com", 1], ["tshepo.mobi", 1], ["swazilii.org", 1], ["studypass.co.za",
+  1], ["stop-overpopulation.org", 1], ["startsmartinc.com", 1], ["spotidoc.com", 1],
+  ["spaza.io", 1], ["smashwords.com", 1], ["smartstart.org.za", 1], ["seghea.com",
+  1], ["schoolnotes.co.za", 1], ["sbs.co.sz", 1], ["saha.org.za", 1], ["readbag.com",
+  1], ["polity.org.za", 1], ["poetry.com", 1], ["pensouthafrica.co.za", 1], ["ovvkus.ru",
+  1], ["oraesatta.co", 1]]'
+docs_top100_tld: '[["co.za", 1875], ["org", 997], ["com", 112], ["gov.za", 62], ["mobi",
+  17], ["org.za", 15], ["net", 13], ["blog", 12], ["fm", 6], ["net.za", 5], ["ru",
+  4], ["ac.za", 4], ["co", 3], ["io", 2], ["co.sz", 2], ["org.sz", 1], ["in", 1],
+  ["com.az", 1], ["click", 1]]'
+docs_total: 3133
+docs_wds: '[[0.5, 9], [0.51, 7], [0.52, 12], [0.53, 7], [0.54, 14], [0.55, 13], [0.56,
+  9], [0.57, 12], [0.58, 12], [0.59, 18], [0.6, 8], [0.61, 12], [0.62, 10], [0.63,
+  21], [0.64, 12], [0.65, 22], [0.66, 17], [0.67, 28], [0.68, 38], [0.69, 32], [0.7,
+  25], [0.71, 29], [0.72, 40], [0.73, 38], [0.74, 64], [0.75, 87], [0.76, 80], [0.77,
+  83], [0.78, 130], [0.79, 147], [0.8, 195], [0.81, 182], [0.82, 125], [0.83, 130],
+  [0.84, 120], [0.85, 115], [0.86, 119], [0.87, 118], [0.88, 110], [0.89, 111], [0.9,
+  108], [0.91, 74], [0.92, 68], [0.93, 111], [0.94, 83], [0.95, 92], [0.96, 93], [0.97,
+  61], [0.98, 54], [0.99, 22], [1.0, 6]]'
+duplication_ratio: 0.3616
+sentence_pairs: 100547
+src_bytes: 18270129
+src_chars: 18149091
+src_pii: 58
+src_tokens: 2623065
+unique_sents: 64192
+src_sent_tokens: '[[1, 10451], [2, 3525], [3, 4225], [4, 5028], [5, 4774], [6, 3960],
+  [7, 3166], [8, 2684], [9, 2347], [10, 2252], [11, 2264], [12, 2164], [13, 1952],
+  [14, 1929], [15, 1814], [16, 1898], [17, 1686], [18, 1690], [19, 1635], [20, 1545],
+  [21, 1668], [22, 1490], [23, 1339], [24, 1371], [25, 1247], [26, 1273], [27, 1185],
+  [28, 1134], [29, 1093], [30, 956], [31, 988], [32, 927], [33, 1048], [34, 902],
+  [35, 814], [36, 832], [37, 847], [38, 769], [39, 753], [40, 692], [41, 690], [42,
+  642], [43, 612], [44, 619], [45, 570], [46, 556], [47, 555], [48, 487], [49, 534],
+  [50, 498], [51, 412], [52, 434], [53, 405], [54, 384], [55, 339], [56, 341], [57,
+  389], [58, 336], [59, 353], [60, 344], [61, 328], [62, 297], [63, 304], [64, 248],
+  [65, 252], [66, 242], [67, 204], [68, 221], [69, 229], [70, 218], [71, 218], [72,
+  186], [73, 159], [74, 209], [75, 165], [76, 158], [77, 158], [78, 150], [79, 152],
+  [80, 157], [81, 160], [82, 151], [83, 148], [84, 113], [85, 98], [86, 109], [87,
+  116], [88, 105], [89, 108], [90, 128], [91, 104], [92, 108], [93, 93], [94, 60],
+  [95, 95], [96, 81], [97, 66], [98, 95], [99, 76], [100, 72], [101, 67], [102, 64],
+  [103, 62], [104, 60], [105, 48], [106, 47], [107, 70], [108, 52], [109, 49], [110,
+  52], [111, 46], [112, 49], [113, 40], [114, 30], [115, 65], [116, 51], [117, 46],
+  [118, 22], [119, 29], [120, 31], [121, 35], [122, 33], [123, 34], [124, 22], [125,
+  31], [126, 42], [127, 27], [128, 21], [129, 24], [130, 30], [131, 19], [132, 21],
+  [133, 17], [134, 22], [135, 28], [136, 8], [137, 12], [138, 28], [139, 13], [140,
+  5], [141, 11], [142, 4], [143, 13], [144, 5], [145, 15], [146, 12], [147, 15], [148,
+  10], [149, 10], [150, 7], [151, 4], [152, 9], [153, 5], [154, 5], [155, 13], [156,
+  2], [157, 6], [158, 16], [159, 12], [160, 7], [161, 11], [162, 10], [163, 4], [164,
+  9], [165, 5], [166, 6], [167, 6], [168, 3], [169, 4], [170, 4], [171, 7], [172,
+  4], [173, 5], [174, 1], [175, 4], [176, 4], [177, 6], [178, 7], [179, 2], [180,
+  7], [181, 4], [182, 4], [183, 2], [184, 6], [185, 1], [186, 4], [188, 3], [189,
+  3], [190, 1], [192, 1], [193, 1], [194, 1], [195, 4], [196, 1], [197, 1], [198,
+  5], [199, 1], [200, 4], [201, 1], [202, 1], [204, 2], [205, 5], [206, 1], [207,
+  2], [208, 1], [210, 1], [211, 3], [212, 2], [213, 2], [216, 6], [218, 1], [219,
+  3], [220, 1], [224, 1], [225, 1], [226, 1], [228, 1], [231, 2], [233, 2], [234,
+  1], [237, 1], [238, 1], [240, 1], [242, 2], [243, 1], [245, 1], [246, 1], [247,
+  7], [248, 4], [249, 1], [251, 1], [252, 1], [254, 1], [255, 1], [256, 5], [261,
+  1], [263, 1], [264, 4], [269, 1], [270, 2], [272, 1], [273, 2], [276, 1], [280,
+  1], [281, 1], [282, 1], [284, 2], [285, 3], [286, 2], [287, 1], [289, 1], [291,
+  1], [293, 1], [297, 1], [298, 1], [299, 1], [301, 1], [307, 1], [308, 3], [309,
+  2], [310, 3], [311, 1], [312, 2], [313, 1], [318, 3], [319, 1], [323, 1], [324,
+  1], [325, 2], [327, 3], [330, 1], [331, 1], [332, 2], [333, 2], [334, 1], [335,
+  1], [338, 1], [342, 1], [344, 1], [345, 1], [346, 2], [349, 1], [350, 1], [351,
+  1], [354, 1], [356, 3], [357, 2], [358, 1], [360, 3], [362, 3], [363, 1], [366,
+  1], [367, 1], [368, 1], [369, 1], [370, 2], [371, 2], [372, 2], [374, 2], [375,
+  1], [376, 1], [377, 2], [378, 3], [379, 1], [383, 2], [385, 2], [386, 1], [389,
+  1], [391, 1], [392, 1], [393, 1], [394, 1], [395, 2], [398, 1], [399, 2], [401,
+  1], [402, 2], [403, 1], [404, 2], [407, 1], [408, 4], [409, 1], [410, 3], [411,
+  2], [412, 1], [414, 1], [415, 2], [416, 1], [417, 1], [418, 1], [419, 2], [420,
+  1], [421, 1], [422, 1], [424, 2], [425, 1], [426, 2], [428, 1], [431, 2], [433,
+  1], [434, 1], [435, 1], [436, 1], [441, 2], [442, 1], [443, 2], [444, 1], [445,
+  1], [450, 2], [451, 1], [452, 2], [453, 1], [455, 1], [456, 1], [457, 1], [459,
+  2], [461, 3], [462, 2], [463, 1], [464, 5], [469, 1], [473, 1], [475, 2], [476,
+  2], [478, 2], [479, 1], [480, 1], [482, 2], [485, 1], [486, 2], [487, 1], [488,
+  1], [489, 1], [492, 1], [494, 1], [495, 1], [497, 1], [499, 1], [500, 3], [501,
+  1], [504, 1], [506, 2], [510, 1], [511, 1], [512, 3], [513, 1], [514, 3], [516,
+  2], [518, 1], [520, 2], [521, 1], [522, 2], [523, 1], [524, 1], [526, 1], [527,
+  4], [528, 1], [530, 2], [532, 1], [535, 1], [540, 1], [542, 1], [543, 1], [545,
+  1], [547, 1], [551, 1], [552, 2], [557, 1], [558, 1], [559, 1], [561, 1], [565,
+  1], [566, 1], [567, 1], [568, 1], [569, 1], [570, 1], [572, 2], [576, 1], [577,
+  1], [578, 2], [579, 1], [580, 1], [582, 1], [585, 3], [586, 1], [587, 2], [588,
+  2], [589, 3], [591, 1], [592, 1], [593, 1], [594, 2], [598, 1], [601, 1], [605,
+  2], [606, 2], [607, 2], [608, 1], [610, 1], [611, 2], [612, 2], [614, 2], [615,
+  1], [616, 1], [618, 1], [619, 1], [622, 1], [623, 1], [624, 1], [627, 1], [630,
+  2], [632, 2], [635, 2], [637, 1], [640, 1], [641, 2], [645, 1], [647, 3], [649,
+  3], [650, 2], [653, 4], [655, 2], [658, 3], [659, 2], [660, 1], [661, 1], [662,
+  3], [668, 2], [669, 1], [670, 1], [671, 2], [673, 1], [675, 2], [680, 1], [681,
+  1], [682, 1], [689, 2], [690, 1], [692, 1], [694, 1], [696, 2], [697, 1], [707,
+  1], [710, 2], [712, 1], [713, 2], [715, 1], [716, 1], [719, 1], [722, 1], [723,
+  1], [727, 1], [728, 1], [737, 1], [743, 1], [745, 1], [746, 1], [751, 1], [753,
+  4], [754, 1], [759, 4], [760, 1], [763, 2], [769, 1], [770, 1], [773, 1], [779,
+  1], [784, 1], [785, 2], [788, 1], [792, 1], [793, 1], [795, 1], [798, 2], [799,
+  1], [801, 1], [802, 1], [804, 2], [806, 1], [809, 1], [810, 2], [819, 2], [821,
+  1], [826, 1], [830, 1], [834, 1], [835, 2], [836, 1], [838, 1], [840, 1], [841,
+  2], [842, 1], [846, 3], [847, 2], [853, 1], [859, 1], [861, 1], [869, 1], [872,
+  1], [882, 1], [884, 1], [886, 1], [892, 1], [895, 1], [898, 1], [899, 1], [904,
+  1], [912, 1], [913, 1], [919, 2], [923, 1], [933, 1], [941, 2], [953, 1], [959,
+  2], [963, 2], [975, 1], [978, 1], [979, 1], [986, 1], [990, 1], [994, 1], [996,
+  2], [1023, 1], [1025, 2], [1040, 2], [1043, 1], [1047, 2], [1056, 1], [1057, 1],
+  [1063, 1], [1077, 1], [1078, 1], [1085, 1], [1090, 1], [1112, 1], [1125, 2], [1127,
+  1], [1128, 1], [1150, 1], [1163, 1], [1173, 1], [1187, 1], [1199, 1], [1200, 1],
+  [1203, 1], [1212, 1], [1226, 1], [1232, 1], [1240, 1], [1263, 2], [1267, 1], [1285,
+  1], [1288, 1], [1291, 1], [1298, 1], [1310, 2], [1352, 1], [1391, 1], [1478, 1],
+  [1579, 1], [2398, 1], [2649, 1], [2701, 1], [2888, 1], [3080, 1], [3496, 1], [4417,
+  1], [5381, 1], [6181, 1]]'
+src_sent_tokens_mean: 26
+src_sent_tokens_median: 14
+src_unique_sents: '[[1, 781], [2, 1805], [3, 2551], [4, 2983], [5, 3199], [6, 2664],
+  [7, 2300], [8, 2082], [9, 1883], [10, 1723], [11, 1723], [12, 1597], [13, 1448],
+  [14, 1418], [15, 1328], [16, 1330], [17, 1242], [18, 1170], [19, 1167], [20, 1115],
+  [21, 1137], [22, 1050], [23, 963], [24, 988], [25, 893], [26, 882], [27, 853], [28,
+  821], [29, 788], [30, 684], [31, 705], [32, 661], [33, 721], [34, 630], [35, 606],
+  [36, 629], [37, 604], [38, 565], [39, 540], [40, 518], [41, 495], [42, 474], [43,
+  449], [44, 437], [45, 414], [46, 419], [47, 394], [48, 360], [49, 366], [50, 359],
+  [51, 301], [52, 319], [53, 299], [54, 292], [55, 262], [56, 262], [57, 288], [58,
+  251], [59, 266], [60, 247], [61, 227], [62, 217], [63, 211], [64, 189], [65, 187],
+  [66, 181], [67, 157], [68, 157], [69, 170], [70, 163], [71, 153], [72, 131], [73,
+  115], [74, 152], [75, 131], [76, 117], [77, 105], [78, 107], [79, 108], [80, 111],
+  [81, 113], [82, 102], [83, 108], [84, 77], [85, 79], [86, 86], [87, 88], [88, 75],
+  [89, 80], [90, 82], [91, 79], [92, 83], [93, 75], [94, 51], [95, 70], [96, 54],
+  [97, 51], [98, 69], [99, 57], [100, 58], [101, 49], [102, 45], [103, 51], [104,
+  45], [105, 38], [106, 32], [107, 52], [108, 35], [109, 35], [110, 40], [111, 35],
+  [112, 38], [113, 32], [114, 23], [115, 38], [116, 37], [117, 33], [118, 20], [119,
+  23], [120, 22], [121, 23], [122, 21], [123, 25], [124, 16], [125, 23], [126, 21],
+  [127, 15], [128, 21], [129, 18], [130, 19], [131, 16], [132, 17], [133, 10], [134,
+  15], [135, 16], [136, 8], [137, 12], [138, 17], [139, 12], [140, 5], [141, 11],
+  [142, 3], [143, 11], [144, 4], [145, 9], [146, 9], [147, 12], [148, 10], [149, 8],
+  [150, 6], [151, 4], [152, 4], [153, 4], [154, 5], [155, 10], [156, 2], [157, 4],
+  [158, 8], [159, 9], [160, 7], [161, 7], [162, 6], [163, 3], [164, 3], [165, 5],
+  [166, 6], [167, 3], [168, 2], [169, 4], [170, 4], [171, 3], [172, 4], [173, 3],
+  [174, 1], [175, 4], [176, 4], [177, 2], [178, 4], [179, 2], [180, 4], [181, 4],
+  [182, 3], [183, 2], [184, 4], [185, 1], [186, 1], [188, 3], [189, 3], [190, 1],
+  [192, 1], [193, 1], [194, 1], [195, 4], [196, 1], [197, 1], [198, 3], [199, 1],
+  [200, 2], [201, 1], [202, 1], [204, 2], [205, 3], [206, 1], [207, 2], [208, 1],
+  [210, 1], [211, 1], [212, 2], [213, 2], [216, 2], [218, 1], [219, 2], [220, 1],
+  [224, 1], [225, 1], [226, 1], [228, 1], [231, 2], [233, 2], [234, 1], [237, 1],
+  [238, 1], [240, 1], [242, 1], [243, 1], [245, 1], [246, 1], [247, 5], [248, 4],
+  [249, 1], [251, 1], [252, 1], [254, 1], [255, 1], [256, 4], [261, 1], [263, 1],
+  [264, 4], [269, 1], [270, 2], [272, 1], [273, 2], [276, 1], [280, 1], [281, 1],
+  [282, 1], [284, 2], [285, 3], [286, 2], [287, 1], [289, 1], [291, 1], [293, 1],
+  [297, 1], [298, 1], [299, 1], [301, 1], [307, 1], [308, 3], [309, 2], [310, 3],
+  [311, 1], [312, 2], [313, 1], [318, 3], [319, 1], [323, 1], [324, 1], [325, 2],
+  [327, 2], [330, 1], [331, 1], [332, 2], [333, 2], [334, 1], [335, 1], [338, 1],
+  [342, 1], [344, 1], [345, 1], [346, 2], [349, 1], [350, 1], [351, 1], [354, 1],
+  [356, 3], [357, 2], [358, 1], [360, 2], [362, 3], [363, 1], [366, 1], [367, 1],
+  [368, 1], [369, 1], [370, 1], [371, 2], [372, 2], [374, 2], [375, 1], [376, 1],
+  [377, 2], [378, 3], [379, 1], [383, 2], [385, 2], [386, 1], [389, 1], [391, 1],
+  [392, 1], [393, 1], [394, 1], [395, 2], [398, 1], [399, 2], [401, 1], [402, 2],
+  [403, 1], [404, 2], [407, 1], [408, 4], [409, 1], [410, 3], [411, 2], [412, 1],
+  [414, 1], [415, 2], [416, 1], [417, 1], [418, 1], [419, 1], [420, 1], [421, 1],
+  [422, 1], [424, 2], [425, 1], [426, 2], [428, 1], [431, 2], [433, 1], [434, 1],
+  [435, 1], [436, 1], [441, 2], [442, 1], [443, 2], [444, 1], [445, 1], [450, 2],
+  [451, 1], [452, 2], [453, 1], [455, 1], [456, 1], [457, 1], [459, 2], [461, 3],
+  [462, 2], [463, 1], [464, 3], [469, 1], [473, 1], [475, 2], [476, 2], [478, 2],
+  [479, 1], [480, 1], [482, 2], [485, 1], [486, 2], [487, 1], [488, 1], [489, 1],
+  [492, 1], [494, 1], [495, 1], [497, 1], [499, 1], [500, 2], [501, 1], [504, 1],
+  [506, 2], [510, 1], [511, 1], [512, 2], [513, 1], [514, 2], [516, 2], [518, 1],
+  [520, 2], [521, 1], [522, 2], [523, 1], [524, 1], [526, 1], [527, 3], [528, 1],
+  [530, 2], [532, 1], [535, 1], [540, 1], [542, 1], [543, 1], [545, 1], [547, 1],
+  [551, 1], [552, 2], [557, 1], [558, 1], [559, 1], [561, 1], [565, 1], [566, 1],
+  [567, 1], [568, 1], [569, 1], [570, 1], [572, 2], [576, 1], [577, 1], [578, 2],
+  [579, 1], [580, 1], [582, 1], [585, 2], [586, 1], [587, 2], [588, 2], [589, 3],
+  [591, 1], [592, 1], [593, 1], [594, 2], [598, 1], [601, 1], [605, 2], [606, 1],
+  [607, 2], [608, 1], [610, 1], [611, 2], [612, 2], [614, 2], [615, 1], [616, 1],
+  [618, 1], [619, 1], [622, 1], [623, 1], [624, 1], [627, 1], [630, 2], [632, 2],
+  [635, 2], [637, 1], [640, 1], [641, 1], [645, 1], [647, 2], [649, 3], [650, 2],
+  [653, 3], [655, 1], [658, 2], [659, 2], [660, 1], [661, 1], [662, 3], [668, 2],
+  [669, 1], [670, 1], [671, 2], [673, 1], [675, 2], [680, 1], [681, 1], [682, 1],
+  [689, 2], [690, 1], [692, 1], [694, 1], [696, 1], [697, 1], [707, 1], [710, 2],
+  [712, 1], [713, 2], [715, 1], [716, 1], [719, 1], [722, 1], [723, 1], [727, 1],
+  [728, 1], [737, 1], [743, 1], [745, 1], [746, 1], [751, 1], [753, 3], [754, 1],
+  [759, 4], [760, 1], [763, 1], [769, 1], [770, 1], [773, 1], [779, 1], [784, 1],
+  [785, 2], [788, 1], [792, 1], [793, 1], [795, 1], [798, 2], [799, 1], [801, 1],
+  [802, 1], [804, 2], [806, 1], [809, 1], [810, 1], [819, 2], [821, 1], [826, 1],
+  [830, 1], [834, 1], [835, 2], [836, 1], [838, 1], [840, 1], [841, 2], [842, 1],
+  [846, 2], [847, 2], [853, 1], [859, 1], [861, 1], [869, 1], [872, 1], [882, 1],
+  [884, 1], [886, 1], [892, 1], [895, 1], [898, 1], [899, 1], [904, 1], [912, 1],
+  [913, 1], [919, 2], [923, 1], [933, 1], [941, 2], [953, 1], [959, 2], [963, 2],
+  [975, 1], [978, 1], [979, 1], [986, 1], [990, 1], [994, 1], [996, 2], [1023, 1],
+  [1025, 1], [1040, 1], [1043, 1], [1047, 2], [1056, 1], [1057, 1], [1063, 1], [1077,
+  1], [1078, 1], [1085, 1], [1090, 1], [1112, 1], [1125, 1], [1127, 1], [1128, 1],
+  [1150, 1], [1163, 1], [1173, 1], [1187, 1], [1199, 1], [1200, 1], [1203, 1], [1212,
+  1], [1226, 1], [1232, 1], [1240, 1], [1263, 2], [1267, 1], [1285, 1], [1288, 1],
+  [1291, 1], [1298, 1], [1310, 1], [1352, 1], [1391, 1], [1478, 1], [1579, 1], [2398,
+  1], [2649, 1], [2701, 1], [2888, 1], [3080, 1], [3496, 1], [4417, 1], [5381, 1],
+  [6181, 1]]'
+src_langs: '[["en", 54368], ["tl", 6694], ["de", 4308], ["fr", 3940], ["id", 3890],
+  ["it", 3156], ["hr", 2840], ["pl", 2557], ["es", 2364], ["fi", 1455], ["sw", 1421],
+  ["nl", 1215], ["war", 1157], ["tr", 1091], ["eo", 960], ["sl", 881], ["sv", 850],
+  ["ceb", 763], ["pt", 651], ["la", 531], ["ms", 451], ["nb", 418], ["ur", 396], ["eu",
+  322], ["sq", 316], ["ja", 304], ["jv", 294], ["hu", 265], ["ilo", 226], ["oc", 222],
+  ["et", 220], ["io", 191], ["ca", 191], ["cs", 141], ["sr", 114], ["su", 103], ["ro",
+  97], ["zh", 94], ["br", 85], ["lt", 84], ["ru", 67], ["bs", 65], ["uz", 59], ["cy",
+  59], ["qu", 56], ["kw", 47], ["sk", 45], ["scn", 40], ["lv", 33], ["da", 28], ["az",
+  25], ["min", 23], ["vi", 19], ["ku", 19], ["is", 17], ["mg", 16], ["kn", 15], ["mt",
+  14], ["af", 14], ["hsb", 13], ["vo", 11], ["uk", 11], ["rm", 11], ["nap", 11], ["pms",
+  10], ["lmo", 10], ["gl", 10], ["gu", 9], ["te", 8], ["nn", 8], ["ml", 8], ["lb",
+  8], ["ko", 7], ["he", 7], ["gv", 7], ["als", 7], ["nds", 6], ["ie", 6], ["fy", 6],
+  ["fa", 6], ["sco", 5], ["pam", 5], ["ga", 5], ["bn", 5], ["si", 4], ["ht", 4], ["gd",
+  4], ["so", 3], ["li", 3], ["ia", 3], ["el", 3], ["ar", 3], ["yi", 2], ["ug", 2],
+  ["my", 2], ["mk", 2], ["kk", 2], ["hy", 2], ["frr", 2], ["bg", 2], ["an", 2], ["yo",
+  1], ["wa", 1], ["th", 1], ["tg", 1], ["ta", 1], ["mr", 1], ["hi", 1], ["gn", 1],
+  ["co", 1], ["cbk", 1], ["bh", 1], ["be", 1], ["azb", 1], ["ast", 1], ["arz", 1]]'
+hardrules_tags: '{"not_too_long": 867, "not_too_short": 17183, "length_ratio": 0,
+  "no_urls": 314, "no_bad_encoding": 1, "pii": 58}'
+sample: '["\"Dr Mafika Lubisi\\nKuleminyaka lengemakhulu lasihlanu ledlulile umoya
+  wenshonalanga wasenta tigcila waphindze wasihlasela nangebukholoni singeMa-Afrika
+  lekwagcina sekunelubalundlululo lapha eNingizimu Afrika. Labekunene bebacondze kubulala
+  emasiko, inkholo kanye netilwimi tetfu.\\nLoko phela bebacondze kwekutsi singati
+  bunjalo betfu nekutsi sivelaphi futsi siyaphi. Batfola sitiphilela kahle kungekho
+  nakuncane lekusicakile. Noko kuletintfo letafika nebadzeshi kugujwa kwelilanga lesithico
+  lendvodza yaseTaliyane (St Valentine). Lena kutsiwa yindvodza lebeyinelutsandvo
+  lolumangalisako. Yenta siciniseko sekutsi nobe ilisotja kepha imtsandze umkayo ngalokwecile.
+  Nangesintfu-ke kutsandza umkakho yintfo lenhle nalebusisekile akukho nani kucabana
+  emkhatsini wemasiko asenshonalanga nalakitsi e-Afrika. Phela lutsandvo lusuka kuSimakadze.\\nInkinga
+  icala lapha nasekumele bantfu bakhonte umuntfu lekudzala wafa futsi afela eveni
+  lakubo lena eTaliyane babe bangakahlobani nekuhlobana naye. Loku sekufaka ekhatsi
+  loku lesikhulume ngako ekucaleni ekutseni umoya wenshonalanga watfumba tingcondvo
+  tetfu wasenta saba botsatsekile sangasafuni ngisho nekuhlonipha Umdali sakhonta
+  futsi sativa sibakhulu nasigumba lusuku lwemuntfu lowafa nganyase. Ingani nangingatsi
+  mine asesiye kaHlatshwayo ngobe naku kunemphahlo kukhunjulwe labaphasi bakhona bantfu
+  bangasola kabi, angeke futsi blugcobe. Besesiyabuta kwekutsi ehluke ngani emadloti
+  akaHlatshwayo naleli lelinguValentine. Belumbi basitfole sinelutsandvo loluchichimako
+  futsi nalolubusisekile lebesitsandza ngalo bomketfu hhayi lolutsandvo lwemaphepha
+  netipho talelolanga kuphela. Phela kutsandza umuntfu yintfo yawonkhe umnyaka.\\nBantfu
+  bakitsi sebadideka batfunjwa netingcondvo ngekusukela intfo labangayati, lemikhuba
+  yebadzeshi bayenta yabo. Kuyamangalisa kwekutsi sive sakitsi ngiso lesesihamba embili
+  ekugubheni lolusuku labangalati nekutsi lacala kanjani futsi bekuyini nenhloso yalo.
+  Phela kutsandza umuntfu kukutsandza umuntfu kungakahlanganiswa netindzaba tekutsengelana
+  lokutsite. Lutsandvo lwetipho luvamisa kuba ngumlilo wemaphepha lovutsa buhanguhangu
+  kwesikhashane bese uyalotsa kwangatsi akumange kube nemlilo. Ngesintfu sakitsi ayikho
+  nani indzaba yekugubha lusuku lweValentine.\\nAbanacala noko labalugubhako kepha
+  sekuyakhombisa kwekutsi nebakitsi laba nguloluhlobo lolwatfunjwa tingcondvo baba
+  titsingitsingi ligwayi leleswela inhlaba. Phela vele tjani lobulele buvamise kuvuswa
+  ngemlilo, kungako lolusuku selwaphendvuka lwaba yindlela yekuticebisa kulabo labatsengisa
+  lemikhicito lehambelana nalelilanga. Kuletinye tindzawo nje sifumbu sesihleka chachazela
+  ngenca yekweswela lwati. Noko singalibeka ngembaba kwekutsi sitawumuka nemanti sihleka
+  nasingayicapheli imikhuba lefana nalena kwekutsi isenta tigcila talabanye bantfu
+  babe bona bangenandzaba nalolusuku. Sitawuhlangana nelitje lembetse ingubo nasingekhutani
+  siloku sitsi silandzela imphucuko sibe siyokhalakatsela eweni . Bantfu abatsandzane
+  kakhulu kunakucala kepha bangahhungulwa lusuku lwesithico ngoba lona luba kanye
+  ngemnyaka lube lutsandvo lukhona ngaso sonkhe sikhatsi.\\nAsigwemeni kuba botsatsekile
+  ngobe sitawuhlana netimbila titfutsa tiholwa ngulemhlophe embili. Bantfu bakitsi
+  tsandzanani ngekweliciniso hhayi kubhaca ngelusuku lwesithico ngobe loko angiboni
+  kwekutsi Simakadze angakubusisa. Mbamba mbamba lolusuku bekwentiwa imikhuba lemibi
+  kwamane kwasulelwa ngalelisotja leMtaliyane. Sitayicoca yonkhe ngalokutako.\"",
+  "\"Ihepatitis A\\nIhepatitis A (lebeyatiwa ngehepatitis lesulelanako) sifo lesibucayi
+  lesitsatselanako sesibindzi lesibangelwa ligciwane lehepatitis A (i-HAV).[1] Tigulane
+  letinyenti tiba netimphawu letincane noma tingabi nato ikakhulukati kulabasebancane.[2]
+  Lesikhatsi lesisemkhatsini wekusuleleka netimphawu, kulabo lababa nato, kuba ngemaviki
+  lamabili kuya kulasitfupha.[3] Uma ngabe kunetimphawu tivamise kuba khona emaviki
+  lasiphohlongo kantsi tingafaka ekhatsi: kunyakuleka, kuhlanta, kusheka, sikhumba
+  lesimtfubi, ifiva, netinhlungu tesisu.[2] Bantfu labalinganiselwa ku-10\u201315%
+  baba netimphawu letiphindzekako ngalesikhatsi setinyanga letisitfupha ngalesikhatsi
+  basuleleka kwekucala.[2] Kungasebenti kakhulu kwesibindzi kungahle kube khona ngalokungakavami
+  kantsi loku kuvamise kakhulu kubantfu labadzala.[2]\\nIvamise kusabalala ngekudla
+  kudla noma kunatsa emanti lanemangcoliso.[2] I-Shellfish lengakaphekeki ngalokwanele
+  nayo ingulenye yetimbangela letijwayelekile.[4] Ingahle isatjalaliswe ngekutsintselana
+  dvutane nemuntfu lonalesifo.[2] Ngalesikhatsi bantfwana bavamise kungabi netimphawu
+  ngalesikhatsi basulelekile bangakhona kundlulisela lesifo kulabanye. Ngemuva kwekusuleleka
+  kanye umuntfu utawuchubeka asuleleke imphilo yakhe yonkhe.[5] Kuhlolwa kwalesifo
+  kudzinga kutsi uhlolwe ingati njengoba letimphawu tiyafana naleto letinyenti taletinye
+  tifo.[2] Ngusinye saletisihlanu yemagciwane latiwako ehepatitis: A, B, C, D, na
+  E.\\nUmjovo wehepatitis A uyasebenta kute uvikele.[2][6] Lamanye emave ayawuncoma
+  kutsi usetjentiswe njalo kubantfwana nalabo labasengotini kakhulu lebangakaze bagonywe.[2][7]
+  Kubonakala ngatsi usebenta imphilo yakho yonkhe.[2] Letinye tindlela tekuvikela
+  tifaka ekhatsi kugeza tandla nekupheka kahle kudla. Akukho kulashwa lokubekiwe,
+  ngako konkhe nemitsi yekuvimbela kunyakuleka noma kusheka iyanconywa kutsi isetjentiswe
+  njalo nayidzingeka.[2] Kusuleleka kuvamise kusonjululwa ngalokuphelele nangaphandle
+  kwesifo sesibindzi lesichubekako.[2] Kwelashwa kwekungasasebenti kakhulu kwesibindzi,
+  uma kwenteka, kutsi ufakelwe lesinye sibindzi.[2]\\nMhlabawonkhe labalinganiselwa
+  kutigidzi letingu-1.5 labanetimphawu baba khona njalo ngemnyaka[2] kantsi kuba khona
+  kusuleleka kwetigidzi letilishumi sekukonkhe.[8] Kujwayelekile etigodzini tasemhlabeni
+  letingenakutfutsa kwendle lokukahle nemanti lanele nalahlantekile.[7] Emhlabeni
+  losatfutfuka bantfwana labalinganiselwa ku-90% bayasuleleka nabaneminyaka leli-10
+  kantsi babese ababi sengotini yekusuleleka nasebabadzala.[7] Kuvamise kwenteka lapho
+  kubhebhetseke khona emaveni langakatfutfuki kakhulu lapho khona bantfwana abangenwa
+  tifo ngalesikhatsi basebancane nekutsi akubi khona kugonywa lokusatjalaliswako.[7]
+  Nga-2010, ihepatitis A leyingoti ibangele kufa lokulinganiselwa ku-102,000.[9] Lusuku
+  LweHepatitis Mhlabawonkhe luba khona njalo ngemnyaka ngenyanga yaKholwane ngamhla
+  ti-28 kute kwecwayiswe ngeligciwane lehepatitis.[7]Template:Infobox medical condition
+  (new)\\nEmareferensi[hlela | edit source]\\n- Ryan KJ, Ray CG (editors) (2004).
+  Sherris Medical Microbiology (4th ed.). McGraw Hill. pp. 541\u20134. ISBN 0-8385-8529-9.\\n-
+  Matheny, SC; Kingery, JE (1 December 2012). \\\"Hepatitis A.\\\" Am Fam Physician.
+  86 (11): 1027\u201334, quiz 1010\u20132. PMID 23198670.\\n- Connor BA (2005). \\\"Hepatitis
+  A vaccine in the last-minute traveler\\\". Am. J. Med. 118 (Suppl 10A): 58S\u201362S.
+  doi:10.1016/j.amjmed.2005.07.018. PMID 16271543.\\n- Bellou, M.; Kokkinos, P.; Vantarakis,
+  A. (March 2013). \\\"Shellfish-borne viral outbreaks: a systematic review\\\". Food
+  Environ Virol. 5 (1): 13\u201323. doi:10.1007/s12560-012-9097-6. PMID 23412719.\\n-
+  The Encyclopedia of Hepatitis and Other Liver Diseases. Infobase. 2006. p. 105.
+  ISBN 9780816069903.\\n- Irving, GJ.; Holden, J.; Yang, R.; Pope, D. (2012). \\\"Hepatitis
+  A immunisation in persons not previously exposed to hepatitis A.\\\". Cochrane Database
+  Syst Rev. 7: CD009051. doi:10.1002/14651858.CD009051.pub2. PMID 22786522.\\n- \\\"Hepatitis
+  A Fact sheet N\u00b0328\\\". World Health Organization. July 2013. Retrieved 20
+  February 2014.\\n- Wasley, A; Fiore, A; Bell, BP (2006). \\\"Hepatitis A in the
+  era of vaccination\\\". Epidemiol Rev. 28: 101\u201311. doi:10.1093/epirev/mxj012.
+  PMID 16775039.\\n- Lozano, R; Naghavi, M; Foreman, K; Lim, S; Shibuya, K; Aboyans,
+  V; Abraham, J; Adair, T; Aggarwal, R,; Ahn, SY; et al. (Dec 15, 2012). \\\"Global
+  and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010:
+  a systematic analysis for the Global Burden of Disease Study 2010\\\". Lancet. 380
+  (9859): 2095\u2013128. doi:10.1016/S0140-6736(12)61728-0. PMID 23245604.\"", "\"Intfo
+  lemcoka ngemphilo yetingulube kutsi usheshe ubone ingulube lefuna kungenwa kugula,
+  uyilaphe kugla kungakandzi kakhulu.\\nKute ukwati kwenta njalo, balimi kufuneka
+  bakwati kubona tingulube letiphilile naleto letingekho kakhe. Nati timphawu lokufanele
+  utigadze:\\nTilwane letihlala tijabulile\\nTingulube tilwane letihlala tijabulile.
+  Esikhatsini lesinyenti tihlala tidlala, tihlale naletinye tingulube. Titobonisa
+  imphilo ngabe khona longena endlini yato, ngalesinye sikhatsi nangabe kunemsindvo
+  titophakamisa emehlo lapho kuchamuka khona lomsindvo.\\nNangabe tigula, titosuka
+  emhlambini waletinye tingulube, tihambe kancane. Tingaphindze tibalekelwe nguletinye
+  tingulube.\\nKuhamba\\nTingulube kufanele tikhone kuhamba ngaphandle kwentinga.\\nTingulube
+  natisuka kuletinye tingulube, tingakhombisi kubanemdlandla, tihamba matima, tivuka
+  kandzima noma tihlala tilele phansi, leti timphawu kutsi khona intfo lengekho kahle.\\nTindlebe,
+  emehlo nemakhala\\nBuso kufanele buhlale buhlobile, kungabi netintfo letiphuma emehlweni.
+  Emehlo langakhatimuli, tindlebe letibheke phansi, loku kungasho kutsi ingulube ayikho
+  kahle. Emakhala kufanele abenembala lochamile.\\nBoya\\nbengulube kufanele bumanyatele
+  futsi butjengise imphilo. Tingulube letimnyama naleto letinaleminye imibala tijwayele
+  kuba neboya lobunyenti, kepha tingulube tamanje letineboya lobumhlophe tiba neboya
+  lobuncane, lobulele, lobuphakeme. Nakunemacabhacabha kusho kutsi khona lokungahambi
+  kahle.\\nSikhumba\\n\u00a9National Pork Board and the Pork Checkoff, Des Moines,
+  IA, USA\\nkufanele sihlobe singabi netilondza, emacabhacabha, tibati nalokunye lokunyenti.
+  Ngekusho kwembhalo Pig Site, Recognising disease on the farm, kushintja kwembala
+  kungasho kutsi khona sifo lesingenako, kungaba iAcute bacteria septicaemia, sifo
+  lesiyingoti, acute mastitis, metritis, acute pneumonia naletinye tifo. Etingulubeni
+  letimhlophe, kushintja kwesikhumba sibe bovana kungasho kutsi khona lokungahambi
+  kahle.\\nKuphefumula\\nIngulube lephilile iphefumula ngendlela lekahle. Indlela
+  ingulube lephefumula ngayo kuya ngemunyaka wayo; ingulube lencane lecedza kutalwa
+  ingaphefumula kayi 50 kuya ku60 ngemzuzu, leseyikhulakhulile ingaphefumula 25 kuya
+  ku40 ngemzuzu bese kutsi lendzala iphefumule 13 kuya ku18 ngemzuzu.\\nKushaya kwenhlitiyo\\nKushaya
+  kwenhlitiyo kwengulube lephilile lendzala kungaba 65 kuya ku80 ngemzuzu phindze
+  ngephansi kwa180 ngemzuzu etingulubeni letincane.\\nKushisa kwemtimba\\nKushisa
+  kwemtimba lokukahle kungalinganiselwa ku 38.5 kuya ku 39 Degrees Celsius. Ingulube
+  umtimba wayo loshisa kundlula ku 41 degrees Celsius noma ngephansi kuka 37 degrees
+  Celsius, loko kusho kutsi leyongulube iyagula kakhulu. Kukhona lokungahambi kahle
+  uma ingulube ichachatela.\\nKungadli\\nKukhona lokungahambi kahle uma ingulube ingadli
+  kahle.\\nKuchama nekukaka\\nUmchamo kufanele ube butfubi ngembala noma ube ngatsi
+  ngemanti. Umchamo lonembala lomnyama noma longatsi unengati kusho kutsi khona lokungahambi
+  kahle. Ingulube lese iyekele kuchama kusho kutsi igulela kufa. Bulongo bengulube
+  kufanele bucine. Uma ingulube ingakhoni kukaka, noma bulongo bungemanti loko kusho
+  kutsi khona lokungahambi kahle.\\nKuphuma kwelibisi\\n\u00a9National Pork Board
+  and the Pork Checkoff, Des Moines, IA, USA\\nkufanele kube nelibisi lelanele bonkhe
+  bantfwana bengulube, ngalamanye emagama wonkhe umntfwana wengulube kufanele ajabule.
+  Khona lokungahambi kahle ngabe emabele engulube avuvukile, uma ingakhiphi lubisi
+  lelanele noma bantfwana bengulube bayafa.\\nKunuka\\nKufanele usebentise emakhala
+  akho kuva kutsi khona lokungahambi kahle, njengekutsi umoya awungeni kahle, nekutsi
+  emanti awandluli kahle, kudla lokumoshekile noma tilwane letifile. Lokunuka kabuhlungu
+  kubantfu kusenekwenteka kutsi kunuka kabi nasetingulubeni.\\nTranslated by Thandokuhle
+  Motha\"", "\"Ligama lemndeni lelatiwako\\nGobies/Triplefins\\nLigama lesayensi\\nGobiidae\\nLinani\\nIngangemasentimitha
+  lamashumi lamatsatfu, silinganiso singemasentimitha lasihlanu.\\nKutiveta\\nTincane,
+  tinemtimba lomudze loncama kanye nehloko lenkhulu, umtimba yangekuncipha ngasemsileni.
+  Inemehlo lamakhulu langetulu kwenhloko. Letinye tinakotini etindzaweni letehlukene
+  letisenhloko. Imibila iyehlukana kakhulu kusuka kunsundvu locinile kanye namphunga
+  kuya mtfubi logcamako, luhlata losasibhakabhaka nasiliva.\\nSatiso Sebantfu Bonkhe\\nUmndeni
+  we Gobiidae ufaka tinhlobo letimakhulu lamabili nelishumi kanye nemacembu latigidzi
+  telikhulu nemakhulu lasiphohlongo. Ngumndeni lomkhulu wetimfishi tasemantini. Letinye
+  taletinhlobo tinematsambo lahlanganisiwe lasetjentiswa kubamba emathe laligugu asemantini.
+  Titfolwa tiphumule ematjeni lamakhulu noma kulawo lamahle lamibalabala. Emacandza
+  ajomelelwe/anamatseliswe etulu kwencenye lemilako kulemfishi. Leletindvuna tibukela/noma
+  tiyawagadza kuze kufike sikhatsi sekuchobosela ikakhulu emva kwemalanga lambalwa.\\nKudla
+  Kwato\\nTidla tilwane letincane letite ematsambo/umgogodla kanye netilwanyana netitjalo
+  letindandza ngetulu kwelwandle naletimila/hluma emantini noma celeni kwemanti.\\nKusakata\\nTivela
+  ngetihlobo tonkhe tekushisa/tekubandza kanye netindzawo letishisako letinelwandle
+  mhlabawonkhe.\\nTilwane letatiwako\\nFire goby - Nemateleotris magnifica\\nSeawhip
+  goby - Bryaninops yongei\\nPennant glider - Valenciennea strigata\"", "\"Title:
+  Kuyawusala Tibongo\\nAuthor: J.J. Ncongwane\\nISBN: 978-0-620-90905-1\\nSize: 140mm
+  x 210mm, 263 pages\\nBlessed Seed Publishers (Pty) Ltd\\nP.O. Box 181, Elukwatini
+  1192\\ninfo@blessedseedpublishing.co.za\\nKuyawusala Tibongo ligcogco letinkondlo
+  letisezingeni lelisetulu naletingeke tilibaleke embhalweni welulwimi lweSiswati.
+  Lapha sihlanganise emanoni etinkondlo letadvuma kakhulu eminyakeni leminengi leyengca
+  kanye netinkondlo letinsha nato letisezingeni leliphakeme kakhulu. Siyatigcabha
+  kakhulu ngalomsebenti walabosonkondlo bakitsi labasibhalele wona. Labanye babo abasekho
+  kuleli sebangale kulela lemimoya. Sekusele nje kuphela imisebenti yabo lebakhulumelako
+  kutsi bake banyatsela kulomhlaba lohlabako.\\nLencwadzi iyahlangabetana futsi netidzingo
+  tesilabhasi, bothishela bangayisebentisa etikolweni ekufundziseni bantfwana. Kunemanotsi,
+  imibuto, netimphendvulo kusita bafundzi nabothishela kutsi bavisise kancono inkondlo
+  baphindze futsi nabo baticambele tabo tinkondlo.\\nNemuntfu nje lotsandza tinkondlo,
+  utawujabulela lomsebenti ngobe muhle futsi uyadvumiseka ngobe ubhalwe bosonkondlo
+  labanelikhono.\\nIf you are looking for a copy of this book, or you want to email
+  the author, please use the link below:\"", "\"Danny Jordaan\\nDaniel Alexander \\\"Danny\\\"
+  Jordaan (Watalwa 3 Lweti 1951) ngumongameli we libhola letinyawo lase Ningizimu
+  Afrika (SAFA) kantsi futsi ngembi kwekutsi abe ngumongameli, bekafundzisa ezingelileliphakeme
+  aphendze alwa nencindzetelo yelubadlululo. Jordaan bekangulomunye lowaholela live
+  lase Ningizimu Afrika empumelelweni ye 2010 FIFA World Cup. leli kwaba likhetfo
+  lekucala evenikati lase Afrika kutsi kube khona lomncintiswano we FIFA. kantsi futsi
+  Jordaan bekakhona kulelitsimba lekucala lelenta imitamo yekuletsa wona lomncintiswano
+  we 2006 FIFA World Cup eveni lasi Ningizimu Afrika longazange ube yimpumelelo. kwatsi
+  nawuphumelela lowesibili umtamo wekuletsa lomncintiswano wabese lowa Jordaan uba
+  ngusihlalo we FIFA eNingizimu Afrika.[1]\\nUhleti etihlalweni letinyenti ke Jordaan
+  lokufaka phakatsi kuba ngusihlalo kanye nemcodzisi we Youth World Cup (now FIFA
+  U-20 World Cup), 2001 FIFA Confederations Cup kanye ne 2002 FIFA World Cup e Korea/Japan.
+  uphindze waba ngunkomishane we 2006 FIFA World Cup lapho bekaphindze alilunga lebhodi
+  yekuhlela khona ku 2006 FIFA World cup. lirekodi lakhe lekuhlela nekuhlala etikhundleni
+  tebuholi belibhola letinyawo buyimpumelelo lenkulu, ngoba watiwa njengemuntfu lonelwati
+  ngekuhlela nekucondzisa lemidlalo ,uphindze abe ngumpetsa ekukhangiseni nasekutsengiseni
+  lemidlalo loku kubonakale ngesikhatsi ahlela i 2010 FIFA World Cup kanye ne 2009
+  FIFA Confederations cup.\\nIminyaka yekucala kusebentaEdit\\nDanny Jordaan watalelwa
+  e Port Elizabeth, leli lidholoba lelisempumalanga ngaselugwini lelwandle, kantsi
+  utalwa ngu Maxine kanye na Alexandre Jordaan. ebusheni bakhe wacala kutibandzakanye
+  ekulweni nembuso wencindzetelo , petseleti i Apartheid lapho engenela khona tinhlangano
+  letifana ne South African Students'' Organisation (SASO) ngeminyaka yabo 1970s,
+  kwatsi lapho Steve Biko asungula inhlangano leyatiwa ngekutsi i Black Consciousness
+  Movement kutsi anike sive lesimnyaka livi ngulapho ke lowa Jordaan naye wacala khona
+  kutibandzakanya netindzaba tepolitiki, waba lilunga layo lenhlangano i BCM ekuweni
+  nencindzetelo yebafundzi belibala. kwatsi ngekuhamba kwesikhatsi, Jordaan waba lilunga
+  le United Democratic Front waphindze wajoyina licembu letembangave i African National
+  Congress (ANC).\\nWacala kufundzisa ke ngeminyaka yabo 1974 ngumva kwekuphotfula
+  timfundvo takhe tebuthishela, kuyo yona leminyaka yangabo 1970 kuya ku 1983 bekaphindze
+  atibandzakanye aphindze angumdlali we cricket kanye nelibhola letinyawo. ebholeni
+  letinyawo wabangumpetsa ekudlaleni kwalo nasekuhleleni imidlalo yalo, ngulapha ke
+  lawacala khona kulwa nekucwasana ngelibala kanye nelibandlululo kulomdlalo.\\nkwatsi
+  ngo 1983 kuya ku 1992 wabamba tikhundla letinyenti ebholweni letinyawo lapho bekaba
+  khona ngumcondzisi kumbe mongameli, lesi ke sikhatsi lapho waba ngumcondzisi wema
+  Olimpiki e Kapa Olympic.\\nNgiso ke lesi sikhatsi labekamatasatasa kulo licembu
+  le ANC lapho wakhetfwa khona kuba ngusihlalo ngo 1990 e Port Elizabeth. ngemuva
+  kwelikhefo lwekucala lwentsandvo yelinyenti e Ningizimu Afrika ngo 1994, waba lilunga
+  lephalamende ngaphansi kwamongameli Nelson Mandela, lesi sikhatsi lowasihlala kwaze
+  kwaba ngu 1997. kwatsi angaphuma ephalamende wabese ubangusihlalo we SAFA In 1997,
+  futsi lesi ngiso sikhatsi lapho wahola khona live lase Ningizimu Afrika emitameni
+  yekuletsa lomncintiswano we 2006 FIFA World Cup lapho kwasala kancane kutsi iNingizimu
+  Afrika ihlulwe i Jalimane, kodvwa nanobe yahluleka iNingizimu Afrika, yena Jordaan
+  wahlonishwa kakhulu emave emhlaba ngemsebenti wakhe lowawenta ekuletseni lendzebe,
+  kwatsi nakufika litfuba lesibili kutsi iNingizimu Afrika incintisane wabese uyawuphumelela
+  lomjaho wekuletsa lendzebe.\\nngaphandle kwaloku Jordaan ube buso nelivi lekukhangisa
+  imidlalo kakhulukati kumabonakudze kusukela ngo 1998. mhlaka 28 Lweti 2013, Jordan
+  wacokwa kutsi abe ngumongameli lomusha we SAFA, atsatsa etintsenjeni ta Kirsten
+  Nematandani. wahlula Mandla Mazibuko ngemavoti langu 162 kulangu 88 etindzaweni
+  letingu 52.\\nImfundvoEdit\\nJordaan une BA degree layitfole e University of the
+  Western Cape aphindze abe ne Honours degree layitfole e University of South Africa.
+  uphindze abe nekuhlonishwa nge me Degrees lamatsatfu ngemazinga laphakeme etemfundvo
+  iNelson Mandela Metropolitan University ku (D.Phil),kanye ne University of South
+  Africa ku (D. Admin), kuphindze kube yinyuvesi la photfula khona tifundvo takhe
+  i University of the Western Cape nge (D. Phil).\\nema AwardsEdit\\nwatfola i award
+  yelikhetselo leyatiwangekutsi i presidential award kumongameli Nelson Mandela ngo
+  1994 kantsi ngetulu kwaloko uphindze abe nalenye lowahlonishwa ngiyo ngumongameli
+  Thabo Mbeki ngo 2001. uphindze wawina tekukhangisa nekutsengisa ngemnyaka wa 2000
+  ngemsebenti wakhe kanye nelikhono lakhe lekukhangisa nekutsengisa temidlalo . nog
+  2004, wavotelwa njengalobe ngundzabamlonyeni waphindze watfolwa i mayoral award
+  e Los Angeles, eCalifornia mhlaka 24 Ingci 2004. Jordaan uphindze wanikwa i freedom
+  of the city yelidholobha lase Maracaibo, eveni lase Venezuela. ngaphandle kwalawa
+  , utfole ema Award kanye nekuhlonishwa emadholobhenin lamanyenti ase Ningizimu Afrika\"",
+  "\"Hendrik Jacobus Coetsee (19 April 1931 - 29 July 2000), Bekangusopoliki kanye
+  nemholi welicembu iNational Party e Ningizimu Afrika, kantsi ube ngulabanye bebaholi
+  belibandlululo ngesikhatsi sengucuko kwelive kwentsandvo yelinyenti.\\nCotetsee
+  lobekaphindze atiwe nga Kobie watalwa mhlaka 19 Apreli 1931 e-Ladybrand lidolobha
+  lelincane lelimangalisako esifundzeni sase-Orange Free State (nyalo lesifundza sase-Free
+  State), wafundzela umtsetfo e-University of the Orange Free State futsi wafaneleka
+  kuba ngummeli.[1] Ngemnyaka wa 1968, Coetsee wawina sikhundla sase Bloemfontein
+  West ku-House of Assembly, lesasuswa ngu-J. J. Fouche, lowaba nguMengameli Wesifundza:
+  60 P. W. Botha wamkhetsa ngemnyaka wa 1978 njengeSekela leNdvuna yeTekuvikela neBuhlakaniphi
+  Belive kwatsi, ngemnyaka wa 1980, waba nguNdvuna yeBulungiswa. Umsebenti weTindzawo
+  Letihlalako wengetelwa emisebentini yakhe.\\n- Cite error: Invalid\\n\\ntag; no
+  text was provided for refs namedHNMUN\"", "\"Mswati III\\nMswati III yiNgwenyama
+  yeMbuso wakaNgwane (25 M\u00e1basa 1986). Ingwenyama Mswati yatalwa yatiwa ngekutsi
+  ngumntfwanenkhosi Makhosetive esibhedlela sase RFM kaManzini. Wakhulela emtini webukhosi
+  Etjeni madvutane naseMasundvwini. Babe weNgwenyama bekuyiNkhosi Sobhuza II, kantsi
+  make wakhe bekuyinkhosikati laTfwala. Imbube yemhlaba yacala imfundvo yayo esikolweni
+  saseMasunvwini, emuva kwaloko safundza emtini webukhosi kaLozitha. Mswati wabese
+  uwela tilwandle wayowufundza eNgilandi esikolweni sase Sherborne e Dorset eningizimu
+  yelive. Watsi nakabuya nga 1986 wabutsatsa bukhosi watiwa ngekutsi nguMswati wesitsatfu.\"",
+  "\"Luju yintfo lenongotelako letiyile ngekwakhiwa, tinyosi teluju kanye naletinye
+  tilwanyana letincane, kusuka ekungoteleni kwetitjalo futsi kungatfolwa ngetindlela
+  letiningi \u2013 kusuka kulokugijimako noma lokusamhloshana salubisi ngekuvela kuya
+  kulokukhanyako na nsundvu lotopele ngelibala, ngetintfo noma ngaphandle kwetincetu
+  tetimvutfu.\\nNgekubuyela emuva ngetinsuku lekungaba yiminyaka letinkhulungwane
+  letine kuma hieroglyphs lase Gibhithe lakhombisa imphilo yetinyosi, luju nguyona
+  intfo lenongotelako lebeyikadze yatiwa emadvodzeni iminyaka leminingi. Kutsandza
+  kugcinwa kwetinyosi kwacala ngemnyaka wa 1792 ngemuva kwencwadzi lebeyikhuluma ngetinyosi
+  neluju leyabhalwa ngu Francois Huber, imphumphutse yemvelo futsi ngemnyaka wa 1850
+  umshumayeli wase Mellika Lorenzo Langstroth watfutfukisa libhokisi letinyosi lelihambako,
+  umtsetfo losasetjentiswa nalamuhla.\\nLizinga le Luju\\nUmtsetfo lokhona nanyalo
+  wala Ningizimu Afrika, Sento Selizinga Letintfo tekwakhiwa ngeKulima, ngemnyaka
+  wa 1990, (Act No. 119 ya 1990) ikhuphukisa tigaba letimbili \u2013 kukhetfwa kwesigaba
+  kanye nesigaba sekusebentela \u2013 kweluju lolungemanti, luju lolunekhilimu kanye
+  neluju lwetimvutfu. Umtsetfo wengamela lizinga ngekubeka tigaba tetintfo letitsite
+  kufana ne luju lwe fructose kuya ekukaleni kwe glucose, kushona kanye ne HMF (hydroxymethylfurfural
+  lekhona kuluju kanye nalokukhombisa lizinga lweluju) lolutfwelwe.\\nLibala kanye
+  neSinongo se Luju\\nLizinga lweluju alunantfo yekwenta ngelibala. Libala leluju
+  lushiyana ngendlela yalokunongotelako futsi lingahambela kusuka emantini lamhlophe
+  kuya kunsundvu lotopele noma lokucishe kubemunyama.\\nKufana nekutsi, luju lwelibala
+  lelikhanyako lingachamuka ekuchakateni kwalokunongotelako, libe luju lelibala lelimnyama
+  lingabe lakheke kusuka kulokunongotelako kwemakotapeni lachakatako noma timbali
+  tesiganga.\\nLibhodi le Luju lwe Sive loluse US lichaza kutsi, ngekufana, kuvela
+  kanye nesinongo se luju kushiyana ngendlela yalokunongotelako. Luju lwemakotapeni
+  litoba nekuvela lokuvutsiwe kwa bhatha libe luju lolwakheke kusuka etintfweni te
+  Eucalyptus tingakhombisa tintfo letiningi letehlukene tekuvelela, kepha tivame kuba
+  nesinongo lesicinile ngekuvela lokuncane kwemitsi. Ngekubukisisa kahle ngaloku,
+  luju lolwakheke ngetimbali letinongotelako letinenekuvela lokubutsakatsaka nekuvela
+  lokuncane lokuphansi kwekunongotela. Luju lwemagungumence laluhlata sasibhakabhaka
+  kulula ngelibala nesinongo lesisandingilizi. Luju lwe acacia lusemkhatsini futsi
+  lunongotela kakhulu nge sucrose letfwele libe luju lwe Lucerne linekunongotela lokuncane
+  kunaletinye tinhlobo teluju. Luju lolwakhiwe ngembali ye canola ngetinhlavana letinongotelako
+  ngekushesha lokukhulu, kuvamile ngisho nakumabhokisi etinyosi.\\nTinhlobo te Luju\\nLuju
+  loluluhlata alukaze lwa shisiswa, lwakhiwa noma lwavutsiswa futsi lulungele kubagcini
+  betinyosi labasha, njengoba akudzingeki kushisiswa ngalokudulile kanye netintfo
+  tekushisisa. Luphindze lutfwale imphuphu lemtfubi yetinyosi, lephakeme nge amino
+  acid kanye naletinye tinongo letitfolwako.\\nLuju loluluhlata lunga, nomakunjalo,
+  lube nemafu, lugucule emakhemikhali phindze lubetinhlavu (lucine). Lokwakhiwa ngaleyondlela
+  kwenteka kancane futsi kungatfwala emagciwane.\\nLuju lwentsengo noma lolujwayelwe
+  kungahle kube lishisisiwe. Kushisisa yindlela yekubulala emagciwane ngekufutfumeta
+  kudla lokwakhiwe kube ngu 70\u00b0C bese phindze uyakupholisa. Kushisisa luju kulenta
+  lube lula kutsi lecengeke phindze lufakwe emabhodleleni bese kwakheka luju loluhlobile,
+  lolungeke lome.\\n\u2018Luju lwe khilimu\u2019 luju lolomile lolulula, lwakhiwe
+  kutsi lube nekhilimu lefanako ngekuvelela lokutsambile ngekusakatwa.\\n\u2018Juba
+  luju lwetikhala\u2019 kusho lujulwetikhala neluju, losekujutjiwe kwase kuyapakishwa.\\n\u2018Lujulwematolo\u2019
+  lokusho noma nguliphi luju lwe idextrorotatory. Loku kusho kutsi loluju lwakhiwe
+  etintfweni tashukela tetincenye tetitjalo kunaleto tetimbali, kepha kungaphindze
+  kuchaze kutsi luju selihlanganisiwe (lihlanganiswe nesitaputapu kanye nalabanye
+  boshukela) njengoba letintfo letincane letingahlukaniseka ku \u2018luju lolungasilo\u2019
+  tehlukile kunaleto teluju mbamba.\\nLuju lwe M\u0101nuka lwakhiwe kusuka ekunongoteleni
+  kwembali ye lihlatsi le M\u0101nuka (Leptospermum scoparium), sitjalo lesiyindalo
+  eNew Zealand. Luju lwe M\u0101nuka litsatfwa njengalelikhulu futsi linetintfo letimcoka
+  tekunakekela tilondza nemagciwane.\\nTinatfo letineLuju\\nLuju lunongotela kakhulu
+  kunashukela futsi lungasetjentiswa esikhundleni sashukela etinatfweni tasematafuleni,
+  kumatiya labandzako, kutinatfo letishisako kanye netinatfo-tetitselo. Luju kumele
+  libhicwe nemanti \u2013 kusetjentiswe tincenye letilinganako (sisindvo lesifanako)
+  ngasinye. Shisisa lolokuhlanganisiwe luze loluju luncibilike lube ngemanti. Lolokuhlanganisiwe
+  kungagcinwa kuze kubengemaviki lamabili.\\nSinatfo sema Scottish iDrambuie tjwala
+  lobakhiwe nge whiskey, luju, tintfo letincane kanye nemacembe, ibe imead iyintfo
+  legucukako lehlanganisiwe yeluju, iyeast nemanti. Imvelaphi ye mead ingabuyiselwa
+  emuva kumavasi lamabhodo ema Shayina kusuka ku 7000 B.C. Emacembe kanye netinongo-te
+  mead letifakwe entfweni lemanti kutsenjwa kutsi telapha kukhatsateka phindze titfutfukise
+  kugaya kwesisu.\\nYini Luju Lolungasilo?\\nNgemnyaka wa 2018, kwatfolwa kutsi luju
+  lolungasilo lwatsengiswa eNingizimu Afrika. Lolu luju lolungasilo ungatfola kutsi
+  lwalukadze lukhicitwe landzaweni, noma nje luju loluningi lwalwa Ningizimu Afrika
+  lutsengwa/luchamuka eChina.\\nUmkhiciti wasendzaweni, Peel\u2019s Honey, uchaza
+  kutsi luju lolungasilo lwakhiwa ngeluju sibili nesitaputapu semnyani wemmbila, shukela
+  noma shukela welilayisi. Lokukwakha kubitwa nge \u201cKuhlanganiswa kwalokusemtsetfweni
+  nalokungekho emtsetfweni\u201d.\\nKwengeka sitaputapu sashukela noma ngisho nemanti
+  kulunu lolungilo kuvumela bakhiciti kutsi batsengise loluju lolungasilo ngelinani
+  lentsengo lephansi kunaleyo yeluju lolungilo. (\u2018Lolungilo\u2019 luju lolutsengiswa
+  luhambele ku maRandi lamashumi lasitfupha nesihlanu nge magremu lamakhulu lasihlanu
+  ngemnyaka wa 2018).\\nLenkinga ngeluju lolungasilo tintfo-letimbili: kuphila kanye
+  nemnotfo. Luju lolungasilo lelinashukela lowengetiwe lungaba yintfo lengalungi emphilweni
+  (kanye netigaba tashukela) talabamudlako, ikakhulu labanesifo sashukela. Kwesibili,
+  kwehla kwelinani leluju lolungasilo kwenta kubelukhulu kubagcinibetinyosi basendzaweni
+  kutsi bacudzelane.\\nBadly bayacwayiswa kutsi bafundze lokubhaliwe ngekunakekela.
+  Kutsenga luju lwase Ningizimu buka emagama latsi \u2018yakhiwe eNingizimu Afrika\u2019
+  njengekutsi \u2018kupakishwe eNingizimu Afrika\u2019.\\nLuhlolo lolumelula lwasekhaya:
+  hlanganisa tincenye letilinganako teluju kanye nesipirithi. Luju lolungilo (mbamba)
+  lindanda ngetulu, libe lelo lelingasilo litohlangana nalesipirithi.\\nTranslated
+  by\\nPhindile Malotana\"", "\"271\\nEkuseni lokwa ngeluvivi baphristi labakhulu
+  netibondza tesive benta lisu lekubulala Jesu. 2\\nBambopha, bamtsatsa, bammikisa
+  kuLusibalukhulu Philatu.\\n3\\nJudasi, labengumtsengisi wakhe, nakabona kutsi Jesu
+  bamlahle ngelicala lekufa, watisola, wabuyisela letinhlavu letingema-30 kubaphristi
+  labakhulu kanye netibondza, 4atsi: \u201cNgonile ngekutsengisa ngengati lengenacala!\u201d\\nBona
+  batsi kuye: \u201cPho, singenaphi lapho tsine? Tibonele wena!\u201d\\n5\\nJudasi
+  wasakata phansi lemali ethempelini, wahamba wayawutikhunga.\\n6Baphristi labakhulu
+  bayicobonga lemali batsi: \u201cLemali ngeyengati, kantsi kuphambene nemtsetfo wakitsi
+  kutsi imali lenje ifakwe esikhwameni selithempeli.\u201d 7Emvakwekuvumelana ngaloko,
+  lemali batsenga ngayo iNsimi yeMbumbi, kuze ibe yindzawo yekungcwabela tihambi.
+  8Ngiko nje lensimi kuze kube ngulamuhla ibitwa ngekutsi: \u201cYiNsimi yeNgati.\u201d\\n9\\nNgako
+  kwagcwaliseka loko lokwashiwo ngumphrofethi Jeremiya kutsi: \u201cBatsatsa tinhlavu
+  letingema-30 tesiliva, intsengo yakhe. Lentsengo ngaye yalungiswa ngulabanye bemadvodzana
+  aka-Israyeli. 10Batsenga ngayo insimi yembumbi, njengobe iNkhosi ingiyalile.\u201d\\n11\\nJesu
+  wemiswa embikwaLusibalukhulu lowambuta watsi: \u201cWena ungiyo yini inkhosi yemaJuda?\u201d\\nJesu
+  waphendvula watsi: \u201cUsho kona.\u201d 12\\nKepha ngesikhatsi baphristi labakhulu
+  netibondza bametfwesa emacala abengaphendvuli.\\n13Ngako Philatu watsi kuye: \u201cAwuweva
+  yini lamacala langaka labakubeka wona?\u201d\\n14\\nKepha Jesu akazange amphendvule,
+  ngisho nangalinye nje. Lusibalukhulu wamangala kakhulu.\\n15\\nNgesikhatsi semkhosi
+  Lusibalukhulu abenemkhuba wekukhulula sinye siboshwa lesasifunwa sicuku sebantfu.
+  16Ngaso leso sikhatsi-ke kwakunesiboshwa lesasidvume ngebubi baso lebesinguBharaba.Letinye
+  tincwadzi tekucala titsi \u201cJesu Bharaba\u201d 17\\nNgako-ke satsi kube lesicumbi
+  sibutsane, Philatu wasibuta watsi: \u201cNifuna nginikhululele bani emkhatsini waBharaba
+  naJesu lowatiwa ngekutsi nguKhristu?\u201d 18Abati kahle kamhlophe kutsi Jesu babemletse
+  ngobe babenemona naye.\\n19Watsi Philatu asahleti esihlalweni sekwehlulela, umfati
+  wakhe watfumela kuye livi atsi: \u201cUngatifaki endzabeni yalowo muntfu longenacala,
+  ngobe angikalali ngihlushwa ngaye ngeliphupho ebusuku balamuhla.\u201d\\n20Kepha
+  baphristi labakhulu netibondza bativumisa leticumbi kutsi ticele Bharaba, kubulawe
+  Jesu. 21\\nKodvwa Lusibalukhulu wababuta watsi: \u201cNifuna nginikhululele muphi
+  emkhatsini walaba lababili?\u201d\\nBaphendvula batsi: \u201cBharaba!\u201d\\n22Philatu
+  wababuta watsi: \u201cNgenteni-ke ngaloJesu lekutsiwa nguKhristu?\u201d Bonkhe baphendvula
+  batsi: \u201cMbetsele esiphambanweni!\u201d\\n23Kodvwa Philatu wababuta futsi watsi:
+  \u201cNgobe ente cala lini?\u201d Kepha kwaba ngukhona bamemeta bonkhe batsi: \u201cMbetsele
+  esiphambanweni!\u201d\\n24\\nWatsi kube abone Philatu kutsi kute langaphindze akwente,
+  nekutsi sekusuka siphitsiphitsi, watsatsa emanti, wageza tandla embikwebantfu bonkhe
+  watsi: \u201cAnginacala ngengati yalomuntfu! Tiboneleni nine!\u201d\\n25Sonkhe sive
+  saphendvula satsi: \u201cIngati yakhe ayibesetikwetfu nasetikwebantfwana betfu!\u201d\\n26Philatu
+  wase ubakhululela Bharaba; kepha Jesu asashayiwe wase umnikela kubo kutsi abetselwe
+  esiphambanweni.\\n27\\nEmasotja aLusibalukhulu ase atsatsa Jesu ammikisa esigodlweni
+  saLusibalukhulu. Lonkhe libutfo lemasotja lasondzela lamtungeleta. 28Lamhlubula
+  tingubo takhe, lamembatsisa ingubo lebovu. 29Lase leluka umchele ngemanyeva, lawufaka
+  enhloko yakhe, lambambisa umhlanga ngesekudla, laguca embikwakhe, lamphukuta latsi:
+  \u201cBayethe! Nkhosi yemaJuda!\u201d 30\\nLamkhafulela ngematse, latsatsa lomhlanga,
+  lamshaya enhloko. 31Naselicedzile kumphukuta, lamkhumula lengubo lebovu, laphindze
+  futsi lamembatsisa letakhe tingubo, lase liphuma naye layakumbetsela esiphambanweni.\\n32\\nLibutfo
+  lemasotja latsi lisaphuma nje lahlangana nalenye indvodza yaseSirene, lenguSimoni
+  libito layo, layicindzetela kutsi yetfwale siphambano saJesu. 33\\nNasebafikile
+  endzaweni lekutsiwa yiGolkotha, lokusho kutsi: \u201cYiNdzawo yeSikobho,\u201d 34\\nlamnatsisa
+  liwayini lelalibhicwe nenyongo; watsi kube alive walala, wangete walinatsa.\\n35\\nSelimbetsele
+  esiphambanweni, lase lenta inkatho, lehlukaniselana ngetingubo takhe. 36Lahlala
+  phansi, lamgadza. 37Ngetulu kwenhloko yakhe labeka satiso selicala lagwetjwe ngalo
+  sitsi: \u201clona ngujesu, inkhosi yemajuda.\u201d 38\\nKwase kubetselwa kanye naye
+  tigebengu letimbili, lesinye ngesekudla, lesinye ngesancele.\\n39\\nBantfu lababendlula
+  lapho babemetfuka banikine tinhloko, 40\\nbatsi: \u201cWena lobhidlita lithempeli
+  uphindze ulakhe ngemalanga lamatsatfu! Tisindzise phela, nangabe uyiNdvodzana yaNkulunkulu!
+  Yehla lapho esiphambanweni!\u201d\\n41Kanjalo futsi nebaphristi labakhulu, netati
+  temtsetfo, netibondza bamphukuta, batsi: 42\u201cWabasindzisa labanye, kodvwa yena
+  angeke atisindzise! Kantsi akasiyo iNkhosi yema-Israyeli yini? Akehle phela! Nangabe
+  angehla esiphambanweni, sitawukholwa nguye! 43\\nWetsembele kuNkulunkulu. Akamehlise
+  phela loNkulunkulu wakhe namtsandza! Ngobe watsi: \u2018NgiyiNdvodzana yaNkulunkulu.\u2019
+  \u201d\\n44\\nNgisho nalabo lababili lababebetselwe kanye naye, bametfuka nabo.\\n45\\nKepha
+  kusukela ngeli-awa leli-12 emini umhlaba wonkhe waba mnyama, kwaze kwaba li-awa
+  lesitsatfu. 46\\nKwatsi ngensimbi yesitsatfu entsambama Jesu wakhala kakhulu watsi:
+  \u201cEli, Eli, lama sabakthani?\u201d lokusho kutsi: \u201cNkulunkulu wami, Nkulunkulu
+  wami, ungishiyeleni?\u201d\\n47Labanye bantfu lababelapho labamuva batsi: \u201cAse
+  nimuve! Ubita Elija!\u201d 48\\nLomunye wabo wagijima masinyane waya kuye nesiponji,
+  wasenya ewayinini lelimunyu, wasihloma elutsini lwemhlanga wetama kumnatsisa.\\n49Kodvwa
+  labanye batsi: \u201cAse nimyekele, sibone kutsi lo-Elija utawufika yini atemsindzisa!\u201d\\n50Jesu
+  waphindze wakhala ngelivi lelikhulu kakhulu, wase uyafa.\\n51\\nBheka, indvwangu
+  leyayilenga ethempelini yadzabuka ekhatsi, kusukela etulu kuya phansi. Umhlaba watamatama,
+  emadvwala achekeka ekhatsi, 52emathuna avuleka, bantfu labanyenti baNkulunkulu labebafile
+  bavuswa ekufeni. 53Bawashiya emathuna; emvakwekuvuka kwaJesu ekufeni baya bangena
+  edolobheni lelingcwele, lapho babonwa bantfu labanyenti.\\n54Indvuna yemphi nemasotja
+  labenawo labelindze Jesu, nabakubona lokutamatama kwemhlaba, nako konkhe lokwenteka,
+  befikelwa kwesaba lokukhulu baze batsi: \u201cNgempela lomuntfu abeyiNdvodzana yaNkulunkulu!\u201d\\n55\\nKwakunebafati
+  labanyenti lapho lababemlandzela basita Jesu kusukela eGalile; babebukela, babucalu.
+  56Emkhatsini wabo bekukhona Mariya waseMagdala, naMariya, unina waJakobe naJosefa,
+  nenina wemadvodzana aZebedi.\\n57\\nNakuhwalalako, kwefika Josefa labeyinjinga yase-Arimathiya,
+  naye futsi abengulomunye webafundzi baJesu. 58Waya kuPhilatu kuyawucela sidvumbu
+  saJesu. Philatu wakhipha livi watsi akanikwe. 59Ngako Josefa wasitsatsa lesidvumbu,
+  wasigocota ngendvwangu lenhle, yelineni lecolisakele, 60wasibeka ethuneni lelisha
+  labesandza kuligubha edvwaleni. Wase ugicitela litje lelikhulu emnyango walelithuna
+  wavala ngalo, wesuka wahamba. 61Kepha Mariya waseMagdala nalomunye Mariya babehleti
+  khona lapho, macondzana nelithuna.\\n62Ngakusasa, lokusho kutsi, ngelilanga lelilandzela
+  lelemalungiselelo, baphristi labakhulu nebaFarisi bahlangana naPhilatu, 63\\nbatsi
+  kuye: \u201cNkhosi, siyakhumbula kutsi lomkhohlisi asaphila watsi: \u2018Ngiyawuvuka
+  emvakwemalanga lamatsatfu.\u2019 64\\nNgako khipha umyalo kutsi lelithuna lakhe
+  ligadzisiswe kahle kuze kube lilanga lesitsatfu, kuze bafundzi bakhe bangayi kuyawumeba,
+  bese batjela bantfu batsi: \u2018Uvusiwe kulabafile,\u2019 bese kutsi lamanga akhe
+  ekugcina abe makhulu kakhulu kunalawa ekucala.\u201d\\n65Philatu watsi kubo: \u201cTsatsani
+  naba balindzi nihambe niyekulelusa njengekubona kwenu.\u201d\\n66Besuka bahamba,
+  bayawuligadzisisa lelithuna: balivalisisa, baze bashiya neluphawu etjeni, babeka
+  nebalindzi.\"", "\"1. Kuchubeka kwakho nekufundza liBhayibheli kutakusita ngani?\\nAsingabati
+  kutsi letimfundziso teliBhayibheli letisisekelo tilutfutfukisile lutsandvo lwakho
+  ngaJehova. Lolutsandvo kudzingeka uchubeke usebentela kutsi luhlale lucinile. (1
+  Phetro 2:2) Kute uhlale unalelitsemba lekuphila lokuphakadze kufanele uchubeke usondzela
+  kuNkulunkulu ngekutsi utadishe liVi lakhe.\\nNjengobe lwati lwakho ngaNkulunkulu
+  lukhula, nekukholwa kwakho kutawucina. Kukholwa kutakusita kutsi ujabulise Nkulunkulu.
+  (Hebheru 11:1, 6) Kutakwenta kutsi uphendvuke futsi wente lushintjo endleleni yakho
+  yekuphila.\\n2. Lwati lwakho ngaNkulunkulu lungabasita njani labanye?\\nKutatentakalela
+  kutsi ufune kutjela labanye ngaloko lokufundzako, njengobe vele sonkhe sikujabulela
+  kutjela labanye tindzaba letimnandzi. Njengobe uchubeka nekufundza liBhayibheli,
+  utawufundza nendlela yekulisebentisa kahle kute uchazele labanye ngekukholwa kwakho
+  kuJehova nasetindzabeni letimnandzi.\\nBantfu labanyenti bacala kushumayela ngetindzaba
+  letimnandzi etihlotjeni tabo nakubangani babo. Kufanele usebentise kuhlakanipha
+  nawutawenta njalo. Kunekumane nje ubatjele kutsi inkholo yabo ayikalungi, kufanele
+  ubatjele ngetetsembiso taNkulunkulu. Khumbula futsi nekutsi imvamisa bantfu bajatjuliswa
+  tento takho temusa kunaloko lokushoko.\\n3. Bungaba njani buhlobo bakho naNkulunkulu?\\nKufundza
+  liVi laNkulunkulu kutawenta buhlobo bakho naJehova bukhule. Ngekuhamba kwesikhatsi,
+  lobuhlobo bakho butawuba ngulobukhetseke kakhulu! Ecinisweni, utawuba yinceku yakhe
+  futsi ujabulele nekuba lilunga lemndeni wakhe.\\n4. Yini lengakusita kute uchubeke
+  utfutfuka?\\nBuhlobo bakho naNkulunkulu butawutfutfuka nawuchubeka nekutadisha liVi
+  laNkulunkulu. (Hebheru 5:13, 14) Cela lomunye waboFakazi BaJehova kutsi akufundzele
+  liBhayibheli asebentisa incwadzi letsi Lifundzisani Mbambambamba LiBhayibheli? Nawusolo
+  uchubeka nekufundza liVi laNkulunkulu, nendlela yakho yekuphila itawuchubeka iphumelela.\\nLiBhayibheli
+  licuketse \u201ctindzaba letimnandzi taNkulunkulu lojabulako.\u201d (1 Thimothi
+  1:11, NW) Ungakwati kusondzela kuye ngekutsi ube sedvutane nebantfu bakhe. (Hebheru
+  10:24, 25) Ngekuchubeka wenta imetamo yekufuna kumjabulisa, utawube ukhombisa kutsi
+  unesifiso sekutfola kuphila lokunguko sibili\u2014kuphila lokuphakadze. Kusondzela
+  kuNkulunkulu, kukuphela kwentfo lencono kakhulu longayenta.\\nFundza Kabanti\\nLUHLELO
+  LWEKUFUNDZISWA NGELIBHAYIBHELI\\nLiBhayibheli linika tigidzi tebantfu labasemhlabeni
+  wonkhe timphendvulo temibuto lebalulekile ekuphileni. Ungatsandza yini kuba ngulomunye
+  wabo?\\nLifundzisani Mbambambamba LiBhayibheli?\\nNkulunkulu uyakulalela yini nawuthantaza?
+  Kute kuphendvuleke lombuto, kudzingeka ucale ucondze loko liBhayibheli lelikufundzisako
+  ngemthantazo.\"", "\"Ligama lemndeni lelatiwako\\nTriggerfish\\nLigama lelinye lelatiwako\\nKute/Alikho\\nLigama
+  lesayensi\\nBalistidae\\nLinani\\nIngangelimitha linye, silinganiso simashumi lamatsatfu
+  nesihlanu emasentimitha.\\nKutiveta\\nUmtimba umise kwendingilizi nenhloko lekhaliphile
+  kanye nekuncipha ngasemsileni. Umsila umise kwelucwetana. Luphiko lwangaphambili
+  lunematsambo lamabili lakhaliphile, lagobeke agoceka. Incumbi yetilwane tinematinyo
+  lakhaliphile ngembili. Timphiko tangemuva nasetibunu tihleti ngemuva kwemtimba,
+  takha emakona lamatsatfu. Imibala leminengi kanye nemibhalo iyatfolwa.\\nSatiso
+  setintfo\\nUmndeni we Balistidae ufaka lishumi nakubili weluhlobo nemacembu etilwane
+  lamashumi lamane nakubili. Titfolwa ngetulu kwematje. Litsatfu lizinga. Litsambo
+  langemuva liyakhiya endzaweni nayihlaselwa. Tinendzawo esilulwini letisivikelako,
+  phindze nakubabhukushi. Titalela emacandza esilulwini.\\nKudla kwato\\nTidla tilwane
+  letiyaluka ngetulu kwemanti, tilwane letilula, ema urchins aselwandle kanye naletinye
+  tilwane tasemantini letite imigogodla. Letinye tidla titjalo netilwane letindanda
+  ngetulu kwemanti.\\nKusakata\\nTivela ngekushisa/kubandza naselwandle lolusendzaweni
+  leshisako mhlaba wonkhe.\\nTilwane letatiwako\\nClown triggerfish - Balistoides
+  conspicillum\\nRedfang triggerfish - Odonus niger\\nTitan triggerfish - Balistoides
+  viridescens\"", "\"liyaduma di di di, liduma lingani vaka ngovo xokotiva vaka xilwa
+  hima sala nima vungwa..!!\\nngiyabonga mfowetfu wena lo bhale sinanatelo saka ntimba,
+  kodvwa ngicela kungeta nanga ema gama uma sibonga ntimba sitsi\\nbasedidine\\\"
+  ntimba wale xokotive vaka ngovo vakulwa hivungwe nimalasa e vaka khosa valwa hima
+  tlari vateka tiko di di did di di.\\ninvelaphi yetfu sibeku dzabuka e mozambique
+  endzaweni yase magudu enkanyini lapho kene li chibi letfu i xokotive. li chilhibi
+  lelingashi ebusika nase hlobo lapho ke tifishi takhona ati pheli.\\nngiyabonga bafowetfou
+  nabo babe asichukeni ne re serch. mr ntimba tj shokos@mweb.co.za\"", "\"Intsaba
+  yaseRushmore\\niRushmore yintsaba letfolakala eMelika leyasungulwa ngenhloso yekuheha
+  bavakashi. Lentsaba iyindzawo legcwele kusive semaLakota Sioux, kanye naletinye
+  tivetaseMelika, kantsi ngekufika kwebelungu lendzawo yatsatfwa ngenkani yagujwa
+  ngekwemfanekiso wabomongameli belive laseMelika. Ngeminyaka yangema 1800 kwatfolakala
+  ligolike kulendzawo, ngulapho ke sive semaLakota Sioux sakhishwa ngenkani.[1] [2]\\nBuso
+  lobusematjeni bumfanekiso wabomongameli George Washington (1732\u20131799), Thomas
+  Jefferson (1743\u20131826), Theodore Roosevelt (1858\u20131919) and Abraham Lincoln
+  (1809\u20131865).[3]\"", "\"Emihlanganweni yebuKhristu yasendvulo bekuhlatjelwa,
+  kuthandazwa, kufundvwa imiBhalo kuphindze kucocwe ngayo\u2014kwakungalandzelwa emasiko.
+  (1 Khorinte 14:26) Ungalindzela lokufananako nasemihlangaweni yetfu.\\nTicondziso
+  tisekelwe eBhayibhelini futsi tiyasebenta. Ngetimphelasontfo, libandla ngalinye
+  liyahlangana kute lilalele INkhulumo Yelinyenti lesekelwe eBhayibhelini leveta indlela
+  imiBhalo lehlobana ngayo nekuphila kwetfu nesikhatsi lesiphila kuso. Lenkhulumo
+  itsatsa imizuzu lengu-30. Sonkhe siyakhutsatwa kutsi sihambisane nesikhulumi nasifundza
+  liBhayibheli. Ngemuva kwalenkhulumo, kuba neSifundvo Se-Sicongosekulindza, lesitsatsa
+  li-awa. Kuso emalunga elibandla avumelekile kutsi aphendvule nakufundvwa sihloko
+  lesikumagazini lofundvwako we-Sicongosekulindza. Timphendvulo letiniketwa kulomhlangano
+  tisisita kutsi sisebentise sicondziso seliBhayibheli ekuphileni kwetfu. Kufundvwa
+  magazini lofananako emabandleni langetulu kwa-100 000 lasemhlabeni wonkhe.\\nSiyasitwa
+  kutsi sitfutfukise emakhono etfu ekufundzisa. Siphindze sihlangane nasemkhatsini
+  weliviki kusihlwa kute sibe neluhlelo lolunetincenye letintsatfu. Umhlangano wekucala,
+  Sifundvo SeliBhayibheli Selibandla lesitsatsa imizuzu lengu-30. Kuso kuba nencenye
+  yemibuto netimphendvulo lesisita sicondze timiso temiBhalo netiphrofetho. Ngemuva
+  kwaloko, kulandzela Sikolwa Semsebenti WemaKhristu, sona lesitsatsa imizuzu lengu-30,
+  sicala ngenkhulumo ledzingidvwa netilaleli lemayelana nencenye letsite eBhayibhelini
+  libandla leliyifundze kusenesikhatsi. Bafundzi lababhalisile kulesikolwa babese
+  betfula tinkhulumo letimfisha. Umchubi wesikolwa uyalalelisisa kute akwati kusisita
+  kutsi sitfutfukise emakhono etfu ekufundza newekukhuluma. (1 Thimothi 4:13) Incenye
+  yekugcina nguMhlangano Wemsebenti lotsatsa imizuzu lengu-30. Wona uhlanganisa tinkhulumo,
+  imiboniso kanye nekucocisana, siphindze sifundze nendlela yekufundzisa labanye liBhayibheli.\\nKutawukujabulisa
+  kakhulu kutfola imfundvo lesezingeni lelisetulu yeliBhayibheli nawuta kulemihlangano.\u2014Isaya
+  54:13.\\nYini lotayiva emihlanganweni yaboFakazi BaJehova?\\nNgumuphi umhlangano
+  longatsandza kuta kuwo kulena lesiba nayo evikini?\"", "\"Tibalekele tintfo letimbi.
+  1 Khorinte 6:9, 10\\nNangabe siyamtsandza Jehova, angeke sitente tintfo latenyanyako.\\nJehova
+  akafuni kutsi sebe, sidzakwe, nobe sisebentise kabi tidzakamiva.\\nNkulunkulu uyakwenyanya
+  kubulala, kukhipha sisu, kanye nekutsandzana nobe kulalana kwebantfu bebulili lobufananako.
+  Akafuni kutsi sibe nebugovu nobe silwe nalabanye.\\nAkukafaneli sikhonte titfombe,
+  nobe sisebentelane nemimoya.\\nBantfu labenta tintfo letimbi angeke babe nayo indzawo
+  ePharadisi.\\nYenta tintfo letinhle. Matewu 7:12\\nKute sijabulise Nkulunkulu, kufanele
+  setame kumlingisa.\\nKhombisa kutsi uyabatsandza labanye ngekuba nemusa futsi wephane.\\nYetsembeka.\\nBani
+  nemusa futsi utsetselele.\\nTjela labanye ngaJehova kanye nangetindlela takhe.\"",
+  "\"41Kwamkhuba kakhulu loko Jona, ngako watfukutsela kakhulu. 2\\nWathandaza kuSimakadze
+  watsi: \u201cAwu, Simakadze! Akusiko yini loku lengakusho ngiseseveni lakitsi kutsi
+  kutakwenteka? Ngiko ngabaleka ngaya eThashishi; ngobe ngangati kutsi wena unguNkulunkulu
+  lonemusa nesihawu, uyephuta kutfukutsela, unelutsandvo loluphuphumako, uyatisola
+  ngekutfumela lokubi. 3\\nNgako-ke Simakadze, ngiyakuncenga kutsi ukususe kuphila
+  kwami kimi; ngobe kuncono kimi kutsi ngife kunekutsi ngiphile.\u201d\\n4Simakadze
+  wamphendvula watsi: \u201cUnalungelo lini lekutfukutsela?\u201d\\n5Jona waphuma
+  kulelidolobha wayawuhlala ngasemphumalanga yalo, watentela lidlangala lapho. Wahlala
+  emtfuntini ngaphansi kwalo, kute atewubona lokwase kutakwenteka kulelidolobha laseNineve.
+  6Simakadze Nkulunkulu wamilisa umhlafutfo, wawukhulisa etikwaJona kutsi umentele
+  umtfunti, kuze kuphele kutfukutsela kwakhe; Jona wamjabulisa lomhlafutfo. 7Ngakusasa
+  nakudzabuka kusa, Nkulunkulu walungisa imphehla, yawuphehla lomhlafutfo, wabuna.
+  8Nakuphuma lilanga, Nkulunkulu walungisa umoya loshisako wasemphumalanga; lilanga
+  lashaya enhloko yaJona, wadzimate waba nesiyeti, wafisa kufa; wase utsi: \u201cKuncono
+  ngimane ngife kunekutsi ngiphile.\u201d\\n9Kodvwa Nkulunkulu watsi kuJona: \u201cUnalungelo
+  lini lekutfukutselela lomhlafutfo?\u201d\\nYena-ke watsi: \u201cNgenta kahle kutsi
+  ngitfukutsele; ngitfukutsele kutsi angife ngitsi saka!\u201d\\n10Simakadze watsi:
+  \u201cWena uyawuhawukela umhlafutfo longakawujulukeli nome longakawukhulisi, lomile
+  ebusuku bunye, waphindze wafa ebusuku lobulandzelako. 11Pho, mine bengingeke ngiyihawukele
+  yini iNineve, lelidolobha lelikhulu kangaka, lapho kukhona bantfu labangakwati kwehlukanisa
+  sandla sabo sekudla nesancele, labati-120 000, kanye netinkhomo letinyenti kangaka?\u201d\"",
+  "\"391\\nBatfunga tembatfo letihlotjiswe kahle tebaphristi ngensontfo leluhlata
+  njengesibhakabhaka, nalebukhwebeletane, nalebovu ngalokutopele, lekwakufanele batembatse
+  nabakhonta endzaweni lengcwele. Batfunga tembatfo letingcwele ta-Aroni, njengobe
+  Simakadze abeyale Mosi.\\n2\\nBenta sidziya ngemtiya welineni lecolisakele nangensontfo
+  leluhlata njengesibhakabhaka, nalebukhwebeletane, nalebovu ngalokutopele, naleyigolide.
+  3Bakha ngcwengcwe ngegolide, base bamsika imicwana yekwelukwa kanye nemitiya yelineni
+  lecolisakele nensontfo leluhlata njengesibhakabhaka, nalebukhwebeletane, nalebovu
+  ngalokutopele, umsebenti wengcweti lenebuciko. 4Sidziya basenta saba nemichilo lemibili
+  ngala nangale yekusibophela nekusihlanganisa emahlombe. 5Lelibhande lelalelukiwe
+  ngebungcweti leliselukhalweni balenta laba yintfo yinye nalesidziya, lentiwa ngemicwana
+  yegolide, nensontfo lebukhwebeletane, naleluhlata njengesibhakabhaka, nalebovu ngalokutopele,
+  nemitiya yelineni lecolisakele, njengobe Simakadze abeyale Mosi. 6Benta ematje e-oniksi
+  bawahlelisa bawephetsa ngegolide emaceleni, bawabhala ngekucopha emabito emadvodzana
+  aJakobe. 7Lamatje bawanamatsisela emichilweni yemahlombe yalesidziya, njengobe Simakadze
+  abeshito kuMosi. Lamatje aba sikhumbuto ngemadvodzana aJakobe.\\n8\\nBatfunga sembatfo
+  sesifuba ngebungcweti lobabusetjentiswe ekutfungeni sidziya; basitfunga ngalokuyigolide,
+  nangalokubukhwebeletane, nangalokubovu ngalokutopele, nangemitiya yelineni lecolisakele,
+  siphindvwe kabili sisikhwama. 9Imihlubulo yaso yayilingana ndzawo tonkhe, umunye
+  wawungemasentimitha labengaba ngema-22 budze, nemasentimitha labengaba ngema-22
+  bubanti. 10Banamatsisela kuso imigca lemine yematje laligugu; emgceni wekucala banamatsisela
+  isadiyusi, nethophazi, nerubhi; 11emgceni wesibili banamatsisela simaragidu, nesafire,
+  nedayimani; 12emgceni wesitsatfu banamatsisela ihiyakinte, ne-agathe, ne-amethiste;
+  13emgceni wesine banamatsisela ikhrisolithe, ne-oniksi, nejasiphi. Onkhe bawanamatsisela,
+  base bawephetsa ngegolide. 14Kulelo nakulelo litje kulawa lali-12 bekubhalwe ngekucopha
+  libito lendvodzana yaJakobe. Ngulelo nalelo litje labekwa luphawu ngekucoshwa kwelibito
+  lesive setive letili-12 taka-Israyeli. 15Sembatfo sesifuba basentela imigaco leyayephotselwe
+  njengentsambo leyelukiwe yegolide lecengekile. 16Bephetsa ngemicu lemibili yegolide,
+  base batfungela emajiva lamabili egolide emakoneni lamabili langetulu esembatfweni
+  sesifuba. 17Lemigaco lemibili yegolide bayibophela kulamajiva lamabili lasemakoneni
+  esembatfo sesifuba. 18Letinye tihloko talemigaco batibophela kulemiphetfo lemibili,
+  ngalendlela taba ngembili emichilweni yemahlombe. 19Benta emajiva lamabili egolide
+  bawatfungela emakoneni lamabili langaphansi kulesembatfo sesifuba, ngekhatsi macondzana
+  nesidziya. 20Benta lamanye emajiva lamabili egolide, bawatfungela ngaphansi kulemichilo
+  lemibili yesidziya, ngembili kwaso, eceleni kwemtfungo, ngetulu kwalelibhande lelelukwe
+  kahle. 21Babopha emajiva esembatfo sesifuba bawahlanganisa nemajiva esidziya ngentsambo
+  leluhlata njengesibhakabhaka, loko kwenta kutsi sembatfo sesifuba sibe ngetulu kwelibhande,
+  singaceki. Konkhe loko kwentiwa njengobe Simakadze abeyale Mosi.\\n22\\nUmjiva wonkhe
+  longetulu kwalesidziya welukwa ngendvwangu leluhlata njengesibhakabhaka. 23Imbobo
+  yekufaka inhloko yephetfwa ngekugocotwa yatfungwa, khona ingetiwudzabuka. 24Emphetfweni
+  wawo ngaphansi bahlobisa ngekutsi batungeletise emahananandza\u201clihananandza\u201d
+  nome \u201ciphomegranathi\u201d lentiwe ngemtiya welineni lecolisakele nangensontfo
+  leluhlata njengesibhakabhaka, nalebukhwebeletane, nalebovu ngalokutopele. 25Bakha
+  tinsimbi tegolide lecengekile, batitfungela emphetfweni wangaphansi kulomjiva tatungeleta,
+  tabasemkhatsini walamahananandza. 26Insimbi yalandzelwa lihananandza wonkhe umphetfo
+  wemjiva, kuze kukhontwe ngawo, njengobe Simakadze abeyale Mosi.\\n27\\nBo-Aroni
+  nemadvodzana akhe babelukela babatfungela tingubo letingenamkhono ngendvwangu yelineni
+  lecolisakele, 28nemishuculo yenhloko, netincotfo tayo, nemibekelo yendvwangu yelineni
+  lecolisakele, 29nelibhande lelelukwe ngemtiya welineni lecolisakele, nangensontfo
+  leluhlata njengesibhakabhaka, nalebukhwebeletane, nalebovu ngalokutopele; bakuhlobisa,
+  njengobe Simakadze abeyale Mosi. 30\\nBenta ngcwengcwe ngegolide lecengekile, umhlobiso
+  longcwele, base babhala kuye ngekucopha emagama latsi: \u201cKwehlukaniselwe Nkulunkulu.\u201d
+  31Longcwengcwe bambophela emshuculweni ngentsambo leluhlata njengesibhakabhaka;
+  konkhe loko bakwenta njengobe Simakadze abeyale Mosi.\\n32Bawenta bawucedza wonkhe
+  umsebenti wekwakha lithende lekukhontela, lekulithende lekuhlangana. Ema-Israyeli
+  akwenta konkhe Simakadze labeyale Mosi kutsi kwentiwe. 33\\nBaletsa kuMosi lithende
+  lekukhontela nako konkhe lokuhambisana nalo: lithende, nemahhuka, netinsikabhaluko,
+  nemakabha, netinsika, nemaseko; 34nesimbonyo setikhumba tetihhanca letishukiwe taguculwa
+  taba bovu; nesimbonyo setikhumba temahhashi aselwandle letishukwe kahle; nendvwangu
+  levimbe libhokisi lesivumelwane; 35libhokisi lesivumelwane lelalinetibhelekeca tematje,
+  netimboko talo, nesihlalo semusa; 36litafula nako konkhe lokuhambisana nalo nesinkhwa
+  sebukhona; 37lutsi lwetibane lwegolide lecengekile netibane talo, nalokuhambisana
+  nalo, kanye nemafutsa ekukhanyisa; 38lilati legolide, nemafutsa emgcobo, nemphepho
+  lenuka kamnandzi, nendvwangu yelisango lelithende; 39lilati lelitfusi, nemhlobiso
+  walo welitfusi losasisefo, netimboko talo, nato tonkhe timphahla letihambisana nalelilati;
+  nemgezelo nesibunu sawo; 40netindvwangu tesibuya, netinsika, nemaseko ato, nendvwangu
+  yemnyango wesibuya, netintsambo taso, netiphunti taso; netimphahla tonkhe telithende
+  lekukhontela, lithende lekuhlangana, 41netembatfo letihlotjiswe kahle letisetjentiswa
+  ekukhonteni endzaweni lengcwele, lekutembatfo letingcwele ta-Aroni, umphristi, kanye
+  netembatfo temadvodzana akhe, labatisebentisa nabenta inkonzo yabo yebuphristi.\\n42Ema-Israyeli
+  enta konkhe njengobe Mosi abeyalwe nguSimakadze. 43Mosi wakuhlola konkhe wakubukisisa,
+  wabona kutsi kwentiwe njengobe abelayelwe nguSimakadze. Ngako-ke Mosi wase uyababusisa.\\n401Simakadze
+  wakhuluma kuMosi, watsi: 2\u201cNgelilanga lekucala enyangeni yekucala ubomisa lithende
+  lekukhontela, lekulithende lekuhlangana. 3\\nEkhatsi kwalo ubobeka libhokisi lesivumelwane
+  lelinemiyalo lelishumi, bese ulivimba ngendvwangu embikwalo. 4Ubongenisa lelitafula,
+  uhlelise kahle konkhe loko lokufanele kubekwe etikwalo. Ubongenisa nalolutsi lwetibane,
+  bese ufaka letibane lapha kulo. 5\\nLilati legolide lekushisela imphepho ubolibeka
+  embikwalelibhokisi lesivumelwane, ulengise lendvwangu ekungeneni kwalelithende lekukhontela.
+  6Embikwelithende lekukhontela ubobeka lilati lekushisela umnikelo. 7Emkhatsini welithende
+  lekuhlangana nelilati ubobeka umgezelo, uwugcwalise ngemanti. 8Sibuya ubosakha,
+  ufake nendvwangu ilenge emnyango waso.\\n9\\n\u201cLithende lekukhontela kanye nako
+  konkhe lokuhambisana nalo ubobe sewuyakunikela ngekukugcoba ngemafutsa langcwele,
+  kutawuba ngcwele. 10\\nEmvakwaloko lelilati lemnikelo wekushiswa nako konkhe lokuhambisana
+  nako ubokugcoba ngemafutsa ukunikele kutawube sekuba ngcwele ngalokuphelele. 11Umgezelo
+  kanye nesibunu sawo nako ubokugcoba ngemafutsa ukunikele kube ngcwele.\\n12\\n\u201cUboletsa
+  Aroni nemadvodzana akhe ekungeneni kwelithende lekuhlangana, ubatjele bafike batihlambulule
+  lapho. 13Ubogcokisa Aroni ngetembatfo tebuphristi, bese uyamgcoba abe ngcwele, khona
+  atewungikhonta njengemphristi. 14Uboletsa nalamadvodzana akhe nawo uwagcokise tingubo
+  tawo letingenamkhono. 15Nawo lamadvodzana ubowagcoba, njengobe ugcobe uyise, khona
+  nawo atewungikhonta njengebaphristi. Lomgcobo utawubenta babe baphristi titukulwane
+  ngetitukulwane.\u201d\\n16Mosi wakwenta konkhe loko njengobe Simakadze abemyalile.
+  17Ngako-ke ngelilanga lekucala enyangeni yekucala emnyakeni wesibili baphumile eGibhithe
+  lithende lekukhontela lemiswa laphela. 18Mosi walakha lithende lekukhontela: wabeka
+  emaseko alo, wemisa tinsikabhaluko talo netinsika talo, wafaka nemakabha alo. 19Wase
+  uyakumbonya konkhe loko ngetimbonyo leto letehlukene, njengobe Simakadze abemyalile.
+  20\\nWatsatsa tibhelekeca tematje letimbili watifaka ebhokisini lesivumelwane. Wafaka
+  letimboko kulamajiva alo, wase ulimbonya ngesihlalo semusa. 21\\nLibhokisi lesivumelwane
+  walifaka ekhatsi ethendeni lekukhontela, walengisa indvwangu yekulifihla livalekile,
+  njengobe Simakadze abemyalile.\\n22Litafula walifaka ekhatsi ethendeni lekuhlangana
+  ngasenyakatfo, ngaphandle kwendvwangu, 23wabeka etikwalo sinkhwa sebukhona, njengobe
+  Simakadze abemyalile. 24Wabeka lutsi lwetibane ethendeni lekuhlangana ngaseningizimu
+  macondzana nelitafula, 25wase ukhanyisa letibane embikwaSimakadze, njengobe Simakadze
+  abemyalile.\\n26Lelilati legolide walibeka ethendeni lekuhlangana embikwayo lendvwangu,
+  27wase ushisa lemphepho lenuka kamnandzi, njengobe Simakadze abemyalile. 28Indvwangu
+  wayilengisa ekungeneni kwelithende lekukhontela, 29kwase kutsi embikwalendvwangu
+  wabeka lilati lekushisela umnikelo. Etikwalo wanikela ngemnikelo wekushiswa, nangemnikelo
+  walokutinhlavu, njengobe Simakadze abemyalile.\\n30\\nWabeka umgezelo emkhatsini
+  welithende lekuhlangana nelilati, wawugcwalisa ngemanti ekugeza. 31Mosi, na-Aroni,
+  nemadvodzana akhe babegezela kuwo tandla tabo netinyawo 32njalo nje nabangena ethendeni
+  lekuhlangana nome nabasondzela elatini, njengobe Simakadze abeyale Mosi. 33Mosi
+  wakha sibuya, satungeleta lithende lekukhontela nelilati ndzawo tonkhe, walengisa
+  indvwangu emnyango wesibuya. Ngako-ke Mosi wawucedza wonkhe umsebenti.\\n34Lifu
+  lasibekela lithende lekuhlangana, inkhatimulo yaSimakadze yagcwalisa lithende lekukhontela.
+  35Loko kwenta kutsi Mosi ehluleke kungena ethendeni lekuhlangana, ngobe lifu lase
+  lilisibekele. Lithende lekukhontela lase ligcwele inkhatimulo yaSimakadze.\\n36Lalitsi
+  lelifu lingaphakama, ema-Israyeli atfutse ayekucaba embili. 37Abengatfutsi nangabe
+  lelifu lingakesuki etikwalelithende lekukhontela. 38\\nKulo lonkhe luhambo lwabo
+  lifu laSimakadze emini lalibonakala etikwalelithende lekukhontela, kutsi ebusuku
+  libe ngumlilo lovutsako etikwalo, onkhe ema-Israyeli abuka.\"", "\"Jehova watibiketela
+  ngalokucondzile tintfo letitawenteka esikhatsini lesitako\\n\u201cLolani imicibisholo\u201d\\n51:11,
+  28\\nEmaMediya nemaPheresiya abenelikhono lekudubula imicibisholo futsi abesebentisa
+  tikhali njengetinkemba tawo. Balola imicibisholo yabo kuze icije kahle\\n\u201cEmabutfo
+  aseBhabhulona asayekele kulwa\u201d\\n51:30\\nUmlandvo waNabonidus utsi: \u201cLibutfo
+  laKhuresi langena eBhabhulona ngaphandle kwekulwa.\u201d Loku kusho kutsi kute kuphikisana
+  lokwaba khona ngekuvumelana nesiphrofetho saJeremiya\\n\u201cIBhabhulona iyawuba
+  yindvundvuma yematje [futsi] iyawukhala libhungane phakadze naphakadze\u201d\\n51:37,
+  62\\nKusukela nga-539 B.C.E., buhle beBhabhulona bacala kushabalala. Alexander Lomkhulu
+  abefuna kuyenta lidolobha lakhe, kodvwa wabese uyafa. Nakucala sikhatsi sebuKhristu,
+  emaJuda abesolo akhona, loko kwenta kutsi umphostoli Phetro avakashe eBhabhulona.
+  Kodvwa ngelikhulu lesine C.E., lelidolobha beselitindzala, futsi belingasahlali
+  muntfu\"", "\"John Kani, ucale e-Snake Pit wagcina ngekuba yiNkhosi\\nDetails\\nLendzaba
+  imayelana naJohn Kani, umlingisi nembhali lowatiwako waseNingizimu Afrika, losawine
+  imiklomelo leminyenti ngemsebenti wakhe lomangalisako enkhundleni yemidlalo yasesiteji.
+  Lencwadzi yetindzaba ingulenye yeluchungechunge lolumayelana Nebantfu baseNingizimu
+  Afrika Labamnyama labatfola imphumelelo kuteBuciko, Emasiko kanye Nakutemidlalo.
+  Lendzaba icanjwe futsi yabhalwa ngeTshiven\u1e13a, njengencenye yetintfo tekufundza
+  teZenex Ulwazi Lwethu nga-2021.\""]'
+src_ngrams: '{"1": [[["ke"], 7496], [["na"], 6514], [["bantfu"], 6199], [["nkulunkulu"],
+  6197], [["nome"], 6185]], "2": [[["bonkhe bantfu"], 961], [["eningizimu afrika"],
+  794], [["simakadze nkulunkulu"], 770], [["ningizimu afrika"], 770], [["nkulunkulu
+  wenu"], 739]], "3": [[["simakadze nkulunkulu wenu"], 462], [["naku lokushiwo ngusimakadze"],
+  296], [["naku lokushiwo yinkhosi"], 276], [["letinye tincwadzi tekucala"], 273],
+  [["lokushiwo yinkhosi simakadze"], 250]], "4": [[["naku lokushiwo yinkhosi simakadze"],
+  243], [["translated by phindile malotana"], 212], [["letinye tincwadzi tekucala
+  titsi"], 169], [["wekucinisekisa emazinga kutemfundvo nekucecesha"], 114], [["liphunga
+  lelinuka lusi lolumnandzi"], 90]], "5": [[["liphunga lelinuka lusi lolumnandzi kusimakadze"],
+  62], [["we are working towards a"], 54], [["we are aware that it"], 54], [["translation
+  is taken directly from"], 54], [["this translation is taken directly"], 54]]}'

@@ -1,0 +1,1005 @@
+corpus: hplt-v4-ay
+srclang: ay
+timestamp: 1789237752.378245
+warnings:
+- src_ngrams_ay_nostopwords
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-05", 512], ["CC-MAIN-2020-29", 426], ["wide00012",
+  402], ["wide00011", 363], ["CC-MAIN-2024-46", 341], ["CC-MAIN-2024-33", 308], ["CC-MAIN-2014-15",
+  303], ["CC-MAIN-2020-10", 294], ["wide00005", 274], ["CC-MAIN-2017-26", 252], ["wide00016",
+  194], ["CC-MAIN-2025-18", 189], ["CC-MAIN-2017-04", 185], ["wide00006", 174], ["CC-MAIN-2020-24",
+  173], ["CC-MAIN-2018-43", 171], ["CC-MAIN-2018-05", 142], ["CC-MAIN-2020-16", 139],
+  ["CC-MAIN-2014-42", 139], ["CC-MAIN-2014-35", 126], ["wide00015", 122], ["CC-MAIN-2025-13",
+  120], ["CC-MAIN-2022-21", 119], ["CC-MAIN-2021-31", 114], ["CC-MAIN-2018-34", 114],
+  ["CC-MAIN-2021-43", 112], ["CC-MAIN-2018-39", 110], ["CC-MAIN-2022-05", 108], ["CC-MAIN-2025-21",
+  98], ["CC-MAIN-2024-38", 92], ["CC-MAIN-2021-49", 86], ["CC-MAIN-2025-26", 85],
+  ["CC-MAIN-2017-51", 85], ["CC-MAIN-2023-40", 84], ["CC-MAIN-2024-10", 83], ["CC-MAIN-2021-39",
+  83], ["CC-MAIN-2020-34", 81], ["CC-MAIN-2023-23", 80], ["CC-MAIN-2015-48", 77],
+  ["CC-MAIN-2022-40", 76], ["CC-MAIN-2024-42", 74], ["CC-MAIN-2018-22", 73], ["CC-MAIN-2024-18",
+  72], ["CC-MAIN-2015-18", 68], ["CC-MAIN-2015-11", 68], ["CC-MAIN-2024-22", 67],
+  ["CC-MAIN-2020-40", 64], ["CC-MAIN-2016-40", 64], ["CC-MAIN-2023-06", 63], ["CC-MAIN-2016-30",
+  63], ["archivebot", 62], ["CC-MAIN-2025-30", 62], ["CC-MAIN-2022-49", 62], ["CC-MAIN-2024-26",
+  55], ["CC-MAIN-2022-27", 53], ["CC-MAIN-2025-05", 51], ["CC-MAIN-2021-04", 51],
+  ["CC-MAIN-2025-08", 50], ["CC-MAIN-2024-51", 44], ["CC-MAIN-2025-33", 43], ["CC-MAIN-2023-50",
+  43], ["CC-MAIN-2021-25", 43], ["CC-MAIN-2023-14", 39], ["CC-MAIN-2020-50", 39],
+  ["CC-MAIN-2021-10", 37], ["CC-MAIN-2022-33", 33], ["CC-MAIN-2019-04", 30], ["CC-MAIN-2024-30",
+  24], ["CC-MAIN-2016-44", 24], ["CC-MAIN-2020-45", 19], ["wide00010", 18], ["CC-MAIN-2021-17",
+  18], ["CC-MAIN-2021-21", 13], ["wide00002", 9], ["wide00017", 2]]'
+docs_langs: '[[0.0, 8636]]'
+docs_segments: '[[1, 29], [2, 321], [3, 508], [4, 543], [5, 404], [6, 966], [7, 445],
+  [8, 520], [9, 339], [10, 329], [11, 186], [12, 241], [13, 231], [14, 187], [15,
+  171], [16, 132], [17, 152], [18, 165], [19, 147], [20, 191], [21, 175], [22, 193],
+  [23, 200], [24, 222], [25, 177], [26, 199], [27, 184], [28, 124], [29, 112], [30,
+  69], [31, 55], [32, 44], [33, 29], [34, 36], [35, 34], [36, 37], [37, 31], [38,
+  26], [39, 27], [40, 30], [41, 53], [42, 27], [43, 21], [44, 20], [45, 22], [46,
+  15], [47, 22], [48, 17], [49, 6], [50, 10], [51, 7], [52, 7], [53, 9], [54, 12],
+  [55, 4], [56, 7], [57, 4], [58, 3], [59, 2], [60, 4], [61, 5], [62, 2], [63, 3],
+  [64, 7], [65, 4], [66, 2], [67, 8], [68, 1], [69, 1], [70, 2], [71, 5], [72, 2],
+  [73, 1], [75, 1], [76, 3], [77, 1], [78, 4], [79, 5], [80, 3], [81, 2], [82, 1],
+  [83, 2], [84, 2], [85, 3], [87, 4], [88, 2], [89, 2], [91, 1], [92, 1], [93, 3],
+  [94, 1], [95, 1], [96, 1], [97, 1], [98, 1], [102, 1], [103, 2], [104, 1], [107,
+  1], [108, 2], [112, 1], [113, 2], [114, 2], [115, 1], [117, 1], [122, 1], [123,
+  1], [126, 1], [127, 1], [128, 2], [131, 1], [132, 1], [136, 2], [137, 1], [140,
+  1], [141, 2], [144, 1], [148, 1], [149, 1], [155, 1], [156, 1], [158, 1], [160,
+  1], [161, 1], [162, 1], [169, 1], [170, 1], [172, 1], [177, 1], [178, 1], [181,
+  1], [194, 1], [206, 1], [219, 1], [225, 1], [240, 1], [318, 2], [332, 1], [405,
+  1], [437, 1], [449, 1], [534, 1], [562, 1], [617, 1], [689, 1], [800, 1], [1049,
+  1], [1505, 1], [2038, 4]]'
+docs_segments_mean: 17
+docs_segments_median: 10
+docs_top100_domains: '[["globalvoices.org", 2603], ["globalvoicesonline.org", 1632],
+  ["wikipedia.org", 896], ["jw.org", 765], ["phajsiwiphala.cl", 361], ["lyfta.app",
+  315], ["radiosangabriel.org.bo", 288], ["boliviatv.bo", 210], ["wol-children.net",
+  163], ["bibles.org", 146], ["hackernoon.com", 112], ["lapublica.org.bo", 98], ["blogspot.com",
+  71], ["zhitov.ru", 57], ["kyafasteners.com", 56], ["periodicojayma.com", 47], ["acuerdonacional.pe",
+  34], ["inmediaciones.org", 29], ["opexflow.com", 24], ["agenciapulsar.org", 23],
+  ["divmagic.com", 22], ["realsuntime.com", 19], ["argger.net", 18], ["abyayala.tv.bo",
+  18], ["elaltoesnoticia.com", 15], ["usp.br", 14], ["webnode.es", 13], ["blogspot.kr",
+  13], ["sejoygroup.com", 12], ["blogger.com", 12], ["kidslox.com", 11], ["giveamenu.com",
+  11], ["churchofjesuschrist.org", 11], ["bible.is", 11], ["oratlas.com", 10], ["ine.gob.bo",
+  10], ["oyang-group.com", 9], ["mail-archive.com", 9], ["gotquestions.org", 9], ["castingminhe.com",
+  9], ["blogspot.com.br", 9], ["blogspot.co.uk", 9], ["wordpress.com", 8], ["jucelinoluz.news",
+  8], ["infonium.org", 8], ["domanovic.org", 8], ["zhitov.com", 7], ["wikimedia.org",
+  7], ["plagiarism-detector.com", 7], ["iecta.cl", 7], ["chinasprayer.com", 7], ["blogspot.jp",
+  7], ["bcn.cl", 7], ["umsacontraelcancer.org", 6], ["jinpeng-global.com", 6], ["blogspot.fr",
+  6], ["watchtower.org", 5], ["vietnamimmigration.org", 5], ["unfpa.org", 5], ["ojo-publico.com",
+  5], ["hsqy-plasticgroup.com", 5], ["dfuntech.com", 5], ["blogspot.nl", 5], ["alertacontraelracismo.pe",
+  5], ["vallalar.net", 4], ["uchile.cl", 4], ["tikcd.com", 4], ["ppdperu.org", 4],
+  ["jungyulkim.com", 4], ["institutobiologiacelular.org", 4], ["iam-andes.org", 4],
+  ["hangaotech.com", 4], ["gonnle.com", 4], ["feilongelectric.com", 4], ["blogspot.it",
+  4], ["aymara.org", 4], ["allinonelanguage.com", 4], ["uzone-group.com", 3], ["tripod.com",
+  3], ["triphun.com", 3], ["seo.computer", 3], ["scribd.com", 3], ["rhhardware.com",
+  3], ["nysaaesports.com", 3], ["newstechtrend.com", 3], ["mishenin-art-studio.com",
+  3], ["jaqi-aru.org", 3], ["hexup.tech", 3], ["es.tl", 3], ["diariocorreo.pe", 3],
+  ["blogspot.pe", 3], ["blogspot.mx", 3], ["bible.com", 3], ["aomaworld.com", 3],
+  ["aivyter.com", 3], ["vevez.com", 2], ["versatilecommunication.com", 2], ["varnisara.ir",
+  2], ["umsa.bo", 2], ["thetripcompany.com", 2]]'
+docs_top100_tld: '[["org", 6198], ["com", 644], ["org.bo", 386], ["cl", 382], ["app",
+  316], ["bo", 216], ["net", 191], ["ru", 61], ["pe", 48], ["tv.bo", 18], ["gob.bo",
+  14], ["es", 14], ["br", 14], ["kr", 13], ["is", 11], ["co.uk", 10], ["com.br", 9],
+  ["news", 8], ["jp", 7], ["fr", 6], ["de", 6], ["nl", 5], ["it", 5], ["tl", 3], ["tech",
+  3], ["mx", 3], ["computer", 3], ["win", 2], ["pub", 2], ["ir", 2], ["io", 2], ["in",
+  2], ["gob.ar", 2], ["edu.bo", 2], ["com.es", 2], ["com.ar", 2], ["co", 2], ["biz",
+  2], ["ws", 1], ["world", 1], ["us", 1], ["shop", 1], ["org.uk", 1], ["on.ca", 1],
+  ["info", 1], ["fun", 1], ["eus", 1], ["eu", 1], ["com.tr", 1], ["com.pe", 1], ["com.bo",
+  1], ["click", 1], ["ciencia.bo", 1], ["cf", 1], ["blog", 1], ["ac.th", 1]]'
+docs_total: 8636
+docs_wds: '[[0.5, 190], [0.51, 168], [0.52, 175], [0.53, 163], [0.54, 125], [0.55,
+  143], [0.56, 143], [0.57, 164], [0.58, 154], [0.59, 141], [0.6, 157], [0.61, 149],
+  [0.62, 126], [0.63, 162], [0.64, 131], [0.65, 142], [0.66, 154], [0.67, 174], [0.68,
+  189], [0.69, 184], [0.7, 229], [0.71, 244], [0.72, 272], [0.73, 306], [0.74, 327],
+  [0.75, 342], [0.76, 307], [0.77, 317], [0.78, 316], [0.79, 316], [0.8, 360], [0.81,
+  374], [0.82, 311], [0.83, 180], [0.84, 152], [0.85, 106], [0.86, 77], [0.87, 101],
+  [0.88, 117], [0.89, 130], [0.9, 94], [0.91, 70], [0.92, 63], [0.93, 70], [0.94,
+  91], [0.95, 63], [0.96, 52], [0.97, 51], [0.98, 39], [0.99, 17], [1.0, 8]]'
+duplication_ratio: 0.399
+sentence_pairs: 148963
+src_bytes: 24301295
+src_chars: 23008809
+src_pii: 110
+src_tokens: 3893816
+unique_sents: 89521
+src_sent_tokens: '[[1, 2561], [2, 2051], [3, 10888], [4, 10275], [5, 6373], [6, 5297],
+  [7, 8699], [8, 5454], [9, 4607], [10, 4609], [11, 3813], [12, 3024], [13, 2948],
+  [14, 2423], [15, 3189], [16, 2228], [17, 2458], [18, 1867], [19, 3111], [20, 1790],
+  [21, 1745], [22, 1847], [23, 2040], [24, 1836], [25, 1634], [26, 1850], [27, 1767],
+  [28, 1893], [29, 1842], [30, 1959], [31, 2231], [32, 1889], [33, 1879], [34, 2005],
+  [35, 1512], [36, 1315], [37, 1404], [38, 1403], [39, 1286], [40, 973], [41, 926],
+  [42, 839], [43, 848], [44, 974], [45, 836], [46, 695], [47, 675], [48, 610], [49,
+  552], [50, 634], [51, 662], [52, 638], [53, 522], [54, 543], [55, 486], [56, 394],
+  [57, 538], [58, 472], [59, 374], [60, 415], [61, 399], [62, 415], [63, 420], [64,
+  463], [65, 453], [66, 362], [67, 377], [68, 353], [69, 366], [70, 354], [71, 280],
+  [72, 318], [73, 290], [74, 294], [75, 264], [76, 290], [77, 271], [78, 238], [79,
+  227], [80, 242], [81, 241], [82, 217], [83, 273], [84, 214], [85, 172], [86, 195],
+  [87, 197], [88, 196], [89, 177], [90, 169], [91, 163], [92, 176], [93, 147], [94,
+  142], [95, 185], [96, 125], [97, 124], [98, 123], [99, 127], [100, 130], [101, 147],
+  [102, 126], [103, 113], [104, 108], [105, 87], [106, 106], [107, 86], [108, 88],
+  [109, 94], [110, 97], [111, 83], [112, 92], [113, 66], [114, 65], [115, 82], [116,
+  61], [117, 79], [118, 74], [119, 59], [120, 61], [121, 46], [122, 62], [123, 50],
+  [124, 62], [125, 45], [126, 37], [127, 53], [128, 45], [129, 37], [130, 81], [131,
+  40], [132, 40], [133, 41], [134, 36], [135, 39], [136, 17], [137, 36], [138, 30],
+  [139, 37], [140, 26], [141, 30], [142, 24], [143, 20], [144, 31], [145, 25], [146,
+  16], [147, 25], [148, 25], [149, 27], [150, 21], [151, 17], [152, 25], [153, 23],
+  [154, 26], [155, 25], [156, 16], [157, 21], [158, 13], [159, 24], [160, 13], [161,
+  10], [162, 12], [163, 17], [164, 12], [165, 11], [166, 12], [167, 7], [168, 9],
+  [169, 16], [170, 4], [171, 10], [172, 6], [173, 14], [174, 11], [175, 11], [176,
+  5], [177, 9], [178, 8], [179, 8], [180, 5], [181, 7], [182, 7], [183, 7], [184,
+  8], [185, 12], [186, 10], [187, 5], [188, 6], [189, 7], [190, 5], [191, 5], [192,
+  3], [193, 8], [194, 5], [195, 4], [196, 9], [197, 7], [198, 6], [199, 2], [200,
+  1], [201, 3], [202, 8], [203, 1], [204, 3], [205, 5], [206, 4], [207, 1], [208,
+  4], [209, 3], [210, 11], [211, 2], [212, 2], [213, 4], [214, 2], [216, 3], [217,
+  3], [218, 1], [219, 1], [220, 6], [221, 4], [222, 3], [223, 3], [224, 2], [225,
+  2], [226, 9], [227, 6], [228, 3], [229, 1], [230, 5], [231, 1], [232, 7], [233,
+  3], [234, 3], [235, 2], [236, 3], [237, 5], [238, 5], [239, 5], [240, 2], [241,
+  2], [242, 2], [243, 2], [244, 4], [245, 1], [246, 2], [247, 2], [248, 3], [250,
+  2], [251, 3], [252, 1], [253, 1], [254, 1], [255, 3], [256, 2], [257, 4], [258,
+  1], [259, 1], [260, 2], [261, 1], [262, 3], [264, 3], [265, 2], [266, 2], [267,
+  2], [268, 1], [269, 3], [271, 2], [272, 1], [274, 1], [275, 2], [276, 3], [277,
+  1], [278, 1], [279, 4], [283, 2], [286, 2], [287, 2], [288, 1], [289, 1], [290,
+  1], [292, 1], [293, 2], [294, 1], [295, 2], [298, 1], [299, 1], [300, 1], [302,
+  4], [303, 1], [304, 1], [305, 2], [306, 2], [307, 1], [308, 1], [309, 6], [310,
+  2], [311, 3], [312, 3], [313, 2], [314, 2], [315, 2], [316, 4], [317, 3], [319,
+  1], [320, 3], [321, 3], [322, 6], [323, 5], [324, 6], [325, 10], [326, 3], [327,
+  4], [328, 3], [329, 7], [330, 4], [331, 6], [332, 8], [333, 7], [334, 7], [335,
+  6], [336, 9], [337, 6], [338, 11], [339, 8], [340, 9], [341, 3], [342, 3], [343,
+  12], [344, 9], [345, 5], [346, 2], [347, 14], [348, 7], [349, 6], [350, 8], [351,
+  11], [352, 4], [353, 4], [354, 10], [355, 7], [356, 8], [357, 9], [358, 6], [359,
+  6], [360, 3], [361, 5], [362, 9], [363, 5], [364, 4], [365, 9], [366, 7], [367,
+  9], [368, 7], [369, 5], [370, 7], [371, 3], [372, 3], [373, 5], [374, 7], [375,
+  10], [376, 7], [377, 4], [378, 3], [379, 3], [380, 5], [381, 3], [382, 4], [383,
+  4], [384, 5], [385, 4], [386, 5], [387, 1], [388, 8], [389, 1], [390, 5], [391,
+  5], [392, 2], [393, 7], [394, 4], [395, 1], [396, 2], [397, 3], [398, 2], [399,
+  4], [400, 1], [401, 2], [402, 1], [404, 4], [406, 1], [407, 3], [409, 1], [410,
+  1], [412, 3], [413, 1], [414, 1], [418, 1], [420, 1], [424, 1], [432, 1], [440,
+  1], [462, 1], [464, 2], [472, 1], [497, 1], [508, 1], [510, 1], [524, 2], [531,
+  1], [532, 1], [576, 1], [577, 1], [611, 2], [655, 1], [694, 1], [737, 1], [769,
+  1], [796, 1], [799, 1], [818, 1], [819, 1], [840, 1], [865, 1], [990, 2], [993,
+  1], [1007, 1], [1117, 1], [1130, 1], [1574, 1], [1627, 1], [1714, 1], [39627, 1]]'
+src_sent_tokens_mean: 26
+src_sent_tokens_median: 15
+src_unique_sents: '[[1, 774], [2, 1557], [3, 2768], [4, 3707], [5, 3142], [6, 3247],
+  [7, 3127], [8, 3642], [9, 3509], [10, 3484], [11, 2806], [12, 2666], [13, 2275],
+  [14, 2040], [15, 2031], [16, 1764], [17, 1637], [18, 1495], [19, 1382], [20, 1339],
+  [21, 1271], [22, 1262], [23, 1141], [24, 1092], [25, 1050], [26, 992], [27, 999],
+  [28, 954], [29, 891], [30, 869], [31, 885], [32, 892], [33, 915], [34, 807], [35,
+  750], [36, 767], [37, 704], [38, 815], [39, 699], [40, 719], [41, 664], [42, 621],
+  [43, 585], [44, 755], [45, 565], [46, 570], [47, 478], [48, 483], [49, 464], [50,
+  486], [51, 488], [52, 479], [53, 459], [54, 442], [55, 390], [56, 345], [57, 374],
+  [58, 379], [59, 336], [60, 358], [61, 344], [62, 349], [63, 343], [64, 348], [65,
+  321], [66, 294], [67, 309], [68, 315], [69, 287], [70, 293], [71, 265], [72, 285],
+  [73, 260], [74, 266], [75, 247], [76, 229], [77, 235], [78, 210], [79, 213], [80,
+  209], [81, 237], [82, 211], [83, 182], [84, 207], [85, 166], [86, 163], [87, 183],
+  [88, 191], [89, 171], [90, 160], [91, 157], [92, 164], [93, 137], [94, 137], [95,
+  184], [96, 112], [97, 121], [98, 122], [99, 127], [100, 127], [101, 143], [102,
+  125], [103, 112], [104, 102], [105, 86], [106, 106], [107, 86], [108, 85], [109,
+  91], [110, 91], [111, 82], [112, 84], [113, 66], [114, 61], [115, 80], [116, 61],
+  [117, 78], [118, 63], [119, 59], [120, 58], [121, 43], [122, 61], [123, 50], [124,
+  62], [125, 45], [126, 37], [127, 50], [128, 43], [129, 35], [130, 55], [131, 39],
+  [132, 39], [133, 40], [134, 36], [135, 39], [136, 17], [137, 36], [138, 29], [139,
+  35], [140, 26], [141, 28], [142, 24], [143, 17], [144, 31], [145, 24], [146, 16],
+  [147, 25], [148, 25], [149, 22], [150, 21], [151, 16], [152, 24], [153, 21], [154,
+  25], [155, 23], [156, 16], [157, 20], [158, 13], [159, 24], [160, 11], [161, 10],
+  [162, 12], [163, 17], [164, 12], [165, 11], [166, 12], [167, 7], [168, 9], [169,
+  16], [170, 4], [171, 10], [172, 6], [173, 13], [174, 11], [175, 10], [176, 5], [177,
+  9], [178, 8], [179, 8], [180, 5], [181, 7], [182, 7], [183, 7], [184, 8], [185,
+  12], [186, 10], [187, 5], [188, 6], [189, 7], [190, 4], [191, 5], [192, 3], [193,
+  8], [194, 5], [195, 4], [196, 9], [197, 7], [198, 5], [199, 2], [200, 1], [201,
+  3], [202, 8], [203, 1], [204, 3], [205, 4], [206, 4], [207, 1], [208, 4], [209,
+  3], [210, 9], [211, 2], [212, 2], [213, 4], [214, 2], [216, 3], [217, 3], [218,
+  1], [219, 1], [220, 6], [221, 4], [222, 3], [223, 3], [224, 2], [225, 2], [226,
+  9], [227, 6], [228, 3], [229, 1], [230, 5], [231, 1], [232, 5], [233, 3], [234,
+  3], [235, 2], [236, 3], [237, 5], [238, 5], [239, 5], [240, 2], [241, 2], [242,
+  2], [243, 1], [244, 4], [245, 1], [246, 2], [247, 2], [248, 3], [250, 2], [251,
+  3], [252, 1], [253, 1], [254, 1], [255, 3], [256, 2], [257, 4], [258, 1], [259,
+  1], [260, 2], [261, 1], [262, 3], [264, 3], [265, 2], [266, 2], [267, 1], [268,
+  1], [269, 3], [271, 2], [272, 1], [274, 1], [275, 2], [276, 3], [277, 1], [278,
+  1], [279, 4], [283, 2], [286, 2], [287, 2], [288, 1], [289, 1], [290, 1], [292,
+  1], [293, 2], [294, 1], [295, 2], [298, 1], [299, 1], [300, 1], [302, 4], [303,
+  1], [304, 1], [305, 2], [306, 2], [307, 1], [308, 1], [309, 6], [310, 2], [311,
+  3], [312, 3], [313, 2], [314, 2], [315, 2], [316, 4], [317, 3], [319, 1], [320,
+  3], [321, 3], [322, 6], [323, 5], [324, 6], [325, 10], [326, 3], [327, 4], [328,
+  3], [329, 7], [330, 4], [331, 6], [332, 8], [333, 7], [334, 7], [335, 6], [336,
+  9], [337, 6], [338, 11], [339, 8], [340, 9], [341, 3], [342, 3], [343, 12], [344,
+  9], [345, 5], [346, 2], [347, 14], [348, 7], [349, 6], [350, 8], [351, 11], [352,
+  4], [353, 4], [354, 10], [355, 7], [356, 8], [357, 9], [358, 6], [359, 6], [360,
+  3], [361, 5], [362, 9], [363, 5], [364, 4], [365, 9], [366, 7], [367, 9], [368,
+  7], [369, 5], [370, 7], [371, 3], [372, 3], [373, 5], [374, 7], [375, 10], [376,
+  7], [377, 4], [378, 3], [379, 3], [380, 5], [381, 3], [382, 4], [383, 4], [384,
+  5], [385, 3], [386, 5], [387, 1], [388, 8], [389, 1], [390, 5], [391, 5], [392,
+  2], [393, 7], [394, 4], [395, 1], [396, 2], [397, 3], [398, 2], [399, 4], [400,
+  1], [401, 2], [402, 1], [404, 4], [406, 1], [407, 3], [409, 1], [410, 1], [412,
+  3], [413, 1], [414, 1], [418, 1], [420, 1], [424, 1], [432, 1], [440, 1], [462,
+  1], [464, 1], [472, 1], [497, 1], [508, 1], [510, 1], [524, 2], [531, 1], [532,
+  1], [576, 1], [577, 1], [611, 2], [655, 1], [694, 1], [737, 1], [769, 1], [796,
+  1], [799, 1], [818, 1], [819, 1], [840, 1], [865, 1], [990, 1], [993, 1], [1007,
+  1], [1117, 1], [1130, 1], [1574, 1], [1627, 1], [1714, 1], [39627, 1]]'
+src_langs: '[["es", 47450], ["en", 32926], ["id", 9621], ["sw", 9261], ["br", 5238],
+  ["qu", 5113], ["de", 3935], ["it", 3010], ["eu", 2984], ["tl", 2945], ["pl", 1990],
+  ["ms", 1980], ["pt", 1955], ["eo", 1688], ["fi", 1628], ["hu", 1319], ["fr", 1280],
+  ["ast", 1125], ["ja", 1115], ["uz", 1073], ["hi", 1002], ["ko", 999], ["su", 629],
+  ["gl", 626], ["kn", 513], ["cy", 413], ["jv", 404], ["hr", 399], ["bar", 377], ["ca",
+  362], ["kw", 339], ["war", 337], ["nl", 320], ["ro", 315], ["la", 309], ["io", 273],
+  ["lt", 249], ["tr", 241], ["sv", 237], ["ceb", 202], ["hy", 192], ["sl", 190], ["mt",
+  161], ["sk", 160], ["ru", 147], ["vo", 104], ["vi", 103], ["mwl", 101], ["cs", 100],
+  ["cbk", 92], ["uk", 87], ["zh", 82], ["ga", 74], ["et", 65], ["jbo", 60], ["bs",
+  59], ["ar", 56], ["ilo", 52], ["vep", 50], ["ur", 50], ["sq", 49], ["sr", 48], ["so",
+  47], ["gn", 39], ["gv", 36], ["nb", 35], ["mg", 30], ["lv", 29], ["oc", 28], ["lmo",
+  28], ["rm", 27], ["th", 26], ["fa", 26], ["da", 24], ["mk", 21], ["bh", 20], ["als",
+  20], ["az", 19], ["pms", 18], ["an", 18], ["bn", 16], ["ml", 15], ["tt", 13], ["nap",
+  13], ["el", 13], ["yo", 11], ["tyv", 11], ["is", 10], ["nn", 7], ["wa", 6], ["vec",
+  6], ["ug", 6], ["te", 6], ["pam", 6], ["wuu", 5], ["nds", 5], ["gom", 5], ["gd",
+  5], ["tg", 4], ["ta", 4], ["min", 4], ["my", 3], ["ku", 3], ["km", 3], ["he", 3],
+  ["ne", 2], ["kk", 2], ["ia", 2], ["ht", 2], ["gu", 2], ["bo", 2], ["yi", 1], ["tk",
+  1], ["sc", 1], ["os", 1], ["new", 1], ["mrj", 1], ["ky", 1], ["hsb", 1], ["fy",
+  1], ["frr", 1], ["dv", 1], ["diq", 1], ["ckb", 1]]'
+hardrules_tags: '{"not_too_long": 1044, "not_too_short": 8565, "length_ratio": 0,
+  "no_urls": 1219, "no_bad_encoding": 19, "pii": 110}'
+sample: '["\"Latest stories Aka tuqita Human Rights\\n17 February 2012\\nJichh\u00fcrunakax
+  Iran-an jan jil\u00efr irpirnakan qhananchataw Internet-amp email-ampix chikatpach
+  apaqti. Bloger-unakax anat phaxs tunka pusin ur jan munirinakan unxtas\u00efwinakapatapachaw
+  sasaw sapxi.\\n31 January 2012\\n29 January 2012\\nBengasit m\u00e4 libia markankir
+  warmix marka masinakaparuw anqajankir chachanakamp jaqichasitapat k''umi. Libiankir
+  warminakan derchunakapax janiw chachanakan derechunakapamp kipkakiti sasaw Facebooktuqin
+  m\u00e4 carata qilqatan u\u00f1t''ayatayna.\\n19 January 2012\\nMohammad Sadegh
+  Honarvar Shojayi, blogger ukatx sacerdote ukjamax phas\u00fcru (lunes)16n urutw
+  manq''at mutu\u00f1ar mantatayna. Fiscal General ukaw jist''antatayna sitio web
+  reformista Kalameh ukan m\u00e4 jiskt''\u00e4wi luratapat juchanchasa.\\n9 January
+  2012\\n30 November 2011\\nM\u00e4 jamuqaxa, m\u00e4 jisk''a imillax yantintawir
+  jisk''a sullkitap q''ipiritayna ukwa u\u00f1acht''ayi, ukax u\u00f1t''ayiwa kunjams
+  pata tuqinakanx jisk''a lalanakax jaytanukut u\u00f1jasi taqi ukanaka.\\n4 October
+  2011\\nCochabamba markanx m\u00e4 vigilia ukaw utjawayi, 25ni uru sata qallta phaxsina,
+  TPNIS ukat markachirinakax kayuk jutapki ukanakar yanapt''a\u00f1ataki. Tanatach\u00e4wit
+  jamuq waraqt''ata foto-blogger Stephany Eguino del blog Pale Angel jupata.\\n29
+  September 2011\\nAkaw Somayeh Tohidloo iran\u00ed blogueran arupaxa, akham phisqa
+  tunk jawq\u2019a katuqasax aka Evin wata\u00f1 utana blog uksatuqiruw qillqt\u2019atana:
+  Wali k\u2019uchikipxama, kunalaykutix jupanakax jisk\u2019acha\u00f1pun munanxa,
+  sawapxama janchixpachaw usutu akham jisk\u2019acht u\u00f1jasitaxatxa.\\\"\\n28
+  September 2011\\nBolivia markanx kunayman qutuchawinakaw jiltawayi, ukat yaqhax
+  utjiwa wawanaka. Bloguerunaka, ukahamarak yatiyirinakas akxatwa wal arusipxi.\\nJilata
+  Elias, walik aka qilqatx jaqukipt''antaxa, jallallt''atatawa,\"", "\"Aka qillqatax
+  Relaciones Internacionales ukat Seguridad ukxat qillqt''atawa.\\nJanir willjktipan
+  aka machaq mar sarqatarusti, columbiankir pallapallanakax m\u00e4 ch`axwaw phusilanakamp
+  khaysa fuerzas armadas (FARC) uka jaqinakar qallantawayapxatayna Kha Chigorod\u00f3
+  noroeste colombiana. Aka Ch`axw\u00e4wix qallantawayiw kunawrasatix Elda Ramires
+  (sutichata Mayerly sasa) aka warmix farc ukan jiliri p\u2019iqinchiripawa, jupax
+  m\u00e4 chacharuw druga alirikaspasa ukjamarus ala\u00f1s uka jaqix munkaspa ukjam
+  amuyatayna ukjam amuyasinsti uka chachar jawsatayna. Druga alir jaqisti janiw narkutrafikantikataynati
+  kunatix jupax polic\u00eda encubirto ukataynawa, ukat uka ch\u2019axwawix tunka
+  pusini guerillas FARC jaqinakaw jiwaqawayapxi.\\nPhusilanakamp Ch\u2019axwawix qalltawayiwa
+  kunawrasati colombian jiliri p\u2019iqinchiri tatamp farc ukankir jaqinakamp m\u00e4
+  aruskipawinkasipkana ukja. Uka aruskipawisti qalltasiwayanwa maymara p\u00e4 waranqa
+  tunka mayan mallki phaxsina. Nayrar suma sarantaya\u00f1atakix, p\u00e4 tunka uru
+  saraqatar lapak phaxsit saraqataru FARC jaqinakax qhananchawayapxanwa sayt\u2019aya\u00f1a
+  uka ch\u2019axwawi.\\nColombiano irpirin alto el fuego roto satak ukanakax colombianos
+  bloguerunakaruw jan wali arxay\u00e4na. Jisnawa mayni bloggerux Colombia markanx
+  arst''iwa kunats phisqh\u00efr FARC ukax wali asxarapach\u00e4na:\\nEl frente 5
+  de las Farc era una especie de escuela de formaci\u00f3n de terroristas. Desde Efra\u00edn
+  Guzm\u00e1n hasta Iv\u00e1n M\u00e1rquez, y desde la hoy desmovilizada \u201cKarina\u201d
+  hasta el a\u00fan alzado en armas alias \u201cManteco\u201d [en], han pasado por
+  el 5\u00b0 frente de las Farc, una estructura guerrillera vieja y belicosa que la
+  madrugada del 31 de diciembre recibi\u00f3 otro golpe por parte de la Fuerza A\u00e9rea
+  Colombiana en la \u201cOperaci\u00f3n Fortuna\u201d: un bombardeo que dej\u00f3
+  al menos 14 bandoleros muertos y devuelve la esperanza de seguridad necesaria a
+  los habitantes de una zona estrat\u00e9gica como es el Eje Bananero, que adem\u00e1s
+  linda con el corredor que va desde la Serran\u00eda de Abibe y cruza siguiendo la
+  ruta del R\u00edo Sucio hasta el Atrato Medio.\\nP\u2019iqinchir quinto Farc ukanakax
+  m\u00e4 terroristanakan yatiqa\u00f1 utapakaspasa ukjamanwa . Efra\u00edn Guzm\u00e1n
+  Iv\u00e1n M\u00e1rquez, ukjamarus \u201cKarina\u201d Alias \u201cManteco\u201d [en]
+  satat saraqawayxiwa phisqa p\u2019iqinchirinaka FARCaru, jaya pacha tama jan wali
+  guerrillanakax aka willjta tunka kimsan janir mar tukuykipan diciembre phaxsin m\u00e4
+  jan walt\u2019aw katuqawayapxi kh\u00e4 Fuerza Aerea colombianunakata \u201coperaci\u00f3n
+  Fortuna\u201d sata: m\u00e4 bombardeox tunka pusini jan wali jaqinak jaytawayi jiwata,
+  ukat m\u00e4 kusisiwi puqut muxsa achu lurir jaqinakar churawayi kunati puqut achuyirin
+  urqipanakax jikkatasiwayiwa k\u00e4 serran\u00eda Abibe ukjamarus jaqkattiwa jawira
+  Suciot Atrato Mediokama.\\nMaysatxa, Camilo Raigozo aynacht\u2019awayiwa jiliri
+  p\u2019iqinchir Santos kusisi\u00f1apa, kha guerrillerunakar jiwayaratampi ukar
+  k''umi:\\nEl r\u00e9gimen que encabeza el presidente Santos se ha negado a parar
+  la org\u00eda de sangre y muerte que enluta al pueblo colombiano, al no aceptar
+  una tregua bilateral del fuego, ni siquiera para navidad y a\u00f1o nuevo. La insaciable
+  sed de sangre de quienes detentan el poder lo impide.\\nKh\u00e4 r\u00e9gimen p\u2019iqinchir
+  Santos tatax janiw jaysawaykiti kha wila wartawi, ukarusti llakimpi colombianunakar
+  apxatawayi. Janiw aka amtawi bilateral ukar iyaw sa\u00f1 munkiti. ni navidadak
+  ukjamararus machaq mar katuqa\u00f1atakisa.\\nHoracio Duquex kims\u00efr yatiyawin
+  jiskt\u2019asiwa aka unilateralxat ukar Farc ukampita:\\nTal parece, por los datos
+  que entregan los expertos [en] que hacen un seguimiento detallado de los combates,
+  que en los primeros 30 d\u00edas el \u00e9xito ha sido rotundo. Se pas\u00f3 de
+  190 combates y enfrentamientos mensuales a 26, 23 de los cuales tienen su origen
+  en los grupos ajenas a los di\u00e1logos de Cuba. (\u2026) Incluso las empresas
+  petroleras y las que explotan minerales han reportado un ambiente de mucho menos
+  hostilidad.\\nUkax amuyasiwa, yatiyaw jaqkatir yatxatat jaqinakax sitat arkapxi
+  aka ch\u2019axwawinakaru ukat ukjamarjamaw aka kimsa tunk urunakax wali aski yatiyawinak
+  utjana. Ukjamarus jaqukiptawayiwa m\u00e4 patak llatunk tunka ch\u2019axwawinakaru
+  sapa phaxsi kha p\u00e4 tunka suxtanita uka p\u00e4 tunka kimsa tunkata aka sartawinakax
+  cubat jutataskaspasa ukjamawa, ukjamarus empresa petrolerunakamp qhuya apsurinakampix
+  sapxiwa janiw kuna u\u00f1isiwis aksana utjiti, sasa.\\nFernando Doradox m\u00e4
+  conveniencia aka ch\u2019axwawitak qillqawayi:\\nDe mantenerse o alargarse el per\u00edodo
+  del cese de fuegos \u2013 m\u00e1s all\u00e1 de la \u00e9poca navide\u00f1a y festiva
+  \u2013 la guerrilla de las FARC le estar\u00eda colocando toda la presi\u00f3n al
+  gobierno de cara a concertar un cese de fuegos bilateral, lo que le dar\u00eda mayor
+  empuje al proceso de Paz.\\nCh\u2019axwaw nayrar sarantatapat aka navidad urunakanxa
+  Guerrilla Farc ukankirinakax jilir p\u2019iqinchir tatar wal jiykataspasa ch\u2019axwaw
+  sayt\u2019a\u00f1apatak ukar nukt\u2019atakaspasa suma sarnaqa\u00f1atak utjkaspa
+  ukjamaw amuyasi.\\nAmuyatjamarux colombia p\u2019iqinchir tatax FARC jaqinakarux
+  aynachat\u2019aya\u00f1 munaspa yaqha kast amuyt\u2019awinakampi. Uk lurasinsti
+  FARCankirinakax jisk\u2019ar tukuyatapxaspaw jan arskiri. Aka amuyt\u2019awix nayrar
+  sarantayataspawa aka p\u00e4 waranqa tunka kimsa marana, suyt''\u00e4wix [eng] (lapaka)
+  phaxsin m\u00e4 askich\u00e4wir puri\u00f1atakiwa.\\nKamisaki kullaka Rosmery, walik
+  aka qillqatx jaqukpt\u2019antaxa, wali aski yati\u00e4winwa, nayarux wal muspayituna.\"",
+  "\"Isturyanaka Aka tuqita Jamaica\\n1 Llamayu 2012\\nGlobal Collaborative ukan video
+  waraqat u\u00f1t''ayata: One Day on Earth sutini, D\u00eda de la Tierra (22 uru
+  qasawi phaxsit 2012 marana) ukar u\u00f1anchata. Videox jayllintirinakaru,...\\n27
+  Llamayu 2011\\nYaqhip sectas religiosas ukanakax uraqix 21ni kurm\u00fcru uruw tukusjani
+  sasaw sapx\u00e4na. Bloggers caribe\u00f1os ukanakax uka amuyux kunjams jaqinakar
+  lup\u2019iyi jas ukjatwa qilqt\u2019apxi.\\nYo creo que ya deben estar prepar\u00e1ndose
+  para el encuentro, que se llevar\u00e1 en Cochabamba-Bolivia,...\"", "\"Isturyanaka
+  Aka tuqita Pol\u00edtica Ta anata phaxsi, 2016\\n18 anata phaxsi 2016\\n\u00ab100,000
+  filipinuw jiwapxi, Jil\u00efr marka irpirin utanakapax laqayar tukutaw jiqhatasipxi
+  ukat Manila markax janiw Perla del Orienten ukhamakxiti.\\n17 anata phaxsi 2016\\nMyanmar
+  uksankir granjeros u\u00f1t''atanakaw yaqha markanakar sarxapxi, jupanakax aski
+  jakaw jikxata\u00f1atakiw ukham sarxapxi. Akanx walja jamuqanakaw sudeste de Myanmar
+  uksat u\u00f1acht''ayata.\\nWali askipuniw uraqpachan ukham may may markanakatpach
+  irnqt''a\u00f1axa. Muy interesante trabajar sin importar las fronteras...\"", "\"Pay\u00efri
+  ukhamarak kimsiri uru Cumbre de Medios Ciudadanos de Global Voices 2012 ukax qalltawayi
+  ukatax kunjamti nay\u00efri urux arumar tukuykan ukhamarakiw tukuyawayxi: jaylliwimpi.
+  Qhantati 9 pacharux taqiniw qunu\u00f1anakar qunt\u2019asxapx\u00e4na ukatx Sheru
+  ni Sheru, uka jayllintiri tamaw mant\u2019anisin jayllint\u2019apx\u00e4na.\\nUkatax
+  uka jayllintaw ist\u2019asax p\u2019artatakipxanwa ukharusti, Cumbre ukan chikancht\u2019asirinakaruw
+  (presentes) pani Boukary Konat\u00e9 Mali ukankiriru ukhamarak Victoria Tinta Bolivia
+  markankiriruw u\u00f1t\u2019ayapxi, panpachaniw Rising Voices ukat GV ukat beca
+  uka atipt\u2019iripx\u00e4na . Jichhapachasti, Boukary-imp ukat yaqhanakampix Proyecto
+  Segu Villages Connection ukwa sarantayasipki. Aka proyecto ukax Mali markan provincianakan
+  yatiqa\u00f1 ukatax utjki ukanakan red uka apnaq\u00e4w yatichaski ukwa u\u00f1ji.\\nUkhamarusti,
+  Victoria Tinta kullakax Bolivia markan jilasiwayatayna, aymara aru arst\u2019asina,
+  Jach\u2019a yatiqa\u00f1 utan yatiqkasax internet apanaqa\u00f1wa yatintaxatayna,
+  aymara marka, aru jach\u2019anchaya\u00f1ataki. Jichhasti Victoriax Jaqi Aru tamampiwa
+  irnaqi, uka tamansti bloguerunakatak yatich\u00e4winakwa sarantayapxi, aymara arst\u2019irinakataki,
+  amt\u00e4wipax red ukan aymara aru jach\u2019anchaya\u00f1awa.\\nUkharusti, Cumbre
+  ukax kimsa aski quturuw jaljtawayi. Jillian York ukax akham \u201c\u00bfNos est\u00e1n
+  vigilando?\u201d p\u2019iqinchaw sutin wakichaw apsuwayi, ukax vigilancia ukatuqitkamak
+  mayni maynin amuyunakap u\u00f1stayi, Robert Faris, Centro Berkman de Internet ukat
+  Sociedad ukan yatxatir irpirixa, uka qhana apnaq\u00e4win kamachinakapxat arst\u2019i,
+  ukatx Afef Abrougui T\u00fanez markat ukat Mohamed El Gohary Egipto markatx yatiyirinakax
+  jil\u00efr irpirin vigilancia corporativa ukanakxat u\u00f1t\u2019ayawapxi.\\nUka
+  sesi\u00f3n ukanxa, yaqha panelista ukax medios de la salud ukxatwa arst\u2019i,
+  yaqha tamasti Kenia marakan medios ciudadanos uka apnaq\u00e4witw aruskipaxi.\\nUkat
+  m\u00e4 juk\u2019a samrt\u2019awitxa, Cumbre ukax pay\u00efr sesio ukampiw sarantawayi
+  . Gilad Lotam, SocialFlow ukan sullka irpirixa, \u201cVisualizaci\u00f3n de la informaci\u00f3n\u201d
+  ukxatawa arst\u2019i.\\nRebecca MacKinnon,GV ukan cofundadoraxa, ukax participaci\u00f3n
+  ciudadana en el futuro de Internet, ukxtarakwa aruskipaw wakt\u2019ayi. Ukharusti
+  kims\u00efri qutux unidad entre los medios ciudadanos locales ukat el mundo exterior
+  ukxat aruskipa\u00f1atakiw wakt\u2019ayaraki.\\nChika uru manq\u2019\u00e4witxa,
+  Cumbre ukax p\u00e4 sets ukampiw qallti, walja t\u2019aqanakat aruskip\u00e4winakampi,
+  jisnawa China ukat \u00c1frica uka p\u00e4 markxata, warmi, tecnolog\u00eda, ukat
+  recursos abiertos ukanakata. Tukuyarusti, Cumbre ukax jayllint\u00e4winakampiw keniana,
+  Global Voices ukx amt\u2019awayapxi. Kunawsati Director Ejecutivonakax Ivan Sigal
+  ukat Georgia Popplewell ukanakax Cumbre uka jist\u2019ant\u2019awayxapxi ukatx ukan
+  chikancht\u2019asirinakax wali kusisitaw jayllint\u2019asin tukt\u2019ayawayxapxi.\\n\u00a1Jut\u00efr
+  Cumbre ukanw jikisixapxa\u00f1\u00e4ni!\\nAsxara\u00f1jamaw ukhamp aynacht''\u00e4winakaxa.\\nChiqpachans
+  wali llakiskay urunakpun uka jila kullakanakax pasawayapxi. Janik mayamp ukham utjaspat
+  kawkins ampi!!\"", "\"\u00c9xodo 34\\nDiosan machak leyi churatapa\\n1Tatitusti
+  Moisesarojj s\u00e4nwa:\\n\u2014Waquicham p\u00e4 kala tablanaca nayr\u00efr tablanac\u00e4qui
+  uqhama, nayasti ucaruwa kellk\u00e4jja cawqu\u00efr arunactejj nayr\u00efr t''unjcta
+  uca tablanacana kellkat\u00e4c\u00e4n uqhama. 2Uqhamarac waquichasim arumanthi wali
+  alwata Sina\u00ed kolluru maqhatani\u00f1ataqui. Kollunsti wali alto chekaruwa nayarojj
+  u\u00f1stit\u00e4ta. 3Jumampisti janiw qhitisa kollurojj maqhata\u00f1ap\u00e4quiti,
+  ni kollunsa qhitisa utja\u00f1ap\u00e4quiti, uqhamarac kollu nayr\u00e4jjanjja janiwa
+  ovejanacsa, ni vacanacsa awatipjja\u00f1am\u00e4quiti \u2014sasa.\\n4Ucatsti Moisesajj
+  p\u00e4 tablanacwa kalata lur\u00e4na nayr\u00efr tablanacjama. Ucat khep\u00e4rmanthi
+  wali alwatasti uca p\u00e4 kalat lurata tablanac apjjaruwayasinwa Sina\u00ed kolluru
+  maqhat\u00e4na, cunj\u00e4mtejj Tatitojj sisc\u00e4na uqhamarjama. 5Ucatsti Tatitojj
+  kenayanjamwa sarakan\u00efna. Ucat Moisesampi kollun parlasinsti sutipwa arsus\u00efna:
+  6Tatitusti Moisesan nayrakatapanjja jach''atwa aqham sas art''as\u00efna:\\n\u2014\u00a1Dios
+  Tatitusti, wi\u00f1ay jaquiriwa, uqhamarac qhuyapayasiriraqui. Janiw janc''aqui
+  colerasir\u00efquiti, jan ucasti jach''a munasiriwa, uqhamarac chekaraqui! 7Waranka
+  wawanacaman wawanacapataquisa pachpa cheka asqui munasiriqu\u00efscaniwa, uqhamarac
+  perdonaraquiwa jan wali luratanacsa, jan wali amt\u00e4winacsa, take juchanacsa.
+  Ucampis juchanirojj janiw jan mutuyasaqui jaytquiti, jan ucasti awquinacan juchanacapatjja
+  mutuyiwa wawanacaparu, allchhinacaparu, allchhinacapan wawanacaparu, uqhamarac allchhinacapan
+  allchhinacaparusa.\\n8Ucat Moisesajj m\u00e4quiw quillt''asisa p''eke parapsa orakeru
+  alnokasin Tatituru yupaych\u00e4na:\\n9\u2014\u00a1Dios Tata! Nayasti juman qhuyapt''ayasi\u00f1amjja
+  jicjjatwa, jichhasti nanacampi chicay saram. Chekpachansa aca jakenacajja juma contra
+  tucurinac\u00e4pjjewa, ucampis perdonapjjetay nanacan jan walinac luratanacajjata,
+  uqhamarac juchanacajjatsa, jumatacjama tuct''ayasay catokt''asjjapjjeta \u2014sasa.\\nWastat
+  suma amt\u00e4wiru mantapjjatapa\\n(Dt 7.1-5)\\n10Tatitusti s\u00e4nwa:\\n\u201cJumanacasti
+  ist''apjjam, nayasti m\u00e4 suma amt\u00e4wi lurta take jakenacaman u\u00f1jcata.
+  Uqhamarac luraraqu\u00efwa walja muspharca\u00f1anaca, uqhamasti janiwa cawqha orakensa,
+  ni cawqha marcansa lurat\u00e4quiti; jumanacasti cawqhanjjay jakenac taypina jicjjatasipjjch\u00efta
+  take uca jakenac taypinwa jumanacajj u\u00f1japjj\u00e4ta Tatitojj cunjjay lurchini
+  uca. Uqhamasti cunanacjjay nayajj jumanacampi lurch\u00ef ucanacajja wali muspharca\u00f1\u00e4niwa.\\n11\u201cJumasti
+  phokham cuntejj nayajj jichh\u00fcru siscsma uqhamarjama. Nayasti jumanacan nayrakatamatjja
+  alisnuc\u00fcwa amorreonacaru, cananeonacaru, heteonacaru, ferezeonacaru, heveonacaru,
+  uqhamarac jebuseonacarusa.\\n12\u201cJaniw jumajj sumanca\u00f1aru mant\u00e4tati
+  cawqha marcanacarutejj jumajj mantc\u00e4ta ucanjja, jupanacasti inampis jan walt''a\u00f1aru
+  puriyapjjeristama. 13Jumanacasti allthapipjj\u00e4tawa altaranacapa kalata dios
+  lurasitanacapsa t''unthapipjjaraqu\u00eftawa, uqhamarac kolluna lawanacapsa p''acthapipjjaraqu\u00eftawa.\\n14\u201cJanipuniw
+  yakha diosanacarojj yupaychapjj\u00e4tati, Diosasti janiw munquiti yakhamp\u00efpjja\u00f1ama,
+  jan yakhamp\u00ef\u00f1ap muniri sataraquiwa.\\n15\u201cUcampis janipuniwa sumanca\u00f1aru
+  mantapjj\u00e4tati uca oraken jaquirinacampejja. Jupanacasti diosanacaparu yupaychasina,
+  uqhamarac sacrificionac loktasinjja jumanacaru churapjjeristam, ucatsti jumanacajj
+  inampis uca diosanacaru loktat mank''anacsa mank''antapjjasma. 16Uqhamarac phuchanacapasa
+  inas jumanacan yokanacamampi casarasipjjaspa, jan ucajj diosanacaparu yupaychasinsa
+  juchanacsa lurapjjaspa uqhamata jumanacan yokanacamaru diosanacapar yupaychaya\u00f1ataqui.\\n17\u201cJumanacasti
+  janipuniw cunapachasa metal umatatayasa diosanacjja lurasipjj\u00e4tati.\\nSapa
+  mara lura\u00f1 fiestanaca\\n18\u201cJumanacasti lurapjj\u00e4tawa jan levaduran
+  t''ant''a mank''a\u00f1 fiesta, cunj\u00e4mtejj sapcsma uqhamarjama, pakallko uruwa
+  jan levaduran t''ant''a mank''apjj\u00e4ta. Abib sat phajjsina, jumanacajja uca
+  Abib sat phajjsinwa Egiptota mistunipjjtajja.\\n19\u201cUqhamaraqui jumanacana take
+  nayr\u00efr wawanacamasti nayataqu\u00efniwa, uqhamarac vacanacamana, ovejanacamana,
+  cabritonacamana nayr\u00efr orko kallunacapasa nayataqu\u00efniwa. 20Ucampis asnona
+  nayr\u00efr kallupa lantsti m\u00e4 oveja jan ucajj m\u00e4 cabrito churapjj\u00e4ta,
+  ucampis jan churapc\u00e4ta ucasti uca asno kallurojj jiwayapjja\u00f1amawa. Uqhamarac
+  jil\u00efr wawanacamatsti churapjja\u00f1amaraquiwa m\u00e4 suma ofrenda. Uqhamasti
+  janiwa qhitisa nayan ucarojj juta\u00f1ap\u00e4quiti jan cunsa apanisajja.\\n21\u201cSojjta
+  uruw irnakapjj\u00e4ta, ucampis pakallko urunjja samarapjj\u00e4tawa, yapucha\u00f1
+  horasasa, jan ucajj cosechanac apthapi\u00f1a horasanacasa.\\n22\u201cSemana fiestjja
+  lurapjjaraqu\u00eftawa trigona nayr\u00efr achunacapa apakcasina, uqhamarac mara
+  tucusejja cosechanac apthapisajj lurapjjaraqu\u00eftawa.\\n23\u201cTake chachanacasti
+  maranjja quimsa cutiwa Israelan Tatitu Diosapan nayrakatapanjja u\u00f1stapjja\u00f1apa.
+  24Nayasti jumanacan nayrakatanacamatsti yakha marcanacjja alisnuc\u00fcwa, uqhamatwa
+  jumanacan orakenacama yapjjatas jach''aptay\u00e4jja. Ucampis janiw qhitisa orakenacamjja
+  catuscaniti cunapachatejj Tatitu Diosamaru maran quimsa cuti u\u00f1stir sarc\u00e4ta
+  ucqhajja.\\n25\u201cAnimalanac sacrificio lokta\u00f1ataquisti, janiw wilampi, levaduran
+  t''ant''ampejj lokta\u00f1atac apthap\u00eftati, ni pascua fiestan sacrificio loktat\u00e4qui
+  ucan jilt''anacapsa khep\u00e4rmanthitaquejj imaraqu\u00eftati.\\n26\u201cUcjjarusti
+  orakenacaman nayr\u00efr suma achunacapjja apapjjaraqu\u00eftawa Tatitu Diosaman
+  utaparu. Uqhamarac janiw phayapjj\u00e4tati cabritonacjja taycapan lecheparu.\u201d\\nMoisesajj
+  Diosan arunacap kellke\\n27Tatitusti Moisesarojj s\u00e4nwa: \u201cKellkam aca arunaca,
+  aca arunacampiw sumaru manttanjja jumampi, uqhamarac israelitanacampisa.\u201d\\n28Moisesasti
+  Tatitumpi chic\u00e4nwa pusi tunca uru, pusi tunca aruma jan mank''ata, uqhamarac
+  jan umas umt''ata uqhama; jupasti kala tablanacaruw kellkasc\u00e4na Diosan tunca
+  camachi arunacapjja. 29Ucatsti Moisesajj Sina\u00ed kollutjja sarakanjj\u00e4nwa
+  Diosan tunca camachi arunacap kellkc\u00e4na uca p\u00e4 tablanacas amparanacaparu
+  apt''asita. Ucampis kolluta sarakancasinjja jupajj janiw amuyasc\u00e4nti ajanupajja
+  wali c''ajatapa Tatitumpi parlaniwayasinjja uca. 30Ucampis Aaronampi, take israelitanacampejj
+  u\u00f1japjj\u00e4nwa Moisesan ajanupajj wali c''ajiri, ucatsti ajjsarasinjja janiw
+  juparojj jac''a\u00f1 munapc\u00e4nti. 31Ucampis Moisesajj jupanacarojj jaws\u00e4nwa,
+  ucatsti cutt''anipjj\u00e4nwa Aaronampi, take israelitanacan jil\u00efrinacapampi
+  cawqhanccantejj Moisesajj ucqharu, ucat Moisesajj jupanacaruw parl\u00e4na. 32Ucat
+  m\u00e4 juc''a kheparusti take israelitanacaraquiw jac''achasipjjaraqu\u00efna,
+  ucat Moisesajj jupanacarojj yatiy\u00e4nwa cunanactejj Tatitojj Sina\u00ed kollun
+  sisc\u00e4na take ucanaca. 33Ucampis israelitanacampi parla\u00f1 tuct''ayasinsti,
+  Moisesajj ajanupatjja m\u00e4 velompiw imt''asiwayjj\u00e4na.\\n34Moisesasti Tatitumpi
+  parlir manta\u00f1ataquisti uca veljja ajanupat apakasiwayjj\u00e4nwa mistuni\u00f1apcama.
+  Ucatjja israelitanacarojj yatiy\u00e4nwa cuntejj Tatitojj sisc\u00e4na ucanaca.
+  35Ucampis israelitanacajj wastat Moisesan ajanupa wali c''ajir u\u00f1japjjatapatsti
+  Moisesajj wastatampiw ajanupjja velompi imt''asjj\u00e4na wastat Tatitumpi parliri
+  manta\u00f1apcama.\"", "\"3\\nJesusampi, Nicodemompi\\n1M\u00e4 fariseow utj\u00e4na,
+  Nicodemo sata, jupasti judionacan jil\u00efrip\u00e4nwa. 2Aca Nicodemosti arumaw
+  sar\u00e4na Jesusar u\u00f1jt''ani\u00f1ataqui, ucatsti saraqu\u00efnwa:\\n\u2014Yatichiri,
+  yatipjjtwa Diosajj jumar qhitanitapa nanacar yatichiri; janiraquiw qhitis aca milagronac
+  lurcaspati, janitejj Diosajj jupamp\u00efspa ucajja \u2014sasa.\\n3Ucjjarusti Jesusajj
+  juparojj s\u00e4nwa:\\n\u2014Khanacwa sisma, qhititejj jan wasitat nascani ucajja,
+  janiw Diosan reinopjja u\u00f1jcaspati \u2014sasa.\\n4Nicodemosti ucjjarojj jisct''araqu\u00efnwa:\\n\u2014Uqhamasti,
+  \u00bfcunj\u00e4mrac m\u00e4 chachajj chuyman\u00ebjjasinjja wasitat nacispa? \u00bfTaycapan
+  puracaparuti wasitat mantaspa naci\u00f1ataquejja? \u2014sasa.\\n5Jesusasti ucjjarojj
+  saraqu\u00efnwa:\\n\u2014Khanacwa sisma, qhititejj umampita Ajayumpita jan nascani
+  ucajj, janiw Diosan reinopar mantcaspati. 6Cunatejj janchit nacit\u00e4qui ucajja
+  janchiwa; cunatejj Ajayut nacit\u00e4qui ucajja ajayuwa. 7Jan muspharamti cuntejj
+  siscsma ucatjja: \u2018Takeniw wasitat naci\u00f1apa.\u2019 8Thayajj cawcsats thayt''aniquiwa,
+  thayt''atapsti ist''aractawa, ucampis janiw yatctati ni cawcsat jutatapa ni cawcsar
+  saratapsa. Uqhamaraquiwa Ajayut nacitanacajja.\\n9Nicodemojj wasitat jisct''\u00e4na:\\n\u2014\u00bfCunj\u00e4m\u00e4spas
+  acajja? \u2014sasa.\\n10Jesusasti juparojj saraqu\u00efnwa:\\n\u2014\u00bfJumajj
+  Israel marcan jach''a yatichirip\u00e4stajjaya, janit acjj yatcta? 11Khanacwa sisma,
+  yatipcta ucatwa parlapjjta, uqhamarac cuntejj u\u00f1japcta ucrac khana\u00f1chapjjta,
+  ucampis janiw jumanacajj iyawsapctati cuntejj sapjjsma ucjja. 12Aca oraken y\u00e4nacapat
+  parlapjjsma ucsti janiw iyawsapquistati, \u00bfCunj\u00e4maraqui iyawsapjjetasmasti
+  alajjpacha y\u00e4nacat parlapjjerisma ucsti?\\n13Janiw qhitis alajjpacharojj maqhatquiti,
+  jan ucasti qhititejj alajjpachat sarakanqui ucaquiwa, ucasti Jaken Yokapawa, [alajjpachancaraquiwa].
+  14Cunj\u00e4mt\u00ef Moisesajj wasaran catari apt\u00e4na, uqhamaraquiw Jaken Yokapajj
+  aptat\u00e4ni. 15Qhitinacatejj jupar iyawsapqui ucanacajj jan chhaka\u00f1apataqui,
+  jan ucasti wi\u00f1ay jaca\u00f1an\u00ef\u00f1apataqui.\\nDiosan munasi\u00f1apa\\n16\u201cDiosajj
+  acapachar wal munatap laycuw m\u00e4 sapa Yokapar qhitani, take qhitinacatejj jupar
+  iyawsapqui ucanacajj jan chhaka\u00f1apataqui, jan ucasti wi\u00f1ay jaca\u00f1an\u00ef\u00f1apataqui.
+  17Diosajj janiw Yokapjja acapachar jucha\u00f1cha\u00f1ataqui qhitanquiti, jan ucasti
+  acapachajj jupa toke khespit\u00e4\u00f1apataquiw qhitani.\\n18Qhititejj Diosan
+  Yokapar iyawsqui ucajja, janiw jucha\u00f1chat\u00e4quiti, ucampis qhititejj jan
+  iyawsqui ucajj niyaw jucha\u00f1chat\u00e4jje, Diosan m\u00e4 sapa Yokapar jan iyawsatap
+  laycu. 19Qhitinacatejj jan iyawsapqui ucanacajj jucha\u00f1chat\u00e4jjewa. Cunapachatejj
+  khanajj acapacharu jutqui ucqhajj jakenacajj ch''amacaruw juc''ampi munapjje khanat
+  sipansa, lur\u00e4winacapajj jan wal\u00eftap laycu. 20Take qhitinacatejj jan wal
+  lurapqui, ucanacajja khanarojj u\u00f1isipjjewa, janiraquiw khanarojj jac''achasipquiti,
+  jan wali luratanacapajj jan khansta\u00f1apataqui. 21Ucampis qhitinacatejj asquin
+  sarnakapqui, ucanacajj khanaruw jac''achasipjje, Diosajj lur\u00e4winacap taypincatap
+  u\u00f1jasi\u00f1apataqui.\u201d\\nBautisir Juanajj wasitatwa Jesusjjat parli\\n22Ucanac
+  pasatatsti Jesusajj discipulonacapampiw Judea tokeru sarawayjj\u00e4na. Purisinsti
+  m\u00e4 kawkha urunacawa ucancapjj\u00e4na bautisasa. 23Uca pachparaquiwa Bautisiri
+  Juanajj En\u00f3n sat chekan bautisasc\u00e4na, Salim sat jac''ana, ucawjan walja
+  uma utjatap laycu, jakenacasti puriniritcamaw bautisat\u00e4na. 24Ucapachajj jan\u00efraw
+  Bautisir Juanajj carcelrantat\u00e4c\u00e4nti.\\n25Ucatsti Bautisir Juanan arquirinacapampi
+  m\u00e4 kawkha judionacampiw ch''ajjwapjj\u00e4na k''omachas\u00efwjjata. 26Ucatsti
+  Bautisir Juanan ucar sarasinjja sapjj\u00e4nwa:\\n\u2014Yatichiri, Jord\u00e1n jawir
+  qhurcatan jumamp\u00efc\u00e4n ucajja, qhititaractejja jumajj khana\u00f1chapquista
+  ucajja jichhajj bautisasquiwa, takeniraquiw jupar arcapjje \u2014sasa.\\n27Juanasti
+  ucjjarojj saraqu\u00efnwa:\\n\u2014Janiw qhitinsa cunas utjcaspati janitejj Diosajj
+  churcaspa ucajja. 28Janiw nayajj Crist\u00f6cti, jan ucasti jupan nayr\u00e4jjap
+  qhitanitaqu\u00eftwa, jumanac pachpaw ucjj sum arsur ist''apjjestajja. 29M\u00e4
+  casaras\u00efwinjja casarasiri warmin chachap\u00e4cani, ucap\u00ef casarasir waynajja,
+  jupan parlatap ist''asinjja amigopajj wal cusisi. Nayajj uca pachparaquiw cusista.
+  30Jupajj sap\u00fcrutjama jach''aru tucu\u00f1apawa, nayasti sap\u00fcrutjamaw jisc''aru
+  tucu\u00f1ajjaraquejja \u2014sasa.\\nAlajjpachat jutiri\\n31\u201cQhititejj alajjpachat
+  jutqui ucajja take jakenacjjanquiriwa. Qhititejj acapachat jutqui ucajja, acapachanquiriwa,
+  acapachan y\u00e4nacapataracwa parli. Ucampis qhititejj alajjpachat jutqui ucajja
+  take jakenacjjanquiwa. 32Uqhamaraquiw parli cuntejj u\u00f1jqui ist''caraqui ucjjata,
+  ucampis janiw qhitis iyawsquiti cuntejj jupajj arsqui ucjja. 33Ucampis cawqu\u00efritejj
+  iyawsqui ucajja: \u201cChekaw\u201d siwa Diosan arsutaparojja. 34Diosan qhitanitapajja
+  Diosan arunacapwa parli, Diosajj Ajayupjja jilarquirwa churaraqui. 35Awquejj Yokaparojj
+  munasiwa, juparusti take cunwa catuyaraqui. 36Qhititejj Yokar iyawsqui ucajja wi\u00f1ay
+  jaca\u00f1aniwa, ucampis qhititejj jan Yokaru iyawsqui ucajja janiw wi\u00f1ay jaca\u00f1an\u00efcaniti,
+  jan ucasti Diosan ajjsarca\u00f1 mutuy\u00e4wipwa catokani.\u201d\"", "\"Hielo casino
+  ukax m\u00e4 dep\u00f3sito bono 2024\\nUka perks apnaqa\u00f1ax walja empresas de
+  juegos de azar ukanakatakix jan walt\u2019ayiriwa, kunatix janiw beneficio ukax
+  payll inicial ukanx janiw cuerdas fijadas jan ukax manipuladas T&C s ukanakax utjkiti.
+  Chiqans janiw sa\u00f1 munkiti empresa Ice Gambling ukax chiqpachans janipuniw kunapachas
+  bonos ukanakax churaskaniti, kunatix promociones ukanakax awisax mayjt\u2019askakiwa.
+  Inas sapa kutix mayjt\u2019chispa, Ice Gambling Establishment Invite Bonus ukax
+  niyas m\u00e4 asegurado oferta ukhamawa anata\u00f1anakataki sapa kuti.\\nUka anatirix
+  apuesta ukax atipt\u2019aspa ukhax kawkir 4 calificaciones de cr\u00e9dito ukanxa,
+  jupanakax payllapxa\u00f1apawa m\u00e4 demanda de apuestas 40x payllawinakap katuqa\u00f1ataki
+  m\u00e4 pol\u00edtica de retiro com\u00fan ukan sitios de casino en l\u00ednea ukat
+  Inmediate ganancia videojuegos ukanakan. Wali suma u\u00f1jataxa, ukax sa\u00f1
+  muniwa, anatirix kunayman qullqinak atipt\u2019ani ukhaxa, 10 euros jan ukax 10.000
+  ukha qullqinak atipt\u2019ani ukhax chiqpachans 40 kutiw qullqix chura\u00f1ax wakisini,
+  kunatix jupanakax askinjam katuqapki ukat sipansa.\\nUkax sa\u00f1 muniw perk ukax
+  m\u00e4 merecido ganga ukhamakiw uka anatirix m\u00e4 jach\u2019a cantidad ukat
+  sipans atipt\u2019aspa kunapachatix jupanakax apuestas su oferta de bonificaci\u00f3n.
+  Uka anatirix m\u00e4 puerto anat\u00e4win jan qullqini turkakip\u00e4winakat atipt\u2019aspa
+  ukhaxa, apuestas demanda precio ukax 35 kutiw qullqit atipt\u2019atapatxa.\\nHielo
+  casino ukax m\u00e4 dep\u00f3sito bono c\u00f3digos 2024\\nJuk\u2019amp yatxata\u00f1atakix
+  bonos ukanakat hielo casino ukan: https://icecasinobonuses.com/ay/bonus/\\nUkax
+  janiw ask\u00efkiti, ukatx janiw anata\u00f1anakarux aka bono ukar afirma\u00f1apatak
+  iwxt\u2019ksnati, jan ukax qullqix utja\u00f1apawa jach\u2019a qullqinak paga\u00f1ataki.
+  M\u00e4 cuenta qillqantasisma ukhaxa, kuna gastos ukax janiw wakiskiti. Riesgonakamax
+  atipt\u2019ani ukat apuestas ukan mayiwinakap jan phuqha\u00f1jam\u00e4kani ukhaxa,
+  ganancianakam apt\u2019asi\u00f1amawa ukat jan ganancias econ\u00f3micas extras
+  ukanakamp atipt\u2019asax anataskaki\u00f1amawa.\\nM\u00e4 c\u00f3digo de promoci\u00f3n
+  ukan\u00efsta ukhaxa, jisk\u02bca cuadroruw ch\u02bciqt\u02bc\u00e4ta, ukhamatwa
+  uka ofrecimiento qalltasma. Ukhamaraki, qillqantayasi\u00f1axa chiqapa lura\u00f1atakixa,
+  qillqantata correo electr\u00f3nico jist\u2019ara\u00f1awa ukatxa enlace web ukaxa
+  correo electr\u00f3nico ukaru apayata jist\u2019ara\u00f1awa. Aka factor tuqinxa,
+  chiqpachansa wali sumawa cuentamxa lurawaytaxa ukatxa qalltasmawa askinakxata establecimiento
+  de Juegos de Azar ukana ch\u2019amanchawinakapampi.\\nIce Casino ukax m\u00e4 jach\u2019a
+  videojuegos ukaniwa, ukax uraqpachan wali suma software aplicaci\u00f3n dise\u00f1adores
+  ukanakan luratawa. Empresa Ice Gambling ukhamarakiw m\u00e4 generoso incentivo de
+  bienvenida ukat normales beneficios de comercializaci\u00f3n ukanak apnaqi.\\nHielo
+  casino verifizierung ukax m\u00e4 jach\u2019a u\u00f1acht\u2019\u00e4wiwa\\nUkhamarus,
+  Ice Gambling ukan utt\u2019ayawipax janiw m\u00e4 libro deportivo ukankiti, ukax
+  m\u00e4 anatiriruw m\u00e4 sitio web adicional ukar u\u00f1ja\u00f1apatak wayt\u2019i,
+  apuestas de actividades deportivas ukar u\u00f1t\u2019aya\u00f1ataki. Ice Casino
+  ukax m\u00e4 empresa de juegos de azar en l\u00ednea ukhamaw lurasiwayi 2021. Machaq
+  ukham\u00e4kchisa, ICE casino ukan sitio ukax chiqpachanx m\u00e4 chiqanx wali u\u00f1t\u2019ataw
+  tukuyi kunatix jan jaytjasaw pc juegos de azar en l\u00ednea ukan experiencias de
+  calidad ukanakax kunaymaninak, chuymacht\u2019awi, ukat seguridad ukanakat chura\u00f1ataki.\\nEmilyx
+  qillqa\u00f1 munatapa ukat deportes ukan apuestas ukan complejidades ukanakat wali
+  sum amuyt\u2019atapax chiqpachanx ullart\u2019irinakaruw hipnotiza\u00f1apatak jaytawayi,
+  ukax wali suma ukat wali askiwa.\\nUkax m\u00e4kiw ukat jank\u2019akiw autorizacion
+  ICE Casino ukar puri\u00f1kamax jikxatasi. Aka lurawinakampi phuqa\u00f1amawa ukatxa
+  videojuegos ukaxa m\u00e4 juk\u2019a pachanakiwa: ICE Casino sitio web ukaru sara\u00f1amawa
+  ukatxa sitio p\u2019iqinchawiru Indicaci\u00f3n Up ukaru ch\u2019iqt\u2019a\u00f1amawa
+  Direcci\u00f3n de correo electr\u00f3nico ukar qillqt\u2019a\u00f1amawa M\u00e4
+  seguro contrase\u00f1a u\u00f1staya\u00f1a Munat qullqim ajlli\u00f1amawa Paquete
+  u\u00f1akipt\u2019a\u00f1amawa 18 marat jila maraniw sasin qhana\u00f1cht\u2019asax
+  uka cuadroruw ch\u2019iqt\u2019a\u00f1ama, ukhamat promocionales ofertas munapxta
+  sasin sa\u00f1ataki Solicitud apayanipxam ukat qhipatx m\u00e4 foto ID ukamp identidad
+  ukar chiqanchapxam Qillqt\u2019asipxam suma katuqt\u2019at\u00e4pxa\u00f1amataki
+  Wakicht\u2019asipxam suma puerto videojuegos anatt\u2019a\u00f1ataki At, we found
+  the funcionalidad ukat dise\u00f1o de un operador ukax atributos cruciales ukanakaw
+  u\u00f1ja\u00f1ax jan\u00efr jupanakamp m\u00e4 cuenta ukar qillqantkasaxa, kunatix
+  jiwasan ICE Online casino ukan chiqanchawinakas chiqpachapuniw u\u00f1acht\u2019ayapx\u00e4tam.\\nHielo
+  casino promo c\u00f3digo ohne einzahlung ukax m\u00e4 jach\u2019a u\u00f1acht\u2019\u00e4wiwa\\nKunawsatix
+  ukax utt\u2019ayat\u00e4xi ukhax sitio web tuqiw u\u00f1akipt\u2019a\u00f1 qalltasma,
+  kunatix qhipa qullqit anatt\u2019a\u00f1 utt\u2019aya\u00f1 videojuegos ukan amtawinakapa.
+  Ukhamarakiw m\u00e4 espec\u00edfico anatt\u2019awinaka ukat atipt\u2019asiwinakax
+  utjaraki, ukhamax lurasispawa conveniente ukax jumatix uka chiqanakan u\u00f1akipt\u2019a\u00f1
+  munsta ukhaxa. Ukhamarakiw plataformar mantasma m\u00e4 celular tuqi, ukax wali
+  sumawa sapa mayni jaqinakatakix khitinakatix casino en l\u00ednea ukar paso ukan
+  u\u00f1akipa\u00f1 munapki jupanakataki.\\nWalja qullqi kutt\u2019aya\u00f1 thakhinakax
+  wali askiwa uka jach\u2019anchawi katuqa\u00f1ataki ukampis. Jumatix m\u00e4 videojuego
+  de m\u00e1quina expendedora, ruleta en vivo, erd-bd.org jan ukax kunayman videojuegos
+  establecimiento de juegos en l\u00ednea ukanak anata\u00f1 qallta\u00f1 munsta ukhax
+  jupanakan jach\u2019a anata\u00f1 utapat anata\u00f1 qallta\u00f1 munsta ukhax u\u00f1j\u00e4tawa,
+  kunjamakitix qullqix mayjt\u2019ayat\u00e4xi ukhax qullqi kutt\u2019aya\u00f1 amtampiw
+  iwxt\u2019ata, chiqpachansa qullqix niya jank\u2019akiw cuentaman utjani.\\nUkax
+  m\u00e4 juk\u2019a jilxattatapatw utjaspa, kunatix clientes ukanakax sitio ukar
+  mantapxi. Jupanakan correo electr\u00f3nico ukat tel\u00e9fono ukan yanapt\u2019awinakapax
+  wali muspharka\u00f1 alternativas ukhamawa, jumatix m\u00e4 ratuk m\u00e4 retroalimentaci\u00f3n
+  ukar thaqhasksta ukhaxa. Jumax jupanakan taqpach y\u00e4nakampi equipo ukamp aruskipt\u2019a\u00f1amawa,
+  jupanakax m\u00e4 muspharka\u00f1 yati\u00f1aniwa establecimiento de juegos de azar
+  ukat jumar yanapt\u2019a\u00f1atakis utjarakiwa.\\nUkax m\u00e4 casino auszahlung
+  erfahrung ukhamawa\\nJiwasan ICE Casino ukan sitio ukanx jikxatasiwayi Invicta Networks
+  NV ukax acredita taqi soluciones de juegos de azar ukanakax Curao ukan jikxatasi.
+  Empresa ICE Gambling ukax Brivio Limited ukan apnaqatawa ukatx Rep\u00fablica de
+  Chipre uksan qillqantatawa. Ukhampachasa, u\u00f1jtanwa ICE juegos de azar ukanakax
+  m\u00e4 permiso ultramar ukanipxi ukax inas jan aljirinakaparux taqpach yanapt\u2019awinak
+  churapkchiti jupanakax m\u00e4 firma ukan pol\u00edticas ukanakax markapan utt\u2019ayatawa.\\nPermitir
+  ukax reclamaci\u00f3n ukax m\u00e4 cuenta ICE Casino ukan qillqantatawa m\u00e4
+  chiqan sistema ukar taqpach accesibilidad ukan. Inas jan ch\u2019amanchat\u00e4kchiti
+  apuestas de juegos de azar empresa videojuegos ukar estado, \u00e1rea jan ukax markat
+  mistu\u00f1 thakhin.\\nJiwasax sap\u00fcruw ts ukat cs u\u00f1akipt\u2019a\u00f1amatak
+  iwxt\u2019apxsma, ukhamat chiqapar u\u00f1ja\u00f1atakis qawqha jayas m\u00e4 viaje
+  ukax lurasispa, ukampirus casino en l\u00ednea m\u00f3vil-optimizado uka apnaqa\u00f1kama
+  jan ukax ''d m\u00e4 machaq cuenta lura\u00f1ax wakisispa yaqha base moneda ukampi
+  ukhamaraki. Jumatix ICE Gambling ukan utt\u2019asiwipan sapa kuti manq\u2019asiri
+  ukham\u00e4sta ukhax inas yaqhip bonos de compromiso ukar plataforma ukan pachamatak
+  wakicht\u2019at\u00e4sta.\\nHielo casino bono c\u00f3digo bestandskunden ukat juk\u2019ampinaka\\nAkax
+  m\u00e4 suma premio ukhamawa taqi niveles de capacidad ukan anatirinakataki, sitio
+  web ukan apnaqa\u00f1apataki ukhamarak puntuaci\u00f3n ukanakap m\u00e4 kutikiw
+  u\u00f1staya\u00f1ataki. Jiwasax iwxt\u2019apxsmawa m\u00e4 u\u00f1akipa\u00f1a
+  taqi ch\u2019aman ch\u2019amanchawinakapampi ukhamarak machaq ukhamarak utjki uka
+  aljirinakataki. Ukhamarakiw jupanakan askinak amtapxi, jilpach utjki uka ventajas
+  ukanakax janiw ukhamakiti, ch\u2019amanchapxtam juk\u2019amp constante plataforman
+  ukhamarak walja tratos ukanakamp apnaqa\u00f1ataki.\\nJumax qullqix jikxatasmawa
+  ukat chiqpach qullqi equilibrio ukanx jank\u2019akiw walja yuspajara\u00f1ax servicios
+  de reembolso ukanakax jank\u2019akiw utji. Tarjeta de cargo normal ukaru lip\u2019katasi\u00f1awa
+  jan ukaxa walja e, Wallet opciones ukanaka taypina apnaqa\u00f1a. Ukhamarus, Ice
+  Casino ukanx m\u00e4 yatxatat cliente yanapt\u2019ir tamaw utji, sapa hora jan ukax
+  sapa uru yanapt\u2019a\u00f1ataki.\\nAka qillqat u\u00f1xatt\u2019a\u00f1atakix
+  Ice casino jan dep\u00f3sito bono c\u00f3digos 2024 https://icecasinobonuses.com/ay/.\\nJumax
+  videojuegos ukan sitio ukar u\u00f1akipt\u2019asmawa juma pachpataki Ice Gambling
+  establecimiento ukar ch\u2019axwasa aka chiqan. Ice Gambling ukan utt\u2019ayawipax
+  m\u00e4 sitio de videojuegos ukawa, ukax jichha sector ukan nayrar sartawiparjamaw
+  sarantaski, ukhamat kusist\u2019a\u00f1ax janipuniw jaytkaniti. Empresa de juegos
+  de azar ukax ranuras ukat mesas, promos ukat yapxatat lurawinakampiw phuqt\u2019ata,
+  digitaldarpan.com ukhamat juk\u2019amp qullqitak kutt\u2019ani\u00f1amataki.\"",
+  "\"Isturyanaka Aka tuqita Health Ta Willka kuti phaxsi, 2015\\nMoctar Dembele ukat
+  Gerard Niyondiko pani yatiqirinakax Africa markan morbilidad jiwayir usu tukha\u00f1atakiw
+  sarantasipki.\\nArgentina marka, Buenos Aires qam\u00e4w Senado-x m\u00e4 kamach
+  jichhakiw apsuwiyapxi, kawkinti qulla\u00f1 utanakax laruyirinak apnaqapxan wawanak
+  ukhamarak wila masinakpas jan walir purt\u2019as\u00efwinakap anat\u00e4winakamp
+  lart\u2019as\u00efwinakamp atipja\u00f1pataki. La risa sana. Ahora es obligatoria
+  en hospitales de Buenos Aires, Argentina> http://t.co/SF5A5iTm4j @petrogustavo \u2014
+  Joy (@Joy_rma) June 24, 2015 Lart\u2019as\u00efwix qulliwa. Argentina, Buenos Aires...\"",
+  "\"Isturyanaka Aka tuqita Digital Activism De Chinuqa, 2012\\n31 Chinuqa 2012\\n22
+  Chinuqa 2012\\nHospital Regional Dnipropetrovsk sutinix 1798n maran utt\u2019ayasit\u00e4yna
+  [ru, uk] \u2013ukatx Ilya Ilych Mechnikov sutinixatyanawa- ukjamarak Ucranian markanx
+  nayra qulla\u00f1 utanakat\u00e4ynawa. Ukampirus uka qullayasi\u00f1 utax medios...\\n9
+  Chinuqa 2012\\nKamisak Aka Uraqpacharu, ukjamarak walik 2012 marax purinixa. Aka
+  qilqt''\u00e4winx kunaymantuqit u\u00f1akipt''a\u00f1atakiw 2011 marar u\u00f1tan.
+  Ukjamarakiw internet-pachan bicicleta-t s\u00e4rttan.\\nWali askipuniw aka yatiyawixa,
+  nayax majchu pichu ukarux pur''tapuniwa.\"", "\"M\u00e4 tama markachirinakaw zona
+  norte del estado Mexicano de Tamaulipas, masurux yatiyanipxi usuaria de Twitter
+  Mar\u00eda del Rosario Fuentes Rubio kullakata, uka kullakarux katuntasinx jiwayawayapxatanawa
+  sasina. Janirakiw yatipkiti ni khit jiwayaskatapa, aka kullakan cuerpopax Twitter
+  tuqi u\u00f1ist\u2019ayapxat\u00e4na.\\nUkat jaypachatx cuentapax suyt\u2019ayataxat\u00e4nawa.
+  Kunawsatix Mar\u00eda del Rosariox perd\u00f3n mayiskat\u00e4n droga apnaqirinakarux,
+  ukhax fotonakax u\u00f1ist\u2019ayat\u00e4tanawa kawkhantix m\u00e4 mensajen u\u00f1ist\u2019aykana
+  yaqha periodistanaka amukipxa\u00f1apataki jan yatiyapxa\u00f1apataki violencia
+  tuqita kunatix \u201cjaniw kunas jikqhataskaniti\u201d sasa.\\nValor por Tamaulipas,
+  ukax m\u00e4 plataformaw kawkhantix markachir periodistanakax yatiyawinak apkatapki
+  violencia tuqita, sasispaw crimen organizado tuqita ukhamarak trafico de drogas
+  tuqinakata, aka yatiyawinakax yatiyasinwa jan yatiyir sutip churasa.\\nMar\u00eda
+  del Rosario kullakax ukham mayni irnaqiritanaw uka tuqina jisnaw \u201cResponsabilidad
+  por Tamaulipas\u201d ukham proyectona.\\nAkax janiw jichhak\u00efkiti, aka tuqin
+  irnaqir jaqinakax wali yanqhachataw jiqhatasipxi. 2012 maratpacha, valor por Tamaulipas
+  tuqin irnaqirinqakax amenazat jiqhatasipxi, ukhamarakiw administradores uka irnaqirinakax
+  suyt\u2019awayapxi irnaqa\u00f1a.\\nValor por Tamaulipas ukax yanap mayiwi ukat
+  kut\u2019ayata sas utt\u2019yat\u00e4nwa, kawkhantix u\u00f1ist\u2019ay\u00e4na
+  drogas tuqinakata ukhamaraki corrupci\u00f3n tuqinakatsa ukanx uka yatiyawkamakiw
+  wal utjana 2006 maratpacha. Anata phaxsin 2013 maranxa m\u00e4 organizaci\u00f3n
+  de drogas tuqinkir jaqinakax folletonak lakirapx\u00e4na jan u\u00f1t\u2019ayasisa
+  kawkantix 600.000$ qullqi chura\u00f1a munapx\u00e4na kawkirinakay administradores
+  Valor por Tamaulipas ukan cuentapanak churchispa ukaruxa. Ukat jaypachatx @ValorTamaulipas
+  ukax yatiyanaw redes sociales suyt\u2019aya\u00f1a. ukampirus aka plataformanx irnaqasiskak\u00efnwa,
+  yatiyasa walja cr\u00edmenes violentos tuqinakata.\\nAka conflictox walja yatiyirinakaruw
+  asjarayawayi, juk\u2019amp narcotr\u00e1fico tuqit yatiyxa\u00f1a; Comit\u00e9 de
+  Protecci\u00f3n de Periodistas yatiyiw 2006 maratpach Mexico markanx 16 periodistanakaw
+  jiwayatapxat\u00e4na, jilpach jiwapxatanaw kawkirinakatix droga ukhamarak corrupci\u00f3n
+  tuqit yatiyirinaka. Kunjamti jiskana Dario Ramirez director general de Articulo
+  19 Mexico markanxa: violencia prensa tuqi utjatapatx Tamaulipas tuqin ukhamarak
+  jan protecci\u00f3n de libertad de expresi\u00f3n utjatapatx autoridadanakatxa janiw
+  yatiyawinaka utjxiti seguridad p\u00fablica tuqita, ukat yatiyirinakax markachirinakar
+  libremente yatiyapx\u00e4na.\\nPeriodistanak ukhamarak usuarios de los medios sociales
+  jupanakax irnaqapxiw jan juk\u2019amp yatiyasa aka yanqha jaqinakax kuntix lurkana
+  Fuentes Rubio kullakaruxa, jupanakax amukt\u2019apxiw aka tuqitxa alixkiw yatiyxapxi
+  kunanakatix callenakan paski ukanaka, ukat grupos VxTy ukhamarak Fuentes rubio,
+  jupanakax principales objetivonakaruw tukupxi narcotr\u00e1fico organizacionanakataki.\\nThe
+  accident of finding this post has brigthened my day\"", "\"N\u00fameros 5\\nJan
+  k''oma jakenacar jakonucu\u00f1 leyinacjjata\\n1Tatitojj Moisesarojj s\u00e4nwa:
+  2\u201cIsraelitanacarojj saraquim campamentota jakonucupjja\u00f1apataqui cawqu\u00efri
+  jaket\u00ef lepra usun\u00efchi, uqhamarac chhojjorasi\u00f1apatsa aywiychi, uqhamarac
+  jiwat jaken janchipa llamct''asin k''a\u00f1u tucupjje ucanacarusa. 3Uca casta jakenacarojj
+  campamentotjja ankaru jakonucupjjpan, chach\u00e4pasa, warm\u00efpasa. Uqhamatsti
+  janiw campamentoru k''a\u00f1u tucuyapcaniti, nayan uca campamenton jacascatajj
+  laycu.\u201d\\n4Israelitanacasti jaysapjjaraqu\u00efnwa cuna arunact\u00ef Tatitojj
+  Moisesaru churcatayna ucarojja, ucatsti take uca casta jakenacaruw campamentot jakonucupjj\u00e4na.\\n\u00d1ankha
+  lur\u00e4winacata toket leyinaca\\n5Tatitojj Moisesarojj s\u00e4nwa:\\n6\u201cTake
+  Israelitanacar aqham sam: Cunapachatejj cawqu\u00efri jakesa, m\u00e4 warmisa, Tatitur
+  jan suma arccani, uqhamarac cuna jan walinacsa jake masipar lurani m\u00e4 jach''a
+  jucha lurasa, 7uca jakesti juchanacapjja arsusi\u00f1apawa, uqhamarac cawqu\u00efri
+  jakerutejj uca jan wali lurqui ucarojj takpachwa cuttaya\u00f1apa, ucjjarusti chicatan
+  chicatapat m\u00e4 juc''a menost''ata yapjjata\u00f1aparaquiwa. 8Uqhamaraqui cawqu\u00efri
+  \u00f1ankha lurat jaket\u00ef jiwjje, ucat janiraqui utjcchiti cawqu\u00efri jac''a
+  familiapasa uca cuttaya\u00f1ataqui, ucapachajj uca cuttaya\u00f1ajj Tatituruw churat\u00e4jjani,
+  uqhamarac sacerdoteru, uqhamaraquiw m\u00e4 ovejampi chura\u00f1apa, sacerdoten
+  lokta\u00f1apataqui, uca jaken juchapat perd\u00f3n jicjjata\u00f1apataqui.\\n9\u201cTake
+  cawqu\u00efri ofrendanactejj israelitanacajj Tatitur ofrenda loktapcani, ucatsti
+  sacerdoteru apapjjani, take ucanacasti sacerdotetaqu\u00efniwa. 10Uqhamaraqui take
+  cunanacatejj Tatituru loktat\u00e4qui ucatsti sacerdoteruw apat\u00e4ni ucajj sacerdotetaqu\u00efniwa.\u201d\\nChacha
+  warmi celasi\u00f1 toket leyinaca\\n11Tatitojj Moisesarojj saraqu\u00efnwa:\\n12\u201cIsraelitanacarojj
+  aqham sam: Utjaquiraquispawa, m\u00e4 warmejj chachan\u00efcasin jan wali sarnakeri,
+  13ucatsti yakha chachanacampiraqui sarnakaspa, jan chachapan yatita, uqhama jupajj
+  uca k''a\u00f1u juchanac lurcchi, janiraqui testigonacas utjcchiti, ucatsti uca
+  luratapajj imantat\u00e4ni jan qhitinsa u\u00f1jata. 14Ucapachasti chachajj celaraquispawa,
+  warmipan uqham luratap laycu. Uqhamaraquiwa utjaraquispa m\u00e4 chachajj warmipar
+  celaspa jan cuna juchan\u00eftapatsa. 15Ucapachajj chachajj warmiparojj sacerdoten
+  nayr\u00e4jjaparuw irpani, ucatsti m\u00e4 ofrendjamwa warmipatjja churani, p\u00e4
+  kilo cebada jac''u, ucampis janiraquiw jac''u patjjarojj aceite ni incienso warjjatcaniti,
+  ucajj celos toketa m\u00e4 ofrend\u00e4tap laycu, uqhamarac m\u00e4 ofrenda juchanac
+  khanstaya\u00f1ataqu\u00eftap laycu.\\n16\u201cSacerdotejj warmiru jac''aparu irpcatasinjja,
+  Tatituruw u\u00f1stayani, 17ucjjarusti sacerdotejj m\u00e4 juc''a kollana uma aptasinjja
+  m\u00e4 \u00f1ek''et lurat chaturuwa uchani, ucarusti quituntaniw santuario pampat
+  aptat lak''ampi. 18Ucapacharaquiw sacerdotejj warmirojj Tatitu nayrakataru u\u00f1stayasinjja
+  \u00f1ic''utapa jararani, ucatsti amparaparojj ofrenda uchani, celasi\u00f1 toketa
+  m\u00e4 jucha khanaru u\u00f1staya\u00f1ataqui; sacerdotejj amparaparojja maldici\u00f3n
+  apanqui uca c''allc''u uma caturaquini, 19ucapachasti warmirojj m\u00e4 juramento
+  wayt''ani aqham sasa: \u2018Janitejj yakha chachampi sarnakcsta, ni chachamarusa
+  enga\u00f1caracsta, ni yakha chachampisa k''a\u00f1uchascaracsta ucapachajj, janiw
+  aca maldici\u00f3n apanir c''allc''u uma umantc\u00e4ta ucqhajj cunsa lurc\u00e4tamti.
+  20Ucampisa jumatejj chachamaru enga\u00f1sta, yakha chachanacampi sarnakaracsta,
+  uqhamata k''a\u00f1uchasisa, 21ucapachasti Tatitojj jumarojj take jakenac nayrakatana
+  maldispan, uqhamarac puracamas p''usutataracpan, wawamas puracamanjja usuchjata
+  naci\u00f1apataqui. 22Aca mutuyawiw jumarojj jutaniwa cunapachatejj uca maldicit
+  uma umt''c\u00e4ta ucapacha.\u2019 Ucatsti warmejj arsuniwa: \u2018Uqham\u00e4pan\u2019
+  sasa.\\n23\u201cUcatsti sacerdotejj uca maldicionjja m\u00e4 papelaruw kellkantani,
+  ucatsti c''allc''u umampiw phisqhuraraquini, 24ucjjarojja uca umjja warmiruw umantayani
+  jupar c''allc''u tucuya\u00f1apataqui. 25Warmin amparapatjja sacerdotejj m\u00e4
+  ofrenda celos toket catokani, Tatitur u\u00f1acht''aya\u00f1ataqui, uca ofrenda
+  apakasinjja altararuw uchjjaraquini, 26ucjjarusti m\u00e4 juc''a jac''u ofrendat
+  aptasinjja, altarjjaruwa naqhantayani, amtasi\u00f1atac m\u00e4 ofrendjama.\\n\u201cCunapachat\u00ef
+  sacerdotejj uca c''allc''u uma warmiru umantayani, 27uca warmitejj chachaparu enga\u00f1ch\u00efna
+  ucapachajj uca c''allc''u maldici\u00f3n apanir umajj wali c''allc''uw tucurapini,
+  ucatsti puracapjja p''usuntayaniwa, uqhamaraquiw wawapasa usuchjasiraquini, ucapachasti
+  warmejj take jaketaqui u\u00f1tcaya maldicitaw tucuraquini. 28Ucampisa warmitejj
+  jan cuna juchan\u00efcchi ucqhajj, janiraquiw cunas camachcaniti, ucatsti wawan\u00efscaraquiniwa.\\n29\u201cTake
+  acanacaw leyinacajja cunapachatejj m\u00e4 warmejj chachaparu salljani, uqhamarac
+  chachas celoso tucuni ucqhajja, 30jan ucajj chachaqui celoso tucuni warmip laycu
+  ucqhajja, ucapachasti chachajj warmiparojj Tatituruw u\u00f1stayani, ucatsti sacerdotew
+  lurascani cuntejj aca leyinacajj sisqui uqhamaru. 31Chachasti ucqhajj janiw jucha\u00f1chata
+  u\u00f1jascaniti, ucampisa warmitejj juchan\u00efchi ucqhajj mutuyat\u00e4niwa.\u201d\"",
+  "\"Wali aski isturyanaka Aka tuqita Cuba\\nIsturyanaka Aka tuqita Cuba\\n10 Achuqa
+  2012\\n29 Lapaka 2011\\nAka 22uru sata qallta phaxsit 2011 marat saraqkipanwa, mama
+  Karen Caballero Marti wayrn sarayiripxamax, m\u00e4 aruskip\u00e4wi wakicht\u2019atayna,uka
+  tuqinxa blogerunaka; : Yoani S\u00e1nchez, Orlando Luis Pardo...\\n11 Willka kuti
+  2011\\nUrur\u00fcru 17ni urut mara t\u2019aqa phaxsita, Consejo de Derechos Humanos
+  de las Naciones Unidas ukax m\u00e4 resoluci\u00f3n ukwa u\u00f1t\u2019ayi, \\\"jaqinakax
+  yanqhachat jisk\u2019achataw jikxatasipxi jan sexual...\\n6 Jallu qallta 2010\\n18
+  Willka kuti 2010\\nLatinoamerica ukch\u2019pachanxa , software libre satax walja
+  markanakataki, jaqinakatak askiwa, khitinakati administraci\u00f3n publica aka y\u00e4nak
+  apnaqa\u00f1 amtapk yant\u2019asiwinakan askichaw jikxata\u00f1ataki. Sa\u00f1\u00e4ni
+  Cubanxa, Software Libre sat...\\nWali askipuniw aka yatiyawixa, nayax majchu pichu
+  ukarux pur''tapuniwa.\"", "\"Isturyanaka Aka tuqita Filipino\\n18 Sata qallta 2013\\nManilanx
+  waranqa waranqa philipinonakaw tantacht\u2019asipx\u00e4na, ukatx walja markanakaw
+  Filipinanx gobiernon lunthatasi\u00f1 utjatapatx ch\u2019axwthaptawitx qhana\u00f1chata.\\n20
+  Willka kuti 2011\\nWalja culturanakanw manq\u2019anakapx cereales ukanakamp chikancht\u2019ayapxi:
+  t\u2019ant\u2019a, chapatis ukatax bollos al vapor satak ukanakax uraqpachan manq\u2019\u00e4wipawa.
+  Jichhurux y\u00e4nak luririnakar manq\u2019a phayirinakaruw jikxta\u00f1ani, kunjams
+  wakt\u2019ayapxi, ukatx...\\nHoy se recuerda d\u00eda Internacional de Lengua Materna,
+  es verdad que muy pocas lenguas est\u00e1n...\"", "\"Jaylli, akax chuyma manqhat
+  jutir arunakawa.\\nJaylli jan ukasti way\u00f1u ukham sutimp u\u00f1t\u2019atarakiwa.
+  Aka jayllinakax uywanakaru, ukhamarak manq\u2019a\u00f1 juyranakar jayllitawa. Ukhamaraki,
+  aka jayllinakax yapupachan jayllisirakiritayna, juk\u2019ampis nayra u\u00f1st juyranakaru
+  ukhamarak machaq ch\u2019uqi achuruw jayllipxiritayna.\\nJichh\u00fcrunakkamas (2019)
+  way\u00f1ux way\u00f1utakiskiwa, juk\u2019ampis cumbias sutin jayllinakaruw tukuwayxaraki.
+  Ukhamaraki, walja kunayman phusirinakarakiw jichh\u00fcrkamas phusasipki, jayllisipki.\\nJaylli\u00f1ax
+  janiw mayakikiti, jan ukasti, kunayman wanka\u00f1anakaw utji.\\n- Jaylli\\n- Waruru\u00f1a\\n-
+  Wayllani\\n- Q''uchu\\n- Wanka\\n- \u2191 Layme Pairumani Felix (2004). Diccionario
+  Bilingu\u00eb: aymara-castellano. CEA. El Alto\"", "\"Isturyanaka Aka tuqita Tailandia\\n27
+  Anata 2014\\n16 Achuqa 2013\\nWilltataw Sukhumbhand Paribatranakax chijllat u\u00f1jasiwayapxi
+  Bangkok mark apnaka\u00f1ataki, kunati nayrurunakax atipt''ayasipxaniw sasaw sapx\u00e4na,
+  ukat janiw ukar phuqhaskiti.\\n13 Lakan phaxsi/llumpaqa 2012\\nUraqpachan khawkha
+  chiqankpasaya, qhathux kunayman saminakaniw apasiski. Salvador, Mexico, India, Indonesia
+  ukat Tailandia uka markanakan qhathunakapan jamuqanak vidieonak u\u00f1jt''as chikancht''asinipxama.\\n29
+  Jallu qallta 2011\\nPhisqa tunk maran Thailand chijinakat jiwatanakax phisqa patak
+  jilanakaruw puriwayi. Jil\u00efr irpirinakax jan walt''\u00e4winakat p\u00e4 tunk
+  phisqan provincia-w t''aqhisisipkaki sasaw sapx\u00e4na. M\u00e4 waranq jil phamillaw...\\nJilata
+  Manzano, yuspajarpun uka aru qillqt''anitamata, kawkha markats qillqt''anta. Jumatak
+  m\u00e4 jach''a arunt\u00e4wi\\nYuspaqara,,,jichhax akat aruskip\u00e4w qillaqasinja...aksa
+  tuqu markata..\"", "\"Autora: Rosario Aqu\u00edm Traducci\u00f3n al aymara: Calixta
+  Choque Churata\\nUka qullu jilstata makati pataru, u\u00f1asiwa \u00fckha lawat
+  lurata kurusanaka. Niya 40 tunkata niya 50 tunkakama tumbanaka, qutuki lip\u2019katata
+  m\u00e4 laqh\u00e4na; m\u00e4 mallqa niya 600 metros manqhakama. U\u00f1katasipana
+  jiqhatasiwa qhana kusiska\u00f1a irananaka chhaqhaski khuri ch\u2019ux\u00f1a azul,
+  u\u00f1ta purki ukakama jayp\u2019una, uka jan sutin kurusanakaxa tantiyasiwa kuna
+  jan wali laq\u2019unakaru amparanakapasa jist\u2019arata, kuna qhisphiyanaksa maykapxaspa
+  ukhama. Ukatxa uka wali u\u00f1t\u2019at thakhinxa \u201cjiwa\u00f1 thakhinxa\u201d,
+  jiqhatayki ciudad La Pasampi Coroicumpi, ina ukhamanakakiwa, m\u00e4 amta jan historiani,
+  ch\u2019usa sepulturanaka, jan panqaraninaka, jan testigunakani.\\nUka jaqinakaxa
+  jiwapxanawa kunarsatixa jiwkatana Cristuxa, inasa kuna amtanichi kunatixa aka thakhixa
+  luratatapawa wilampi, jump\u2019impi, jachampi waranqa waranqanakawa Paraguay prisionirunakampi,
+  Guerra del Chaco ukakip\u00e4na. Ukatxay pataka pataka jaka\u00f1 wiranaka jaqtatachitpaxa
+  warankhanakapana.\\n\u2013 Nayaxa sismawa jan viajamti, kunatixa uka ruxa sagraduchixaya.
+  Ukuruxa Jesusaruwa kumpa\u00f1t\u2019a\u00f1a calvariyuparu. Invitayasmawa Villa
+  Armoniaru, ukhamata panpaxa sarasnana Se\u00f1or de la Sentencia marcata estacionanakapa.
+  Uka Cristo milagro luriri, lurkana escultor Felipe Morales Nieto Sevillan qamiri,
+  wi\u00f1ayataki maderat lurata, jan kamachkiri, \u00f1achantata, uka chaqanpuni,
+  kunarsatixa m\u00e4 sanedrita jud\u00edo liyt\u2019ana sentenciapa.\\nUkatxa, jumaxa,
+  janiwa ist\u2019istati, janipiniwa ist\u2019iriktati kuna iwxsa, churkayatma aka
+  awichuxa.\\nAutuxa sartawiyanawa La Pasata, Carmen Pampa tuqiru. M\u00e4 asiruru
+  u\u00f1tata thakhiwa sarant\u00e4na qullunak\u00e4ma, saraskanawa sumjata quqa qullu
+  taypinakama, mawk\u2019i tanthaptasa, niya Yungas manqharu mantaskasina. Yungasaxa
+  u\u00f1t\u2019atawa m\u00e4 ch\u2019arana manqhajama, urpuntata ukhamaraki wali
+  jalluni, kawkhantixa junthaptasipxi ch\u2019ux\u00f1a irananaka warankhanakampi,
+  ukhamaraki quqa ch\u2019amakhanakampi, kunamatix m\u00e4 jan u\u00f1t\u2019at pintir
+  jaqixa lur\u00e4na uka Cordillera Oriental Los Andes tuqita ukatxa past\u2019ayana
+  khaysa cuenca de Amazonia tuqiru.\\nThakhixa k\u2019ullk\u2019uptiwa ukataqi, yaqhip
+  chaqanakax\u00e4 u\u00f1tasiwa balconcillunakaru wayllunk\u2019iskirinakaru uka
+  urpu ch\u2019amakt\u2019atanakana, kawkhantixa phaxchantanaka jawiranaka saraqi
+  qullunakata, saraqi chhankt\u2019asa lajatanaka uka thanqha uma amparanakapampi,
+  kawkitt\u00ef umapki ch\u2019iyara helechonaka ukhamaraki Orqu\u00eddianaka, u\u00f1stanita
+  jaya uraqi manqhita, ukatxa imantasi asxarasisa uka qala manqhinakana.\\nAutuxa
+  past\u2019awiyiwa qhuthutt\u2019asisa, qulluru lip\u2019katasa, ukatxa sinti k\u2019ullk\u2019unakakanxa,
+  kawkhantixa Yungasan liyipaxa saraski, ch\u2019iqa tuqiruwa sarti aynachat jutkchi
+  ukaxa, jichhaxa sarakchi araxata ukaxa wakt\u2019iwa warankha tuqiru. Janiwa khithisa
+  mawk\u2019a chhaqtayaskaspati, kunarsatixa sarata m\u00e4 awtjata jach\u2019a lakjama
+  laqh\u00e4ru, janira mawk\u2019an puri\u00f1jamawa jan waliru. Ukxarusti janiw ukakikiti,
+  uka link\u2019u link\u2019unaka imantasirjamanakawa anati, ukatxa sapa muytana \u201csupaya
+  thakhixa\u201d suyiwa jan yatiyasa.\\nAutuxa jiqhatasiwa, janir maratuna jaqha apuratampi;
+  jitkatasina sayt\u2019asi warankha laqharu, niyasa ukuruxa janiwa jiwa\u00f1axa
+  vacacionankanti. Uka jatupa sartasiri chuferaxa autu jank\u2019akiwa tuqtayi, jan
+  munkasina jach\u2019a bus ukaru nukti thiyaru, janir maratun jaqhunti pachpa jan
+  wali manqhiru. Muyumpi, muyumpi, muyumpiwa; ukhama sarasinxa, m\u00e4 taykaxa ventanata
+  jaqsu wawaparu jiwa\u00f1a yatisina, ch\u2019umi taypiru.\\nAutuxa qurumiskakinawa
+  600 metros manqhikama. Janiwa niya maynisa jakkirixa uthanti 50 pasajirunakapata,
+  uka jaqtat ch\u2019umi taypiru wawakiwa jakana.\\n\u2013 Nayaxa sistwa jan viajamti,
+  uka thakhixa supayankiwa sasina, jani puriyamti jan waliru distunuma. Nayaxa sismawa
+  jan saramti, uka uruxa sagraduwa.\\nUka tumbanakaxa ch\u2019usakiwa, uka urpu ch\u2019amakhana,
+  uka kurusanakaxa janiwa sutinakanikiti, ajanunakapax\u00e4 tukusxiwa laq\u2019aru.\\n\u2013
+  Sarsmawa thaqhiri murgueru, uka cuerpunaka qutuna, ukatxa janiwa ukankayatati \u00a1Janiw
+  nayaxa siristi kunatsa ukhama jan uthiti ma suma u\u00f1aqata jiwatanakasaxa! Willtata
+  ch\u2019u\u00f1ula pamparu, q\u2019alalunakaki jan kunampi tapt\u2019ata. Janiw
+  kunaxapxisa, chuymasana, tumba ch\u2019amakhat sipansa! Ukatxa sartwa thaqhiri wawamaru,
+  ukatwa tijta jumakaru, ukatxa janiwa jiqhatti sutima, janiwa ajanuma tantiyxti,
+  ukatxa janiwa sisxsmati jikisi\u00f1kama. Ukatxa sapuruwa watjtasta aka ch\u2019amakha
+  utana, amayusina uka llakixa phuqhaki akana. Ukata aka luzax\u00e4 nayra ch\u2019amakt\u2019aya\u00f1a
+  munitu, ukatxa aka jakirinakax\u00e4 qariyapxitu, phixtupxitu risunakapampi, ukatxa
+  janiwa siristi Se\u00f1or de la Senteciati jan ukasti Cristu milagro luriricha,
+  qhisphiytma accidentita, ukatxa ukampisktacha gloriapana, jan ukast\u00ef taqi aka
+  jiwatanaka velapkitu sapa aruma, amayuxankakich\u00e4, u\u00f1asinipki urunakax\u00e4na,
+  jan walt\u2019ayapxiti ch\u2019akhanakaxaru.\\nAnqax\u00e4na wayraxa wayri amuki
+  acerakama. Ukatxa ch\u2019iyara olivo urpuxa wasitata purxati awichun qarit nayranakaru,
+  ukatxa enfermeraxa chhaxrsi plateado \u00f1ak\u2019utapa, khaya warankhana \u201cjiwa\u00f1a
+  thakhina\u201d, uka wasa tumbanakakana, jiliwa ch\u2019iyara orqu\u00eddeanaka,
+  ukatxa m\u00e4 qala ch\u2019akhuntatanxa jan asxariri warankharu, sapxiwa jaqixa
+  u\u00f1jata Cristo Milagrusuna juch\u2019usa ukhamaraki llakita ajanupa, ukasti
+  Se\u00f1or de la Sentencia.\\nCamino a Yungas\\nAutora: Rosario Aqu\u00edm\\nEn
+  la cumbre escapada que se eleva hacia la altura, se divisa un pu\u00f1ado de cruces
+  de madera. Unas 40 o 50 tumbas api\u00f1adas se aferran sobre el borde de un precipicio;
+  una garganta profunda de m\u00e1s de 600 metros. Contra las iluminadas serran\u00edas
+  que cabalgan alegres hacia el horizonte verde-azulado de la tarde, las cruces an\u00f3nimas
+  semejan fantasmas ansiosos de brazos extendidos que imploran clemencia. Y, a la
+  vera del famoso \u201ccamino de la muerte\u201d, que une la ciudad de La Paz con
+  el poblado de Coroico, son apenas la evocaci\u00f3n, el s\u00edmbolo sin historia
+  de sepulturas vac\u00edas, sin flores y sin testigos.\\nEstas personas murieron,
+  el d\u00eda que muri\u00f3 Cristo, quiz\u00e1 tenga alg\u00fan sentido, el hecho
+  de que esta ruta, fue construida con sangre, sudor y l\u00e1grimas de miles de prisioneros
+  paraguayos, durante la guerra del Chaco. De ah\u00ed, que cientos de vidas se queden
+  entre sus riscos.\\n\u2014Yo te dije que no viajes, porque ese d\u00eda es sagrado.
+  Ese d\u00eda se acompa\u00f1a a Jes\u00fas en su calvario. Te invit\u00e9 a Villa
+  Armon\u00eda, para que juntas, recorri\u00e9ramos las estaciones marcadas del Se\u00f1or
+  de la Sentencia. Ese Cristo milagroso que el escultor sevillano Felipe Morales Nieto
+  eternizara en madera, indefenso y maniatado, en el momento preciso, en que un sanedrita
+  jud\u00edo, le le\u00eda su sentencia. Pero, t\u00fa, no me escuchaste, nunca escuchaste
+  el consejo, que te dio esta pobre vieja.\\nEl bus parti\u00f3 de La Paz, con destino
+  a Carmen Pampa. Una serpiente de asfalto se desliza entre monta\u00f1as, va descendiendo
+  sin prisa entre los cerros boscosos, estrech\u00e1ndose poco a poco, conforme se
+  va internando en la espesura del Yungas. Los Yungas, es una regi\u00f3n que se caracteriza,
+  por ser una zona h\u00fameda, con niebla y abundante lluvia, donde se mezclan verdes
+  laderas, precipicios y una exuberante vegetaci\u00f3n, que como un extra\u00f1o
+  pintor, va delineando inconsciente, el paso tan radical de la cordillera oriental
+  de los Andes hacia la cuenca amaz\u00f3nica.\\nLa ruta se estrecha tanto, que hay
+  lugares tan angostos, que semejan balconcillos columpi\u00e1ndose en el aire, en
+  el neblinoso abismo, donde cascadas y r\u00edos, se descuelgan desde el cerro y
+  pasan acariciando las grietas, con sus torpes manos de agua, de la que beben sedientos
+  helechos y orqu\u00eddeas negras, que nacen desde lo profundo de la tierra, que
+  se oculta temerosa entre las piedras.\\nEl bus pasa ronroneando, bien pegadito al
+  cerro, y en las partes m\u00e1s angostas, donde rige la ley de los Yungas, se apea
+  hacia la izquierda si es que viene subiendo, y si es que viene bajando, le toca
+  al borde del acantilado. Ni como se distraiga nadie, porque cuando vas al borde
+  de una enorme boca hambrienta, te arriesgas a la fatalidad que trae cualquier descuido.
+  Y por si eso fuera poco, las curvas y contra curvas juegan al escondite, y a la
+  vuelta de cada codo \u201cel diablo de los caminos\u201d asecha sin previo aviso.\\nEl
+  bus, se encuentra de pronto, con otro que lleva prisa; se arrincona, se acomoda,
+  sobre el borde del despe\u00f1adero, pero la muerte ese d\u00eda, no estaba de vacaciones.
+  El apresurado chofer acelera, y sin querer, empuja al bus de la orilla, y en menos
+  de un santiam\u00e9n, lo manda hacia el mismo infierno. Rueda, rueda y rueda; pero
+  en su incesante ca\u00edda, una madre desesperada, que sabe que va a morir, rompe
+  el vidrio de la ventana, y en un segundo de lucidez, lanza su ni\u00f1o hacia fuera,
+  entre el enmara\u00f1ado follaje. El carro sigue cayendo 600 metros al fondo. No
+  quedan sobrevivientes, de los 50 viajeros, solo el ni\u00f1o que cay\u00f3, en los
+  brazos de la arboleda.\\n\u2014Yo te dije que no viajes, que ese camino es del diablo,
+  que no arriesgues tu destino. Yo te dije que no vayas, que ese es un d\u00eda sagrado.\\nLas
+  tumbas est\u00e1n vac\u00edas, entre la densa neblina, las cruces no tienen nombres,
+  los rostros se han vuelto polvo.\\n\u2014Y fui a buscarte a la morgue, entre una
+  monta\u00f1a de cuerpos, pero no estabas all\u00ed. \u00a1Yo no puedo comprender,
+  porque tanta desconsideraci\u00f3n con nuestros muertos! Tirados sobre el suelo
+  fr\u00edo, desnudos y sin cobijo. Se vuelven nada, m\u00e1s pronto en nuestro coraz\u00f3n,
+  que en la oscuridad de la tumba! Y fui a buscar a tu hijo y, corr\u00ed tras de
+  tu espectro, pero no encontr\u00e9 tu nombre, no reconoc\u00ed tu rostro, no pude,
+  decirte, adi\u00f3s. Y cada d\u00eda despierto, en este cuarto sombr\u00edo, sintiendo
+  que la pesadilla, se apropia de la realidad, y esta luz que me enceguece, y estos
+  seres que me agobian, me confunden con sus rezos, y no puedo distinguir, si el Se\u00f1or
+  de la Sentencia, ese Cristo milagroso, te salv\u00f3 del accidente, si te tiene
+  all\u00ed en su glor\u00eda, o si todos estos muertos que me velan cada noche, son
+  creaturas de mi mente, que aparecen en mis d\u00edas, atormentando mis huesos.\\nAfuera
+  la brisa corre por la silenciosa acera. Y mientras la nube espesa del olvido vuelve
+  a caer sobre los ojos cansados de la abuela, y la enfermera le peina su plateada
+  cabellera, all\u00e1 en el risco empinado, del \u201ccamino de la muerte\u201d,
+  sobre las tumbas desiertas, han crecido orqu\u00eddeas negras y, sobre una piedra
+  incrustada que desaf\u00eda el abismo, dice la gente que ha visto, el rostro p\u00e1lido
+  y triste de ese Cristo Milagro, el Se\u00f1or de la Sentencia.\"", "\"Organizaci\u00f3n
+  de las Naciones Unidas Yatichawitaki, Ciencia ukhamarak Cultura (UNESCO) ukax m\u00e4
+  Atla u\u00f1t''ayi 2.500 aru jan walt''a\u00f1ankir apthapi. UNESCO ukakipkarakiw
+  jichhurunx 6.000 arsut aru, chikatpachw jutir siglo qalltatakix chhaqtatajaspa:\\nCon
+  la desaparici\u00f3n de las lenguas no escritas y no documentadas, la humanidad
+  no s\u00f3lo perder\u00eda una gran riqueza cultural, sino tambi\u00e9n conocimientos
+  ancestrales contenidos, en particular, en las lenguas ind\u00edgenas.\\nAka arunakax
+  jank''a p''arxtaw muni. Walja markanakanx juk''a arst''irinakakiw utxi. Walja arunakaw
+  chhaqtirjamaski. Ukhamakipansti aka markanaktx utjarakiw kipka arup yatiya\u00f1
+  munir jaqinakaxa. Medios ciudadanos, web 2.0, blogs, Twitter, Facebook ukat medios
+  digitales uka tuqinak apnaqasin u\u00f1t''ayapxi, aka jaqinakax markanakan aka arunakar
+  juk''at u\u00f1t''ayasipki.\\nAkham amtaIndigenous Tweets and Blogs [Tweets ukat
+  Blogs Ind\u00edgenas sat sutinchata; en] indijina aru apnaqirinakaruw u\u00f1t''ayasipki,
+  maynimp maynimp u\u00f1t''asisina, ukat kuna luraws lurasipkta sasin jiskt''asisa.
+  Ukhamakipansti medios digitales ukat web 2.0 uka apnaqaw tuqiw aka arunakar qhisphiya\u00f1ataki,
+  sarantaya\u00f1ataki u\u00f1t''ayasiski. P''iqinchir wayn tawaqunakaxa, (jaqinakarux
+  p\u00e4 kasta saraw apthapsna sasin sapxi) l\u00ednea tuqin aka arunakar u\u00f1t''aya\u00f1ataki.\\nAka
+  linea aruskipawin chikancht''asinipxam ukhamarak yaqha yatxatat amuyunaks u\u00f1t''ayanipxam
+  yaqha amtanakax medios ciudadanos ukatx web.2.0 ukanak apnaqapxi arunakar linea
+  tuqin ch''amancha\u00f1ataki!\\n* subrepresentadas arunakax computacion ukhamarak
+  machaq medios tuqin juk''a apnaqatak ukaruw u\u00f1anchayi. Akanak tuqitx walja
+  jisk''a markanakaw juk''a arup arsurinik jikjatasipxi, ukatx jan walt''awinkapxiwa,
+  ukampirus linea tuqiw arunakap jan chhaqahaya\u00f1atak u\u00f1t''ayapxi.\\nAsxara\u00f1jamaw
+  ukhamp aynacht''\u00e4winakaxa.\\nChiqpachans wali llakiskay urunakpun uka jila
+  kullakanakax pasawayapxi. Janik mayamp ukham utjaspat kawkins ampi!!\"", "\"Munapxitaw
+  Daniel Quinteros, Tarapac\u00e1 markanaka wakipresidencial ukanaka, Consejo Regional
+  de Seguridad P\u00fablica janiwa u\u00f1t\u2019atatakixaqui. Jiw\u00f1ati\u00f1
+  munakasa\u00f1apataki, janiw pachakunaka institucionaxa kisichirinakaraki\u00f1a
+  markanaka janiwa, ch\u2019ama\u00f1apxi\u00f1a munaspa, coordinaci\u00f3n, organizaci\u00f3n
+  janiwa planificaci\u00f3n markanakaraki jach\u2019a jatunaka seguridad muna\u00f1aspa.\\nQuinteros
+  uka jan yatiri jach\u2019a munapxi\u00f1a Consejo janiwa, ukhampixaqui m\u00e4 janiwa
+  m\u00e4 qhana\u00f1a markaspa, kullakaspa, markana\u00f1a markanaka, janiwa serviciox
+  jach\u2019a m\u00e4 qhana\u00f1a markanakaraki. \u201cJaniwa utjawi ch\u2019amt\u2019anakaxaqui\u00f1a,
+  coordinaci\u00f3n, organizaci\u00f3n janiwa planificaci\u00f3n m\u00e4 janiw m\u00e4
+  jatunaka trabajo m\u00e4 qhana\u00f1a ch\u2019ama\u00f1apa ch\u2019ama\u00f1apxi\u00f1a,
+  munakasa\u00f1apataki\u00f1 munakasa\u00f1apataki\u00f1 \u00f1ak\u2019anaka\u201d,
+  janiwa wakipresidencial ukanaka.\\nJatunaka janiwa, munakasa\u00f1apataki\u00f1wa
+  janiw ch\u2019ama\u00f1apxi\u00f1a ch\u2019ama\u00f1apa\u00f1aspa, m\u00e4 janiwa
+  munapxi\u00f1 m\u00e4 qhana\u00f1a ch\u2019ama\u00f1apxi\u00f1 janiw jatunaka m\u00e4
+  qhana\u00f1a. \u201cM\u00e4 qhana\u00f1a\u00f1aspa munapxi\u00f1 jiw\u00e4\u00f1atakiniwa,
+  munakasa\u00f1apataki\u00f1 ch\u2019ama\u00f1apxi\u00f1 m\u00e4 qhana\u00f1a wakitakisphapa\u00f1atakixaqui,
+  kama jach\u2019aw\u00e4ni, aqharaki uka\u00f1a m\u00e4 qhana\u00f1a kama u\u00f1t\u2019atata
+  m\u00e4 janiwa m\u00e4 kullakajja\u00f1a\u00f1atakata\u201d, janiwa Quinteros.\\nJach\u2019a
+  kallpanaka, jiw\u00e4\u00f1atakiniwa, markana\u00f1a m\u00e4 qhana\u00f1a, markaspa,
+  k\u2019icharaki, ukanaka m\u00e4 qhana\u00f1a ch\u2019ama\u00f1apa ch\u2019ama\u00f1apxi\u00f1ap
+  janiwa kama jatunaka markana\u00f1a. Uka quimsa k\u2019ichara, utjawi\u00f1atakiwa
+  janiwa, qullqi\u00f1atakiwa janiwa m\u00e4 qhana\u00f1a jach\u2019a qhana\u00f1a
+  m\u00e4 qhana\u00f1a, kullakajjatakiwa, jach\u2019a jatunakapatakiwa.\\nQuinteros
+  jach\u2019a Consejo Regional de Seguridad P\u00fablica janiwa, marka jatunakaraki\u00f1a,
+  uka m\u00e4 janiwa markana\u00f1a, ukhampixa\u00f1atakara m\u00e4 janiwa markaspa,
+  ch\u2019ama\u00f1apa m\u00e4 qhana\u00f1a janiwa markanaka jach\u2019a jatunakaraki\u00f1a
+  m\u00e4 jach\u2019a kallpanaka.\"", "\"La Paz, 9 Mayo \u2014 Departamento de La
+  Paz suyu Pacajes marka Jayuma Llallagua sata tuqinxa nayra maranakatpachawa jayu
+  lura\u00f1a yatipxi. Aka tuqinxa umaxa m\u00e4 chiqanxa wali k\u2019arawa ukawjatawa
+  jayuxa apsuta.\\nAka tuqina qamasirinakaxa jayu lura\u00f1atakixa nayraqataxa uka
+  k\u2019ara uma tanthapipxi ukharuxa, suma janq\u2019uki jayuxa wa\u00f1t\u2019a\u00f1apatakixa,
+  k\u2019acha\u00f1atawa uka juri uma k\u2019ilapta\u00f1apkama pachpa umapi jarst\u2019apxi,
+  ukhama jarsusinxa uma ch\u2019umsu\u00f1apatakixa m\u00e4 chiqarukiwa thamthapipxi.
+  Ukhatxa moldes satakisa ukaru tupt\u2019asinwa niya kimsa phaxsinakawa lup\u00ecru
+  uskt\u2019apxi sumana wa\u00f1t\u2019asina tikt\u2019a\u00f1apataki.\\nJilata Francisco
+  Rojas Yujra jupaxa jiliri mallku ukhamawa marka Jayuma Llallagua tuqina. Jupaxa
+  qhananchawayiwa aka urunakamaxa uka jayuxa Chukiagu markana ukhamaraki Beni tuqina
+  uka walja waka uywanaka uywirinakaru alxatatapa.\\nUkampisa Francisco Rojas Yujra
+  jilataxa irpirjamaxa mayiwayiwa aka jayu alxa\u00f1atakixa kunaymana qhathunaka
+  utja\u00f1apataki markasana irpirinakaxa yanapt\u2019apxa\u00f1apa.\\nMary Tuco
+  / EAN Aymara\""]'
+src_ngrams: '{"1": [[["m\u00e4"], 35830], [["de"], 34722], [["jan"], 33725], [["uka"],
+  29842], [["a"], 29650]], "2": [[["chimp askicha\u00f1a"], 7616], [["jan walt"],
+  5193], [["central aymara"], 3995], [["jan ukax"], 3785], [["aka tuqita"], 3338]],
+  "3": [[["isturyanaka aka tuqita"], 2932], [["may may markanakatpach"], 968], [["wali
+  askipuniw uraqpachan"], 967], [["uraqpachan ukham may"], 967], [["ukham may may"],
+  967]], "4": [[["wali askipuniw uraqpachan ukham"], 967], [["uraqpachan ukham may
+  may"], 967], [["ukham may may markanakatpach"], 967], [["trabajar sin importar las"],
+  967], [["sin importar las fronteras"], 967]], "5": [[["wali askipuniw uraqpachan
+  ukham may"], 967], [["uraqpachan ukham may may markanakatpach"], 967], [["ukham
+  may may markanakatpach irnqt"], 967], [["trabajar sin importar las fronteras"],
+  967], [["muy interesante trabajar sin importar"], 967]]}'

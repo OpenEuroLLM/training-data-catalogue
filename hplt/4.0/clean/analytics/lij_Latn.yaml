@@ -1,0 +1,2291 @@
+corpus: hplt-v4-lij
+srclang: lij
+timestamp: 1789049973.4909077
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2023-14", 974], ["CC-MAIN-2014-15", 462], ["CC-MAIN-2023-23",
+  416], ["CC-MAIN-2024-51", 342], ["CC-MAIN-2023-40", 290], ["CC-MAIN-2024-46", 249],
+  ["CC-MAIN-2020-05", 247], ["CC-MAIN-2020-40", 232], ["CC-MAIN-2025-18", 203], ["CC-MAIN-2020-29",
+  113], ["CC-MAIN-2025-26", 110], ["CC-MAIN-2021-21", 101], ["CC-MAIN-2020-10", 100],
+  ["CC-MAIN-2022-21", 98], ["CC-MAIN-2017-26", 98], ["CC-MAIN-2022-05", 97], ["CC-MAIN-2020-45",
+  95], ["CC-MAIN-2018-05", 92], ["CC-MAIN-2025-08", 91], ["CC-MAIN-2020-24", 89],
+  ["CC-MAIN-2021-43", 82], ["CC-MAIN-2025-30", 79], ["CC-MAIN-2025-13", 79], ["CC-MAIN-2023-50",
+  77], ["CC-MAIN-2017-51", 77], ["CC-MAIN-2018-39", 75], ["wide00002", 72], ["CC-MAIN-2024-18",
+  71], ["CC-MAIN-2022-27", 71], ["CC-MAIN-2021-39", 68], ["CC-MAIN-2021-49", 67],
+  ["CC-MAIN-2021-25", 67], ["CC-MAIN-2024-10", 63], ["CC-MAIN-2021-31", 62], ["CC-MAIN-2018-22",
+  60], ["CC-MAIN-2025-33", 59], ["CC-MAIN-2024-42", 59], ["CC-MAIN-2020-50", 58],
+  ["CC-MAIN-2023-06", 54], ["CC-MAIN-2025-05", 53], ["CC-MAIN-2021-17", 50], ["CC-MAIN-2021-10",
+  48], ["CC-MAIN-2020-34", 48], ["CC-MAIN-2025-21", 47], ["CC-MAIN-2024-38", 47],
+  ["CC-MAIN-2018-34", 45], ["CC-MAIN-2020-16", 44], ["CC-MAIN-2024-26", 43], ["CC-MAIN-2022-40",
+  42], ["CC-MAIN-2019-04", 42], ["CC-MAIN-2024-22", 41], ["CC-MAIN-2022-49", 38],
+  ["CC-MAIN-2024-33", 37], ["CC-MAIN-2024-30", 37], ["CC-MAIN-2022-33", 37], ["archivebot",
+  29], ["wide00005", 26], ["CC-MAIN-2021-04", 26], ["CC-MAIN-2018-43", 22], ["CC-MAIN-2017-04",
+  21], ["wide00011", 20], ["wide00015", 17], ["wide00016", 15], ["wide00012", 12],
+  ["CC-MAIN-2015-11", 10], ["CC-MAIN-2014-35", 10], ["CC-MAIN-2016-30", 9], ["wide00006",
+  8], ["CC-MAIN-2016-44", 8], ["CC-MAIN-2015-48", 6], ["wide00010", 3], ["CC-MAIN-2014-42",
+  3], ["CC-MAIN-2016-40", 2], ["wide00017", 1]]'
+docs_langs: '[[0.2, 26], [0.3, 113], [0.4, 293], [0.5, 592], [0.6, 792], [0.7, 1186],
+  [0.8, 1632], [0.9, 1082], [1.0, 1030]]'
+docs_segments: '[[1, 43], [2, 154], [3, 164], [4, 221], [5, 253], [6, 283], [7, 275],
+  [8, 253], [9, 221], [10, 229], [11, 201], [12, 157], [13, 156], [14, 158], [15,
+  280], [16, 183], [17, 161], [18, 209], [19, 115], [20, 126], [21, 133], [22, 105],
+  [23, 101], [24, 111], [25, 126], [26, 104], [27, 135], [28, 111], [29, 56], [30,
+  62], [31, 119], [32, 45], [33, 89], [34, 84], [35, 55], [36, 67], [37, 160], [38,
+  41], [39, 153], [40, 24], [41, 45], [42, 25], [43, 20], [44, 18], [45, 23], [46,
+  19], [47, 21], [48, 20], [49, 16], [50, 18], [51, 16], [52, 9], [53, 10], [54, 21],
+  [55, 17], [56, 10], [57, 16], [58, 17], [59, 12], [60, 10], [61, 9], [62, 8], [63,
+  17], [64, 27], [65, 12], [66, 46], [67, 8], [68, 13], [69, 7], [70, 8], [71, 6],
+  [72, 11], [73, 9], [74, 11], [75, 5], [76, 3], [77, 5], [78, 8], [79, 8], [80, 6],
+  [81, 7], [82, 7], [83, 6], [84, 5], [85, 2], [86, 3], [87, 6], [88, 3], [89, 8],
+  [90, 6], [91, 3], [92, 2], [93, 1], [94, 8], [95, 5], [96, 3], [97, 4], [98, 6],
+  [99, 2], [100, 3], [101, 3], [102, 3], [103, 7], [104, 4], [105, 4], [106, 3], [107,
+  1], [109, 3], [110, 1], [111, 1], [113, 3], [114, 2], [115, 2], [116, 2], [117,
+  1], [118, 2], [119, 3], [120, 3], [121, 3], [122, 4], [124, 4], [126, 1], [127,
+  1], [128, 2], [129, 1], [130, 6], [131, 2], [132, 4], [133, 1], [135, 2], [136,
+  3], [137, 4], [138, 5], [139, 1], [140, 2], [141, 2], [142, 1], [143, 3], [144,
+  2], [145, 4], [146, 2], [147, 3], [148, 1], [149, 1], [150, 2], [151, 1], [152,
+  1], [153, 1], [154, 2], [155, 1], [156, 3], [157, 2], [159, 1], [160, 1], [161,
+  1], [162, 1], [163, 2], [164, 1], [165, 2], [166, 1], [167, 1], [169, 1], [170,
+  1], [171, 4], [173, 1], [176, 1], [177, 1], [179, 3], [180, 1], [181, 1], [182,
+  1], [183, 2], [184, 2], [185, 4], [187, 1], [188, 1], [192, 2], [194, 3], [195,
+  1], [197, 1], [199, 2], [201, 1], [202, 1], [203, 1], [204, 1], [206, 2], [207,
+  1], [208, 2], [209, 1], [212, 3], [218, 3], [219, 1], [220, 1], [221, 1], [222,
+  1], [225, 1], [226, 1], [227, 2], [228, 1], [229, 1], [230, 2], [231, 1], [234,
+  1], [235, 1], [240, 3], [241, 1], [245, 1], [246, 1], [249, 3], [250, 1], [251,
+  1], [254, 2], [255, 2], [257, 3], [258, 1], [263, 1], [264, 2], [266, 1], [271,
+  1], [280, 1], [283, 1], [286, 1], [287, 1], [289, 2], [297, 1], [298, 1], [302,
+  1], [307, 1], [313, 1], [315, 1], [320, 1], [321, 2], [324, 1], [330, 1], [331,
+  1], [332, 2], [334, 1], [335, 1], [337, 1], [343, 1], [346, 1], [347, 1], [348,
+  1], [350, 1], [352, 1], [357, 1], [358, 1], [359, 1], [362, 1], [366, 1], [374,
+  1], [377, 1], [379, 3], [383, 1], [386, 1], [387, 1], [390, 1], [392, 1], [398,
+  2], [412, 1], [429, 1], [444, 1], [446, 2], [448, 1], [457, 1], [458, 1], [469,
+  2], [480, 1], [487, 1], [526, 1], [533, 1], [562, 1], [568, 1], [574, 1], [578,
+  1], [581, 1], [610, 1], [612, 1], [641, 1], [682, 1], [700, 1], [716, 1], [728,
+  1], [735, 1], [740, 1], [761, 1], [785, 1], [789, 1], [792, 1], [821, 1], [833,
+  1], [835, 1], [842, 1], [878, 1], [880, 1], [891, 1], [893, 1], [909, 1], [959,
+  2], [965, 1], [993, 1], [1002, 1], [1019, 1], [1029, 1], [1041, 1], [1049, 1], [1055,
+  1], [1076, 1], [1094, 1], [1109, 1], [1119, 1], [1128, 1], [1163, 1], [1174, 1],
+  [1194, 1], [1205, 1], [1233, 1], [1316, 1], [1325, 1], [1365, 1], [1379, 1], [1415,
+  1], [1426, 1], [1522, 1], [1565, 1], [1691, 1], [1757, 1]]'
+docs_segments_mean: 37
+docs_segments_median: 17
+docs_top100_domains: '[["wikisource.org", 2933], ["wikipedia.org", 2655], ["ostafi.net",
+  126], ["ilsecoloxix.it", 116], ["primocanale.it", 103], ["francobampi.it", 100],
+  ["conseggio-ligure.org", 77], ["zhitov.com", 56], ["lunaio.org", 34], ["genovapress.com",
+  28], ["acompagna.org", 27], ["tigullionews.com", 23], ["tiscali.it", 19], ["mozilla.org",
+  19], ["diazilla.com", 18], ["chelinse.org", 17], ["cumpagniadiventemigliusi.it",
+  16], ["wikiplanet.click", 12], ["blogspot.com", 12], ["monacomatin.mc", 11], ["interfree.it",
+  11], ["sbiro.eu", 10], ["libero.it", 8], ["classicistranieri.com", 8], ["wikimedia.org",
+  7], ["justsomelyrics.com", 7], ["lattetigullio.it", 6], ["gazzarra.org", 6], ["bordighera.net",
+  6], ["altervista.org", 6], ["search.com.vn", 5], ["oleudo.it", 5], ["negapedia.org",
+  5], ["genoves.com.ar", 5], ["fondazionegenoa.com", 5], ["docplayer.it", 5], ["angolotesti.it",
+  5], ["parrocchiasgiacomo-m.it", 4], ["ozina.org", 4], ["know.cf", 4], ["ilnerviese.it",
+  4], ["hyperpedia.org", 4], ["forumfree.org", 4], ["bywiki.com", 4], ["ateatro.info",
+  4], ["1000note.it", 4], ["translatewiki.net", 3], ["tabs-database.com", 3], ["raixe.it",
+  3], ["liberliber.it", 3], ["issuu.com", 3], ["ecodisavona.it", 3], ["duhoctrungquoc.vn",
+  3], ["dotnext.it", 3], ["deferrarieditore.it", 3], ["blogspot.it", 3], ["besagno.com",
+  3], ["appennino4p.it", 3], ["youscribe.com", 2], ["wordpress.com", 2], ["vietnamimmigration.org",
+  2], ["verselib.com", 2], ["vallalar.net", 2], ["tabarchin.it", 2], ["studiocanepa.it",
+  2], ["stedo.ge.it", 2], ["senzafine.info", 2], ["sanpierdarena.net", 2], ["remobenzi.eu",
+  2], ["quilaigueglia.it", 2], ["pastafrescadellepiane.com", 2], ["myheritage.com",
+  2], ["mondadoristore.it", 2], ["lunadabayhouse.com", 2], ["lingueemergenti.info",
+  2], ["kiwix.org", 2], ["jcemonaco.mc", 2], ["gowikipedia.org", 2], ["eduppe.it",
+  2], ["editricezona.it", 2], ["duhocchina.com", 2], ["cucinedelmediterraneo.org",
+  2], ["bocajuniors.com.ar", 2], ["bagniligure.it", 2], ["acornabuggia.it", 2], ["accordietesto.it",
+  2], ["accordiespartiti.it", 2], ["zeneize.net", 1], ["world-hentai.ru", 1], ["wikitesti.com",
+  1], ["wikiquote.org", 1], ["wikiext.com", 1], ["wikia.com", 1], ["virgilio.it",
+  1], ["villasantostefano.com", 1], ["videochat-ruletka.ru", 1], ["viadelcampo.com",
+  1], ["vecchiaalassio.it", 1], ["vagalume.com.br", 1], ["uol.com.br", 1]]'
+docs_top100_tld: '[["org", 5817], ["it", 481], ["com", 218], ["net", 146], ["eu",
+  15], ["mc", 14], ["click", 12], ["info", 8], ["com.ar", 7], ["com.vn", 5], ["cf",
+  4], ["vn", 3], ["ru", 3], ["re", 2], ["ge.it", 2], ["com.br", 2], ["wiki", 1], ["nl",
+  1], ["io", 1], ["es", 1], ["coop", 1], ["co.uk", 1], ["cn", 1]]'
+docs_total: 6746
+docs_wds: '[[0.5, 162], [0.51, 132], [0.52, 188], [0.53, 192], [0.54, 174], [0.55,
+  182], [0.56, 177], [0.57, 170], [0.58, 208], [0.59, 218], [0.6, 206], [0.61, 206],
+  [0.62, 229], [0.63, 208], [0.64, 229], [0.65, 227], [0.66, 194], [0.67, 229], [0.68,
+  214], [0.69, 219], [0.7, 220], [0.71, 218], [0.72, 204], [0.73, 195], [0.74, 212],
+  [0.75, 196], [0.76, 168], [0.77, 157], [0.78, 151], [0.79, 115], [0.8, 90], [0.81,
+  76], [0.82, 61], [0.83, 61], [0.84, 55], [0.85, 68], [0.86, 76], [0.87, 43], [0.88,
+  71], [0.89, 68], [0.9, 59], [0.91, 60], [0.92, 49], [0.93, 43], [0.94, 28], [0.95,
+  16], [0.96, 11], [0.97, 6], [0.98, 5]]'
+duplication_ratio: 0.2369
+sentence_pairs: 252071
+src_bytes: 26233723
+src_chars: 24618240
+src_pii: 42
+src_tokens: 6013110
+unique_sents: 192362
+src_sent_tokens: '[[1, 12733], [2, 5431], [3, 5961], [4, 6934], [5, 11314], [6, 14648],
+  [7, 23501], [8, 24339], [9, 22205], [10, 18269], [11, 13542], [12, 9708], [13, 7056],
+  [14, 4940], [15, 3616], [16, 2758], [17, 2308], [18, 2026], [19, 1886], [20, 1830],
+  [21, 1844], [22, 1731], [23, 1765], [24, 1715], [25, 1550], [26, 1617], [27, 1515],
+  [28, 1431], [29, 1302], [30, 1193], [31, 1197], [32, 1090], [33, 994], [34, 1006],
+  [35, 963], [36, 891], [37, 885], [38, 743], [39, 795], [40, 751], [41, 699], [42,
+  633], [43, 643], [44, 634], [45, 569], [46, 550], [47, 541], [48, 493], [49, 490],
+  [50, 483], [51, 509], [52, 548], [53, 496], [54, 450], [55, 422], [56, 419], [57,
+  419], [58, 381], [59, 333], [60, 330], [61, 369], [62, 335], [63, 327], [64, 339],
+  [65, 315], [66, 304], [67, 312], [68, 307], [69, 314], [70, 282], [71, 281], [72,
+  324], [73, 295], [74, 269], [75, 256], [76, 257], [77, 289], [78, 241], [79, 270],
+  [80, 228], [81, 244], [82, 226], [83, 220], [84, 239], [85, 222], [86, 238], [87,
+  198], [88, 201], [89, 189], [90, 157], [91, 210], [92, 186], [93, 202], [94, 167],
+  [95, 188], [96, 182], [97, 182], [98, 169], [99, 149], [100, 157], [101, 177], [102,
+  160], [103, 165], [104, 175], [105, 164], [106, 158], [107, 167], [108, 159], [109,
+  131], [110, 140], [111, 137], [112, 132], [113, 114], [114, 148], [115, 136], [116,
+  112], [117, 132], [118, 126], [119, 106], [120, 127], [121, 120], [122, 109], [123,
+  121], [124, 111], [125, 121], [126, 111], [127, 107], [128, 120], [129, 110], [130,
+  91], [131, 108], [132, 113], [133, 103], [134, 110], [135, 100], [136, 106], [137,
+  90], [138, 99], [139, 94], [140, 80], [141, 75], [142, 90], [143, 89], [144, 70],
+  [145, 95], [146, 87], [147, 84], [148, 95], [149, 91], [150, 81], [151, 74], [152,
+  64], [153, 89], [154, 83], [155, 55], [156, 67], [157, 73], [158, 59], [159, 63],
+  [160, 59], [161, 60], [162, 72], [163, 65], [164, 49], [165, 73], [166, 60], [167,
+  59], [168, 49], [169, 57], [170, 61], [171, 59], [172, 53], [173, 61], [174, 57],
+  [175, 65], [176, 46], [177, 48], [178, 50], [179, 49], [180, 42], [181, 49], [182,
+  54], [183, 52], [184, 44], [185, 50], [186, 38], [187, 57], [188, 54], [189, 41],
+  [190, 66], [191, 44], [192, 32], [193, 52], [194, 45], [195, 41], [196, 50], [197,
+  39], [198, 41], [199, 25], [200, 46], [201, 30], [202, 33], [203, 40], [204, 39],
+  [205, 39], [206, 48], [207, 41], [208, 40], [209, 52], [210, 26], [211, 39], [212,
+  36], [213, 33], [214, 33], [215, 24], [216, 28], [217, 20], [218, 26], [219, 35],
+  [220, 31], [221, 31], [222, 16], [223, 33], [224, 22], [225, 24], [226, 29], [227,
+  19], [228, 30], [229, 24], [230, 21], [231, 27], [232, 35], [233, 28], [234, 24],
+  [235, 26], [236, 28], [237, 33], [238, 24], [239, 16], [240, 28], [241, 18], [242,
+  25], [243, 18], [244, 18], [245, 23], [246, 18], [247, 19], [248, 23], [249, 29],
+  [250, 21], [251, 23], [252, 25], [253, 21], [254, 26], [255, 19], [256, 22], [257,
+  14], [258, 27], [259, 23], [260, 12], [261, 20], [262, 17], [263, 19], [264, 20],
+  [265, 23], [266, 16], [267, 19], [268, 17], [269, 16], [270, 19], [271, 15], [272,
+  13], [273, 19], [274, 12], [275, 17], [276, 12], [277, 12], [278, 15], [279, 15],
+  [280, 12], [281, 16], [282, 15], [283, 13], [284, 7], [285, 18], [286, 14], [287,
+  12], [288, 16], [289, 13], [290, 18], [291, 12], [292, 18], [293, 14], [294, 16],
+  [295, 16], [296, 14], [297, 14], [298, 14], [299, 8], [300, 18], [301, 6], [302,
+  12], [303, 9], [304, 6], [305, 10], [306, 12], [307, 9], [308, 7], [309, 8], [310,
+  9], [311, 16], [312, 18], [313, 8], [314, 8], [315, 10], [316, 11], [317, 10], [318,
+  20], [319, 13], [320, 9], [321, 10], [322, 8], [323, 11], [324, 8], [325, 8], [326,
+  8], [327, 11], [328, 10], [329, 10], [330, 8], [331, 3], [332, 6], [333, 7], [334,
+  11], [335, 9], [336, 8], [337, 12], [338, 7], [339, 6], [340, 5], [341, 9], [342,
+  10], [343, 9], [344, 6], [345, 6], [346, 5], [347, 13], [348, 7], [349, 5], [350,
+  11], [351, 10], [352, 9], [353, 6], [354, 10], [355, 8], [356, 7], [357, 15], [358,
+  7], [359, 9], [360, 5], [361, 10], [362, 10], [363, 6], [364, 4], [365, 3], [366,
+  2], [367, 9], [368, 5], [369, 5], [370, 4], [371, 8], [372, 9], [373, 3], [374,
+  12], [375, 5], [376, 6], [377, 5], [378, 3], [379, 5], [380, 3], [381, 2], [382,
+  4], [383, 9], [384, 1], [385, 3], [386, 6], [387, 1], [388, 5], [389, 4], [390,
+  3], [391, 5], [392, 5], [393, 5], [394, 6], [395, 2], [396, 2], [397, 6], [398,
+  3], [399, 4], [400, 5], [401, 7], [403, 5], [404, 8], [405, 5], [406, 4], [407,
+  2], [408, 4], [409, 5], [410, 4], [411, 3], [412, 6], [413, 3], [414, 6], [415,
+  1], [416, 5], [417, 5], [418, 5], [419, 4], [420, 3], [421, 1], [422, 2], [423,
+  3], [425, 6], [426, 4], [427, 2], [428, 6], [429, 1], [430, 10], [431, 2], [432,
+  6], [433, 3], [434, 4], [435, 1], [436, 5], [437, 4], [438, 1], [439, 2], [441,
+  3], [442, 2], [443, 1], [444, 2], [445, 4], [446, 2], [447, 3], [448, 2], [449,
+  2], [450, 2], [451, 2], [452, 2], [453, 1], [454, 3], [455, 1], [456, 6], [457,
+  1], [458, 3], [459, 2], [460, 2], [461, 1], [462, 3], [463, 3], [464, 4], [465,
+  1], [467, 3], [468, 2], [469, 3], [470, 1], [471, 3], [472, 4], [473, 2], [474,
+  2], [475, 1], [476, 2], [477, 4], [478, 3], [479, 2], [480, 3], [481, 4], [482,
+  4], [483, 2], [484, 1], [485, 2], [486, 4], [487, 2], [488, 4], [489, 4], [490,
+  4], [492, 3], [493, 1], [494, 2], [495, 3], [496, 1], [497, 3], [498, 5], [499,
+  1], [500, 4], [501, 2], [502, 1], [503, 3], [504, 2], [506, 1], [507, 1], [508,
+  2], [510, 1], [511, 3], [513, 2], [514, 1], [515, 4], [516, 1], [518, 7], [519,
+  1], [520, 1], [521, 1], [525, 2], [526, 1], [527, 2], [528, 2], [529, 1], [530,
+  2], [531, 1], [532, 2], [533, 1], [534, 2], [535, 1], [537, 4], [539, 2], [540,
+  1], [541, 1], [542, 1], [543, 1], [546, 1], [547, 1], [549, 4], [550, 3], [552,
+  2], [553, 1], [554, 1], [559, 1], [560, 1], [561, 3], [562, 1], [563, 2], [564,
+  1], [568, 2], [569, 2], [571, 1], [572, 1], [573, 1], [576, 2], [578, 1], [579,
+  2], [580, 1], [581, 2], [582, 1], [584, 1], [587, 1], [588, 1], [592, 2], [595,
+  2], [596, 1], [597, 2], [598, 3], [599, 2], [601, 1], [602, 1], [604, 1], [607,
+  1], [608, 1], [611, 2], [614, 1], [615, 1], [616, 1], [619, 2], [621, 1], [622,
+  2], [623, 1], [624, 2], [625, 1], [626, 2], [627, 1], [630, 1], [632, 2], [633,
+  1], [634, 3], [636, 2], [641, 1], [643, 1], [644, 1], [645, 2], [647, 2], [649,
+  3], [655, 2], [656, 1], [658, 1], [660, 1], [661, 2], [662, 1], [667, 1], [668,
+  1], [670, 1], [671, 2], [672, 1], [675, 1], [676, 1], [677, 3], [679, 2], [688,
+  1], [689, 2], [691, 1], [694, 1], [695, 1], [696, 1], [697, 1], [700, 1], [701,
+  1], [703, 1], [705, 1], [709, 1], [710, 3], [711, 1], [722, 1], [723, 1], [728,
+  1], [732, 1], [736, 1], [737, 2], [738, 1], [739, 1], [741, 2], [742, 1], [743,
+  1], [749, 1], [750, 2], [761, 1], [762, 2], [763, 1], [764, 1], [765, 1], [766,
+  1], [770, 1], [772, 1], [773, 1], [775, 1], [776, 1], [777, 1], [779, 1], [783,
+  2], [784, 2], [797, 1], [804, 1], [807, 1], [818, 3], [821, 1], [823, 1], [824,
+  1], [828, 1], [829, 1], [832, 1], [834, 1], [845, 1], [848, 1], [854, 1], [858,
+  1], [859, 1], [861, 1], [866, 1], [868, 1], [869, 1], [873, 2], [875, 1], [882,
+  2], [889, 1], [890, 1], [891, 1], [895, 1], [896, 1], [897, 1], [898, 1], [906,
+  2], [910, 1], [912, 1], [916, 1], [922, 1], [928, 1], [933, 1], [937, 1], [939,
+  1], [940, 2], [944, 1], [947, 2], [949, 1], [950, 1], [958, 1], [968, 1], [970,
+  1], [977, 1], [978, 1], [979, 1], [986, 1], [989, 1], [1000, 1], [1004, 1], [1010,
+  1], [1019, 1], [1025, 1], [1037, 1], [1042, 1], [1046, 1], [1053, 1], [1107, 1],
+  [1166, 1], [1200, 1], [1219, 1], [1246, 1], [1269, 1], [1305, 1], [1307, 1], [1329,
+  1], [1334, 1], [1335, 1], [1348, 1], [1387, 1], [1388, 1], [1390, 1], [1459, 1],
+  [1468, 1], [1505, 1], [1529, 1], [1535, 1], [1695, 1], [1989, 1], [2079, 1], [2292,
+  1], [2778, 1], [2789, 1], [2798, 1], [2855, 1], [2883, 1], [2891, 1], [2934, 1],
+  [2963, 1], [2972, 1], [3093, 1], [3111, 1], [3189, 1], [12969, 1]]'
+src_sent_tokens_mean: 24
+src_sent_tokens_median: 9
+src_unique_sents: '[[1, 2131], [2, 2894], [3, 4219], [4, 5267], [5, 8057], [6, 11516],
+  [7, 16722], [8, 18845], [9, 17250], [10, 14421], [11, 10667], [12, 7711], [13, 5562],
+  [14, 3848], [15, 2935], [16, 2275], [17, 1898], [18, 1689], [19, 1610], [20, 1583],
+  [21, 1603], [22, 1504], [23, 1534], [24, 1441], [25, 1322], [26, 1345], [27, 1288],
+  [28, 1180], [29, 1089], [30, 1016], [31, 1023], [32, 909], [33, 865], [34, 842],
+  [35, 841], [36, 774], [37, 761], [38, 657], [39, 703], [40, 666], [41, 628], [42,
+  564], [43, 565], [44, 561], [45, 498], [46, 501], [47, 479], [48, 447], [49, 433],
+  [50, 438], [51, 460], [52, 390], [53, 451], [54, 405], [55, 380], [56, 376], [57,
+  360], [58, 348], [59, 306], [60, 306], [61, 329], [62, 303], [63, 302], [64, 317],
+  [65, 291], [66, 289], [67, 287], [68, 285], [69, 294], [70, 269], [71, 266], [72,
+  305], [73, 267], [74, 251], [75, 247], [76, 250], [77, 264], [78, 228], [79, 257],
+  [80, 214], [81, 222], [82, 214], [83, 205], [84, 226], [85, 209], [86, 221], [87,
+  187], [88, 191], [89, 184], [90, 155], [91, 198], [92, 178], [93, 185], [94, 160],
+  [95, 181], [96, 176], [97, 174], [98, 161], [99, 142], [100, 151], [101, 174], [102,
+  156], [103, 159], [104, 170], [105, 156], [106, 150], [107, 158], [108, 152], [109,
+  129], [110, 136], [111, 131], [112, 124], [113, 108], [114, 140], [115, 133], [116,
+  110], [117, 123], [118, 119], [119, 103], [120, 122], [121, 117], [122, 102], [123,
+  116], [124, 104], [125, 113], [126, 107], [127, 101], [128, 116], [129, 105], [130,
+  90], [131, 106], [132, 109], [133, 94], [134, 108], [135, 99], [136, 104], [137,
+  87], [138, 98], [139, 90], [140, 77], [141, 74], [142, 89], [143, 88], [144, 69],
+  [145, 92], [146, 86], [147, 83], [148, 90], [149, 84], [150, 79], [151, 71], [152,
+  63], [153, 84], [154, 82], [155, 55], [156, 64], [157, 68], [158, 58], [159, 61],
+  [160, 54], [161, 59], [162, 71], [163, 63], [164, 47], [165, 72], [166, 58], [167,
+  57], [168, 48], [169, 53], [170, 58], [171, 56], [172, 52], [173, 60], [174, 55],
+  [175, 62], [176, 45], [177, 46], [178, 49], [179, 47], [180, 41], [181, 47], [182,
+  53], [183, 48], [184, 43], [185, 46], [186, 37], [187, 56], [188, 49], [189, 39],
+  [190, 66], [191, 44], [192, 32], [193, 50], [194, 44], [195, 40], [196, 50], [197,
+  38], [198, 39], [199, 24], [200, 45], [201, 28], [202, 32], [203, 37], [204, 36],
+  [205, 37], [206, 47], [207, 41], [208, 39], [209, 51], [210, 26], [211, 39], [212,
+  33], [213, 32], [214, 32], [215, 23], [216, 26], [217, 20], [218, 26], [219, 32],
+  [220, 31], [221, 31], [222, 16], [223, 31], [224, 22], [225, 24], [226, 29], [227,
+  19], [228, 29], [229, 24], [230, 21], [231, 25], [232, 34], [233, 28], [234, 21],
+  [235, 24], [236, 27], [237, 33], [238, 24], [239, 14], [240, 27], [241, 18], [242,
+  25], [243, 18], [244, 18], [245, 22], [246, 18], [247, 18], [248, 20], [249, 23],
+  [250, 20], [251, 23], [252, 24], [253, 21], [254, 26], [255, 19], [256, 22], [257,
+  14], [258, 26], [259, 23], [260, 12], [261, 19], [262, 17], [263, 19], [264, 20],
+  [265, 22], [266, 15], [267, 17], [268, 17], [269, 16], [270, 17], [271, 15], [272,
+  13], [273, 17], [274, 11], [275, 16], [276, 12], [277, 12], [278, 15], [279, 15],
+  [280, 12], [281, 15], [282, 15], [283, 12], [284, 7], [285, 18], [286, 14], [287,
+  11], [288, 16], [289, 13], [290, 16], [291, 11], [292, 17], [293, 14], [294, 16],
+  [295, 16], [296, 14], [297, 14], [298, 13], [299, 8], [300, 17], [301, 6], [302,
+  11], [303, 7], [304, 6], [305, 9], [306, 12], [307, 9], [308, 7], [309, 8], [310,
+  8], [311, 16], [312, 17], [313, 8], [314, 8], [315, 10], [316, 10], [317, 10], [318,
+  19], [319, 13], [320, 8], [321, 9], [322, 8], [323, 11], [324, 8], [325, 8], [326,
+  8], [327, 10], [328, 10], [329, 9], [330, 7], [331, 3], [332, 6], [333, 7], [334,
+  11], [335, 9], [336, 7], [337, 11], [338, 7], [339, 6], [340, 5], [341, 8], [342,
+  10], [343, 9], [344, 6], [345, 6], [346, 5], [347, 13], [348, 7], [349, 5], [350,
+  10], [351, 10], [352, 7], [353, 6], [354, 9], [355, 7], [356, 7], [357, 13], [358,
+  7], [359, 8], [360, 5], [361, 10], [362, 9], [363, 6], [364, 4], [365, 3], [366,
+  2], [367, 8], [368, 5], [369, 5], [370, 4], [371, 7], [372, 8], [373, 3], [374,
+  11], [375, 5], [376, 6], [377, 4], [378, 3], [379, 5], [380, 3], [381, 2], [382,
+  4], [383, 9], [384, 1], [385, 3], [386, 6], [387, 1], [388, 5], [389, 4], [390,
+  3], [391, 5], [392, 5], [393, 5], [394, 6], [395, 2], [396, 2], [397, 6], [398,
+  3], [399, 4], [400, 4], [401, 6], [403, 4], [404, 7], [405, 5], [406, 4], [407,
+  2], [408, 3], [409, 5], [410, 4], [411, 3], [412, 6], [413, 3], [414, 6], [415,
+  1], [416, 4], [417, 5], [418, 5], [419, 3], [420, 3], [421, 1], [422, 2], [423,
+  3], [425, 5], [426, 4], [427, 2], [428, 6], [429, 1], [430, 9], [431, 2], [432,
+  6], [433, 2], [434, 3], [435, 1], [436, 5], [437, 4], [438, 1], [439, 2], [441,
+  3], [442, 2], [443, 1], [444, 2], [445, 4], [446, 2], [447, 3], [448, 2], [449,
+  2], [450, 2], [451, 2], [452, 2], [453, 1], [454, 3], [455, 1], [456, 6], [457,
+  1], [458, 3], [459, 2], [460, 2], [461, 1], [462, 3], [463, 2], [464, 3], [465,
+  1], [467, 3], [468, 2], [469, 3], [470, 1], [471, 2], [472, 4], [473, 2], [474,
+  2], [475, 1], [476, 2], [477, 3], [478, 3], [479, 2], [480, 3], [481, 4], [482,
+  4], [483, 2], [484, 1], [485, 2], [486, 3], [487, 2], [488, 4], [489, 4], [490,
+  4], [492, 3], [493, 1], [494, 2], [495, 3], [496, 1], [497, 3], [498, 4], [499,
+  1], [500, 4], [501, 2], [502, 1], [503, 3], [504, 2], [506, 1], [507, 1], [508,
+  2], [510, 1], [511, 3], [513, 2], [514, 1], [515, 4], [516, 1], [518, 5], [519,
+  1], [520, 1], [521, 1], [525, 2], [526, 1], [527, 2], [528, 2], [529, 1], [530,
+  2], [531, 1], [532, 2], [533, 1], [534, 2], [535, 1], [537, 3], [539, 2], [540,
+  1], [541, 1], [542, 1], [543, 1], [546, 1], [547, 1], [549, 4], [550, 2], [552,
+  2], [553, 1], [554, 1], [559, 1], [560, 1], [561, 3], [562, 1], [563, 2], [564,
+  1], [568, 2], [569, 2], [571, 1], [572, 1], [573, 1], [576, 2], [578, 1], [579,
+  2], [580, 1], [581, 2], [582, 1], [584, 1], [587, 1], [588, 1], [592, 2], [595,
+  2], [596, 1], [597, 2], [598, 3], [599, 1], [601, 1], [602, 1], [604, 1], [607,
+  1], [608, 1], [611, 2], [614, 1], [615, 1], [616, 1], [619, 2], [621, 1], [622,
+  2], [623, 1], [624, 2], [625, 1], [626, 2], [627, 1], [630, 1], [632, 2], [633,
+  1], [634, 3], [636, 1], [641, 1], [643, 1], [644, 1], [645, 2], [647, 2], [649,
+  3], [655, 2], [656, 1], [658, 1], [660, 1], [661, 2], [662, 1], [667, 1], [668,
+  1], [670, 1], [671, 2], [672, 1], [675, 1], [676, 1], [677, 3], [679, 2], [688,
+  1], [689, 2], [691, 1], [694, 1], [695, 1], [696, 1], [697, 1], [700, 1], [701,
+  1], [703, 1], [705, 1], [709, 1], [710, 3], [711, 1], [722, 1], [723, 1], [728,
+  1], [732, 1], [736, 1], [737, 2], [738, 1], [739, 1], [741, 2], [742, 1], [743,
+  1], [749, 1], [750, 2], [761, 1], [762, 2], [763, 1], [764, 1], [765, 1], [766,
+  1], [770, 1], [772, 1], [773, 1], [775, 1], [776, 1], [777, 1], [779, 1], [783,
+  2], [784, 1], [797, 1], [804, 1], [807, 1], [818, 3], [821, 1], [823, 1], [824,
+  1], [828, 1], [829, 1], [832, 1], [834, 1], [845, 1], [848, 1], [854, 1], [858,
+  1], [859, 1], [861, 1], [866, 1], [868, 1], [869, 1], [873, 2], [875, 1], [882,
+  1], [889, 1], [890, 1], [891, 1], [895, 1], [896, 1], [897, 1], [898, 1], [906,
+  2], [910, 1], [912, 1], [916, 1], [922, 1], [928, 1], [933, 1], [937, 1], [939,
+  1], [940, 2], [944, 1], [947, 2], [949, 1], [950, 1], [958, 1], [968, 1], [970,
+  1], [977, 1], [978, 1], [979, 1], [986, 1], [989, 1], [1000, 1], [1004, 1], [1010,
+  1], [1019, 1], [1025, 1], [1037, 1], [1042, 1], [1046, 1], [1053, 1], [1107, 1],
+  [1166, 1], [1200, 1], [1219, 1], [1246, 1], [1269, 1], [1305, 1], [1307, 1], [1329,
+  1], [1334, 1], [1335, 1], [1348, 1], [1387, 1], [1388, 1], [1390, 1], [1459, 1],
+  [1468, 1], [1505, 1], [1529, 1], [1535, 1], [1695, 1], [1989, 1], [2079, 1], [2292,
+  1], [2778, 1], [2789, 1], [2798, 1], [2855, 1], [2883, 1], [2891, 1], [2934, 1],
+  [2963, 1], [2972, 1], [3093, 1], [3111, 1], [3189, 1], [12969, 1]]'
+src_langs: '[["it", 119979], ["fr", 20772], ["lmo", 13355], ["ro", 11116], ["ca",
+  9141], ["pt", 7646], ["pms", 7007], ["es", 6667], ["en", 6444], ["oc", 4548], ["eml",
+  3655], ["vec", 3511], ["de", 3487], ["br", 2227], ["cs", 1492], ["tr", 1467], ["cy",
+  1234], ["vi", 1233], ["ru", 1215], ["sv", 1137], ["nb", 1125], ["la", 1122], ["da",
+  1033], ["ku", 1024], ["eu", 915], ["rm", 902], ["gl", 890], ["wa", 831], ["lb",
+  809], ["hr", 780], ["nl", 744], ["fi", 674], ["nap", 647], ["kk", 610], ["hu", 605],
+  ["fy", 561], ["eo", 557], ["ast", 510], ["cbk", 434], ["et", 407], ["scn", 405],
+  ["sq", 388], ["ht", 381], ["io", 348], ["ceb", 334], ["sr", 316], ["war", 285],
+  ["sl", 270], ["gd", 264], ["id", 261], ["pl", 255], ["tl", 251], ["kw", 239], ["als",
+  239], ["zh", 233], ["jbo", 228], ["mt", 210], ["uk", 204], ["pfl", 186], ["ms",
+  182], ["su", 178], ["uz", 174], ["sk", 172], ["ia", 170], ["is", 160], ["ja", 156],
+  ["an", 127], ["gn", 121], ["el", 119], ["diq", 111], ["nds", 109], ["ilo", 104],
+  ["gom", 99], ["bs", 98], ["sc", 93], ["sw", 80], ["ga", 75], ["ie", 74], ["az",
+  74], ["tt", 62], ["jv", 57], ["lt", 56], ["co", 55], ["ce", 55], ["af", 53], ["mk",
+  52], ["kv", 51], ["tk", 50], ["pam", 48], ["li", 48], ["bar", 48], ["hy", 46], ["nn",
+  45], ["ur", 42], ["ba", 42], ["yo", 40], ["mwl", 40], ["lo", 40], ["mrj", 39], ["kn",
+  37], ["hsb", 36], ["mg", 34], ["gu", 33], ["tg", 32], ["ml", 32], ["bcl", 32], ["ug",
+  31], ["qu", 31], ["bg", 30], ["xal", 28], ["sco", 28], ["si", 25], ["mr", 22], ["ar",
+  22], ["lez", 20], ["ta", 18], ["gv", 18], ["lv", 17], ["ko", 17], ["vo", 16], ["os",
+  15], ["mhr", 15], ["fa", 14], ["be", 14], ["krc", 13], ["wuu", 11], ["frr", 11],
+  ["dv", 11], ["mn", 10], ["so", 9], ["cv", 9], ["bo", 9], ["te", 8], ["min", 8],
+  ["vep", 7], ["nah", 7], ["vls", 6], ["dsb", 6], ["arz", 6], ["yue", 5], ["pnb",
+  5], ["or", 5], ["my", 5], ["mai", 5], ["ka", 5], ["bn", 5], ["hi", 4], ["av", 4],
+  ["am", 4], ["tyv", 3], ["km", 3], ["th", 2], ["pa", 2], ["hif", 2], ["bh", 2], ["sd",
+  1], ["sah", 1], ["ne", 1], ["ky", 1], ["he", 1], ["ckb", 1], ["azb", 1]]'
+hardrules_tags: '{"not_too_long": 2284, "not_too_short": 23145, "length_ratio": 0,
+  "no_urls": 6505, "no_bad_encoding": 587, "pii": 42}'
+sample: '["\"Demoghe sci\u00f9 re s[c]ciappe un bon Cavallo.\\nMa l''\u00e8 un sato
+  in tr''un ballo,\\nE za veggo re muse persuase\\nDe scusaro, con d\u00ed: l''\u00e8
+  un trotto d''aze.\\nDa puoe s''in quelle case,\\nO boschi dond''Appollo ha ro s\u00f2
+  imperio,\\nCelebran dro Cavallo ro misterio,\\nS''adoran ro misterio\\nDro Cavallo
+  re muse, cr\u00e9 me vuoeggio\\nCh''ancon quello dell''aze gh''impe l''oeggio.\\nSonetto\\nRa
+  marotia, ra cura, o testamento,\\nE ra morte dell''aze havei descrito\\nSci\u00f3
+  Giurian, e havei cos\u00ec ben dito,\\nChe ben v''intende qua se vuoeggie fuoento.\\nRo
+  parl\u00e1 vostro puro comme argento,\\nFa gust\u00e1 ro piccante, e l''erudito,\\nCh''havei
+  caccio\u00f9 in questo vostro scrito,\\nOnde st\u00e9 in pruoeva a forza d''argomento.\\nSe
+  in l''aze vuoi mettei tanta prudenza,\\nChe vanto puo\u00e9 daremmo a ri serpenti;\\nChe
+  son prudenti per commun sentenza.\\nL''aze no, ma sei vuoi ch''havei ri denti,\\nPer
+  adent\u00e1 chi ha poca conscienza,\\nE cognosce ri furbi, e ri leventi.\"", "\"Venerd\u00ec
+  24 de mazzo do 2019: po\u00eaxie, tiatro, manifesta\u00e7ioin e youtuber\\nSta v\u00f2tta
+  chi \u00f2 proposto pe-a tradu\u00e7ion in zeneize tr\u00e6 c\u00f6se coioze. Ti-\u00ea
+  chi.\\nArcobal\u00e9n e archin\u00e7\u00ea.\\nO pertuzo de l\u2019agoggia (cruna
+  in italian) in zeneize o se ciamma fo\u00e0mme.\\nA par\u00f2lla italiann-a carrucola
+  a se tradue t\u00e0ggia. A c\u00f6sa coioza a l\u2019\u00e9 che de s\u00f2lito t\u00e0ggia
+  o l\u2019\u00e9 o nomme d\u00e6to a-a c\u00f2rda da destende.\\nDurante a trasmiscion
+  l\u2019\u00e9 sciortio feua de c\u00f6se interesanti. Intanto o nomme Claudio che
+  a l\u2019antiga o se diva Cr\u00f2udio. P\u00f6i o nomme zeneize do Monte Reale
+  ch\u2019o l\u2019\u00e9 Mont\u00ee\u00e2 (a \u2018i\u2019 a va dita longa; donque
+  a pronon\u00e7ia a l\u2019\u00e9 differente da monti\u00e2 = monter\u00e0, salir\u00e0).
+  L\u2019\u00e9 st\u00e6to anche dito a beliscima esprescion dev\u00easan ch\u2019a
+  l\u2019\u00e9 \u2019na metatexi de d\u00eavan \u00ease (devono essere). Emmo parl\u00f2u
+  do segag\u00ecn (falciatore) e da fienagi\u00f3n (fienagione).\\nConcluddo co-o
+  \u00e7it\u00e2 i do\u00ee zoeni youtuber, \u00f2spiti da trasmiscion, che mettan
+  e seu c\u00f6se in sci\u00f4 can\u00e2 Jordan Verallo, che se son inpegn\u00e6 a
+  trov\u00e2 in m\u00f2ddo, da mette in sce Youtube e ch\u2019o fon\u00e7ionn-e, pe
+  mette co\u00e6 a-i zoeni de inprende o zeneize. Tanti ouguri!\\nAlegri!\"", "\"Erodoto\\nEr\u00f2doto
+  (gr. \u201bHp\u03cc\u03b4oto\u03c2, lat. Herod\u014ftus). - Storico grego (Alicarnasso
+  tra 490 e 480 a. C. - Atene 424 circa).\\nO fu esule a Samo, da p\u0153u o torn\u00f2
+  in patria quande caze'' a tirannide, e de l\u00ec o se rec\u00f2 a Atene, dove o
+  conobbe e o l''ammir\u00f2 Pericle e o fu amigo de Sofocle; da Atene o s''allontan\u00f2
+  pe piggi\u00e2 parte a-a fonda\u00e7ion da colonia panellenica de Turii (446 \u00f2
+  444) e pe i so molti vi\u00e6gi (a Samo, into Ponto, in Traxa, in Macedonia, in
+  Cirenaica, in Egitto e inte l''impeo Perscian; questi doi urtimi into 448 circa);
+  l''\u00e8 controverso se Erodoto o l''agge visto pe davei tutti i paixi descriti:
+  foscia o complet\u00f2 i so apponti de vi\u00e6gio con de notizie desonte da de
+  fonte scrite.\\nL''\u0153uvia storica de Erodoto a fu divisa inte 9 libbri da-i
+  grammatichi Lusciandrin; tarda a l''\u00e8 a denomina\u00e7ion di libbri co-o nomme
+  de n\u0153uve Muse.\\nDoppo o proemmio in sce-e origine mitiche da lotta fra Axia
+  e Oropa,\\no libbro 1\u00b0 o contegne a stoia di Liddi e di Perscien scin a-a morte
+  de Ciro,\\no 2\u00b0 a stoia de l''Egitto scin a-a sottomiscion de questo a Canbise,
+  success\u00f4 de Ciro.\\nO 3\u00b0 o nara a stoia do regno de Canbise e da p\u0153u
+  de Daio scin a-a so spedi\u00e7ion scitica. Questa a l''\u00e8 compreisa, co-ina
+  digrescion in sce-i Sciti,\\ninto 4\u00b0, ch''o nara asc\u00ec a spedi\u00e7ion
+  do satrapo Ariande contra \u00c7ire\u00f1e con digrescioin in sce-a stoia de \u00c7ire\u00f1e
+  e da Libbia.\\nO 5\u00b0 o nara a rebellion di Ioni scin a-a morte de Aristagora
+  con de longhe digrescioin in sce-a stoia de Sparta e Atene.\\nInto 6\u00b0 l''\u00e8
+  narao a sottomiscion da Ionia e e impreize di Perscien contra a Grecia scin a-a
+  battaggia de Maato\u00f1a.\\nO 7\u00b0 o comprende a spedi\u00e7ion de Serse scin
+  a-a battaggia de Termoppile.\\nInte l''8\u00b0 gh''\u00e8 e battagge de l''Artemixio
+  e de Salami\u00f1a scin a-o termine do primmo anno da gu\u00e6ra,\\ne into 9\u00b0
+  e battagge de Platea e de Micale scin a-a preisa de Sesto.\\nA spieg\u00e2 l''ampiezza
+  e o numero de digrescioin inte l''\u0153uvia de Erodoto, s''\u00e8 pensao che o
+  l''avesse composto de tratta\u00e7ioin separ\u00e6 (\u03bb\u03ccYo\u03b9) in sce-i
+  scingoli popoli, da p\u0153u fuse no troppo abilmente inte un''\u0153uvia continnoa
+  (A. Sch\u00f6ll, A. Bauer). Di atri invece ritegnan che o motivo condutt\u00f4 o
+  foise una stoia da Perscia e di vari popoli che fun in contatto con quella e che
+  da p\u0153u o cian de l''\u0153uvia o mutesse scin a trasform\u00e1se inte ''na
+  stoia da lotta tra Greghi e barbai, quande o successo de parte za composte in sce-e
+  gu\u00e6re grego-perscia\u00f1e o spinse l''aot\u00f4 a po\u00f1e in particol\u00e2
+  resato queste lotte che occupan a meit\u00e6 circa de l''intrega \u0153uvia (G.
+  De Sanctis). Comme fonte scrite Erodoto o \u00e7itta in doi soli l\u0153ughi Ecateo;
+  ma o riporta in tante \u00f3caxoin di informa\u00e7ioin or\u00e6. Pe a battaggia
+  de Salami\u00f1a influin \u00e7ertamente i \\\"Perscien\\\" de Eschilo. De ciu,
+  di documenti epigraffichi, epigrammi, oraccoli fun de seguo doeuvi\u00e6 da Erodoto
+  che into complesso o l''attinse sorvetutto a-a tradi\u00e7ion or\u00e2. De fronte
+  a-e tradi\u00e7ioin Erodoto, p\u00f9 astegnindose da una critica espli\u00e7ita,
+  o l''esercita effettivamente inta sele\u00e7ion m\u00e6xima de quelle, t\u00e1votta
+  solo in base a di motivi esteio\u00ee e sentiment\u00e6.\\nErodoto o riconosce a
+  grandioxit\u00e6 de vittoie greghe, ma into complesso l''epopea na\u00e7ion\u00e2
+  ellenica, pe-a qu\u00e6 i Greghi vin\u00e7ettan i Perscien, a-o lascia freido. O
+  sentimento da superiorit\u00e6 da civilt\u00e6 grega in sce-a barbarica o manca
+  in Erodoto tanto che i antighi m\u00e6ximi o ciammon \\\"filobarbao\\\". A l''\u00e8
+  invece ci\u00e6a a tenden\u00e7a politica de Erodoto a glorific\u00e2 Atene e i
+  Atenieixi ch''o conscidera liberato\u00ee da Grecia, rappresentando invece into
+  moddo ciu odioso i so avversai inta gu\u00e6ra do Peloponneso: Tebe e Corinto. No
+  cosc\u00ec avverso o l''\u00e8 a-i Sparten di qu\u00e6 o riconosce a prodezza, p\u00f9
+  tendendo a mettili in cattiva luxe a peto di Atenieixi. I concetti religioxi de
+  Erodoto son soventi contraddittoi: de votte i miti son ra\u00e7ionalizz\u00e6, di
+  atre Erodoto o se mostra estremamente credulo de fronte a di oracoli, prodixi e
+  s\u0153unni profetichi. Caratteristega a l''\u00e8 l''importan\u00e7a ch''o d\u00e0
+  a l''invidia divi\u00f1a (\u03d5\u03d1\u03ccvo\u03c2 \u03d1e\u1ff6v) a qu\u00e6
+  a l''intervegne pe umili\u00e2 o mort\u00e2 che troppo o s''inna\u00e7a.\\nO dialetto
+  ionico o l''ofre a Erodoto un mezo de esprescion ricco e malliabile inte un stile
+  semplixe ch''o l'' amma a paratasci ciu che l''ipotasci, sen\u00e7a frexi, ma con
+  una malia ch''a fa de l''\u0153uvia storica una lettua attraentiscima. O pregio
+  artistego de so stoie, fu d\u00eeto, o l''\u00e8 inte l''unit\u00e6 de interesse
+  uman e into ritmo narrativo co-o qu\u00e6 o va aproeuvo a-i f\u00e6ti, e battagge,
+  i aneddoti e e scingolarit\u00e6 di costummi e de lezze.\\nO so retr\u00e6to co-a
+  barba idealizzao o l''\u00e8 noto da varie coppie de un origin\u00e2 creao doppo
+  a morte. Inte l''erma de Nappoli, iscrita, o l''\u00e8 accobbiao a Tucidide.\"",
+  "\"L\u00e8ngoa ligure antiga\\nL''Ant\u00eego L\u00ecgure a l''\u00eaa unn-a l\u00e9ngoa
+  parl\u00e2 da-i L\u00ecguri Ant\u00eeghi. Gh''\u00eaa varie f\u00f3rme distinte
+  da-e varie provinse d''ancheu de Zena, Spesa, Sann-a e Imperia.\\nGh''\u00e9 d\u00f4e
+  teor\u00eee in sci\u00e2 nat\u00fba da L\u00e8ngoa L\u00ecgure Ant\u00eega. A primma
+  a l''\u00e9 a teor\u00eca de l''origine \\\"anaria\\\": p\u00e2 che o l\u00ecgure
+  de quella v\u00f2tta no f\u00efse ''na l\u00e9ngoa europea, ma ch''a segge vegn\u00fba
+  da-e l\u00e9ngoe che se parlavan into Mediterraneo primma de l''ar\u00eevo di Indeuropei.
+  Nino Lamboglia o l''\u00e9 st\u00e6to \u00fbn di primmi a scr\u00eeve ''sta teor\u00eea.
+  L''\u00e4tra a l''\u00e9 a teor\u00eea de l''or\u00ecgine \\\"celtica\\\"; a L\u00e8ngoa
+  L\u00ecgure Ant\u00eega a sai\u00e9va ariv\u00e2 in Italia co'' i Celti into V secolo
+  a.C.\\nPar\u00f2lle[mod\u00ecfica | mod\u00ecfica wikit\u00e8sto]\\nArcunn-e par\u00f2lle
+  de L\u00ecgure Ant\u00eego:\"", "\"Antonio Gramsci\\nAntonio Gramsci (Ales, prov.
+  de Cagliari, 22 Zenn\u00e4 1891 - Romma, 27 Arv\u00ef 1937) o l'' \u00e8 st\u00e6to
+  un politico e intellettuale, segretaio do Partio Comunista d'' Italia dao 1924 ao
+  1927.\\nBiografia[C\u00e0ngia | modifica sorgente]\\nNasci\u00fco da famiggia p\u00f2via,
+  de re\u00e7ente origine albaneise da-a parte paterna (o discendeiva da un prof\u00fcgo,
+  scappou dall'' Epiro a causa de un-a guera, comme l\u00eb maeximo o dixe in te unna
+  de s\u00f6 Lettere dao car\u00e7ere), o l'' ha posci\u00fco frequent\u00e2 l'' \u00dcniverscit\u00e6
+  de Torin grassie a un-a borsa de st\u00fcddio. Da p\u00f2co avanti l''inissio da
+  Primma Guera mondiale o lascia i st\u00fcddi pe d\u00e2se a-a politica. Insci''a
+  stampa so\u00e7ialista o l''inissia a p\u00fcbblic\u00e4 scr\u00eeti, fra i quali
+  ghe n''\u00e8 anche de critica teatrale. O l'' \u00e8 fra i promotoi di Conseggi
+  de fabbrica torineixi. Int''o 1919 insemme a Palmiro Togliatti o fonda o giorn\u00e2
+  \\\"Ordine Nuovo\\\". A Livorno int''o 1921 Gramsci o l'' \u00e8 tra i fundatoi
+  do Partio Comunista. In seguito, o se reca in Ruscia dove o conosce o Lenin e dove
+  o se sposa con Giulia Schucht da-a quae o l''avi\u00e2 dui figgi. Torn\u00f2u in
+  patria do 1924, o l'' \u00e8 eletto dep\u00fctou e o fonda o quotidian L'' Unit\u00e0.
+  A novembre do 1926 o vegne arrestou e condannou da-o Tribunale Speciale fascista
+  a 24 anni de prexon. I atti do pro\u00e7esso rivelen l''assol\u00fca infondatessa
+  de accuse de sedission; Gramsci o l'' \u00e8 st\u00e6to imprexon\u00f2u solo perch\u00e8
+  Mussolini o l''aeva ordinou: bez\u00f6gna imped\u00ef a questo \u00e7ervello de
+  funsionn\u00e4 pe armeno dex''anni. In prexon a Turi e a Civitavecchia, a seu salutte
+  a l''e sempre p\u00ebzo. In te i \u00fcrtimi tempi da seu vitta ghe vegne permisso
+  de c\u00fcrase int''a clinica romann-a Quisisana, dove o concl\u00fcdde a seu existensa.
+  Malgraddo e difficolt\u00e6 o riesce, anco in prixion, a impegn\u00e4se int''o st\u00fcddio
+  e int''e l''analisi, comme testim\u00f2nnian i testi scr\u00efti inte quelli anni,
+  che spassien inte n''infinit\u00e6 d''argomenti politici e st\u00f2rici.\\nI scr\u00efti[C\u00e0ngia
+  | modifica sorgente]\\nE Lettere dal carcere son prin\u00e7ipalmente un documento
+  uman, pe quante notevole, ma a filosofia do Gramsci a vegne esposta prin\u00e7ipalmente
+  int''i Quaderni dal Carcere, sarv\u00e6 grazie a-a dedission da c\u00fcgn\u00e2
+  Tatiana Schucht. O Gramsci o l'' ha inserio o marsismo int''a tradission italiann-a,
+  e se confrontava co-i problemmi concreti da nostra nassion e e seu reixe storiche.
+  Quando o riconosce i meriti a-o storicismo do Benedetto Croce, o Gramsci o se ne
+  destacca profondamente quando o fa not\u00e2 che quella do pensat\u00f6 napolitan
+  a l'' \u00e8 un-a filosofia speculativa, dao carattere metafixico. Ao materialismo
+  dialettico marxista e leninista Gramsci o l''azzunze a teoria dell''egemonia, che
+  differensia classe dominante e classe dirizente. A diression a permette de costru\u00ef
+  o dominio; se a classe dominante a perde a capa\u00e7it\u00e6 de dirize, a s\u00f6
+  egemonia a va in crizi. Porri\u00e4 continu\u00e2 o dominio pe un \u00e7erto tempo,
+  ma int''o v\u00f6u de diression che se sai\u00e4 creou gh''\u00e8 z\u00e1 i prez\u00fcpposti
+  pe a rivolussion. In rapp\u00f2rto a \u00e4tre interpetrassioin do marxismo, de
+  longo dogmatiche e meccani\u00e7istiche, a do Gramsci a se caratterizza pe sei sempre
+  attenta a-a realt\u00e6 e ae differense st\u00f2riche, nassionai, curt\u00fcrai,
+  comme se vedde presempio int''o gi\u00fcdissio crittico che o l''ha dou a prop\u00f2zito
+  do livro de Bucharin Insc''a teoria do materialismo st\u00f2rico. O Gramsci, ch''o
+  ripiggia o Machiavelli, o vedde o partio rivolussionario comme un Moderno Principe,
+  intendendo cosci che l''assion politica a deve sei o ris\u00fcltou de un st\u00fcddio
+  s\u00e7ientifico da realt\u00e6 dove se opera.\\nBibliografia[C\u00e0ngia | modifica
+  sorgente]\\n- A. Gramsci, Lettere dal carcere, Palermo 1996\\n- A. Gramsci, Quaderni
+  dal carcere, Torin 2007\\n- N. Bobbio, Saggi su Gramsci, Milan 1990\"", "\"Giuseppe
+  Conte\\nGiuseppe Conte (Volturara Appula, 8 ag\u00f3sto 1964) o l''\u00e9 ''n politico
+  e giur\u00ecsta italian. O l''\u00e9 o vint\u00eaximo-n\u00f6no Prescidente do Conseggio
+  di Ministri Italian e cappo do g\u00f4verno itali\u00e0n da-o 1 de z\u00fbgno 2018.
+  O s\u00eau g\u00f4verno o l''\u00e9 st\u00e6to sostegn\u00fbo da-o Movimento 5 Stelle[1]
+  e da-a L\u00e9ga N\u00f2rd[2] da-o 1 de z\u00fbgno 2018 a-o 5 de sett\u00e9nbre
+  2019 (G\u00f4verno Conte I), m\u00e9ntre da-o 5 d\u00ea settenbre 2019 a-a giorn\u00e2
+  d''ancheu o l''\u00e9 sostegn\u00fbo da-o Movimento 5 St\u00e9lle, da-o Part\u00eeo
+  Democratego (Partito Democratico), da L\u00ecberi e P\u00e6gi (Liberi e Uguali,
+  LEU), da It\u00e0lia V\u00eeva e da \u00fbnna p\u00e2rte do Gr\u00fbppo M\u00e9sccio
+  (G\u00f4verno Conte II).\"", "\"Lezze\\nLezze\\nIndi\u00e7e\\nDritocangia\\nDrito
+  constitu\u00e7ion\u00e2cangia\\nIn via gener\u00e2, l\u2019atto de un organo (monocratico
+  \u00f2 collegi\u00e2) investio da cosc\u00ec dita fon\u00e7ion legislativa. A differen\u00e7a
+  da consoetuddine, ch''a nasce spontaniamente inta societ\u00e6, a lezze a l''\u00e8
+  un atto voentaio, caratterizao da-a generalit\u00e6 e da l''astrate\u00e7\u00e7a,
+  saiv''a d\u00ee da-o f\u00e6to ch''a l''agge di destinatai indetermin\u00e6 (generalit\u00e6
+  comme impersonalit\u00e6) e da-o f\u00e6to ch''a segge suscetibbile d''ese apric\u00e2
+  un nummero indefinio de votte, inte tutti i caxi rentranti inta previxon normativa
+  (astrate\u00e7\u00e7a comme ripetibilit\u00e6).\\nA lezze a l''\u00e8 st\u00e6ta
+  conscider\u00e2 a fonte do drito pe antonomaxa; inte ''na prospettiva giuspoxitivistega,
+  an\u00e7i, o drito o s''identifichi\u00e6 co-a lezze. Storicamente, a l''ha ricoverto
+  un rollo importante inte l''ambito de desp\u00e6ge esperien\u00e7e giuriddiche,
+  sciben che l''\u00e8 solo con l\u2019et\u00e6 moderna che s''\u00e8 affermao l\u2019idea
+  da lezze comme fonte primaia. Inte l''ambito de l''esperien\u00e7a roma\u00f1a,
+  de f\u00e6to, a lex a se contraponeiva a i atre fonte do drito (qu\u00e6 l\u2019interpretatio
+  prudentium e i mores), sciben vadde aregordao che, mentre inta Repubbrica e into
+  Prin\u00e7ipato o termine o l''ea riservao escluxivamente a-e delibia\u00e7ioin
+  di asembree popol\u00e6, into tardo impeo, invece, con l\u2019esprescion leges,
+  d\u0153uvi\u00e2 in contrapoxi\u00e7ion a iura, s''indicava e constitu\u00e7ioin
+  imperi\u00e6. Questo duppri\u00e7e aspetto (democratego e assolutistego) o transp\u00e2
+  da doi notti brocardi, un de Gaio (lex est quod populus iubet atque constituit),
+  l\u2019atro de Ulpian (quod principi placuit legis habet vigorem). Asc\u00ec inte
+  l''ambito de l''esperien\u00e7a mediev\u00e2, a lex, qu\u00e6 atto voentaio, a se
+  contraponeiva a l''interpretatio e a-a consuetudo. Otr''a \u00e7o, se ritegniva
+  che questa a no fois''atro che deciarativa da lezze divi\u00f1a.\\nCo-a forma\u00e7ion
+  di Stati moderni e a rivendica\u00e7ion do monopollio do poei legislativo qu\u00e6
+  atributo da sovranit\u00e6, a lezze a v\u00e8gne a fonte suprema do drito, in quante
+  inmedi\u00e2 manifesta\u00e7ion da voent\u00e6 do sovran (esprescion de questa preminen\u00e7a
+  son, prez., l\u2019art. 1 e seg. de dispoxi\u00e7ioin prelimin\u00e6 a-o codi\u00e7e
+  \u00e7iv\u00ee italian do 1942). Co-o superamento de monarchie assolue e l\u2019avento
+  do Stato liber\u00e2 de drito, a poxi\u00e7ion da lezze into scistema de fonte a
+  no cangia, percose a-a voent\u00e6 individo\u00e2 do monarca se sostituisce a voent\u00e6
+  gener\u00e2 da na\u00e7ion (\u00f2 do poppolo) ch''a s''esprimme trammite questa
+  (cfr. l\u2019art. 6 da D\u00e9claration des droits de l\u2019homme et du citoyen
+  do 1789; l\u2019art. 4 da D\u00e9claration des droits de l\u2019homme et du citoyen
+  do 1793; l\u2019art. 6 da D\u00e9claration des droits de l\u2019homme et du citoyen
+  do 1795), tant\u2019\u00e8 che se p\u0153u parl\u00e2 do Stato de drito do 19\u00b0
+  sec. comme de ''n Stato legislativo, saiv''a d\u00ee de ''na forma de Stato incentr\u00e2
+  in sce l''assolua preminen\u00e7a da lezze gener\u00e2 e astr\u00e6ta, produto da
+  libbera discuscion parlament\u00e2. Emblemattiche, in questo senso, son st\u00e6te
+  i anallixi de O. B\u00e4hr, R. von Mohl, J. Bentham e de B. Constant. Tuttavia,
+  con l\u2019avento de Constitu\u00e7ioin reddene e do scindacato de constitu\u00e7ionalit\u00e6
+  de lezze, a lezze a l''ha perso importan\u00e7a, a fav\u00f4 da m\u00e6xima Constitu\u00e7ion,
+  e \u00e7erti studioxi son zonti a aferm\u00e2 che e lezze saieivan tutte vincol\u00e6
+  a-o fin de realiz\u00e2 a Constitu\u00e7ion: a legisla\u00e7ion, quindi, a no sai\u00e6
+  ciu ''na fon\u00e7ion libbera, ma discre\u00e7ion\u00e2, scindacabbile da-a Corte
+  constitu\u00e7ion\u00e2 pe i eccesci de poei che ne porieivan vi\u00e7i\u00e2 a
+  legittimit\u00e6.\\nUn urtei\u00f4 fatt\u00f4 ch''o l''ha contribuio a trasform\u00e2
+  a fon\u00e7ion legislativa into corso do 20\u00b0 sec. a l''\u00e8 st\u00e6ta a
+  grado\u00e2 perdia di caratteri tippichi de generalit\u00e6 e astrate\u00e7\u00e7a,
+  e a-o dilag\u00e2 de cosc\u00ec dite lezze-provedimento: a prasci italia\u00f1a,
+  in particol\u00e2, a l''ha visto i\u00f1umieivi caxi de discipri\u00f1e legislative
+  tranxitoie e retroattive, nonch\u00e9 de lezze d''intervento ponto\u00e2 inti raporti
+  econommichi, de lezze contegninte di programmi delimit\u00e6 into tempo, \u00f2,
+  a-a dreitua, de lezze sostan\u00e7ialmente ad personam. T\u00e2 prasci, nonostante
+  e crittiche manifest\u00e6 da parte da dotri\u00f1a \u2013 presempio, da V. Crisafulli
+  \u2013 a no l''\u00e8 st\u00e6ta avers\u00e2 da-a giurispruden\u00e7a constitu\u00e7ion\u00e2,
+  pe quante con\u00e7erne a legisla\u00e7ion, segge stat\u00e2 che region\u00e2, a
+  qu\u00e6 a l''ha amisso asc\u00ec a poscibilit\u00e6 di espropia\u00e7ioin ope legis.
+  D\u2019atra parte, a perdia di caratteri de generalit\u00e6 e astrate\u00e7\u00e7a
+  da lezze a l''ea st\u00e6ta individo\u00e2 da di studioxi \u2013 tra i qu\u00e6
+  H.J. Laski, Neumann e Forsthoff \u2013 comme conseguen\u00e7a inevitabbile do passaggio
+  da-o Stato liber\u00e2 de drito a-o Stato democrattico de massa.\\nDrito interna\u00e7ion\u00e2
+  e comunitaiocangia\\nReciam\u00e2 ciu votte into tittolo III, cappo I, art. 13-17,
+  da lezze 218/1995, a lezze strangea a l''asumme relevan\u00e7a con rifeimento a-a
+  tecnica do rimando, disciprin\u00e2 a l''art. 13 da lezze \u00e7it\u00e2. Quande
+  inti articcoli succescivi da lezze l''\u00e8 reciamao a lezze strangea, se tegne
+  conto do rimando \u0153uviao da-o drito interna\u00e7ion\u00e2 privao strang\u00ea
+  a-a lezze de ''n atro Stato: 1) se o drito de t\u00e2 Stato o l''a\u00e7etta o rimando;
+  2) se se tratta de rimando a-a lezze italia\u00f1a. L\u2019aprica\u00e7ion de t\u00e2
+  dispoxi\u00e7ion a l''\u00e8 tuttavia escruza inti caxi inti qu\u00e6 segge e parte
+  a \u00e7erne a lezze strangea ch''a sai\u00e2 a l\u00f4 apric\u00e2 (art. 13). O
+  scistema de drito interna\u00e7ion\u00e2 privao o stabilisce o prin\u00e7ippio de
+  l''inguan\u00e7a tra a lex fori e a lezze strangea. L\u2019a\u00e7ertamento da lezze
+  strangea o l''\u00e8 comp\u00edo d\u2019\u00f3f\u00ec\u00e7\u00e7io da-o giuddi\u00e7e
+  (art. 14). Quante stabilio a l''art. 14 o se reconliga a-o poei-dovei do giuddi\u00e7e
+  d''a\u00e7ert\u00e2 d\u2019\u00f3fi\u00e7\u00e7io e circostan\u00e7e che giustiffican
+  l\u2019aprica\u00e7ion da lezze strangea: se cosc\u00ec no foise, sai\u00e6 comme
+  atribo\u00ee a-e parte a facort\u00e6 de \u00e7erne e norme strangee apricabbile.
+  A t\u00e2 fin questo o p\u0153u vaise, otra che di strumenti indic\u00e6 da-e conven\u00e7ioin
+  interna\u00e7ion\u00e6, de informa\u00e7ioin aquixie pe o trammite do ministeio
+  de Gra\u00e7\u00e7ia e giusti\u00e7\u00e7ia; o p\u0153u atresci interpel\u00e2 di
+  esperti \u00f2 institu\u00e7ioin specializ\u00e6. Se o giuddi\u00e7e o n''ariesce
+  a a\u00e7ert\u00e2 a lezze strangea indic\u00e2, manco con l\u2019agiutto de parte,
+  o l''apprica a lezze reciamm\u00e2 mediante di atri critei de conligamento eventoalmente
+  previsti pe a m\u00e6xima ipottexi normativa. In mancan\u00e7a s''apprica a lezze
+  italia\u00f1a. A lezze strangea a l''\u00e8 interpret\u00e2 segondo i prin\u00e7ippi
+  interpretativi de l''ordenamento a-o qu\u00e6 a norma a l''apartegne (art. 15).
+  O giudi\u00e7e italian o l''\u00e8 tegnuo quindi a apric\u00e2 a lezze strangea
+  comme fai\u00e6 o giuddi\u00e7e de l''ordenamento d''apartenen\u00e7a. D''atro canto,
+  a lezze strangea a no l''\u00e8 apric\u00e2 se i so effetti son contrai a l''orde
+  pubbrico (art. 16). O rifeimento o l''\u00e8 a l''orde pubbrico interna\u00e7ion\u00e2
+  ch''o l''impedisce e turbative do nostro ordenamento derivante da l''aprica\u00e7ion
+  de norme strangee contraie a-i prin\u00e7ippi fondament\u00e6 de l''ordenamento
+  italian. No se tratta, quindi, de ''n giudi\u00e7\u00e7io de valuta\u00e7ion in
+  sci\u00e2 lezze \u00e2tr\u00fbi, bensci in sc\u00ee effetti che questa a p\u0153u
+  avei in ambito interna\u00e7ion\u00e2. In scintexi, se a norma ch''a l''apartegne
+  a l''ordenamento giuridico strang\u00ea a conten di prin\u00e7ippi che no p\u0153uan
+  ese apric\u00e6 into nostro ordenamento giuriddico, a dev''ese dezapric\u00e2. De
+  conseguen\u00e7a, in t\u00e2 ipottexi s''apprica a lezze reciam\u00e2 mediante di
+  atri critei de conligamento previsti pe a m\u00e6xima ipottexi normativa. In mancan\u00e7a
+  de t\u00e6 conligamenti se deve necessaiamente apric\u00e2 a lezze italia\u00f1a.
+  L''\u00e8 f\u00e6to sarvo a prevalen\u00e7a de norme italia\u00f1e che, in conscidera\u00e7ion
+  do so ogetto e do so scopo, dev''esan apric\u00e6 nonostante o reciammo a-a lezze
+  strangea (art. 17). Infin, a lezze strangea a l''\u00e8 d\u0153uvi\u00e2 into regime
+  di raporti patrimoni\u00e6 tra conniugi e pe quante concerne a sepaa\u00e7ion person\u00e2
+  e a solu\u00e7ion do matrimonio. O regime di rapporti patrimoni\u00e6 fra coniugi
+  regolao da ''na lezze foresta o l''\u00e8 \u00f3pon\u00ecbbile a-i ter\u00e7i solo
+  se questi n''aggian avuo conoscen\u00e7a \u00f2 l''aggian ignorao pe so corpa. Relativamente
+  a-i driti reali insce di ben inmobbili, l\u2019oponibilit\u00e6 a l''\u00e8 limit\u00e2
+  a-i caxi inti qu\u00e6 s\u00e6 st\u00e6to rispetao e forme de pubri\u00e7it\u00e6
+  prescrite da-a lezze do Stato into qu\u00e6 i ben s''atr\u0153uvan (art. 30, 1).
+  A separa\u00e7ion person\u00e2 e a solu\u00e7ion do matrimonnio, quande no seggian
+  previsti da-a lezze strangea apricabbile, son regol\u00e6 da-a lezze italia\u00f1a
+  (art. 30, 2).\\nDrito canonnegocangia\\nO drito canonnego o l''\u00e8 caratterizao
+  da-a conforma\u00e7ion da lezze, unitaiamente conscider\u00e2, inte doi groppi de
+  norme: e norme de drito uman e e norme de drito divin. T\u00e6 norme p\u0153uan
+  ese eman\u00e6 comme lezze scrita (ius scriptum) \u00f2 comme consoetuddine (ius
+  non scriptum). E norme scrite son indri\u00e7\u00e6 a-a comunit\u00e6 comme ''n
+  comando (iussum) in vista do ben comun di fedeli, unitaiamente conscider\u00e6 (propter
+  bonum subditorum) e no za in conscidera\u00e7ion do vantaggio che ne p\u0153u deriv\u00e2
+  a l''aotorit\u00e6 ch''a-o l''ha d\u00e6to. A lezze canonnega a p\u0153u ese proman\u00e2
+  solo da ''n sogetto idonnio a d\u00e2la (legitimi principis). Circa l\u2019ogetto
+  da lezze canonnega no vigge un prin\u00e7ippio gener\u00e2 ch''o ne fisse in assoluo
+  i contegnui speciffichi; tuttavia, into Codi\u00e7e de drito canonnego existe de
+  norme che riaferman pe scingole mateie a competen\u00e7a da Gexa, prez. pe quant''aten
+  a discipri\u00f1a do matrimonnio di battez\u00e6 (can. 1073), l\u2019acatto e l\u2019aministra\u00e7ion
+  di ben tempor\u00e6, l\u2019institu\u00e7ion de sc\u0153ue d''ogni orde e grao (can.
+  800).\\nPe quanto ategne a l''obrigatoiet\u00e6, l''\u00e8 sogetto a-e lezze puamente
+  eclexasteghe (non includente i precetti de drito divin) i battez\u00e6 inta Gexa
+  catollica (cosc\u00ec dito criteio ecclexologgico, ch''o l''escludde i membri de
+  comunit\u00e6 crestia\u00f1e non catolliche) che godan de suffixente uzo de raxon
+  (cosc\u00ec dito criteio psicologgico) e aggian compio o settimo anno de et\u00e6
+  (criteio cronologgico). De norma, no s''amette ignoran\u00e7a \u00f2 er\u00f4 circa
+  a lezze canonnega, ma l''\u00e8 tuttavia scuzabbile l\u2019er\u00f4 de f\u00e6to
+  (scin a pr\u0153uva do contraio), sarvo pe e lezze inabilitante \u00f2 irritante
+  (can. 15).\\nA lezze canonnega a vegne port\u00e2 a conoscen\u00e7a di sogetti a-i
+  qu\u00e6 a l''\u00e8 indri\u00e7\u00e2 a traverso a promurga\u00e7ion (can. 8) e
+  l\u2019inser\u00e7ion inti atti da Sedia Apostollica (Acta Apostolicae Sedis commentario
+  officiali, AAS), ch''a g''ha val\u00f4 asc\u00ec comme pubrica\u00e7ion. Questa
+  a l''intra in vig\u00f4 solo doppo trei meixi da-a so promurga\u00e7ion (periodo
+  de vacatio legis), sarvo che a lezze m\u00e6xima a prevedde desp\u00e6gio terme
+  (ciu \u00f2 meno breve).\\nA lezze canonnega a l''\u00e8 effica\u00e7e into tempo
+  e into spa\u00e7\u00e7io. Quanto a-o primmo aspetto, pe questa v\u00e2 o prin\u00e7ippio
+  gener\u00e2 de l''inretroattivit\u00e6, sarvo e derroghe espresse into can. 9. Circa
+  l\u2019effica\u00e7it\u00e6 into spa\u00e7\u00e7io, e lezze univers\u00e6, vallide
+  pe tutti i fedeli, ovunque s''atr\u0153uvan, se distingoan da-e lezze particol\u00e6,
+  che se prezumman apricabbile solo sciu base teritoi\u00e2 e non person\u00e2, into
+  senso che l''\u00e8 sogetto a-a lezze de ''n determinao teritoio (a diocexi) i fedeli
+  che gh''aggian o domi\u00e7illio \u00f2 o squ\u00e6xi domi\u00e7illio e contempoa\u00f1iamente
+  se ghe tr\u0153uvan de f\u00e6to. No son tegnui a l''oservan\u00e7a de queste norme
+  foresti e nomadi \u00f2 vagabondi.\\nA lezze canonnega a l''\u00e8 sogetta a interpreta\u00e7ion,
+  ch''a l''\u00e8 dita aotentica s''a proma\u00f1a da-o legislat\u00f4, particol\u00e2
+  se posta in ese da l''aotorit\u00e6 aministrativa in sce ''n scingolo caxo, e dotrinaia
+  s''a p\u0153u d\u00e2 l\u0153ugo a ''n\u2019evento\u00e2 consoetuddine. De norma
+  a lezze canonnega a p\u0153u ese abrog\u00e2 da ''na lezze posteri\u00f4; l\u2019abroga\u00e7ion
+  a se dixe espressa (can. 20) quande a n\u0153uva lezze a l''aferma espli\u00e7itamente
+  che a precedente a l''\u00e8 abrog\u00e2 (derogatio), ta\u00e7\u00e7ita quande risurta
+  incompatibbile con quest\u2019urtima \u00f2 quand''a discipri\u00f1a ex novo e de
+  mainea integrale tutta a mateia ogetto da lezze precedente (abrogatio). A lezze
+  univers\u00e2, a meno che no segge espressamente previsto, a no derroga aff\u00e6to
+  e lezze particol\u00e6 \u00f2 speciale. Into dubbio a lezze preexistente a no se
+  prezumme mai abrog\u00e2 e, pe quante poscibbile, a dev''\u00ease armoniz\u00e2
+  co-a precedente norma\u00e7ion.\\nFixica e filozofiacangia\\nNorma da-a qu\u00e6
+  l''\u00e8 regolao un determinao f\u00e6to \u00f2 fenommeno natur\u00e2. Into lenguaggio
+  scientiffico, lezze a l''\u00e8 a preciza\u00e7ion do moddo co-o qu\u00e6, in de
+  determin\u00e6 circostan\u00e7e, saiv''a d\u00ee poste determin\u00e6 caoze, se
+  ripete \u00e7erti fenommeni comme effetto de quelle. Questo l''\u00e8 veo segge
+  che a lezze a se riferisce solo ch''a-i aspetti qualitativi do ligamme (lezze qualitativa)
+  segge ch''a se traduxe inte ''na rela\u00e7ion quantitativa intercorente tra grande\u00e7\u00e7e
+  che intervegnan inti fenommeni conscider\u00e6 (lezze quantitativa). Una lezze a
+  p\u0153u esprimme de rela\u00e7ioin de natua astr\u00e6ta e gener\u00e2 (lezze asciomattiche
+  che no descendan da di enon\u00e7i\u00e6 ciu generali: prez., a lezze de inverse
+  inta logica matematica); opp\u00f9 de rela\u00e7ioin de ciu \u00f2 meno diretta
+  deriva\u00e7ion speriment\u00e2 (lezze empiighe: prez., a lezze de van der Waals;
+  lezze statisteghe: prez., a lezze de distribu\u00e7ion di erro\u00ee). Se ''na lezze,
+  qualunque segge a so natua e a so origgine, a g''ha validit\u00e6 gener\u00e2 a
+  ri\u00e7eive o nomme de prin\u00e7ippio, mentre l''\u00e8 ciu apropiao parl\u00e2
+  de lezze quande questa a g''ha ''n contegnuo ciu restreito (prez., lezze di gaz
+  perfetti). A lezze a l''\u00e8 otr''a \u00e7o ''na condi\u00e7ion, \u00f2 ''n insemme
+  de condi\u00e7ioin, a-e qu\u00e6 deve sodisf\u00e2 di determin\u00e6 enti \u00f2
+  grande\u00e7\u00e7e: prez., una lezze oaia imposta a-o moto de ''n ponto, a lezze
+  de ''na for\u00e7a ecc.\\nSci ben che remonte originaiamente a-o pensceo grego l\u2019idea
+  che o mondo natur\u00e2, in analogia con quello uman, o segge governao da de lezze,
+  l''\u00e8 soltanto in eppoca moderna che nasce o concetto de lezze natur\u00e2,
+  inteiza comme rela\u00e7ion constante (a l''uzo formul\u00e2 matematicamente) tra
+  di fenommeni distinti \u00f2 tra aspetti de ''n m\u00e6ximo fenommeno, a qu\u00e6
+  scoverta a rapresenta o compito speciffico da scien\u00e7a. Caratteristega de ''na
+  lezze natur\u00e2 a l''\u00e8 l\u2019universalit\u00e6, oss\u00e6 o so ese vallida
+  sen\u00e7a ecce\u00e7ioin pe ''na totalit\u00e6 de caxi de ''n \u00e7erto ambito.
+  Se e lezze scientiffiche seggian asc\u00ec provviste de necescit\u00e6, otra che
+  d''universalit\u00e6, o l''\u00e8 problema variamente dibattuo. D. Hume, e qu\u00e6
+  texi han influen\u00e7ao gran parte de conce\u00e7ioin poxitivisteghe \u0153utto\u00e7entesche
+  e n\u0153uve\u00e7entesche, o negava recizamente l\u2019existen\u00e7a de ''na connescion
+  necessaia tra di eventi da-a qu\u00e6 succescion constante s''origini\u00e6 l\u2019idea
+  de ''na rela\u00e7ion caozale: e lezze caosale esprimieivan soltanto de regolarit\u00e6
+  empiighe. Insci-\u00e2 base de l''anallixi humia\u00f1a, A. Comte, J.S. Mill e i
+  empiristi contempoa\u00f1ei han consciderao e lezze natur\u00e6 (caosale e no caosale)
+  comme di aser\u00e7ioin ch''esprimman nint\u2019atro che de concomitan\u00e7e regol\u00e6
+  ricavabbile empiricamente e enon\u00e7iabbile trammite de conrela\u00e7ioin fon\u00e7ion\u00e6,
+  non ascimilabbile a di asser\u00e7ioin mod\u00e6 de necescit\u00e6. Nonostante arcu\u00f1e
+  influente texi in sci\u00f4 carattere conven\u00e7ion\u00e2 de lezze scientiffiche
+  (specce de E. Le Roy) \u00f2 in sci\u00e2 so natua de rela\u00e7ioin scimbolliche,
+  ni vee ni fase, ma soltanto ciu \u00f2 meno adegu\u00e6 a esprimme \u00e7erti d\u00e6ti
+  speriment\u00e6 (P. Duhem), e discuscioin c''han avuo ciu vasta eco inta filozofia
+  da scien\u00e7a do N\u0153uve\u00e7ento son st\u00e6te quelle interne a-o neopoxitivismo,
+  e se deve a C.G. Hempel e E. Nagel i magio\u00ee tentativi pe defin\u00ee a no\u00e7ion
+  de lezze scientiffica.\\nLenguistegacangia\\nDa-o 19\u00b0 sec. o concetto de \u2018lezze\u2019
+  (tod. Gesetz) o vegne d\u0153uviao, metaforicamente, into campo da lenguistega storica
+  pe indic\u00e2 ''n sviluppo de natua regol\u00e2 e scistematica, privo dunque d''ece\u00e7ioin,
+  tranne quelle spiegabbile comme effetto de di condi\u00e7ionamenti particol\u00e6.
+  Una lezze a p\u0153u rifeise a qualunque sett\u00f4 de ''na lengua, da-a fonologia
+  (lezze fonetica) a-a morfologia e a-a scintasci (prez. a lezze de Wackernagel pe
+  l\u2019ind\u0153\u00fcropeo antigo \u00f2 a lezze Tobler-Mussafia pe e lengue roman\u00e7e).\\nA
+  lezze fonettica (ted. Lautgesetz) a constitoisce o tipo ciu frequente e importante
+  de lezze lenguistega. A codiffica di sviluppi fonologgichi regol\u00e6 \u2013 \u2018ineccepibbili\u2019
+  inta defini\u00e7ion di Neogramattichi \u2013 into corso de l''evolu\u00e7ion storica
+  de ''na lengua \u00f2 into passaggio da ''na fase preistorica a u\u00f1a document\u00e2.
+  Tra e ciu notte de ciu che 20, individu\u00e6 inte lengue indo\u0153\u00fcropee,
+  gh''\u00e8 e lezze de Grimm, rifeie a-e ocluxive germa\u00f1iche, a lezze de Grassmann,
+  ch''a l''interessa i aspi\u00e6 greghe e sanscrite, a lezze de Lachmann, che into
+  latin a reggola a quantit\u00e6 vocallica inti parti\u00e7ippi perfetti. Verso a
+  fin do 19\u00b0 sec. l\u2019ineccepibilit\u00e6 de lezze fonetiche a fu revoc\u00e2
+  in dubbio da romanisti e dialetolloghi, a part\u00ee da H. Schuchardt, insci-\u00e2
+  base de l''inregolarit\u00e6 e da varia\u00e7ion tippiche de lengue e dialetti roman\u00e7i;
+  anc\u0153u se p\u0153u ritegn\u00ee, con W. Belardi, che e lezze fonettiche no seggian
+  un tr\u00e6to univers\u00e2, ma tr\u0153uvan ina motiva\u00e7ion a l''interno de
+  speciffiche struttue lenguisteghe, comme quelle de lengue indo\u0153\u00fcropee
+  antighe.\\nReligioncangia\\nInte l''Antigo Testamento, o concetto de lezze o g''ha
+  ''n scignificao \u00easen\u00e7ialm\u00e8nte religiozo, comme insemme de norme rivel\u00e6
+  direttamente da D\u00ea a-o poppolo ebraico; in particol\u00e2 in questo l''\u00e8
+  d\u00e6to o nomme de T\u014dr\u0101h \u00f2 lezze a-o Pentate\u00fcco, into qu\u00e6
+  l''\u00e8 contegnuo a parte fondament\u00e2 de queste norme. D\u2019atra parte t\u014dr\u0101h
+  o g''ha an\u00e7itutto o scignificao de \u2018insegnamento\u2019 (per ecelen\u00e7a)
+  e lezze inte di caxi o l''\u00e8 scinonnimo de Sacra Scritua: Salmi 1; 19, 8-15
+  e 119. Into Pentate\u00fcco a lezze quindi, sen\u00e7a distingue tra sacro e profan,
+  a no contegne solo de dispoxi\u00e7ioin regolatrixe di rapporti umoen, ma an\u00e7itutto
+  a definisce i rapporti tra Yahweh e Israele, ligandose streitamente a l''idea de
+  \u2018patto\u2019 \u00f2 \u2018alian\u00e7a\u2019 tra D\u00ea e o so poppolo. A
+  s''esprimme daprimma oralmente, de man in man, in sce di caxi particol\u00e6, pe
+  o trammite di sacerdoti e di profeti; quindi a vegne redatta pe tappe succescive
+  fin a-a codifica\u00e7ion into c\u00e0nnone biblico, assumendo progrescivamente
+  un carattere assoluo.\\nContra l\u2019assolutizza\u00e7ion da lezze polemizza indirettamente
+  Gexo inti Vangeli: segge con l\u2019adot\u00e2 di comportamenti de gran libert\u00e6
+  ap\u00e8 de institu\u00e7ioin (o sabbo, o divor\u00e7io, o Tempio) e de perso\u00f1e
+  giudic\u00e6 impue da-a lezze (levroxi, samariten, pubrichen ecc.) segge co-o subordin\u00e2
+  a lezze a-a predica\u00e7ion do regno de D\u00ea e a l''acugen\u00e7a da so m\u00e6xima
+  perso\u00f1a. Da parte so Paolo, oponendose a-i giud\u00ea-crestien che favan coexiste
+  a fe'' in Cristo con l\u2019oservan\u00e7a da T\u014dr\u0101h, o tratta espli\u00e7itamente
+  o tema de l''inutilit\u00e6 da lezze e di \u0153uvie da questa comand\u00e6 into
+  processo da giustifica\u00e7ion denanti a D\u00ea (Gal. 2,16; Rom. 3,28): \u00abO
+  terme da lezze o l''\u00e8 Criste\u00bb (Rom. 10,4).\\nReferen\u00e7ecangia\\nwww.treccani.it\"",
+  "\"Monegheximo\\nMonegheximo - complesso fenommeno religiozo pe-o qu\u00e6, inte
+  magio\u00ee religioin, di individdoi s''alonta\u00f1an da-a consueta vitta sociale,
+  pe realiz\u00e2 into moddo ciu completo i prin\u00e7ippi da fe'' in vitta solitaia
+  (anacoretismo) \u00f2 in vitta de comunit\u00e6 (cenobitismo).\\nTipi de monegheximo[C\u00e0ngia
+  | modifica wikitesto]\\nInte l''induismo se riscontra segge o fenommeno de l''anacoretismo,
+  pe-o qu\u00e6 di scingoli individdoi se retian a vive in solitudine dedicandose
+  a-a contempla\u00e7ion e a-a mortifica\u00e7ion da carne, segge quello do cenobitismo,
+  a l''uzo intorno a ''n meistro de vitta sprito\u00e2 che, co-a renon\u00e7ia do
+  mondo, o l''aseg\u00fbe a sarve\u00e7\u00e7a a-i discippoi. Questi devan pratic\u00e2
+  povert\u00e6 e vitta itinerante rifugiandose inti monest\u00ea solo in caxo de necescit\u00e6.
+  O monest\u00ea jainistego o se destacca da l''induismo pe mao scistemati\u00e7it\u00e6
+  organizativa: i mo\u00f1eghi jainisti (s\u0101dhu), dopp''in periodo d''ini\u00e7ia\u00e7ion,
+  vivan in convento sotta a guidda de ''n meistro de vitta sprito\u00e2. Fra i an\u00e7ien
+  vegne eletto un cappo aministrativo e disciprin\u00e2 (\u0101ch\u0101rya), a-o qu\u00e6
+  ogni mo\u00f1ego o l''\u00e8 tegnuo a f\u00e2 a so confescion.\\nO monest\u00ea
+  o costituisce a spi\u00f1a dors\u00e2 do buddismo, fando remont\u00e2 a so origgine
+  a-o Budda m\u00e6ximo ch''o l''a\u00e7et\u00f2 fra i so monneghi de gente d''ogni
+  casta sociale, rendendo a tutti poscibbile a perfe\u00e7ion monastega co-a prattica
+  da povert\u00e6, a renon\u00e7ia a-i ben monden e a medita\u00e7ion. In origine
+  viventi in cabanne \u00f2 in caverne, i mo\u00f1eghi budisti han da p\u0153u construio
+  di monest\u00ea, di qu\u00e6 molti \u00e7ellebri pe riche\u00e7\u00e7a, bele\u00e7\u00e7a
+  artistega e sci\u00f1a pe possan\u00e7a politica. Pe l\u2019intr\u00e2 inta vitta
+  monastega o buddismo o l''exigge, co-o consenso di genito\u00ee pe i mino\u00ee,
+  a sola espli\u00e7\u00e7ita recesta, doppo a qu\u00e6 l\u2019aspirante, ammisso
+  a ''n periodo de novi\u00e7iato, o renon\u00e7ia a ogni so possesso, a l''inf\u0153ua
+  de ''na copetta e trei sai (a l''uzo de c\u00f4 giano). I so voti, per\u00f2, e
+  i so impegni no son mai inrevocabbili, percose o monego buddista o l''\u00e8 delongo
+  libero de torn\u00e2 a-o mondo.\\nInto crestianeximo, o monest\u00ea o l''ebbe e
+  so primme gren esprescioin inte l''anacoretismo de s. Antogno, meistro in Egitto
+  de ''na gran quantit\u00e6 d''ermitti, a-i qu\u00e6 s''ascianca pe importan\u00e7a
+  e nummero di discippoi o cenobitismo de s. Pacomio inte l''ata Tebaide durante o
+  4\u00b0 secolo. A ter\u00e7a importante manifesta\u00e7ion do monest\u00ea ciu antigo
+  fun e laore bizanti\u00f1e. Tutte queste forme exigeivan o completo destacco da-o
+  mondo e ''na severa discipri\u00f1a de vitta (zazun prolongao, astinen\u00e7ia da-i
+  \u00e7ibbi carnei, perfetta castit\u00e6). Diffuzose inte l''Axia Min\u00f4, o monest\u00ea
+  o ghe pigi\u00f2 p\u00ea, specce inta forma cenobittica, da qu\u00e6 o ciu gran
+  teorico o fu san Baxiio de Cezarea, e o l''ebbe pe seccoli ''na noteive scioitua,
+  curmin\u00e2 inti gren monest\u00ea de Costantinoppoli e inta complessa organiza\u00e7ion
+  monastega do Monte Athos. Importao da l''Oriente a-a fin do 4\u00b0 sec., o monest\u00ea
+  otra ch''a Romma, pe l\u2019exempio e l\u2019impurso de san Gi\u0153umo, o s''aferm\u00f2
+  in Itallia, in Gallia, in Affrica, in Spagna, in Irlanda. A tutte queste forma\u00e7ioin
+  monasteghe impoze lentamente, ma tena\u00e7emente e dueivemente, a so impronta a
+  reggola de san Beneito che, continoando a megio tradi\u00e7ion do monest\u00ea orient\u00e2,
+  a se ne distingue per\u00f2 nettamente pe a so modera\u00e7ion inte prattiche ascettiche,
+  pe l\u2019acento\u00e2 capa\u00e7it\u00e6 organizativa, pe l\u2019importan\u00e7a
+  d\u00e6ta a-a preghea canonnega, pe l\u2019obrigo da stabilit\u00e6 do mo\u00f1ego
+  into monest\u00ea, ma mascime pe-o riconoscimento de l''importan\u00e7a do travaggio
+  segge mano\u00e2 (travaggio agricolo) segge inteleto\u00e2 (studdio, transcri\u00e7ion
+  di codexi). Inti secoli o monest\u00ea beneitin, pu arestando identico a l\u00ea
+  m\u00e6ximo inte so linnie fondament\u00e6, o l''ha saciuo adatt\u00e2se a i exigen\u00e7e
+  storriche che de votta in votta han imposto de riforme. Cosc\u00ec, contra o relasci\u00e2se
+  da discipri\u00f1a monastega fin da-o 779 s. Beneito d\u2019Aniane o reize ciu severo
+  l\u2019ascetismo da reggola beneiti\u00f1a. Inti primmi dexenni do 10\u00b0 sec.
+  invece, pe costito\u00ee ''na sada unit\u00e6 contra o prepoei da fe\u00fcdalit\u00e6
+  laica, Cluny, desligandose da-a dipenden\u00e7a da-i veschi e sottoponendose direttamente
+  a-a Curia roma\u00f1a, o l''origin\u00f2 a riforma clunia\u00e7ense. A questa se
+  contrapoze da p\u0153u o movimento \u00e7ister\u00e7ense, ch''o l''ebbe o so ciu
+  ato esponente in san Benardo de Ciaravalle. Riforma do monest\u00ea beneitin son
+  i cam\u00e2do\u00e8ixi e i \u00e7ertoxin, senscibbili a i exigen\u00e7e de l''ermitismo,
+  i vallombrozen ecc.\\nReferen\u00e7e[C\u00e0ngia | modifica wikitesto]\\nwww.treccani.it\"",
+  "\"no bes\u0153ugna d\u00e2 mente \u00e0 re lengue catt\u00ede, e \u00e0 quelli
+  che \u00e7ercan de pre\u00e7ipit\u00e2 ri ommi dra m\u00e6 f\u00e6ta con dre box\u00ede
+  e dre farsit\u00e6; prech\u00e8 bes\u0153ugner\u00e6 tagli\u00e1ghene un parmo,
+  e ci\u00f9 un semezzo.\\nGhig. Re cattive lengue, n\u00e8? pi\u00e7\u00e7afron!
+  No t''h\u00f2 trovao sci\u00f9 ro f\u00e6to, che ti me scannavi un-na pegora?\\nMart.
+  In m\u00e6 zuramento, l''ho ama\u00e7\u00e7\u00e2 prech\u00e8 na o morisse, sci\u00f4.\\nGhig.
+  O che birbo! che mascar\u00e7on! amma\u00e7\u00e7\u00e2ra perch\u00e8 a no morisse?\\nMart.
+  Sci\u00f4 s\u00ec, prech\u00e8 a no morisse de marott\u00eda, prech\u00e8 in t\u00e2
+  caxo bes\u0153ugna sotterr\u00e2ra \u00e0 ro c\u00e1\u00e7iggion d\u2019un \u00e6rboro,
+  pre f\u00e2ne liamme, sci\u00f4 patron; e pre questo gi ama\u00e7\u00e7o primma
+  ch''i m\u0153uran.\\nGhig. (contrafacendolo) Gi ama\u00e7\u00e7o avanti chi m\u0153uran..
+  treit\u00f4, assassin.. bestie, che me fan ra lan-na da f\u00e2 ri panni, che \u00e0
+  ri gonzi ghe vendo per Inghilterra \u00e0 un pe\u00e7\u00e7o ro parmo.. l\u00eavateme
+  davanti, mascar\u00e7on, laddro, \u00e7ento vinti pegore in un meize.\\nMart. Ve
+  sconzuro, sci\u00f4 patron, ch\u2019i guastavan ri atre, credeime.\\nGhig. Ti te
+  n''accorzer\u00e6 doman davanti \u00e0 ro P\u00f3ist\u00e6..\\nMart. Sci\u00f4 patron
+  caro, ve porressi content\u00e2 d''aveime scciappao ra tiesta e rotto gi osse\"",
+  "\"RECENSIONI pubblicate sul Bollettino della A Compagna\\nn 2/2006 a pag. 10 :
+  Si comincia da una figlia, Giardelli Paolo,... .................... allegato 1\\nn.
+  4/2006 12: Mario Carboni, un secolo di solidariet\u00e0 a Sestri Ponente \u201c
+  2\\nn. 1/2009 12 : I parchi, Marcella Rossi .................................................
+  \u201c 3\\nn. 2/2009 12 : Viaggio sentimentale nella grande Genova ...............
+  \u201c 4\\nidem : Nuovo dizionario italiano genovese, F.Bampi ......... \u201c 5\\nidem
+  : Graf\u00eea ofi\u00e7i\u00e2, F.Bampi...................................................
+  \u201c 5\\nidem : Dizionario della cultura brigasca, PL Massajoli....... \u201c
+  6\\nidem : Il poeta di Savona, \u201cBeppin da C\u00e0\u201d, G.Milazzo ...... \u201c
+  7\\nn. 3/2009 12 : Cristoforo Colombo, archeologia della scoperta \u2013D. Roscelli
+  \u201c 8\\nidem : Parolle de Z\u00eana, Franco Bampi ....................................
+  \u201c 9\\nidem : La gatta turchina e il gatto vagabondo, Paolo Lingua . \u201c
+  10\\nidem : Gli Scolopi in Liguria, scelte..., Margherita Priarone . \u201c 11\\nidem
+  : Liguria \u2013 Ville, Parchi, Giardini \u2013 editore DeFerrari .......... \u201c
+  12\\nidem 15 : Da Nonna a Nipote, lezione di cucina e..., MGrazia Daniele \u201c
+  13\\nn. 4/2009 15 : Sentiero delle Terre alte, itinerario, Dario Ottonello ........
+  \u201c 14\\nidem : Baccio Emanuele Maineri, patriota e poligrafo, GL.Bruzzone \u201c
+  15\\nidem : Bibliografia Speleologica Ligure, AA.VV. ...................... \u201c
+  16\\nidem : Obiettivo su Recco, una storia in mille foto, E.Razeto, S.Pellegrini
+  17\\nidem : Garibaldi e la Liguria, Erio Bertorello e Giulio Fiaschini \u201c 18\\nidem
+  : I sciantilin (le calosce), Enrico Scaravelli ........................ \u201c 19\\nidem
+  : Le poesie di un emigrato, Lorenzo Maritano (L\u00f9ensu). \u201c 20\\nidem : L\u2019Oltregiogo,
+  una terra strategica per l\u2019Italia, F.Monteverde \u201c 21\\nidem : Limonte,
+  F.Monteverde ................................................... \u201c 21\\nidem
+  : A-a reversa, in pr\u00f6za zeneize \u00e0 riso raeo, GFranco Mangini \u201c 22\\nidem
+  : Un secolo di solidariet\u00e0 a Sestri Ponente, Mario Carboni \u201c 23\\nn. 1/2010
+  13 : \u201cIl Bugiardino\u201d, 2010, lunario agenda delle terre liguri \u201c 24\\nidem
+  : Un ligure contro Toro Seduto, U.Torretta ..................... \u201c 25\\nidem
+  : Il Forte del Castel di Gavi, Armando DiRaimondo ..... \u201c 26\\nidem : Gli anni
+  di Savignone, Guglielmo Tealdi ...................... \u201c 27\\nn. 2/2010 pag.
+  12 : Corpus delle uniformi civili, Carla Cavelli Traverso... \u201c 28\\nidem :
+  Banca delle tradizioni, Maurizio Sentieri ..................... \u201c 29\\nidem
+  : C\u2019era una volta il Costa del Sol, fra cronaca e fantasia,UGugliotta 30\\nidem
+  : Poggio e san Bernardo di Favaro storia di due..., AA.VV. \u201c 31\\nidem : Ayron
+  Xavi, Jennifer Della Rocca ................................. \u201c 32\\nidem :
+  A volo di gabbiano, storia e amore tra Ge.e Pa., Oriati-Rizzuto \u201c 33\\nidem
+  : Mussolini e la sua Liguria, Marco Massa ..................... \u201c 34\\nn. 4/2010
+  pag. 13 : Mirette Tanska Cambiaso, A.Di Raimondo ................. \u201c 35\\nidem
+  : Il patrimonio artistico di Banca Carige, sculture.., G.RotondiT \u201c 36\\nidem
+  : Partigiano a Triora, Maria Rosa Acri .......................... \u201c 37\\nidem
+  : Batte in Val Polcevera un cuore per l\u2019Africa, CD ...... \u201c 38\\nn. 1/2011
+  pag. 11: Giuseppe Marzari un uomo in frac, Cesare Viazzi .... \u201c 39\\nidem :
+  Finollo dal 1899, Giovanni Meriana ............................ \u201c 40\\nidem
+  : Partigiani una storia di uomini, S.Antonini .............. \u201c 41\\nidem :
+  Pensce \u201ci... pa\u201dolle (pensieri... parole9, V.Bolia ......... \u201c 42\\nidem
+  : Svelati i segreti di C.Colombo, AMSalone, ACalcagno \u201c 43\\nidem : Pegi, nomen
+  a fntibus, AA.VV. .................................... \u201c 44\\nn.2/2011 pag.
+  9 : L\u2019artigianato in Liguria, Maurizio Lamponi ............ \u201c 45\\nidem
+  : \u201cItalia chiam\u00f2\u201d, MTCaprile e FDeNicola ................. \u201c
+  46\\nidem : Le ardesie della Liguria, dalla geografia... RTerranova \u201c 47\\nn.2/2011
+  pag. 9 : Storia di Genova, Enzo Marciante .............................. \u201c
+  48\\nidem 10 : L\u2019acquedotto storico dsi genova, L.Rosselli ...............
+  \u201c 49\\nidem : L\u2019insurrezione genovese del 1849, FBampi e GOneto \u201c
+  50\\nidem : O pescafigeu, ACompagna ............................................
+  \u201c 51\\nidem : Loenso e Lucia i sposo\u00e9i impromissi, NDurante ........ \u201c
+  52\\nidem : Mura e fortificazioni di Genova RDellepiane ............. \u201c 53\\nidem
+  11 : Gabriele Dannunzio genovese, AGCapini ................... \u201c 54\\nidem
+  : La lunga crociata dei genovesi, RViazzi ...................... \u201c 55\\nn.3/2011
+  pag. 16 : Genova tra ottocento e novecento, AA.VV. ................ \u201c 56\\nidem
+  : Gh\u2019ea \u2018na votta... favole, NDurante ............................ \u201c
+  57\\nidem : Il Paradiso dietro l\u2019angolo... CScarsi .............................
+  \u201c 58\\nidem : Moderno Dizionario rapido, FBampi SLusito ........... \u201c
+  59\\nn.4/2011 pag. 11 : I love Liguria, AA.VV. .................................................
+  \u201c 60\\nidem : Piccoli martiri, FDiCaprioF ........................................
+  \u201c 61\\nidem : Progetto Scheue de zena, ACompagna......................... \u201c
+  62\\nn.1/2012 pag. 10 : Di terra di mare SMdCella, Oriati Rizzuto............. \u201c
+  63\\nidem : Il vallo ligure, la linea difensiva..., GFaggioni ..... \u201c 64\\nidem
+  : Quaderni di storia locale, Microstorie,AA.VV. ..... \u201c 65\\nidem : Fortificazioni
+  in Liguria, Minola, Arena, Ronco... \u201c 66\\nidem : Antartide 1975/76, RTerranova
+  ................................. \u201c 67\\nidem : Il battistero di san Giovanni,
+  CMontagni ................ \u201c 68\\nn.2/2012 pag.12 : Le operazioni aeronavali
+  nel mar Ligure, GFaggioni \u201c 69\\nidem : Dall\u2019alba del Risorgimento all,
+  AA.VV. ................. \u201c 70\\nidem : Uniti nell\u2019Italia unita, STringali
+  ................................. \u201c 71\\nn.3/2012 pag. 15 : O prin\u00e7ipin,
+  ADe SaintExup\u00e9ry, AGaribbo ............ \u201c 72\\nidem : Il monte di Piet\u00e0
+  di Gavi, ADiRaimondo ......... \u201c 73\\nidem : Peagna ...........................................................................
+  \u201c 74\\nidem pag. 16 : Le mie prime 100 parole, FBampi, MMerli ................
+  \u201c 75\\nidem : Nino Bixio e le questioni...,AFioravanti, VBozzo .... \u201c
+  76\\nidem : Escursioni e campagne geologiche guidate,RTerranova \u201c 77\\nidem
+  : La duchessa di Galliera, MMascarino ....................... \u201c 78\\nALLEGATO
+  1 - Giardelli Paolo, Si comincia da una figlia... , Le Mani.\\nIl titolo, per essere
+  compreso come detto popolare, va preceduto da dalla prima parte che inizia: \u201cper
+  fare una bella famiglia\u2026\u201d. Ed \u00e8 la femmina, che tiene il bandolo
+  di tutto il libro.\\nIn quei tristi anni relativi al 1800 e dopo (e tristi perch\u00e9
+  nelle campagne spesso i maschietti a quattro anni gi\u00e0 dovevano, scalzi, diventar
+  uomini; e le bambine donne), impostare una famiglia era un grossissimo grattacapo,
+  anche se l\u2019unico mezzo consentito per \u201ccontinuare la specie\u201d. Per
+  il duro lavoro nei campi o per la consegna dell\u2019eredit\u00e0 e del lavoro,
+  occorrevano figli maschi. Le femmine, un po\u2019 per antica usanza, per la loro
+  debolezza nelle occupazioni fisiche, per le gravidanze e per la dote necessaria
+  a sposarle, non erano del tutto gradite. Per\u00f2, se si iniziava con una femmina,
+  ci si consolava con l\u2019avere una \u2018sostituta alla mamma\u2019; una che avrebbe
+  garantito l\u2019attenzione alla prole successiva anche quando la madre fosse divenuta
+  inabile o \u2018mancata di parto\u2019.\\n\u2018Il capo sono io, ma chi comanda
+  \u00e8 mia moglie\u2019; cos\u00ec recitava un detto recente; ma non \u00e8 sempre
+  stato cos\u00ec. Basta andare indietro di un secolo e gi\u00e0 erano tempi in cui
+  i diritti delle donne non esistevano e, di conseguenza, il maschio portava nel bene
+  e nel male ma unilateralmente il peso e la responsabilit\u00e0 di tutte le decisioni
+  fondamentali.\\nTutte, eccetto la sessualit\u00e0 e le sue conseguenze. Queste sole
+  erano in consegna alle femmine. Per\u00f2 garantite ed inquadrate da rigidissime
+  regole: produrre figli ed educarli erano il naturale obbligo loro affidato; e come
+  hobby, lavorare in casa. Cos\u00ec, poco spazio avevano quelle che incappavano nei
+  confini del lecito e peggio per chi ne usciva: i casi di sterilit\u00e0, di violenze,
+  di \u2018ragazze madri\u2019, di aborti, di adozioni forzate; ma anche il sesso
+  dei neonati, le malattie, l\u2019insegnamento delle regole, tutto era a loro carico.\\nL\u2019Autore,
+  forte di una vasta ricerca pluriennale nel territorio Ligure, fa con fredda lucidit\u00e0
+  una mai descritta carrellata delle prospettive di vita di quei tempi in campagna.
+  Semplici, idilliache, in mezzo alla natura; i bambini che giocavano con poco, si
+  addormentavano con dolci o terrificanti ninne-nanna, si premiavano con delle noccioline
+  e spesso neanche andavano a scuola. Ma ahiloro! facevano della fame, vivevano la
+  miseria nella sporcizia senza igiene, pativano il freddo, la fame, le botte, le
+  malattie, le guerre, le cattiverie proprie dell\u2019 ignoranza degli ambienti gretti
+  e superstiziosi; e spesso erano venduti.\\nNon \u00e8 per\u00f2 solo triste narrativa,
+  ma vera storia. Specie dei piccoli centri, dei paesi pi\u00f9 o meno sperduti sui
+  monti, dove la vita scorreva quotidianamente nel lavoro e nel rispetto di antiche
+  tradizioni. E conclude con tutta una serie di gustosissime filastrocche, alcune
+  in dialetto locale, da non perdere.\\nALLEGATO 2 - Mario Carboni, un secolo di solidariet\u00e0
+  a Sestri Ponente, storia della Croce Verde, nuova,Ata.\\nL\u2019Aot\u00f4 definisce
+  o so travaggio unn-a carell\u00e2 de \u00e7ent\u2019anni de sto\u00eea e vitta de-a
+  P.A. Cr\u00f4xe Verde de Sestri. Ma in realt\u00e6 legibile in senso ci\u00f9 vasto:
+  un secolo de vitta italiann-a e zeneize, con l\u2019\u00e9uggio sestrexe; a sottoline\u00e2
+  comm-e a vitta de-a delegaion ea e a l\u2019\u00e8 stretamente leg\u00e2 a quela
+  de-a Grande Zena, seppur mantegnindo unn-a personale autonomia che a favorisce la
+  conserva\u00e7ion de unn-a ben precisa personalit\u00e6 da qu\u00e6 i sestreisi
+  de ancheu van fieri.\\nNon solo a Cr\u00f4xe Verde quindi, che o l\u2019\u00e8 o
+  personaggio prin\u00e7ip\u00e2 do libbro; ma t\u00fbtte e realt\u00e6 sestrexi in
+  to loro evolvise, leg\u00e6 a-a trasforma\u00e7ion industriale e cantieristica.
+  Da l\u2019ini\u00e7iale \u2018o ci\u00f9 piccin commune do Regno\u2019 a un di centri
+  ci\u00f9 determinanti pe o varo do Rex e a cult\u00fba operaia. Quela che l\u2019Aot\u00f4
+  ciamma \u2018a stupenda aventu\u00e2 visci\u00fba da-i sestrexi in \u00e7ent anni\u2019,
+  se leze scorrevolmente anche f\u00eaua da Sestri perch\u00e9 qu\u00e6si tutti i
+  let\u00f4i l\u2019ha vix\u00fba personalmente.\\nALLEGATO 3 - I Parchi, di Marcella
+  Rossi\\nLa A Compagna ha presentato a dicembre il libro \u201cI Parchi\u201d, scritto
+  dalla socia vitalizia e console Marcella Rossi, quinto della collana \u201cQuaderni
+  genovesi di lingua e letteratura\u201d della nostra Associazione.\\nE\u2019 un testo
+  frutto di colloqui avuti con anziani personaggi di Nervi , e racconta i settant\u2019anni
+  che testimoniano il passaggio dal privato al pubblico di un tesoro inestimabile.\\nLa
+  pubblicazione \u00e8 impreziosita dalle illustrazioni di calcografie originali degli
+  allievi dell\u2019Accademia Ligustica di Belle Arti - Corso del prof. Nicola Ottria,
+  oggetto di una mostra temporanea a Palazzo Ducale.\\nIl tema \u00e8 attuale. Escluse
+  le polemiche e le malinconie sui Parchi di Nervi, prossimi ad essere riqualificati,
+  l\u2019attenzione \u00e8 posta sulla comprensione dei meccanismi tecnici e culturali
+  che un tempo mantenevano in vita questo patrimonio storico botanico, per recuperarne
+  i fattori positivi e i criteri utili per un duraturo restauro, conoscere le esperienze
+  passate per interpretare il presente e guardare al futuro.\\nIl titolo generico
+  esprime l\u2019intenzione di prendere i Parchi Storici di Nervi a modello dell\u2019universale
+  significato di parco e di considerare l\u2019importanza che il tema parco-giardino
+  assume nella cultura genovese e ligure.\\nNon solo. Si intende partire da una realt\u00e0
+  locale di spicco e fama per affrontare l\u2019urgente tema dell\u2019uso corretto
+  degli spazi pubblici. Le interessanti testimonianze, riportate dall\u2019autrice
+  con una scrittura snella e vitale, rappresentano un necessario punto di partenza
+  per capire il significato e l\u2019utilizzo dei nostri parchi storici e costituiscono
+  un approccio concreto per dare il giusto valore a un patrimonio culturale che potrebbe
+  perdersi.\\nCi si pu\u00f2 procurare il libro in Sede o durante le conferenze \u201cI
+  marted\u00ec\u201d. Presto si potr\u00e0 trovare alla libreria \u201cPorto Antico\u201d
+  e alla libreria \u201cL\u2019altra met\u00e0 del cielo\u201d a Nervi, dove verr\u00e0
+  nuovamente presentato.\\nALLEGATO 4 - VIAGGIO SENTIMENTALE di Piero Pastorino Editore
+  De Ferrari \u2013 2007 - Pagine 152.\\n\u00c9mmo ri\u00e7ev\u00fbo p\u00ea inricch\u00ee
+  a nostra biblioteca, o libbro \u201cViaggio sentimentale nella Grande Genova\u201d,
+  edito postumo da l\u2019edit\u00f4 De Ferrari, scr\u00eeto da Piero Pastorino, grande
+  giornalista xeneise pluripremiou, aut\u00f4 di \u00e2tri libbri a tema locale, scomparso
+  in to 2006.\\nIn te so paggine, l\u2019Autou percore a \u00e7it\u00e6 da ponente
+  a levante e in to interno, sofermandose p\u00ea ogni Comunn-e \u2013 aborrisce a
+  parolla delegation \u2013 da V\u00f6tri a sant\u2019Il\u00e2io, a Pontedeximo e
+  a Struppa \u2013 precisando in ta prefazion che Zena, unica \u00e7it\u00e6 italiann-a
+  a no l\u2019ha unn-a periferia ma a l\u2019\u00e8 l\u2019union de tante diverse
+  anime; p\u00ea ciasched\u00fbnn-a de-e qu\u00e6 o se sofferma a d\u00eascrivine
+  episodi caratteristici, vi\u00e7ende umann-e, personaggi, dinastie imprenditori\u00e0li,
+  f\u00e6ti inediti e curiosi, tutti scr\u00eeti co.o tratto veloce e sintetico, ma
+  coinvolgente, tipico de o bon giornalista che con poche parolle o sa trasmette a
+  partecipation emotiva mista a ciaessa de-a cronaca. Insomma, no a stoia d\u00ee
+  singoli borghi; ma un rapporto amicale con ciasched\u2019un de l\u00f2, in moddo
+  da compil\u00e2 un \u201cviaggio sentimentale\u201d.\\nAbbiamo ricevuto per arricchire
+  la nostra la biblioteca, il libro \u201cViaggio sentimentale nella Grande Genova\u201d,
+  edito nel 2007 da De Ferrari, scritto da Piero Pastorino, grande giornalista pluripremiato
+  genovese, gi\u00e0 autore di altri tre libri a tema locale, scomparso nel 2006.\\nIl
+  testo, presentato alla Berio nel marzo 2008, costa 16 euro.\\nNelle 152 pagine,
+  l\u2019Autore scorre la citt\u00e0 da ponente a levante e nell\u2019interno, soffermandosi
+  per ogni Comune \u2013 aborrisce il termine delegazione \u2013 da Voltri a Sant\u2019Ilario,
+  a Pontedecimo ed a Struppa \u2013 precisando in prefazione che Genova, unica citt\u00e0
+  italiana, non ha periferia ma \u00e8 l\u2019unione di tante anime diverse; per ciascuna
+  delle quali si sofferma a descriverne episodi caratteristici, vicende umane, personaggi
+  e dinastie imprenditoriali. In genere fatti inediti e curiosi, tutti scritti col
+  tratto veloce e sintetico, ma coinvolgente, tipico del buon giornalista che con
+  poche parole sa trasmettere la partecipazione emotiva mista alla chiarezza della
+  cronaca.\\nInsomma, non la storia dei singoli borghi, da affidare a testi storici
+  pi\u00f9 approfonditi; ma un rapporto amicale con ciascuno di essi, in modo di compilare
+  un \u201cviaggio sentimentale\u201d; come guardando le strade e le case, percorrendo
+  la citt\u00e0 a piedi o in tram. \u00c9 riuscito nell\u2019intento di farci conoscere
+  meglio casa nostra; e cosa graditissima, arricchiti, a farcela amare un pochino
+  di pi\u00f9.\\nEzioBaglini Inviato a Paolo GPiana\\nALLEGATO 5 - Bampi, Franco \u2013
+  Nuovo Dizionario Italiano \u2013 Genovese \u2013 Illustrato e commentato.\\nNuova
+  Editrice Genovese. Ottobre 2008. pagine 448 \u2013 Euro 14,50\\n- Bampi Franco \u2013
+  Graf\u00eea ofi\u00e7i\u00e2 \u2013 opuscolo n. 1 della \u2018Collana Bolez\u00f9mme\u2019\\nSociet\u00e0
+  Editrice Sampierdarenese. Gennaio 2009. pag.36 - Euro 3,00\\nCon dui diversi edit\u00f4,
+  o nostro Prescid\u00e9nte \u2013 sensibile ci\u00f9 che mai all\u2019\u00fbzo do
+  dial\u00e9tto \u2013 o l\u2019ha\\nRecentemente publicou dui travaggi suvia o tema
+  a coeu: o \u201cNuovo... ...; e l\u2019opuscolo \u201cGrafia ...\u201c.\\nNo l\u2019\u00e9
+  mai as\u0153 sottolini\u00e2 l\u2019inport\u00e0nsa de simili publicazioin, in epoca
+  in cui l\u2019uso do\\ndial\u00e9tto tende inesorabilmente a entr\u00e2 in te nozioin
+  storiche do \u201cperd\u00f9o irrimediabilmente\u201d; e -\\ndimmoselo ciaeo \u2013
+  pe c\u00f3lpa nostra (incapacitae e/o indolenza). In meno de ottant\u2019anni, o
+  l\u2019\u00e8 st\u00e6to\\nda primma l\u2019italian che o l\u2019ha emarginou drasticamente
+  l\u2019\u00f9so commune; poi in te neuve\\ngenera\u00e7ioin o l\u2019ha peggiorou
+  a situasion l\u2019uso de l\u2019ingleise; \u00f3ua, novello Attila, lingui\u00e7ida,
+  o l\u2019\u00e9 a\\ntelematica (computer e SMS), incapace de espr\u00ecmme a muxicalit\u00e6
+  do nostro lengo\u00e0ggio.\\nFranco Bampi o l\u2019ha vosciu risal\u00ec a chinn-a
+  semplificando a o maximo: primma o vocabolaio, che o\\nl\u2019\u00e9 \u201citalian-zeneize\u201d,
+  speculare a o Casaccia, o qu\u00e6 o l\u2019\u00e8 part\u00eco da-a necesit\u00e6
+  d\u2019insegn\u00e2 l\u2019italian; poi\\na \u201cGrafia\u201d che respetando e-esigense
+  de l\u2019Acad\u00e9mia Ligustica do Br\u00e9nno\u201d o l\u2019ha cercou de port\u00e2
+  a-\\nO minimo e regole, a grafia, i ac\u00e9nti; tutti osdtici a-o moderno moddo
+  de esprimmise\\nd\u00e2 quindi a-a nostra lengua semplici regole, sfoltie a-o maximo
+  ma \u00e2tret\u00e0nto sufi\u00e7\u00e9nti a f\u00e2la\\nl\u00eaze e scr\u00eeve
+  univocamente; gestibili fa\u00e7ilm\u00e9nte con \u2018na rapida let\u00fba. Dov\u00e9ivan
+  \u00ease uz\u00f2u\u00ea da\\ntutti, po\u00eati, m\u00f9xicisti, ato\u00ee, p\u00f2polo
+  com\u00f9n. E-e dui publica\u00e7ioin purian \u00ease a barca de\\nsarvat\u00e0ggio
+  che a porti\u00e2 a riva l\u2019uso do zeneise parl\u00f2u e scr\u00eeto.\\nPertanto,
+  no purian manc\u00e2 in nisciunn-a libreria di quei che veramente amman Zena.\\nO
+  l\u2019\u00e8 infine doveroso da p\u00e0rte m\u00e6 \u2013 anche contro a voent\u00e6
+  de l\u2019Aut\u00fb \u2013 sotoline\u00e2 che, pe\\nambedui e publicazioin \u2013
+  comme anche o libbro \u2018i Parchi\u2019 de-o console Marcella Rossi\\nPatrone,
+  recensio o meise passou \u2013 nisciun vantaggio economico o l\u2019\u00e8 and\u00e6to
+  a-i Aotoi che han\\ndevol\u00fbo o benefi\u00e7io a l\u2019Associazion e a-e poscibilit\u00e6
+  de fal\u00e7ile acquisto, esendo mir\u00e6 a-o\\nspantegamento in t\u00f9tte e c\u00e2ze,
+  e no a \u2018n\u2019edi\u00e7ion de l\u00f9sso.\\nI libbri porian \u00ease acquist\u00e6
+  in te librerie; l\u2019opuscolo anche in te edicole, ordinandoli; oppure\\nprenotandoli
+  a-i \u201cMartedi\u201d in to palasso Ducale\\nALLEGATO 6 - DIZIONARIO DELLA CULTURA
+  BRIGASCA di Massajoli Pierleone\\nVol. IV. - Edizioni dell\u2019Orso \u2013 2008
+  \u2013 pag.345\\nIn territorio italiano \u00e8 posizionata all\u2019estremo occidentale
+  delle Alpi Marittime; ma per la massima parte \u00e9 sconfinante in Francia. Comunque,
+  la popolazione di Briga ha conservato, per nostra fortuna e per loro bravura, una
+  forte personalit\u00e0 ed ascendente italiano \u2013 come cultura, tradizioni, dialetto
+  -. Dimostrati con la regolare uscita della rivista \u201cil Nido d\u2019Aquila\u201d
+  e con i precedenti volumi relativi al \u201clessico\u201d, alla \u201cgrammatica\u201d
+  ed alle \u201cvoci della tradizione\u201d. Ultimo questo IV volume, il Dizionario
+  di Cultura Brigasca (ovvero \u201cglossario etnolinguistico comparato, delle Alpi
+  Liguri Marittime\u201d). In esso viene allargata la ricerca, conoscenza e mantenimento
+  anche dei dialetti vicini Tendasco, Saorgino-Fontanenco, Breglienco, Olivettese
+  e di etimi di tutta la val Roia.\\n\u00c9 con opere come queste, che si mantiene
+  viva la Liguria ed i Liguri.\\nALLEGATO 7 - il poeta di Savona Giuseppe Cava (Beppin
+  da Ca) , Di Milazzo Giuseppe \u2013 Sabatelli ed. 2007\\nPersonaggio ben conosciuto
+  \u2018o Beppin\u2019 per numerose edizioni di poesie e narrativa, in dialetto ed
+  in italiano, storica e giornalistica, sui quotidiani genovesi. Epicentro, Savona.\\nMa
+  la prefazione del libro allerta, e chiama ad una approfondita lettura del libro
+  perch\u00e9 quell\u2019uomo descritto fino ad oggi da numerosa saggistica, quale
+  autore sensibile, romantico, poetico, il vate di Savona, \u00e8 in realt\u00e0 solo
+  la punta dell\u2019iceberg. Perch\u00e9 Beppin era s\u00ec vulcanico, granitico,
+  volitivo, creativo; ma con un \u201cdifetto\u201d per il quale definirlo scomodo
+  \u00e8 dir poco: un controcorrente storico.\\nUn rispettoso, ma pugnace e convinto
+  anarchico, antimilitarista e anticlericale.\\nC\u2019\u00e8 da leggere il libro,
+  per sapere come da buon lottatore ha orgogliosamente superato in maniera brillante
+  l\u2019amputazione di un arto; convissuto una societ\u00e0 bigotta e giolittiana;
+  maldigerito una guerra mondiale ed una dittatura.\\nE questo, perch\u00e9 essere
+  stato costantemente \u2018uno stonato, fuori del coro\u2019, nonch\u00e9 aver provato
+  anche un po\u2019 di carcere e di domicilio coatto.\\nALLEGATO 8 - Davide Roscelli
+  - Cristoforo Colombo, archeologia della scoperta \u2013\\ned. Bastogi.2006 \u2013
+  pagg. 240\\nMi ho conosci\u00fbo personalmente o dot\u00f4 Davide Roscelli a-i Martedi
+  da-A Compagna a-o Ducale, quande, ottanteseienne o l\u2019\u00e9 vegn\u00fbo a tegn\u00ee
+  na conferensa su Cristoforo Colombo.\\nChi \u00e0mma a st\u00f4ia e i l\u00ecbbri,
+  no po\u00ea non con\u00f3sce i s\u00f4 n\u00f9merosi precedenti trav\u00e0ggi, molti
+  punt\u00e6 a Zena e a Liguria\\nDe o nostro concittadin Colombo, anpiscima e univers\u00e2le,
+  \u00e0 l\u2019\u00e8 a bibliografia: migliaia de tratt\u00e2ti in tutte e lengue,
+  han analisou in to dettaggio a s\u00f2 st\u00f6ia: a famiggia e a personn-a, a \u00e7itt\u00e6
+  de nascita e-a vitta, a scoverta e i tri\u00f6nfi, e motificazi\u00f6n e a morte.
+  Eppure, gh\u2019\u00e8 sempre da scrov\u00ee quarcosa de n\u00eauvo.\\nInf\u00e6ti
+  Roscelli descrive o grande amir\u00e0lio con un t\u00e0ggio introspetivo difer\u00e9nte
+  da-i \u00e4tri. Gi\u00e0 ari\u00easce a-incurios\u00ee o let\u00f4, da-a copertinn-a,
+  stuzzicandolo con ci\u00f9 notissie: a famiggia, poich\u00e9 i Cristoforo Colombo
+  son ci\u00f9 d\u2019un, e di essi dui, anche lou distinti amir\u00e0li; \u00e2tra,
+  che o l\u2019\u00e8 in graddo de d\u00ec a d\u00e6ta de nascita (e, a pag. 192,
+  anche l\u2019arbo genealogico). No basta. Poich\u00e9 p\u00ea comprende un personaggio
+  l\u2019\u00e8 indispensabile inser\u00eelo in to periodo da so v\u00ectta, Roscelli
+  precisa in to sottot\u00ectolo che o libbro mira anche ad analizz\u00e2 a \u201carcheologia
+  de a scoverta, e de-e civilt\u00e6 amerinde\u201d. Non \u00fbrtima \u2018chicca\u2019
+  un-a vasta e completa iconografia, spieg\u00e2 d\u00ee vari ritr\u00e6ti de Colombo.\\nALLEGATO
+  9 - Parolle de Z\u00eana, Franco Bampi \u2013 editrice S.E.S. 2009 \u2013 pp.36\\nD\u00f2ppo
+  Graf\u00eea ofi\u00e7i\u00e2, o nostro Prescidente ha f\u00e6to sciort\u00ee o seg\u00f3ndo
+  volummetto de-a \u201cCollana Bolez\u00f9mme\u201d, co-o beneplacito de l\u2019Academia
+  Lig\u00f9stica do Br\u00e9nno. Poche pagine, ma d\u00e9nse de parolle zen\u00e9izi
+  scr\u00eete in grafia ofi\u00e7i\u00e2, suddivise in temi, un pe ogni faci\u00e2ta;
+  cosci, l\u00e9zendo un-a pagina a-o gi\u00f3rno, in poco tempo e in forma demo\u00e2nte,
+  se inpara un vasto vocabolaio con parolle ad \u00fbzo apropriou.\\nALLEGATO 10 -
+  La gatta turchina e il gatto vagabondo, Paolo Lingua \u2013 editore De Ferrari2009
+  \u2013\\nRomanzo-favola che ha da metafora alla nostra vita cittadina, dalla politica
+  delle scelte alle difficolt\u00e0 quotidiane, che ruotano attorno ad una storia
+  d\u2019amore tenerissima.\\nALLEGATO 11 - Gli Scolopi in Liguria, scelte artistiche
+  e iconografiche, Margherita Priarone \u2013 De Ferrari 2009 \u2013 pagg.80\\nUn
+  affascinante saggio, riportante la propria indagine svolta sia sull\u2019esistenza
+  dei padri Scolopi, dal 1621 a Carcare e poi anche a Genova; sia sui legami di committenza
+  con famiglie di rilievo dell\u2019aristocrazia locale; e sia sulle chiese e scelte
+  artistiche che le hanno arredate.La Professoressa ha cos\u00ec evidenziato un primato
+  della Liguria per l\u2019attivit\u00e0 svolta dai Padri sia a livello educativo
+  ed istruttivo popolare tramite istituti gratuiti, e sia a livello artistico ed architettonico.\\nALLEGATO
+  12 - Liguria \u2013 Ville, Parchi, Giardini \u2013 editore DeFerrari . 2008 \u2013
+  pagine 64.\\nDescrizione-guida ai ventisette pi\u00f9 belli della Regione, compreso
+  l\u2019orto botanico di Genova e de La Spezia.\\nALLEGATO 13 - Da Nonna a Nipote,
+  lezione di cucina e di vita, Maria Grazia Daniele, editrice De Ferrari, 2009, pagg.
+  120.\\nAccostare ricette e ricordi, \u00e8 un\u2019operazione riuscita a Maria Grazia
+  Daniele, novella cuoca a vantaggio della nipotina Alice; forse proprio in virt\u00f9
+  di un passato familiare tradizionalista maturato in esperienza artistica di figurinista
+  e poi di politico \u2013 quale impegnata senatrice -.\\nDopo aver presumibilmente
+  girato il mondo per motivi professionali, ha raccolto una serie di ricette che spaziano
+  dai bucatini all\u2019amatriciana al limoncello; dalla toscana \u2018ribollita\u2019
+  al filetto in crosta alla Wellington; dal pesto alla genovese...col basilico di
+  Teglia e per gli gnocchi, allo \u2018stocche\u2019 cucinato con ricetta capace di
+  convertire un agnosta del pesce nordico.\\nBell0\u2019approccio in cucina. Ci trasmette
+  che ogni ricetta non \u00e8 riportata a caso o in ordine alfabetico, ma seguendo
+  un filo ben preciso di ricordi, motivazioni e sentimenti i quali, appare evidente,
+  aggiungono al gusto una forza misteriosa e potente.\\nALLEGATO 14 - Sentiero delle
+  Terre alte, itinerario escursionistico nell\u2019entroterra del Ponente Savonese,
+  Dario Ottonello, per la Comunit\u00e0 Montana Pollupice, ed. Coop. Strade, pagg.
+  96\\nALLEGATO 15-, Baccio Emanuele Maineri, patriota e poligrafo, GLuigi Bruzzone
+  tipog. Litografia Ligure, 1999, pagg. 320.\\nL\u00f2u de ri\u00e7erca suvia un personnaggio
+  ligure, da-a vitta visci\u00fba intensamente, qu\u00e6 patriota e poligrafo de Toi\u00e0n;
+  e comme gh\u2019\u00e0 abitu\u00f4 in te so esplora\u00e7ioin o studioso Bruzun,
+  ricca de particol\u00e2ri t\u00f9tti rilev\u00ea da precisa e picat\u00fbosa documenta\u00e7ion.\\nALLEGATO
+  16 - Bibliografia Speleologica Ligure, AA.VV., Cooptipograf, 2006, pag.224 con CD\\nInpegnativo
+  l\u00f2u de cataloga\u00e7ion, pe specialisti. Pe pochi, ma tutti de \u00e8rto liv\u00e9llo
+  na\u00e7ionale.\\nALLEGATO 17 - Obiettivo su Recco, una storia in mille foto, E.Razeto,
+  S.Pellegrini, ed.Microart\u2019s 1986, pagg. 542\\nRazeto o l\u2019\u00e8 \u201cPremio
+  Vito Elio Petrucci 2009\u201d riconosciu da-a Compagna. So e foto in to libbro:
+  un susseguise de imm\u00e0gini, de-a Recco pregu\u00e6ra, a-traverso i bonbardamenti
+  a tap\u00eato do 1943, a-a Recco d\u2019ancheu; da-o garibaldin De Lucchi a-a Pro
+  Recco canpion de ballan\u00eauo; da-i velieri in cant\u00ea in scia m\u00e6nn-a
+  a-e f\u00e8ste patronali. Gli A\u00f4toi forniscian unn-a cosc\u00ec ricca carrell\u00e2
+  de immagini de-a loro \u00e7ittadinn-a, da elev\u00e2 o libbro a fonte fondamentale
+  de-a cult\u00fba storica locale.\\nALLEGATO 18 - Garibaldi e la Liguria, Erio Bertorello
+  e Giulio Fiaschini, ed. Sabatelli per Soc.Operaia Universale \u201cGiuseppe Mazzini\u201d
+  di San Pier d\u2019Arena, 2009, pag.174\\nQuest\u2019opera, a l\u2019\u00e8 nasciua
+  pe onor\u00e2 o segondo \u00e7entenaio de-a nascita do nostro conterraneo, socio
+  onorario de-a Socj\u00eat\u00e6 sanp\u00eadeninn-a, curatto da-i dui suvia \u00e7it\u00e6
+  e con la moltepli\u00e7e colabora\u00e7ion de-o studioso Emilio Costa, mai troppo
+  elogi\u00f4 pe a so vasta c\u00fbltua, modestia e produ\u00e7ion. A veu evidenzi\u00e2
+  e molteplici testimonianse de-a predile\u00e7ion de Garibaldi verso i \u00f2per\u00e2i,
+  in ti qu\u00e6 o scorgieva e v\u00eae molle neces\u00e2ie a f\u00e2 scatt\u00e2
+  a \u2018reden\u00e7ion\u2019 de l\u2019Italia, a scapito di-i intelletuali (i ci\u00f9
+  numerosi tra i Mille) ma testimoni de \u2018n c\u00eato sociale moderou tendensialmente
+  favoevole a-a politica conservatrice. Garibaldi e Zena o l\u2019\u00e8 st\u00e6to
+  un binomio determinante pe o generale, e San P\u00ea d\u2019Aenn-a unn-a fucinn-a
+  logistica, pe \u2013 a-a finne - ariv\u00e2 a-l\u2019Unit\u00e6 de-a Patria, asc\u00ec
+  se sotta l\u2019egida di Savoia.\\nALLEGATO 19 - I sciantilin (le calosce), Enrico
+  Scaravelli, commedia genovese in tre atti \u2013 Consulta Ligure delle Associazioni,
+  ODV Onlus 2008 \u2013 pp.48.\\nALLEGATO 20 - Le poesie di un emigrato, Lorenzo Maritano
+  (L\u00f9ensu), Centro Storico Pietrese e Gente de Liguria \u2013 pp. 220\\nALLEGATO
+  21 - L\u2019Oltregiogo, una terra strategica per l\u2019Italia, F.Monteverde \u2013
+  De Ferrari 2006 \u2013 pagg. 160.\\n- Limonte, Franco Monteverde, De Ferrari 2008.
+  pag. 224\\nDono dell\u2019Aot\u00f4. Dui studdi con temi riproposti e dibatt\u00fbi
+  a m\u00e0zzo 2009, a-i \u201cMartedi de ACompagna\u201d.\\nALLEGATO 22 - A-a reversa,
+  in pr\u00f6za zeneize \u00e0 riso raeo, Mangini GianFranco ed. Frilli 2009, pag.
+  156\\nDono dell\u2019Aot\u00f4. Comensa o libbro, co-o cap\u00ectolo titol\u00f2u
+  \u00abE reixe - ...inte \u2018nn\u2019atra lengua no poieva scrive...\u00bb.; e
+  p\u00f6co d\u00f2ppo anc\u00f2n \u00abMae poae e c\u00f6se o \u00ea capiva: \u201cL\u2019\u00e8
+  m\u00ebgio parl\u00e2ghe ben in zeneize, che m\u00e2 in italian. L\u2018\u00e8 cosc\u00ec
+  che son nasci\u00fao zeneize. Sempre m\u00ebgio de ninte\u00bb. E cosc\u00ec o va
+  avanti a roa libera a narr\u00e2 a so stoia e quella ant\u00eega, a stoia do Balilla
+  e a v\u00ectta de Zena, da go\u00e6ra, de m\u00e9istri e de let\u00eaatua (o so
+  mest\u00ea) e se domanda se a Zena se parli\u00e0 ancon zeneize.\\nO commento scr\u00eeto
+  da-o nostro Prescidente o l\u2019\u00e9 st\u00e6to \u201cdrento gh\u2019\u00e9 de
+  t\u00f9tto\u201d.\\nALLEGATO 23 - Un secolo di solidariet\u00e0 a Sestri Ponente,
+  Mario Carboni ed. Nuova ATA, 2003, per contro della Pubblica Assistenza Croce Verde,
+  pag. 350. (vedi allegato n. 2)\\nL\u2019autore Mario Carboni, definisce il suo lavoro
+  un \u2018diario storico\u2019: una carrellata, anno dopo anno, di cento anni di
+  storia e vita della P.A. Croce Verde sestrese. Ma in realt\u00e0 leggibile in senso
+  pi\u00f9 vasto: un secolo di vita italiana e genovese, con l\u2019occhio sestrese;
+  capace di sottolineare come la vita della delegazione era ed \u00e8 strettamente
+  legata a quella di tutta la Grande Genova, seppur mantenendo una personale autonomia
+  che favorisce la conservazione di una ben precisa personalit\u00e0 di cui i sestresi
+  di oggi vanno fieri.\\nNon solo la Croce Verde quindi, che \u00e8 il personaggio
+  principale del libro; ma tutte le realt\u00e0 sestresi nel loro evolversi, soprattutte
+  quella enorme locale di trasformazione industriale e cantieristica, e nell\u2019essere
+  coinvolte dalle vicende regionali e nazionali. Dall\u2019iniziale \u2018pi\u00f9
+  piccolo comune del Regno\u2019 ad uno dei centri pi\u00f9 determinanti d\u2019Italia
+  per il varo del Rex e la cultura operaia, la quale\\nultima \u00e8 un tutto dire
+  sulla qualit\u00e0 condizionante la politica e la vita del Paese.\\nConciso ma preciso,
+  nel libro si leggono molti personaggi ed avvenimenti collaterali, politici,\\nludici,
+  storici e culturali che hanno fatto la cronaca e la storia: dal terremoto di Messina,
+  al tribunale di Norimberga, alla zanzara tigre.\\nQuella che l\u2019Autore definisce
+  \u2018la stupenda avventura vissuta dai sestresi in cento anni\u2019, si legge scorrevolmente
+  anche fuori da Sestri per i numerosi richiami alla vita genovese in genere ed oltre,
+  e che qualsiasi lettore, da un certo punto in poi, ha vissuto personalmente.\\nMa
+  ripeto, non sfugge il sottile messaggio del desiderio di conservazione di una propria
+  individualit\u00e0, leggendo ripetutamente come i sestresi sono riusciti a stare
+  al passo con la storia e nel contempo realizzare innumerevoli iniziative, affrontandole
+  e superandole con spirito proprio.\\nALLEGATO 24 - \u201cIl Bugiardino\u201d, 2010,
+  lunario agenda delle terre liguri, Consorzio della Quarantina, formato 10x15, pp.
+  130.\\nInt\u2019o libretto se peu l\u00eaze inumerevoli not\u00ec\u00e7ie popol\u00e2ri
+  cintad\u00ecnn-e tipiche d\u2019un lun\u00e2io, \u00f9tili asc\u00ec comme diario,
+  calend\u00e2io, pe-i trav\u00e0ggi in canp\u00e0gna, pe ril\u00eaze inte c\u00e9ighe
+  da mem\u00f6ia i santi patroni, i merco\u00e9i, ....\\nA publica\u00e7ion, t\u00eepica
+  e intregamente ligure, a percore a tradi\u00e7ion us\u00e2 da-o 1474, e poi anc\u00f3
+  into sete\u00e7ento con-o Chiaravalle e inte l\u2019oto\u00e7ento co-i \u201cLun\u00e2i\u201d
+  do \u2018sci\u00f4 Tocca\u2019 e do \u2018sci\u00f4 Reg\u00ecnn-a\u2019, di qua\u00e6
+  o veu \u00ease l\u2019erede.\\nALLEGATO 25 - Un ligure contro Toro Seduto, U.Torretta
+  ediz. Liberodiscrivere. 2009, pp.102.\\nO protangonista se ciamma Gustin Luigi Devoto,
+  e o se diciara zeneize, do 1851. In realt\u00e6, ri\u00e7erche de l\u2019Aot\u00f4,
+  o fan nasciuo de Borgo\u00eauvo de Mez\u00e0nego, donde o s\u2019\u00e8a emigrou,
+  ancun banb\u00ecn, a New York. Cosc\u00ec, e ri\u00e7erche \u00e0n scoverto a so
+  cari\u00eara militare: non s\u00f4lo l\u2019aruolamento\\ninto legendario 7\u00b0
+  Cavaler\u00eea inte l\u2019anno 1873, ma asc\u00ec a so prezensa inta bat\u00e0ggia
+  de Little Big Horn, donde i nativi Sioux \u00e0n sconf\u00eeto o generale Custer
+  e o so rezimento. E \u00e2tretanto presente a-oa legendaio insegoimento d\u00ee
+  Nez Perc\u00e9. Fin a-o congedo, avegn\u00eeo a-a fin de l\u2019anno 1878.\\nPe
+  tutti chi \u00e0n amou i films de \u2018cavalli e p\u00fba\u2019, o l\u2019\u00e8
+  \u2018n libbro da l\u00eaze inte\u2019n sci\u00f2u e da tegn\u00ee in bibblioteca,
+  pe d\u00e2 reale dimen\u00e7ion a-a fantasia.\\nALLEGATO 26 - Il Forte del Castel
+  di Gavi, Armando DiRaimondo Erga, 2008, pp.322.\\nNostro soccio da anni, o Di Raimondo
+  no l\u2019\u00e8 n\u00e9uvo a scr\u00eeve di libbri dopo approfond\u00eete ri\u00e7erche
+  inti archivi, musei, parocchie e consultando singoli colt\u00f4i de stoia tra Z\u00eana
+  e Torin che o l\u2019avesse noti\u00e7ie utili.\\nO l\u2019\u00e0 prodotto un belo
+  vo\u00f9umme, ricco de detagi\u00ea not\u00ec\u00e7ie (\u00f2spiti\\nilustri, condi\u00e7ion
+  de vitta, epidem\u00eee, vest\u00ee e uniformi, ecc.) e asc\u00ec inmagini\\nde
+  Gavi che a l\u2019ea, da-o \u00c7inque\u00e7ento, rocaforte defin\u00eea \u2018ci\u00e2ve
+  d\u2019a\u00e7esso\u2019 a-i terit\u00f6i de-a Republica de Z\u00eana da-a parte
+  de l\u2019Oltrez\u00f4vo; sempre a primm-a a sub\u00ee i vari tentat\u00eevi da
+  agrescion di Savoia. L\u2019Aot\u00f4 fa parte de unn-a asocia\u00e7ion che a desidera
+  f\u00e2 de-a fortessa un polo de atra\u00e7ion turistica, doppo anni e anni de abandon.\\nALLEGATO
+  27 - Gli anni di Savignone, Guglielmo Tealdi, Bruzzone ed., 2009, pp.148\\n\u201cOgnid\u00f9n
+  o dovieva scr\u00eeve e proprie mem\u00f6ie\u201d: cosc\u00ec qu\u00e6xi o l\u2019ini\u00e7ia
+  a prefa\u00e7ion, specificando \u2018mem\u00f6ia\u2019 e non \u2018aotobiograf\u00eea;
+  definendo a seconda qu\u00e6 \u2018narcisistica descri\u00e7ion\u2019 mentre a primm-a
+  a l\u2019\u00e8 narra\u00e7ion ci\u00f9 orient\u00e2 a-i l\u00eaughi, ambienti,
+  tempi e amici\u00e7ie f\u00eaua de s\u00e9 stessi.\\nO l\u2019\u00e8 cosc\u00ec
+  o raconto do Mino, pi\u00e2xevolmente lezibile, con epi\u00e7entro o periodo do
+  fascismo, vis\u00e7i\u00fbo a Savignon. Tutti i abitanti e i sfol\u00e6 inta zona,
+  o peu r\u00e9conosce e personn-e e avenimenti.\\nALLEGATO 28 - Corpus delle uniformi
+  civili, Carla Cavelli Traverso, De Luca ed., 2009, pp. 104.\\nRicamente ilustr\u00f2u
+  e document\u00f2u in 25 anni de cataloga\u00e7ion da parte do Servi\u00e7io Colt\u00fba
+  da Region, o libbro o descrive i vest\u00ee indos\u00e6 da-i fon\u00e7ionai de Corte
+  e do Stato, into periodo XVIII-XX secolo. A-a pari de uniformi militari, l\u2019\u00ea
+  asc\u00ec ean sog\u00e8te a severa e precisa normativa, pe fa individo\u00e2 o fun\u00e7ionaio
+  che a l\u2019indos\u00e0va, a so categor\u00eea de apartegnen\u00e7a, graddo, fun\u00e7ion
+  e responsabilit\u00e6. A fantas\u00eca a no l\u2019\u00e0 limiti.\\nALLEGATO 29
+  - Banca delle tradizioni, Maurizio Sentieri, ed. DeFerrari, 2009, pp.96.\\nLibbro
+  de gastronom\u00eca, con sottotit\u00f2lo \u201cri\u00e7ette (no solo) liguri e
+  sav\u00f4i de vitta\u201d. Ma no l\u2019\u00e8 un semplice libbro de ri\u00e7ette;
+  ma a testimoniansa autenticamente arecug\u00e9ita into terito\u00eeo de l\u2019antica
+  Republica de Z\u00eana, de cult\u00fba alimentare \u201cin via de estin\u00e7ion\u201d.
+  Inf\u00e6ti e ri\u00e7ette present\u00ea, son fr\u00fbto de \u2018na ri\u00e7erca
+  dexenn\u00e2, coordin\u00e2 da l\u2019Aot\u00f4, unica a livello na\u00e7ionale,
+  e rapresenta a rescoverta e valorisa\u00e7ion de-e v\u00e0rie \u00fbzanse alimentari.\\nALLEGATO
+  30 - C\u2019era una volta il Costa del Sol, fra cronaca e fantasia, Umberto Gugliotta,
+  ed. De Ferrari, collana Sestante, 2009, pp.96.\\nInto 1994, a Sanna, un incendio
+  doloso o l\u2019\u00e0 destr\u00fbto o brigantin \u2018Costa do Sol\u2019 arivou
+  in avar\u00eca vint\u2019anni primm-a. O stupendo v\u00e9iero e o so capitan son
+  st\u00e6ti \u00f2g\u00e9tto de cosc\u00ec contrastanti sentimenti, e noti\u00e7ie
+  de vicende misteriose, da intr\u00e2 into mito de-e stoie do m\u00e2, donde veit\u00e6
+  e fantasia se mesccian asemme. L\u2019Aot\u00f4, savoneise d\u2019ado\u00e7ion,
+  doppo meticolose ri\u00e7erche, analisi di documenti e giornali de l\u2019epoca,
+  o l\u2019\u00e0 recostru\u00eeo a st\u00f6ia do veliero, cosc\u00ec da forn\u00ee
+  a-o let\u00f4 de noti\u00e7ie ci\u00f9 v\u00eae e prov\u00ea.\\nALLEGATO 31 - Poggio
+  e san Bernardo di Favaro storia di due borghi e di una chiesa, AA.VV., ed.Bogliasco
+  2009, p.208\\nPierLuigi Gardella, premio DeMartini 2009, co-o Centro studi Storie
+  di Jeri, \u00e0n coordinou a reda\u00e7ion de o libbro rigoardante dui fra\u00e7ion
+  suviastanti Bogiasco e, comme sottolinea o titolo, con unn-a sola g\u00eaxa. A scignific\u00e2to
+  de unn-a unit\u00e6 de valigien, ch\u2019a du\u00e2 da ci\u00f9 de quattro\u00e7ent\u2019anni.\\nSt\u00f6ia
+  e toponomastica, personn-e, tradi\u00e7ion e sagre, so\u00e7iet\u00e6 sportive e
+  servi\u00e7i sociali descr\u00eeti into libbro, dimostran a capa\u00e7it\u00e6 de
+  queste comunit\u00e6 a organizase e rendise parte vitale no solo da st\u00f6ia locale
+  ma asc\u00ec de quella do zeneizou.\\nALLEGATO 32 - Ayron Xavi, Jennifer Della Rocca,
+  ed. SES\\ndoppo o primmo libbro titolou Xaron Xavi, stanpou into 2008, o l\u2019\u00e8
+  sciotio pe i carateri de a SES de San P\u00ea d\u2019\u00c6nn-a, e pe man de \u2018na
+  figgetta de disett\u2019anni, o segondo volumme de avent\u00fbe into spa\u00e7io
+  galatico. Con fervida fantaxia, se incroxa scitoa\u00e7ion inpreveddibili, boin
+  sentimenti mescci\u00e6 a-i grammi, mondi n\u00eauvi e diversci, tutto capa\u00e7e
+  de tegn\u00ee adescia l\u2019aten\u00e7ion fin a-a finne do libbro\\nALLEGATO 33
+  - A volo di gabbiano, storia e amore tra Genova e Palermo, Oriati Mirco, Rizuto
+  Rossana S.E.S. Societ\u00e0 Editrice Sampierdarenese, 2010, p. 160.\\n\u2019Na c\u00f3bia
+  de inamo\u00e6, o m\u00e0sccio zen\u00e9ize e a f\u00ecggia de Pal\u00e8rmo, into
+  parl\u00e2se e into scrov\u00ee e seu \u00e7it\u00e6 d\u00f4ve s\u00f3n nasci\u00fbi,
+  s\u2019ac\u00f2rzan di prof\u00f3ndi lig\u00e0mmi che un\u00ecscian a st\u00f6ia
+  e a v\u00ectta di do\u00ee capol\u00eaughi.\\nA c\u00f6sa \u00f2rigin\u00e2le do
+  libbro a l\u2019\u00e9 qu\u00e9lla d\u2019av\u00e9i introd\u00fbto \u2013 a-o prin\u00e7\u00ecpio
+  de \u00f2gni cap\u00ectolo \u2013 \u2019na d\u00f4ce nara\u00e7i\u00f3n da pr\u00f2pia
+  scov\u00e8rta de c\u00f3bia, sego\u00eea da-a constata\u00e7i\u00f3n st\u00f2rica
+  de \u2019n inc\u00f3ntro za visci\u00fbo tra e d\u00f4e \u00e7it\u00e6, no s\u00f4lo
+  pe-i ant\u00eeghi tr\u00e0feghi mercant\u00eeli ma \u00e0nche perch\u00e9 i \u00e7itad\u00ecn
+  che se s\u00f3n frasfer\u00eei da \u2019n p\u00f2sto a l\u2019\u00e2tro se v\u00eauan
+  b\u00e9n. S\u2019intr\u00e9ssa cosc\u00ec a st\u00f6ia di do\u00ee gal\u00e0nti
+  con qu\u00e9lla de d\u00f4e \u00e7it\u00e6 e di seu monum\u00e9nti. Sta scov\u00e8rta
+  chi a stupi\u00e2 asc\u00ec i zen\u00e9ixi, che no son abito\u00e6 a l\u00eaze a
+  pr\u00f2pia st\u00f6ia cont\u00e2 da \u2019n \u00e2tro p\u00f3nto de v\u00ecsta.\\nALLEGATO
+  34 - Mussolini e la sua Liguria, Marco Massa DeFerrari ed., 2009, p. 123\\nO l\u00ecbbro
+  o c\u00f3nta a cr\u00f2naca de d\u00f4e v\u00ecxite do ditat\u00f4 in Lig\u00f9ria
+  e di rap\u00f2rti ch\u2019o l\u2019\u00e0 tegn\u00fbo co-a n\u00f2stra t\u00e6ra.
+  Dr\u00e9nto se gh\u2019atr\u00eauva \u2019na Z\u00eana d\u2019\u00e2tri t\u00e9npi
+  tra sper\u00e0nse, \u00f2pere p\u00f9bliche e sc\u00e9ne do reg\u00ecmme. E se gh\u2019atr\u00eauva
+  a n\u00f2stra Ascoci\u00e7i\u00f3n asc\u00ec. Za sav\u00e9imo, da-i docum\u00e9nti
+  che gh\u2019\u00e9mmo i n S\u00eade, che d\u00f2ppo p\u00f6chi \u00e0nni da-a n\u00e0scita,
+  i s\u00f2cci da Compagna \u00eaan ci\u00f9 de trentam\u00eclla. L\u2019\u00e9 ci\u00e6o
+  che i t\u00e9npi c\u00e0ngian: l\u2019ingonbr\u00e0nte pres\u00e9nsa de R\u00f3mma
+  (e di rom\u00e2ni), l\u2019imigra\u00e7i\u00f3n do d\u00f2ppo go\u00e6ra e a st\u00f6ia
+  ci\u00f9 recente \u00e0n \u00e6go\u00f2u l\u2019am\u00f4 e l\u2019inter\u00e9sse
+  pe Z\u00eana e-e seu tradi\u00e7io\u00ecn. Ma, c\u00f3mm\u2019o scr\u00eeve o Prescid\u00e9nte
+  un pr\u00ecmma p\u00e0gina, chi cons\u00e8rva qu\u00e9sto sentim\u00e9nto ant\u00eego,
+  no d\u00eave mol\u00e2, ma o se d\u00eave d\u00e2 da f\u00e2 pe f\u00e2 torn\u00e2
+  a Lig\u00f9ria a l\u2019\u00f6n\u00f4 do m\u00f3ndo.\\nALLEGATO 35 - Mirette Tanska
+  Cambiaso, A.Di Raimondo ed. Erga, 2010, pag. 64\\nA l\u2019\u00e8 \u2018na st\u00f6ia
+  ci\u00f9 v\u00eaa de-a fantax\u00eea, scoverta da-o nostro soccio \u00e7ercando
+  inti archivi. O zeneize marcheize Lo\u00eegi Cambiaso, o sp\u00f4za a-a finn-e do
+  1800 a zovenixima baronessa de origini polacche; a-a porta inta rexidensa de Gavi
+  e o l\u2019avi\u00e2 trei figgi. Ma o fut\u00fbro o l\u2019\u00e8 fosco pe tutti:
+  a zovena a l\u2019intra gradatamente inte \u2018na fase de instabilit\u00e6 mentale,
+  con esprescioin artistiche pregevoli ma \u2018n conportamento non conforme a-a dignit\u00e6
+  de-a nobile famiglia.\\nNe cosegoi\u00e2 pe l\u00ea e \u2018n-a figgia, un recovio
+  coatto into l\u2019uspi\u00e2 de Quarto, quando al\u00f4a no l\u2019aveiva fun\u00e7ioin
+  de c\u00fbra ma solo de alontanamento so\u00e7iale.\\nTutto o l\u2019\u00e8 descr\u00eeto
+  con sobria documenta\u00e7ion asc\u00ec fotografica, obiettiva parte\u00e7ipa\u00e7ion
+  emotiva, fluidit\u00e6 narativa sensa orpelli. O se l\u00eaze d\u2019un sciou pe
+  cerc\u00e2 e modalit\u00e6 de-a prevista d\u00f4sa concluxon.\\nALLEGATO 36 - Il
+  patrimonio artistico di Banca Carige, sculture, ceramiche, stampe, arredi, salvadanai;
+  G.RotondiTerminiello e Coll.; 2009 Silvana ed.; pag. 384.\\nPonderoso vol\u00f9mme
+  che o conpl\u00eata quello de l\u2019anno passou che o l\u2019aveiva catalogou dip\u00ecnti
+  e disegni (tra i qu\u00e6 asc\u00ec quelli de-a nostra Elena Pongiglione). Molto
+  cur\u00f2u inta grafica, stanpa, foto, o l\u2019\u00e8 conpletou da \u2019na minuziosa
+  descri\u00e7ion e cataloga\u00e7ion de-e \u00f2pere d\u2019\u00e0rte che fan parte
+  de-a cole\u00e7ion in pos\u00e8sso do Ente. Alegh\u00e6 asc\u00ec a biografia di
+  artisti, o glossaio e indici.\\nArich\u00ee continoamente questa cole\u00e7ion,
+  acatando neuve \u00f2pere prod\u00fbte in ogni setou de-a creativit\u00e6 umann-a,
+  e rese reperibili into merc\u00f2u antiqu\u00e2io, o fa parte de \u2018na specifica
+  politica mi\u00e2 a conserv\u00e2 e impresios\u00ee a defini\u00e7ion de Zena, \u00e7it\u00e6
+  de-a cult\u00fba.\\nALLEGATO 37 - Partigiano a Triora, Maria Rosa Acri, (romanzo
+  per ragazzi), De Ferrari ed., 2009, pag. 96.\\n\u201cPe figeu\u201d; se preciza,
+  perch\u00e9 l\u2019eroe o l\u2019\u00e8 un bagarillo de d\u00f4zze anni, che o \u2018sente\u2019
+  de dovei an\u00e2 a f\u00e2 parte de-a Resistenza. O sc\u00e0pa da-o col\u00e8gio
+  e da-a \u00e7it\u00e6 e sale i sent\u00ea verso Tri\u00eaua, asunando o conzon\u00eanto
+  avent\u00fboso con i partigen. E brut\u00fbe de \u2018na go\u00e6ra spi\u00eat\u00e6ta
+  inte l\u2019 anno 1944, non adata a\u2019n figeu, modifican e ridimensinan i seu
+  progeti. Unn-a avent\u00fba fin\u00eca con \u2018na reti\u00e2ta. Ma o l\u2019\u00e8
+  o spirito ch\u2019o o conta, e che sai\u00e2 de giustifica\u00e7ion sensa rinpianti
+  o seu retorno in col\u00e8gio.\\nQuarche pagina a-a finne, dedic\u00e2 a \u2018schede
+  de aprofondimento\u2019 di t\u00e8mmi descr\u00eeti into raconto, permettan de megio
+  cap\u00ee a situa\u00e7ion ch\u2019a fa da scena a l\u2019avent\u00fba do figeu.\\nALLEGATO
+  38 - CD, intitol\u00f4 \u201cBatte in Val Polcevera un cuore per l\u2019Africa\u201d
+  contenente 22 canzoin, I \u201cZoeni\u201d de ACompagna, goid\u00e6 da F.Noceti
+  e GB Montaldo,\\nMolte xeneixi, de montagna, spirituals, trei de opera classica
+  e asc\u00ec \u201c Ma se ghe p\u00e9nso\u201d interpretou da Feipin, a l\u2019\u201dAve
+  Maria zeneize\u201d cant\u00e2 da-o \u201cPiccolo coro Monte Bianco\u201d; \u201cM\u00e2
+  de Zena\u201d d\u00ee Giovani Canterini di Sant\u2019Olcese ; a Traviata do coro
+  Cycnus, ... ). O guagno o l\u2019ani\u00e2 in beneficenza, pe e mixioin da Repubblica
+  Centro Africana. In copertinn-a, troneggia o nostro logo e a scr\u00eeta \u201ca
+  cura dell\u2019Associazione A Compagna - sezione Liscet\u201d.\\nALLEGATO 39 - Giuseppe
+  Marzari un uomo in frac, Cesare Viazzi, ed. De Ferrari, 2010, pag. 88, con CD\\nInta
+  stoiografia d\u00ee grendi comici xeneixi (Dapporto, Villaggio, a Baistrocchi, pe
+  \u00e7it\u00e0ne trei de \u00e7ento; con o so \u2018scio Ratella\u2019 o l\u2019\u00e8
+  st\u00e6to defin\u00eeo o po\u00e6 do Gabibbo), o Marzari o p\u00e2 o meno apariscente
+  e quindi coloc\u00f2u solo doppo Govi; foscia perch\u00e9 a sei vitta artistica,
+  \u00e2tret\u00e0nto ricca e spontanea, a l\u2019\u00e0 trovou inti urtimi tempi
+  magi\u00f4 frequenta\u00e7ion a-a radio e a-a discofrafia, ci\u00f9 che into palcoscenico
+  o a-a TV.\\nA nostra asocia\u00e7ion A Compagna a l\u2019\u00e0 istitu\u00eeo un
+  annoale premio a-o so nomme pe i artisti; asc\u00ec quest\u2019anno esso o veni\u00e2
+  consegnou a-o vin\u00e7it\u00f2u into proximo meise de giugno into ti\u00e2tro da
+  Zovent\u00fb; e o nostro Prescidente o l\u2019\u00e0 arich\u00eeo o volumme che
+  recensemmo, analisando o so parl\u00e2, defin\u00eco \u2013 e o ne spiega o perch\u00e9
+  \u2013 mod\u00e9llo pe chi o dexidera parl\u00e2 o v\u00eao zeneize.\\nSe l\u00eaze
+  int\u2019un lampo, ma poi bezeugna st\u00e2 a sent\u00ee ben o CD; e pe chi o veu,
+  studi\u00e2lo scciupando da-o r\u00eee.\\nALLEGATO 40 - Finollo dal 1899, Giovanni
+  Meriana, ed. De Ferrari, 2009, pag. 84\\nSon vegn\u00fbi a descrive o personaggio,
+  a seu arte e o so neg\u00f2\u00e7io, atirando l\u2019aten\u00e7ion e viva coixit\u00e6
+  de t\u00f9tti i presenti a-un \u2018Martedi de A Compagna\u2019 a-o Ducale, gest\u00eeo
+  da-a nostra ecletica console Marcella Rossi Patrone. Chi o l\u2019\u00e8 st\u00e6to
+  Mano\u00e6lo Finollo, stilista, artigian do bello vest\u00ee e dell\u2019eleg\u00e0nsa
+  into campo de st\u00f2ffe, cam\u00eexe e crov\u00e2te, a Zena e feua, o san tutti
+  quelli che \u00e0n am\u00f4 de vestise ben.\\nALLEGATO 41 - Partigiani una storia
+  di uomini, Sandro Antonini, De Ferrari Ed., 2010, pag.554\\nL\u2019aotorevolezza
+  de l\u2019Antonini suvia l\u2019argomento Rexist\u00e9nsa, pur non avendola vix\u00fba
+  personalmente, ma studi\u00e2, aprofond\u00eea e analiz\u00e2 a trav\u00e8rso ri\u00e7\u00e8rche,
+  docum\u00e9nti, interviste, a l\u2019\u00e8 st\u00e6ta premi\u00e2 da-o \u2018Gruppo
+  ricerche civilt\u00e0 ligure\u2019 co-o \u2018premio von Palazzolo\u2019; e \u00f2ua
+  a se arichisce con questa neuva publica\u00e7ion.\\nQuesto o l\u2019\u00e8 un v\u00eao
+  libbro de stoia, into qu\u00e6 vegnan descr\u00eeti inte\u2019n setou a St\u00f6ia
+  de a Rexistensa \u2013 con e premesse, i difi\u00e7ili ini\u00e7i, i primi reparti,
+  a giusti\u00e7ia partigianna, a division Garibaldi; inte \u2018n atro e Imagini;
+  a-a fin a Mem\u00f6ia con sei raconti de \u2018personaggi\u2019 ezenplari.\\nALLEGATO
+  42 - Penscei... parolle (pensieri... parole), Vincenzo Bolia, Montedit ed. 2010,
+  pag.152\\nQuesto libbro de poexie, a-a so segonda edi\u00e7ion, quarched\u00f9nn-a
+  scr\u00eeta in italian con a fronte a let\u00fba in zeneize-albenganese; quarched\u00f9nn-a
+  in ingleise, \u00e2tre in \u201czeneize de zena o veo in graf\u00eea ofi\u00e7i\u00e2.
+  Dedich\u00e6 a-i so pensc\u00eai; a de pregh\u00eae molto senplici, de cheu; e molte
+  a-a-Liguria.\\nALLEGATO 43 - Svelati i segreti di Cristoforo Colombo, AMSalone e
+  ACalcagno, ed. Brigati, 2009, pag. 384\\nTramezo a-i milioin de libbri che parlan
+  de Crist\u00f2ffa Colombo, se pensava co-o Taviani d\u2019avei razonto \u2019n ponto
+  d\u2019arivo decizivo: Colombo o l\u2019ea nasciuo de Zena, in barba a tutti-i atri
+  Stati che pretendeivan ch\u2019o fise nasciuo da liatri.\\nE invece... Oua a Salon
+  e o Calcagno metan e c\u00f6se in ci\u00e6o (p\u00f2-u momento... perch\u00e9 do
+  doman no gh\u2019\u00e9 seguessa): mentre ean apreuvo a \u2019na ri\u00e7erca pe
+  riabilit\u00e2 a figua de Benardo Colombo de Cogheuo e aspirante a l\u2019eredit\u00e6
+  do Crist\u00f2ffa, to-u li che da-i archivi de Spagna, de Zena e de Cogh\u00eauo
+  l\u2019\u00e9 s\u00e2t\u00f2u feua numeroxi documenti coevi, da-i qu\u00e6 \u00e0n
+  acapio ch\u00f2-u Colombo, o navigat\u00f4, o l\u2019ea nasciuo into borgo main\u00e2
+  da Rivea de Ponente. Senpre zeneize, s\u2019acapisce, perch\u00e9 \u2018Cugureo\u2019
+  o fava parte do Dominio da Republica; per\u00f2 no da \u00e7it\u00e6 de Zena.\\nI
+  do\u00ee aoto\u00ee metan anche in ci\u00e6o che de Crisf\u00f2ffa Colombo ghe n\u2019ea
+  ci\u00f9 d\u2019un, con poca diferensa d\u2019et\u00e6. Sta cosa chi a l\u2019aiva
+  creou tra i ri\u00e7ercato\u00ee \u2019na bella confuxon: s\u2019ea dito c\u00f6se
+  inbarassanti e s\u2019ea ariv\u00f2u anche a f\u00e2se concluxoin.\\nNoiatri, che
+  semmo let\u00f4i apascion\u00e6, ma no storichi de profescion, da \u2019na parte
+  sta notissia ne p\u00e2 ch\u2019a scceuppe comme \u2018na \u201cbomba\u201d, da
+  l\u2019\u00e2tra pensemmo che segge megio \u201cpigi\u00e2 in p\u00f6 de tenpo\u201d.
+  Ma questo o no n\u2019\u00e9 inpedisce de d\u00ee che, comme socci da Compagna,
+  \u2019na seguessa ghe l\u2019emmo: a Salon a l\u2019\u00e9 a-o de d\u2019ato de
+  ogni sosp\u00e8tto d\u2019avei vosciuo f\u00e2 \u2019n \u2018scoop\u2019 \u00f2,
+  pezo, de diciara\u00e7ioin a-a bisc\u00f6chinn-a che no segian prov\u00e6 da documenti
+  scriti.\\nPe questo niatri pigemmo pe bon quello che i do\u00ee studioxi \u00e0n
+  scrito, in ateiza che a comunit\u00e6 scentifica e o Comun de Zena digan a seu.
+  F\u00e6to sta che doppo quarche meize da-a publica\u00e7ion do libbro tutto taxe:
+  o l\u2019\u00e9 \u2019n moddo de d\u00ee che gh\u2019\u00e0n raxon?\\nPe concludde
+  n\u2019\u00e9 cao sotolini\u00e2 o preggio de l\u2019opera che, oltre a \u2019n\u2019anpia
+  apendice de documenti regest\u00e6 e trascriti, a n\u2019\u00f6fre \u2019na nutria
+  bibliografia e \u2019n c\u00f2modo indice analitico; o libbro o gh\u2019\u00e0 \u2019na
+  bella veste tipografica, o l\u2019\u00e9 stanp\u00f2u in sce do pap\u00ea de preggio,
+  con carateri ci\u00e6i e splendide t\u00f6e.\\nALLEGATO 44 - Pegi, nomen a fontibus,
+  A.VV. del Centro Universitario del Ponente, ed. Erga, 2010, pag. 242\\nQuande se
+  veu inandi\u00e2 \u2019n libbro pe proponn-e a-i leto\u00ee \u2019n\u2019opera conpleta,
+  ch\u2019a l\u2019afronte \u2019n argomento in t\u00fbtta a seu complescit\u00e6,
+  ma ch\u2019a segge asc\u00ec de gradevole let\u00fba, se pensa a \u2019n libbro
+  p\u00e6gio a quello stanp\u00f2u da-a ERGA dove, in sce de belle pagine patin\u00e6
+  tramezo a-e qu\u00e6 gh\u2019\u00e9 misso de belle figue asc\u00ec, se gh\u2019atreuva
+  \u2019na aprofondia testimoniansa de gexe de P\u00eagi, da-a seu origine a-a giorn\u00e2
+  d\u2019ancheu, con ben ben di riferimenti a-a st\u00f6ia de l\u2019ilustre borgo.\\nConplimenti
+  aloa a-o Centro Universitaio do Ponente e a t\u00fbtta a seu reda\u00e7ion pe-o
+  feli\u00e7e exito de l\u2019opera; chi veu ben a Zena no peu no avei inta seu biblioteca
+  un libbro comme sto chi ch\u2019o testim\u00f2nia, tra e atre c\u00f6se, comme i
+  zeneixi sentivan cosc\u00ec f\u00f2rte o senso do bello inte l\u2019arte che gh\u2019ea
+  cao mostralo inte tutti i p\u00f2sti da Liguria, anche inte quelli che aloa ean
+  borghi.\\nALLEGATO 45 - L\u2019artigianato in Liguria, ieri e oggi, Maurizio Lamponi,
+  ed. ERGA, 2011, pagg. 312\\nEnexima corpoza fadiga do n\u00f2stro s\u00f2ccio (\u00f2ltre
+  sciuscianta publica\u00e7ioin) e anche questa de grande interesse e de ci\u00f9
+  anpio resp\u00eeo perch\u00e9 a conta e a spiega \u2013 d\u00f2ppo rigoroza ri\u00e7erca
+  \u2013 quello ch\u2019o l\u2019\u00e9 un tesci\u00fbo baze da so\u00e7i\u00eat\u00e6
+  ligure: l\u2019artigianato; saiva a d\u00ee o travaggio do singolo \u00e7itadin
+  che o d\u00e0 lustro, o qualifica e o rende produtiva tutta a region. Def\u00e6ti
+  vegne descr\u00eeto a vitta e l\u2019inpreiza de tanti liguri, e seu reixe, i costummi,
+  e uzanse, e tradi\u00e7ioin, e pascioin che qualifican o seu travaggio comme unico
+  a-o mondo. Se n\u00f2tta \u2013 co-in p\u00f6 de dizaponto pe Zena \u00e7it\u00e6
+  \u2013 che i liguri artigian son ci\u00f9 tenacemente rexistenti inti centri ci\u00f9
+  picin da region; f\u00f2scia perch\u00e9 la a vitta a score ci\u00f9 a mez\u00fba
+  d\u2019ommo, \u00f2 f\u00f2scia perch\u00e9 e grendi \u00e7it\u00e6 se dan prevalentemente
+  a l\u2019industria e a-o seu g\u00eeo d\u2019afari. De longo da elogi\u00e2 a qualit\u00e6
+  da stanpa de l\u2019Edit\u00f4, atento a sodisf\u00e2 e antighe ezigense de l\u2019estetica
+  e da sensibilit\u00e6 editoriale con quelle moderne do risparmio pe poei ariv\u00e2
+  a \u2019n pr\u00eaxo finale conveniente.\\nALLEGATO 46 - \u201c...Italia chiam\u00f2\u201d,
+  Maria Teresa Caprile e Francesco De Nicola, De Ferrari ed., 2010, pagg. 240\\nDa-o
+  verso do Mameli, a parte \u2019na carel\u00e2 de raconti \u2013 da-i primmi m\u00f6ti
+  a-o neuvo mil\u00e9nio \u2013 de tanti aoto\u00ee, pasando a traverso l\u2019Unit\u00e6,
+  doe go\u00e6re mondiali co-o vint\u00e9nio into m\u00eazo, fin a-o \u201cboom\u201d
+  e a soci\u00eat\u00e6 di consummi. Qu\u00e6xi \u2019n \u00e7enten\u00e2 tra po\u00eati,
+  narato\u00ee, aotobi\u00f2grafi, sagiamente altern\u00e6, rendan agevole e scorevole
+  a let\u00fba de quarche brano pe v\u00f2tta, pe avei, cian cianin, \u2019na panoramica
+  de \u00e7ento\u00e7inquant\u2019anni de st\u00f6ia italiann-a.\\nALLEGATO 47 - Le
+  ardesie della Liguria, dalla geologia all\u2019arte, Remo Terranova, Erga ed., 2010,
+  pag. 224\\nPresent\u00f2u inta solita elegante veste grafica, l\u2019urtimo travaggio
+  do profes\u00f4 Terranova ch\u2019o l\u2019\u00e9 \u2013 comm\u2019o n\u2019\u00e0
+  cont\u00f2u a \u2019n Marted\u00ec in Compagna a Paxo, dov\u2019o l\u2019\u00e9
+  st\u00e6to ben ben aplaud\u00eeo \u2013 particolarmente afe\u00e7ion\u00f2u a ste
+  pr\u00eee, da quande comme ge\u00f2logo o l\u2019\u00e0 frequent\u00f2u e n\u00f2stre
+  montagne pe studi\u00e2 e r\u00f2cce e i miner\u00e2li. O libbro o ne conta tutta
+  a sto\u00efa da ci\u00e0ppa: da-i rilievi tecnici a-i primmi utilizzi preromani;
+  da-i d\u00e6ti statistici a quelli sugestivi do trasp\u00f2rto a valle; da-e moderne
+  industrie pe l\u2019estra\u00e7ion a l\u2019utilizzo pratico e artistico, finn-a
+  a-a v\u00eaa scult\u00fba. Un libbro pe studioxi, visti i aprofond\u00eei d\u00e6ti
+  tecnici geol\u00f2gico-minerari; ma asc\u00ec pe-i escursionisti de valadde liguri;
+  pe-i cotrut\u00f4i consider\u00f2u a grande posciblit\u00e6 de utilizzo; pe-i apascion\u00e6
+  de antropologia che peuan analiz\u00e2 o risv\u00f2lto sociale (giamin, reizeghi
+  e mout\u00eee); e, a-a fin, comme dito za into titolo, pe-i artisti.\\nALLEGATO
+  48 - Storia di Genova, Enzo Marciante, ed. Coedit 2010, pag. 224\\nA-o sci\u00f4
+  Marciante perdonemmo d\u2019avei \u2019ncomens\u00f2u o libbro parlando de \u201cl\u2019erto
+  Mediteranio\u201d qu\u00e6xi ascordandose che o n\u00f2stro o s\u2019\u00e9 da senpre
+  ciam\u00f2u \u201cMare Ligure\u201d. Ma sto pec\u00f2u chi gh\u00f2-u perdonemmo
+  perch\u00e9 o l\u2019\u00e9 veniale, e sorviatutto perch\u00e9 l\u00e9 o l\u2019\u00e9
+  tr\u00f2ppo bravo e perch\u00e9 i seu disegni son ... no tr\u00f2ppo b\u00e8lli,
+  ma beliscimi: precizi, cur\u00e6 inti particolari, con ilustra\u00e7ioin spiritoze
+  e ir\u00f2niche tipiche do zeneize: bat\u00fba fresca e sccetta, mai f\u00eaua de
+  mez\u00fba. A sto\u00efa de Zena a l\u2019\u00e9 cont\u00e2 co-e vignette tipiche
+  di f\u00f9metti; sti chi \u2013 a \u2019na primma eugi\u00e2 e perch\u00e9 atenti
+  a leze o t\u00e8sto \u2013 p\u00e0n \u2019na senplice e piaxevole raprezenta\u00e7ion
+  da realt\u00e6; ma se un o l\u2019amia ci\u00f9 da-a vixin (personalmente, quande
+  gh\u2019\u00f2 avuo bizeugno de rilas\u00e2me, o prov\u00f2u a color\u00e2li co-i
+  penarelli: aloa un o s\u2019ac\u00f2rze che son de \u2019na precixon m\u00e2vegioza):
+  e esprescioin de facce, i costummi, i anbienti, e creuze, i archeb\u00fbxi, e scene
+  panoramiche... pe \u00f2gni c\u00f6sa se intoisce un-o studio tut\u2019\u00e2tro
+  che fa\u00e7ile da imagin\u00e2 e da realiz\u00e2. Cosc\u00ec l\u2019asedio da Lanterna,
+  a Mel\u00f6ia, i Fieschi, o Barbarossa, e tanti \u00e2tri epiz\u00f2ddi, cont\u00e6
+  da-o n\u00f2nno Arturin e da-o porpo, son o megio m\u00f2ddo pe avixin\u00e2 i figeu
+  e i n\u00eavi a-a n\u00f2stra st\u00f6ia; magara lezendo insemme a loiatri de m\u00f2ddo
+  che \u2013 apenn-a lascian o libbro pe n\u2019\u00e2tro zeugo \u2013 no ne p\u00e2
+  veo de po\u00e9iselo g\u00f6d\u00ee in santa paxe e con grande sodisfa\u00e7ion
+  de l\u2019anima. \u2019Na main\u00eaa moderna pe senti l\u2019orgheuggio d\u2019\u00ease
+  zeneixi. Se inta vostra libraia manca o libbro do Marciante, aloa ve manca a fantaxia
+  da sto\u00efa de Zena.\\nALLEGATO 49 - L\u2019acquedotto storico di Genova, Luciano
+  Rosselli, ed. Nuova Editrice Genovese, 2009, pagg. 256.\\nArich\u00eeo de trexentosciusciantun
+  belle e nitide fotografie e de \u2019na cronologia ch\u2019a l\u2019incomensa da
+  l\u2019anno 1071 pe ariv\u00e2 a-o 2009, se peu leze a descri\u00e7ion e a st\u00f6ia
+  do cond\u00fbto do rifornimento idrico do levante da \u00e7it\u00e6: l\u2019inzegno
+  e brav\u00fba tecnica che, ancon a-i n\u00f2stri tempi, a r\u00eaze i sconvolgimenti
+  da moderna espanscion da \u00e7it\u00e6.\\nALLEGATO 50 - L\u2019insurrezione genovese
+  del 1849, il generale La Marmora bombarda e saccheggia la citt\u00e0, Franco Bampi
+  e Gilberto Oneto, il Cerchio, 2010, pag. 134.\\nA covertinn-a a l\u2019inganna:
+  l\u2019ir\u00f2nica caregat\u00fba do generale La Marmora co-e man e diviza insangoin\u00e6
+  a fa pens\u00e2 a \u2019n libbro satirico \u00f2 macabro. A lezilo, invece, un o
+  s\u2019ac\u00f2rze ch\u2019o l\u2019\u00e9 \u2019na seria dizamina \u2013 asci\u00ec
+  cronol\u00f2gica - di f\u00e6ti ch\u2019\u00e0n asmort\u00f2u into sangoe l\u2019insure\u00e7ion
+  di Zeneixi contra i Savoia. In discuscion no gh\u2019\u00e9 solo o metodo da brutale
+  represcion, za grave e vergognozo, quante ciut\u00f2sto, ancon ci\u00f9 gr\u00e2ve,
+  l\u2019avei tax\u00fbo, anzi ignor\u00f2u do tutto finnn-a a can\u00e7el\u00e2 e
+  a elimin\u00e2 da i libbri de sto\u00efa un pesante epizodio d\u2019un popolo, comme
+  se mai o fose avegnuo. O no l\u2019\u00e9 do revizionismo f\u00e6to tanto pe f\u00e2lo,
+  ma a l\u2019\u00e9 \u2019n\u2019ezigensa da cult\u00fba moderna, democratica, ch\u2019a
+  no consente ci\u00f9 \u2019na vixon unilaterale, tipica di regni totalitari e de
+  ditat\u00fbe, ma a pretende che segge descr\u00eeta a veit\u00e6, con tutti i seu
+  risvolti.\\nALLEGATO 51 - A Compagna, O pescafigeu, ed. S.E.S., 2010, pag.128\\nProm\u00f2ssa
+  da A Compagna e finan\u00e7i\u00e2 da-a Region Liguia, questo libbro o conpleta
+  o prog\u00e8tto pil\u00f6ta pe mostr\u00e2 o zeneize inte scheue elementari \u2013
+  e niatri speremmo che a c\u00f6sa a no finisce chi. A-a fin da f\u00f6a i libbri
+  consegn\u00e6 a-e dire\u00e7ioin did\u00e0tiche de sch\u00eaue elementari, pe d\u00e2li
+  a-i meistri e quindi a tutte e classe (ci\u00f9 \u00f2 meno 1200 into Comun de Zena),
+  son ben s\u00eai: e chi o l\u2019\u00e0 acet\u00f2u de f\u00e2 a sperimenta\u00e7ion
+  o gh\u2019avi\u00e2, pe-a classe, in p\u00f6 de c\u00f2pie in ci\u00f9. O Pescafigeu
+  o n\u00e0sce da \u2019n travaggio de volontariato \u2013 a benefi\u00e7io da n\u00f2stra
+  Asocia\u00e7ion \u2013 ch\u2019o vedde, pe primma c\u00f6sa, i inconparabili disegni
+  da n\u00f2stra vice prescidente Elena Pongiglione, che fan da coredo a-i scr\u00eeti
+  di n\u00f2stri s\u00f2cci: \u00f2gnun de liatri o l\u2019\u00e0 port\u00f2u o seu
+  contrib\u00fbto con de f\u00f6e, di raconti, de noti\u00e7ie st\u00f2riche, a descri\u00e7ion
+  de n\u00f2stre tradi\u00e7ioin, e biografie de zeneixi il\u00fbstri. Tutto queste
+  c\u00f6se chi son scrite in forma senplice pe figeu e deuviando a graf\u00eea ofi\u00e7i\u00e2.\\nALLEGATO
+  52 - Loenso e Lucia i sposo\u00e9i impromissi, Nino Durante, ed. Nuova Editrice
+  Genovese, 2009, formato 17x24, illustr. originali di Gonin, pagg.176. In rimma zeneize
+  a n\u00f6ta vicenda a l\u2019\u00e9 trasport\u00e2 in c\u00e2za nostra, zugando
+  asc\u00ec suvia de asocia\u00e7ioin f\u00f2niche (tipo Como-Zena, Lecco \u2013 Recco);
+  cosc\u00ec o libbro o l\u2019incomensa parafrasando i famoxi versci \u201cQuello
+  rammo do golfo de Zena / ch\u2019o l\u2019amia a mezogiorno, tra P\u00f2rtofin e
+  a Lanterna, ...\u201d. Gh\u2019en tutti: o Loenso e a Lu\u00e7ia, o curatto don
+  Cl\u00f2udio e l\u2019Agneize, o Niggio e l\u2019Inomin\u00f2u; ciassa Banchi e
+  via Pr\u00e8 ... Gustoxiscima let\u00fba de \u2019na st\u00f6ia antiga trasform\u00e2
+  in neuva, perch\u00e9 trasport\u00e2 a Zena e scrita co-a gra\u00e7ia de versci
+  scorevoli e in bella rimma. Nino Durante, fervidiscimo poeta, cantaot\u00f4, scrit\u00f4
+  zeneize, do 2001 o l\u2019\u00e9 st\u00e6to insign\u00eeo do n\u00f2stro \u201cPremio
+  Marzari\u201d.\\nALLEGATO 53 - Mura e fortificazioni di Genova, Riccardo Dellepiane,
+  ed. Nuova Editrice Genovese, 2008, pagg. 318\\nSegonda edi\u00e7ion de \u2019n\u2019opera
+  fondamentale \u2013 pe-a precixon de fonti st\u00f2riche, tante ilustra\u00e7ioin,
+  \u2019na ricca apendice \u2013 pe conosce e n\u00f2stre fortifica\u00e7ioin che,
+  comme a st\u00f6ia da Republica de Zena a l\u2019insegna, no servivan pe agred\u00ee
+  i \u00e2tri ma pe difendise contra i tanti nemixi, con scistemi da tegn\u00ee agiorn\u00e6
+  de v\u00f2tta in v\u00f2tta. P\u00f6i, con l\u2019inven\u00e7ion de neuve armi \u2013
+  sempre ci\u00f9 distr\u00fbtive \u2013 l\u2019\u00e9 vegnuo inutile tegn\u00eele
+  in deuvia; e quello o l\u2019ea o tenpo che a Repubblica \u2013 da poco \u2013 a
+  no gh\u2019ea ci\u00f9. Ma liatre gh\u2019en de longo, e coninuan a atravers\u00e2
+  a \u00e7it\u00e6 armeno finn-a a che o spa\u00e7io o no serve pe quarc\u00f6s\u2019atro,
+  mentre i f\u00f2rti lasci\u00f9 \u2019n \u00e7imma di monti, son abandon\u00e6 a
+  l\u2019incuria e a l\u2019ignoransa de tanti.\\nALLEGATO 54 - Gabriele D\u2019Annunzio
+  il \u201cgenovese\u201d, Anita Ginella Capini, De Ferrari ed. 2010, pag.144\\nO
+  D\u2019Annunzio, se sa, o l\u2019\u00eaa \u2019n inprevedibile e poliedrico personaggio,
+  \u201c\u2019n ommo no com\u00fbne, da-e mille facce e maschere\u201d; personalit\u00e6
+  difi\u00e7ile da defin\u00ee e da descrive, anche a posteriori e sorviatutto in
+  scintexi. Da-o libbro sci\u00f2rte feua \u2019na rela\u00e7ion poeta-Zena che a
+  va a-o de la di eventi conosciui \u2013 tipo \u2018e giorn\u00e6 de Quarto\u2019
+  \u2013 o de quelli meno conosciui e privatiscimi, ma p\u00f6co scignorilmente divulgh\u00e6
+  (acus\u00f2u in Parlamento d\u2019avei lasci\u00f2u da pag\u00e2 o conto inte l\u2019albergo
+  dove o l\u2019aveiva sogiorn\u00f2u ... in compagnia de doe \u2018gentildonne\u2019
+  no qualifich\u00e6). Framezo a anedoti e riferimenti varri, trovemmo asc\u00ec di
+  ritr\u00e6ti de nostri personaggi inportanti che \u201cs\u2019insinoan\u201d in
+  \u00e7erti periodi salienti da vitta do poeta: Govi e Vassallo, Spensley e Baistrocchi,
+  e \u00e2tri ancon. Inta senplicit\u00e6 de l\u2019edi\u00e7ion, i carateri e a stanpa
+  do De Ferrari son de longo quelli, imancabilmente nitidi e precizi.\\nALLEGATO 55
+  - La lunga crociata dei genovesi (1097-1110), Remo Viazzi, ed. De Ferrari 2010,
+  pagg.126\\nNo l\u2019\u00e9 \u2019n c\u00e2xo, se a nascita e o sviluppo da Compagna
+  Communis a coicidde con l\u2019\u00f2rganiza\u00e7ion da primma Crox\u00e2: anche
+  sensa documenti scr\u00eeti, no peu no \u00easighe \u2019na corela\u00e7ion; basta
+  pens\u00e2 che i zeneixi doveivan avei valut\u00f2u ben l\u2019inpegno ch\u2019o
+  l\u2019avieiva conport\u00f2u a spedi\u00e7ion sensa av\u00eai a-a baze \u2019n\u2019asocia\u00e7ion
+  e union de intenti e de pratica. Ommi e navi; ma suviat\u00f9tto famigge (Da Volta,
+  Spinola, de Castro, ecc.) che p\u00e0gan o trasp\u00f2rto di sordatti co-a cappo
+  Ghigermo Embriaco, pe avei, a-o ritorno, e \u00e7enie do Batista, l\u2019avert\u00fba
+  de neuve stradde in sci\u00f4 Mediteranio; pe poei, a-a longa, go\u00e2gn\u00e2
+  ben ben de palanche.\\nALLEGATO 56 - Genova tra ottocento e novecento, AA.VV., volume
+  IV il Porto, Nuova Editrice Genovese 2010, pag. 256.\\nO volumme quattro, dedic\u00f2u
+  a \u201co P\u00f2rto\u201d o l\u2019\u00e9 l\u2019urtimo di libbri da serie de fotografie
+  de Z\u00eana e de seu delega\u00e7ioin scat\u00e6 into periodo euto\u00e7ento-neuve\u00e7ento.\\nGustoxi
+  ac\u00e9nni st\u00f2richi e ben 347 foto, con panorammi e a Madonna, pala\u00e7\u00e7i
+  e emigranti, distru\u00e7ioin da gu\u00e6ra e ricostru\u00e7ioin, personaggi vegi
+  e neuvi, nave picinn-e e grendi transatlantici; da-o progetto de \u2019n\u2019idrov\u00eca
+  verso a valle do Po a l\u2019aeroporto: \u2019na carel\u00e2 ch\u2019a testimonia
+  l\u2019evolu\u00e7ion do p\u00f2rto, ma ch\u2019a l\u2019ingheugge emotivamente
+  tutti quelli che, super\u00e2 \u2019na \u00e7erta et\u00e6, han visciuo de personn-a
+  i vari eventi fotograf\u00e6 e sapientemente descr\u00eeti. L\u2019edi\u00e7ion
+  a l\u2019\u00e9 ben cur\u00e2: carateri de stanpa nitidi e che se lezan ben, pap\u00ea
+  patin\u00f2u e vegie foto in gianco e neigro.\\nALLEGATO 57 - Gh\u2019ea \u2018na
+  votta... favole popolari in lingua genovese, Nino Durante, ERGA ed 2010, con CD,
+  pag. 48\\nSto chi o l\u2019\u00e9 o terso libbro de f\u00f6e scr\u00efto da-o Durante
+  e, comme i atri do\u00ee, o contegne tr\u00e6 f\u00f6e. Se e l\u00eazei a-i nevi
+  e a-e nesette, de seguo ve dian: \u201cnonno/a, perch\u00e9 mi racconti le favole
+  in genovese?\u201d E aloa voiatri rispondiei: \u201cperch\u00e9 cosc\u00ec, non
+  solo te l\u00eazo \u2019na f\u00f6a, ma d\u00e6to che o zeneize o l\u2019\u00e9
+  \u2019na lengoa ch\u2019a te deve intr\u00e2 into cheu, fasso in m\u00f2ddo che
+  questa c\u00f2cina, \u2019na v\u00f2tta che ti ghe l\u2019\u00e6 drento, da grande
+  a te rendi\u00e2 no solo orgogliozo d\u2019ese nasciuo a Z\u00eana ma anche de longo
+  al\u00eagro e gioiozo perch\u00e9 sta chi a l\u2019\u00e9 muxica nostr\u00e2!\u201d\\nALLEGATO
+  58 - Il paradiso dietro l\u2019angolo, san Fruttuoso di Camogli, Carla Scarsi, ERGA
+  ed., con DVD, pag. 96.\\nTutti prov\u00eammo nostalgia e \u2019n cao areg\u00f2rdo
+  pe-i p\u00f2sti donde semmo cresci\u00fbi, e pe-a gente co-a qu\u00e6 al\u00f4a
+  \u00e9mmo spartio gi\u00f6ie e alegria, dolori e esperiense. Pe quelli ch\u2019\u00e0n
+  avuo a fortunn-a de frequent\u00e2 da bagarilli a baia de P\u00f2rtof\u00ecn, o
+  do\u00e7e sav\u00f4 de quelli areg\u00f2rdi o vegne ancon ci\u00f9 do\u00e7e pe-a
+  belessa do scito, ancon ancheu conserv\u00f2u \u2013 gra\u00e7ie a-o FAI, Fondo
+  per l\u2019ambiente italiano \u2013 comme un v\u00eao \u201cparadizo de der\u00ea
+  a-o canto\u201d do promont\u00f6io.\\nPe chi, magara comme turista, o l\u2019\u00e9
+  an\u00e6to a vixit\u00e2 l\u2019ant\u00eega aba\u00e7ia armeno \u2019na v\u00f2tta,
+  l\u2019\u00e9 fa\u00e7ile intr\u00e2 into spirito di raconti, sciben che no son
+  f\u00e6ti da seu vitta, anche pe via do dischetto ch\u2019o ne permette de rivedde
+  d\u2019in caza quelli beliscimi p\u00f2sti.\\nALLEGATO 59 - Moderno Dizionario Rapido
+  genovese-italiano, italiano-genovese, in graf\u00eea ofi\u00e7i\u00e2, con la pronuncia
+  di tutte le parole, completo di rimario genovese. Franco Bampi, Stefano Lusito,
+  Sotto l\u2019egida della A Compagna, ed. ERGA 2011, pag. 176.\\nQuesto \u201cDi\u00e7ion\u00e2io
+  Rapido\u201d o l\u2019ea za st\u00e6to stanp\u00f2u do 1995, in sce ini\u00e7iativa
+  do grande animat\u00f4 de l\u2019Erga: o Marcello Merli. O prescidente da Compagna
+  d\u2019al\u00f4a, l\u2019indimenticabile Gi\u00f6xepin Roberto, o l\u2019aiva concesso
+  o patrocinio cosc\u00ec che o l\u2019ea sciort\u00eeo sotta l\u2019egida da Compagna.\\nA
+  figgia do Marcello, Roberta, a l\u2019\u00e0 atrov\u00f2u into prescidente Franco
+  Bampi e into soccio Steva Lusito \u2013 un zo\u00eano pr\u00f2scimo a l\u2019ezamme
+  de maturit\u00e6, esperto de zeneize \u2013 i do\u00ee colaborat\u00f6i pe ristanp\u00e2
+  o libbro ancon sotta l\u2019egida da Compagna. Quarc\u00f6sa per\u00f2 l\u2019\u00e9
+  cangi\u00f2u: a graf\u00eea de par\u00f2lle a l\u2019\u00e9 a graf\u00eea ofi\u00e7i\u00e2;
+  gh\u2019\u00e9 in bello prof\u00ee do Carlo Piero Pessino \u2013 primmo curat\u00f4
+  do \u201cDi\u00e7ion\u00e2io\u201d \u2013 scrito da-o Cesare Viazzi; e o contegn\u00fbo
+  o l\u2019\u00e9 st\u00e6to anpli\u00f2u in m\u00f2ddo da rende o \u201cDi\u00e7ion\u00e2io\u201d
+  e o \u201cRim\u00e2io\u201d ci\u00f9 conscistente. In concluxon o \u201cDi\u00e7ion\u00e2io\u201d,
+  in volumetto de dimenscioin e prexo contegn\u00fbi, o se presta ben pe ese in riferimento
+  pe tutti quelli che no veuan perde a nostra antiga parl\u00e2 zeneize.\\nALLEGATO
+  60 - I love Liguria, AA.VV., ed. Erga, 2011, pag. 216.\\nIni\u00e7iando con D\u00f4saiga,
+  con testo in italian e ingleise, unn-a conpleta carel\u00e2 d\u00ee paizi de l\u2019Entrot\u00e6ra
+  ligure e de l\u2019Oltrez\u00f4vo, con brevi ma inportanti comunica\u00e7ioin st\u00f6iche-geografiche,
+  eventi, sagre e monumenti da vedde, compresi valadde, parchi natur\u00e2li e muz\u00eai.\\nTante
+  noti\u00e7ie utili, intramisse con belle fotograf\u00eee e articoli a tema, firm\u00e6
+  da n\u2019portanti aot\u00f4i qu\u00e6 o da npiatri ben conosci\u00fbi R.Bixio con
+  rela\u00e7ion su \u201cLiguria invisibile\u201de o R.Terranova suvia e \u201cardesie\u201d;
+  V.Pronzati con t\u00fbtto e de ci\u00f9 su l\u2019\u00eauio, pesto e o vin; e A.
+  De Pascale suvia o \u201cMuseo archeologico de Fin\u00e2.\\nInutile perch\u00e9
+  consueta, a bella gr\u00e0fica e carta uz\u00e2 dall\u2019Edit\u00f4, sempre \u2018super\u2019,
+  a-a pari qualit\u00e6 di testi.\\nALLEGATO 61 - Piccoli martiri, Francesca Di Caprio
+  Francia, ed. Citt\u00e0 del Silenzio, 2011, pag. 152.\\nPo\u00e9mmo uz\u00e2 con
+  vanto a parolla \u201c\u00e7ivilt\u00e6 ocidentale\u201d, anot\u00e2ndo che, se
+  ancon \u00e7ento anni fa \u2013 o foscia poco de ci\u00f9 \u2013 anche in essa a
+  ci\u00e2ga do sfrutamento di minori ea unn-a prassi, e oua po\u00e9mmo d\u00ee:
+  anul\u00e2.\\nA l\u2019\u00e8 st\u00e6ta unna conquista lenta, favor\u00eca da numerosi
+  fat\u00f4i esterni a-o temma, ma che tutti \u00e0n contribo\u00eeo a agoant\u00e2
+  l\u2019exito, reso \u2018diritto\u2019 da Lezze do Stato.\\nO libbro ini\u00e7ia
+  con unna fondamentale premessa: a mem\u00f6ia do pas\u00f2u pe \u2018n megio avegn\u00ee;
+  e o finisce con unna breve riflescion che, oviamente, a l\u2019\u00e8 da l\u00eaze,
+  perch\u00e9 o programma o l\u2019\u00e8 tutt\u2019\u00e2tro che fin\u00eeo: a ci\u00e2ga
+  a l\u2019existe ancon into mondo, asc\u00ec poco lontan da noiatri. Gh\u2019\u00e8
+  ancon molto da travaggi\u00e2: tutti. Lezendo o libbro se n\u2019acapisce a portata.\\nALLEGATO
+  62 - Progetto Sch\u00eaue de Z\u00eana, 2010-2011, realizou con a Region Liguria.\\nEmmo
+  concluso l\u2019impegno preizo con a Region e into spirito do nostro mandato, de
+  spanteg\u00e2 o zeneixe inti zo\u00eani.\\nTutti i sei libbri son st\u00e6ti consegn\u00e6
+  a t\u00fbtte e classi de sch\u00eaue elementari de Z\u00eana.\\nBen sciuscianta
+  insegnanti se son present\u00e6 voent\u00e6i pe utilis\u00e2 \u2013 doppo un corso
+  con loiatri - i libbri co-i scolari\\nA fadiga a l\u2019\u00e8 st\u00e6ta tanta,
+  ma a sodisfa\u00e7ion d\u2019avei f\u00e6to unn-a grande opera\u00e7ion , degna
+  de \u2018n Consolato che o fon\u00e7ionna e de grande risp\u00eatto so\u00e7iale
+  e asociativo, ghe f\u00e2 proc\u00eade a testa erta pe o ben da Compagna.\\nTutti
+  i aot\u00f4i e disegnat\u00f4i de tutti i opuscoli e libbri, \u00e0n travaggiou
+  gratuitamente de badda, e asc\u00ec chi l\u2019\u00e0 camall\u00e6 sch\u00eaua pe
+  sch\u00eaua, a unico go\u00e2gno da nostra Asocia\u00e7ion.\\nTutto quanto d\u00e6to
+  a-e scheue, no l\u2019\u00e8 in vendita a-o publico; ma se e richieste sai\u00e0n
+  tante, poriemo procede a \u2018na ristampa pe noiatri.\\nALLEGATO 63 - Di terra,
+  di mare, Oriati Mirco, Rizzuto Rosanna, ed. S.E.S. 2011, pagg. ___\\nI d\u00fbi
+  Aot\u00f4i, \u2018re\u00e7idivi\u2019 doppo avei gi\u00e0 editou un libbro intitolou
+  \u201cA volo di gabbiano\u201d descr\u00eevente un paralelismo tra Zena e Palermo,
+  \u00e7it\u00e6 di origine di d\u00fbi sposi, torn\u00e2n presentando un bello\\nvolumme
+  con tema \u00e7entrale a g\u00eaxa da \u00c7ella de San P\u00ea d-\u00c6nn-a.\\nDe
+  n\u00eauvo, son riosc\u00eei a-atrov\u00e2 \u2018na formula che a rende lat\u00ecn
+  a let\u00fba asc\u00ec da sto\u00efa\\nde l\u2019edifi\u00e7io into contesto da
+  sto\u00efa europea; asc\u00ec l\u2019elenco de-inumerevoli opere d\u2019\u00e0rte
+  conserv\u00e6 da-e origini medievali (comme a g\u00eaxetta de s.Agostin \u2013 che
+  pe i sanpedeinin gh\u2019ea za a-i tempi de Liutprando inte l\u2019anno 725 - anche
+  se i afreschi e-e pr\u00eee atoali resalgan a-o XIII secolo; e comme a pr\u00eea
+  con desegnou o Cristo con e spinn-e e a cr\u00f4xe, e che o l\u2019\u00e8 o santo
+  patron protet\u00f4 de a \u00e7it\u00e6 de San P\u00ea d\u2019\u00c6nn-a).\\nI dui
+  raconti, intress\u00e6 con unn-a nara\u00e7ion fantaxiosa de vitta visciua inte
+  varie epoche, da personne sampedeinne lighe-\u00e6 l\u2019unna co l\u2019atra da
+  un ben preciso ogetto che o passa di man in man finn\u2019ai tempi d\u2019ancheu.\\nALLEGATO
+  64 - Il vallo ligure la linea difensiva allestita dalle forze nazifasciste... ,
+  Gabriele Faggioni, ed. Ligurpress 2010, pag. 288.\\nA cavallo tra o 1943 e o 44,
+  a po\u00eea de\u2019n desbarco de Ale\u00f2ui in sce coste liguri, consegoensa asc\u00ec
+  do smacco de inpun\u00eei bombardamenti navali, e f\u00f2rse nazifasciste \u00e0n
+  desemenou a costa con bater\u00eee de canoin, bunker, mi\u00e2ge antidesbarco arich\u00eei
+  de f\u00ee spigou e metraggiatrici.\\n\u00d6ua tutte ste opere se confondan co-o
+  verde di promont\u00f6i, inte isolette e art\u00fbe de riv\u00eae, specie donde
+  ghe fuse unn-a spi\u00e2gia da qu\u00e6 pouei progred\u00ee e ariv\u00e2 a-i Apen\u00ecn.
+  Tutto un ampio progetto specifico difensivo, pontualizou zona pe zona, renforsabile
+  co\u2019n tr\u00eano armou.\\nA ri\u00e7erca dell\u2019Aot\u00f4 fogalissa tutti
+  i siti de difeiza, spe\u00e7ificando a qualit\u00e6 de l\u2019armamento e-e strut\u00fbe\\nALLEGATO
+  65 - AA.VV., Quaderni di Storia Locale, ed. Me.Ca.\\nO \u2018Centro Studi di Jeri\u2019,
+  nasciuo e operante a Bogiasco da-o 2006, o l\u2019\u00e8 promot\u00f4re de mostre,
+  de riordino di archivi e o l\u2019\u00e0 editou di libbri. Tra i qu\u00e6, ogni
+  anno, con l\u2019etichetta di \u201cQuaderni\u201d, o publica numerosi travaggi
+  de ri\u00e7erca archivistica e into terit\u00f6io, di qualificati studiosi, riferibili
+  a-a sto\u00efa, personn-e e tradi\u00e7ioin de Bogiasco e di \u00e4tri due comuni
+  vixinni S\u00f6i e Pr\u00eea Ligure.\\nTra i aot\u00f4, conpare Paolo Giacomone
+  Piana, nostro soccio e redatt\u00f4 do bolletin; tra i prezentatoi l\u00eazemmo
+  asc\u00ec o nomme do nostro presidente Bampi; tra i titoli di Martedi a Paxo se
+  son intraten\u00fbi con \u2018na conferenza o 5 de arv\u00ee do 2011.\\nPurtroppo,
+  a nostra biblioteca no possiede tutta a produ\u00e7ion editoriale de questa fertile
+  asocia\u00e7ion.\\nALLEGATO 66 - Fortificazioni in Liguria dal XVIII secolo alla
+  Grande Guerra, Mauro Minola, Claudio Arena, Beppe Ronco, ed. Ligurpress 2009, pag.236.\\nDoppo
+  \u2018n-a breve ma precisa puntualisa\u00e7ion suvia o significato, diferense \u2013
+  esempio, tra campo trin\u00e7erou e bateria coraz\u00e2, tra artiglierie montann-e
+  e da costa \u2013 o travaggio de cataloga\u00e7ion e descri\u00e7ion f\u00e6gto
+  da-i Aoto, cored\u00e6 da belle e limpide fotografie, mette in luce che in Liguria
+  ghe son \u00e7irca quaranta forti e fortificaioin spantegh\u00e6 inti punti strategici
+  da region, a sbaramengto de valli, passi e cit\u00e6; a-i qu\u00e6 ghe son da azonze
+  un\u2019altra chinzenna in sci cucuzzoli di monti de Z\u00eana.\\nA-o conto, ghe
+  son da azunze unn-a trentenna de baterie, alcune caserme, ridoute o bastion.\\nTanti
+  forti porian ese meta de escursionisti e caminatoi di sent\u00ea de l\u2019Apenin;
+  ma son punti basilari pe i studiosi de stoia locale, specie de-e localit\u00e6 de
+  confinne, coinvolti into corso di eventi politici , da periodica instabilit\u00e6
+  politica \u00e7entrale, da invasioin, da pi\u00f9 vaste opera\u00e7ioin militari
+  de conquista con, da immagin\u00e2, suprusi, battaglie ed assedi, per evitare i
+  quae e fortifica\u00e7ioin ean punto di guarnigioin e rapresentavan relativa sicurezza.\\nALLEGATO
+  67 - Antartide 1975/76 storia di una spedizione geologica, alpinistica, subacquea,
+  esplorativa, Terranova Remo, Erga 2011, pagg. 168\\nGrande firma quella do nostro
+  soccio, in canpo scentifico e coltu\u00e2le na\u00e7ionale, che o l\u2019\u00e0
+  recentemente publicou un \u00e2tro libbro, sempre spa\u00e7iando inta so qualit\u00e6
+  de geologo, stavotta in sce t\u00e6re ... ov\u00eao in sci giassi dell\u2019Antartide.
+  Spedi\u00e7ion f\u00e6ta tanti anni fa, ma da aregord\u00e2 petrch\u00e9 premessa
+  de sucessivi sviluppi scentifici e de ri\u00e7erca.\\nEmo\u00e7ionante o capitolo
+  dedicou a-i animali: tutti conosci\u00fbi into nomme, ma sempre \u2019str\u00e2ni\u2019
+  pe noiatri, abitu\u00e6 ai climmi c\u00e2di: cosc\u00ec i pinguinn-i, f\u00f6che,
+  ota-ie, cormorain, pro\u00e7ela\u00eee finn-a e sconosci\u00fbe, pe mi, squa.\\nLibbro
+  interesante, scr\u00eeto con a saga\u00e7e capa\u00e7it\u00e6 de mescol\u00e2 i
+  dati scentifici con queli narativi, da perm\u00e9tte unn-a let\u00fba scorevole
+  e no pezante: cosc\u00ec a descri\u00e7ion tecnica a l\u2019\u00e8 altern\u00e2
+  con a nara\u00e7ion de \u2019na deposi\u00e7ion de \u2018na Madonninn-a do duomo
+  de Milan a 33 m. de profondit\u00e6 inte e acque gelide; o rili\u00eavo de ciante
+  fosiliz\u00e6, o studio de vulcan, alcuni ancun attivi; e scal\u00e6 inti gias\u00ea.\\nA
+  editrice Erga se vanta avei incluso o libbro inte \u2018n-a colann-a dedic\u00e2
+  ai temi de-a geografia, geologia e architet\u00fba antica, tra i qu\u00e6 o libbro
+  de l\u2019atro nostro soccio Armando di Raimondo con tema o fortili\u00e7io de Gavi.\\nALLEGATO
+  68 - Montagni Claudio, il Battistero di san Giovanni in san Lorenzo a Genova, Colombo
+  Grafiche 2011, pagg. 200\\nUnn-a inportante \u00e9quipe d\u2019esperti, a l\u2019\u00e0
+  conpl\u00eat\u00f2u o restauro do Batist\u00eaio de san Gio\u00e2ne; \u00e9vento
+  non solo determinante pe-o scignific\u00e2to e a qualit\u00e6 do munumento into
+  contesto do nostro Duomo, ma asc\u00ec perch\u00e9 o l\u2019\u00e0 portou a-a d\u00e8scoverta
+  de numerose e ingarbugi\u00ea vi\u00e7ende st\u00f6iche e architetoniche che se
+  son sorvaposte inti secoli pas\u00f2i, obligandoli a elucubr\u00e6 ri\u00e7erche,
+  asc\u00ec documentali, e asc\u00ec tecniche de urtima genera\u00e7ion (tra e qu\u00e6,
+  pe esenpio, a capa\u00e7it\u00e6 de d\u00e6t\u00e2 \u2013 con minimo scarto de\\naproscima\u00e7ion
+  \u2013 unn-a malta o un mon). Tutto o l\u2019\u00e8 descr\u00eeto into libbro, conpletou
+  a ci\u00f9 m\u00e0n con articoli de Clario Di Fabio, Giorgio Rossini, Elena Leoncini,
+  Daniela Pittaluga, Lauro Magnani e da-o meximo Aot\u00f4; e con, a-a finn-e, unn-a
+  anpia documenta\u00e7ion fotografica a colori.\\nALLEGATO 69 - Le operazioni aeronavali
+  nel mar Ligure 1940-1945, Gabriele Faggioni, Alberto Rosselli, Ligurpress 2011,
+  pagg. 192.\\nSe o titolo o dixe za tutto a-i apascion\u00e6 da st\u00f6ia da go\u00e6ra
+  visci\u00fba into m\u00e2 Ligure, e se da-i do\u00ee aoto\u00ee poemo solo asp\u00eat\u00e2se
+  e megio informa\u00e7ioin e de ci\u00f9 precize de d\u00e6to che son za conosci\u00fbi
+  pe-e seu publica\u00e7ioin, n\u2019aprofit\u00e9mmo aloa pe intrategnise in pitin
+  in sci\u00e2 Ligurpress. A l\u2019\u00e9 \u2019na caza editri\u00e7e ch\u2019a vanta
+  oltre \u00e7inquanta libbri con tema Zena e a Liguria: da-i f\u00f2rti, tenplari
+  e balestr\u00ea a-a cuxinna; da-e str\u00eee, stregoin e fantastiche mag\u00eee
+  a-i eventi da go\u00e6ra; da-e goidde do terit\u00f6io atoale a-a seu preist\u00f6ia.\\nA
+  veste grafica a l\u2019\u00e9 inportante, ben cur\u00e2 e as\u00e6 sodisfacente
+  pe-a qualit\u00e6 do pap\u00ea e da scrit\u00fba: in bello travaggio editoriale
+  a \u2019n prexo contegn\u00fbo. L\u2019\u00e9 cosc\u00ec poscibile pe tutti de arich\u00ee
+  a seu biblioteca con di belli libbri in sce di argomenti interesanti e soviat\u00f9tto
+  ben document\u00e6 a tema locale regionale.\\nALLEGATO 70 - Dall\u2019alba del Risorgimento
+  all\u2019Unit\u00e0 d\u2019Italia, E. Baglini, F. Bampi, E. Gaggino, F. Lottero,
+  F. Majocco, A.G. Remedi, S.E.S. 2011, pagg.158\\nDi aoto\u00ee, ben quattro son
+  s\u00f2cci de \u201cA Compagna\u201d. Son an\u00e6ti a ravat\u00e2 tanto da poei
+  dimostr\u00e2 l\u2019inportante parte\u00e7ipa\u00e7ion a-o grande evento de l\u2019Unit\u00e6
+  da parte do borgo de San P\u00ea d\u2019\u00c6nn-a, poi \u00e7it\u00e6 aotonoma,
+  e de san Teod\u00f6o, sest\u00ea de Zena, oua rion\u00eei inte \u2019n unico Municipio.
+  Parte\u00e7ipa\u00e7ion at\u00eeva, comme dimostra o busto da covertinn-a, dedic\u00f2u
+  a-o pluridecor\u00f2u St\u00eava Lagorara, prezente insemme a tanti \u00e2tri garibaldin
+  into camposanto da Castagna, dove gh\u2019\u00e9 asoter\u00f2u adreit\u00fba quarche
+  garibaldin ch\u2019o no l\u2019\u00e9 riport\u00f2u inti elenchi ofi\u00e7i\u00e2li.
+  Parte\u00e7ipa\u00e7ion organizat\u00eeva e ideologica: patrioti fucil\u00e6; ospitalit\u00e6
+  a-e truppe fran\u00e7eixi che co-a fer\u00f4via anian a fin\u00ee inta grande carneficinn-a
+  de Solferin; i operai da SMS Universale, prezenti a Sapri e p\u00f6i copromot\u00f4i
+  da partensa di Mille; l\u2019acheugge i tanti patrioti profughi \u00f2 ezili\u00e6;
+  a dedica do tiatro a-o mazinian Gustavo Modena; e d\u00f2nne con r\u00f2lli solo
+  aparentemente segond\u00e2i.\\nL\u2019identit\u00e6 de \u2019na \u00e7it\u00e6 a
+  l\u2019\u00e0 reixe ben ciant\u00e6, comme queste, cont\u00e6 into libbro.\\nALLEGATO
+  71 - Uniti nell\u2019Italia unita, Tringali Sebastiano, Ames 2011, pagg. 240\\nD\u00f3n
+  da n\u00f2stra s\u00f2ccia, a Socj\u00eat\u00e6 Oper\u00e2ia Univers\u00e2le de
+  San P\u00ea d\u2019\u00c6nn-a. Gh\u2019\u00e9 descr\u00eeto in m\u00f2ddo pontoale
+  o mondo do travaggio manoale, visto da-a parte de l\u2019oper\u00e2io zeneize, de
+  asocia\u00e7ioin fraterne e cooperative; de l\u2019instru\u00e7ion e-a colt\u00fba
+  do popolo; da parte\u00e7ipa\u00e7ion a-o processo unita\u00eeo: partez\u00e2 con
+  Mazzini e Garibaldi; do seu unico patrimonio: o travaggio.\\nL\u2019\u00e9 de seg\u00fbo
+  \u2019na man\u00eaa diversa de vedde l\u2019Unit\u00e6 na\u00e7ionale, rispetto
+  a quella de solito proposta inte sch\u00eaue e da-a colt\u00fba st\u00f2rica clascica.
+  Ma no meno inportante perch\u00e9 in fondo, son st\u00e6ti loiatri a an\u00e2 a
+  conb\u00e0tte \u00f2 a travaggi\u00e2; loiatri l\u2019Unit\u00e6 no solo l\u2019\u00e0n
+  pens\u00e2, ma soviatutto l\u2019\u00e0n f\u00e6ta inte oficinn-e o in sc\u00ee
+  canpi de bataggia co-i garibaldin.\\nConcludde o libbro \u2018la novella di Masino\u2019,
+  cont\u00e2 in fumetto da-o Lucca De Santis.\\nALLEGATO 72 \u2013 O Prin\u00e7ip\u00ecn,
+  De Saint-Exup\u00e9ry Antoine, con acquer\u00e8lli de l\u2019aot\u00f4, tradu\u00e7ion
+  da-o fran\u00e7eize a-o zeneize de Alessandro (Lusciandro) Garibbo, ed. Tintenfass
+  2011, pag.96\\nL\u2019aot\u00f4 fran\u00e7eize o l\u2019\u00e0 scr\u00eeto questo
+  raconto do 1943, into pin da gu\u00e6ra, d\u00f2ppo ch\u2019o l\u2019ea ritorn\u00f2u
+  da quella recente de Spagna e primma de mo\u00ee sconparindo durante \u2019n x\u00eauo
+  de recogni\u00e7ion. Da li in avanti tutti i figeu \u2013 ma asc\u00ec chi bagarillo
+  o no l\u2019\u00e9 ci\u00f9 \u2013 \u00e0n f\u00e6to con questo t\u00e8sto un di
+  ci\u00f9 belli x\u00eaui che se peu f\u00e0 co-a fantax\u00eea, un de quelli ch\u2019o
+  t\u2019aresta pe senpre inta mem\u00f6ia d\u2019aveilo f\u00e6to. A dimostra\u00e7ion
+  che \u2019n tutti i recanti do mondo e gente s\u2019aseunan e m\u00e6xime c\u00f6se
+  se suger\u00eee da st\u00f6ie de fantax\u00eea ma asc\u00ec costrut\u00eeve.\\nO
+  Garibbo o l\u2019\u00e0 curou a verscion in zeneize trad\u00fbxendo diretamente
+  da-o fran\u00e7eize, pe ese o ci\u00f9 fedele poscibile a l\u2019originale. O scrit\u00f4
+  fran\u00e7eize o l\u2019\u00e0 concentr\u00f2u drent\u2019a-o t\u00e8sto a seu morale
+  de grande civilt\u00e6 e, pe quello ch\u2019avegniva aloa into mondo, in pitin dizincat\u00e2.
+  No l\u2019\u00e9 fa\u00e7ile concentr\u00e2 in p\u00f6che righe i val\u00f4i esen\u00e7iali
+  de \u2019na so\u00e7i\u00eat\u00e6 a mez\u00fba d\u2019\u00f2mmo, comme o dov\u00e9i,
+  a fraternit\u00e6, a solidariet\u00e6, o prin\u00e7ipio che a l\u2019\u00f2mmo \u2013
+  s\u2019o se priva da dignit\u00e6 e de l\u2019etica \u2013 ghe vegne o cheu arso\u00eeo
+  e o rende dezerto o mondo; perch\u00e9 \u00f2gni \u00f2mmo o l\u2019\u00e9 ligou
+  a-i atri co-in ligamme cosc\u00ec streito ch\u2019o ghe fa conosce che e c\u00f6se
+  ci\u00f9 senplici son e ci\u00f9 belle e che a feli\u00e7it\u00e6 consciste into
+  f\u00e2 feli\u00e7e i \u00e2tri. Concetti difi\u00e7ili da spieg\u00e2 a \u2019n
+  figeu; megio quindi se mostr\u00e6 indiretamente co-ina f\u00f6a dove ogni figeu
+  o pensa d\u2019ese l\u00ea o Prin\u00e7ipin, finn-a a acap\u00ee che o Prin\u00e7ipin
+  o no se n\u2019\u00e9 and\u00e6to ma o l\u2019\u00e9 senpre chi, da ognidun de niatri.\\nALLEGATO
+  73 \u2013 il Monte di Piet\u00e0 di Gavi della Confraternita di N.S. Assunta dei
+  Turchini, Armando Di Raimondo, Erga ed., 2011, pag. 208\\nUn n\u00eauvo libbro do
+  nostro soccio, ch\u2019o l\u2019alterna ri\u00e7erche inti archivvi zeneixi \u2013
+  za publich\u00e6 into nostro boletin \u2013 e o seu vive inte l\u2019Oltrezovo,
+  t\u00e6ra de ant\u00eega apartenensa zeneize.\\nSe se conscidera che tanto materi\u00e2le
+  d\u2019archivio o l\u2019\u00e9 an\u00e6to destr\u00fbto, a seu ricostru\u00e7ion
+  di f\u00e6ti \u2013 a ci\u00f9 preciza poscibile \u2013 a mostra i colegamenti con
+  Zena e i paixi vexin, comme, prezenpio, \u2019na dona\u00e7ion a \u2019n\u2019uspi\u00e2
+  de San P\u00ea d\u2019\u00c6nn-a, e no solo. In ci\u00f9 a dimostra e a valorizza
+  comme o l\u2019ea l\u2019anbiente, a vitta, e opere, o bello e o br\u00f9tto, tutto
+  fedelmente document\u00f2u da l\u2019ativit\u00e6 do Banco di pegni. A forsa de
+  l\u2019aot\u00f4 a l\u2019\u00e9 st\u00e6ta quella de no avei f\u00e6to di aridi
+  elenchi ma d\u2019avei saci\u00fbo trasform\u00e2 \u2019na profonda cult\u00fba
+  in sce queste primitive istitu\u00e7ioin de carit\u00e6 cristiann-a inte \u2019na
+  let\u00fba latinn-a e gradevole.\\nALLEGATO 74 \u2013 Peagna\\nScr\u00eeve de Peagna
+  in poche r\u00eeghe? Gh\u2019\u00f2ri\u00e9iva \u2019n libbro solo pe-o terit\u00f6io:
+  a valadda Ib\u00e0, pinn-a de piante e de fi\u00f4ri mediteranei; opure pe-o paizetto
+  medievale a-e spalle do \u00c7ei\u00e2, ricco de sto\u00efa, de tradi\u00e7ioin
+  antighiscime e dove ancon ancheu a vitta a score into scilen\u00e7io di ol\u00eevi
+  con l\u2019antiga carma e o ritmo di paixi agricoli; opure solo pe-a g\u00eax\u00e9tta,
+  quella n\u00eauva comme anche quella ant\u00eega con i seu afreschi.\\nA noiatri
+  interesan sorvetutto i libbri; e al\u00f4a t\u00f2-u li che semmo ospit\u00e6 inte
+  de stansie co-i sofiti de moin e f\u00e6ti a veia, \u00f2 inte \u2019na cazetta
+  riamodern\u00e2 de ci\u00f9 cen, co-i vani t\u00fbtti pin de libbri ben catalog\u00e6
+  e ordin\u00e6 finn-a-o sof\u00eeto e da-o cian teren finn-a a-o te\u00eeto (da-o
+  terasin do quae, a botti, se peu pas\u00e2 inte quelli di atri vexin: qu\u00e6xi
+  \u2019na preuva scilen\u00e7ioza de fiduccia, sostegno e amici\u00e7ia) \u00f2 inti
+  gr\u00e9ndi saloin de caza Aicardi donde l\u2019\u00e9 ospit\u00f2u e misso in mostra
+  ci\u00f9 de dexemilla volummi a tema ligure, che fan de Peagna a capit\u00e2le do
+  libbro regionale (ma asc\u00ec do basso Piemonte, da Sardegna e da Franza confinante)
+  e ritreuvo inportante da cult\u00fba ligure.\\nDa-o 1982 (l\u2019anno primma l\u2019ea
+  st\u00e6to fond\u00f2u l\u2019asocia\u00e7ion \u201cAmixi de Peagna\u201d) i tenaci
+  e convinti volont\u00e2i goid\u00e6 da-o pareco pr\u00e6 Fiorenso Gerini, se son
+  inser\u00eei inta Consulta Ligure e \u00e0n d\u00e6to vitta a-a f\u00eaa-merc\u00f2u
+  do libbro ligure (ma asc\u00ec emeroteca, pinacoteca e videoteca). F\u00f2scia manco
+  loiatri se l\u2019ean inmagin\u00f2u de poei divent\u00e2 \u2019n centro de prestiggio
+  interna\u00e7ionale \u2013 antiga voca\u00e7ion di liguri \u2013 pe mostr\u00e2
+  l\u2019educa\u00e7ion da sto\u00efa e da colt\u00fba civica e tradi\u00e7ionale
+  da n\u00f2stra t\u00e6ra.\\nAnemmo tutti a Peagna donque, a-a proscima rasegna anoale,
+  parte\u00e7ipando a-e ser\u00e2te colturali de fin agosto-primmi de setenbre; e
+  in particolare a-a \u00e7eim\u00f2nia finale co-a consegna do premio Anthia.\\nALLEGATO
+  75- Le mie prime 100 parole in Zeneize, Matteo Merli, Franco Bampi, Fabbrica Musicale
+  editore, 2012, con CD, pag.48\\nR\u00eccco de ilustra\u00e7io\u00ecn co-e qu\u00e6
+  zug\u00e2, ma asc\u00ec da color\u00e2 \u00f2 da \u2018trad\u00fbe\u2019, o libr\u00e9tto
+  o l\u2019\u00e9 \u2019n b\u00f3n strum\u00e9nto pe t\u00f9tti qu\u00e9lli che gh\u2019\u00e0n
+  di f\u00ecggi \u00f2 di n\u00eavi (d\u00ecmmo da-i \u00e7\u00ecnque a-i d\u00f3zz\u2019\u00e0nni),
+  pe mostr\u00e2ghe \u2013 inte \u2019n m\u00f2ddo divert\u00e9nte \u2013 a l\u00e9ngoa
+  zen\u00e9ize. Ma no se f\u00e9mmo de il\u00f9xo\u00ecn: \u00e0nche pe-i genito\u00ee,
+  e n\u00f2nne e i n\u00f2nni no l\u2019\u00e9 che s\u00e9gge t\u00f9tto f\u00e0\u00e7ile;
+  \u00f6ri\u00e2 d\u00ee che li\u00e2tri asc\u00ec pori\u00e0n atrov\u00e2 \u00f9tile
+  qu\u00e9sto l\u00ecbbro pe comens\u00e2 a scr\u00eeve in zen\u00e9ize, mag\u00e2ra
+  d\u00f2ppo av\u00e9i consult\u00f2u in di\u00e7ion\u00e2io e in mano\u00e2le de
+  graf\u00eea.\\nALLEGATO 76 - Nino Bixio e \u2018le questioni del mare\u2019, Armando
+  Fioravanti e Virgilio Bozzo, ed. Giammar\u00f2, 2011, pag. 128.\\nO 29 de novenbre
+  do 2011, o sci\u00f4 Virgilio Bozzo o l\u2019\u00e0 tegn\u00fbo \u2019na conferensa
+  in sci\u00f4 m\u00e6ximo tema a-i \u201cMarted\u00ec in Compagna\u201d.\\nPe ini\u00e7iat\u00eeva
+  de l\u2019Istituto Tecnico di Trasporti e Logistica \u2018san Z\u00f2rzo\u2019 de
+  Zena e Camoggi, into corso de l\u2019anno do 150enaio de l\u2019Unit\u00e6, l\u2019ea
+  st\u00e6to publicou o libbro ch\u2019o mette in ci\u00e6o \u00e7erti aspetti da
+  poliedrica fig\u00fba de l\u2019eroe ligure: co-o rac\u00f2nto da seu vitta; di
+  seu interventi comme Parlamentare; di rap\u00f2rti co-o m\u00e2 a-i tempi de l\u2019avert\u00fba
+  de Suez. O libbro o se conclude con unze schede (dove tra e atre c\u00f6se se mostra
+  e seu nave asc\u00ec) e co-in\u2019anpia bibliografia.\\nALLEGATO 77 - Escursioni
+  e campagne geologiche guidate, Remo Terranova, ed. Erga, 2011, pagg.148\\nMi penso
+  che a segge esperiensa de t\u00f9tti, avei notou \u2013 caminando pe i sent\u00ea
+  di nostri monti \u2013 a miriade de rocce, conforma\u00e7ioin diverse, a strati,
+  riseu, gran\u00eeti di ci\u00f9 tanti colori donde o verde spesso o prevale, intenso
+  o variegou. A coiozit\u00e6 de conosce o scignific\u00e2to e l\u2019origine de \u2018ste
+  pr\u00eee o de \u2018ste conforma\u00e7ioin a l\u2019\u00e8 forte, ma asc\u00ec
+  a l\u2019\u00e8 erta a dificolt\u00e6 de inparali.\\nO libbro, rivolto a-i studenti
+  di corsci de laurea in Scense Geologiche o Naturali e Geografia, con i soliti belli
+  tratti tipografici a-i qu\u00e6 semmo abitu\u00ea da-a casa editri\u00e7e Erga,
+  insegna 46 qualit\u00e6 de rocce in \u00e2tretanti siti de-a Liguria, comunemente
+  visciui, comme e 5 T\u00e6re, a valadda da Fontan-abonn-a, a valadda d\u2019Aveto,
+  e altre in moddo semplice, fotograficamente ben ilustrou a colori, tali da ese capii
+  asc\u00ec da \u2018n non profescionista e da-i amiratoi de-a complescit\u00e6 de
+  Mamma Nat\u00fba.\\nALLEGATO 78 - La duchessa di Galliera, Maria Brignole Sale De
+  Ferrari (Genova, 1811 \u2013 Parigi, 1888), Marcella Mascarino, Liberodiscrivere,
+  2011, pagg. 378.\\nPe voei ben intensamente a \u2019na personn-a, a \u2019na bestia,
+  a \u2019na \u00e7it\u00e6, l\u2019\u00e9 indispensabile \u00e7erc\u00e2 de conoscila
+  o ci\u00f9 a fondo poscibile, co-a totale disponibilit\u00e6 de g\u00f6d\u00eene
+  preggi e soport\u00e2ne i difetti. Anche pe conosce Zena peu no \u00ease abasta
+  gj\u00e2 pe-i caroggi, studi\u00e2 a seu sto\u00efa, ami\u00e2 i seu palassi, gust\u00e2
+  a fugassa e-e trenette co-o pesto. Pe conosce Zena, sorvet\u00f9tto da-o ponto de
+  vista coltur\u00e2le, l\u2019\u00e9 neces\u00e2io inpar\u00e2 a conosce asc\u00ec
+  i seu personaggi perch\u00e9 son st\u00e6ti l\u00f4 che co-a seu personalit\u00e6
+  \u00e0n contribo\u00eeo a carateriz\u00e2 questa \u00e7it\u00e6.\\nQuindi no fermemose
+  solo a Mazin e Garibaldi, ma infricemoghe asc\u00ec a famiggia de Rafaele De Ferrari,
+  e in particol\u00e2re seu mog\u00ea, a duchessa Maria Brignole Sale, a qu\u00e6,
+  co-e seu dona\u00e7ioin, a l\u2019\u00e0 permisso a-a n\u00f2stra Zena de f\u00e2
+  \u2019n enorme s\u00e2to de qualit\u00e6, cosc\u00ec da metila tra e primm-e da
+  Na\u00e7ion, vixin a-e ci\u00f9 fam\u00f4ze \u00e7it\u00e6 d\u2019arte, pe magnificensa
+  e bel\u00e9ssa. Tanto per f\u00e2 di ezenpi, devimo a loi\u00e2tri s\u2019emmo posci\u00fbo
+  ingrand\u00ee o p\u00f2rto cosc\u00ec da divent\u00e2 o megio d\u2019Italia; i palassi
+  Rosso e Gianco co-i quaddri do Van Dick, do Murillo e do Rubens; trei uspi\u00e6:
+  sant\u2019Andr\u00eea e san Filippo (o Gal\u00eaa) e C\u00f4n\u00e2; a grande villa
+  a V\u00f4tri; e primme tr\u00e6 caze popolari. Into contesto da seu \u00e9poca,
+  e vicende da famiggia \u2013 descr\u00eete da l\u2019Aotrice d\u00f2ppo avei lez\u00fbo
+  \u00e7entan\u00e6a de letere e de documenti \u2013 ne mostran i perch\u00e9 de tanta
+  e gener\u00f4zit\u00e6 che no ghe n\u2019\u00e9 de p\u00e6gia; enexima dimostra\u00e7ion
+  che, se i zeneixi son universalmente conosci\u00fbi comme avari, in realt\u00e6
+  e in silen\u00e7io, sensa troppo sci\u00e2to, son tra i ci\u00f9 generozi e parte\u00e7ipi
+  de necesit\u00e6 di \u00e2tri.\"", "\"[pronuncia]\\nL''Apenin, i munti che cumme
+  in fii de sche\u014b\u014ba i trav\u00e9rsan t\u00fctta l''Italia, i cum\u00e9nsan
+  da u T\u00fcrchin, dedatu a Vutri, pe and\u00e0 a L\u00fcsci\u00e0ndria *. Quarchedun
+  u piensa che u numme u ne vegne da Pen, diu l\u00edgure de selve e di munti, cusc\u00ec
+  cumme u munte Penna, u P\u00e9nice e i Pentemin.\\nQueste p\u00e0gine ch\u00ed i
+  l''en dedich\u00e8 a u primmu tuccu d''Apenin, quellu setentriunale, in r\u00f6u
+  de munti e vall\u00e8 spart\u00ede inte quattru pruvince e regiu\u00edn diferenti:
+  Zena (Lig\u00fcria), L\u00fcsci\u00e0ndria (Piemunte), Pavia (Lumbardia) e Piaxensa
+  (Milia-Rumagna). Mascimamente, per\u00f3, l''\u00e8 na zona in cun e me\u00e9xime
+  \u00fczanse (a gente a metteiva u gr\u00e0n e e patate e a c\u00fcggeiva e castagne,
+  i tegnivu crave e vacche e i feivu i paixi inte quellu moddu) ci\u00f9 sc\u00edmili
+  tra vall\u00e0 e vall\u00e0 ci\u00fcttostu che versu a cian\u00fca e u ma. Questi
+  ligammi i l''en belli cei in ta m\u01d8xica tradissiunale pupulare, che cusc\u00ec
+  l''an ciam\u00e0 de Quattru Pruvince: u moddu ci\u00f9 gi\u00fcstu pe parl\u00e0
+  de sti p\u00f3sti.\\nIna tera de punti\\nSe sa che l''imaginasiun da gente a l''ac\u00fcbbia
+  l''edificasiun de in punte a l''interventu dest\u00fcrbante du diau, e l''\u00e8
+  f\u00e0ssile capine u perch\u00e8: i punti i l''azonzu, u diau u l''\u00e8 \\\"quellu
+  ch''u sparte\\\". In ta cult\u00fca pupulare ci\u00f9 fullettu dest\u00fcrbante
+  che incarnasiun du m\u00e0 veru e pr\u00f3priu, u diau u l''insinua, in cu u su
+  fa negativu, l''inm\u00e0gine da cuntradissiun ascusa in t\u00fctte e assiu\u00edn
+  vut\u00e8 a \u00fcn\u00ed, a cavarc\u00e0, a travers\u00e0. In fondu, a s\u00f6
+  disper\u00e0 uppuzixun aa creasiun de cuntatti, z\u00fcnte, cum\u00fcnicassiu\u00edn,
+  a l''ascunde in valuu: a difeiza de l''identit\u00e8 e spesifisit\u00e8, per\u00f3
+  scheita in tu malinteizu de serase a l''atru, de in ref\u00fcu assol\u00fcu e st\u00e9rile.\\nSe
+  u punte g\u00f6bbu de B\u00f6bbiu, cu l''\u00fcnisce e riive upposte da Tr\u00e9bbia,
+  u m''\u00e0 s\u00fcggeriu queste cunsciderassiu\u00edn, l''\u00e8 perch\u00e8 in
+  queste vall\u00e8, che uramai ciamemmu \\\"de Quattru Pruvince\\\", s''arescea in
+  pin a cunplessit\u00e8 di tanti cuntradit\u00fai temmi de \u00fcniun e cunflitu,
+  ciavuja e scangiu, avert\u00fca e isulamentu. Vall\u00e8 percurse da stre millenaje,
+  vie marenche e vie da s\u00e0, tra men\u00fcssie de gea e curenti d''\u00e8gue,
+  uup\u00fcre trai b\u00fctti de creste, d''az\u00fcrru e verde, speg\u00e8 a nord
+  in nebie de cian\u00fca o a s\u00fcd in tu resplanduu di\u00e0fanu de na lengua
+  de m\u00e0. Vall\u00e8 n''uuta de antighe sulidariet\u00e8, cunsuet\u00fcdini cum\u00fcnitaje,
+  ampi\u00e9ssa de sc\u00f6sse, rich\u00e9ssa d''\u00e8gue. Ma anche de tere lunta\u014b\u014be
+  e sciti dezerti, de vitte fr\u00fcst\u00e8 in se urizunti sempre paegi, de rivalit\u00e8
+  antighe e sang\u00fcnente. Vall\u00e8 anc\u00f6` fete de selve sp\u00e9sse, paixi
+  aruin\u00e8 duv''\u00e0 guagnu e spi\u014b\u014be, ser\u00e8 in tu l\u00fcvegu de
+  l''abandun.\\nPaolo Ferrari Mag\u00e0\\n(Dalla val Trebbia alle \\\"molte province\\\"
+  = World music magazine. 62 : 2003.10. p 5-7)\"", "\"Greene Vardiman Black\\nGreene
+  Vardiman Black (1836 - 1915) o l''\u00e8 st\u00e6to un dentista americano, consciderou
+  o po\u00e6 da sciensa odontoiatrica moderna. O no l'' ha seguio di st\u00fcdi regolari:
+  o l'' ea autodidatta, essendo and\u00e6to a sc\u00f6a no ci\u00fc de vinti meixi.
+  Dall'' et\u00e6 de 17 anni o l'' ha comin\u00e7ou a f\u00e4 pratica in to st\u00fcdio
+  do fr\u00e6, Thomas G. Black, che o l'' ea mego, standoghe 4 anni. Poi o s'' \u00e8
+  misso a f\u00e4 o dentista doppo un corso de 4 meixi, e doppo esse st\u00e6to -
+  sempre pe pochi meixi - ascistente de un atro profescionista, J.C. Speer. Doppo
+  avei combatt\u00fco in te a guera \u00e7ivile americanna, o s''\u00e8 stabilio a
+  Jacksonville in te l'' Illinois, dove o s''\u00e8 dedicou \u00e4 ri\u00e7erca e
+  \u00e4 pratica dell''odontoiatria. O l'' ha st\u00fcdiou l'' odontoiatria avendo
+  a dispozision un solo libbro in sce l'' argomento. E regole definie da Black pe
+  a preparasion de cavit\u00e6 in ti denti cari\u00e6 ( i cosciditi Prin\u00e7ip\u00ef
+  de Black) son rest\u00e6 valide figna squ\u00e6xi \u00e4 giorn\u00e4 d'' anc\u00f6,
+  s\u00fcper\u00e6 solo da o re\u00e7entiscimo svil\u00fcppo di materiali compoxiti.
+  Comunque anche attualmente, sci\u00fcbben solo in parte, queste regole mantegnen
+  o s\u00f6 scignificou. Un'' atra cosa che i dentisti moderni devan a Black a l''\u00e8
+  a clascificasion di tipi de lesioin cariose segundo a forma e a pozision.\\nI Prin\u00e7ip\u00ef
+  de Black[mod\u00ecfica | mod\u00ecfica wikit\u00e8sto]\\n- Ottegn\u00ef a forma
+  de contorno richiesta.\\n- Ottegn\u00ef a forma de rexistensa richiesta.\\n- Ottegn\u00ef
+  a forma de ritension richiesta.\\n- Ottegn\u00ef a forma de conveniensa richiesta.\\n-
+  Elimin\u00e4 a dentinna cari\u00e4 che a fisse eventualmente rest\u00e4 in cavit\u00e6.\\n-
+  Rifin\u00ef e pareti de smalto.\\n- Nettezz\u00e4 a cavit\u00e6.\"", "\"CANTO TREDICESIMO\\nARGOMENTO\\nDoppo
+  d\u2019avei mostr\u00f3\u00f9 con sovraumana\\nVirt\u00f9 l\u2019Angeo a l\u2019Eroe
+  tante st\u00fbpende\\nCose e bellezze, che l\u2019Americana\\nRegion ricca e vastiscima
+  a comprende;\\nO gh\u2019indica unn-a serie lunga e strana\\nDe fut\u00fbre politiche
+  vicende\\nDa maexima, e i eroi ci\u00f9 rinom\u00e6,\\nChe in quella han comhatt\u00fbo
+  pe-a libert\u00e6.\\n1\\nL\u2019Eroe da-\u00f4 so pensceo profondo e tristo\\nD\u00e4
+  voxe de l\u2019Arcangeo \u00f4 l\u2019\u00eba riscosso:\\nD\u2019un mondo n\u00eauvo,
+  l\u00ea \u00f4 ghe dixe, acquisto\\nPe-\u00f4 vegio immenso, un breve schisso, un
+  sbosso\\nImperfetto, Colombo, ti \u00e6 z\u00e0 visto;\\nAoa ti conosci\u00e6 cosc\u00ec
+  a l\u2019ingrosso\\nE scene varie e i atti, a-i qu\u00e6 s\u00e4 averta\\n(N\u00eauvo
+  teatro stupendo) a to scoverta.\\n2\\nSaiva cosa superflua \u00f4 voe\u00ee predite\\nQuanto
+  ti p\u00eau pronostic\u00e2 ti stesso;\\nChe quando i ammirabili e infinite\\nRegio\u00een
+  e t\u00e6re doppo \u00f4 bon successo\\nDa to impreisa a l\u2019Europa s\u00e4n
+  descrite:\\nPe gloria e avidit\u00e6 subito e spesso\\nSeguiti\u00e2n n\u00eauve
+  pubbliche e private\\nSped\u00efzioin i to indizii e e to pedate.\"", "\"CUMPAGNIA
+  d\u2019i VENTEMIGLIUSI\\nS T A T \u00dc T U\\n- SCOPI -\\nArt. 1 - A \u201cCumpagnia
+  d\u2019i Ventemigliusi\u201d, fund\u00e0 int\u2019u 1927, a se prupune de mantegne
+  vivi u parla\u2019 e e tradissiun de Ventemiglia, de fa\u2019 cunusce a sou st\u00f6ria,
+  difende i soi mun\u00fcmenti, e sou belesse nat\u00fcrali e d\u2019agi\u00fct\u00e0
+  t\u00fcte e inissiative pe\u2019 u sou prugressu.\\nArt. 2 - L\u2019assuciassiun
+  a nu\u2019 l\u2019\u00e0 scopu de l\u00fccru, dunca, e ativit\u00e0 cult\u00fcrali
+  i seran delongu impruntae e ispirae a \u2018stu principiu. Base, fundamentale de
+  l\u2019ativit\u00e0 assuciativa a l\u2019\u00e8 u vuluntariatu che, uperandu isc\u00ec
+  cun s\u00f2di p\u00fcbrichi, u porta avanti in serviziu suciale. Se duvesse paresce
+  avansi de gestiun, i seran impiegai pe\u2019 e ativitae fut\u00fcre.\\n- SOCI -\\nArt.
+  3 - Pe\u2019 divent\u00e0 Soci d\u2019a Cumpagnia bes\u00f6gna:\\na) esse nasci\u00fci
+  a Ventemiglia o essighe dumici\u0159iai aumancu da vint\u2019ani o esse figliu de
+  paire e de maire uriginari d\u2019a Zona Intemelia,\\nb) parla\u2019 u ventemigliusu,
+  o fa\u2019 u puscibile pe\u2019 parlaru,\\nc) esse presentau da in Sociu.\\nArt.
+  4 - I purreran domand\u00e0 l\u2019iscrissiun \u00e2 \u201cCumpagnia d\u2019i Ventemigliusi\u201d
+  isc\u00ec canti, nu\u2019 atr\u00f6vanduse inte cundissiun d\u2019u precedente articulu:\\na)
+  i sece iscriti d\u2019\u00e2 nasciun intu Cum\u00fcne de Ventemiglia.\\nb) i sece
+  figli de paire e maire residenti a Ventemiglia.\\nc) i fasse parte d\u2019e Seziui
+  d\u2019a \u201cCumpagnia\u201d.\\nd) i travaglie, a calunche titu\u0159u, p\u2019i
+  scopi asuciativi.\\ne) i dimustre interesse pe\u2019 a st\u00f6ria, e tradissiui
+  e u dialetu de Ventemiglia.\\nf) i vive inta Zona Intemelia e i s\u2019interesse
+  de a vita d\u2019a \u201cCumpagnia\u201d e d\u2019e sou ativit\u00e0.\\nU Cunsegliu
+  u decide de l\u2019acetassiun d\u2019i Soci, nu\u2019 duvendu rende raixun d\u2019e
+  sou decisiun.\\nArt. .5 - I Soci i s\u2019impegna a paga\u2019 t\u00fcti i ani a
+  tessera, ch\u2019a ghe vegnir\u00e0 present\u00e0 da in\u2019incarregau d\u2019a
+  \u201cCumpagnia\u201d. A quota assuciativa a nu\u2019 l\u2019\u00e8 trasmiscibile
+  e a nu\u2019 l\u2019\u00e8 sugeta a rival\u00fctassiun.\\nArt. 6 - I Soci i l\u2019\u00e0n
+  diritu de votu intu Parlamentu urdinario, isc\u00ec in caixu de partecipassiun tempuranea
+  \u00e2 vita asuciativa, za\u2019 ch\u2019i duveran porze a sou ativit\u00e0 suciale,
+  cume a chela d\u2019e seziui, a titu\u0159u assul\u00fctamente de bada.\\n- SEZIUI
+  -\\nArt. 7 - Pe\u2019 purta\u2019 a bon fin i scopi assuciativi a \u201cCumpagnia\u201d
+  a se servir\u00e0 d\u2019\u00ea sou Seziun:\\na) d\u2019a CUMPAGNIA d\u2019u TEATRU
+  VENTEMIGLIUSU\\nb) de l\u2019 ACADEMIA VENTEMIGLIUSA de Cult\u00fcra Intemelia\\nc)
+  d\u2019a Curale in cust\u00fcme CUMPAGNIA CANTANTE\\nd) d\u2019i CENTRI de CULT\u00dcRA
+  DIALETALE inte sc\u00f6re\\ne) d\u2019a Rapresentativa cum\u00fcnale SBANDIERANTI
+  d\u2019i SESTEI\\nf) d\u2019a CUMPAGNIA BA\u0158ESTREI\\ng) de ciache autra inissiativa
+  decisa dau Parlamentu d\u2019i Soci e dau Consegliu Diretivu.\\nA \u201cCumpagnia
+  d\u2019i Ventemigliusi\u201d a l\u2019\u00e8 rapresenta\u2019 inte l\u2019 \u201cENTE
+  AGOSTO MEDIEVALE\u201d e int\u2019a \u201cCONSULTA LIGURE\u201d dau Consule Rapresentante
+  o da in sou de\u0159egau.\\nArt. 8 - T\u00fcte e Seziun d\u2019a \u201cCumpagnia\u201d
+  i seran aministrae autonumamente da in Diret\u00f9 e da in Segretariu, numinai au
+  dedrente d\u2019i Soci.\\nArt. 9 - E Seziui d\u2019a \u201cCumpagnia\u201d i nu\u2019
+  pureran persegue scopi ch\u2019i sece in cuntrastu cun cheli stat\u00fctari e i
+  l\u2019averan numa\u2019 l\u2019obrigu de presenta\u2019, ciache anu, inta re\u00fcniun
+  de Cunsegliu d\u2019u mese de marzu, ina relassiun de l\u2019ativit\u00e0 cund\u00fcta
+  e de chela, de mascima ch\u2019intenderan prud\u00fcxe inte l\u2019anu che vegnir\u00e0.
+  E ativit\u00e0 d\u2019a \u201cCumpagnia\u201d e d\u2019e sou Seziui i vegniran faite
+  cunusce ai Soci atraversu a pubricassiun de articuli inscia stampa lucale.\\n- ORGANI
+  -\\nArt. 10 - A Cumpagnia a l\u2019\u00e8 aministra\u2019 da:\\na) U Parlamentu,
+  furmau da l\u2019assemblea de t\u00fcti i Soci, ch\u2019a dev\u2019esse rad\u00fcna\u2019
+  ciache trei ani, pe\u2019 l\u2019apr\u00f6vassiun d\u2019i conti e l\u2019elessiun
+  d\u2019u n\u00f6vu Cunsegliu; isc\u00ec i scangiamenti au Stat\u00fctu e a quota
+  d\u2019a tessera i duveran esse apr\u00f6vai da in Parlamentu.\\nb) U Cunsegliu,
+  u l\u2019\u00e8 furmau da s\u00e9ze Cunsegliei numinai dau Parlamentu e, cume membri
+  de diritu, dai Consuli unurari, numinai dau Parlamentu pe\u2019 i sou meriti specia\u0159i
+  in favu\u2019 d\u2019a Cumpagnia; dai Diretui e dai Segretari d\u2019e Seziui, cusc\u00ec
+  cume dai De\u0159egai d\u2019u Consule Rapresentante.\\nc) U n\u00f6vu Cunseglio
+  cusc\u00ec furmau, u numiner\u00e0 in Consule Rapresentante, cu\u2019e funziui de
+  Presidente d\u2019a \u201cCumpagnia\u201d, trei Consuli cun funziui de Vicepresidenti,
+  cun incarreghi stabi\u0159\u00ee dau Cunsegliu; in Can\u00e7el\u00e9, in Segretariu
+  e in Casc\u00e9, ri\u00fcn\u00eci intu Bur\u00f2.\\nd) U Console Rapresentante u
+  c\u00fbrdina u regulare funsiunamentu d\u2019e ativit\u00e0 suciali, isc\u00ec versu
+  terze persune, u purrer\u00e0 isc\u00ec ass\u00fcme t\u00fcti cheli pruvedimenti
+  de caratere straurdinariu, cun l\u2019obrigu de riferine au Cunseglio, inta prima
+  re\u00fcniun mensi\u0159e uti\u0159e.\\ne) I Consuli i duveran aministra\u2019 au
+  megliu i incarreghi re\u00e7ev\u00fci, cum\u2019i purreran sustit\u00fc\u00ec u
+  Rapresentante, inti caixi cunsent\u00ee, esercitandune e funziui.\\nf) U Can\u00e7el\u00e9
+  u l\u2019\u00e0 in cunsegna l\u2019archiviu cu\u2019i libri d\u2019i verbali. U
+  redige i verbali, pruvedendu a l\u2019esec\u00fcssiun d\u2019e delibere. In caixu
+  d\u2019impedimentu u vegnir\u00e0 sustit\u00fciu dau Segretariu.\\ng) U Segretariu
+  u l\u2019\u00e0 in c\u00fcstodia a sede suciale e u purrer\u00e0 assorve ai compiti
+  d\u2019u Can\u00e7el\u00e9, cume a specia\u0159i mandai re\u00e7ev\u00fci da parte
+  d\u2019i Consuli.\\nh) U Casc\u00e9 u c\u00fcstudisce i sodi e ciache autru valure
+  d\u2019a Cumpagnia, uc\u00fcpanduse d\u2019u patrimoniu e d\u2019a cuntabilit\u00e0,
+  in ci\u00fc de predispune i bi\u0159an\u00e7i.\\nArt. 11 - U Cunsegliu diretivu
+  u duver\u00e0 redige u bi\u0159an\u00e7u cuns\u00fcntivu e chelu preventivu, pe\u2019
+  trei ani, ch\u2019i duver\u00e0n esse presentai au Parlamentu urdinariu pe\u2019
+  purr\u00e9 esse cuns\u00fcrtai dai asuciai ch\u2019i ne fasse richi\u00e9sta e messi
+  in apruvassiun. A cuntabilit\u00e0 anu pe\u2019 anu a dev\u2019esse messa in apruvassiun
+  inta reuniun de Cunsegliu d\u2019u mese de setembre.\\nArt. 12 - U Parlamentu u
+  duver\u00e0 esse convucau cun invitu scritu, inte ciache caixu, mandau pe\u2019
+  posta a t\u00fcti i Soci e cu\u2019a p\u00fcblicassiun insci\u2019a stampa lucale.
+  U Cunsegliu u se ri\u00fcnir\u00e0, in ad\u00fcnansa urdinaria, ciache \u00fcrtimu
+  l\u00fcnesd\u00ec de t\u00fcti i mesi e u purrer\u00e0 esse ri\u00fcniu, in ad\u00fcnansa
+  straurdinaria dau Consule Rapresentante, cun invitu scritu. T\u00fcte e ad\u00fcnanse
+  i seran va\u0159ide calunche sece u n\u00fcmeru d\u2019i Soci presenti. Sece int\u2019e
+  re\u00fcniui d\u2019u Parlamentu che inte chele d\u2019u Cunsegliu se duver\u00e0
+  parla\u2019 puscibirmente in ventemigliusu. Au cumens\u00e0 de ciache re\u00fcniun
+  d\u2019u Cunsegliu, se duver\u00e0 leze u verbale d\u2019a re\u00fcniun precedente,
+  pe\u2019 cuntrula\u2019 l\u2019andamentu d\u2019e cose ch\u2019i s\u2019eira decise.
+  Int\u2019a relassiun, present\u00e0 dau Cunsegliu au Parlamentu, se duver\u00e0
+  arregorda\u2019 l\u2019ativit\u00e0 de ciach\u2019un d\u2019i Consuli e d\u2019i
+  Cunsegliei in favu\u2019 d\u2019a \u201cCumpagnia\u201d, cume pe\u2019 chela d\u2019e
+  Seziun.\\nArt. 13 - L\u2019\u00e8 vietau destreb\u00fc\u00ec, isc\u00ec in modu
+  indiretu, uti\u0159i o avansi de gestiun, e mancu fundi, ris\u00e9rve o capitali,
+  sarvu diverse impusissiun de l\u00e9ge. A disgregassiun d\u2019a Cumpagnia a purrer\u00e0
+  esse delibera\u2019 dau Parlamentu cun a magiuransa d\u2019i trei carti d\u2019i
+  Soci, inta prima cunvucassiun e de calunche sece u n\u00fcmeru d\u2019i Soci inta
+  segunda convuca, pe\u2019 ina data diversa. Pe\u2019 contra u patrimoniu u duver\u00e0
+  esse devu\u0159\u00fcu a asuciassiui cun e m\u00e9ixime fina\u0159it\u00e0, o autrimenti
+  pe\u2019 fina\u0159it\u00e0 de p\u00fcbrica \u00fcti\u0159it\u00e0.\\nArt. 14 -
+  Pe\u2019 cantu u nu\u2019 l\u2019\u00e8 espressamente previstu dau presente stat\u00fctu,
+  cume pe\u2019 cheli d\u2019\u00ea rispetive sessiun, i sun va\u0159ide e norme de
+  l\u00e9ge vigenti in mat\u00e9ria.\\n* * * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * *\\nU presente Stat\u00fcto, redatu in catorze articuli, u
+  l\u2019\u00e8 staitu apr\u00f6vau, a l\u2019\u00fcnanimit\u00e0 d\u2019i presenti,
+  dau Parlamentu straurdinariu, regularmente cunvucau dau Consegliu Diretivu, in data
+  31 de marsu d\u2019u 2001, a catr\u2019ure de dopusdern\u00e0, inta sede d\u2019a
+  Cumpagnia, duverta inte Ventemiglia, in via G. Mazzini au n\u00fcmeru 12.\"", "\"de
+  figgi\u00f6. I ci\u00fc vegi gh\u2019aivan quattorz\u2019anni: i ci\u00fc zueni
+  ghe n\u2019aivan \u00f6ttu ape\u00f1a. Inte stradde, \u2018n\u2019allegria, \u00fcn
+  fracassu, \u00fcn sciaatu da an\u00e2 f\u00f6a de cascia! Bande de battuxi dapert\u00fcttu:
+  chi z\u00fcgava a-i c\u00e0llai, chi a-e ciappe, chi a-a balla, chi anava in bicicletta,
+  chi survia \u2018n cavallin de legnu: questi z\u00fcgavan a l\u2019orbettu; quelli
+  atri se scurivan: di atri, vestii da pagia\u00e7\u00e7i, mangiavan a stuppa a\u00e7eiza:
+  chi re\u00e7itava, chi cantava, chi fava i sati murtali, chi se demuava a camin\u00e2
+  cu-e muen in t\u00e6ra e-e ganbe per l\u2019aia: chi ariguava u \u00e7erciu, chi
+  passagiava vestiu da generale cun l\u2019ermu de pap\u00ea e u squadrun de cartapesta:
+  chi rieiva, chi sbragiava, chi ciammava, chi ciucava de muen, chi sciguava, chi
+  fava u versu da galli\u00f1a quand\u2019a l\u2019ha f\u00e6tu l\u2019\u00f6vu: insumma
+  \u2018na caladda, \u00fcn tremel\u00f6iu, \u00fcn burdellu du di\u00e2u, da duveise
+  mette u cutun inti uege pe nu arest\u00e2 insurdii. In sce t\u00fctte e cia\u00e7\u00e7e
+  se veddeiva di tiatrin de teja, gremenii de bagarilli da-a matin a-a seja, insce
+  t\u00fctte e miagie de caze se ghe lezeiva scritu cu-u carbun de belliscime cose
+  cumme queste: viva e demmue! (invece de demue); nuemana sceua (invece de n\u2019uemu
+  an\u00e2 a-a sc\u00f6a); abassu Larin Mettica (invece de l\u2019aritmettica) e di
+  atre sciu\u00ee cunscimmile.\\nU Pinocchiu, u Muchettu e t\u00fctti i atri figgi\u00f6,
+  ch\u2019aivan f\u00e6tu u viagiu cu l\u2019\u00f4mettu, ape\u00f1a ebban missu u
+  p\u00ea drentu a \u00e7itt\u00e6, s\u2019infi\u00f2n s\u00fcbbitu in mezu a-a gran
+  barunda; e inte pochi men\u00fcti, cumm\u2019\u00e9 fa\u00e7\u00e7ile inmagin\u00e2siou,
+  f\u00fcn s\u00fcbbitu amixi de t\u00fctti. Chi ci\u00fc feli\u00e7e, chi ci\u00fc
+  cuntentu de liatri?\"", "\"Carcolo do scistema de trave de un teito \u00e0 anca\\nPe
+  fav\u00f4, indic\u00e2 e dimenscioin ne\u00e7ess\u00e4ie in millimetri\\nY - ertixe
+  do teito\\nX - longhixe da casa\\nZ - larghezza da casa\\nC - dimenscion minima
+  de sciortia de crenatue\\nU - Larghessa do trave\\nW - Spessore de trave\\nS - Passo
+  de trave\\nO1 - Larghezza de pannelli de guaina\\nO2 - Spessore da scheda de guaina\\nR
+  - Passo de tornamento\\nCapa\u00e7it\u00e6 de programma\u00e7ion.\\nCarcolo da struttua
+  da trave.\\nDetermin\u00e2 a quantit\u00e6 ne\u00e7ess\u00e4ia de matei\u00e6 da
+  constru\u00e7ion pe-e trave.\\nDetermin\u00e2 o volumme de schede de guaina.\\nDimenscioin
+  esatte de tutte e parte do scistema de trave.\\nDisegni dettaggi\u00e6 d''un teito
+  \u00e0 l''anca, trave, guaina.\"", "\"Campionato italian do Zeugo do ballon\\nO
+  Campionato italian do Zeugo do ballon o l''\u00e8 l''insemme di tornei na\u00e7ionali
+  istitu\u00ef da-a FIGC. I campionati son suddivixi e organizz\u00e6 in 10 levelli,
+  i primmi 4 son inquadr\u00e6 inte l''area do profescionismo, invece i atri 6 son
+  pe i dilett\u00e0nti. A Liga Na\u00e7ion\u00e2 Profescionisti a l''organizza e a
+  dirizze i doi maggioi campionati, a Serie A e a Serie B, mentre a Liga Italian-a
+  do Ballon Profescionistico a l''organizza e a dirizze a Serie C1 e C2, o ter\u00e7o
+  e o quarto livello do profescionismo. I diversci campionati a carattere dilettantistico
+  son organizz\u00e6 da-a Liga Na\u00e7ion\u00e2 Dilett\u00e0nti, tra i qu\u00e6 a
+  Serie D, o quinto livello do ballon italian.\"", "\"cia. Ro boja me l\u2019h\u00e0
+  f\u00e6ta giusto in quello tempo, che stava \u00e0 ciattell\u00e2 con quello pe\u00e7\u00e7o
+  d\u2019ase de m\u00e6 figgio. V\u0153uggio and\u00e2 aora aora subito \u00e0 ra
+  Giusti\u00e7ia: v\u0153uggio f\u00e2 d\u00e2 ra corda \u00e0 tutta ra casa, \u00e0
+  re donne, \u00e0 ri servito\u00ee, \u00e0 m\u00e6 figgio, \u00e0 m\u00e6 figgia,
+  \u00e0 mi m\u00e6ximo. Quanta gente insemme! Ognun de quelli che veddo l\u00ec,
+  me fa sospett\u00e2: o me p\u00e2 ro m\u00e6 laddro. Eh, de cose parlellan l\u00e0
+  z\u00f9? de quello chi m\u2019ha arr\u00f3bao? Cose fan quelli trei lasci\u00f9?
+  non sareivan miga ri m\u00e6 laddri? ma t\u00e8, se son depenti. Per carit\u00e6,
+  ve ro domando \u00e0 tutti, se sei n\u0153uva dro m\u00e6 laddro, d\u00edmero. St\u00e6
+  attenti s\u2019o sciortisse de l\u00ec sotta. Me guardan tutti, e se ne rian. Ghe
+  scometto, che han tegnuo tutti man all\u2019assassinamento. An-nimo, presto in Rota,
+  un Scrivan, l\u2019Avvocato fisc\u00e2, un-na squaddra de sbirri, ra sveggia, re
+  forche, ro boja. V\u0153uggio f\u00e2ri appic\u00e2 tutti; e se non tr\u0153uvo
+  ri m\u00e6 din\u00e6, m\u2019appicco mi tr\u00e6 votte.\"", "\"Wt/lij/par\u00f2lla\\nL\u00ecgure[edit
+  | edit source]\\nEtimolog\u00eea[edit | edit source]\\nDa-o lat\u00ecn volg\u00e2re
+  *paraula, da-o lat\u00ecn t\u00e0rdo parabola (\u201cparag\u00f3n; par\u00e0bola\u201d),
+  da-o gr\u00eago ant\u00eego \u03c0apaBo\u03bb\u03ae (parabol\u1e17).\\nPron\u00f3n\u00e7ia[edit
+  | edit source]\\n- IPA: /pa\u02c8r\u0254lla/\\n- X-SAMPA: [pa\\\"rOlla]\\nN\u00f3mme[edit
+  | edit source]\\npar\u00f2lla f (plur\u00e2le par\u00f2lle, diminut\u00eevo parol\u00ecnn-a
+  \u00f2 parol\u00e9tta, acrescit\u00eevo parol\u00f3nn-a, pegiorat\u00eevo parol\u00e0ssa)\\n-
+  L''unit\u00e6 de lengo\u00e0ggio ci\u00f9 pic\u00ecnn-a che a l''\u00e0 ''n s\u00e9nso.\\n-
+  L''unit\u00e6 ci\u00f9 pic\u00ecnn-a de ''na l\u00e9ngoa parl\u00e2 che a l''\u00e0
+  ''n scignific\u00e2to particol\u00e2, conp\u00f3sta de un \u00f2 ci\u00f9 so\u00ecn.\\n-
+  L''unit\u00e6 ci\u00f9 pic\u00ecnn-a de ''na l\u00e9ngoa scr\u00eeta che a l''\u00e0
+  ''n scignific\u00e2to particol\u00e2, conp\u00f3sta de \u00f9nn-a \u00f2 ci\u00f9
+  l\u00e9tie.\\n- ''Na s\u00e9rie de l\u00e9tie, sc\u00ecnboli \u00f2 so\u00ecn che
+  a se peu conscider\u00e2 ''na c\u00f6sa izol\u00e2, \u00e0nche se a no l''\u00e9
+  parte de ''na l\u00e9ngoa o no scign\u00ecfica n\u00ecnte.\\n- O f\u00e6to \u00f2
+  l''\u00e0tto do parl\u00e2.\"", "\"A neuva diga foranea a no l\u2019\u00e8 un ponto
+  d\u2019arrivo ma a partensa do sviluppo\\nD\u00f2ppo tanti anni finarmente se procede
+  co-a progetta\u00e7ion da neuva diga foranea. \u00c0 distansa de 145 anni da quande
+  o Ducca De Ferr\u00e6 o l\u2019\u00e0 misso \u00e0 dispoxi\u00e7ion 20 milioin de
+  lie pe protezze e rilanci\u00e2 o p\u00f2rto de Zena, e \u00e0 26 da-a riforma di
+  enti portuali do 1994, semmo torna davanti \u00e0 unn\u2019occaxon st\u00f2rica
+  de repiggio inte l\u2019attivit\u00e6 econ\u00f2mica a ci\u00f9 importante da \u00e7itt\u00e6
+  e da region. Gra\u00e7ie asc\u00ec a-i fondi europ\u00ebi do Recovery Fund (500
+  milioin in sce a-o manco 1.000 de costo), sai\u00e0 donca poscibile allontan\u00e2
+  de \u00e7entan\u00e6a de metri a diga, in particol\u00e2 rispeto a-a z\u00f6na de
+  San P\u00ea d\u2019\u00c6\u00f1a, donde no l\u2019\u00e9 gu\u00e6i che l\u2019\u00e9
+  st\u00e6to inaugurou o terminal container Bettolo, assegnou in concescion \u00e0
+  MSC fin a-o 2045, za costou 250 milioin e restou fermo pe di anni.\\nUn deluvio
+  de din\u00e6 pubrichi, che de seguo portian grande benefi\u00e7io \u00e0 chi gestisce
+  o trafego di container de quelli terminal e \u00e0 chi ghe fornisce i servi\u00e7i
+  access\u00f6i. Ma perch\u00e9 sto sviluppo econ\u00f2mico o se transforme inte un
+  progresso so\u00e7iale diffuso no dovemmo vedde o spostamento da diga comme un ponto
+  d\u2019arrivo, ma comme un ponto de partensa de un aggiornamento do disegno e de
+  capa\u00e7it\u00e6 do p\u00f2rto e do seu rapp\u00f2rto co-a \u00e7itt\u00e6.\\nComme
+  o l\u2019\u00e0 sottoliniou giustamente o zeneise Mario Sommariva inta seu primma
+  intervista da neo-prescidente do p\u00f2rto da Spezza, \u201cl\u2019unit\u00e0 di
+  misura del rendimento di un porto non sono le tonnellate di merci, ma i posti di
+  lavoro che genera\u201d. O spostamento da diga per\u00f2 o l\u2019\u00e9 \u00e0
+  benefi\u00e7io solo che de un segmento do p\u00f2rto, i terminal container de San
+  P\u00ea d\u2019\u00c6\u00f1a, che an un rapp\u00f2rto de addetti pe metro quaddro
+  inferi\u00f4 \u00e0 peto de atre attivit\u00e6 comme a navalmeccanica, ch\u2019a
+  ghe n\u2019\u00e0 tr\u00e6 v\u00f2tte tanto. De f\u00e6ti, con tutto che o trafego
+  via container o segge l\u2019unico che o l\u2019\u00e9 cresciuo insemme a-i passagg\u00ea
+  d\u00f2ppo a crixi econ\u00f2mica, questo o no l\u2019\u00e0 megioou l\u2019occupa\u00e7ion
+  into p\u00f2rto de Zena, che a l\u2019\u00e9 cresciua solo de l\u20191% in 13 anni.
+  In ci\u00f9, o futuo do p\u00f2rto commerciale o l\u2019\u00e9 delongo de ci\u00f9
+  con\u00e7entrou inte man de p\u00f6chi, segge da-o lato di lavorato\u00ee, donde
+  l\u2019occupa\u00e7ion a l\u2019\u00e9 sempre ci\u00f9 prec\u00e4ia, segge da-o
+  lato de impreise, donde i imprendito\u00ee locali an ormai venduo e seu concescioin
+  a-e multina\u00e7ion\u00e6 da logistica. O p\u00f2rto o resta formalmente de tutti,
+  ma i affari v\u00ebi son st\u00e6ti quelli di priv\u00e6 con costi pubrichi. A ministra
+  di transp\u00f2rti a l\u2019\u00e0 de f\u00e6ti promisso de mette i din\u00e6 che
+  manca rispeto a-i fondi europ\u00ebi, pe complet\u00e2 l\u2019\u00f2pera. L\u2019investimento
+  do stato o resta donca nettamente prevalente. Anche i effetti in sce l\u2019induto
+  son sempre ci\u00f9 ac\u00e7entr\u00e6 e bas\u00e6 in sci\u00e2 rendia. O studdio
+  de impatto econ\u00f2mico f\u00e6to da-a AdSP o rileva che a filiera portuale a
+  genera o 10,8% do val\u00f4 azzonto region\u00e2, ma solo l\u20198,3% de l\u2019occupa\u00e7ion;
+  de sto val\u00f4 azzonto o 60,9% o resta \u00e0 l\u2019interno de attivit\u00e6
+  portuali e subito der\u00ea o sett\u00f4 ch\u2019o ne trae maggi\u00f4 vantaggio
+  o l\u2019\u00e9 quello imobiliare, con o 9,6%, tanto che e attivit\u00e6 profescionali
+  ne ott\u00ebgnan solo che l\u20191,2%.\\nZena a p\u00e2 donca destin\u00e2 \u00e0
+  unn\u2019economia do post-travaggio, divisa sempre de ci\u00f9 tra i rentier e i
+  suscidi\u00e6, divixon no solo econ\u00f2mica, ma anche geografica vista a netta
+  distin\u00e7ion tra un Ponente postindustriale e \u00e0 servi\u00e7io da logistica,
+  e un Levante \u00e0 voca\u00e7ion turistica e resciden\u00e7iale. insomma, questa
+  accelera\u00e7ion spedia do capitalismo tecnol\u00f2gico, incangio che a-o so\u00e7ialismo,
+  a l\u2019\u00e9 apreuvo \u00e0 port\u00e2ne verso unna me\u00f1a de neofeudaleximo.
+  Esc\u00ec ben che o travaggio o no l\u2019\u00e9 finio: con ars\u00e2 o sguardo
+  a-a dimenscion glob\u00e2 o numero de colletti bleu e gianchi o l\u2019\u00e9 in
+  crescio constante, semplicemente no ch\u00ec.\\nAloa, tornando a-a diga e sciortindo
+  da-a l\u00f2gica picci\u00f1a de an\u00e2 apreuvo solo o container dovi\u00ebscimo
+  riflette in sc\u00ea tante opportunit\u00e6 conlaterale che peuan deriv\u00e2 da
+  sto sf\u00f2rso de inzegneria e de din\u00e2: se pense pe exempio \u00e0 l\u2019opportunit\u00e6
+  de gener\u00e2 energia rinnovabile, co-o m\u00f6to ondoso, e con l\u2019e\u00f2lico,
+  a-a poscibilit\u00e6 de sponci\u00e2 o p\u00f2rto verso o m\u00e2 e liber\u00e2,
+  \u00f2 a-o manco scistem\u00e2 torna quelle \u00e4ie de confin sofferte, comme longom\u00e2
+  Canepa e i dep\u00f2xiti de Mortiou, a-a ne\u00e7escit\u00e6 urgente de ammodern\u00e2
+  i spa\u00e7i ILVA garantindo a mascima operativit\u00e6 \u00e0 l\u2019acciaieria,
+  ma trovando de neuve scinergie, comme l\u2019\u00e9 st\u00e6to pe-e turbi\u00f1e
+  de Ansaldo Energia, e \u00e7erc\u00e2 de trov\u00e2 ciufito che se peu unna z\u00f6na,
+  anche feua da-a region, pe organizz\u00e2 un retrop\u00f2rto efficientemente collegou,
+  \u00e0 l\u2019opportunit\u00e6 de destin\u00e2 parte di ritorni derivanti da-o crescio
+  do commercio verso i territ\u00f6i ci\u00f9 corpii da-e servit\u00f9 industriale
+  pe rendili torna vivibili. Che a diga a segge donca un ponto de partensa, no de
+  arrivo.\""]'
+src_ngrams: '{"1": [[["l"], 131935], [["u"], 42152], [["d"], 31281], [["\u00e8"],
+  27279], [["ch"], 22441]], "2": [[["u l"], 6310], [["mod\u00ecfica wikit\u00e8sto"],
+  6125], [["url consult\u00f2u"], 5527], [["modifica sorgente"], 914], [["u gh"],
+  824]], "3": [[["archivi\u00f2u da l"], 613], [["url consult\u00f2u l"], 355], [["u
+  se tr\u00f6va"], 277], [["s\u00e0iva a d\u00ee"], 243], [["consult\u00f2u o 1\u00ba"],
+  182]], "4": [[["url consult\u00f2u o 1\u00ba"], 182], [["lo nostro segnor dee"],
+  119], [["museo diffuso del finale"], 117], [["rime diverse in lingua"], 112], [["diverse
+  in lingua genovese"], 112]], "5": [[["rime diverse in lingua genovese"], 112], [["gi\u00f3rno
+  di com\u00f9n pe regi\u00f3n"], 78], [["com\u00f9n pe regi\u00f3n e prov\u00ecnsa"],
+  78], [["rime diverse in lengua zeneise"], 76], [["proverbi liguri in dialetto genovese"],
+  70]]}'

@@ -1,0 +1,857 @@
+corpus: hplt-v4-cjk
+srclang: cjk
+timestamp: 1789039737.0902379
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2024-46", 150], ["CC-MAIN-2024-42", 92], ["wide00016",
+  77], ["CC-MAIN-2024-38", 56], ["CC-MAIN-2024-33", 19], ["CC-MAIN-2024-26", 18],
+  ["wide00012", 17], ["CC-MAIN-2024-30", 12], ["wide00015", 10], ["CC-MAIN-2018-05",
+  4], ["wide00011", 2], ["CC-MAIN-2018-39", 2], ["CC-MAIN-2014-15", 2], ["wide00017",
+  1], ["wide00002", 1], ["archivebot", 1], ["CC-MAIN-2025-33", 1], ["CC-MAIN-2025-26",
+  1], ["CC-MAIN-2024-22", 1], ["CC-MAIN-2023-23", 1], ["CC-MAIN-2023-06", 1], ["CC-MAIN-2022-49",
+  1], ["CC-MAIN-2021-39", 1], ["CC-MAIN-2021-31", 1], ["CC-MAIN-2021-25", 1], ["CC-MAIN-2021-10",
+  1], ["CC-MAIN-2020-24", 1], ["CC-MAIN-2020-10", 1], ["CC-MAIN-2019-04", 1]]'
+docs_langs: '[[0.2, 1], [0.4, 1], [0.5, 1], [0.6, 6], [0.7, 15], [0.8, 32], [0.9,
+  39], [1.0, 382]]'
+docs_segments: '[[1, 2], [2, 2], [3, 16], [4, 19], [5, 24], [6, 50], [7, 26], [8,
+  20], [9, 16], [10, 21], [11, 15], [12, 13], [13, 17], [14, 13], [15, 10], [16, 10],
+  [17, 13], [18, 11], [19, 11], [20, 9], [21, 4], [22, 7], [23, 7], [24, 1], [25,
+  4], [26, 3], [27, 5], [28, 3], [29, 1], [30, 2], [31, 1], [32, 2], [34, 3], [35,
+  1], [36, 4], [37, 5], [38, 3], [39, 8], [40, 8], [41, 7], [42, 12], [43, 13], [44,
+  6], [45, 6], [46, 8], [47, 2], [48, 5], [49, 4], [50, 2], [51, 3], [52, 2], [53,
+  1], [56, 1], [58, 1], [60, 3], [62, 1], [64, 1], [68, 1], [78, 1], [81, 1], [92,
+  1], [149, 1], [171, 1], [205, 1], [307, 1], [626, 1]]'
+docs_segments_mean: 22
+docs_segments_median: 13
+docs_top100_domains: '[["jw.org", 460], ["bible.com", 4], ["contafrica.org", 3], ["unicode.org",
+  2], ["watchtower.org", 1], ["unitabruxelas.eu", 1], ["svfellowship.info", 1], ["jprss.com",
+  1], ["intnewslive.com", 1], ["gayhomeland.org", 1], ["bibleforchildren.org", 1],
+  ["archive.org", 1]]'
+docs_top100_tld: '[["org", 469], ["com", 6], ["info", 1], ["eu", 1]]'
+docs_total: 477
+docs_wds: '[[0.51, 1], [0.52, 1], [0.53, 2], [0.54, 1], [0.55, 1], [0.56, 1], [0.58,
+  1], [0.59, 1], [0.6, 3], [0.61, 3], [0.62, 2], [0.63, 3], [0.64, 9], [0.65, 5],
+  [0.66, 4], [0.67, 2], [0.68, 7], [0.69, 4], [0.7, 10], [0.71, 3], [0.72, 4], [0.73,
+  8], [0.74, 10], [0.75, 4], [0.76, 14], [0.77, 15], [0.78, 16], [0.79, 24], [0.8,
+  25], [0.81, 20], [0.82, 22], [0.83, 26], [0.84, 7], [0.85, 9], [0.86, 6], [0.87,
+  9], [0.88, 10], [0.89, 13], [0.9, 19], [0.91, 24], [0.92, 41], [0.93, 34], [0.94,
+  21], [0.95, 17], [0.96, 9], [0.97, 3], [0.98, 1], [0.99, 2]]'
+duplication_ratio: 0.0765
+sentence_pairs: 10693
+src_bytes: 2688843
+src_chars: 2663103
+src_pii: 0
+src_tokens: 510260
+unique_sents: 9875
+src_sent_tokens: '[[1, 501], [2, 320], [3, 216], [4, 374], [5, 272], [6, 398], [7,
+  309], [8, 300], [9, 286], [10, 268], [11, 281], [12, 254], [13, 227], [14, 180],
+  [15, 188], [16, 180], [17, 162], [18, 128], [19, 144], [20, 85], [21, 103], [22,
+  87], [23, 90], [24, 85], [25, 71], [26, 79], [27, 78], [28, 63], [29, 82], [30,
+  64], [31, 61], [32, 72], [33, 50], [34, 57], [35, 60], [36, 51], [37, 58], [38,
+  42], [39, 46], [40, 64], [41, 55], [42, 52], [43, 41], [44, 38], [45, 45], [46,
+  39], [47, 42], [48, 54], [49, 46], [50, 40], [51, 43], [52, 36], [53, 33], [54,
+  57], [55, 54], [56, 36], [57, 37], [58, 40], [59, 50], [60, 45], [61, 38], [62,
+  32], [63, 42], [64, 44], [65, 40], [66, 41], [67, 42], [68, 42], [69, 46], [70,
+  43], [71, 34], [72, 52], [73, 46], [74, 40], [75, 56], [76, 36], [77, 35], [78,
+  42], [79, 37], [80, 44], [81, 43], [82, 34], [83, 39], [84, 39], [85, 31], [86,
+  30], [87, 44], [88, 39], [89, 51], [90, 34], [91, 42], [92, 29], [93, 40], [94,
+  19], [95, 37], [96, 51], [97, 41], [98, 35], [99, 24], [100, 34], [101, 27], [102,
+  35], [103, 39], [104, 30], [105, 30], [106, 30], [107, 39], [108, 28], [109, 30],
+  [110, 28], [111, 37], [112, 33], [113, 32], [114, 34], [115, 35], [116, 25], [117,
+  26], [118, 33], [119, 25], [120, 29], [121, 30], [122, 27], [123, 26], [124, 21],
+  [125, 25], [126, 21], [127, 17], [128, 30], [129, 25], [130, 25], [131, 20], [132,
+  20], [133, 36], [134, 9], [135, 24], [136, 28], [137, 16], [138, 20], [139, 13],
+  [140, 15], [141, 16], [142, 14], [143, 20], [144, 23], [145, 15], [146, 15], [147,
+  15], [148, 13], [149, 17], [150, 18], [151, 15], [152, 11], [153, 13], [154, 15],
+  [155, 9], [156, 13], [157, 14], [158, 11], [159, 13], [160, 12], [161, 9], [162,
+  7], [163, 8], [164, 13], [165, 12], [166, 15], [167, 8], [168, 5], [169, 14], [170,
+  16], [171, 12], [172, 14], [173, 7], [174, 8], [175, 15], [176, 15], [177, 17],
+  [178, 9], [179, 12], [180, 8], [181, 8], [182, 4], [183, 4], [184, 6], [185, 7],
+  [186, 9], [187, 4], [188, 6], [189, 6], [190, 4], [191, 9], [192, 6], [193, 6],
+  [194, 4], [195, 10], [196, 6], [197, 4], [198, 6], [199, 2], [200, 2], [201, 4],
+  [202, 4], [203, 2], [204, 4], [205, 3], [206, 2], [207, 2], [208, 2], [209, 1],
+  [210, 2], [211, 2], [212, 1], [214, 3], [215, 2], [216, 3], [217, 2], [218, 5],
+  [220, 1], [221, 1], [223, 2], [224, 4], [225, 1], [227, 3], [228, 2], [230, 1],
+  [231, 2], [233, 2], [234, 3], [235, 1], [236, 1], [238, 1], [241, 1], [242, 1],
+  [244, 2], [248, 1], [255, 1], [268, 1], [276, 1], [280, 1], [281, 1], [283, 1],
+  [285, 1], [291, 1], [298, 1], [301, 1], [313, 1], [314, 1], [320, 1], [326, 1],
+  [335, 1], [341, 1], [346, 1], [348, 1], [352, 1], [364, 1], [369, 1], [384, 1],
+  [392, 1], [401, 1], [407, 1], [409, 1], [412, 1], [433, 1], [439, 1], [472, 1]]'
+src_sent_tokens_mean: 48
+src_sent_tokens_median: 23
+src_unique_sents: '[[1, 136], [2, 263], [3, 189], [4, 313], [5, 242], [6, 287], [7,
+  297], [8, 288], [9, 280], [10, 265], [11, 257], [12, 246], [13, 219], [14, 175],
+  [15, 186], [16, 178], [17, 158], [18, 128], [19, 139], [20, 84], [21, 101], [22,
+  84], [23, 89], [24, 77], [25, 70], [26, 78], [27, 75], [28, 63], [29, 81], [30,
+  64], [31, 58], [32, 71], [33, 50], [34, 56], [35, 58], [36, 51], [37, 58], [38,
+  42], [39, 46], [40, 63], [41, 55], [42, 52], [43, 40], [44, 38], [45, 44], [46,
+  39], [47, 42], [48, 54], [49, 45], [50, 40], [51, 43], [52, 36], [53, 33], [54,
+  57], [55, 54], [56, 35], [57, 37], [58, 40], [59, 50], [60, 45], [61, 38], [62,
+  32], [63, 42], [64, 44], [65, 40], [66, 41], [67, 42], [68, 42], [69, 46], [70,
+  43], [71, 34], [72, 52], [73, 45], [74, 40], [75, 56], [76, 36], [77, 35], [78,
+  42], [79, 36], [80, 44], [81, 43], [82, 33], [83, 39], [84, 39], [85, 31], [86,
+  30], [87, 44], [88, 39], [89, 51], [90, 34], [91, 42], [92, 29], [93, 39], [94,
+  19], [95, 37], [96, 51], [97, 41], [98, 35], [99, 24], [100, 34], [101, 27], [102,
+  35], [103, 39], [104, 30], [105, 30], [106, 30], [107, 39], [108, 28], [109, 30],
+  [110, 28], [111, 37], [112, 33], [113, 32], [114, 33], [115, 35], [116, 25], [117,
+  26], [118, 33], [119, 25], [120, 29], [121, 30], [122, 27], [123, 26], [124, 21],
+  [125, 25], [126, 21], [127, 17], [128, 30], [129, 24], [130, 24], [131, 20], [132,
+  20], [133, 36], [134, 9], [135, 24], [136, 28], [137, 16], [138, 20], [139, 13],
+  [140, 14], [141, 16], [142, 14], [143, 17], [144, 23], [145, 15], [146, 15], [147,
+  15], [148, 13], [149, 17], [150, 16], [151, 15], [152, 11], [153, 13], [154, 15],
+  [155, 9], [156, 13], [157, 14], [158, 11], [159, 13], [160, 12], [161, 9], [162,
+  7], [163, 8], [164, 10], [165, 12], [166, 12], [167, 8], [168, 5], [169, 14], [170,
+  15], [171, 11], [172, 13], [173, 7], [174, 8], [175, 11], [176, 10], [177, 14],
+  [178, 9], [179, 12], [180, 8], [181, 8], [182, 4], [183, 4], [184, 6], [185, 6],
+  [186, 7], [187, 4], [188, 6], [189, 6], [190, 4], [191, 8], [192, 6], [193, 6],
+  [194, 4], [195, 7], [196, 4], [197, 4], [198, 6], [199, 2], [200, 2], [201, 4],
+  [202, 4], [203, 2], [204, 4], [205, 3], [206, 2], [207, 2], [208, 2], [209, 1],
+  [210, 2], [211, 2], [212, 1], [214, 3], [215, 2], [216, 3], [217, 2], [218, 5],
+  [220, 1], [221, 1], [223, 2], [224, 4], [225, 1], [227, 3], [228, 2], [230, 1],
+  [231, 2], [233, 2], [234, 3], [235, 1], [236, 1], [238, 1], [241, 1], [242, 1],
+  [244, 2], [248, 1], [255, 1], [268, 1], [276, 1], [280, 1], [281, 1], [283, 1],
+  [285, 1], [291, 1], [298, 1], [301, 1], [313, 1], [314, 1], [320, 1], [326, 1],
+  [335, 1], [341, 1], [346, 1], [348, 1], [352, 1], [364, 1], [369, 1], [384, 1],
+  [392, 1], [401, 1], [407, 1], [409, 1], [412, 1], [433, 1], [439, 1], [472, 1]]'
+src_langs: '[["en", 4242], ["sw", 1836], ["eo", 697], ["tl", 672], ["it", 608], ["id",
+  555], ["es", 256], ["pl", 193], ["fi", 185], ["de", 180], ["hr", 155], ["nl", 147],
+  ["pt", 141], ["sl", 89], ["tr", 77], ["ia", 77], ["qu", 62], ["io", 52], ["ms",
+  51], ["hu", 47], ["eu", 46], ["ceb", 36], ["ja", 27], ["fr", 24], ["vo", 20], ["sr",
+  20], ["sq", 14], ["jv", 14], ["lt", 12], ["la", 12], ["et", 11], ["uz", 10], ["war",
+  9], ["su", 9], ["ur", 8], ["oc", 7], ["zh", 6], ["uk", 6], ["ru", 6], ["lb", 5],
+  ["kw", 5], ["kn", 5], ["sv", 4], ["cs", 4], ["br", 4], ["ro", 3], ["jbo", 3], ["ilo",
+  3], ["gl", 3], ["cy", 3], ["ca", 3], ["ar", 3], ["yo", 2], ["vi", 2], ["mt", 2],
+  ["min", 2], ["als", 2], ["tk", 1], ["ta", 1], ["so", 1], ["scn", 1], ["nds", 1],
+  ["ml", 1], ["mg", 1], ["lv", 1], ["li", 1], ["ko", 1], ["ga", 1], ["da", 1], ["cbk",
+  1], ["bs", 1], ["bar", 1], ["ast", 1]]'
+hardrules_tags: '{"not_too_long": 129, "not_too_short": 993, "length_ratio": 0, "no_urls":
+  32, "no_bad_encoding": 3, "pii": 0}'
+sample: '["\"5 Kristu hanatutusula hanga tuwahilile ni utuswilo wacho. Kashika, manenu
+  nguu, kanda nulinjisa cheka nawa ku kanga ya undungo.\\n2 Talenu! Yami Paulu, ngunambe
+  kuli yenu ngwami, nyi manupwisa ngalami, yize Kristu alingile kuyichi kanuyukisa.
+  3 Ngunashindakenya cheka nawa ngwami, mutu mweswe yoze malipwisa ngalami, chamutamba
+  kumanununa Shimbi jeswe. 4 Yenu waze nwakufupa kupwa akwa-ululi kupalikila mu shimbi,
+  hinwalihandununa ni Kristu, hinwalichiza ku chawana chenyi cha keke. 5 Mba hakutwala
+  kuli yetu, kupalikila mu spiritu, tunashimbwila ni mbunge yeswe ululi uze wakwiza
+  mumu lia ufulielo. 6 Mumu, kuli tumbaji a Kristu Yesu, chipwe ungalami, chipwe ulima,
+  kuyishi ni ulemu niumwe. Alioze, chuma chilemu chili ufulielo uze wakwiza mumu lia
+  zango.\\n7 Yenu nwapwile ni kuzomboka kanawa. Mba iya wanukwikile kununga ni kwononokena
+  umwenemwene? 8 Malongeso a waze anukwikile kakatukile kuli yoze unanutambika. 9
+  Futunwiso yikepe, yakufutunwisa mwaha weswe. 10 Ngunafuliela ngwami, yenu waze nunalinungu
+  ni Mwene, kunuchi kupwa ni manyonga eka. Alioze, yoze wakunupinjisa, 11 Kashika
+  mandumbu, hakutwala kuli yami, nyi te ngunachinungu ni kwambujola hakutwala ku ungalami,
+  kachi kanguhungumionene. Chipwe malongeso jami hakutwala ku kufwa cha Yesu ha mutondo*
+  wa lamba, kachi kalemekene nawa atu. 12 Ngunazange hanga atu waze ananulweze ngwo,
+  katamba kunupwisa ngalami, alipwise* ene kuhiana.\\n13 Mandumbu, yenu anutambikile
+  ku utuswilo. Kashika, kanda numona utuswilo wacho ngwe jila ya kulingilamo usolo
+  wa ku musunya. Alioze, mumu lia zango, kalakalenu ngwe ndungo umwe kuli mukwo. 14
+  Mumu Shimbi jeswe jinamanunuka mu Shimbi yimuwika, ngwo: \u201cZanga mwenyembo we
+  ngwe chize wakulizanga yena mwene.\u201d 15 Alioze, nyi yenu munununga ni kulilemeka
+  ku mbunge, ni kulimika umwe ni mukwo, kanyamenu. Mumu nyi ka, munulinongesa yenu
+  ene.\\n16 Kashika, ngunambe ngwami: Nungenu ni kwenda mu spiritu, mba kunuchi kumanununa
+  usolo wa musunya. 17 Mumu musunya ni usolo wawo kuwakulimika ni spiritu, ni spiritu
+  neyo yakulimika ni musunya. Yino yuma yiali kuyakulimika chimwe ni chikwo. Kashika
+  yenu kunushi kulinga yuma yize nwakuzanga kulinga. 18 Chikwo nawa, nyi spiritu muyinusongwela,
+  kunushi mushi lia shimbi.\\n19 Yitanga ya musunya yakusoloka zwalala. Yitanga yacho
+  yili: Utanji,* luchisa, yitanga ya sonyi, 20 kukombelela mahamba, kupanda,* kole,
+  vunda, ukwa, ufwatulo, kulitachika, kulihandununa, kukaula malongeso ja atu, 21
+  chipululu, kuzengewa, yiwanyino ya chimbangwinya, ni yuma yikwo ngwe yino. Ngunanutoweza
+  hakutwala ku yuma yino ngwe chize naliangile kunutoweza ngwami, waze akulinga yuma
+  yino, kechi kahinga Wanangana wa Zambi.\\n22 Alioze muhuko wa spiritu uli uno: Zango,
+  uwahililo, sambukila, kulihumikiza,* utu, upeme, ufulielo, 23 kushimbika ni kusuula.
+  Kukushi shimbi niyimwe yize yakulimika ni yitanga yacho. 24 Chikwo nawa, tumbaji
+  twa Kristu Yesu, hanahachila ha mutondo mijimba yo ya shili ni usolo wo upi.\\n25
+  Nyi mututwama kulita ni spiritu, tunungenu nawa ni kwenda kulita ni spiritu. 26
+  Kanda tupwa akwa-kuzo, kanda tulitesa umwe ni mukwo, chipwe kulivwila chipululu
+  umwe ni mukwo.\"", "\"\u201cMweswe mazanga kuheha mapwa chiswale; yoze mazanga vinyu
+  ni maji kechi kupwa pichi.\u201d\\nYishima 21:17\\n\u201cMukwa kutambula mukuli
+  mapwa ndungo ya mwenya mukuli.\u201d\\nYishima 22:7\\n\u201cIya hakachi kenu, nyi
+  kanazange kutunga kaposhi, chitangu kechi kutwama hanga alule ndando, amone nyi
+  kali ni mbongo jinakumbana ja kumuhwisa, nyi ka? Nyi ka, iye masa fundamentu, alioze
+  kechi kuhasa kumuhwisa, mba atu eswe waze mapalika, ha kuchimona maputuka kumuseha,
+  ni kwamba ngwo: \u2018Wolo-o!\\nLunga yono kanakaputuka kutunga, alioze kahashile
+  kuhwisa.\u2019\u201d\\n\u201cMuze hakuta, iye yamba kuli tumbaji twenyi ngwenyi:
+  \u2018Kungenu yihanda yize yasalaho hanga tuhone kukisa nichimwe.\u2019\u201d\"",
+  "\"Tunyongenu ngwe tuli mu mbonge ya Yeriku. Mbonge yacho te yatwama mu chifuchi
+  cha Kanana, atu jamo te keshi kufuliela Yehova. Pwo yoze te akuvuluka ngwo Rahape
+  te mwe atwama.\\nMuze te uchili kanuke, iye kevwile sango ja chize Mose atetele
+  Kalunga-Lwiji-Muchila ni kusongwela A-Izalele hanga atuhuke mu Engitu. Iye kevwile
+  nawa chize Yehova akwashile A-Izalele hanga akumbe jita kuli akwa kole jo. Haliapwila
+  iye hevwa ngwo A-Izalele hasa chilombo cho hakamwihi ni Yeriku!\\nRahape kaswekele
+  ngendeshi mumu iye yafuliela Yehova\\nHa umwe ufuku, A-Izalele aali yaya ni kwendesa
+  mbonge ya Yeriku. Ayo yaheta ndo ku zuwo lia Rahape. Iye yaatambula kanawa, nawa
+  ayo yatwama ku zuwo lienyi. Ha ufuku, mwanangana wa Yeriku yanyingika ngwo mu mbonge
+  muli amwe ngendeshi, nawa ngwo ayo kaya ku zuwo lia Rahape. Kashika mwanangana yatumako
+  amwe malunga hanga aakwate. Rahape yasweka ngendeshi jacho aali ha fulumba lia zuwo
+  lienyi nawa yamba kuli malunga waze mwanangana atumine ngwenyi: \u2018Ngendeshi
+  te kuno ali, alioze atuhukanga kulu mu mbonge. Nyi nwaakaula haliapwila, munuhasa
+  kwaakwata!\u2019 Yena unanyingika mumu liaka Rahape anakasweka ngendeshi?\\nMuze
+  ngendeshi te kanda achikatuka ku zuwo lia Rahape, ayo yamulakenya ngwo iye ni asoko
+  jenyi makaalamwina muze Yeriku mayinongesa. Yena unanyingika yize ayo ambile kuli
+  Rahape hanga alinge?\\nHa kupalika cha amwe matangwa, A-Izalele yajinga mbonge ya
+  Yeriku, ni kuhola kulu. Ayo yayijinga ha matangwa asambano, kamuwika ha tangwa.
+  Alioze ha tangwa liamuchishimbiali, ayo yajinga mbonge ha yisuho shimbiali. Mba
+  hi ayo eswe yakololoka chikolo. Hohene, Yehova yapuzula yipanga ya mbonge ya Yeriku.
+  Alioze zuwo lili ni lwoji muchila haze lia kapenda liso kupuzuka! Yena muhasa kumona
+  zuwo liacho ha chizulie?\\nYiKa yena muhasa kulilongesa hali Rahape?\u2014 Rahape
+  yafuliela Yehova ha mukunda wa kunyingika yuma yeswe ya ukomokeso yize Yehova alingile.
+  Ni unalilongesa yuma yinji yaukomokeso hakutwala kuli Yehova. Ni yena unafuliela
+  Yehova ngwe chize Rahape alingile?\\nTANGA MU MBIMBILIYA YE\\nYoshua 2:1-24; 6:1-5,
+  14, 15, 20-25\\nA-Hepreu 11:31\"", "\"Kuli jila jinji ha JW Library jakufupilamo
+  yize unazange kutanga. Jila jacho jili ha kasha yize muyisoloka helu muze mutanga
+  kapitulu hanji mutwe wa pande.\\nMuhasa kupola mbutau aji jili helu hanga uwane
+  jila jimwe jize jili ha kasha yacho.\\nFollow these instructions to customize your
+  reading experience:\\nAlumuna Limi\\nMuhasa kwalumuna Iimi ha kapitulu hanji mutwe
+  wa pande uze unatange.\\nPola ha mbutau malimi umone malimi eswe ali ni sango jize
+  unatange. Malimi wa kutanga yisuho yinji kali helu lia akwo. Muhasa nawa kuwana
+  limi nyi musoneka limi liacho.\\nMalimi waze kanda uchichiza kama, kali ni chilayi
+  cha lelwa. Pola ha limi hanga uchize mukanda. Muze mukanda wacho hiwanjila ha makina
+  ye, lelwa mulijimuka. Pola cheka ha limi mba utange.\\nAlumuna Sona\\nMuhasa kwalumuna
+  kutohwa cha sona kulita ni chize unazange.\\nPola mbutau ya kutohwesa nayo sona
+  Text Settings, hi swenyesa mufunda hanga ukehese hanji utohwese sona. Au we utohwe
+  akusa mu mikanda yeswe yili mu katalilo yono.\\nAlumuna Yizulie Hanji Sona\\nMikanda
+  yimwe muhasa kuyitanga ngwe yizulie hanji sona. Pola mbutau yalita hanga usakule
+  mutapu uze unazange.\\nMutapu wa Yizulie: Mutapu wa yizulie wakusolola mafwo ngwe
+  chize ali ha mukanda. Amwe kakuzanga mutapu awu ha mikanda yili ngwe mukanda wa
+  miaso, hanga amone usongwelo wa miaso.\\nMutapu wa Sona: Mutapu wa sona wakusolola
+  yisoneko ya Mbimbiliya yize mutu mahasa kwazulula ni kutohwesa sona.\\nAzulwila
+  mu . . .\\nAzulwila mu . . . muyikukwasa kwazulula mikanda ha JW Library mu aplikativa
+  jeka.\\nPola ha Azulwila mu . . . hanga umone yikuma yikwo yiliko. Chakutalilaho,
+  muhasa pola mbutau Azulula ha Online Library hanga wazulule lifwo unatange mu Watchtower
+  ONLINE LIBRARY.\\nAlumuna Mwakufupila Yisoneko\\nMuze mu pola chisoneko cha Mbimbiliya
+  mu mukanda, versu mujisoloka. Pola mbutau ya kusakula nayo yize yili kushi lia versu
+  hanga usakule Mbimbiliya yize muzanga kupwa ni kutanga.\\nPola mbutau ya kuwejela
+  nayo hanji ya kuchiza nayo hanga use hanji uchize Mbimbiliya. When you tap a Bible
+  citation in a publication, the verses are displayed.\\nTala \u201cKuchiza ni Kutanga
+  Mbimbiliya\u2014Android\u201d hanga unyingike mwakuchijila Mbimbiliya jikwo ha JW
+  Library.\\nAyi yeswe kayifwambwishile mu Fevereiro 2015 ni JW Library 1.4, yize
+  yakukalakala ni Android 2.3 ni aplikativa jaha. Nyi yikuma yino kuwayimwene, kaula
+  usongwelo uli mu \u201cPutuka Kuzachisa JW Library\u2014 Android,\u201d ha mutwe
+  wakwamba ngwoChiza Yikuma Yaha.\"", "\"4 Amu tuli ni mulimo uno usandu mumu lia
+  keke yize Zambi anakatusolwela, kashika kutushi kuhonga. 2 Alioze hitunalitunu yuma
+  yakuhengama ya sonyi, kutwendele ni mahuza, chipwe kulongesa liji lia Zambi ni kalimbalimba;
+  mba hakwambujola umwenemwene, twakusoloka kanawa kumeso ja atu ni kumeso ja Zambi.
+  3 Kwamba pundu, nyi sango jipema jize twakwambujola jinafukiwa,* jinafukiwa kuli
+  waze anatoko, 4 hakachi ka waze zambi ya mwakono* hanapupuchisa manyonga ja waze
+  keshi kufuliela, hanga pangu* lia sango jipema ja uhenya hakutwala kuli Kristu yoze
+  wapwa chifwa cha Zambi, lihone kupanguka muli ayo. 5 Mumu kutushi kwambujola hakutwala
+  kuli yetwene, alioze hakutwala kuli Yesu Kristu mwe Mwene, ni hakutwala kuli yetwene
+  ngwe ndungo jenu mumu hali Yesu. 6 Mumu Zambi yoze wambile ngwenyi: \u201cPangu
+  lipanguke mu milima,\u201d mwenawo hanapanguka mu mbunge jetu mukutwaha kupanguka
+  cha chinyingi cha uhenya wa Zambi kumeso ja Kristu.\\n7 Alioze tuli ni upite uno
+  mu yikwachilo ya uma, hanga ndundo jahiana jikapwe ja kuli Zambi, hi 8 Twakupalika
+  mu kapinda mweka ni mweka, alioze kutushi kukokoloka; twakuyambashana, nihindu kutushi
+  kusakalala. 9 Kakutuhungumiona, nihindu keshi kutwehuka; kakutulamba hashi, nihindu
+  keshi kutwonwona. 10 Ku yihela yeswayo kuze twakuya, twakupwa mu ponde ya kufwa
+  ngwe chize Yesu apwile, hanga mwono* wetu upwe ngwe wa Yesu. 11 Mumu yetu tuli ni
+  mwono, kakutukunjika ku kufwa matangwa eswe mumu hali Yesu, hanga mwono wa Yesu
+  ukasoloke nawa mu musunya wetu wa kufwa. 12 Kashika, ponde ya kufwa yili kuli yetu,
+  alioze mwono kuli yenu.\\n13 Haliapwila, amu tuli ni spiritu yimuwika ya ufulielo,
+  ni kulita ni chize chinasonewa ngwo: \u201cNafulielele, kashika nahanjikile;\u201d
+  ni yetu nawa tunafuliela, kashika twakuhanjika. 14 Tunanyingika ngwetu, Yoze wahindwishile
+  Yesu, makatuhindwisa ni yetu nawa hamwe ni Yesu, ni kutuhetesa kumeso jenyi hamwe
+  ni yenu. 15 Yino yeswe yakulingiwa mumu hali yenu, hanga chawana cha keke chiliokese
+  chinji kuhiana, mumu atu anji kanasakwilila ha uhenya wa Zambi.\\n16 Kashika kanda
+  tukokoloka, chipwe ngwe mujimba wetu muuzeya, nihindu utu wetu wa muchima kakuupwisa
+  waha tangwa ha tangwa. 17 Mumu chipwe ngwe lamba* lietu lili lia mashimbu akehe,
+  chikwo nawa lilelu, nihindu liakutunehena uhenya walumbama wahiana,* uhenya wa mutolo.
+  18 Mumu kutushi kulihulikila ha yuma yize yakumoneka, alioze ha yuma yize kuyishi
+  kumoneka. Mumu yuma yize yakumoneka yili ya mashimbu akehe wika, alioze yize kuyishi
+  kumoneka yili ya mutolo.\"", "\"Nyingika chize kukunguluka chetu chapwa. Wana chihela
+  cha kulikungulwila chize chili hakamwihi ni kuze watwama.\\nYika Yakulingiwa ha
+  kukunguluka chetu?\\nYela ja Yehova kakulikungulula kaali ha poso hanga awayile
+  Zambi. (A-Hepreu 10:24, 25) Ha kukunguluka chacho chize mutu mweswawo mahasa kupwaho,
+  twakulilongesa yize Mbimbiliya yakwamba ni chize mutuhasa kukaula malongeso jamo
+  ku mwono wetu.\\nKanji-kanji ha kukunguluka chacho, waze aliho no mahasa kukumbulula,
+  ngwe chizechene chakulingiwa mu yimwe kalasa. Kukunguluka chakuputuka ni mwaso ni
+  kulemba, ni ha kuhwa che chakulingiwa.\\nKuwafupiwile kupwa Chela cha Yehova mba
+  upwe ha kukunguluka chetu. Tunanusanyika nulieswe hanga nupwe ha kukunguluka chetu.
+  Kukunguluka chetu chapwa chawana, chikwo nawa keshi kwitaho mbongo.\"", "\"Tanga
+  Uputukilo 25:29-34 hanga umone nyi Esau ni Yakomba kakwachile yiyulo ya mana.\\nWana
+  sango jinji ha kuhengola lusango mweswe. Yika yaliangile kulingiwa kuli ayo? (Uputu.
+  25:20-28) Yika yalingiwile hanyima?\u2014Uputu. 27:1-46.\\nHengwola tuyikuma tuli
+  ha lusango wacho. Ha mashimbu jacho, ulite uka ni yiteli yize apwile nayo mwana
+  mutangu?\u2014Uputu. 18:18, 19; w10 5/1 13.\\n-\\nShina mutu te katamba kupwa mwana
+  mutangu mba apwe kalamba ka Mesaya? (w17.12 14-15)\\nNyonga ha malongeso waze wawana
+  ni kwakaula ku mwono we. Mumu liaka chiwape cha ukulwana chapwile chilemu chinji
+  kuli Yakomba kuhiana kuli Esau? (Hepre. 12:16, 17; w03 10/15 28-29) Yika Yehova
+  apwile ni kunyonga hali Yakomba ni Esau, nawa mumu liaka? (Mala. 1:2, 3) Yika kachi
+  Esau alingile hanga akwate yiyulo yipema?\\n-\\nLihule ngwe, \u2018Kuchi hita poso
+  munguhasa kusolola ngwami, kuwayila Yehova chili chuma chilemu ku mwono wami ha
+  kusa mashimbu hanga ngulinge uwayilo wa mu usoko?\u2019\"", "\"Kulita ni kuhengwola
+  chimwe chize alingile mu chizavu cha akwa-kutala ha yuma ya kulifunga ku misongo
+  mu Estados Unidos, chinambe ngwo, unji wa akweze a miaka 15 ndo 19 hanalisumbakenya
+  mukanwa. \u201cNyi muhula akweze hakutwala ku chikuma chacho, ayo mahasa kukulweza
+  ngwo mulonga kuushiko.\u201d Yino ye ambile Sharlene Azam yoze wasonekene mukanda
+  unambe ngwo: Oral Sex Is the New Goodnight Kiss. (Kulisumbakenya mukanwa yili mbeju
+  yaha ya ufuku) \u201cKuli ayo kulisumbakenya mukanwa hi kulisumbakenya ko chamwenemwene.\u201d\\nYika
+  wanyonga?\\nKumbulula ngwo, ka hanji ewa ha yihula yino.\\nShina mwana pwo mahasa
+  kumita nyi malisumbakenya mukanwa?\\nEwa\\nKa\\nShina kulisumbakenya mukanwa muchihasa
+  kusambulwisa musongo?\\nEwa\\nKa\\nShina kulisumbakenya mukanwa chili lume kulisumbakenya?\\nEwa\\nKa\\nYuma
+  yinalingiwako yika yinasolola?\\nTala nyi yize wakumbulula yinalite.\\nShina mwana
+  pwo mahasa kumita nyi malisumbakenya mukanwa?\\nKumbululo: Ka. Kashika atu anji
+  akunyonga ngwo, kulisumbakenya mukanwa kuchishi ponde.\\nShina kulisumbakenya mukanwa
+  muchihasa kusambulwisa musongo?\\nKumbululo: Ewa. Mutu yoze wakulisumbakenya mukanwa
+  mahasa kupwa ni musongo wa hepatite (A hanji B), yimbulu ku ulunga hanji ku upwo,
+  kujimba mu upwo hanji ku ulunga, mikule ku upwo hanji ku ulunga, ni HIV. (Verrugas
+  genitais, gonorreia, herpes, HIV ni s\u00edfilis.)\\nShina kulisumbakenya mukanwa
+  chili lume kulisumbakenya?\\nKumbululo: Ewa. Chuma cheswe chize chinatale ha kukwata
+  ni nyonga lieka ku ulunga hanji ku upwo wa mutu mukwo\u2014kuchingako kulipomba,
+  kulisumbakenya mukanwa, mu uhambukilo, ni kupinya-pinya mutu mweka ku ulunga hanji
+  ku upwo\u2014yeswe yinalumbunuka kulisumbakenya.\\nMumu liaka watamba kunyingika
+  chikuma chino?\\nTutalenu yimwe yisoneko ya mu Mbimbiliya yinashindakenya chikuma
+  chino.\\nMbimbiliya yinambe ngwo: \u2018Chino we upale wa Zambi we usandu wenu ngwetu,
+  nukachine utanji.\u2019\u20141 A-Tesalonika 4:3.\\nMu limi lia Hepreu liji \u201cutanji\u201d
+  lize alumbunwine hano, linatale ha kulikwata-kwata cheswe ku mujimba ni mutu yoze
+  walimbachile nenyi, kuchingako kulipomba, kulisumbakenya mukanwa, mu uhambukilo,
+  ni kupinya-pinya mutu mweka ku ulunga hanji ku upwo. Yoze wakulinga utanji mahasa
+  kumona lamba linji, chaluyinda mahasa kutokesa usepa wenyi ni Zambi.\u20141 Petulu
+  3:12.\\nMbimbiliya yinambe ngwo: \u2018Yoze malinga utanji mavulumuna mujimba wenyi
+  mwene.\u2019\u20141 A-Korindu 6:18.\\nKulisumbakenya mukanwa, muchihasa kuneha lamba
+  ku musunya ni ku spiritu. Chikwo nawa, \u201cchakukwata ku manyonga. Hi wika ko
+  kulisumbakenya mu upwo che chakutwala mutu alivwe ngwe kamuhehesa, kuliseha, hanji
+  kupwa mutu mukalu.\u201d Mukanda Talking Sex With Your Kids unambe ngwo, (Hanjikenu
+  ni anenu ha chikuma cha kulisumbakenya), unambe ngwo, \u201cManyonga api waze mutu
+  mahasa kupwa no muze malisumbakenya ni mutu yoze kalimbachile nenyi mahasa kukatuka
+  ku kulisumbakenya cheswacho malinga chize kulialitele. Mumu kulisumbakenya chili
+  lume kulisumbakenya.\u201d\\nMbimbiliya yinambe ngwo: \u201cYami Yehova nguli Zambi
+  yenu, yoze wakunulongesa hanga nukalumbunuke.\u201d\u2014Izaia 48:17.\\nShina wakutayiza
+  ngwe kukaula shimbi ja Zambi hakutwala ku kulisumbakenya chakutufunga? Nyi shina
+  wakunyonga ngwe shimbi jacho jili chikalu chinji? Mba ukumbulule yihula yino, nyonga
+  ha limwe tapalo muze mwakupalika mashinyi anji. Mu tapalo liacho, muhasa kuwanamo
+  yilayi yize yakusolola fuji jize watamba kwendesa najo ni haze watamba kumana. Mba
+  nyi ngwe yena ni akwa-kwendesa akwo munulengulula yilayi yacho, yika muyihasa kulingiwako?\\nYilayi
+  yize twakuwana mu tapalo yakutukinda tuhone kwendesa ngwe chize yetu ene tunazange,
+  alioze kuyikaula chakutukwasa kulifunga. Chimuwika nawa, ni shimbi ja Zambi nejo
+  jakutukanjisa kulinga yuma yize twakuzanga, alioze nyi twajononokena mujitufunga
+  ku mwono.\"", "\"Tambwoka ha JW Library. Ayi aplikativa yili yakutanga ni kulilongesa
+  nayo Mbimbiliya. Muhasa kuwana yuma yili ha aplikativa yacho mu kasha ya usongwelo.
+  Ha kwazulula kasha yacho, koka sali lia umama hanji pola mbutatu Menu yili kwilu
+  sali lia umama.\\nMbimbiliya\\nHa Mbimbiliya he muhasa kutangila hanji kuchijila
+  Mbimbiliya unazange. Pola mukanda wa Mbimbiliya ni kapitulu mba uputuke kutanga.
+  Muze unatange, muhasa kumona maliji a kushi, mulongo wa yisoneko, ni yisoneko ya
+  lifwa mu chihanda cha Longeso.\\nNyi mufupa chisoneko cheka, azulula kasha ya usongwelo
+  ni ku pola cheka ha Mbimbiliya hanga ufune ku mikanda yeswe ya Mbimbiliya.\\nMikanda\\nHa
+  Katalilo wa Mikanda he muhasa kumwena sona, maliji akukopa, ni yinema ya mikanda.
+  Pola ha mukanda ni mutwe wa pande mba uputuke kutanga. Muze unatange, muhasa kutanga
+  ni yisoneko yize anasolola. Pola Chisoneko umone versu mu chihanda cha Longeso.
+  Pola unjililo mu chihanda cha Longeso mba uye ku versu ya Mbimbiliya.\\nNyi mufupa
+  mukanda weka, azulula kasha ya usongwelo ni ku pola cheka ha katalilo wa Mikanda
+  hanga ufune ku mikanda yeswe.\\nChisoneko cha Tangwa\\nAzulula kasha ya usongwelo,
+  ni ku pola ha Katalilo wa Chisoneko cha Tangwa umone chisoneko cha musono.\\nHa
+  Internet (Online)\\nChihanda Online chize chili ha kasha ya usongwelo chili ni unjililo
+  wa ku site jetu.\\nChize Yikuma Yaha\\nNdo upwe ni kusa-sa programa jaha mba JW
+  Library ye yipwe ni kukalakala kanawa.\\nMuchiwaha nyi muwazulula Android yaha yize
+  yili ha makina je. Tala ha link yino hanga unyingike yikuma yinji: https://support.google.com/nexus/answer/4457705.\\nMuchikukwasa
+  chinji nyi mululieka makina je hanga yipwe ni kuchiza yeswayo aplikativa yaha masamo.
+  Tala ha link yino hanga unyingike yikuma yinji: https://support.google.com/googleplay/answer/113412.\"",
+  "\"HIUNATALE kama jimwe sango ni kulihula ngwe, \u2018Shina yuma hano hashi muyiza
+  kapema?\u2019 Yuma yipi yinalingiwa chinji, kashika atu amwe anatayiza ngwo, songo
+  lia hano hashi linakundama. Shina maliji wano kali amwenemwene? Kutala mutuhasa
+  kunyingikila yuma yize muyikalingiwa kulutwe lia matangwa? Ewa, mutuhasa. Atu kechi
+  kuhasa kwamba yuma yize muyikalingiwa kulutwe lia matangwa, alioze, Yehova Zambi
+  mahasa kuchilinga. Zambi kanatulweze mu Mbimbiliya hakutwala ku yuma yize muyikalingiwa
+  hano hashi kulutwe lia matangwa.\u2014Izaia 46:10; Tiangu 4:14.\\n2, 3. Yuma yika
+  tumbaji twa Yesu azangile kunyingika, nawa kuchi Yesu aakumbulwile?\\n2 Chize twakutanga
+  mu Mbimbiliya hakutwala ku kukunongesa cha Hashi, kuchalumbunukine kunongesa cha
+  Hashi hano twatwama, alioze kunongesa cha yuma yipi. Yesu kambile ngwenyi, Wanangana
+  wa Zambi muukayula hashi heswe. (Luka 4:43) Tumbaji twenyi kazangile kunyingika
+  mashimbu waze te Wanangana wa Zambi muuputuka kuyula, kashika yamuhula nawa ngwo:
+  \u201cMwiji muka yuma yino muyikapwa, nawa chilayi cha kuheta che chika, ni cha
+  kumanunuka cha miaka?\u201d (Mateu 24:3) Yesu kakahele ola yalita, alioze yaalweza
+  yuma yize te muyilingiwa muze songo lia hano hashi hiliakundama hakamwihi. Yuma
+  yize Yesu ambile yinalingiwa haliapwila.\\n3 Mu kapitulu yono mutulilongesa yuma
+  yize yinasolola ngwo tuli ha matangwa akusula cha hano hashi. Chitangu, mutulilongesa
+  hakutwala ku jita yize yalingiwile mu malilu hanga tunyingike mumu liaka yuma yipi
+  yakulingiwa hano hashi.\\nJITA MU MALILU\\n4, 5. (a) Yika yalingiwile mu malilu
+  muze Yesu amupwishile Mwanangana? (b) Kulita ni Usolwelo 12:12, yika te muyilingiwa
+  muze Satana mamunyasa hano hashi?\\n4 Mu Kapitulu 8 twalilongesa ngwo Yesu kamupwishile
+  Mwanangana mu malilu ha mwaka 1914. (Daniele 7:13, 14) Mukanda wa Usolwelo unatulweze
+  yuma yize yalingiwile, ha kwamba ngwo: \u201cMikele [jina likwo lia Yesu] ni angelo
+  jenyi ashile jita ni ndragau [Satana] ni angelo jenyi.\u201d * Satana ni andemoniu
+  jenyi, kaakumbile ku jita yacho ni kwaanyasa hashi. Achinyonga kuwaha chize evwile
+  angelo! Kuchi mba mutwamba hakutwala kuli atu hano hashi? Mbimbiliya yinambe ngwo
+  mashimbu jacho te maneha lamba linji kuli atu. Mumu liaka? Mumu Ndiapu kali ni ufwatulo
+  unji, ha \u2018kunyingika ngwenyi mwaka ukepe wika ali nawo.\u2019\u2014Usolwelo
+  12:7, 9, 12.\\n5 Ndiapu kananeha lamba linji hano hashi. Kali ni ufwatulo unji mumu
+  \u201cmwaka ukepe wika ali nawo,\u201d hanga Zambi amuchizeho. Tuhengulenu yuma
+  yize Yesu ambile ngwenyi muyikalingiwa ku matangwa akusula.\u2014Tala Maliji Akusongo
+  24.\\nMATANGWA AKUSULA\\n6, 7. Yika mutuhasa kwamba hakutwala ku jita ni zala musono?\\n6
+  Jita. Yesu ngwenyi: \u201cAkwa vungu limwe makakatukila akwa vungu likwo, ni akwa
+  wanangana umwe makakatukila akwa wanangana ukwo.\u201d (Mateu 24:7) Atu anji kakufwa
+  ku jita ha mashimbu jetu kuhiana ku mashimbu akwo. Lusango wa chimwe chizavu kanasolola
+  ngwo kuputuka ha mwaka 1914, jita hiyashiha atu kuhiana tununu 100. (Worldwatch
+  Institute) Ha miaka 100 kukatuka ha 1900 ndo 2000 kwafwa atu anji kuhiana waze afwile
+  ha miaka 1900. Mba achinyonga nawa ha lamba ni yikola yize tununu twa atu akumona
+  ha mukunda wa jita!\\n7 Zala. Yesu ngwenyi: \u201cKumukukapwa tupunga.\u201d (Mateu
+  24:7) Chipwe ngwe hano hashi hanasoloka kulia chinji kuhiana ku matangwa akunyima,
+  alioze atu anji keshi ni kulia chinji. Mumu liaka? Mumu o keshi ni mbongo jinakumbana
+  hanga alande kulia hanji mavu waze mahasa kulima mbuto. Tununu twa atu kakuzachisa
+  lumbongo umuwika wa dolar ha tangwa. Chizavu chatala ha mwono wa atu chinambe ngwo,
+  tununu twa ana kanafu ha miaka yeswe, mumu yisemi jo keshi ni mbongo ja kulanda
+  nacho kulia.\u2014Organiza\u00e7\u00e3o Mundial da Sa\u00fade.\\n8, 9. Yika yinasolola
+  ngwo maliji a Yesu hakutwala ku minyiko ni yilungo kanamanunuka?\\n8 Minyiko. Yesu
+  ngwenyi: \u201cKumukukapwa minyiko yinene kweka ni kweka.\u201d (Luka 21:11) Minyiko
+  yinene-yinene, haliapwila yinalingiwa miaka yeswe. Kukatuka ha mwaka wa 1900 atu
+  anji kanafu ha mukunda wa minyiko. Chipwe ngwe akwa-mana kakukwasa atu kunyingika
+  minyiko yacho muze kanda yichiputuka, nihindu muyichinunga ni kushiha atu.\\n9 Misongo.
+  Yesu ngwenyi: Kumukukapwa \u201cyilungo.\u201d Misongo yipi yinalimwange kawashi-washi
+  kuli atu anji. (Luka 21:11) Chipwe ngwe mandotolo kanalilongesa chize mahasa kuwuka
+  misongo yinji, nihindu kuli yikola yize o keshi kuhasa kuwuka. Lusango umwe kanambe
+  ngwo ha miaka yeswe kwakufwa tununu twa atu waze ayiza mukaka, malaria hanji kachiki,
+  ni kulokoka mujimo. Hi misongo yino wika ko, alioze mandotolo hawana misongo yaha
+  30, nawa yimwe kuyishi uwukiso.\\nYITANGA YA ATU HA MATANGWA AKUSULA\\n10 Mukanda
+  2 Timoteu 3:1-5, unambe ngwo: \u201cHa matangwa a kusula kumukukapwa miaka yikalu.\u201d
+  Postolo Paulu kambile yitanga yize te atu anji mapwa nayo ha matangwa akusula. Yamba
+  ngwenyi, atu te mapwa\\nakwa-kulizanga ene\\nakwa-kufwila mbongo\\nkeshi kwononokena
+  yisemi\\nakwa-kaleleso\\nkeshi zango lia atu\\nakwa-vunda\\nasasu hanji yilianyi\\nkakuzanga
+  kuheha, kazangile Zambi\\nkakusoloka kumeso ja atu ngwe kakuwayila Zambi, alioze
+  mu mbunge jo kakulituna tachi ja Zambi\\n11. Kulita ni Samu 92:7, yika muyikalingiwa
+  kuli yingulungulu?\\n11 Shina kuze watwama atu kakwete yitanga yacho? Hashi heswe
+  atu anji kali ni yitanga yacho. Alioze kwasala hakehe hanga Zambi ahwise yitanga
+  yipi. Aye kalakenya ngwenyi: \u201cMuze yingulungulu masoka ngwe mwambu ni akwa
+  kulinga uhenge mawaha, muchipwa chocho hanga akaonwone cha mutolo.\u201d\u2014Samu
+  92:7.\\nSANGO LIPEMA HA MATANGWA AKUSULA\\n12, 13. Yika yize Yehova akutulongesa
+  ha matangwa wano akusula?\\n12 Mbimbiliya hiyinambe ngwo ha matangwa akusula hashi
+  muhakazala too ni lamba. Alioze, yinambe nawa ngwo mukukalingiwa yuma yipema.\\n13
+  Yinyingi ya Mbimbiliya. Profeta Daniele kasonekene hakutwala ku matangwa akusula.
+  Yamba ngwenyi: \u2018Yinyingi yamwenemwene muyikaliwezela.\u2019 (Daniele 12:4)
+  Zambi mahana atu jenyi uhashi wa kunyingika kanawa Mbimbiliya kuhiana ku mashimbu
+  akunyima. Che Yehova akulinga chipi-chipi kukatuka ha mwaka 1914. Chakutalilaho,
+  iye kakutulongesa kunyingika ulemu wa jina ni upale wenyi hano hashi ni umwenemwene
+  hakutwala ku ukuule, ni yize yakulingiwa kuli mutu nyi hafwa hamwe ni uhindukilo.
+  Twalilongesa ngwetu Wanangana wa Zambi we wika muuhasa kuhwisa yipikalo yetu. Twalilongesa
+  nawa chize mutuhasa kupwa ni yitanga yize Zambi akuzanga. Mba yika tuvumbi twa Zambi
+  akulinga ni yuma yize akulilongesa? Uprofeto ukwo muutwaha kumbululo.\u2014Tala
+  Maliji Akusongo 21 ni 25.\\n14. Sango lipema lia Wanangana kanaliambujola ndo kulihi,
+  nawa aya analiambujola?\\n14 Mulimo wa kwambujola hashi heswe. Muze Yesu te anahanjika
+  hakutwala ku matangwa akusula, aye yamba ngwenyi: \u201cSango lino lipema lia Wanangana
+  kumakaliambujola mu yifuchi yeswe ya hashi.\u201d (Mateu 24:3, 14.) Sango lipema
+  lia Wanangana kanaliambujola mu yifuchi kuhiana 230 ni mu malimi kuhiana 700. Chochene,
+  hashi heswe, Yela ja Yehova \u201ca ku mavungu eswe, ni ku minyachi yeswe\u201d
+  kanakwase atu hanga anyingike Wanangana ni yize muukalingila atu. (Usolwelo 7:9)
+  Ayo keshi kutambula fweto ha mulimo wacho. Chipwe ngwe kakwevwila kole ni kwahungumiona
+  kuli atu anji, nihindu keshi kwecha kwambujola, ngwe chize Yesu ambile.\u2014Luka
+  21:17.\\nYIKA YENA MULINGA?\\n15. (a) Shina unatayiza ngwe tuli ha matangwa a kusula,
+  nawa mumu liaka? (b) Yika muyikalingiwa kuli waze akwononokena Yehova ni kuli waze
+  keshi kumwononokena?\\n15 Shina unatayiza ngwe tuli ha matangwa akusula? Uprofeto
+  unji wa Mbimbiliya unamanunuka musono. Kwasala hakehe Yehova mahwisa mulimo wa kwambujola
+  sango lipema, mba \u201csongo\u201d lize. (Mateu 24:14) Songo yika linalumbunuka?
+  Linalumbunuka Armagedone, muze Zambi makashiha yingulungulu eswe. Yehova makatuma
+  Yesu ni angelo jenyi a tachi hanga akanongese atu eswe waze keshi kwononokena kuli
+  Iye ni kuli Mwanenyi. (2 A-Tesalonika 1:6-9) Kulutwe lia yino yuma, Satana ni andemoniu
+  jenyi kechi kapiangula nawa atu. Nawa atu eswe waze mazanga kukaula shimbi ja Zambi
+  ni kutayiza Wanangana wenyi makamona chize yilakenyo yeswe ya Zambi muyikamanunuka.\u2014Usolwelo
+  20:1-3; 21:3-5.\\n16. Yika watamba kulinga amu songo hiliakundama?\\n16 Hikwasala
+  hakehe hanga chiyulo cha Satana hano hashi chihwe. Kashika chili chilemu kulihula
+  ngwetu: \u2018Yika changutamba kulinga?\u2019 Yehova kanazange hanga ulilongese
+  chinji Mbimbiliya. Kashika watamba kulemesa chinji longeso lie. (Yoano 17:3) Yela
+  ja Yehova kakukunguluka ha poso jeswe hanga akwase atu kunyingika Mbimbiliya. Eseka
+  kuya ku chimwe kukunguluka cho. (Tanga A-Hepreu 10:24, 25.) Nyi wamona ngwe watamba
+  kwalumuna yimwe yitanga ku mwono we, kanda wivwa sonyi ja kuchilinga. Muze muchilinga,
+  usepa we ni Yehova muukola chinji.\u2014Tiangu 4:8.\\n17. Mumu liaka atu anji makatungumuka
+  muze yingulungulu makaanongesa?\\n17 Postolo Paulu kambile ngwenyi, kwonona cha
+  yingulungulu muchikeza ha shimbu lize atu kanyingikine, ngwe chize \u2018mwiji akwiza
+  ha ufuku.\u2019 (1 A-Tesalonika 5:2) Yesu kambile ngwenyi atu anji kechi kutayiza
+  ngwo kali ha matangwa akusula. Yamba ngwenyi: \u201cChizechene ngwe ha matangwa
+  ja Noa, chocho muchikapwa ha kuheta cha mwe Mwana Mutu [ha matangwa akusula]. Mumu
+  chizechene ngwe ha matangwa [waze], shimbu te sanga lia meya kanda liza, apwile
+  nikulialia, nikunwanwa, nikumbata, nikuhangisa malo, ndo tangwa lize Noa hanjila
+  mu ulungu. Kanyingikine ndo sanga lia meya liejile likaahungumune eswe; chocho nawa
+  muchikapwa ha kuheta cha mwe Mwana Mutu.\u201d\u2014Mateu 24:37-39.\\n18. Utowezo
+  uka uze Yesu hanatwehe?\\n18 Yesu katutowezele ngwenyi, kutwatambile kulalwoka \u201cni
+  upulutu, ni kuzengewa, ni yipikalo ya mwono.\u201d Yamba ngwenyi, tangwa liacho
+  muliza susumuku \u201cngwe muheto.\u201d Yamba nawa ngwenyi, tangwa liacho \u201cmulikeza
+  hali waze eswe akutwama ha kuzazuluka cha hashi heswe.\u201d Mba yamba nawa ngwenyi:
+  \u201cLenu ha shimbu lieswe, nikuliumba [hanji kulemba ni mbunge yeswe], hanga nukakumbe,
+  nukapuluke ku yino yuma yeswe muyikapwa, nukamane kumeso ja mwe Mwana Mutu.\u201d
+  (Luka 21:34-36) Mumu liaka chili chilemu kukaula utowezo wa Yesu? Mumu kwasala hakehe
+  hanga Satana ni atu jenyi api anongese. Alioze atu waze Yehova ni Yesu matayiza,
+  makaalamwina ni kutwama hashi haha ku miaka yeswe.\u2014Yoano 3:16; 2 Petulu 3:13.\"",
+  "\"\u201cMwiku wenyi muwiza kumukatuka, mahilukila ku mavu jenyi.\\nTangwa lioliene
+  manyonga jenyi majimuka.\u201d\\nSamu 146:4\\n\u201cMumu amwono kanayingika ngwo,
+  Mutukafwa, alioze afu kanyingikine nichimwe . . . Cheswacho moko je mawana kulinga,
+  hilinga ni ngolo je jeswe, muma mwa afu kuze unayi kukushi milimo, hanji manyonga,
+  hanji chinyingi, hanji mana.\u201d\\nChilumbununyi 9:5, 10\\n\u201c[Yesu] yaweza
+  nawa ngwenyi: \u2018Sepa lietu Lazaru haya tulo, alioze munguyako hanga ngumulawise.\u2019
+  Kumana Yesu te kanahanjika hakutwala ku kufwa cha Lazaru. Alioze ayo yanyonga ngwe
+  iye kanahanjika hakutwala ku kupomba tulo. Mba Yesu yaalweza zwalala ngwenyi: \u2018Lazaru
+  hafwa.\u2019\u201d\"", "\"Muli mikanda yinji, ni tumikanda, mafwo, yinema yize muhasa
+  kutanga hanji kutala ha JW Library chipwe kuushi internet.\\nKaula uno usongwelo
+  ha kuchiza ni kuhengwola Mikanda:\\nChiza Mikanda\\nMuhasa kuchiza mikanda yinji
+  nyi muzanga hanga utange ni kulilongesa.\\nAzulula ha unjililo ni kupola ha katalilo
+  wa Mikanda hanga utale mikanda yize yiliho.\\nPola ha mbotau ya Malimi hanga umone
+  malimi waza ali ni mikanda. Sakula limi lize unazange. Limi lize wakuzachisa chinji
+  liakusoloka chitangu ha katalilo. Muhasa kufupa ha katalilo majina ja malimi.\\nKuli
+  maliji akehe a kuwanyinamo mikanda mu JW Library.\\nHa chihanda, Mitapu ya Mikanda
+  hanasoloka mikanda mu limi lize unafupu yakululieka kanawa, ngwe mikanda, mafwo
+  hanji yinema. Nyi wapolaho muyikusolwela uhashi ukwo wakufupilamo, ngwe Kaposhi
+  wa Kutalila kulita ni miaka yacho ni yinema. Pola ha chihanda cha mitapu yeswe ya
+  mikanda hanga ufune ha katalilo.\\nChahanda chakwamba ngwo Yuma Yaha hanasolola
+  mikanda yaha yize anafwambwisa haliapwila mu limi lize unafupu.\\nPola ha mukanda
+  hanga uuchize. Mikanda yize kanda uchichiza muyisoloka ni chilayi cha lelwa. Pola
+  ha mukanda hanga uuchize. Muze mukanda muunjila ha makina je, chilayi cha lelwa
+  muchikatukoho. Pola ha mukanda kamuchiali hanga utange.\\nChihanda cha mikanda yakuchiza
+  chakusolola mikanda yeswe yize hiwachiza mu limi lieswalio. Muhasa kuyilulieka kulita
+  ni mutapu wayo, ngwe, yize wakutanga chinji, yize kushi kutanga chinji, hanji yize
+  yinene chinji.\\nJimuna Mikanda\\nMuhasa kujimuna mukanda uze kuwazangile nawa hanji
+  hanga upwe ni chihela chinene mu utulikilo wa mikanda.\\nAzulula kasha ya usongwelo
+  ni kupola ha Mikanda, mba hi pola ha mutapu wa mukanda unazange (ngwe, Mikanda)
+  hanga mikanda yacho yisoloke. Nyi hiwawana mukanda unazange ku jima, pola ha mbutau
+  Yinji, hi pola Jima.\\nNyi unazange kupwa ni chihela chinene mu utulikilo, muhasa
+  kujimuna mikanda yize kuushi kutanga chinji hanji yize yinene chinji. Azulula kasha
+  ya usongwelo ni kupola ha Mikanda. Yako ha chihanda cha Mikanda Yakuchiza ni kuyilulieka
+  kulita ni mutapu wayo. Jimuna mikanda yize kuwazangile.\\nGet Updates for a Publication\\nHa
+  shimbu ni shimbu, yimwe mikanda kakuyilulieka muhasa kuyichiza.\\nMukanda uze haululieka
+  cheka wakusolola chilayi hanga uuchize nawa. Muze pola ha mukanda, mumona utowezo
+  ngwo mukanda wacho kaululieka chaha. Pola ha uchijilo hanga uuchize, chipwe ha chihanda
+  shimbu lieka hanga ununge kutanga uze ulinawo.\\nMba umone nyi mikanda yize hiunachiza
+  kayilulieka chaha, azulula ha unjililo, pola ha Mikanda. Mba nyi kuli mikanda yili
+  alulieka chaha, chilayi cha mikanda yacho muchisoloka. Pola chilayi chacho umone
+  mikanda yacho. Pola ha mukanda hanga uchize waha hanji pola ha yeswe hanga uchize
+  yeswe.\\nAyi yeswe kayifwambwishile mu Fevereiro 2015 ni JW Library 1.4, yize yakukalakala
+  ni Android 2.3 ni aplikativa jaha. Nyi yikuma yino kuwayimwene, kaula usongwelo
+  uli mu \u201cPutuka Kuzachisa JW Library\u2014 Android,\u201d ha mutwe wakwamba
+  ngwo Chiza Yikuma Yaha.\"", "\"Longeso 12\\nMumu Liaka Yetwe Twakuya ku Yikungululo
+  Yinene-Yinene?\\nMumu liaka yetwe twakupwa ni chiseke? Mumu twakuya ku yimwe yikungululo
+  yetu yinene-yinene. Ngwe chizechene tuvumbi ja Zambi ku miaka ya kunyima, te kakwalongesa
+  mu yikungululo yinene katatu keswe ha mwaka, ni yetwe nawa tunashimbwila hamuwika
+  ukungululo wa yizavu yinene. (Shimbi-Yamuchiali 16:16) Miaka yeswe, yetwe tuli ni
+  yikungululo yitatu: ukungululo wa tangwa limuwika, ukungululo wa mbonge wa matangwa
+  aali, ni ukungululo wa mambonge wa matangwa atatu. Yikungululo yacho kuchi ya kutuyukisa?\\nYino
+  yakukolesa Usoko wetu wa mu Ukristu. Chizechene ngwe A-Izalele te kakuhalisa Yehova
+  ni chiseke, mu kachi ka mbunga \u201cmu chikungulwila,\u201d ni yetwe twakumuwayila
+  ni chiseke hamuwika mu Yikungululo Yinene. (Masamu 26:12; 111:1) Yikungululo yino
+  yakutwaha uhashi wa kulichinga ni Yela amu yikungulwila yikwo hanji mandumbu a yifuchi
+  yeka. Mu yikungululo yacho twakupwa ni amwe ma ola waze twakulichinga ni mandumbu
+  hanga tulie, tunwe hamuwika, ha ma ola jacho hakupwa usepa upema wa mandumbu a mu
+  spiritu. (Yilinga 2:42) Yikungululo Yacho yakutununga mu zango lia \u2018kulikata
+  ni mandumbu eswe\u2019 a hashi.\u20141 Petulu 2:17.\\nYakutukwasa hanga tusenye
+  kulutwe mu spiritu. A-Izalele noo te kakuyuka ha kupwa ni \u201culumbunwiso wa maliji\u201d
+  a Yisoneko waze te akwalumbunwina. (Nehemia 8:8, 12) Ni yetwe twakuwahilila chinji
+  ha malongeso amu Mbimbiliya waze twakwivwa mu yikungululo yinene. Ululikiso weswe
+  wa yikuma kakuuchiza mu Mbimbiliya. Hakutwala ha yiyulo yipema ni yihanda yikehe-yikehe
+  ni yilweza, ye yakutulongesa chize mutulinga upele wa Zambi ku mwono wetu. Hakwivwa
+  yitanga ya mandumbu akwo amu Ukristu, chize ayo akukumba milonga ha matangwa wano
+  akalu, yino yakutukolesa. Mu ukungululo wa mambonge twakutala yiheho ya yilinga
+  ya atu a mu Mbimbiliya, nawa ni kutulongesa shimbi jingunu. Mu yikungululo yinene,
+  kakupapachisamo waze analihana kuli Zambi hanga amulingile.\\n\u25aa Mumu liaka
+  mashimbu a yikungululo yinene akupwa a chiseke?\\n\u25aa Kuchi muyuka nyi waya ku
+  umwe ukungululo unene?\\n[Kasha/Chizulie ha lifwo 14]\\nNINGIKA NAWA\\nNyi unazange
+  kunyingika kanawa mandumbu jetu a mu ufulielo, tunakwita hanga uye ku chikungululo
+  chetu chinene chize muchizoho. Longeshi we wa Mbimbiliya mahasa ku kulweza ululikiso
+  uze alinawo mba uhase kumona yikuma yeswe ize makalongesamo. Soneka ha mukanda we
+  mashimbu ni chihela kuze mukukapwa chikungululo chinene, nyi muhasa kuyako.\\n[Chizulie
+  ha lifwo 14]\\nM\u00e9xico\\n[Chizulie ha lifwo 14]\\nAlemanha\\n[Chizulie ha lifwo
+  14]\\nBotswana\\n[Chizulie ha lifwo 14]\\nNicar\u00e1gua\\n[Chizulie ha lifwo 14]\\nIt\u00e1lia\"",
+  "\"Janete, yoze hitwavuluka kulu yamba ngwenyi, \u201cHa kupalika cha amwe mashimbu
+  akehe muze tata te hafwa, mukwetu-lunga yangulweza ngwenyi, haputuka kuzanga pwo
+  mweka. Ha mashimbu akehe, susumuku iye yatuhuka ku zuwo ni kungulweza kama ka, chipwe
+  kungushika ka, yanguhichika ni ana aali ukawami.\u201d Janete yawana mulimo, alioze
+  mbongo te kujishi kukumbana kufweta zuwo. Nawa kapwile ni kupinda ni yipikalo yinji
+  hi ya mbongo wika ko. Iye yamba ngwenyi: \u201cNevwile yinyengo yinji ha yiteli
+  yize ngulinayo halapwila. Yingumona ngwe te napwile ni mulonga wakuhona kulisa kanawa
+  ana jami ngwe chize yisemi akwo akulinga. Chipwe haliapwila, nakulihula chize atu
+  akunyonga hali yami ni ana jami. Shina ayo kakulihula nyi yami nasele tachi hanga
+  ngufunge ulo wami?\u201d\\nKulemba chakukwasa Janete kulihumikiza ku manyonga jenyi
+  ni kukolesa usepa wenyi ni Zambi. Mwene yamba ngwenyi: \u201cHa ufuku chakupwa chikalu
+  chinji, mumu muze mu chifuchi himwahola, henaho nakunyonga chinji ha yipikalo yami.
+  Kulemba ni kutanga Mbimbiliya che chakungukwasa kuya tulo. Chisoneko chami nazanga
+  chinji chili A-Fwilipu 4:6, 7: \u2018Kanda nukalipikala ha chuma nichimwe, alioze
+  ha yuma yeswe ku kulemba ni kuliumba hamwe ni kusakwila, kwita chenu akachinyingike
+  kuli Zambi, mba sambukila ya Zambi, yize yakuhiana kunyonga cheswe, muyikafunga
+  mbunge jenu ni kunyonga chenu muli Kristu Yesu.\u2019 Nakupalikisa ufuku unji ni
+  kulemba ha chino nakupwa ni sambukila ya Yehova.\u201d\\nMaliji a Yesu hakutwala
+  ku kulemba waze ahanjikile ha Longeso lienyi lia ha Mulundu kakukwasa ha yipikalo
+  yeswayo ngwe yino: \u201cTatenu kananyingika yuma yize nwakufupafupa, shimbu kanda
+  nwita kuli iye.\u201d (Mateu 6:8) Nawa twatamba kumwita. Kulemba chili yimwe jila
+  yitangu yize mutuhasa \u2018kukundama kuli Zambi.\u2019 Yika mutu mayukako nyi hachilinga?
+  \u2018Zambi kumakundama kuli iye.\u2019\u2014Tiangu 4:8.\\nChochene, kulemba ni
+  mbunge yeswe yakutukwasa kuhuzulula yipikalo yetu nawa yili yimwe jila yakulweza
+  yipikalo yetu kuli Zambi. Yehova \u2018Mukwa-kwivwa kulemba,\u2019 kakukwasa waze
+  eswe akumufupa ni ufulielo weswe. (Masamu 65:2) Kashika Yesu alongesele tumbaji
+  jenyi ngwenyi, \u201cchaatamba kulemba matangwa eswe.\u201d (Luka 18:1) Kashika
+  yetu twatamba kununga ni kwita usongwelo ni ukwaso wa Zambi, ni ujikijilo weswe
+  ngwo iye makatakamisa ufulielo wetu. Twatambile kuhamika ha chize Yehova akulinga
+  yuma. \u2018Kulemba, chakuhona kulitwamina chakusolola ufulielo wetu ungunu\u2019\u2014
+  1 A-Tesalonika 5:17.\\nKUPWA NI UFULIELO WAMWENEMWENE YIKA CHINALUMBUNUKA\\nAlioze
+  ufulielo wamwenemwene yika unalumbunuka? Ufulielo unalumbunuka \u2018kunyingika\u2019
+  Zambi ngwe mutu. (Yoano 17:3) Chino twakuchilinga chitangu ha kunyingika manyonga
+  ja Zambi kupalikila mu Mbimbiliya. Tunanyingika ngwetu iye kanatunyingika kanawa
+  nawa kanazange kutukwasa. Ufulielo wamwenemwene unalumbunuka yuma yinji hi kunyingika
+  wika ko ngwo Zambi kwali. Chino chinalumbunuka kupwa ni usepa wa vumbi ni iye. Ngwe
+  chizechene cha kulingiwa kuli atu kutushi kuhasa kupwa susumuku masepa ja Zambi.
+  Ufulielo wetu \u2018muutohwa mashimbu eswe muze mutulilongesa chinji hakutwala kuli
+  iye nawa mutulinga \u201cyuma yize ya kupemena kuli iye.\u201d (2 A-Korindu 10:15;
+  Yoano 8:29) Ufulielo wa mutapu au we wakukwasa Janete hanga akumbe yipikalo.\\nJanete
+  yamba ngwenyi, \u201cchuma changukwashile chinji kukolesa ufulielo wami chili kukaula
+  usongwelo wa Yehova mu yuma yeswe yize te nakulinga. Ha mashimbu amwe, twapwile
+  ni kupinda ni uhenge wa atu akwo chino te chikalu kulimika nacho. Nyi twalemba chinji,
+  Yehova mashimbu eswe matukwasa hanga twehuke yeswayo yize te yetwene tuchikuhasa
+  kwehuka. Muze nakusakwila kuli Yehova, chino chakungwiwula yuma yinji yize iye halinga
+  hali yami. Iye kakutukwasa ha shimbu ni ha ola yize yalita. * Nawa kakutwaha masepa
+  amwenemwene mandumbu akwa-Kristu waze akwete yitanga yipema. Ayo nihindu kakupwa
+  hamwe ni yami nawa kali chilweza chipema kuli ana jami.\\n\u201cNgunanyingika mumu
+  liaka Yehova anambe mu Malakia 2:16 ngwenyi, \u201ckulakula changupihila.\u201d
+  Kuli umwe chikwashi yoze wasamba, chikuma chino chili chuma chipi chinji. Hakupalika
+  cha miaka chize muze mukwetu-lunga anguhichikile, nihindu nakwivwa yinyengo ku mbunge.
+  Muze chino muchilingiwa, nakweseka kukwasa umwe mutu, nawa chino chakungukwasa chinji.\u201d
+  Ha kukaula shimbi ya mu Mbimbiliya ya kwehuka kulihandununa, chino chakwashile Janete
+  kukumba yipikalo yenyi.\u2014Yishima 18:1. *\\nZambi kali \u201ctato ya ana-ashiwa
+  kanda sopi ya twamishi amapwo.\u201d\u2014Samu 68:5\\nJanete yamba ngwenyi, \u201cutakamiso
+  wami wakwiza hakunyingika ngwo Zambi kali tata ya ana-ashiwa nawa sopi ya twamishi
+  amapwo. Iye kechi katuhichika ngwe chize alingile mukwetu-lunga.\u201d (Samu 68:5)
+  Janete kananyingika ngwenyi Zambi keshi kutweseka \u201cni yuma yipi.\u201d Alioze,
+  iye kakutwaha mana \u201cni kuvungumuna\u201d nawa kakutwaha \u201ctachi\u201d jahiana
+  hanga jitukwase kukumba yipikalo yetu.\u201d\u2014Tiangu 1:5, 13; 2 A-Korindu 4:7.\\nAlioze
+  kuchi mba mutulinga nyi tunalipikala ku mwono ha mukunda wa ponde?\"", "\"Custom
+  Name Necklace with Rhinestone Letters\\nkuchi, Collar \u00e9tnico con colgante Banjara
+  de espejo adornado con cristal japon\u00e9s millefiori a\u00f1os 50 y genuinas monedas
+  tribales Kuchi boho\\n$40.00\\nViaje kuchipor kuchiOriente... kuchi kuchiCollar
+  kuchicon kuchimezcla kuchide kuchipiezas kuchiantiguas kuchiorientales. kuchiGran
+  kuchicolgante kuchiBanjara kuchitribal kuchicon kuchiespejo kuchibordado kuchiadornado
+  kuchicon kuchicristal kuchijapon\\\\u00e9s kuchimillefiori kuchia\\\\u00f1os kuchi50
+  kuchiy kuchigenuinas kuchimonedas kuchitribales kuchiKuchi kuchivintage.Se kuchicombina
+  kuchienv\\\\u00edo.\"", "\"\u201cChipwe kusuku ni Zambi akalinge ungulungulu, chipwe
+  kusuku ni Mukwa-Ndundo-Jeswe akalinge chize chahenga!\u201d\\nYombi 34:10\\n\u201cMuze
+  mutu ali mu cheseko, kanda amba ngwenyi: \u2018Kanangweseka kuli Zambi.\u2019 Mumu
+  Zambi keshi kumweseka ni yuma yipi, chipwe iye keshi kweseka mutu niumwe.\u201d\\n\u201cMbilenu
+  yipikalo yenu yeswe kuli iye, mumu iye kakunufunga.\u201d\\n\u201cYehova keshi kulaluka
+  ni chilakenyo chenyi ngwe chize atu amwe akunyonga, alioze iye kakulihumikiza ni
+  yenu, mumu kazangile hanga mutu niumwe atoke, alioze kanazange hanga eswe alikonyeke.\u201d\"",
+  "\"Longeso 28\\nYika Mutuhasa Kuwana mu Lifwo Lietu Lia mu Internet?\\nYesu Kristu
+  yamba kuli tumbaji twenyi ngwenyi: \u201cpangu lienu likatemuke kumeso ja atu, hanga
+  akamone yitanga yenu yipema, akachichimieke Tatenu yoze uli mu malilu.\u201d (Mateu
+  5:16) Ha matangwa wano akusula, yetwe tunakalakala kanawa ni yinyingi yaha, nawa
+  ni Internet. Lifwo Lietu lia mu internet, www.jw.org, yili jila yetu ize mutuwana
+  maliji hakutwala ku ufulielo ni ku milimo ya Yela ja Yehova. Kuchi yapwa?\\nMbimbiliya
+  yakukumbulula yihula yinji. Yena muhasa kuwana ukumbululo wa yimwe yihula yilemu
+  ize atu akulihula. Yimwe yihula yikwo yisambano kanayikumbulula mu kalifwo Unazange
+  Kuningika nawa Umwenemwene? uli mu internet mu unji wa 400 a malimi. Yena muhasa
+  kuwana nawa Mbimbiliya Tradu\u00e7\u00e3o do Novo Mundo mu malimi anji ni ukwaso
+  unji wa malongeso a Mbimbiliya, hamuwika ni mukanda O Que a B\u00edblia Realmente
+  Ensina? nawa ni A Sentinela ni Despertai! Mikanda yinji yena muhasa kutanga hanji
+  kuyivwa mu lifwo lia internet, hanji kuyichiza hanga uyipanjike mu chisaji che hanji
+  kutala yizulie yakululieka mu PDF, hanji EPUB. Muhasa nawa kufwambwisa yimwe mikanda
+  mulimi lie hanga uyilweze kuli umwe yoze mazanga ku yitanga! Muli nawa mikanda yinji
+  ya yizulie mu malimi a tunaye. Nawa yena muhasa kuchiza utangilo wa maliji a mu
+  Mbimbiliya ni yiheho ya mu Mbimbiliya, nawa ni miaso yipema ize muyikwaha chiseke.\\nMaliji
+  aumwenemwene hakutwala kuli Yela ja Yehova. Yeswe yili mu lifwo lietu lia internet
+  yili yaha, ni yiheho ya yizulie hakutwala ku milimo yetu ya hashi heswe, ni yuma
+  ize yinapinjisa Yela ja Yehova, nawa ni ukwaso uze twakuhana. Yena muhasa kuwana
+  nawa sango ja yikungululo yinene-yinene ha kuhula ku yishina yetu yikehe-yikehe.\\nHa
+  yino yuma, yetwe twakutemuna pangu lia umwenemwene mu membo eswe akusuku a hashi
+  heswe. Atu a mu yifuchi yeswe, chimuwika ni akwa Ant\u00e1rtida, kanayuku chinji.
+  Tunalembe \u201changa liji lia Yehova likatambuke\u201d hashi heswe hanga uhenya
+  wa Zambi ufumane.\u2014 2 A-Tesalonika 3:1 NM.\\n\u25aa Kuchi lifwo lietu lia internet
+  www.jw.org linakwase atu hanga anyingike umwenemwene wa Mbimbiliya?\\n\u25aa Yika
+  yena wakuzanga kufupa mu lifwo lietu mu internet?\\n[Kasha/Chizulie ha lifwo 31]\\nUMWE
+  UKANYMISO:\\nAmwe mafwo a mu internet hanasemo maliji amahuza kuli akwa kulimika
+  ni ululikiso wetu. Ayo kakupiangula atu hanga eche kulingila Yehova. Chatutamba
+  kwehuka malifwo jacho.\u2014Masamu 1:1; 26:4; A-Roma 16:17.\\n[Chizulie ha lifwo
+  31]\\nFran\u00e7a\\n[Chizulie ha lifwo 31]\\nPol\u00f4nia\\n[Chizulie ha lifwo 31]\\nRussia\"",
+  "\"\u201cSoneka mu mukanda maliji wano eswe hinamba kuli yena.\u201d\u2014JERE.
+  30:2.\\nMWASO 96 Mukanda wa Zambi Uli Chawana Chilemu\\nCHIKUMA CHILEMUa\\n1. Mumu
+  liaka wakusakwilila hakutwala ku Mbimbiliya?\\n2. Yika Yehova azachishile mba akwase
+  atu kumunyingika?\\n2 Yehova kanazange hanga atu amunyingike. Kunyima, iye kazachishile
+  yilota, usolwelo ni angelo hanga akwase atu kumunyingika. (Kwa. 12:6; Yili. 10:3,
+  4) Alioze, te muchipwa chikalu kunyingika yilota yacho, usolwelo ni yize angelo
+  ambile nyi te kayisonekene hamwe. Kashika, Yehova atumine \u2018kusoneka mu mukanda\u2019
+  yuma yize azangile hanga tuyinyingike. (Jere. 30:2) Mutuhasa kupwa ni shindakenyo
+  ngwetu, mutapu uze Zambi azachishile hanga apwe ni kuhanjika ni yetu uli upema mumu
+  \u2018majila jenyi eswe kapwa angunu.\u2019\u2014Samu 18:30.\\n3. Shindakenyo yika
+  Yehova asele mba tupwe ni Mbimbiliya musono? (Izaia 40:8)\\n3 Tanga Izaia 40:8.
+  Chize kunyima, Liji lia Zambi liakuhana usongwelo upema kuli malunga ni mapwo ashishika.
+  Kuchi chino chakulingiwa? Tunanyingika ngwetu, Yisoneko kayisonekene ha yuma yize
+  kuyishi kutwama shimbu linji, kashika\\n4. Yika mutulilongesa ha mutwe uno?\\n4
+  Yehova kakutwaha \u2018yuma yeswe yipema ni yawana yeswe yingunu.\u2019 (Tia. 1:17)
+  Mbimbiliya yili chawana chilemu chize Yehova atuhele. Mutuhasa kunyingika yize mutu
+  umwe ananyingika hali yetu kupalikila ha chawana chize atwaha. Chizechene nawa hali
+  yoze watuhele Mbimbiliya. Muze twakuhengwola chawana chino, twakulilongesa yuma
+  yinji hali Yehova. Twakumona ngwetu, iye kanatunyingika kanawa. Chikwo nawa, kananyingika
+  yize twakufupa. Ha mutwe uno, mutulilongesaho yikuma yitatu yize Mbimbiliya yakulongesa
+  hakutwala ku yitanga ya Yehova: mana, ululi ni zango. Chitangu, tuputukenu kuhengwola
+  yize Mbimbiliya yakulongesa ha mana a Zambi.\\nMBIMBILIYA YAKUSOLOLA MANA A ZAMBI\\n5.
+  Yika Mbimbiliya yakutulongesa hakutwala ku mana a Zambi?\\n5 Yehova kananyingika
+  ngwenyi, twakufupiwa yiyulo yenyi ya mana. Kashika, chawana cha Mbimbiliya chize
+  atuhele, chinazale too ni mana jenyi. Mbimbiliya yili ni ndundo ja kwalumuna mwono
+  wa atu. Muze asonekene mikanda yitangu ya Mbimbiliya, Mose yalweza A-Izalele ngwenyi:
+  \u201cKuli yenu hi chamokomoko ko, kuchapwa mwono wenu.\u201d (Shimbi 32:47) Waze
+  te akwononokena Yisoneko, kapwile ni kufumbuka ni kuwahilila ku mwono. (Samu 1:2,
+  3) Chipwe ngwe, Liji lia Zambi kalisonekene ku shakulu, nihindu lili ni ndundo ja
+  kwalumuna mwono wa atu. Chakutalilaho, mu site jw.org, ha chikuma \u201cMbimbiliya
+  Yakwalumuna Mwono wa Atu,\u201d hali sango ja atu kuhiana 50 waze alumwine mwono
+  wo mumu lia kukaula yiyulo ya mu Mbimbiliya.\u20141 Tesa. 2:13.\\n6. Mumu liaka
+  mutuhasa kwamba ngwetu, kukushi mukanda niumwe uze mututesa ni Mbimbiliya?\\n6 Kukushi
+  mukanda niumwe uze mutuhasa kutesa ni Mbimbiliya. Mumu liaka? Mumu Mwenyayo, Yehova,
+  kali mukwa-ndundo jeswe, wa mutolo nawa kakwete mana anji kuhiana yitangiwa yeswe.
+  Mikanda yinji kakununga ni kuyitanga chipwe ngwe enyayo waze ayisonekene hanafu,
+  chipwe chocho yiyulo yamo, kanji-kanji yakuhwa ulemu ha kupalika cha mashimbu. Alioze
+  yiyulo ya mana yize yili mu Mbimbiliya, kuyishi kuhwa ulemu yakukwasa atu a ha mashimbu
+  eswe. Muze mututanga ni kupukuna ha yize tunatange, Yehova mazachisa spiritu yisandu
+  hanga atukwase kumona chize mutukaula yiyulo yacho ku mwono wetu. (Samu 119:27;
+  Mala. 3:16; Hepre. 4:12) Chochene, Mwenya Mbimbiliya kanazange chinji kutukwasa.
+  Chino chakutukolweza hanga tutange Mbimbiliya matangwa eswe!\\n7. Kuchi Mbimbiliya
+  yanungine tuvumbi twa Yehova kunyima?\\n7 Chuma chikwo chize chakusolola ngwo, Mbimbiliya
+  yili ni mana a Zambi, chili uhashi uze yikwete wa kukwasa tuvumbi twa Yehova hanga
+  alinunge. Muze A-Izalele anjilile mu Chifuchi cha Chilakenyo, kayile mu Nehe. 8:2,
+  8, 18) Achinyonga chize te umwe Ka-Izalele mevwa muze maheta mu Yerusaleme mamona
+  tununu twa A-Izalele-ni-akwo waze akatuka ku yihela yeka ni yeka! Mumu lia chino,
+  Yehova yakwasa tuvumbi twenyi hanga alinunge. Kulutwe, muze chikungulwila cha Akwa-Kristu
+  chaputukile, anji a kuli ayo kapwile ni kuhanjika malimi alisa, amwe te pichi akwo
+  yiswale. Alioze, amu eswe apwile ni kuzanga Yisoneko yichipwa chashi kulinunga mu
+  uwayilo wamwenemwene. Waze te akupwa Akwa-Kristu kapwile ni kunyingika ulumbunwiso
+  wa Liji lia Zambi muze te akwakwasa kuli mandumbu jo ni muze te akukunguluka no
+  hamuwika.\u2014Yili. 2:42; 8:30, 31.\\n8. Kuchi Mbimbiliya ya kununga atu ja Yehova
+  musono?\\n8 Yehova kakuzachisa Mbimbiliya hanga alongese atu jenyi ni kwakwasa alinunge.
+  Mu Mbimbiliya muli umwenemwene weswe hakutwala kuli Yehova uze tunafupiwa kunyingika.
+  Mashimbu eswe, twakukunguluka mu chikungulwila, kukunguluka cha mbonge ni cha mambonge
+  hanga tulilongese Liji lia Zambi.\\n9. Chitanga chika twatamba kupwa nacho, mba
+  tunyingike sango ja mu Mbimbiliya? (Luka 10:21)\\n9 Tutalenu chikuma chikwo chize
+  chinasolola mana a Yehova. Yihanda yinji ya Mbimbiliya kayisonekene mu mutapu uze
+  te mayinyingika wika kuli atu waze akulikehesa. (Tanga Luka 10:21.) Atu a hashi
+  heswe mahasa kutanga Mbimbiliya. Umwe mukwa-mana kambile ngwenyi: \u201cMbimbiliya
+  kuyishi wika mukanda uze akutanga chinji hashi heswe, alioze yili nawa mukanda uze
+  atu akulihulikila chinji.\u201d Chipwe chocho, atu akulikehesa e wika akunyingika
+  sango jamo ni kujikaula.\u20142 Kori. 3:15, 16.\\n10. Jila yikwo yika yize yakutukwasa
+  kumona mana a Yehova mu Mbimbiliya?\\n10 Mbimbiliya yakusolola mana a Yehova mu
+  jila yikwo. Yehova keshi kuzachisa wika Mbimbiliya hanga atulongese ngwe chizavu,
+  alioze hanga alongese nawa hita kavumbi kenyi ni kumutakamisa. Yetu eswe muze twakutanga
+  Mbimbiliya, twakumona chize Yehova akulihulumba hali yetu. (Iza. 30:21) Hiunapalika
+  kama mu kapinda, mba yiutanga yimwe versu mu Mbimbiliya ni kumona ngwe versu yacho
+  yena ayisonekenene? Ewa, Mbimbiliya kayisonekene hanga ayinyingike kuli atu anji.
+  Mba kuchi muli sango jize yena unafupu? Muli sango jacho, mumu Mwenyayo kakwete
+  mana anji kuhiana atu.\u20142 Timo. 3:16, 17.\\nMBIMBILIYA YAKUSOLOLA ULULI WA ZAMBI\\n11.
+  Kuchi Yehova asolwele ngwenyi keshi katonde muze atumine kusoneka Mbimbiliya?\\n11
+  Chitanga chikwo cha Yehova chili ululi. (Shimbi 32:4) Mutu yoze ukwete ululi keshi
+  kusolola katonde. Chino chinasolola ngwo, Yehova keshi katonde. (Yili. 10:34, 35;
+  Roma 2:11) Twakuhasa kumona ngwetu, Yehova keshi katonde mu mutapu uze asonekene
+  Mbimbiliya. Chakutalilaho, Mbimbiliya kayisonekene mu malimi waze te atu anji akuhanjika
+  ha mashimbu jacho. Mikanda yitangu 39 kayisonekene mu Hepreu, limi lize atu ja Zambi
+  te akuhanjika ha mashimbu jacho. Alioze ku sekulu yitangu, limi lia Ngregu yaputuka
+  kulihanjika chinji, chocho mikanda ya kasula 27 yayisoneka mu limi liacho. Yehova
+  kakazachishile limi limuwika hanga asoneke Mbimbiliya. Musono, hano hashi hali atu
+  tununu nake a tununu waze akuhanjika malimi eka ni eka. Mba kuchi ayo mahasa kulilongesa
+  hakutwala kuli Yehova?\\n12. Kuchi uprofeto wa Daniele 12:4 unamanunuka ha matangwa
+  wano a kusula?\\n12 Ha uprofeto wa Daniele, Yehova yalakenya ngwenyi, ha matangwa
+  a kusula \u201cyinyingi\u201d yize twakuwana mu Mbimbiliya \u201cmuyikaliwezela.\u201d
+  Atu anji te mayinyingika. (Tanga Daniele 12:4.) Chuma chimwe chize chakukwasa atu
+  mba apwe ni yinyingi yacho chili mikanda yize akutuhwisa yinakatuka mu Mbimbiliya.
+  Musono, Mbimbiliya yili mukanda uze analumbununa chinji ni kuuhana kuli atu hashi
+  heswe. Mbimbiliya jize akulumbununa kuli akwa-mingoso, kanji-kanji kakujilanjisa
+  ndando yinji. Alioze, Yela ja Yehova hanalumbununa Mbimbiliya ya muundu hanji yihanda
+  mu malimi kuhiana 240, nawa mutu mweswawo mahasa kupwa nayo. Chino chinakwase atu
+  a ku mavungu eswe kulilongesa \u201csango lipema lia Wanangana\u201d shimbu songo
+  kanda liheta. (Mateu 24:14) Zambi yetu ya ululi kanahane uhashi kuli atu anji hanga
+  amunyingike ha kutanga Liji lienyi. Iye kanachilingi mumu kakutuzanga chinji.\\nMBIMBILIYA
+  YAKUSOLOLA ZANGO LIA ZAMBI\\n13. Mumu liaka mutuhasa kwamba ngwetu, Mbimbiliya yinasolola
+  ngwo Yehova kakutuzanga? (Yoano 21:25)\\n13 Mbimbiliya yakutukwasa kunyingika chitanga
+  chinene cha Zambi\u2014zango. (1 Yoa. 4:8) Chino chakusoloka zwalala ha sango jize
+  Yehova asele mu Mbimbiliya ni jize kakaselemo. Mu Mbimbiliya, muli yuma yeswe yize
+  tunafupiwa hanga tupwe masepa a Yehova, tuwahilile haliapwila ni kupwa ni mwono
+  wa mutolo kulutwe. Alioze mumu lia kutuzanga, Yehova keshi kutulunjika sango jize
+  kutwafupiwile shina wika jize tunafupiwa hanga tumuwayile.\u2014Tanga Yoano 21:25.\\n14.
+  Mu mutapu ukwo uka Mbimbiliya yakusolola ngwo, Yehova kakutuzanga?\\n14 Yehova kakutusolwela
+  nawa zango lienyi mu mutapu uze akuhanjika ni yetu. Mu Mbimbiliya, Yehova keshi
+  kutwaha katalilo wa shimbi ha yuma yeswe yize mutulinga ku mwono wetu. Shimbu achilinge,
+  iye kakutukwasa tupukune ha yilweza ya mandumbu jetu, uprofeto ni ha shimbi jenyi
+  muze tunazange kukwata yiyulo. Kulinga chino, tunatayiza Liji lia Zambi hanga litukwase
+  kumuzanga ni kumwononokena ni mbunge yetu yeswe.\\n15. (a) Kuchi Mbimbiliya yakusolola
+  ngwo, Yehova kakulihulumba hali yetu? (b) Ha chizulie, atu aka a mu Mbimbiliya waze
+  kanuke wa pwo, ndumbu mukweze ni pangi kashinakaji anapukuna? (Uputu. 39:1, 10-12;
+  2 Mia. 5:1-3; Luka 2:25-38)\\n15 Mbimbiliya yinasolola ngwo, Yehova kakulihulumba
+  chinji hali yetu. Mumu liaka tunambe chocho? Liji lienyi linazale too ni sango ja
+  yuma yize yetu eswe twakupalika ku mwono. Mutuhasa kulivwa ngwe chize evwile atu
+  waze asoneka mu Mbimbiliya, mumu no Tia. 5:17) Chahiana ulemu, muze twakumona chize
+  Yehova afungile atu jacho, chakutukwasa kunyingika pundu ngwetu, \u2018Yehova kapwa
+  wa too ni vumbi ni keke.\u2019\u2014Tia. 5:11.\\n16. Yika twalilongesa hali Yehova
+  muze twakutanga mu Mbimbiliya hali atu waze avulumwine ni kulikonyeka? (Izaia 55:7)\\n16
+  Mbimbiliya yinasolola jila yikwo yize Yehova akutusolwelamo zango. Yisoneko yinatwehe
+  shindakenyo ngwo, Zambi kechi kutwehuka muze mutulinga umwe uhenge. A-Izalele kalingile
+  shili ha yisuho yinji, alioze muze apwile ni kulikonyeka ni mbunge yeswe, Zambi
+  te kakwakonekena. (Tanga Izaia 55:7.) Akwa-Kristu atangu no kanyingikine ngwo, Yehova
+  kakwazanga chinji. Yehova katumine Paulu hanga akolweze mandumbu mu chikungulwila,
+  \u2018akonekene ni kutakamisa\u2019 lunga yoze walingile shili yinene hanyima yalikonyeka.
+  (2 Kori. 2:6, 7; 1 Kori. 5:1-5) Chili chipema kunyingika ngwo, Yehova keshi kwehuka
+  tuvumbi twenyi chipwe ngwe mahengesa! Shimbu achilinge, ni zango lieswe iye kakwakwasa,
+  kwafumba ni kwatayiza cheka hanga apwe masepa jenyi. Musono, yino ye Yehova analakenya
+  kuli tuvumbi twenyi waze akulikonyeka hanyima lia kuvulumuna.\u2014Tia. 4:8-10.\\nLEMESA
+  \u2018CHAWANA CHIPEMA\u2019 CHA LIJI LIA ZAMBI\\n17. Mumu liaka Mbimbiliya yili
+  chawana chipema?\\n17 Yehova hanatwehe chawana chipema. Mumu liaka Mbimbiliya yili
+  yilemu? Mumu ngwe chize twamona, Mbimbiliya yakusolola, mana a Zambi, ululi ni zango
+  lienyi. Mukanda uno wakusolola ngwo, Zambi kanazange hanga tumunyingike ni kupwa
+  masepa jenyi.\\n18. Kuchi twakusolola ngwetu, twakulemesa \u2018chawana chipema\u2019
+  chize Yehova hanatwehe?\\n18 Kutwazangile kulelesa \u2018chawana chino chipema\u2019
+  cha Liji lia Zambi. (Tia. 1:17) Tunungenu ni kusolola usakwililo wetu ha chawana
+  chino. Mutuhasa kuchilinga ha kutanga Mbimbiliya ni kupukuna ha yize tunatange.
+  Nyi twachilinga, mutupwa ni shindakenyo ngwetu, Mwenya Mbimbiliya mawahisa tachi
+  jetu ni kupwa ni \u201cyinyingi ya Zambi.\u201d\u2014Yishi. 2:5.\\nMWASO 98 Yisoneko\u2014Kayihwima
+  Kuli Zambi\\na Mbimbiliya yakutukwasa kukundama kuli Yehova. Mba, yika mutuhasa
+  kulilongesa mu mukanda uno usandu hakutwala ku mana, ululi ni zango lia Zambi? Yize
+  mutulilongesa muyitukwasa kusolola usakwililo wetu ha Liji lia Zambi ni kunyingika
+  ngwetu, Mbimbiliya yili chawana cha kuli Tata yetu wa mu malilu.\"", "\"Upale wa
+  Zambi Uka?\\nZambi kanazange hanga tupwe ni mwono wa mutolo ni sambukila, ni uwahililo
+  mu paraisu hano hashi!\\nHanji yena mukomoka ngwe, \u2018kuchi muchipwa chashi kutwama
+  chacho?\u2019 Mbimbiliya yinambe ngwo, Wanangana wa Zambi muulinga upale wacho hano
+  hashi, kashika Zambi kanazange hanga atu eswe alilongese hakutwala ku Wanangana
+  wenyi, ni upale wenyi.\u2014 Masamu 37:11, 29; Izaia 9:7.\\nZambi kanazange hanga
+  yetwe tuyuke.\\nNgwe umwe Tata wa zango unazange yize yipema kuli ana jenyi, Tata
+  wetu wa mumalilu kanazange ngwo tupwe ni uwahililo wa mutolo. (Izaia 48:17, 18)
+  Iye kanalakenya ngwo, yoze \u201cmalinga upale wa Zambi matwama ndo ku miaka ya
+  mutolo.\u201d\u20141 Yoano 2:17.\\nZambi kanazange hanga twende mu jila yenyi.\\nMbimbiliya
+  yinambe ngwo Tangi yetu kanazange \u201catulongese ndako jenyi\u201d hanga \u201ctukende
+  mu majila jenyi.\u201d (Izaia 2:2, 3) Iye kanalulieka \u201camwe atu ha jina lienyi\u201d
+  hanga anyingikise upale wenyi hashi heswe.\u2014Yilinga 15: 14.\\nZambi kanazange
+  hanga tulinunge mu uwayilo wenyi.\\nUwayilo wa Yehova ushi kuhandununa atu, alioze
+  unaanungu mu zango lia umwenemwene. (Yoano 13:35) Aya musono analongesa atata ni
+  amama, hashi heswe chize chatamba kulingila Zambi hamuwika? Tunechi kuli yena hanga
+  unyingike nawa kumbululo mu kamukanda kano.\\n[Kasha/Chizulie ha lifwo 2]\\nKUCHI
+  MULILONGESA NI KAMUKANDA KANO\\nFupa ola ha pwoso hanga uhengule malongeso eswe,
+  mba uwane kumbululo lia yihula yacho. Nawa tala mu kasha \u201cNingika Nawa,\u201d
+  hanga ulikate ni yetwe, ha kulilongesa hakutwala ku yitanga yetu, mba unyingike
+  kanawa ululikiso wetu chize unende.\\n[Kasha/Chizulie ha lifwo 3]\\nNINGIKA NAWA\\nLilongese
+  Mbimbiliya ni yetwe. Yena unalilongesa Mbimbiliya ni Yela ja Yehova? Nyi ka, wazangile
+  upwe ni limwe longeso lia Mbimbiliya ku zuwo lie? Uchi kufuta nichimwe, chawana.
+  Yena munyingika ngwo kulilongesa Mbimbiliya muchikukwasa kukundama kuli Zambi.\\nEta
+  mikanda yawana. Soneka ku chifuchi chize watwama kunyima lia kamukanda kano, hanga
+  wite umwe mukanda wa mulimi lie, uze muukukwasa kunyingika Mbimbiliya.\\nLilongese
+  hakutwala kuli yetwe mu internet. Fupa mu lifwo lia Yela ja Yehova mu internete.
+  Mwenamo yena muhasa kutanga Mbimbiliya ni kutala hanji kuchiza mikanda yetu ize
+  yilimo mu unji wa 400 ja malimi. www. jw.org\"", "\"Kalimbalimba wa yiyulo kakumulumbununa
+  ngwo, kuzachisa chipi wata kuli akwa-kuyula hanga ayuke. Yitanga yacho yaputukile
+  kulu. Chakutalilaho, Mbimbiliya yili ni shimbi yize yakanjisa kuliaha chijiko ha
+  kusopa milonga, chekwamba ngwo yitanga ya kalimbalimba hi yalinga miaka 3,500. (Kutuhuka
+  23:8) Chochene, kalimbalimba hi kutambula chijiko wika ko. Akwa-kukalakala akalimbalimba
+  ha mashimbu akwo kakumbata yuma yambala ni kulinga yimwe milimo yize kuyaatambile
+  hanga atambule ko yuma hanji kwiya mbongo jambala ja ku mulimo. Ayo nawa kakuzachisa
+  wata uze alinawo ku mulimo hanga akwase masepa ni asoko jo.\\nChipwe ngwe kalimbalimba
+  mahasa kupwa mu ululikiso weka wa atu, alioze wahiana naye kuli akwa-kuyula. Mukanda
+  umwe afwambwishile kuli akwa-chizavu cha Transpar\u00eancia Internacional, unambe
+  ngwo, hashi heswe atu kakwamba ngwo ululikiso utano uze ukwete kalimbalimba munji
+  uli yizavu ya mafwefwe, policia, akwa-kukalakala mu unguvulu, akwa-kulinga shimbi
+  ni ngaji. (2013 Bar\u00f4metro Global da Corrup\u00e7\u00e3o) Tutalenu jimwe sango
+  jinasolola yuma yacho.\\nAFRICA: Ha mwaka 2013, akwa-kukalakala ku nguvulu 22,000
+  mu Africa do Sul, kanakafwetesa mbongo ha mukunda wa yitanga ya kalimbalimba.\\nAMERICA:
+  Ha mwaka 2012, mu Brazil miata 25 kanakasopesa ha mukunda wa kuzachisa mbongo ja
+  nguvulu hanga atu asakule. Hali waze asopesele, umwe te muhato wa mwata, mutu wamuchiali
+  mu chifuchi.\\nASIA: Mu Seoul, Korea do Sul, kwafwile atu 502 muze zuwo liakulanjishila
+  liapuzukile ha mwaka wa 1995. Akwa-kuhengula yawana ngwo yilolo a mbonge katambwile
+  mbongo hanga eche akwa-kutunga atunge chakuhona kukaula shimbi ja kutunga najo mazuwo.\\nEUROPA:
+  Mwata wa Comiss\u00e3o Europeia dos Assuntos Internos, Cec\u00edlia Malmstr\u00f6m,
+  kambile ngwenyi: \u201cKalimbalimba kanoko chinji mu europa.\u201d Iye yamba nawa
+  ngwenyi: \u201cChinakaliwa chinji manguvulu kuhwisa yitanga ya kalimbalimba.\u201d\\nKalimbalimba
+  wa unguvulu kali ni miji yikolo. Mutu walilongesa chinji, Suzana Rose-Ackeman, yoze
+  wakuhengwojola yikuma ya kuhwisa kalimbalimba, yasoneka ngwenyi, kuhwisa kalimbalimba,
+  \u201cndo kwalumuna chize unguvulu wakukalakala. Chipwe yitanga yacho muyisoloka
+  ngwe yikalu chinji, alioze Mbimbiliya yinasolola ngwo yuma yinji muyikalumuka pundu.\""]'
+src_ngrams: '{"1": [[["ha"], 6908], [["mu"], 6806], [["wa"], 5881], [["ku"], 4823],
+  [["yehova"], 4438]], "2": [[["mumu liaka"], 835], [["hakutwala ku"], 670], [["yuma
+  yize"], 656], [["mu mbimbiliya"], 615], [["wa zambi"], 611]], "3": [[["yela ja yehova"],
+  374], [["wanangana wa zambi"], 281], [["liji lia zambi"], 223], [["jina lia zambi"],
+  181], [["mulimo wa kwambujola"], 176]], "4": [[["mu zuwo lia ususu"], 132], [["ku
+  miaka ya mutolo"], 80], [["mu mulimo wa kwambujola"], 73], [["paraisu ya ku spiritu"],
+  72], [["makulwana a mu chikungulwila"], 70]], "5": [[["yisoneko ya ngregu ya akwa"],
+  49], [["mutuhasa kupwa ni shindakenyo ngwetu"], 49], [["mu paraisu ya ku spiritu"],
+  41], [["ya yisoneko ya chifuchi chaha"], 36], [["yikuma yilemu ya mu mbimbiliya"],
+  34]]}'
