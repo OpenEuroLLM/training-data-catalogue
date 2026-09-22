@@ -27,5 +27,7 @@
 
 ## <a id="use">Terms of Use</a>
 
+## <a id="references">Reference(s)</a>
+
 ## <a id="curator">Catalogue Curator</a>
 
