@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 SwallowMath-v2 ([Fujii et al., 2025](https://arxiv.org/abs/2505.02881)) is a large-scale mathematical dataset developed as the successor to SwallowMath-v1. It employs an LLM-driven rewriting approach — removing boilerplate, restoring missing context, and reformatting solutions into clear, step-by-step explanations.
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/tokyotech-llm/swallow-math-v2).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/tokyotech-llm/swallow-math-v2).
 
 ## <a id="sources">Data Sources</a>
 
@@ -13,11 +13,11 @@ Derived from [FineMath-3+](https://huggingface.co/datasets/HuggingFaceFW/finemat
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 208 uncompressed JSONlines files, amounting to 102 GB on disk.
-Files are organised into two partitions: `stage3-qa` (question-answer format) and `stage3-textbook` (structured textbook-style explanations), each containing multiple shards following the naming pattern `train-NNNNN-Qwen3-235B-A22B-Thinking-2507-FP8.jsonl`.
+The dataset is distributed as 208 uncompressed JSONlines files. For the catalogue internal uniformity, the files were Zstd-compressed, amounting to 27 GB on disk.
+Files are organised into two partitions: `stage3-qa` (question-answer format) and `stage3-textbook` (structured textbook-style explanations), each containing multiple shards following the naming pattern `train-NNNNN-Qwen3-235B-A22B-Thinking-2507-FP8.jsonl.zst`.
 
 **Record Fields**
-      
+
 | **Field** | **Status** |
 |-----------|------------|
 | `text` | required |
@@ -36,7 +36,7 @@ SwallowMath-v2 is English-only.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/tokyotech-llm/swallow-math-v2).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/tokyotech-llm/swallow-math-v2).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
@@ -47,7 +47,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{fujii2025rewritingpretrainingdataboosts,

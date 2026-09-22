@@ -5,7 +5,7 @@
 ## <a id="background">Background</a>
 
 MegaMath ([Zhou et al., 2025](https://arxiv.org/abs/2504.02807)) is an open mathematics pre-training dataset curated from three complementary sources: re-extracted mathematical web text, high-quality math-related code, and synthetically generated content.
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/LLM360/MegaMath).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/LLM360/MegaMath).
 
 ## <a id="sources">Data Sources</a>
 
@@ -45,7 +45,7 @@ MegaMath is English-only.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/LLM360/MegaMath).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/LLM360/MegaMath).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
@@ -57,17 +57,17 @@ On select EuroHPC systems, the data is directly available for read-only access o
 The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/).
 The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://commoncrawl.org/terms-of-use).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{zhou2025megamathpushinglimitsopen,
-      title={MegaMath: Pushing the Limits of Open Math Corpora}, 
+      title={MegaMath: Pushing the Limits of Open Math Corpora},
       author={Fan Zhou and Zengzhi Wang and Nikhil Ranjan and Zhoujun Cheng and Liping Tang and Guowei He and Zhengzhong Liu and Eric P. Xing},
       year={2025},
       eprint={2504.02807},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.02807}, 
+      url={https://arxiv.org/abs/2504.02807},
 }
 ```
 

@@ -1,0 +1,24 @@
+{
+  "bytes": 72228785593,
+  "documents": 29514164,
+  "segments": 1661040528,
+  "tokens": 38011959514,
+  "characters": 165802538081,
+  "time": 111595.25920844078,
+  "errors": 0,
+  "files": 280,
+  "keys": {
+    "required": [
+      "bff_contained_ngram_count_before_dedupe",
+      "fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob",
+      "language_id_whole_page_fasttext",
+      "metadata",
+      "previous_word_count",
+      "text",
+      "url",
+      "warcinfo"
+    ],
+    "optional": []
+  },
+  "tokenizer": "google/gemma-3-4b-it"
+}

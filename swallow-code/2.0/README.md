@@ -4,17 +4,17 @@
 
 ## <a id="background">Background</a>
 
-SwallowCode-v2 ([Fujii et al., 2025](https://arxiv.org/abs/2505.02881)) is an Apache-2.0-licensed Python code dataset rewritten from The-Stack-v2, designed for scalable LLM pre-training. All samples are auto-formatted, style-normalized, and enhanced for algorithmic clarity via an LLM rewriting pipeline.
-Additional details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/tokyotech-llm/swallow-code-v2).
+SwallowCode-v2 ([Fujii et al., 2025](https://arxiv.org/abs/2505.02881)) is a synthetic Python code dataset. All samples are auto-formatted, style-normalized, and enhanced for algorithmic clarity via an LLM rewriting pipeline.
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/tokyotech-llm/swallow-code-v2).
 
 ## <a id="sources">Data Sources</a>
 
-Derived from [The-Stack-v2](https://huggingface.co/datasets/bigcode/the-stack-v2), rewritten using Qwen3-235B-A22B-Instruct through a five-stage pipeline culminating in LLM rewriting and auto-formatting with the ruff formatter.
+Derived from quality-filtered [The-Stack-v2](https://huggingface.co/datasets/bigcode/the-stack-v2), rewritten using Qwen3-235B-A22B-Instruct through a five-stage pipeline resulting in LLM rewriting and auto-formatting.
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is distributed as 150 uncompressed JSONlines files, amounting to 889 GB on disk.
-Files are stored under `stage5-auto-format/python/medium/` and follow the naming pattern `train_NNNN.jsonl`.
+The dataset is distributed as 150 uncompressed JSONlines files. For the catalogue internal uniformity, the files were Zstd-compressed, amounting to 100 GB on disk.
+There is a sole internal part stored under `stage5-auto-format/python/medium/`. The individual data files follow the naming pattern `train_NNNN.jsonl.zst`.
 
 <details>
 <summary><b>Record Fields</b></summary>
@@ -60,15 +60,16 @@ Files are stored under `stage5-auto-format/python/medium/` and follow the naming
 
 ## <a id="languages">European Language Support</a>
 
-SwallowCode-v2 is Python code (English).
+All content is LLM-generated Python code.
 
-| **Code(s)** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
+| **Language** | **Documents** | **Segments** | **Tokens** | **Length** | **Characters** |
 |-------------|--------------:|-------------:|-----------:|-----------:|---------------:|
-| eng_Latn  | 28,705,016 | 6,615,526,926 | 59,110,824,658 | 2,059.3 | 216,822,734,139 |
+| Python  | 28,705,016 | 6,615,526,926 | 59,110,824,658 | 2,059.3 | 216,822,734,139 |
+
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/tokyotech-llm/swallow-code-v2).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/tokyotech-llm/swallow-code-v2).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
@@ -79,7 +80,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{fujii2025rewritingpretrainingdataboosts,

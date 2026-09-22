@@ -10,7 +10,6 @@ Data construction and preliminary experimental results are described by [Li, et 
 
 The _baseline_ dataset is derived from a much larger [document pool](https://data.commoncrawl.org/contrib/datacomp/DCLM-pool/index.html), and there is extensive [software support](https://github.com/mlfoundations/dclm) for DCLM experimentation.
 
-
 ## <a id="statistics">Structure & Statistics</a>
 
 The dataset is broken up into 100 roughly equal-sized shards, each comprising about 1.6 million documents,
@@ -18,20 +17,25 @@ organized in a directory hierarchy with two layers:
 `global-shard_01_of_10/local-shard_0_of_10` … `global-shard_10_of_10/local-shard_9_of_10`.
 Each subdirectory contains around 280 files.
 
-## <a id="metadata">Available Metadata</a>
+<details>
+<summary><b>Record Fields</b></summary>
 
-| **Field** | **Status** | **Description** |
-|-----------|------------|-----------------|
-| bff_contained_ngram_count_before_dedupe | required |  |
-| language_id_whole_page_fasttext | required |  |
-| metadata | required |  |
-| previous_word_count | required |  |
-| text | required |  |
-| url | required |  |
-| warcinfo | required |  |
-| fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob | required |  |
+| **Field** | **Status** |
+|-----------|------------|
+| bff_contained_ngram_count_before_dedupe | required |
+| language_id_whole_page_fasttext | required |
+| metadata | required |
+| previous_word_count | required |
+| text | required |
+| url | required |
+| warcinfo | required |
+| fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob | required |
+
+</details>
 
 ## <a id="languages">European Language Support</a>
+
+The DCLM _baseline_ is English-only.
 
 | **Code(s)** | **Documents** | **Segments**    | **Tokens**        | **Length** | **Characters**     |
 |-------------|--------------:|----------------:|------------------:|-----------:|-------------------:|
@@ -40,7 +44,13 @@ Each subdirectory contains around 280 files.
 
 ## <a id="access">Access Information</a>
 
-The _baseline_ dataset is [hosted at Hugging Face](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0).
+The primary download site for the _baseline_ dataset is [Hugging Face Hub](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0).
+
+On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
+
++ LUMI: `/appl/local/openeurollm/training/catalogue/dclm/1.0/baseline/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/dclm/1.0/baseline/`
+
 
 ## <a id="use">Terms of Use</a>
 The dataset is released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). The use of this also dataset is subject to [CommonCrawl's Terms of Use](https://commoncrawl.org/terms-of-use).

@@ -45,7 +45,7 @@ On select EuroHPC systems, the data is directly available for read-only access o
 The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/).
 The use of this dataset is also subject to CommonCrawl's [Terms of Use](https://commoncrawl.org/terms-of-use).
 
-### <a id="use">Citation Information</a>
+## <a id="citation">References</a>
 ```bibtex
 @inproceedings{
   penedo2024the,

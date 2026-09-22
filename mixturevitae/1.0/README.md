@@ -8,7 +8,7 @@ MixtureVitae ([Nguyen et al., 2025](https://arxiv.org/abs/2509.25531)) is a 422B
 pretraining dataset designed to train competitive large language models using only
 permissive-licensed and low-risk data sources, prioritizing legal safety and transparent
 provenance. Additional details are available on the
-[HuggingFace dataset page](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
+[Hugging Face dataset page](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
 
 ## <a id="sources">Data Sources</a>
 
@@ -59,7 +59,7 @@ MixtureVitae is primarily English.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
@@ -72,17 +72,17 @@ The dataset is composed of permissive-licensed and public domain sources across 
 tiers. Consult the [dataset page](https://huggingface.co/datasets/ontocord/MixtureVitae-v1-decontaminated)
 for the full source and license breakdown.
 
-### Citation Information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{nguyen2025mixturevitaeopenwebscalepretraining,
-      title={MixtureVitae: Open Web-Scale Pretraining Dataset With High Quality Instruction and Reasoning Data Built from Permissive-First Text Sources}, 
+      title={MixtureVitae: Open Web-Scale Pretraining Dataset With High Quality Instruction and Reasoning Data Built from Permissive-First Text Sources},
       author={Huu Nguyen and Victor May and Harsh Raj and Marianna Nezhurina and Yishan Wang and Yanqi Luo and Minh Chien Vu and Taishi Nakamura and Ken Tsui and Van Khue Nguyen and David Salinas and Aleksandra Krasnodębska and Christoph Schuhmann and Mats Leon Richter and Xuan-Son and Vu and Jenia Jitsev},
       year={2025},
       eprint={2509.25531},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2509.25531}, 
+      url={https://arxiv.org/abs/2509.25531},
 }
 ```
 

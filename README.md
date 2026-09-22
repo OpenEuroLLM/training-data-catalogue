@@ -82,7 +82,7 @@ For premium storage efficiency, all files are compressed using the [Zstandard (Z
 
 The project standardizes on three-letter language codes from [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) and script (or writing system) codes from [ISO 15924](https://en.wikipedia.org/wiki/ISO_15924), e.g. `ces_Latn` for Czech in Latin script or `srp_Cyrl` for Serbian in Cyrillic script.
 
-In April 2025, the project targets [36 distinct languages]((macro-)languages), with 42 internal variants, e.g. different scripts or written standards.
+In April 2025, the project targets [36 distinct languages](languages), with 42 internal variants, e.g. different scripts or written standards.
 
 ### Corpus Statistics
 

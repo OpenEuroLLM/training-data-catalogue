@@ -66,7 +66,8 @@ no-derivatives restrictions are excluded. The dataset was curated with care,
 omitting sources with unclear or collection-level licensing and synthetic text
 from models trained on unlicensed data.
 
-### <a id="use">Citation Information</a>
+## <a id="citation">References</a>
+
 ```bibtex
 @article{kandpal2025common,
   title={{The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text}},

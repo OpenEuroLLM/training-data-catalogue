@@ -6,7 +6,7 @@
 
 FinePhrase ([Niklaus et al., 2026](https://arxiv.org/abs/2604.13977)) is a large-scale synthetic English pretraining dataset.
 It is constructed by rephrasing documents from [FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) (sample-350BT) into four structured formats - FAQ, math problems, tables, and tutorials - using the SmolLM2-1.7B-Instruct model.
-Details are available on the [HuggingFace dataset page](https://huggingface.co/datasets/HuggingFaceFW/finephrase).
+Additional details are available on the [Hugging Face dataset page](https://huggingface.co/datasets/HuggingFaceFW/finephrase).
 
 ## <a id="sources">Data Sources</a>
 
@@ -51,17 +51,18 @@ FinePhrase is English-only.
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/HuggingFaceFW/finephrase).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/HuggingFaceFW/finephrase).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
 + LUMI: `/appl/local/openeurollm/training/catalogue/finephrase/0.0.0/data/`
++ Leonardo: `/leonardo_work/OELLM_Catalog/training/finephrase/0.0.0/data/`
 
 ## <a id="use">Terms of Use</a>
 
 The dataset is released under the Open Data Commons Attribution License (ODC-By) v1.0 [license](https://opendatacommons.org/licenses/by/1-0/).
 
-### Citation information
+## <a id="citation">References</a>
 
 ```bibtex
 @misc{niklaus2026_the_synthetic_data_playbook_generating_trillions_of_the_finest_tokens,

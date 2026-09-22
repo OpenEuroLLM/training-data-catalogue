@@ -1,4 +1,4 @@
-# Multisynt Translations from Nemotron-CC
+# Multisynt Tower+ Translations from Nemotron-CC
 
 **[DRAFT] (Version 0.1; December 2025)**
 
@@ -8,7 +8,7 @@ MT-Nemotron-CC is an open multilingual dataset comprising approximately one hund
 source material from Nemotron-CC, machine-translated into multiple European languages. It was
 produced by the MultiSynt project, partially supported by OpenEuroLLM, and is intended for
 multilingual LLM pretraining. Additional details are available on the
-[HuggingFace dataset page](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
+[Hugging Face dataset page](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
 
 ## <a id="sources">Data Sources</a>
 
@@ -22,7 +22,8 @@ English dataset. Translations were produced using two neural machine translation
 
 ## <a id="statistics">Structure & Statistics</a>
 
-The dataset is organized into two top-level partitions:
+The dataset is distributed as 704 Zstd-compressed JSONlines files, amounting to 2.6 TB on disk.
+It is organized into two top-level partitions:
 
 - `parallel/`: 140.4M documents aligned across all languages -- the same source documents
   translated into every target language -- plus the original English source under `eng_Latn/`.
@@ -141,7 +142,7 @@ Tower-Plus-72B, in two partitions: `parallel` (140.4M aligned documents per lang
 
 ## <a id="access">Access Information</a>
 
-The primary download site for the data is the [HuggingFace Hub](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
+The primary download site for the data is the [Hugging Face Hub](https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC).
 
 On select EuroHPC systems, the data is directly available for read-only access on the local filesystem:
 
@@ -152,16 +153,17 @@ On select EuroHPC systems, the data is directly available for read-only access o
 
 The dataset is released under the [Creative Commons CC0 license](https://creativecommons.org/publicdomain/zero/1.0/) (no rights reserved). Original web content remains subject to the rights of website owners and the [Common Crawl Terms of Use](https://commoncrawl.org/terms-of-use).
 
-### Citation Information
-
-ArXiv paper to be released soon.
+## <a id="citation">References</a>
 
 ```bibtex
-@dataset{mt_nemotron_cc_2025,
-  title={MT-Nemotron-CC: Large-Scale Machine-Translated High Quality Web Text},
-  author={MultiSynt},
-  year={2025},
-  url={https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC}
+@misc{idahl2026multisyntmttrilliontokenmultiparallelpretraining,
+      title={MultiSynt/MT: Trillion-Token Multi-Parallel Pre-Training Data Translated Across 36 Languages},
+      author={Maximilian Idahl and Jörg Tiedemann and Sampo Pyysalo and David Salinas and Tomasz Galica and Shenbin Qian and Tudor Nicolae Mateiu and Zihao Li and Anna Lokrantz and Fedor Vitiugin and André F. T. Martins and Jenna Kanerva and Filip Ginter and Matthias Lindemann and Tim Isbister and Birger Moell and Jonas Lindh and Jan Hajič and Jenia Jitsev and Andrey Kutuzov and Stephan Oepen and Gema Ramírez-Sánchez},
+      year={2026},
+      eprint={2607.00890},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2607.00890},
 }
 ```
 

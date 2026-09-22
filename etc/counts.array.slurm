@@ -67,9 +67,10 @@ if $INIT; then
     echo ""
     echo "Submit:"
     echo "  mkdir -p logs"
-    echo "  JID=\$(sbatch --array=1-190 --output='logs/%x-%A-%a.out' --parsable $0 --key '$KEY' $TARGET)"
+    echo "  sbatch --array=1-190 --output='logs/%x-%A-%a.out' $0 --key '$KEY' $TARGET"
     echo "  # to use fewer tasks: change --array=1-N and add --max-tasks N to the counts.array.slurm arguments"
-    echo "  sbatch --dependency=afterok:\$JID $0 --aggregate $TARGET"
+    echo "  # after the array finishes:"
+    echo "  bash $0 --aggregate $TARGET"
     echo "  # after aggregate finishes:"
     echo "  bash $0 --report $TARGET"
     exit 0
