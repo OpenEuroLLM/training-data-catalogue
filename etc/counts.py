@@ -146,7 +146,8 @@ def count_directory(path, pattern = "\\.jsonl\\.zstd$", cores = 1,
 
 def summarize(path, output = sys.stdout, format = "csv", sample = False,
               languages = None, partition = None, warning = None,
-              pattern = "\\.zst$", base = None):
+              pattern = "\\.zst$", base = None,
+              prefix = "https://data.hplt-project.org/three/sorted"):
   #
   # to reflect different directory layouts, the .partition. argument can take
   # various forms:
@@ -160,10 +161,8 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
     with open(output, "w") as output:
       return summarize(path, output, format, sample,
                        languages, partition, warning,
-                       pattern, base);
+                       pattern, base, prefix);
     
-  prefix = "https://data.hplt-project.org/three/sorted";
-
   result = [];
   totals = {"bytes": 0, "documents": 0, "segments": 0,
             "tokens": 0, "characters": 0};
@@ -251,7 +250,7 @@ def summarize(path, output = sys.stdout, format = "csv", sample = False,
           with open(os.path.join(base, name + ".json"), "wt", encoding = "utf-8") as _:
             json.dump(samples, _, indent = None, ensure_ascii = False);
           counts["samples"] = prefix + "/" + name + ".json";
-          counts["md5"] = prefix + "/" + name + ".md5";
+          counts["md5"] = prefix + "/md5/" + name + ".md5";
         json.dump(counts, output, indent = None, ensure_ascii = False);
         print(file = output);
         
