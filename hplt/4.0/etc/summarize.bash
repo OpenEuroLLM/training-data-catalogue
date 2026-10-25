@@ -21,13 +21,13 @@ module reset;
 module load cray-python;
 source ${BASE}/local/bin/activate;
 
-for data in clean; do # oor noisy clean; do
+for data in poor noisy clean; do
 
 python -c "
 import sys;
 sys.path.append(\"${BASE}/etc\");
 import counts;
-counts.summarize(\"${ROOT}/${data}\", \"${ROOT}/counts.md\", \"md\", False, counts.LANGUAGES, None);
+counts.summarize(\"${ROOT}/${data}\", \"${ROOT}/${data}/counts.md\", \"md\", False, counts.LANGUAGES, None);
   ";
 
 python -c "
