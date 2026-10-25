@@ -12,7 +12,7 @@
 #SBATCH --mail-type=FAIL
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
-#SBATCH --mem-per-cpu=32G
+#SBATCH --mem-per-cpu=28G
 
 #
 # determine our root directory and load a common preamble
